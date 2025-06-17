@@ -1,0 +1,51 @@
+@prefix : <http://w3id.org/artwork/> .
+@prefix arto: <http://w3id.org/arto#> .
+@prefix dc: <http://purl.org/dc/terms/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix sdo: <https://schema.org/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# Generated on 2025-06-16
+
+# Artwork
+:artwork_20250616_050130_604 a arto:Painting ;
+    dc:title "Post-Impressionism Artwork" ;
+    dc:creator "Flux" ;
+    arto:style "Post-Impressionism" ;
+    dc:medium "Oil on canvas" ;
+    dc:description "Generated artwork" ;
+    dc:created "2025-06-16"^^xsd:date ;
+    sdo:height "1024px" ;
+    sdo:width "1024px" .
+
+# Scene
+:main_scene a arto:Scene ;
+    rdfs:label "main scene" ;
+    arto:descriptor "Post-Impressionist genre scene in Henri Rousseau's style: A giraffe with purple-and-teal patterned spots bends its neck toward an oversized sandwich (revealing lettuce/tomato layers) on a decorative p..." .
+
+:artwork_20250616_050130_604 arto:containsScene :main_scene .
+
+# Objects
+:sandwich_957a0b68 a arto:Object ;
+    rdfs:label "sandwich" ;
+    arto:descriptor "sandwich in the artwork" ;
+    arto:state "positioned in scene" ;
+    arto:material "unknown" .
+
+:main_scene arto:containsObject :sandwich_957a0b68 .
+
+:giraffe_2b7690a3 a arto:Object ;
+    rdfs:label "giraffe" ;
+    arto:descriptor "giraffe in the artwork" ;
+    arto:state "positioned in scene" ;
+    arto:material "unknown" .
+
+:main_scene arto:containsObject :giraffe_2b7690a3 .
+
+:truck_05db16ea a arto:Object ;
+    rdfs:label "truck" ;
+    arto:descriptor "truck in the artwork" ;
+    arto:state "positioned in scene" ;
+    arto:material "unknown" .
+
+:main_scene arto:containsObject :truck_05db16ea .

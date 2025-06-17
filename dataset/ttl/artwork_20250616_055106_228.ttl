@@ -1,0 +1,83 @@
+@prefix : <http://w3id.org/artwork/> .
+@prefix arto: <http://w3id.org/arto#> .
+@prefix dc: <http://purl.org/dc/terms/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix sdo: <https://schema.org/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# Generated on 2025-06-16
+
+# Artwork
+:artwork_20250616_055106_228 a arto:Painting ;
+    dc:title "Chinese Ink Painting Artwork" ;
+    dc:creator "Flux" ;
+    arto:style "Chinese Ink Painting" ;
+    dc:medium "Oil on canvas" ;
+    dc:description "Generated artwork" ;
+    dc:created "2025-06-16"^^xsd:date ;
+    sdo:height "1024px" ;
+    sdo:width "1024px" .
+
+# Scene
+:main_scene a arto:Scene ;
+    rdfs:label "main scene" ;
+    arto:descriptor "Chinese ink painting of a still life in a semi-urban garden at dusk. Foreground: partially filled wine glass casting delicate shadow, curved carrot with greens, blunt-side-down knife parallel to carro..." .
+
+:artwork_20250616_055106_228 arto:containsScene :main_scene .
+
+# Objects
+:wine glass_af6587d5 a arto:Object ;
+    rdfs:label "wine glass" ;
+    arto:descriptor "wine glass in the artwork" ;
+    arto:state "positioned in scene" ;
+    arto:material "unknown" .
+
+:main_scene arto:containsObject :wine glass_af6587d5 .
+
+:carrot_58376fce a arto:Object ;
+    rdfs:label "carrot" ;
+    arto:descriptor "carrot in the artwork" ;
+    arto:state "positioned in scene" ;
+    arto:material "unknown" .
+
+:main_scene arto:containsObject :carrot_58376fce .
+
+:bench_23670b44 a arto:Object ;
+    rdfs:label "bench" ;
+    arto:descriptor "bench in the artwork" ;
+    arto:state "positioned in scene" ;
+    arto:material "unknown" .
+
+:main_scene arto:containsObject :bench_23670b44 .
+
+:frisbee_c2e8763f a arto:Object ;
+    rdfs:label "frisbee" ;
+    arto:descriptor "frisbee in the artwork" ;
+    arto:state "positioned in scene" ;
+    arto:material "unknown" .
+
+:main_scene arto:containsObject :frisbee_c2e8763f .
+
+:parking meter_9a56f195 a arto:Object ;
+    rdfs:label "parking meter" ;
+    arto:descriptor "parking meter in the artwork" ;
+    arto:state "positioned in scene" ;
+    arto:material "unknown" .
+
+:main_scene arto:containsObject :parking meter_9a56f195 .
+
+:knife_06f2c93e a arto:Object ;
+    rdfs:label "knife" ;
+    arto:descriptor "knife in the artwork" ;
+    arto:state "positioned in scene" ;
+    arto:material "unknown" .
+
+:main_scene arto:containsObject :knife_06f2c93e .
+
+:potted plant_1274cb7e a arto:Object ;
+    rdfs:label "potted plant" ;
+    arto:descriptor "potted plant in the artwork" ;
+    arto:state "positioned in scene" ;
+    arto:material "unknown" .
+
+:main_scene arto:containsObject :potted plant_1274cb7e .

@@ -1,0 +1,67 @@
+@prefix : <http://w3id.org/artwork/> .
+@prefix arto: <http://w3id.org/arto#> .
+@prefix dc: <http://purl.org/dc/terms/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix sdo: <https://schema.org/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# Generated on 2025-06-16
+
+# Artwork
+:artwork_20250616_043142_945 a arto:Painting ;
+    dc:title "Chinese Ink Painting Artwork" ;
+    dc:creator "Flux" ;
+    arto:style "Chinese Ink Painting" ;
+    dc:medium "Oil on canvas" ;
+    dc:description "Generated artwork" ;
+    dc:created "2025-06-16"^^xsd:date ;
+    sdo:height "1024px" ;
+    sdo:width "1024px" .
+
+# Scene
+:main_scene a arto:Scene ;
+    rdfs:label "main scene" ;
+    arto:descriptor "Chinese ink painting in Ming Dynasty style: A serene courtyard garden at late afternoon. A gnarled pine tree shades a wooden bench where an open book rests, pages fluttering softly. A calm elephant st..." .
+
+:artwork_20250616_043142_945 arto:containsScene :main_scene .
+
+# Objects
+:bench_1bd626ab a arto:Object ;
+    rdfs:label "bench" ;
+    arto:descriptor "bench in the artwork" ;
+    arto:state "positioned in scene" ;
+    arto:material "unknown" .
+
+:main_scene arto:containsObject :bench_1bd626ab .
+
+:book_0ae5e4ee a arto:Object ;
+    rdfs:label "book" ;
+    arto:descriptor "book in the artwork" ;
+    arto:state "positioned in scene" ;
+    arto:material "unknown" .
+
+:main_scene arto:containsObject :book_0ae5e4ee .
+
+:elephant_001b06a8 a arto:Object ;
+    rdfs:label "elephant" ;
+    arto:descriptor "elephant in the artwork" ;
+    arto:state "positioned in scene" ;
+    arto:material "unknown" .
+
+:main_scene arto:containsObject :elephant_001b06a8 .
+
+:fork_801900a4 a arto:Object ;
+    rdfs:label "fork" ;
+    arto:descriptor "fork in the artwork" ;
+    arto:state "positioned in scene" ;
+    arto:material "unknown" .
+
+:main_scene arto:containsObject :fork_801900a4 .
+
+:oven_d5a536bb a arto:Object ;
+    rdfs:label "oven" ;
+    arto:descriptor "oven in the artwork" ;
+    arto:state "positioned in scene" ;
+    arto:material "unknown" .
+
+:main_scene arto:containsObject :oven_d5a536bb .

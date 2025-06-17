@@ -1,0 +1,83 @@
+@prefix : <http://w3id.org/artwork/> .
+@prefix arto: <http://w3id.org/arto#> .
+@prefix dc: <http://purl.org/dc/terms/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix sdo: <https://schema.org/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# Generated on 2025-06-16
+
+# Artwork
+:artwork_20250616_064645_808 a arto:Painting ;
+    dc:title "Chinese Ink Painting Artwork" ;
+    dc:creator "Flux" ;
+    arto:style "Chinese Ink Painting" ;
+    dc:medium "Oil on canvas" ;
+    dc:description "Generated artwork" ;
+    dc:created "2025-06-16"^^xsd:date ;
+    sdo:height "1024px" ;
+    sdo:width "1024px" .
+
+# Scene
+:main_scene a arto:Scene ;
+    rdfs:label "main scene" ;
+    arto:descriptor "Chinese ink painting of a serene urban park meadow at afternoon. Show: overturned skateboard and upright frisbee on wildflower-dotted grass in foreground; midground with potted plant spilling ink-wash..." .
+
+:artwork_20250616_064645_808 arto:containsScene :main_scene .
+
+# Objects
+:potted plant_4538c3a7 a arto:Object ;
+    rdfs:label "potted plant" ;
+    arto:descriptor "potted plant in the artwork" ;
+    arto:state "positioned in scene" ;
+    arto:material "unknown" .
+
+:main_scene arto:containsObject :potted plant_4538c3a7 .
+
+:bicycle_64fd94c6 a arto:Object ;
+    rdfs:label "bicycle" ;
+    arto:descriptor "bicycle in the artwork" ;
+    arto:state "positioned in scene" ;
+    arto:material "unknown" .
+
+:main_scene arto:containsObject :bicycle_64fd94c6 .
+
+:sheep_5f1b1559 a arto:Object ;
+    rdfs:label "sheep" ;
+    arto:descriptor "sheep in the artwork" ;
+    arto:state "positioned in scene" ;
+    arto:material "unknown" .
+
+:main_scene arto:containsObject :sheep_5f1b1559 .
+
+:skateboard_49225922 a arto:Object ;
+    rdfs:label "skateboard" ;
+    arto:descriptor "skateboard in the artwork" ;
+    arto:state "positioned in scene" ;
+    arto:material "unknown" .
+
+:main_scene arto:containsObject :skateboard_49225922 .
+
+:zebra_20775cef a arto:Object ;
+    rdfs:label "zebra" ;
+    arto:descriptor "zebra in the artwork" ;
+    arto:state "positioned in scene" ;
+    arto:material "unknown" .
+
+:main_scene arto:containsObject :zebra_20775cef .
+
+:frisbee_d4ff5592 a arto:Object ;
+    rdfs:label "frisbee" ;
+    arto:descriptor "frisbee in the artwork" ;
+    arto:state "positioned in scene" ;
+    arto:material "unknown" .
+
+:main_scene arto:containsObject :frisbee_d4ff5592 .
+
+:laptop_d037984b a arto:Object ;
+    rdfs:label "laptop" ;
+    arto:descriptor "laptop in the artwork" ;
+    arto:state "positioned in scene" ;
+    arto:material "unknown" .
+
+:main_scene arto:containsObject :laptop_d037984b .

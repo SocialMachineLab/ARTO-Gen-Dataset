@@ -1,0 +1,91 @@
+@prefix : <http://w3id.org/artwork/> .
+@prefix arto: <http://w3id.org/arto#> .
+@prefix dc: <http://purl.org/dc/terms/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix sdo: <https://schema.org/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# Generated on 2025-06-16
+
+# Artwork
+:artwork_20250616_100853_780 a arto:Painting ;
+    dc:title "Sketch Artwork" ;
+    dc:creator "Flux" ;
+    arto:style "Sketch" ;
+    dc:medium "Oil on canvas" ;
+    dc:description "Generated artwork" ;
+    dc:created "2025-06-16"^^xsd:date ;
+    sdo:height "1024px" ;
+    sdo:width "1024px" .
+
+# Scene
+:main_scene a arto:Scene ;
+    rdfs:label "main scene" ;
+    arto:descriptor "Sketch-style illustration in three-quarter view: Contemporary living room at evening with warm dramatic side-lighting. A horse sits upright anthropomorphically on a couch, balancing a keyboard on its ..." .
+
+:artwork_20250616_100853_780 arto:containsScene :main_scene .
+
+# Objects
+:keyboard_0ca81093 a arto:Object ;
+    rdfs:label "keyboard" ;
+    arto:descriptor "keyboard in the artwork" ;
+    arto:state "positioned in scene" ;
+    arto:material "unknown" .
+
+:main_scene arto:containsObject :keyboard_0ca81093 .
+
+:couch_4a5200c5 a arto:Object ;
+    rdfs:label "couch" ;
+    arto:descriptor "couch in the artwork" ;
+    arto:state "positioned in scene" ;
+    arto:material "unknown" .
+
+:main_scene arto:containsObject :couch_4a5200c5 .
+
+:horse_21c5a0cf a arto:Object ;
+    rdfs:label "horse" ;
+    arto:descriptor "horse in the artwork" ;
+    arto:state "positioned in scene" ;
+    arto:material "unknown" .
+
+:main_scene arto:containsObject :horse_21c5a0cf .
+
+:laptop_3e979017 a arto:Object ;
+    rdfs:label "laptop" ;
+    arto:descriptor "laptop in the artwork" ;
+    arto:state "positioned in scene" ;
+    arto:material "unknown" .
+
+:main_scene arto:containsObject :laptop_3e979017 .
+
+:microwave_e2eb6862 a arto:Object ;
+    rdfs:label "microwave" ;
+    arto:descriptor "microwave in the artwork" ;
+    arto:state "positioned in scene" ;
+    arto:material "unknown" .
+
+:main_scene arto:containsObject :microwave_e2eb6862 .
+
+:wine glass_073704a2 a arto:Object ;
+    rdfs:label "wine glass" ;
+    arto:descriptor "wine glass in the artwork" ;
+    arto:state "positioned in scene" ;
+    arto:material "unknown" .
+
+:main_scene arto:containsObject :wine glass_073704a2 .
+
+:giraffe_adfb20e2 a arto:Object ;
+    rdfs:label "giraffe" ;
+    arto:descriptor "giraffe in the artwork" ;
+    arto:state "positioned in scene" ;
+    arto:material "unknown" .
+
+:main_scene arto:containsObject :giraffe_adfb20e2 .
+
+:cake_cfe7a22c a arto:Object ;
+    rdfs:label "cake" ;
+    arto:descriptor "cake in the artwork" ;
+    arto:state "positioned in scene" ;
+    arto:material "unknown" .
+
+:main_scene arto:containsObject :cake_cfe7a22c .

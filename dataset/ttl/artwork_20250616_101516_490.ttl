@@ -1,0 +1,91 @@
+@prefix : <http://w3id.org/artwork/> .
+@prefix arto: <http://w3id.org/arto#> .
+@prefix dc: <http://purl.org/dc/terms/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix sdo: <https://schema.org/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# Generated on 2025-06-16
+
+# Artwork
+:artwork_20250616_101516_490 a arto:Painting ;
+    dc:title "Chinese Ink Painting Artwork" ;
+    dc:creator "Flux" ;
+    arto:style "Chinese Ink Painting" ;
+    dc:medium "Oil on canvas" ;
+    dc:description "Generated artwork" ;
+    dc:created "2025-06-16"^^xsd:date ;
+    sdo:height "1024px" ;
+    sdo:width "1024px" .
+
+# Scene
+:main_scene a arto:Scene ;
+    rdfs:label "main scene" ;
+    arto:descriptor "Chinese ink painting of peri-urban roadside market at dusk. Foreground: Horse mid-stride pulling wooden cart carrying crackle-glazed vase, partially open leather handbag, and basket with three broccol..." .
+
+:artwork_20250616_101516_490 arto:containsScene :main_scene .
+
+# Objects
+:traffic light_e3d0c6e8 a arto:Object ;
+    rdfs:label "traffic light" ;
+    arto:descriptor "traffic light in the artwork" ;
+    arto:state "positioned in scene" ;
+    arto:material "unknown" .
+
+:main_scene arto:containsObject :traffic light_e3d0c6e8 .
+
+:hot dog_8d61922d a arto:Object ;
+    rdfs:label "hot dog" ;
+    arto:descriptor "hot dog in the artwork" ;
+    arto:state "positioned in scene" ;
+    arto:material "unknown" .
+
+:main_scene arto:containsObject :hot dog_8d61922d .
+
+:horse_a52de531 a arto:Object ;
+    rdfs:label "horse" ;
+    arto:descriptor "horse in the artwork" ;
+    arto:state "positioned in scene" ;
+    arto:material "unknown" .
+
+:main_scene arto:containsObject :horse_a52de531 .
+
+:vase_98bf5b3d a arto:Object ;
+    rdfs:label "vase" ;
+    arto:descriptor "vase in the artwork" ;
+    arto:state "positioned in scene" ;
+    arto:material "unknown" .
+
+:main_scene arto:containsObject :vase_98bf5b3d .
+
+:handbag_baa08641 a arto:Object ;
+    rdfs:label "handbag" ;
+    arto:descriptor "handbag in the artwork" ;
+    arto:state "positioned in scene" ;
+    arto:material "unknown" .
+
+:main_scene arto:containsObject :handbag_baa08641 .
+
+:train_09c242f7 a arto:Object ;
+    rdfs:label "train" ;
+    arto:descriptor "train in the artwork" ;
+    arto:state "positioned in scene" ;
+    arto:material "unknown" .
+
+:main_scene arto:containsObject :train_09c242f7 .
+
+:kite_4e143d32 a arto:Object ;
+    rdfs:label "kite" ;
+    arto:descriptor "kite in the artwork" ;
+    arto:state "positioned in scene" ;
+    arto:material "unknown" .
+
+:main_scene arto:containsObject :kite_4e143d32 .
+
+:broccoli_76a2f02a a arto:Object ;
+    rdfs:label "broccoli" ;
+    arto:descriptor "broccoli in the artwork" ;
+    arto:state "positioned in scene" ;
+    arto:material "unknown" .
+
+:main_scene arto:containsObject :broccoli_76a2f02a .

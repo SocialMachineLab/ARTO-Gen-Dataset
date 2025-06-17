@@ -1,0 +1,51 @@
+@prefix : <http://w3id.org/artwork/> .
+@prefix arto: <http://w3id.org/arto#> .
+@prefix dc: <http://purl.org/dc/terms/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix sdo: <https://schema.org/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# Generated on 2025-06-16
+
+# Artwork
+:artwork_20250616_132746_678 a arto:Painting ;
+    dc:title "Oil Painting Artwork" ;
+    dc:creator "Flux" ;
+    arto:style "Oil Painting" ;
+    dc:medium "Oil on canvas" ;
+    dc:description "Generated artwork" ;
+    dc:created "2025-06-16"^^xsd:date ;
+    sdo:height "1024px" ;
+    sdo:width "1024px" .
+
+# Scene
+:main_scene a arto:Scene ;
+    rdfs:label "main scene" ;
+    arto:descriptor "Create a contemporary oil painting of a still life in an artist's studio. The scene features a vibrant orange in the foreground, a hot dog wrapped with condiments in the midground, and a small airplan..." .
+
+:artwork_20250616_132746_678 arto:containsScene :main_scene .
+
+# Objects
+:orange_aa9c8cc2 a arto:Object ;
+    rdfs:label "orange" ;
+    arto:descriptor "orange in the artwork" ;
+    arto:state "positioned in scene" ;
+    arto:material "unknown" .
+
+:main_scene arto:containsObject :orange_aa9c8cc2 .
+
+:hot dog_601b3a0e a arto:Object ;
+    rdfs:label "hot dog" ;
+    arto:descriptor "hot dog in the artwork" ;
+    arto:state "positioned in scene" ;
+    arto:material "unknown" .
+
+:main_scene arto:containsObject :hot dog_601b3a0e .
+
+:airplane_614beeb5 a arto:Object ;
+    rdfs:label "airplane" ;
+    arto:descriptor "airplane in the artwork" ;
+    arto:state "positioned in scene" ;
+    arto:material "unknown" .
+
+:main_scene arto:containsObject :airplane_614beeb5 .

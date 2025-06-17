@@ -1,0 +1,35 @@
+@prefix : <http://w3id.org/artwork/> .
+@prefix arto: <http://w3id.org/arto#> .
+@prefix dc: <http://purl.org/dc/terms/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix sdo: <https://schema.org/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# Generated on 2025-06-16
+
+# Artwork
+:artwork_20250616_074105_459 a arto:Painting ;
+    dc:title "Chinese Ink Painting Artwork" ;
+    dc:creator "Flux" ;
+    arto:style "Chinese Ink Painting" ;
+    dc:medium "Oil on canvas" ;
+    dc:description "Generated artwork" ;
+    dc:created "2025-06-16"^^xsd:date ;
+    sdo:height "1024px" ;
+    sdo:width "1024px" .
+
+# Scene
+:main_scene a arto:Scene ;
+    rdfs:label "main scene" ;
+    arto:descriptor "Traditional Chinese ink painting of a whole unsliced pizza floating in negative space. Three-quarter elevated perspective showing melted cheese texture and scattered toppings (pepperoni as pale crimso..." .
+
+:artwork_20250616_074105_459 arto:containsScene :main_scene .
+
+# Objects
+:pizza_35ed72ff a arto:Object ;
+    rdfs:label "pizza" ;
+    arto:descriptor "pizza in the artwork" ;
+    arto:state "positioned in scene" ;
+    arto:material "unknown" .
+
+:main_scene arto:containsObject :pizza_35ed72ff .

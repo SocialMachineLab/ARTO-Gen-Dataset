@@ -1,0 +1,83 @@
+@prefix : <http://w3id.org/artwork/> .
+@prefix arto: <http://w3id.org/arto#> .
+@prefix dc: <http://purl.org/dc/terms/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix sdo: <https://schema.org/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# Generated on 2025-06-16
+
+# Artwork
+:artwork_20250616_071055_401 a arto:Painting ;
+    dc:title "Post-Impressionism Artwork" ;
+    dc:creator "Flux" ;
+    arto:style "Post-Impressionism" ;
+    dc:medium "Oil on canvas" ;
+    dc:description "Generated artwork" ;
+    dc:created "2025-06-16"^^xsd:date ;
+    sdo:height "1024px" ;
+    sdo:width "1024px" .
+
+# Scene
+:main_scene a arto:Scene ;
+    rdfs:label "main scene" ;
+    arto:descriptor "Post-Impressionist urban waterfront scene at golden hour. Foreground: cracked discarded toilet lies sideways near scattered pizza slices and two empty bottles. Midground: tilted parking meter beside p..." .
+
+:artwork_20250616_071055_401 arto:containsScene :main_scene .
+
+# Objects
+:toilet_fd5bda23 a arto:Object ;
+    rdfs:label "toilet" ;
+    arto:descriptor "toilet in the artwork" ;
+    arto:state "positioned in scene" ;
+    arto:material "unknown" .
+
+:main_scene arto:containsObject :toilet_fd5bda23 .
+
+:parking meter_db64f107 a arto:Object ;
+    rdfs:label "parking meter" ;
+    arto:descriptor "parking meter in the artwork" ;
+    arto:state "positioned in scene" ;
+    arto:material "unknown" .
+
+:main_scene arto:containsObject :parking meter_db64f107 .
+
+:person_6cc13c64 a arto:Object ;
+    rdfs:label "person" ;
+    arto:descriptor "person in the artwork" ;
+    arto:state "positioned in scene" ;
+    arto:material "unknown" .
+
+:main_scene arto:containsObject :person_6cc13c64 .
+
+:car_49046c49 a arto:Object ;
+    rdfs:label "car" ;
+    arto:descriptor "car in the artwork" ;
+    arto:state "positioned in scene" ;
+    arto:material "unknown" .
+
+:main_scene arto:containsObject :car_49046c49 .
+
+:pizza_e066fa2d a arto:Object ;
+    rdfs:label "pizza" ;
+    arto:descriptor "pizza in the artwork" ;
+    arto:state "positioned in scene" ;
+    arto:material "unknown" .
+
+:main_scene arto:containsObject :pizza_e066fa2d .
+
+:boat_218c9238 a arto:Object ;
+    rdfs:label "boat" ;
+    arto:descriptor "boat in the artwork" ;
+    arto:state "positioned in scene" ;
+    arto:material "unknown" .
+
+:main_scene arto:containsObject :boat_218c9238 .
+
+:bottle_f6648eb0 a arto:Object ;
+    rdfs:label "bottle" ;
+    arto:descriptor "bottle in the artwork" ;
+    arto:state "positioned in scene" ;
+    arto:material "unknown" .
+
+:main_scene arto:containsObject :bottle_f6648eb0 .

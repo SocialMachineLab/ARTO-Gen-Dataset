@@ -1,0 +1,59 @@
+@prefix : <http://w3id.org/artwork/> .
+@prefix arto: <http://w3id.org/arto#> .
+@prefix dc: <http://purl.org/dc/terms/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix sdo: <https://schema.org/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# Generated on 2025-06-16
+
+# Artwork
+:artwork_20250616_091529_960 a arto:Painting ;
+    dc:title "Oil Painting Artwork" ;
+    dc:creator "Flux" ;
+    arto:style "Oil Painting" ;
+    dc:medium "Oil on canvas" ;
+    dc:description "Generated artwork" ;
+    dc:created "2025-06-16"^^xsd:date ;
+    sdo:height "1024px" ;
+    sdo:width "1024px" .
+
+# Scene
+:main_scene a arto:Scene ;
+    rdfs:label "main scene" ;
+    arto:descriptor "Surreal oil painting of an anthropomorphized sheep wearing a frilly blue apron, standing upright at a vintage porcelain sink with overflowing faucet. The sheep washes a lifted slice of pepperoni pizza..." .
+
+:artwork_20250616_091529_960 arto:containsScene :main_scene .
+
+# Objects
+:sink_27ac83f9 a arto:Object ;
+    rdfs:label "sink" ;
+    arto:descriptor "sink in the artwork" ;
+    arto:state "positioned in scene" ;
+    arto:material "unknown" .
+
+:main_scene arto:containsObject :sink_27ac83f9 .
+
+:sheep_e138d783 a arto:Object ;
+    rdfs:label "sheep" ;
+    arto:descriptor "sheep in the artwork" ;
+    arto:state "positioned in scene" ;
+    arto:material "unknown" .
+
+:main_scene arto:containsObject :sheep_e138d783 .
+
+:pizza_51e458fa a arto:Object ;
+    rdfs:label "pizza" ;
+    arto:descriptor "pizza in the artwork" ;
+    arto:state "positioned in scene" ;
+    arto:material "unknown" .
+
+:main_scene arto:containsObject :pizza_51e458fa .
+
+:fire hydrant_4e249d13 a arto:Object ;
+    rdfs:label "fire hydrant" ;
+    arto:descriptor "fire hydrant in the artwork" ;
+    arto:state "positioned in scene" ;
+    arto:material "unknown" .
+
+:main_scene arto:containsObject :fire hydrant_4e249d13 .

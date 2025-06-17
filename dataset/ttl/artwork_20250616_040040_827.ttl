@@ -1,0 +1,59 @@
+@prefix : <http://w3id.org/artwork/> .
+@prefix arto: <http://w3id.org/arto#> .
+@prefix dc: <http://purl.org/dc/terms/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix sdo: <https://schema.org/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# Generated on 2025-06-16
+
+# Artwork
+:artwork_20250616_040040_827 a arto:Painting ;
+    dc:title "Chinese Ink Painting Artwork" ;
+    dc:creator "Flux" ;
+    arto:style "Chinese Ink Painting" ;
+    dc:medium "Oil on canvas" ;
+    dc:description "Generated artwork" ;
+    dc:created "2025-06-16"^^xsd:date ;
+    sdo:height "1024px" ;
+    sdo:width "1024px" .
+
+# Scene
+:main_scene a arto:Scene ;
+    rdfs:label "main scene" ;
+    arto:descriptor "Chinese ink painting of a minimalist kitchen scene in soft afternoon light. Composition: Broccoli rests diagonally in foreground right, florets textured with dry-brush strokes; upright glass bottle mi..." .
+
+:artwork_20250616_040040_827 arto:containsScene :main_scene .
+
+# Objects
+:broccoli_aca700d3 a arto:Object ;
+    rdfs:label "broccoli" ;
+    arto:descriptor "broccoli in the artwork" ;
+    arto:state "positioned in scene" ;
+    arto:material "unknown" .
+
+:main_scene arto:containsObject :broccoli_aca700d3 .
+
+:bottle_881f241b a arto:Object ;
+    rdfs:label "bottle" ;
+    arto:descriptor "bottle in the artwork" ;
+    arto:state "positioned in scene" ;
+    arto:material "unknown" .
+
+:main_scene arto:containsObject :bottle_881f241b .
+
+:oven_60072c16 a arto:Object ;
+    rdfs:label "oven" ;
+    arto:descriptor "oven in the artwork" ;
+    arto:state "positioned in scene" ;
+    arto:material "unknown" .
+
+:main_scene arto:containsObject :oven_60072c16 .
+
+:remote_92b92616 a arto:Object ;
+    rdfs:label "remote" ;
+    arto:descriptor "remote in the artwork" ;
+    arto:state "positioned in scene" ;
+    arto:material "unknown" .
+
+:main_scene arto:containsObject :remote_92b92616 .

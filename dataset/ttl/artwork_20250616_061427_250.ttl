@@ -1,0 +1,83 @@
+@prefix : <http://w3id.org/artwork/> .
+@prefix arto: <http://w3id.org/arto#> .
+@prefix dc: <http://purl.org/dc/terms/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix sdo: <https://schema.org/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# Generated on 2025-06-16
+
+# Artwork
+:artwork_20250616_061427_250 a arto:Painting ;
+    dc:title "Post-Impressionism Artwork" ;
+    dc:creator "Flux" ;
+    arto:style "Post-Impressionism" ;
+    dc:medium "Oil on canvas" ;
+    dc:description "Generated artwork" ;
+    dc:created "2025-06-16"^^xsd:date ;
+    sdo:height "1024px" ;
+    sdo:width "1024px" .
+
+# Scene
+:main_scene a arto:Scene ;
+    rdfs:label "main scene" ;
+    arto:descriptor "Post-Impressionist still life painting featuring: 1) Partially sliced pizza with lifted slice in midground, 2) Spoon diagonally crossing pizza slice with visible sauce, 3) Toy car angled toward pizza ..." .
+
+:artwork_20250616_061427_250 arto:containsScene :main_scene .
+
+# Objects
+:pizza_ba63dad9 a arto:Object ;
+    rdfs:label "pizza" ;
+    arto:descriptor "pizza in the artwork" ;
+    arto:state "positioned in scene" ;
+    arto:material "unknown" .
+
+:main_scene arto:containsObject :pizza_ba63dad9 .
+
+:spoon_203303ea a arto:Object ;
+    rdfs:label "spoon" ;
+    arto:descriptor "spoon in the artwork" ;
+    arto:state "positioned in scene" ;
+    arto:material "unknown" .
+
+:main_scene arto:containsObject :spoon_203303ea .
+
+:car_328a9a98 a arto:Object ;
+    rdfs:label "car" ;
+    arto:descriptor "car in the artwork" ;
+    arto:state "positioned in scene" ;
+    arto:material "unknown" .
+
+:main_scene arto:containsObject :car_328a9a98 .
+
+:scissors_bfec99bb a arto:Object ;
+    rdfs:label "scissors" ;
+    arto:descriptor "scissors in the artwork" ;
+    arto:state "positioned in scene" ;
+    arto:material "unknown" .
+
+:main_scene arto:containsObject :scissors_bfec99bb .
+
+:teddy bear_2042aef4 a arto:Object ;
+    rdfs:label "teddy bear" ;
+    arto:descriptor "teddy bear in the artwork" ;
+    arto:state "positioned in scene" ;
+    arto:material "unknown" .
+
+:main_scene arto:containsObject :teddy bear_2042aef4 .
+
+:orange_70f4405e a arto:Object ;
+    rdfs:label "orange" ;
+    arto:descriptor "orange in the artwork" ;
+    arto:state "positioned in scene" ;
+    arto:material "unknown" .
+
+:main_scene arto:containsObject :orange_70f4405e .
+
+:bear_a9c95d2e a arto:Object ;
+    rdfs:label "bear" ;
+    arto:descriptor "bear in the artwork" ;
+    arto:state "positioned in scene" ;
+    arto:material "unknown" .
+
+:main_scene arto:containsObject :bear_a9c95d2e .

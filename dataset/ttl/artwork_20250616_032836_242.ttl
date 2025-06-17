@@ -1,0 +1,99 @@
+@prefix : <http://w3id.org/artwork/> .
+@prefix arto: <http://w3id.org/arto#> .
+@prefix dc: <http://purl.org/dc/terms/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix sdo: <https://schema.org/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# Generated on 2025-06-16
+
+# Artwork
+:artwork_20250616_032836_242 a arto:Painting ;
+    dc:title "Sketch Artwork" ;
+    dc:creator "Flux" ;
+    arto:style "Sketch" ;
+    dc:medium "Oil on canvas" ;
+    dc:description "Generated artwork" ;
+    dc:created "2025-06-16"^^xsd:date ;
+    sdo:height "1024px" ;
+    sdo:width "1024px" .
+
+# Scene
+:main_scene a arto:Scene ;
+    rdfs:label "main scene" ;
+    arto:descriptor "Sketch-style illustration of a chaotic child's playroom at sunny afternoon. Warm side-lighting creates dramatic shadows across cartoon-patterned wallpaper. Central cluster features: teddy bear standin..." .
+
+:artwork_20250616_032836_242 arto:containsScene :main_scene .
+
+# Objects
+:baseball bat_d9b0eaaa a arto:Object ;
+    rdfs:label "baseball bat" ;
+    arto:descriptor "baseball bat in the artwork" ;
+    arto:state "positioned in scene" ;
+    arto:material "unknown" .
+
+:main_scene arto:containsObject :baseball bat_d9b0eaaa .
+
+:toilet_4244e6e0 a arto:Object ;
+    rdfs:label "toilet" ;
+    arto:descriptor "toilet in the artwork" ;
+    arto:state "positioned in scene" ;
+    arto:material "unknown" .
+
+:main_scene arto:containsObject :toilet_4244e6e0 .
+
+:tv_14fe2827 a arto:Object ;
+    rdfs:label "tv" ;
+    arto:descriptor "tv in the artwork" ;
+    arto:state "positioned in scene" ;
+    arto:material "unknown" .
+
+:main_scene arto:containsObject :tv_14fe2827 .
+
+:keyboard_a23e80e8 a arto:Object ;
+    rdfs:label "keyboard" ;
+    arto:descriptor "keyboard in the artwork" ;
+    arto:state "positioned in scene" ;
+    arto:material "unknown" .
+
+:main_scene arto:containsObject :keyboard_a23e80e8 .
+
+:bear_12a8bdb9 a arto:Object ;
+    rdfs:label "bear" ;
+    arto:descriptor "bear in the artwork" ;
+    arto:state "positioned in scene" ;
+    arto:material "unknown" .
+
+:main_scene arto:containsObject :bear_12a8bdb9 .
+
+:truck_a565b193 a arto:Object ;
+    rdfs:label "truck" ;
+    arto:descriptor "truck in the artwork" ;
+    arto:state "positioned in scene" ;
+    arto:material "unknown" .
+
+:main_scene arto:containsObject :truck_a565b193 .
+
+:toaster_6029cb8c a arto:Object ;
+    rdfs:label "toaster" ;
+    arto:descriptor "toaster in the artwork" ;
+    arto:state "positioned in scene" ;
+    arto:material "unknown" .
+
+:main_scene arto:containsObject :toaster_6029cb8c .
+
+:bicycle_4a65d4da a arto:Object ;
+    rdfs:label "bicycle" ;
+    arto:descriptor "bicycle in the artwork" ;
+    arto:state "positioned in scene" ;
+    arto:material "unknown" .
+
+:main_scene arto:containsObject :bicycle_4a65d4da .
+
+:bird_1754b7b1 a arto:Object ;
+    rdfs:label "bird" ;
+    arto:descriptor "bird in the artwork" ;
+    arto:state "positioned in scene" ;
+    arto:material "unknown" .
+
+:main_scene arto:containsObject :bird_1754b7b1 .

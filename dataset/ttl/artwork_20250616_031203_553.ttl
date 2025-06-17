@@ -1,0 +1,67 @@
+@prefix : <http://w3id.org/artwork/> .
+@prefix arto: <http://w3id.org/arto#> .
+@prefix dc: <http://purl.org/dc/terms/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix sdo: <https://schema.org/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# Generated on 2025-06-16
+
+# Artwork
+:artwork_20250616_031203_553 a arto:Painting ;
+    dc:title "Sketch Artwork" ;
+    dc:creator "Flux" ;
+    arto:style "Sketch" ;
+    dc:medium "Oil on canvas" ;
+    dc:description "Generated artwork" ;
+    dc:created "2025-06-16"^^xsd:date ;
+    sdo:height "1024px" ;
+    sdo:width "1024px" .
+
+# Scene
+:main_scene a arto:Scene ;
+    rdfs:label "main scene" ;
+    arto:descriptor "A contemporary kitchen still life sketch in warm evening light. Three unpeeled carrots with vibrant green tops in foreground, a tilted half-full wine bottle and upright quarter-filled wine glass besid..." .
+
+:artwork_20250616_031203_553 arto:containsScene :main_scene .
+
+# Objects
+:bottle_7671ab25 a arto:Object ;
+    rdfs:label "bottle" ;
+    arto:descriptor "bottle in the artwork" ;
+    arto:state "positioned in scene" ;
+    arto:material "unknown" .
+
+:main_scene arto:containsObject :bottle_7671ab25 .
+
+:oven_28b91a46 a arto:Object ;
+    rdfs:label "oven" ;
+    arto:descriptor "oven in the artwork" ;
+    arto:state "positioned in scene" ;
+    arto:material "unknown" .
+
+:main_scene arto:containsObject :oven_28b91a46 .
+
+:carrot_3e50622f a arto:Object ;
+    rdfs:label "carrot" ;
+    arto:descriptor "carrot in the artwork" ;
+    arto:state "positioned in scene" ;
+    arto:material "unknown" .
+
+:main_scene arto:containsObject :carrot_3e50622f .
+
+:wine glass_2ffdc1be a arto:Object ;
+    rdfs:label "wine glass" ;
+    arto:descriptor "wine glass in the artwork" ;
+    arto:state "positioned in scene" ;
+    arto:material "unknown" .
+
+:main_scene arto:containsObject :wine glass_2ffdc1be .
+
+:laptop_63512514 a arto:Object ;
+    rdfs:label "laptop" ;
+    arto:descriptor "laptop in the artwork" ;
+    arto:state "positioned in scene" ;
+    arto:material "unknown" .
+
+:main_scene arto:containsObject :laptop_63512514 .

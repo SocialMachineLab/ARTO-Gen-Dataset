@@ -1,0 +1,91 @@
+@prefix : <http://w3id.org/artwork/> .
+@prefix arto: <http://w3id.org/arto#> .
+@prefix dc: <http://purl.org/dc/terms/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix sdo: <https://schema.org/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# Generated on 2025-06-16
+
+# Artwork
+:artwork_20250616_005914_101 a arto:Painting ;
+    dc:title "Chinese Ink Painting Artwork" ;
+    dc:creator "Flux" ;
+    arto:style "Chinese Ink Painting" ;
+    dc:medium "Oil on canvas" ;
+    dc:description "Generated artwork" ;
+    dc:created "2025-06-16"^^xsd:date ;
+    sdo:height "1024px" ;
+    sdo:width "1024px" .
+
+# Scene
+:main_scene a arto:Scene ;
+    rdfs:label "main scene" ;
+    arto:descriptor "Create a serene still life Chinese Ink Painting depicting a toothbrush resting on a chair, a hair dryer placed nearby, a vase standing on a table with a teddy bear seated next to it. In the background..." .
+
+:artwork_20250616_005914_101 arto:containsScene :main_scene .
+
+# Objects
+:toothbrush_9b843bda a arto:Object ;
+    rdfs:label "toothbrush" ;
+    arto:descriptor "toothbrush in the artwork" ;
+    arto:state "positioned in scene" ;
+    arto:material "unknown" .
+
+:main_scene arto:containsObject :toothbrush_9b843bda .
+
+:chair_ea2bb54c a arto:Object ;
+    rdfs:label "chair" ;
+    arto:descriptor "chair in the artwork" ;
+    arto:state "positioned in scene" ;
+    arto:material "unknown" .
+
+:main_scene arto:containsObject :chair_ea2bb54c .
+
+:hair drier_63a67381 a arto:Object ;
+    rdfs:label "hair drier" ;
+    arto:descriptor "hair drier in the artwork" ;
+    arto:state "positioned in scene" ;
+    arto:material "unknown" .
+
+:main_scene arto:containsObject :hair drier_63a67381 .
+
+:bird_4b971d6f a arto:Object ;
+    rdfs:label "bird" ;
+    arto:descriptor "bird in the artwork" ;
+    arto:state "positioned in scene" ;
+    arto:material "unknown" .
+
+:main_scene arto:containsObject :bird_4b971d6f .
+
+:snowboard_3c2c1268 a arto:Object ;
+    rdfs:label "snowboard" ;
+    arto:descriptor "snowboard in the artwork" ;
+    arto:state "positioned in scene" ;
+    arto:material "unknown" .
+
+:main_scene arto:containsObject :snowboard_3c2c1268 .
+
+:vase_8742fa33 a arto:Object ;
+    rdfs:label "vase" ;
+    arto:descriptor "vase in the artwork" ;
+    arto:state "positioned in scene" ;
+    arto:material "unknown" .
+
+:main_scene arto:containsObject :vase_8742fa33 .
+
+:fire hydrant_144de32e a arto:Object ;
+    rdfs:label "fire hydrant" ;
+    arto:descriptor "fire hydrant in the artwork" ;
+    arto:state "positioned in scene" ;
+    arto:material "unknown" .
+
+:main_scene arto:containsObject :fire hydrant_144de32e .
+
+:teddy bear_6d993c6f a arto:Object ;
+    rdfs:label "teddy bear" ;
+    arto:descriptor "teddy bear in the artwork" ;
+    arto:state "positioned in scene" ;
+    arto:material "unknown" .
+
+:main_scene arto:containsObject :teddy bear_6d993c6f .

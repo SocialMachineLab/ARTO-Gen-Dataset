@@ -1,0 +1,99 @@
+@prefix : <http://w3id.org/artwork/> .
+@prefix arto: <http://w3id.org/arto#> .
+@prefix dc: <http://purl.org/dc/terms/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix sdo: <https://schema.org/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# Generated on 2025-06-16
+
+# Artwork
+:artwork_20250616_064837_591 a arto:Painting ;
+    dc:title "Post-Impressionism Artwork" ;
+    dc:creator "Flux" ;
+    arto:style "Post-Impressionism" ;
+    dc:medium "Oil on canvas" ;
+    dc:description "Generated artwork" ;
+    dc:created "2025-06-16"^^xsd:date ;
+    sdo:height "1024px" ;
+    sdo:width "1024px" .
+
+# Scene
+:main_scene a arto:Scene ;
+    rdfs:label "main scene" ;
+    arto:descriptor "A Post-Impressionist genre scene in a contemporary open-plan kitchen at evening. Dramatic side-lighting casts warm golden hues and deep shadows across a Formica countertop holding a microwave with glo..." .
+
+:artwork_20250616_064837_591 arto:containsScene :main_scene .
+
+# Objects
+:scissors_cc2d5f4b a arto:Object ;
+    rdfs:label "scissors" ;
+    arto:descriptor "scissors in the artwork" ;
+    arto:state "positioned in scene" ;
+    arto:material "unknown" .
+
+:main_scene arto:containsObject :scissors_cc2d5f4b .
+
+:banana_17fdb8ec a arto:Object ;
+    rdfs:label "banana" ;
+    arto:descriptor "banana in the artwork" ;
+    arto:state "positioned in scene" ;
+    arto:material "unknown" .
+
+:main_scene arto:containsObject :banana_17fdb8ec .
+
+:train_8eae8301 a arto:Object ;
+    rdfs:label "train" ;
+    arto:descriptor "train in the artwork" ;
+    arto:state "positioned in scene" ;
+    arto:material "unknown" .
+
+:main_scene arto:containsObject :train_8eae8301 .
+
+:sports ball_15e3b836 a arto:Object ;
+    rdfs:label "sports ball" ;
+    arto:descriptor "sports ball in the artwork" ;
+    arto:state "positioned in scene" ;
+    arto:material "unknown" .
+
+:main_scene arto:containsObject :sports ball_15e3b836 .
+
+:apple_5d15081d a arto:Object ;
+    rdfs:label "apple" ;
+    arto:descriptor "apple in the artwork" ;
+    arto:state "positioned in scene" ;
+    arto:material "unknown" .
+
+:main_scene arto:containsObject :apple_5d15081d .
+
+:microwave_8615e4d2 a arto:Object ;
+    rdfs:label "microwave" ;
+    arto:descriptor "microwave in the artwork" ;
+    arto:state "positioned in scene" ;
+    arto:material "unknown" .
+
+:main_scene arto:containsObject :microwave_8615e4d2 .
+
+:boat_aa22d0a2 a arto:Object ;
+    rdfs:label "boat" ;
+    arto:descriptor "boat in the artwork" ;
+    arto:state "positioned in scene" ;
+    arto:material "unknown" .
+
+:main_scene arto:containsObject :boat_aa22d0a2 .
+
+:cell phone_5ad65bc5 a arto:Object ;
+    rdfs:label "cell phone" ;
+    arto:descriptor "cell phone in the artwork" ;
+    arto:state "positioned in scene" ;
+    arto:material "unknown" .
+
+:main_scene arto:containsObject :cell phone_5ad65bc5 .
+
+:fork_7bfde247 a arto:Object ;
+    rdfs:label "fork" ;
+    arto:descriptor "fork in the artwork" ;
+    arto:state "positioned in scene" ;
+    arto:material "unknown" .
+
+:main_scene arto:containsObject :fork_7bfde247 .

@@ -1,0 +1,91 @@
+@prefix : <http://w3id.org/artwork/> .
+@prefix arto: <http://w3id.org/arto#> .
+@prefix dc: <http://purl.org/dc/terms/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix sdo: <https://schema.org/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# Generated on 2025-06-16
+
+# Artwork
+:artwork_20250616_073705_240 a arto:Painting ;
+    dc:title "Sketch Artwork" ;
+    dc:creator "Flux" ;
+    arto:style "Sketch" ;
+    dc:medium "Oil on canvas" ;
+    dc:description "Generated artwork" ;
+    dc:created "2025-06-16"^^xsd:date ;
+    sdo:height "1024px" ;
+    sdo:width "1024px" .
+
+# Scene
+:main_scene a arto:Scene ;
+    rdfs:label "main scene" ;
+    arto:descriptor "Sketch-style scene in a suburban driveway transitioning to lawn on a sunny afternoon. Foreground: baseball glove and bat casually abandoned on lush grass with visible cross-hatching textures. Midgroun..." .
+
+:artwork_20250616_073705_240 arto:containsScene :main_scene .
+
+# Objects
+:broccoli_68415112 a arto:Object ;
+    rdfs:label "broccoli" ;
+    arto:descriptor "broccoli in the artwork" ;
+    arto:state "positioned in scene" ;
+    arto:material "unknown" .
+
+:main_scene arto:containsObject :broccoli_68415112 .
+
+:baseball glove_836ef034 a arto:Object ;
+    rdfs:label "baseball glove" ;
+    arto:descriptor "baseball glove in the artwork" ;
+    arto:state "positioned in scene" ;
+    arto:material "unknown" .
+
+:main_scene arto:containsObject :baseball glove_836ef034 .
+
+:baseball bat_5dd53a66 a arto:Object ;
+    rdfs:label "baseball bat" ;
+    arto:descriptor "baseball bat in the artwork" ;
+    arto:state "positioned in scene" ;
+    arto:material "unknown" .
+
+:main_scene arto:containsObject :baseball bat_5dd53a66 .
+
+:person_c256b368 a arto:Object ;
+    rdfs:label "person" ;
+    arto:descriptor "person in the artwork" ;
+    arto:state "positioned in scene" ;
+    arto:material "unknown" .
+
+:main_scene arto:containsObject :person_c256b368 .
+
+:suitcase_d2f6537f a arto:Object ;
+    rdfs:label "suitcase" ;
+    arto:descriptor "suitcase in the artwork" ;
+    arto:state "positioned in scene" ;
+    arto:material "unknown" .
+
+:main_scene arto:containsObject :suitcase_d2f6537f .
+
+:car_4ce933fc a arto:Object ;
+    rdfs:label "car" ;
+    arto:descriptor "car in the artwork" ;
+    arto:state "positioned in scene" ;
+    arto:material "unknown" .
+
+:main_scene arto:containsObject :car_4ce933fc .
+
+:refrigerator_0fcc7d19 a arto:Object ;
+    rdfs:label "refrigerator" ;
+    arto:descriptor "refrigerator in the artwork" ;
+    arto:state "positioned in scene" ;
+    arto:material "unknown" .
+
+:main_scene arto:containsObject :refrigerator_0fcc7d19 .
+
+:toaster_f2df72db a arto:Object ;
+    rdfs:label "toaster" ;
+    arto:descriptor "toaster in the artwork" ;
+    arto:state "positioned in scene" ;
+    arto:material "unknown" .
+
+:main_scene arto:containsObject :toaster_f2df72db .

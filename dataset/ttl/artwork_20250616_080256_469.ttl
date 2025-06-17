@@ -1,0 +1,91 @@
+@prefix : <http://w3id.org/artwork/> .
+@prefix arto: <http://w3id.org/arto#> .
+@prefix dc: <http://purl.org/dc/terms/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix sdo: <https://schema.org/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# Generated on 2025-06-16
+
+# Artwork
+:artwork_20250616_080256_469 a arto:Painting ;
+    dc:title "Photorealistic Artwork" ;
+    dc:creator "Flux" ;
+    arto:style "Photorealistic" ;
+    dc:medium "Oil on canvas" ;
+    dc:description "Generated artwork" ;
+    dc:created "2025-06-16"^^xsd:date ;
+    sdo:height "1024px" ;
+    sdo:width "1024px" .
+
+# Scene
+:main_scene a arto:Scene ;
+    rdfs:label "main scene" ;
+    arto:descriptor "A photorealistic scene of a cozy contemporary living room in the evening. The room is front-lit with soft, warm light, creating a comforting atmosphere. In the foreground, a cake with one slice missin..." .
+
+:artwork_20250616_080256_469 arto:containsScene :main_scene .
+
+# Objects
+:cat_5b218336 a arto:Object ;
+    rdfs:label "cat" ;
+    arto:descriptor "cat in the artwork" ;
+    arto:state "positioned in scene" ;
+    arto:material "unknown" .
+
+:main_scene arto:containsObject :cat_5b218336 .
+
+:cake_d86d3a0b a arto:Object ;
+    rdfs:label "cake" ;
+    arto:descriptor "cake in the artwork" ;
+    arto:state "positioned in scene" ;
+    arto:material "unknown" .
+
+:main_scene arto:containsObject :cake_d86d3a0b .
+
+:remote_0eeb864b a arto:Object ;
+    rdfs:label "remote" ;
+    arto:descriptor "remote in the artwork" ;
+    arto:state "positioned in scene" ;
+    arto:material "unknown" .
+
+:main_scene arto:containsObject :remote_0eeb864b .
+
+:traffic light_a30f6194 a arto:Object ;
+    rdfs:label "traffic light" ;
+    arto:descriptor "traffic light in the artwork" ;
+    arto:state "positioned in scene" ;
+    arto:material "unknown" .
+
+:main_scene arto:containsObject :traffic light_a30f6194 .
+
+:apple_4c25efd0 a arto:Object ;
+    rdfs:label "apple" ;
+    arto:descriptor "apple in the artwork" ;
+    arto:state "positioned in scene" ;
+    arto:material "unknown" .
+
+:main_scene arto:containsObject :apple_4c25efd0 .
+
+:sports ball_58bdf60e a arto:Object ;
+    rdfs:label "sports ball" ;
+    arto:descriptor "sports ball in the artwork" ;
+    arto:state "positioned in scene" ;
+    arto:material "unknown" .
+
+:main_scene arto:containsObject :sports ball_58bdf60e .
+
+:knife_f1d93f5f a arto:Object ;
+    rdfs:label "knife" ;
+    arto:descriptor "knife in the artwork" ;
+    arto:state "positioned in scene" ;
+    arto:material "unknown" .
+
+:main_scene arto:containsObject :knife_f1d93f5f .
+
+:snowboard_3b0e7a1c a arto:Object ;
+    rdfs:label "snowboard" ;
+    arto:descriptor "snowboard in the artwork" ;
+    arto:state "positioned in scene" ;
+    arto:material "unknown" .
+
+:main_scene arto:containsObject :snowboard_3b0e7a1c .

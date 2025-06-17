@@ -1,0 +1,99 @@
+@prefix : <http://w3id.org/artwork/> .
+@prefix arto: <http://w3id.org/arto#> .
+@prefix dc: <http://purl.org/dc/terms/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix sdo: <https://schema.org/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# Generated on 2025-06-16
+
+# Artwork
+:artwork_20250616_044109_973 a arto:Painting ;
+    dc:title "Chinese Ink Painting Artwork" ;
+    dc:creator "Flux" ;
+    arto:style "Chinese Ink Painting" ;
+    dc:medium "Oil on canvas" ;
+    dc:description "Generated artwork" ;
+    dc:created "2025-06-16"^^xsd:date ;
+    sdo:height "1024px" ;
+    sdo:width "1024px" .
+
+# Scene
+:main_scene a arto:Scene ;
+    rdfs:label "main scene" ;
+    arto:descriptor "Chinese ink painting capturing late afternoon tranquility in a narrow Shanghai alley. Soft side-lighting illuminates: FOREGROUND - wooden stool holding open laptop (glowing screen hinted by ink gradat..." .
+
+:artwork_20250616_044109_973 arto:containsScene :main_scene .
+
+# Objects
+:spoon_91f2ceb7 a arto:Object ;
+    rdfs:label "spoon" ;
+    arto:descriptor "spoon in the artwork" ;
+    arto:state "positioned in scene" ;
+    arto:material "unknown" .
+
+:main_scene arto:containsObject :spoon_91f2ceb7 .
+
+:tie_7df1b818 a arto:Object ;
+    rdfs:label "tie" ;
+    arto:descriptor "tie in the artwork" ;
+    arto:state "positioned in scene" ;
+    arto:material "unknown" .
+
+:main_scene arto:containsObject :tie_7df1b818 .
+
+:laptop_4f649de6 a arto:Object ;
+    rdfs:label "laptop" ;
+    arto:descriptor "laptop in the artwork" ;
+    arto:state "positioned in scene" ;
+    arto:material "unknown" .
+
+:main_scene arto:containsObject :laptop_4f649de6 .
+
+:orange_f624365b a arto:Object ;
+    rdfs:label "orange" ;
+    arto:descriptor "orange in the artwork" ;
+    arto:state "positioned in scene" ;
+    arto:material "unknown" .
+
+:main_scene arto:containsObject :orange_f624365b .
+
+:truck_90b1435c a arto:Object ;
+    rdfs:label "truck" ;
+    arto:descriptor "truck in the artwork" ;
+    arto:state "positioned in scene" ;
+    arto:material "unknown" .
+
+:main_scene arto:containsObject :truck_90b1435c .
+
+:suitcase_c9597deb a arto:Object ;
+    rdfs:label "suitcase" ;
+    arto:descriptor "suitcase in the artwork" ;
+    arto:state "positioned in scene" ;
+    arto:material "unknown" .
+
+:main_scene arto:containsObject :suitcase_c9597deb .
+
+:person_82fc66ef a arto:Object ;
+    rdfs:label "person" ;
+    arto:descriptor "person in the artwork" ;
+    arto:state "positioned in scene" ;
+    arto:material "unknown" .
+
+:main_scene arto:containsObject :person_82fc66ef .
+
+:snowboard_0cc7bb21 a arto:Object ;
+    rdfs:label "snowboard" ;
+    arto:descriptor "snowboard in the artwork" ;
+    arto:state "positioned in scene" ;
+    arto:material "unknown" .
+
+:main_scene arto:containsObject :snowboard_0cc7bb21 .
+
+:fire hydrant_e2ce3e83 a arto:Object ;
+    rdfs:label "fire hydrant" ;
+    arto:descriptor "fire hydrant in the artwork" ;
+    arto:state "positioned in scene" ;
+    arto:material "unknown" .
+
+:main_scene arto:containsObject :fire hydrant_e2ce3e83 .

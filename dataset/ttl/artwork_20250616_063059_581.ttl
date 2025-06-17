@@ -1,0 +1,91 @@
+@prefix : <http://w3id.org/artwork/> .
+@prefix arto: <http://w3id.org/arto#> .
+@prefix dc: <http://purl.org/dc/terms/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix sdo: <https://schema.org/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# Generated on 2025-06-16
+
+# Artwork
+:artwork_20250616_063059_581 a arto:Painting ;
+    dc:title "Oil Painting Artwork" ;
+    dc:creator "Flux" ;
+    arto:style "Oil Painting" ;
+    dc:medium "Oil on canvas" ;
+    dc:description "Generated artwork" ;
+    dc:created "2025-06-16"^^xsd:date ;
+    sdo:height "1024px" ;
+    sdo:width "1024px" .
+
+# Scene
+:main_scene a arto:Scene ;
+    rdfs:label "main scene" ;
+    arto:descriptor "Oil painting of a contemporary kitchen at late afternoon. Cozy clutter with butter-yellow walls, checkered tile floor, and open shelving with mismatched dishes. Oven against wall with small bird perch..." .
+
+:artwork_20250616_063059_581 arto:containsScene :main_scene .
+
+# Objects
+:oven_12d2a918 a arto:Object ;
+    rdfs:label "oven" ;
+    arto:descriptor "oven in the artwork" ;
+    arto:state "positioned in scene" ;
+    arto:material "unknown" .
+
+:main_scene arto:containsObject :oven_12d2a918 .
+
+:kite_b90b80ac a arto:Object ;
+    rdfs:label "kite" ;
+    arto:descriptor "kite in the artwork" ;
+    arto:state "positioned in scene" ;
+    arto:material "unknown" .
+
+:main_scene arto:containsObject :kite_b90b80ac .
+
+:keyboard_5cba998d a arto:Object ;
+    rdfs:label "keyboard" ;
+    arto:descriptor "keyboard in the artwork" ;
+    arto:state "positioned in scene" ;
+    arto:material "unknown" .
+
+:main_scene arto:containsObject :keyboard_5cba998d .
+
+:bottle_b9eb0bf4 a arto:Object ;
+    rdfs:label "bottle" ;
+    arto:descriptor "bottle in the artwork" ;
+    arto:state "positioned in scene" ;
+    arto:material "unknown" .
+
+:main_scene arto:containsObject :bottle_b9eb0bf4 .
+
+:orange_a014a074 a arto:Object ;
+    rdfs:label "orange" ;
+    arto:descriptor "orange in the artwork" ;
+    arto:state "positioned in scene" ;
+    arto:material "unknown" .
+
+:main_scene arto:containsObject :orange_a014a074 .
+
+:bird_c5fd3303 a arto:Object ;
+    rdfs:label "bird" ;
+    arto:descriptor "bird in the artwork" ;
+    arto:state "positioned in scene" ;
+    arto:material "unknown" .
+
+:main_scene arto:containsObject :bird_c5fd3303 .
+
+:baseball bat_53839bb1 a arto:Object ;
+    rdfs:label "baseball bat" ;
+    arto:descriptor "baseball bat in the artwork" ;
+    arto:state "positioned in scene" ;
+    arto:material "unknown" .
+
+:main_scene arto:containsObject :baseball bat_53839bb1 .
+
+:teddy bear_833e8234 a arto:Object ;
+    rdfs:label "teddy bear" ;
+    arto:descriptor "teddy bear in the artwork" ;
+    arto:state "positioned in scene" ;
+    arto:material "unknown" .
+
+:main_scene arto:containsObject :teddy bear_833e8234 .

@@ -1,0 +1,67 @@
+@prefix : <http://w3id.org/artwork/> .
+@prefix arto: <http://w3id.org/arto#> .
+@prefix dc: <http://purl.org/dc/terms/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix sdo: <https://schema.org/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# Generated on 2025-06-16
+
+# Artwork
+:artwork_20250616_055134_951 a arto:Painting ;
+    dc:title "Chinese Ink Painting Artwork" ;
+    dc:creator "Flux" ;
+    arto:style "Chinese Ink Painting" ;
+    dc:medium "Oil on canvas" ;
+    dc:description "Generated artwork" ;
+    dc:created "2025-06-16"^^xsd:date ;
+    sdo:height "1024px" ;
+    sdo:width "1024px" .
+
+# Scene
+:main_scene a arto:Scene ;
+    rdfs:label "main scene" ;
+    arto:descriptor "Chinese ink painting in xieyi style: Evening scene in rustic bathroom with cracked plaster walls and worn wooden floorboards. Open window frames overgrown garden with wild grasses and bamboo near dirt..." .
+
+:artwork_20250616_055134_951 arto:containsScene :main_scene .
+
+# Objects
+:mouse_bbbcdb4e a arto:Object ;
+    rdfs:label "mouse" ;
+    arto:descriptor "mouse in the artwork" ;
+    arto:state "positioned in scene" ;
+    arto:material "unknown" .
+
+:main_scene arto:containsObject :mouse_bbbcdb4e .
+
+:motorcycle_e86e2980 a arto:Object ;
+    rdfs:label "motorcycle" ;
+    arto:descriptor "motorcycle in the artwork" ;
+    arto:state "positioned in scene" ;
+    arto:material "unknown" .
+
+:main_scene arto:containsObject :motorcycle_e86e2980 .
+
+:backpack_3efdb008 a arto:Object ;
+    rdfs:label "backpack" ;
+    arto:descriptor "backpack in the artwork" ;
+    arto:state "positioned in scene" ;
+    arto:material "unknown" .
+
+:main_scene arto:containsObject :backpack_3efdb008 .
+
+:apple_e5d54bb4 a arto:Object ;
+    rdfs:label "apple" ;
+    arto:descriptor "apple in the artwork" ;
+    arto:state "positioned in scene" ;
+    arto:material "unknown" .
+
+:main_scene arto:containsObject :apple_e5d54bb4 .
+
+:toilet_780d3e4a a arto:Object ;
+    rdfs:label "toilet" ;
+    arto:descriptor "toilet in the artwork" ;
+    arto:state "positioned in scene" ;
+    arto:material "unknown" .
+
+:main_scene arto:containsObject :toilet_780d3e4a .

@@ -1,0 +1,67 @@
+@prefix : <http://w3id.org/artwork/> .
+@prefix arto: <http://w3id.org/arto#> .
+@prefix dc: <http://purl.org/dc/terms/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix sdo: <https://schema.org/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# Generated on 2025-06-16
+
+# Artwork
+:artwork_20250616_100627_672 a arto:Painting ;
+    dc:title "Post-Impressionism Artwork" ;
+    dc:creator "Flux" ;
+    arto:style "Post-Impressionism" ;
+    dc:medium "Oil on canvas" ;
+    dc:description "Generated artwork" ;
+    dc:created "2025-06-16"^^xsd:date ;
+    sdo:height "1024px" ;
+    sdo:width "1024px" .
+
+# Scene
+:main_scene a arto:Scene ;
+    rdfs:label "main scene" ;
+    arto:descriptor "Post-Impressionist still life painting featuring a whole unpeeled carrot with greens and a partially eaten frosted layer cake on a worn oak table in the foreground. A vintage CRT TV emits static snow ..." .
+
+:artwork_20250616_100627_672 arto:containsScene :main_scene .
+
+# Objects
+:carrot_16b59387 a arto:Object ;
+    rdfs:label "carrot" ;
+    arto:descriptor "carrot in the artwork" ;
+    arto:state "positioned in scene" ;
+    arto:material "unknown" .
+
+:main_scene arto:containsObject :carrot_16b59387 .
+
+:cake_741f3a5c a arto:Object ;
+    rdfs:label "cake" ;
+    arto:descriptor "cake in the artwork" ;
+    arto:state "positioned in scene" ;
+    arto:material "unknown" .
+
+:main_scene arto:containsObject :cake_741f3a5c .
+
+:tv_fcea5b42 a arto:Object ;
+    rdfs:label "tv" ;
+    arto:descriptor "tv in the artwork" ;
+    arto:state "positioned in scene" ;
+    arto:material "unknown" .
+
+:main_scene arto:containsObject :tv_fcea5b42 .
+
+:baseball bat_c834d73d a arto:Object ;
+    rdfs:label "baseball bat" ;
+    arto:descriptor "baseball bat in the artwork" ;
+    arto:state "positioned in scene" ;
+    arto:material "unknown" .
+
+:main_scene arto:containsObject :baseball bat_c834d73d .
+
+:chair_e5b1293e a arto:Object ;
+    rdfs:label "chair" ;
+    arto:descriptor "chair in the artwork" ;
+    arto:state "positioned in scene" ;
+    arto:material "unknown" .
+
+:main_scene arto:containsObject :chair_e5b1293e .

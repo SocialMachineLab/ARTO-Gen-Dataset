@@ -1,0 +1,59 @@
+@prefix : <http://w3id.org/artwork/> .
+@prefix arto: <http://w3id.org/arto#> .
+@prefix dc: <http://purl.org/dc/terms/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix sdo: <https://schema.org/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# Generated on 2025-06-16
+
+# Artwork
+:artwork_20250616_065305_288 a arto:Painting ;
+    dc:title "Oil Painting Artwork" ;
+    dc:creator "Flux" ;
+    arto:style "Oil Painting" ;
+    dc:medium "Oil on canvas" ;
+    dc:description "Generated artwork" ;
+    dc:created "2025-06-16"^^xsd:date ;
+    sdo:height "1024px" ;
+    sdo:width "1024px" .
+
+# Scene
+:main_scene a arto:Scene ;
+    rdfs:label "main scene" ;
+    arto:descriptor "Oil painting of a contemporary airport terminal at rainy dawn. A traveler leans against floor-to-ceiling windows brushing teeth (foreground toothbrush dripping toothpaste foam), backlit by a taxiing a..." .
+
+:artwork_20250616_065305_288 arto:containsScene :main_scene .
+
+# Objects
+:toothbrush_ef9f6dd8 a arto:Object ;
+    rdfs:label "toothbrush" ;
+    arto:descriptor "toothbrush in the artwork" ;
+    arto:state "positioned in scene" ;
+    arto:material "unknown" .
+
+:main_scene arto:containsObject :toothbrush_ef9f6dd8 .
+
+:airplane_c9e3ebd2 a arto:Object ;
+    rdfs:label "airplane" ;
+    arto:descriptor "airplane in the artwork" ;
+    arto:state "positioned in scene" ;
+    arto:material "unknown" .
+
+:main_scene arto:containsObject :airplane_c9e3ebd2 .
+
+:cell phone_63c0f7aa a arto:Object ;
+    rdfs:label "cell phone" ;
+    arto:descriptor "cell phone in the artwork" ;
+    arto:state "positioned in scene" ;
+    arto:material "unknown" .
+
+:main_scene arto:containsObject :cell phone_63c0f7aa .
+
+:carrot_6bc2f798 a arto:Object ;
+    rdfs:label "carrot" ;
+    arto:descriptor "carrot in the artwork" ;
+    arto:state "positioned in scene" ;
+    arto:material "unknown" .
+
+:main_scene arto:containsObject :carrot_6bc2f798 .

@@ -1,0 +1,99 @@
+@prefix : <http://w3id.org/artwork/> .
+@prefix arto: <http://w3id.org/arto#> .
+@prefix dc: <http://purl.org/dc/terms/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix sdo: <https://schema.org/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# Generated on 2025-06-16
+
+# Artwork
+:artwork_20250616_065956_733 a arto:Painting ;
+    dc:title "Photorealistic Artwork" ;
+    dc:creator "Flux" ;
+    arto:style "Photorealistic" ;
+    dc:medium "Oil on canvas" ;
+    dc:description "Generated artwork" ;
+    dc:created "2025-06-16"^^xsd:date ;
+    sdo:height "1024px" ;
+    sdo:width "1024px" .
+
+# Scene
+:main_scene a arto:Scene ;
+    rdfs:label "main scene" ;
+    arto:descriptor "Photorealistic contemporary open-plan living room and kitchen on a rainy afternoon. A slightly disheveled beige couch anchors the scene with skis leaning against its left armrest and a closed steel-gr..." .
+
+:artwork_20250616_065956_733 arto:containsScene :main_scene .
+
+# Objects
+:cake_913f6e0a a arto:Object ;
+    rdfs:label "cake" ;
+    arto:descriptor "cake in the artwork" ;
+    arto:state "positioned in scene" ;
+    arto:material "unknown" .
+
+:main_scene arto:containsObject :cake_913f6e0a .
+
+:couch_8299a06c a arto:Object ;
+    rdfs:label "couch" ;
+    arto:descriptor "couch in the artwork" ;
+    arto:state "positioned in scene" ;
+    arto:material "unknown" .
+
+:main_scene arto:containsObject :couch_8299a06c .
+
+:dog_4cd95f56 a arto:Object ;
+    rdfs:label "dog" ;
+    arto:descriptor "dog in the artwork" ;
+    arto:state "positioned in scene" ;
+    arto:material "unknown" .
+
+:main_scene arto:containsObject :dog_4cd95f56 .
+
+:skis_62e38007 a arto:Object ;
+    rdfs:label "skis" ;
+    arto:descriptor "skis in the artwork" ;
+    arto:state "positioned in scene" ;
+    arto:material "unknown" .
+
+:main_scene arto:containsObject :skis_62e38007 .
+
+:umbrella_ac94a202 a arto:Object ;
+    rdfs:label "umbrella" ;
+    arto:descriptor "umbrella in the artwork" ;
+    arto:state "positioned in scene" ;
+    arto:material "unknown" .
+
+:main_scene arto:containsObject :umbrella_ac94a202 .
+
+:train_b9d0b103 a arto:Object ;
+    rdfs:label "train" ;
+    arto:descriptor "train in the artwork" ;
+    arto:state "positioned in scene" ;
+    arto:material "unknown" .
+
+:main_scene arto:containsObject :train_b9d0b103 .
+
+:refrigerator_f934bd28 a arto:Object ;
+    rdfs:label "refrigerator" ;
+    arto:descriptor "refrigerator in the artwork" ;
+    arto:state "positioned in scene" ;
+    arto:material "unknown" .
+
+:main_scene arto:containsObject :refrigerator_f934bd28 .
+
+:clock_22471eb4 a arto:Object ;
+    rdfs:label "clock" ;
+    arto:descriptor "clock in the artwork" ;
+    arto:state "positioned in scene" ;
+    arto:material "unknown" .
+
+:main_scene arto:containsObject :clock_22471eb4 .
+
+:broccoli_8e50fed4 a arto:Object ;
+    rdfs:label "broccoli" ;
+    arto:descriptor "broccoli in the artwork" ;
+    arto:state "positioned in scene" ;
+    arto:material "unknown" .
+
+:main_scene arto:containsObject :broccoli_8e50fed4 .

@@ -1,0 +1,91 @@
+@prefix : <http://w3id.org/artwork/> .
+@prefix arto: <http://w3id.org/arto#> .
+@prefix dc: <http://purl.org/dc/terms/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix sdo: <https://schema.org/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# Generated on 2025-06-16
+
+# Artwork
+:artwork_20250616_114625_167 a arto:Painting ;
+    dc:title "Post-Impressionism Artwork" ;
+    dc:creator "Flux" ;
+    arto:style "Post-Impressionism" ;
+    dc:medium "Oil on canvas" ;
+    dc:description "Generated artwork" ;
+    dc:created "2025-06-16"^^xsd:date ;
+    sdo:height "1024px" ;
+    sdo:width "1024px" .
+
+# Scene
+:main_scene a arto:Scene ;
+    rdfs:label "main scene" ;
+    arto:descriptor "A Post-Impressionist still life in a mixed indoor-outdoor setting blending a rustic barn with an overgrown meadow. The composition features a prominent toilet in the foreground, vibrant potted plant, ..." .
+
+:artwork_20250616_114625_167 arto:containsScene :main_scene .
+
+# Objects
+:knife_246d3b14 a arto:Object ;
+    rdfs:label "knife" ;
+    arto:descriptor "knife in the artwork" ;
+    arto:state "positioned in scene" ;
+    arto:material "unknown" .
+
+:main_scene arto:containsObject :knife_246d3b14 .
+
+:skis_a352e6ac a arto:Object ;
+    rdfs:label "skis" ;
+    arto:descriptor "skis in the artwork" ;
+    arto:state "positioned in scene" ;
+    arto:material "unknown" .
+
+:main_scene arto:containsObject :skis_a352e6ac .
+
+:clock_b874083c a arto:Object ;
+    rdfs:label "clock" ;
+    arto:descriptor "clock in the artwork" ;
+    arto:state "positioned in scene" ;
+    arto:material "unknown" .
+
+:main_scene arto:containsObject :clock_b874083c .
+
+:toilet_9f8d389f a arto:Object ;
+    rdfs:label "toilet" ;
+    arto:descriptor "toilet in the artwork" ;
+    arto:state "positioned in scene" ;
+    arto:material "unknown" .
+
+:main_scene arto:containsObject :toilet_9f8d389f .
+
+:potted plant_594f5a6d a arto:Object ;
+    rdfs:label "potted plant" ;
+    arto:descriptor "potted plant in the artwork" ;
+    arto:state "positioned in scene" ;
+    arto:material "unknown" .
+
+:main_scene arto:containsObject :potted plant_594f5a6d .
+
+:truck_2fd81eb9 a arto:Object ;
+    rdfs:label "truck" ;
+    arto:descriptor "truck in the artwork" ;
+    arto:state "positioned in scene" ;
+    arto:material "unknown" .
+
+:main_scene arto:containsObject :truck_2fd81eb9 .
+
+:giraffe_39f9020a a arto:Object ;
+    rdfs:label "giraffe" ;
+    arto:descriptor "giraffe in the artwork" ;
+    arto:state "positioned in scene" ;
+    arto:material "unknown" .
+
+:main_scene arto:containsObject :giraffe_39f9020a .
+
+:fork_5612d38c a arto:Object ;
+    rdfs:label "fork" ;
+    arto:descriptor "fork in the artwork" ;
+    arto:state "positioned in scene" ;
+    arto:material "unknown" .
+
+:main_scene arto:containsObject :fork_5612d38c .

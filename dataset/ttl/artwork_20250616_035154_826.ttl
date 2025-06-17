@@ -1,0 +1,67 @@
+@prefix : <http://w3id.org/artwork/> .
+@prefix arto: <http://w3id.org/arto#> .
+@prefix dc: <http://purl.org/dc/terms/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix sdo: <https://schema.org/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# Generated on 2025-06-16
+
+# Artwork
+:artwork_20250616_035154_826 a arto:Painting ;
+    dc:title "Chinese Ink Painting Artwork" ;
+    dc:creator "Flux" ;
+    arto:style "Chinese Ink Painting" ;
+    dc:medium "Oil on canvas" ;
+    dc:description "Generated artwork" ;
+    dc:created "2025-06-16"^^xsd:date ;
+    sdo:height "1024px" ;
+    sdo:width "1024px" .
+
+# Scene
+:main_scene a arto:Scene ;
+    rdfs:label "main scene" ;
+    arto:descriptor "Chinese ink painting of misty mountain meadow at dawn: foreground features weathered wooden deck with woven bamboo chair holding whole sandwich, small ceramic pot of sparse bamboo shoots beside it. Sn..." .
+
+:artwork_20250616_035154_826 arto:containsScene :main_scene .
+
+# Objects
+:potted plant_c5d5590c a arto:Object ;
+    rdfs:label "potted plant" ;
+    arto:descriptor "potted plant in the artwork" ;
+    arto:state "positioned in scene" ;
+    arto:material "unknown" .
+
+:main_scene arto:containsObject :potted plant_c5d5590c .
+
+:sheep_a94c9dc8 a arto:Object ;
+    rdfs:label "sheep" ;
+    arto:descriptor "sheep in the artwork" ;
+    arto:state "positioned in scene" ;
+    arto:material "unknown" .
+
+:main_scene arto:containsObject :sheep_a94c9dc8 .
+
+:sandwich_cea5fc67 a arto:Object ;
+    rdfs:label "sandwich" ;
+    arto:descriptor "sandwich in the artwork" ;
+    arto:state "positioned in scene" ;
+    arto:material "unknown" .
+
+:main_scene arto:containsObject :sandwich_cea5fc67 .
+
+:chair_813e6e46 a arto:Object ;
+    rdfs:label "chair" ;
+    arto:descriptor "chair in the artwork" ;
+    arto:state "positioned in scene" ;
+    arto:material "unknown" .
+
+:main_scene arto:containsObject :chair_813e6e46 .
+
+:snowboard_7b04dbce a arto:Object ;
+    rdfs:label "snowboard" ;
+    arto:descriptor "snowboard in the artwork" ;
+    arto:state "positioned in scene" ;
+    arto:material "unknown" .
+
+:main_scene arto:containsObject :snowboard_7b04dbce .

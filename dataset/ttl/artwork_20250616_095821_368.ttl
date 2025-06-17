@@ -1,0 +1,83 @@
+@prefix : <http://w3id.org/artwork/> .
+@prefix arto: <http://w3id.org/arto#> .
+@prefix dc: <http://purl.org/dc/terms/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix sdo: <https://schema.org/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# Generated on 2025-06-16
+
+# Artwork
+:artwork_20250616_095821_368 a arto:Painting ;
+    dc:title "Photorealistic Artwork" ;
+    dc:creator "Flux" ;
+    arto:style "Photorealistic" ;
+    dc:medium "Oil on canvas" ;
+    dc:description "Generated artwork" ;
+    dc:created "2025-06-16"^^xsd:date ;
+    sdo:height "1024px" ;
+    sdo:width "1024px" .
+
+# Scene
+:main_scene a arto:Scene ;
+    rdfs:label "main scene" ;
+    arto:descriptor "Photorealistic contemporary kitchen scene in warm afternoon light. Soft side-lighting from a west window illuminates: In foreground, golden Labrador retriever sits attentively on hardwood floor facing..." .
+
+:artwork_20250616_095821_368 arto:containsScene :main_scene .
+
+# Objects
+:bench_09e4b2a4 a arto:Object ;
+    rdfs:label "bench" ;
+    arto:descriptor "bench in the artwork" ;
+    arto:state "positioned in scene" ;
+    arto:material "unknown" .
+
+:main_scene arto:containsObject :bench_09e4b2a4 .
+
+:toothbrush_180584b6 a arto:Object ;
+    rdfs:label "toothbrush" ;
+    arto:descriptor "toothbrush in the artwork" ;
+    arto:state "positioned in scene" ;
+    arto:material "unknown" .
+
+:main_scene arto:containsObject :toothbrush_180584b6 .
+
+:broccoli_4d6d8877 a arto:Object ;
+    rdfs:label "broccoli" ;
+    arto:descriptor "broccoli in the artwork" ;
+    arto:state "positioned in scene" ;
+    arto:material "unknown" .
+
+:main_scene arto:containsObject :broccoli_4d6d8877 .
+
+:bear_313aba37 a arto:Object ;
+    rdfs:label "bear" ;
+    arto:descriptor "bear in the artwork" ;
+    arto:state "positioned in scene" ;
+    arto:material "unknown" .
+
+:main_scene arto:containsObject :bear_313aba37 .
+
+:cake_35f09418 a arto:Object ;
+    rdfs:label "cake" ;
+    arto:descriptor "cake in the artwork" ;
+    arto:state "positioned in scene" ;
+    arto:material "unknown" .
+
+:main_scene arto:containsObject :cake_35f09418 .
+
+:dog_1016bae5 a arto:Object ;
+    rdfs:label "dog" ;
+    arto:descriptor "dog in the artwork" ;
+    arto:state "positioned in scene" ;
+    arto:material "unknown" .
+
+:main_scene arto:containsObject :dog_1016bae5 .
+
+:microwave_db6ef935 a arto:Object ;
+    rdfs:label "microwave" ;
+    arto:descriptor "microwave in the artwork" ;
+    arto:state "positioned in scene" ;
+    arto:material "unknown" .
+
+:main_scene arto:containsObject :microwave_db6ef935 .

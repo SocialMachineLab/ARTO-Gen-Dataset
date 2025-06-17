@@ -1,0 +1,91 @@
+@prefix : <http://w3id.org/artwork/> .
+@prefix arto: <http://w3id.org/arto#> .
+@prefix dc: <http://purl.org/dc/terms/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix sdo: <https://schema.org/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# Generated on 2025-06-16
+
+# Artwork
+:artwork_20250616_104656_227 a arto:Painting ;
+    dc:title "Sketch Artwork" ;
+    dc:creator "Flux" ;
+    arto:style "Sketch" ;
+    dc:medium "Oil on canvas" ;
+    dc:description "Generated artwork" ;
+    dc:created "2025-06-16"^^xsd:date ;
+    sdo:height "1024px" ;
+    sdo:width "1024px" .
+
+# Scene
+:main_scene a arto:Scene ;
+    rdfs:label "main scene" ;
+    arto:descriptor "A sketch-style composition showing a contemporary suburban bedroom during afternoon packing. A person bends over an open suitcase on a rumpled bed, holding an open handbag. Nearby, a hair dryer rests ..." .
+
+:artwork_20250616_104656_227 arto:containsScene :main_scene .
+
+# Objects
+:car_73135dea a arto:Object ;
+    rdfs:label "car" ;
+    arto:descriptor "car in the artwork" ;
+    arto:state "positioned in scene" ;
+    arto:material "unknown" .
+
+:main_scene arto:containsObject :car_73135dea .
+
+:hair drier_b7228532 a arto:Object ;
+    rdfs:label "hair drier" ;
+    arto:descriptor "hair drier in the artwork" ;
+    arto:state "positioned in scene" ;
+    arto:material "unknown" .
+
+:main_scene arto:containsObject :hair drier_b7228532 .
+
+:kite_f81c953f a arto:Object ;
+    rdfs:label "kite" ;
+    arto:descriptor "kite in the artwork" ;
+    arto:state "positioned in scene" ;
+    arto:material "unknown" .
+
+:main_scene arto:containsObject :kite_f81c953f .
+
+:person_a1e9648e a arto:Object ;
+    rdfs:label "person" ;
+    arto:descriptor "person in the artwork" ;
+    arto:state "positioned in scene" ;
+    arto:material "unknown" .
+
+:main_scene arto:containsObject :person_a1e9648e .
+
+:tv_17c672e8 a arto:Object ;
+    rdfs:label "tv" ;
+    arto:descriptor "tv in the artwork" ;
+    arto:state "positioned in scene" ;
+    arto:material "unknown" .
+
+:main_scene arto:containsObject :tv_17c672e8 .
+
+:remote_7c36f884 a arto:Object ;
+    rdfs:label "remote" ;
+    arto:descriptor "remote in the artwork" ;
+    arto:state "positioned in scene" ;
+    arto:material "unknown" .
+
+:main_scene arto:containsObject :remote_7c36f884 .
+
+:handbag_7004842f a arto:Object ;
+    rdfs:label "handbag" ;
+    arto:descriptor "handbag in the artwork" ;
+    arto:state "positioned in scene" ;
+    arto:material "unknown" .
+
+:main_scene arto:containsObject :handbag_7004842f .
+
+:suitcase_68da2811 a arto:Object ;
+    rdfs:label "suitcase" ;
+    arto:descriptor "suitcase in the artwork" ;
+    arto:state "positioned in scene" ;
+    arto:material "unknown" .
+
+:main_scene arto:containsObject :suitcase_68da2811 .

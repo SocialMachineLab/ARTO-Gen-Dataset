@@ -1,0 +1,75 @@
+@prefix : <http://w3id.org/artwork/> .
+@prefix arto: <http://w3id.org/arto#> .
+@prefix dc: <http://purl.org/dc/terms/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix sdo: <https://schema.org/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# Generated on 2025-06-16
+
+# Artwork
+:artwork_20250616_074215_261 a arto:Painting ;
+    dc:title "Post-Impressionism Artwork" ;
+    dc:creator "Flux" ;
+    arto:style "Post-Impressionism" ;
+    dc:medium "Oil on canvas" ;
+    dc:description "Generated artwork" ;
+    dc:created "2025-06-16"^^xsd:date ;
+    sdo:height "1024px" ;
+    sdo:width "1024px" .
+
+# Scene
+:main_scene a arto:Scene ;
+    rdfs:label "main scene" ;
+    arto:descriptor "A Post-Impressionist still life painting in the style of Vincent van Gogh, depicting a chaotic bathroom interior during a rainy evening. White subway tiles and black-and-white checkerboard flooring fo..." .
+
+:artwork_20250616_074215_261 arto:containsScene :main_scene .
+
+# Objects
+:umbrella_a69b1ea4 a arto:Object ;
+    rdfs:label "umbrella" ;
+    arto:descriptor "umbrella in the artwork" ;
+    arto:state "positioned in scene" ;
+    arto:material "unknown" .
+
+:main_scene arto:containsObject :umbrella_a69b1ea4 .
+
+:pizza_3441ceb6 a arto:Object ;
+    rdfs:label "pizza" ;
+    arto:descriptor "pizza in the artwork" ;
+    arto:state "positioned in scene" ;
+    arto:material "unknown" .
+
+:main_scene arto:containsObject :pizza_3441ceb6 .
+
+:bottle_1f513ff2 a arto:Object ;
+    rdfs:label "bottle" ;
+    arto:descriptor "bottle in the artwork" ;
+    arto:state "positioned in scene" ;
+    arto:material "unknown" .
+
+:main_scene arto:containsObject :bottle_1f513ff2 .
+
+:toilet_43b75248 a arto:Object ;
+    rdfs:label "toilet" ;
+    arto:descriptor "toilet in the artwork" ;
+    arto:state "positioned in scene" ;
+    arto:material "unknown" .
+
+:main_scene arto:containsObject :toilet_43b75248 .
+
+:skateboard_32e5e48e a arto:Object ;
+    rdfs:label "skateboard" ;
+    arto:descriptor "skateboard in the artwork" ;
+    arto:state "positioned in scene" ;
+    arto:material "unknown" .
+
+:main_scene arto:containsObject :skateboard_32e5e48e .
+
+:toaster_eb054d27 a arto:Object ;
+    rdfs:label "toaster" ;
+    arto:descriptor "toaster in the artwork" ;
+    arto:state "positioned in scene" ;
+    arto:material "unknown" .
+
+:main_scene arto:containsObject :toaster_eb054d27 .

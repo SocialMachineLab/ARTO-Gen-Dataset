@@ -1,0 +1,75 @@
+@prefix : <http://w3id.org/artwork/> .
+@prefix arto: <http://w3id.org/arto#> .
+@prefix dc: <http://purl.org/dc/terms/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix sdo: <https://schema.org/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# Generated on 2025-06-16
+
+# Artwork
+:artwork_20250616_025314_735 a arto:Painting ;
+    dc:title "Oil Painting Artwork" ;
+    dc:creator "Flux" ;
+    arto:style "Oil Painting" ;
+    dc:medium "Oil on canvas" ;
+    dc:description "Generated artwork" ;
+    dc:created "2025-06-16"^^xsd:date ;
+    sdo:height "1024px" ;
+    sdo:width "1024px" .
+
+# Scene
+:main_scene a arto:Scene ;
+    rdfs:label "main scene" ;
+    arto:descriptor "Create an oil painting still life depicting a quiet urban street scene at evening. The composition includes a table set against a storefront window with a clock ticking in the midground, a cell phone ..." .
+
+:artwork_20250616_025314_735 arto:containsScene :main_scene .
+
+# Objects
+:clock_2a91d61f a arto:Object ;
+    rdfs:label "clock" ;
+    arto:descriptor "clock in the artwork" ;
+    arto:state "positioned in scene" ;
+    arto:material "unknown" .
+
+:main_scene arto:containsObject :clock_2a91d61f .
+
+:parking meter_0faa1c22 a arto:Object ;
+    rdfs:label "parking meter" ;
+    arto:descriptor "parking meter in the artwork" ;
+    arto:state "positioned in scene" ;
+    arto:material "unknown" .
+
+:main_scene arto:containsObject :parking meter_0faa1c22 .
+
+:cell phone_96281abc a arto:Object ;
+    rdfs:label "cell phone" ;
+    arto:descriptor "cell phone in the artwork" ;
+    arto:state "positioned in scene" ;
+    arto:material "unknown" .
+
+:main_scene arto:containsObject :cell phone_96281abc .
+
+:refrigerator_eadb920a a arto:Object ;
+    rdfs:label "refrigerator" ;
+    arto:descriptor "refrigerator in the artwork" ;
+    arto:state "positioned in scene" ;
+    arto:material "unknown" .
+
+:main_scene arto:containsObject :refrigerator_eadb920a .
+
+:umbrella_91ba9b6a a arto:Object ;
+    rdfs:label "umbrella" ;
+    arto:descriptor "umbrella in the artwork" ;
+    arto:state "positioned in scene" ;
+    arto:material "unknown" .
+
+:main_scene arto:containsObject :umbrella_91ba9b6a .
+
+:fork_b7e0aeda a arto:Object ;
+    rdfs:label "fork" ;
+    arto:descriptor "fork in the artwork" ;
+    arto:state "positioned in scene" ;
+    arto:material "unknown" .
+
+:main_scene arto:containsObject :fork_b7e0aeda .

@@ -1,0 +1,91 @@
+@prefix : <http://w3id.org/artwork/> .
+@prefix arto: <http://w3id.org/arto#> .
+@prefix dc: <http://purl.org/dc/terms/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix sdo: <https://schema.org/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# Generated on 2025-06-16
+
+# Artwork
+:artwork_20250616_072552_543 a arto:Painting ;
+    dc:title "Post-Impressionism Artwork" ;
+    dc:creator "Flux" ;
+    arto:style "Post-Impressionism" ;
+    dc:medium "Oil on canvas" ;
+    dc:description "Generated artwork" ;
+    dc:created "2025-06-16"^^xsd:date ;
+    sdo:height "1024px" ;
+    sdo:width "1024px" .
+
+# Scene
+:main_scene a arto:Scene ;
+    rdfs:label "main scene" ;
+    arto:descriptor "A Post-Impressionist painting in vibrant impasto style, depicting a surreal cliff-top garden at dusk. Warm golden hour light casts dramatic side-shadows across a towering three-tiered cake with a stea..." .
+
+:artwork_20250616_072552_543 arto:containsScene :main_scene .
+
+# Objects
+:giraffe_9bc8e3eb a arto:Object ;
+    rdfs:label "giraffe" ;
+    arto:descriptor "giraffe in the artwork" ;
+    arto:state "positioned in scene" ;
+    arto:material "unknown" .
+
+:main_scene arto:containsObject :giraffe_9bc8e3eb .
+
+:surfboard_d4ca7b2a a arto:Object ;
+    rdfs:label "surfboard" ;
+    arto:descriptor "surfboard in the artwork" ;
+    arto:state "positioned in scene" ;
+    arto:material "unknown" .
+
+:main_scene arto:containsObject :surfboard_d4ca7b2a .
+
+:train_96361b12 a arto:Object ;
+    rdfs:label "train" ;
+    arto:descriptor "train in the artwork" ;
+    arto:state "positioned in scene" ;
+    arto:material "unknown" .
+
+:main_scene arto:containsObject :train_96361b12 .
+
+:cake_172fa999 a arto:Object ;
+    rdfs:label "cake" ;
+    arto:descriptor "cake in the artwork" ;
+    arto:state "positioned in scene" ;
+    arto:material "unknown" .
+
+:main_scene arto:containsObject :cake_172fa999 .
+
+:person_2ac20011 a arto:Object ;
+    rdfs:label "person" ;
+    arto:descriptor "person in the artwork" ;
+    arto:state "positioned in scene" ;
+    arto:material "unknown" .
+
+:main_scene arto:containsObject :person_2ac20011 .
+
+:clock_b3d192ec a arto:Object ;
+    rdfs:label "clock" ;
+    arto:descriptor "clock in the artwork" ;
+    arto:state "positioned in scene" ;
+    arto:material "unknown" .
+
+:main_scene arto:containsObject :clock_b3d192ec .
+
+:sheep_49442f82 a arto:Object ;
+    rdfs:label "sheep" ;
+    arto:descriptor "sheep in the artwork" ;
+    arto:state "positioned in scene" ;
+    arto:material "unknown" .
+
+:main_scene arto:containsObject :sheep_49442f82 .
+
+:wine glass_d536b28b a arto:Object ;
+    rdfs:label "wine glass" ;
+    arto:descriptor "wine glass in the artwork" ;
+    arto:state "positioned in scene" ;
+    arto:material "unknown" .
+
+:main_scene arto:containsObject :wine glass_d536b28b .

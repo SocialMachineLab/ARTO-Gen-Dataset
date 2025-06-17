@@ -1,0 +1,99 @@
+@prefix : <http://w3id.org/artwork/> .
+@prefix arto: <http://w3id.org/arto#> .
+@prefix dc: <http://purl.org/dc/terms/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix sdo: <https://schema.org/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# Generated on 2025-06-16
+
+# Artwork
+:artwork_20250616_084505_422 a arto:Painting ;
+    dc:title "Post-Impressionism Artwork" ;
+    dc:creator "Flux" ;
+    arto:style "Post-Impressionism" ;
+    dc:medium "Oil on canvas" ;
+    dc:description "Generated artwork" ;
+    dc:created "2025-06-16"^^xsd:date ;
+    sdo:height "1024px" ;
+    sdo:width "1024px" .
+
+# Scene
+:main_scene a arto:Scene ;
+    rdfs:label "main scene" ;
+    arto:descriptor "Post-Impressionist genre scene in a sunlit contemporary living room. Foreground: golden retriever sitting attentively on a plush rug, holding a toothbrush gently in its mouth with a soccer ball near i..." .
+
+:artwork_20250616_084505_422 arto:containsScene :main_scene .
+
+# Objects
+:remote_c5173fac a arto:Object ;
+    rdfs:label "remote" ;
+    arto:descriptor "remote in the artwork" ;
+    arto:state "positioned in scene" ;
+    arto:material "unknown" .
+
+:main_scene arto:containsObject :remote_c5173fac .
+
+:sports ball_e3fd2cd9 a arto:Object ;
+    rdfs:label "sports ball" ;
+    arto:descriptor "sports ball in the artwork" ;
+    arto:state "positioned in scene" ;
+    arto:material "unknown" .
+
+:main_scene arto:containsObject :sports ball_e3fd2cd9 .
+
+:toothbrush_3c58f4ff a arto:Object ;
+    rdfs:label "toothbrush" ;
+    arto:descriptor "toothbrush in the artwork" ;
+    arto:state "positioned in scene" ;
+    arto:material "unknown" .
+
+:main_scene arto:containsObject :toothbrush_3c58f4ff .
+
+:orange_9ebe7977 a arto:Object ;
+    rdfs:label "orange" ;
+    arto:descriptor "orange in the artwork" ;
+    arto:state "positioned in scene" ;
+    arto:material "unknown" .
+
+:main_scene arto:containsObject :orange_9ebe7977 .
+
+:hot dog_f481d65d a arto:Object ;
+    rdfs:label "hot dog" ;
+    arto:descriptor "hot dog in the artwork" ;
+    arto:state "positioned in scene" ;
+    arto:material "unknown" .
+
+:main_scene arto:containsObject :hot dog_f481d65d .
+
+:dog_3a676aab a arto:Object ;
+    rdfs:label "dog" ;
+    arto:descriptor "dog in the artwork" ;
+    arto:state "positioned in scene" ;
+    arto:material "unknown" .
+
+:main_scene arto:containsObject :dog_3a676aab .
+
+:keyboard_589772a2 a arto:Object ;
+    rdfs:label "keyboard" ;
+    arto:descriptor "keyboard in the artwork" ;
+    arto:state "positioned in scene" ;
+    arto:material "unknown" .
+
+:main_scene arto:containsObject :keyboard_589772a2 .
+
+:tennis racket_6bc8c30c a arto:Object ;
+    rdfs:label "tennis racket" ;
+    arto:descriptor "tennis racket in the artwork" ;
+    arto:state "positioned in scene" ;
+    arto:material "unknown" .
+
+:main_scene arto:containsObject :tennis racket_6bc8c30c .
+
+:cup_37629c9b a arto:Object ;
+    rdfs:label "cup" ;
+    arto:descriptor "cup in the artwork" ;
+    arto:state "positioned in scene" ;
+    arto:material "unknown" .
+
+:main_scene arto:containsObject :cup_37629c9b .

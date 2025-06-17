@@ -1,0 +1,99 @@
+@prefix : <http://w3id.org/artwork/> .
+@prefix arto: <http://w3id.org/arto#> .
+@prefix dc: <http://purl.org/dc/terms/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix sdo: <https://schema.org/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# Generated on 2025-06-16
+
+# Artwork
+:artwork_20250616_051850_728 a arto:Painting ;
+    dc:title "Chinese Ink Painting Artwork" ;
+    dc:creator "Flux" ;
+    arto:style "Chinese Ink Painting" ;
+    dc:medium "Oil on canvas" ;
+    dc:description "Generated artwork" ;
+    dc:created "2025-06-16"^^xsd:date ;
+    sdo:height "1024px" ;
+    sdo:width "1024px" .
+
+# Scene
+:main_scene a arto:Scene ;
+    rdfs:label "main scene" ;
+    arto:descriptor "Chinese ink painting of a minimalist contemporary bedroom at dawn. Foreground: half-filled cup and empty wine glass on nightstand beside horizontally placed scissors; slightly angled keyboard on desk...." .
+
+:artwork_20250616_051850_728 arto:containsScene :main_scene .
+
+# Objects
+:cup_60814fb1 a arto:Object ;
+    rdfs:label "cup" ;
+    arto:descriptor "cup in the artwork" ;
+    arto:state "positioned in scene" ;
+    arto:material "unknown" .
+
+:main_scene arto:containsObject :cup_60814fb1 .
+
+:bed_d6c821ce a arto:Object ;
+    rdfs:label "bed" ;
+    arto:descriptor "bed in the artwork" ;
+    arto:state "positioned in scene" ;
+    arto:material "unknown" .
+
+:main_scene arto:containsObject :bed_d6c821ce .
+
+:scissors_3de15bb5 a arto:Object ;
+    rdfs:label "scissors" ;
+    arto:descriptor "scissors in the artwork" ;
+    arto:state "positioned in scene" ;
+    arto:material "unknown" .
+
+:main_scene arto:containsObject :scissors_3de15bb5 .
+
+:toilet_97af0a52 a arto:Object ;
+    rdfs:label "toilet" ;
+    arto:descriptor "toilet in the artwork" ;
+    arto:state "positioned in scene" ;
+    arto:material "unknown" .
+
+:main_scene arto:containsObject :toilet_97af0a52 .
+
+:bird_369aaff3 a arto:Object ;
+    rdfs:label "bird" ;
+    arto:descriptor "bird in the artwork" ;
+    arto:state "positioned in scene" ;
+    arto:material "unknown" .
+
+:main_scene arto:containsObject :bird_369aaff3 .
+
+:keyboard_c0c8de92 a arto:Object ;
+    rdfs:label "keyboard" ;
+    arto:descriptor "keyboard in the artwork" ;
+    arto:state "positioned in scene" ;
+    arto:material "unknown" .
+
+:main_scene arto:containsObject :keyboard_c0c8de92 .
+
+:wine glass_40a50d0b a arto:Object ;
+    rdfs:label "wine glass" ;
+    arto:descriptor "wine glass in the artwork" ;
+    arto:state "positioned in scene" ;
+    arto:material "unknown" .
+
+:main_scene arto:containsObject :wine glass_40a50d0b .
+
+:airplane_bde2fe56 a arto:Object ;
+    rdfs:label "airplane" ;
+    arto:descriptor "airplane in the artwork" ;
+    arto:state "positioned in scene" ;
+    arto:material "unknown" .
+
+:main_scene arto:containsObject :airplane_bde2fe56 .
+
+:refrigerator_512c5b9f a arto:Object ;
+    rdfs:label "refrigerator" ;
+    arto:descriptor "refrigerator in the artwork" ;
+    arto:state "positioned in scene" ;
+    arto:material "unknown" .
+
+:main_scene arto:containsObject :refrigerator_512c5b9f .

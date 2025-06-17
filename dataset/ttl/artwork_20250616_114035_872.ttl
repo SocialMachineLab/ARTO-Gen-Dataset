@@ -1,0 +1,75 @@
+@prefix : <http://w3id.org/artwork/> .
+@prefix arto: <http://w3id.org/arto#> .
+@prefix dc: <http://purl.org/dc/terms/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix sdo: <https://schema.org/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# Generated on 2025-06-16
+
+# Artwork
+:artwork_20250616_114035_872 a arto:Painting ;
+    dc:title "Chinese Ink Painting Artwork" ;
+    dc:creator "Flux" ;
+    arto:style "Chinese Ink Painting" ;
+    dc:medium "Oil on canvas" ;
+    dc:description "Generated artwork" ;
+    dc:created "2025-06-16"^^xsd:date ;
+    sdo:height "1024px" ;
+    sdo:width "1024px" .
+
+# Scene
+:main_scene a arto:Scene ;
+    rdfs:label "main scene" ;
+    arto:descriptor "Create a Chinese Ink Painting depicting a quaint mountain village in early morning. Include a moving train with steam, parked motorcycle with a tie nearby, grazing sheep, cottage with smoking oven, an..." .
+
+:artwork_20250616_114035_872 arto:containsScene :main_scene .
+
+# Objects
+:train_c8ef5e82 a arto:Object ;
+    rdfs:label "train" ;
+    arto:descriptor "train in the artwork" ;
+    arto:state "positioned in scene" ;
+    arto:material "unknown" .
+
+:main_scene arto:containsObject :train_c8ef5e82 .
+
+:motorcycle_9a23d815 a arto:Object ;
+    rdfs:label "motorcycle" ;
+    arto:descriptor "motorcycle in the artwork" ;
+    arto:state "positioned in scene" ;
+    arto:material "unknown" .
+
+:main_scene arto:containsObject :motorcycle_9a23d815 .
+
+:tie_a613e7c7 a arto:Object ;
+    rdfs:label "tie" ;
+    arto:descriptor "tie in the artwork" ;
+    arto:state "positioned in scene" ;
+    arto:material "unknown" .
+
+:main_scene arto:containsObject :tie_a613e7c7 .
+
+:sheep_32b49789 a arto:Object ;
+    rdfs:label "sheep" ;
+    arto:descriptor "sheep in the artwork" ;
+    arto:state "positioned in scene" ;
+    arto:material "unknown" .
+
+:main_scene arto:containsObject :sheep_32b49789 .
+
+:oven_4adf49cc a arto:Object ;
+    rdfs:label "oven" ;
+    arto:descriptor "oven in the artwork" ;
+    arto:state "positioned in scene" ;
+    arto:material "unknown" .
+
+:main_scene arto:containsObject :oven_4adf49cc .
+
+:wine glass_7419fabf a arto:Object ;
+    rdfs:label "wine glass" ;
+    arto:descriptor "wine glass in the artwork" ;
+    arto:state "positioned in scene" ;
+    arto:material "unknown" .
+
+:main_scene arto:containsObject :wine glass_7419fabf .

@@ -1,0 +1,51 @@
+@prefix : <http://w3id.org/artwork/> .
+@prefix arto: <http://w3id.org/arto#> .
+@prefix dc: <http://purl.org/dc/terms/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix sdo: <https://schema.org/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# Generated on 2025-06-16
+
+# Artwork
+:artwork_20250616_060133_177 a arto:Painting ;
+    dc:title "Post-Impressionism Artwork" ;
+    dc:creator "Flux" ;
+    arto:style "Post-Impressionism" ;
+    dc:medium "Oil on canvas" ;
+    dc:description "Generated artwork" ;
+    dc:created "2025-06-16"^^xsd:date ;
+    sdo:height "1024px" ;
+    sdo:width "1024px" .
+
+# Scene
+:main_scene a arto:Scene ;
+    rdfs:label "main scene" ;
+    arto:descriptor "Post-Impressionist still life in a contemporary kitchen at evening. Central wooden dining table with textured brushstrokes and crumpled linen cloth in midground. Foreground features a half-filled red ..." .
+
+:artwork_20250616_060133_177 arto:containsScene :main_scene .
+
+# Objects
+:dining table_4f5df869 a arto:Object ;
+    rdfs:label "dining table" ;
+    arto:descriptor "dining table in the artwork" ;
+    arto:state "positioned in scene" ;
+    arto:material "unknown" .
+
+:main_scene arto:containsObject :dining table_4f5df869 .
+
+:wine glass_48ddafc6 a arto:Object ;
+    rdfs:label "wine glass" ;
+    arto:descriptor "wine glass in the artwork" ;
+    arto:state "positioned in scene" ;
+    arto:material "unknown" .
+
+:main_scene arto:containsObject :wine glass_48ddafc6 .
+
+:microwave_7aeae1de a arto:Object ;
+    rdfs:label "microwave" ;
+    arto:descriptor "microwave in the artwork" ;
+    arto:state "positioned in scene" ;
+    arto:material "unknown" .
+
+:main_scene arto:containsObject :microwave_7aeae1de .

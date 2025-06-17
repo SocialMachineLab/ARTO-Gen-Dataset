@@ -1,0 +1,91 @@
+@prefix : <http://w3id.org/artwork/> .
+@prefix arto: <http://w3id.org/arto#> .
+@prefix dc: <http://purl.org/dc/terms/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix sdo: <https://schema.org/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# Generated on 2025-06-16
+
+# Artwork
+:artwork_20250616_071021_560 a arto:Painting ;
+    dc:title "Sketch Artwork" ;
+    dc:creator "Flux" ;
+    arto:style "Sketch" ;
+    dc:medium "Oil on canvas" ;
+    dc:description "Generated artwork" ;
+    dc:created "2025-06-16"^^xsd:date ;
+    sdo:height "1024px" ;
+    sdo:width "1024px" .
+
+# Scene
+:main_scene a arto:Scene ;
+    rdfs:label "main scene" ;
+    arto:descriptor "Sketch-style still life in a cozy artist's studio: Worn wooden table holds a whole carrot, closed scissors, and empty upright vase. Knife rests in foreground with blade pointing away. Angled wooden ch..." .
+
+:artwork_20250616_071021_560 arto:containsScene :main_scene .
+
+# Objects
+:carrot_b4e59cc0 a arto:Object ;
+    rdfs:label "carrot" ;
+    arto:descriptor "carrot in the artwork" ;
+    arto:state "positioned in scene" ;
+    arto:material "unknown" .
+
+:main_scene arto:containsObject :carrot_b4e59cc0 .
+
+:bird_f30256f5 a arto:Object ;
+    rdfs:label "bird" ;
+    arto:descriptor "bird in the artwork" ;
+    arto:state "positioned in scene" ;
+    arto:material "unknown" .
+
+:main_scene arto:containsObject :bird_f30256f5 .
+
+:scissors_0c87041a a arto:Object ;
+    rdfs:label "scissors" ;
+    arto:descriptor "scissors in the artwork" ;
+    arto:state "positioned in scene" ;
+    arto:material "unknown" .
+
+:main_scene arto:containsObject :scissors_0c87041a .
+
+:knife_a36e7546 a arto:Object ;
+    rdfs:label "knife" ;
+    arto:descriptor "knife in the artwork" ;
+    arto:state "positioned in scene" ;
+    arto:material "unknown" .
+
+:main_scene arto:containsObject :knife_a36e7546 .
+
+:chair_447fdb28 a arto:Object ;
+    rdfs:label "chair" ;
+    arto:descriptor "chair in the artwork" ;
+    arto:state "positioned in scene" ;
+    arto:material "unknown" .
+
+:main_scene arto:containsObject :chair_447fdb28 .
+
+:kite_4db5c897 a arto:Object ;
+    rdfs:label "kite" ;
+    arto:descriptor "kite in the artwork" ;
+    arto:state "positioned in scene" ;
+    arto:material "unknown" .
+
+:main_scene arto:containsObject :kite_4db5c897 .
+
+:tie_6ea55989 a arto:Object ;
+    rdfs:label "tie" ;
+    arto:descriptor "tie in the artwork" ;
+    arto:state "positioned in scene" ;
+    arto:material "unknown" .
+
+:main_scene arto:containsObject :tie_6ea55989 .
+
+:vase_a47c80ee a arto:Object ;
+    rdfs:label "vase" ;
+    arto:descriptor "vase in the artwork" ;
+    arto:state "positioned in scene" ;
+    arto:material "unknown" .
+
+:main_scene arto:containsObject :vase_a47c80ee .

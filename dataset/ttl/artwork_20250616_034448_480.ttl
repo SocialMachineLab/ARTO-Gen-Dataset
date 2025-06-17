@@ -1,0 +1,51 @@
+@prefix : <http://w3id.org/artwork/> .
+@prefix arto: <http://w3id.org/arto#> .
+@prefix dc: <http://purl.org/dc/terms/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix sdo: <https://schema.org/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# Generated on 2025-06-16
+
+# Artwork
+:artwork_20250616_034448_480 a arto:Painting ;
+    dc:title "Photorealistic Artwork" ;
+    dc:creator "Flux" ;
+    arto:style "Photorealistic" ;
+    dc:medium "Oil on canvas" ;
+    dc:description "Generated artwork" ;
+    dc:created "2025-06-16"^^xsd:date ;
+    sdo:height "1024px" ;
+    sdo:width "1024px" .
+
+# Scene
+:main_scene a arto:Scene ;
+    rdfs:label "main scene" ;
+    arto:descriptor "Photorealistic genre scene capturing urban isolation at dusk. Foreground: scuffed partially unzipped backpack with dangling strap beside a translucent plastic water bottle showing condensation, placed..." .
+
+:artwork_20250616_034448_480 arto:containsScene :main_scene .
+
+# Objects
+:traffic light_9887f9dd a arto:Object ;
+    rdfs:label "traffic light" ;
+    arto:descriptor "traffic light in the artwork" ;
+    arto:state "positioned in scene" ;
+    arto:material "unknown" .
+
+:main_scene arto:containsObject :traffic light_9887f9dd .
+
+:backpack_b5af7d78 a arto:Object ;
+    rdfs:label "backpack" ;
+    arto:descriptor "backpack in the artwork" ;
+    arto:state "positioned in scene" ;
+    arto:material "unknown" .
+
+:main_scene arto:containsObject :backpack_b5af7d78 .
+
+:bottle_01341f87 a arto:Object ;
+    rdfs:label "bottle" ;
+    arto:descriptor "bottle in the artwork" ;
+    arto:state "positioned in scene" ;
+    arto:material "unknown" .
+
+:main_scene arto:containsObject :bottle_01341f87 .

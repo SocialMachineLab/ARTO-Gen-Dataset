@@ -1,0 +1,59 @@
+@prefix : <http://w3id.org/artwork/> .
+@prefix arto: <http://w3id.org/arto#> .
+@prefix dc: <http://purl.org/dc/terms/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix sdo: <https://schema.org/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# Generated on 2025-06-16
+
+# Artwork
+:artwork_20250616_082159_647 a arto:Painting ;
+    dc:title "Sketch Artwork" ;
+    dc:creator "Flux" ;
+    arto:style "Sketch" ;
+    dc:medium "Oil on canvas" ;
+    dc:description "Generated artwork" ;
+    dc:created "2025-06-16"^^xsd:date ;
+    sdo:height "1024px" ;
+    sdo:width "1024px" .
+
+# Scene
+:main_scene a arto:Scene ;
+    rdfs:label "main scene" ;
+    arto:descriptor "A still life sketch in an artist's studio featuring an open baseball glove cradling a ceramic cup in its pocket, with whole broccoli standing upright behind it, and a tilted miniature toy bus position..." .
+
+:artwork_20250616_082159_647 arto:containsScene :main_scene .
+
+# Objects
+:baseball glove_1d466323 a arto:Object ;
+    rdfs:label "baseball glove" ;
+    arto:descriptor "baseball glove in the artwork" ;
+    arto:state "positioned in scene" ;
+    arto:material "unknown" .
+
+:main_scene arto:containsObject :baseball glove_1d466323 .
+
+:bus_a2c7e463 a arto:Object ;
+    rdfs:label "bus" ;
+    arto:descriptor "bus in the artwork" ;
+    arto:state "positioned in scene" ;
+    arto:material "unknown" .
+
+:main_scene arto:containsObject :bus_a2c7e463 .
+
+:cup_c955900a a arto:Object ;
+    rdfs:label "cup" ;
+    arto:descriptor "cup in the artwork" ;
+    arto:state "positioned in scene" ;
+    arto:material "unknown" .
+
+:main_scene arto:containsObject :cup_c955900a .
+
+:broccoli_1da7f323 a arto:Object ;
+    rdfs:label "broccoli" ;
+    arto:descriptor "broccoli in the artwork" ;
+    arto:state "positioned in scene" ;
+    arto:material "unknown" .
+
+:main_scene arto:containsObject :broccoli_1da7f323 .

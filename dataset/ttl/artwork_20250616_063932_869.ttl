@@ -1,0 +1,99 @@
+@prefix : <http://w3id.org/artwork/> .
+@prefix arto: <http://w3id.org/arto#> .
+@prefix dc: <http://purl.org/dc/terms/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix sdo: <https://schema.org/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# Generated on 2025-06-16
+
+# Artwork
+:artwork_20250616_063932_869 a arto:Painting ;
+    dc:title "Post-Impressionism Artwork" ;
+    dc:creator "Flux" ;
+    arto:style "Post-Impressionism" ;
+    dc:medium "Oil on canvas" ;
+    dc:description "Generated artwork" ;
+    dc:created "2025-06-16"^^xsd:date ;
+    sdo:height "1024px" ;
+    sdo:width "1024px" .
+
+# Scene
+:main_scene a arto:Scene ;
+    rdfs:label "main scene" ;
+    arto:descriptor "Post-Impressionism painting of a sunlit residential street corner at golden hour. Foreground: chipped crimson fire hydrant with perched sparrow beside overflowing emerald potted plant in terracotta po..." .
+
+:artwork_20250616_063932_869 arto:containsScene :main_scene .
+
+# Objects
+:clock_b3fed9cb a arto:Object ;
+    rdfs:label "clock" ;
+    arto:descriptor "clock in the artwork" ;
+    arto:state "positioned in scene" ;
+    arto:material "unknown" .
+
+:main_scene arto:containsObject :clock_b3fed9cb .
+
+:fire hydrant_3ef8571e a arto:Object ;
+    rdfs:label "fire hydrant" ;
+    arto:descriptor "fire hydrant in the artwork" ;
+    arto:state "positioned in scene" ;
+    arto:material "unknown" .
+
+:main_scene arto:containsObject :fire hydrant_3ef8571e .
+
+:kite_85bc5f69 a arto:Object ;
+    rdfs:label "kite" ;
+    arto:descriptor "kite in the artwork" ;
+    arto:state "positioned in scene" ;
+    arto:material "unknown" .
+
+:main_scene arto:containsObject :kite_85bc5f69 .
+
+:potted plant_0b89efc6 a arto:Object ;
+    rdfs:label "potted plant" ;
+    arto:descriptor "potted plant in the artwork" ;
+    arto:state "positioned in scene" ;
+    arto:material "unknown" .
+
+:main_scene arto:containsObject :potted plant_0b89efc6 .
+
+:cake_4f2e6068 a arto:Object ;
+    rdfs:label "cake" ;
+    arto:descriptor "cake in the artwork" ;
+    arto:state "positioned in scene" ;
+    arto:material "unknown" .
+
+:main_scene arto:containsObject :cake_4f2e6068 .
+
+:car_01c70506 a arto:Object ;
+    rdfs:label "car" ;
+    arto:descriptor "car in the artwork" ;
+    arto:state "positioned in scene" ;
+    arto:material "unknown" .
+
+:main_scene arto:containsObject :car_01c70506 .
+
+:cup_39b68e6b a arto:Object ;
+    rdfs:label "cup" ;
+    arto:descriptor "cup in the artwork" ;
+    arto:state "positioned in scene" ;
+    arto:material "unknown" .
+
+:main_scene arto:containsObject :cup_39b68e6b .
+
+:bird_2d7bc82d a arto:Object ;
+    rdfs:label "bird" ;
+    arto:descriptor "bird in the artwork" ;
+    arto:state "positioned in scene" ;
+    arto:material "unknown" .
+
+:main_scene arto:containsObject :bird_2d7bc82d .
+
+:bottle_da447597 a arto:Object ;
+    rdfs:label "bottle" ;
+    arto:descriptor "bottle in the artwork" ;
+    arto:state "positioned in scene" ;
+    arto:material "unknown" .
+
+:main_scene arto:containsObject :bottle_da447597 .

@@ -1,0 +1,59 @@
+@prefix : <http://w3id.org/artwork/> .
+@prefix arto: <http://w3id.org/arto#> .
+@prefix dc: <http://purl.org/dc/terms/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix sdo: <https://schema.org/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# Generated on 2025-06-16
+
+# Artwork
+:artwork_20250616_063122_501 a arto:Painting ;
+    dc:title "Sketch Artwork" ;
+    dc:creator "Flux" ;
+    arto:style "Sketch" ;
+    dc:medium "Oil on canvas" ;
+    dc:description "Generated artwork" ;
+    dc:created "2025-06-16"^^xsd:date ;
+    sdo:height "1024px" ;
+    sdo:width "1024px" .
+
+# Scene
+:main_scene a arto:Scene ;
+    rdfs:label "main scene" ;
+    arto:descriptor "A coastal beach parking lot sketch at late afternoon, soft side-lighting. Midground: slightly worn pickup truck parked with tailgate down, surfboard leaning against it showing wax texture. Nearby, wea..." .
+
+:artwork_20250616_063122_501 arto:containsScene :main_scene .
+
+# Objects
+:truck_ac0f266f a arto:Object ;
+    rdfs:label "truck" ;
+    arto:descriptor "truck in the artwork" ;
+    arto:state "positioned in scene" ;
+    arto:material "unknown" .
+
+:main_scene arto:containsObject :truck_ac0f266f .
+
+:surfboard_46730201 a arto:Object ;
+    rdfs:label "surfboard" ;
+    arto:descriptor "surfboard in the artwork" ;
+    arto:state "positioned in scene" ;
+    arto:material "unknown" .
+
+:main_scene arto:containsObject :surfboard_46730201 .
+
+:spoon_923debc4 a arto:Object ;
+    rdfs:label "spoon" ;
+    arto:descriptor "spoon in the artwork" ;
+    arto:state "positioned in scene" ;
+    arto:material "unknown" .
+
+:main_scene arto:containsObject :spoon_923debc4 .
+
+:bench_b957f19e a arto:Object ;
+    rdfs:label "bench" ;
+    arto:descriptor "bench in the artwork" ;
+    arto:state "positioned in scene" ;
+    arto:material "unknown" .
+
+:main_scene arto:containsObject :bench_b957f19e .

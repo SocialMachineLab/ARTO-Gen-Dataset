@@ -1,0 +1,99 @@
+@prefix : <http://w3id.org/artwork/> .
+@prefix arto: <http://w3id.org/arto#> .
+@prefix dc: <http://purl.org/dc/terms/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix sdo: <https://schema.org/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# Generated on 2025-06-16
+
+# Artwork
+:artwork_20250616_063445_711 a arto:Painting ;
+    dc:title "Oil Painting Artwork" ;
+    dc:creator "Flux" ;
+    arto:style "Oil Painting" ;
+    dc:medium "Oil on canvas" ;
+    dc:description "Generated artwork" ;
+    dc:created "2025-06-16"^^xsd:date ;
+    sdo:height "1024px" ;
+    sdo:width "1024px" .
+
+# Scene
+:main_scene a arto:Scene ;
+    rdfs:label "main scene" ;
+    arto:descriptor "Create a warm and inviting still life oil painting of a contemporary study. Arrange the objects in a triangular composition: toaster centrally, book beside it, remote nearby; cow statue and cat in mid..." .
+
+:artwork_20250616_063445_711 arto:containsScene :main_scene .
+
+# Objects
+:airplane_73caf2e2 a arto:Object ;
+    rdfs:label "airplane" ;
+    arto:descriptor "airplane in the artwork" ;
+    arto:state "positioned in scene" ;
+    arto:material "unknown" .
+
+:main_scene arto:containsObject :airplane_73caf2e2 .
+
+:remote_6d584819 a arto:Object ;
+    rdfs:label "remote" ;
+    arto:descriptor "remote in the artwork" ;
+    arto:state "positioned in scene" ;
+    arto:material "unknown" .
+
+:main_scene arto:containsObject :remote_6d584819 .
+
+:surfboard_26477d89 a arto:Object ;
+    rdfs:label "surfboard" ;
+    arto:descriptor "surfboard in the artwork" ;
+    arto:state "positioned in scene" ;
+    arto:material "unknown" .
+
+:main_scene arto:containsObject :surfboard_26477d89 .
+
+:boat_60123cc5 a arto:Object ;
+    rdfs:label "boat" ;
+    arto:descriptor "boat in the artwork" ;
+    arto:state "positioned in scene" ;
+    arto:material "unknown" .
+
+:main_scene arto:containsObject :boat_60123cc5 .
+
+:book_be9d6315 a arto:Object ;
+    rdfs:label "book" ;
+    arto:descriptor "book in the artwork" ;
+    arto:state "positioned in scene" ;
+    arto:material "unknown" .
+
+:main_scene arto:containsObject :book_be9d6315 .
+
+:toaster_4b9cfa4f a arto:Object ;
+    rdfs:label "toaster" ;
+    arto:descriptor "toaster in the artwork" ;
+    arto:state "positioned in scene" ;
+    arto:material "unknown" .
+
+:main_scene arto:containsObject :toaster_4b9cfa4f .
+
+:skis_53c617e6 a arto:Object ;
+    rdfs:label "skis" ;
+    arto:descriptor "skis in the artwork" ;
+    arto:state "positioned in scene" ;
+    arto:material "unknown" .
+
+:main_scene arto:containsObject :skis_53c617e6 .
+
+:cow_b35f937a a arto:Object ;
+    rdfs:label "cow" ;
+    arto:descriptor "cow in the artwork" ;
+    arto:state "positioned in scene" ;
+    arto:material "unknown" .
+
+:main_scene arto:containsObject :cow_b35f937a .
+
+:cat_dfad52a2 a arto:Object ;
+    rdfs:label "cat" ;
+    arto:descriptor "cat in the artwork" ;
+    arto:state "positioned in scene" ;
+    arto:material "unknown" .
+
+:main_scene arto:containsObject :cat_dfad52a2 .

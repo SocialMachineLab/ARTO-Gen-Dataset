@@ -1,0 +1,99 @@
+@prefix : <http://w3id.org/artwork/> .
+@prefix arto: <http://w3id.org/arto#> .
+@prefix dc: <http://purl.org/dc/terms/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix sdo: <https://schema.org/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# Generated on 2025-06-16
+
+# Artwork
+:artwork_20250616_065817_416 a arto:Painting ;
+    dc:title "Oil Painting Artwork" ;
+    dc:creator "Flux" ;
+    arto:style "Oil Painting" ;
+    dc:medium "Oil on canvas" ;
+    dc:description "Generated artwork" ;
+    dc:created "2025-06-16"^^xsd:date ;
+    sdo:height "1024px" ;
+    sdo:width "1024px" .
+
+# Scene
+:main_scene a arto:Scene ;
+    rdfs:label "main scene" ;
+    arto:descriptor "Surreal oil painting of a cluttered garage at night. Concrete floor with scattered tools and paint cans, unfinished wooden walls partially dissolving into a starry night sky. Dramatic cool side-lighti..." .
+
+:artwork_20250616_065817_416 arto:containsScene :main_scene .
+
+# Objects
+:chair_41c36226 a arto:Object ;
+    rdfs:label "chair" ;
+    arto:descriptor "chair in the artwork" ;
+    arto:state "positioned in scene" ;
+    arto:material "unknown" .
+
+:main_scene arto:containsObject :chair_41c36226 .
+
+:refrigerator_1619427a a arto:Object ;
+    rdfs:label "refrigerator" ;
+    arto:descriptor "refrigerator in the artwork" ;
+    arto:state "positioned in scene" ;
+    arto:material "unknown" .
+
+:main_scene arto:containsObject :refrigerator_1619427a .
+
+:stop sign_5f1a412b a arto:Object ;
+    rdfs:label "stop sign" ;
+    arto:descriptor "stop sign in the artwork" ;
+    arto:state "positioned in scene" ;
+    arto:material "unknown" .
+
+:main_scene arto:containsObject :stop sign_5f1a412b .
+
+:clock_b3012ef7 a arto:Object ;
+    rdfs:label "clock" ;
+    arto:descriptor "clock in the artwork" ;
+    arto:state "positioned in scene" ;
+    arto:material "unknown" .
+
+:main_scene arto:containsObject :clock_b3012ef7 .
+
+:banana_b00b73b3 a arto:Object ;
+    rdfs:label "banana" ;
+    arto:descriptor "banana in the artwork" ;
+    arto:state "positioned in scene" ;
+    arto:material "unknown" .
+
+:main_scene arto:containsObject :banana_b00b73b3 .
+
+:book_f5196691 a arto:Object ;
+    rdfs:label "book" ;
+    arto:descriptor "book in the artwork" ;
+    arto:state "positioned in scene" ;
+    arto:material "unknown" .
+
+:main_scene arto:containsObject :book_f5196691 .
+
+:mouse_b1d5fb32 a arto:Object ;
+    rdfs:label "mouse" ;
+    arto:descriptor "mouse in the artwork" ;
+    arto:state "positioned in scene" ;
+    arto:material "unknown" .
+
+:main_scene arto:containsObject :mouse_b1d5fb32 .
+
+:tie_90dadfd7 a arto:Object ;
+    rdfs:label "tie" ;
+    arto:descriptor "tie in the artwork" ;
+    arto:state "positioned in scene" ;
+    arto:material "unknown" .
+
+:main_scene arto:containsObject :tie_90dadfd7 .
+
+:surfboard_33a6037d a arto:Object ;
+    rdfs:label "surfboard" ;
+    arto:descriptor "surfboard in the artwork" ;
+    arto:state "positioned in scene" ;
+    arto:material "unknown" .
+
+:main_scene arto:containsObject :surfboard_33a6037d .

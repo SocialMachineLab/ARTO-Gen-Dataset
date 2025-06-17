@@ -1,0 +1,99 @@
+@prefix : <http://w3id.org/artwork/> .
+@prefix arto: <http://w3id.org/arto#> .
+@prefix dc: <http://purl.org/dc/terms/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix sdo: <https://schema.org/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# Generated on 2025-06-16
+
+# Artwork
+:artwork_20250616_040858_804 a arto:Painting ;
+    dc:title "Post-Impressionism Artwork" ;
+    dc:creator "Flux" ;
+    arto:style "Post-Impressionism" ;
+    dc:medium "Oil on canvas" ;
+    dc:description "Generated artwork" ;
+    dc:created "2025-06-16"^^xsd:date ;
+    sdo:height "1024px" ;
+    sdo:width "1024px" .
+
+# Scene
+:main_scene a arto:Scene ;
+    rdfs:label "main scene" ;
+    arto:descriptor "Post-Impressionist still life in a sunlit living room: Central ceramic bowl holding a textured orange and gleaming red apple on a wooden table. An open book with splayed pages supports a diagonal hair..." .
+
+:artwork_20250616_040858_804 arto:containsScene :main_scene .
+
+# Objects
+:book_36e1e0b9 a arto:Object ;
+    rdfs:label "book" ;
+    arto:descriptor "book in the artwork" ;
+    arto:state "positioned in scene" ;
+    arto:material "unknown" .
+
+:main_scene arto:containsObject :book_36e1e0b9 .
+
+:train_47691218 a arto:Object ;
+    rdfs:label "train" ;
+    arto:descriptor "train in the artwork" ;
+    arto:state "positioned in scene" ;
+    arto:material "unknown" .
+
+:main_scene arto:containsObject :train_47691218 .
+
+:chair_c652f6df a arto:Object ;
+    rdfs:label "chair" ;
+    arto:descriptor "chair in the artwork" ;
+    arto:state "positioned in scene" ;
+    arto:material "unknown" .
+
+:main_scene arto:containsObject :chair_c652f6df .
+
+:orange_e5c19ae9 a arto:Object ;
+    rdfs:label "orange" ;
+    arto:descriptor "orange in the artwork" ;
+    arto:state "positioned in scene" ;
+    arto:material "unknown" .
+
+:main_scene arto:containsObject :orange_e5c19ae9 .
+
+:bowl_e613964c a arto:Object ;
+    rdfs:label "bowl" ;
+    arto:descriptor "bowl in the artwork" ;
+    arto:state "positioned in scene" ;
+    arto:material "unknown" .
+
+:main_scene arto:containsObject :bowl_e613964c .
+
+:laptop_cda63812 a arto:Object ;
+    rdfs:label "laptop" ;
+    arto:descriptor "laptop in the artwork" ;
+    arto:state "positioned in scene" ;
+    arto:material "unknown" .
+
+:main_scene arto:containsObject :laptop_cda63812 .
+
+:hair drier_d112e3c6 a arto:Object ;
+    rdfs:label "hair drier" ;
+    arto:descriptor "hair drier in the artwork" ;
+    arto:state "positioned in scene" ;
+    arto:material "unknown" .
+
+:main_scene arto:containsObject :hair drier_d112e3c6 .
+
+:apple_f4534a26 a arto:Object ;
+    rdfs:label "apple" ;
+    arto:descriptor "apple in the artwork" ;
+    arto:state "positioned in scene" ;
+    arto:material "unknown" .
+
+:main_scene arto:containsObject :apple_f4534a26 .
+
+:bird_ef29ba30 a arto:Object ;
+    rdfs:label "bird" ;
+    arto:descriptor "bird in the artwork" ;
+    arto:state "positioned in scene" ;
+    arto:material "unknown" .
+
+:main_scene arto:containsObject :bird_ef29ba30 .

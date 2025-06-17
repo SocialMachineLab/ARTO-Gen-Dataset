@@ -1,0 +1,99 @@
+@prefix : <http://w3id.org/artwork/> .
+@prefix arto: <http://w3id.org/arto#> .
+@prefix dc: <http://purl.org/dc/terms/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix sdo: <https://schema.org/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# Generated on 2025-06-16
+
+# Artwork
+:artwork_20250616_064633_607 a arto:Painting ;
+    dc:title "Post-Impressionism Artwork" ;
+    dc:creator "Flux" ;
+    arto:style "Post-Impressionism" ;
+    dc:medium "Oil on canvas" ;
+    dc:description "Generated artwork" ;
+    dc:created "2025-06-16"^^xsd:date ;
+    sdo:height "1024px" ;
+    sdo:width "1024px" .
+
+# Scene
+:main_scene a arto:Scene ;
+    rdfs:label "main scene" ;
+    arto:descriptor "Post-Impressionist genre scene in a sunlit meadow blending seamlessly into a bedroom interior. Two sheep graze peacefully near an unmade bed where three donuts are stacked like pillows. A vintage car ..." .
+
+:artwork_20250616_064633_607 arto:containsScene :main_scene .
+
+# Objects
+:sheep_90751726 a arto:Object ;
+    rdfs:label "sheep" ;
+    arto:descriptor "sheep in the artwork" ;
+    arto:state "positioned in scene" ;
+    arto:material "unknown" .
+
+:main_scene arto:containsObject :sheep_90751726 .
+
+:bed_94e971a1 a arto:Object ;
+    rdfs:label "bed" ;
+    arto:descriptor "bed in the artwork" ;
+    arto:state "positioned in scene" ;
+    arto:material "unknown" .
+
+:main_scene arto:containsObject :bed_94e971a1 .
+
+:car_a8d3e7dd a arto:Object ;
+    rdfs:label "car" ;
+    arto:descriptor "car in the artwork" ;
+    arto:state "positioned in scene" ;
+    arto:material "unknown" .
+
+:main_scene arto:containsObject :car_a8d3e7dd .
+
+:donut_9117adf1 a arto:Object ;
+    rdfs:label "donut" ;
+    arto:descriptor "donut in the artwork" ;
+    arto:state "positioned in scene" ;
+    arto:material "unknown" .
+
+:main_scene arto:containsObject :donut_9117adf1 .
+
+:backpack_1eba8cf5 a arto:Object ;
+    rdfs:label "backpack" ;
+    arto:descriptor "backpack in the artwork" ;
+    arto:state "positioned in scene" ;
+    arto:material "unknown" .
+
+:main_scene arto:containsObject :backpack_1eba8cf5 .
+
+:horse_142d9539 a arto:Object ;
+    rdfs:label "horse" ;
+    arto:descriptor "horse in the artwork" ;
+    arto:state "positioned in scene" ;
+    arto:material "unknown" .
+
+:main_scene arto:containsObject :horse_142d9539 .
+
+:orange_a9c192a3 a arto:Object ;
+    rdfs:label "orange" ;
+    arto:descriptor "orange in the artwork" ;
+    arto:state "positioned in scene" ;
+    arto:material "unknown" .
+
+:main_scene arto:containsObject :orange_a9c192a3 .
+
+:umbrella_fff78e77 a arto:Object ;
+    rdfs:label "umbrella" ;
+    arto:descriptor "umbrella in the artwork" ;
+    arto:state "positioned in scene" ;
+    arto:material "unknown" .
+
+:main_scene arto:containsObject :umbrella_fff78e77 .
+
+:keyboard_6f6d3171 a arto:Object ;
+    rdfs:label "keyboard" ;
+    arto:descriptor "keyboard in the artwork" ;
+    arto:state "positioned in scene" ;
+    arto:material "unknown" .
+
+:main_scene arto:containsObject :keyboard_6f6d3171 .

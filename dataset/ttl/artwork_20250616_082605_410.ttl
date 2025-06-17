@@ -1,0 +1,83 @@
+@prefix : <http://w3id.org/artwork/> .
+@prefix arto: <http://w3id.org/arto#> .
+@prefix dc: <http://purl.org/dc/terms/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix sdo: <https://schema.org/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# Generated on 2025-06-16
+
+# Artwork
+:artwork_20250616_082605_410 a arto:Painting ;
+    dc:title "Sketch Artwork" ;
+    dc:creator "Flux" ;
+    arto:style "Sketch" ;
+    dc:medium "Oil on canvas" ;
+    dc:description "Generated artwork" ;
+    dc:created "2025-06-16"^^xsd:date ;
+    sdo:height "1024px" ;
+    sdo:width "1024px" .
+
+# Scene
+:main_scene a arto:Scene ;
+    rdfs:label "main scene" ;
+    arto:descriptor "Sketch-style illustration of a cozy contemporary kitchen in afternoon light. A person in casual clothes sits relaxed on a wooden chair, gazing at an unfrosted cake with one slice missing on a table. N..." .
+
+:artwork_20250616_082605_410 arto:containsScene :main_scene .
+
+# Objects
+:cake_686537b6 a arto:Object ;
+    rdfs:label "cake" ;
+    arto:descriptor "cake in the artwork" ;
+    arto:state "positioned in scene" ;
+    arto:material "unknown" .
+
+:main_scene arto:containsObject :cake_686537b6 .
+
+:vase_99e83c54 a arto:Object ;
+    rdfs:label "vase" ;
+    arto:descriptor "vase in the artwork" ;
+    arto:state "positioned in scene" ;
+    arto:material "unknown" .
+
+:main_scene arto:containsObject :vase_99e83c54 .
+
+:person_f5202339 a arto:Object ;
+    rdfs:label "person" ;
+    arto:descriptor "person in the artwork" ;
+    arto:state "positioned in scene" ;
+    arto:material "unknown" .
+
+:main_scene arto:containsObject :person_f5202339 .
+
+:baseball glove_cf615fee a arto:Object ;
+    rdfs:label "baseball glove" ;
+    arto:descriptor "baseball glove in the artwork" ;
+    arto:state "positioned in scene" ;
+    arto:material "unknown" .
+
+:main_scene arto:containsObject :baseball glove_cf615fee .
+
+:backpack_013f4954 a arto:Object ;
+    rdfs:label "backpack" ;
+    arto:descriptor "backpack in the artwork" ;
+    arto:state "positioned in scene" ;
+    arto:material "unknown" .
+
+:main_scene arto:containsObject :backpack_013f4954 .
+
+:chair_de0d42e2 a arto:Object ;
+    rdfs:label "chair" ;
+    arto:descriptor "chair in the artwork" ;
+    arto:state "positioned in scene" ;
+    arto:material "unknown" .
+
+:main_scene arto:containsObject :chair_de0d42e2 .
+
+:frisbee_1c36ea4b a arto:Object ;
+    rdfs:label "frisbee" ;
+    arto:descriptor "frisbee in the artwork" ;
+    arto:state "positioned in scene" ;
+    arto:material "unknown" .
+
+:main_scene arto:containsObject :frisbee_1c36ea4b .

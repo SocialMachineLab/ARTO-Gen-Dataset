@@ -1,0 +1,67 @@
+@prefix : <http://w3id.org/artwork/> .
+@prefix arto: <http://w3id.org/arto#> .
+@prefix dc: <http://purl.org/dc/terms/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix sdo: <https://schema.org/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# Generated on 2025-06-16
+
+# Artwork
+:artwork_20250616_043148_102 a arto:Painting ;
+    dc:title "Photorealistic Artwork" ;
+    dc:creator "Flux" ;
+    arto:style "Photorealistic" ;
+    dc:medium "Oil on canvas" ;
+    dc:description "Generated artwork" ;
+    dc:created "2025-06-16"^^xsd:date ;
+    sdo:height "1024px" ;
+    sdo:width "1024px" .
+
+# Scene
+:main_scene a arto:Scene ;
+    rdfs:label "main scene" ;
+    arto:descriptor "A photorealistic still life composition set in a modern mountain cabin. A snowboard lies diagonally across a sturdy wooden dining table, while a hair dryer, plugged in, is aimed at a spoon resting on ..." .
+
+:artwork_20250616_043148_102 arto:containsScene :main_scene .
+
+# Objects
+:snowboard_f02a37c6 a arto:Object ;
+    rdfs:label "snowboard" ;
+    arto:descriptor "snowboard in the artwork" ;
+    arto:state "positioned in scene" ;
+    arto:material "unknown" .
+
+:main_scene arto:containsObject :snowboard_f02a37c6 .
+
+:hair drier_02c0de5b a arto:Object ;
+    rdfs:label "hair drier" ;
+    arto:descriptor "hair drier in the artwork" ;
+    arto:state "positioned in scene" ;
+    arto:material "unknown" .
+
+:main_scene arto:containsObject :hair drier_02c0de5b .
+
+:laptop_208ffe09 a arto:Object ;
+    rdfs:label "laptop" ;
+    arto:descriptor "laptop in the artwork" ;
+    arto:state "positioned in scene" ;
+    arto:material "unknown" .
+
+:main_scene arto:containsObject :laptop_208ffe09 .
+
+:spoon_3ad723c9 a arto:Object ;
+    rdfs:label "spoon" ;
+    arto:descriptor "spoon in the artwork" ;
+    arto:state "positioned in scene" ;
+    arto:material "unknown" .
+
+:main_scene arto:containsObject :spoon_3ad723c9 .
+
+:dining table_efa542c0 a arto:Object ;
+    rdfs:label "dining table" ;
+    arto:descriptor "dining table in the artwork" ;
+    arto:state "positioned in scene" ;
+    arto:material "unknown" .
+
+:main_scene arto:containsObject :dining table_efa542c0 .

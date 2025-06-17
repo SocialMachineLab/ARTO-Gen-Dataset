@@ -1,0 +1,43 @@
+@prefix : <http://w3id.org/artwork/> .
+@prefix arto: <http://w3id.org/arto#> .
+@prefix dc: <http://purl.org/dc/terms/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix sdo: <https://schema.org/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# Generated on 2025-06-16
+
+# Artwork
+:artwork_20250616_030750_686 a arto:Painting ;
+    dc:title "Post-Impressionism Artwork" ;
+    dc:creator "Flux" ;
+    arto:style "Post-Impressionism" ;
+    dc:medium "Oil on canvas" ;
+    dc:description "Generated artwork" ;
+    dc:created "2025-06-16"^^xsd:date ;
+    sdo:height "1024px" ;
+    sdo:width "1024px" .
+
+# Scene
+:main_scene a arto:Scene ;
+    rdfs:label "main scene" ;
+    arto:descriptor "Post-Impressionist still life painting featuring an empty ceramic bowl with textured brushstrokes centered on a rustic wooden table, and a partially unzipped backpack resting against the table leg on ..." .
+
+:artwork_20250616_030750_686 arto:containsScene :main_scene .
+
+# Objects
+:bowl_daa4ffa5 a arto:Object ;
+    rdfs:label "bowl" ;
+    arto:descriptor "bowl in the artwork" ;
+    arto:state "positioned in scene" ;
+    arto:material "unknown" .
+
+:main_scene arto:containsObject :bowl_daa4ffa5 .
+
+:backpack_4a302adf a arto:Object ;
+    rdfs:label "backpack" ;
+    arto:descriptor "backpack in the artwork" ;
+    arto:state "positioned in scene" ;
+    arto:material "unknown" .
+
+:main_scene arto:containsObject :backpack_4a302adf .

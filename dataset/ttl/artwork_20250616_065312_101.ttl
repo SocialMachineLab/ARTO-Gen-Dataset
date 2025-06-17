@@ -1,0 +1,83 @@
+@prefix : <http://w3id.org/artwork/> .
+@prefix arto: <http://w3id.org/arto#> .
+@prefix dc: <http://purl.org/dc/terms/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix sdo: <https://schema.org/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# Generated on 2025-06-16
+
+# Artwork
+:artwork_20250616_065312_101 a arto:Painting ;
+    dc:title "Oil Painting Artwork" ;
+    dc:creator "Flux" ;
+    arto:style "Oil Painting" ;
+    dc:medium "Oil on canvas" ;
+    dc:description "Generated artwork" ;
+    dc:created "2025-06-16"^^xsd:date ;
+    sdo:height "1024px" ;
+    sdo:width "1024px" .
+
+# Scene
+:main_scene a arto:Scene ;
+    rdfs:label "main scene" ;
+    arto:descriptor "Oil painting of a surreal genre scene: A dimly lit room with peeling wallpaper features a porcelain sink (foreground, water droplets mid-fall) beside an old CRT TV showing abstract static. Midground h..." .
+
+:artwork_20250616_065312_101 arto:containsScene :main_scene .
+
+# Objects
+:sink_d7d177c1 a arto:Object ;
+    rdfs:label "sink" ;
+    arto:descriptor "sink in the artwork" ;
+    arto:state "positioned in scene" ;
+    arto:material "unknown" .
+
+:main_scene arto:containsObject :sink_d7d177c1 .
+
+:suitcase_114ce65c a arto:Object ;
+    rdfs:label "suitcase" ;
+    arto:descriptor "suitcase in the artwork" ;
+    arto:state "positioned in scene" ;
+    arto:material "unknown" .
+
+:main_scene arto:containsObject :suitcase_114ce65c .
+
+:umbrella_778ccccb a arto:Object ;
+    rdfs:label "umbrella" ;
+    arto:descriptor "umbrella in the artwork" ;
+    arto:state "positioned in scene" ;
+    arto:material "unknown" .
+
+:main_scene arto:containsObject :umbrella_778ccccb .
+
+:kite_51894452 a arto:Object ;
+    rdfs:label "kite" ;
+    arto:descriptor "kite in the artwork" ;
+    arto:state "positioned in scene" ;
+    arto:material "unknown" .
+
+:main_scene arto:containsObject :kite_51894452 .
+
+:tv_404f46d1 a arto:Object ;
+    rdfs:label "tv" ;
+    arto:descriptor "tv in the artwork" ;
+    arto:state "positioned in scene" ;
+    arto:material "unknown" .
+
+:main_scene arto:containsObject :tv_404f46d1 .
+
+:traffic light_9fc3a562 a arto:Object ;
+    rdfs:label "traffic light" ;
+    arto:descriptor "traffic light in the artwork" ;
+    arto:state "positioned in scene" ;
+    arto:material "unknown" .
+
+:main_scene arto:containsObject :traffic light_9fc3a562 .
+
+:car_64ebbf49 a arto:Object ;
+    rdfs:label "car" ;
+    arto:descriptor "car in the artwork" ;
+    arto:state "positioned in scene" ;
+    arto:material "unknown" .
+
+:main_scene arto:containsObject :car_64ebbf49 .

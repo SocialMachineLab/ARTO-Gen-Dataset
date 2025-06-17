@@ -1,0 +1,91 @@
+@prefix : <http://w3id.org/artwork/> .
+@prefix arto: <http://w3id.org/arto#> .
+@prefix dc: <http://purl.org/dc/terms/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix sdo: <https://schema.org/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# Generated on 2025-06-16
+
+# Artwork
+:artwork_20250616_045557_813 a arto:Painting ;
+    dc:title "Oil Painting Artwork" ;
+    dc:creator "Flux" ;
+    arto:style "Oil Painting" ;
+    dc:medium "Oil on canvas" ;
+    dc:description "Generated artwork" ;
+    dc:created "2025-06-16"^^xsd:date ;
+    sdo:height "1024px" ;
+    sdo:width "1024px" .
+
+# Scene
+:main_scene a arto:Scene ;
+    rdfs:label "main scene" ;
+    arto:descriptor "Oil painting of a contemporary cluttered living room during cloudy afternoon. Side-lit dramatic warm lighting illuminates: 1) Foreground: cracked cell phone glowing with notification 2) Midground: cat..." .
+
+:artwork_20250616_045557_813 arto:containsScene :main_scene .
+
+# Objects
+:cat_f39229b9 a arto:Object ;
+    rdfs:label "cat" ;
+    arto:descriptor "cat in the artwork" ;
+    arto:state "positioned in scene" ;
+    arto:material "unknown" .
+
+:main_scene arto:containsObject :cat_f39229b9 .
+
+:kite_3eb1be57 a arto:Object ;
+    rdfs:label "kite" ;
+    arto:descriptor "kite in the artwork" ;
+    arto:state "positioned in scene" ;
+    arto:material "unknown" .
+
+:main_scene arto:containsObject :kite_3eb1be57 .
+
+:traffic light_c1b1b2f6 a arto:Object ;
+    rdfs:label "traffic light" ;
+    arto:descriptor "traffic light in the artwork" ;
+    arto:state "positioned in scene" ;
+    arto:material "unknown" .
+
+:main_scene arto:containsObject :traffic light_c1b1b2f6 .
+
+:cell phone_408b109d a arto:Object ;
+    rdfs:label "cell phone" ;
+    arto:descriptor "cell phone in the artwork" ;
+    arto:state "positioned in scene" ;
+    arto:material "unknown" .
+
+:main_scene arto:containsObject :cell phone_408b109d .
+
+:vase_acdd665c a arto:Object ;
+    rdfs:label "vase" ;
+    arto:descriptor "vase in the artwork" ;
+    arto:state "positioned in scene" ;
+    arto:material "unknown" .
+
+:main_scene arto:containsObject :vase_acdd665c .
+
+:refrigerator_8e7528bf a arto:Object ;
+    rdfs:label "refrigerator" ;
+    arto:descriptor "refrigerator in the artwork" ;
+    arto:state "positioned in scene" ;
+    arto:material "unknown" .
+
+:main_scene arto:containsObject :refrigerator_8e7528bf .
+
+:baseball bat_e4f7ca3e a arto:Object ;
+    rdfs:label "baseball bat" ;
+    arto:descriptor "baseball bat in the artwork" ;
+    arto:state "positioned in scene" ;
+    arto:material "unknown" .
+
+:main_scene arto:containsObject :baseball bat_e4f7ca3e .
+
+:clock_9ab0a42f a arto:Object ;
+    rdfs:label "clock" ;
+    arto:descriptor "clock in the artwork" ;
+    arto:state "positioned in scene" ;
+    arto:material "unknown" .
+
+:main_scene arto:containsObject :clock_9ab0a42f .

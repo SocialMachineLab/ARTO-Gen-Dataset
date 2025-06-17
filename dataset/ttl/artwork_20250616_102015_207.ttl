@@ -1,0 +1,67 @@
+@prefix : <http://w3id.org/artwork/> .
+@prefix arto: <http://w3id.org/arto#> .
+@prefix dc: <http://purl.org/dc/terms/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix sdo: <https://schema.org/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# Generated on 2025-06-16
+
+# Artwork
+:artwork_20250616_102015_207 a arto:Painting ;
+    dc:title "Sketch Artwork" ;
+    dc:creator "Flux" ;
+    arto:style "Sketch" ;
+    dc:medium "Oil on canvas" ;
+    dc:description "Generated artwork" ;
+    dc:created "2025-06-16"^^xsd:date ;
+    sdo:height "1024px" ;
+    sdo:width "1024px" .
+
+# Scene
+:main_scene a arto:Scene ;
+    rdfs:label "main scene" ;
+    arto:descriptor "Sketch-style still life in a cluttered garage interior. Foreground: hair dryer with loosely coiled cord resting on a wooden workbench. Midground: empty ceramic bowl and analog clock showing 3:00 besid..." .
+
+:artwork_20250616_102015_207 arto:containsScene :main_scene .
+
+# Objects
+:bowl_2ce5bb9c a arto:Object ;
+    rdfs:label "bowl" ;
+    arto:descriptor "bowl in the artwork" ;
+    arto:state "positioned in scene" ;
+    arto:material "unknown" .
+
+:main_scene arto:containsObject :bowl_2ce5bb9c .
+
+:baseball bat_d173ac19 a arto:Object ;
+    rdfs:label "baseball bat" ;
+    arto:descriptor "baseball bat in the artwork" ;
+    arto:state "positioned in scene" ;
+    arto:material "unknown" .
+
+:main_scene arto:containsObject :baseball bat_d173ac19 .
+
+:surfboard_04e10b60 a arto:Object ;
+    rdfs:label "surfboard" ;
+    arto:descriptor "surfboard in the artwork" ;
+    arto:state "positioned in scene" ;
+    arto:material "unknown" .
+
+:main_scene arto:containsObject :surfboard_04e10b60 .
+
+:hair drier_a3b70296 a arto:Object ;
+    rdfs:label "hair drier" ;
+    arto:descriptor "hair drier in the artwork" ;
+    arto:state "positioned in scene" ;
+    arto:material "unknown" .
+
+:main_scene arto:containsObject :hair drier_a3b70296 .
+
+:clock_46af5c72 a arto:Object ;
+    rdfs:label "clock" ;
+    arto:descriptor "clock in the artwork" ;
+    arto:state "positioned in scene" ;
+    arto:material "unknown" .
+
+:main_scene arto:containsObject :clock_46af5c72 .

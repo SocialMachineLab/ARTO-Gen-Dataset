@@ -1,0 +1,67 @@
+@prefix : <http://w3id.org/artwork/> .
+@prefix arto: <http://w3id.org/arto#> .
+@prefix dc: <http://purl.org/dc/terms/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix sdo: <https://schema.org/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# Generated on 2025-06-16
+
+# Artwork
+:artwork_20250616_080322_816 a arto:Painting ;
+    dc:title "Photorealistic Artwork" ;
+    dc:creator "Flux" ;
+    arto:style "Photorealistic" ;
+    dc:medium "Oil on canvas" ;
+    dc:description "Generated artwork" ;
+    dc:created "2025-06-16"^^xsd:date ;
+    sdo:height "1024px" ;
+    sdo:width "1024px" .
+
+# Scene
+:main_scene a arto:Scene ;
+    rdfs:label "main scene" ;
+    arto:descriptor "Photorealistic scene on a secluded beach cove at golden hour. Soft, directional sunlight from the west illuminates a person mid-throw, barefoot in casual beachwear, releasing a spinning white frisbee...." .
+
+:artwork_20250616_080322_816 arto:containsScene :main_scene .
+
+# Objects
+:surfboard_ce18001d a arto:Object ;
+    rdfs:label "surfboard" ;
+    arto:descriptor "surfboard in the artwork" ;
+    arto:state "positioned in scene" ;
+    arto:material "unknown" .
+
+:main_scene arto:containsObject :surfboard_ce18001d .
+
+:frisbee_a991aa14 a arto:Object ;
+    rdfs:label "frisbee" ;
+    arto:descriptor "frisbee in the artwork" ;
+    arto:state "positioned in scene" ;
+    arto:material "unknown" .
+
+:main_scene arto:containsObject :frisbee_a991aa14 .
+
+:person_40248cb2 a arto:Object ;
+    rdfs:label "person" ;
+    arto:descriptor "person in the artwork" ;
+    arto:state "positioned in scene" ;
+    arto:material "unknown" .
+
+:main_scene arto:containsObject :person_40248cb2 .
+
+:cat_8571a302 a arto:Object ;
+    rdfs:label "cat" ;
+    arto:descriptor "cat in the artwork" ;
+    arto:state "positioned in scene" ;
+    arto:material "unknown" .
+
+:main_scene arto:containsObject :cat_8571a302 .
+
+:bear_6be53986 a arto:Object ;
+    rdfs:label "bear" ;
+    arto:descriptor "bear in the artwork" ;
+    arto:state "positioned in scene" ;
+    arto:material "unknown" .
+
+:main_scene arto:containsObject :bear_6be53986 .

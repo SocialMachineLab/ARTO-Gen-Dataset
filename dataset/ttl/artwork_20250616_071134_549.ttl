@@ -1,0 +1,75 @@
+@prefix : <http://w3id.org/artwork/> .
+@prefix arto: <http://w3id.org/arto#> .
+@prefix dc: <http://purl.org/dc/terms/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix sdo: <https://schema.org/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# Generated on 2025-06-16
+
+# Artwork
+:artwork_20250616_071134_549 a arto:Painting ;
+    dc:title "Oil Painting Artwork" ;
+    dc:creator "Flux" ;
+    arto:style "Oil Painting" ;
+    dc:medium "Oil on canvas" ;
+    dc:description "Generated artwork" ;
+    dc:created "2025-06-16"^^xsd:date ;
+    sdo:height "1024px" ;
+    sdo:width "1024px" .
+
+# Scene
+:main_scene a arto:Scene ;
+    rdfs:label "main scene" ;
+    arto:descriptor "Oil painting of a surreal sunroom scene: Evening light filters through glass walls overlooking misty savannah. Foreground features a vintage side table with an active toaster ejecting zebra-striped to..." .
+
+:artwork_20250616_071134_549 arto:containsScene :main_scene .
+
+# Objects
+:umbrella_4d7e35ab a arto:Object ;
+    rdfs:label "umbrella" ;
+    arto:descriptor "umbrella in the artwork" ;
+    arto:state "positioned in scene" ;
+    arto:material "unknown" .
+
+:main_scene arto:containsObject :umbrella_4d7e35ab .
+
+:person_2e331441 a arto:Object ;
+    rdfs:label "person" ;
+    arto:descriptor "person in the artwork" ;
+    arto:state "positioned in scene" ;
+    arto:material "unknown" .
+
+:main_scene arto:containsObject :person_2e331441 .
+
+:spoon_f4d1e5fd a arto:Object ;
+    rdfs:label "spoon" ;
+    arto:descriptor "spoon in the artwork" ;
+    arto:state "positioned in scene" ;
+    arto:material "unknown" .
+
+:main_scene arto:containsObject :spoon_f4d1e5fd .
+
+:toaster_2f45dcd0 a arto:Object ;
+    rdfs:label "toaster" ;
+    arto:descriptor "toaster in the artwork" ;
+    arto:state "positioned in scene" ;
+    arto:material "unknown" .
+
+:main_scene arto:containsObject :toaster_2f45dcd0 .
+
+:zebra_5668bb15 a arto:Object ;
+    rdfs:label "zebra" ;
+    arto:descriptor "zebra in the artwork" ;
+    arto:state "positioned in scene" ;
+    arto:material "unknown" .
+
+:main_scene arto:containsObject :zebra_5668bb15 .
+
+:tennis racket_266ca570 a arto:Object ;
+    rdfs:label "tennis racket" ;
+    arto:descriptor "tennis racket in the artwork" ;
+    arto:state "positioned in scene" ;
+    arto:material "unknown" .
+
+:main_scene arto:containsObject :tennis racket_266ca570 .

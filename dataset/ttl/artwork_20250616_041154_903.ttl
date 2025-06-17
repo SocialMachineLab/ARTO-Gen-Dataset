@@ -1,0 +1,83 @@
+@prefix : <http://w3id.org/artwork/> .
+@prefix arto: <http://w3id.org/arto#> .
+@prefix dc: <http://purl.org/dc/terms/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix sdo: <https://schema.org/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# Generated on 2025-06-16
+
+# Artwork
+:artwork_20250616_041154_903 a arto:Painting ;
+    dc:title "Post-Impressionism Artwork" ;
+    dc:creator "Flux" ;
+    arto:style "Post-Impressionism" ;
+    dc:medium "Oil on canvas" ;
+    dc:description "Generated artwork" ;
+    dc:created "2025-06-16"^^xsd:date ;
+    sdo:height "1024px" ;
+    sdo:width "1024px" .
+
+# Scene
+:main_scene a arto:Scene ;
+    rdfs:label "main scene" ;
+    arto:descriptor "Post-Impressionist urban scene: A bear in a loose tie stands midground on a European cobblestone sidewalk, gazing upward as it holds a kite string. The diamond-shaped kite soars diagonally against cob..." .
+
+:artwork_20250616_041154_903 arto:containsScene :main_scene .
+
+# Objects
+:apple_ffa9b6c2 a arto:Object ;
+    rdfs:label "apple" ;
+    arto:descriptor "apple in the artwork" ;
+    arto:state "positioned in scene" ;
+    arto:material "unknown" .
+
+:main_scene arto:containsObject :apple_ffa9b6c2 .
+
+:bear_a577c03d a arto:Object ;
+    rdfs:label "bear" ;
+    arto:descriptor "bear in the artwork" ;
+    arto:state "positioned in scene" ;
+    arto:material "unknown" .
+
+:main_scene arto:containsObject :bear_a577c03d .
+
+:parking meter_cf773524 a arto:Object ;
+    rdfs:label "parking meter" ;
+    arto:descriptor "parking meter in the artwork" ;
+    arto:state "positioned in scene" ;
+    arto:material "unknown" .
+
+:main_scene arto:containsObject :parking meter_cf773524 .
+
+:kite_d5b7a7a6 a arto:Object ;
+    rdfs:label "kite" ;
+    arto:descriptor "kite in the artwork" ;
+    arto:state "positioned in scene" ;
+    arto:material "unknown" .
+
+:main_scene arto:containsObject :kite_d5b7a7a6 .
+
+:pizza_5bcafa05 a arto:Object ;
+    rdfs:label "pizza" ;
+    arto:descriptor "pizza in the artwork" ;
+    arto:state "positioned in scene" ;
+    arto:material "unknown" .
+
+:main_scene arto:containsObject :pizza_5bcafa05 .
+
+:tie_11ab558b a arto:Object ;
+    rdfs:label "tie" ;
+    arto:descriptor "tie in the artwork" ;
+    arto:state "positioned in scene" ;
+    arto:material "unknown" .
+
+:main_scene arto:containsObject :tie_11ab558b .
+
+:potted plant_ac92f155 a arto:Object ;
+    rdfs:label "potted plant" ;
+    arto:descriptor "potted plant in the artwork" ;
+    arto:state "positioned in scene" ;
+    arto:material "unknown" .
+
+:main_scene arto:containsObject :potted plant_ac92f155 .

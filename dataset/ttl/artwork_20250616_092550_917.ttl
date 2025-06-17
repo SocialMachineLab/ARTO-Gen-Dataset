@@ -1,0 +1,51 @@
+@prefix : <http://w3id.org/artwork/> .
+@prefix arto: <http://w3id.org/arto#> .
+@prefix dc: <http://purl.org/dc/terms/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix sdo: <https://schema.org/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# Generated on 2025-06-16
+
+# Artwork
+:artwork_20250616_092550_917 a arto:Painting ;
+    dc:title "Sketch Artwork" ;
+    dc:creator "Flux" ;
+    arto:style "Sketch" ;
+    dc:medium "Oil on canvas" ;
+    dc:description "Generated artwork" ;
+    dc:created "2025-06-16"^^xsd:date ;
+    sdo:height "1024px" ;
+    sdo:width "1024px" .
+
+# Scene
+:main_scene a arto:Scene ;
+    rdfs:label "main scene" ;
+    arto:descriptor "Sketch-style still life in a contemporary apartment corner: An open book with curled pages rests on a rustic wooden table (foreground). A potted plant with overflowing foliage in a terracotta pot sits..." .
+
+:artwork_20250616_092550_917 arto:containsScene :main_scene .
+
+# Objects
+:book_5c0a817e a arto:Object ;
+    rdfs:label "book" ;
+    arto:descriptor "book in the artwork" ;
+    arto:state "positioned in scene" ;
+    arto:material "unknown" .
+
+:main_scene arto:containsObject :book_5c0a817e .
+
+:bicycle_2cf32bd9 a arto:Object ;
+    rdfs:label "bicycle" ;
+    arto:descriptor "bicycle in the artwork" ;
+    arto:state "positioned in scene" ;
+    arto:material "unknown" .
+
+:main_scene arto:containsObject :bicycle_2cf32bd9 .
+
+:potted plant_f68e5d7e a arto:Object ;
+    rdfs:label "potted plant" ;
+    arto:descriptor "potted plant in the artwork" ;
+    arto:state "positioned in scene" ;
+    arto:material "unknown" .
+
+:main_scene arto:containsObject :potted plant_f68e5d7e .

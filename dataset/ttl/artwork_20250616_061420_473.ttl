@@ -1,0 +1,91 @@
+@prefix : <http://w3id.org/artwork/> .
+@prefix arto: <http://w3id.org/arto#> .
+@prefix dc: <http://purl.org/dc/terms/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix sdo: <https://schema.org/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# Generated on 2025-06-16
+
+# Artwork
+:artwork_20250616_061420_473 a arto:Painting ;
+    dc:title "Oil Painting Artwork" ;
+    dc:creator "Flux" ;
+    arto:style "Oil Painting" ;
+    dc:medium "Oil on canvas" ;
+    dc:description "Generated artwork" ;
+    dc:created "2025-06-16"^^xsd:date ;
+    sdo:height "1024px" ;
+    sdo:width "1024px" .
+
+# Scene
+:main_scene a arto:Scene ;
+    rdfs:label "main scene" ;
+    arto:descriptor "Oil painting of a modest living room at 8:55 AM. Soft morning light streams through a window, illuminating: a half-packed suitcase (foreground) with clothes spilling out, an open handbag beside it. On..." .
+
+:artwork_20250616_061420_473 arto:containsScene :main_scene .
+
+# Objects
+:cup_5c67d9d2 a arto:Object ;
+    rdfs:label "cup" ;
+    arto:descriptor "cup in the artwork" ;
+    arto:state "positioned in scene" ;
+    arto:material "unknown" .
+
+:main_scene arto:containsObject :cup_5c67d9d2 .
+
+:scissors_5fe70169 a arto:Object ;
+    rdfs:label "scissors" ;
+    arto:descriptor "scissors in the artwork" ;
+    arto:state "positioned in scene" ;
+    arto:material "unknown" .
+
+:main_scene arto:containsObject :scissors_5fe70169 .
+
+:clock_a12d832e a arto:Object ;
+    rdfs:label "clock" ;
+    arto:descriptor "clock in the artwork" ;
+    arto:state "positioned in scene" ;
+    arto:material "unknown" .
+
+:main_scene arto:containsObject :clock_a12d832e .
+
+:bus_0d80a056 a arto:Object ;
+    rdfs:label "bus" ;
+    arto:descriptor "bus in the artwork" ;
+    arto:state "positioned in scene" ;
+    arto:material "unknown" .
+
+:main_scene arto:containsObject :bus_0d80a056 .
+
+:potted plant_57e59836 a arto:Object ;
+    rdfs:label "potted plant" ;
+    arto:descriptor "potted plant in the artwork" ;
+    arto:state "positioned in scene" ;
+    arto:material "unknown" .
+
+:main_scene arto:containsObject :potted plant_57e59836 .
+
+:suitcase_50771f34 a arto:Object ;
+    rdfs:label "suitcase" ;
+    arto:descriptor "suitcase in the artwork" ;
+    arto:state "positioned in scene" ;
+    arto:material "unknown" .
+
+:main_scene arto:containsObject :suitcase_50771f34 .
+
+:handbag_7be12b33 a arto:Object ;
+    rdfs:label "handbag" ;
+    arto:descriptor "handbag in the artwork" ;
+    arto:state "positioned in scene" ;
+    arto:material "unknown" .
+
+:main_scene arto:containsObject :handbag_7be12b33 .
+
+:donut_5450e17f a arto:Object ;
+    rdfs:label "donut" ;
+    arto:descriptor "donut in the artwork" ;
+    arto:state "positioned in scene" ;
+    arto:material "unknown" .
+
+:main_scene arto:containsObject :donut_5450e17f .

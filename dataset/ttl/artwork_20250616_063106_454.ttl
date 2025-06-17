@@ -1,0 +1,67 @@
+@prefix : <http://w3id.org/artwork/> .
+@prefix arto: <http://w3id.org/arto#> .
+@prefix dc: <http://purl.org/dc/terms/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix sdo: <https://schema.org/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# Generated on 2025-06-16
+
+# Artwork
+:artwork_20250616_063106_454 a arto:Painting ;
+    dc:title "Photorealistic Artwork" ;
+    dc:creator "Flux" ;
+    arto:style "Photorealistic" ;
+    dc:medium "Oil on canvas" ;
+    dc:description "Generated artwork" ;
+    dc:created "2025-06-16"^^xsd:date ;
+    sdo:height "1024px" ;
+    sdo:width "1024px" .
+
+# Scene
+:main_scene a arto:Scene ;
+    rdfs:label "main scene" ;
+    arto:descriptor "Photorealistic evening scene capturing absurd urban juxtaposition. A chipped red fire hydrant stands on cracked sidewalk near overgrown grass. Overturned skateboard leans against hydrant, wheels facin..." .
+
+:artwork_20250616_063106_454 arto:containsScene :main_scene .
+
+# Objects
+:fire hydrant_8bb7566f a arto:Object ;
+    rdfs:label "fire hydrant" ;
+    arto:descriptor "fire hydrant in the artwork" ;
+    arto:state "positioned in scene" ;
+    arto:material "unknown" .
+
+:main_scene arto:containsObject :fire hydrant_8bb7566f .
+
+:bottle_4eb0c463 a arto:Object ;
+    rdfs:label "bottle" ;
+    arto:descriptor "bottle in the artwork" ;
+    arto:state "positioned in scene" ;
+    arto:material "unknown" .
+
+:main_scene arto:containsObject :bottle_4eb0c463 .
+
+:cow_96012b80 a arto:Object ;
+    rdfs:label "cow" ;
+    arto:descriptor "cow in the artwork" ;
+    arto:state "positioned in scene" ;
+    arto:material "unknown" .
+
+:main_scene arto:containsObject :cow_96012b80 .
+
+:skateboard_fda0494a a arto:Object ;
+    rdfs:label "skateboard" ;
+    arto:descriptor "skateboard in the artwork" ;
+    arto:state "positioned in scene" ;
+    arto:material "unknown" .
+
+:main_scene arto:containsObject :skateboard_fda0494a .
+
+:banana_aa83c0fe a arto:Object ;
+    rdfs:label "banana" ;
+    arto:descriptor "banana in the artwork" ;
+    arto:state "positioned in scene" ;
+    arto:material "unknown" .
+
+:main_scene arto:containsObject :banana_aa83c0fe .

@@ -1,0 +1,91 @@
+@prefix : <http://w3id.org/artwork/> .
+@prefix arto: <http://w3id.org/arto#> .
+@prefix dc: <http://purl.org/dc/terms/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix sdo: <https://schema.org/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# Generated on 2025-06-16
+
+# Artwork
+:artwork_20250616_101009_929 a arto:Painting ;
+    dc:title "Photorealistic Artwork" ;
+    dc:creator "Flux" ;
+    arto:style "Photorealistic" ;
+    dc:medium "Oil on canvas" ;
+    dc:description "Generated artwork" ;
+    dc:created "2025-06-16"^^xsd:date ;
+    sdo:height "1024px" ;
+    sdo:width "1024px" .
+
+# Scene
+:main_scene a arto:Scene ;
+    rdfs:label "main scene" ;
+    arto:descriptor "Photorealistic surreal genre scene in a dilapidated ballroom partially flooded with shallow water during a calm evening. Tall shattered arched windows reveal an overgrown garden. Warm dramatic side-li..." .
+
+:artwork_20250616_101009_929 arto:containsScene :main_scene .
+
+# Objects
+:parking meter_013acb28 a arto:Object ;
+    rdfs:label "parking meter" ;
+    arto:descriptor "parking meter in the artwork" ;
+    arto:state "positioned in scene" ;
+    arto:material "unknown" .
+
+:main_scene arto:containsObject :parking meter_013acb28 .
+
+:bed_a56fa2b4 a arto:Object ;
+    rdfs:label "bed" ;
+    arto:descriptor "bed in the artwork" ;
+    arto:state "positioned in scene" ;
+    arto:material "unknown" .
+
+:main_scene arto:containsObject :bed_a56fa2b4 .
+
+:giraffe_ab465b02 a arto:Object ;
+    rdfs:label "giraffe" ;
+    arto:descriptor "giraffe in the artwork" ;
+    arto:state "positioned in scene" ;
+    arto:material "unknown" .
+
+:main_scene arto:containsObject :giraffe_ab465b02 .
+
+:boat_3cc2a3b2 a arto:Object ;
+    rdfs:label "boat" ;
+    arto:descriptor "boat in the artwork" ;
+    arto:state "positioned in scene" ;
+    arto:material "unknown" .
+
+:main_scene arto:containsObject :boat_3cc2a3b2 .
+
+:dining table_8ed337b2 a arto:Object ;
+    rdfs:label "dining table" ;
+    arto:descriptor "dining table in the artwork" ;
+    arto:state "positioned in scene" ;
+    arto:material "unknown" .
+
+:main_scene arto:containsObject :dining table_8ed337b2 .
+
+:person_4b92d361 a arto:Object ;
+    rdfs:label "person" ;
+    arto:descriptor "person in the artwork" ;
+    arto:state "positioned in scene" ;
+    arto:material "unknown" .
+
+:main_scene arto:containsObject :person_4b92d361 .
+
+:banana_822e85e4 a arto:Object ;
+    rdfs:label "banana" ;
+    arto:descriptor "banana in the artwork" ;
+    arto:state "positioned in scene" ;
+    arto:material "unknown" .
+
+:main_scene arto:containsObject :banana_822e85e4 .
+
+:fork_5a1bd5c4 a arto:Object ;
+    rdfs:label "fork" ;
+    arto:descriptor "fork in the artwork" ;
+    arto:state "positioned in scene" ;
+    arto:material "unknown" .
+
+:main_scene arto:containsObject :fork_5a1bd5c4 .

@@ -1,0 +1,99 @@
+@prefix : <http://w3id.org/artwork/> .
+@prefix arto: <http://w3id.org/arto#> .
+@prefix dc: <http://purl.org/dc/terms/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix sdo: <https://schema.org/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# Generated on 2025-06-16
+
+# Artwork
+:artwork_20250616_045457_443 a arto:Painting ;
+    dc:title "Sketch Artwork" ;
+    dc:creator "Flux" ;
+    arto:style "Sketch" ;
+    dc:medium "Oil on canvas" ;
+    dc:description "Generated artwork" ;
+    dc:created "2025-06-16"^^xsd:date ;
+    sdo:height "1024px" ;
+    sdo:width "1024px" .
+
+# Scene
+:main_scene a arto:Scene ;
+    rdfs:label "main scene" ;
+    arto:descriptor "Sketch-style illustration of a contemporary child's playroom at sunny afternoon. Centered wooden dining table with visible woodgrain holds partially eaten cake with bite marks, fabric toy mouse tilted..." .
+
+:artwork_20250616_045457_443 arto:containsScene :main_scene .
+
+# Objects
+:dining table_89f02a46 a arto:Object ;
+    rdfs:label "dining table" ;
+    arto:descriptor "dining table in the artwork" ;
+    arto:state "positioned in scene" ;
+    arto:material "unknown" .
+
+:main_scene arto:containsObject :dining table_89f02a46 .
+
+:sports ball_d36949b3 a arto:Object ;
+    rdfs:label "sports ball" ;
+    arto:descriptor "sports ball in the artwork" ;
+    arto:state "positioned in scene" ;
+    arto:material "unknown" .
+
+:main_scene arto:containsObject :sports ball_d36949b3 .
+
+:stop sign_d66ddb0e a arto:Object ;
+    rdfs:label "stop sign" ;
+    arto:descriptor "stop sign in the artwork" ;
+    arto:state "positioned in scene" ;
+    arto:material "unknown" .
+
+:main_scene arto:containsObject :stop sign_d66ddb0e .
+
+:mouse_928326ac a arto:Object ;
+    rdfs:label "mouse" ;
+    arto:descriptor "mouse in the artwork" ;
+    arto:state "positioned in scene" ;
+    arto:material "unknown" .
+
+:main_scene arto:containsObject :mouse_928326ac .
+
+:frisbee_8ea4aa2f a arto:Object ;
+    rdfs:label "frisbee" ;
+    arto:descriptor "frisbee in the artwork" ;
+    arto:state "positioned in scene" ;
+    arto:material "unknown" .
+
+:main_scene arto:containsObject :frisbee_8ea4aa2f .
+
+:motorcycle_30802513 a arto:Object ;
+    rdfs:label "motorcycle" ;
+    arto:descriptor "motorcycle in the artwork" ;
+    arto:state "positioned in scene" ;
+    arto:material "unknown" .
+
+:main_scene arto:containsObject :motorcycle_30802513 .
+
+:teddy bear_8dc902f5 a arto:Object ;
+    rdfs:label "teddy bear" ;
+    arto:descriptor "teddy bear in the artwork" ;
+    arto:state "positioned in scene" ;
+    arto:material "unknown" .
+
+:main_scene arto:containsObject :teddy bear_8dc902f5 .
+
+:cake_bab4aedb a arto:Object ;
+    rdfs:label "cake" ;
+    arto:descriptor "cake in the artwork" ;
+    arto:state "positioned in scene" ;
+    arto:material "unknown" .
+
+:main_scene arto:containsObject :cake_bab4aedb .
+
+:traffic light_16a6a0bd a arto:Object ;
+    rdfs:label "traffic light" ;
+    arto:descriptor "traffic light in the artwork" ;
+    arto:state "positioned in scene" ;
+    arto:material "unknown" .
+
+:main_scene arto:containsObject :traffic light_16a6a0bd .
