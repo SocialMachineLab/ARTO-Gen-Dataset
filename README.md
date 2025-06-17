@@ -145,17 +145,16 @@ Here's a complete walkthrough of generating an Oil Painting artwork from the inp
 
 The framework successfully generates diverse artistic styles while maintaining semantic coherence:
 
-![Generated Artworks](images/example_image.png)
+![Generated Artworks](images/example_image.jpg)
 
 
 
+***Examples of generated artworks across different styles: Post-Impressionism, Oil Painting, Chinese Ink Painting, and Sketch***
 
-*Examples of generated artworks across different styles: Post-Impressionism, Oil Painting, Chinese Ink Painting, and Sketch*
-
-![Generated Artwork1](images/example_image1.png)
-![Generated Artwork2](images/example_image2.png)
-![Generated Artwork3](images/example_image3.png)
-![Generated Artwork4](images/example_image4.png)
+![Generated Artwork1](images/example_image1.jpg)
+![Generated Artwork2](images/example_image2.jpg)
+![Generated Artwork3](images/example_image3.jpg)
+![Generated Artwork4](images/example_image4.jpg)
 
 ## Dataset
 
