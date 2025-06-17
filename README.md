@@ -83,6 +83,80 @@ print(f"Generated {len(generated_files)} artworks")
 ```
 
 
+## Generation Example
+
+Here's a complete walkthrough of generating an Oil Painting artwork from the input objects **person + book**, demonstrating our framework's end-to-end pipeline.
+
+### Input
+- **Objects**: person, book
+- **Style**: Oil Painting
+- **Max Secondary Objects**: 6
+
+### Pipeline Execution
+
+**Step 1 - Object Compatibility**: ✅ Objects are compatible for artistic composition
+
+**Step 2 - Four-Stage Scene Design**:
+- *Stage 1 - Scene Framework*: Intimate portrait composition, indoor setting, contemplative nature
+- *Stage 2 - Spatial Layout*: Seated figure holding open book, three-quarter viewing perspective  
+- *Stage 3 - Environment Details*: Soft window lighting from left, contemporary setting
+- *Stage 4 - Artistic Expression*: Warm golden tones, contemplative emotion, knowledge symbolism
+
+**Step 3 - ARTO RDF Generation**: Creates 15 RDF triples with hierarchical artwork relationships
+
+### Generated Outputs
+
+**JSON Metadata**:
+```json
+{
+  "artwork_id": "artwork_20250617_143022_789",
+  "style": "Oil Painting",
+  "selected_objects": {
+    "object_names": ["person", "book"]
+  },
+  "scene_design": {
+    "stage1_scene_framework": {
+      "composition_type": "portrait",
+      "environment": "indoor",
+      "scene_nature": "contemplative and intimate"
+    }
+  }
+}
+```
+
+**RDF Knowledge Graph**:
+```turtle
+:artwork_20250617_143022_789 a arto:Painting ;
+    dc:title "The Contemplative Reader" ;
+    arto:style "Oil Painting" ;
+    arto:containsScene :main_scene .
+
+:main_scene arto:containsObject :person_001, :book_001 .
+
+:person_001 arto:descriptor "young reader in contemplative pose" ;
+    arto:state "seated, reading" ;
+    arto:relatedTo :book_001 .
+```
+
+**Final Image Prompt**: 
+> "A contemplative portrait depicting a young reader absorbed in an open book, rendered in warm oil paints. Soft golden light streams from the left, illuminating the figure's concentrated expression and the cream-colored pages. Three-quarter view composition with intimate indoor setting, emphasizing the peaceful connection between reader and text."
+
+### Visual Results
+
+The framework successfully generates diverse artistic styles while maintaining semantic coherence:
+
+![Generated Artworks](images/example_image.png)
+
+
+
+
+*Examples of generated artworks across different styles: Post-Impressionism, Oil Painting, Chinese Ink Painting, and Sketch*
+
+![Generated Artwork1](images/example_image1.png)
+![Generated Artwork2](images/example_image2.png)
+![Generated Artwork3](images/example_image3.png)
+![Generated Artwork4](images/example_image4.png)
+
 ## Dataset
 
 Our pre-generated dataset contains **1,000 artworks** spanning five artistic styles:
@@ -126,59 +200,6 @@ Each artwork includes:
    - Optimized for Flux 1.1 Pro
    - Style-specific optimizations
    - Comprehensive scene descriptions
-
-### Sample Data Structure
-
-```json
-{
-  "artwork_id": "artwork_20250617_143022_789",
-  "generation_timestamp": "2025-06-17T14:30:22.123456",
-  "style": "Oil Painting",
-  "selected_objects": {
-    "object_ids": [1, 74, 41],
-    "object_names": ["person", "book", "wine glass"]
-  },
-  "scene_design": {
-    "stage1_scene_framework": {
-      "composition_type": "portrait",
-      "environment": "indoor",
-      "scene_nature": "contemplative and intimate"
-    },
-    "stage4_artistic_expression": {
-      "final_prompt": "A contemplative portrait depicting a young reader absorbed in an open book..."
-    }
-  },
-  "metadata": {
-    "max_secondary_objects": 8,
-    "model_used": "deepseek-r1:70b"
-  }
-}
-```
-
-### RDF Knowledge Graph Example
-
-```turtle
-@prefix : <http://w3id.org/artwork/> .
-@prefix arto: <http://w3id.org/arto#> .
-@prefix dc: <http://purl.org/dc/terms/> .
-
-:artwork_20250617_143022_789 a arto:Painting ;
-    dc:title "The Contemplative Reader" ;
-    dc:creator "AI-Generated" ;
-    arto:style "Oil Painting" ;
-    dc:medium "Oil on canvas" ;
-    arto:containsScene :main_scene .
-
-:main_scene a arto:Scene ;
-    rdfs:label "contemplative reading scene" ;
-    arto:containsObject :person_001, :book_001, :wine_glass_001 .
-
-:person_001 a arto:Object ;
-    rdfs:label "person" ;
-    arto:descriptor "young reader in contemplative pose" ;
-    arto:state "seated, reading" ;
-    arto:relatedTo :book_001 .
-```
 
 ## Framework Architecture
 
