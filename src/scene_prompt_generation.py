@@ -389,7 +389,7 @@ Respond ONLY with valid JSON:
         "object_name": "symbolic meaning or role"
     },
     "artistic_techniques": "specific techniques relevant to style",
-    "final_prompt": "comprehensive prompt for image generation"
+    "final_prompt": "comprehensive prompt for image generation, NO MORE THAN 150 WORDS"
 }
 """
         
