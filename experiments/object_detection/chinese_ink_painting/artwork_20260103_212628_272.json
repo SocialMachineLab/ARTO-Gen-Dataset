@@ -1,0 +1,383 @@
+{
+    "artwork_id": "artwork_20260103_212628_272",
+    "generation_timestamp": "2026-01-03T21:26:57.893082",
+    "style": "Chinese Ink Painting",
+    "objects": {
+        "object_ids": [
+            19,
+            15,
+            35,
+            14
+        ],
+        "object_names": [
+            "sheep",
+            "hen",
+            "spear",
+            "swing"
+        ],
+        "enhanced_objects": [
+            {
+                "object_id": 19,
+                "name": "sheep",
+                "artistic_description": "Soft, woolly form rendered in gentle washes of diluted ink, with subtle gradations from warm gray to cool charcoal. The cloudy morning light creates a matte, diffused appearance on the fleece, with delicate dry-brush strokes suggesting texture. Whispy ink lines define the wool's natural curl patterns, appearing slightly damp from the humid indoor air.",
+                "size": "Large",
+                "state": "standing calmly with relaxed posture",
+                "primary_colors": [
+                    "warm gray",
+                    "charcoal"
+                ],
+                "material": "wool"
+            },
+            {
+                "object_id": 15,
+                "name": "hen",
+                "artistic_description": "Compact form captured with precise, angular brushstrokes in varying ink densities. Feathers suggested through layered washes of sepia and dark gray, with fine spatter techniques creating natural texture. Soft natural light from windows catches subtle highlights on the comb and beak, rendered with minimal white negative space against the muted background.",
+                "size": "Medium",
+                "state": "alert and stationary",
+                "primary_colors": [
+                    "sepia brown",
+                    "dark gray"
+                ],
+                "material": "feathers"
+            },
+            {
+                "object_id": 35,
+                "name": "spear",
+                "artistic_description": "Long, elegant shaft drawn with confident single strokes of concentrated black ink, showing subtle variations in pressure. The wooden pole displays faint grain patterns through dry-brush technique, while the metal tip gleams with sharp, angular lines and minimal white highlights. Cool morning light creates a slight blue-gray cast on the polished surface.",
+                "size": "Medium",
+                "state": "clean and well-maintained",
+                "primary_colors": [
+                    "deep black",
+                    "cool gray"
+                ],
+                "material": "wood and metal"
+            },
+            {
+                "object_id": 14,
+                "name": "swing",
+                "artistic_description": "Simple wooden frame rendered with bold, structural brushwork in deep ink tones. Ropes suggested through delicate parallel lines with subtle tapering. The wooden seat shows weathered texture through layered washes of warm gray and brown, with the cloudy light creating soft, even illumination across its surface. Gentle wear patterns visible in the ink gradations.",
+                "size": "Medium",
+                "state": "still and unused",
+                "primary_colors": [
+                    "weathered brown",
+                    "soft gray"
+                ],
+                "material": "wood"
+            }
+        ]
+    },
+    "composition": {
+        "spatial_relations": [
+            [
+                19,
+                "next to",
+                15
+            ],
+            [
+                19,
+                "under",
+                14
+            ],
+            [
+                15,
+                "under",
+                14
+            ],
+            [
+                35,
+                "next to",
+                14
+            ],
+            [
+                35,
+                "behind",
+                19
+            ]
+        ],
+        "semantic_relations": [
+            [
+                15,
+                "using",
+                14
+            ]
+        ]
+    },
+    "environment": {
+        "environment_details": {
+            "scene_brief": "A Village Courtyard featuring sheep, with hen, spear, and swing",
+            "place365_name": "/c/courtyard",
+            "place365_id": 109,
+            "time_of_day": "morning",
+            "weather": "cloudy",
+            "period": "Contemporary",
+            "is_indoor": true,
+            "lighting": {
+                "type": "natural",
+                "quality": "soft",
+                "direction": "side-lit",
+                "mood": "neutral",
+                "reasoning": "Natural lighting is implied by the outdoor courtyard. Cloudy weather ensures the light is soft and scattered. A side-lit approach provides enough subtle contrast to define the forms of the sheep, spear, and swing without the harshness of direct sun, maintaining a neutral, contemplative mood suitable for ink painting."
+            },
+            "atmosphere": "fresh and energetic and subdued and gentle"
+        },
+        "scene_inference": {
+            "all_candidates": [
+                {
+                    "scene_type": "Traditional Farmyard",
+                    "plausibility": 0.95,
+                    "reasoning": "A pastoral farm setting is the most natural habitat for a sheep and a hen. The spear can be interpreted as a tool used by a farmer or guardian, and the swing can be a simple rope swing hanging from a sturdy tree branch in the yard.",
+                    "object_interpretations": {
+                        "sheep": {
+                            "form": "real animal",
+                            "scale": "normal",
+                            "role": "primary livestock"
+                        },
+                        "hen": {
+                            "form": "real animal",
+                            "scale": "normal",
+                            "role": "secondary livestock"
+                        },
+                        "spear": {
+                            "form": "real tool/weapon",
+                            "scale": "normal",
+                            "role": "guardian's tool leaning against a wall"
+                        },
+                        "swing": {
+                            "form": "real swing",
+                            "scale": "normal",
+                            "role": "recreational object for children"
+                        }
+                    }
+                },
+                {
+                    "scene_type": "Mountain Pasture",
+                    "plausibility": 0.9,
+                    "reasoning": "Sheep graze on hillsides. A hen can forage nearby. A shepherd might rest his spear on the ground while watching the flock. A swing could be tied between two trees in a flatter area of the pasture.",
+                    "object_interpretations": {
+                        "sheep": {
+                            "form": "real animal",
+                            "scale": "normal",
+                            "role": "primary grazing animal"
+                        },
+                        "hen": {
+                            "form": "real animal",
+                            "scale": "normal",
+                            "role": "wild foraging bird"
+                        },
+                        "spear": {
+                            "form": "real weapon",
+                            "scale": "normal",
+                            "role": "shepherd's staff/weapon"
+                        },
+                        "swing": {
+                            "form": "rope swing",
+                            "scale": "normal",
+                            "role": "simple play equipment"
+                        }
+                    }
+                },
+                {
+                    "scene_type": "Village Courtyard",
+                    "plausibility": 0.85,
+                    "reasoning": "A communal village space where animals roam freely. The spear might be part of a martial arts display or a guard's equipment. The swing is a common fixture in village squares for children.",
+                    "object_interpretations": {
+                        "sheep": {
+                            "form": "real animal",
+                            "scale": "normal",
+                            "role": "village livestock"
+                        },
+                        "hen": {
+                            "form": "real animal",
+                            "scale": "normal",
+                            "role": "pecking in the dirt"
+                        },
+                        "spear": {
+                            "form": "decorative/ritual weapon",
+                            "scale": "normal",
+                            "role": "cultural artifact"
+                        },
+                        "swing": {
+                            "form": "wooden swing",
+                            "scale": "normal",
+                            "role": "community play structure"
+                        }
+                    },
+                    "scene_brief": "A Village Courtyard featuring sheep, with hen, spear, and swing"
+                },
+                {
+                    "scene_type": "Artistic Studio",
+                    "plausibility": 0.8,
+                    "reasoning": "In a studio setting, the animals could be models or pets. The spear is a prop or art supply. The swing could be a miniature model used for a composition study.",
+                    "object_interpretations": {
+                        "sheep": {
+                            "form": "real animal",
+                            "scale": "normal",
+                            "role": "subject/model"
+                        },
+                        "hen": {
+                            "form": "real animal",
+                            "scale": "normal",
+                            "role": "subject/model"
+                        },
+                        "spear": {
+                            "form": "prop",
+                            "scale": "normal",
+                            "role": "studio prop"
+                        },
+                        "swing": {
+                            "form": "miniature model",
+                            "scale": "small",
+                            "role": "background element"
+                        }
+                    }
+                },
+                {
+                    "scene_type": "Mythological Landscape",
+                    "plausibility": 0.75,
+                    "reasoning": "Chinese Ink paintings often depict mythical scenes. The sheep and hen could be magical creatures. The spear might be a divine weapon, and the swing could be suspended in mid-air by magic.",
+                    "object_interpretations": {
+                        "sheep": {
+                            "form": "stylized animal",
+                            "scale": "normal",
+                            "role": "mythical beast"
+                        },
+                        "hen": {
+                            "form": "stylized animal",
+                            "scale": "normal",
+                            "role": "spirit bird"
+                        },
+                        "spear": {
+                            "form": "magical weapon",
+                            "scale": "normal",
+                            "role": "divine artifact"
+                        },
+                        "swing": {
+                            "form": "ethereal swing",
+                            "scale": "normal",
+                            "role": "spiritual object"
+                        }
+                    }
+                },
+                {
+                    "scene_type": "Garden of Immortals",
+                    "plausibility": 0.7,
+                    "reasoning": "A serene garden setting often found in ink wash paintings. The sheep and hen represent nature. The spear is a walking stick for an immortal. The swing is a leisure spot.",
+                    "object_interpretations": {
+                        "sheep": {
+                            "form": "real animal",
+                            "scale": "normal",
+                            "role": "peaceful creature"
+                        },
+                        "hen": {
+                            "form": "real animal",
+                            "scale": "normal",
+                            "role": "garden dweller"
+                        },
+                        "spear": {
+                            "form": "walking staff",
+                            "scale": "normal",
+                            "role": "immortal's accessory"
+                        },
+                        "swing": {
+                            "form": "bamboo swing",
+                            "scale": "normal",
+                            "role": "meditation spot"
+                        }
+                    }
+                },
+                {
+                    "scene_type": "Rustic Hunting Lodge",
+                    "plausibility": 0.8,
+                    "reasoning": "A lodge setting implies a mix of domesticity and hunting. The sheep and hen are farm animals. The spear is a hunting trophy or tool. The swing is outside for children.",
+                    "object_interpretations": {
+                        "sheep": {
+                            "form": "real animal",
+                            "scale": "normal",
+                            "role": "pasture animal"
+                        },
+                        "hen": {
+                            "form": "real animal",
+                            "scale": "normal",
+                            "role": "yard bird"
+                        },
+                        "spear": {
+                            "form": "hunting spear",
+                            "scale": "normal",
+                            "role": "wall decoration/tool"
+                        },
+                        "swing": {
+                            "form": "rustic swing",
+                            "scale": "normal",
+                            "role": "outdoor furniture"
+                        }
+                    }
+                },
+                {
+                    "scene_type": "Children's Storybook Illustration",
+                    "plausibility": 0.85,
+                    "reasoning": "In a stylized storybook world, animals can anthropomorphize. The spear might be a toy or a prop in a game. The swing is a playground fixture.",
+                    "object_interpretations": {
+                        "sheep": {
+                            "form": "cartoon/anthropomorphic",
+                            "scale": "normal",
+                            "role": "character"
+                        },
+                        "hen": {
+                            "form": "cartoon/anthropomorphic",
+                            "scale": "normal",
+                            "role": "character"
+                        },
+                        "spear": {
+                            "form": "toy stick",
+                            "scale": "normal",
+                            "role": "prop"
+                        },
+                        "swing": {
+                            "form": "playground swing",
+                            "scale": "normal",
+                            "role": "setting element"
+                        }
+                    }
+                }
+            ],
+            "selected_scene": {
+                "scene_type": "Village Courtyard",
+                "plausibility": 0.85,
+                "reasoning": "A communal village space where animals roam freely. The spear might be part of a martial arts display or a guard's equipment. The swing is a common fixture in village squares for children.",
+                "object_interpretations": {
+                    "sheep": {
+                        "form": "real animal",
+                        "scale": "normal",
+                        "role": "village livestock"
+                    },
+                    "hen": {
+                        "form": "real animal",
+                        "scale": "normal",
+                        "role": "pecking in the dirt"
+                    },
+                    "spear": {
+                        "form": "decorative/ritual weapon",
+                        "scale": "normal",
+                        "role": "cultural artifact"
+                    },
+                    "swing": {
+                        "form": "wooden swing",
+                        "scale": "normal",
+                        "role": "community play structure"
+                    }
+                },
+                "scene_brief": "A Village Courtyard featuring sheep, with hen, spear, and swing"
+            }
+        }
+    },
+    "final_prompts": {
+        "main_prompt": "A Chinese Ink Painting painting depicting a tranquil morning scene where a large, warm gray and charcoal-colored sheep stands calmly with relaxed posture next to a medium-sized, sepia brown and dark gray hen that remains alert and stationary. Both animals are positioned directly beneath a medium-sized, weathered brown and soft gray swing that hangs still and unused from a wooden frame. To the side, a medium-sized spear in deep black and cool gray tones rests clean and well-maintained beside the swing, positioned slightly behind the sheep. The composition flows from foreground to background with the sheep and hen in the foreground, the swing and spear in the midground, and a gentle landscape of soft hills and sparse trees in the background. Natural soft morning light filters through the scene, creating a fresh and energetic yet subdued and gentle atmosphere where the textures of wool, feathers, and aged wood are suggested through masterful ink washes and deliberate brushstrokes.",
+        "negative_prompt": "photorealistic, 3d render, modern, digital art, photograph, low quality, blurry, distorted, vibrant colors, cartoon, anime, western painting style, oil painting, watercolor, abstract",
+        "prompt_formats": {
+            "simple": "A Chinese ink painting of a sheep and hen under a swing with a spear nearby in soft morning light.",
+            "complex": "A Chinese Ink Painting painting depicting a tranquil morning scene where a large, warm gray and charcoal-colored sheep stands calmly with relaxed posture next to a medium-sized, sepia brown and dark gray hen that remains alert and stationary. Both animals are positioned directly beneath a medium-sized, weathered brown and soft gray swing that hangs still and unused from a wooden frame. To the side, a medium-sized spear in deep black and cool gray tones rests clean and well-maintained beside the swing, positioned slightly behind the sheep. The composition flows from foreground to background with the sheep and hen in the foreground, the swing and spear in the midground, and a gentle landscape of soft hills and sparse trees in the background. Natural soft morning light filters through the scene, creating a fresh and energetic yet subdued and gentle atmosphere where the textures of wool, feathers, and aged wood are suggested through masterful ink washes and deliberate brushstrokes.",
+            "comma_separated": "Chinese Ink Painting, sheep, hen, spear, swing, large sheep, medium hen, medium spear, medium swing, warm gray charcoal sheep, sepia brown dark gray hen, deep black cool gray spear, weathered brown soft gray swing, morning light, fresh energetic subdued gentle atmosphere, foreground midground background composition, ink washes, brushstrokes",
+            "tags": "art, painting, chinese ink painting, ink wash painting, traditional chinese art, morning scene, farm animals, peaceful composition, natural lighting, atmospheric, sheep, hen, spear, swing, spatial arrangement"
+        }
+    }
+}

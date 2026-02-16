@@ -1,0 +1,303 @@
+{
+    "artwork_id": "artwork_20260103_180434_680",
+    "generation_timestamp": "2026-01-03T18:05:06.300711",
+    "style": "Neoclassicism",
+    "objects": {
+        "object_ids": [
+            25,
+            75,
+            77
+        ],
+        "object_names": [
+            "sack",
+            "wall clock",
+            "scissors"
+        ],
+        "enhanced_objects": [
+            {
+                "object_id": 25,
+                "name": "sack",
+                "artistic_description": "A coarse burlap sack rendered in warm morning light streaming through the workshop window, its rough-woven texture catching golden highlights while deep creases create dramatic chiaroscuro shadows. The natural fibers appear dry and matte, with subtle variations in beige and ochre tones that shift with the sunlight, embodying the neoclassical appreciation for honest, unadorned materials.",
+                "size": "Large",
+                "state": "partially filled and draped naturally",
+                "primary_colors": [
+                    "warm ochre",
+                    "natural beige"
+                ],
+                "material": "burlap"
+            },
+            {
+                "object_id": 75,
+                "name": "wall clock",
+                "artistic_description": "A classical wall clock with a white enamel face that gleams with crisp, cool brightness against the morning's natural light, its polished brass hands catching sharp reflections that dance across the glass. The dark wooden case absorbs the warm sunlight, revealing a rich grain pattern rendered with neoclassical precision, while the Roman numerals stand in stark, elegant contrast.",
+                "size": "Medium",
+                "state": "functioning and well-maintained",
+                "primary_colors": [
+                    "brilliant white",
+                    "polished brass"
+                ],
+                "material": "brass and wood"
+            },
+            {
+                "object_id": 77,
+                "name": "scissors",
+                "artistic_description": "Forged steel scissors with blades that flash with brilliant silver highlights in the direct sunlight, creating thin, sharp lines of reflected light. The polished metal surfaces show subtle blue-gray tones in the ambient light, while the dark wooden handles are warmed to a honeyed brown by the morning sun, their smooth patina testifying to years of careful use.",
+                "size": "Small",
+                "state": "sharp and ready for use",
+                "primary_colors": [
+                    "brilliant silver",
+                    "warm brown"
+                ],
+                "material": "steel and wood"
+            }
+        ]
+    },
+    "composition": {
+        "spatial_relations": [
+            [
+                25,
+                "on",
+                77
+            ],
+            [
+                75,
+                "above",
+                25
+            ]
+        ],
+        "semantic_relations": []
+    },
+    "environment": {
+        "environment_details": {
+            "scene_brief": "A tailor's workshop featuring sack, with wall clock, and scissors",
+            "place365_name": "/d/delicatessen",
+            "place365_id": 114,
+            "time_of_day": "morning",
+            "weather": "sunny",
+            "period": "Contemporary",
+            "is_indoor": true,
+            "lighting": {
+                "type": "natural",
+                "quality": "harsh",
+                "direction": "side-lit",
+                "mood": "neutral",
+                "reasoning": "Harsh, direct sunlight (resulting from the sunny weather and morning time) creates strong shadows and sharp definition, which is characteristic of Neoclassical lighting. Side-lighting from a window would sculpt the form of the objects (sack, scissors) and emphasize the realism and structure demanded by the style."
+            },
+            "atmosphere": "fresh and energetic and cheerful"
+        },
+        "scene_inference": {
+            "all_candidates": [
+                {
+                    "scene_type": "domestic study",
+                    "plausibility": 0.9,
+                    "reasoning": "A sack, likely containing personal effects or documents, sits on the floor near a writing desk. A wall clock marks the passage of time in a Neoclassical interior. Scissors are a common tool for opening correspondence or cutting quills, placed on the desk.",
+                    "object_interpretations": {
+                        "sack": {
+                            "form": "real object",
+                            "scale": "normal",
+                            "role": "storage for items"
+                        },
+                        "wall clock": {
+                            "form": "real object",
+                            "scale": "normal",
+                            "role": "timekeeping device"
+                        },
+                        "scissors": {
+                            "form": "real tool",
+                            "scale": "normal",
+                            "role": "desk utility"
+                        }
+                    }
+                },
+                {
+                    "scene_type": "tailor's workshop",
+                    "plausibility": 0.95,
+                    "reasoning": "A sack likely holds fabric or finished garments. Scissors are the primary tool for cutting fabric. A wall clock is essential for tracking work hours in a trade setting.",
+                    "object_interpretations": {
+                        "sack": {
+                            "form": "real object",
+                            "scale": "normal",
+                            "role": "material storage"
+                        },
+                        "wall clock": {
+                            "form": "real object",
+                            "scale": "normal",
+                            "role": "work time tracker"
+                        },
+                        "scissors": {
+                            "form": "real tool",
+                            "scale": "normal",
+                            "role": "primary cutting instrument"
+                        }
+                    },
+                    "scene_brief": "A tailor's workshop featuring sack, with wall clock, and scissors"
+                },
+                {
+                    "scene_type": "classical kitchen",
+                    "plausibility": 0.85,
+                    "reasoning": "A sack of flour or potatoes sits on the floor. Scissors hang on a rack for opening packaging or cutting herbs. A wall clock oversees the cooking process.",
+                    "object_interpretations": {
+                        "sack": {
+                            "form": "real object",
+                            "scale": "normal",
+                            "role": "pantry item"
+                        },
+                        "wall clock": {
+                            "form": "real object",
+                            "scale": "normal",
+                            "role": "kitchen timekeeper"
+                        },
+                        "scissors": {
+                            "form": "real tool",
+                            "scale": "normal",
+                            "role": "culinary utensil"
+                        }
+                    }
+                },
+                {
+                    "scene_type": "museum archive",
+                    "plausibility": 0.8,
+                    "reasoning": "An artifact sack containing historical documents is stored in an archive. Scissors are used for delicate restoration or opening old seals. A wall clock monitors the strict visiting hours.",
+                    "object_interpretations": {
+                        "sack": {
+                            "form": "real object",
+                            "scale": "normal",
+                            "role": "artifact container"
+                        },
+                        "wall clock": {
+                            "form": "real object",
+                            "scale": "normal",
+                            "role": "regulatory device"
+                        },
+                        "scissors": {
+                            "form": "real tool",
+                            "scale": "normal",
+                            "role": "conservation tool"
+                        }
+                    }
+                },
+                {
+                    "scene_type": "artist's studio",
+                    "plausibility": 0.8,
+                    "reasoning": "A sack holds charcoal or canvas supplies. Scissors cut paper or canvas to size. A wall clock provides structure to the artist's creative session.",
+                    "object_interpretations": {
+                        "sack": {
+                            "form": "real object",
+                            "scale": "normal",
+                            "role": "supply bag"
+                        },
+                        "wall clock": {
+                            "form": "real object",
+                            "scale": "normal",
+                            "role": "session timer"
+                        },
+                        "scissors": {
+                            "form": "real tool",
+                            "scale": "normal",
+                            "role": "art supply cutter"
+                        }
+                    }
+                },
+                {
+                    "scene_type": "formal entryway",
+                    "plausibility": 0.75,
+                    "reasoning": "A guest's luggage sack is placed temporarily in the hall. A wall clock dictates the punctuality of arrivals. Scissors might be kept on a console table for opening packages.",
+                    "object_interpretations": {
+                        "sack": {
+                            "form": "real object",
+                            "scale": "normal",
+                            "role": "luggage"
+                        },
+                        "wall clock": {
+                            "form": "real object",
+                            "scale": "normal",
+                            "role": "hall fixture"
+                        },
+                        "scissors": {
+                            "form": "real tool",
+                            "scale": "normal",
+                            "role": "household utility"
+                        }
+                    }
+                },
+                {
+                    "scene_type": "library reading room",
+                    "plausibility": 0.7,
+                    "reasoning": "A sack containing books or research materials is on a chair. Scissors are used for cutting newspaper clippings. A wall clock ensures the library closes on time.",
+                    "object_interpretations": {
+                        "sack": {
+                            "form": "real object",
+                            "scale": "normal",
+                            "role": "book carrier"
+                        },
+                        "wall clock": {
+                            "form": "real object",
+                            "scale": "normal",
+                            "role": "regulatory clock"
+                        },
+                        "scissors": {
+                            "form": "real tool",
+                            "scale": "normal",
+                            "role": "research tool"
+                        }
+                    }
+                },
+                {
+                    "scene_type": "still life composition",
+                    "plausibility": 0.9,
+                    "reasoning": "A Neoclassical still life painting featuring a draped sack (representing abundance or mystery), a wall clock (symbolizing the vanitas of time), and scissors (representing domestic industry).",
+                    "object_interpretations": {
+                        "sack": {
+                            "form": "artistic subject",
+                            "scale": "normal",
+                            "role": "symbolic object"
+                        },
+                        "wall clock": {
+                            "form": "artistic subject",
+                            "scale": "normal",
+                            "role": "symbolic object"
+                        },
+                        "scissors": {
+                            "form": "artistic subject",
+                            "scale": "normal",
+                            "role": "symbolic object"
+                        }
+                    }
+                }
+            ],
+            "selected_scene": {
+                "scene_type": "tailor's workshop",
+                "plausibility": 0.95,
+                "reasoning": "A sack likely holds fabric or finished garments. Scissors are the primary tool for cutting fabric. A wall clock is essential for tracking work hours in a trade setting.",
+                "object_interpretations": {
+                    "sack": {
+                        "form": "real object",
+                        "scale": "normal",
+                        "role": "material storage"
+                    },
+                    "wall clock": {
+                        "form": "real object",
+                        "scale": "normal",
+                        "role": "work time tracker"
+                    },
+                    "scissors": {
+                        "form": "real tool",
+                        "scale": "normal",
+                        "role": "primary cutting instrument"
+                    }
+                },
+                "scene_brief": "A tailor's workshop featuring sack, with wall clock, and scissors"
+            }
+        }
+    },
+    "final_prompts": {
+        "main_prompt": "A Neoclassicism painting depicting a morning scene filled with fresh, energetic, and cheerful atmosphere under harsh natural morning light. In the foreground, a large, partially filled sack in warm ochre and natural beige burlap drapes naturally over a small pair of brilliant silver scissors with warm brown wooden handles, the scissors sharp and ready for use. Directly above this arrangement on a classical wall, a medium-sized, brilliant white wall clock with polished brass accents hangs, functioning and well-maintained, its face catching the morning light. The spatial composition clearly shows the sack resting atop the scissors, with the wall clock positioned above both objects, creating a vertical arrangement against a simple Neoclassical interior with clean architectural lines and morning sunlight streaming through a window.",
+        "negative_prompt": "photorealistic, 3d render, modern, digital art, photograph, low quality, blurry, distorted, surreal, abstract, cartoon, anime, deformed, ugly, disfigured, extra limbs, bad anatomy, watermark, signature, text",
+        "prompt_formats": {
+            "simple": "A Neoclassical painting of a sack on scissors with a wall clock above in morning light.",
+            "complex": "A Neoclassicism painting depicting a morning scene filled with fresh, energetic, and cheerful atmosphere under harsh natural morning light. In the foreground, a large, partially filled sack in warm ochre and natural beige burlap drapes naturally over a small pair of brilliant silver scissors with warm brown wooden handles, the scissors sharp and ready for use. Directly above this arrangement on a classical wall, a medium-sized, brilliant white wall clock with polished brass accents hangs, functioning and well-maintained, its face catching the morning light. The spatial composition clearly shows the sack resting atop the scissors, with the wall clock positioned above both objects, creating a vertical arrangement against a simple Neoclassical interior with clean architectural lines and morning sunlight streaming through a window.",
+            "comma_separated": "Neoclassicism painting, large ochre beige sack, small silver brown scissors, medium white brass wall clock, sack on scissors, clock above sack, morning lighting, harsh natural light, fresh energetic cheerful atmosphere, classical interior, architectural details",
+            "tags": "art, painting, neoclassicism, still life, morning light, sack, scissors, wall clock, classical, composition, natural lighting, interior scene"
+        }
+    }
+}

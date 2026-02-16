@@ -1,0 +1,336 @@
+{
+    "artwork_id": "artwork_20260103_194549_330",
+    "generation_timestamp": "2026-01-03T19:46:27.928572",
+    "style": "Baroque",
+    "objects": {
+        "object_ids": [
+            78,
+            16,
+            60
+        ],
+        "object_names": [
+            "doll",
+            "bengal tiger",
+            "canopy bed"
+        ],
+        "enhanced_objects": [
+            {
+                "object_id": 78,
+                "name": "doll",
+                "artistic_description": "A porcelain doll with luminous skin glowing under bright afternoon sunlight streaming through the nursery window. The warm natural light catches the glossy glaze of her ceramic face, creating soft highlights on her rounded cheeks and tiny nose. Her painted eyes shimmer with a liquid quality, reflecting golden sunbeams. Delicate rosy blush on her cheeks appears more vibrant in the cheerful atmosphere. Her silk dress, once vibrant, shows gentle fading from years of sun exposure, with fabric threads catching the light in a subtle shimmer. Fine cracks in the porcelain, like delicate spiderwebs, are illuminated by the strong directional light, adding character to her aged surface. Her hair, made of fine human strands, glows with warm honey tones where sunlight touches it.",
+                "size": "Small",
+                "state": "well-preserved but showing gentle age-appropriate wear",
+                "primary_colors": [
+                    "creamy porcelain",
+                    "faded rose"
+                ],
+                "material": "porcelain and silk"
+            },
+            {
+                "object_id": 16,
+                "name": "bengal tiger",
+                "artistic_description": "A majestic tiger rendered with Baroque drama, its orange-black stripes rendered in thick, sculptural brushstrokes that catch the afternoon light. The bright sunlight creates intense contrast between the blazing orange fur and deep black stripes, with the orange appearing almost golden in the warm natural illumination. The tiger's coat has a luminous quality, with individual hairs catching the light and creating a textured, velvety surface. Its amber eyes glow with an inner fire, reflecting the bright atmosphere. The painted stripes have a glossy varnish that creates subtle highlights, making them appear wet and alive. The creature's expression is rendered with theatrical intensity, with strong shadows carved by the bright light emphasizing its noble features.",
+                "size": "Large",
+                "state": "vibrant and striking with rich patina",
+                "primary_colors": [
+                    "golden orange",
+                    "deep black"
+                ],
+                "material": "paint on plaster"
+            },
+            {
+                "object_id": 60,
+                "name": "canopy bed",
+                "artistic_description": "An ornate Baroque canopy bed with gilded posts that gleam brilliantly in the bright afternoon sunlight. The gold leaf covering catches and reflects the natural light, creating dazzling highlights that dance across the curved, carved surfaces. Rich crimson velvet curtains, saturated with warm tones from the sunlit atmosphere, show deep folds with dramatic shadows that emphasize the luxurious fabric's texture. The carved wooden frame, painted in deep jewel tones, appears luminous with the strong natural illumination, revealing intricate scrollwork and cherub motifs. Sunlight streaming through the window creates shafts of light that illuminate dust motes dancing in the air above the bed. The fabric shows subtle fading where years of sun exposure have softened the colors, adding to the authentic early modern character.",
+                "size": "Dominant",
+                "state": "opulent and well-maintained with sun-softened fabrics",
+                "primary_colors": [
+                    "brilliant gold",
+                    "warm crimson"
+                ],
+                "material": "gilded wood and velvet"
+            }
+        ]
+    },
+    "composition": {
+        "spatial_relations": [
+            [
+                78,
+                "next to",
+                60
+            ],
+            [
+                16,
+                "behind",
+                78
+            ],
+            [
+                16,
+                "in front of",
+                60
+            ]
+        ],
+        "semantic_relations": [
+            [
+                16,
+                "watching",
+                78
+            ]
+        ]
+    },
+    "environment": {
+        "environment_details": {
+            "scene_brief": "A Baroque nursery mural featuring toy doll, with bengal tiger, and canopy bed",
+            "place365_name": "/p/pub/indoor",
+            "place365_id": 274,
+            "time_of_day": "afternoon",
+            "weather": "sunny",
+            "period": "Early modern",
+            "is_indoor": true,
+            "lighting": {
+                "type": "natural",
+                "quality": "dramatic",
+                "direction": "side-lit",
+                "mood": "warm",
+                "reasoning": "The combination of afternoon sun (sunny weather) creates natural lighting with dramatic quality. Side-lighting from windows would create strong chiaroscuro effects characteristic of Baroque art, casting shadows that define forms dramatically. The warm afternoon sun enhances the rich colors and opulent details typical of Baroque murals, while the dramatic contrasts add the theatrical intensity that defines the style."
+            },
+            "atmosphere": "bright and active and cheerful and striking"
+        },
+        "scene_inference": {
+            "all_candidates": [
+                {
+                    "scene_type": "Baroque aristocratic nursery",
+                    "plausibility": 0.95,
+                    "reasoning": "A wealthy child's room in a Baroque palace. The canopy bed is the central furniture piece. The doll is a cherished toy of the young noble. The bengal tiger appears as a luxurious exotic rug on the floor, a common status symbol of the era.",
+                    "object_interpretations": {
+                        "doll": {
+                            "form": "real toy",
+                            "scale": "normal (child-sized)",
+                            "role": "primary toy"
+                        },
+                        "bengal tiger": {
+                            "form": "decorative rug",
+                            "scale": "life-size (stretched)",
+                            "role": "luxury floor covering"
+                        },
+                        "canopy bed": {
+                            "form": "real furniture",
+                            "scale": "full-size",
+                            "role": "main furniture piece"
+                        }
+                    }
+                },
+                {
+                    "scene_type": "Baroque royal menagerie",
+                    "plausibility": 0.9,
+                    "reasoning": "An ornate, gilded cage or pavilion in a royal garden. The bengal tiger is the living animal on display. The canopy bed serves as an ornate viewing platform for royalty. A doll is a lost toy of a prince or princess, left on the bed.",
+                    "object_interpretations": {
+                        "doll": {
+                            "form": "real toy",
+                            "scale": "normal",
+                            "role": "forgotten object"
+                        },
+                        "bengal tiger": {
+                            "form": "real animal",
+                            "scale": "life-size",
+                            "role": "exotic captive"
+                        },
+                        "canopy bed": {
+                            "form": "ornate structure",
+                            "scale": "large",
+                            "role": "royal viewing platform"
+                        }
+                    }
+                },
+                {
+                    "scene_type": "Baroque oil painting",
+                    "plausibility": 0.85,
+                    "reasoning": "A still life or allegorical painting in the Baroque style. The scene depicts a symbolic tableau. The doll represents innocence or mortality. The tiger represents power or ferocity. The bed represents rest or the final rest.",
+                    "object_interpretations": {
+                        "doll": {
+                            "form": "painted object",
+                            "scale": "variable",
+                            "role": "symbolic element"
+                        },
+                        "bengal tiger": {
+                            "form": "painted animal",
+                            "scale": "variable",
+                            "role": "symbolic element"
+                        },
+                        "canopy bed": {
+                            "form": "painted furniture",
+                            "scale": "variable",
+                            "role": "symbolic element"
+                        }
+                    }
+                },
+                {
+                    "scene_type": "Baroque theater stage",
+                    "plausibility": 0.8,
+                    "reasoning": "A theatrical set for a Baroque opera or play. The canopy bed is a prop for a bedroom scene. The doll is a prop or a character (a living doll). The bengal tiger is a costumed actor or a large puppet.",
+                    "object_interpretations": {
+                        "doll": {
+                            "form": "prop or actor",
+                            "scale": "normal",
+                            "role": "character or prop"
+                        },
+                        "bengal tiger": {
+                            "form": "costume/puppet",
+                            "scale": "life-size",
+                            "role": "actor/prop"
+                        },
+                        "canopy bed": {
+                            "form": "stage prop",
+                            "scale": "full-size",
+                            "role": "set piece"
+                        }
+                    }
+                },
+                {
+                    "scene_type": "Baroque curiosity cabinet",
+                    "plausibility": 0.85,
+                    "reasoning": "A 'Wunderkammer' filled with exotic artifacts. The bengal tiger is a taxidermy specimen. The doll is a rare porcelain collector's item. The canopy bed is a miniature model, displayed as a piece of intricate craftsmanship.",
+                    "object_interpretations": {
+                        "doll": {
+                            "form": "collector's item",
+                            "scale": "miniature",
+                            "role": "curio"
+                        },
+                        "bengal tiger": {
+                            "form": "taxidermy",
+                            "scale": "life-size",
+                            "role": "exotic specimen"
+                        },
+                        "canopy bed": {
+                            "form": "model",
+                            "scale": "miniature",
+                            "role": "curio"
+                        }
+                    }
+                },
+                {
+                    "scene_type": "Baroque dream sequence",
+                    "plausibility": 0.75,
+                    "reasoning": "A surreal, dreamlike environment typical of Baroque fantasy art. The laws of physics are suspended. The doll is a giant, watching over the scene. The tiger is a friendly companion. The bed floats in the clouds.",
+                    "object_interpretations": {
+                        "doll": {
+                            "form": "giant statue",
+                            "scale": "giant",
+                            "role": "dream figure"
+                        },
+                        "bengal tiger": {
+                            "form": "real animal",
+                            "scale": "normal",
+                            "role": "companion"
+                        },
+                        "canopy bed": {
+                            "form": "real furniture",
+                            "scale": "full-size",
+                            "role": "floating platform"
+                        }
+                    }
+                },
+                {
+                    "scene_type": "Baroque luxury boudoir",
+                    "plausibility": 0.9,
+                    "reasoning": "A lavish private bedroom of a wealthy woman. The canopy bed is the centerpiece with rich drapes. The doll is a fashion doll (poup\u00e9e) on a vanity table. The bengal tiger is a fur throw or stole draped over a chair.",
+                    "object_interpretations": {
+                        "doll": {
+                            "form": "fashion doll",
+                            "scale": "small",
+                            "role": "fashion accessory"
+                        },
+                        "bengal tiger": {
+                            "form": "fur stole",
+                            "scale": "folded",
+                            "role": "luxury garment"
+                        },
+                        "canopy bed": {
+                            "form": "real furniture",
+                            "scale": "full-size",
+                            "role": "main furniture"
+                        }
+                    }
+                },
+                {
+                    "scene_type": "Baroque nursery mural",
+                    "plausibility": 0.8,
+                    "reasoning": "A painted wall mural in a child's room. The scene depicts a fantastical jungle. The bengal tiger is painted on the wall. The canopy bed is real furniture in front of the wall. The doll sits on the bed, interacting with the painted world.",
+                    "object_interpretations": {
+                        "doll": {
+                            "form": "real toy",
+                            "scale": "normal",
+                            "role": "toy"
+                        },
+                        "bengal tiger": {
+                            "form": "painting",
+                            "scale": "wall-sized",
+                            "role": "wall art"
+                        },
+                        "canopy bed": {
+                            "form": "real furniture",
+                            "scale": "full-size",
+                            "role": "furniture"
+                        }
+                    },
+                    "scene_brief": "A Baroque nursery mural featuring toy doll, with bengal tiger, and canopy bed"
+                },
+                {
+                    "scene_type": "Baroque taxidermy workshop",
+                    "plausibility": 0.75,
+                    "reasoning": "The workshop of a master taxidermist or artisan. The bengal tiger is a specimen being worked on or displayed. The canopy bed is a piece of furniture being restored or decorated. The doll is a mannequin or model used for reference.",
+                    "object_interpretations": {
+                        "doll": {
+                            "form": "mannequin",
+                            "scale": "normal",
+                            "role": "reference model"
+                        },
+                        "bengal tiger": {
+                            "form": "specimen",
+                            "scale": "life-size",
+                            "role": "subject of work"
+                        },
+                        "canopy bed": {
+                            "form": "furniture",
+                            "scale": "full-size",
+                            "role": "project piece"
+                        }
+                    }
+                }
+            ],
+            "selected_scene": {
+                "scene_type": "Baroque nursery mural",
+                "plausibility": 0.8,
+                "reasoning": "A painted wall mural in a child's room. The scene depicts a fantastical jungle. The bengal tiger is painted on the wall. The canopy bed is real furniture in front of the wall. The doll sits on the bed, interacting with the painted world.",
+                "object_interpretations": {
+                    "doll": {
+                        "form": "real toy",
+                        "scale": "normal",
+                        "role": "toy"
+                    },
+                    "bengal tiger": {
+                        "form": "painting",
+                        "scale": "wall-sized",
+                        "role": "wall art"
+                    },
+                    "canopy bed": {
+                        "form": "real furniture",
+                        "scale": "full-size",
+                        "role": "furniture"
+                    }
+                },
+                "scene_brief": "A Baroque nursery mural featuring toy doll, with bengal tiger, and canopy bed"
+            }
+        }
+    },
+    "final_prompts": {
+        "main_prompt": "A Baroque painting depicting a bright and active afternoon scene, where a large, vibrant Bengal tiger with golden orange fur and deep black stripes stands behind a small, well-preserved doll made of creamy porcelain with faded rose details, both positioned in front of a dominant, opulent canopy bed crafted from brilliant gold gilded wood and draped in warm crimson velvet. The doll sits gently next to the bed's ornate footboard, while the tiger looms protectively yet cheerfully behind it, creating a striking triangular composition. Dramatic natural afternoon light streams through an unseen window, casting rich chiaroscuro shadows across the silk bedding and porcelain surfaces, illuminating the scene with a warm, cheerful glow that highlights the textures of velvet, porcelain, and the tiger's rich patina. The atmosphere is both bright and striking, filled with Baroque theatricality and movement.",
+        "negative_prompt": "photorealistic, 3d render, modern, digital art, photograph, low quality, blurry, distorted, ugly, deformed, cartoon, anime, sketch, watermark, signature, text, frame, border, oversaturated, dull, dark, gloomy, sinister, scary, violent",
+        "prompt_formats": {
+            "simple": "A Baroque painting of a Bengal tiger behind a porcelain doll next to a golden canopy bed in dramatic afternoon light.",
+            "complex": "A Baroque painting depicting a bright and active afternoon scene, where a large, vibrant Bengal tiger with golden orange fur and deep black stripes stands behind a small, well-preserved doll made of creamy porcelain with faded rose details, both positioned in front of a dominant, opulent canopy bed crafted from brilliant gold gilded wood and draped in warm crimson velvet. The doll sits gently next to the bed's ornate footboard, while the tiger looms protectively yet cheerfully behind it, creating a striking triangular composition. Dramatic natural afternoon light streams through an unseen window, casting rich chiaroscuro shadows across the silk bedding and porcelain surfaces, illuminating the scene with a warm, cheerful glow that highlights the textures of velvet, porcelain, and the tiger's rich patina. The atmosphere is both bright and striking, filled with Baroque theatricality and movement.",
+            "comma_separated": "Baroque painting, Bengal tiger, porcelain doll, canopy bed, golden orange fur, black stripes, creamy porcelain, faded rose, gilded wood, crimson velvet, dramatic natural lighting, afternoon sun, chiaroscuro, bright atmosphere, cheerful, striking, opulent, well-preserved, vibrant, active scene, spatial composition",
+            "tags": "art, painting, Baroque, doll, Bengal tiger, canopy bed, porcelain, velvet, gilded wood, dramatic lighting, afternoon, chiaroscuro, opulent, cheerful, striking, composition, still life, animal portrait"
+        }
+    }
+}

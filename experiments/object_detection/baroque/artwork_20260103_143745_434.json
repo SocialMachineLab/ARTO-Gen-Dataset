@@ -1,0 +1,259 @@
+{
+    "artwork_id": "artwork_20260103_143745_434",
+    "generation_timestamp": "2026-01-03T14:38:14.766874",
+    "style": "Baroque",
+    "objects": {
+        "object_ids": [
+            77,
+            57,
+            58
+        ],
+        "object_names": [
+            "scissors",
+            "stand",
+            "blanket"
+        ],
+        "enhanced_objects": [
+            {
+                "object_id": 77,
+                "name": "scissors",
+                "artistic_description": "Heavy forged iron scissors with ornate Baroque scrollwork etched into the broad blades, catching the mixed evening light with sharp metallic glints. The steel shows a dark patina with subtle warm highlights where candlelight strikes the polished edges, while the finger loops are wrapped in worn leather that has darkened to deep umber with age. The central pivot bolt gleams with a small brass accent against the somber metal.",
+                "size": "Medium",
+                "state": "well-worn but functional, showing dignified age appropriate to early modern period",
+                "primary_colors": [
+                    "gunmetal gray",
+                    "deep umber"
+                ],
+                "material": "iron and leather"
+            },
+            {
+                "object_id": 57,
+                "name": "stand",
+                "artistic_description": "Rich mahogany stand with elaborate Baroque carved pilasters and acanthus leaf motifs, glowing with deep amber and burgundy undertones in the warm candlelight. The polished wood surface reflects the mixed lighting with a soft satin sheen, revealing subtle variations in the grain and a dark, aged patina in the carved recesses. Gilded bronze fittings catch the light with muted golden highlights against the dark wood.",
+                "size": "Large",
+                "state": "sturdy and dignified, showing careful maintenance with gentle wear on the carved edges",
+                "primary_colors": [
+                    "deep mahogany",
+                    "warm amber"
+                ],
+                "material": "mahogany wood with bronze fittings"
+            },
+            {
+                "object_id": 58,
+                "name": "blanket",
+                "artistic_description": "Luxurious wool blanket with heavy Baroque brocade pattern, its deep crimson and gold threads absorbing and reflecting the mixed light with velvety richness. The fabric shows subtle variations in pile depth where the candlelight catches the raised patterns, creating a luminous effect against the shadowed valleys of the weave. The edges are finished with a dark silk fringe that shimmers faintly in the ambient light.",
+                "size": "Large",
+                "state": "soft and inviting, with gentle folds suggesting recent use, maintaining its aristocratic appearance",
+                "primary_colors": [
+                    "crimson",
+                    "deep gold"
+                ],
+                "material": "wool brocade with silk fringe"
+            }
+        ]
+    },
+    "composition": {
+        "spatial_relations": [
+            [
+                77,
+                "on",
+                57
+            ],
+            [
+                58,
+                "under",
+                77
+            ]
+        ],
+        "semantic_relations": []
+    },
+    "environment": {
+        "environment_details": {
+            "scene_brief": "A Baroque stage set featuring scissors, with stand, and blanket",
+            "place365_name": "/p/pub/indoor",
+            "place365_id": 274,
+            "time_of_day": "evening",
+            "weather": null,
+            "period": "Early modern",
+            "is_indoor": true,
+            "lighting": {
+                "type": "mixed",
+                "quality": "dramatic",
+                "direction": "side-lit",
+                "mood": "warm",
+                "reasoning": "Baroque style relies on high contrast (chiaroscuro). A 'mixed' lighting setup (implying a key source like a setting sun or side spotlight and fill) creates 'dramatic' shadows. 'Side-lit' highlights the texture of the blanket and the metallic sheen of the scissors, emphasizing their form. 'Warm' mood aligns with the rich, golden tones typical of Baroque painting."
+            },
+            "atmosphere": "calm and relaxed and striking"
+        },
+        "scene_inference": {
+            "all_candidates": [
+                {
+                    "scene_type": "Baroque tailor's workshop",
+                    "plausibility": 0.95,
+                    "reasoning": "A tailor's workshop is a natural habitat for scissors. The stand is a heavy, ornate wooden stand for holding the scissors when not in use. The blanket is a luxurious, heavy velvet or brocade fabric draped over a cutting table, awaiting its final trim with the scissors.",
+                    "object_interpretations": {
+                        "scissors": {
+                            "form": "real tool",
+                            "scale": "normal",
+                            "role": "primary functional object"
+                        },
+                        "stand": {
+                            "form": "real stand",
+                            "scale": "normal",
+                            "role": "functional holder for the scissors"
+                        },
+                        "blanket": {
+                            "form": "real fabric",
+                            "scale": "normal",
+                            "role": "material being worked on"
+                        }
+                    }
+                },
+                {
+                    "scene_type": "Baroque royal boudoir",
+                    "plausibility": 0.9,
+                    "reasoning": "In a royal boudoir, scissors are used for embroidery or cutting threads. The stand is an ornate, gilded table stand holding the scissors. The blanket is a rich, ermine-trimmed velvet blanket on the bed, with the scissors used for final decorative touches.",
+                    "object_interpretations": {
+                        "scissors": {
+                            "form": "real tool",
+                            "scale": "normal",
+                            "role": "crafting tool"
+                        },
+                        "stand": {
+                            "form": "ornate decorative stand",
+                            "scale": "normal",
+                            "role": "display piece"
+                        },
+                        "blanket": {
+                            "form": "luxurious bedding",
+                            "scale": "normal",
+                            "role": "decorative object"
+                        }
+                    }
+                },
+                {
+                    "scene_type": "Baroque art studio",
+                    "plausibility": 0.85,
+                    "reasoning": "An artist's studio where scissors are used for cutting paper or canvas. The stand is a sculptural wooden or metal stand on a cluttered table. The blanket is a heavy drapery or backdrop cloth hanging in the background or draped over a model.",
+                    "object_interpretations": {
+                        "scissors": {
+                            "form": "real tool",
+                            "scale": "normal",
+                            "role": "artist's tool"
+                        },
+                        "stand": {
+                            "form": "functional/ornamental stand",
+                            "scale": "normal",
+                            "role": "table accessory"
+                        },
+                        "blanket": {
+                            "form": "studio prop",
+                            "scale": "normal",
+                            "role": "background element"
+                        }
+                    }
+                },
+                {
+                    "scene_type": "Baroque still life painting",
+                    "plausibility": 0.9,
+                    "reasoning": "A classic still life composition. The scissors are the central tool, resting on a stand. The blanket is a rich, textured fabric serving as the tablecloth or backdrop, creating dramatic folds and shadows characteristic of Baroque art.",
+                    "object_interpretations": {
+                        "scissors": {
+                            "form": "real object",
+                            "scale": "normal",
+                            "role": "focal point"
+                        },
+                        "stand": {
+                            "form": "decorative stand",
+                            "scale": "normal",
+                            "role": "supporting element"
+                        },
+                        "blanket": {
+                            "form": "textile",
+                            "scale": "normal",
+                            "role": "background texture"
+                        }
+                    }
+                },
+                {
+                    "scene_type": "Baroque chapel vestry",
+                    "plausibility": 0.8,
+                    "reasoning": "In a church vestry, scissors are used for cutting cloth for vestments. The stand is a ceremonial stand on a vestment table. The blanket is a heavy altar cloth or vestment fabric being prepared.",
+                    "object_interpretations": {
+                        "scissors": {
+                            "form": "real tool",
+                            "scale": "normal",
+                            "role": "ceremonial tool"
+                        },
+                        "stand": {
+                            "form": "ornate stand",
+                            "scale": "normal",
+                            "role": "ritual object"
+                        },
+                        "blanket": {
+                            "form": "altar cloth",
+                            "scale": "normal",
+                            "role": "religious textile"
+                        }
+                    }
+                },
+                {
+                    "scene_type": "Baroque stage set",
+                    "plausibility": 0.75,
+                    "reasoning": "A theatrical stage set for a Baroque opera. The scissors are a prop on a prop table. The stand is a prop stand. The blanket is a costume piece or stage curtain.",
+                    "object_interpretations": {
+                        "scissors": {
+                            "form": "prop",
+                            "scale": "normal",
+                            "role": "theatrical prop"
+                        },
+                        "stand": {
+                            "form": "prop stand",
+                            "scale": "normal",
+                            "role": "stage dressing"
+                        },
+                        "blanket": {
+                            "form": "costume/curtain",
+                            "scale": "normal",
+                            "role": "stage element"
+                        }
+                    },
+                    "scene_brief": "A Baroque stage set featuring scissors, with stand, and blanket"
+                }
+            ],
+            "selected_scene": {
+                "scene_type": "Baroque stage set",
+                "plausibility": 0.75,
+                "reasoning": "A theatrical stage set for a Baroque opera. The scissors are a prop on a prop table. The stand is a prop stand. The blanket is a costume piece or stage curtain.",
+                "object_interpretations": {
+                    "scissors": {
+                        "form": "prop",
+                        "scale": "normal",
+                        "role": "theatrical prop"
+                    },
+                    "stand": {
+                        "form": "prop stand",
+                        "scale": "normal",
+                        "role": "stage dressing"
+                    },
+                    "blanket": {
+                        "form": "costume/curtain",
+                        "scale": "normal",
+                        "role": "stage element"
+                    }
+                },
+                "scene_brief": "A Baroque stage set featuring scissors, with stand, and blanket"
+            }
+        }
+    },
+    "final_prompts": {
+        "main_prompt": "A Baroque painting depicting a calm and striking evening scene. In the foreground, a large, sturdy mahogany stand with warm amber tones and dignified bronze fittings holds center stage. Resting atop this stand is a pair of well-worn, functional scissors made of gunmetal gray and deep umber iron. Beneath the scissors, cascading over the edge of the stand and pooling onto the floor, is a large, soft, and inviting blanket woven from crimson and deep gold wool brocade with intricate silk fringe. The mixed dramatic lighting of the evening casts deep, theatrical shadows and highlights the rich textures of the iron, leather, and wood, creating a relaxed yet visually arresting atmosphere of quiet contemplation.",
+        "negative_prompt": "photorealistic, 3d render, modern, digital art, photograph, low quality, blurry, distorted, anime, cartoon, surreal, abstract, deformed, ugly, bad anatomy, extra limbs, watermark, signature, text",
+        "prompt_formats": {
+            "simple": "A Baroque painting of scissors on a mahogany stand with a crimson blanket underneath in dramatic evening light.",
+            "complex": "A Baroque painting depicting a calm and striking evening scene. In the foreground, a large, sturdy mahogany stand with warm amber tones and dignified bronze fittings holds center stage. Resting atop this stand is a pair of well-worn, functional scissors made of gunmetal gray and deep umber iron. Beneath the scissors, cascading over the edge of the stand and pooling onto the floor, is a large, soft, and inviting blanket woven from crimson and deep gold wool brocade with intricate silk fringe. The mixed dramatic lighting of the evening casts deep, theatrical shadows and highlights the rich textures of the iron, leather, and wood, creating a relaxed yet visually arresting atmosphere of quiet contemplation.",
+            "comma_separated": "Baroque painting, scissors on stand, blanket under scissors, well-worn gunmetal gray scissors, large mahogany stand, crimson and gold wool blanket, dramatic evening lighting, calm and striking atmosphere, rich textures, chiaroscuro, still life",
+            "tags": "art, painting, Baroque, still life, chiaroscuro, dramatic lighting, evening, scissors, mahogany stand, wool blanket, crimson, gold, gunmetal, umber, amber, texture, calm, striking"
+        }
+    }
+}

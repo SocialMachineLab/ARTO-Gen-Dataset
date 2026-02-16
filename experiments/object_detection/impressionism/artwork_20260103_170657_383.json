@@ -1,0 +1,302 @@
+{
+    "artwork_id": "artwork_20260103_170657_383",
+    "generation_timestamp": "2026-01-03T17:07:36.707134",
+    "style": "Impressionism",
+    "objects": {
+        "object_ids": [
+            79,
+            61,
+            47
+        ],
+        "object_names": [
+            "comb",
+            "billiard table",
+            "banana"
+        ],
+        "enhanced_objects": [
+            {
+                "object_id": 79,
+                "name": "comb",
+                "artistic_description": "Delicate teeth catch afternoon sunlight in fractured highlights, each ridge a soft gradient of warm amber to pale gold. The plastic surface holds a gentle matte sheen, with subtle variations of cream and buttery tones where natural light diffuses across its curved spine. Tiny imperfections scatter light into miniature prisms, creating impressionistic flecks of luminous color.",
+                "size": "Small",
+                "state": "well-used with softened teeth",
+                "primary_colors": [
+                    "warm amber",
+                    "creamy gold"
+                ],
+                "material": "plastic"
+            },
+            {
+                "object_id": 61,
+                "name": "billiard table",
+                "artistic_description": "Miniature felt surface glows with saturated emerald under bright window light, its edges softened by gentle shadows. The wooden frame shows rich mahogany tones warmed to russet and chestnut, with glossy reflections dancing across its polished surface. Tiny chalk dust particles suspended in air create a luminous haze above the playing field, while chrome accents sparkle with cool silver-blue highlights.",
+                "size": "Medium",
+                "state": "toy-sized, pristine condition",
+                "primary_colors": [
+                    "emerald green",
+                    "russet brown"
+                ],
+                "material": "wood and felt"
+            },
+            {
+                "object_id": 47,
+                "name": "banana",
+                "artistic_description": "Sun-warmed peel radiates from vibrant marigold to deep saffron, with scattered brown speckles like watercolor blooms. The curved form catches diffuse natural light on its convex surface, transitioning to soft violet-gray shadows in the crevices. A subtle waxy translucence at the stem reveals warm ochre undertones, while the matte skin absorbs light, creating velvety depth in its yellow gradients.",
+                "size": "Medium",
+                "state": "ripe with emerging spots",
+                "primary_colors": [
+                    "marigold yellow",
+                    "saffron"
+                ],
+                "material": "organic"
+            }
+        ]
+    },
+    "composition": {
+        "spatial_relations": [
+            [
+                79,
+                "on",
+                61
+            ],
+            [
+                47,
+                "next to",
+                61
+            ]
+        ],
+        "semantic_relations": []
+    },
+    "environment": {
+        "environment_details": {
+            "scene_brief": "A art studio where comb serves as the primary tool, with toy billiard table, and banana",
+            "place365_name": "/a/art_studio",
+            "place365_id": 21,
+            "time_of_day": "afternoon",
+            "weather": "sunny",
+            "period": "Contemporary",
+            "is_indoor": true,
+            "lighting": {
+                "type": "natural",
+                "quality": "soft",
+                "direction": "side-lit",
+                "reasoning": "Combining 'sunny' weather and 'afternoon' time suggests strong natural light. For an Impressionist style, 'soft' light is preferred over harsh direct light to blend colors and capture fleeting moments. 'Side-lit' is the most effective direction to sculpt the forms of the 3D objects (comb, toy table, banana) and cast gentle shadows that add depth and dimension to the composition."
+            },
+            "atmosphere": "bright and active and cheerful and gentle"
+        },
+        "scene_inference": {
+            "all_candidates": [
+                {
+                    "scene_type": "vintage barbershop",
+                    "plausibility": 0.85,
+                    "reasoning": "A classic barbershop often has a decorative or functional comb as the primary object. A billiard table could be a miniature toy model on a shelf as decoration, and a banana could be a fresh fruit in a bowl on the counter or a decorative piece.",
+                    "object_interpretations": {
+                        "comb": {
+                            "form": "real grooming tool",
+                            "scale": "normal",
+                            "role": "primary functional object"
+                        },
+                        "billiard table": {
+                            "form": "toy model",
+                            "scale": "miniature",
+                            "role": "decorative element on shelf"
+                        },
+                        "banana": {
+                            "form": "real fruit",
+                            "scale": "normal",
+                            "role": "decorative fruit in bowl"
+                        }
+                    }
+                },
+                {
+                    "scene_type": "luxury lounge",
+                    "plausibility": 0.8,
+                    "reasoning": "A high-end lounge might feature a comb as part of a grooming kit on a side table. A full-size billiard table serves as the central recreational object, and a banana could be part of an exotic fruit arrangement on the bar.",
+                    "object_interpretations": {
+                        "comb": {
+                            "form": "real grooming tool",
+                            "scale": "normal",
+                            "role": "accessory on table"
+                        },
+                        "billiard table": {
+                            "form": "real recreational furniture",
+                            "scale": "full-size",
+                            "role": "central recreational object"
+                        },
+                        "banana": {
+                            "form": "real fruit",
+                            "scale": "normal",
+                            "role": "part of fruit arrangement"
+                        }
+                    }
+                },
+                {
+                    "scene_type": "art studio",
+                    "plausibility": 0.9,
+                    "reasoning": "In an art studio, a comb could be a painting tool or subject. A billiard table could be a reference model or a painted scene, and a banana is a classic still life subject.",
+                    "object_interpretations": {
+                        "comb": {
+                            "form": "art tool/subject",
+                            "scale": "normal",
+                            "role": "primary painting tool or subject"
+                        },
+                        "billiard table": {
+                            "form": "model or painted canvas",
+                            "scale": "miniature or life-size",
+                            "role": "artistic subject"
+                        },
+                        "banana": {
+                            "form": "still life subject",
+                            "scale": "normal",
+                            "role": "artistic subject"
+                        }
+                    },
+                    "scene_brief": "A art studio where comb serves as the primary tool, with toy billiard table, and banana"
+                },
+                {
+                    "scene_type": "children's playroom",
+                    "plausibility": 0.75,
+                    "reasoning": "A playroom can have a toy comb for pretend play. A billiard table could be a large board game or toy set, and a banana could be a plush toy or play food item.",
+                    "object_interpretations": {
+                        "comb": {
+                            "form": "toy grooming set",
+                            "scale": "miniature",
+                            "role": "play object"
+                        },
+                        "billiard table": {
+                            "form": "toy board game",
+                            "scale": "miniature",
+                            "role": "play object"
+                        },
+                        "banana": {
+                            "form": "plush toy or play food",
+                            "scale": "miniature",
+                            "role": "play object"
+                        }
+                    }
+                },
+                {
+                    "scene_type": "surreal dreamscape",
+                    "plausibility": 0.95,
+                    "reasoning": "In Impressionist style, logic bends. A comb could be giant and used to 'comb' clouds. A billiard table could float in the sky as a platform. A banana could be a boat or a crescent moon.",
+                    "object_interpretations": {
+                        "comb": {
+                            "form": "surreal giant object",
+                            "scale": "giant",
+                            "role": "dream element"
+                        },
+                        "billiard table": {
+                            "form": "floating platform",
+                            "scale": "large",
+                            "role": "dream landscape"
+                        },
+                        "banana": {
+                            "form": "boat or celestial body",
+                            "scale": "large",
+                            "role": "dream element"
+                        }
+                    }
+                },
+                {
+                    "scene_type": "vintage kitchen",
+                    "plausibility": 0.8,
+                    "reasoning": "A comb might be on the counter for quick hair fixing. A billiard table could be a decorative print on a wall hanging. A banana is a common kitchen fruit.",
+                    "object_interpretations": {
+                        "comb": {
+                            "form": "real personal item",
+                            "scale": "normal",
+                            "role": "personal accessory"
+                        },
+                        "billiard table": {
+                            "form": "wall art/print",
+                            "scale": "normal",
+                            "role": "decorative element"
+                        },
+                        "banana": {
+                            "form": "real fruit",
+                            "scale": "normal",
+                            "role": "food item"
+                        }
+                    }
+                },
+                {
+                    "scene_type": "grocery store",
+                    "plausibility": 0.7,
+                    "reasoning": "A comb could be in the personal care aisle. A billiard table might be a display model for a game store section. A banana is obviously in the produce section.",
+                    "object_interpretations": {
+                        "comb": {
+                            "form": "retail product",
+                            "scale": "normal",
+                            "role": "merchandise"
+                        },
+                        "billiard table": {
+                            "form": "display model",
+                            "scale": "miniature",
+                            "role": "display item"
+                        },
+                        "banana": {
+                            "form": "retail produce",
+                            "scale": "normal",
+                            "role": "merchandise"
+                        }
+                    }
+                },
+                {
+                    "scene_type": "antique shop",
+                    "plausibility": 0.85,
+                    "reasoning": "An antique shop houses vintage combs. A billiard table could be a vintage miniature replica. A banana could be a ceramic fruit decoration.",
+                    "object_interpretations": {
+                        "comb": {
+                            "form": "antique item",
+                            "scale": "normal",
+                            "role": "collectible"
+                        },
+                        "billiard table": {
+                            "form": "vintage miniature",
+                            "scale": "miniature",
+                            "role": "collectible"
+                        },
+                        "banana": {
+                            "form": "ceramic decoration",
+                            "scale": "normal",
+                            "role": "decoration"
+                        }
+                    }
+                }
+            ],
+            "selected_scene": {
+                "scene_type": "art studio",
+                "plausibility": 0.9,
+                "reasoning": "In an art studio, a comb could be a painting tool or subject. A billiard table could be a reference model or a painted scene, and a banana is a classic still life subject.",
+                "object_interpretations": {
+                    "comb": {
+                        "form": "art tool/subject",
+                        "scale": "normal",
+                        "role": "primary painting tool or subject"
+                    },
+                    "billiard table": {
+                        "form": "model or painted canvas",
+                        "scale": "miniature or life-size",
+                        "role": "artistic subject"
+                    },
+                    "banana": {
+                        "form": "still life subject",
+                        "scale": "normal",
+                        "role": "artistic subject"
+                    }
+                },
+                "scene_brief": "A art studio where comb serves as the primary tool, with toy billiard table, and banana"
+            }
+        }
+    },
+    "final_prompts": {
+        "main_prompt": "A Impressionism painting depicting a bright and cheerful afternoon scene in a sunlit room. In the foreground, a toy-sized billiard table with an emerald green felt surface and russet brown wooden frame dominates the composition. Resting atop its smooth felt surface is a small, well-used comb with softened teeth, its warm amber and creamy gold tones catching the soft natural light. Beside the table, a medium-sized ripe banana with marigold yellow and saffron skin sits on the floor, its surface showing emerging brown spots. The gentle afternoon sunlight streams through a window, casting dappled shadows and creating a lively, active atmosphere where brushstrokes of color blend to suggest form rather than define it precisely. The overall mood is cheerful and gentle, with vibrant yet harmonious colors dancing across the canvas in typical Impressionist style.",
+        "negative_prompt": "photorealistic, 3d render, modern, digital art, photograph, low quality, blurry, distorted, hyperrealistic, surreal, dark, gloomy, monochrome, text, watermark, signature, frame, border",
+        "prompt_formats": {
+            "simple": "An Impressionist painting of a comb on a toy billiard table with a banana beside it in soft afternoon light.",
+            "complex": "A Impressionism painting depicting a bright and cheerful afternoon scene in a sunlit room. In the foreground, a toy-sized billiard table with an emerald green felt surface and russet brown wooden frame dominates the composition. Resting atop its smooth felt surface is a small, well-used comb with softened teeth, its warm amber and creamy gold tones catching the soft natural light. Beside the table, a medium-sized ripe banana with marigold yellow and saffron skin sits on the floor, its surface showing emerging brown spots. The gentle afternoon sunlight streams through a window, casting dappled shadows and creating a lively, active atmosphere where brushstrokes of color blend to suggest form rather than define it precisely. The overall mood is cheerful and gentle, with vibrant yet harmonious colors dancing across the canvas in typical Impressionist style.",
+            "comma_separated": "Impressionism painting, toy-sized billiard table, emerald green felt, russet brown wood, small comb on table, warm amber comb, creamy gold comb, softened teeth, ripe banana beside table, marigold yellow banana, saffron yellow, emerging brown spots, afternoon lighting, natural soft light, bright atmosphere, cheerful mood, gentle atmosphere, active scene, sunlit room, dappled shadows, vibrant colors, loose brushstrokes",
+            "tags": "art, painting, impressionism, still life, billiard table, comb, banana, afternoon light, cheerful, gentle, toy, ripe, well-used, emerald green, amber, yellow, natural lighting, brushstrokes, color blending"
+        }
+    }
+}

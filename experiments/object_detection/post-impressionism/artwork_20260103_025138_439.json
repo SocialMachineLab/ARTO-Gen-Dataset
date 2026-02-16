@@ -1,0 +1,367 @@
+{
+    "artwork_id": "artwork_20260103_025138_439",
+    "generation_timestamp": "2026-01-03T02:52:11.915991",
+    "style": "Post-Impressionism",
+    "objects": {
+        "object_ids": [
+            78,
+            19,
+            26,
+            17
+        ],
+        "object_names": [
+            "doll",
+            "sheep",
+            "canopy",
+            "dog"
+        ],
+        "enhanced_objects": [
+            {
+                "object_id": 78,
+                "name": "doll",
+                "artistic_description": "A porcelain doll with a luminous, creamy complexion that catches the warm sunset glow filtering through the window, creating soft amber highlights on her rounded cheeks and a gentle rose blush. Her painted eyes reflect the subdued indoor light with a glassy, distant sheen. The fabric of her dress appears slightly faded, with delicate lace trim that seems to absorb the warm, peaceful atmosphere, rendering it in soft peach and muted cream tones. Her glossy hair has subtle golden-orange reflections along its parting.",
+                "size": "Medium",
+                "state": "pristine vintage condition, gently worn",
+                "primary_colors": [
+                    "creamy amber",
+                    "muted rose"
+                ],
+                "material": "porcelain and cotton fabric"
+            },
+            {
+                "object_id": 19,
+                "name": "sheep",
+                "artistic_description": "A woolly sheep whose dense fleece appears as a textured mass of warm ivory and soft gold tones, each curl catching the subdued sunset light in gentle highlights. The wool has a matte, dry surface that diffuses the warm indoor glow, creating a soft, hazy outline. Its wool appears thick and cloud-like, with subtle variations of cream and pale honey tones that blend together in the gentle, dreamy atmosphere.",
+                "size": "Large",
+                "state": "calm and still, wool slightly dusty",
+                "primary_colors": [
+                    "warm ivory",
+                    "golden cream"
+                ],
+                "material": "wool"
+            },
+            {
+                "object_id": 26,
+                "name": "canopy",
+                "artistic_description": "A sheer canopy fabric that billows softly, filtering the warm sunset light into a diffused, dreamy glow of peach and pale gold. The translucent material catches the subdued indoor light, creating layers of soft, ethereal color that shift between pale apricot and creamy white. The fabric's delicate weave is visible where the light passes through, rendering it with a gentle, luminous quality that enhances the peaceful atmosphere.",
+                "size": "Dominant",
+                "state": "gently draped, flowing softly",
+                "primary_colors": [
+                    "peach",
+                    "pale gold"
+                ],
+                "material": "sheer fabric"
+            },
+            {
+                "object_id": 17,
+                "name": "dog",
+                "artistic_description": "A dog whose fur appears as soft, warm strokes of amber and honey tones, catching the gentle sunset light in subtle highlights along its back and flanks. The coat has a matte texture that absorbs the warm, subdued indoor glow, creating a gentle, hazy silhouette. Its eyes reflect the peaceful atmosphere with a warm, liquid sheen. The fur appears slightly tousled, with variations of deep golden-brown and lighter caramel tones blending softly in the gentle light.",
+                "size": "Large",
+                "state": "peaceful and relaxed",
+                "primary_colors": [
+                    "amber",
+                    "honey brown"
+                ],
+                "material": "fur"
+            }
+        ]
+    },
+    "composition": {
+        "spatial_relations": [
+            [
+                78,
+                "under",
+                26
+            ],
+            [
+                19,
+                "next to",
+                78
+            ],
+            [
+                17,
+                "next to",
+                78
+            ]
+        ],
+        "semantic_relations": []
+    },
+    "environment": {
+        "environment_details": {
+            "scene_brief": "A surreal dream featuring doll, with sheep, canopy, and dog",
+            "place365_name": "/l/living_room",
+            "place365_id": 215,
+            "time_of_day": "sunset",
+            "weather": "cloudy",
+            "period": "Contemporary",
+            "is_indoor": true,
+            "lighting": {
+                "type": "natural",
+                "quality": "soft",
+                "direction": "side-lit",
+                "mood": "warm",
+                "reasoning": "Natural light from a sunset filtered by clouds provides soft, warm illumination that highlights textures and colors, key in Post-Impressionism. Side-lighting creates depth and shadows, enhancing the surreal, dreamlike composition by emphasizing the forms of the doll, sheep, and dog in a domestic interior."
+            },
+            "atmosphere": "warm and peaceful and subdued and gentle"
+        },
+        "scene_inference": {
+            "all_candidates": [
+                {
+                    "scene_type": "nursery",
+                    "plausibility": 0.95,
+                    "reasoning": "A nursery is a natural habitat for a doll. A sheep can be a stuffed toy, a dog can be a real pet or toy, and a canopy is a common feature on a crib or bed.",
+                    "object_interpretations": {
+                        "doll": {
+                            "form": "real doll",
+                            "scale": "normal",
+                            "role": "primary object"
+                        },
+                        "sheep": {
+                            "form": "stuffed toy",
+                            "scale": "miniature",
+                            "role": "companion toy"
+                        },
+                        "canopy": {
+                            "form": "fabric",
+                            "scale": "normal",
+                            "role": "decorative element on crib"
+                        },
+                        "dog": {
+                            "form": "real pet",
+                            "scale": "normal",
+                            "role": "companion"
+                        }
+                    }
+                },
+                {
+                    "scene_type": "pastoral landscape",
+                    "plausibility": 0.9,
+                    "reasoning": "A doll can be a figurine placed in a garden. A sheep is a farm animal, a dog is a herding dog, and a canopy could be a garden trellis or parasol.",
+                    "object_interpretations": {
+                        "doll": {
+                            "form": "figurine",
+                            "scale": "small",
+                            "role": "garden ornament"
+                        },
+                        "sheep": {
+                            "form": "real animal",
+                            "scale": "normal",
+                            "role": "grazing livestock"
+                        },
+                        "canopy": {
+                            "form": "garden parasol",
+                            "scale": "large",
+                            "role": "shade structure"
+                        },
+                        "dog": {
+                            "form": "real animal",
+                            "scale": "normal",
+                            "role": "herding dog"
+                        }
+                    }
+                },
+                {
+                    "scene_type": "art studio",
+                    "plausibility": 0.85,
+                    "reasoning": "An artist's studio contains various props. A doll is a common model. A sheep could be a reference statue, a dog a studio pet, and a canopy a backdrop.",
+                    "object_interpretations": {
+                        "doll": {
+                            "form": "model",
+                            "scale": "normal",
+                            "role": "subject/model"
+                        },
+                        "sheep": {
+                            "form": "statue",
+                            "scale": "small",
+                            "role": "prop"
+                        },
+                        "canopy": {
+                            "form": "backdrop",
+                            "scale": "large",
+                            "role": "studio equipment"
+                        },
+                        "dog": {
+                            "form": "real pet",
+                            "scale": "normal",
+                            "role": "studio companion"
+                        }
+                    }
+                },
+                {
+                    "scene_type": "vintage toy shop",
+                    "plausibility": 0.9,
+                    "reasoning": "A doll is a central item in a toy shop. A sheep and dog can be other toys for sale, and a canopy can be part of the shop's decor.",
+                    "object_interpretations": {
+                        "doll": {
+                            "form": "toy",
+                            "scale": "normal",
+                            "role": "display item"
+                        },
+                        "sheep": {
+                            "form": "toy",
+                            "scale": "miniature",
+                            "role": "inventory"
+                        },
+                        "canopy": {
+                            "form": "decorative awning",
+                            "scale": "large",
+                            "role": "shop decor"
+                        },
+                        "dog": {
+                            "form": "toy",
+                            "scale": "small",
+                            "role": "inventory"
+                        }
+                    }
+                },
+                {
+                    "scene_type": "surreal dream",
+                    "plausibility": 0.8,
+                    "reasoning": "In a Post-Impressionist surreal scene, logic is fluid. A doll can be giant, a sheep can fly, a dog can be abstract, and a canopy can float in the sky.",
+                    "object_interpretations": {
+                        "doll": {
+                            "form": "giant doll",
+                            "scale": "oversized",
+                            "role": "dream figure"
+                        },
+                        "sheep": {
+                            "form": "ethereal creature",
+                            "scale": "variable",
+                            "role": "dream element"
+                        },
+                        "canopy": {
+                            "form": "floating fabric",
+                            "scale": "large",
+                            "role": "sky decoration"
+                        },
+                        "dog": {
+                            "form": "abstract shape",
+                            "scale": "variable",
+                            "role": "dream guardian"
+                        }
+                    },
+                    "scene_brief": "A surreal dream featuring doll, with sheep, canopy, and dog"
+                },
+                {
+                    "scene_type": "theater stage",
+                    "plausibility": 0.85,
+                    "reasoning": "A stage set for a play. The doll is an actor or prop. Sheep are costumed actors, a dog is a trained animal actor, and a canopy is a set piece.",
+                    "object_interpretations": {
+                        "doll": {
+                            "form": "puppet",
+                            "scale": "normal",
+                            "role": "lead actor"
+                        },
+                        "sheep": {
+                            "form": "costumed actors",
+                            "scale": "normal",
+                            "role": "supporting cast"
+                        },
+                        "canopy": {
+                            "form": "set design",
+                            "scale": "large",
+                            "role": "stage prop"
+                        },
+                        "dog": {
+                            "form": "trained animal",
+                            "scale": "normal",
+                            "role": "actor"
+                        }
+                    }
+                },
+                {
+                    "scene_type": "vintage bedroom",
+                    "plausibility": 0.9,
+                    "reasoning": "Similar to a nursery but more mature. A doll sits on a bed. A sheepskin rug, a real dog, and a bed canopy complete the scene.",
+                    "object_interpretations": {
+                        "doll": {
+                            "form": "antique doll",
+                            "scale": "normal",
+                            "role": "keepsake"
+                        },
+                        "sheep": {
+                            "form": "rug",
+                            "scale": "normal",
+                            "role": "floor covering"
+                        },
+                        "canopy": {
+                            "form": "bed canopy",
+                            "scale": "large",
+                            "role": "furniture"
+                        },
+                        "dog": {
+                            "form": "real pet",
+                            "scale": "normal",
+                            "role": "companion"
+                        }
+                    }
+                },
+                {
+                    "scene_type": "farmhouse porch",
+                    "plausibility": 0.85,
+                    "reasoning": "A doll left on a porch swing. A sheep in the yard, a dog at the feet, and a canopy over the swing.",
+                    "object_interpretations": {
+                        "doll": {
+                            "form": "forgotten toy",
+                            "scale": "normal",
+                            "role": "forgotten item"
+                        },
+                        "sheep": {
+                            "form": "real animal",
+                            "scale": "normal",
+                            "role": "yard animal"
+                        },
+                        "canopy": {
+                            "form": "swing canopy",
+                            "scale": "medium",
+                            "role": "shade"
+                        },
+                        "dog": {
+                            "form": "real animal",
+                            "scale": "normal",
+                            "role": "watchdog"
+                        }
+                    }
+                }
+            ],
+            "selected_scene": {
+                "scene_type": "surreal dream",
+                "plausibility": 0.8,
+                "reasoning": "In a Post-Impressionist surreal scene, logic is fluid. A doll can be giant, a sheep can fly, a dog can be abstract, and a canopy can float in the sky.",
+                "object_interpretations": {
+                    "doll": {
+                        "form": "giant doll",
+                        "scale": "oversized",
+                        "role": "dream figure"
+                    },
+                    "sheep": {
+                        "form": "ethereal creature",
+                        "scale": "variable",
+                        "role": "dream element"
+                    },
+                    "canopy": {
+                        "form": "floating fabric",
+                        "scale": "large",
+                        "role": "sky decoration"
+                    },
+                    "dog": {
+                        "form": "abstract shape",
+                        "scale": "variable",
+                        "role": "dream guardian"
+                    }
+                },
+                "scene_brief": "A surreal dream featuring doll, with sheep, canopy, and dog"
+            }
+        }
+    },
+    "final_prompts": {
+        "main_prompt": "A Post-Impressionism painting depicting a warm and peaceful sunset scene with natural soft lighting. In the foreground, a large, calm sheep in warm ivory and golden cream wool stands next to a medium-sized doll in creamy amber and muted rose porcelain, which sits in pristine vintage condition under a dominant, gently draped canopy of peach and pale gold sheer fabric. Beside the doll rests a large, peaceful dog with amber and honey brown fur, relaxed and still. The spatial arrangement shows the doll centrally positioned under the protective canopy, with the sheep to one side and the dog to the other, creating a balanced, gentle composition. The subdued atmosphere is enhanced by the sunset's golden glow, casting long, soft shadows and bathing the scene in a warm, gentle light that highlights the textures of porcelain, cotton, wool, and fur.",
+        "negative_prompt": "photorealistic, 3d render, modern, digital art, photograph, low quality, blurry, distorted, ugly, deformed, noisy, oversaturated, cartoon, anime, text, watermark, signature, frame, border",
+        "prompt_formats": {
+            "simple": "A Post-Impressionism painting of a doll under a canopy with a sheep and dog beside it at sunset.",
+            "complex": "A Post-Impressionism painting depicting a warm and peaceful sunset scene with natural soft lighting. In the foreground, a large, calm sheep in warm ivory and golden cream wool stands next to a medium-sized doll in creamy amber and muted rose porcelain, which sits in pristine vintage condition under a dominant, gently draped canopy of peach and pale gold sheer fabric. Beside the doll rests a large, peaceful dog with amber and honey brown fur, relaxed and still. The spatial arrangement shows the doll centrally positioned under the protective canopy, with the sheep to one side and the dog to the other, creating a balanced, gentle composition. The subdued atmosphere is enhanced by the sunset's golden glow, casting long, soft shadows and bathing the scene in a warm, gentle light that highlights the textures of porcelain, cotton, wool, and fur.",
+            "comma_separated": "Post-Impressionism painting, doll under canopy, sheep next to doll, dog next to doll, sunset lighting, warm peaceful subdued gentle atmosphere, creamy amber doll, warm ivory sheep, peach canopy, amber dog, porcelain, wool, sheer fabric, fur, vintage, calm, relaxed, textured brushstrokes",
+            "tags": "art, painting, post-impressionism, sunset, doll, sheep, canopy, dog, vintage, peaceful, warm lighting, textured, brushstrokes, still life, animal, fabric, porcelain"
+        }
+    }
+}

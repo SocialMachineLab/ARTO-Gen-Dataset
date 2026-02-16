@@ -1,0 +1,345 @@
+{
+  "artwork_id": "artwork_20260103_235247_701",
+  "generation_timestamp": "2026-01-03T23:53:19.950514",
+  "style": "Impressionism",
+  "objects": {
+    "object_ids": [
+      76,
+      44,
+      28,
+      58
+    ],
+    "object_names": [
+      "vase",
+      "knife",
+      "dress shirt",
+      "blanket"
+    ],
+    "enhanced_objects": [
+      {
+        "object_id": 76,
+        "name": "vase",
+        "artistic_description": "A ceramic vase bathed in bright afternoon sunlight streaming through the shop window, its glossy surface catching brilliant highlights and casting soft, diffused shadows. The natural light reveals subtle variations in the glaze, with warm golden tones dancing across its curved form, while the unlit areas hold cool, gentle shadows. The Impressionist treatment shows loose, visible brushstrokes that capture the fleeting play of light, making the surface appear alive with shimmering reflections.",
+        "size": "Medium",
+        "state": "polished and pristine, reflecting ambient light with gentle luminosity",
+        "primary_colors": [
+          "warm cream",
+          "soft amber"
+        ],
+        "material": "ceramic"
+      },
+      {
+        "object_id": 44,
+        "name": "knife",
+        "artistic_description": "A steel knife blade that catches and fractures the bright afternoon light into sharp, dazzling points of white brilliance. The polished metal surface acts as a mirror, reflecting the cheerful atmosphere of the sunlit shop with cool, silvery highlights. The Impressionist style renders the gleaming edge with quick, confident strokes of pure white and pale blue, while the handle shows warmer, more muted tones in soft focus.",
+        "size": "Small",
+        "state": "gleaming and sharp, with a mirror-like finish that responds dramatically to natural light",
+        "primary_colors": [
+          "brilliant silver",
+          "cool white"
+        ],
+        "material": "metal"
+      },
+      {
+        "object_id": 28,
+        "name": "dress shirt",
+        "artistic_description": "A crisp white dress shirt that glows with luminous brightness under the strong afternoon sun, its fabric showing delicate variations of warm and cool tones where light filters through the weave. The natural illumination reveals the subtle texture of cotton fibers, with soft shadows creating gentle depth in the folds. Impressionist brushwork captures the airy quality of the fabric, using loose strokes of ivory, pale yellow, and whisper-soft gray to convey its fresh, clean appearance.",
+        "size": "Medium",
+        "state": "freshly pressed and pristine, absorbing and reflecting light with soft luminosity",
+        "primary_colors": [
+          "luminous white",
+          "pale ivory"
+        ],
+        "material": "fabric"
+      },
+      {
+        "object_id": 58,
+        "name": "blanket",
+        "artistic_description": "A woolen blanket draped with soft, heavy folds that absorb the bright afternoon light into their textured depths, creating a rich tapestry of warm and cool shadows. The natural illumination reveals the fuzzy, tactile quality of the weave, with sunlit areas glowing in gentle golden tones while recessed folds hold deeper, cooler grays. The Impressionist treatment uses thick, visible strokes of ochre, sienna, and soft blue to capture the fabric's comforting weight and the way light plays across its napped surface.",
+        "size": "Large",
+        "state": "soft and well-loved, with a gentle nap that diffuses light beautifully",
+        "primary_colors": [
+          "warm ochre",
+          "muted gray"
+        ],
+        "material": "fabric"
+      }
+    ]
+  },
+  "composition": {
+    "spatial_relations": [
+      [
+        76,
+        "on",
+        58
+      ],
+      [
+        44,
+        "on",
+        76
+      ],
+      [
+        28,
+        "beside",
+        76
+      ],
+      [
+        58,
+        "under",
+        28
+      ]
+    ],
+    "semantic_relations": []
+  },
+  "environment": {
+    "environment_details": {
+      "scene_brief": "A vintage shop featuring vase, with knife, dress shirt, and blanket",
+      "place365_name": "/g/gift_shop",
+      "place365_id": 162,
+      "time_of_day": "afternoon",
+      "weather": "sunny",
+      "period": "Modern",
+      "is_indoor": true,
+      "lighting": {
+        "type": "natural",
+        "quality": "soft",
+        "direction": "side-lit",
+        "mood": "warm",
+        "reasoning": "Combining 'afternoon' time and 'sunny' weather suggests strong natural light. To fit the 'Impressionism' style, the lighting should be filtered or diffused to create soft edges and blend colors, rather than harsh contrasts. A side-lit setup from a window would illuminate the textures of the blanket and shirt while casting gentle shadows across the shop, emphasizing the play of light on the vase and knife."
+      },
+      "atmosphere": "bright and active and cheerful and gentle"
+    },
+    "scene_inference": {
+      "all_candidates": [
+        {
+          "scene_type": "bedroom",
+          "plausibility": 0.9,
+          "reasoning": "A bedroom is a common place for a vase with flowers, a dress shirt (on a chair or bed), and a blanket. A knife could be a small pocket knife left on a nightstand or dresser, perhaps used for opening packages.",
+          "object_interpretations": {
+            "vase": {
+              "form": "real vase",
+              "scale": "normal",
+              "role": "decorative object with flowers"
+            },
+            "knife": {
+              "form": "pocket knife",
+              "scale": "small",
+              "role": "personal item left on surface"
+            },
+            "dress shirt": {
+              "form": "worn garment",
+              "scale": "normal",
+              "role": "clothing item"
+            },
+            "blanket": {
+              "form": "bedding",
+              "scale": "normal",
+              "role": "bed covering"
+            }
+          }
+        },
+        {
+          "scene_type": "living room",
+          "plausibility": 0.85,
+          "reasoning": "A vase sits on a coffee table, a blanket is draped over a sofa, and a dress shirt is folded on an armchair. A knife might be a steak knife on a tray from a previous meal or a decorative letter opener.",
+          "object_interpretations": {
+            "vase": {
+              "form": "real vase",
+              "scale": "normal",
+              "role": "centerpiece"
+            },
+            "knife": {
+              "form": "steak knife",
+              "scale": "small",
+              "role": "forgotten cutlery"
+            },
+            "dress shirt": {
+              "form": "folded garment",
+              "scale": "normal",
+              "role": "laundry waiting to be put away"
+            },
+            "blanket": {
+              "form": "throw blanket",
+              "scale": "normal",
+              "role": "comfort item"
+            }
+          }
+        },
+        {
+          "scene_type": "laundry room",
+          "plausibility": 0.8,
+          "reasoning": "A blanket and dress shirt are clearly in a laundry context. A vase could be sitting on a shelf waiting to be cleaned. A small knife could be a sewing seam ripper or a pocket knife found in a pocket.",
+          "object_interpretations": {
+            "vase": {
+              "form": "empty vase",
+              "scale": "normal",
+              "role": "item awaiting cleaning"
+            },
+            "knife": {
+              "form": "seam ripper or pocket knife",
+              "scale": "small",
+              "role": "utility tool"
+            },
+            "dress shirt": {
+              "form": "garment",
+              "scale": "normal",
+              "role": "laundry item"
+            },
+            "blanket": {
+              "form": "heavy blanket",
+              "scale": "large",
+              "role": "laundry item"
+            }
+          }
+        },
+        {
+          "scene_type": "vintage shop",
+          "plausibility": 0.75,
+          "reasoning": "An antique shop setting where a vase is a display item, a dress shirt and blanket are vintage clothing/textiles, and a knife is an antique pocket knife or cutlery piece in a display case.",
+          "object_interpretations": {
+            "vase": {
+              "form": "antique vase",
+              "scale": "normal",
+              "role": "collectible"
+            },
+            "knife": {
+              "form": "pocket knife",
+              "scale": "small",
+              "role": "collectible"
+            },
+            "dress shirt": {
+              "form": "vintage clothing",
+              "scale": "normal",
+              "role": "merchandise"
+            },
+            "blanket": {
+              "form": "vintage quilt",
+              "scale": "normal",
+              "role": "merchandise"
+            }
+          },
+          "scene_brief": "A vintage shop featuring vase, with knife, dress shirt, and blanket"
+        },
+        {
+          "scene_type": "art studio",
+          "plausibility": 0.7,
+          "reasoning": "A studio setting where the objects are arranged for a still life painting. The vase is the main subject, the knife is a palette knife or prop, the shirt is draped for texture, and the blanket is a backdrop.",
+          "object_interpretations": {
+            "vase": {
+              "form": "prop vase",
+              "scale": "normal",
+              "role": "subject of painting"
+            },
+            "knife": {
+              "form": "palette knife",
+              "scale": "normal",
+              "role": "art tool"
+            },
+            "dress shirt": {
+              "form": "draped fabric",
+              "scale": "normal",
+              "role": "textural element"
+            },
+            "blanket": {
+              "form": "backdrop",
+              "scale": "large",
+              "role": "background"
+            }
+          }
+        },
+        {
+          "scene_type": "kitchen",
+          "plausibility": 0.8,
+          "reasoning": "A vase with flowers on the counter, a knife (chef's or paring) on the block or counter, a dress shirt (maybe hanging on a hook or on a chair), and a blanket (perhaps a tea towel or a small throw on a breakfast nook bench).",
+          "object_interpretations": {
+            "vase": {
+              "form": "kitchen counter vase",
+              "scale": "normal",
+              "role": "decoration"
+            },
+            "knife": {
+              "form": "chef's knife",
+              "scale": "normal",
+              "role": "cooking tool"
+            },
+            "dress shirt": {
+              "form": "casual shirt",
+              "scale": "normal",
+              "role": "clothing"
+            },
+            "blanket": {
+              "form": "tea towel",
+              "scale": "small",
+              "role": "utility"
+            }
+          }
+        },
+        {
+          "scene_type": "hotel room",
+          "plausibility": 0.85,
+          "reasoning": "Standard hotel room amenities include a vase (often decorative), a blanket (on the bed), and a dress shirt (hanging in the closet or on a chair). A knife could be a small fruit knife left on the desk.",
+          "object_interpretations": {
+            "vase": {
+              "form": "hotel decoration",
+              "scale": "normal",
+              "role": "amenity"
+            },
+            "knife": {
+              "form": "fruit knife",
+              "scale": "small",
+              "role": "forgotten item"
+            },
+            "dress shirt": {
+              "form": "travel garment",
+              "scale": "normal",
+              "role": "clothing"
+            },
+            "blanket": {
+              "form": "bedspread",
+              "scale": "normal",
+              "role": "bedding"
+            }
+          }
+        }
+      ],
+      "selected_scene": {
+        "scene_type": "vintage shop",
+        "plausibility": 0.75,
+        "reasoning": "An antique shop setting where a vase is a display item, a dress shirt and blanket are vintage clothing/textiles, and a knife is an antique pocket knife or cutlery piece in a display case.",
+        "object_interpretations": {
+          "vase": {
+            "form": "antique vase",
+            "scale": "normal",
+            "role": "collectible"
+          },
+          "knife": {
+            "form": "pocket knife",
+            "scale": "small",
+            "role": "collectible"
+          },
+          "dress shirt": {
+            "form": "vintage clothing",
+            "scale": "normal",
+            "role": "merchandise"
+          },
+          "blanket": {
+            "form": "vintage quilt",
+            "scale": "normal",
+            "role": "merchandise"
+          }
+        },
+        "scene_brief": "A vintage shop featuring vase, with knife, dress shirt, and blanket"
+      }
+    }
+  },
+  "final_prompts": {
+    "main_prompt": "A Impressionism painting depicting a bright and cheerful afternoon scene with natural soft lighting. In the foreground, a large, well-loved blanket in warm ochre and muted gray tones lies spread out. Upon this blanket rests a medium-sized, polished ceramic vase in warm cream and soft amber hues, its pristine surface catching the gentle afternoon light. Balanced precariously atop the vase is a small, gleaming silver knife with brilliant white highlights, its sharp edge contrasting with the soft forms. Beside the vase, partially resting on the blanket, is a medium-sized, freshly pressed dress shirt in luminous white and pale ivory, its pristine fabric creating soft folds. The overall atmosphere is active yet gentle, with visible, lively brushstrokes capturing the interplay of light and shadow on the ceramic, metal, and fabric textures in this cheerful domestic arrangement.",
+    "negative_prompt": "photorealistic, 3d render, modern, digital art, photograph, low quality, blurry, distorted, ugly, deformed, disfigured, poor details, bad anatomy, watermark, signature, text, frame, cartoon, anime, surreal, dark, gloomy, sinister, creepy",
+    "prompt_formats": {
+      "simple": "An Impressionist painting of a vase with a knife on it, a dress shirt beside it, all on a blanket, in a soft afternoon light.",
+      "complex": "A Impressionism painting depicting a bright and cheerful afternoon scene with natural soft lighting. In the foreground, a large, well-loved blanket in warm ochre and muted gray tones lies spread out. Upon this blanket rests a medium-sized, polished ceramic vase in warm cream and soft amber hues, its pristine surface catching the gentle afternoon light. Balanced precariously atop the vase is a small, gleaming silver knife with brilliant white highlights, its sharp edge contrasting with the soft forms. Beside the vase, partially resting on the blanket, is a medium-sized, freshly pressed dress shirt in luminous white and pale ivory, its pristine fabric creating soft folds. The overall atmosphere is active yet gentle, with visible, lively brushstrokes capturing the interplay of light and shadow on the ceramic, metal, and fabric textures in this cheerful domestic arrangement.",
+      "comma_separated": "Impressionism painting, afternoon, natural soft lighting, bright cheerful gentle atmosphere, large soft ochre gray blanket, medium polished cream amber ceramic vase, small gleaming silver white metal knife, medium pristine white ivory dress shirt, knife on vase, vase on blanket, shirt beside vase on blanket, visible brushstrokes, light and shadow",
+      "tags": "art, painting, impressionism, still life, domestic scene, afternoon light, ceramic vase, silver knife, white shirt, wool blanket, texture, brushwork, cheerful, gentle, Claude Monet style, Pierre-Auguste Renoir style"
+    }
+  }
+}

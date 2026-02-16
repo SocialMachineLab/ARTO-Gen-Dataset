@@ -1,0 +1,313 @@
+{
+    "artwork_id": "artwork_20260103_024121_857",
+    "generation_timestamp": "2026-01-03T02:42:01.530538",
+    "style": "Post-Impressionism",
+    "objects": {
+        "object_ids": [
+            75,
+            60,
+            76,
+            26
+        ],
+        "object_names": [
+            "clock",
+            "canopy bed",
+            "urn",
+            "canopy"
+        ],
+        "enhanced_objects": [
+            {
+                "object_id": 75,
+                "name": "clock",
+                "artistic_description": "A polished brass clock face glows with warm amber tones under the bright afternoon sunlight streaming through museum windows. The golden surface catches and scatters light in vibrant Post-Impressionist flecks of ochre, yellow, and burnt sienna. Roman numerals are rendered in deep, saturated shadows against the luminous dial. The glass cover reflects fractured highlights of azure from the sky outside, creating a mosaic of color that vibrates with the cheerful atmosphere.",
+                "size": "Medium",
+                "state": "pristine and gleaming, meticulously maintained in contemporary museum setting",
+                "primary_colors": [
+                    "golden amber",
+                    "burnt sienna"
+                ],
+                "material": "brass and glass"
+            },
+            {
+                "object_id": 60,
+                "name": "canopy bed",
+                "artistic_description": "Rich cream fabric drapes cascade in luminous folds, bathed in warm golden sunlight that penetrates the bright museum interior. The material glows with thick, buttery highlights and soft violet shadows in the folds, rendered with visible, expressive brushstrokes. The wooden frame shows warm honey tones with subtle green undertones where light filters through the fabric. The overall effect is one of gentle luxury, with saturated color patches creating a sense of soft, enveloping warmth.",
+                "size": "Large",
+                "state": "elegant and well-preserved, contemporary craftsmanship with smooth finish",
+                "primary_colors": [
+                    "creamy white",
+                    "warm honey"
+                ],
+                "material": "fabric and wood"
+            },
+            {
+                "object_id": 76,
+                "name": "urn",
+                "artistic_description": "A ceramic urn stands with matte surfaces that absorb and soften the bright afternoon light, appearing in muted earth tones of terracotta and deep rust. The curved form shows subtle variations in saturation, with sunlit areas glowing in warm apricot while shadowed portions deepen to rich maroon. The unglazed surface creates a velvety, tactile appearance with visible texture rendered in thick, impasto strokes of burnt umber and sienna.",
+                "size": "Medium",
+                "state": "mature patina with subtle surface wear, authentically aged for contemporary display",
+                "primary_colors": [
+                    "terracotta",
+                    "burnt umber"
+                ],
+                "material": "ceramic"
+            },
+            {
+                "object_id": 26,
+                "name": "canopy",
+                "artistic_description": "Translucent fabric canopy filters the brilliant sunlight into a soft, luminous haze of pale gold and delicate rose. The material appears as layered washes of color\u2014creamy whites, warm yellows, and hints of dusty pink\u2014creating an ethereal, dreamlike quality. Light dances across the surface in visible, expressive dabs of pure color, suggesting the gentle movement of air in the bright, cheerful space. The edges glow with intense saturation where sunlight directly strikes the fabric.",
+                "size": "Dominant",
+                "state": "light and airy, contemporary fabric with pristine drape",
+                "primary_colors": [
+                    "pale gold",
+                    "creamy white"
+                ],
+                "material": "fabric"
+            }
+        ]
+    },
+    "composition": {
+        "spatial_relations": [
+            [
+                75,
+                "on",
+                60
+            ],
+            [
+                76,
+                "next to",
+                60
+            ],
+            [
+                26,
+                "above",
+                60
+            ]
+        ],
+        "semantic_relations": []
+    },
+    "environment": {
+        "environment_details": {
+            "scene_brief": "A Museum interior featuring clock, with canopy bed, urn, and canopy",
+            "place365_name": "/m/museum/indoor",
+            "place365_id": 236,
+            "time_of_day": "afternoon",
+            "weather": "sunny",
+            "period": "Contemporary",
+            "is_indoor": true,
+            "lighting": {
+                "type": "natural",
+                "quality": "soft",
+                "direction": "side-lit",
+                "mood": "warm",
+                "reasoning": "Combining 'afternoon' time and 'sunny' weather results in natural lighting. In a museum, light often enters from high windows or skylights, creating a soft, diffused illumination rather than harsh direct beams. A side-lit configuration is typical for highlighting the three-dimensionality of objects like a bed and urn, casting subtle shadows that define volume\u2014a key concern in Post-Impressionist composition. The warm mood aligns with the golden hour of the afternoon."
+            },
+            "atmosphere": "bright and active and cheerful and gentle"
+        },
+        "scene_inference": {
+            "all_candidates": [
+                {
+                    "scene_type": "Victorian bedroom",
+                    "plausibility": 0.9,
+                    "reasoning": "A clock sits on a bedside table in a bedroom featuring a canopy bed. An urn is placed on the mantelpiece or a dresser as a decorative funerary object. The canopy is the fabric over the bed.",
+                    "object_interpretations": {
+                        "clock": {
+                            "form": "real clock",
+                            "scale": "normal",
+                            "role": "timekeeper"
+                        },
+                        "canopy bed": {
+                            "form": "real furniture",
+                            "scale": "normal",
+                            "role": "primary furniture"
+                        },
+                        "urn": {
+                            "form": "real urn",
+                            "scale": "normal",
+                            "role": "decorative/memorial object"
+                        },
+                        "canopy": {
+                            "form": "fabric",
+                            "scale": "normal",
+                            "role": "part of the bed structure"
+                        }
+                    }
+                },
+                {
+                    "scene_type": "Grandfather's study",
+                    "plausibility": 0.85,
+                    "reasoning": "A grandfather clock stands in a study. A canopy bed might be visible through an adjoining door, or the 'canopy' refers to a draped fabric over a display area. An urn sits on a bookshelf.",
+                    "object_interpretations": {
+                        "clock": {
+                            "form": "grandfather clock",
+                            "scale": "large",
+                            "role": "central timepiece"
+                        },
+                        "canopy bed": {
+                            "form": "model/miniature",
+                            "scale": "small",
+                            "role": "decorative item on desk"
+                        },
+                        "urn": {
+                            "form": "real urn",
+                            "scale": "normal",
+                            "role": "decorative object"
+                        },
+                        "canopy": {
+                            "form": "fabric",
+                            "scale": "normal",
+                            "role": "draped over a chair or display"
+                        }
+                    }
+                },
+                {
+                    "scene_type": "Art studio (Post-Impressionist)",
+                    "plausibility": 0.8,
+                    "reasoning": "The artist paints a still life featuring a clock, an urn, and draped fabric (canopy). A daybed (canopy bed) sits in the corner as studio furniture.",
+                    "object_interpretations": {
+                        "clock": {
+                            "form": "real clock",
+                            "scale": "normal",
+                            "role": "subject of painting"
+                        },
+                        "canopy bed": {
+                            "form": "real furniture",
+                            "scale": "normal",
+                            "role": "studio furniture"
+                        },
+                        "urn": {
+                            "form": "real urn",
+                            "scale": "normal",
+                            "role": "subject of painting"
+                        },
+                        "canopy": {
+                            "form": "draped fabric",
+                            "scale": "normal",
+                            "role": "background element"
+                        }
+                    }
+                },
+                {
+                    "scene_type": "Museum interior",
+                    "plausibility": 0.9,
+                    "reasoning": "A clock is displayed in a glass case. An urn is in a nearby case. A canopy bed is reconstructed in the room. The canopy is part of the bed display.",
+                    "object_interpretations": {
+                        "clock": {
+                            "form": "artifact",
+                            "scale": "normal",
+                            "role": "exhibit"
+                        },
+                        "canopy bed": {
+                            "form": "reconstructed furniture",
+                            "scale": "normal",
+                            "role": "exhibit"
+                        },
+                        "urn": {
+                            "form": "artifact",
+                            "scale": "normal",
+                            "role": "exhibit"
+                        },
+                        "canopy": {
+                            "form": "textile",
+                            "scale": "normal",
+                            "role": "part of exhibit"
+                        }
+                    },
+                    "scene_brief": "A Museum interior featuring clock, with canopy bed, urn, and canopy"
+                },
+                {
+                    "scene_type": "Dreamscape/Surreal Bedroom",
+                    "plausibility": 0.75,
+                    "reasoning": "In a Post-Impressionist style, shapes blur. A clock floats near a canopy bed. An urn serves as a vase on a nightstand. The canopy fabric wraps around the room.",
+                    "object_interpretations": {
+                        "clock": {
+                            "form": "surreal clock",
+                            "scale": "variable",
+                            "role": "dream element"
+                        },
+                        "canopy bed": {
+                            "form": "real bed",
+                            "scale": "normal",
+                            "role": "sleeping area"
+                        },
+                        "urn": {
+                            "form": "vase",
+                            "scale": "normal",
+                            "role": "floral holder"
+                        },
+                        "canopy": {
+                            "form": "flowing fabric",
+                            "scale": "large",
+                            "role": "atmospheric element"
+                        }
+                    }
+                },
+                {
+                    "scene_type": "Outdoor Garden",
+                    "plausibility": 0.7,
+                    "reasoning": "A sundial (clock) sits in the garden. A garden bench with a canopy is present. An urn is used as a planter. The canopy is the shade structure.",
+                    "object_interpretations": {
+                        "clock": {
+                            "form": "sundial",
+                            "scale": "normal",
+                            "role": "garden feature"
+                        },
+                        "canopy bed": {
+                            "form": "canopied bench",
+                            "scale": "normal",
+                            "role": "seating"
+                        },
+                        "urn": {
+                            "form": "planter",
+                            "scale": "normal",
+                            "role": "plant holder"
+                        },
+                        "canopy": {
+                            "form": "shade structure",
+                            "scale": "normal",
+                            "role": "sun protection"
+                        }
+                    }
+                }
+            ],
+            "selected_scene": {
+                "scene_type": "Museum interior",
+                "plausibility": 0.9,
+                "reasoning": "A clock is displayed in a glass case. An urn is in a nearby case. A canopy bed is reconstructed in the room. The canopy is part of the bed display.",
+                "object_interpretations": {
+                    "clock": {
+                        "form": "artifact",
+                        "scale": "normal",
+                        "role": "exhibit"
+                    },
+                    "canopy bed": {
+                        "form": "reconstructed furniture",
+                        "scale": "normal",
+                        "role": "exhibit"
+                    },
+                    "urn": {
+                        "form": "artifact",
+                        "scale": "normal",
+                        "role": "exhibit"
+                    },
+                    "canopy": {
+                        "form": "textile",
+                        "scale": "normal",
+                        "role": "part of exhibit"
+                    }
+                },
+                "scene_brief": "A Museum interior featuring clock, with canopy bed, urn, and canopy"
+            }
+        }
+    },
+    "final_prompts": {
+        "main_prompt": "A Post-Impressionism painting depicting a bright and cheerful afternoon scene bathed in soft natural light. In the foreground, a large, elegant canopy bed in creamy white and warm honey tones stands well-preserved and inviting. Resting atop the bed's plush surface is a medium-sized clock with a gleaming golden amber and burnt sienna finish, its brass and glass components pristine. Beside the bed, a medium terracotta urn with burnt umber accents displays a mature patina and subtle surface wear, its ceramic form adding earthy contrast. Dominating the composition overhead, a light and airy canopy in pale gold and creamy white fabric billows gently above the bed, creating a sense of airy enclosure. The spatial arrangement creates a harmonious balance\u2014the clock sits centrally on the bed, the urn anchors the side space, and the canopy frames the scene from above\u2014all rendered with Post-Impressionist brushwork that captures the gentle, active atmosphere through vibrant color blocks and expressive textures.",
+        "negative_prompt": "photorealistic, 3d render, modern, digital art, photograph, low quality, blurry, distorted, surreal, abstract, cartoon, anime, dark, gloomy, night scene, overexposed, underexposed, text, watermark, signature, frame, border",
+        "prompt_formats": {
+            "simple": "A Post-Impressionist painting of a clock on a canopy bed with an urn beside it and a canopy above, set in a bright afternoon.",
+            "complex": "A Post-Impressionism painting depicting a bright and cheerful afternoon scene bathed in soft natural light. In the foreground, a large, elegant canopy bed in creamy white and warm honey tones stands well-preserved and inviting. Resting atop the bed's plush surface is a medium-sized clock with a gleaming golden amber and burnt sienna finish, its brass and glass components pristine. Beside the bed, a medium terracotta urn with burnt umber accents displays a mature patina and subtle surface wear, its ceramic form adding earthy contrast. Dominating the composition overhead, a light and airy canopy in pale gold and creamy white fabric billows gently above the bed, creating a sense of airy enclosure. The spatial arrangement creates a harmonious balance\u2014the clock sits centrally on the bed, the urn anchors the side space, and the canopy frames the scene from above\u2014all rendered with Post-Impressionist brushwork that captures the gentle, active atmosphere through vibrant color blocks and expressive textures.",
+            "comma_separated": "Post-Impressionism, painting, clock on canopy bed, urn next to bed, canopy above bed, afternoon lighting, soft natural light, bright cheerful gentle atmosphere, golden amber clock, creamy white bed, terracotta urn, pale gold canopy, elegant, pristine, patina, airy, vibrant colors, expressive brushwork",
+            "tags": "art, painting, post-impressionism, interior scene, still life, bedroom, vintage, decorative, textile, furniture, ceramic, timepiece, afternoon light, cheerful atmosphere, Vincent van Gogh style, Paul Gauguin style, color theory, impasto"
+        }
+    }
+}

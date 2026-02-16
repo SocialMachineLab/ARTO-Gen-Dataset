@@ -1,0 +1,285 @@
+{
+    "artwork_id": "artwork_20260104_114616_973",
+    "generation_timestamp": "2026-01-04T11:46:47.483492",
+    "style": "Baroque",
+    "objects": {
+        "object_ids": [
+            22,
+            49,
+            72
+        ],
+        "object_names": [
+            "sea lion",
+            "bread",
+            "kitchen sink"
+        ],
+        "enhanced_objects": [
+            {
+                "object_id": 22,
+                "name": "sea lion",
+                "artistic_description": "A magnificent sea lion rendered with Baroque dramatic intensity, its sleek fur glistening with morning light that catches on each whisker. The natural sunlight creates a luminous sheen across its muscular form, with warm golden highlights dancing on its wet coat and cool shadows pooling in the folds of its blubbery skin. Its dark chocolate-brown fur appears almost black in shadowed areas while catching amber and bronze tones where the sun strikes directly.",
+                "size": "Dominant",
+                "state": "Alert and regal, its body taut with energy, eyes reflecting the bright morning light",
+                "primary_colors": [
+                    "deep chocolate brown",
+                    "golden bronze"
+                ],
+                "material": "wet fur and blubber"
+            },
+            {
+                "object_id": 49,
+                "name": "bread",
+                "artistic_description": "A rustic loaf with a crackling golden crust that glows with warm morning radiance, its surface dusted with flour that sparkles like powdered gold in the sunlight. The crust displays rich caramel and amber tones with deep crevices creating dramatic chiaroscuro effects. Steam rises in delicate wisps, catching the light and creating ethereal halos. The crumbly texture appears moist and inviting, with buttery highlights on the cut surfaces.",
+                "size": "Medium",
+                "state": "Freshly baked, still warm, crust crisp and aromatic",
+                "primary_colors": [
+                    "golden amber",
+                    "warm cream"
+                ],
+                "material": "baked dough"
+            },
+            {
+                "object_id": 72,
+                "name": "kitchen sink",
+                "artistic_description": "An ornate Baroque-style sink with elaborate carved details that create intricate patterns of light and shadow. The ceramic surface gleams with a brilliant white luminosity under the morning sun, while decorative metal fixtures catch the light with polished silver brilliance. Water droplets from recent use refract sunlight into tiny prisms. The ornate edges and scrollwork cast delicate shadows that emphasize the craftsmanship.",
+                "size": "Large",
+                "state": "Polished and gleaming, with fresh water beading on its pristine surface",
+                "primary_colors": [
+                    "brilliant white",
+                    "polished silver"
+                ],
+                "material": "glazed ceramic with metal fixtures"
+            }
+        ]
+    },
+    "composition": {
+        "spatial_relations": [
+            [
+                49,
+                "next to",
+                72
+            ],
+            [
+                22,
+                "in front of",
+                72
+            ],
+            [
+                22,
+                "next to",
+                49
+            ]
+        ],
+        "semantic_relations": []
+    },
+    "environment": {
+        "environment_details": {
+            "scene_brief": "A Baroque still life painting centered around sea lion, with bread, and decorative kitchen sink as decoration",
+            "place365_name": "/k/kitchen",
+            "place365_id": 203,
+            "time_of_day": "morning",
+            "weather": "sunny",
+            "period": "Early modern",
+            "is_indoor": true,
+            "lighting": {
+                "type": "natural",
+                "quality": "dramatic",
+                "direction": "side-lit",
+                "reasoning": "A side-lit setup from a window (implied by sunny weather) creates deep shadows and bright highlights, essential for the volumetric modeling and dramatic mood of Baroque still lifes. This lighting emphasizes the three-dimensionality of the sea lion and the reflective surfaces of the sink."
+            },
+            "atmosphere": "fresh and energetic and cheerful and striking"
+        },
+        "scene_inference": {
+            "all_candidates": [
+                {
+                    "scene_type": "Baroque kitchen",
+                    "plausibility": 0.8,
+                    "reasoning": "A domestic scene where a sea lion is an exotic, fantastical pet. The kitchen sink is a functional fixture, and bread is a common food item. The Baroque style adds a sense of drama and opulence to this unusual domestic tableau.",
+                    "object_interpretations": {
+                        "sea lion": {
+                            "form": "real animal",
+                            "scale": "normal",
+                            "role": "exotic pet"
+                        },
+                        "kitchen sink": {
+                            "form": "real appliance",
+                            "scale": "full-size",
+                            "role": "functional fixture"
+                        },
+                        "bread": {
+                            "form": "real food",
+                            "scale": "normal",
+                            "role": "food item"
+                        }
+                    }
+                },
+                {
+                    "scene_type": "Baroque still life painting",
+                    "plausibility": 0.9,
+                    "reasoning": "A grand, dramatic still life composition. The sea lion is the central, majestic subject, perhaps draped in fabric. A rustic kitchen sink basin could be used as a vessel, and a loaf of bread provides a classic, earthly element for contrast.",
+                    "object_interpretations": {
+                        "sea lion": {
+                            "form": "real animal",
+                            "scale": "normal",
+                            "role": "primary subject"
+                        },
+                        "kitchen sink": {
+                            "form": "ornate basin",
+                            "scale": "large",
+                            "role": "decorative vessel"
+                        },
+                        "bread": {
+                            "form": "loaf of bread",
+                            "scale": "normal",
+                            "role": "secondary subject"
+                        }
+                    },
+                    "scene_brief": "A Baroque still life painting centered around sea lion, with bread, and decorative kitchen sink as decoration"
+                },
+                {
+                    "scene_type": "Baroque palace fountain",
+                    "plausibility": 0.85,
+                    "reasoning": "A grand indoor fountain in a palace, designed in the Baroque style. The sea lion is a sculpted figure (or a real one in a fantastical setting) spouting water. The 'kitchen sink' is repurposed as an ornate stone basin for the fountain, and bread crumbs are scattered nearby, perhaps from a lavish feast.",
+                    "object_interpretations": {
+                        "sea lion": {
+                            "form": "sculpted statue",
+                            "scale": "large",
+                            "role": "fountain figure"
+                        },
+                        "kitchen sink": {
+                            "form": "ornate stone basin",
+                            "scale": "large",
+                            "role": "fountain basin"
+                        },
+                        "bread": {
+                            "form": "bread crumbs/loaf",
+                            "scale": "normal",
+                            "role": "decorative detail"
+                        }
+                    }
+                },
+                {
+                    "scene_type": "Baroque theatrical stage",
+                    "plausibility": 0.75,
+                    "reasoning": "A dramatic stage set for an opera or play. The sea lion is a costumed performer or a fantastical creature. The kitchen sink is a prop on stage, and bread is part of a prop meal, all under dramatic Baroque lighting.",
+                    "object_interpretations": {
+                        "sea lion": {
+                            "form": "costumed performer",
+                            "scale": "normal",
+                            "role": "performer/character"
+                        },
+                        "kitchen sink": {
+                            "form": "stage prop",
+                            "scale": "normal",
+                            "role": "set dressing"
+                        },
+                        "bread": {
+                            "form": "prop food",
+                            "scale": "normal",
+                            "role": "set dressing"
+                        }
+                    }
+                },
+                {
+                    "scene_type": "Baroque naturalist's study",
+                    "plausibility": 0.8,
+                    "reasoning": "The study of a wealthy naturalist. A sea lion is a prized, exotic specimen (stuffed or in a large aquarium). A kitchen sink could be a utility basin for cleaning artifacts, and bread might be a snack for the naturalist.",
+                    "object_interpretations": {
+                        "sea lion": {
+                            "form": "stuffed specimen",
+                            "scale": "normal",
+                            "role": "exotic specimen"
+                        },
+                        "kitchen sink": {
+                            "form": "utility basin",
+                            "scale": "normal",
+                            "role": "workstation fixture"
+                        },
+                        "bread": {
+                            "form": "loaf of bread",
+                            "scale": "normal",
+                            "role": "food item"
+                        }
+                    }
+                },
+                {
+                    "scene_type": "Baroque coastal kitchen",
+                    "plausibility": 0.85,
+                    "reasoning": "A rustic but opulent kitchen in a coastal manor. A sea lion is visible through the window or is a taxidermy mount. The kitchen sink is a large, functional basin for cleaning seafood, and freshly baked bread sits on the counter.",
+                    "object_interpretations": {
+                        "sea lion": {
+                            "form": "real animal (through window)",
+                            "scale": "normal",
+                            "role": "view/outside element"
+                        },
+                        "kitchen sink": {
+                            "form": "large utility sink",
+                            "scale": "full-size",
+                            "role": "functional fixture"
+                        },
+                        "bread": {
+                            "form": "freshly baked loaf",
+                            "scale": "normal",
+                            "role": "food item"
+                        }
+                    }
+                },
+                {
+                    "scene_type": "Baroque mythological scene",
+                    "plausibility": 0.7,
+                    "reasoning": "A scene depicting a mythological event. The sea lion is a creature from the sea, personified. The kitchen sink is a mystical basin or fountain, and bread is an offering or part of a divine feast.",
+                    "object_interpretations": {
+                        "sea lion": {
+                            "form": "mythological creature",
+                            "scale": "large",
+                            "role": "divine being"
+                        },
+                        "kitchen sink": {
+                            "form": "mystical basin",
+                            "scale": "large",
+                            "role": "magical object"
+                        },
+                        "bread": {
+                            "form": "ambrosial bread",
+                            "scale": "normal",
+                            "role": "offering"
+                        }
+                    }
+                }
+            ],
+            "selected_scene": {
+                "scene_type": "Baroque still life painting",
+                "plausibility": 0.9,
+                "reasoning": "A grand, dramatic still life composition. The sea lion is the central, majestic subject, perhaps draped in fabric. A rustic kitchen sink basin could be used as a vessel, and a loaf of bread provides a classic, earthly element for contrast.",
+                "object_interpretations": {
+                    "sea lion": {
+                        "form": "real animal",
+                        "scale": "normal",
+                        "role": "primary subject"
+                    },
+                    "kitchen sink": {
+                        "form": "ornate basin",
+                        "scale": "large",
+                        "role": "decorative vessel"
+                    },
+                    "bread": {
+                        "form": "loaf of bread",
+                        "scale": "normal",
+                        "role": "secondary subject"
+                    }
+                },
+                "scene_brief": "A Baroque still life painting centered around sea lion, with bread, and decorative kitchen sink as decoration"
+            }
+        }
+    },
+    "final_prompts": {
+        "main_prompt": "A Baroque painting depicting a striking morning scene in a sunlit kitchen, where a deep chocolate brown sea lion with golden bronze highlights stands alert and regal in front of a large, brilliant white kitchen sink with polished silver fixtures. Next to the gleaming sink rests a medium-sized loaf of freshly baked bread, its crust a warm golden amber and its interior a soft cream color. The sea lion's wet fur and blubber glisten dramatically in the natural morning light streaming through a window, casting strong chiaroscuro shadows that emphasize the polished ceramic sink and the inviting bread. The composition creates a fresh, energetic, and cheerful atmosphere through dynamic lighting, rich textures, and a playful yet majestic arrangement of unexpected elements.",
+        "negative_prompt": "photorealistic, 3d render, modern, digital art, photograph, low quality, blurry, distorted, cartoon, anime, abstract, surreal, ugly, deformed, bad anatomy, text, watermark, signature",
+        "prompt_formats": {
+            "simple": "A Baroque painting of a sea lion in front of a kitchen sink with bread beside it, lit by dramatic morning light.",
+            "complex": "A Baroque painting depicting a striking morning scene in a sunlit kitchen, where a deep chocolate brown sea lion with golden bronze highlights stands alert and regal in front of a large, brilliant white kitchen sink with polished silver fixtures. Next to the gleaming sink rests a medium-sized loaf of freshly baked bread, its crust a warm golden amber and its interior a soft cream color. The sea lion's wet fur and blubber glisten dramatically in the natural morning light streaming through a window, casting strong chiaroscuro shadows that emphasize the polished ceramic sink and the inviting bread. The composition creates a fresh, energetic, and cheerful atmosphere through dynamic lighting, rich textures, and a playful yet majestic arrangement of unexpected elements.",
+            "comma_separated": "Baroque painting, sea lion, kitchen sink, bread, morning light, dramatic lighting, chiaroscuro, deep chocolate brown, golden bronze, brilliant white, polished silver, golden amber, warm cream, wet fur, freshly baked, glistening, energetic, cheerful, striking, kitchen interior, natural light, still life with animal",
+            "tags": "art, painting, Baroque, sea lion, kitchen sink, bread, still life, animal portrait, chiaroscuro, dramatic lighting, morning, kitchen, domestic, unusual, textural, wet fur, baked bread, ceramic, metal, polished, golden, brown, white, amber, cream, cheerful, energetic, striking"
+        }
+    }
+}

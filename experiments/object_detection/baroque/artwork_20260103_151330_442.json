@@ -1,0 +1,195 @@
+{
+    "artwork_id": "artwork_20260103_151330_442",
+    "generation_timestamp": "2026-01-03T15:14:00.935638",
+    "style": "Baroque",
+    "objects": {
+        "object_ids": [
+            57,
+            47,
+            27,
+            46
+        ],
+        "object_names": [
+            "stool",
+            "bean",
+            "bundle",
+            "plate"
+        ],
+        "enhanced_objects": [
+            {
+                "object_id": 57,
+                "name": "stool",
+                "artistic_description": "A richly carved wooden stool bathed in warm afternoon natural light that catches on ornate Baroque scrollwork and cabriole legs, with golden highlights dancing across lustrous mahogany surfaces while deep shadows pool in the intricate carved details, creating a dramatic chiaroscuro effect",
+                "size": "Dominant",
+                "state": "well-preserved antique with polished surface showing subtle wear from centuries of use",
+                "primary_colors": [
+                    "warm mahogany brown",
+                    "golden amber"
+                ],
+                "material": "wood"
+            },
+            {
+                "object_id": 47,
+                "name": "bean",
+                "artistic_description": "A whimsical toy bean rendered in lustrous ceramic that gleams with a soft pearlescent sheen under the bright natural light, its curved surface catching delicate highlights and casting gentle shadows, with the afternoon sun revealing subtle variations in its creamy glaze",
+                "size": "Small",
+                "state": "pristine condition with smooth, unblemished ceramic surface",
+                "primary_colors": [
+                    "creamy off-white",
+                    "soft ivory"
+                ],
+                "material": "ceramic"
+            },
+            {
+                "object_id": 27,
+                "name": "bundle",
+                "artistic_description": "A tightly wrapped fabric bundle whose textured surface absorbs and diffuses the bright afternoon light, creating rich folds of shadow and illumination across its Baroque-patterned textile covering, with threads of gold and crimson catching the light in strategic highlights",
+                "size": "Medium",
+                "state": "carefully preserved with vibrant colors and intact fabric weave",
+                "primary_colors": [
+                    "deep crimson",
+                    "burnished gold"
+                ],
+                "material": "fabric"
+            },
+            {
+                "object_id": 46,
+                "name": "plate",
+                "artistic_description": "A decorative ceramic plate whose glossy surface reflects the bright natural light in sharp specular highlights, with intricate Baroque motifs painted in rich blues and golds that appear luminous against the white porcelain base, the afternoon sun making the metallic gold details shimmer",
+                "size": "Medium",
+                "state": "excellent condition with intact glaze and vibrant painted decoration",
+                "primary_colors": [
+                    "cobalt blue",
+                    "brilliant gold"
+                ],
+                "material": "ceramic"
+            }
+        ]
+    },
+    "composition": {
+        "spatial_relations": [
+            [
+                47,
+                "on",
+                57
+            ],
+            [
+                27,
+                "on",
+                57
+            ],
+            [
+                46,
+                "on",
+                57
+            ],
+            [
+                47,
+                "next to",
+                27
+            ],
+            [
+                46,
+                "next to",
+                47
+            ],
+            [
+                46,
+                "next to",
+                27
+            ]
+        ],
+        "semantic_relations": []
+    },
+    "environment": {
+        "environment_details": {
+            "scene_brief": "A artistic composition featuring stool centered around stool, with toy bean, toy bundle, and toy plate",
+            "place365_name": "/a/art_studio",
+            "place365_id": 21,
+            "time_of_day": "afternoon",
+            "weather": null,
+            "period": "Early modern",
+            "is_indoor": true,
+            "lighting": {
+                "type": "natural",
+                "quality": "dramatic",
+                "direction": "side-lit",
+                "mood": "warm",
+                "reasoning": "Baroque style demands dramatic chiaroscuro with strong contrasts between light and shadow. Side-lit natural light from a studio window would create the characteristic Baroque lighting - highlighting the textures of the toy bundle, bean, and plate while casting dramatic shadows, essential for the Early Modern artistic sensibility."
+            },
+            "atmosphere": "bright and active and striking"
+        },
+        "scene_inference": {
+            "all_candidates": [
+                {
+                    "scene_type": "artistic composition featuring stool",
+                    "plausibility": 0.7,
+                    "reasoning": "Default scene based on main variety 'stool'",
+                    "object_interpretations": {
+                        "stool": {
+                            "form": "primary object",
+                            "scale": "normal",
+                            "role": "primary"
+                        },
+                        "bean": {
+                            "form": "adapted to scene",
+                            "scale": "normal or miniature",
+                            "role": "secondary"
+                        },
+                        "bundle": {
+                            "form": "adapted to scene",
+                            "scale": "normal or miniature",
+                            "role": "secondary"
+                        },
+                        "plate": {
+                            "form": "adapted to scene",
+                            "scale": "normal or miniature",
+                            "role": "secondary"
+                        }
+                    },
+                    "fallback": true,
+                    "scene_brief": "A artistic composition featuring stool centered around stool, with toy bean, toy bundle, and toy plate"
+                }
+            ],
+            "selected_scene": {
+                "scene_type": "artistic composition featuring stool",
+                "plausibility": 0.7,
+                "reasoning": "Default scene based on main variety 'stool'",
+                "object_interpretations": {
+                    "stool": {
+                        "form": "primary object",
+                        "scale": "normal",
+                        "role": "primary"
+                    },
+                    "bean": {
+                        "form": "adapted to scene",
+                        "scale": "normal or miniature",
+                        "role": "secondary"
+                    },
+                    "bundle": {
+                        "form": "adapted to scene",
+                        "scale": "normal or miniature",
+                        "role": "secondary"
+                    },
+                    "plate": {
+                        "form": "adapted to scene",
+                        "scale": "normal or miniature",
+                        "role": "secondary"
+                    }
+                },
+                "fallback": true,
+                "scene_brief": "A artistic composition featuring stool centered around stool, with toy bean, toy bundle, and toy plate"
+            }
+        }
+    },
+    "final_prompts": {
+        "main_prompt": "A Baroque painting depicting a dramatic afternoon scene where a warm mahogany brown antique stool, polished to a golden amber sheen, serves as the central platform. Upon its well-preserved surface rests a small, pristine bean of creamy off-white ivory, positioned beside a medium-sized bundle wrapped in deep crimson fabric with burnished gold accents, both objects carefully preserved with vibrant colors. Adjacent to both the bean and bundle sits a medium-sized plate in excellent condition, its surface glazed in brilliant cobalt blue with intricate gold detailing. The natural dramatic afternoon light streams in from the side, casting deep shadows and highlighting the textures of wood, ceramic, and fabric in a bright, active, and striking composition that captures the Baroque fascination with contrast, material richness, and theatrical illumination.",
+        "negative_prompt": "photorealistic, 3d render, modern, digital art, photograph, low quality, blurry, distorted, cartoon, anime, abstract, surreal, deformed, ugly, bad anatomy, text, watermark, signature",
+        "prompt_formats": {
+            "simple": "A Baroque still life painting of a stool holding a bean, a bundle, and a plate in dramatic afternoon light.",
+            "complex": "A Baroque painting depicting a dramatic afternoon scene where a warm mahogany brown antique stool, polished to a golden amber sheen, serves as the central platform. Upon its well-preserved surface rests a small, pristine bean of creamy off-white ivory, positioned beside a medium-sized bundle wrapped in deep crimson fabric with burnished gold accents, both objects carefully preserved with vibrant colors. Adjacent to both the bean and bundle sits a medium-sized plate in excellent condition, its surface glazed in brilliant cobalt blue with intricate gold detailing. The natural dramatic afternoon light streams in from the side, casting deep shadows and highlighting the textures of wood, ceramic, and fabric in a bright, active, and striking composition that captures the Baroque fascination with contrast, material richness, and theatrical illumination.",
+            "comma_separated": "Baroque painting, antique mahogany stool, creamy ivory bean, crimson and gold bundle, cobalt blue and gold plate, objects arranged on stool, dramatic afternoon lighting, bright active striking atmosphere, rich textures, wood ceramic fabric, chiaroscuro, still life",
+            "tags": "art, painting, Baroque, still life, stool, bean, bundle, plate, antique, mahogany, ivory, crimson, cobalt blue, gold, dramatic lighting, afternoon, chiaroscuro, texture, composition"
+        }
+    }
+}

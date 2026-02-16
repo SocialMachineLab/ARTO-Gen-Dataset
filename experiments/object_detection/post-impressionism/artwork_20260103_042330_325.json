@@ -1,0 +1,340 @@
+{
+    "artwork_id": "artwork_20260103_042330_325",
+    "generation_timestamp": "2026-01-03T04:24:12.879963",
+    "style": "Post-Impressionism",
+    "objects": {
+        "object_ids": [
+            59,
+            31,
+            17,
+            76
+        ],
+        "object_names": [
+            "lily",
+            "sleigh",
+            "dog",
+            "vase"
+        ],
+        "enhanced_objects": [
+            {
+                "object_id": 59,
+                "name": "lily",
+                "artistic_description": "Delicate white petals with subtle lavender undertones, their edges catching the cool afternoon light with a soft glow. The flower's surface appears velvety and matte, dusted with fine snowflakes that cling to its curves, creating tiny points of crystalline sparkle. The green stem and leaves show muted olive tones, their surfaces slightly frosted, giving them a textured, almost grainy appearance against the snowy backdrop.",
+                "size": "Medium",
+                "state": "fresh and resilient, standing upright despite the cold, with petals slightly curled at the edges from the chill",
+                "primary_colors": [
+                    "creamy white",
+                    "soft lavender"
+                ],
+                "material": "organic"
+            },
+            {
+                "object_id": 31,
+                "name": "sleigh",
+                "artistic_description": "Small wooden sleigh with weathered paint in faded crimson and gold, its surfaces heavily dusted with powdery snow that settles into carved details and crevices. The metal runners gleam with a cold, steely brightness where snow has been brushed away, reflecting the pale sky. The wood grain shows through worn patches, its texture emphasized by the cool, diffused light that creates soft shadows in the carved ornamentation.",
+                "size": "Small",
+                "state": "well-used vintage toy, showing gentle weathering from outdoor exposure, with paint flaking at the edges",
+                "primary_colors": [
+                    "faded red",
+                    "weathered gold"
+                ],
+                "material": "wood and metal"
+            },
+            {
+                "object_id": 17,
+                "name": "dog",
+                "artistic_description": "Fluffy fur rendered in thick, visible brushstrokes of warm cream and soft brown, each strand catching the ambient light with a gentle halo effect. The coat appears slightly damp from falling snow, creating subtle highlights along the back and shoulders where the fur clumps together. The nose and eyes are dark, wet, and reflective, standing out as points of deep contrast against the lighter fur. Patches of snow cling to the muzzle and paws, melting slightly and creating darker, saturated spots in the fur.",
+                "size": "Medium",
+                "state": "alert and content, with a slight steam rising from its warm body into the cold air",
+                "primary_colors": [
+                    "cream",
+                    "warm brown"
+                ],
+                "material": "organic"
+            },
+            {
+                "object_id": 76,
+                "name": "vase",
+                "artistic_description": "Ceramic vessel with a glossy glaze that appears milky and opalescent in the cool afternoon light, showing subtle shifts between pale blue and soft gray. The surface is smooth and cold, with tiny snowflakes melting into droplets that create a beaded, slightly reflective quality. The rim and base show subtle crazing in the glaze, visible as fine dark lines where the cool light catches the texture. The vase appears translucent at its thin edges, glowing softly against the darker background.",
+                "size": "Medium",
+                "state": "pristine contemporary piece, clean and unweathered despite the snow, with a cool-to-the-touch appearance",
+                "primary_colors": [
+                    "milky white",
+                    "pale blue"
+                ],
+                "material": "ceramic"
+            }
+        ]
+    },
+    "composition": {
+        "spatial_relations": [
+            [
+                59,
+                "in",
+                76
+            ],
+            [
+                76,
+                "on",
+                31
+            ],
+            [
+                17,
+                "next to",
+                31
+            ]
+        ],
+        "semantic_relations": []
+    },
+    "environment": {
+        "environment_details": {
+            "scene_brief": "A Victorian winter garden centered around lily, with toy sleigh in the background, dog, and vase",
+            "place365_name": "/b/botanical_garden",
+            "place365_id": 62,
+            "time_of_day": "afternoon",
+            "weather": "snowy",
+            "period": "Contemporary",
+            "is_indoor": false,
+            "lighting": {
+                "type": "natural",
+                "quality": "soft",
+                "direction": "side-lit",
+                "mood": "cool",
+                "reasoning": "Snowy conditions create soft, diffused light due to cloud cover and reflection. A cool mood fits the winter theme, while side-lighting from the afternoon sun would help define the shapes of the sleigh and dog against the garden backdrop, a technique often used in the style to emphasize form."
+            },
+            "atmosphere": "bright and active and serene and gentle"
+        },
+        "scene_inference": {
+            "all_candidates": [
+                {
+                    "scene_type": "Victorian winter garden",
+                    "plausibility": 0.85,
+                    "reasoning": "A lily is the primary flower in a conservatory setting. A sleigh can be a decorative antique placed nearby. A dog can be a pet accompanying its owner. The Post-Impressionist style captures the light and texture of the scene.",
+                    "object_interpretations": {
+                        "lily": {
+                            "form": "real flower",
+                            "scale": "natural",
+                            "role": "primary botanical subject"
+                        },
+                        "sleigh": {
+                            "form": "decorative antique",
+                            "scale": "miniature (1:10)",
+                            "role": "seasonal decor in background"
+                        },
+                        "dog": {
+                            "form": "real pet",
+                            "scale": "normal",
+                            "role": "companion animal"
+                        },
+                        "vase": {
+                            "form": "ceramic container",
+                            "scale": "normal",
+                            "role": "functional holder for lily"
+                        }
+                    },
+                    "scene_brief": "A Victorian winter garden centered around lily, with toy sleigh in the background, dog, and vase"
+                },
+                {
+                    "scene_type": "Art studio still life",
+                    "plausibility": 0.9,
+                    "reasoning": "An artist's studio featuring a still life composition. The lily is the main subject in a vase. A toy dog and miniature sleigh are props arranged on the table for the painting.",
+                    "object_interpretations": {
+                        "lily": {
+                            "form": "real flower",
+                            "scale": "natural",
+                            "role": "primary subject of still life"
+                        },
+                        "sleigh": {
+                            "form": "toy model",
+                            "scale": "miniature (1:50)",
+                            "role": "studio prop / decorative accent"
+                        },
+                        "dog": {
+                            "form": "toy figurine",
+                            "scale": "small",
+                            "role": "studio prop"
+                        },
+                        "vase": {
+                            "form": "ceramic vessel",
+                            "scale": "normal",
+                            "role": "container for subject"
+                        }
+                    }
+                },
+                {
+                    "scene_type": "Country cottage interior",
+                    "plausibility": 0.8,
+                    "reasoning": "A cozy living room with a vase of lilies on a table. A dog sleeps by the fireplace. A small decorative sleigh sits on the mantelpiece as a holiday ornament.",
+                    "object_interpretations": {
+                        "lily": {
+                            "form": "fresh cut flower",
+                            "scale": "natural",
+                            "role": "decorative floral element"
+                        },
+                        "sleigh": {
+                            "form": "ornament",
+                            "scale": "small",
+                            "role": "mantelpiece decoration"
+                        },
+                        "dog": {
+                            "form": "real sleeping dog",
+                            "scale": "normal",
+                            "role": "household pet"
+                        },
+                        "vase": {
+                            "form": "glass container",
+                            "scale": "normal",
+                            "role": "decorative vessel"
+                        }
+                    }
+                },
+                {
+                    "scene_type": "Spring wedding reception",
+                    "plausibility": 0.75,
+                    "reasoning": "A wedding venue decorated with lilies. A vintage sleigh is used as a photo booth prop. A dog is the ring bearer.",
+                    "object_interpretations": {
+                        "lily": {
+                            "form": "bouquet arrangement",
+                            "scale": "clustered",
+                            "role": "primary wedding flower"
+                        },
+                        "sleigh": {
+                            "form": "vintage prop",
+                            "scale": "large (functional)",
+                            "role": "decorative photo backdrop"
+                        },
+                        "dog": {
+                            "form": "real dog",
+                            "scale": "normal",
+                            "role": "pet attendant"
+                        },
+                        "vase": {
+                            "form": "wedding centerpiece",
+                            "scale": "large",
+                            "role": "floral display holder"
+                        }
+                    }
+                },
+                {
+                    "scene_type": "Botanical greenhouse",
+                    "plausibility": 0.95,
+                    "reasoning": "A dedicated lily house in a botanical garden. A stray dog wanders the aisles. A maintenance worker's sleigh (cart) is parked nearby carrying tools and a watering can (vase).",
+                    "object_interpretations": {
+                        "lily": {
+                            "form": "living plant",
+                            "scale": "natural",
+                            "role": "exhibit specimen"
+                        },
+                        "sleigh": {
+                            "form": "garden cart",
+                            "scale": "large",
+                            "role": "utility transport"
+                        },
+                        "dog": {
+                            "form": "stray dog",
+                            "scale": "normal",
+                            "role": "wandering visitor"
+                        },
+                        "vase": {
+                            "form": "watering can",
+                            "scale": "large",
+                            "role": "gardening tool"
+                        }
+                    }
+                },
+                {
+                    "scene_type": "Winter solstice festival",
+                    "plausibility": 0.7,
+                    "reasoning": "An outdoor winter market. A lily is a rare winter bloom sold at a flower stall. A dog pulls a small decorative sleigh. A vase is on the counter.",
+                    "object_interpretations": {
+                        "lily": {
+                            "form": "potted plant",
+                            "scale": "natural",
+                            "role": "market merchandise"
+                        },
+                        "sleigh": {
+                            "form": "dog cart",
+                            "scale": "small",
+                            "role": "transportation for goods"
+                        },
+                        "dog": {
+                            "form": "working dog",
+                            "scale": "normal",
+                            "role": "draft animal"
+                        },
+                        "vase": {
+                            "form": "clay pot",
+                            "scale": "normal",
+                            "role": "plant container"
+                        }
+                    }
+                },
+                {
+                    "scene_type": "Museum display room",
+                    "plausibility": 0.85,
+                    "reasoning": "A museum exhibit featuring a historical sleigh. A glass vase with a lily is on a pedestal. A guide dog stands with its owner.",
+                    "object_interpretations": {
+                        "lily": {
+                            "form": "preserved flower",
+                            "scale": "natural",
+                            "role": "museum artifact"
+                        },
+                        "sleigh": {
+                            "form": "historical artifact",
+                            "scale": "full-size",
+                            "role": "main exhibit piece"
+                        },
+                        "dog": {
+                            "form": "real service dog",
+                            "scale": "normal",
+                            "role": "visitor companion"
+                        },
+                        "vase": {
+                            "form": "display case",
+                            "scale": "normal",
+                            "role": "protective housing"
+                        }
+                    }
+                }
+            ],
+            "selected_scene": {
+                "scene_type": "Victorian winter garden",
+                "plausibility": 0.85,
+                "reasoning": "A lily is the primary flower in a conservatory setting. A sleigh can be a decorative antique placed nearby. A dog can be a pet accompanying its owner. The Post-Impressionist style captures the light and texture of the scene.",
+                "object_interpretations": {
+                    "lily": {
+                        "form": "real flower",
+                        "scale": "natural",
+                        "role": "primary botanical subject"
+                    },
+                    "sleigh": {
+                        "form": "decorative antique",
+                        "scale": "miniature (1:10)",
+                        "role": "seasonal decor in background"
+                    },
+                    "dog": {
+                        "form": "real pet",
+                        "scale": "normal",
+                        "role": "companion animal"
+                    },
+                    "vase": {
+                        "form": "ceramic container",
+                        "scale": "normal",
+                        "role": "functional holder for lily"
+                    }
+                },
+                "scene_brief": "A Victorian winter garden centered around lily, with toy sleigh in the background, dog, and vase"
+            }
+        }
+    },
+    "final_prompts": {
+        "main_prompt": "A Post-Impressionism painting depicting a serene afternoon scene where a small, well-used vintage sleigh in faded red with weathered gold accents rests on a textured surface. Atop the sleigh sits a pristine contemporary vase of medium size in milky white with pale blue accents, containing a fresh and resilient creamy white lily with soft lavender tones. Beside the sleigh, a medium-sized dog in cream and warm brown fur sits alert and content, observing the scene. The composition uses organic materials\u2014wood and metal from the sleigh, ceramic from the vase\u2014arranged with the sleigh and dog in the foreground, the vase and lily in the midground, and a softly blurred background suggesting a gentle outdoor setting. Natural soft afternoon light filters through, creating a bright and active yet serene and gentle atmosphere with visible brushstrokes, vibrant color fields, and emotional depth characteristic of Post-Impressionism.",
+        "negative_prompt": "photorealistic, 3d render, modern, digital art, photograph, low quality, blurry, distorted, oversaturated, cartoon, anime, text, watermark, signature, frame, border, ugly, deformed, mutated",
+        "prompt_formats": {
+            "simple": "A Post-Impressionism painting of a sleigh with a vase holding a lily, a dog beside it, in a soft afternoon light.",
+            "complex": "A Post-Impressionism painting depicting a serene afternoon scene where a small, well-used vintage sleigh in faded red with weathered gold accents rests on a textured surface. Atop the sleigh sits a pristine contemporary vase of medium size in milky white with pale blue accents, containing a fresh and resilient creamy white lily with soft lavender tones. Beside the sleigh, a medium-sized dog in cream and warm brown fur sits alert and content, observing the scene. The composition uses organic materials\u2014wood and metal from the sleigh, ceramic from the vase\u2014arranged with the sleigh and dog in the foreground, the vase and lily in the midground, and a softly blurred background suggesting a gentle outdoor setting. Natural soft afternoon light filters through, creating a bright and active yet serene and gentle atmosphere with visible brushstrokes, vibrant color fields, and emotional depth characteristic of Post-Impressionism.",
+            "comma_separated": "Post-Impressionism painting, small faded red sleigh, weathered gold accents, milky white vase, pale blue accents, creamy white lily, soft lavender tones, medium cream and brown dog, alert content expression, lily in vase, vase on sleigh, dog beside sleigh, organic materials, wood metal ceramic, natural soft afternoon lighting, bright active serene gentle atmosphere, textured brushstrokes, vibrant colors, emotional depth, vintage toy, contemporary piece, fresh resilient flower",
+            "tags": "art, painting, post-impressionism, still life, animal portrait, vintage sleigh, ceramic vase, lily flower, dog companion, afternoon light, serene atmosphere, organic materials, textured brushwork, color field, emotional art"
+        }
+    }
+}

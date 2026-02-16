@@ -1,0 +1,302 @@
+{
+    "artwork_id": "artwork_20260103_202408_480",
+    "generation_timestamp": "2026-01-03T20:24:39.909656",
+    "style": "Impressionism",
+    "objects": {
+        "object_ids": [
+            44,
+            21,
+            61
+        ],
+        "object_names": [
+            "sword",
+            "elephant",
+            "billiard table"
+        ],
+        "enhanced_objects": [
+            {
+                "object_id": 44,
+                "name": "sword",
+                "artistic_description": "A weathered blade catches the dim, mixed light with muted silver highlights and soft blue-gray shadows from the rainy evening outside. The metal appears slightly oxidized, with subtle brushstrokes of amber light from a nearby lamp glinting along the dulled edge. The hilt's worn leather absorbs the moody atmosphere, appearing as deep, velvety strokes of brown and charcoal.",
+                "size": "Medium",
+                "state": "antique, slightly tarnished",
+                "primary_colors": [
+                    "silver-gray",
+                    "deep brown"
+                ],
+                "material": "metal, leather"
+            },
+            {
+                "object_id": 21,
+                "name": "elephant",
+                "artistic_description": "A small decorative elephant statue appears as soft, blended masses of warm sepia and cool shadow. The bronze surface reflects the gentle, moody lighting with muted golden patches where the lamp touches it, while the rest dissolves into deep, atmospheric blues and grays. The texture suggests aged patina, rendered in loose, impressionistic dabs that capture the calm, rainy evening.",
+                "size": "Small",
+                "state": "antique, patinated",
+                "primary_colors": [
+                    "warm bronze",
+                    "cool gray"
+                ],
+                "material": "bronze"
+            },
+            {
+                "object_id": 61,
+                "name": "billiard table",
+                "artistic_description": "The felt surface appears as a broad expanse of deep forest green, softened by the gentle, moody light into velvety patches of moss and shadow. The wooden rails show rich, warm tones where indoor lighting catches them, contrasting with cool blue-gray areas in the dim corners. The slate bed absorbs the atmosphere, appearing as smooth, matte planes of charcoal and midnight blue.",
+                "size": "Large",
+                "state": "vintage, well-used",
+                "primary_colors": [
+                    "forest green",
+                    "rich mahogany"
+                ],
+                "material": "felt, wood, slate"
+            }
+        ]
+    },
+    "composition": {
+        "spatial_relations": [
+            [
+                44,
+                "on",
+                61
+            ],
+            [
+                21,
+                "next to",
+                61
+            ]
+        ],
+        "semantic_relations": []
+    },
+    "environment": {
+        "environment_details": {
+            "scene_brief": "A Vintage Arcade / Curiosity Shop featuring sword, with elephant, and billiard table",
+            "place365_name": "/a/arcade",
+            "place365_id": 11,
+            "time_of_day": "evening",
+            "weather": "rainy",
+            "period": "Modern",
+            "is_indoor": true,
+            "lighting": {
+                "type": "mixed",
+                "quality": "soft",
+                "direction": "side-lit",
+                "reasoning": "A mix of artificial light (warm, glowing bulbs from the arcade/curios) and cool, diffused natural light from the rainy evening outside creates a rich color palette. Soft, side-lit lighting captures the texture of the objects (sword, billiard table) and the ambient mood, essential for the Impressionist aesthetic."
+            },
+            "atmosphere": "calm and relaxed and moody and gentle"
+        },
+        "scene_inference": {
+            "all_candidates": [
+                {
+                    "scene_type": "Exotic Museum Hall",
+                    "plausibility": 0.95,
+                    "reasoning": "A museum dedicated to history and natural history artifacts. The sword is a historical artifact displayed in a glass case. The elephant is a large taxidermy mount or a bronze statue on display. The billiard table is a restored antique piece, perhaps used as a display pedestal for smaller items or part of a period room recreation.",
+                    "object_interpretations": {
+                        "sword": {
+                            "form": "historical artifact",
+                            "scale": "normal",
+                            "role": "primary display object"
+                        },
+                        "elephant": {
+                            "form": "taxidermy or bronze statue",
+                            "scale": "large",
+                            "role": "museum exhibit"
+                        },
+                        "billiard table": {
+                            "form": "antique furniture",
+                            "scale": "large",
+                            "role": "display platform or period prop"
+                        }
+                    }
+                },
+                {
+                    "scene_type": "Surrealist Dreamscape",
+                    "plausibility": 0.9,
+                    "reasoning": "In an Impressionist style, this scene captures a fleeting dream. The sword floats mid-air, glowing with soft light. The elephant is painted with loose, visible brushstrokes, appearing translucent or made of clouds. The billiard table sits on a floating island, with balls rolling in slow motion.",
+                    "object_interpretations": {
+                        "sword": {
+                            "form": "ethereal weapon",
+                            "scale": "variable",
+                            "role": "dream symbol"
+                        },
+                        "elephant": {
+                            "form": "spectral beast",
+                            "scale": "large",
+                            "role": "guardian of the dream"
+                        },
+                        "billiard table": {
+                            "form": "floating furniture",
+                            "scale": "normal",
+                            "role": "game of fate"
+                        }
+                    }
+                },
+                {
+                    "scene_type": "Theater Stage Set",
+                    "plausibility": 0.85,
+                    "reasoning": "A backstage or stage view of a theatrical production. The sword is a prop for a swashbuckling play. The elephant is a large papier-m\u00e2ch\u00e9 or mechanical prop. The billiard table is part of the set dressing for a parlor scene.",
+                    "object_interpretations": {
+                        "sword": {
+                            "form": "prop",
+                            "scale": "normal",
+                            "role": "actor's tool"
+                        },
+                        "elephant": {
+                            "form": "mechanical prop",
+                            "scale": "large",
+                            "role": "scene stealer"
+                        },
+                        "billiard table": {
+                            "form": "set piece",
+                            "scale": "normal",
+                            "role": "background furniture"
+                        }
+                    }
+                },
+                {
+                    "scene_type": "Grand Estate Library",
+                    "plausibility": 0.9,
+                    "reasoning": "A wealthy collector's study. The sword is mounted on the wall as a trophy or family heirloom. A small, ornate elephant statue sits on the mantelpiece. The billiard table occupies the center of the room, serving as a gathering spot for gentlemen.",
+                    "object_interpretations": {
+                        "sword": {
+                            "form": "trophy",
+                            "scale": "normal",
+                            "role": "decorative heritage"
+                        },
+                        "elephant": {
+                            "form": "statuette",
+                            "scale": "small",
+                            "role": "decorative object"
+                        },
+                        "billiard table": {
+                            "form": "game table",
+                            "scale": "large",
+                            "role": "recreational furniture"
+                        }
+                    }
+                },
+                {
+                    "scene_type": "Circus Tent Interior",
+                    "plausibility": 0.8,
+                    "reasoning": "The chaotic backstage area of a circus. The elephant is the main animal performer. The sword might be part of a 'strongman' act or a sword swallower's equipment. The billiard table could be a makeshift table for crew breaks or part of a bizarre 'juggling' act.",
+                    "object_interpretations": {
+                        "sword": {
+                            "form": "performance tool",
+                            "scale": "normal",
+                            "role": "act prop"
+                        },
+                        "elephant": {
+                            "form": "live animal",
+                            "scale": "large",
+                            "role": "star performer"
+                        },
+                        "billiard table": {
+                            "form": "furniture",
+                            "scale": "normal",
+                            "role": "crew area fixture"
+                        }
+                    }
+                },
+                {
+                    "scene_type": "Abstract Still Life",
+                    "plausibility": 0.75,
+                    "reasoning": "A composition of objects on a draped table. The sword is a metallic element reflecting light. The elephant is represented by a carved wooden toy or a geometric shape. The billiard table is a miniature model or a patterned texture on the cloth.",
+                    "object_interpretations": {
+                        "sword": {
+                            "form": "object",
+                            "scale": "normal",
+                            "role": "focal point"
+                        },
+                        "elephant": {
+                            "form": "toy/statue",
+                            "scale": "small",
+                            "role": "textural contrast"
+                        },
+                        "billiard table": {
+                            "form": "miniature",
+                            "scale": "small",
+                            "role": "background element"
+                        }
+                    }
+                },
+                {
+                    "scene_type": "Vintage Arcade / Curiosity Shop",
+                    "plausibility": 0.85,
+                    "reasoning": "A cluttered shop filled with oddities. The sword is a replica for sale. The elephant is a taxidermy piece or a carnival prize. The billiard table is a vintage coin-operated game or a full-sized table for customers.",
+                    "object_interpretations": {
+                        "sword": {
+                            "form": "replica",
+                            "scale": "normal",
+                            "role": "merchandise"
+                        },
+                        "elephant": {
+                            "form": "curiosity",
+                            "scale": "variable",
+                            "role": "shop decor"
+                        },
+                        "billiard table": {
+                            "form": "arcade game",
+                            "scale": "normal",
+                            "role": "entertainment"
+                        }
+                    },
+                    "scene_brief": "A Vintage Arcade / Curiosity Shop featuring sword, with elephant, and billiard table"
+                },
+                {
+                    "scene_type": "Historical Reenactment Fair",
+                    "plausibility": 0.8,
+                    "reasoning": "An outdoor festival. The sword is used by a knight in armor. The elephant is a painted elephant float or a large costume. The billiard table is set up on the grass for a 'medieval games' booth.",
+                    "object_interpretations": {
+                        "sword": {
+                            "form": "weapon",
+                            "scale": "normal",
+                            "role": "combat prop"
+                        },
+                        "elephant": {
+                            "form": "costume/float",
+                            "scale": "large",
+                            "role": "festival attraction"
+                        },
+                        "billiard table": {
+                            "form": "game table",
+                            "scale": "large",
+                            "role": "activity station"
+                        }
+                    }
+                }
+            ],
+            "selected_scene": {
+                "scene_type": "Vintage Arcade / Curiosity Shop",
+                "plausibility": 0.85,
+                "reasoning": "A cluttered shop filled with oddities. The sword is a replica for sale. The elephant is a taxidermy piece or a carnival prize. The billiard table is a vintage coin-operated game or a full-sized table for customers.",
+                "object_interpretations": {
+                    "sword": {
+                        "form": "replica",
+                        "scale": "normal",
+                        "role": "merchandise"
+                    },
+                    "elephant": {
+                        "form": "curiosity",
+                        "scale": "variable",
+                        "role": "shop decor"
+                    },
+                    "billiard table": {
+                        "form": "arcade game",
+                        "scale": "normal",
+                        "role": "entertainment"
+                    }
+                },
+                "scene_brief": "A Vintage Arcade / Curiosity Shop featuring sword, with elephant, and billiard table"
+            }
+        }
+    },
+    "final_prompts": {
+        "main_prompt": "A Impressionism painting depicting a calm and relaxed evening scene with gentle, moody atmosphere. In the foreground, a large vintage billiard table dominates the space, its forest green felt surface and rich mahogany wood frame rendered with soft, blended brushstrokes. Resting atop the billiard table's felt surface is a medium-sized antique sword, its silver-gray blade and deep brown leather-wrapped hilt catching the mixed soft lighting. Beside the billiard table stands a small antique elephant statue, its warm bronze body with cool gray patina details, positioned as if observing the scene. The evening light filters through unseen windows, casting long, gentle shadows across the wooden floor and creating a tranquil, contemplative mood where metal, leather, bronze, felt, and wood textures blend harmoniously in the impressionist style.",
+        "negative_prompt": "photorealistic, 3d render, modern, digital art, photograph, low quality, blurry, distorted, oversaturated, sharp edges, hyperdetailed, CGI, cartoon, anime, text, watermark, signature, frame, border",
+        "prompt_formats": {
+            "simple": "An impressionist painting of an antique sword on a billiard table with a bronze elephant beside it in a calm evening setting.",
+            "complex": "A Impressionism painting depicting a calm and relaxed evening scene with gentle, moody atmosphere. In the foreground, a large vintage billiard table dominates the space, its forest green felt surface and rich mahogany wood frame rendered with soft, blended brushstrokes. Resting atop the billiard table's felt surface is a medium-sized antique sword, its silver-gray blade and deep brown leather-wrapped hilt catching the mixed soft lighting. Beside the billiard table stands a small antique elephant statue, its warm bronze body with cool gray patina details, positioned as if observing the scene. The evening light filters through unseen windows, casting long, gentle shadows across the wooden floor and creating a tranquil, contemplative mood where metal, leather, bronze, felt, and wood textures blend harmoniously in the impressionist style.",
+            "comma_separated": "Impressionism painting, antique sword on billiard table, bronze elephant beside table, evening lighting, calm relaxed moody gentle atmosphere, forest green felt, mahogany wood, silver-gray blade, deep brown leather, warm bronze statue, cool gray patina, soft brushstrokes, blended colors, tranquil scene",
+            "tags": "art, painting, impressionism, still life, antique, vintage, evening, calm, relaxed, moody, gentle, sword, elephant, billiard table, Claude Monet style, Pierre-Auguste Renoir style, soft lighting, textured brushwork"
+        }
+    }
+}

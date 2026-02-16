@@ -1,0 +1,372 @@
+{
+    "artwork_id": "artwork_20260103_183720_531",
+    "generation_timestamp": "2026-01-03T18:37:53.541844",
+    "style": "Chinese Ink Painting",
+    "objects": {
+        "object_ids": [
+            14,
+            57,
+            26,
+            44
+        ],
+        "object_names": [
+            "bench",
+            "chair",
+            "canopy",
+            "sword"
+        ],
+        "enhanced_objects": [
+            {
+                "object_id": 14,
+                "name": "bench",
+                "artistic_description": "Weathered wooden bench rendered in soft ink washes, its surface showing subtle grain patterns through diluted gray tones. Morning light creates gentle highlights along the polished edges where natural wood shows through the aged patina. The seat bears faint traces of use, with ink pooling slightly in worn grooves, creating deeper shadows. Delicate brushwork suggests morning dew settling on the surface, giving it a subtle sheen.",
+                "size": "Medium",
+                "state": "well-maintained contemporary piece with natural aging",
+                "primary_colors": [
+                    "soft charcoal gray",
+                    "warm amber wood tones"
+                ],
+                "material": "wood"
+            },
+            {
+                "object_id": 57,
+                "name": "chair",
+                "artistic_description": "Elegant chair captured with precise calligraphic strokes, its curved backrest rendered in varying ink densities to suggest the play of morning light across its form. The seat shows a subtle gradient from light to dark, indicating the fresh, cool illumination of dawn. Fine cross-hatching on the legs creates texture, while the overall form maintains the characteristic emptiness of ink painting, allowing negative space to define its silhouette.",
+                "size": "Medium",
+                "state": "pristine contemporary craftsmanship",
+                "primary_colors": [
+                    "deep black ink",
+                    "silver-gray highlights"
+                ],
+                "material": "wood"
+            },
+            {
+                "object_id": 26,
+                "name": "canopy",
+                "artistic_description": "Delicate canopy rendered with ethereal light ink washes, its fabric appearing translucent where morning light filters through. The material shows subtle gradations from pearl-white to soft gray, suggesting the gentle movement of air. Ink drips create organic patterns along the edges, mimicking the natural flow of fabric. The canopy's surface catches the fresh morning glow with barely-there highlights that dissolve into the background.",
+                "size": "Large",
+                "state": "lightweight and airy contemporary textile",
+                "primary_colors": [
+                    "misty white",
+                    "pale gray-blue"
+                ],
+                "material": "fabric"
+            },
+            {
+                "object_id": 44,
+                "name": "sword",
+                "artistic_description": "Contemporary sword depicted with stark, confident strokes, its blade rendered in pure black ink with sharp, angular lines that catch the morning light along its edge. The hilt shows intricate detail through fine line work, with the guard's curves emphasized by controlled ink flow. A single bold highlight runs along the blade's length, suggesting the cool, reflective quality of polished steel in fresh dawn light. The overall treatment balances the weapon's sharp geometry with the softness of the ink medium.",
+                "size": "Small",
+                "state": "ceremonial contemporary piece, highly polished",
+                "primary_colors": [
+                    "jet black",
+                    "pure white highlights"
+                ],
+                "material": "metal"
+            }
+        ]
+    },
+    "composition": {
+        "spatial_relations": [
+            [
+                14,
+                "next to",
+                57
+            ],
+            [
+                26,
+                "above",
+                14
+            ],
+            [
+                26,
+                "above",
+                57
+            ],
+            [
+                44,
+                "on",
+                14
+            ]
+        ],
+        "semantic_relations": []
+    },
+    "environment": {
+        "environment_details": {
+            "scene_brief": "A Imperial Garden Courtyard centered around bench, with chair, canopy, and sword",
+            "place365_name": "/c/courtyard",
+            "place365_id": 109,
+            "time_of_day": "morning",
+            "weather": null,
+            "period": "Contemporary",
+            "is_indoor": true,
+            "lighting": {
+                "type": "natural",
+                "quality": "soft",
+                "direction": "side-lit",
+                "mood": "neutral",
+                "reasoning": "Morning light provides a soft, natural quality. Side-lighting is chosen because it is the most effective for revealing the texture of the canopy, the form of the bench and chair, and the metallic glint of the sword, creating depth and volume essential for a compelling ink painting composition."
+            },
+            "atmosphere": "fresh and energetic and gentle"
+        },
+        "scene_inference": {
+            "all_candidates": [
+                {
+                    "scene_type": "Imperial Garden Courtyard",
+                    "plausibility": 0.95,
+                    "reasoning": "A classical Chinese garden setting where a stone bench serves as a resting place. A chair can be an ornate throne-like seating for a scholar or official. A canopy provides shade over the seating area. A sword rests against the bench, belonging to a warrior or guard taking a moment of respite.",
+                    "object_interpretations": {
+                        "bench": {
+                            "form": "real stone bench",
+                            "scale": "normal",
+                            "role": "primary seating object"
+                        },
+                        "chair": {
+                            "form": "ornate wooden chair",
+                            "scale": "normal",
+                            "role": "secondary seating for a figure"
+                        },
+                        "canopy": {
+                            "form": "fabric shade structure",
+                            "scale": "large",
+                            "role": "environmental shelter"
+                        },
+                        "sword": {
+                            "form": "real sword",
+                            "scale": "normal",
+                            "role": "prop indicating presence of a warrior"
+                        }
+                    },
+                    "scene_brief": "A Imperial Garden Courtyard centered around bench, with chair, canopy, and sword"
+                },
+                {
+                    "scene_type": "Mountain Temple Rest Area",
+                    "plausibility": 0.9,
+                    "reasoning": "A scene on a mountain path near a temple. A simple wooden bench is for pilgrims. A chair might be for a monk or elder. A canopy protects from elements. A sword could be a ceremonial offering or a weapon carried by a traveling martial artist.",
+                    "object_interpretations": {
+                        "bench": {
+                            "form": "wooden bench",
+                            "scale": "normal",
+                            "role": "public seating"
+                        },
+                        "chair": {
+                            "form": "simple wooden chair",
+                            "scale": "normal",
+                            "role": "personal seating"
+                        },
+                        "canopy": {
+                            "form": "portable shelter",
+                            "scale": "medium",
+                            "role": "weather protection"
+                        },
+                        "sword": {
+                            "form": "sheathed sword",
+                            "scale": "normal",
+                            "role": "traveler's equipment"
+                        }
+                    }
+                },
+                {
+                    "scene_type": "Scholar's Study",
+                    "plausibility": 0.85,
+                    "reasoning": "An interior scene. A bench might be a low bench for putting on shoes or holding items. A chair is the main seating at a desk. A canopy could be a decorative bed canopy or window treatment. A sword is a decorative wall hanging or a collector's item.",
+                    "object_interpretations": {
+                        "bench": {
+                            "form": "low wooden bench",
+                            "scale": "small",
+                            "role": "utility furniture"
+                        },
+                        "chair": {
+                            "form": "writing chair",
+                            "scale": "normal",
+                            "role": "primary seating"
+                        },
+                        "canopy": {
+                            "form": "bed canopy",
+                            "scale": "large",
+                            "role": "decorative element"
+                        },
+                        "sword": {
+                            "form": "wall-mounted sword",
+                            "scale": "normal",
+                            "role": "decoration/collectible"
+                        }
+                    }
+                },
+                {
+                    "scene_type": "Traditional Wedding Ceremony",
+                    "plausibility": 0.8,
+                    "reasoning": "A ceremonial setting. A bench for guests or the bride to rest. A chair for the groom or elder. A canopy marks the sacred space. A sword is a ceremonial dowry item or a guard's weapon.",
+                    "object_interpretations": {
+                        "bench": {
+                            "form": "decorative bench",
+                            "scale": "normal",
+                            "role": "guest seating"
+                        },
+                        "chair": {
+                            "form": "ceremonial chair",
+                            "scale": "normal",
+                            "role": "seat of honor"
+                        },
+                        "canopy": {
+                            "form": "bridal canopy",
+                            "scale": "large",
+                            "role": "ceremonial centerpiece"
+                        },
+                        "sword": {
+                            "form": "ceremonial sword",
+                            "scale": "normal",
+                            "role": "symbol of protection"
+                        }
+                    }
+                },
+                {
+                    "scene_type": "Ancient Battlefield Encampment",
+                    "plausibility": 0.9,
+                    "reasoning": "A military camp scene. A bench for soldiers to sit. A chair for the commander. A canopy for the command tent. A sword is the primary weapon of the commander.",
+                    "object_interpretations": {
+                        "bench": {
+                            "form": "rough wooden bench",
+                            "scale": "normal",
+                            "role": "soldier seating"
+                        },
+                        "chair": {
+                            "form": "field chair",
+                            "scale": "normal",
+                            "role": "commander's seat"
+                        },
+                        "canopy": {
+                            "form": "tent canopy",
+                            "scale": "large",
+                            "role": "shelter"
+                        },
+                        "sword": {
+                            "form": "battle sword",
+                            "scale": "normal",
+                            "role": "primary weapon"
+                        }
+                    }
+                },
+                {
+                    "scene_type": "Tea House Pavilion",
+                    "plausibility": 0.85,
+                    "reasoning": "A social gathering place. A bench for casual seating. A chair for a tea master. A canopy over the pavilion. A sword is a decorative element or carried by a samurai patron.",
+                    "object_interpretations": {
+                        "bench": {
+                            "form": "bamboo bench",
+                            "scale": "normal",
+                            "role": "seating"
+                        },
+                        "chair": {
+                            "form": "tea chair",
+                            "scale": "normal",
+                            "role": "host seating"
+                        },
+                        "canopy": {
+                            "form": "pavilion roof",
+                            "scale": "large",
+                            "role": "architecture"
+                        },
+                        "sword": {
+                            "form": "katana",
+                            "scale": "normal",
+                            "role": "accessory"
+                        }
+                    }
+                },
+                {
+                    "scene_type": "Palace Throne Room",
+                    "plausibility": 0.8,
+                    "reasoning": "A formal interior. A bench for attendants. A throne (chair) for the ruler. A canopy over the throne. A sword as a royal regalia.",
+                    "object_interpretations": {
+                        "bench": {
+                            "form": "marble bench",
+                            "scale": "normal",
+                            "role": "attendant seating"
+                        },
+                        "chair": {
+                            "form": "imperial throne",
+                            "scale": "large",
+                            "role": "ruler's seat"
+                        },
+                        "canopy": {
+                            "form": "canopy of state",
+                            "scale": "very large",
+                            "role": "symbol of power"
+                        },
+                        "sword": {
+                            "form": "royal sword",
+                            "scale": "normal",
+                            "role": "symbol of authority"
+                        }
+                    }
+                },
+                {
+                    "scene_type": "Wuxia Novel Illustration",
+                    "plausibility": 0.95,
+                    "reasoning": "A scene from a martial arts novel. A bench in a courtyard where heroes rest. A chair for the sect leader. A canopy marking a dojo. A sword is the hero's weapon.",
+                    "object_interpretations": {
+                        "bench": {
+                            "form": "stone bench",
+                            "scale": "normal",
+                            "role": "resting spot"
+                        },
+                        "chair": {
+                            "form": "wooden chair",
+                            "scale": "normal",
+                            "role": "leadership seat"
+                        },
+                        "canopy": {
+                            "form": "training canopy",
+                            "scale": "medium",
+                            "role": "setting marker"
+                        },
+                        "sword": {
+                            "form": "jian sword",
+                            "scale": "normal",
+                            "role": "martial arts weapon"
+                        }
+                    }
+                }
+            ],
+            "selected_scene": {
+                "scene_type": "Imperial Garden Courtyard",
+                "plausibility": 0.95,
+                "reasoning": "A classical Chinese garden setting where a stone bench serves as a resting place. A chair can be an ornate throne-like seating for a scholar or official. A canopy provides shade over the seating area. A sword rests against the bench, belonging to a warrior or guard taking a moment of respite.",
+                "object_interpretations": {
+                    "bench": {
+                        "form": "real stone bench",
+                        "scale": "normal",
+                        "role": "primary seating object"
+                    },
+                    "chair": {
+                        "form": "ornate wooden chair",
+                        "scale": "normal",
+                        "role": "secondary seating for a figure"
+                    },
+                    "canopy": {
+                        "form": "fabric shade structure",
+                        "scale": "large",
+                        "role": "environmental shelter"
+                    },
+                    "sword": {
+                        "form": "real sword",
+                        "scale": "normal",
+                        "role": "prop indicating presence of a warrior"
+                    }
+                },
+                "scene_brief": "A Imperial Garden Courtyard centered around bench, with chair, canopy, and sword"
+            }
+        }
+    },
+    "final_prompts": {
+        "main_prompt": "A Chinese Ink Painting painting depicting a tranquil morning scene where a soft charcoal gray bench with warm amber wood tones sits beside a deep black ink chair with silver-gray highlights, both positioned under a large, misty white canopy with pale gray-blue tones that floats airily above them. A small ceremonial sword in jet black with pure white highlights rests upon the bench. The composition flows from foreground to background with the bench and chair as primary elements, the canopy creating a protective midground layer, and the environment fading into gentle morning mist. Natural soft morning light filters through the canopy, casting delicate shadows and creating a fresh, energetic yet gentle atmosphere where ink washes blend seamlessly with negative space, capturing the contemporary objects through traditional brushwork that emphasizes fluid lines and subtle tonal variations.",
+        "negative_prompt": "photorealistic, 3d render, modern, digital art, photograph, low quality, blurry, distorted, cartoon, anime, western painting, oil painting, watercolor, bright colors, saturated colors, detailed background, crowded scene, text, signature, frame",
+        "prompt_formats": {
+            "simple": "A Chinese ink painting of a bench with a sword beside a chair under a canopy in soft morning light.",
+            "complex": "A Chinese Ink Painting painting depicting a tranquil morning scene where a soft charcoal gray bench with warm amber wood tones sits beside a deep black ink chair with silver-gray highlights, both positioned under a large, misty white canopy with pale gray-blue tones that floats airily above them. A small ceremonial sword in jet black with pure white highlights rests upon the bench. The composition flows from foreground to background with the bench and chair as primary elements, the canopy creating a protective midground layer, and the environment fading into gentle morning mist. Natural soft morning light filters through the canopy, casting delicate shadows and creating a fresh, energetic yet gentle atmosphere where ink washes blend seamlessly with negative space, capturing the contemporary objects through traditional brushwork that emphasizes fluid lines and subtle tonal variations.",
+            "comma_separated": "Chinese Ink Painting, bench next to chair, canopy above bench and chair, sword on bench, morning light, soft natural lighting, fresh energetic gentle atmosphere, charcoal gray bench, black chair, misty white canopy, jet black sword, contemporary objects, ink wash technique, negative space, fluid brushstrokes",
+            "tags": "art, painting, chinese ink painting, ink wash, sumi-e, bench, chair, canopy, sword, morning scene, contemporary design, traditional technique, composition, atmospheric, gentle lighting"
+        }
+    }
+}

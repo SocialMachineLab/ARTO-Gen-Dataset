@@ -1,0 +1,303 @@
+{
+    "artwork_id": "artwork_20260103_025036_386",
+    "generation_timestamp": "2026-01-03T02:51:02.765225",
+    "style": "Post-Impressionism",
+    "objects": {
+        "object_ids": [
+            57,
+            74,
+            14
+        ],
+        "object_names": [
+            "easel",
+            "book",
+            "bench"
+        ],
+        "enhanced_objects": [
+            {
+                "object_id": 57,
+                "name": "easel",
+                "artistic_description": "A sturdy wooden easel bathed in warm afternoon sunlight streaming through gallery windows, its natural wood grain glowing with rich amber and honey tones. The varnished surface catches sharp highlights and casts deep, warm shadows, creating bold contrasts characteristic of Post-Impressionist light studies. Subtle dust motes dance in the sunbeams, adding atmospheric texture to its weathered patina.",
+                "size": "Large",
+                "state": "well-maintained contemporary gallery piece with slight wear from use",
+                "primary_colors": [
+                    "warm amber",
+                    "deep brown"
+                ],
+                "material": "wood"
+            },
+            {
+                "object_id": 74,
+                "name": "book",
+                "artistic_description": "A leather-bound volume resting on a surface, its cover saturated with deep crimson and burnt sienna where direct sunlight hits, while shadowed areas shift to cool violet-gray. The embossed gold lettering catches brilliant highlights, sparkling like pointillist dots against the textured leather. Pages near the edge glow with translucent warmth where light penetrates the paper, creating luminous color harmonies.",
+                "size": "Small",
+                "state": "pristine contemporary publication with crisp edges",
+                "primary_colors": [
+                    "crimson",
+                    "burnt sienna"
+                ],
+                "material": "leather and paper"
+            },
+            {
+                "object_id": 14,
+                "name": "bench",
+                "artistic_description": "A polished wooden bench gleams under the bright natural light, its surface transformed into a mosaic of warm ochre highlights and cool blue-gray shadows. The smooth finish reflects scattered color notes from surrounding artworks, creating a vibrating chromatic effect. Sunlight skimming across its edge produces a brilliant white-hot line, while the seat's subtle grain patterns emerge in the raking light like visible brushstrokes.",
+                "size": "Medium",
+                "state": "sleek modern design with high-gloss finish",
+                "primary_colors": [
+                    "ochre",
+                    "blue-gray"
+                ],
+                "material": "polished wood"
+            }
+        ]
+    },
+    "composition": {
+        "spatial_relations": [
+            [
+                74,
+                "on",
+                57
+            ],
+            [
+                14,
+                "next to",
+                57
+            ]
+        ],
+        "semantic_relations": []
+    },
+    "environment": {
+        "environment_details": {
+            "scene_brief": "A art gallery featuring easel, with book, and bench",
+            "place365_name": "/a/art_gallery",
+            "place365_id": 19,
+            "time_of_day": "afternoon",
+            "weather": "sunny",
+            "period": "Contemporary",
+            "is_indoor": true,
+            "lighting": {
+                "type": "natural",
+                "quality": "harsh",
+                "direction": "side-lit",
+                "mood": "warm",
+                "reasoning": "Combining 'afternoon' time and 'sunny' weather results in strong natural light. 'Side-lit' direction creates strong chiaroscuro (light and shadow) effects, which Post-Impressionists used to define structure. 'Harsh' quality emphasizes the solidity of objects (easel, bench), and 'warm' mood aligns with the afternoon sun."
+            },
+            "atmosphere": "bright and active and cheerful"
+        },
+        "scene_inference": {
+            "all_candidates": [
+                {
+                    "scene_type": "public park",
+                    "plausibility": 0.95,
+                    "reasoning": "An easel is a common sight in parks where artists paint landscapes. A bench provides seating for the artist or a viewer. A book can be on the bench or on a small portable table next to the easel.",
+                    "object_interpretations": {
+                        "easel": {
+                            "form": "real artist's easel",
+                            "scale": "normal",
+                            "role": "primary support for canvas"
+                        },
+                        "bench": {
+                            "form": "real park bench",
+                            "scale": "normal",
+                            "role": "seating for artist or viewer"
+                        },
+                        "book": {
+                            "form": "real book",
+                            "scale": "normal",
+                            "role": "reference material or reading item"
+                        }
+                    }
+                },
+                {
+                    "scene_type": "art studio",
+                    "plausibility": 0.98,
+                    "reasoning": "The natural habitat of an easel. A bench can serve as a stool or seating area. A book can be an art reference or sketchbook on a nearby table.",
+                    "object_interpretations": {
+                        "easel": {
+                            "form": "real artist's easel",
+                            "scale": "normal",
+                            "role": "primary workstation"
+                        },
+                        "bench": {
+                            "form": "wooden bench/stool",
+                            "scale": "normal",
+                            "role": "seating"
+                        },
+                        "book": {
+                            "form": "art history book",
+                            "scale": "normal",
+                            "role": "reference material"
+                        }
+                    }
+                },
+                {
+                    "scene_type": "art gallery",
+                    "plausibility": 0.85,
+                    "reasoning": "An easel might display a featured piece or a work-in-progress demonstration. A bench is standard gallery seating for viewers. A book could be a gallery catalog on the bench.",
+                    "object_interpretations": {
+                        "easel": {
+                            "form": "display easel",
+                            "scale": "normal",
+                            "role": "display stand for artwork"
+                        },
+                        "bench": {
+                            "form": "gallery bench",
+                            "scale": "normal",
+                            "role": "viewer seating"
+                        },
+                        "book": {
+                            "form": "gallery catalog",
+                            "scale": "normal",
+                            "role": "informational material"
+                        }
+                    },
+                    "scene_brief": "A art gallery featuring easel, with book, and bench"
+                },
+                {
+                    "scene_type": "university courtyard",
+                    "plausibility": 0.9,
+                    "reasoning": "Students often sketch outdoors. An easel is used for drawing. A bench provides a place to sit and work. A book is essential study material.",
+                    "object_interpretations": {
+                        "easel": {
+                            "form": "sketching easel",
+                            "scale": "normal",
+                            "role": "drawing support"
+                        },
+                        "bench": {
+                            "form": "stone or wood bench",
+                            "scale": "normal",
+                            "role": "student seating"
+                        },
+                        "book": {
+                            "form": "textbook",
+                            "scale": "normal",
+                            "role": "study aid"
+                        }
+                    }
+                },
+                {
+                    "scene_type": "vintage garden",
+                    "plausibility": 0.8,
+                    "reasoning": "A romanticized setting where an easel stands amidst flowers. A rustic bench invites rest. A book left behind on the bench suggests a reader enjoying the scenery.",
+                    "object_interpretations": {
+                        "easel": {
+                            "form": "wooden easel",
+                            "scale": "normal",
+                            "role": "decorative or functional art piece"
+                        },
+                        "bench": {
+                            "form": "garden bench",
+                            "scale": "normal",
+                            "role": "resting spot"
+                        },
+                        "book": {
+                            "form": "leather-bound book",
+                            "scale": "normal",
+                            "role": "atmospheric prop"
+                        }
+                    }
+                },
+                {
+                    "scene_type": "beach boardwalk",
+                    "plausibility": 0.75,
+                    "reasoning": "Beach scenes are popular for painters. An easel is set up on the boardwalk or sand. A bench is nearby public seating. A book can be a novel read by the artist during a break.",
+                    "object_interpretations": {
+                        "easel": {
+                            "form": "sturdy easel",
+                            "scale": "normal",
+                            "role": "painting station"
+                        },
+                        "bench": {
+                            "form": "boardwalk bench",
+                            "scale": "normal",
+                            "role": "seating/viewing"
+                        },
+                        "book": {
+                            "form": "paperback novel",
+                            "scale": "normal",
+                            "role": "leisure reading"
+                        }
+                    }
+                },
+                {
+                    "scene_type": "school classroom",
+                    "plausibility": 0.85,
+                    "reasoning": "An art classroom often has easels for students. Benches or stools are used for seating. Books are standard educational tools on desks or in piles.",
+                    "object_interpretations": {
+                        "easel": {
+                            "form": "classroom easel",
+                            "scale": "normal",
+                            "role": "teaching aid/student work"
+                        },
+                        "bench": {
+                            "form": "workbench or stool",
+                            "scale": "normal",
+                            "role": "seating"
+                        },
+                        "book": {
+                            "form": "textbook",
+                            "scale": "normal",
+                            "role": "learning material"
+                        }
+                    }
+                },
+                {
+                    "scene_type": "outdoor cafe",
+                    "plausibility": 0.8,
+                    "reasoning": "A bohemian setting where a patron sketches at an easel. A bench is part of the seating arrangement. A book is a common cafe accessory.",
+                    "object_interpretations": {
+                        "easel": {
+                            "form": "portable easel",
+                            "scale": "normal",
+                            "role": "hobbyist setup"
+                        },
+                        "bench": {
+                            "form": "cafe bench",
+                            "scale": "normal",
+                            "role": "furniture"
+                        },
+                        "book": {
+                            "form": "novel",
+                            "scale": "normal",
+                            "role": "cafe prop"
+                        }
+                    }
+                }
+            ],
+            "selected_scene": {
+                "scene_type": "art gallery",
+                "plausibility": 0.85,
+                "reasoning": "An easel might display a featured piece or a work-in-progress demonstration. A bench is standard gallery seating for viewers. A book could be a gallery catalog on the bench.",
+                "object_interpretations": {
+                    "easel": {
+                        "form": "display easel",
+                        "scale": "normal",
+                        "role": "display stand for artwork"
+                    },
+                    "bench": {
+                        "form": "gallery bench",
+                        "scale": "normal",
+                        "role": "viewer seating"
+                    },
+                    "book": {
+                        "form": "gallery catalog",
+                        "scale": "normal",
+                        "role": "informational material"
+                    }
+                },
+                "scene_brief": "A art gallery featuring easel, with book, and bench"
+            }
+        }
+    },
+    "final_prompts": {
+        "main_prompt": "A Post-Impressionism painting depicting a bright and active afternoon scene in a contemporary gallery space. In the foreground, a large, well-maintained easel in warm amber and deep brown wood stands prominently, its surface holding a small, pristine book in crimson and burnt sienna leather and paper. Immediately beside the easel, a medium-sized bench in ochre and blue-gray polished wood with a sleek modern design and high-gloss finish sits at a slight angle. The composition uses bold, visible brushstrokes and vibrant, non-naturalistic colors to capture the cheerful atmosphere. Harsh natural afternoon light streams through unseen windows, creating dramatic shadows and illuminating the scene with intense, active energy, emphasizing the geometric forms and material textures of wood, leather, and polished surfaces in a cohesive, visually rich narrative.",
+        "negative_prompt": "photorealistic, 3d render, modern, digital art, photograph, low quality, blurry, distorted, ugly, deformed, watermark, signature, text, frame, cartoon, anime, sketch, grayscale, monochrome, dark, gloomy, dull, muted colors, realistic lighting, smooth blending",
+        "prompt_formats": {
+            "simple": "A Post-Impressionism painting of an easel holding a book with a bench beside it in a bright, cheerful gallery afternoon.",
+            "complex": "A Post-Impressionism painting depicting a bright and active afternoon scene in a contemporary gallery space. In the foreground, a large, well-maintained easel in warm amber and deep brown wood stands prominently, its surface holding a small, pristine book in crimson and burnt sienna leather and paper. Immediately beside the easel, a medium-sized bench in ochre and blue-gray polished wood with a sleek modern design and high-gloss finish sits at a slight angle. The composition uses bold, visible brushstrokes and vibrant, non-naturalistic colors to capture the cheerful atmosphere. Harsh natural afternoon light streams through unseen windows, creating dramatic shadows and illuminating the scene with intense, active energy, emphasizing the geometric forms and material textures of wood, leather, and polished surfaces in a cohesive, visually rich narrative.",
+            "comma_separated": "Post-Impressionism painting, large easel, warm amber deep brown wood, small book, crimson burnt sienna leather paper, on easel, medium bench, ochre blue-gray polished wood, next to easel, contemporary gallery, afternoon, harsh natural lighting, bright active cheerful atmosphere, bold brushstrokes, vibrant colors, geometric forms, material textures",
+            "tags": "art, painting, post-impressionism, gallery interior, still life, easel, book, bench, afternoon light, vibrant colors, bold brushstrokes, geometric composition, cheerful atmosphere, modern design, material texture"
+        }
+    }
+}

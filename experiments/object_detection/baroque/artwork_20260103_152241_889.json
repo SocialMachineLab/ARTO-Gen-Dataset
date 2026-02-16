@@ -1,0 +1,286 @@
+{
+    "artwork_id": "artwork_20260103_152241_889",
+    "generation_timestamp": "2026-01-03T15:23:17.524899",
+    "style": "Baroque",
+    "objects": {
+        "object_ids": [
+            40,
+            18,
+            2
+        ],
+        "object_names": [
+            "bottle",
+            "mare",
+            "wheel"
+        ],
+        "enhanced_objects": [
+            {
+                "object_id": 40,
+                "name": "bottle",
+                "artistic_description": "A dark green glass bottle catches the warm candlelight, its surface displaying deep emerald highlights and amber reflections where the flame dances across the curved glass. The bottle shows subtle imperfections and bubbles trapped within the glass, characteristic of early modern glassmaking, with a rich patina of dust softening its edges. The liquid inside glows with a deep ruby warmth, creating a luminous core that radiates through the dark glass.",
+                "size": "Medium",
+                "state": "aged and dusty with a noble patina, standing with quiet dignity",
+                "primary_colors": [
+                    "deep emerald green",
+                    "warm amber"
+                ],
+                "material": "glass"
+            },
+            {
+                "object_id": 18,
+                "name": "mare",
+                "artistic_description": "In the shadowy background, the mare's coat shimmers with velvety darkness, catching stray candlelight in rich chestnut and deep umber tones. Her form emerges from the gloom with Baroque dramatic lighting, her muscles defined by strong chiaroscuro. A single highlight gleams on her sleek flank, while her dark mane falls in shadowed waves, appearing almost black in the dim atmosphere.",
+                "size": "Large",
+                "state": "calm and majestic, her coat gleaming with health and gentle sheen",
+                "primary_colors": [
+                    "deep chestnut brown",
+                    "rich umber"
+                ],
+                "material": "horsehair and flesh"
+            },
+            {
+                "object_id": 2,
+                "name": "wheel",
+                "artistic_description": "A weathered wooden wheel stands with Baroque gravitas, its iron rim catching warm golden highlights from the artificial light. The aged oak shows deep grain patterns in honey and sienna tones, with a matte surface that absorbs rather than reflects the light. Weathered cracks and wear marks create rich textures, while the wooden spokes cast dramatic shadows, their edges softened by time and use.",
+                "size": "Medium",
+                "state": "weathered and noble, showing honest wear from years of service",
+                "primary_colors": [
+                    "warm honey oak",
+                    "dark sienna"
+                ],
+                "material": "wood and iron"
+            }
+        ]
+    },
+    "composition": {
+        "spatial_relations": [
+            [
+                40,
+                "next to",
+                2
+            ],
+            [
+                18,
+                "behind",
+                40
+            ],
+            [
+                18,
+                "behind",
+                2
+            ]
+        ],
+        "semantic_relations": []
+    },
+    "environment": {
+        "environment_details": {
+            "scene_brief": "A Baroque still life painting centered around bottle, with mare in the background, and wheel",
+            "place365_name": "/b/bar",
+            "place365_id": 39,
+            "time_of_day": "evening",
+            "weather": null,
+            "period": "Early modern",
+            "is_indoor": true,
+            "lighting": {
+                "type": "artificial",
+                "quality": "dramatic",
+                "direction": "side-lit",
+                "mood": "warm",
+                "reasoning": "To achieve the classic Baroque look, the lighting must be high-contrast. A single light source (like a candle or lamp) placed to the side creates the deep shadows and highlighted textures (chiaroscuro) essential for the style. A warm mood fits the interior setting and the rich colors typical of the period."
+            },
+            "atmosphere": "calm and relaxed and striking"
+        },
+        "scene_inference": {
+            "all_candidates": [
+                {
+                    "scene_type": "Baroque stable interior",
+                    "plausibility": 0.85,
+                    "reasoning": "A stable is the natural habitat for a mare. A bottle could be an old wine or medicine bottle on a wooden shelf or crate, and a wheel could be part of a cart or carriage nearby.",
+                    "object_interpretations": {
+                        "bottle": {
+                            "form": "real glass bottle",
+                            "scale": "normal",
+                            "role": "decorative/ambient object"
+                        },
+                        "mare": {
+                            "form": "real horse",
+                            "scale": "normal",
+                            "role": "primary living subject"
+                        },
+                        "wheel": {
+                            "form": "real wooden wheel",
+                            "scale": "normal",
+                            "role": "functional part of a cart"
+                        }
+                    }
+                },
+                {
+                    "scene_type": "Baroque apothecary",
+                    "plausibility": 0.9,
+                    "reasoning": "Bottles are essential in an apothecary. A mare could be a small bronze or porcelain sculpture on the counter (a common motif in alchemy), and a wheel could be a decorative symbol of fortune or a small gear.",
+                    "object_interpretations": {
+                        "bottle": {
+                            "form": "real apothecary bottle",
+                            "scale": "normal",
+                            "role": "primary functional object"
+                        },
+                        "mare": {
+                            "form": "sculpture/statuette",
+                            "scale": "miniature",
+                            "role": "decorative object"
+                        },
+                        "wheel": {
+                            "form": "wooden gear or symbol",
+                            "scale": "small",
+                            "role": "decorative element"
+                        }
+                    }
+                },
+                {
+                    "scene_type": "Baroque still life painting",
+                    "plausibility": 0.95,
+                    "reasoning": "Still lifes often feature bottles. A mare could be depicted in a small painting on the wall behind the table, and a wheel could be a wooden wheel of a cheese wheel or barrel on the floor.",
+                    "object_interpretations": {
+                        "bottle": {
+                            "form": "real bottle",
+                            "scale": "normal",
+                            "role": "main subject of the still life"
+                        },
+                        "mare": {
+                            "form": "painting",
+                            "scale": "small (on wall)",
+                            "role": "background element"
+                        },
+                        "wheel": {
+                            "form": "real wooden wheel",
+                            "scale": "normal",
+                            "role": "part of a barrel or cart"
+                        }
+                    },
+                    "scene_brief": "A Baroque still life painting centered around bottle, with mare in the background, and wheel"
+                },
+                {
+                    "scene_type": "Baroque carriage house",
+                    "plausibility": 0.8,
+                    "reasoning": "A carriage house contains wheels. A mare could be pulling the carriage or resting nearby. A bottle could be a traveler's flask left on a bench.",
+                    "object_interpretations": {
+                        "bottle": {
+                            "form": "metal flask",
+                            "scale": "normal",
+                            "role": "personal accessory"
+                        },
+                        "mare": {
+                            "form": "real horse",
+                            "scale": "normal",
+                            "role": "draft animal"
+                        },
+                        "wheel": {
+                            "form": "carriage wheel",
+                            "scale": "large",
+                            "role": "functional component"
+                        }
+                    }
+                },
+                {
+                    "scene_type": "Baroque fantasy landscape",
+                    "plausibility": 0.75,
+                    "reasoning": "In a surreal Baroque style, a giant bottle could serve as a fountain or structure. A mare grazes nearby, and a wheel could be a massive stone wheel from a ruin.",
+                    "object_interpretations": {
+                        "bottle": {
+                            "form": "giant glass structure",
+                            "scale": "architectural",
+                            "role": "fountain or shelter"
+                        },
+                        "mare": {
+                            "form": "real horse",
+                            "scale": "normal",
+                            "role": "inhabitant"
+                        },
+                        "wheel": {
+                            "form": "stone wheel",
+                            "scale": "large",
+                            "role": "ruin/decor"
+                        }
+                    }
+                },
+                {
+                    "scene_type": "Baroque tavern",
+                    "plausibility": 0.85,
+                    "reasoning": "Taverns have bottles of wine. A mare might be seen through the window or in a painting. A wheel could be a decorative shield or a cart wheel outside.",
+                    "object_interpretations": {
+                        "bottle": {
+                            "form": "wine bottle",
+                            "scale": "normal",
+                            "role": "drink container"
+                        },
+                        "mare": {
+                            "form": "painting",
+                            "scale": "medium",
+                            "role": "wall decoration"
+                        },
+                        "wheel": {
+                            "form": "wooden wheel",
+                            "scale": "normal",
+                            "role": "prop/decor"
+                        }
+                    }
+                },
+                {
+                    "scene_type": "Baroque royal garden",
+                    "plausibility": 0.8,
+                    "reasoning": "A mare could be a riding horse or a statue in the garden. A bottle could be a fountain spout or a glass decanter on a table. A wheel could be part of a garden ornament or a cart.",
+                    "object_interpretations": {
+                        "bottle": {
+                            "form": "glass decanter",
+                            "scale": "normal",
+                            "role": "tableware"
+                        },
+                        "mare": {
+                            "form": "sculpture",
+                            "scale": "life-size",
+                            "role": "garden statue"
+                        },
+                        "wheel": {
+                            "form": "ornamental wheel",
+                            "scale": "medium",
+                            "role": "garden decor"
+                        }
+                    }
+                }
+            ],
+            "selected_scene": {
+                "scene_type": "Baroque still life painting",
+                "plausibility": 0.95,
+                "reasoning": "Still lifes often feature bottles. A mare could be depicted in a small painting on the wall behind the table, and a wheel could be a wooden wheel of a cheese wheel or barrel on the floor.",
+                "object_interpretations": {
+                    "bottle": {
+                        "form": "real bottle",
+                        "scale": "normal",
+                        "role": "main subject of the still life"
+                    },
+                    "mare": {
+                        "form": "painting",
+                        "scale": "small (on wall)",
+                        "role": "background element"
+                    },
+                    "wheel": {
+                        "form": "real wooden wheel",
+                        "scale": "normal",
+                        "role": "part of a barrel or cart"
+                    }
+                },
+                "scene_brief": "A Baroque still life painting centered around bottle, with mare in the background, and wheel"
+            }
+        }
+    },
+    "final_prompts": {
+        "main_prompt": "A Baroque painting depicting a calm evening scene with striking artificial lighting. In the foreground, a medium-sized, aged and dusty bottle of deep emerald green glass with warm amber highlights sits next to a medium-sized, weathered wheel of warm honey oak wood with dark sienna iron fittings, both possessing a noble patina. Behind both objects, a large, majestic mare of deep chestnut brown and rich umber stands calmly, her horsehair and flesh rendered with soft texture. The spatial arrangement shows the bottle positioned beside the wheel, with the mare situated behind them both, creating a triangular composition. The atmosphere is calm and relaxed yet visually striking, illuminated by dramatic artificial light that casts deep shadows and highlights the textures of glass, wood, and horsehair in the evening stillness.",
+        "negative_prompt": "photorealistic, 3d render, modern, digital art, photograph, low quality, blurry, distorted, ugly, deformed, cartoon, anime, text, watermark, signature, frame, border, people, humans, buildings, urban",
+        "prompt_formats": {
+            "simple": "A Baroque painting of a bottle, wheel, and mare arranged in a calm evening scene with dramatic lighting.",
+            "complex": "A Baroque painting depicting a calm evening scene with striking artificial lighting. In the foreground, a medium-sized, aged and dusty bottle of deep emerald green glass with warm amber highlights sits next to a medium-sized, weathered wheel of warm honey oak wood with dark sienna iron fittings, both possessing a noble patina. Behind both objects, a large, majestic mare of deep chestnut brown and rich umber stands calmly, her horsehair and flesh rendered with soft texture. The spatial arrangement shows the bottle positioned beside the wheel, with the mare situated behind them both, creating a triangular composition. The atmosphere is calm and relaxed yet visually striking, illuminated by dramatic artificial light that casts deep shadows and highlights the textures of glass, wood, and horsehair in the evening stillness.",
+            "comma_separated": "Baroque painting, bottle, wheel, mare, medium-sized bottle, large mare, medium wheel, deep emerald green, warm amber, aged and dusty, deep chestnut brown, rich umber, calm and majestic, warm honey oak, dark sienna, weathered and noble, bottle next to wheel, mare behind bottle, mare behind wheel, evening, artificial dramatic lighting, calm and relaxed atmosphere, striking composition, glass texture, wood texture, horsehair texture, chiaroscuro, noble patina",
+            "tags": "art, painting, Baroque, still life, animal portrait, bottle, wheel, mare, evening scene, dramatic lighting, chiaroscuro, calm atmosphere, textured, aged objects, noble patina, glass, wood, horsehair, composition, classical art"
+        }
+    }
+}

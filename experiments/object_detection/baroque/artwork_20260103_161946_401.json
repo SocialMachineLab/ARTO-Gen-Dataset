@@ -1,0 +1,372 @@
+{
+    "artwork_id": "artwork_20260103_161946_401",
+    "generation_timestamp": "2026-01-03T16:20:20.632361",
+    "style": "Baroque",
+    "objects": {
+        "object_ids": [
+            43,
+            18,
+            9,
+            79
+        ],
+        "object_names": [
+            "fork",
+            "mule",
+            "boat",
+            "comb"
+        ],
+        "enhanced_objects": [
+            {
+                "object_id": 43,
+                "name": "fork",
+                "artistic_description": "A tarnished silver fork catches the flickering candlelight with muted golden glows along its tines, the dark patina softening the highlights while deep shadows pool in the engraved crevices of its ornate handle",
+                "size": "Small",
+                "state": "aged and tarnished with gentle wear",
+                "primary_colors": [
+                    "warm pewter",
+                    "darkened silver"
+                ],
+                "material": "silver"
+            },
+            {
+                "object_id": 18,
+                "name": "mule",
+                "artistic_description": "A shadowy figure in the dim background, the mule's dark coat absorbs the warm candlelight while occasional highlights glint off its damp flanks, creating a mysterious silhouette with deep umber and sienna tones",
+                "size": "Large",
+                "state": "standing patiently in shadow",
+                "primary_colors": [
+                    "deep umber",
+                    "warm sienna"
+                ],
+                "material": "fur and flesh"
+            },
+            {
+                "object_id": 9,
+                "name": "boat",
+                "artistic_description": "A miniature vessel rendered in rich mahogany, its polished hull reflects the tavern's golden light in rippling patterns, while delicate brass fittings catch bright sparks of flame, creating a jewel-like focal point",
+                "size": "Medium",
+                "state": "meticulously crafted and displayed",
+                "primary_colors": [
+                    "rich mahogany",
+                    "warm brass"
+                ],
+                "material": "wood and brass"
+            },
+            {
+                "object_id": 79,
+                "name": "comb",
+                "artistic_description": "An ivory comb with delicate carved ornamentation, its warm cream-colored teeth glow softly in the candlelight, casting intricate shadows through its openwork design while the polished surface holds a gentle amber luminescence",
+                "size": "Marginal",
+                "state": "elegant and well-preserved",
+                "primary_colors": [
+                    "warm ivory",
+                    "creamy amber"
+                ],
+                "material": "ivory"
+            }
+        ]
+    },
+    "composition": {
+        "spatial_relations": [
+            [
+                43,
+                "on",
+                9
+            ],
+            [
+                79,
+                "next to",
+                43
+            ],
+            [
+                18,
+                "behind",
+                9
+            ],
+            [
+                18,
+                "inside",
+                9
+            ]
+        ],
+        "semantic_relations": []
+    },
+    "environment": {
+        "environment_details": {
+            "scene_brief": "A Baroque tavern interior featuring fork, with mule in the background, boat model, and comb",
+            "place365_name": "/b/bar",
+            "place365_id": 39,
+            "time_of_day": "evening",
+            "weather": null,
+            "period": "Early modern",
+            "is_indoor": true,
+            "lighting": {
+                "type": "artificial",
+                "quality": "dramatic",
+                "direction": "side-lit",
+                "mood": "warm",
+                "reasoning": "To match the Baroque style, the lighting must be dramatic. Artificial light sources (candles, hearth) typical of an evening tavern provide high contrast (chiaroscuro). A side-lit setup illuminates the textures of the objects (wood, metal, fabric) and creates depth, while the warm color temperature evokes the intimate, slightly chaotic atmosphere of a historical tavern."
+            },
+            "atmosphere": "calm and relaxed and striking"
+        },
+        "scene_inference": {
+            "all_candidates": [
+                {
+                    "scene_type": "Baroque still life painting",
+                    "plausibility": 0.95,
+                    "reasoning": "A classic Baroque still life arrangement on a dark wooden table. The fork is a real utensil on a plate. The mule is a small carved wooden toy or decorative object. The boat is a miniature model. The comb is a decorative comb with an ornate handle.",
+                    "object_interpretations": {
+                        "fork": {
+                            "form": "real utensil",
+                            "scale": "normal",
+                            "role": "primary dining object"
+                        },
+                        "mule": {
+                            "form": "carved wooden toy",
+                            "scale": "miniature",
+                            "role": "decorative object"
+                        },
+                        "boat": {
+                            "form": "model ship",
+                            "scale": "miniature",
+                            "role": "decorative element"
+                        },
+                        "comb": {
+                            "form": "ornate decorative comb",
+                            "scale": "normal",
+                            "role": "personal accessory"
+                        }
+                    }
+                },
+                {
+                    "scene_type": "Baroque curiosity cabinet",
+                    "plausibility": 0.9,
+                    "reasoning": "A wealthy collector's cabinet of curiosities filled with exotic items. The fork is a silver ceremonial fork. The mule is a taxidermy specimen or bronze statue. The boat is a detailed model galleon. The comb is an ivory comb from a distant land.",
+                    "object_interpretations": {
+                        "fork": {
+                            "form": "silver ceremonial utensil",
+                            "scale": "normal",
+                            "role": "valuable artifact"
+                        },
+                        "mule": {
+                            "form": "bronze statue or taxidermy",
+                            "scale": "small to normal",
+                            "role": "exotic specimen"
+                        },
+                        "boat": {
+                            "form": "detailed model galleon",
+                            "scale": "miniature",
+                            "role": "nautical artifact"
+                        },
+                        "comb": {
+                            "form": "ivory comb",
+                            "scale": "normal",
+                            "role": "luxury item"
+                        }
+                    }
+                },
+                {
+                    "scene_type": "Baroque banquet hall",
+                    "plausibility": 0.85,
+                    "reasoning": "A grand dining hall with a lavish feast. The fork is on the table. The mule is a costumed performer or a small donkey statue as part of entertainment. The boat is a centerpiece centerpiece shaped like a ship. The comb is part of a lady's vanity set on the table.",
+                    "object_interpretations": {
+                        "fork": {
+                            "form": "dining utensil",
+                            "scale": "normal",
+                            "role": "eating implement"
+                        },
+                        "mule": {
+                            "form": "costumed performer or statue",
+                            "scale": "normal",
+                            "role": "entertainment/decoration"
+                        },
+                        "boat": {
+                            "form": "centerpiece sculpture",
+                            "scale": "large",
+                            "role": "table centerpiece"
+                        },
+                        "comb": {
+                            "form": "vanity comb",
+                            "scale": "normal",
+                            "role": "personal grooming item"
+                        }
+                    }
+                },
+                {
+                    "scene_type": "Baroque harbor scene painting",
+                    "plausibility": 0.8,
+                    "reasoning": "A painting of a bustling port with Baroque drama. The fork is a fishing tool on a dock. The mule is a pack animal carrying goods. The boat is a merchant ship in the harbor. The comb is a sailor's comb on a crate.",
+                    "object_interpretations": {
+                        "fork": {
+                            "form": "fishing tool",
+                            "scale": "normal",
+                            "role": "work implement"
+                        },
+                        "mule": {
+                            "form": "real pack animal",
+                            "scale": "normal",
+                            "role": "transportation"
+                        },
+                        "boat": {
+                            "form": "merchant ship",
+                            "scale": "large",
+                            "role": "primary vessel"
+                        },
+                        "comb": {
+                            "form": "wooden comb",
+                            "scale": "normal",
+                            "role": "personal item"
+                        }
+                    }
+                },
+                {
+                    "scene_type": "Baroque kitchen interior",
+                    "plausibility": 0.85,
+                    "reasoning": "A rustic but ornate kitchen with dramatic lighting. The fork is in a utensil holder. The mule is a small donkey statue on a shelf (kitchen mascot). The boat is a decorative wooden boat model. The comb is a cook's comb for hair.",
+                    "object_interpretations": {
+                        "fork": {
+                            "form": "kitchen utensil",
+                            "scale": "normal",
+                            "role": "cooking tool"
+                        },
+                        "mule": {
+                            "form": "decorative statue",
+                            "scale": "small",
+                            "role": "decoration"
+                        },
+                        "boat": {
+                            "form": "wooden model",
+                            "scale": "miniature",
+                            "role": "decoration"
+                        },
+                        "comb": {
+                            "form": "simple comb",
+                            "scale": "normal",
+                            "role": "personal item"
+                        }
+                    }
+                },
+                {
+                    "scene_type": "Baroque mythological tableau",
+                    "plausibility": 0.75,
+                    "reasoning": "A theatrical scene depicting a mythological story. The fork is Poseidon's trident (stylized). The mule is the beast of burden for a god. The boat is a mythological vessel. The comb is a magical item.",
+                    "object_interpretations": {
+                        "fork": {
+                            "form": "trident-like object",
+                            "scale": "large",
+                            "role": "weapon/tool"
+                        },
+                        "mule": {
+                            "form": "mythological creature",
+                            "scale": "normal",
+                            "role": "companion"
+                        },
+                        "boat": {
+                            "form": "mythical ship",
+                            "scale": "large",
+                            "role": "transport"
+                        },
+                        "comb": {
+                            "form": "ornate magical comb",
+                            "scale": "normal",
+                            "role": "artifact"
+                        }
+                    }
+                },
+                {
+                    "scene_type": "Baroque tavern interior",
+                    "plausibility": 0.85,
+                    "reasoning": "A lively tavern scene with patrons. The fork is on a wooden plate. The mule is a donkey waiting outside the window. The boat is a model ship hanging from the ceiling. The comb is on a table near a patron.",
+                    "object_interpretations": {
+                        "fork": {
+                            "form": "eating utensil",
+                            "scale": "normal",
+                            "role": "dining tool"
+                        },
+                        "mule": {
+                            "form": "real animal",
+                            "scale": "normal",
+                            "role": "background element"
+                        },
+                        "boat": {
+                            "form": "hanging model",
+                            "scale": "small",
+                            "role": "decoration"
+                        },
+                        "comb": {
+                            "form": "personal comb",
+                            "scale": "normal",
+                            "role": "accessory"
+                        }
+                    },
+                    "scene_brief": "A Baroque tavern interior featuring fork, with mule in the background, boat model, and comb"
+                },
+                {
+                    "scene_type": "Baroque vanity table",
+                    "plausibility": 0.8,
+                    "reasoning": "An ornate dressing table with many items. The fork is a silver fork for fruit. The mule is a small figurine. The boat is a perfume bottle shaped like a boat. The comb is the main vanity comb.",
+                    "object_interpretations": {
+                        "fork": {
+                            "form": "silver fruit fork",
+                            "scale": "small",
+                            "role": "serving utensil"
+                        },
+                        "mule": {
+                            "form": "figurine",
+                            "scale": "miniature",
+                            "role": "decoration"
+                        },
+                        "boat": {
+                            "form": "perfume bottle",
+                            "scale": "small",
+                            "role": "cosmetic container"
+                        },
+                        "comb": {
+                            "form": "ornate comb",
+                            "scale": "normal",
+                            "role": "primary grooming tool"
+                        }
+                    }
+                }
+            ],
+            "selected_scene": {
+                "scene_type": "Baroque tavern interior",
+                "plausibility": 0.85,
+                "reasoning": "A lively tavern scene with patrons. The fork is on a wooden plate. The mule is a donkey waiting outside the window. The boat is a model ship hanging from the ceiling. The comb is on a table near a patron.",
+                "object_interpretations": {
+                    "fork": {
+                        "form": "eating utensil",
+                        "scale": "normal",
+                        "role": "dining tool"
+                    },
+                    "mule": {
+                        "form": "real animal",
+                        "scale": "normal",
+                        "role": "background element"
+                    },
+                    "boat": {
+                        "form": "hanging model",
+                        "scale": "small",
+                        "role": "decoration"
+                    },
+                    "comb": {
+                        "form": "personal comb",
+                        "scale": "normal",
+                        "role": "accessory"
+                    }
+                },
+                "scene_brief": "A Baroque tavern interior featuring fork, with mule in the background, boat model, and comb"
+            }
+        }
+    },
+    "final_prompts": {
+        "main_prompt": "A Baroque painting depicting a meticulously crafted medium-sized boat of rich mahogany with warm brass accents, floating calmly on tranquil evening waters. On the boat's polished deck rests a small, aged fork of warm pewter and darkened silver, tarnished with gentle wear, and beside it lies an elegant, well-preserved comb of warm ivory and creamy amber. Behind and partially inside the boat stands a large mule in deep umber and warm sienna, patiently waiting in shadow. The scene is illuminated by artificial dramatic lighting that casts deep chiaroscuro contrasts, creating a striking yet calm and relaxed atmosphere where every texture\u2014from the wood and brass of the boat to the silver of the fork, the ivory of the comb, and the fur and flesh of the mule\u2014is rendered with Baroque opulence and detail.",
+        "negative_prompt": "photorealistic, 3d render, modern, digital art, photograph, low quality, blurry, distorted, cartoon, anime, abstract, surreal, futuristic, sci-fi, ugly, deformed, bad anatomy, watermark, signature, text",
+        "prompt_formats": {
+            "simple": "A Baroque painting of a boat with a fork and comb on deck and a mule behind it in dramatic evening light.",
+            "complex": "A Baroque painting depicting a meticulously crafted medium-sized boat of rich mahogany with warm brass accents, floating calmly on tranquil evening waters. On the boat's polished deck rests a small, aged fork of warm pewter and darkened silver, tarnished with gentle wear, and beside it lies an elegant, well-preserved comb of warm ivory and creamy amber. Behind and partially inside the boat stands a large mule in deep umber and warm sienna, patiently waiting in shadow. The scene is illuminated by artificial dramatic lighting that casts deep chiaroscuro contrasts, creating a striking yet calm and relaxed atmosphere where every texture\u2014from the wood and brass of the boat to the silver of the fork, the ivory of the comb, and the fur and flesh of the mule\u2014is rendered with Baroque opulence and detail.",
+            "comma_separated": "Baroque painting, boat, fork, comb, mule, mahogany wood, brass, pewter fork, ivory comb, umber mule, evening, artificial dramatic lighting, calm relaxed striking atmosphere, chiaroscuro, detailed textures, opulent",
+            "tags": "art, painting, Baroque, boat, fork, comb, mule, evening, dramatic lighting, chiaroscuro, calm atmosphere, detailed, textured, opulent"
+        }
+    }
+}

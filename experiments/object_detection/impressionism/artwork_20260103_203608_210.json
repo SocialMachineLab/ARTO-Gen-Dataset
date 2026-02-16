@@ -1,0 +1,367 @@
+{
+    "artwork_id": "artwork_20260103_203608_210",
+    "generation_timestamp": "2026-01-03T20:36:36.259476",
+    "style": "Impressionism",
+    "objects": {
+        "object_ids": [
+            48,
+            14,
+            35,
+            28,
+            42
+        ],
+        "object_names": [
+            "strawberry",
+            "swing",
+            "stick",
+            "tie",
+            "cup"
+        ],
+        "enhanced_objects": [
+            {
+                "object_id": 48,
+                "name": "strawberry",
+                "artistic_description": "Vibrant crimson berries glisten with morning dew, their surfaces catching soft natural light that reveals subtle variations from deep ruby to pale coral. The glossy skin reflects tiny specks of ambient light, while matte seeds create delicate textural contrast. Fresh green calyxes show crisp edges with tender yellow-green tones where light filters through the leafy crowns.",
+                "size": "Medium",
+                "state": "fresh and ripe",
+                "primary_colors": [
+                    "crimson",
+                    "coral"
+                ],
+                "material": "fruit"
+            },
+            {
+                "object_id": 14,
+                "name": "swing",
+                "artistic_description": "Weathered wooden planks in the background soften into impressionistic strokes of warm honey and muted taupe, their edges gently blurred by morning haze. Rope fibers catch scattered sunlight, creating loose white and cream dashes that suggest texture rather than define it. The seat shows patches of faded varnish that glow softly where direct light touches worn grain.",
+                "size": "Large",
+                "state": "weathered and aged",
+                "primary_colors": [
+                    "honey",
+                    "taupe"
+                ],
+                "material": "wood and rope"
+            },
+            {
+                "object_id": 35,
+                "name": "stick",
+                "artistic_description": "A slender branch rendered in loose, energetic strokes of umber and burnt sienna, its bark textured with quick dabs of shadow and light. Dry surface absorbs rather than reflects the morning glow, creating a matte appearance with subtle highlights along raised ridges. The tip shows a lighter, almost golden tone where sun catches exposed wood fibers.",
+                "size": "Small",
+                "state": "dry and weathered",
+                "primary_colors": [
+                    "umber",
+                    "burnt sienna"
+                ],
+                "material": "wood"
+            },
+            {
+                "object_id": 28,
+                "name": "tie",
+                "artistic_description": "Silk fabric catches natural window light in soft, diffused patches of deep navy and silvery blue, with loose brushstrokes suggesting a subtle sheen. The knot area gathers into richer shadows while the broader expanse shows gentle color shifts where fabric folds catch ambient brightness. Edges soften into the surrounding atmosphere, losing hard definition.",
+                "size": "Marginal",
+                "state": "draped and relaxed",
+                "primary_colors": [
+                    "navy",
+                    "silvery blue"
+                ],
+                "material": "silk"
+            },
+            {
+                "object_id": 42,
+                "name": "cup",
+                "artistic_description": "Ceramic surface glows with soft morning radiance, creamy white base tones warmed to pale butter where natural light strikes the curve. The interior catches a cool shadowed blue-gray, creating depth through contrast. Handle shows delicate variations from luminous highlights at its crest to gentle amber shadows in its curve, all rendered with soft, blended edges.",
+                "size": "Medium",
+                "state": "clean and polished",
+                "primary_colors": [
+                    "creamy white",
+                    "pale butter"
+                ],
+                "material": "ceramic"
+            }
+        ]
+    },
+    "composition": {
+        "spatial_relations": [
+            [
+                48,
+                "on",
+                42
+            ],
+            [
+                35,
+                "next to",
+                42
+            ],
+            [
+                28,
+                "on",
+                42
+            ],
+            [
+                14,
+                "behind",
+                42
+            ]
+        ],
+        "semantic_relations": []
+    },
+    "environment": {
+        "environment_details": {
+            "scene_brief": "A Rustic Kitchen featuring strawberry, with swing in the background, stick, tie, and cup",
+            "place365_name": "/k/kitchen",
+            "place365_id": 203,
+            "time_of_day": "morning",
+            "weather": "sunny",
+            "period": "Contemporary",
+            "is_indoor": true,
+            "lighting": {
+                "type": "natural",
+                "quality": "soft",
+                "direction": "side-lit",
+                "mood": "warm",
+                "reasoning": "Combining 'morning' time and 'sunny' weather results in natural lighting. 'Soft' light is preferred in Impressionism to capture subtle color variations. 'Side-lit' is chosen as it best illuminates the textures of a rustic interior and the objects (cup, stick) while creating depth, unlike flat front lighting."
+            },
+            "atmosphere": "fresh and energetic and cheerful and gentle"
+        },
+        "scene_inference": {
+            "all_candidates": [
+                {
+                    "scene_type": "Summer Picnic",
+                    "plausibility": 0.95,
+                    "reasoning": "A classic outdoor setting. The strawberry is the main food item. A swing is attached to a tree nearby. A stick is on the ground, perhaps used for a game. A cup holds a beverage, and a tie is draped over a branch or a picnic basket.",
+                    "object_interpretations": {
+                        "strawberry": {
+                            "form": "real fruit",
+                            "scale": "normal",
+                            "role": "primary food item"
+                        },
+                        "swing": {
+                            "form": "real swing",
+                            "scale": "normal",
+                            "role": "recreational object in background"
+                        },
+                        "stick": {
+                            "form": "real stick",
+                            "scale": "normal",
+                            "role": "natural debris on ground"
+                        },
+                        "tie": {
+                            "form": "real tie",
+                            "scale": "normal",
+                            "role": "clothing accessory on branch"
+                        },
+                        "cup": {
+                            "form": "real cup",
+                            "scale": "normal",
+                            "role": "beverage container"
+                        }
+                    }
+                },
+                {
+                    "scene_type": "Child's Playroom",
+                    "plausibility": 0.9,
+                    "reasoning": "A domestic scene where objects are toys or snacks. The strawberry is a snack. The swing is a small indoor toy. The stick and tie are playthings. The cup is a toy cup.",
+                    "object_interpretations": {
+                        "strawberry": {
+                            "form": "real fruit",
+                            "scale": "normal",
+                            "role": "snack"
+                        },
+                        "swing": {
+                            "form": "toy swing",
+                            "scale": "miniature",
+                            "role": "toy"
+                        },
+                        "stick": {
+                            "form": "toy stick",
+                            "scale": "miniature",
+                            "role": "toy accessory"
+                        },
+                        "tie": {
+                            "form": "toy tie",
+                            "scale": "miniature",
+                            "role": "doll accessory"
+                        },
+                        "cup": {
+                            "form": "toy cup",
+                            "scale": "miniature",
+                            "role": "toy"
+                        }
+                    }
+                },
+                {
+                    "scene_type": "Art Studio",
+                    "plausibility": 0.85,
+                    "reasoning": "A still life arrangement on a table. The strawberry is the focal point. The swing might be a small model. The stick is a prop. The tie is draped fabric. The cup is a vessel.",
+                    "object_interpretations": {
+                        "strawberry": {
+                            "form": "real fruit",
+                            "scale": "normal",
+                            "role": "still life subject"
+                        },
+                        "swing": {
+                            "form": "model swing",
+                            "scale": "small",
+                            "role": "decorative prop"
+                        },
+                        "stick": {
+                            "form": "real stick",
+                            "scale": "normal",
+                            "role": "textural prop"
+                        },
+                        "tie": {
+                            "form": "real tie",
+                            "scale": "normal",
+                            "role": "fabric prop"
+                        },
+                        "cup": {
+                            "form": "real cup",
+                            "scale": "normal",
+                            "role": "vessel prop"
+                        }
+                    }
+                },
+                {
+                    "scene_type": "Vintage Garden Party",
+                    "plausibility": 0.8,
+                    "reasoning": "An elegant outdoor gathering. Strawberry shortcake is served (strawberry). A swing is part of the garden decor. A stick might be part of a game like croquet. A tie is part of a guest's attire. A cup is part of the tea set.",
+                    "object_interpretations": {
+                        "strawberry": {
+                            "form": "real fruit",
+                            "scale": "normal",
+                            "role": "dessert ingredient"
+                        },
+                        "swing": {
+                            "form": "garden swing",
+                            "scale": "large",
+                            "role": "garden furniture"
+                        },
+                        "stick": {
+                            "form": "croquet mallet handle",
+                            "scale": "normal",
+                            "role": "game equipment"
+                        },
+                        "tie": {
+                            "form": "bow tie",
+                            "scale": "normal",
+                            "role": "fashion accessory"
+                        },
+                        "cup": {
+                            "form": "teacup",
+                            "scale": "normal",
+                            "role": "tableware"
+                        }
+                    }
+                },
+                {
+                    "scene_type": "Rustic Kitchen",
+                    "plausibility": 0.9,
+                    "reasoning": "A cozy indoor setting. Fresh strawberries in a bowl. A swing might be visible through the window. A stick is firewood. A tie is hanging on a hook. A cup is on the table.",
+                    "object_interpretations": {
+                        "strawberry": {
+                            "form": "real fruit",
+                            "scale": "normal",
+                            "role": "produce"
+                        },
+                        "swing": {
+                            "form": "real swing",
+                            "scale": "normal",
+                            "role": "background view through window"
+                        },
+                        "stick": {
+                            "form": "firewood stick",
+                            "scale": "normal",
+                            "role": "fuel"
+                        },
+                        "tie": {
+                            "form": "apron tie",
+                            "scale": "normal",
+                            "role": "clothing accessory"
+                        },
+                        "cup": {
+                            "form": "mug",
+                            "scale": "normal",
+                            "role": "drinkware"
+                        }
+                    },
+                    "scene_brief": "A Rustic Kitchen featuring strawberry, with swing in the background, stick, tie, and cup"
+                },
+                {
+                    "scene_type": "Abstract Composition",
+                    "plausibility": 0.7,
+                    "reasoning": "Using the Impressionism style, shapes blend. The strawberry is a red blur. The swing is suggested by curved lines. The stick is a straight stroke. The tie is a loop of color. The cup is a cylindrical form.",
+                    "object_interpretations": {
+                        "strawberry": {
+                            "form": "abstract shape",
+                            "scale": "variable",
+                            "role": "color accent"
+                        },
+                        "swing": {
+                            "form": "abstract lines",
+                            "scale": "variable",
+                            "role": "structural element"
+                        },
+                        "stick": {
+                            "form": "linear stroke",
+                            "scale": "variable",
+                            "role": "linear accent"
+                        },
+                        "tie": {
+                            "form": "curved shape",
+                            "scale": "variable",
+                            "role": "form element"
+                        },
+                        "cup": {
+                            "form": "geometric shape",
+                            "scale": "variable",
+                            "role": "volume element"
+                        }
+                    }
+                }
+            ],
+            "selected_scene": {
+                "scene_type": "Rustic Kitchen",
+                "plausibility": 0.9,
+                "reasoning": "A cozy indoor setting. Fresh strawberries in a bowl. A swing might be visible through the window. A stick is firewood. A tie is hanging on a hook. A cup is on the table.",
+                "object_interpretations": {
+                    "strawberry": {
+                        "form": "real fruit",
+                        "scale": "normal",
+                        "role": "produce"
+                    },
+                    "swing": {
+                        "form": "real swing",
+                        "scale": "normal",
+                        "role": "background view through window"
+                    },
+                    "stick": {
+                        "form": "firewood stick",
+                        "scale": "normal",
+                        "role": "fuel"
+                    },
+                    "tie": {
+                        "form": "apron tie",
+                        "scale": "normal",
+                        "role": "clothing accessory"
+                    },
+                    "cup": {
+                        "form": "mug",
+                        "scale": "normal",
+                        "role": "drinkware"
+                    }
+                },
+                "scene_brief": "A Rustic Kitchen featuring strawberry, with swing in the background, stick, tie, and cup"
+            }
+        }
+    },
+    "final_prompts": {
+        "main_prompt": "A Impressionism painting depicting a cheerful morning scene with soft natural light filtering through. In the foreground, a medium-sized creamy white ceramic cup sits polished and clean, with a fresh crimson strawberry resting atop its rim and a navy silk tie draped loosely over its side. Beside the cup lies a small dry stick in umber tones. In the midground, a large weathered wooden swing in honey and taupe hues hangs gently behind the cup, its ropes slightly swaying. The atmosphere is fresh, energetic, and gentle, with dappled morning light creating vibrant brushstrokes of color and movement across the composition.",
+        "negative_prompt": "photorealistic, 3d render, modern, digital art, photograph, low quality, blurry, distorted, ugly, deformed, cartoon, anime, text, watermark, signature, frame, border, oversaturated, dark, gloomy, night",
+        "prompt_formats": {
+            "simple": "An Impressionist painting of a strawberry on a cup with a tie draped over it, a stick beside it, and a swing behind in soft morning light.",
+            "complex": "A Impressionism painting depicting a cheerful morning scene with soft natural light filtering through. In the foreground, a medium-sized creamy white ceramic cup sits polished and clean, with a fresh crimson strawberry resting atop its rim and a navy silk tie draped loosely over its side. Beside the cup lies a small dry stick in umber tones. In the midground, a large weathered wooden swing in honey and taupe hues hangs gently behind the cup, its ropes slightly swaying. The atmosphere is fresh, energetic, and gentle, with dappled morning light creating vibrant brushstrokes of color and movement across the composition.",
+            "comma_separated": "Impressionism painting, morning scene, soft natural light, strawberry on cup, tie draped on cup, stick beside cup, swing behind cup, fresh atmosphere, energetic, cheerful, gentle, vibrant brushstrokes, dappled light, ceramic cup, wooden swing, silk tie",
+            "tags": "art, painting, impressionism, still life, morning light, soft lighting, fresh atmosphere, cheerful, energetic, gentle, strawberry, cup, tie, stick, swing, ceramic, wood, silk, fruit, composition, brushstrokes, color vibrancy"
+        }
+    }
+}

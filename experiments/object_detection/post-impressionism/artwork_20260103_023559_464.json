@@ -1,0 +1,303 @@
+{
+    "artwork_id": "artwork_20260103_023559_464",
+    "generation_timestamp": "2026-01-03T02:36:43.967362",
+    "style": "Post-Impressionism",
+    "objects": {
+        "object_ids": [
+            61,
+            40,
+            58
+        ],
+        "object_names": [
+            "table",
+            "bottle",
+            "blanket"
+        ],
+        "enhanced_objects": [
+            {
+                "object_id": 61,
+                "name": "table",
+                "artistic_description": "Angular wooden surface bathed in brilliant afternoon sunlight streaming through the window, casting sharp geometric shadows across its top. The warm natural light intensifies the honey-brown grain of the wood, creating bold patches of amber and ochre where direct light hits, while cooler shadows in the corners deepen to rich umber. The varnish catches glints of light, creating small explosions of white highlights against the saturated wood tones.",
+                "size": "Large",
+                "state": "clean and polished, contemporary finish",
+                "primary_colors": [
+                    "amber",
+                    "ochre"
+                ],
+                "material": "wood"
+            },
+            {
+                "object_id": 40,
+                "name": "bottle",
+                "artistic_description": "Translucent glass vessel standing in a pool of concentrated sunlight, transforming into a prism of refracted color. The clear glass glows with intense emerald and sapphire tones where the light passes through its curved surface, while the opposite side shows deep violet shadows. The liquid inside catches and magnifies the light, creating a luminous core of pure white brilliance that bleeds into jewel-toned edges. Tiny bubbles and imperfections scatter light into miniature rainbows across the table.",
+                "size": "Small",
+                "state": "filled with clear liquid, pristine condition",
+                "primary_colors": [
+                    "emerald",
+                    "sapphire"
+                ],
+                "material": "glass"
+            },
+            {
+                "object_id": 58,
+                "name": "blanket",
+                "artistic_description": "Soft textile surface rendered in thick, visible brushstrokes of pure color. Where sunlight strikes the folds directly, the fabric blooms into intense cadmium yellow and coral, with the pile catching light like a halo. The valleys between folds plunge into cool cerulean and violet shadows, creating a dramatic interplay of warm and cool tones. The textured weave creates a mosaic of tiny color variations, with each thread reflecting light differently, giving the surface a vibrating, almost living quality.",
+                "size": "Medium",
+                "state": "lightly rumpled from use, soft texture",
+                "primary_colors": [
+                    "cadmium yellow",
+                    "cerulean"
+                ],
+                "material": "fabric"
+            }
+        ]
+    },
+    "composition": {
+        "spatial_relations": [
+            [
+                40,
+                "on",
+                61
+            ],
+            [
+                58,
+                "on",
+                61
+            ]
+        ],
+        "semantic_relations": []
+    },
+    "environment": {
+        "environment_details": {
+            "scene_brief": "A bedroom featuring table, with bottle, and blanket",
+            "place365_name": "/b/bedroom",
+            "place365_id": 52,
+            "time_of_day": "afternoon",
+            "weather": "sunny",
+            "period": "Contemporary",
+            "is_indoor": true,
+            "lighting": {
+                "type": "natural",
+                "quality": "harsh",
+                "direction": "side-lit",
+                "mood": "warm",
+                "reasoning": "Natural light from a sunny afternoon is strong and directional (side-lit through a window), creating harsh contrasts and deep shadows. This dramatic lighting amplifies the emotional resonance and structural form, key to Post-Impressionist style, while the warm mood complements the intimate setting."
+            },
+            "atmosphere": "bright and active and cheerful"
+        },
+        "scene_inference": {
+            "all_candidates": [
+                {
+                    "scene_type": "rustic dining room",
+                    "plausibility": 0.95,
+                    "reasoning": "A sturdy wooden table serves as the central dining surface. A bottle of wine sits ready for a meal, and a blanket is draped over a nearby chair, ready for a chilly evening or a post-dinner nap.",
+                    "object_interpretations": {
+                        "table": {
+                            "form": "real furniture",
+                            "scale": "normal",
+                            "role": "primary functional object"
+                        },
+                        "bottle": {
+                            "form": "real glass bottle",
+                            "scale": "normal",
+                            "role": "secondary dining accessory"
+                        },
+                        "blanket": {
+                            "form": "real woven blanket",
+                            "scale": "normal",
+                            "role": "decorative/functional element"
+                        }
+                    }
+                },
+                {
+                    "scene_type": "cozy living room",
+                    "plausibility": 0.9,
+                    "reasoning": "A coffee table anchors the seating area. A decorative bottle sits on a book or coaster, and a soft blanket is folded or thrown over the back of a sofa adjacent to the table.",
+                    "object_interpretations": {
+                        "table": {
+                            "form": "real furniture",
+                            "scale": "normal",
+                            "role": "primary furniture"
+                        },
+                        "bottle": {
+                            "form": "ornamental vase or decanter",
+                            "scale": "normal",
+                            "role": "decorative object"
+                        },
+                        "blanket": {
+                            "form": "knitted throw",
+                            "scale": "normal",
+                            "role": "comfort item"
+                        }
+                    }
+                },
+                {
+                    "scene_type": "bedroom",
+                    "plausibility": 0.85,
+                    "reasoning": "A bedside table holds a water bottle on its surface. A folded blanket sits on the foot of the bed, visually connected to the table area.",
+                    "object_interpretations": {
+                        "table": {
+                            "form": "real furniture",
+                            "scale": "normal",
+                            "role": "secondary furniture"
+                        },
+                        "bottle": {
+                            "form": "plastic water bottle",
+                            "scale": "normal",
+                            "role": "personal item"
+                        },
+                        "blanket": {
+                            "form": "quilt",
+                            "scale": "normal",
+                            "role": "bedding"
+                        }
+                    },
+                    "scene_brief": "A bedroom featuring table, with bottle, and blanket"
+                },
+                {
+                    "scene_type": "outdoor picnic",
+                    "plausibility": 0.9,
+                    "reasoning": "A picnic table is set up on the grass. A bottle of lemonade sits on the table, and a picnic blanket is spread out underneath or draped over the bench.",
+                    "object_interpretations": {
+                        "table": {
+                            "form": "picnic table",
+                            "scale": "large",
+                            "role": "primary outdoor furniture"
+                        },
+                        "bottle": {
+                            "form": "glass beverage bottle",
+                            "scale": "normal",
+                            "role": "food/drink item"
+                        },
+                        "blanket": {
+                            "form": "checkered cloth",
+                            "scale": "large",
+                            "role": "ground cover"
+                        }
+                    }
+                },
+                {
+                    "scene_type": "art studio",
+                    "plausibility": 0.8,
+                    "reasoning": "A work table is cluttered with supplies. A bottle of ink or solvent sits among the tools, and a drop cloth (blanket) is draped over the table to protect it or draped over a drying rack.",
+                    "object_interpretations": {
+                        "table": {
+                            "form": "workbench",
+                            "scale": "normal",
+                            "role": "primary work surface"
+                        },
+                        "bottle": {
+                            "form": "chemical bottle",
+                            "scale": "normal",
+                            "role": "art supply"
+                        },
+                        "blanket": {
+                            "form": "canvas drop cloth",
+                            "scale": "normal",
+                            "role": "protective covering"
+                        }
+                    }
+                },
+                {
+                    "scene_type": "vintage tavern",
+                    "plausibility": 0.85,
+                    "reasoning": "A heavy oak table dominates the room. A bottle of ale sits on a coaster, and a thick wool blanket hangs from a hook on the wall behind the table.",
+                    "object_interpretations": {
+                        "table": {
+                            "form": "heavy wooden table",
+                            "scale": "normal",
+                            "role": "primary furniture"
+                        },
+                        "bottle": {
+                            "form": "brown glass bottle",
+                            "scale": "normal",
+                            "role": "beverage"
+                        },
+                        "blanket": {
+                            "form": "heavy wool cloak",
+                            "scale": "normal",
+                            "role": "wall decoration"
+                        }
+                    }
+                },
+                {
+                    "scene_type": "winter cabin",
+                    "plausibility": 0.9,
+                    "reasoning": "A central table holds a bottle of spirits. A heavy fur blanket is draped over a rocking chair next to the table, adding to the warm, insulated atmosphere.",
+                    "object_interpretations": {
+                        "table": {
+                            "form": "log furniture",
+                            "scale": "normal",
+                            "role": "central furniture"
+                        },
+                        "bottle": {
+                            "form": "liquor bottle",
+                            "scale": "normal",
+                            "role": "warming drink"
+                        },
+                        "blanket": {
+                            "form": "faux fur throw",
+                            "scale": "normal",
+                            "role": "warmth accessory"
+                        }
+                    }
+                },
+                {
+                    "scene_type": "bedside table (macro view)",
+                    "plausibility": 0.75,
+                    "reasoning": "A close-up view of a small table. A pill bottle sits next to a folded handkerchief (interpreted as a small blanket), emphasizing texture and light in a Post-Impressionist style.",
+                    "object_interpretations": {
+                        "table": {
+                            "form": "small nightstand",
+                            "scale": "normal",
+                            "role": "surface"
+                        },
+                        "bottle": {
+                            "form": "medicine bottle",
+                            "scale": "normal",
+                            "role": "medical item"
+                        },
+                        "blanket": {
+                            "form": "linen cloth",
+                            "scale": "small",
+                            "role": "textural element"
+                        }
+                    }
+                }
+            ],
+            "selected_scene": {
+                "scene_type": "bedroom",
+                "plausibility": 0.85,
+                "reasoning": "A bedside table holds a water bottle on its surface. A folded blanket sits on the foot of the bed, visually connected to the table area.",
+                "object_interpretations": {
+                    "table": {
+                        "form": "real furniture",
+                        "scale": "normal",
+                        "role": "secondary furniture"
+                    },
+                    "bottle": {
+                        "form": "plastic water bottle",
+                        "scale": "normal",
+                        "role": "personal item"
+                    },
+                    "blanket": {
+                        "form": "quilt",
+                        "scale": "normal",
+                        "role": "bedding"
+                    }
+                },
+                "scene_brief": "A bedroom featuring table, with bottle, and blanket"
+            }
+        }
+    },
+    "final_prompts": {
+        "main_prompt": "A Post-Impressionism painting depicting a bright and cheerful afternoon interior scene with harsh natural light streaming through a window. In the foreground, a large, clean and polished wooden table in rich amber and ochre tones dominates the composition. Sitting atop the table's surface is a small emerald and sapphire glass bottle filled with clear liquid, its facets catching the afternoon light. Beside the bottle lies a medium-sized blanket in vibrant cadmium yellow and cerulean fabric, lightly rumpled from recent use, its folds creating dynamic patterns of color and shadow. The spatial arrangement creates a harmonious balance, with the bottle and blanket positioned as focal points on the expansive table surface. The harsh afternoon lighting creates strong contrasts and deep shadows, while the overall atmosphere feels active and cheerful, with visible brushstrokes and expressive color application characteristic of Post-Impressionist technique.",
+        "negative_prompt": "photorealistic, 3d render, modern, digital art, photograph, low quality, blurry, distorted, surreal, abstract, cartoon, anime, watercolor, sketch, pencil drawing, monochrome, grayscale, dark, gloomy, night scene, foggy, rainy, snow",
+        "prompt_formats": {
+            "simple": "A Post-Impressionism painting of a table with a bottle and blanket in cheerful afternoon light.",
+            "complex": "A Post-Impressionism painting depicting a bright and cheerful afternoon interior scene with harsh natural light streaming through a window. In the foreground, a large, clean and polished wooden table in rich amber and ochre tones dominates the composition. Sitting atop the table's surface is a small emerald and sapphire glass bottle filled with clear liquid, its facets catching the afternoon light. Beside the bottle lies a medium-sized blanket in vibrant cadmium yellow and cerulean fabric, lightly rumpled from recent use, its folds creating dynamic patterns of color and shadow. The spatial arrangement creates a harmonious balance, with the bottle and blanket positioned as focal points on the expansive table surface. The harsh afternoon lighting creates strong contrasts and deep shadows, while the overall atmosphere feels active and cheerful, with visible brushstrokes and expressive color application characteristic of Post-Impressionist technique.",
+            "comma_separated": "Post-Impressionism painting, large amber ochre wooden table, small emerald sapphire glass bottle, medium cadmium yellow cerulean fabric blanket, bottle on table, blanket on table, harsh natural afternoon lighting, bright cheerful active atmosphere, visible brushstrokes, expressive colors, interior scene",
+            "tags": "art, painting, post-impressionism, still life, interior, table, bottle, blanket, afternoon light, cheerful, vibrant colors, expressive brushwork, van gogh style, paul c\u00e9zanne influence"
+        }
+    }
+}

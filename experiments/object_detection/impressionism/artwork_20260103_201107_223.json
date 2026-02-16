@@ -1,0 +1,367 @@
+{
+    "artwork_id": "artwork_20260103_201107_223",
+    "generation_timestamp": "2026-01-03T20:11:42.042514",
+    "style": "Impressionism",
+    "objects": {
+        "object_ids": [
+            59,
+            48,
+            5,
+            2
+        ],
+        "object_names": [
+            "violet",
+            "strawberry",
+            "airship",
+            "wheel"
+        ],
+        "enhanced_objects": [
+            {
+                "object_id": 59,
+                "name": "violet",
+                "artistic_description": "Delicate petals rendered in soft, luminous purples that shift from deep amethyst to pale lavender under the warm sunset glow. The flower appears almost translucent, with edges softened by the enveloping fog. Moisture clings to the velvety petals, creating subtle highlights that catch the golden light. The impressionistic brushwork suggests rather than defines each petal, creating a dreamy, ethereal quality.",
+                "size": "Small",
+                "state": "fresh and vibrant, slightly dewy from the foggy atmosphere",
+                "primary_colors": [
+                    "amethyst",
+                    "lavender"
+                ],
+                "material": "organic"
+            },
+            {
+                "object_id": 48,
+                "name": "strawberry",
+                "artistic_description": "A luscious berry glowing with deep crimson and ruby tones, its surface glossy with moisture from the fog. The impressionistic treatment uses loose, vibrant strokes to capture the fruit's plump form, with flecks of golden sunset light dancing across its textured skin. The tiny seeds catch the light as scattered points of brightness. The overall appearance is rich and succulent, with colors bleeding softly into the surrounding atmosphere.",
+                "size": "Medium",
+                "state": "ripe and glistening with condensation",
+                "primary_colors": [
+                    "crimson",
+                    "ruby"
+                ],
+                "material": "organic"
+            },
+            {
+                "object_id": 5,
+                "name": "airship",
+                "artistic_description": "A majestic vessel rendered in warm, muted tones of bronze and cream, its envelope catching the sunset's golden rays through the misty veil. The impressionistic style dissolves hard edges into soft, atmospheric blends, with the metallic gondola reflecting warm amber highlights. The fog partially obscures the structure, creating a ghostly, dreamlike appearance where form and color merge seamlessly.",
+                "size": "Dominant",
+                "state": "floating serenely, weathered by contemporary use",
+                "primary_colors": [
+                    "bronze",
+                    "cream"
+                ],
+                "material": "fabric and metal"
+            },
+            {
+                "object_id": 2,
+                "name": "wheel",
+                "artistic_description": "A weathered wooden wheel with warm umber and sienna tones, its surface aged and textured. The impressionistic brushwork captures the play of light and shadow across the curved spokes, with golden sunset highlights glinting off areas where moisture has collected. The rim shows subtle wear, with the wood grain suggested through loose, expressive strokes. The fog creates a soft halo effect around the object, muting its contrast.",
+                "size": "Large",
+                "state": "weathered and aged, bearing marks of contemporary use",
+                "primary_colors": [
+                    "umber",
+                    "sienna"
+                ],
+                "material": "wood"
+            }
+        ]
+    },
+    "composition": {
+        "spatial_relations": [
+            [
+                48,
+                "under",
+                5
+            ],
+            [
+                59,
+                "next to",
+                48
+            ],
+            [
+                2,
+                "behind",
+                59
+            ]
+        ],
+        "semantic_relations": []
+    },
+    "environment": {
+        "environment_details": {
+            "scene_brief": "A Surreal Dreamscape featuring violet, with strawberry, airship, and wheel",
+            "place365_name": "/f/field/wild",
+            "place365_id": 141,
+            "time_of_day": "sunset",
+            "weather": "foggy",
+            "period": "Contemporary",
+            "is_indoor": false,
+            "lighting": {
+                "type": "natural",
+                "quality": "soft",
+                "direction": "side-lit",
+                "mood": "warm",
+                "reasoning": "Natural lighting from the sunset, filtered by fog, creates soft, diffused light that is characteristic of Impressionism, avoiding harsh shadows. Side-lighting adds depth to the open field and objects like the airship and wheel, while the warm mood aligns with the sunset's golden-violet palette, evoking a dreamy, nostalgic emotion."
+            },
+            "atmosphere": "warm and peaceful and mysterious and gentle"
+        },
+        "scene_inference": {
+            "all_candidates": [
+                {
+                    "scene_type": "Impressionist Garden",
+                    "plausibility": 0.95,
+                    "reasoning": "A garden setting naturally hosts violets and strawberries. An airship can be a distant, dreamlike element in the sky, and a wheel could be part of a garden cart or a decorative element, fitting the Impressionist style of capturing light and atmosphere.",
+                    "object_interpretations": {
+                        "violet": {
+                            "form": "real flower",
+                            "scale": "normal",
+                            "role": "primary natural element"
+                        },
+                        "strawberry": {
+                            "form": "real fruit",
+                            "scale": "normal",
+                            "role": "secondary natural element (garden produce)"
+                        },
+                        "airship": {
+                            "form": "distant object",
+                            "scale": "small (far away)",
+                            "role": "atmospheric background element"
+                        },
+                        "wheel": {
+                            "form": "rustic wheel",
+                            "scale": "normal",
+                            "role": "part of a garden cart or decorative object"
+                        }
+                    }
+                },
+                {
+                    "scene_type": "Vintage Market Stall",
+                    "plausibility": 0.9,
+                    "reasoning": "A market scene can feature strawberries for sale and violets as decoration. An airship model could be a novelty item, and a wheel might be part of the stall's structure or a nearby cart.",
+                    "object_interpretations": {
+                        "violet": {
+                            "form": "bouquet",
+                            "scale": "normal",
+                            "role": "decorative item for sale"
+                        },
+                        "strawberry": {
+                            "form": "basket of fruit",
+                            "scale": "normal",
+                            "role": "primary product for sale"
+                        },
+                        "airship": {
+                            "form": "model airship",
+                            "scale": "miniature",
+                            "role": "decoration or novelty item"
+                        },
+                        "wheel": {
+                            "form": "wooden wheel",
+                            "scale": "normal",
+                            "role": "structural part of the stall or cart"
+                        }
+                    }
+                },
+                {
+                    "scene_type": "Art Studio",
+                    "plausibility": 0.85,
+                    "reasoning": "An artist's studio might have violets and strawberries as still life subjects. An airship model and a wheel could be props or parts of a collage, fitting the creative and slightly chaotic nature of an art studio.",
+                    "object_interpretations": {
+                        "violet": {
+                            "form": "potted plant",
+                            "scale": "normal",
+                            "role": "still life subject"
+                        },
+                        "strawberry": {
+                            "form": "fruit bowl",
+                            "scale": "normal",
+                            "role": "still life subject"
+                        },
+                        "airship": {
+                            "form": "toy model",
+                            "scale": "miniature",
+                            "role": "studio prop"
+                        },
+                        "wheel": {
+                            "form": "small wheel",
+                            "scale": "miniature",
+                            "role": "studio prop"
+                        }
+                    }
+                },
+                {
+                    "scene_type": "Whimsical Child's Playroom",
+                    "plausibility": 0.8,
+                    "reasoning": "A playroom can have toy versions of all objects. A toy airship, a toy wheel, plastic strawberries, and a violet picture or sticker on the wall can coexist easily.",
+                    "object_interpretations": {
+                        "violet": {
+                            "form": "stuffed toy or picture",
+                            "scale": "small",
+                            "role": "decorative element"
+                        },
+                        "strawberry": {
+                            "form": "plastic toy fruit",
+                            "scale": "small",
+                            "role": "play object"
+                        },
+                        "airship": {
+                            "form": "toy airship",
+                            "scale": "small",
+                            "role": "play object"
+                        },
+                        "wheel": {
+                            "form": "toy wheel",
+                            "scale": "small",
+                            "role": "part of a toy vehicle"
+                        }
+                    }
+                },
+                {
+                    "scene_type": "Surreal Dreamscape",
+                    "plausibility": 0.75,
+                    "reasoning": "In an Impressionist/Surreal style, logic is fluid. A giant violet could be the landscape, strawberries could float in the air, an airship could sail through clouds, and a wheel could be a celestial body.",
+                    "object_interpretations": {
+                        "violet": {
+                            "form": "giant flower",
+                            "scale": "massive",
+                            "role": "landscape element"
+                        },
+                        "strawberry": {
+                            "form": "floating fruit",
+                            "scale": "large",
+                            "role": "atmospheric element"
+                        },
+                        "airship": {
+                            "form": "real airship",
+                            "scale": "normal",
+                            "role": "traveler in the sky"
+                        },
+                        "wheel": {
+                            "form": "floating wheel",
+                            "scale": "large",
+                            "role": "abstract shape in the sky"
+                        }
+                    },
+                    "scene_brief": "A Surreal Dreamscape featuring violet, with strawberry, airship, and wheel"
+                },
+                {
+                    "scene_type": "Vintage Picnic",
+                    "plausibility": 0.9,
+                    "reasoning": "A picnic scene naturally includes strawberries. Violets can be in a vase or nearby. An airship can be seen in the distance, and a wheel could be from a picnic basket or a nearby bicycle.",
+                    "object_interpretations": {
+                        "violet": {
+                            "form": "wildflowers",
+                            "scale": "normal",
+                            "role": "decorative element on the table"
+                        },
+                        "strawberry": {
+                            "form": "fresh fruit",
+                            "scale": "normal",
+                            "role": "food"
+                        },
+                        "airship": {
+                            "form": "distant airship",
+                            "scale": "small",
+                            "role": "background scenery"
+                        },
+                        "wheel": {
+                            "form": "bicycle wheel",
+                            "scale": "normal",
+                            "role": "part of transportation"
+                        }
+                    }
+                },
+                {
+                    "scene_type": "Botanical Observatory",
+                    "plausibility": 0.85,
+                    "reasoning": "A place that combines botany and travel. Violets are in the garden, strawberries in the greenhouse, and an airship is docked nearby. A wheel could be part of the airship or a trolley.",
+                    "object_interpretations": {
+                        "violet": {
+                            "form": "specimen plant",
+                            "scale": "normal",
+                            "role": "botanical subject"
+                        },
+                        "strawberry": {
+                            "form": "cultivated plant",
+                            "scale": "normal",
+                            "role": "botanical subject"
+                        },
+                        "airship": {
+                            "form": "moored airship",
+                            "scale": "large",
+                            "role": "transportation/exploration"
+                        },
+                        "wheel": {
+                            "form": "landing gear wheel",
+                            "scale": "large",
+                            "role": "part of the airship"
+                        }
+                    }
+                },
+                {
+                    "scene_type": "Abstract Composition",
+                    "plausibility": 0.7,
+                    "reasoning": "In pure Impressionism, shapes and colors dominate. A violet's purple, strawberry's red, airship's metallic sheen, and wheel's circular shape can form a cohesive abstract composition.",
+                    "object_interpretations": {
+                        "violet": {
+                            "form": "color shape",
+                            "scale": "abstract",
+                            "role": "color field"
+                        },
+                        "strawberry": {
+                            "form": "red shape",
+                            "scale": "abstract",
+                            "role": "accent color"
+                        },
+                        "airship": {
+                            "form": "elongated shape",
+                            "scale": "abstract",
+                            "role": "linear element"
+                        },
+                        "wheel": {
+                            "form": "circular shape",
+                            "scale": "abstract",
+                            "role": "geometric element"
+                        }
+                    }
+                }
+            ],
+            "selected_scene": {
+                "scene_type": "Surreal Dreamscape",
+                "plausibility": 0.75,
+                "reasoning": "In an Impressionist/Surreal style, logic is fluid. A giant violet could be the landscape, strawberries could float in the air, an airship could sail through clouds, and a wheel could be a celestial body.",
+                "object_interpretations": {
+                    "violet": {
+                        "form": "giant flower",
+                        "scale": "massive",
+                        "role": "landscape element"
+                    },
+                    "strawberry": {
+                        "form": "floating fruit",
+                        "scale": "large",
+                        "role": "atmospheric element"
+                    },
+                    "airship": {
+                        "form": "real airship",
+                        "scale": "normal",
+                        "role": "traveler in the sky"
+                    },
+                    "wheel": {
+                        "form": "floating wheel",
+                        "scale": "large",
+                        "role": "abstract shape in the sky"
+                    }
+                },
+                "scene_brief": "A Surreal Dreamscape featuring violet, with strawberry, airship, and wheel"
+            }
+        }
+    },
+    "final_prompts": {
+        "main_prompt": "A Impressionism painting depicting a warm sunset scene with a gentle, mysterious atmosphere. In the foreground, a medium-sized, ripe strawberry glistens with condensation in its crimson and ruby hues, positioned directly beneath a dominant bronze and cream airship that floats serenely above. Beside the strawberry, a small, fresh violet in vibrant amethyst and lavender tones adds organic contrast. Further back in the midground, a large, weathered wheel in umber and sienna shades stands behind the violet, its aged wood and metal textures softened by the natural, soft lighting of dusk. The entire composition is bathed in the peaceful glow of sunset, with loose, visible brushstrokes capturing the interplay of light and shadow across the organic and fabricated materials, creating a cohesive yet dreamlike arrangement where each element\u2014from the floating airship to the grounded strawberry and violet\u2014contributes to the scene's warm, gentle, and subtly mysterious mood.",
+        "negative_prompt": "photorealistic, 3d render, modern, digital art, photograph, low quality, blurry, distorted, oversaturated, cartoon, anime, text, watermark, signature, frame, border, ugly, deformed, noisy",
+        "prompt_formats": {
+            "simple": "An Impressionist sunset scene with a floating bronze airship above a glistening strawberry, a vibrant violet beside it, and a weathered wheel behind, all in soft, warm lighting.",
+            "complex": "A Impressionism painting depicting a warm sunset scene with a gentle, mysterious atmosphere. In the foreground, a medium-sized, ripe strawberry glistens with condensation in its crimson and ruby hues, positioned directly beneath a dominant bronze and cream airship that floats serenely above. Beside the strawberry, a small, fresh violet in vibrant amethyst and lavender tones adds organic contrast. Further back in the midground, a large, weathered wheel in umber and sienna shades stands behind the violet, its aged wood and metal textures softened by the natural, soft lighting of dusk. The entire composition is bathed in the peaceful glow of sunset, with loose, visible brushstrokes capturing the interplay of light and shadow across the organic and fabricated materials, creating a cohesive yet dreamlike arrangement where each element\u2014from the floating airship to the grounded strawberry and violet\u2014contributes to the scene's warm, gentle, and subtly mysterious mood.",
+            "comma_separated": "Impressionism painting, sunset, warm lighting, peaceful mysterious atmosphere, bronze cream airship floating above, crimson ruby strawberry glistening with condensation, amethyst lavender violet fresh vibrant, umber sienna wheel weathered aged, soft natural light, organic and metal textures, loose brushstrokes, dreamlike composition",
+            "tags": "art, painting, impressionism, sunset, airship, strawberry, violet, wheel, warm lighting, peaceful, mysterious, organic, texture, brushstrokes, dreamy"
+        }
+    }
+}

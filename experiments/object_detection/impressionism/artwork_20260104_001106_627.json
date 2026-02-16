@@ -1,0 +1,180 @@
+{
+    "artwork_id": "artwork_20260104_001106_627",
+    "generation_timestamp": "2026-01-04T00:11:41.882699",
+    "style": "Impressionism",
+    "objects": {
+        "object_ids": [
+            49
+        ],
+        "object_names": [
+            "bread"
+        ],
+        "enhanced_objects": [
+            {
+                "object_id": 49,
+                "name": "bread",
+                "artistic_description": "A rustic loaf with a golden-brown crust that catches the soft, diffused afternoon light filtering through cloudy skies. The surface shows impressionistic brushstrokes of warm amber and pale wheat tones, with subtle highlights where light grazes the textured crust. The crumb appears soft and airy, rendered with loose, visible strokes that suggest its porous structure. Moisture from the humid air gives the cut edges a slight sheen, while the crust maintains a matte, flour-dusted appearance.",
+                "size": "Large",
+                "state": "Freshly baked, slightly cooled, with a delicate crust",
+                "primary_colors": [
+                    "warm golden-brown",
+                    "pale wheat"
+                ],
+                "material": "bread"
+            }
+        ]
+    },
+    "composition": {
+        "spatial_relations": [
+            [
+                49,
+                "on",
+                49
+            ]
+        ],
+        "semantic_relations": []
+    },
+    "environment": {
+        "environment_details": {
+            "scene_brief": "A Still life dining table centered around bread",
+            "place365_name": "/d/dining_room",
+            "place365_id": 121,
+            "time_of_day": "afternoon",
+            "weather": "cloudy",
+            "period": "Contemporary",
+            "is_indoor": true,
+            "lighting": {
+                "type": "natural",
+                "quality": "soft",
+                "direction": "side-lit",
+                "mood": "warm",
+                "reasoning": "Combining the 'afternoon' time and 'cloudy' weather results in soft, diffused natural light. A side-lit direction is classic for still life as it models the three-dimensional form of the bread, highlighting its crusty texture and roundness. The warm mood complements the subject matter of warm, baked bread."
+            },
+            "atmosphere": "bright and active and subdued and gentle"
+        },
+        "scene_inference": {
+            "all_candidates": [
+                {
+                    "scene_type": "French countryside kitchen",
+                    "plausibility": 0.95,
+                    "reasoning": "A rustic kitchen scene typical of Impressionist works, featuring a fresh loaf of bread as the centerpiece on a wooden table, bathed in soft morning light filtering through a window.",
+                    "object_interpretations": {
+                        "bread": {
+                            "form": "real artisan loaf",
+                            "scale": "normal",
+                            "role": "primary subject"
+                        }
+                    }
+                },
+                {
+                    "scene_type": "Parisian caf\u00e9 table",
+                    "plausibility": 0.92,
+                    "reasoning": "An outdoor caf\u00e9 setting with a basket of bread on a wrought-iron table, capturing the fleeting effects of sunlight and atmosphere in Impressionist style.",
+                    "object_interpretations": {
+                        "bread": {
+                            "form": "real baguette pieces",
+                            "scale": "normal",
+                            "role": "primary food item"
+                        }
+                    }
+                },
+                {
+                    "scene_type": "Bakery interior",
+                    "plausibility": 0.9,
+                    "reasoning": "A warm bakery shop with shelves of bread loaves, using loose brushstrokes to convey the texture and warmth of the scene.",
+                    "object_interpretations": {
+                        "bread": {
+                            "form": "real fresh loaves",
+                            "scale": "normal",
+                            "role": "primary merchandise"
+                        }
+                    }
+                },
+                {
+                    "scene_type": "Picnic in the park",
+                    "plausibility": 0.88,
+                    "reasoning": "An outdoor picnic scene with bread on a checkered cloth, rendered with dappled light and natural colors typical of Impressionist landscapes.",
+                    "object_interpretations": {
+                        "bread": {
+                            "form": "real loaf and rolls",
+                            "scale": "normal",
+                            "role": "primary picnic food"
+                        }
+                    }
+                },
+                {
+                    "scene_type": "Still life dining table",
+                    "plausibility": 0.93,
+                    "reasoning": "A classic Impressionist still life composition featuring bread as the focal point alongside wine and fruit, emphasizing texture and light.",
+                    "object_interpretations": {
+                        "bread": {
+                            "form": "real rustic bread",
+                            "scale": "normal",
+                            "role": "primary subject in still life"
+                        }
+                    },
+                    "scene_brief": "A Still life dining table centered around bread"
+                },
+                {
+                    "scene_type": "Harvest market stall",
+                    "plausibility": 0.85,
+                    "reasoning": "An outdoor market scene with bread displayed on a vendor's stall, capturing the vibrant atmosphere and natural lighting.",
+                    "object_interpretations": {
+                        "bread": {
+                            "form": "real assorted breads",
+                            "scale": "normal",
+                            "role": "primary market goods"
+                        }
+                    }
+                },
+                {
+                    "scene_type": "Farmhouse dining room",
+                    "plausibility": 0.87,
+                    "reasoning": "A rustic farmhouse interior with bread on a dining table, using warm tones and soft focus to create an intimate domestic scene.",
+                    "object_interpretations": {
+                        "bread": {
+                            "form": "real homemade bread",
+                            "scale": "normal",
+                            "role": "primary meal component"
+                        }
+                    }
+                },
+                {
+                    "scene_type": "Garden terrace breakfast",
+                    "plausibility": 0.82,
+                    "reasoning": "An outdoor breakfast setting with bread on a terrace table, painted with emphasis on natural light and garden atmosphere.",
+                    "object_interpretations": {
+                        "bread": {
+                            "form": "real fresh bread",
+                            "scale": "normal",
+                            "role": "primary breakfast item"
+                        }
+                    }
+                }
+            ],
+            "selected_scene": {
+                "scene_type": "Still life dining table",
+                "plausibility": 0.93,
+                "reasoning": "A classic Impressionist still life composition featuring bread as the focal point alongside wine and fruit, emphasizing texture and light.",
+                "object_interpretations": {
+                    "bread": {
+                        "form": "real rustic bread",
+                        "scale": "normal",
+                        "role": "primary subject in still life"
+                    }
+                },
+                "scene_brief": "A Still life dining table centered around bread"
+            }
+        }
+    },
+    "final_prompts": {
+        "main_prompt": "A Impressionism painting depicting a large, freshly baked loaf of bread resting upon itself in a gentle, self-contained arrangement, its warm golden-brown crust and pale wheat interior glowing with the soft, natural afternoon light that filters through a nearby window. The bread's substantial form dominates the foreground, its textured surface rendered with loose, visible brushstrokes that capture the play of light and shadow, creating a sense of both bright activity in the detailed crust and a subdued, gentle stillness in the overall scene. The atmosphere is bright yet softly diffused, active in its textural detail but ultimately gentle and peaceful, evoking the quiet warmth of a late afternoon in a sunlit kitchen or bakery.",
+        "negative_prompt": "photorealistic, 3d render, modern, digital art, photograph, low quality, blurry, distorted, surreal, abstract, cartoon, anime, text, watermark, signature, frame, border, ugly, deformed, bad anatomy, disfigured, poorly drawn face, mutation, mutated, extra limb, missing limb, floating limbs, disconnected limbs, malformed hands, out of focus, long neck",
+        "prompt_formats": {
+            "simple": "An Impressionist painting of a large, warm golden-brown loaf of bread resting on itself in soft afternoon light.",
+            "complex": "A Impressionism painting depicting a large, freshly baked loaf of bread resting upon itself in a gentle, self-contained arrangement, its warm golden-brown crust and pale wheat interior glowing with the soft, natural afternoon light that filters through a nearby window. The bread's substantial form dominates the foreground, its textured surface rendered with loose, visible brushstrokes that capture the play of light and shadow, creating a sense of both bright activity in the detailed crust and a subdued, gentle stillness in the overall scene. The atmosphere is bright yet softly diffused, active in its textural detail but ultimately gentle and peaceful, evoking the quiet warmth of a late afternoon in a sunlit kitchen or bakery.",
+            "comma_separated": "Impressionism painting, large freshly baked bread, warm golden-brown crust, pale wheat interior, bread on bread arrangement, soft natural afternoon lighting, bright active subdued gentle atmosphere, visible brushstrokes, textural detail, sunlit interior",
+            "tags": "art, painting, impressionism, still life, bread, bakery, afternoon light, golden hour, texture, brushstrokes, Claude Monet, Pierre-Auguste Renoir"
+        }
+    }
+}

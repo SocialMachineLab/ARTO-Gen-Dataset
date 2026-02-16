@@ -1,0 +1,355 @@
+{
+    "artwork_id": "artwork_20260103_171703_792",
+    "generation_timestamp": "2026-01-03T17:17:33.064928",
+    "style": "Impressionism",
+    "objects": {
+        "object_ids": [
+            76,
+            26,
+            39,
+            27
+        ],
+        "object_names": [
+            "vase",
+            "umbrella",
+            "tennis racket",
+            "handbag"
+        ],
+        "enhanced_objects": [
+            {
+                "object_id": 76,
+                "name": "vase",
+                "artistic_description": "A ceramic vessel rendered with soft, diffused edges where afternoon light filters through clouds, creating gentle highlights on its curved form. The surface shows subtle variations of cool gray-blue tones mixed with warm ivory where light catches the glaze, appearing as loose, visible brushstrokes that dissolve the hard edges into atmospheric softness.",
+                "size": "Medium",
+                "state": "clean and polished, reflecting ambient light with muted luminosity",
+                "primary_colors": [
+                    "soft blue-gray",
+                    "warm ivory"
+                ],
+                "material": "ceramic"
+            },
+            {
+                "object_id": 26,
+                "name": "umbrella",
+                "artistic_description": "A compact form with fabric that appears as dappled patches of deep navy and slate, where cloud-filtered light fails to penetrate the dense weave. The handle shows subtle metallic sheen rendered in loose, impressionistic strokes that suggest rather than define its shape, with soft shadows bleeding into surrounding space.",
+                "size": "Medium",
+                "state": "closed and dry, with fabric showing slight wear at edges",
+                "primary_colors": [
+                    "deep navy",
+                    "slate gray"
+                ],
+                "material": "fabric and metal"
+            },
+            {
+                "object_id": 39,
+                "name": "tennis racket",
+                "artistic_description": "Angular framework captured through broken, visible brushwork that suggests its string pattern without precise detail. The shaft reflects cool ambient light in muted silver tones, while the grip appears as warmer, darker patches of brown and ochre. Edges dissolve into the bright, subdued atmosphere through soft blending.",
+                "size": "Medium",
+                "state": "contemporary design with clean lines, slight wear on grip",
+                "primary_colors": [
+                    "silver-gray",
+                    "warm brown"
+                ],
+                "material": "metal and synthetic"
+            },
+            {
+                "object_id": 27,
+                "name": "handbag",
+                "artistic_description": "Soft leather surface rendered with textured, visible strokes that capture how cloudy light diffuses across its form. The material shows subtle color shifts between shadowed areas in deep charcoal and illuminated patches in muted taupe, with hardware catching faint highlights in loose, dabs of pale gold.",
+                "size": "Medium",
+                "state": "contemporary style with supple leather showing natural creases",
+                "primary_colors": [
+                    "charcoal",
+                    "muted taupe"
+                ],
+                "material": "leather"
+            }
+        ]
+    },
+    "composition": {
+        "spatial_relations": [
+            [
+                76,
+                "next to",
+                26
+            ],
+            [
+                76,
+                "next to",
+                39
+            ],
+            [
+                76,
+                "next to",
+                27
+            ],
+            [
+                26,
+                "next to",
+                39
+            ],
+            [
+                26,
+                "next to",
+                27
+            ],
+            [
+                39,
+                "next to",
+                27
+            ]
+        ],
+        "semantic_relations": []
+    },
+    "environment": {
+        "environment_details": {
+            "scene_brief": "A Abstract Still Life featuring vase, with umbrella, tennis racket, and handbag",
+            "place365_name": "/l/living_room",
+            "place365_id": 215,
+            "time_of_day": "afternoon",
+            "weather": "cloudy",
+            "period": "Contemporary",
+            "is_indoor": true,
+            "lighting": {
+                "type": "natural",
+                "quality": "soft",
+                "direction": "side-lit",
+                "mood": "cool",
+                "reasoning": "Natural side-lighting from a window with cloudy conditions provides soft, directional illumination that creates gentle modeling on the objects. The cool quality of diffused daylight enhances the abstract forms and allows for nuanced color relationships typical of Impressionism, while avoiding harsh contrasts that might distract from the artistic interpretation."
+            },
+            "atmosphere": "bright and active and subdued and gentle"
+        },
+        "scene_inference": {
+            "all_candidates": [
+                {
+                    "scene_type": "Art Studio",
+                    "plausibility": 0.95,
+                    "reasoning": "An artist's studio is a natural habitat for a vase serving as a still life subject. The umbrella, tennis racket, and handbag are typical props or personal items found in such a creative space, arranged for a composition.",
+                    "object_interpretations": {
+                        "vase": {
+                            "form": "real ceramic vase",
+                            "scale": "normal",
+                            "role": "primary subject of a still life painting"
+                        },
+                        "umbrella": {
+                            "form": "real umbrella",
+                            "scale": "normal",
+                            "role": "decorative prop leaning against a wall"
+                        },
+                        "tennis racket": {
+                            "form": "real tennis racket",
+                            "scale": "normal",
+                            "role": "sports equipment casually placed on the floor"
+                        },
+                        "handbag": {
+                            "form": "real leather handbag",
+                            "scale": "normal",
+                            "role": "personal accessory dropped on a chair"
+                        }
+                    }
+                },
+                {
+                    "scene_type": "Victorian Parlor",
+                    "plausibility": 0.9,
+                    "reasoning": "A formal sitting room where a decorative vase holds flowers on a table. An umbrella stands in the corner, a tennis racket suggests a visitor's sporty hobby, and a handbag rests on a side table.",
+                    "object_interpretations": {
+                        "vase": {
+                            "form": "real porcelain vase",
+                            "scale": "normal",
+                            "role": "decorative centerpiece on a table"
+                        },
+                        "umbrella": {
+                            "form": "real umbrella",
+                            "scale": "normal",
+                            "role": "functional item stored in a stand"
+                        },
+                        "tennis racket": {
+                            "form": "real tennis racket",
+                            "scale": "normal",
+                            "role": "leisure equipment of a resident"
+                        },
+                        "handbag": {
+                            "form": "real handbag",
+                            "scale": "normal",
+                            "role": "fashion accessory"
+                        }
+                    }
+                },
+                {
+                    "scene_type": "Country Club Locker Room",
+                    "plausibility": 0.85,
+                    "reasoning": "A social space for athletes. A vase with flowers decorates the lounge area. A tennis racket is the primary equipment, a handbag belongs to a player, and an umbrella is useful for rain.",
+                    "object_interpretations": {
+                        "vase": {
+                            "form": "real vase with flowers",
+                            "scale": "normal",
+                            "role": "decorative element in the lounge"
+                        },
+                        "umbrella": {
+                            "form": "real umbrella",
+                            "scale": "normal",
+                            "role": "weather protection gear"
+                        },
+                        "tennis racket": {
+                            "form": "real tennis racket",
+                            "scale": "normal",
+                            "role": "primary sports tool"
+                        },
+                        "handbag": {
+                            "form": "real handbag",
+                            "scale": "normal",
+                            "role": "personal storage item"
+                        }
+                    }
+                },
+                {
+                    "scene_type": "Surreal Dreamscape",
+                    "plausibility": 0.8,
+                    "reasoning": "In an Impressionist/Surreal style, objects float in a hazy atmosphere. A giant vase dominates the space, while a tiny umbrella, racket, and handbag drift around it like memories.",
+                    "object_interpretations": {
+                        "vase": {
+                            "form": "exaggerated ceramic vase",
+                            "scale": "giant",
+                            "role": "dominant surreal anchor"
+                        },
+                        "umbrella": {
+                            "form": "miniature umbrella",
+                            "scale": "tiny",
+                            "role": "floating decorative accent"
+                        },
+                        "tennis racket": {
+                            "form": "miniature racket",
+                            "scale": "tiny",
+                            "role": "floating accent"
+                        },
+                        "handbag": {
+                            "form": "miniature handbag",
+                            "scale": "tiny",
+                            "role": "floating accent"
+                        }
+                    }
+                },
+                {
+                    "scene_type": "Outdoor Garden Party",
+                    "plausibility": 0.9,
+                    "reasoning": "A social gathering outdoors. A vase sits on a picnic table holding wildflowers. Guests have umbrellas for shade, tennis rackets for games, and handbags for personal items.",
+                    "object_interpretations": {
+                        "vase": {
+                            "form": "real rustic vase",
+                            "scale": "normal",
+                            "role": "table centerpiece"
+                        },
+                        "umbrella": {
+                            "form": "real patio umbrella",
+                            "scale": "large",
+                            "role": "sun shade"
+                        },
+                        "tennis racket": {
+                            "form": "real tennis racket",
+                            "scale": "normal",
+                            "role": "recreational item"
+                        },
+                        "handbag": {
+                            "form": "real handbag",
+                            "scale": "normal",
+                            "role": "guest accessory"
+                        }
+                    }
+                },
+                {
+                    "scene_type": "Vintage Boutique",
+                    "plausibility": 0.85,
+                    "reasoning": "A cluttered shop selling antiques. A vase is a display item. An umbrella, tennis racket, and handbag are vintage goods for sale, arranged artistically.",
+                    "object_interpretations": {
+                        "vase": {
+                            "form": "antique vase",
+                            "scale": "normal",
+                            "role": "merchandise display"
+                        },
+                        "umbrella": {
+                            "form": "vintage umbrella",
+                            "scale": "normal",
+                            "role": "stock item"
+                        },
+                        "tennis racket": {
+                            "form": "vintage racket",
+                            "scale": "normal",
+                            "role": "stock item"
+                        },
+                        "handbag": {
+                            "form": "vintage handbag",
+                            "scale": "normal",
+                            "role": "stock item"
+                        }
+                    }
+                },
+                {
+                    "scene_type": "Abstract Still Life",
+                    "plausibility": 0.8,
+                    "reasoning": "An artistic composition where shapes and colors blend. The vase is the central form. The racket, umbrella, and handbag are abstracted into geometric shapes and brushstrokes typical of Impressionism.",
+                    "object_interpretations": {
+                        "vase": {
+                            "form": "stylized vase",
+                            "scale": "normal",
+                            "role": "central geometric form"
+                        },
+                        "umbrella": {
+                            "form": "abstract curve",
+                            "scale": "variable",
+                            "role": "compositional line"
+                        },
+                        "tennis racket": {
+                            "form": "abstract grid",
+                            "scale": "variable",
+                            "role": "textural element"
+                        },
+                        "handbag": {
+                            "form": "abstract blob",
+                            "scale": "variable",
+                            "role": "color accent"
+                        }
+                    },
+                    "scene_brief": "A Abstract Still Life featuring vase, with umbrella, tennis racket, and handbag"
+                }
+            ],
+            "selected_scene": {
+                "scene_type": "Abstract Still Life",
+                "plausibility": 0.8,
+                "reasoning": "An artistic composition where shapes and colors blend. The vase is the central form. The racket, umbrella, and handbag are abstracted into geometric shapes and brushstrokes typical of Impressionism.",
+                "object_interpretations": {
+                    "vase": {
+                        "form": "stylized vase",
+                        "scale": "normal",
+                        "role": "central geometric form"
+                    },
+                    "umbrella": {
+                        "form": "abstract curve",
+                        "scale": "variable",
+                        "role": "compositional line"
+                    },
+                    "tennis racket": {
+                        "form": "abstract grid",
+                        "scale": "variable",
+                        "role": "textural element"
+                    },
+                    "handbag": {
+                        "form": "abstract blob",
+                        "scale": "variable",
+                        "role": "color accent"
+                    }
+                },
+                "scene_brief": "A Abstract Still Life featuring vase, with umbrella, tennis racket, and handbag"
+            }
+        }
+    },
+    "final_prompts": {
+        "main_prompt": "An Impressionism painting depicting a soft blue-gray ceramic vase with warm ivory accents, polished and clean, positioned centrally in the foreground as it sits beside a closed deep navy umbrella with slate gray fabric folds, adjacent to a contemporary silver-gray tennis racket with warm brown grip and clean lines, and next to a charcoal leather handbag in muted taupe with supple contemporary styling. All four medium-sized objects\u2014the vase, umbrella, tennis racket, and handbag\u2014are arranged in a close-knit cluster on a textured surface, with the vase serving as the focal point connecting the other three items in an intimate still-life composition. The scene is bathed in the natural soft light of a late afternoon, casting gentle shadows and creating a bright yet subdued atmosphere that feels both active in its detailed textures and gentle in its overall mood, with visible brushstrokes capturing the interplay of light on ceramic, fabric, metal, and leather surfaces.",
+        "negative_prompt": "photorealistic, 3d render, modern, digital art, photograph, low quality, blurry, distorted, surreal, cartoon, anime, text, watermark, signature, frame, border, ugly, deformed, noisy",
+        "prompt_formats": {
+            "simple": "An Impressionist still-life with a vase, umbrella, tennis racket, and handbag arranged together in soft afternoon light.",
+            "complex": "An Impressionism painting depicting a soft blue-gray ceramic vase with warm ivory accents, polished and clean, positioned centrally in the foreground as it sits beside a closed deep navy umbrella with slate gray fabric folds, adjacent to a contemporary silver-gray tennis racket with warm brown grip and clean lines, and next to a charcoal leather handbag in muted taupe with supple contemporary styling. All four medium-sized objects\u2014the vase, umbrella, tennis racket, and handbag\u2014are arranged in a close-knit cluster on a textured surface, with the vase serving as the focal point connecting the other three items in an intimate still-life composition. The scene is bathed in the natural soft light of a late afternoon, casting gentle shadows and creating a bright yet subdued atmosphere that feels both active in its detailed textures and gentle in its overall mood, with visible brushstrokes capturing the interplay of light on ceramic, fabric, metal, and leather surfaces.",
+            "comma_separated": "Impressionism painting, still-life composition, ceramic vase, soft blue-gray, warm ivory, polished, closed umbrella, deep navy, slate gray, tennis racket, silver-gray, warm brown grip, contemporary design, handbag, charcoal leather, muted taupe, supple, medium-sized objects, clustered arrangement, vase beside umbrella, vase beside tennis racket, vase beside handbag, afternoon lighting, natural soft light, bright active subdued gentle atmosphere, textured surface, visible brushstrokes, light interplay",
+            "tags": "art, painting, impressionism, still-life, vase, umbrella, tennis racket, handbag, ceramic, fabric, leather, metal, afternoon light, soft lighting, brushstroke texture, color harmony, Claude Monet style, Pierre-Auguste Renoir influence"
+        }
+    }
+}

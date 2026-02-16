@@ -1,0 +1,340 @@
+{
+    "artwork_id": "artwork_20260104_020751_821",
+    "generation_timestamp": "2026-01-04T02:08:33.830333",
+    "style": "Neoclassicism",
+    "objects": {
+        "object_ids": [
+            18,
+            61,
+            21,
+            25
+        ],
+        "object_names": [
+            "donkey",
+            "dining table",
+            "elephant",
+            "backpack"
+        ],
+        "enhanced_objects": [
+            {
+                "object_id": 18,
+                "name": "donkey",
+                "artistic_description": "A sculpted donkey rendered in neoclassical style with smooth, idealized forms. Under warm artificial stage lighting, its pale plaster surface glows with creamy ivory tones, while cool shadows pool in the sculpted crevices of its muscular anatomy. The matte finish absorbs light softly, creating subtle gradations across its refined contours.",
+                "size": "Large",
+                "state": "Static, sculptural, pristine condition",
+                "primary_colors": [
+                    "ivory",
+                    "warm gray"
+                ],
+                "material": "plaster"
+            },
+            {
+                "object_id": 61,
+                "name": "dining table",
+                "artistic_description": "A grand mahogany dining table with neoclassical proportions and refined classical details. Under warm artificial illumination, its polished surface reflects golden highlights while deep amber tones emerge in the rich wood grain. The varnished finish creates a subtle sheen that catches the light, emphasizing the elegant turned legs and carved frieze.",
+                "size": "Large",
+                "state": "Polished, well-maintained, theatrical prop quality",
+                "primary_colors": [
+                    "deep mahogany",
+                    "golden amber"
+                ],
+                "material": "wood"
+            },
+            {
+                "object_id": 21,
+                "name": "elephant",
+                "artistic_description": "A monumental elephant sculpture embodying neoclassical grandeur with idealized anatomical precision. Bathed in theatrical spotlights, its bronze surface gleams with warm metallic highlights while cool blue shadows define its massive form. The patinated finish shows subtle green undertones in the recesses, creating a striking contrast with the illuminated planes.",
+                "size": "Dominant",
+                "state": "Bronze casting, aged patina, museum-quality finish",
+                "primary_colors": [
+                    "warm bronze",
+                    "verdigris"
+                ],
+                "material": "bronze"
+            },
+            {
+                "object_id": 25,
+                "name": "backpack",
+                "artistic_description": "A canvas backpack rendered with neoclassical attention to drapery and form. Under warm stage lighting, its coarse fabric texture is softened into painterly folds, with ochre and burnt sienna tones emerging from the natural dye. The matte canvas absorbs light, creating subtle shadows in the creases that echo classical drapery studies.",
+                "size": "Medium",
+                "state": "Empty, carefully arranged, theatrical still life quality",
+                "primary_colors": [
+                    "ochre",
+                    "burnt sienna"
+                ],
+                "material": "canvas"
+            }
+        ]
+    },
+    "composition": {
+        "spatial_relations": [
+            [
+                18,
+                "next to",
+                61
+            ],
+            [
+                21,
+                "behind",
+                61
+            ],
+            [
+                25,
+                "on",
+                61
+            ]
+        ],
+        "semantic_relations": []
+    },
+    "environment": {
+        "environment_details": {
+            "scene_brief": "A Theater Stage Set featuring donkey, with dining table, elephant, and backpack",
+            "place365_name": "/a/auditorium",
+            "place365_id": 27,
+            "time_of_day": "evening",
+            "weather": null,
+            "period": "Contemporary",
+            "is_indoor": true,
+            "lighting": {
+                "type": "artificial",
+                "quality": "dramatic",
+                "direction": "front-lit",
+                "mood": "warm",
+                "reasoning": "Theater stages use artificial lighting. 'Dramatic' quality suits the Neoclassical style's emphasis on grandeur and emotion. 'Front-lit' ensures the objects (donkey, elephant, table) are clearly visible to the audience, which is crucial for a stage set. 'Warm' lighting creates an inviting, classic theatrical atmosphere for an evening performance."
+            },
+            "atmosphere": "calm and relaxed and striking"
+        },
+        "scene_inference": {
+            "all_candidates": [
+                {
+                    "scene_type": "Grand Manor Estate Stable",
+                    "plausibility": 0.85,
+                    "reasoning": "In a Neoclassical manor, the donkey is a working animal in the estate's stable or courtyard. The elephant is a rare, exotic animal acquired by the wealthy estate owner, perhaps as a curiosity or gift, kept near the stables. The dining table is a grand, classical piece brought outdoors for a lavish picnic or a rustic feast for the estate workers, or it sits in an adjacent open-air pavilion. The backpack is a leather satchel or travel bag belonging to the elephant's mahout (handler) or a visitor, resting on the table or a hay bale.",
+                    "object_interpretations": {
+                        "donkey": {
+                            "form": "real animal",
+                            "scale": "normal",
+                            "role": "working animal of the estate"
+                        },
+                        "elephant": {
+                            "form": "real animal",
+                            "scale": "normal/large",
+                            "role": "exotic curiosity or visitor's animal"
+                        },
+                        "dining table": {
+                            "form": "real furniture",
+                            "scale": "normal/large",
+                            "role": "centerpiece for a feast or display"
+                        },
+                        "backpack": {
+                            "form": "leather travel bag/satchel",
+                            "scale": "normal",
+                            "role": "personal belonging of a handler or guest"
+                        }
+                    }
+                },
+                {
+                    "scene_type": "Neoclassical Museum Hall",
+                    "plausibility": 0.9,
+                    "reasoning": "The scene is a grand museum hall with classical columns. The donkey and elephant are life-sized, hyper-realistic sculptures made of marble or bronze, posed in a tableau. The dining table is an actual antique Neoclassical table displayed in the hall, perhaps holding artifacts. The backpack is a modern accessory left by a visitor or a museum guard, creating a deliberate anachronism.",
+                    "object_interpretations": {
+                        "donkey": {
+                            "form": "sculpture (marble/bronze)",
+                            "scale": "life-sized",
+                            "role": "artistic subject"
+                        },
+                        "elephant": {
+                            "form": "sculpture (marble/bronze)",
+                            "scale": "life-sized",
+                            "role": "artistic subject"
+                        },
+                        "dining table": {
+                            "form": "real antique furniture",
+                            "scale": "normal",
+                            "role": "museum display piece"
+                        },
+                        "backpack": {
+                            "form": "modern accessory",
+                            "scale": "normal",
+                            "role": "visitor's item (anachronistic element)"
+                        }
+                    }
+                },
+                {
+                    "scene_type": "Classical Allegorical Painting",
+                    "plausibility": 0.8,
+                    "reasoning": "A Neoclassical painting depicting a symbolic scene. The donkey represents humility or stubbornness, while the elephant represents strength or wisdom. They stand together in a classical landscape. A grand dining table is set for a feast of the gods, and the backpack is a satchel containing scrolls or offerings, placed on the table.",
+                    "object_interpretations": {
+                        "donkey": {
+                            "form": "painted subject",
+                            "scale": "normal (in perspective)",
+                            "role": "symbol of humility"
+                        },
+                        "elephant": {
+                            "form": "painted subject",
+                            "scale": "normal (in perspective)",
+                            "role": "symbol of wisdom/strength"
+                        },
+                        "dining table": {
+                            "form": "painted object",
+                            "scale": "normal",
+                            "role": "altar or feast table"
+                        },
+                        "backpack": {
+                            "form": "painted satchel",
+                            "scale": "normal",
+                            "role": "prop for offerings"
+                        }
+                    }
+                },
+                {
+                    "scene_type": "Theater Stage Set",
+                    "plausibility": 0.85,
+                    "reasoning": "A stage set for a Neoclassical opera or play. The donkey and elephant are costumed actors or puppets representing characters in a fable. The dining table is a prop set piece for a banquet scene. The backpack is a prop used by a character, perhaps containing a disguise or stolen goods.",
+                    "object_interpretations": {
+                        "donkey": {
+                            "form": "costumed actor or puppet",
+                            "scale": "normal",
+                            "role": "actor/character"
+                        },
+                        "elephant": {
+                            "form": "costumed actor or puppet",
+                            "scale": "normal",
+                            "role": "actor/character"
+                        },
+                        "dining table": {
+                            "form": "stage prop",
+                            "scale": "normal",
+                            "role": "set dressing for banquet"
+                        },
+                        "backpack": {
+                            "form": "prop bag",
+                            "scale": "normal",
+                            "role": "plot device (contains items)"
+                        }
+                    },
+                    "scene_brief": "A Theater Stage Set featuring donkey, with dining table, elephant, and backpack"
+                },
+                {
+                    "scene_type": "Grand Banquet Hall",
+                    "plausibility": 0.75,
+                    "reasoning": "A lavish Neoclassical dining hall. The donkey and elephant are present as taxidermy trophies or large porcelain statues, mounted on the walls or standing in corners, which was a fashion in wealthy estates. The dining table is the main table laden with food. The backpack is a guest's bag left on a chair.",
+                    "object_interpretations": {
+                        "donkey": {
+                            "form": "taxidermy or porcelain statue",
+                            "scale": "normal",
+                            "role": "decoration/trophy"
+                        },
+                        "elephant": {
+                            "form": "taxidermy or porcelain statue",
+                            "scale": "normal",
+                            "role": "decoration/trophy"
+                        },
+                        "dining table": {
+                            "form": "real furniture",
+                            "scale": "large",
+                            "role": "main dining surface"
+                        },
+                        "backpack": {
+                            "form": "leather bag",
+                            "scale": "normal",
+                            "role": "guest's personal item"
+                        }
+                    }
+                },
+                {
+                    "scene_type": "Outdoor Garden Party",
+                    "plausibility": 0.8,
+                    "reasoning": "A formal garden with Neoclassical statues. The donkey and elephant are live animals used for entertainment or as exotic pets at the party. The dining table is a buffet table set with classical serving ware. The backpack belongs to a child or servant attending the event.",
+                    "object_interpretations": {
+                        "donkey": {
+                            "form": "real animal",
+                            "scale": "normal",
+                            "role": "entertainment/pet"
+                        },
+                        "elephant": {
+                            "form": "real animal",
+                            "scale": "normal",
+                            "role": "entertainment/pet"
+                        },
+                        "dining table": {
+                            "form": "real furniture",
+                            "scale": "normal",
+                            "role": "buffet table"
+                        },
+                        "backpack": {
+                            "form": "cloth or leather bag",
+                            "scale": "normal",
+                            "role": "personal item"
+                        }
+                    }
+                },
+                {
+                    "scene_type": "Architectural Model Room",
+                    "plausibility": 0.9,
+                    "reasoning": "A room displaying a detailed architectural model of a Neoclassical estate. The donkey and elephant are miniature figurines placed in the grounds to show scale or as part of a planned zoo. The dining table is a miniature furniture piece inside the model house. The backpack is a tiny accessory on a figurine.",
+                    "object_interpretations": {
+                        "donkey": {
+                            "form": "miniature figurine",
+                            "scale": "1:12 or smaller",
+                            "role": "scale model element"
+                        },
+                        "elephant": {
+                            "form": "miniature figurine",
+                            "scale": "1:12 or smaller",
+                            "role": "scale model element"
+                        },
+                        "dining table": {
+                            "form": "miniature furniture",
+                            "scale": "1:12 or smaller",
+                            "role": "model interior detail"
+                        },
+                        "backpack": {
+                            "form": "tiny accessory",
+                            "scale": "micro",
+                            "role": "detail on figurine"
+                        }
+                    }
+                }
+            ],
+            "selected_scene": {
+                "scene_type": "Theater Stage Set",
+                "plausibility": 0.85,
+                "reasoning": "A stage set for a Neoclassical opera or play. The donkey and elephant are costumed actors or puppets representing characters in a fable. The dining table is a prop set piece for a banquet scene. The backpack is a prop used by a character, perhaps containing a disguise or stolen goods.",
+                "object_interpretations": {
+                    "donkey": {
+                        "form": "costumed actor or puppet",
+                        "scale": "normal",
+                        "role": "actor/character"
+                    },
+                    "elephant": {
+                        "form": "costumed actor or puppet",
+                        "scale": "normal",
+                        "role": "actor/character"
+                    },
+                    "dining table": {
+                        "form": "stage prop",
+                        "scale": "normal",
+                        "role": "set dressing for banquet"
+                    },
+                    "backpack": {
+                        "form": "prop bag",
+                        "scale": "normal",
+                        "role": "plot device (contains items)"
+                    }
+                },
+                "scene_brief": "A Theater Stage Set featuring donkey, with dining table, elephant, and backpack"
+            }
+        }
+    },
+    "final_prompts": {
+        "main_prompt": "A Neoclassicism painting depicting a calm and relaxed yet striking evening scene illuminated by dramatic artificial light. In the foreground, a large, static donkey in warm ivory and gray tones stands patiently next to a large, polished dining table of deep mahogany wood with golden amber highlights. On the table's surface rests a medium-sized, empty backpack in ochre and burnt sienna hues. Dominating the midground behind the dining table is a monumental elephant, cast in warm bronze with subtle verdigris accents, its bronze form creating a powerful silhouette against the evening atmosphere. The composition is arranged with classical balance, the donkey beside the table, the elephant positioned behind it, and the backpack placed upon it, all within an interior space that suggests timeless grandeur through the use of plaster walls and rich materials.",
+        "negative_prompt": "photorealistic, 3d render, modern, digital art, photograph, low quality, blurry, distorted, cartoon, anime, surreal, abstract, deformed, ugly, bad anatomy, extra limbs, poorly drawn",
+        "prompt_formats": {
+            "simple": "A Neoclassical painting of a donkey, elephant, dining table, and backpack in a dramatic evening interior.",
+            "complex": "A Neoclassicism painting depicting a calm and relaxed yet striking evening scene illuminated by dramatic artificial light. In the foreground, a large, static donkey in warm ivory and gray tones stands patiently next to a large, polished dining table of deep mahogany wood with golden amber highlights. On the table's surface rests a medium-sized, empty backpack in ochre and burnt sienna hues. Dominating the midground behind the dining table is a monumental elephant, cast in warm bronze with subtle verdigris accents, its bronze form creating a powerful silhouette against the evening atmosphere. The composition is arranged with classical balance, the donkey beside the table, the elephant positioned behind it, and the backpack placed upon it, all within an interior space that suggests timeless grandeur through the use of plaster walls and rich materials.",
+            "comma_separated": "Neoclassicism painting, donkey next to dining table, elephant behind table, backpack on table, large ivory donkey, polished mahogany table, bronze elephant with verdigris, ochre backpack, evening, dramatic artificial lighting, calm relaxed striking atmosphere, classical composition, interior scene",
+            "tags": "art, painting, neoclassicism, classical art, historical painting, animal portrait, still life, interior scene, evening lighting, dramatic lighting, donkey, elephant, dining table, backpack, bronze sculpture, mahogany, composition"
+        }
+    }
+}

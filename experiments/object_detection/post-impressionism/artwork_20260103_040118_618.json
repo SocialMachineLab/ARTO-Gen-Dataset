@@ -1,0 +1,373 @@
+{
+    "artwork_id": "artwork_20260103_040118_618",
+    "generation_timestamp": "2026-01-03T04:01:51.932828",
+    "style": "Post-Impressionism",
+    "objects": {
+        "object_ids": [
+            60,
+            74,
+            17,
+            75
+        ],
+        "object_names": [
+            "bed frame",
+            "book",
+            "dog",
+            "clock"
+        ],
+        "enhanced_objects": [
+            {
+                "object_id": 60,
+                "name": "bed frame",
+                "artistic_description": "Weathered pine wood frame with a muted honey-golden patina, its surface softened by years of use and catching the diffuse afternoon light with a gentle matte glow. The aged wood grain appears as rhythmic, undulating lines in warm ochre and dusty amber tones, with subtle shadows pooled in the natural grooves creating a textured, tactile quality characteristic of Post-Impressionist brushwork.",
+                "size": "Large",
+                "state": "well-worn and comfortable, showing gentle aging appropriate to contemporary rustic living",
+                "primary_colors": [
+                    "warm ochre",
+                    "dusty amber"
+                ],
+                "material": "wood"
+            },
+            {
+                "object_id": 74,
+                "name": "book",
+                "artistic_description": "A clothbound volume with faded fabric covers appearing as a soft, muted teal under the cool, diffuse window light, its spine worn to a gentle gray-blue where the material has been handled most. The embossed title is barely legible, catching light as subtle golden highlights against the matte fabric, while the page edges show a delicate, warm cream tone where they peek from the cover.",
+                "size": "Small",
+                "state": "gently used with softened corners and a supple, broken-in spine",
+                "primary_colors": [
+                    "muted teal",
+                    "soft gray-blue"
+                ],
+                "material": "fabric and paper"
+            },
+            {
+                "object_id": 17,
+                "name": "dog",
+                "artistic_description": "A medium-sized dog with a coat of rich, earthy browns and creams that appear as interlocking patches of burnt sienna and pale butter-yellow in the subdued afternoon light. The fur has a soft, matte texture with subtle highlights along the back where the cloudy sky's light catches the individual hairs, creating a gentle, luminous quality that seems to vibrate with quiet energy.",
+                "size": "Medium",
+                "state": "alert yet relaxed, with a healthy, well-cared-for appearance",
+                "primary_colors": [
+                    "burnt sienna",
+                    "pale butter-yellow"
+                ],
+                "material": "fur"
+            },
+            {
+                "object_id": 75,
+                "name": "clock",
+                "artistic_description": "A simple wooden mantel clock with a face of creamy off-white that glows softly in the diffuse light, its black Roman numerals appearing as bold, flat shapes with crisp edges. The wooden case is stained a deep, warm walnut that absorbs and enriches the ambient light, while the brass pendulum behind a small glass window catches occasional glints of muted gold, creating a subtle point of luminous contrast.",
+                "size": "Medium",
+                "state": "functioning and well-maintained, with a timeless, contemporary simplicity",
+                "primary_colors": [
+                    "creamy off-white",
+                    "deep walnut"
+                ],
+                "material": "wood and glass"
+            }
+        ]
+    },
+    "composition": {
+        "spatial_relations": [
+            [
+                74,
+                "on",
+                60
+            ],
+            [
+                75,
+                "on",
+                60
+            ],
+            [
+                17,
+                "on",
+                60
+            ]
+        ],
+        "semantic_relations": [
+            [
+                17,
+                "sleeping_on",
+                60
+            ]
+        ]
+    },
+    "environment": {
+        "environment_details": {
+            "scene_brief": "A rustic cabin centered around bed frame, with book, dog, and clock",
+            "place365_name": "/l/living_room",
+            "place365_id": 215,
+            "time_of_day": "afternoon",
+            "weather": "cloudy",
+            "period": "Contemporary",
+            "is_indoor": true,
+            "lighting": {
+                "type": "natural",
+                "quality": "soft",
+                "direction": "front-lit",
+                "mood": "warm",
+                "reasoning": "Cloudy afternoon light is naturally soft and diffused. A side-lit or front-lit approach (depending on window placement) will evenly illuminate the bed frame, book, and dog, allowing the artist to focus on color relationships and texture, which is central to Post-Impressionism. The mood remains warm and inviting despite the overcast sky."
+            },
+            "atmosphere": "bright and active and subdued and gentle"
+        },
+        "scene_inference": {
+            "all_candidates": [
+                {
+                    "scene_type": "bedroom",
+                    "plausibility": 0.95,
+                    "reasoning": "The bed frame is the central object in a bedroom. A book can be on a nightstand or the bed itself. A dog can be sleeping on a rug or the bed. A clock can be on the wall or nightstand. Post-Impressionism suits the domestic intimacy.",
+                    "object_interpretations": {
+                        "bed frame": {
+                            "form": "real furniture",
+                            "scale": "normal",
+                            "role": "primary functional object"
+                        },
+                        "book": {
+                            "form": "real object",
+                            "scale": "normal",
+                            "role": "secondary object on nightstand"
+                        },
+                        "dog": {
+                            "form": "real animal",
+                            "scale": "normal",
+                            "role": "companion on rug"
+                        },
+                        "clock": {
+                            "form": "real object",
+                            "scale": "normal",
+                            "role": "wall decoration"
+                        }
+                    }
+                },
+                {
+                    "scene_type": "artist's studio",
+                    "plausibility": 0.85,
+                    "reasoning": "An artist might sleep in their studio. The bed frame is present. A book could be an art reference. A dog is a common studio pet. A clock marks time for work. The style fits the artistic setting.",
+                    "object_interpretations": {
+                        "bed frame": {
+                            "form": "real furniture",
+                            "scale": "normal",
+                            "role": "rest area in studio"
+                        },
+                        "book": {
+                            "form": "sketchbook",
+                            "scale": "normal",
+                            "role": "artistic tool"
+                        },
+                        "dog": {
+                            "form": "real animal",
+                            "scale": "normal",
+                            "role": "studio pet"
+                        },
+                        "clock": {
+                            "form": "wall clock",
+                            "scale": "normal",
+                            "role": "timekeeper"
+                        }
+                    }
+                },
+                {
+                    "scene_type": "vintage guest room",
+                    "plausibility": 0.9,
+                    "reasoning": "A guest room contains a bed frame. A guest might read a book. A visiting dog is possible. An antique clock fits the decor. The style evokes a nostalgic atmosphere.",
+                    "object_interpretations": {
+                        "bed frame": {
+                            "form": "antique furniture",
+                            "scale": "normal",
+                            "role": "primary furniture"
+                        },
+                        "book": {
+                            "form": "novel",
+                            "scale": "normal",
+                            "role": "guest entertainment"
+                        },
+                        "dog": {
+                            "form": "pet",
+                            "scale": "normal",
+                            "role": "visitor's companion"
+                        },
+                        "clock": {
+                            "form": "mantel clock",
+                            "scale": "normal",
+                            "role": "decorative antique"
+                        }
+                    }
+                },
+                {
+                    "scene_type": "child's nursery",
+                    "plausibility": 0.8,
+                    "reasoning": "A bed frame is essential. A picture book is common. A dog can be a loyal guardian. A clock helps with routine. The style adds a dreamy quality.",
+                    "object_interpretations": {
+                        "bed frame": {
+                            "form": "child's bed",
+                            "scale": "normal",
+                            "role": "sleeping space"
+                        },
+                        "book": {
+                            "form": "picture book",
+                            "scale": "normal",
+                            "role": "educational toy"
+                        },
+                        "dog": {
+                            "form": "stuffed toy or real",
+                            "scale": "normal",
+                            "role": "companion"
+                        },
+                        "clock": {
+                            "form": "cartoon clock",
+                            "scale": "normal",
+                            "role": "teaching tool"
+                        }
+                    }
+                },
+                {
+                    "scene_type": "rustic cabin",
+                    "plausibility": 0.85,
+                    "reasoning": "A cabin has a sturdy bed frame. A book provides entertainment. A dog is a typical cabin pet. A clock is needed for time. The style suits the rustic texture.",
+                    "object_interpretations": {
+                        "bed frame": {
+                            "form": "wooden furniture",
+                            "scale": "normal",
+                            "role": "main fixture"
+                        },
+                        "book": {
+                            "form": "hardcover",
+                            "scale": "normal",
+                            "role": "leisure item"
+                        },
+                        "dog": {
+                            "form": "working dog",
+                            "scale": "normal",
+                            "role": "guardian"
+                        },
+                        "clock": {
+                            "form": "cuckoo clock",
+                            "scale": "normal",
+                            "role": "cultural decor"
+                        }
+                    },
+                    "scene_brief": "A rustic cabin centered around bed frame, with book, dog, and clock"
+                },
+                {
+                    "scene_type": "hotel room",
+                    "plausibility": 0.9,
+                    "reasoning": "Standard hotel room layout. Bed frame is central. A book might be left on the nightstand. A service dog is allowed. A clock is standard issue. The style adds artistic flair to a generic space.",
+                    "object_interpretations": {
+                        "bed frame": {
+                            "form": "modern furniture",
+                            "scale": "normal",
+                            "role": "accommodation"
+                        },
+                        "book": {
+                            "form": "paperback",
+                            "scale": "normal",
+                            "role": "travel reading"
+                        },
+                        "dog": {
+                            "form": "service animal",
+                            "scale": "normal",
+                            "role": "travel companion"
+                        },
+                        "clock": {
+                            "form": "digital clock",
+                            "scale": "normal",
+                            "role": "wake-up aid"
+                        }
+                    }
+                },
+                {
+                    "scene_type": "hospital recovery room",
+                    "plausibility": 0.7,
+                    "reasoning": "Hospital bed frame. A patient might read. A therapy dog visits. A clock monitors time. The style softens the clinical environment.",
+                    "object_interpretations": {
+                        "bed frame": {
+                            "form": "hospital bed",
+                            "scale": "normal",
+                            "role": "medical equipment"
+                        },
+                        "book": {
+                            "form": "magazine",
+                            "scale": "normal",
+                            "role": "distraction"
+                        },
+                        "dog": {
+                            "form": "therapy dog",
+                            "scale": "normal",
+                            "role": "emotional support"
+                        },
+                        "clock": {
+                            "form": "wall clock",
+                            "scale": "normal",
+                            "role": "monitoring time"
+                        }
+                    }
+                },
+                {
+                    "scene_type": "dormitory",
+                    "plausibility": 0.8,
+                    "reasoning": "Student dorm with a bed frame. Textbooks are present. A dog might be smuggled in. A clock is essential for classes. The style reflects a bohemian student life.",
+                    "object_interpretations": {
+                        "bed frame": {
+                            "form": "bunk bed",
+                            "scale": "normal",
+                            "role": "sleeping area"
+                        },
+                        "book": {
+                            "form": "textbook",
+                            "scale": "normal",
+                            "role": "study material"
+                        },
+                        "dog": {
+                            "form": "pet",
+                            "scale": "normal",
+                            "role": "stress relief"
+                        },
+                        "clock": {
+                            "form": "alarm clock",
+                            "scale": "normal",
+                            "role": "schedule keeper"
+                        }
+                    }
+                }
+            ],
+            "selected_scene": {
+                "scene_type": "rustic cabin",
+                "plausibility": 0.85,
+                "reasoning": "A cabin has a sturdy bed frame. A book provides entertainment. A dog is a typical cabin pet. A clock is needed for time. The style suits the rustic texture.",
+                "object_interpretations": {
+                    "bed frame": {
+                        "form": "wooden furniture",
+                        "scale": "normal",
+                        "role": "main fixture"
+                    },
+                    "book": {
+                        "form": "hardcover",
+                        "scale": "normal",
+                        "role": "leisure item"
+                    },
+                    "dog": {
+                        "form": "working dog",
+                        "scale": "normal",
+                        "role": "guardian"
+                    },
+                    "clock": {
+                        "form": "cuckoo clock",
+                        "scale": "normal",
+                        "role": "cultural decor"
+                    }
+                },
+                "scene_brief": "A rustic cabin centered around bed frame, with book, dog, and clock"
+            }
+        }
+    },
+    "final_prompts": {
+        "main_prompt": "A Post-Impressionism painting depicting a quiet afternoon scene centered around a large, well-worn bed frame painted in warm ochre and dusty amber tones, radiating comfort. On the bed's surface, a small, gently used book with softened corners in muted teal and soft gray-blue rests beside a medium-sized, functioning clock in creamy off-white and deep walnut wood. A medium-sized dog in burnt sienna and pale butter-yellow fur lies alert yet relaxed on the bed frame, completing the composition. The spatial arrangement shows the book and clock positioned on the bed's surface near the dog, creating a harmonious grouping. Natural soft afternoon light filters into the room, casting gentle shadows and illuminating the scene with a bright yet subdued atmosphere that feels both active in its details and gentle in its overall mood, with visible textures of wood, fabric, paper, and fur rendered in expressive Post-Impressionist brushstrokes.",
+        "negative_prompt": "photorealistic, 3d render, modern, digital art, photograph, low quality, blurry, distorted, surreal, abstract, cartoon, anime, hyperrealistic, oversaturated, ugly, deformed, noisy",
+        "prompt_formats": {
+            "simple": "A Post-Impressionist painting of a dog, book, and clock on a warm bed frame in soft afternoon light.",
+            "complex": "A Post-Impressionism painting depicting a quiet afternoon scene centered around a large, well-worn bed frame painted in warm ochre and dusty amber tones, radiating comfort. On the bed's surface, a small, gently used book with softened corners in muted teal and soft gray-blue rests beside a medium-sized, functioning clock in creamy off-white and deep walnut wood. A medium-sized dog in burnt sienna and pale butter-yellow fur lies alert yet relaxed on the bed frame, completing the composition. The spatial arrangement shows the book and clock positioned on the bed's surface near the dog, creating a harmonious grouping. Natural soft afternoon light filters into the room, casting gentle shadows and illuminating the scene with a bright yet subdued atmosphere that feels both active in its details and gentle in its overall mood, with visible textures of wood, fabric, paper, and fur rendered in expressive Post-Impressionist brushstrokes.",
+            "comma_separated": "Post-Impressionism painting, large warm ochre bed frame, small muted teal book, medium burnt sienna dog, medium creamy white clock, book and clock on bed, dog on bed, soft afternoon lighting, bright active subdued gentle atmosphere, expressive brushstrokes, wood fabric paper fur textures",
+            "tags": "art, painting, post-impressionism, interior scene, bed, dog, book, clock, afternoon light, warm colors, expressive brushwork, texture, composition"
+        }
+    }
+}

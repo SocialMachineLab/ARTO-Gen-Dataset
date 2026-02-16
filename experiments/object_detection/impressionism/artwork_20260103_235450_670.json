@@ -1,0 +1,345 @@
+{
+    "artwork_id": "artwork_20260103_235450_670",
+    "generation_timestamp": "2026-01-03T23:55:20.307372",
+    "style": "Impressionism",
+    "objects": {
+        "object_ids": [
+            27,
+            18,
+            57,
+            78
+        ],
+        "object_names": [
+            "picnic basket",
+            "horse",
+            "stand",
+            "toy"
+        ],
+        "enhanced_objects": [
+            {
+                "object_id": 27,
+                "name": "picnic basket",
+                "artistic_description": "Woven wicker basket catching afternoon sunlight in dappled, impressionistic patches of warm amber and golden straw tones, with soft shadows dancing across its textured surface. The natural fibers appear dry and slightly bleached by the bright sun, creating a mosaic of light and dark values. A hint of cool blue shadow plays in the recesses of the weave, while the interior suggests deep, soft darkness. The wicker material absorbs and reflects light in a way that creates a shimmering, atmospheric effect.",
+                "size": "Medium",
+                "state": "open and ready for use, contemporary design",
+                "primary_colors": [
+                    "warm amber",
+                    "golden straw"
+                ],
+                "material": "woven wicker"
+            },
+            {
+                "object_id": 18,
+                "name": "horse",
+                "artistic_description": "Large animal rendered in broad, luminous strokes of warm chestnut and sienna, its coat gleaming with highlights of bright gold where afternoon sun strikes its flank. The mane and tail appear as flowing ribbons of deep umber and burnt orange, catching light in impressionistic wisps. Shadows beneath its form are rich with cool violet and blue tones, creating strong contrast. The animal's surface appears dry and warm, with a subtle sheen that suggests health and vitality in the bright, cheerful atmosphere.",
+                "size": "Large",
+                "state": "standing calmly, contemporary domestic horse",
+                "primary_colors": [
+                    "chestnut brown",
+                    "burnt sienna"
+                ],
+                "material": "horse coat and hair"
+            },
+            {
+                "object_id": 57,
+                "name": "stand",
+                "artistic_description": "Simple wooden structure bathed in brilliant afternoon light, appearing as planes of warm honey-gold and pale yellow with crisp, dark shadows. The surface shows impressionistic texture of wood grain rendered in subtle variations of ochre and tan. Where direct sunlight hits, the wood appears almost white-hot, while shaded areas contain soft blue-gray tones. The material appears dry and smooth, reflecting light in a gentle, diffuse manner that contributes to the bright, active atmosphere.",
+                "size": "Medium",
+                "state": "sturdy and functional, modern wooden construction",
+                "primary_colors": [
+                    "honey gold",
+                    "pale yellow"
+                ],
+                "material": "wood"
+            },
+            {
+                "object_id": 78,
+                "name": "toy",
+                "artistic_description": "Small object rendered in vibrant, saturated strokes of bright red and cheerful yellow that pop against the garden backdrop. The plastic surface catches intense afternoon light, creating sharp highlights of pure white and warm orange. In the bright sun, the colors appear almost luminous, with minimal shadows due to the overhead lighting. The smooth material creates small, specular reflections that sparkle impressionistically. The toy appears crisp and new, its colors fully saturated in the clear, sunny atmosphere.",
+                "size": "Small",
+                "state": "bright and new, contemporary plastic toy",
+                "primary_colors": [
+                    "bright red",
+                    "cheerful yellow"
+                ],
+                "material": "plastic"
+            }
+        ]
+    },
+    "composition": {
+        "spatial_relations": [
+            [
+                78,
+                "on",
+                57
+            ],
+            [
+                27,
+                "next to",
+                57
+            ],
+            [
+                18,
+                "next to",
+                57
+            ],
+            [
+                27,
+                "on",
+                27
+            ]
+        ],
+        "semantic_relations": []
+    },
+    "environment": {
+        "environment_details": {
+            "scene_brief": "A garden party centered around picnic basket, with horse, stand, and toy",
+            "place365_name": "/f/formal_garden",
+            "place365_id": 153,
+            "time_of_day": "afternoon",
+            "weather": "sunny",
+            "period": "Contemporary",
+            "is_indoor": false,
+            "lighting": {
+                "type": "natural",
+                "quality": "soft",
+                "direction": "side-lit",
+                "mood": "warm",
+                "reasoning": "Natural afternoon sunlight creates a soft, warm glow, typical of Impressionist works. Side-lighting from the sun would cast gentle shadows across the picnic setup and horse, adding depth and texture without harshness, evoking a serene, lively mood."
+            },
+            "atmosphere": "bright and active and cheerful and gentle"
+        },
+        "scene_inference": {
+            "all_candidates": [
+                {
+                    "scene_type": "countryside meadow",
+                    "plausibility": 0.95,
+                    "reasoning": "A picnic basket is the primary object for an outdoor meal. A horse can be a companion or transport to the meadow. A stand could be a small folding table or a hay bale stand for the basket. A toy could be a child's plaything left on a blanket.",
+                    "object_interpretations": {
+                        "picnic basket": {
+                            "form": "real basket",
+                            "scale": "normal",
+                            "role": "primary object for food storage"
+                        },
+                        "horse": {
+                            "form": "real horse",
+                            "scale": "normal",
+                            "role": "companion/transport"
+                        },
+                        "stand": {
+                            "form": "folding table",
+                            "scale": "normal",
+                            "role": "support for basket"
+                        },
+                        "toy": {
+                            "form": "toy ball",
+                            "scale": "small",
+                            "role": "child's plaything"
+                        }
+                    }
+                },
+                {
+                    "scene_type": "vintage country kitchen",
+                    "plausibility": 0.9,
+                    "reasoning": "The picnic basket sits on a counter waiting to be packed. A horse figurine is a common decoration. A stand holds the basket up. A toy is a child's toy left nearby.",
+                    "object_interpretations": {
+                        "picnic basket": {
+                            "form": "real basket",
+                            "scale": "normal",
+                            "role": "primary object being packed"
+                        },
+                        "horse": {
+                            "form": "figurine",
+                            "scale": "miniature",
+                            "role": "decoration"
+                        },
+                        "stand": {
+                            "form": "wooden crate",
+                            "scale": "normal",
+                            "role": "elevated surface"
+                        },
+                        "toy": {
+                            "form": "toy car",
+                            "scale": "small",
+                            "role": "plaything"
+                        }
+                    }
+                },
+                {
+                    "scene_type": "stable yard",
+                    "plausibility": 0.85,
+                    "reasoning": "A worker takes a break with a picnic basket. A horse is in the stable. A stand holds hay or supplies. A toy is a grooming tool or child's toy in the yard.",
+                    "object_interpretations": {
+                        "picnic basket": {
+                            "form": "real basket",
+                            "scale": "normal",
+                            "role": "primary lunch container"
+                        },
+                        "horse": {
+                            "form": "real horse",
+                            "scale": "normal",
+                            "role": "stable resident"
+                        },
+                        "stand": {
+                            "form": "hay stand",
+                            "scale": "normal",
+                            "role": "storage"
+                        },
+                        "toy": {
+                            "form": "grooming brush",
+                            "scale": "small",
+                            "role": "tool"
+                        }
+                    }
+                },
+                {
+                    "scene_type": "art studio",
+                    "plausibility": 0.8,
+                    "reasoning": "The basket is a still life subject. A horse statue is a reference model. A stand holds the basket. A toy is a prop.",
+                    "object_interpretations": {
+                        "picnic basket": {
+                            "form": "real basket",
+                            "scale": "normal",
+                            "role": "still life subject"
+                        },
+                        "horse": {
+                            "form": "statue",
+                            "scale": "medium",
+                            "role": "model"
+                        },
+                        "stand": {
+                            "form": "pedestal",
+                            "scale": "normal",
+                            "role": "display"
+                        },
+                        "toy": {
+                            "form": "doll",
+                            "scale": "small",
+                            "role": "prop"
+                        }
+                    }
+                },
+                {
+                    "scene_type": "children's playroom",
+                    "plausibility": 0.75,
+                    "reasoning": "A toy picnic basket is the primary object. A rocking horse is present. A stand is a play stand. A toy is a generic plaything.",
+                    "object_interpretations": {
+                        "picnic basket": {
+                            "form": "toy basket",
+                            "scale": "miniature",
+                            "role": "primary toy"
+                        },
+                        "horse": {
+                            "form": "rocking horse",
+                            "scale": "medium",
+                            "role": "ride-on toy"
+                        },
+                        "stand": {
+                            "form": "play stand",
+                            "scale": "medium",
+                            "role": "furniture"
+                        },
+                        "toy": {
+                            "form": "building blocks",
+                            "scale": "small",
+                            "role": "toy"
+                        }
+                    }
+                },
+                {
+                    "scene_type": "garden party",
+                    "plausibility": 0.9,
+                    "reasoning": "Guests arrive with picnic baskets. A pony ride is available for kids. A drink stand is set up. A toy is a party favor.",
+                    "object_interpretations": {
+                        "picnic basket": {
+                            "form": "real basket",
+                            "scale": "normal",
+                            "role": "primary food container"
+                        },
+                        "horse": {
+                            "form": "pony",
+                            "scale": "normal",
+                            "role": "attraction"
+                        },
+                        "stand": {
+                            "form": "lemonade stand",
+                            "scale": "normal",
+                            "role": "drink station"
+                        },
+                        "toy": {
+                            "form": "bubbles",
+                            "scale": "small",
+                            "role": "party favor"
+                        }
+                    },
+                    "scene_brief": "A garden party centered around picnic basket, with horse, stand, and toy"
+                },
+                {
+                    "scene_type": "farmhouse porch",
+                    "plausibility": 0.85,
+                    "reasoning": "A basket sits on the porch ready for a walk. A horse grazes in the field. A stand holds potted plants. A toy is a dog's toy.",
+                    "object_interpretations": {
+                        "picnic basket": {
+                            "form": "real basket",
+                            "scale": "normal",
+                            "role": "primary object"
+                        },
+                        "horse": {
+                            "form": "real horse",
+                            "scale": "normal",
+                            "role": "background animal"
+                        },
+                        "stand": {
+                            "form": "plant stand",
+                            "scale": "normal",
+                            "role": "decoration"
+                        },
+                        "toy": {
+                            "form": "chew toy",
+                            "scale": "small",
+                            "role": "pet toy"
+                        }
+                    }
+                }
+            ],
+            "selected_scene": {
+                "scene_type": "garden party",
+                "plausibility": 0.9,
+                "reasoning": "Guests arrive with picnic baskets. A pony ride is available for kids. A drink stand is set up. A toy is a party favor.",
+                "object_interpretations": {
+                    "picnic basket": {
+                        "form": "real basket",
+                        "scale": "normal",
+                        "role": "primary food container"
+                    },
+                    "horse": {
+                        "form": "pony",
+                        "scale": "normal",
+                        "role": "attraction"
+                    },
+                    "stand": {
+                        "form": "lemonade stand",
+                        "scale": "normal",
+                        "role": "drink station"
+                    },
+                    "toy": {
+                        "form": "bubbles",
+                        "scale": "small",
+                        "role": "party favor"
+                    }
+                },
+                "scene_brief": "A garden party centered around picnic basket, with horse, stand, and toy"
+            }
+        }
+    },
+    "final_prompts": {
+        "main_prompt": "A Impressionism painting depicting a bright and active afternoon scene with a gentle, cheerful atmosphere. In the foreground, a large chestnut brown horse with a burnt sienna coat stands calmly beside a medium-sized honey gold stand. On top of the sturdy wooden stand sits a small, bright red and cheerful yellow toy that appears new and vibrant. Next to the stand, a medium-sized picnic basket woven from warm amber and golden straw lies open and ready for use, its contents inviting. The natural soft afternoon light filters through the scene, casting dappled shadows and creating a lively interplay of colors and brushstrokes characteristic of Impressionist technique, with the overall composition conveying movement and joyful spontaneity.",
+        "negative_prompt": "photorealistic, 3d render, modern, digital art, photograph, low quality, blurry, distorted, ugly, deformed, text, watermark, signature, frame, border, cartoon, anime, hyperrealistic, surreal, dark, gloomy, sinister, violent",
+        "prompt_formats": {
+            "simple": "An Impressionist painting of a horse, picnic basket, stand, and toy in a cheerful afternoon setting.",
+            "complex": "A Impressionism painting depicting a bright and active afternoon scene with a gentle, cheerful atmosphere. In the foreground, a large chestnut brown horse with a burnt sienna coat stands calmly beside a medium-sized honey gold stand. On top of the sturdy wooden stand sits a small, bright red and cheerful yellow toy that appears new and vibrant. Next to the stand, a medium-sized picnic basket woven from warm amber and golden straw lies open and ready for use, its contents inviting. The natural soft afternoon light filters through the scene, casting dappled shadows and creating a lively interplay of colors and brushstrokes characteristic of Impressionist technique, with the overall composition conveying movement and joyful spontaneity.",
+            "comma_separated": "Impressionism painting, chestnut brown horse standing calmly, honey gold wooden stand, bright red and yellow toy on stand, warm amber picnic basket open next to stand, soft natural afternoon lighting, bright cheerful gentle atmosphere, dappled light, vibrant colors, loose brushstrokes, outdoor scene",
+            "tags": "art, painting, impressionism, horse, picnic basket, stand, toy, afternoon, soft lighting, cheerful, gentle, outdoor, brushstrokes, color, light"
+        }
+    }
+}

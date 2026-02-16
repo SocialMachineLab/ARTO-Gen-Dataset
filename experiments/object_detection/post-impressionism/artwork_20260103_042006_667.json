@@ -1,0 +1,308 @@
+{
+    "artwork_id": "artwork_20260103_042006_667",
+    "generation_timestamp": "2026-01-03T04:20:53.471390",
+    "style": "Post-Impressionism",
+    "objects": {
+        "object_ids": [
+            3,
+            61,
+            57
+        ],
+        "object_names": [
+            "wagon",
+            "side table",
+            "beach chair"
+        ],
+        "enhanced_objects": [
+            {
+                "object_id": 3,
+                "name": "wagon",
+                "artistic_description": "Weathered wooden wagon with sun-bleached planks showing warm amber tones under the bright afternoon light, rusted iron hardware creating deep rust-orange accents against the dry, splintered wood grain. The surface carries a matte finish with dust particles catching the sunlight, while the metal wheels cast sharp geometric shadows on the ground, creating a patchwork of warm sienna and cool violet shadows",
+                "size": "Large",
+                "state": "aged and weathered from outdoor exposure, dry surfaces with faded paint",
+                "primary_colors": [
+                    "warm amber",
+                    "rust orange"
+                ],
+                "material": "wood and metal"
+            },
+            {
+                "object_id": 61,
+                "name": "side table",
+                "artistic_description": "Compact wooden table with varnished surface reflecting brilliant afternoon sunlight in scattered highlights of pale gold and cream, the polished top creating subtle mirror-like distortions of the bright sky. The legs show warm chestnut tones where light hits directly, while the shaded underside falls into deep brown shadows, the entire piece glowing with saturated color against the vibrant flea market backdrop",
+                "size": "Medium",
+                "state": "well-maintained vintage piece with polished surface, minimal wear",
+                "primary_colors": [
+                    "chestnut brown",
+                    "pale gold"
+                ],
+                "material": "wood"
+            },
+            {
+                "object_id": 57,
+                "name": "beach chair",
+                "artistic_description": "Striped canvas beach chair with faded fabric showing sun-washed stripes of soft coral and weathered cream, the tight weave catching bright light on its raised texture. The painted metal frame gleams with crisp white highlights and cool blue-gray shadows, while the stretched canvas creates subtle geometric patterns of tautness and sag, vibrating with the cheerful intensity of midday sun",
+                "size": "Medium",
+                "state": "faded from sun exposure, taut canvas, slightly worn edges",
+                "primary_colors": [
+                    "coral pink",
+                    "weathered cream"
+                ],
+                "material": "canvas and metal"
+            }
+        ]
+    },
+    "composition": {
+        "spatial_relations": [
+            [
+                61,
+                "next to",
+                3
+            ],
+            [
+                57,
+                "next to",
+                3
+            ],
+            [
+                61,
+                "next to",
+                57
+            ]
+        ],
+        "semantic_relations": []
+    },
+    "environment": {
+        "environment_details": {
+            "scene_brief": "A Vintage Flea Market featuring wagon, with side table, and beach chair",
+            "place365_name": "/b/beach",
+            "place365_id": 48,
+            "time_of_day": "afternoon",
+            "weather": "sunny",
+            "period": "Modern",
+            "is_indoor": false,
+            "lighting": {
+                "type": "natural",
+                "quality": "harsh",
+                "direction": "side-lit",
+                "mood": "warm",
+                "reasoning": "Direct sunlight (harsh quality) in the afternoon creates strong shadows and highlights, which Post-Impressionist artists used to define structure and volume. Side-lighting emphasizes the textures of the wagon and side table, while the warm mood aligns with the sunny, vintage setting."
+            },
+            "atmosphere": "bright and active and cheerful"
+        },
+        "scene_inference": {
+            "all_candidates": [
+                {
+                    "scene_type": "Summer Beach Vacation",
+                    "plausibility": 0.95,
+                    "reasoning": "A wagon is a classic tool for hauling beach gear. A beach chair is explicitly designed for the sand. A side table could be a small portable folding table or a makeshift surface from a cooler or crate placed near the chairs.",
+                    "object_interpretations": {
+                        "wagon": {
+                            "form": "real utility object",
+                            "scale": "normal",
+                            "role": "transport for towels, toys, and cooler"
+                        },
+                        "beach chair": {
+                            "form": "real furniture",
+                            "scale": "normal",
+                            "role": "seating for relaxation"
+                        },
+                        "side table": {
+                            "form": "portable folding table",
+                            "scale": "small/normal",
+                            "role": "surface for drinks and sunscreen"
+                        }
+                    }
+                },
+                {
+                    "scene_type": "Backyard Garden",
+                    "plausibility": 0.9,
+                    "reasoning": "Wagons are used to move soil and plants. A beach chair might be set up for a rest break. A side table could be a potting bench or a small garden table holding tools.",
+                    "object_interpretations": {
+                        "wagon": {
+                            "form": "real utility wagon",
+                            "scale": "normal",
+                            "role": "hauling gardening supplies"
+                        },
+                        "beach chair": {
+                            "form": "folding chair",
+                            "scale": "normal",
+                            "role": "resting spot for the gardener"
+                        },
+                        "side table": {
+                            "form": "potting bench or small table",
+                            "scale": "normal",
+                            "role": "workspace for tools and seeds"
+                        }
+                    }
+                },
+                {
+                    "scene_type": "Vintage Flea Market",
+                    "plausibility": 0.85,
+                    "reasoning": "Wagons are often used to transport items at markets. A beach chair and side table could be items for sale or part of a vendor's display booth.",
+                    "object_interpretations": {
+                        "wagon": {
+                            "form": "antique or rusty wagon",
+                            "scale": "normal",
+                            "role": "transport or display prop"
+                        },
+                        "beach chair": {
+                            "form": "vintage folding chair",
+                            "scale": "normal",
+                            "role": "item for sale"
+                        },
+                        "side table": {
+                            "form": "small wooden table",
+                            "scale": "normal",
+                            "role": "part of a vendor's stall"
+                        }
+                    },
+                    "scene_brief": "A Vintage Flea Market featuring wagon, with side table, and beach chair"
+                },
+                {
+                    "scene_type": "Rustic Lakeside Picnic",
+                    "plausibility": 0.9,
+                    "reasoning": "The wagon carries the picnic supplies. The beach chair provides seating on the grass or dock. The side table holds the food and drinks.",
+                    "object_interpretations": {
+                        "wagon": {
+                            "form": "classic red wagon",
+                            "scale": "normal",
+                            "role": "carrier for picnic basket and blanket"
+                        },
+                        "beach chair": {
+                            "form": "canvas chair",
+                            "scale": "normal",
+                            "role": "seating"
+                        },
+                        "side table": {
+                            "form": "folding card table",
+                            "scale": "normal",
+                            "role": "dining surface"
+                        }
+                    }
+                },
+                {
+                    "scene_type": "Art Studio / Workshop",
+                    "plausibility": 0.8,
+                    "reasoning": "In a studio, a wagon might be used for moving heavy canvases or clay. A beach chair could be a prop for a still life painting or a seat for a model. A side table holds paints and brushes.",
+                    "object_interpretations": {
+                        "wagon": {
+                            "form": "studio utility cart",
+                            "scale": "normal",
+                            "role": "storage/transport for art supplies"
+                        },
+                        "beach chair": {
+                            "form": "model prop",
+                            "scale": "normal",
+                            "role": "subject of painting or seating"
+                        },
+                        "side table": {
+                            "form": "work table",
+                            "scale": "normal",
+                            "role": "surface for palettes and brushes"
+                        }
+                    }
+                },
+                {
+                    "scene_type": "Children's Playroom",
+                    "plausibility": 0.85,
+                    "reasoning": "The wagon is a favorite toy for hauling dolls. The beach chair is a play tent or miniature furniture. The side table is a small play table.",
+                    "object_interpretations": {
+                        "wagon": {
+                            "form": "toy wagon",
+                            "scale": "miniature",
+                            "role": "toy for hauling stuffed animals"
+                        },
+                        "beach chair": {
+                            "form": "toy chair or play tent",
+                            "scale": "miniature",
+                            "role": "furniture for dolls"
+                        },
+                        "side table": {
+                            "form": "toy table",
+                            "scale": "miniature",
+                            "role": "play surface"
+                        }
+                    }
+                },
+                {
+                    "scene_type": "Camping Campground",
+                    "plausibility": 0.9,
+                    "reasoning": "Wagons are essential for hauling gear from the car to the campsite. Beach chairs are standard camping chairs. A side table holds the lantern or cooking gear.",
+                    "object_interpretations": {
+                        "wagon": {
+                            "form": "heavy-duty camping wagon",
+                            "scale": "normal",
+                            "role": "gear transport"
+                        },
+                        "beach chair": {
+                            "form": "collapsible camping chair",
+                            "scale": "normal",
+                            "role": "seating around the fire"
+                        },
+                        "side table": {
+                            "form": "camping side table",
+                            "scale": "normal",
+                            "role": "utility surface"
+                        }
+                    }
+                },
+                {
+                    "scene_type": "Porch or Patio",
+                    "plausibility": 0.85,
+                    "reasoning": "The wagon might be used for storing firewood or garden tools. The beach chair and side table are arranged for outdoor relaxation.",
+                    "object_interpretations": {
+                        "wagon": {
+                            "form": "decorative or utility wagon",
+                            "scale": "normal",
+                            "role": "storage or planter"
+                        },
+                        "beach chair": {
+                            "form": "outdoor lounge chair",
+                            "scale": "normal",
+                            "role": "seating"
+                        },
+                        "side table": {
+                            "form": "wicker or metal table",
+                            "scale": "normal",
+                            "role": "holding drinks/books"
+                        }
+                    }
+                }
+            ],
+            "selected_scene": {
+                "scene_type": "Vintage Flea Market",
+                "plausibility": 0.85,
+                "reasoning": "Wagons are often used to transport items at markets. A beach chair and side table could be items for sale or part of a vendor's display booth.",
+                "object_interpretations": {
+                    "wagon": {
+                        "form": "antique or rusty wagon",
+                        "scale": "normal",
+                        "role": "transport or display prop"
+                    },
+                    "beach chair": {
+                        "form": "vintage folding chair",
+                        "scale": "normal",
+                        "role": "item for sale"
+                    },
+                    "side table": {
+                        "form": "small wooden table",
+                        "scale": "normal",
+                        "role": "part of a vendor's stall"
+                    }
+                },
+                "scene_brief": "A Vintage Flea Market featuring wagon, with side table, and beach chair"
+            }
+        }
+    },
+    "final_prompts": {
+        "main_prompt": "A Post-Impressionism painting depicting a bright and cheerful afternoon scene on a sun-drenched beach. In the foreground, a large, aged wagon in warm amber and rust orange sits weathered from years of outdoor exposure. Directly beside it to the left, a medium-sized, well-maintained vintage side table in chestnut brown and pale gold stands with a polished surface. Adjacent to the wagon on the right, a medium-sized beach chair in faded coral pink and weathered cream rests, its canvas faded from prolonged sun exposure. The three objects form a close-knit group on the sandy shore. The natural, harsh afternoon light casts bold, expressive shadows and creates a vibrant, active atmosphere, with the scene rendered in the characteristic short, thick brushstrokes and vivid, non-naturalistic colors of the Post-Impressionist style, emphasizing the textures of wood, metal, and canvas.",
+        "negative_prompt": "photorealistic, 3d render, modern, digital art, photograph, low quality, blurry, distorted, ugly, deformed, cartoon, anime, text, watermark, signature, frame, border, grayscale, monochrome, dark, gloomy, night, rainy, overcast",
+        "prompt_formats": {
+            "simple": "A Post-Impressionist painting of a weathered amber wagon, a chestnut brown side table, and a faded pink beach chair grouped together on a bright, cheerful afternoon beach.",
+            "complex": "A Post-Impressionism painting depicting a bright and cheerful afternoon scene on a sun-drenched beach. In the foreground, a large, aged wagon in warm amber and rust orange sits weathered from years of outdoor exposure. Directly beside it to the left, a medium-sized, well-maintained vintage side table in chestnut brown and pale gold stands with a polished surface. Adjacent to the wagon on the right, a medium-sized beach chair in faded coral pink and weathered cream rests, its canvas faded from prolonged sun exposure. The three objects form a close-knit group on the sandy shore. The natural, harsh afternoon light casts bold, expressive shadows and creates a vibrant, active atmosphere, with the scene rendered in the characteristic short, thick brushstrokes and vivid, non-naturalistic colors of the Post-Impressionist style, emphasizing the textures of wood, metal, and canvas.",
+            "comma_separated": "Post-Impressionism painting, large aged wagon in warm amber and rust orange, medium vintage side table in chestnut brown and pale gold, medium faded beach chair in coral pink and cream, objects grouped together on a beach, harsh afternoon sunlight, bright cheerful active atmosphere, thick brushstrokes, vivid colors, textured wood metal canvas",
+            "tags": "art, painting, post-impressionism, beach scene, wagon, side table, beach chair, afternoon, sunlight, cheerful, textured, vibrant colors, Vincent van Gogh style, Paul Gauguin style"
+        }
+    }
+}

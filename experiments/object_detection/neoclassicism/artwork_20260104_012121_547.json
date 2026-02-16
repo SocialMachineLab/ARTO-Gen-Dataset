@@ -1,0 +1,281 @@
+{
+    "artwork_id": "artwork_20260104_012121_547",
+    "generation_timestamp": "2026-01-04T01:22:00.733559",
+    "style": "Neoclassicism",
+    "objects": {
+        "object_ids": [
+            58,
+            5,
+            48
+        ],
+        "object_names": [
+            "blanket",
+            "airship",
+            "cherry"
+        ],
+        "enhanced_objects": [
+            {
+                "object_id": 58,
+                "name": "blanket",
+                "artistic_description": "A richly textured woolen blanket with a classical damask pattern, its surface catching the mixed gallery lighting with subtle highlights and soft shadows. The fabric displays a warm, muted ochre base with cream-colored motifs that glow softly under the ambient light, while the deep folds create areas of gentle chiaroscuro. The weave appears dense and well-preserved, with a slight sheen that suggests careful curation and protective display.",
+                "size": "Medium",
+                "state": "pristine, museum-quality preservation with gentle aging appropriate to contemporary historical display",
+                "primary_colors": [
+                    "warm ochre",
+                    "cream"
+                ],
+                "material": "wool"
+            },
+            {
+                "object_id": 5,
+                "name": "airship",
+                "artistic_description": "A meticulously crafted toy airship rendered in polished brass and varnished wood, its miniature envelope catching warm highlights from the mixed lighting. The metallic surfaces reflect light with a soft, golden luminosity, while the wooden gondola displays rich amber tones with subtle grain patterns visible under the bright, active atmosphere. Delicate rigging wires create fine, glinting lines, and the overall patina suggests careful preservation rather than newness.",
+                "size": "Small",
+                "state": "carefully maintained vintage toy with gentle wear consistent with museum display",
+                "primary_colors": [
+                    "golden brass",
+                    "rich amber"
+                ],
+                "material": "brass and wood"
+            },
+            {
+                "object_id": 48,
+                "name": "cherry",
+                "artistic_description": "A single ceramic cherry rendered with exceptional verisimilitude, its glossy glaze capturing the bright gallery atmosphere with jewel-like saturation. The deep crimson fruit body shows subtle variations from ruby to burgundy under the mixed lighting, while the verdant green stem and leaf provide a classical color contrast. The surface reflects light with a smooth, lustrous quality, and a painted highlight on the curved form creates the illusion of dew-fresh vitality despite its permanent nature.",
+                "size": "Marginal",
+                "state": "immaculate ceramic reproduction with flawless glaze and crisp detailing",
+                "primary_colors": [
+                    "crimson",
+                    "verdant green"
+                ],
+                "material": "ceramic"
+            }
+        ]
+    },
+    "composition": {
+        "spatial_relations": [
+            [
+                58,
+                "on",
+                5
+            ],
+            [
+                48,
+                "next to",
+                5
+            ]
+        ],
+        "semantic_relations": []
+    },
+    "environment": {
+        "environment_details": {
+            "scene_brief": "A Historical Museum Exhibit centered around blanket, with toy airship, and cherry displayed on shelves",
+            "place365_name": "/m/museum/indoor",
+            "place365_id": 236,
+            "time_of_day": "afternoon",
+            "weather": null,
+            "period": "Contemporary",
+            "is_indoor": true,
+            "lighting": {
+                "type": "mixed",
+                "quality": "soft",
+                "direction": "side-lit",
+                "mood": "warm",
+                "reasoning": "Museum lighting combines natural light from windows (soft afternoon sun) with artificial gallery lighting. Side-lighting creates gentle shadows that add depth to the displayed objects (blanket, toy airship, cherry) while maintaining the elegant, refined atmosphere characteristic of Neoclassical art. The warm quality enhances the historical and contemplative mood."
+            },
+            "atmosphere": "bright and active and gentle"
+        },
+        "scene_inference": {
+            "all_candidates": [
+                {
+                    "scene_type": "Neoclassical Nursery",
+                    "plausibility": 0.9,
+                    "reasoning": "The blanket serves as the primary comfort object in a nursery. The airship exists as a detailed wooden or tin toy model on a shelf, and the cherry is a small ceramic motif on a blanket or a toy fruit.",
+                    "object_interpretations": {
+                        "blanket": {
+                            "form": "real textile",
+                            "scale": "normal",
+                            "role": "primary comfort object in crib"
+                        },
+                        "airship": {
+                            "form": "toy model",
+                            "scale": "miniature",
+                            "role": "decorative toy on shelf"
+                        },
+                        "cherry": {
+                            "form": "ceramic motif",
+                            "scale": "small",
+                            "role": "decoration on blanket"
+                        }
+                    }
+                },
+                {
+                    "scene_type": "Grand Neoclassical Bedroom",
+                    "plausibility": 0.85,
+                    "reasoning": "A luxurious bed with a draped blanket. The airship is a large painting hanging on the wall in the Neoclassical style. The cherry is a realistic fruit on a bedside table.",
+                    "object_interpretations": {
+                        "blanket": {
+                            "form": "real bedding",
+                            "scale": "normal",
+                            "role": "primary covering for bed"
+                        },
+                        "airship": {
+                            "form": "painting",
+                            "scale": "large",
+                            "role": "wall art"
+                        },
+                        "cherry": {
+                            "form": "real fruit",
+                            "scale": "normal",
+                            "role": "still life element on table"
+                        }
+                    }
+                },
+                {
+                    "scene_type": "Historical Museum Exhibit",
+                    "plausibility": 0.8,
+                    "reasoning": "A display case containing a historical blanket. Beside it, a scale model of an airship from the era. A preserved cherry in a jar represents botanical history.",
+                    "object_interpretations": {
+                        "blanket": {
+                            "form": "artifact",
+                            "scale": "normal",
+                            "role": "primary exhibit item"
+                        },
+                        "airship": {
+                            "form": "scale model",
+                            "scale": "miniature",
+                            "role": "exhibit prop"
+                        },
+                        "cherry": {
+                            "form": "preserved specimen",
+                            "scale": "small",
+                            "role": "botanical display"
+                        }
+                    },
+                    "scene_brief": "A Historical Museum Exhibit centered around blanket, with toy airship, and cherry displayed on shelves"
+                },
+                {
+                    "scene_type": "Neoclassical Garden Picnic",
+                    "plausibility": 0.9,
+                    "reasoning": "A blanket is spread on the grass for a picnic. A toy airship is being flown by a child nearby. A bowl of cherries sits on the blanket.",
+                    "object_interpretations": {
+                        "blanket": {
+                            "form": "outdoor textile",
+                            "scale": "normal",
+                            "role": "picnic surface"
+                        },
+                        "airship": {
+                            "form": "toy",
+                            "scale": "small",
+                            "role": "play object"
+                        },
+                        "cherry": {
+                            "form": "real fruit",
+                            "scale": "normal",
+                            "role": "food"
+                        }
+                    }
+                },
+                {
+                    "scene_type": "Art Studio (Neoclassical Style)",
+                    "plausibility": 0.85,
+                    "reasoning": "A draped blanket serves as a backdrop for a still life. A sketch of an airship is pinned to the wall. A bowl of cherries is the subject of the painting.",
+                    "object_interpretations": {
+                        "blanket": {
+                            "form": "studio prop",
+                            "scale": "normal",
+                            "role": "backdrop/fabric study"
+                        },
+                        "airship": {
+                            "form": "sketch/drawing",
+                            "scale": "variable",
+                            "role": "reference material"
+                        },
+                        "cherry": {
+                            "form": "still life object",
+                            "scale": "normal",
+                            "role": "subject of study"
+                        }
+                    }
+                },
+                {
+                    "scene_type": "Vintage Airship Cabin",
+                    "plausibility": 0.75,
+                    "reasoning": "The interior of a luxurious airship. A velvet blanket is on a seat. The airship structure surrounds the scene. A cherry is on a tray as refreshment.",
+                    "object_interpretations": {
+                        "blanket": {
+                            "form": "travel blanket",
+                            "scale": "normal",
+                            "role": "comfort item"
+                        },
+                        "airship": {
+                            "form": "architecture",
+                            "scale": "large",
+                            "role": "environment"
+                        },
+                        "cherry": {
+                            "form": "food",
+                            "scale": "normal",
+                            "role": "refreshment"
+                        }
+                    }
+                },
+                {
+                    "scene_type": "Neoclassical Still Life",
+                    "plausibility": 0.95,
+                    "reasoning": "A formal composition on a table. A rich blanket covers the table. A miniature airship model is a curiosity object. A bowl of cherries is the focal fruit.",
+                    "object_interpretations": {
+                        "blanket": {
+                            "form": "tablecloth",
+                            "scale": "normal",
+                            "role": "surface covering"
+                        },
+                        "airship": {
+                            "form": "model",
+                            "scale": "small",
+                            "role": "curiosity/decor"
+                        },
+                        "cherry": {
+                            "form": "real fruit",
+                            "scale": "normal",
+                            "role": "food subject"
+                        }
+                    }
+                }
+            ],
+            "selected_scene": {
+                "scene_type": "Historical Museum Exhibit",
+                "plausibility": 0.8,
+                "reasoning": "A display case containing a historical blanket. Beside it, a scale model of an airship from the era. A preserved cherry in a jar represents botanical history.",
+                "object_interpretations": {
+                    "blanket": {
+                        "form": "artifact",
+                        "scale": "normal",
+                        "role": "primary exhibit item"
+                    },
+                    "airship": {
+                        "form": "scale model",
+                        "scale": "miniature",
+                        "role": "exhibit prop"
+                    },
+                    "cherry": {
+                        "form": "preserved specimen",
+                        "scale": "small",
+                        "role": "botanical display"
+                    }
+                },
+                "scene_brief": "A Historical Museum Exhibit centered around blanket, with toy airship, and cherry displayed on shelves"
+            }
+        }
+    },
+    "final_prompts": {
+        "main_prompt": "A Neoclassicism painting depicting a carefully maintained vintage toy airship of small size, crafted from golden brass and rich amber wood, resting upon a sun-drenched marble surface in the soft afternoon light. A pristine wool blanket in warm ochre and cream tones is draped elegantly across the airship's gondola, its folds arranged with classical precision. Beside the airship rests an immaculate ceramic cherry of marginal size, its crimson surface and verdant green stem rendered with flawless detail, positioned as if recently placed. The scene is bathed in mixed soft lighting that creates gentle shadows, with a bright and active yet gentle atmosphere suggesting a moment of quiet play or display in an elegant interior space, where classical composition and harmonious color relationships evoke balance and refined beauty.",
+        "negative_prompt": "photorealistic, 3d render, modern, digital art, photograph, low quality, blurry, distorted, surreal, abstract, cartoon, anime, pop art, impressionism, baroque, romanticism, dark, gloomy, chaotic, cluttered, deformed, ugly, text, watermark, signature, frame, border",
+        "prompt_formats": {
+            "simple": "A Neoclassical painting of a vintage brass airship with an ochre blanket draped over it and a ceramic cherry beside it, set in soft afternoon light.",
+            "complex": "A Neoclassicism painting depicting a carefully maintained vintage toy airship of small size, crafted from golden brass and rich amber wood, resting upon a sun-drenched marble surface in the soft afternoon light. A pristine wool blanket in warm ochre and cream tones is draped elegantly across the airship's gondola, its folds arranged with classical precision. Beside the airship rests an immaculate ceramic cherry of marginal size, its crimson surface and verdant green stem rendered with flawless detail, positioned as if recently placed. The scene is bathed in mixed soft lighting that creates gentle shadows, with a bright and active yet gentle atmosphere suggesting a moment of quiet play or display in an elegant interior space, where classical composition and harmonious color relationships evoke balance and refined beauty.",
+            "comma_separated": "Neoclassicism painting, vintage toy airship, golden brass and amber wood, small size, carefully maintained, ochre and cream wool blanket, pristine, draped on airship, ceramic cherry, crimson with green stem, immaculate, marginal size, beside airship, soft afternoon lighting, mixed light, bright active gentle atmosphere, classical composition, elegant interior, marble surface, harmonious colors, detailed rendering",
+            "tags": "art, painting, neoclassicism, vintage airship, brass, wood, wool blanket, ceramic cherry, still life, classical composition, afternoon light, elegant, detailed, harmonious colors, toy, play, display, interior scene"
+        }
+    }
+}

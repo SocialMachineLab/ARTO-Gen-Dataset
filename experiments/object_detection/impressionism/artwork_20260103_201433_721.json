@@ -1,0 +1,313 @@
+{
+    "artwork_id": "artwork_20260103_201433_721",
+    "generation_timestamp": "2026-01-03T20:15:17.657026",
+    "style": "Impressionism",
+    "objects": {
+        "object_ids": [
+            79,
+            75,
+            20
+        ],
+        "object_names": [
+            "comb",
+            "clock",
+            "cow"
+        ],
+        "enhanced_objects": [
+            {
+                "object_id": 79,
+                "name": "comb",
+                "artistic_description": "Delicate ivory teeth catch the muted morning light through cloud-filtered windows, creating soft pearlescent highlights along the curved spine. The fine grooves between teeth hold subtle shadows in cool gray tones, while the polished surface diffuses the gentle illumination into barely perceptible warm reflections. Brushstroke-like wear patterns emerge along the handle where countless fingers have smoothed the material over time.",
+                "size": "Small",
+                "state": "well-worn with smooth patina",
+                "primary_colors": [
+                    "ivory",
+                    "soft gray"
+                ],
+                "material": "ivory"
+            },
+            {
+                "object_id": 75,
+                "name": "clock",
+                "artistic_description": "Weathered brass face glows with subdued golden warmth against the cool, cloudy morning light. The roman numerals appear as softened impressions rather than sharp edges, their edges blurred by the diffused natural illumination. Patinaed surfaces absorb and scatter light in uneven patches, creating a tapestry of muted yellows and weathered browns that speak of contemporary domestic history.",
+                "size": "Medium",
+                "state": "aged with natural patina",
+                "primary_colors": [
+                    "warm brass",
+                    "weathered gold"
+                ],
+                "material": "brass"
+            },
+            {
+                "object_id": 20,
+                "name": "cow",
+                "artistic_description": "Model cow's painted hide catches the subdued morning atmosphere in dappled patches of creamy white and soft charcoal, the matte finish absorbing rather than reflecting the gentle light. Subtle brushwork suggests the texture of real hide while the form remains softened by the diffused cloudy illumination. Gentle shadows pool around the sculpted curves, rendered in cool blue-gray tones that harmonize with the fresh, energetic yet subdued studio mood.",
+                "size": "Large",
+                "state": "artistic model in pristine condition",
+                "primary_colors": [
+                    "creamy white",
+                    "charcoal"
+                ],
+                "material": "papier-m\u00e2ch\u00e9"
+            }
+        ]
+    },
+    "composition": {
+        "spatial_relations": [
+            [
+                79,
+                "next to",
+                75
+            ],
+            [
+                75,
+                "next to",
+                79
+            ],
+            [
+                20,
+                "behind",
+                75
+            ],
+            [
+                20,
+                "behind",
+                79
+            ]
+        ],
+        "semantic_relations": []
+    },
+    "environment": {
+        "environment_details": {
+            "scene_brief": "A Impressionist Art Studio featuring comb, with clock, and cow model",
+            "place365_name": "/a/art_studio",
+            "place365_id": 21,
+            "time_of_day": "morning",
+            "weather": "cloudy",
+            "period": "Contemporary",
+            "is_indoor": true,
+            "lighting": {
+                "type": "natural",
+                "quality": "soft",
+                "direction": "side-lit",
+                "mood": "cool",
+                "reasoning": "A studio setting typically relies on large windows for illumination. Morning light filtered through clouds creates a soft, cool, side-lit quality that is quintessential for the Impressionist style of capturing atmospheric conditions."
+            },
+            "atmosphere": "fresh and energetic and subdued and gentle"
+        },
+        "scene_inference": {
+            "all_candidates": [
+                {
+                    "scene_type": "Impressionist Farmhouse Interior",
+                    "plausibility": 0.85,
+                    "reasoning": "A rustic farmhouse setting naturally accommodates a cow (as a farm animal), a clock (common household item), and a comb (personal grooming item). The Impressionist style softens the scene with light and color.",
+                    "object_interpretations": {
+                        "comb": {
+                            "form": "real wooden comb",
+                            "scale": "normal",
+                            "role": "personal grooming tool on a dresser"
+                        },
+                        "clock": {
+                            "form": "real wall clock",
+                            "scale": "normal",
+                            "role": "timekeeping device on the wall"
+                        },
+                        "cow": {
+                            "form": "real cow",
+                            "scale": "normal/large",
+                            "role": "farm animal visible through the window in the pasture"
+                        }
+                    }
+                },
+                {
+                    "scene_type": "Impressionist Garden",
+                    "plausibility": 0.8,
+                    "reasoning": "A garden scene where a cow grazes, a clock sits on a garden table, and a comb is left on a bench after a moment of grooming in the sun.",
+                    "object_interpretations": {
+                        "comb": {
+                            "form": "real comb",
+                            "scale": "normal",
+                            "role": "personal item on a garden bench"
+                        },
+                        "clock": {
+                            "form": "ornate garden clock",
+                            "scale": "normal",
+                            "role": "decorative timepiece on a wrought iron table"
+                        },
+                        "cow": {
+                            "form": "real cow",
+                            "scale": "normal/large",
+                            "role": "grazing animal in the meadow"
+                        }
+                    }
+                },
+                {
+                    "scene_type": "Impressionist Bedroom",
+                    "plausibility": 0.75,
+                    "reasoning": "A bedroom scene where the primary object is a comb on a vanity. A clock on the nightstand tells time. A cow appears as a decorative motif or artwork on the wall.",
+                    "object_interpretations": {
+                        "comb": {
+                            "form": "real comb",
+                            "scale": "normal",
+                            "role": "grooming tool on vanity"
+                        },
+                        "clock": {
+                            "form": "real alarm clock",
+                            "scale": "normal",
+                            "role": "timekeeping on nightstand"
+                        },
+                        "cow": {
+                            "form": "painting/print",
+                            "scale": "normal",
+                            "role": "wall art/decor"
+                        }
+                    }
+                },
+                {
+                    "scene_type": "Impressionist Art Studio",
+                    "plausibility": 0.7,
+                    "reasoning": "An artist's studio where a comb is part of a still life arrangement, a clock indicates the time, and a cow is the subject of a painting or a model on the table.",
+                    "object_interpretations": {
+                        "comb": {
+                            "form": "real comb",
+                            "scale": "normal",
+                            "role": "still life object"
+                        },
+                        "clock": {
+                            "form": "real clock",
+                            "scale": "normal",
+                            "role": "studio clock"
+                        },
+                        "cow": {
+                            "form": "small model or painting",
+                            "scale": "small/normal",
+                            "role": "artist's subject"
+                        }
+                    },
+                    "scene_brief": "A Impressionist Art Studio featuring comb, with clock, and cow model"
+                },
+                {
+                    "scene_type": "Impressionist Picnic",
+                    "plausibility": 0.8,
+                    "reasoning": "A picnic scene on a grassy hill. A cow is in the distance. A clock is on the picnic blanket to check the time. A comb is among the personal items.",
+                    "object_interpretations": {
+                        "comb": {
+                            "form": "real comb",
+                            "scale": "normal",
+                            "role": "personal accessory"
+                        },
+                        "clock": {
+                            "form": "pocket watch",
+                            "scale": "small",
+                            "role": "timekeeping"
+                        },
+                        "cow": {
+                            "form": "real cow",
+                            "scale": "large",
+                            "role": "background grazing animal"
+                        }
+                    }
+                },
+                {
+                    "scene_type": "Impressionist Market",
+                    "plausibility": 0.75,
+                    "reasoning": "A bustling market scene. A cow is being sold or displayed. A clock tower is in the background. A comb is sold at a vendor's stall.",
+                    "object_interpretations": {
+                        "comb": {
+                            "form": "display comb",
+                            "scale": "normal",
+                            "role": "merchandise"
+                        },
+                        "clock": {
+                            "form": "clock tower",
+                            "scale": "large",
+                            "role": "landmark"
+                        },
+                        "cow": {
+                            "form": "real cow",
+                            "scale": "normal",
+                            "role": "livestock"
+                        }
+                    }
+                },
+                {
+                    "scene_type": "Impressionist Beach",
+                    "plausibility": 0.65,
+                    "reasoning": "A beach scene where a cow is a quirky visitor (perhaps a cow-shaped float or a real cow on the dunes). A clock is on a towel. A comb is used for hair.",
+                    "object_interpretations": {
+                        "comb": {
+                            "form": "real comb",
+                            "scale": "normal",
+                            "role": "beach accessory"
+                        },
+                        "clock": {
+                            "form": "travel clock",
+                            "scale": "small",
+                            "role": "timekeeping on towel"
+                        },
+                        "cow": {
+                            "form": "float or distant cow",
+                            "scale": "variable",
+                            "role": "novelty or background element"
+                        }
+                    }
+                },
+                {
+                    "scene_type": "Impressionist Vintage Shop",
+                    "plausibility": 0.8,
+                    "reasoning": "A cluttered antique shop. A comb is on display. A clock is on the counter. A cow is a figurine or painting among the items.",
+                    "object_interpretations": {
+                        "comb": {
+                            "form": "antique comb",
+                            "scale": "normal",
+                            "role": "collectible"
+                        },
+                        "clock": {
+                            "form": "mantel clock",
+                            "scale": "normal",
+                            "role": "antique"
+                        },
+                        "cow": {
+                            "form": "figurine or print",
+                            "scale": "small/normal",
+                            "role": "decoration"
+                        }
+                    }
+                }
+            ],
+            "selected_scene": {
+                "scene_type": "Impressionist Art Studio",
+                "plausibility": 0.7,
+                "reasoning": "An artist's studio where a comb is part of a still life arrangement, a clock indicates the time, and a cow is the subject of a painting or a model on the table.",
+                "object_interpretations": {
+                    "comb": {
+                        "form": "real comb",
+                        "scale": "normal",
+                        "role": "still life object"
+                    },
+                    "clock": {
+                        "form": "real clock",
+                        "scale": "normal",
+                        "role": "studio clock"
+                    },
+                    "cow": {
+                        "form": "small model or painting",
+                        "scale": "small/normal",
+                        "role": "artist's subject"
+                    }
+                },
+                "scene_brief": "A Impressionist Art Studio featuring comb, with clock, and cow model"
+            }
+        }
+    },
+    "final_prompts": {
+        "main_prompt": "A Impressionism painting depicting a fresh and energetic yet subdued and gentle morning scene. In the foreground, a small, well-worn ivory and soft gray comb with a smooth patina rests beside a medium-sized clock crafted from warm brass and weathered gold, its aged surface showing a natural patina. Directly behind both objects, a large cow with creamy white and charcoal markings stands as an artistic model in pristine condition, its form rendered with loose, expressive brushstrokes. The spatial arrangement creates a triangular composition where the comb is positioned next to the clock, and the cow looms behind both, partially obscuring the background. Soft, natural morning light filters through the scene, casting gentle shadows and illuminating the delicate textures of the ivory comb, the reflective brass clock, and the cow's serene presence. The overall atmosphere feels fresh and energetic yet simultaneously subdued and gentle, captured through the characteristic Impressionist technique of broken color and visible brushwork that suggests rather than defines forms.",
+        "negative_prompt": "photorealistic, 3d render, modern, digital art, photograph, low quality, blurry, distorted, surreal, abstract, cartoon, anime, hyperrealistic, ugly, deformed, bad anatomy, text, watermark, signature",
+        "prompt_formats": {
+            "simple": "An Impressionist morning scene with a comb beside a clock and a cow behind them, rendered in soft natural light.",
+            "complex": "A Impressionism painting depicting a fresh and energetic yet subdued and gentle morning scene. In the foreground, a small, well-worn ivory and soft gray comb with a smooth patina rests beside a medium-sized clock crafted from warm brass and weathered gold, its aged surface showing a natural patina. Directly behind both objects, a large cow with creamy white and charcoal markings stands as an artistic model in pristine condition, its form rendered with loose, expressive brushstrokes. The spatial arrangement creates a triangular composition where the comb is positioned next to the clock, and the cow looms behind both, partially obscuring the background. Soft, natural morning light filters through the scene, casting gentle shadows and illuminating the delicate textures of the ivory comb, the reflective brass clock, and the cow's serene presence. The overall atmosphere feels fresh and energetic yet simultaneously subdued and gentle, captured through the characteristic Impressionist technique of broken color and visible brushwork that suggests rather than defines forms.",
+            "comma_separated": "Impressionism painting, morning scene, small ivory comb, medium brass clock, large creamy white cow, comb next to clock, cow behind clock and comb, natural soft lighting, fresh energetic subdued gentle atmosphere, loose brushstrokes, broken color, artistic composition",
+            "tags": "art, painting, impressionism, still life, animal, morning light, brass, ivory, pastoral, Claude Monet style, Pierre-Auguste Renoir influence, textured brushwork"
+        }
+    }
+}

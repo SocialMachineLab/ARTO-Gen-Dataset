@@ -1,0 +1,347 @@
+{
+    "artwork_id": "artwork_20260103_170748_520",
+    "generation_timestamp": "2026-01-03T17:08:20.774351",
+    "style": "Impressionism",
+    "objects": {
+        "object_ids": [
+            61,
+            57,
+            25
+        ],
+        "object_names": [
+            "side table",
+            "chair",
+            "sack"
+        ],
+        "enhanced_objects": [
+            {
+                "object_id": 61,
+                "name": "side table",
+                "artistic_description": "Soft-edged wooden surface bathed in diffused gray-white light, its warm honey-brown tones muted and cooled by the cloudy afternoon, edges dissolving into gentle atmospheric haze. The top shows subtle scuff marks and a faint patina that catches scattered light in muted highlights, while the legs cast soft, indistinct shadows that blur into the surrounding air.",
+                "size": "Medium",
+                "state": "well-worn but sturdy, showing gentle signs of everyday use",
+                "primary_colors": [
+                    "muted honey-brown",
+                    "cool gray"
+                ],
+                "material": "wood"
+            },
+            {
+                "object_id": 57,
+                "name": "chair",
+                "artistic_description": "Upholstered in fabric that appears as soft dabs of dusty rose and muted taupe, the pile catching scattered daylight in velvety textures. The wooden frame shows warm chestnut tones that cool to brown-gray in the subdued light, with visible brushstroke-like variations in the fabric where wear has softened the fibers.",
+                "size": "Large",
+                "state": "comfortably aged with softened cushions and gentle wear on armrests",
+                "primary_colors": [
+                    "dusty rose",
+                    "muted taupe"
+                ],
+                "material": "fabric and wood"
+            },
+            {
+                "object_id": 25,
+                "name": "sack",
+                "artistic_description": "Rough-woven burlap rendered in strokes of warm ochre and cool sand, the coarse texture creating a mosaic of light and shadow even in the gentle illumination. Fibers catch the muted daylight in tiny highlights, while folds create deep, soft shadows that blur the form's edges, suggesting organic movement.",
+                "size": "Small",
+                "state": "empty and casually draped, showing natural fiber texture",
+                "primary_colors": [
+                    "warm ochre",
+                    "cool sand"
+                ],
+                "material": "burlap"
+            }
+        ]
+    },
+    "composition": {
+        "spatial_relations": [
+            [
+                61,
+                "next to",
+                57
+            ],
+            [
+                25,
+                "on",
+                61
+            ]
+        ],
+        "semantic_relations": []
+    },
+    "environment": {
+        "environment_details": {
+            "scene_brief": "A cozy reading nook featuring side table as the main functional element, with chair, and decorative sack as decoration",
+            "place365_name": "/l/living_room",
+            "place365_id": 215,
+            "time_of_day": "afternoon",
+            "weather": "cloudy",
+            "period": "Contemporary",
+            "is_indoor": true,
+            "lighting": {
+                "type": "natural",
+                "quality": "soft",
+                "direction": "side-lit",
+                "mood": "warm",
+                "reasoning": "Natural soft lighting from a window would gently illuminate the reading nook, creating the intimate atmosphere needed for this scene. Side-lit lighting is characteristic of Impressionism and would beautifully highlight the textures of the chair, side table, and decorative sack while creating gentle gradations of light and shadow that define the cozy space."
+            },
+            "atmosphere": "bright and active and subdued and gentle"
+        },
+        "scene_inference": {
+            "all_candidates": [
+                {
+                    "scene_type": "cozy reading nook",
+                    "plausibility": 0.95,
+                    "reasoning": "A side table is a natural anchor for a reading nook, placed next to a comfortable chair. A sack could be a decorative pouf or a bag of books/blankets, adding to the cozy, lived-in atmosphere typical of Impressionist domestic scenes.",
+                    "object_interpretations": {
+                        "side table": {
+                            "form": "real furniture",
+                            "scale": "normal",
+                            "role": "primary functional object"
+                        },
+                        "chair": {
+                            "form": "real furniture",
+                            "scale": "normal",
+                            "role": "secondary functional object"
+                        },
+                        "sack": {
+                            "form": "decorative pouf or fabric bag",
+                            "scale": "normal",
+                            "role": "decorative/functional accent"
+                        }
+                    },
+                    "scene_brief": "A cozy reading nook featuring side table as the main functional element, with chair, and decorative sack as decoration"
+                },
+                {
+                    "scene_type": "sunlit garden patio",
+                    "plausibility": 0.9,
+                    "reasoning": "Outdoor furniture often includes side tables and chairs for relaxation. A sack could be a gardener's bag for tools or a sack of soil/fertilizer, creating a rustic, natural scene with dappled light.",
+                    "object_interpretations": {
+                        "side table": {
+                            "form": "real outdoor furniture",
+                            "scale": "normal",
+                            "role": "primary functional object"
+                        },
+                        "chair": {
+                            "form": "real outdoor furniture",
+                            "scale": "normal",
+                            "role": "secondary functional object"
+                        },
+                        "sack": {
+                            "form": "gardener's sack",
+                            "scale": "normal",
+                            "role": "functional prop"
+                        }
+                    }
+                },
+                {
+                    "scene_type": "art studio corner",
+                    "plausibility": 0.85,
+                    "reasoning": "An artist's studio is filled with objects. A side table holds paints or brushes, a chair is for the artist, and a sack could hold canvases or rags, fitting the creative clutter of an artist's space.",
+                    "object_interpretations": {
+                        "side table": {
+                            "form": "real furniture",
+                            "scale": "normal",
+                            "role": "primary functional object"
+                        },
+                        "chair": {
+                            "form": "real furniture",
+                            "scale": "normal",
+                            "role": "secondary functional object"
+                        },
+                        "sack": {
+                            "form": "canvas or supply bag",
+                            "scale": "normal",
+                            "role": "functional prop"
+                        }
+                    }
+                },
+                {
+                    "scene_type": "vintage living room",
+                    "plausibility": 0.9,
+                    "reasoning": "A classic living room setup with a side table between chairs. A sack could be a vintage fabric laundry bag or a storage sack for firewood, adding a touch of rustic charm.",
+                    "object_interpretations": {
+                        "side table": {
+                            "form": "real vintage furniture",
+                            "scale": "normal",
+                            "role": "primary functional object"
+                        },
+                        "chair": {
+                            "form": "real vintage furniture",
+                            "scale": "normal",
+                            "role": "secondary functional object"
+                        },
+                        "sack": {
+                            "form": "fabric storage sack",
+                            "scale": "normal",
+                            "role": "decorative storage"
+                        }
+                    }
+                },
+                {
+                    "scene_type": "rustic kitchen",
+                    "plausibility": 0.85,
+                    "reasoning": "In a rustic kitchen, a small side table can hold utensils. A chair is for seating, and a sack could be a flour sack or potato sack, common in traditional kitchens.",
+                    "object_interpretations": {
+                        "side table": {
+                            "form": "real furniture",
+                            "scale": "normal",
+                            "role": "primary functional object"
+                        },
+                        "chair": {
+                            "form": "real furniture",
+                            "scale": "normal",
+                            "role": "secondary functional object"
+                        },
+                        "sack": {
+                            "form": "potato/flour sack",
+                            "scale": "normal",
+                            "role": "functional prop"
+                        }
+                    }
+                },
+                {
+                    "scene_type": "bedroom corner",
+                    "plausibility": 0.9,
+                    "reasoning": "A side table is essential next to a bed or reading chair. A sack could be a laundry bag or a decorative fabric ottoman, softening the room's aesthetic.",
+                    "object_interpretations": {
+                        "side table": {
+                            "form": "real furniture",
+                            "scale": "normal",
+                            "role": "primary functional object"
+                        },
+                        "chair": {
+                            "form": "real furniture",
+                            "scale": "normal",
+                            "role": "secondary functional object"
+                        },
+                        "sack": {
+                            "form": "laundry bag or fabric pouf",
+                            "scale": "normal",
+                            "role": "decorative/functional accent"
+                        }
+                    }
+                },
+                {
+                    "scene_type": "bohemian lounge",
+                    "plausibility": 0.8,
+                    "reasoning": "Bohemian spaces mix textures and objects. A side table holds eclectic items, a chair is for lounging, and a sack could be a Moroccan pouf or a bag of textiles.",
+                    "object_interpretations": {
+                        "side table": {
+                            "form": "real furniture",
+                            "scale": "normal",
+                            "role": "primary functional object"
+                        },
+                        "chair": {
+                            "form": "real furniture",
+                            "scale": "normal",
+                            "role": "secondary functional object"
+                        },
+                        "sack": {
+                            "form": "Moroccan pouf or textile bag",
+                            "scale": "normal",
+                            "role": "decorative accent"
+                        }
+                    }
+                },
+                {
+                    "scene_type": "country porch",
+                    "plausibility": 0.85,
+                    "reasoning": "A porch setting with chairs and a side table for drinks. A sack could be a feed sack or a bag of kindling, evoking rural life.",
+                    "object_interpretations": {
+                        "side table": {
+                            "form": "real outdoor furniture",
+                            "scale": "normal",
+                            "role": "primary functional object"
+                        },
+                        "chair": {
+                            "form": "real outdoor furniture",
+                            "scale": "normal",
+                            "role": "secondary functional object"
+                        },
+                        "sack": {
+                            "form": "feed or kindling sack",
+                            "scale": "normal",
+                            "role": "functional prop"
+                        }
+                    }
+                },
+                {
+                    "scene_type": "bedroom with vanity",
+                    "plausibility": 0.85,
+                    "reasoning": "A side table can serve as a vanity stand. A chair is for sitting, and a sack could be a jewelry pouch or fabric storage bag.",
+                    "object_interpretations": {
+                        "side table": {
+                            "form": "real furniture",
+                            "scale": "normal",
+                            "role": "primary functional object"
+                        },
+                        "chair": {
+                            "form": "real furniture",
+                            "scale": "normal",
+                            "role": "secondary functional object"
+                        },
+                        "sack": {
+                            "form": "jewelry pouch or fabric bag",
+                            "scale": "normal",
+                            "role": "decorative storage"
+                        }
+                    }
+                },
+                {
+                    "scene_type": "artistic interior",
+                    "plausibility": 0.8,
+                    "reasoning": "A stylized interior where the side table is the focal point. A chair is present, and a sack is a sculptural fabric form, emphasizing texture and shape in an Impressionist style.",
+                    "object_interpretations": {
+                        "side table": {
+                            "form": "real furniture",
+                            "scale": "normal",
+                            "role": "primary object"
+                        },
+                        "chair": {
+                            "form": "real furniture",
+                            "scale": "normal",
+                            "role": "secondary object"
+                        },
+                        "sack": {
+                            "form": "sculptural fabric form",
+                            "scale": "normal",
+                            "role": "decorative accent"
+                        }
+                    }
+                }
+            ],
+            "selected_scene": {
+                "scene_type": "cozy reading nook",
+                "plausibility": 0.95,
+                "reasoning": "A side table is a natural anchor for a reading nook, placed next to a comfortable chair. A sack could be a decorative pouf or a bag of books/blankets, adding to the cozy, lived-in atmosphere typical of Impressionist domestic scenes.",
+                "object_interpretations": {
+                    "side table": {
+                        "form": "real furniture",
+                        "scale": "normal",
+                        "role": "primary functional object"
+                    },
+                    "chair": {
+                        "form": "real furniture",
+                        "scale": "normal",
+                        "role": "secondary functional object"
+                    },
+                    "sack": {
+                        "form": "decorative pouf or fabric bag",
+                        "scale": "normal",
+                        "role": "decorative/functional accent"
+                    }
+                },
+                "scene_brief": "A cozy reading nook featuring side table as the main functional element, with chair, and decorative sack as decoration"
+            }
+        }
+    },
+    "final_prompts": {
+        "main_prompt": "A Impressionism painting depicting a bright and active yet subdued and gentle afternoon interior scene. In the foreground, a large, comfortably aged chair in dusty rose and muted taupe fabric sits with softened cushions, its wooden frame showing gentle wear. Immediately beside it, a medium-sized side table in muted honey-brown and cool gray wood stands well-worn but sturdy. Casually draped atop this side table rests a small, empty sack in warm ochre and cool sand burlap, its fabric loosely folded. Natural soft afternoon light streams into the room through an unseen window, casting dappled, shifting patterns of light and shadow that dissolve edges and blend colors, creating an atmosphere that is both vibrant and tranquil, where the quiet activity of the light animates the still-life composition of wood, fabric, and burlap.",
+        "negative_prompt": "photorealistic, 3d render, modern, digital art, photograph, low quality, blurry, distorted, ugly, deformed, cartoon, anime, text, signature, watermark, frame, border, hyperdetailed, oversaturated",
+        "prompt_formats": {
+            "simple": "An Impressionist painting of a chair beside a side table with a draped sack, bathed in soft afternoon light.",
+            "complex": "A Impressionism painting depicting a bright and active yet subdued and gentle afternoon interior scene. In the foreground, a large, comfortably aged chair in dusty rose and muted taupe fabric sits with softened cushions, its wooden frame showing gentle wear. Immediately beside it, a medium-sized side table in muted honey-brown and cool gray wood stands well-worn but sturdy. Casually draped atop this side table rests a small, empty sack in warm ochre and cool sand burlap, its fabric loosely folded. Natural soft afternoon light streams into the room through an unseen window, casting dappled, shifting patterns of light and shadow that dissolve edges and blend colors, creating an atmosphere that is both vibrant and tranquil, where the quiet activity of the light animates the still-life composition of wood, fabric, and burlap.",
+            "comma_separated": "Impressionism painting, interior scene, large chair, dusty rose, muted taupe, softened cushions, medium side table, muted honey-brown, cool gray wood, well-worn, small sack, warm ochre, cool sand burlap, empty and draped, chair beside table, sack on table, soft natural afternoon light, dappled light and shadow, bright active subdued gentle atmosphere, wood fabric burlap materials, brushstrokes, color blending",
+            "tags": "art, painting, impressionism, interior, still life, chair, side table, sack, afternoon light, soft lighting, dappled light, color study, fabric texture, wood texture, burlap texture, Claude Monet, Pierre-Auguste Renoir style"
+        }
+    }
+}

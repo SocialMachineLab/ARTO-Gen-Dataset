@@ -1,0 +1,303 @@
+{
+    "artwork_id": "artwork_20260103_041236_274",
+    "generation_timestamp": "2026-01-03T04:13:06.800731",
+    "style": "Post-Impressionism",
+    "objects": {
+        "object_ids": [
+            75,
+            50,
+            48
+        ],
+        "object_names": [
+            "clock",
+            "lemon",
+            "plum"
+        ],
+        "enhanced_objects": [
+            {
+                "object_id": 75,
+                "name": "clock",
+                "artistic_description": "A contemporary wall clock with bold, simplified forms rendered in thick, confident brushstrokes. The afternoon natural light creates sharp contrasts between the bright white face and deep cast shadows. The metallic frame catches light with impasto highlights in titanium white and pale yellow, while the numerals are suggested with quick, angular strokes of Payne's grey. The glass surface reflects a distorted, luminous patch of the bright studio window.",
+                "size": "Medium",
+                "state": "clean and functional, with slight wear on the metallic edges",
+                "primary_colors": [
+                    "brilliant white",
+                    "Payne's grey"
+                ],
+                "material": "metal and glass"
+            },
+            {
+                "object_id": 50,
+                "name": "lemon",
+                "artistic_description": "A vibrant, elongated citrus rendered with thick, buttery impasto strokes that capture the intense afternoon light. The yellow surface explodes with cadmium yellow, lemon yellow, and touches of orange where the sun hits most directly, while the opposite side falls into warm ochre shadows. The matte skin texture is suggested through short, directional strokes, and a small greenish stem nub provides a cool accent. The fruit's form is sculpted entirely through color temperature shifts rather than line.",
+                "size": "Small",
+                "state": "fresh and firm, with a dry, matte skin",
+                "primary_colors": [
+                    "cadmium yellow",
+                    "lemon yellow"
+                ],
+                "material": "fruit skin"
+            },
+            {
+                "object_id": 48,
+                "name": "plum",
+                "artistic_description": "A deep purple plum rendered with rich, velvety strokes of alizarin crimson mixed with ultramarine blue. The afternoon light catches a subtle highlight of magenta on its rounded shoulder, while the crevice near the stem gathers into near-black shadows. The waxy skin has a slight sheen, captured with touches of pure white mixed into the purple. The color is saturated and jewel-like, with visible brushwork that gives the surface a tactile, almost fabric-like quality.",
+                "size": "Small",
+                "state": "ripe and slightly dewy, with concentrated color",
+                "primary_colors": [
+                    "deep plum purple",
+                    "crimson"
+                ],
+                "material": "fruit skin"
+            }
+        ]
+    },
+    "composition": {
+        "spatial_relations": [
+            [
+                75,
+                "on",
+                50
+            ],
+            [
+                75,
+                "next to",
+                48
+            ]
+        ],
+        "semantic_relations": []
+    },
+    "environment": {
+        "environment_details": {
+            "scene_brief": "A Art Studio Desk featuring clock, with lemon, and plum",
+            "place365_name": "/a/art_studio",
+            "place365_id": 21,
+            "time_of_day": "afternoon",
+            "weather": null,
+            "period": "Contemporary",
+            "is_indoor": true,
+            "lighting": {
+                "type": "natural",
+                "quality": "harsh",
+                "direction": "side-lit",
+                "mood": "warm",
+                "reasoning": "To support the Post-Impressionist style, lighting should be distinct and form-defining. A warm, harsh side-light from an afternoon sun creates strong contrasts and sharp shadows, allowing the artist to emphasize the geometric shapes of the clock and the organic forms of the fruit with vibrant, saturated colors."
+            },
+            "atmosphere": "bright and active"
+        },
+        "scene_inference": {
+            "all_candidates": [
+                {
+                    "scene_type": "Post-Impressionist Kitchen Interior",
+                    "plausibility": 0.95,
+                    "reasoning": "A rustic kitchen scene typical of Post-Impressionism (like Van Gogh's 'The Potato Eaters' but with fruit). The clock marks the time for a meal, while the lemon and plum are fresh ingredients on a wooden table, ready for cooking or still life arrangement.",
+                    "object_interpretations": {
+                        "clock": {
+                            "form": "real wall clock",
+                            "scale": "normal",
+                            "role": "primary timekeeping object"
+                        },
+                        "lemon": {
+                            "form": "real fruit",
+                            "scale": "normal",
+                            "role": "secondary food item"
+                        },
+                        "plum": {
+                            "form": "real fruit",
+                            "scale": "normal",
+                            "role": "secondary food item"
+                        }
+                    }
+                },
+                {
+                    "scene_type": "Market Stall Still Life",
+                    "plausibility": 0.92,
+                    "reasoning": "A vibrant outdoor market scene with a merchant's clock displayed alongside fresh produce. The clock serves as a decorative or functional element for the stall, while lemons and plums are arranged in baskets as colorful merchandise.",
+                    "object_interpretations": {
+                        "clock": {
+                            "form": "decorative pocket watch or small wall clock",
+                            "scale": "small to normal",
+                            "role": "decorative/functional stall element"
+                        },
+                        "lemon": {
+                            "form": "real fruit",
+                            "scale": "normal",
+                            "role": "primary merchandise"
+                        },
+                        "plum": {
+                            "form": "real fruit",
+                            "scale": "normal",
+                            "role": "primary merchandise"
+                        }
+                    }
+                },
+                {
+                    "scene_type": "Art Studio Desk",
+                    "plausibility": 0.88,
+                    "reasoning": "An artist's studio desk where the clock tracks painting time. The lemon and plum are arranged as still life subjects for a Post-Impressionist painting, possibly on a palette or beside brushes.",
+                    "object_interpretations": {
+                        "clock": {
+                            "form": "desk clock",
+                            "scale": "small",
+                            "role": "timekeeping for artist"
+                        },
+                        "lemon": {
+                            "form": "real fruit (still life subject)",
+                            "scale": "normal",
+                            "role": "artistic subject"
+                        },
+                        "plum": {
+                            "form": "real fruit (still life subject)",
+                            "scale": "normal",
+                            "role": "artistic subject"
+                        }
+                    },
+                    "scene_brief": "A Art Studio Desk featuring clock, with lemon, and plum"
+                },
+                {
+                    "scene_type": "Dining Room Table Setting",
+                    "plausibility": 0.9,
+                    "reasoning": "A formal dining scene with a wall clock overseeing the meal. The lemon and plum are placed as part of a centerpiece or dessert arrangement, adding color and symbolism to the table.",
+                    "object_interpretations": {
+                        "clock": {
+                            "form": "wall clock",
+                            "scale": "normal",
+                            "role": "environmental timekeeper"
+                        },
+                        "lemon": {
+                            "form": "real fruit",
+                            "scale": "normal",
+                            "role": "decorative/edible centerpiece"
+                        },
+                        "plum": {
+                            "form": "real fruit",
+                            "scale": "normal",
+                            "role": "decorative/edible centerpiece"
+                        }
+                    }
+                },
+                {
+                    "scene_type": "Garden Conservatory",
+                    "plausibility": 0.85,
+                    "reasoning": "A glass-enclosed garden space where a weather-resistant clock hangs on the wall. Lemon and plum trees grow nearby, with fallen fruit collected on a bench beneath the clock.",
+                    "object_interpretations": {
+                        "clock": {
+                            "form": "weatherproof wall clock",
+                            "scale": "normal",
+                            "role": "primary timekeeper"
+                        },
+                        "lemon": {
+                            "form": "real fruit",
+                            "scale": "normal",
+                            "role": "natural element from tree"
+                        },
+                        "plum": {
+                            "form": "real fruit",
+                            "scale": "normal",
+                            "role": "natural element from tree"
+                        }
+                    }
+                },
+                {
+                    "scene_type": "Vintage Shop Interior",
+                    "plausibility": 0.82,
+                    "reasoning": "An antique shop display where an ornate clock is the centerpiece, surrounded by decorative objects. The lemon and plum are either real fruit in a bowl or ceramic representations as vintage decor.",
+                    "object_interpretations": {
+                        "clock": {
+                            "form": "antique mantel clock",
+                            "scale": "normal",
+                            "role": "primary display object"
+                        },
+                        "lemon": {
+                            "form": "ceramic or real fruit",
+                            "scale": "normal",
+                            "role": "decorative accent"
+                        },
+                        "plum": {
+                            "form": "ceramic or real fruit",
+                            "scale": "normal",
+                            "role": "decorative accent"
+                        }
+                    }
+                },
+                {
+                    "scene_type": "Post-Impressionist Caf\u00e9 Terrace",
+                    "plausibility": 0.8,
+                    "reasoning": "A caf\u00e9 scene reminiscent of Post-Impressionist works (like Caf\u00e9 Terrace at Night). The clock on the wall marks the hour, while lemon and plum are placed on tables as garnish or dessert items.",
+                    "object_interpretations": {
+                        "clock": {
+                            "form": "wall clock",
+                            "scale": "normal",
+                            "role": "environmental timekeeper"
+                        },
+                        "lemon": {
+                            "form": "real fruit slice",
+                            "scale": "small",
+                            "role": "garnish/drink decoration"
+                        },
+                        "plum": {
+                            "form": "real fruit",
+                            "scale": "normal",
+                            "role": "dessert item"
+                        }
+                    }
+                },
+                {
+                    "scene_type": "Farmhouse Pantry",
+                    "plausibility": 0.93,
+                    "reasoning": "A rustic pantry shelf with a simple clock mounted on the wall. Baskets of lemons and plums are stored for preservation, creating a functional storage scene.",
+                    "object_interpretations": {
+                        "clock": {
+                            "form": "simple wall clock",
+                            "scale": "normal",
+                            "role": "primary timekeeper"
+                        },
+                        "lemon": {
+                            "form": "real fruit",
+                            "scale": "normal",
+                            "role": "stored produce"
+                        },
+                        "plum": {
+                            "form": "real fruit",
+                            "scale": "normal",
+                            "role": "stored produce"
+                        }
+                    }
+                }
+            ],
+            "selected_scene": {
+                "scene_type": "Art Studio Desk",
+                "plausibility": 0.88,
+                "reasoning": "An artist's studio desk where the clock tracks painting time. The lemon and plum are arranged as still life subjects for a Post-Impressionist painting, possibly on a palette or beside brushes.",
+                "object_interpretations": {
+                    "clock": {
+                        "form": "desk clock",
+                        "scale": "small",
+                        "role": "timekeeping for artist"
+                    },
+                    "lemon": {
+                        "form": "real fruit (still life subject)",
+                        "scale": "normal",
+                        "role": "artistic subject"
+                    },
+                    "plum": {
+                        "form": "real fruit (still life subject)",
+                        "scale": "normal",
+                        "role": "artistic subject"
+                    }
+                },
+                "scene_brief": "A Art Studio Desk featuring clock, with lemon, and plum"
+            }
+        }
+    },
+    "final_prompts": {
+        "main_prompt": "A Post-Impressionism painting depicting a bright and active afternoon scene with harsh natural lighting. In the foreground, a brilliant white and Payne's grey clock sits atop a small, fresh and firm cadmium yellow lemon. Beside this arrangement rests a small, ripe and slightly dewy plum in deep plum purple and crimson hues. The composition features bold, visible brushstrokes characteristic of Post-Impressionism, with the metallic and glass surfaces of the clean, functional clock contrasting against the organic textures of the fruit skins. The harsh afternoon light creates strong shadows and highlights, emphasizing the geometric forms and vibrant color palette in a dynamic, visually rich arrangement.",
+        "negative_prompt": "photorealistic, 3d render, modern, digital art, photograph, low quality, blurry, distorted, surreal, abstract, cartoon, anime, watermark, signature, text, frame",
+        "prompt_formats": {
+            "simple": "A Post-Impressionism painting of a clock on a lemon next to a plum in harsh afternoon light.",
+            "complex": "A Post-Impressionism painting depicting a bright and active afternoon scene with harsh natural lighting. In the foreground, a brilliant white and Payne's grey clock sits atop a small, fresh and firm cadmium yellow lemon. Beside this arrangement rests a small, ripe and slightly dewy plum in deep plum purple and crimson hues. The composition features bold, visible brushstrokes characteristic of Post-Impressionism, with the metallic and glass surfaces of the clean, functional clock contrasting against the organic textures of the fruit skins. The harsh afternoon light creates strong shadows and highlights, emphasizing the geometric forms and vibrant color palette in a dynamic, visually rich arrangement.",
+            "comma_separated": "Post-Impressionism painting, clock on lemon next to plum, brilliant white and Payne's grey clock, cadmium yellow lemon, deep plum purple plum, harsh natural afternoon lighting, bright and active atmosphere, visible brushstrokes, geometric forms, vibrant colors, strong shadows and highlights",
+            "tags": "art, painting, post-impressionism, still life, clock, lemon, plum, afternoon lighting, harsh light, vibrant colors, visible brushstrokes, geometric composition"
+        }
+    }
+}

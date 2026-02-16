@@ -1,0 +1,340 @@
+{
+    "artwork_id": "artwork_20260103_042837_161",
+    "generation_timestamp": "2026-01-03T04:29:07.186417",
+    "style": "Post-Impressionism",
+    "objects": {
+        "object_ids": [
+            40,
+            76,
+            72,
+            3
+        ],
+        "object_names": [
+            "wine bottle",
+            "vase",
+            "sink",
+            "cart"
+        ],
+        "enhanced_objects": [
+            {
+                "object_id": 40,
+                "name": "wine bottle",
+                "artistic_description": "A deep emerald glass bottle catching afternoon sunlight, its curved surface alive with dancing prismatic highlights and warm amber reflections from the interior. The label glows with creamy parchment tones, while the dark glass reveals subtle violet undertones where light penetrates. Golden highlights race along the cylindrical form, creating bold impasto strokes of pure color against the rich, saturated shadows.",
+                "size": "Medium",
+                "state": "pristine contemporary bottle with condensation beads",
+                "primary_colors": [
+                    "emerald green",
+                    "golden amber"
+                ],
+                "material": "glass"
+            },
+            {
+                "object_id": 76,
+                "name": "vase",
+                "artistic_description": "A ceramic vessel rendered in thick, visible brushstrokes of creamy white and buttery yellow glaze. Sunlight sculpts its rounded form with soft, luminous highlights that melt into gentle peach and rose shadows. The matte surface absorbs light with a velvety warmth, while subtle craquelure patterns catch the brightness, creating a tapestry of delicate golden lines across its belly.",
+                "size": "Small",
+                "state": "well-loved vintage piece with gentle wear",
+                "primary_colors": [
+                    "creamy white",
+                    "warm peach"
+                ],
+                "material": "ceramic"
+            },
+            {
+                "object_id": 72,
+                "name": "sink",
+                "artistic_description": "A porcelain basin transformed by brilliant sunlight into a canvas of stark contrasts. The white surface blazes with pure, reflected light, while the deep basin pools with cool azure and slate shadows. Water droplets scattered across the rim catch the sun like tiny diamonds, each one a point of intense white brilliance against the smooth, luminous curves.",
+                "size": "Large",
+                "state": "clean and gleaming with recent use",
+                "primary_colors": [
+                    "brilliant white",
+                    "cool azure"
+                ],
+                "material": "porcelain"
+            },
+            {
+                "object_id": 3,
+                "name": "cart",
+                "artistic_description": "A wooden cart painted in cheerful buttery yellows and warm ochres, its surfaces alive with dappled sunlight filtering through nearby windows. The aged wood grain shows through in rich umber strokes, while metal hardware glints with sharp silver highlights. Broad, confident brushwork captures the sturdy form, with deep violet shadows pooling beneath and around its structure.",
+                "size": "Large",
+                "state": "sturdy and functional with weathered charm",
+                "primary_colors": [
+                    "buttery yellow",
+                    "warm ochre"
+                ],
+                "material": "wood"
+            }
+        ]
+    },
+    "composition": {
+        "spatial_relations": [
+            [
+                40,
+                "on",
+                3
+            ],
+            [
+                76,
+                "on",
+                3
+            ],
+            [
+                72,
+                "next to",
+                3
+            ]
+        ],
+        "semantic_relations": []
+    },
+    "environment": {
+        "environment_details": {
+            "scene_brief": "A country kitchen centered around wine bottle, with decorative vase as decoration, sink, and cart",
+            "place365_name": "/k/kitchen",
+            "place365_id": 203,
+            "time_of_day": "afternoon",
+            "weather": "sunny",
+            "period": "Contemporary",
+            "is_indoor": true,
+            "lighting": {
+                "type": "natural",
+                "quality": "soft",
+                "direction": "side-lit",
+                "mood": "warm",
+                "reasoning": "Side-lit natural light from sunny afternoon creates gentle shadows and warm highlights, ideal for Post-Impressionist color exploration. This lighting would beautifully render the translucent qualities of the wine bottle and vase while providing even illumination across the kitchen space with warm, inviting tones."
+            },
+            "atmosphere": "bright and active and cheerful and gentle"
+        },
+        "scene_inference": {
+            "all_candidates": [
+                {
+                    "scene_type": "country kitchen",
+                    "plausibility": 0.95,
+                    "reasoning": "A rustic country kitchen is a natural habitat for a wine bottle. The sink is a standard fixture. A cart can hold wine bottles and produce. A vase with flowers adds a decorative touch, completing the domestic scene.",
+                    "object_interpretations": {
+                        "wine bottle": {
+                            "form": "real bottle",
+                            "scale": "normal",
+                            "role": "primary object on the counter"
+                        },
+                        "sink": {
+                            "form": "real sink",
+                            "scale": "normal",
+                            "role": "functional fixture"
+                        },
+                        "cart": {
+                            "form": "rolling utility cart",
+                            "scale": "normal",
+                            "role": "storage for bottles and produce"
+                        },
+                        "vase": {
+                            "form": "ceramic vase with flowers",
+                            "scale": "normal",
+                            "role": "decorative element"
+                        }
+                    },
+                    "scene_brief": "A country kitchen centered around wine bottle, with decorative vase as decoration, sink, and cart"
+                },
+                {
+                    "scene_type": "wine cellar",
+                    "plausibility": 0.98,
+                    "reasoning": "The wine bottle is the protagonist in its natural storage environment. A utility cart is essential for moving cases. A deep stone sink is common in cellars for cleaning. A vase might be an odd decorative choice, but could hold dried flowers on a shelf.",
+                    "object_interpretations": {
+                        "wine bottle": {
+                            "form": "real bottle",
+                            "scale": "normal",
+                            "role": "primary stored good"
+                        },
+                        "cart": {
+                            "form": "wooden dolly",
+                            "scale": "normal",
+                            "role": "transportation tool"
+                        },
+                        "sink": {
+                            "form": "deep stone utility sink",
+                            "scale": "normal",
+                            "role": "cleaning fixture"
+                        },
+                        "vase": {
+                            "form": "simple earthenware vase",
+                            "scale": "normal",
+                            "role": "decorative accent on a rack"
+                        }
+                    }
+                },
+                {
+                    "scene_type": "vintage bistro",
+                    "plausibility": 0.92,
+                    "reasoning": "The setting is a dining area. The wine bottle is on the table. A vase holds fresh flowers. A service cart is used by waiters. A sink is visible in the background near the bar area.",
+                    "object_interpretations": {
+                        "wine bottle": {
+                            "form": "real bottle",
+                            "scale": "normal",
+                            "role": "dining centerpiece"
+                        },
+                        "vase": {
+                            "form": "glass vase",
+                            "scale": "normal",
+                            "role": "table decoration"
+                        },
+                        "cart": {
+                            "form": "serving cart",
+                            "scale": "normal",
+                            "role": "waiter's tool"
+                        },
+                        "sink": {
+                            "form": "bar sink",
+                            "scale": "normal",
+                            "role": "background fixture"
+                        }
+                    }
+                },
+                {
+                    "scene_type": "art studio",
+                    "plausibility": 0.85,
+                    "reasoning": "The objects are arranged as a still life composition. The wine bottle is the main subject. The vase might be empty or hold brushes. The sink is for cleaning brushes. The cart holds art supplies.",
+                    "object_interpretations": {
+                        "wine bottle": {
+                            "form": "real bottle",
+                            "scale": "normal",
+                            "role": "still life subject"
+                        },
+                        "vase": {
+                            "form": "clay vase",
+                            "scale": "normal",
+                            "role": "brush holder"
+                        },
+                        "sink": {
+                            "form": "painters sink",
+                            "scale": "normal",
+                            "role": "utility fixture"
+                        },
+                        "cart": {
+                            "form": "rolling art cart",
+                            "scale": "normal",
+                            "role": "supply storage"
+                        }
+                    }
+                },
+                {
+                    "scene_type": "outdoor garden party",
+                    "plausibility": 0.8,
+                    "reasoning": "A festive setting. The wine bottle is on a table. A vase holds flowers. A garden sink is for washing hands. A serving cart holds extra glasses and food.",
+                    "object_interpretations": {
+                        "wine bottle": {
+                            "form": "real bottle",
+                            "scale": "normal",
+                            "role": "party refreshment"
+                        },
+                        "vase": {
+                            "form": "pitcher acting as vase",
+                            "scale": "normal",
+                            "role": "floral decoration"
+                        },
+                        "sink": {
+                            "form": "outdoor garden sink",
+                            "scale": "normal",
+                            "role": "utility"
+                        },
+                        "cart": {
+                            "form": "patio serving cart",
+                            "scale": "normal",
+                            "role": "service station"
+                        }
+                    }
+                },
+                {
+                    "scene_type": "grocery store aisle",
+                    "plausibility": 0.75,
+                    "reasoning": "The wine bottle is on a shelf for sale. A vase is also sold in the home goods section. A sink is a display model in the kitchen section. A cart is what the shopper pushes.",
+                    "object_interpretations": {
+                        "wine bottle": {
+                            "form": "retail bottle",
+                            "scale": "normal",
+                            "role": "product for sale"
+                        },
+                        "vase": {
+                            "form": "packaged vase",
+                            "scale": "normal",
+                            "role": "product for sale"
+                        },
+                        "sink": {
+                            "form": "display sink",
+                            "scale": "normal",
+                            "role": "showroom fixture"
+                        },
+                        "cart": {
+                            "form": "shopping cart",
+                            "scale": "normal",
+                            "role": "customer utility"
+                        }
+                    }
+                },
+                {
+                    "scene_type": "surreal still life",
+                    "plausibility": 0.9,
+                    "reasoning": "In Post-Impressionism, objects are stylized. A wine bottle sits on a table. A vase floats. A sink is on the table. A cart hangs on the wall. The logic is dreamlike but visually coherent.",
+                    "object_interpretations": {
+                        "wine bottle": {
+                            "form": "stylized bottle",
+                            "scale": "normal",
+                            "role": "central subject"
+                        },
+                        "vase": {
+                            "form": "geometric vase",
+                            "scale": "normal",
+                            "role": "abstract shape"
+                        },
+                        "sink": {
+                            "form": "simplified sink",
+                            "scale": "normal",
+                            "role": "textural element"
+                        },
+                        "cart": {
+                            "form": "linear cart drawing",
+                            "scale": "normal",
+                            "role": "background pattern"
+                        }
+                    }
+                }
+            ],
+            "selected_scene": {
+                "scene_type": "country kitchen",
+                "plausibility": 0.95,
+                "reasoning": "A rustic country kitchen is a natural habitat for a wine bottle. The sink is a standard fixture. A cart can hold wine bottles and produce. A vase with flowers adds a decorative touch, completing the domestic scene.",
+                "object_interpretations": {
+                    "wine bottle": {
+                        "form": "real bottle",
+                        "scale": "normal",
+                        "role": "primary object on the counter"
+                    },
+                    "sink": {
+                        "form": "real sink",
+                        "scale": "normal",
+                        "role": "functional fixture"
+                    },
+                    "cart": {
+                        "form": "rolling utility cart",
+                        "scale": "normal",
+                        "role": "storage for bottles and produce"
+                    },
+                    "vase": {
+                        "form": "ceramic vase with flowers",
+                        "scale": "normal",
+                        "role": "decorative element"
+                    }
+                },
+                "scene_brief": "A country kitchen centered around wine bottle, with decorative vase as decoration, sink, and cart"
+            }
+        }
+    },
+    "final_prompts": {
+        "main_prompt": "A Post-Impressionism painting depicting a bright and cheerful afternoon scene in a sunlit kitchen. In the foreground, a large, sturdy cart in buttery yellow and warm ochre stands prominently, its weathered wooden surface showing signs of functional use. Upon this cart rests a medium-sized, pristine contemporary wine bottle in vibrant emerald green and golden amber, its glass surface catching the soft natural light. Beside the bottle sits a small, well-loved vintage vase in creamy white and warm peach, its ceramic form displaying gentle wear patterns. To the right of the cart, a large, brilliant white sink with cool azure accents gleams cleanly, showing signs of recent use. The entire composition is bathed in the gentle, active atmosphere of afternoon light, with visible brushstrokes creating a sense of movement and vitality. The cheerful mood is enhanced by the interplay of complementary colors and the harmonious arrangement of glass, ceramic, porcelain, and wood materials throughout the scene.",
+        "negative_prompt": "photorealistic, 3d render, modern, digital art, photograph, low quality, blurry, distorted, dark, gloomy, surreal, abstract, cartoon, anime, sketch, watermark, signature, text, frame, border",
+        "prompt_formats": {
+            "simple": "A Post-Impressionism painting of a cheerful afternoon kitchen scene with a wine bottle and vase on a yellow cart next to a white sink.",
+            "complex": "A Post-Impressionism painting depicting a bright and cheerful afternoon scene in a sunlit kitchen. In the foreground, a large, sturdy cart in buttery yellow and warm ochre stands prominently, its weathered wooden surface showing signs of functional use. Upon this cart rests a medium-sized, pristine contemporary wine bottle in vibrant emerald green and golden amber, its glass surface catching the soft natural light. Beside the bottle sits a small, well-loved vintage vase in creamy white and warm peach, its ceramic form displaying gentle wear patterns. To the right of the cart, a large, brilliant white sink with cool azure accents gleams cleanly, showing signs of recent use. The entire composition is bathed in the gentle, active atmosphere of afternoon light, with visible brushstrokes creating a sense of movement and vitality. The cheerful mood is enhanced by the interplay of complementary colors and the harmonious arrangement of glass, ceramic, porcelain, and wood materials throughout the scene.",
+            "comma_separated": "Post-Impressionism painting, afternoon kitchen scene, wine bottle on cart, vase on cart, sink beside cart, emerald green wine bottle, creamy white vase, buttery yellow cart, brilliant white sink, natural soft lighting, bright cheerful atmosphere, visible brushstrokes, complementary colors, glass ceramic porcelain wood materials",
+            "tags": "art, painting, post-impressionism, kitchen scene, still life, wine bottle, vase, sink, cart, afternoon light, cheerful atmosphere, color harmony, brushstroke texture, vintage objects, contemporary objects"
+        }
+    }
+}

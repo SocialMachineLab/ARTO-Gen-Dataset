@@ -1,0 +1,259 @@
+{
+    "artwork_id": "artwork_20260103_173136_736",
+    "generation_timestamp": "2026-01-03T17:32:04.215891",
+    "style": "Impressionism",
+    "objects": {
+        "object_ids": [
+            79,
+            47,
+            31
+        ],
+        "object_names": [
+            "comb",
+            "banana",
+            "sleigh"
+        ],
+        "enhanced_objects": [
+            {
+                "object_id": 79,
+                "name": "comb",
+                "artistic_description": "A delicate vintage comb with fine teeth catches the mixed afternoon light filtering through the cloudy sky, its surface rendered in soft, broken strokes of warm amber and cool gray. The metallic edges shimmer with subtle highlights where light strikes, while shadows fall in gentle violet and blue tones. Its polished surface shows faint reflections of the surrounding brightness, creating a dappled impression of light and color that dissolves at the edges.",
+                "size": "Small",
+                "state": "vintage, well-preserved with gentle wear",
+                "primary_colors": [
+                    "warm amber",
+                    "cool gray"
+                ],
+                "material": "metal"
+            },
+            {
+                "object_id": 47,
+                "name": "banana",
+                "artistic_description": "A ripe banana rests with its curved form rendered in loose, visible brushstrokes of golden yellow and soft ochre, warmed by the ambient indoor lighting. The cloudy daylight outside softens the shadows, creating gentle transitions from bright yellow to deep brownish-purple at the bruised spots. Its matte skin absorbs light rather than reflecting it, giving it a velvety, painterly appearance with subtle green undertones near the stem.",
+                "size": "Medium",
+                "state": "fresh but ripening, showing slight softening",
+                "primary_colors": [
+                    "golden yellow",
+                    "soft ochre"
+                ],
+                "material": "organic"
+            },
+            {
+                "object_id": 31,
+                "name": "sleigh",
+                "artistic_description": "A toy sleigh is captured in impressionistic dabs of crimson red and dark cherry, its painted wood showing the gentle weathering of time. The mixed lighting creates patches of warm glow and cool shadow across its curved runners and body, with the cloudy atmosphere muting the saturation to create a nostalgic, dreamy quality. Fine cracks in the paint appear as delicate lines of darker tone, while highlights suggest worn edges where the wood has been handled.",
+                "size": "Medium",
+                "state": "aged toy, decorative with gentle wear",
+                "primary_colors": [
+                    "crimson red",
+                    "dark cherry"
+                ],
+                "material": "wood"
+            }
+        ]
+    },
+    "composition": {
+        "spatial_relations": [
+            [
+                79,
+                "on",
+                47
+            ],
+            [
+                31,
+                "next to",
+                47
+            ]
+        ],
+        "semantic_relations": []
+    },
+    "environment": {
+        "environment_details": {
+            "scene_brief": "A Vintage Curio Shop featuring comb, with banana displayed on shelves, and toy sleigh as decoration",
+            "place365_name": "/g/gift_shop",
+            "place365_id": 162,
+            "time_of_day": "afternoon",
+            "weather": "cloudy",
+            "period": "Modern",
+            "is_indoor": true,
+            "lighting": {
+                "type": "mixed",
+                "quality": "soft",
+                "direction": "side-lit",
+                "mood": "warm",
+                "reasoning": "Mixed lighting combines natural light from windows (cloudy day) with warm artificial light from shop fixtures, typical of indoor retail spaces. Soft quality from cloudy weather diffuses shadows. Side-lighting from windows creates gentle dimensionality on shelves, allowing the Impressionist brushwork to capture light playing on various surfaces and objects without harsh contrast."
+            },
+            "atmosphere": "bright and active and subdued and gentle"
+        },
+        "scene_inference": {
+            "all_candidates": [
+                {
+                    "scene_type": "Art Studio",
+                    "plausibility": 0.95,
+                    "reasoning": "An artist's studio is a natural habitat for creative objects. The comb is a tool for the artist, the banana is a still life subject or a snack, and the sleigh is a miniature model used as a reference for a winter painting.",
+                    "object_interpretations": {
+                        "comb": {
+                            "form": "real comb",
+                            "scale": "normal",
+                            "role": "artist's tool for creating texture in paint or hair"
+                        },
+                        "banana": {
+                            "form": "real banana",
+                            "scale": "normal",
+                            "role": "still life subject or artist's snack"
+                        },
+                        "sleigh": {
+                            "form": "model sleigh",
+                            "scale": "miniature",
+                            "role": "decorative prop or reference model for a painting"
+                        }
+                    }
+                },
+                {
+                    "scene_type": "Vintage Curio Shop",
+                    "plausibility": 0.9,
+                    "reasoning": "A cluttered antique shop can house disparate items. The comb is a vintage grooming item, the banana is a kitschy ceramic fruit decoration, and the sleigh is a wooden toy from a past era.",
+                    "object_interpretations": {
+                        "comb": {
+                            "form": "vintage comb",
+                            "scale": "normal",
+                            "role": "antique grooming item for sale"
+                        },
+                        "banana": {
+                            "form": "ceramic banana",
+                            "scale": "normal",
+                            "role": "kitschy fruit decoration on a shelf"
+                        },
+                        "sleigh": {
+                            "form": "wooden toy sleigh",
+                            "scale": "small",
+                            "role": "vintage toy or decorative winter item"
+                        }
+                    },
+                    "scene_brief": "A Vintage Curio Shop featuring comb, with banana displayed on shelves, and toy sleigh as decoration"
+                },
+                {
+                    "scene_type": "Surreal Dreamscape",
+                    "plausibility": 0.85,
+                    "reasoning": "In an Impressionist dreamscape, logic blurs. The comb might be a giant object in a field, the banana a boat on a river of milk, and the sleigh flying through a sky of soft colors.",
+                    "object_interpretations": {
+                        "comb": {
+                            "form": "giant comb",
+                            "scale": "large",
+                            "role": "landmark or strange natural formation"
+                        },
+                        "banana": {
+                            "form": "boat-like banana",
+                            "scale": "large",
+                            "role": "transportation vessel on a surreal river"
+                        },
+                        "sleigh": {
+                            "form": "flying sleigh",
+                            "scale": "normal",
+                            "role": "vehicle in the sky"
+                        }
+                    }
+                },
+                {
+                    "scene_type": "Children's Playroom",
+                    "plausibility": 0.9,
+                    "reasoning": "A playroom is full of toys and random items. The comb is a toy for dolls, the banana is a plush toy, and the sleigh is a ride-on toy or a wooden pull-toy.",
+                    "object_interpretations": {
+                        "comb": {
+                            "form": "toy comb",
+                            "scale": "small",
+                            "role": "doll accessory"
+                        },
+                        "banana": {
+                            "form": "plush banana",
+                            "scale": "small",
+                            "role": "soft toy"
+                        },
+                        "sleigh": {
+                            "form": "wooden sleigh",
+                            "scale": "small",
+                            "role": "ride-on toy or pull-toy"
+                        }
+                    }
+                },
+                {
+                    "scene_type": "Winter Picnic",
+                    "plausibility": 0.8,
+                    "reasoning": "A quirky picnic in a snowy landscape. The sleigh is the transport, the banana is part of the unusual winter picnic food, and the comb is used by a person to fix their hair.",
+                    "object_interpretations": {
+                        "comb": {
+                            "form": "real comb",
+                            "scale": "normal",
+                            "role": "personal grooming item"
+                        },
+                        "banana": {
+                            "form": "real banana",
+                            "scale": "normal",
+                            "role": "winter picnic snack"
+                        },
+                        "sleigh": {
+                            "form": "real sleigh",
+                            "scale": "large",
+                            "role": "transportation vehicle"
+                        }
+                    }
+                },
+                {
+                    "scene_type": "Breakfast Table",
+                    "plausibility": 0.85,
+                    "reasoning": "A breakfast setting where items coexist. The banana is food on the table, the comb is a grooming item left nearby, and a small model sleigh is a centerpiece decoration.",
+                    "object_interpretations": {
+                        "comb": {
+                            "form": "real comb",
+                            "scale": "normal",
+                            "role": "grooming item left on table"
+                        },
+                        "banana": {
+                            "form": "real banana",
+                            "scale": "normal",
+                            "role": "breakfast food"
+                        },
+                        "sleigh": {
+                            "form": "model sleigh",
+                            "scale": "small",
+                            "role": "table centerpiece decoration"
+                        }
+                    }
+                }
+            ],
+            "selected_scene": {
+                "scene_type": "Vintage Curio Shop",
+                "plausibility": 0.9,
+                "reasoning": "A cluttered antique shop can house disparate items. The comb is a vintage grooming item, the banana is a kitschy ceramic fruit decoration, and the sleigh is a wooden toy from a past era.",
+                "object_interpretations": {
+                    "comb": {
+                        "form": "vintage comb",
+                        "scale": "normal",
+                        "role": "antique grooming item for sale"
+                    },
+                    "banana": {
+                        "form": "ceramic banana",
+                        "scale": "normal",
+                        "role": "kitschy fruit decoration on a shelf"
+                    },
+                    "sleigh": {
+                        "form": "wooden toy sleigh",
+                        "scale": "small",
+                        "role": "vintage toy or decorative winter item"
+                    }
+                },
+                "scene_brief": "A Vintage Curio Shop featuring comb, with banana displayed on shelves, and toy sleigh as decoration"
+            }
+        }
+    },
+    "final_prompts": {
+        "main_prompt": "A Impressionism painting depicting a bright and active yet subdued and gentle afternoon scene. In the foreground, a medium-sized, fresh but ripening banana in golden yellow and soft ochre tones rests on a wooden surface, its organic form catching the mixed soft lighting. A small, vintage comb in warm amber and cool gray sits atop the banana's curved surface, its metal teeth glinting subtly. Beside the banana, a medium-sized, aged toy sleigh in crimson red and dark cherry wood leans slightly, its worn edges and textured surface suggesting years of gentle use. The spatial arrangement creates a triangular composition, with the comb on the banana and the sleigh positioned closely next to it, all bathed in the warm, dappled light of late afternoon that filters through an unseen window, casting soft shadows and creating a harmonious interplay of color and light.",
+        "negative_prompt": "photorealistic, 3d render, modern, digital art, photograph, low quality, blurry, distorted, oversaturated, cartoon, anime, surreal, abstract, text, watermark, signature, frame, border, ugly, deformed, mutated",
+        "prompt_formats": {
+            "simple": "An Impressionist painting of a comb on a banana with a sleigh beside it in soft afternoon light.",
+            "complex": "A Impressionism painting depicting a bright and active yet subdued and gentle afternoon scene. In the foreground, a medium-sized, fresh but ripening banana in golden yellow and soft ochre tones rests on a wooden surface, its organic form catching the mixed soft lighting. A small, vintage comb in warm amber and cool gray sits atop the banana's curved surface, its metal teeth glinting subtly. Beside the banana, a medium-sized, aged toy sleigh in crimson red and dark cherry wood leans slightly, its worn edges and textured surface suggesting years of gentle use. The spatial arrangement creates a triangular composition, with the comb on the banana and the sleigh positioned closely next to it, all bathed in the warm, dappled light of late afternoon that filters through an unseen window, casting soft shadows and creating a harmonious interplay of color and light.",
+            "comma_separated": "Impressionism painting, comb on banana, sleigh next to banana, vintage comb, ripening banana, aged toy sleigh, warm amber comb, golden yellow banana, crimson red sleigh, soft afternoon lighting, bright active subdued gentle atmosphere, dappled light, wooden surface, organic materials, metal comb, textured composition",
+            "tags": "art, painting, impressionism, still life, vintage, toy, fruit, afternoon light, soft lighting, color study, texture, composition, Claude Monet style, Pierre-Auguste Renoir style"
+        }
+    }
+}

@@ -1,0 +1,393 @@
+{
+    "artwork_id": "artwork_20260103_033049_754",
+    "generation_timestamp": "2026-01-03T03:31:25.294981",
+    "style": "Post-Impressionism",
+    "objects": {
+        "object_ids": [
+            15,
+            10,
+            16,
+            17
+        ],
+        "object_names": [
+            "bird",
+            "lamp post",
+            "cat",
+            "dog"
+        ],
+        "enhanced_objects": [
+            {
+                "object_id": 15,
+                "name": "bird",
+                "artistic_description": "A small creature rendered with bold, visible brushstrokes in deep indigo and violet, its form suggested through rhythmic dabs of color. The cloudy twilight creates a muted, velvety appearance on its feathers, with subtle hints of burnt sienna where the fading sunlight catches the edges of its wings. Its eye glints as a single, sharp dot of pale yellow against the shadowy head.",
+                "size": "Small",
+                "state": "Perched and alert, feathers slightly fluffed against the cool evening air",
+                "primary_colors": [
+                    "deep indigo",
+                    "burnt sienna"
+                ],
+                "material": "feathers"
+            },
+            {
+                "object_id": 10,
+                "name": "lamp post",
+                "artistic_description": "A tall, angular structure painted with thick, impasto strokes of oxidized copper green and deep umber. The cloudy dusk casts a flat, cool gray light across its metal surface, making it appear matte and weathered. The unlit glass globe at the top is a murky, reflective orb showing distorted patches of the darkening sky in slate blue and muted lavender.",
+                "size": "Large",
+                "state": "Weathered and silent, bearing the patina of urban exposure",
+                "primary_colors": [
+                    "oxidized copper green",
+                    "deep umber"
+                ],
+                "material": "metal and glass"
+            },
+            {
+                "object_id": 16,
+                "name": "cat",
+                "artistic_description": "A fluid, sinuous form composed of interlocking patches of charcoal gray and muted ochre, its fur suggested by short, directional strokes. The diffuse twilight flattens its contours, creating a soft, smoky silhouette. Its eyes catch the ambient glow as luminous, almond-shaped pools of citron green, standing out vividly against the dark body.",
+                "size": "Medium",
+                "state": "Crouched and watchful, muscles tensed in quiet contemplation",
+                "primary_colors": [
+                    "charcoal gray",
+                    "muted ochre"
+                ],
+                "material": "fur"
+            },
+            {
+                "object_id": 17,
+                "name": "dog",
+                "artistic_description": "A solid, grounded shape built from blocks of rich burnt umber and deep mahogany, its coat rendered with heavy, textured dabs that suggest a coarse, wiry texture. The warm, fading light of sunset barely penetrates the shadows, leaving large areas in near-blackness. A single, expressive eye gleams with a wet, amber reflection, conveying a sense of calm vigilance.",
+                "size": "Medium",
+                "state": "Seated and patient, head held high and attentive",
+                "primary_colors": [
+                    "burnt umber",
+                    "deep mahogany"
+                ],
+                "material": "fur"
+            }
+        ]
+    },
+    "composition": {
+        "spatial_relations": [
+            [
+                15,
+                "above",
+                10
+            ],
+            [
+                15,
+                "above",
+                16
+            ],
+            [
+                15,
+                "above",
+                17
+            ],
+            [
+                16,
+                "next_to",
+                17
+            ],
+            [
+                16,
+                "under",
+                10
+            ],
+            [
+                17,
+                "under",
+                10
+            ]
+        ],
+        "semantic_relations": [
+            [
+                16,
+                "watching",
+                17
+            ],
+            [
+                17,
+                "watching",
+                16
+            ]
+        ]
+    },
+    "environment": {
+        "environment_details": {
+            "scene_brief": "A urban park at dusk centered around bird, with lamp post, cat, and dog",
+            "place365_name": "/p/park",
+            "place365_id": 254,
+            "time_of_day": "sunset",
+            "weather": "cloudy",
+            "period": "Contemporary",
+            "is_indoor": false,
+            "lighting": {
+                "type": "mixed",
+                "quality": "dramatic",
+                "direction": "front-lit",
+                "mood": "warm",
+                "reasoning": "At sunset, the primary light is the warm, low-angle natural light (side-lit), casting long shadows. As the scene transitions to night, the artificial light from the 'lamp post' (front-lit) begins to dominate. This mix of warm natural and artificial light creates a dramatic, colorful atmosphere essential to the Post-Impressionist style."
+            },
+            "atmosphere": "warm and peaceful and subdued and striking"
+        },
+        "scene_inference": {
+            "all_candidates": [
+                {
+                    "scene_type": "urban park at dusk",
+                    "plausibility": 0.95,
+                    "reasoning": "A bird perches on a lamp post in a city park as a cat and dog walk by on the path below. The Post-Impressionist style emphasizes the warm glow of the lamp against the twilight sky.",
+                    "object_interpretations": {
+                        "bird": {
+                            "form": "real bird",
+                            "scale": "normal",
+                            "role": "primary subject, perched"
+                        },
+                        "lamp post": {
+                            "form": "real street lamp",
+                            "scale": "normal",
+                            "role": "structural support and light source"
+                        },
+                        "cat": {
+                            "form": "real domestic cat",
+                            "scale": "normal",
+                            "role": "passing animal"
+                        },
+                        "dog": {
+                            "form": "real domestic dog",
+                            "scale": "normal",
+                            "role": "passing animal"
+                        }
+                    },
+                    "scene_brief": "A urban park at dusk centered around bird, with lamp post, cat, and dog"
+                },
+                {
+                    "scene_type": "country lane at sunset",
+                    "plausibility": 0.9,
+                    "reasoning": "A bird flies near a rustic lamp post marking a country lane. A cat and dog rest together nearby, their forms simplified with bold outlines and vibrant color patches typical of Post-Impressionism.",
+                    "object_interpretations": {
+                        "bird": {
+                            "form": "real bird",
+                            "scale": "normal",
+                            "role": "dynamic element in flight"
+                        },
+                        "lamp post": {
+                            "form": "ornate iron lamp post",
+                            "scale": "normal",
+                            "role": "vertical anchor in composition"
+                        },
+                        "cat": {
+                            "form": "real cat",
+                            "scale": "normal",
+                            "role": "resting figure"
+                        },
+                        "dog": {
+                            "form": "real dog",
+                            "scale": "normal",
+                            "role": "companion to cat"
+                        }
+                    }
+                },
+                {
+                    "scene_type": "village square",
+                    "plausibility": 0.85,
+                    "reasoning": "Central lamp post in a village square with a bird on top. A cat and dog are positioned on opposite sides, creating a balanced composition with geometric shapes and unmodulated color.",
+                    "object_interpretations": {
+                        "bird": {
+                            "form": "real bird",
+                            "scale": "normal",
+                            "role": "apex element"
+                        },
+                        "lamp post": {
+                            "form": "central street lamp",
+                            "scale": "normal",
+                            "role": "main structural element"
+                        },
+                        "cat": {
+                            "form": "real cat",
+                            "scale": "normal",
+                            "role": "left-side figure"
+                        },
+                        "dog": {
+                            "form": "real dog",
+                            "scale": "normal",
+                            "role": "right-side figure"
+                        }
+                    }
+                },
+                {
+                    "scene_type": "garden courtyard",
+                    "plausibility": 0.8,
+                    "reasoning": "A bird perches on a decorative garden lamp post. A cat watches from a wall while a dog sniffs at the base, rendered with thick impasto and visible brushstrokes.",
+                    "object_interpretations": {
+                        "bird": {
+                            "form": "real bird",
+                            "scale": "normal",
+                            "role": "focal point"
+                        },
+                        "lamp post": {
+                            "form": "garden lamp",
+                            "scale": "normal",
+                            "role": "decorative architecture"
+                        },
+                        "cat": {
+                            "form": "real cat",
+                            "scale": "normal",
+                            "role": "observer on wall"
+                        },
+                        "dog": {
+                            "form": "real dog",
+                            "scale": "normal",
+                            "role": "active participant"
+                        }
+                    }
+                },
+                {
+                    "scene_type": "suburban street corner",
+                    "plausibility": 0.9,
+                    "reasoning": "Bird on a modern lamp post at a suburban corner. Cat and dog occupy the foreground, their forms abstracted into geometric shapes with complementary colors.",
+                    "object_interpretations": {
+                        "bird": {
+                            "form": "real bird",
+                            "scale": "normal",
+                            "role": "perched observer"
+                        },
+                        "lamp post": {
+                            "form": "street lamp",
+                            "scale": "normal",
+                            "role": "background structure"
+                        },
+                        "cat": {
+                            "form": "real cat",
+                            "scale": "normal",
+                            "role": "foreground figure"
+                        },
+                        "dog": {
+                            "form": "real dog",
+                            "scale": "normal",
+                            "role": "foreground figure"
+                        }
+                    }
+                },
+                {
+                    "scene_type": "abandoned lot",
+                    "plausibility": 0.75,
+                    "reasoning": "A bird perches on a tilted, old lamp post in an overgrown lot. A cat and dog navigate the wild vegetation, rendered with expressive, non-naturalistic colors.",
+                    "object_interpretations": {
+                        "bird": {
+                            "form": "real bird",
+                            "scale": "normal",
+                            "role": "sentinel on high"
+                        },
+                        "lamp post": {
+                            "form": "dilapidated lamp post",
+                            "scale": "normal",
+                            "role": "industrial relic"
+                        },
+                        "cat": {
+                            "form": "real cat",
+                            "scale": "normal",
+                            "role": "wildlife"
+                        },
+                        "dog": {
+                            "form": "real dog",
+                            "scale": "normal",
+                            "role": "wildlife"
+                        }
+                    }
+                },
+                {
+                    "scene_type": "foggy harbor",
+                    "plausibility": 0.7,
+                    "reasoning": "A bird sits on a maritime lamp post near the water. A cat and dog are silhouetted against the misty background, their forms simplified into dark shapes against luminous color.",
+                    "object_interpretations": {
+                        "bird": {
+                            "form": "real bird",
+                            "scale": "normal",
+                            "role": "harbor sentinel"
+                        },
+                        "lamp post": {
+                            "form": "nautical lamp post",
+                            "scale": "normal",
+                            "role": "coastal marker"
+                        },
+                        "cat": {
+                            "form": "real cat",
+                            "scale": "normal",
+                            "role": "silhouetted figure"
+                        },
+                        "dog": {
+                            "form": "real dog",
+                            "scale": "normal",
+                            "role": "silhouetted figure"
+                        }
+                    }
+                },
+                {
+                    "scene_type": "winter street",
+                    "plausibility": 0.85,
+                    "reasoning": "A bird shakes snow off a lamp post while a cat and dog huddle below for warmth. The scene uses cool blues and whites with warm accents from the lamp.",
+                    "object_interpretations": {
+                        "bird": {
+                            "form": "real bird",
+                            "scale": "normal",
+                            "role": "active element"
+                        },
+                        "lamp post": {
+                            "form": "street lamp",
+                            "scale": "normal",
+                            "role": "heat and light source"
+                        },
+                        "cat": {
+                            "form": "real cat",
+                            "scale": "normal",
+                            "role": "seeking shelter"
+                        },
+                        "dog": {
+                            "form": "real dog",
+                            "scale": "normal",
+                            "role": "seeking shelter"
+                        }
+                    }
+                }
+            ],
+            "selected_scene": {
+                "scene_type": "urban park at dusk",
+                "plausibility": 0.95,
+                "reasoning": "A bird perches on a lamp post in a city park as a cat and dog walk by on the path below. The Post-Impressionist style emphasizes the warm glow of the lamp against the twilight sky.",
+                "object_interpretations": {
+                    "bird": {
+                        "form": "real bird",
+                        "scale": "normal",
+                        "role": "primary subject, perched"
+                    },
+                    "lamp post": {
+                        "form": "real street lamp",
+                        "scale": "normal",
+                        "role": "structural support and light source"
+                    },
+                    "cat": {
+                        "form": "real domestic cat",
+                        "scale": "normal",
+                        "role": "passing animal"
+                    },
+                    "dog": {
+                        "form": "real domestic dog",
+                        "scale": "normal",
+                        "role": "passing animal"
+                    }
+                },
+                "scene_brief": "A urban park at dusk centered around bird, with lamp post, cat, and dog"
+            }
+        }
+    },
+    "final_prompts": {
+        "main_prompt": "A Post-Impressionism painting depicting a sunset scene where a small bird with deep indigo and burnt sienna feathers is perched alertly atop a large, weathered lamp post of oxidized copper green and deep umber. Beneath the lamp post, a charcoal gray and muted ochre cat crouches watchfully beside a burnt umber and deep mahogany dog seated patiently, with the bird positioned above both animals. The composition places the lamp post, cat, and dog in the foreground and midground against a warm, subdued sunset sky, with dramatic mixed lighting casting long shadows and creating a striking yet peaceful atmosphere through visible brushstrokes and vibrant color contrasts.",
+        "negative_prompt": "photorealistic, 3d render, modern, digital art, photograph, low quality, blurry, distorted, cartoon, anime, surreal, abstract, text, watermark, signature, frame, border",
+        "prompt_formats": {
+            "simple": "A Post-Impressionism painting of a bird on a lamp post with a cat and dog below at sunset.",
+            "complex": "A Post-Impressionism painting depicting a sunset scene where a small bird with deep indigo and burnt sienna feathers is perched alertly atop a large, weathered lamp post of oxidized copper green and deep umber. Beneath the lamp post, a charcoal gray and muted ochre cat crouches watchfully beside a burnt umber and deep mahogany dog seated patiently, with the bird positioned above both animals. The composition places the lamp post, cat, and dog in the foreground and midground against a warm, subdued sunset sky, with dramatic mixed lighting casting long shadows and creating a striking yet peaceful atmosphere through visible brushstrokes and vibrant color contrasts.",
+            "comma_separated": "Post-Impressionism painting, bird perched on lamp post, cat crouching beside dog, sunset lighting, warm peaceful atmosphere, deep indigo bird, oxidized copper lamp post, charcoal gray cat, burnt umber dog, dramatic shadows, visible brushstrokes, vibrant colors",
+            "tags": "art, painting, post-impressionism, sunset, bird, lamp post, cat, dog, animal scene, warm lighting, peaceful, dramatic shadows, textured brushwork"
+        }
+    }
+}

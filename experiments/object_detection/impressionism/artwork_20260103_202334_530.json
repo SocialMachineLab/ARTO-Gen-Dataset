@@ -1,0 +1,308 @@
+{
+    "artwork_id": "artwork_20260103_202334_530",
+    "generation_timestamp": "2026-01-03T20:24:06.478225",
+    "style": "Impressionism",
+    "objects": {
+        "object_ids": [
+            59,
+            58,
+            70
+        ],
+        "object_names": [
+            "orange tree",
+            "couch",
+            "cooker"
+        ],
+        "enhanced_objects": [
+            {
+                "object_id": 59,
+                "name": "orange tree",
+                "artistic_description": "Dappled sunlight filters through vibrant green leaves, creating a mosaic of warm golden highlights and cool emerald shadows. Clusters of bright orange fruit glow like small suns against the foliage, their skins rendered in thick impasto strokes of tangerine and amber. The bark appears textured with rough, earthy tones, while delicate white blossoms catch the light with soft, luminous touches of cream and pale yellow.",
+                "size": "Medium",
+                "state": "lush and thriving, bursting with ripe fruit and fresh growth",
+                "primary_colors": [
+                    "warm golden-green",
+                    "vibrant tangerine"
+                ],
+                "material": "organic plant matter"
+            },
+            {
+                "object_id": 58,
+                "name": "couch",
+                "artistic_description": "Soft afternoon light washes across plush cushions, creating gentle gradients of warm beige and creamy ivory. The fabric shows subtle variations in texture, with light-absorbing matte surfaces in shadowed folds and soft highlights where sun touches the upholstery. Delicate brushstrokes suggest worn comfort, with hints of sage and dusty rose woven into the neutral palette, appearing slightly faded yet inviting.",
+                "size": "Large",
+                "state": "well-used and comfortable, showing gentle wear with soft, inviting texture",
+                "primary_colors": [
+                    "warm cream",
+                    "soft sage"
+                ],
+                "material": "fabric upholstery"
+            },
+            {
+                "object_id": 70,
+                "name": "cooker",
+                "artistic_description": "Clean metallic surfaces reflect bright natural light in sharp, cool silver and brushed steel tones, creating crisp highlights and deep shadow lines. Chrome accents sparkle with pure white reflections against the cooler ambient light. The smooth enamel surfaces show subtle variations of off-white and pale gray, with gentle atmospheric haze softening the edges where light meets shadow.",
+                "size": "Medium",
+                "state": "pristine and modern, gleaming with recent use",
+                "primary_colors": [
+                    "cool silver",
+                    "bright white"
+                ],
+                "material": "metal and enamel"
+            }
+        ]
+    },
+    "composition": {
+        "spatial_relations": [
+            [
+                58,
+                "next to",
+                70
+            ],
+            [
+                59,
+                "behind",
+                58
+            ],
+            [
+                59,
+                "behind",
+                70
+            ]
+        ],
+        "semantic_relations": []
+    },
+    "environment": {
+        "environment_details": {
+            "scene_brief": "A artistic kitchen garden featuring orange tree, with couch, and cooker",
+            "place365_name": "/k/kitchen",
+            "place365_id": 203,
+            "time_of_day": "afternoon",
+            "weather": "sunny",
+            "period": "Contemporary",
+            "is_indoor": true,
+            "lighting": {
+                "type": "natural",
+                "quality": "soft",
+                "direction": "side-lit",
+                "mood": "warm",
+                "reasoning": "Combining 'afternoon' time and 'sunny' weather results in warm, natural light. In a kitchen, this light likely enters through windows (side-lighting) or a door. Impressionism favors soft, diffused light to capture the fleeting effects of color and atmosphere, avoiding harsh shadows. The warm mood complements the domestic setting and the vibrant orange of the fruit."
+            },
+            "atmosphere": "bright and active and cheerful and gentle"
+        },
+        "scene_inference": {
+            "all_candidates": [
+                {
+                    "scene_type": "sunlit conservatory",
+                    "plausibility": 0.9,
+                    "reasoning": "A conservatory or greenhouse is a perfect natural habitat for an orange tree. A couch can be placed inside for relaxation, and a cooker could be a portable camping stove or a small decorative piece on a potting bench.",
+                    "object_interpretations": {
+                        "orange tree": {
+                            "form": "real plant",
+                            "scale": "normal",
+                            "role": "primary natural element"
+                        },
+                        "couch": {
+                            "form": "real furniture",
+                            "scale": "normal",
+                            "role": "seating for relaxation"
+                        },
+                        "cooker": {
+                            "form": "portable stove",
+                            "scale": "small",
+                            "role": "utility for heating water/tea"
+                        }
+                    }
+                },
+                {
+                    "scene_type": "impressionist garden patio",
+                    "plausibility": 0.85,
+                    "reasoning": "An outdoor patio setting where the orange tree grows in a large pot. The couch is outdoor wicker furniture. The cooker is a BBQ grill or a portable burner for outdoor cooking.",
+                    "object_interpretations": {
+                        "orange tree": {
+                            "form": "potted tree",
+                            "scale": "normal",
+                            "role": "garden centerpiece"
+                        },
+                        "couch": {
+                            "form": "wicker sofa",
+                            "scale": "normal",
+                            "role": "outdoor seating"
+                        },
+                        "cooker": {
+                            "form": "BBQ grill",
+                            "scale": "normal",
+                            "role": "cooking appliance"
+                        }
+                    }
+                },
+                {
+                    "scene_type": "bohemian living room",
+                    "plausibility": 0.8,
+                    "reasoning": "A cozy, eclectic living room with large windows. The orange tree is a large houseplant. The cooker is a vintage wood-burning stove in the corner, providing warmth.",
+                    "object_interpretations": {
+                        "orange tree": {
+                            "form": "houseplant",
+                            "scale": "large",
+                            "role": "decorative plant"
+                        },
+                        "couch": {
+                            "form": "vintage sofa",
+                            "scale": "normal",
+                            "role": "primary seating"
+                        },
+                        "cooker": {
+                            "form": "wood-burning stove",
+                            "scale": "normal",
+                            "role": "heating source"
+                        }
+                    }
+                },
+                {
+                    "scene_type": "artistic kitchen garden",
+                    "plausibility": 0.75,
+                    "reasoning": "A large, rustic kitchen with an integrated garden nook. The orange tree sits near a sunlit window. The cooker is the main oven/stove, and the couch is a small daybed in the corner.",
+                    "object_interpretations": {
+                        "orange tree": {
+                            "form": "potted tree",
+                            "scale": "medium",
+                            "role": "kitchen garden element"
+                        },
+                        "couch": {
+                            "form": "daybed",
+                            "scale": "small",
+                            "role": "resting spot"
+                        },
+                        "cooker": {
+                            "form": "kitchen range",
+                            "scale": "normal",
+                            "role": "cooking appliance"
+                        }
+                    },
+                    "scene_brief": "A artistic kitchen garden featuring orange tree, with couch, and cooker"
+                },
+                {
+                    "scene_type": "surreal dream interior",
+                    "plausibility": 0.7,
+                    "reasoning": "In the Impressionist/Surreal style, logic blurs. The orange tree grows directly through the center of the couch. The cooker floats in the air or is embedded in the tree trunk, serving as a whimsical heat source.",
+                    "object_interpretations": {
+                        "orange tree": {
+                            "form": "organic structure",
+                            "scale": "variable",
+                            "role": "surreal architectural element"
+                        },
+                        "couch": {
+                            "form": "furniture",
+                            "scale": "normal",
+                            "role": "integrated seating"
+                        },
+                        "cooker": {
+                            "form": "floating appliance",
+                            "scale": "small",
+                            "role": "magical heat source"
+                        }
+                    }
+                },
+                {
+                    "scene_type": "rustic farmhouse interior",
+                    "plausibility": 0.8,
+                    "reasoning": "A farmhouse kitchen/living area. The orange tree is a prized potted specimen brought indoors. The cooker is a large Aga stove. The couch is a worn, comfortable piece of furniture near the warmth.",
+                    "object_interpretations": {
+                        "orange tree": {
+                            "form": "potted tree",
+                            "scale": "normal",
+                            "role": "treasured plant"
+                        },
+                        "couch": {
+                            "form": "upholstered sofa",
+                            "scale": "normal",
+                            "role": "comfort seating"
+                        },
+                        "cooker": {
+                            "form": "Aga stove",
+                            "scale": "large",
+                            "role": "kitchen hearth"
+                        }
+                    }
+                },
+                {
+                    "scene_type": "winter sunroom",
+                    "plausibility": 0.85,
+                    "reasoning": "A glass-enclosed sunroom designed to keep plants warm in winter. The orange tree thrives here. The couch is for enjoying the view. The cooker is a small electric hotplate for making drinks.",
+                    "object_interpretations": {
+                        "orange tree": {
+                            "form": "healthy tree",
+                            "scale": "normal",
+                            "role": "winter sanctuary plant"
+                        },
+                        "couch": {
+                            "form": "indoor sofa",
+                            "scale": "normal",
+                            "role": "viewing seat"
+                        },
+                        "cooker": {
+                            "form": "hotplate",
+                            "scale": "small",
+                            "role": "utility appliance"
+                        }
+                    }
+                },
+                {
+                    "scene_type": "tropical resort lounge",
+                    "plausibility": 0.8,
+                    "reasoning": "An open-air lounge. The orange tree (or citrus variant) is part of the landscaping. The couch is a plush daybed. The cooker is a tiki bar setup or a small hibachi.",
+                    "object_interpretations": {
+                        "orange tree": {
+                            "form": "landscape tree",
+                            "scale": "normal",
+                            "role": "scenery"
+                        },
+                        "couch": {
+                            "form": "daybed",
+                            "scale": "normal",
+                            "role": "guest seating"
+                        },
+                        "cooker": {
+                            "form": "hibachi",
+                            "scale": "small",
+                            "role": "snack preparation"
+                        }
+                    }
+                }
+            ],
+            "selected_scene": {
+                "scene_type": "artistic kitchen garden",
+                "plausibility": 0.75,
+                "reasoning": "A large, rustic kitchen with an integrated garden nook. The orange tree sits near a sunlit window. The cooker is the main oven/stove, and the couch is a small daybed in the corner.",
+                "object_interpretations": {
+                    "orange tree": {
+                        "form": "potted tree",
+                        "scale": "medium",
+                        "role": "kitchen garden element"
+                    },
+                    "couch": {
+                        "form": "daybed",
+                        "scale": "small",
+                        "role": "resting spot"
+                    },
+                    "cooker": {
+                        "form": "kitchen range",
+                        "scale": "normal",
+                        "role": "cooking appliance"
+                    }
+                },
+                "scene_brief": "A artistic kitchen garden featuring orange tree, with couch, and cooker"
+            }
+        }
+    },
+    "final_prompts": {
+        "main_prompt": "A Impressionism painting depicting a bright and active afternoon interior scene, where a large, well-used and comfortable couch in warm cream and soft sage fabric upholstery sits directly next to a medium-sized, pristine and modern cooker in cool silver and bright white metal and enamel. Behind both the couch and cooker, a medium-sized orange tree with lush and thriving warm golden-green leaves and vibrant tangerine fruit stands, its organic plant matter adding natural warmth. The entire composition is bathed in natural soft afternoon light streaming through a window, creating a cheerful and gentle atmosphere with visible brushstrokes capturing the play of light on fabric, metal, and foliage.",
+        "negative_prompt": "photorealistic, 3d render, modern, digital art, photograph, low quality, blurry, distorted, surreal, cartoon, anime, hyperrealistic, text, watermark, signature, frame, border, deformed, ugly, bad anatomy, disfigured, extra limbs, mutated hands, poorly drawn hands, poorly drawn face, mutation, cloned face, out of frame",
+        "prompt_formats": {
+            "simple": "An Impressionist painting of a cheerful afternoon interior with a couch next to a cooker and an orange tree behind them.",
+            "complex": "A Impressionism painting depicting a bright and active afternoon interior scene, where a large, well-used and comfortable couch in warm cream and soft sage fabric upholstery sits directly next to a medium-sized, pristine and modern cooker in cool silver and bright white metal and enamel. Behind both the couch and cooker, a medium-sized orange tree with lush and thriving warm golden-green leaves and vibrant tangerine fruit stands, its organic plant matter adding natural warmth. The entire composition is bathed in natural soft afternoon light streaming through a window, creating a cheerful and gentle atmosphere with visible brushstrokes capturing the play of light on fabric, metal, and foliage.",
+            "comma_separated": "Impressionism painting, interior scene, large couch, warm cream, soft sage, well-used, comfortable, medium cooker, cool silver, bright white, pristine, modern, medium orange tree, warm golden-green leaves, vibrant tangerine fruit, lush, thriving, couch next to cooker, tree behind couch and cooker, afternoon, natural soft lighting, bright, active, cheerful, gentle atmosphere, visible brushstrokes, play of light",
+            "tags": "art, painting, impressionism, interior, still life, domestic scene, couch, sofa, cooker, stove, orange tree, citrus, afternoon light, natural light, cheerful, gentle, fabric, metal, foliage, brushwork, color harmony"
+        }
+    }
+}

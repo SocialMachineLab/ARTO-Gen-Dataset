@@ -1,0 +1,303 @@
+{
+    "artwork_id": "artwork_20260103_195200_258",
+    "generation_timestamp": "2026-01-03T19:52:44.546009",
+    "style": "Baroque",
+    "objects": {
+        "object_ids": [
+            29,
+            61,
+            40
+        ],
+        "object_names": [
+            "luggage",
+            "side table",
+            "wine bottle"
+        ],
+        "enhanced_objects": [
+            {
+                "object_id": 29,
+                "name": "luggage",
+                "artistic_description": "A weathered leather trunk with rich, warm caramel tones glowing softly under candlelight, its surface bearing the dignified patina of travel through early modern Europe. Deep scratches and worn brass fittings catch the flickering light with muted golden highlights, while the dark leather absorbs the ambient shadows, creating a dramatic chiaroscuro effect. The corners are reinforced with aged metal studs that glint like distant stars in the dim, intimate atmosphere.",
+                "size": "Large",
+                "state": "well-traveled and dignified, showing honorable wear from aristocratic journeys",
+                "primary_colors": [
+                    "warm caramel",
+                    "deep mahogany"
+                ],
+                "material": "leather with brass fittings"
+            },
+            {
+                "object_id": 61,
+                "name": "side table",
+                "artistic_description": "An ornate Baroque table carved from dark walnut, its elaborate scrolls and acanthus leaves rendered in deep, velvety shadows that dance across the sculpted surface under artificial candlelight. The rich chocolate wood grain shimmers with subtle amber reflections where the warm light catches the polished curves, while the crevices of the intricate carvings hold mysterious pools of darkness. Gilded accents along the edges catch the flame with brilliant golden flashes, creating a luxurious interplay of light and shadow.",
+                "size": "Medium",
+                "state": "elegantly aged with the refined dignity of early modern nobility",
+                "primary_colors": [
+                    "deep chocolate",
+                    "warm amber"
+                ],
+                "material": "walnut wood with gilded accents"
+            },
+            {
+                "object_id": 40,
+                "name": "wine bottle",
+                "artistic_description": "A dark glass bottle standing as a jewel of deep garnet translucence, its contents catching the candlelight with an inner ruby glow that seems to pulse with life. The glass surface reflects warm amber highlights while the wine within absorbs and transforms the light into a rich, mysterious crimson that deepens toward the base. The label shows the elegant typography of the period, slightly faded and softened by the humid indoor atmosphere, while droplets of condensation cling to the cool glass like tiny prisms catching the flame.",
+                "size": "Small",
+                "state": "pristine and inviting, a promise of refined pleasure",
+                "primary_colors": [
+                    "deep garnet",
+                    "ruby crimson"
+                ],
+                "material": "glass"
+            }
+        ]
+    },
+    "composition": {
+        "spatial_relations": [
+            [
+                29,
+                "next to",
+                61
+            ],
+            [
+                40,
+                "on",
+                61
+            ]
+        ],
+        "semantic_relations": []
+    },
+    "environment": {
+        "environment_details": {
+            "scene_brief": "A Baroque study/library featuring luggage, with side table, and wine bottle",
+            "place365_name": "/l/library/indoor",
+            "place365_id": 212,
+            "time_of_day": "evening",
+            "weather": null,
+            "period": "Early modern",
+            "is_indoor": true,
+            "lighting": {
+                "type": "artificial",
+                "quality": "dramatic",
+                "direction": "side-lit",
+                "mood": "warm",
+                "reasoning": "Baroque art is defined by dramatic lighting. An artificial, warm light source (like a candle or fireplace) creates high contrast and deep shadows, highlighting the textures of the luggage and the richness of the wine. Side-lighting provides depth to the objects and the room."
+            },
+            "atmosphere": "calm and relaxed and striking"
+        },
+        "scene_inference": {
+            "all_candidates": [
+                {
+                    "scene_type": "Baroque hotel suite",
+                    "plausibility": 0.95,
+                    "reasoning": "A luxurious hotel room designed in Baroque style. The luggage is open on a luggage rack, the side table is an ornate piece of furniture holding a wine bottle and glass, ready for a guest's arrival.",
+                    "object_interpretations": {
+                        "luggage": {
+                            "form": "real leather trunk",
+                            "scale": "normal",
+                            "role": "primary travel object"
+                        },
+                        "side table": {
+                            "form": "real furniture",
+                            "scale": "normal",
+                            "role": "functional furniture"
+                        },
+                        "wine bottle": {
+                            "form": "real bottle",
+                            "scale": "normal",
+                            "role": "refreshment"
+                        }
+                    }
+                },
+                {
+                    "scene_type": "Baroque palace hallway",
+                    "plausibility": 0.9,
+                    "reasoning": "A grand hallway with gilded walls. A traveler's luggage sits temporarily on the floor next to an ornate side table where a servant has placed a wine bottle.",
+                    "object_interpretations": {
+                        "luggage": {
+                            "form": "real trunk",
+                            "scale": "normal",
+                            "role": "travel accessory"
+                        },
+                        "side table": {
+                            "form": "real furniture",
+                            "scale": "normal",
+                            "role": "decorative accent"
+                        },
+                        "wine bottle": {
+                            "form": "real bottle",
+                            "scale": "normal",
+                            "role": "hospitality item"
+                        }
+                    }
+                },
+                {
+                    "scene_type": "Baroque art studio",
+                    "plausibility": 0.85,
+                    "reasoning": "An artist's studio set up for a still life painting. The luggage is a prop, the side table holds the composition, and the wine bottle is part of the arrangement.",
+                    "object_interpretations": {
+                        "luggage": {
+                            "form": "real trunk",
+                            "scale": "normal",
+                            "role": "still life prop"
+                        },
+                        "side table": {
+                            "form": "real furniture",
+                            "scale": "normal",
+                            "role": "table surface"
+                        },
+                        "wine bottle": {
+                            "form": "real bottle",
+                            "scale": "normal",
+                            "role": "still life subject"
+                        }
+                    }
+                },
+                {
+                    "scene_type": "Baroque dining room",
+                    "plausibility": 0.8,
+                    "reasoning": "A formal dining setting. The side table is a serving station holding a wine bottle, while luggage sits nearby indicating a guest's arrival or departure.",
+                    "object_interpretations": {
+                        "luggage": {
+                            "form": "real trunk",
+                            "scale": "normal",
+                            "role": "travel item"
+                        },
+                        "side table": {
+                            "form": "real furniture",
+                            "scale": "normal",
+                            "role": "serving table"
+                        },
+                        "wine bottle": {
+                            "form": "real bottle",
+                            "scale": "normal",
+                            "role": "dining beverage"
+                        }
+                    }
+                },
+                {
+                    "scene_type": "Baroque vintage shop",
+                    "plausibility": 0.85,
+                    "reasoning": "An antique shop selling vintage items. The luggage is a display piece, the side table is for sale, and the wine bottle is a collector's item.",
+                    "object_interpretations": {
+                        "luggage": {
+                            "form": "antique trunk",
+                            "scale": "normal",
+                            "role": "display item"
+                        },
+                        "side table": {
+                            "form": "antique furniture",
+                            "scale": "normal",
+                            "role": "furniture for sale"
+                        },
+                        "wine bottle": {
+                            "form": "vintage bottle",
+                            "scale": "normal",
+                            "role": "collector's item"
+                        }
+                    }
+                },
+                {
+                    "scene_type": "Baroque study/library",
+                    "plausibility": 0.8,
+                    "reasoning": "A richly decorated study. The luggage sits by the desk (acting as a side table), holding a wine bottle as if a traveler has just unpacked.",
+                    "object_interpretations": {
+                        "luggage": {
+                            "form": "real trunk",
+                            "scale": "normal",
+                            "role": "multi-purpose furniture"
+                        },
+                        "side table": {
+                            "form": "real furniture",
+                            "scale": "normal",
+                            "role": "desk accessory"
+                        },
+                        "wine bottle": {
+                            "form": "real bottle",
+                            "scale": "normal",
+                            "role": "refreshment"
+                        }
+                    },
+                    "scene_brief": "A Baroque study/library featuring luggage, with side table, and wine bottle"
+                },
+                {
+                    "scene_type": "Baroque theater backstage",
+                    "plausibility": 0.75,
+                    "reasoning": "Backstage area of a Baroque theater. Props include vintage luggage and a side table set for a scene, with a wine bottle as a prop.",
+                    "object_interpretations": {
+                        "luggage": {
+                            "form": "prop trunk",
+                            "scale": "normal",
+                            "role": "theater prop"
+                        },
+                        "side table": {
+                            "form": "prop furniture",
+                            "scale": "normal",
+                            "role": "stage furniture"
+                        },
+                        "wine bottle": {
+                            "form": "prop bottle",
+                            "scale": "normal",
+                            "role": "stage prop"
+                        }
+                    }
+                },
+                {
+                    "scene_type": "Baroque garden pavilion",
+                    "plausibility": 0.7,
+                    "reasoning": "An outdoor garden pavilion for a party. Luggage sits on the ground, a side table holds drinks including a wine bottle.",
+                    "object_interpretations": {
+                        "luggage": {
+                            "form": "real trunk",
+                            "scale": "normal",
+                            "role": "travel item"
+                        },
+                        "side table": {
+                            "form": "garden furniture",
+                            "scale": "normal",
+                            "role": "outdoor table"
+                        },
+                        "wine bottle": {
+                            "form": "real bottle",
+                            "scale": "normal",
+                            "role": "party drink"
+                        }
+                    }
+                }
+            ],
+            "selected_scene": {
+                "scene_type": "Baroque study/library",
+                "plausibility": 0.8,
+                "reasoning": "A richly decorated study. The luggage sits by the desk (acting as a side table), holding a wine bottle as if a traveler has just unpacked.",
+                "object_interpretations": {
+                    "luggage": {
+                        "form": "real trunk",
+                        "scale": "normal",
+                        "role": "multi-purpose furniture"
+                    },
+                    "side table": {
+                        "form": "real furniture",
+                        "scale": "normal",
+                        "role": "desk accessory"
+                    },
+                    "wine bottle": {
+                        "form": "real bottle",
+                        "scale": "normal",
+                        "role": "refreshment"
+                    }
+                },
+                "scene_brief": "A Baroque study/library featuring luggage, with side table, and wine bottle"
+            }
+        }
+    },
+    "final_prompts": {
+        "main_prompt": "A Baroque painting depicting a calm and relaxed yet striking evening interior scene illuminated by dramatic artificial light. In the foreground, a large, well-traveled and dignified piece of luggage in warm caramel and deep mahogany leather with brass fittings rests beside an elegantly aged medium side table. This side table, crafted from deep chocolate and warm amber walnut wood with gilded accents, stands in the midground. Upon its surface sits a small, pristine and inviting wine bottle, its glass glowing with deep garnet and ruby crimson hues. The dramatic lighting casts deep, theatrical shadows and highlights the rich textures of the leather and wood, creating a composed, intimate, and visually arresting atmosphere of refined stillness.",
+        "negative_prompt": "photorealistic, 3d render, modern, digital art, photograph, low quality, blurry, distorted, cartoon, anime, abstract, surreal, futuristic, sci-fi, ugly, deformed, bad anatomy, extra limbs, poorly drawn hands, text, watermark, signature, frame, border",
+        "prompt_formats": {
+            "simple": "A Baroque painting of luggage beside a side table with a wine bottle on it, set in a dramatically lit evening interior.",
+            "complex": "A Baroque painting depicting a calm and relaxed yet striking evening interior scene illuminated by dramatic artificial light. In the foreground, a large, well-traveled and dignified piece of luggage in warm caramel and deep mahogany leather with brass fittings rests beside an elegantly aged medium side table. This side table, crafted from deep chocolate and warm amber walnut wood with gilded accents, stands in the midground. Upon its surface sits a small, pristine and inviting wine bottle, its glass glowing with deep garnet and ruby crimson hues. The dramatic lighting casts deep, theatrical shadows and highlights the rich textures of the leather and wood, creating a composed, intimate, and visually arresting atmosphere of refined stillness.",
+            "comma_separated": "Baroque painting, luggage, side table, wine bottle, large luggage, medium table, small bottle, warm caramel, deep mahogany, deep chocolate, warm amber, deep garnet, ruby crimson, evening, dramatic artificial lighting, calm, relaxed, striking atmosphere, leather, brass, walnut wood, gilded accents, glass, chiaroscuro, still life, interior",
+            "tags": "art, painting, Baroque, still life, chiaroscuro, luggage, side table, wine bottle, evening, dramatic lighting, calm atmosphere, leather, wood, glass, interior scene"
+        }
+    }
+}

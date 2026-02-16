@@ -1,0 +1,363 @@
+{
+    "artwork_id": "artwork_20260103_183042_465",
+    "generation_timestamp": "2026-01-03T18:31:14.288246",
+    "style": "Chinese Ink Painting",
+    "objects": {
+        "object_ids": [
+            19,
+            60,
+            9,
+            20,
+            58
+        ],
+        "object_names": [
+            "sheep",
+            "hammock",
+            "boat",
+            "cow",
+            "blanket"
+        ],
+        "enhanced_objects": [
+            {
+                "object_id": 19,
+                "name": "sheep",
+                "artistic_description": "Soft, woolly form rendered in gentle washes of diluted ink, with subtle gradations from warm gray to cool charcoal suggesting the diffuse cloudy light. The fleece appears as textured, feathery strokes that absorb rather than reflect the ambient brightness, creating a matte, downy surface. Fine, dry-brush techniques suggest individual hairs catching the muted afternoon glow.",
+                "size": "Large",
+                "state": "Grazing peacefully, wool slightly damp from ambient moisture",
+                "primary_colors": [
+                    "warm gray",
+                    "charcoal"
+                ],
+                "material": "wool"
+            },
+            {
+                "object_id": 60,
+                "name": "hammock",
+                "artistic_description": "Suspended in gentle curves with flowing ink lines that suggest soft tension. The fabric shows subtle variations in tone where cloudy light filters through, creating areas of lighter wash where threads are stretched thin. The surface appears matte and slightly worn, with soft edges that blend into the bright, subdued atmosphere.",
+                "size": "Medium",
+                "state": "Empty and gently swaying, fabric softened with age",
+                "primary_colors": [
+                    "off-white",
+                    "pale taupe"
+                ],
+                "material": "canvas"
+            },
+            {
+                "object_id": 9,
+                "name": "boat",
+                "artistic_description": "Weathered wood grain revealed through layered ink washes that pool in crevices, creating natural shadows despite the even cloudy light. The hull shows a matte finish with subtle sheen where water might have splashed, captured in delicate dry-brush strokes. Gentle gradations suggest the boat's curve catching the bright, diffused afternoon illumination.",
+                "size": "Large",
+                "state": "Moored and resting, showing signs of gentle use and weathering",
+                "primary_colors": [
+                    "weathered brown",
+                    "dark umber"
+                ],
+                "material": "wood"
+            },
+            {
+                "object_id": 20,
+                "name": "cow",
+                "artistic_description": "Bold, confident strokes define the sturdy form, with ink concentrations creating depth in the hide pattern. The coat shows rich tonal variations from warm sepia to deep black, suggesting how the cloudy light still reveals texture and form. The surface appears matte and substantial, with wetness around the muzzle hinted by slightly darker, concentrated ink marks.",
+                "size": "Dominant",
+                "state": "Standing calmly, hide glossy with natural oils",
+                "primary_colors": [
+                    "deep brown",
+                    "black"
+                ],
+                "material": "hide"
+            },
+            {
+                "object_id": 58,
+                "name": "blanket",
+                "artistic_description": "Draped in soft folds with flowing calligraphic lines, the fabric shows gentle tonal shifts where the bright, subdued light catches different planes. The surface appears matte and worn, with subtle ink bleeds suggesting fibers that have absorbed ambient moisture. Delicate variations in wash intensity create a sense of softness and warmth despite the cool atmospheric conditions.",
+                "size": "Medium",
+                "state": "Folded and resting, fabric softened with use",
+                "primary_colors": [
+                    "muted cream",
+                    "soft gray"
+                ],
+                "material": "wool"
+            }
+        ]
+    },
+    "composition": {
+        "spatial_relations": [
+            [
+                60,
+                "next to",
+                19
+            ],
+            [
+                58,
+                "under",
+                60
+            ],
+            [
+                9,
+                "next to",
+                58
+            ],
+            [
+                20,
+                "next to",
+                9
+            ]
+        ],
+        "semantic_relations": []
+    },
+    "environment": {
+        "environment_details": {
+            "scene_brief": "A Riverbank Rest centered around sheep, with hammock, boat, cow, and blanket",
+            "place365_name": "/f/field/wild",
+            "place365_id": 141,
+            "time_of_day": "afternoon",
+            "weather": "cloudy",
+            "period": "Contemporary",
+            "is_indoor": false,
+            "lighting": {
+                "type": "natural",
+                "quality": "soft",
+                "direction": "side-lit",
+                "direction_reasoning": "Side-lighting is typical of the afternoon sun and creates gentle modeling on the forms of the sheep, cow, and landscape features, enhancing the three-dimensionality while maintaining the softness preferred in ink wash styles.",
+                "mood": "neutral",
+                "reasoning": "The combination of afternoon time and cloudy weather results in neutral, soft lighting. This avoids strong emotional temperature shifts (like the warmth of sunset or coolness of morning), focusing instead on the harmony and balance of the natural scene, which aligns with the meditative quality of Chinese Ink Painting."
+            },
+            "atmosphere": "bright and active and subdued and gentle"
+        },
+        "scene_inference": {
+            "all_candidates": [
+                {
+                    "scene_type": "Pastoral Farm Landscape",
+                    "plausibility": 0.95,
+                    "reasoning": "In a traditional Chinese pastoral scene, a sheep grazes near a barn. A hammock is strung between two trees for a farmer's rest. A cow is a common farm companion. A blanket could be draped over a fence or left on a hay bale.",
+                    "object_interpretations": {
+                        "sheep": {
+                            "form": "real animal",
+                            "scale": "normal",
+                            "role": "primary subject"
+                        },
+                        "hammock": {
+                            "form": "real object",
+                            "scale": "normal",
+                            "role": "functional element"
+                        },
+                        "cow": {
+                            "form": "real animal",
+                            "scale": "normal",
+                            "role": "secondary animal"
+                        },
+                        "blanket": {
+                            "form": "real object",
+                            "scale": "normal",
+                            "role": "decorative/functional detail"
+                        }
+                    }
+                },
+                {
+                    "scene_type": "Riverbank Rest",
+                    "plausibility": 0.9,
+                    "reasoning": "A sheep and cow rest on a grassy riverbank. A boat is moored at the shore. A hammock is tied between riverside trees. A blanket is spread on the grass for a picnic.",
+                    "object_interpretations": {
+                        "sheep": {
+                            "form": "real animal",
+                            "scale": "normal",
+                            "role": "primary subject"
+                        },
+                        "hammock": {
+                            "form": "real object",
+                            "scale": "normal",
+                            "role": "ambient detail"
+                        },
+                        "cow": {
+                            "form": "real animal",
+                            "scale": "normal",
+                            "role": "secondary animal"
+                        },
+                        "boat": {
+                            "form": "real object",
+                            "scale": "normal",
+                            "role": "scenic element"
+                        },
+                        "blanket": {
+                            "form": "real object",
+                            "scale": "normal",
+                            "role": "foreground detail"
+                        }
+                    },
+                    "scene_brief": "A Riverbank Rest centered around sheep, with hammock, boat, cow, and blanket"
+                },
+                {
+                    "scene_type": "Dreamy Mountain Pasture",
+                    "plausibility": 0.85,
+                    "reasoning": "A surreal, ink-wash style landscape where a sheep wanders near a floating boat (dream element). A hammock hangs between floating rocks. A cow stands peacefully. A blanket billows like a cloud.",
+                    "object_interpretations": {
+                        "sheep": {
+                            "form": "real animal",
+                            "scale": "normal",
+                            "role": "anchor subject"
+                        },
+                        "hammock": {
+                            "form": "surreal object",
+                            "scale": "normal",
+                            "role": "dream element"
+                        },
+                        "cow": {
+                            "form": "real animal",
+                            "scale": "normal",
+                            "role": "secondary subject"
+                        },
+                        "boat": {
+                            "form": "surreal object",
+                            "scale": "miniature",
+                            "role": "floating accent"
+                        },
+                        "blanket": {
+                            "form": "abstract shape",
+                            "scale": "large",
+                            "role": "textural element"
+                        }
+                    }
+                },
+                {
+                    "scene_type": "Vintage Stable Interior",
+                    "plausibility": 0.8,
+                    "reasoning": "Inside a rustic stable, a sheep and cow share the space. A hammock is slung in a corner for a worker. A blanket is folded on a wooden crate. A small boat model sits on a shelf as decor.",
+                    "object_interpretations": {
+                        "sheep": {
+                            "form": "real animal",
+                            "scale": "normal",
+                            "role": "occupant"
+                        },
+                        "hammock": {
+                            "form": "real object",
+                            "scale": "normal",
+                            "role": "functional detail"
+                        },
+                        "cow": {
+                            "form": "real animal",
+                            "scale": "normal",
+                            "role": "occupant"
+                        },
+                        "boat": {
+                            "form": "model",
+                            "scale": "miniature",
+                            "role": "decorative object"
+                        },
+                        "blanket": {
+                            "form": "real object",
+                            "scale": "normal",
+                            "role": "texture/detail"
+                        }
+                    }
+                },
+                {
+                    "scene_type": "Festival Gathering",
+                    "plausibility": 0.75,
+                    "reasoning": "A festive outdoor scene. A sheep and cow are decorated. A hammock is set up for children. A boat is used for a water game. A blanket is part of a seating area.",
+                    "object_interpretations": {
+                        "sheep": {
+                            "form": "real animal",
+                            "scale": "normal",
+                            "role": "festive participant"
+                        },
+                        "hammock": {
+                            "form": "real object",
+                            "scale": "normal",
+                            "role": "recreational element"
+                        },
+                        "cow": {
+                            "form": "real animal",
+                            "scale": "normal",
+                            "role": "festive participant"
+                        },
+                        "boat": {
+                            "form": "real object",
+                            "scale": "normal",
+                            "role": "activity element"
+                        },
+                        "blanket": {
+                            "form": "real object",
+                            "scale": "normal",
+                            "role": "sitting area detail"
+                        }
+                    }
+                },
+                {
+                    "scene_type": "Abstract Nature Composition",
+                    "plausibility": 0.7,
+                    "reasoning": "An abstract interpretation of nature. The sheep is a white ink blot. The cow is a black ink blot. The boat is a simple geometric line. The hammock is a curved stroke. The blanket is a textured square.",
+                    "object_interpretations": {
+                        "sheep": {
+                            "form": "abstract shape",
+                            "scale": "variable",
+                            "role": "main shape"
+                        },
+                        "hammock": {
+                            "form": "abstract line",
+                            "scale": "variable",
+                            "role": "structural line"
+                        },
+                        "cow": {
+                            "form": "abstract shape",
+                            "scale": "variable",
+                            "role": "contrast shape"
+                        },
+                        "boat": {
+                            "form": "abstract shape",
+                            "scale": "variable",
+                            "role": "accent shape"
+                        },
+                        "blanket": {
+                            "form": "abstract texture",
+                            "scale": "variable",
+                            "role": "textural background"
+                        }
+                    }
+                }
+            ],
+            "selected_scene": {
+                "scene_type": "Riverbank Rest",
+                "plausibility": 0.9,
+                "reasoning": "A sheep and cow rest on a grassy riverbank. A boat is moored at the shore. A hammock is tied between riverside trees. A blanket is spread on the grass for a picnic.",
+                "object_interpretations": {
+                    "sheep": {
+                        "form": "real animal",
+                        "scale": "normal",
+                        "role": "primary subject"
+                    },
+                    "hammock": {
+                        "form": "real object",
+                        "scale": "normal",
+                        "role": "ambient detail"
+                    },
+                    "cow": {
+                        "form": "real animal",
+                        "scale": "normal",
+                        "role": "secondary animal"
+                    },
+                    "boat": {
+                        "form": "real object",
+                        "scale": "normal",
+                        "role": "scenic element"
+                    },
+                    "blanket": {
+                        "form": "real object",
+                        "scale": "normal",
+                        "role": "foreground detail"
+                    }
+                },
+                "scene_brief": "A Riverbank Rest centered around sheep, with hammock, boat, cow, and blanket"
+            }
+        }
+    },
+    "final_prompts": {
+        "main_prompt": "A Chinese Ink Painting painting depicting a serene afternoon scene with natural soft lighting, where a large sheep in warm gray and charcoal tones grazes peacefully beside an empty off-white hammock that sways gently in the breeze. Directly beneath the hammock rests a folded blanket in muted cream and soft gray hues, while next to it sits a large weathered brown boat moored and resting against the shore. Adjacent to the boat stands a dominant deep brown cow, calm and still, completing the tranquil arrangement. The composition flows from foreground to background with the sheep and hammock in the foreground, the blanket and boat in the midground, and the cow anchoring the scene, all rendered in expressive ink washes that capture the bright yet subdued atmosphere, where active life meets gentle repose.",
+        "negative_prompt": "photorealistic, 3d render, modern, digital art, photograph, low quality, blurry, distorted, oversaturated, cartoon, anime, western painting, oil painting, watercolor, abstract",
+        "prompt_formats": {
+            "simple": "A Chinese ink painting of a sheep, hammock, blanket, boat, and cow in a soft afternoon light.",
+            "complex": "A Chinese Ink Painting painting depicting a serene afternoon scene with natural soft lighting, where a large sheep in warm gray and charcoal tones grazes peacefully beside an empty off-white hammock that sways gently in the breeze. Directly beneath the hammock rests a folded blanket in muted cream and soft gray hues, while next to it sits a large weathered brown boat moored and resting against the shore. Adjacent to the boat stands a dominant deep brown cow, calm and still, completing the tranquil arrangement. The composition flows from foreground to background with the sheep and hammock in the foreground, the blanket and boat in the midground, and the cow anchoring the scene, all rendered in expressive ink washes that capture the bright yet subdued atmosphere, where active life meets gentle repose.",
+            "comma_separated": "Chinese Ink Painting, sheep grazing, hammock swaying, blanket folded, boat moored, cow standing, afternoon lighting, soft natural light, bright active subdued gentle atmosphere, ink wash, expressive brushstrokes",
+            "tags": "art, painting, chinese ink painting, ink wash, xieyi style, pastoral scene, animals, landscape, traditional art, brushwork"
+        }
+    }
+}

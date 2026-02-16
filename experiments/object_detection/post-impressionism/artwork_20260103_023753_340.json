@@ -1,0 +1,371 @@
+{
+    "artwork_id": "artwork_20260103_023753_340",
+    "generation_timestamp": "2026-01-03T02:38:39.914360",
+    "style": "Post-Impressionism",
+    "objects": {
+        "object_ids": [
+            58,
+            19,
+            3,
+            59
+        ],
+        "object_names": [
+            "blanket",
+            "lamb",
+            "wagon",
+            "lily"
+        ],
+        "enhanced_objects": [
+            {
+                "object_id": 58,
+                "name": "blanket",
+                "artistic_description": "A soft woolen blanket lies spread across the grass, its surface catching the warm afternoon sunlight in bold, visible strokes. The fabric shows rich, saturated colors with visible weave texture, rendered with thick impasto technique. Sunlight creates dappled highlights where the fibers catch the light, while the grass beneath casts subtle green reflections onto the underside. The edges appear slightly frayed, suggesting gentle use.",
+                "size": "Large",
+                "state": "spread out and dry",
+                "primary_colors": [
+                    "warm terracotta",
+                    "deep sage green"
+                ],
+                "material": "wool fabric"
+            },
+            {
+                "object_id": 19,
+                "name": "lamb",
+                "artistic_description": "A young lamb stands with fluffy fleece illuminated by bright golden sunlight, rendered in thick, textured white paint with visible brushstrokes. The wool appears almost luminous where the sun hits directly, creating strong highlights, while shadows in the fleece show cool blue-gray tones. Its dark eyes and nose provide striking contrast against the bright coat. The fleece has a slightly dusty appearance from the dry meadow conditions.",
+                "size": "Medium",
+                "state": "standing alert",
+                "primary_colors": [
+                    "creamy white",
+                    "soft charcoal"
+                ],
+                "material": "fleece"
+            },
+            {
+                "object_id": 3,
+                "name": "wagon",
+                "artistic_description": "A weathered wooden wagon rests partially visible, its aged wood grain emphasized through bold, angular brushstrokes. The afternoon sun casts strong shadows across its surface, creating dramatic dark passages that contrast with sunlit areas showing warm amber and sienna tones. Metal hardware glints with small dabs of bright silver and white paint. The paint is chipped and weathered, revealing the natural wood beneath.",
+                "size": "Dominant",
+                "state": "weathered and stationary",
+                "primary_colors": [
+                    "burnt sienna",
+                    "weathered gray"
+                ],
+                "material": "wood and iron"
+            },
+            {
+                "object_id": 59,
+                "name": "lily",
+                "artistic_description": "A single lily flower stands tall with its petals rendered in thick, expressive strokes of pure white and pale yellow, glowing against the deep green foliage. The bright sunlight makes the petals appear almost translucent, with visible violet and blue shadows defining their delicate form. The stem and leaves show rich emerald and olive tones, painted with visible directional strokes that suggest movement in the gentle breeze.",
+                "size": "Small",
+                "state": "fresh and blooming",
+                "primary_colors": [
+                    "pure white",
+                    "emerald green"
+                ],
+                "material": "flower petals and stem"
+            }
+        ]
+    },
+    "composition": {
+        "spatial_relations": [
+            [
+                58,
+                "on",
+                19
+            ],
+            [
+                59,
+                "next to",
+                19
+            ],
+            [
+                3,
+                "behind",
+                58
+            ],
+            [
+                3,
+                "behind",
+                19
+            ]
+        ],
+        "semantic_relations": []
+    },
+    "environment": {
+        "environment_details": {
+            "scene_brief": "A countryside meadow featuring blanket, with lamb, wagon, and lily",
+            "place365_name": "/f/field",
+            "place365_id": 21,
+            "time_of_day": "afternoon",
+            "weather": "sunny",
+            "period": "Contemporary",
+            "is_indoor": false,
+            "lighting": {
+                "type": "natural",
+                "quality": "soft",
+                "direction": "side-lit",
+                "reasoning": "Natural lighting from a sunny afternoon creates soft, directional light that models the lamb's form and wagon structure while maintaining the color vibrancy essential to Post-Impressionism. Side-lighting provides dimensionality to objects without harsh shadows, allowing the blanket's texture and lily's delicate form to be rendered with visible brushstrokes and color contrasts."
+            },
+            "atmosphere": "bright and active and cheerful and gentle"
+        },
+        "scene_inference": {
+            "all_candidates": [
+                {
+                    "scene_type": "nursery",
+                    "plausibility": 0.95,
+                    "reasoning": "A cozy nursery scene where the blanket is the primary object draped over a crib. The lamb appears as a plush toy companion, the wagon as a miniature toy on the floor, and a lily in a small vase on a side table adds a touch of nature.",
+                    "object_interpretations": {
+                        "blanket": {
+                            "form": "real textile",
+                            "scale": "normal",
+                            "role": "primary functional object"
+                        },
+                        "lamb": {
+                            "form": "stuffed toy",
+                            "scale": "miniature",
+                            "role": "companion toy"
+                        },
+                        "wagon": {
+                            "form": "toy model",
+                            "scale": "miniature",
+                            "role": "plaything"
+                        },
+                        "lily": {
+                            "form": "real flower",
+                            "scale": "small",
+                            "role": "decorative element"
+                        }
+                    }
+                },
+                {
+                    "scene_type": "spring picnic",
+                    "plausibility": 0.9,
+                    "reasoning": "An outdoor picnic setting on a grassy hill. The blanket is spread on the ground as the main surface. A live lamb wanders nearby, a small wagon is used to carry picnic supplies, and lilies grow in the surrounding field.",
+                    "object_interpretations": {
+                        "blanket": {
+                            "form": "real textile",
+                            "scale": "normal",
+                            "role": "primary seating surface"
+                        },
+                        "lamb": {
+                            "form": "real animal",
+                            "scale": "normal",
+                            "role": "ambient wildlife"
+                        },
+                        "wagon": {
+                            "form": "functional cart",
+                            "scale": "small",
+                            "role": "utility object"
+                        },
+                        "lily": {
+                            "form": "real flowers",
+                            "scale": "natural",
+                            "role": "environmental flora"
+                        }
+                    }
+                },
+                {
+                    "scene_type": "art studio",
+                    "plausibility": 0.85,
+                    "reasoning": "An artist's studio with a still life composition. The blanket is draped over a chair as a textural study. A ceramic lamb figurine sits on a table, a toy wagon is part of the setup, and a vase of lilies is the focal point of the painting.",
+                    "object_interpretations": {
+                        "blanket": {
+                            "form": "draped fabric",
+                            "scale": "normal",
+                            "role": "subject of study"
+                        },
+                        "lamb": {
+                            "form": "figurine",
+                            "scale": "miniature",
+                            "role": "still life prop"
+                        },
+                        "wagon": {
+                            "form": "model",
+                            "scale": "miniature",
+                            "role": "still life prop"
+                        },
+                        "lily": {
+                            "form": "fresh flowers",
+                            "scale": "small",
+                            "role": "still life subject"
+                        }
+                    }
+                },
+                {
+                    "scene_type": "vintage farmhouse",
+                    "plausibility": 0.9,
+                    "reasoning": "A rustic farmhouse interior. A thick wool blanket is folded on a wooden bench. A small pet lamb sleeps on the blanket, a child's wooden wagon sits against the wall, and a pot of lilies sits on the windowsill.",
+                    "object_interpretations": {
+                        "blanket": {
+                            "form": "woolen throw",
+                            "scale": "normal",
+                            "role": "furnishing"
+                        },
+                        "lamb": {
+                            "form": "young sheep",
+                            "scale": "small",
+                            "role": "house pet"
+                        },
+                        "wagon": {
+                            "form": "wooden toy",
+                            "scale": "small",
+                            "role": "decoration"
+                        },
+                        "lily": {
+                            "form": "potted plant",
+                            "scale": "small",
+                            "role": "decoration"
+                        }
+                    }
+                },
+                {
+                    "scene_type": "garden party",
+                    "plausibility": 0.8,
+                    "reasoning": "A formal garden party. A decorative blanket is used as a tablecloth on a serving table. Topiary shaped like a lamb stands nearby, a serving wagon holds drinks, and lilies are arranged in centerpiece bouquets.",
+                    "object_interpretations": {
+                        "blanket": {
+                            "form": "tablecloth",
+                            "scale": "normal",
+                            "role": "decorative covering"
+                        },
+                        "lamb": {
+                            "form": "topiary sculpture",
+                            "scale": "large",
+                            "role": "garden ornament"
+                        },
+                        "wagon": {
+                            "form": "service cart",
+                            "scale": "normal",
+                            "role": "utility object"
+                        },
+                        "lily": {
+                            "form": "cut flowers",
+                            "scale": "small",
+                            "role": "centerpiece"
+                        }
+                    }
+                },
+                {
+                    "scene_type": "child's bedroom",
+                    "plausibility": 0.95,
+                    "reasoning": "A child's messy bedroom. A security blanket is crumpled on the bed. A plush lamb toy is tucked under the covers, a toy wagon is tipped over on the rug, and a drawing of a lily is taped to the wall.",
+                    "object_interpretations": {
+                        "blanket": {
+                            "form": "security blanket",
+                            "scale": "small",
+                            "role": "comfort object"
+                        },
+                        "lamb": {
+                            "form": "stuffed animal",
+                            "scale": "small",
+                            "role": "toy"
+                        },
+                        "wagon": {
+                            "form": "toy",
+                            "scale": "small",
+                            "role": "toy"
+                        },
+                        "lily": {
+                            "form": "drawing",
+                            "scale": "small",
+                            "role": "wall art"
+                        }
+                    }
+                },
+                {
+                    "scene_type": "countryside meadow",
+                    "plausibility": 0.9,
+                    "reasoning": "A wide open meadow. A picnic blanket is abandoned on the grass. A flock of sheep (including one distinct lamb) grazes nearby. A rustic wagon is parked at the edge of the field, and wild lilies dot the landscape.",
+                    "object_interpretations": {
+                        "blanket": {
+                            "form": "picnic blanket",
+                            "scale": "normal",
+                            "role": "abandoned item"
+                        },
+                        "lamb": {
+                            "form": "real animal",
+                            "scale": "normal",
+                            "role": "grazing livestock"
+                        },
+                        "wagon": {
+                            "form": "farm equipment",
+                            "scale": "large",
+                            "role": "stationary object"
+                        },
+                        "lily": {
+                            "form": "wildflowers",
+                            "scale": "natural",
+                            "role": "ground cover"
+                        }
+                    },
+                    "scene_brief": "A countryside meadow featuring blanket, with lamb, wagon, and lily"
+                },
+                {
+                    "scene_type": "vintage shop",
+                    "plausibility": 0.8,
+                    "reasoning": "An antique store cluttered with items. A folded quilt (blanket) is stacked on a shelf. A porcelain lamb figurine sits on a stack of books. A child's wagon is used as a display basket, and dried lilies hang from the ceiling.",
+                    "object_interpretations": {
+                        "blanket": {
+                            "form": "antique quilt",
+                            "scale": "normal",
+                            "role": "merchandise"
+                        },
+                        "lamb": {
+                            "form": "figurine",
+                            "scale": "miniature",
+                            "role": "knick-knack"
+                        },
+                        "wagon": {
+                            "form": "vintage toy",
+                            "scale": "small",
+                            "role": "display item"
+                        },
+                        "lily": {
+                            "form": "dried flowers",
+                            "scale": "small",
+                            "role": "decoration"
+                        }
+                    }
+                }
+            ],
+            "selected_scene": {
+                "scene_type": "countryside meadow",
+                "plausibility": 0.9,
+                "reasoning": "A wide open meadow. A picnic blanket is abandoned on the grass. A flock of sheep (including one distinct lamb) grazes nearby. A rustic wagon is parked at the edge of the field, and wild lilies dot the landscape.",
+                "object_interpretations": {
+                    "blanket": {
+                        "form": "picnic blanket",
+                        "scale": "normal",
+                        "role": "abandoned item"
+                    },
+                    "lamb": {
+                        "form": "real animal",
+                        "scale": "normal",
+                        "role": "grazing livestock"
+                    },
+                    "wagon": {
+                        "form": "farm equipment",
+                        "scale": "large",
+                        "role": "stationary object"
+                    },
+                    "lily": {
+                        "form": "wildflowers",
+                        "scale": "natural",
+                        "role": "ground cover"
+                    }
+                },
+                "scene_brief": "A countryside meadow featuring blanket, with lamb, wagon, and lily"
+            }
+        }
+    },
+    "final_prompts": {
+        "main_prompt": "A Post-Impressionism painting depicting a bright and cheerful afternoon scene with natural soft lighting. In the foreground, a creamy white lamb with soft charcoal markings stands alert on a large, warm terracotta and deep sage green blanket that is spread out and dry beneath it. Beside the lamb, a small pure white lily with emerald green stem blooms fresh and vibrant. Dominating the midground, a weathered stationary wagon in burnt sienna and weathered gray tones sits behind both the blanket and the lamb, creating a sense of depth. The atmosphere is gentle yet active, with visible brushstrokes capturing the textures of wool fleece, fabric, wood, iron, and delicate flower petals in a cohesive, visually rich composition.",
+        "negative_prompt": "photorealistic, 3d render, modern, digital art, photograph, low quality, blurry, distorted, surreal, abstract, cartoon, anime, watermark, signature, text, frame, border, ugly, deformed, mutated",
+        "prompt_formats": {
+            "simple": "A Post-Impressionism painting of a lamb on a blanket with a lily beside it and a wagon behind, set in a soft afternoon light.",
+            "complex": "A Post-Impressionism painting depicting a bright and cheerful afternoon scene with natural soft lighting. In the foreground, a creamy white lamb with soft charcoal markings stands alert on a large, warm terracotta and deep sage green blanket that is spread out and dry beneath it. Beside the lamb, a small pure white lily with emerald green stem blooms fresh and vibrant. Dominating the midground, a weathered stationary wagon in burnt sienna and weathered gray tones sits behind both the blanket and the lamb, creating a sense of depth. The atmosphere is gentle yet active, with visible brushstrokes capturing the textures of wool fleece, fabric, wood, iron, and delicate flower petals in a cohesive, visually rich composition.",
+            "comma_separated": "Post-Impressionism painting, lamb on blanket, lily beside lamb, wagon behind, afternoon lighting, soft natural light, bright cheerful gentle atmosphere, terracotta sage green blanket, creamy white lamb, burnt sienna wagon, white lily, textured brushstrokes, vibrant colors, cohesive composition",
+            "tags": "art, painting, post-impressionism, landscape, animal, lamb, blanket, wagon, lily, afternoon, soft lighting, cheerful, gentle, textured, vibrant, vincent van gogh style, paul c\u00e9zanne style"
+        }
+    }
+}

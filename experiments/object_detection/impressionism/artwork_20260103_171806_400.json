@@ -1,0 +1,340 @@
+{
+    "artwork_id": "artwork_20260103_171806_400",
+    "generation_timestamp": "2026-01-03T17:18:38.637185",
+    "style": "Impressionism",
+    "objects": {
+        "object_ids": [
+            45,
+            50,
+            60,
+            18
+        ],
+        "object_names": [
+            "spoon",
+            "orange",
+            "bed",
+            "mare"
+        ],
+        "enhanced_objects": [
+            {
+                "object_id": 45,
+                "name": "spoon",
+                "artistic_description": "A gleaming utensil catching soft, diffused afternoon light through studio windows, its polished surface fractured into scattered highlights of pale silver and cool gray, with subtle blue reflections from the cloudy sky visible in its curved form",
+                "size": "Small",
+                "state": "clean and reflective",
+                "primary_colors": [
+                    "pale silver",
+                    "cool gray"
+                ],
+                "material": "metal"
+            },
+            {
+                "object_id": 50,
+                "name": "orange",
+                "artistic_description": "A vibrant sphere of warm color against the subdued studio light, its textured peel absorbing soft natural illumination to create a luminous glow of deep amber and mottled gold, with hints of muted green where the surface dimples",
+                "size": "Medium",
+                "state": "fresh and whole",
+                "primary_colors": [
+                    "warm amber",
+                    "muted gold"
+                ],
+                "material": "fruit peel"
+            },
+            {
+                "object_id": 60,
+                "name": "bed",
+                "artistic_description": "A soft expanse of rumpled fabric rendered in gentle strokes of cream and pale beige, the natural light catching subtle folds and shadows that dissolve the edges into atmospheric haze, with hints of warm ivory where the material catches the brightest illumination",
+                "size": "Large",
+                "state": "lightly used and inviting",
+                "primary_colors": [
+                    "soft cream",
+                    "pale beige"
+                ],
+                "material": "fabric"
+            },
+            {
+                "object_id": 18,
+                "name": "mare",
+                "artistic_description": "A small sculpted form in muted tones of warm brown and shadowed umber, its smooth surface catching scattered highlights of soft tan where light grazes the curves, with deep shadows pooling in the recessed details creating a gentle, simplified silhouette",
+                "size": "Small",
+                "state": "smooth and polished",
+                "primary_colors": [
+                    "warm brown",
+                    "soft tan"
+                ],
+                "material": "ceramic"
+            }
+        ]
+    },
+    "composition": {
+        "spatial_relations": [
+            [
+                45,
+                "on",
+                60
+            ],
+            [
+                50,
+                "next to",
+                45
+            ],
+            [
+                18,
+                "next to",
+                60
+            ]
+        ],
+        "semantic_relations": []
+    },
+    "environment": {
+        "environment_details": {
+            "scene_brief": "A Art Studio featuring spoon, with orange, bed, and toy mare placed nearby",
+            "place365_name": "/a/art_studio",
+            "place365_id": 21,
+            "time_of_day": "afternoon",
+            "weather": "cloudy",
+            "period": "Contemporary",
+            "is_indoor": true,
+            "lighting": {
+                "type": "natural",
+                "quality": "soft",
+                "direction": "side-lit",
+                "mood": "warm",
+                "reasoning": "A 'side-lit' setup from a window (implied by weather visibility) provides depth and dimension to the objects (spoon, toy mare). The 'soft' quality from the clouds prevents glare on surfaces. The 'warm' mood is derived from the 'afternoon' time and the 'orange' object, creating an inviting, creative atmosphere consistent with Impressionist aesthetics."
+            },
+            "atmosphere": "bright and active and subdued and gentle"
+        },
+        "scene_inference": {
+            "all_candidates": [
+                {
+                    "scene_type": "Impressionist Bedroom",
+                    "plausibility": 0.85,
+                    "reasoning": "A bedroom scene where the bed is the main furniture. A mare is depicted in a painting above the bed. An orange sits on a nightstand, and a spoon rests on a napkin next to it.",
+                    "object_interpretations": {
+                        "spoon": {
+                            "form": "real utensil",
+                            "scale": "normal",
+                            "role": "breakfast item on nightstand"
+                        },
+                        "orange": {
+                            "form": "real fruit",
+                            "scale": "normal",
+                            "role": "food on nightstand"
+                        },
+                        "bed": {
+                            "form": "real furniture",
+                            "scale": "full-size",
+                            "role": "primary furniture"
+                        },
+                        "mare": {
+                            "form": "painted image",
+                            "scale": "medium (painting)",
+                            "role": "wall art/decoration"
+                        }
+                    }
+                },
+                {
+                    "scene_type": "Country Kitchen",
+                    "plausibility": 0.9,
+                    "reasoning": "A rustic kitchen scene. A mare is visible through the window in a field. A bed is in the adjoining room or a loft. An orange and a spoon are on a wooden table.",
+                    "object_interpretations": {
+                        "spoon": {
+                            "form": "real utensil",
+                            "scale": "normal",
+                            "role": "eating tool on table"
+                        },
+                        "orange": {
+                            "form": "real fruit",
+                            "scale": "normal",
+                            "role": "fresh produce on table"
+                        },
+                        "bed": {
+                            "form": "real furniture",
+                            "scale": "full-size",
+                            "role": "furniture in background room"
+                        },
+                        "mare": {
+                            "form": "real animal",
+                            "scale": "large (distant)",
+                            "role": "animal in pasture outside window"
+                        }
+                    }
+                },
+                {
+                    "scene_type": "Art Studio",
+                    "plausibility": 0.8,
+                    "reasoning": "An artist's studio with a still life setup. A spoon and an orange are arranged on a table. A model toy mare sits on a shelf. A daybed (bed) is in the corner for resting.",
+                    "object_interpretations": {
+                        "spoon": {
+                            "form": "real utensil",
+                            "scale": "normal",
+                            "role": "still life subject"
+                        },
+                        "orange": {
+                            "form": "real fruit",
+                            "scale": "normal",
+                            "role": "still life subject"
+                        },
+                        "bed": {
+                            "form": "daybed/cot",
+                            "scale": "full-size",
+                            "role": "furniture for resting"
+                        },
+                        "mare": {
+                            "form": "toy/statuette",
+                            "scale": "small",
+                            "role": "studio decoration"
+                        }
+                    },
+                    "scene_brief": "A Art Studio featuring spoon, with orange, bed, and toy mare placed nearby"
+                },
+                {
+                    "scene_type": "Dreamscape",
+                    "plausibility": 0.75,
+                    "reasoning": "A surreal, impressionist dreamscape. A giant bed floats in the clouds. A mare gallops on a path made of orange peels. A giant spoon acts as a bridge or oar.",
+                    "object_interpretations": {
+                        "spoon": {
+                            "form": "surreal object",
+                            "scale": "giant",
+                            "role": "structural element/bridge"
+                        },
+                        "orange": {
+                            "form": "surreal landscape",
+                            "scale": "giant",
+                            "role": "terrain/ground"
+                        },
+                        "bed": {
+                            "form": "floating furniture",
+                            "scale": "giant",
+                            "role": "floating platform"
+                        },
+                        "mare": {
+                            "form": "real animal",
+                            "scale": "normal",
+                            "role": "traveler in dreamscape"
+                        }
+                    }
+                },
+                {
+                    "scene_type": "Outdoor Picnic",
+                    "plausibility": 0.9,
+                    "reasoning": "A picnic scene on a grassy hill. A blanket is laid out like a bed. An orange is being eaten with a spoon. A mare is grazing in the background field.",
+                    "object_interpretations": {
+                        "spoon": {
+                            "form": "real utensil",
+                            "scale": "normal",
+                            "role": "eating tool"
+                        },
+                        "orange": {
+                            "form": "real fruit",
+                            "scale": "normal",
+                            "role": "picnic food"
+                        },
+                        "bed": {
+                            "form": "picnic blanket",
+                            "scale": "large",
+                            "role": "ground covering/seating"
+                        },
+                        "mare": {
+                            "form": "real animal",
+                            "scale": "large (distant)",
+                            "role": "grazing animal"
+                        }
+                    }
+                },
+                {
+                    "scene_type": "Vintage Nursery",
+                    "plausibility": 0.85,
+                    "reasoning": "A child's room. A bed is central. A rocking horse shaped like a mare is in the corner. A toy spoon and toy orange are on a rug.",
+                    "object_interpretations": {
+                        "spoon": {
+                            "form": "toy",
+                            "scale": "small",
+                            "role": "plaything"
+                        },
+                        "orange": {
+                            "form": "toy",
+                            "scale": "small",
+                            "role": "plaything"
+                        },
+                        "bed": {
+                            "form": "child's bed",
+                            "scale": "small",
+                            "role": "sleeping area"
+                        },
+                        "mare": {
+                            "form": "rocking horse",
+                            "scale": "small",
+                            "role": "toy"
+                        }
+                    }
+                },
+                {
+                    "scene_type": "Farmhouse Interior",
+                    "plausibility": 0.85,
+                    "reasoning": "A farmhouse kitchen/living area. Through the window, a mare is in the yard. A bed is in the next room. An orange sits on the counter with a spoon.",
+                    "object_interpretations": {
+                        "spoon": {
+                            "form": "real utensil",
+                            "scale": "normal",
+                            "role": "kitchen tool"
+                        },
+                        "orange": {
+                            "form": "real fruit",
+                            "scale": "normal",
+                            "role": "kitchen produce"
+                        },
+                        "bed": {
+                            "form": "real furniture",
+                            "scale": "full-size",
+                            "role": "furniture in living space"
+                        },
+                        "mare": {
+                            "form": "real animal",
+                            "scale": "large (distant)",
+                            "role": "farm animal"
+                        }
+                    }
+                }
+            ],
+            "selected_scene": {
+                "scene_type": "Art Studio",
+                "plausibility": 0.8,
+                "reasoning": "An artist's studio with a still life setup. A spoon and an orange are arranged on a table. A model toy mare sits on a shelf. A daybed (bed) is in the corner for resting.",
+                "object_interpretations": {
+                    "spoon": {
+                        "form": "real utensil",
+                        "scale": "normal",
+                        "role": "still life subject"
+                    },
+                    "orange": {
+                        "form": "real fruit",
+                        "scale": "normal",
+                        "role": "still life subject"
+                    },
+                    "bed": {
+                        "form": "daybed/cot",
+                        "scale": "full-size",
+                        "role": "furniture for resting"
+                    },
+                    "mare": {
+                        "form": "toy/statuette",
+                        "scale": "small",
+                        "role": "studio decoration"
+                    }
+                },
+                "scene_brief": "A Art Studio featuring spoon, with orange, bed, and toy mare placed nearby"
+            }
+        }
+    },
+    "final_prompts": {
+        "main_prompt": "A Impressionism painting depicting a bright and active yet subdued and gentle afternoon scene. In the foreground, a large bed with soft cream and pale beige fabric sits lightly used and inviting. On its surface rests a small, clean and reflective spoon in pale silver and cool gray tones, with a medium-sized orange in warm amber and muted gold colors placed beside it, appearing fresh and whole. Next to the bed stands a small mare in warm brown and soft tan hues, its form smooth and polished. The entire composition is bathed in natural soft afternoon light that filters through the space, creating dappled patterns and vibrant yet gentle color interactions characteristic of Impressionist technique, with visible brushstrokes capturing the interplay of light and texture across the metal spoon, fruit peel, fabric bed, and ceramic-like mare.",
+        "negative_prompt": "photorealistic, 3d render, modern, digital art, photograph, low quality, blurry, distorted, surreal, cartoon, anime, hyperrealistic, ugly, deformed, text, watermark, signature, frame, border",
+        "prompt_formats": {
+            "simple": "An Impressionist painting of a spoon and orange on a bed with a mare beside it in soft afternoon light.",
+            "complex": "A Impressionism painting depicting a bright and active yet subdued and gentle afternoon scene. In the foreground, a large bed with soft cream and pale beige fabric sits lightly used and inviting. On its surface rests a small, clean and reflective spoon in pale silver and cool gray tones, with a medium-sized orange in warm amber and muted gold colors placed beside it, appearing fresh and whole. Next to the bed stands a small mare in warm brown and soft tan hues, its form smooth and polished. The entire composition is bathed in natural soft afternoon light that filters through the space, creating dappled patterns and vibrant yet gentle color interactions characteristic of Impressionist technique, with visible brushstrokes capturing the interplay of light and texture across the metal spoon, fruit peel, fabric bed, and ceramic-like mare.",
+            "comma_separated": "Impressionism painting, spoon on bed, orange beside spoon, mare beside bed, afternoon lighting, natural soft light, bright active subdued gentle atmosphere, small pale silver spoon, medium warm amber orange, large soft cream bed, small warm brown mare, visible brushstrokes, dappled light, color interactions",
+            "tags": "art, painting, impressionism, still life, interior, afternoon light, soft lighting, brushstroke texture, color harmony, domestic scene"
+        }
+    }
+}

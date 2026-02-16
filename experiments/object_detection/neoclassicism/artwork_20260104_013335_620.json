@@ -1,0 +1,351 @@
+{
+    "artwork_id": "artwork_20260104_013335_620",
+    "generation_timestamp": "2026-01-04T01:34:22.638824",
+    "style": "Neoclassicism",
+    "objects": {
+        "object_ids": [
+            10,
+            9,
+            17,
+            20
+        ],
+        "object_names": [
+            "lamp post",
+            "sailboat",
+            "fox",
+            "calf"
+        ],
+        "enhanced_objects": [
+            {
+                "object_id": 10,
+                "name": "lamp post",
+                "artistic_description": "Tall cast iron column with ornate classical detailing, its dark metal surface absorbing the muted sunset glow while catching subtle highlights along its fluted edges. The lamp housing at the top holds a warm amber flame that casts a gentle, golden halo against the overcast sky, creating soft reflections on the damp ground below. Weathered patina from age shows subtle greenish oxidation in crevices, while the overall form maintains dignified monumentality.",
+                "size": "Large",
+                "state": "weathered but dignified, bearing the noble aging of classical antiquity",
+                "primary_colors": [
+                    "warm bronze-brown",
+                    "deep charcoal"
+                ],
+                "material": "cast iron"
+            },
+            {
+                "object_id": 9,
+                "name": "sailboat",
+                "artistic_description": "Miniature vessel with pristine white canvas sails that catch the subdued sunset light, glowing with soft peach and cream tones against the gray-clouded sky. The polished wooden hull reflects muted golden highlights where light grazes its curved form, while the water's surface shows gentle ripples that fragment the warm illumination into scattered shimmer. Delicate rigging creates fine shadow lines across the sails, rendered with classical precision and grace.",
+                "size": "Small",
+                "state": "toy-like perfection, immaculately maintained with crisp, clean lines",
+                "primary_colors": [
+                    "creamy white",
+                    "warm honey-gold"
+                ],
+                "material": "canvas and polished wood"
+            },
+            {
+                "object_id": 17,
+                "name": "fox",
+                "artistic_description": "Sleek creature with russet fur that deepens to rich burnt sienna and copper tones in the warm, diffused sunset light. The soft, overcast illumination eliminates harsh shadows, revealing the fine texture of its coat with velvety softness. Subtle amber highlights dance across its muzzle and chest where the fading light catches the guard hairs, while its intelligent eyes reflect a warm, golden glint. The fur appears slightly damp from the humid air, giving it a gentle sheen.",
+                "size": "Medium",
+                "state": "alert yet peaceful, with fur slightly softened by atmospheric moisture",
+                "primary_colors": [
+                    "burnt sienna",
+                    "copper-amber"
+                ],
+                "material": "fur"
+            },
+            {
+                "object_id": 20,
+                "name": "calf",
+                "artistic_description": "Young bovine form rendered in soft cream and warm tan tones that harmonize with the gentle sunset palette. Its coat shows subtle variations of ivory, beige, and pale gold where the muted light catches the textured fur, creating a matte, velvety appearance. The rounded contours are softened by the subdued atmospheric conditions, with gentle shadows that blend seamlessly into the overall form. A delicate warm glow emanates from its flank where the fading sunlight still reaches.",
+                "size": "Medium",
+                "state": "gentle and serene, embodying pastoral innocence with smooth, healthy appearance",
+                "primary_colors": [
+                    "creamy ivory",
+                    "warm tan"
+                ],
+                "material": "fur and hide"
+            }
+        ]
+    },
+    "composition": {
+        "spatial_relations": [
+            [
+                9,
+                "in",
+                20
+            ],
+            [
+                17,
+                "next to",
+                20
+            ],
+            [
+                20,
+                "near",
+                10
+            ],
+            [
+                9,
+                "near",
+                10
+            ]
+        ],
+        "semantic_relations": [
+            [
+                17,
+                "watching",
+                9
+            ]
+        ]
+    },
+    "environment": {
+        "environment_details": {
+            "scene_brief": "A Neoclassical Park centered around lamp post, with toy sailboat, fox, and calf",
+            "place365_name": "/p/park",
+            "place365_id": 254,
+            "time_of_day": "sunset",
+            "weather": "cloudy",
+            "period": "Classical",
+            "is_indoor": false,
+            "lighting": {
+                "type": "natural",
+                "quality": "soft",
+                "direction": "side-lit",
+                "mood": "warm",
+                "reasoning": "Combining 'sunset' (time) and 'cloudy' (weather) results in a broad, diffused natural light source. The sun is low, casting a warm, golden glow (mood). The clouds soften the shadows (quality), preventing harsh contrast. A side-lit direction is likely as the sun sets on the horizon, revealing the form of the lamp post and animals while casting long, defining shadows across the park."
+            },
+            "atmosphere": "warm and peaceful and subdued and gentle"
+        },
+        "scene_inference": {
+            "all_candidates": [
+                {
+                    "scene_type": "Neoclassical Park",
+                    "plausibility": 0.9,
+                    "reasoning": "A formal park setting with a lamp post as a central feature. The sailboat is a miniature model in a decorative fountain or reflecting pool. The fox and calf are bronze or marble statues placed in the landscaped gardens.",
+                    "object_interpretations": {
+                        "lamp post": {
+                            "form": "real lamp post",
+                            "scale": "normal",
+                            "role": "primary lighting structure"
+                        },
+                        "sailboat": {
+                            "form": "sculpture/model",
+                            "scale": "miniature",
+                            "role": "fountain centerpiece"
+                        },
+                        "fox": {
+                            "form": "bronze statue",
+                            "scale": "life-size",
+                            "role": "garden ornament"
+                        },
+                        "calf": {
+                            "form": "marble statue",
+                            "scale": "life-size",
+                            "role": "garden ornament"
+                        }
+                    },
+                    "scene_brief": "A Neoclassical Park centered around lamp post, with toy sailboat, fox, and calf"
+                },
+                {
+                    "scene_type": "Museum Diorama",
+                    "plausibility": 0.9,
+                    "reasoning": "A museum exhibit depicting a historical landscape. The lamp post is a restored antique street lamp. The sailboat is a detailed ship model in a glass case. The fox and calf are taxidermy specimens or artistic representations within the display.",
+                    "object_interpretations": {
+                        "lamp post": {
+                            "form": "antique lamp",
+                            "scale": "normal",
+                            "role": "historical artifact"
+                        },
+                        "sailboat": {
+                            "form": "ship model",
+                            "scale": "miniature",
+                            "role": "museum exhibit"
+                        },
+                        "fox": {
+                            "form": "taxidermy/statue",
+                            "scale": "life-size",
+                            "role": "exhibit specimen"
+                        },
+                        "calf": {
+                            "form": "taxidermy/statue",
+                            "scale": "life-size",
+                            "role": "exhibit specimen"
+                        }
+                    }
+                },
+                {
+                    "scene_type": "Neoclassical Interior",
+                    "plausibility": 0.85,
+                    "reasoning": "A grand room with high ceilings. The lamp post is a tall, ornate floor lamp. The sailboat is a decorative porcelain piece on a mantelpiece. The fox and calf are subjects of oil paintings hanging on the walls.",
+                    "object_interpretations": {
+                        "lamp post": {
+                            "form": "floor lamp",
+                            "scale": "tall",
+                            "role": "lighting fixture"
+                        },
+                        "sailboat": {
+                            "form": "porcelain figurine",
+                            "scale": "small",
+                            "role": "decoration"
+                        },
+                        "fox": {
+                            "form": "painting",
+                            "scale": "wall art",
+                            "role": "decorative element"
+                        },
+                        "calf": {
+                            "form": "painting",
+                            "scale": "wall art",
+                            "role": "decorative element"
+                        }
+                    }
+                },
+                {
+                    "scene_type": "Theater Stage Set",
+                    "plausibility": 0.8,
+                    "reasoning": "A stage set for a play. The lamp post is a prop providing stage lighting. The sailboat is a painted backdrop or a small prop. The fox and calf are costumed actors or puppets performing.",
+                    "object_interpretations": {
+                        "lamp post": {
+                            "form": "stage prop",
+                            "scale": "normal",
+                            "role": "lighting/prop"
+                        },
+                        "sailboat": {
+                            "form": "prop/backdrop",
+                            "scale": "variable",
+                            "role": "scene setting"
+                        },
+                        "fox": {
+                            "form": "actor/costume",
+                            "scale": "life-size",
+                            "role": "performer"
+                        },
+                        "calf": {
+                            "form": "actor/costume",
+                            "scale": "life-size",
+                            "role": "performer"
+                        }
+                    }
+                },
+                {
+                    "scene_type": "Artistic Courtyard",
+                    "plausibility": 0.85,
+                    "reasoning": "An open-air courtyard with classical architecture. The lamp post stands near a central fountain where a stone sailboat sits. The fox and calf are living animals wandering the courtyard, perhaps part of a domesticated scene.",
+                    "object_interpretations": {
+                        "lamp post": {
+                            "form": "real lamp post",
+                            "scale": "normal",
+                            "role": "street furniture"
+                        },
+                        "sailboat": {
+                            "form": "stone sculpture",
+                            "scale": "small",
+                            "role": "fountain decoration"
+                        },
+                        "fox": {
+                            "form": "real animal",
+                            "scale": "life-size",
+                            "role": "wildlife"
+                        },
+                        "calf": {
+                            "form": "real animal",
+                            "scale": "life-size",
+                            "role": "livestock"
+                        }
+                    }
+                },
+                {
+                    "scene_type": "Classical Garden",
+                    "plausibility": 0.85,
+                    "reasoning": "A manicured garden with classical statues. The lamp post illuminates a path. The sailboat is a decorative element in a pond. The fox and calf are bronze statues positioned among the hedges.",
+                    "object_interpretations": {
+                        "lamp post": {
+                            "form": "real lamp post",
+                            "scale": "normal",
+                            "role": "path lighting"
+                        },
+                        "sailboat": {
+                            "form": "ornamental sculpture",
+                            "scale": "miniature",
+                            "role": "pond feature"
+                        },
+                        "fox": {
+                            "form": "bronze statue",
+                            "scale": "life-size",
+                            "role": "garden art"
+                        },
+                        "calf": {
+                            "form": "bronze statue",
+                            "scale": "life-size",
+                            "role": "garden art"
+                        }
+                    }
+                },
+                {
+                    "scene_type": "Historical Harbor",
+                    "plausibility": 0.8,
+                    "reasoning": "A seaside dock area. The lamp post is a street lamp on the pier. The sailboat is a real boat docked nearby. The fox and calf are animals that have wandered onto the pier or are in a nearby pen.",
+                    "object_interpretations": {
+                        "lamp post": {
+                            "form": "real lamp post",
+                            "scale": "normal",
+                            "role": "pier lighting"
+                        },
+                        "sailboat": {
+                            "form": "real boat",
+                            "scale": "normal",
+                            "role": "transport"
+                        },
+                        "fox": {
+                            "form": "real animal",
+                            "scale": "life-size",
+                            "role": "wildlife"
+                        },
+                        "calf": {
+                            "form": "real animal",
+                            "scale": "life-size",
+                            "role": "livestock"
+                        }
+                    }
+                }
+            ],
+            "selected_scene": {
+                "scene_type": "Neoclassical Park",
+                "plausibility": 0.9,
+                "reasoning": "A formal park setting with a lamp post as a central feature. The sailboat is a miniature model in a decorative fountain or reflecting pool. The fox and calf are bronze or marble statues placed in the landscaped gardens.",
+                "object_interpretations": {
+                    "lamp post": {
+                        "form": "real lamp post",
+                        "scale": "normal",
+                        "role": "primary lighting structure"
+                    },
+                    "sailboat": {
+                        "form": "sculpture/model",
+                        "scale": "miniature",
+                        "role": "fountain centerpiece"
+                    },
+                    "fox": {
+                        "form": "bronze statue",
+                        "scale": "life-size",
+                        "role": "garden ornament"
+                    },
+                    "calf": {
+                        "form": "marble statue",
+                        "scale": "life-size",
+                        "role": "garden ornament"
+                    }
+                },
+                "scene_brief": "A Neoclassical Park centered around lamp post, with toy sailboat, fox, and calf"
+            }
+        }
+    },
+    "final_prompts": {
+        "main_prompt": "A Neoclassicism painting depicting a serene sunset scene with precise spatial relationships and classical composition. In the foreground, a medium-sized calf with creamy ivory and warm tan fur stands gentle and serene, its body containing a small sailboat of toy-like perfection in creamy white and warm honey-gold. Beside the calf, a medium-sized fox in burnt sienna and copper-amber fur sits alert yet peaceful. Nearby stands a large lamp post of warm bronze-brown and deep charcoal, weathered but dignified. The sailboat is positioned both within the calf and near the lamp post, creating a triangular composition. The scene is bathed in natural soft sunset lighting that casts long, dramatic shadows, creating a warm, peaceful, subdued, and gentle atmosphere reminiscent of classical pastoral idylls. Materials are rendered with neoclassical precision: cast iron for the lamp post, canvas and polished wood for the sailboat, fine fur for the fox, and hide for the calf, all arranged with geometric clarity against a softly fading horizon.",
+        "negative_prompt": "photorealistic, 3d render, modern, digital art, photograph, low quality, blurry, distorted, surreal, cartoon, anime, abstract, impressionistic, expressionistic, pop art, graffiti, sketch, doodle, watermark, signature, text, frame, border, ugly, deformed, mutated, disfigured, oversaturated, high contrast, harsh lighting, night scene, rainy, stormy, chaotic, crowded, cluttered",
+        "prompt_formats": {
+            "simple": "A Neoclassicism painting at sunset showing a calf containing a sailboat, with a fox beside it and a lamp post nearby, all in warm peaceful lighting.",
+            "complex": "A Neoclassicism painting depicting a serene sunset scene with precise spatial relationships and classical composition. In the foreground, a medium-sized calf with creamy ivory and warm tan fur stands gentle and serene, its body containing a small sailboat of toy-like perfection in creamy white and warm honey-gold. Beside the calf, a medium-sized fox in burnt sienna and copper-amber fur sits alert yet peaceful. Nearby stands a large lamp post of warm bronze-brown and deep charcoal, weathered but dignified. The sailboat is positioned both within the calf and near the lamp post, creating a triangular composition. The scene is bathed in natural soft sunset lighting that casts long, dramatic shadows, creating a warm, peaceful, subdued, and gentle atmosphere reminiscent of classical pastoral idylls. Materials are rendered with neoclassical precision: cast iron for the lamp post, canvas and polished wood for the sailboat, fine fur for the fox, and hide for the calf, all arranged with geometric clarity against a softly fading horizon.",
+            "comma_separated": "Neoclassicism painting, lamp post, sailboat, fox, calf, large lamp post, small sailboat, medium fox, medium calf, warm bronze-brown, deep charcoal, creamy white, warm honey-gold, burnt sienna, copper-amber, creamy ivory, warm tan, weathered, toy-like, alert, gentle, sailboat in calf, fox next to calf, calf near lamp post, sailboat near lamp post, sunset, natural soft lighting, warm, peaceful, subdued, gentle atmosphere, classical composition, geometric arrangement, pastoral scene",
+            "tags": "art, painting, neoclassicism, classical art, pastoral, sunset, golden hour, lamp post, sailboat, fox, calf, animal, bronze, cast iron, wood, canvas, fur, hide, geometric composition, triangular arrangement, serene, peaceful, warm lighting, soft shadows, detailed, precise, dignified, weathered, toy, alert, gentle"
+        }
+    }
+}

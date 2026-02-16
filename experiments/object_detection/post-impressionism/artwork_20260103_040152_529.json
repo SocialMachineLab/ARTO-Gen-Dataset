@@ -1,0 +1,285 @@
+{
+    "artwork_id": "artwork_20260103_040152_529",
+    "generation_timestamp": "2026-01-03T04:02:24.744166",
+    "style": "Post-Impressionism",
+    "objects": {
+        "object_ids": [
+            22,
+            50,
+            10
+        ],
+        "object_names": [
+            "bear",
+            "orange",
+            "lamp post"
+        ],
+        "enhanced_objects": [
+            {
+                "object_id": 22,
+                "name": "bear",
+                "artistic_description": "A massive silhouette rendered in thick, expressive strokes of deep umber and burnt sienna, its fur catching the muted sunset glow with subtle highlights of amber and rust. The cloudy atmosphere softens its edges, creating a dreamy, almost ethereal quality. Moisture in the air gives its coat a slight sheen, while patches of fur appear matte and velvety in shadowed areas. The creature's form seems to dissolve into the warm, subdued atmosphere at the edges.",
+                "size": "Large",
+                "state": "Standing in quiet repose, fur slightly damp from the humid air, appearing contemplative and peaceful",
+                "primary_colors": [
+                    "deep umber",
+                    "burnt sienna"
+                ],
+                "material": "fur"
+            },
+            {
+                "object_id": 50,
+                "name": "orange",
+                "artistic_description": "A vibrant jewel-like sphere that glows with intense, concentrated color against the muted backdrop. Thick impasto strokes of cadmium orange and tangerine create a textured surface that catches the mixed light, while the cloudy sky casts soft, diffused shadows across its form. The fruit's waxy skin reflects subtle hints of the warm sunset, creating a luminous quality that seems to pulse with inner light. Moisture from the air condenses on its surface in tiny, glistening droplets.",
+                "size": "Small",
+                "state": "Fresh and plump, with a slight waxy sheen from atmospheric moisture",
+                "primary_colors": [
+                    "cadmium orange",
+                    "tangerine"
+                ],
+                "material": "fruit skin"
+            },
+            {
+                "object_id": 10,
+                "name": "lamp post",
+                "artistic_description": "A vertical structure rendered in cool iron tones of weathered gray and blue-black, standing in stark contrast to the warm sunset palette. The cloudy atmosphere creates a soft, diffused quality on its metallic surface, with subtle reflections of the golden sky visible in polished areas. The paint appears slightly chipped and aged, revealing darker rust tones beneath. The lamp's glass housing captures and diffuses the ambient light, creating a gentle, milky glow that seems to breathe with the subdued atmosphere.",
+                "size": "Medium",
+                "state": "Weathered and slightly aged, with paint oxidation and subtle rust patina",
+                "primary_colors": [
+                    "weathered gray",
+                    "blue-black"
+                ],
+                "material": "metal"
+            }
+        ]
+    },
+    "composition": {
+        "spatial_relations": [
+            [
+                50,
+                "next to",
+                10
+            ],
+            [
+                22,
+                "behind",
+                10
+            ],
+            [
+                22,
+                "near",
+                50
+            ]
+        ],
+        "semantic_relations": []
+    },
+    "environment": {
+        "environment_details": {
+            "scene_brief": "A Abstract Composition featuring bear, with orange, and lamp post",
+            "place365_name": "/s/street",
+            "place365_id": 319,
+            "time_of_day": "sunset",
+            "weather": "cloudy",
+            "period": "Contemporary",
+            "is_indoor": false,
+            "lighting": {
+                "type": "mixed",
+                "quality": "soft",
+                "direction": "side-lit",
+                "reasoning": "Mixed lighting (sunset's natural light and the lamp post's artificial light) creates complex color interactions. Soft quality from the clouds suits the style, and side-lighting emphasizes the form and color of the bear and lamp post."
+            },
+            "atmosphere": "warm and peaceful and subdued and gentle"
+        },
+        "scene_inference": {
+            "all_candidates": [
+                {
+                    "scene_type": "Urban Park at Dusk",
+                    "plausibility": 0.9,
+                    "reasoning": "A bear has escaped from a nearby enclosure or is in a city park. The lamp post illuminates the scene, casting long shadows. The orange lies on the ground, perhaps dropped by a visitor or fallen from a tree.",
+                    "object_interpretations": {
+                        "bear": {
+                            "form": "real animal",
+                            "scale": "normal",
+                            "role": "primary subject"
+                        },
+                        "orange": {
+                            "form": "real fruit",
+                            "scale": "normal",
+                            "role": "found object/foreground detail"
+                        },
+                        "lamp post": {
+                            "form": "real street furniture",
+                            "scale": "normal",
+                            "role": "environmental anchor/light source"
+                        }
+                    }
+                },
+                {
+                    "scene_type": "Post-Impressionist Painting",
+                    "plausibility": 0.95,
+                    "reasoning": "The scene is a canvas depicting a stylized bear. The lamp post and orange are painted elements within the composition, rendered with bold colors and distinct outlines typical of the style.",
+                    "object_interpretations": {
+                        "bear": {
+                            "form": "painted subject",
+                            "scale": "variable",
+                            "role": "main figure"
+                        },
+                        "orange": {
+                            "form": "painted object",
+                            "scale": "variable",
+                            "role": "color accent"
+                        },
+                        "lamp post": {
+                            "form": "painted structure",
+                            "scale": "variable",
+                            "role": "structural element"
+                        }
+                    }
+                },
+                {
+                    "scene_type": "Surreal Dreamscape",
+                    "plausibility": 0.85,
+                    "reasoning": "A bear wanders through a floating landscape. A giant lamp post stands vertically in the sky, and oranges rain down like hailstones. The logic is dreamlike and fluid.",
+                    "object_interpretations": {
+                        "bear": {
+                            "form": "real animal",
+                            "scale": "normal",
+                            "role": "wanderer"
+                        },
+                        "orange": {
+                            "form": "real fruit",
+                            "scale": "giant",
+                            "role": "obstacle/decor"
+                        },
+                        "lamp post": {
+                            "form": "real street furniture",
+                            "scale": "giant",
+                            "role": "sky anchor"
+                        }
+                    }
+                },
+                {
+                    "scene_type": "Forest Clearing",
+                    "plausibility": 0.8,
+                    "reasoning": "A bear forages in a forest. A single, weathered lamp post stands in the clearing, a remnant of civilization. An orange sits at its base, perhaps left by a hiker.",
+                    "object_interpretations": {
+                        "bear": {
+                            "form": "real animal",
+                            "scale": "normal",
+                            "role": "forager"
+                        },
+                        "orange": {
+                            "form": "real fruit",
+                            "scale": "normal",
+                            "role": "food source"
+                        },
+                        "lamp post": {
+                            "form": "real street furniture",
+                            "scale": "normal",
+                            "role": "anachronistic artifact"
+                        }
+                    }
+                },
+                {
+                    "scene_type": "Vintage Toy Shop",
+                    "plausibility": 0.9,
+                    "reasoning": "The bear is a plush toy on a shelf. The lamp post is a miniature decoration for a model train set. The orange is a plastic fruit decoration or a toy.",
+                    "object_interpretations": {
+                        "bear": {
+                            "form": "toy",
+                            "scale": "miniature",
+                            "role": "merchandise"
+                        },
+                        "orange": {
+                            "form": "toy",
+                            "scale": "miniature",
+                            "role": "decoration"
+                        },
+                        "lamp post": {
+                            "form": "model",
+                            "scale": "miniature",
+                            "role": "scenery"
+                        }
+                    }
+                },
+                {
+                    "scene_type": "Circus Tent",
+                    "plausibility": 0.85,
+                    "reasoning": "A performing bear stands on a podium. A lamp post is part of the stage set, and an orange is a prop for a juggling act.",
+                    "object_interpretations": {
+                        "bear": {
+                            "form": "real animal",
+                            "scale": "normal",
+                            "role": "performer"
+                        },
+                        "orange": {
+                            "form": "real fruit",
+                            "scale": "normal",
+                            "role": "prop"
+                        },
+                        "lamp post": {
+                            "form": "stage prop",
+                            "scale": "normal",
+                            "role": "set dressing"
+                        }
+                    }
+                },
+                {
+                    "scene_type": "Abstract Composition",
+                    "plausibility": 0.7,
+                    "reasoning": "The objects are deconstructed into shapes and colors. The bear is a brown blob, the orange a circle of vibrant orange, and the lamp post a vertical line with a yellow tip.",
+                    "object_interpretations": {
+                        "bear": {
+                            "form": "abstract shape",
+                            "scale": "variable",
+                            "role": "subject"
+                        },
+                        "orange": {
+                            "form": "abstract shape",
+                            "scale": "variable",
+                            "role": "contrast"
+                        },
+                        "lamp post": {
+                            "form": "abstract shape",
+                            "scale": "variable",
+                            "role": "structure"
+                        }
+                    },
+                    "scene_brief": "A Abstract Composition featuring bear, with orange, and lamp post"
+                }
+            ],
+            "selected_scene": {
+                "scene_type": "Abstract Composition",
+                "plausibility": 0.7,
+                "reasoning": "The objects are deconstructed into shapes and colors. The bear is a brown blob, the orange a circle of vibrant orange, and the lamp post a vertical line with a yellow tip.",
+                "object_interpretations": {
+                    "bear": {
+                        "form": "abstract shape",
+                        "scale": "variable",
+                        "role": "subject"
+                    },
+                    "orange": {
+                        "form": "abstract shape",
+                        "scale": "variable",
+                        "role": "contrast"
+                    },
+                    "lamp post": {
+                        "form": "abstract shape",
+                        "scale": "variable",
+                        "role": "structure"
+                    }
+                },
+                "scene_brief": "A Abstract Composition featuring bear, with orange, and lamp post"
+            }
+        }
+    },
+    "final_prompts": {
+        "main_prompt": "A Post-Impressionism painting depicting a warm and peaceful sunset scene with a subdued, gentle atmosphere. In the foreground, a weathered gray and blue-black lamp post stands slightly aged, casting a soft glow. Immediately next to the lamp post's base rests a small, fresh and plump orange in vibrant cadmium orange and tangerine hues. Behind the lamp post, positioned in the midground, a large bear in deep umber and burnt sienna fur stands in quiet repose, its form partially obscured by the post yet clearly near the orange. The spatial arrangement shows the orange adjacent to the lamp post, with the bear situated behind this central structure, creating a triangular composition. The mixed soft lighting of sunset bathes the scene in golden-orange tones, with visible brushstrokes capturing the textures of fur, fruit skin, and aged metal, all rendered in the expressive, color-focused style of Post-Impressionism.",
+        "negative_prompt": "photorealistic, 3d render, modern, digital art, photograph, low quality, blurry, distorted, ugly, deformed, cartoon, anime, text, watermark, signature, frame, border, oversaturated, neon colors, sharp focus, hyperdetailed",
+        "prompt_formats": {
+            "simple": "A Post-Impressionism sunset scene with a bear behind a lamp post next to an orange.",
+            "complex": "A Post-Impressionism painting depicting a warm and peaceful sunset scene with a subdued, gentle atmosphere. In the foreground, a weathered gray and blue-black lamp post stands slightly aged, casting a soft glow. Immediately next to the lamp post's base rests a small, fresh and plump orange in vibrant cadmium orange and tangerine hues. Behind the lamp post, positioned in the midground, a large bear in deep umber and burnt sienna fur stands in quiet repose, its form partially obscured by the post yet clearly near the orange. The spatial arrangement shows the orange adjacent to the lamp post, with the bear situated behind this central structure, creating a triangular composition. The mixed soft lighting of sunset bathes the scene in golden-orange tones, with visible brushstrokes capturing the textures of fur, fruit skin, and aged metal, all rendered in the expressive, color-focused style of Post-Impressionism.",
+            "comma_separated": "Post-Impressionism painting, sunset, warm peaceful subdued gentle atmosphere, large bear in deep umber burnt sienna standing quietly, small fresh plump orange in cadmium orange tangerine, weathered gray blue-black lamp post, orange next to lamp post, bear behind lamp post near orange, mixed soft lighting, visible brushstrokes, textured fur fruit skin metal",
+            "tags": "art, painting, post-impressionism, sunset, bear, orange, lamp post, warm atmosphere, peaceful, Vincent van Gogh style, Paul C\u00e9zanne style, expressive brushwork, color theory, still life with animal, landscape, twilight"
+        }
+    }
+}

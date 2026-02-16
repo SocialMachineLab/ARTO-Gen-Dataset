@@ -1,0 +1,303 @@
+{
+    "artwork_id": "artwork_20260103_022353_196",
+    "generation_timestamp": "2026-01-03T02:24:23.958791",
+    "style": "Post-Impressionism",
+    "objects": {
+        "object_ids": [
+            26,
+            57,
+            50
+        ],
+        "object_names": [
+            "sunshade",
+            "chair",
+            "lemon"
+        ],
+        "enhanced_objects": [
+            {
+                "object_id": 26,
+                "name": "sunshade",
+                "artistic_description": "A vibrant canvas canopy rendered with thick, visible brushstrokes in bold impasto technique. The fabric appears to ripple with stylized wind patterns, its surface catching the harsh afternoon sun with intense highlights. The material shows subtle weathering at the edges where the fabric has been exposed to salt air. The white canvas is not pure white but a mosaic of warm ivory, pale yellow, and cool blue-gray tones that dance across the surface, creating a sense of luminous vibration. The wooden pole supporting it has a weathered patina, its grain visible through the paint in areas where the finish has worn away.",
+                "size": "Dominant",
+                "state": "weathered but functional, showing signs of contemporary outdoor use",
+                "primary_colors": [
+                    "ivory",
+                    "sky blue"
+                ],
+                "material": "canvas and wood"
+            },
+            {
+                "object_id": 57,
+                "name": "chair",
+                "artistic_description": "A minimalist contemporary lounge chair constructed of teak wood and woven synthetic fibers. The wood has taken on a warm, honeyed glow under the intense sunlight, with sharp, angular shadows cast across its geometric form. The woven seat shows a complex pattern of light and dark areas where the sun penetrates the gaps in the weave, creating a dappled effect. The synthetic fibers have a slight sheen, reflecting the bright light in small, scattered points. The overall appearance is crisp and defined, with strong contrasts between the illuminated surfaces and deep, cool shadows that pool beneath the frame.",
+                "size": "Medium",
+                "state": "dry and clean, contemporary design in good condition",
+                "primary_colors": [
+                    "honey brown",
+                    "charcoal"
+                ],
+                "material": "teak wood and synthetic fiber"
+            },
+            {
+                "object_id": 50,
+                "name": "lemon",
+                "artistic_description": "A single lemon placed as a decorative accent, its surface rendered with thick, textured paint in the Post-Impressionist style. The fruit glows with an almost internal luminescence, its yellow skin a complex mixture of cadmium yellow, warm ochre, and tiny touches of orange where the sun hits most directly. The surface shows the characteristic dimpled texture of citrus peel, each small depression creating a micro-shadow that adds to the visual complexity. A small green leaf at the stem provides a sharp color contrast. The lemon appears almost translucent at its edges where the light passes through the thin rind, giving it a jewel-like quality against the bright background.",
+                "size": "Small",
+                "state": "fresh and vibrant, perfectly ripe",
+                "primary_colors": [
+                    "lemon yellow",
+                    "leaf green"
+                ],
+                "material": "citrus fruit"
+            }
+        ]
+    },
+    "composition": {
+        "spatial_relations": [
+            [
+                57,
+                "under",
+                26
+            ],
+            [
+                50,
+                "on",
+                57
+            ]
+        ],
+        "semantic_relations": []
+    },
+    "environment": {
+        "environment_details": {
+            "scene_brief": "A Beachside Resort featuring sunshade as the main functional element, with chair, and decorative lemon as decoration",
+            "place365_name": "/b/beach",
+            "place365_id": 48,
+            "time_of_day": "afternoon",
+            "weather": "sunny",
+            "period": "Contemporary",
+            "is_indoor": false,
+            "lighting": {
+                "type": "natural",
+                "quality": "harsh",
+                "direction": "side-lit",
+                "mood": "warm",
+                "reasoning": "Harsh, natural sunlight in the afternoon creates strong shadows under the sunshades, providing the structural contrast needed for Post-Impressionism. Side-lighting emphasizes the texture of the sand and the volume of the objects, while the warm mood aligns with a sunny beach setting."
+            },
+            "atmosphere": "bright and active and cheerful"
+        },
+        "scene_inference": {
+            "all_candidates": [
+                {
+                    "scene_type": "Beachside Resort",
+                    "plausibility": 0.95,
+                    "reasoning": "A sunshade is a primary beach accessory, providing shelter from the sun. A chair is a standard seating item for relaxation on the sand or a patio. A lemon can be a refreshing fruit for a drink or a snack on a side table, fitting the leisurely vacation vibe.",
+                    "object_interpretations": {
+                        "sunshade": {
+                            "form": "real object",
+                            "scale": "large",
+                            "role": "primary functional object providing shade"
+                        },
+                        "chair": {
+                            "form": "real object",
+                            "scale": "normal",
+                            "role": "functional seating"
+                        },
+                        "lemon": {
+                            "form": "real fruit",
+                            "scale": "normal",
+                            "role": "decorative/refreshment element on a small table"
+                        }
+                    },
+                    "scene_brief": "A Beachside Resort featuring sunshade as the main functional element, with chair, and decorative lemon as decoration"
+                },
+                {
+                    "scene_type": "Garden Patio",
+                    "plausibility": 0.9,
+                    "reasoning": "A sunshade protects diners on a patio. A chair is essential seating. A lemon can be part of a centerpiece in a bowl or on a plate, or a garnish for a meal, fitting the outdoor dining setting.",
+                    "object_interpretations": {
+                        "sunshade": {
+                            "form": "real object",
+                            "scale": "large",
+                            "role": "primary shelter"
+                        },
+                        "chair": {
+                            "form": "real object",
+                            "scale": "normal",
+                            "role": "seating for patio table"
+                        },
+                        "lemon": {
+                            "form": "real fruit",
+                            "scale": "normal",
+                            "role": "decorative food item on table"
+                        }
+                    }
+                },
+                {
+                    "scene_type": "Art Studio (Post-Impressionist Setting)",
+                    "plausibility": 0.85,
+                    "reasoning": "The artist has set up a still life composition. The sunshade could be a prop or a parasol used to shield the canvas. A chair is for the artist to sit while painting. A lemon is a classic still life object, perhaps on a table.",
+                    "object_interpretations": {
+                        "sunshade": {
+                            "form": "real object or prop",
+                            "scale": "normal",
+                            "role": "studio prop or light modifier"
+                        },
+                        "chair": {
+                            "form": "real object",
+                            "scale": "normal",
+                            "role": "artist's seating"
+                        },
+                        "lemon": {
+                            "form": "real fruit",
+                            "scale": "normal",
+                            "role": "still life subject"
+                        }
+                    }
+                },
+                {
+                    "scene_type": "Outdoor Cafe",
+                    "plausibility": 0.9,
+                    "reasoning": "Cafes often use sunshades for outdoor seating areas. Chairs are standard furniture. A lemon could be a garnish on a drink or a slice on a plate, sitting on the table.",
+                    "object_interpretations": {
+                        "sunshade": {
+                            "form": "real object",
+                            "scale": "large",
+                            "role": "shade provider for tables"
+                        },
+                        "chair": {
+                            "form": "real object",
+                            "scale": "normal",
+                            "role": "customer seating"
+                        },
+                        "lemon": {
+                            "form": "real fruit",
+                            "scale": "normal",
+                            "role": "food garnish or decoration"
+                        }
+                    }
+                },
+                {
+                    "scene_type": "Backyard Picnic",
+                    "plausibility": 0.85,
+                    "reasoning": "A sunshade (like a beach umbrella) is set up on the grass. A folding chair is used for seating. A lemon is part of the picnic food spread, perhaps in a basket or on a napkin.",
+                    "object_interpretations": {
+                        "sunshade": {
+                            "form": "real object",
+                            "scale": "large",
+                            "role": "portable shade"
+                        },
+                        "chair": {
+                            "form": "real object",
+                            "scale": "normal",
+                            "role": "portable seating"
+                        },
+                        "lemon": {
+                            "form": "real fruit",
+                            "scale": "normal",
+                            "role": "picnic food item"
+                        }
+                    }
+                },
+                {
+                    "scene_type": "Porch Swing",
+                    "plausibility": 0.8,
+                    "reasoning": "A sunshade might be attached to a porch or a large umbrella near a swing. The swing acts as a seat (chair). A lemonade glass with a lemon slice sits on a nearby table.",
+                    "object_interpretations": {
+                        "sunshade": {
+                            "form": "real object",
+                            "scale": "large",
+                            "role": "shade for porch area"
+                        },
+                        "chair": {
+                            "form": "real object (swing)",
+                            "scale": "normal",
+                            "role": "seating"
+                        },
+                        "lemon": {
+                            "form": "real fruit (slice)",
+                            "scale": "small",
+                            "role": "garnish in drink"
+                        }
+                    }
+                },
+                {
+                    "scene_type": "Poolside Lounge",
+                    "plausibility": 0.9,
+                    "reasoning": "Sunshades (umbrellas) are ubiquitous around pools. Lounge chairs are standard. A lemon could be flavoring water in a glass on a tray.",
+                    "object_interpretations": {
+                        "sunshade": {
+                            "form": "real object",
+                            "scale": "large",
+                            "role": "sun protection"
+                        },
+                        "chair": {
+                            "form": "real object",
+                            "scale": "normal",
+                            "role": "lounging"
+                        },
+                        "lemon": {
+                            "form": "real fruit",
+                            "scale": "normal",
+                            "role": "beverage garnish"
+                        }
+                    }
+                },
+                {
+                    "scene_type": "Vintage Garden Party",
+                    "plausibility": 0.85,
+                    "reasoning": "A parasol (sunshade) is a fashion accessory. Wicker chairs provide seating. A lemon is a sophisticated element in punch or on a tea tray.",
+                    "object_interpretations": {
+                        "sunshade": {
+                            "form": "real object (parasol)",
+                            "scale": "normal",
+                            "role": "fashion accessory/shade"
+                        },
+                        "chair": {
+                            "form": "real object",
+                            "scale": "normal",
+                            "role": "seating"
+                        },
+                        "lemon": {
+                            "form": "real fruit",
+                            "scale": "normal",
+                            "role": "decorative food item"
+                        }
+                    }
+                }
+            ],
+            "selected_scene": {
+                "scene_type": "Beachside Resort",
+                "plausibility": 0.95,
+                "reasoning": "A sunshade is a primary beach accessory, providing shelter from the sun. A chair is a standard seating item for relaxation on the sand or a patio. A lemon can be a refreshing fruit for a drink or a snack on a side table, fitting the leisurely vacation vibe.",
+                "object_interpretations": {
+                    "sunshade": {
+                        "form": "real object",
+                        "scale": "large",
+                        "role": "primary functional object providing shade"
+                    },
+                    "chair": {
+                        "form": "real object",
+                        "scale": "normal",
+                        "role": "functional seating"
+                    },
+                    "lemon": {
+                        "form": "real fruit",
+                        "scale": "normal",
+                        "role": "decorative/refreshment element on a small table"
+                    }
+                },
+                "scene_brief": "A Beachside Resort featuring sunshade as the main functional element, with chair, and decorative lemon as decoration"
+            }
+        }
+    },
+    "final_prompts": {
+        "main_prompt": "A Post-Impressionism painting depicting a bright and cheerful afternoon scene. In the foreground, a weathered but functional sunshade in dominant ivory and sky blue stripes casts a sharp geometric shadow. Directly beneath it sits a medium-sized honey brown and charcoal chair, its dry, clean teak wood surface catching the harsh natural light. Upon the chair's seat rests a small, fresh and vibrant lemon in brilliant lemon yellow with a leaf green stem, its citrus form glowing against the dark wood. The composition uses bold, visible brushstrokes and heightened color to convey the active, cheerful atmosphere of the afternoon, with the spatial relationship clearly showing the chair under the sunshade and the lemon on the chair.",
+        "negative_prompt": "photorealistic, 3d render, modern, digital art, photograph, low quality, blurry, distorted, ugly, deformed, text, watermark, signature, frame, cartoon, anime, sketch, grayscale, monochrome",
+        "prompt_formats": {
+            "simple": "A Post-Impressionism painting of a lemon on a chair under a sunshade on a bright afternoon.",
+            "complex": "A Post-Impressionism painting depicting a bright and cheerful afternoon scene. In the foreground, a weathered but functional sunshade in dominant ivory and sky blue stripes casts a sharp geometric shadow. Directly beneath it sits a medium-sized honey brown and charcoal chair, its dry, clean teak wood surface catching the harsh natural light. Upon the chair's seat rests a small, fresh and vibrant lemon in brilliant lemon yellow with a leaf green stem, its citrus form glowing against the dark wood. The composition uses bold, visible brushstrokes and heightened color to convey the active, cheerful atmosphere of the afternoon, with the spatial relationship clearly showing the chair under the sunshade and the lemon on the chair.",
+            "comma_separated": "Post-Impressionism painting, sunshade, chair, lemon, afternoon, harsh natural lighting, bright cheerful atmosphere, ivory sky blue sunshade, honey brown charcoal chair, lemon yellow green lemon, visible brushstrokes, vibrant colors",
+            "tags": "art, painting, post-impressionism, still life, sunshade, chair, lemon, afternoon, bright, cheerful, vibrant colors, visible brushstrokes, van gogh style"
+        }
+    }
+}

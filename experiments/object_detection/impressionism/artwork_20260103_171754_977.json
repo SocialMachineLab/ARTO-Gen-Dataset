@@ -1,0 +1,250 @@
+{
+    "artwork_id": "artwork_20260103_171754_977",
+    "generation_timestamp": "2026-01-03T17:18:22.209768",
+    "style": "Impressionism",
+    "objects": {
+        "object_ids": [
+            48,
+            20
+        ],
+        "object_names": [
+            "apple",
+            "cow"
+        ],
+        "enhanced_objects": [
+            {
+                "object_id": 48,
+                "name": "apple",
+                "artistic_description": "A small, sun-warmed fruit with a luminous crimson skin that catches the afternoon light, its surface dotted with subtle golden-yellow speckles. The waxy cuticle reflects scattered highlights, creating a soft glow against the matte background of leaves. Gentle brushstrokes suggest the fruit's roundness, with dappled shadows in deep burgundy and warm amber tones where the light doesn't directly touch.",
+                "size": "Small",
+                "state": "fresh and ripe",
+                "primary_colors": [
+                    "crimson",
+                    "golden-yellow"
+                ],
+                "material": "fruit"
+            },
+            {
+                "object_id": 20,
+                "name": "cow",
+                "artistic_description": "A massive, gentle form rendered in loose, buttery strokes of creamy white and warm ivory, with patches of soft taupe that dissolve into the surrounding air. The afternoon sun creates a luminous halo along the animal's curved back, while loose dabs of sienna and burnt umber suggest the texture of its hide. The muzzle shows touches of pale pink and soft gray, with the entire form appearing to shimmer slightly in the heat haze, edges softened by the bright, active atmosphere.",
+                "size": "Large",
+                "state": "grazing and calm",
+                "primary_colors": [
+                    "creamy white",
+                    "warm taupe"
+                ],
+                "material": "animal hide"
+            }
+        ]
+    },
+    "composition": {
+        "spatial_relations": [
+            [
+                48,
+                "under",
+                20
+            ],
+            [
+                48,
+                "next to",
+                20
+            ]
+        ],
+        "semantic_relations": [
+            [
+                20,
+                "eating",
+                48
+            ]
+        ]
+    },
+    "environment": {
+        "environment_details": {
+            "scene_brief": "A dairy farm exterior featuring apple, with cow",
+            "place365_name": "/f/field/wild",
+            "place365_id": 141,
+            "time_of_day": "afternoon",
+            "weather": "sunny",
+            "period": "Contemporary",
+            "is_indoor": false,
+            "lighting": {
+                "type": "natural",
+                "quality": "soft",
+                "direction": "side-lit",
+                "mood": "warm",
+                "reasoning": "Late afternoon sun (golden hour) creates natural lighting that is warm and soft rather than harsh. Side-lighting is ideal for revealing the form and volume of the cow and the texture of the apple tree, a technique often used in Impressionism to capture the effects of light."
+            },
+            "atmosphere": "bright and active and cheerful and gentle"
+        },
+        "scene_inference": {
+            "all_candidates": [
+                {
+                    "scene_type": "pastoral countryside landscape",
+                    "plausibility": 0.95,
+                    "reasoning": "In an Impressionist landscape, a cow can graze in a field under dappled sunlight, while an apple rests on the grass nearby, perhaps fallen from a tree or brought by a farmer. The style emphasizes light and natural color, blending the objects harmoniously.",
+                    "object_interpretations": {
+                        "apple": {
+                            "form": "real fruit",
+                            "scale": "normal",
+                            "role": "natural element in the foreground"
+                        },
+                        "cow": {
+                            "form": "real animal",
+                            "scale": "full-size",
+                            "role": "primary subject in the pastoral scene"
+                        }
+                    }
+                },
+                {
+                    "scene_type": "orchard at dawn",
+                    "plausibility": 0.9,
+                    "reasoning": "An apple orchard with soft morning light, where a cow wanders near the trees, perhaps seeking shade or fallen fruit. Impressionism captures the fleeting light on leaves and the cow's form in loose brushstrokes.",
+                    "object_interpretations": {
+                        "apple": {
+                            "form": "real fruit",
+                            "scale": "normal",
+                            "role": "hanging on trees or on the ground"
+                        },
+                        "cow": {
+                            "form": "real animal",
+                            "scale": "full-size",
+                            "role": "wandering observer in the orchard"
+                        }
+                    }
+                },
+                {
+                    "scene_type": "farmhouse kitchen",
+                    "plausibility": 0.85,
+                    "reasoning": "A rustic kitchen with a bowl of apples on a wooden table, and a cow visible through the window in the yard. Impressionism blurs the interior and exterior, focusing on warm tones and light reflections.",
+                    "object_interpretations": {
+                        "apple": {
+                            "form": "real fruit",
+                            "scale": "normal",
+                            "role": "kitchen staple on the table"
+                        },
+                        "cow": {
+                            "form": "real animal",
+                            "scale": "full-size",
+                            "role": "background element outside the window"
+                        }
+                    }
+                },
+                {
+                    "scene_type": "rural market scene",
+                    "plausibility": 0.8,
+                    "reasoning": "A bustling country market with stalls of produce, including apples, and a cow being led by a farmer nearby. The Impressionist style uses vibrant colors to depict the lively atmosphere and soft edges of the crowd.",
+                    "object_interpretations": {
+                        "apple": {
+                            "form": "real fruit",
+                            "scale": "normal",
+                            "role": "commodity on display"
+                        },
+                        "cow": {
+                            "form": "real animal",
+                            "scale": "full-size",
+                            "role": "livestock in the market scene"
+                        }
+                    }
+                },
+                {
+                    "scene_type": "autumn meadow",
+                    "plausibility": 0.9,
+                    "reasoning": "A golden meadow in fall, with apples scattered from nearby trees and a cow resting in the field. Impressionism highlights the warm hues of the season and the gentle blending of forms in the soft light.",
+                    "object_interpretations": {
+                        "apple": {
+                            "form": "real fruit",
+                            "scale": "normal",
+                            "role": "seasonal debris on the ground"
+                        },
+                        "cow": {
+                            "form": "real animal",
+                            "scale": "full-size",
+                            "role": "relaxing subject in the foreground"
+                        }
+                    }
+                },
+                {
+                    "scene_type": "country picnic",
+                    "plausibility": 0.85,
+                    "reasoning": "A family picnic in a rural area with apples as snacks, and a cow grazing in the distance. The style evokes a serene, light-filled moment with blurred edges of the figures and food.",
+                    "object_interpretations": {
+                        "apple": {
+                            "form": "real fruit",
+                            "scale": "normal",
+                            "role": "picnic food on a blanket"
+                        },
+                        "cow": {
+                            "form": "real animal",
+                            "scale": "full-size",
+                            "role": "distant grazing animal"
+                        }
+                    }
+                },
+                {
+                    "scene_type": "dairy farm exterior",
+                    "plausibility": 0.9,
+                    "reasoning": "Outside a barn, apples might be used as treats for cows, with one cow interacting near a basket of fruit. Impressionism captures the dappled shadows and the pastoral simplicity.",
+                    "object_interpretations": {
+                        "apple": {
+                            "form": "real fruit",
+                            "scale": "normal",
+                            "role": "treat or prop in the farm setting"
+                        },
+                        "cow": {
+                            "form": "real animal",
+                            "scale": "full-size",
+                            "role": "central farm animal"
+                        }
+                    },
+                    "scene_brief": "A dairy farm exterior featuring apple, with cow"
+                },
+                {
+                    "scene_type": "riverbank with fruit trees",
+                    "plausibility": 0.8,
+                    "reasoning": "A cow drinks from a river while apples float or lie on the bank, perhaps from a nearby tree. The style emphasizes the shimmering water and natural light on the objects.",
+                    "object_interpretations": {
+                        "apple": {
+                            "form": "real fruit",
+                            "scale": "normal",
+                            "role": "natural element by the water"
+                        },
+                        "cow": {
+                            "form": "real animal",
+                            "scale": "full-size",
+                            "role": "animal at the river's edge"
+                        }
+                    }
+                }
+            ],
+            "selected_scene": {
+                "scene_type": "dairy farm exterior",
+                "plausibility": 0.9,
+                "reasoning": "Outside a barn, apples might be used as treats for cows, with one cow interacting near a basket of fruit. Impressionism captures the dappled shadows and the pastoral simplicity.",
+                "object_interpretations": {
+                    "apple": {
+                        "form": "real fruit",
+                        "scale": "normal",
+                        "role": "treat or prop in the farm setting"
+                    },
+                    "cow": {
+                        "form": "real animal",
+                        "scale": "full-size",
+                        "role": "central farm animal"
+                    }
+                },
+                "scene_brief": "A dairy farm exterior featuring apple, with cow"
+            }
+        }
+    },
+    "final_prompts": {
+        "main_prompt": "A Impressionism painting depicting a bright and cheerful afternoon scene in a sun-drenched meadow. In the foreground, a large, creamy white and warm taupe cow stands calmly grazing, its gentle form rendered with loose, expressive brushstrokes. Directly beneath the cow's front hooves and nestled beside its left foreleg, a small, fresh and ripe apple rests on the grass, its skin a vibrant mix of crimson and golden-yellow. The soft, natural afternoon light filters through the air, creating a gentle, active atmosphere where dappled sunlight plays across the animal's hide and the glossy surface of the fruit. The overall composition feels bright and active, with the spatial relationship of the apple being both under and next to the grazing cow anchoring the peaceful, cheerful scene.",
+        "negative_prompt": "photorealistic, 3d render, modern, digital art, photograph, low quality, blurry, distorted, ugly, deformed, cartoon, anime, text, watermark, signature, frame, border, hyperrealistic, surrealism, dark, gloomy, sinister, night",
+        "prompt_formats": {
+            "simple": "An Impressionist painting of a calm cow grazing over a ripe apple in a bright afternoon meadow.",
+            "complex": "A Impressionism painting depicting a bright and cheerful afternoon scene in a sun-drenched meadow. In the foreground, a large, creamy white and warm taupe cow stands calmly grazing, its gentle form rendered with loose, expressive brushstrokes. Directly beneath the cow's front hooves and nestled beside its left foreleg, a small, fresh and ripe apple rests on the grass, its skin a vibrant mix of crimson and golden-yellow. The soft, natural afternoon light filters through the air, creating a gentle, active atmosphere where dappled sunlight plays across the animal's hide and the glossy surface of the fruit. The overall composition feels bright and active, with the spatial relationship of the apple being both under and next to the grazing cow anchoring the peaceful, cheerful scene.",
+            "comma_separated": "Impressionism painting, large creamy white taupe cow grazing calmly, small crimson golden-yellow ripe apple, apple under and next to cow, foreground, bright cheerful afternoon, natural soft lighting, sun-drenched meadow, dappled sunlight, loose brushstrokes, vibrant colors, gentle active atmosphere",
+            "tags": "art, painting, impressionism, cow, apple, meadow, afternoon, grazing, still life with animal, pastoral, plein air, bright, cheerful, soft light, Claude Monet style, Pierre-Auguste Renoir style"
+        }
+    }
+}

@@ -1,0 +1,313 @@
+{
+    "artwork_id": "artwork_20260103_162835_804",
+    "generation_timestamp": "2026-01-03T16:29:04.591345",
+    "style": "Baroque",
+    "objects": {
+        "object_ids": [
+            77,
+            79,
+            60,
+            60
+        ],
+        "object_names": [
+            "scissors",
+            "hairbrush",
+            "hammock",
+            "bed"
+        ],
+        "enhanced_objects": [
+            {
+                "object_id": 77,
+                "name": "scissors",
+                "artistic_description": "Polished steel blades catch the warm candlelight with sharp glints, while the ornate handles of gilded bronze display intricate Baroque scrollwork that glows with deep amber highlights and shadowed crevices",
+                "size": "Small",
+                "state": "pristine and well-maintained, reflecting the owner's careful attention",
+                "primary_colors": [
+                    "warm silver",
+                    "golden bronze"
+                ],
+                "material": "steel and bronze"
+            },
+            {
+                "object_id": 79,
+                "name": "hairbrush",
+                "artistic_description": "Rich walnut wood darkens to near-black in the dim corners while the polished brass backplate gleams with soft golden warmth, natural bristles appearing as delicate amber strokes in the flickering light",
+                "size": "Small",
+                "state": "gently worn with smooth patina from years of use",
+                "primary_colors": [
+                    "deep amber",
+                    "warm gold"
+                ],
+                "material": "wood, brass, and natural bristles"
+            },
+            {
+                "object_id": 60,
+                "name": "hammock",
+                "artistic_description": "Luxurious silk hammock drapes in heavy folds, its crimson fabric deepening to burgundy in shadow while catching warm highlights that reveal subtle damask patterns, tassels casting delicate filigree shadows",
+                "size": "Large",
+                "state": "sumptuous and inviting, perfectly maintained for leisure",
+                "primary_colors": [
+                    "deep crimson",
+                    "rich burgundy"
+                ],
+                "material": "silk with gold thread embroidery"
+            },
+            {
+                "object_id": 60,
+                "name": "bed",
+                "artistic_description": "Grand four-poster frame of dark mahogany rises dramatically, heavy velvet curtains absorbing light to create profound shadows while gold trim catches candlelight with regal brilliance, feather mattress glowing softly in warm tones",
+                "size": "Dominant",
+                "state": "opulent and stately, showing aristocratic refinement",
+                "primary_colors": [
+                    "royal crimson",
+                    "dark mahogany"
+                ],
+                "material": "mahogany, velvet, and gold leaf"
+            }
+        ]
+    },
+    "composition": {
+        "spatial_relations": [
+            [
+                77,
+                "on",
+                79
+            ],
+            [
+                79,
+                "on",
+                60
+            ],
+            [
+                60,
+                "next to",
+                60
+            ]
+        ],
+        "semantic_relations": []
+    },
+    "environment": {
+        "environment_details": {
+            "scene_brief": "A Baroque vanity room featuring scissors, with hairbrush, hammock, and bed",
+            "place365_name": "/d/dressing_room",
+            "place365_id": 126,
+            "time_of_day": "evening",
+            "weather": null,
+            "period": "Early modern",
+            "is_indoor": true,
+            "lighting": {
+                "type": "mixed",
+                "quality": "dramatic",
+                "direction": "side-lit",
+                "mood": "warm",
+                "reasoning": "Baroque art thrives on chiaroscuro (high contrast between light and shadow). A mixed lighting setup (natural fading evening light through a window combined with artificial candlelight) creates dramatic shadows on the vanity objects. Side-lighting accentuates textures of the hairbrush and scissors, while a warm mood evokes the period's richness and introspection."
+            },
+            "atmosphere": "calm and relaxed and striking"
+        },
+        "scene_inference": {
+            "all_candidates": [
+                {
+                    "scene_type": "Baroque boudoir",
+                    "plausibility": 0.9,
+                    "reasoning": "The scene is a luxurious, private bedroom. The bed is the central furniture piece. The hammock is a decorative canopy or suspended fabric over the bed, creating a draped, nest-like effect. The scissors and hairbrush are personal grooming tools on a vanity or bedside table.",
+                    "object_interpretations": {
+                        "scissors": {
+                            "form": "real grooming scissors",
+                            "scale": "handheld",
+                            "role": "personal grooming tool"
+                        },
+                        "hairbrush": {
+                            "form": "real hairbrush",
+                            "scale": "handheld",
+                            "role": "personal grooming tool"
+                        },
+                        "hammock": {
+                            "form": "fabric canopy",
+                            "scale": "large/decorative",
+                            "role": "bed drapery/decoration"
+                        },
+                        "bed": {
+                            "form": "ornate four-poster bed",
+                            "scale": "large/furniture",
+                            "role": "central furniture piece"
+                        }
+                    }
+                },
+                {
+                    "scene_type": "Baroque stage set",
+                    "plausibility": 0.85,
+                    "reasoning": "A theatrical stage set for a drama. The bed is a prop for a bedroom scene. The hammock is a suspended prop for a dream sequence. The scissors and hairbrush are props used by the actors during the performance.",
+                    "object_interpretations": {
+                        "scissors": {
+                            "form": "prop scissors",
+                            "scale": "handheld",
+                            "role": "theatrical prop"
+                        },
+                        "hairbrush": {
+                            "form": "prop hairbrush",
+                            "scale": "handheld",
+                            "role": "theatrical prop"
+                        },
+                        "hammock": {
+                            "form": "suspended prop",
+                            "scale": "large",
+                            "role": "scenic element"
+                        },
+                        "bed": {
+                            "form": "stage prop bed",
+                            "scale": "large/furniture",
+                            "role": "scenic element"
+                        }
+                    }
+                },
+                {
+                    "scene_type": "Baroque art studio",
+                    "plausibility": 0.8,
+                    "reasoning": "An artist's studio with a still life composition. The bed serves as a draped platform for the arrangement. The hammock is used to hold or display objects. The scissors and hairbrush are items arranged for the painting.",
+                    "object_interpretations": {
+                        "scissors": {
+                            "form": "real scissors",
+                            "scale": "handheld",
+                            "role": "still life object"
+                        },
+                        "hairbrush": {
+                            "form": "real hairbrush",
+                            "scale": "handheld",
+                            "role": "still life object"
+                        },
+                        "hammock": {
+                            "form": "woven netting",
+                            "scale": "medium",
+                            "role": "display element"
+                        },
+                        "bed": {
+                            "form": "daybed or chaise lounge",
+                            "scale": "large/furniture",
+                            "role": "platform for arrangement"
+                        }
+                    }
+                },
+                {
+                    "scene_type": "Baroque vanity room",
+                    "plausibility": 0.9,
+                    "reasoning": "A room dedicated to personal grooming. The bed is present for resting. The hammock is a decorative storage net for scarves or linens. The scissors and hairbrush are the primary tools on the vanity table.",
+                    "object_interpretations": {
+                        "scissors": {
+                            "form": "ornate grooming scissors",
+                            "scale": "handheld",
+                            "role": "grooming implement"
+                        },
+                        "hairbrush": {
+                            "form": "ornate hairbrush",
+                            "scale": "handheld",
+                            "role": "grooming implement"
+                        },
+                        "hammock": {
+                            "form": "decorative storage net",
+                            "scale": "medium",
+                            "role": "storage/decoration"
+                        },
+                        "bed": {
+                            "form": "resting couch",
+                            "scale": "large/furniture",
+                            "role": "furniture piece"
+                        }
+                    },
+                    "scene_brief": "A Baroque vanity room featuring scissors, with hairbrush, hammock, and bed"
+                },
+                {
+                    "scene_type": "Baroque boudoir (Surreal)",
+                    "plausibility": 0.75,
+                    "reasoning": "A dreamlike bedroom where the hammock is a cloud-like bed canopy. The scissors and hairbrush are oversized decorative elements floating in the air, representing the act of grooming and cutting within a dream state.",
+                    "object_interpretations": {
+                        "scissors": {
+                            "form": "sculptural scissors",
+                            "scale": "oversized/decorative",
+                            "role": "floating sculpture"
+                        },
+                        "hairbrush": {
+                            "form": "sculptural hairbrush",
+                            "scale": "oversized/decorative",
+                            "role": "floating sculpture"
+                        },
+                        "hammock": {
+                            "form": "cloud-like fabric",
+                            "scale": "very large",
+                            "role": "dream canopy"
+                        },
+                        "bed": {
+                            "form": "ornate bed",
+                            "scale": "large/furniture",
+                            "role": "grounding furniture"
+                        }
+                    }
+                },
+                {
+                    "scene_type": "Baroque costume room",
+                    "plausibility": 0.85,
+                    "reasoning": "A backstage room for preparing costumes. The bed is used for laying out garments. The hammock holds accessories. The scissors are for cutting fabric, and the hairbrush is for styling wigs.",
+                    "object_interpretations": {
+                        "scissors": {
+                            "form": "tailoring scissors",
+                            "scale": "handheld",
+                            "role": "tool"
+                        },
+                        "hairbrush": {
+                            "form": "wig brush",
+                            "scale": "handheld",
+                            "role": "tool"
+                        },
+                        "hammock": {
+                            "form": "fabric storage",
+                            "scale": "medium",
+                            "role": "accessory holder"
+                        },
+                        "bed": {
+                            "form": "daybed",
+                            "scale": "large/furniture",
+                            "role": "garment surface"
+                        }
+                    }
+                }
+            ],
+            "selected_scene": {
+                "scene_type": "Baroque vanity room",
+                "plausibility": 0.9,
+                "reasoning": "A room dedicated to personal grooming. The bed is present for resting. The hammock is a decorative storage net for scarves or linens. The scissors and hairbrush are the primary tools on the vanity table.",
+                "object_interpretations": {
+                    "scissors": {
+                        "form": "ornate grooming scissors",
+                        "scale": "handheld",
+                        "role": "grooming implement"
+                    },
+                    "hairbrush": {
+                        "form": "ornate hairbrush",
+                        "scale": "handheld",
+                        "role": "grooming implement"
+                    },
+                    "hammock": {
+                        "form": "decorative storage net",
+                        "scale": "medium",
+                        "role": "storage/decoration"
+                    },
+                    "bed": {
+                        "form": "resting couch",
+                        "scale": "large/furniture",
+                        "role": "furniture piece"
+                    }
+                },
+                "scene_brief": "A Baroque vanity room featuring scissors, with hairbrush, hammock, and bed"
+            }
+        }
+    },
+    "final_prompts": {
+        "main_prompt": "A Baroque painting depicting an opulent, candlelit evening chamber where a sumptuous, large hammock in deep crimson and rich burgundy fabric hangs beside a dominant, stately bed of royal crimson velvet and dark mahogany wood, adorned with gold leaf accents. Upon the hammock rests a small, gently worn hairbrush with a warm gold and deep amber patina, its natural bristles smoothed by years of use. Balanced delicately atop the hairbrush is a small pair of scissors in warm silver and golden bronze, pristine and well-maintained. The scene is illuminated by mixed dramatic lighting from flickering candles and a dying fire, casting deep chiaroscuro shadows across the silk and velvet textures, creating a calm, relaxed, yet strikingly theatrical atmosphere of quiet luxury and repose.",
+        "negative_prompt": "photorealistic, 3d render, modern, digital art, photograph, low quality, blurry, distorted, cartoon, anime, abstract, surreal, futuristic, minimalist, ugly, deformed, bad anatomy, watermark, signature, text",
+        "prompt_formats": {
+            "simple": "A Baroque evening scene with scissors on a hairbrush on a crimson hammock beside an opulent bed, lit dramatically in a calm, striking atmosphere.",
+            "complex": "A Baroque painting depicting an opulent, candlelit evening chamber where a sumptuous, large hammock in deep crimson and rich burgundy fabric hangs beside a dominant, stately bed of royal crimson velvet and dark mahogany wood, adorned with gold leaf accents. Upon the hammock rests a small, gently worn hairbrush with a warm gold and deep amber patina, its natural bristles smoothed by years of use. Balanced delicately atop the hairbrush is a small pair of scissors in warm silver and golden bronze, pristine and well-maintained. The scene is illuminated by mixed dramatic lighting from flickering candles and a dying fire, casting deep chiaroscuro shadows across the silk and velvet textures, creating a calm, relaxed, yet strikingly theatrical atmosphere of quiet luxury and repose.",
+            "comma_separated": "Baroque painting, evening, dramatic lighting, calm and striking atmosphere, scissors on hairbrush, hairbrush on hammock, hammock beside bed, small scissors, warm silver and golden bronze, pristine, small hairbrush, deep amber and warm gold, gently worn, large hammock, deep crimson and burgundy, sumptuous, dominant bed, royal crimson and dark mahogany, opulent, candlelit chamber, chiaroscuro, velvet, silk, gold leaf, mahogany wood",
+            "tags": "art, painting, Baroque, still life, interior, evening, dramatic lighting, chiaroscuro, opulent, luxurious, calm, relaxed, striking, scissors, hairbrush, hammock, bed, velvet, silk, mahogany, gold leaf, candlelight"
+        }
+    }
+}

@@ -1,0 +1,352 @@
+{
+    "artwork_id": "artwork_20260104_022938_214",
+    "generation_timestamp": "2026-01-04T02:30:21.493139",
+    "style": "Chinese Ink Painting",
+    "objects": {
+        "object_ids": [
+            26,
+            40,
+            60
+        ],
+        "object_names": [
+            "canopy",
+            "bottle",
+            "hammock"
+        ],
+        "enhanced_objects": [
+            {
+                "object_id": 26,
+                "name": "canopy",
+                "artistic_description": "Graceful umbrella-like structure rendered in soft ink washes, its fabric panels show subtle gradations from deep indigo to pale gray where cloudy light filters through. The material appears slightly damp from ambient moisture, creating gentle variations in ink saturation that suggest delicate brushwork. Traditional tassels hang with weighty elegance, their threads catching muted highlights.",
+                "size": "Large",
+                "state": "weathered but well-maintained contemporary fabric showing slight moisture sheen",
+                "primary_colors": [
+                    "indigo-gray",
+                    "charcoal"
+                ],
+                "material": "silk"
+            },
+            {
+                "object_id": 40,
+                "name": "bottle",
+                "artistic_description": "Elegant ceramic vessel with smooth, celadon-toned surface that diffuses the overcast light into soft, milky highlights. The glaze shows subtle crackle patterns visible in close detail, with cloudy reflections dancing across its curved form. Delicate brush-applied motifs appear in darker ink tones against the pale green-gray background.",
+                "size": "Medium",
+                "state": "pristine contemporary decorative piece with glossy glaze",
+                "primary_colors": [
+                    "celadon green",
+                    "pale gray"
+                ],
+                "material": "ceramic"
+            },
+            {
+                "object_id": 60,
+                "name": "hammock",
+                "artistic_description": "Loosely woven cradle rendered in warm sepia tones, its natural fibers absorbing and softening the diffuse daylight. The fabric shows gentle undulations and slight translucency where light passes through the weave, creating rhythmic patterns of shadow and light. Soft tassels at each end sway subtly, their threads rendered with fine, expressive strokes.",
+                "size": "Medium",
+                "state": "relaxed, gently used contemporary weave with soft drape",
+                "primary_colors": [
+                    "warm sepia",
+                    "soft umber"
+                ],
+                "material": "cotton"
+            }
+        ]
+    },
+    "composition": {
+        "spatial_relations": [
+            [
+                26,
+                "under",
+                60
+            ],
+            [
+                40,
+                "next to",
+                60
+            ],
+            [
+                40,
+                "under",
+                26
+            ]
+        ],
+        "semantic_relations": []
+    },
+    "environment": {
+        "environment_details": {
+            "scene_brief": "A Imperial Garden featuring canopy, with decorative bottle as decoration, and hammock",
+            "place365_name": "/j/japanese_garden",
+            "place365_id": 197,
+            "time_of_day": "afternoon",
+            "weather": "cloudy",
+            "period": "Contemporary",
+            "is_indoor": false,
+            "lighting": {
+                "type": "natural",
+                "quality": "soft",
+                "direction": "side-lit",
+                "mood": "cool",
+                "reasoning": "Cloudy afternoon light is inherently soft and natural. A 'cool' mood fits the ink aesthetic (black/white/grey tones) and the serenity of the garden. 'Side-lit' is the standard for emphasizing the texture of organic forms like the canopy and the silhouette of the bottle in ink painting."
+            },
+            "atmosphere": "bright and active and subdued and gentle"
+        },
+        "scene_inference": {
+            "all_candidates": [
+                {
+                    "scene_type": "Traditional Scholar's Garden",
+                    "plausibility": 0.95,
+                    "reasoning": "A classical Chinese garden setting where a bamboo canopy provides shade for a scholar's retreat. A hammock is slung between two posts under the canopy for rest, and a bottle of ink or wine sits on a nearby stone table. The ink painting style emphasizes flowing lines of the canopy and hammock, with subtle washes for the bottle.",
+                    "object_interpretations": {
+                        "canopy": {
+                            "form": "real structure",
+                            "scale": "large",
+                            "role": "primary architectural element providing shelter"
+                        },
+                        "hammock": {
+                            "form": "real hammock",
+                            "scale": "normal",
+                            "role": "functional resting place under canopy"
+                        },
+                        "bottle": {
+                            "form": "ceramic wine bottle",
+                            "scale": "normal",
+                            "role": "decorative accessory on stone table"
+                        }
+                    }
+                },
+                {
+                    "scene_type": "Mountain Hermitage",
+                    "plausibility": 0.9,
+                    "reasoning": "A secluded mountain retreat with a simple wooden canopy sheltering a meditation area. A hammock is strung between ancient pines, and a bottle of spring water rests on a mossy rock. The ink painting captures the ethereal mist and the delicate balance of natural elements.",
+                    "object_interpretations": {
+                        "canopy": {
+                            "form": "wooden shelter",
+                            "scale": "medium",
+                            "role": "spiritual sanctuary structure"
+                        },
+                        "hammock": {
+                            "form": "woven rope hammock",
+                            "scale": "normal",
+                            "role": "contemplative resting spot"
+                        },
+                        "bottle": {
+                            "form": "stone flask",
+                            "scale": "normal",
+                            "role": "sustenance vessel"
+                        }
+                    }
+                },
+                {
+                    "scene_type": "Riverside Pavilion",
+                    "plausibility": 0.85,
+                    "reasoning": "A pavilion by a flowing river with a canopy extending over the water. A hammock is suspended from the canopy frame, and a bottle floats in a woven basket nearby. The ink painting style uses flowing strokes to represent water and wind.",
+                    "object_interpretations": {
+                        "canopy": {
+                            "form": "bamboo pavilion",
+                            "scale": "large",
+                            "role": "waterside shelter"
+                        },
+                        "hammock": {
+                            "form": "light cotton hammock",
+                            "scale": "normal",
+                            "role": "leisure element over water"
+                        },
+                        "bottle": {
+                            "form": "gourd bottle",
+                            "scale": "small",
+                            "role": "floating accessory"
+                        }
+                    }
+                },
+                {
+                    "scene_type": "Imperial Garden",
+                    "plausibility": 0.8,
+                    "reasoning": "An ornate garden with a silk canopy covering a luxurious hammock. A jade bottle sits on an ornate stand. The ink painting uses fine brushwork to depict intricate patterns and elegant forms.",
+                    "object_interpretations": {
+                        "canopy": {
+                            "form": "silk canopy",
+                            "scale": "large",
+                            "role": "royal shade structure"
+                        },
+                        "hammock": {
+                            "form": "embroidered hammock",
+                            "scale": "normal",
+                            "role": "imperial resting place"
+                        },
+                        "bottle": {
+                            "form": "jade wine vessel",
+                            "scale": "normal",
+                            "role": "precious decorative object"
+                        }
+                    },
+                    "scene_brief": "A Imperial Garden featuring canopy, with decorative bottle as decoration, and hammock"
+                },
+                {
+                    "scene_type": "Forest Clearing",
+                    "plausibility": 0.9,
+                    "reasoning": "A sun-dappled forest clearing with a natural canopy of leaves and branches. A hammock is woven between trees, and a bottle of herbal medicine rests on a tree stump. The ink painting captures the organic, flowing forms of nature.",
+                    "object_interpretations": {
+                        "canopy": {
+                            "form": "natural foliage",
+                            "scale": "large",
+                            "role": "organic shelter"
+                        },
+                        "hammock": {
+                            "form": "vine-woven hammock",
+                            "scale": "normal",
+                            "role": "natural resting place"
+                        },
+                        "bottle": {
+                            "form": "clay bottle",
+                            "scale": "normal",
+                            "role": "healing elixir container"
+                        }
+                    }
+                },
+                {
+                    "scene_type": "Tea House Terrace",
+                    "plausibility": 0.85,
+                    "reasoning": "A tea house with a canopy extending from the building. A hammock is placed in the garden for post-tea relaxation, and a bottle of tea sits on a serving tray. The ink painting emphasizes the serene atmosphere and balance of elements.",
+                    "object_interpretations": {
+                        "canopy": {
+                            "form": "wooden tea house canopy",
+                            "scale": "medium",
+                            "role": "architectural extension"
+                        },
+                        "hammock": {
+                            "form": "bamboo hammock",
+                            "scale": "normal",
+                            "role": "garden relaxation spot"
+                        },
+                        "bottle": {
+                            "form": "porcelain tea bottle",
+                            "scale": "small",
+                            "role": "ceremonial beverage container"
+                        }
+                    }
+                },
+                {
+                    "scene_type": "Bamboo Grove",
+                    "plausibility": 0.9,
+                    "reasoning": "A dense bamboo grove with a canopy created by bamboo poles and leaves. A hammock is suspended between bamboo stalks, and a bottle of rice wine hangs from a branch. The ink painting uses vertical strokes for bamboo and soft washes for the background.",
+                    "object_interpretations": {
+                        "canopy": {
+                            "form": "bamboo structure",
+                            "scale": "large",
+                            "role": "natural pavilion"
+                        },
+                        "hammock": {
+                            "form": "silk hammock",
+                            "scale": "normal",
+                            "role": "contrasting soft element"
+                        },
+                        "bottle": {
+                            "form": "hanging gourd bottle",
+                            "scale": "small",
+                            "role": "suspended decorative element"
+                        }
+                    }
+                },
+                {
+                    "scene_type": "Courtyard Sanctuary",
+                    "plausibility": 0.85,
+                    "reasoning": "A traditional courtyard with a canopy over a central seating area. A hammock is strung across the courtyard, and a bottle of ink sits on a scholar's desk nearby. The ink painting captures the geometric harmony of the courtyard.",
+                    "object_interpretations": {
+                        "canopy": {
+                            "form": "courtyard canopy",
+                            "scale": "medium",
+                            "role": "central shelter"
+                        },
+                        "hammock": {
+                            "form": "cotton hammock",
+                            "scale": "normal",
+                            "role": "leisure element"
+                        },
+                        "bottle": {
+                            "form": "ink bottle",
+                            "scale": "small",
+                            "role": "scholar's tool"
+                        }
+                    }
+                },
+                {
+                    "scene_type": "Mountain Peak Observatory",
+                    "plausibility": 0.8,
+                    "reasoning": "A high mountain peak with a simple canopy sheltering an observation point. A hammock is secured between rocks for stargazing, and a bottle of medicinal herbs sits on a stone table. The ink painting uses minimal strokes to convey vastness and solitude.",
+                    "object_interpretations": {
+                        "canopy": {
+                            "form": "stone and wood canopy",
+                            "scale": "medium",
+                            "role": "shelter from elements"
+                        },
+                        "hammock": {
+                            "form": "sturdy rope hammock",
+                            "scale": "normal",
+                            "role": "astronomical resting place"
+                        },
+                        "bottle": {
+                            "form": "bronze bottle",
+                            "scale": "normal",
+                            "role": "treasure container"
+                        }
+                    }
+                },
+                {
+                    "scene_type": "Lakeside Retreat",
+                    "plausibility": 0.9,
+                    "reasoning": "A retreat by a misty lake with a canopy extending over the water's edge. A hammock is hung between two willow trees, and a bottle of tea floats in a small basket. The ink painting uses soft washes for the lake and fine lines for trees.",
+                    "object_interpretations": {
+                        "canopy": {
+                            "form": "willow canopy",
+                            "scale": "large",
+                            "role": "natural waterside shelter"
+                        },
+                        "hammock": {
+                            "form": "woven reed hammock",
+                            "scale": "normal",
+                            "role": "floating rest place"
+                        },
+                        "bottle": {
+                            "form": "floating bottle",
+                            "scale": "small",
+                            "role": "water-borne accessory"
+                        }
+                    }
+                }
+            ],
+            "selected_scene": {
+                "scene_type": "Imperial Garden",
+                "plausibility": 0.8,
+                "reasoning": "An ornate garden with a silk canopy covering a luxurious hammock. A jade bottle sits on an ornate stand. The ink painting uses fine brushwork to depict intricate patterns and elegant forms.",
+                "object_interpretations": {
+                    "canopy": {
+                        "form": "silk canopy",
+                        "scale": "large",
+                        "role": "royal shade structure"
+                    },
+                    "hammock": {
+                        "form": "embroidered hammock",
+                        "scale": "normal",
+                        "role": "imperial resting place"
+                    },
+                    "bottle": {
+                        "form": "jade wine vessel",
+                        "scale": "normal",
+                        "role": "precious decorative object"
+                    }
+                },
+                "scene_brief": "A Imperial Garden featuring canopy, with decorative bottle as decoration, and hammock"
+            }
+        }
+    },
+    "final_prompts": {
+        "main_prompt": "A Chinese Ink Painting painting depicting a tranquil afternoon scene where a large, weathered but well-maintained canopy in indigo-gray and charcoal tones hangs protectively above a medium-sized hammock in warm sepia and soft umber. The relaxed hammock sways gently beneath the canopy's shelter, while a medium-sized bottle in pristine celadon green and pale gray rests on the ground beside the hammock, positioned under the canopy's shade. Natural soft afternoon light filters through the canopy's fabric, creating a bright yet subdued atmosphere where active brushstrokes suggest gentle movement in the air. The composition balances the large canopy dominating the upper frame, the hammock as the focal midground element, and the bottle as a decorative foreground detail, all rendered with traditional ink wash techniques that capture the interplay of silk-like canopy textures, cotton hammock fibers, and ceramic bottle surfaces in harmonious monochromatic gradients.",
+        "negative_prompt": "photorealistic, 3d render, modern, digital art, photograph, low quality, blurry, distorted, vibrant colors, cartoon, anime, western painting style, oil painting, watercolor, abstract art, surrealism, pop art, graffiti",
+        "prompt_formats": {
+            "simple": "A Chinese ink painting showing a canopy above a hammock with a bottle beside it in soft afternoon light.",
+            "complex": "A Chinese Ink Painting painting depicting a tranquil afternoon scene where a large, weathered but well-maintained canopy in indigo-gray and charcoal tones hangs protectively above a medium-sized hammock in warm sepia and soft umber. The relaxed hammock sways gently beneath the canopy's shelter, while a medium-sized bottle in pristine celadon green and pale gray rests on the ground beside the hammock, positioned under the canopy's shade. Natural soft afternoon light filters through the canopy's fabric, creating a bright yet subdued atmosphere where active brushstrokes suggest gentle movement in the air. The composition balances the large canopy dominating the upper frame, the hammock as the focal midground element, and the bottle as a decorative foreground detail, all rendered with traditional ink wash techniques that capture the interplay of silk-like canopy textures, cotton hammock fibers, and ceramic bottle surfaces in harmonious monochromatic gradients.",
+            "comma_separated": "Chinese Ink Painting, large canopy indigo-gray charcoal weathered, medium hammock sepia umber relaxed, medium bottle celadon green pale gray pristine, canopy above hammock, bottle beside hammock under canopy, soft afternoon lighting, bright active subdued gentle atmosphere, ink wash, monochromatic gradients, traditional brushstrokes",
+            "tags": "art, painting, chinese ink painting, ink wash, monochrome, canopy, hammock, bottle, afternoon, traditional art, brushwork, composition, serene scene"
+        }
+    }
+}

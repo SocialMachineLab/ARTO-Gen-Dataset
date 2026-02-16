@@ -1,0 +1,347 @@
+{
+    "artwork_id": "artwork_20260104_020709_675",
+    "generation_timestamp": "2026-01-04T02:07:51.646369",
+    "style": "Neoclassicism",
+    "objects": {
+        "object_ids": [
+            25,
+            77,
+            59
+        ],
+        "object_names": [
+            "sack",
+            "scissors",
+            "rose"
+        ],
+        "enhanced_objects": [
+            {
+                "object_id": 25,
+                "name": "sack",
+                "artistic_description": "A coarse burlap sack rendered in warm afternoon sunlight streaming through high windows, its rough-woven texture catching golden highlights while deep crevices hold cool blue-gray shadows. The natural fibers appear dry and matte, with subtle variations in ochre and umber tones where the fabric has been worn and softened through use.",
+                "size": "Large",
+                "state": "well-worn and softened from frequent handling",
+                "primary_colors": [
+                    "warm ochre",
+                    "cool gray-brown"
+                ],
+                "material": "burlap"
+            },
+            {
+                "object_id": 77,
+                "name": "scissors",
+                "artistic_description": "Heavy steel scissors gleaming with sharp, cool reflections from the bright natural light, their polished blades catching brilliant white highlights while the finger loops are rendered in deep, velvety shadows. The metal shows precise neoclassical craftsmanship with clean geometric lines, the surface appearing smooth and cold with a subtle patina of use on the pivot point.",
+                "size": "Medium",
+                "state": "well-maintained with slight wear on the pivot",
+                "primary_colors": [
+                    "brilliant silver",
+                    "deep gunmetal"
+                ],
+                "material": "steel"
+            },
+            {
+                "object_id": 59,
+                "name": "rose",
+                "artistic_description": "A single crimson rose glowing with saturated color in the warm afternoon light, its velvety petals catching translucent highlights that reveal delicate veining and subtle variations from deep burgundy to bright scarlet. The bloom appears fresh and vibrant, with a gentle luminosity that seems to radiate from within, while a single dew-like droplet on a petal catches the light as a brilliant pinpoint.",
+                "size": "Small",
+                "state": "freshly bloomed with perfect petals",
+                "primary_colors": [
+                    "crimson",
+                    "deep burgundy"
+                ],
+                "material": ""
+            }
+        ]
+    },
+    "composition": {
+        "spatial_relations": [
+            [
+                77,
+                "next to",
+                25
+            ],
+            [
+                59,
+                "on",
+                25
+            ]
+        ],
+        "semantic_relations": []
+    },
+    "environment": {
+        "environment_details": {
+            "scene_brief": "A theater costume room featuring sack, with scissors, and rose",
+            "place365_name": "/d/dressing_room",
+            "place365_id": 126,
+            "time_of_day": "afternoon",
+            "weather": "sunny",
+            "period": "Contemporary",
+            "is_indoor": true,
+            "lighting": {
+                "type": "natural",
+                "quality": "harsh",
+                "direction": "side-lit",
+                "mood": "warm",
+                "reasoning": "Strong natural side-lighting from a sunny day through a window creates the dramatic chiaroscuro that complements Neoclassical aesthetics. The harsh quality produces well-defined shadows that sculpt the forms of the sack's folds, the metallic sheen of scissors, and the rose's petals. This directional light creates a theatrical atmosphere appropriate to the costume room setting while providing the clarity and precision valued in Neoclassical composition."
+            },
+            "atmosphere": "bright and active and cheerful"
+        },
+        "scene_inference": {
+            "all_candidates": [
+                {
+                    "scene_type": "Victorian seamstress's parlor",
+                    "plausibility": 0.95,
+                    "reasoning": "A sack (likely burlap or fabric) serves as material for sewing projects. Scissors are the primary tool for cutting fabric. A rose could be a fresh flower in a vase for ambiance, a pressed flower in a book, or an embroidered motif on the sack.",
+                    "object_interpretations": {
+                        "sack": {
+                            "form": "real fabric sack",
+                            "scale": "normal",
+                            "role": "sewing material"
+                        },
+                        "scissors": {
+                            "form": "real sewing shears",
+                            "scale": "normal",
+                            "role": "primary cutting tool"
+                        },
+                        "rose": {
+                            "form": "real flower",
+                            "scale": "normal",
+                            "role": "decorative element"
+                        }
+                    }
+                },
+                {
+                    "scene_type": "Neoclassical still life painting",
+                    "plausibility": 0.98,
+                    "reasoning": "In the Neoclassical style, still lifes often featured humble objects with moral symbolism. A burlap sack represents humility or labor, scissors represent domestic industry, and a rose represents beauty or love, creating a balanced composition.",
+                    "object_interpretations": {
+                        "sack": {
+                            "form": "real sack",
+                            "scale": "normal",
+                            "role": "symbol of humility/labor"
+                        },
+                        "scissors": {
+                            "form": "real scissors",
+                            "scale": "normal",
+                            "role": "symbol of industry"
+                        },
+                        "rose": {
+                            "form": "real flower",
+                            "scale": "normal",
+                            "role": "symbol of beauty"
+                        }
+                    }
+                },
+                {
+                    "scene_type": "gardener's potting shed",
+                    "plausibility": 0.9,
+                    "reasoning": "A sack is used to store soil, bulbs, or potatoes. Scissors are used for pruning plants and cutting twine. A rose is either the plant being tended to or a fallen bloom on the workbench.",
+                    "object_interpretations": {
+                        "sack": {
+                            "form": "real burlap sack",
+                            "scale": "normal",
+                            "role": "storage for soil or produce"
+                        },
+                        "scissors": {
+                            "form": "garden shears",
+                            "scale": "normal",
+                            "role": "gardening tool"
+                        },
+                        "rose": {
+                            "form": "fresh flower or bud",
+                            "scale": "normal",
+                            "role": "gardening subject"
+                        }
+                    }
+                },
+                {
+                    "scene_type": "historical apothecary",
+                    "plausibility": 0.85,
+                    "reasoning": "Sacks were used to store bulk herbs or roots. Scissors were essential for cutting herbs and bandages. A rose could be a source of rose oil (attar) or a medicinal ingredient displayed in a jar.",
+                    "object_interpretations": {
+                        "sack": {
+                            "form": "canvas sack",
+                            "scale": "normal",
+                            "role": "bulk herb storage"
+                        },
+                        "scissors": {
+                            "form": "small herb snips",
+                            "scale": "normal",
+                            "role": "precision cutting tool"
+                        },
+                        "rose": {
+                            "form": "dried petals or fresh bloom",
+                            "scale": "normal",
+                            "role": "medicinal ingredient"
+                        }
+                    }
+                },
+                {
+                    "scene_type": "theater costume room",
+                    "plausibility": 0.8,
+                    "reasoning": "A sack might be part of a peasant costume or used as a prop bag. Scissors are constantly used for costume adjustments. A rose could be a prop for a romantic scene or a real flower given to an actor.",
+                    "object_interpretations": {
+                        "sack": {
+                            "form": "fabric sack",
+                            "scale": "normal",
+                            "role": "costume component or prop bag"
+                        },
+                        "scissors": {
+                            "form": "tailoring scissors",
+                            "scale": "normal",
+                            "role": "costume tool"
+                        },
+                        "rose": {
+                            "form": "silk or real flower",
+                            "scale": "normal",
+                            "role": "theatrical prop"
+                        }
+                    },
+                    "scene_brief": "A theater costume room featuring sack, with scissors, and rose"
+                },
+                {
+                    "scene_type": "rustic wedding reception",
+                    "plausibility": 0.75,
+                    "reasoning": "A burlap sack is a common rustic decor element (table runners, centerpieces). Scissors are used for cutting ribbons or twine. A rose is the primary floral element in the decor.",
+                    "object_interpretations": {
+                        "sack": {
+                            "form": "decorative burlap",
+                            "scale": "normal",
+                            "role": "rustic decor"
+                        },
+                        "scissors": {
+                            "form": "craft scissors",
+                            "scale": "normal",
+                            "role": "decoration preparation tool"
+                        },
+                        "rose": {
+                            "form": "fresh flowers",
+                            "scale": "normal",
+                            "role": "wedding bouquet/centerpiece"
+                        }
+                    }
+                },
+                {
+                    "scene_type": "artist's studio (Neoclassical era)",
+                    "plausibility": 0.9,
+                    "reasoning": "The artist sets up a composition. The sack provides texture and shadow, the scissors are a metal object for contrast, and the rose adds a splash of color and organic form to the still life arrangement.",
+                    "object_interpretations": {
+                        "sack": {
+                            "form": "draped fabric",
+                            "scale": "normal",
+                            "role": "background/texture"
+                        },
+                        "scissors": {
+                            "form": "real scissors",
+                            "scale": "normal",
+                            "role": "still life subject"
+                        },
+                        "rose": {
+                            "form": "fresh flower",
+                            "scale": "normal",
+                            "role": "color accent"
+                        }
+                    }
+                },
+                {
+                    "scene_type": "vintage laundry room",
+                    "plausibility": 0.85,
+                    "reasoning": "Sacks were historically used for laundry collection. Scissors are used for mending clothes or cutting threads. A rose might be a scented sachet inside the sack to keep linens fresh.",
+                    "object_interpretations": {
+                        "sack": {
+                            "form": "laundry sack",
+                            "scale": "normal",
+                            "role": "laundry collection"
+                        },
+                        "scissors": {
+                            "form": "household scissors",
+                            "scale": "normal",
+                            "role": "mending tool"
+                        },
+                        "rose": {
+                            "form": "dried rose petals",
+                            "scale": "small",
+                            "role": "scented sachet"
+                        }
+                    }
+                },
+                {
+                    "scene_type": "grocer's storage",
+                    "plausibility": 0.8,
+                    "reasoning": "Sacks store bulk goods like potatoes or onions. Scissors are used for opening packaging or cutting string. A rose could be a rare luxury item sold alongside produce or a decoration near the checkout.",
+                    "object_interpretations": {
+                        "sack": {
+                            "form": "heavy canvas sack",
+                            "scale": "normal",
+                            "role": "produce storage"
+                        },
+                        "scissors": {
+                            "form": "utility shears",
+                            "scale": "normal",
+                            "role": "utility tool"
+                        },
+                        "rose": {
+                            "form": "fresh flower",
+                            "scale": "normal",
+                            "role": "luxury good/decoration"
+                        }
+                    }
+                },
+                {
+                    "scene_type": "symbolic tableau (Memento Mori)",
+                    "plausibility": 0.85,
+                    "reasoning": "Neoclassicism often dealt with mortality. The sack represents the body (earth to earth), the rose represents fleeting beauty, and the scissors represent the cutting of the thread of life.",
+                    "object_interpretations": {
+                        "sack": {
+                            "form": "shroud-like sack",
+                            "scale": "normal",
+                            "role": "symbol of mortality"
+                        },
+                        "scissors": {
+                            "form": "shears",
+                            "scale": "normal",
+                            "role": "symbol of fate/death"
+                        },
+                        "rose": {
+                            "form": "wilting flower",
+                            "scale": "normal",
+                            "role": "symbol of transience"
+                        }
+                    }
+                }
+            ],
+            "selected_scene": {
+                "scene_type": "theater costume room",
+                "plausibility": 0.8,
+                "reasoning": "A sack might be part of a peasant costume or used as a prop bag. Scissors are constantly used for costume adjustments. A rose could be a prop for a romantic scene or a real flower given to an actor.",
+                "object_interpretations": {
+                    "sack": {
+                        "form": "fabric sack",
+                        "scale": "normal",
+                        "role": "costume component or prop bag"
+                    },
+                    "scissors": {
+                        "form": "tailoring scissors",
+                        "scale": "normal",
+                        "role": "costume tool"
+                    },
+                    "rose": {
+                        "form": "silk or real flower",
+                        "scale": "normal",
+                        "role": "theatrical prop"
+                    }
+                },
+                "scene_brief": "A theater costume room featuring sack, with scissors, and rose"
+            }
+        }
+    },
+    "final_prompts": {
+        "main_prompt": "A Neoclassicism painting depicting a bright and cheerful afternoon scene with harsh natural lighting. In the foreground, a large, well-worn sack of warm ochre and cool gray-brown burlap rests on a stone surface, its softened texture suggesting frequent handling. Beside it, a pair of medium-sized scissors with brilliant silver blades and deep gunmetal handles lies open, showing slight wear but being well-maintained. Upon the sack rests a small, freshly bloomed crimson rose with deep burgundy undertones, its perfect petals catching the afternoon light. The spatial arrangement creates a balanced composition where the scissors are positioned immediately next to the sack, and the rose sits centered atop the sack's folded surface. The atmosphere is active and cheerful, with sharp contrasts from the harsh lighting emphasizing the textures of burlap, steel, and delicate petals against a classical architectural background.",
+        "negative_prompt": "photorealistic, 3d render, modern, digital art, photograph, low quality, blurry, distorted, surreal, abstract, cartoon, anime, watermark, signature, text, frame, border, ugly, deformed, mutated",
+        "prompt_formats": {
+            "simple": "A Neoclassical painting of a sack with a rose on it and scissors beside it in harsh afternoon light.",
+            "complex": "A Neoclassicism painting depicting a bright and cheerful afternoon scene with harsh natural lighting. In the foreground, a large, well-worn sack of warm ochre and cool gray-brown burlap rests on a stone surface, its softened texture suggesting frequent handling. Beside it, a pair of medium-sized scissors with brilliant silver blades and deep gunmetal handles lies open, showing slight wear but being well-maintained. Upon the sack rests a small, freshly bloomed crimson rose with deep burgundy undertones, its perfect petals catching the afternoon light. The spatial arrangement creates a balanced composition where the scissors are positioned immediately next to the sack, and the rose sits centered atop the sack's folded surface. The atmosphere is active and cheerful, with sharp contrasts from the harsh lighting emphasizing the textures of burlap, steel, and delicate petals against a classical architectural background.",
+            "comma_separated": "Neoclassicism painting, large well-worn sack, warm ochre and cool gray-brown burlap, medium scissors, brilliant silver and deep gunmetal, small crimson rose, deep burgundy petals, rose on sack, scissors beside sack, harsh afternoon lighting, bright cheerful atmosphere, classical architecture, natural light, textured materials",
+            "tags": "art, painting, neoclassicism, still life, sack, scissors, rose, afternoon light, harsh lighting, cheerful, classical, composition, foreground, textures, burlap, steel, petals"
+        }
+    }
+}

@@ -1,0 +1,303 @@
+{
+    "artwork_id": "artwork_20260104_114606_784",
+    "generation_timestamp": "2026-01-04T11:46:48.479044",
+    "style": "Baroque",
+    "objects": {
+        "object_ids": [
+            61,
+            76,
+            43
+        ],
+        "object_names": [
+            "dining table",
+            "vase",
+            "fork"
+        ],
+        "enhanced_objects": [
+            {
+                "object_id": 61,
+                "name": "dining table",
+                "artistic_description": "A grand, dark walnut table with deeply carved Baroque scrollwork and acanthus leaves, its polished surface glowing with rich amber and mahogany tones under the warm candlelight. The wood grain shimmers with a lustrous patina, catching highlights from flickering flames while casting deep, velvety shadows into the ornate crevices of its legs and apron.",
+                "size": "Dominant",
+                "state": "polished and immaculate, bearing the dignified wear of centuries",
+                "primary_colors": [
+                    "deep mahogany",
+                    "warm amber"
+                ],
+                "material": "walnut wood"
+            },
+            {
+                "object_id": 76,
+                "name": "vase",
+                "artistic_description": "An ornate porcelain vase adorned with delicate gold filigree and painted pastoral scenes, its glossy surface reflecting the golden candlelight in soft, diffused glows. The white porcelain takes on creamy, warm undertones in the evening light, while the gold accents gleam with a rich, buttery luminosity against the cool shadows of its curved form.",
+                "size": "Medium",
+                "state": "pristine and gleaming, with a delicate sheen",
+                "primary_colors": [
+                    "creamy white",
+                    "warm gold"
+                ],
+                "material": "porcelain"
+            },
+            {
+                "object_id": 43,
+                "name": "fork",
+                "artistic_description": "A silver fork with an ornately sculpted handle featuring Baroque volutes and foliate details, its polished tines catching sharp glints of candlelight. The metal surface displays a cool, silvery sheen with subtle blue-gray undertones that contrast with the warm ambient glow, while the intricate engravings hold delicate crescents of shadow.",
+                "size": "Small",
+                "state": "highly polished, reflecting light with brilliant clarity",
+                "primary_colors": [
+                    "brilliant silver",
+                    "cool gray"
+                ],
+                "material": "silver"
+            }
+        ]
+    },
+    "composition": {
+        "spatial_relations": [
+            [
+                76,
+                "on",
+                61
+            ],
+            [
+                43,
+                "on",
+                61
+            ]
+        ],
+        "semantic_relations": []
+    },
+    "environment": {
+        "environment_details": {
+            "scene_brief": "A opulent banquet hall centered around dining table, with vase, and fork",
+            "place365_name": "/d/dining_room",
+            "place365_id": 121,
+            "time_of_day": "evening",
+            "weather": null,
+            "period": "Early modern",
+            "is_indoor": true,
+            "lighting": {
+                "type": "artificial",
+                "quality": "dramatic",
+                "direction": "side-lit",
+                "mood": "warm",
+                "reasoning": "Artificial lighting from candles or chandeliers suits the early modern period and Baroque style, creating dramatic chiaroscuro effects. Side-lit from multiple sources illuminates the table and vase while casting deep shadows, evoking warmth and opulence in an evening banquet."
+            },
+            "atmosphere": "calm and relaxed and striking"
+        },
+        "scene_inference": {
+            "all_candidates": [
+                {
+                    "scene_type": "formal dining room",
+                    "plausibility": 0.95,
+                    "reasoning": "A grand dining table is the centerpiece of a formal Baroque dining room. A vase with ornate flowers sits as a centerpiece, and a fork is placed at a formal table setting.",
+                    "object_interpretations": {
+                        "dining table": {
+                            "form": "real furniture",
+                            "scale": "large, full-size",
+                            "role": "primary functional object"
+                        },
+                        "vase": {
+                            "form": "ornate ceramic or crystal vase",
+                            "scale": "normal (12-18 inches)",
+                            "role": "decorative centerpiece"
+                        },
+                        "fork": {
+                            "form": "silverware",
+                            "scale": "standard utensil size",
+                            "role": "part of a formal place setting"
+                        }
+                    }
+                },
+                {
+                    "scene_type": "Baroque still life painting",
+                    "plausibility": 0.9,
+                    "reasoning": "Baroque still life paintings often feature lavish banquet scenes with tables laden with fruit, flowers, and silverware. The objects exist as painted subjects within the artwork.",
+                    "object_interpretations": {
+                        "dining table": {
+                            "form": "painted subject",
+                            "scale": "varies (perspective)",
+                            "role": "background surface for the composition"
+                        },
+                        "vase": {
+                            "form": "painted subject",
+                            "scale": "medium (in painting)",
+                            "role": "decorative focal point"
+                        },
+                        "fork": {
+                            "form": "painted subject",
+                            "scale": "small (in painting)",
+                            "role": "detail element in the composition"
+                        }
+                    }
+                },
+                {
+                    "scene_type": "opulent banquet hall",
+                    "plausibility": 0.85,
+                    "reasoning": "A banquet hall with a long dining table set for a feast. The vase holds elaborate floral arrangements, and forks are part of extensive tableware for guests.",
+                    "object_interpretations": {
+                        "dining table": {
+                            "form": "real banquet table",
+                            "scale": "extra-long, full-size",
+                            "role": "main serving surface"
+                        },
+                        "vase": {
+                            "form": "large ornate vase",
+                            "scale": "tall (2-3 feet)",
+                            "role": "grand floral decoration"
+                        },
+                        "fork": {
+                            "form": "silverware",
+                            "scale": "standard utensil size",
+                            "role": "dining utensil for guests"
+                        }
+                    },
+                    "scene_brief": "A opulent banquet hall centered around dining table, with vase, and fork"
+                },
+                {
+                    "scene_type": "antique shop interior",
+                    "plausibility": 0.8,
+                    "reasoning": "An antique shop displays Baroque-era furniture and decor. A dining table is for sale, with a decorative vase and antique fork set as part of the display.",
+                    "object_interpretations": {
+                        "dining table": {
+                            "form": "antique furniture",
+                            "scale": "full-size",
+                            "role": "display item for sale"
+                        },
+                        "vase": {
+                            "form": "antique decorative vase",
+                            "scale": "normal",
+                            "role": "display accessory on table"
+                        },
+                        "fork": {
+                            "form": "antique silverware",
+                            "scale": "standard",
+                            "role": "part of a vintage set on display"
+                        }
+                    }
+                },
+                {
+                    "scene_type": "museum exhibit",
+                    "plausibility": 0.75,
+                    "reasoning": "A museum room recreating a Baroque dining setting. The table is the main exhibit, with period-accurate vase and fork displayed for historical context.",
+                    "object_interpretations": {
+                        "dining table": {
+                            "form": "museum piece",
+                            "scale": "full-size",
+                            "role": "historical exhibit centerpiece"
+                        },
+                        "vase": {
+                            "form": "museum artifact",
+                            "scale": "normal",
+                            "role": "period decoration"
+                        },
+                        "fork": {
+                            "form": "museum artifact",
+                            "scale": "standard",
+                            "role": "historical utensil specimen"
+                        }
+                    }
+                },
+                {
+                    "scene_type": "Baroque palace dining chamber",
+                    "plausibility": 0.9,
+                    "reasoning": "A royal dining chamber with an ornate dining table. The vase is a precious artifact, and the fork is part of royal gold/silver cutlery.",
+                    "object_interpretations": {
+                        "dining table": {
+                            "form": "royal furniture",
+                            "scale": "large, ornate",
+                            "role": "royal dining surface"
+                        },
+                        "vase": {
+                            "form": "precious artifact vase",
+                            "scale": "normal",
+                            "role": "luxury decoration"
+                        },
+                        "fork": {
+                            "form": "royal silverware",
+                            "scale": "standard",
+                            "role": "part of royal table setting"
+                        }
+                    }
+                },
+                {
+                    "scene_type": "wedding reception venue",
+                    "plausibility": 0.8,
+                    "reasoning": "A wedding reception with a decorated dining table. The vase holds bridal flowers, and forks are set for the wedding feast.",
+                    "object_interpretations": {
+                        "dining table": {
+                            "form": "real banquet table",
+                            "scale": "full-size",
+                            "role": "reception dining surface"
+                        },
+                        "vase": {
+                            "form": "wedding floral vase",
+                            "scale": "normal",
+                            "role": "centerpiece decoration"
+                        },
+                        "fork": {
+                            "form": "wedding silverware",
+                            "scale": "standard",
+                            "role": "place setting utensil"
+                        }
+                    }
+                },
+                {
+                    "scene_type": "Baroque style restaurant",
+                    "plausibility": 0.85,
+                    "reasoning": "A restaurant decorated in Baroque style. The dining table is for customers, with a decorative vase and forks set for dining.",
+                    "object_interpretations": {
+                        "dining table": {
+                            "form": "restaurant furniture",
+                            "scale": "full-size",
+                            "role": "customer dining surface"
+                        },
+                        "vase": {
+                            "form": "decorative restaurant vase",
+                            "scale": "normal",
+                            "role": "table decoration"
+                        },
+                        "fork": {
+                            "form": "restaurant silverware",
+                            "scale": "standard",
+                            "role": "dining utensil"
+                        }
+                    }
+                }
+            ],
+            "selected_scene": {
+                "scene_type": "opulent banquet hall",
+                "plausibility": 0.85,
+                "reasoning": "A banquet hall with a long dining table set for a feast. The vase holds elaborate floral arrangements, and forks are part of extensive tableware for guests.",
+                "object_interpretations": {
+                    "dining table": {
+                        "form": "real banquet table",
+                        "scale": "extra-long, full-size",
+                        "role": "main serving surface"
+                    },
+                    "vase": {
+                        "form": "large ornate vase",
+                        "scale": "tall (2-3 feet)",
+                        "role": "grand floral decoration"
+                    },
+                    "fork": {
+                        "form": "silverware",
+                        "scale": "standard utensil size",
+                        "role": "dining utensil for guests"
+                    }
+                },
+                "scene_brief": "A opulent banquet hall centered around dining table, with vase, and fork"
+            }
+        }
+    },
+    "final_prompts": {
+        "main_prompt": "A Baroque painting depicting an evening dining scene centered on a deep mahogany dining table that dominates the foreground with its polished, immaculate surface reflecting warm amber tones. On the table's surface, a medium-sized creamy white vase with warm gold accents sits pristine and gleaming, positioned slightly off-center, while beside it rests a small, highly polished silver fork with cool gray reflections. The artificial dramatic lighting casts deep shadows and highlights the gleaming surfaces, creating a calm and relaxed yet striking atmosphere where every object appears both intimate and monumental in the quiet evening stillness.",
+        "negative_prompt": "photorealistic, 3d render, modern, digital art, photograph, low quality, blurry, distorted, abstract, surreal, cartoon, anime, sketch, watermark, signature, text, frame, border, people, figures, animals, plants, food, clutter, messy, dirty, broken, damaged, daytime, natural light, bright, flat lighting, minimalist, simple background",
+        "prompt_formats": {
+            "simple": "A Baroque painting of a dining table with a vase and fork in dramatic evening lighting.",
+            "complex": "A Baroque painting depicting an evening dining scene centered on a deep mahogany dining table that dominates the foreground with its polished, immaculate surface reflecting warm amber tones. On the table's surface, a medium-sized creamy white vase with warm gold accents sits pristine and gleaming, positioned slightly off-center, while beside it rests a small, highly polished silver fork with cool gray reflections. The artificial dramatic lighting casts deep shadows and highlights the gleaming surfaces, creating a calm and relaxed yet striking atmosphere where every object appears both intimate and monumental in the quiet evening stillness.",
+            "comma_separated": "Baroque painting, dining table, vase, fork, deep mahogany, creamy white, silver, polished, gleaming, dramatic lighting, evening, calm, relaxed, striking, still life, chiaroscuro, rich textures, detailed, atmospheric",
+            "tags": "art, painting, Baroque, still life, dining table, vase, fork, mahogany, porcelain, silver, chiaroscuro, dramatic lighting, evening, calm atmosphere, polished, detailed, textured, atmospheric, classical art"
+        }
+    }
+}

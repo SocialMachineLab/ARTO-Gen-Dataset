@@ -1,0 +1,381 @@
+{
+    "artwork_id": "artwork_20260103_195451_900",
+    "generation_timestamp": "2026-01-03T19:55:28.011201",
+    "style": "Baroque",
+    "objects": {
+        "object_ids": [
+            57,
+            51,
+            56,
+            25
+        ],
+        "object_names": [
+            "stool",
+            "cabbage",
+            "pastry",
+            "sack"
+        ],
+        "enhanced_objects": [
+            {
+                "object_id": 57,
+                "name": "stool",
+                "artistic_description": "A sturdy wooden stool with rich, dark mahogany tones glowing warmly under the artificial candlelight, its surface showing deep patina and wear marks from generations of use. The turned legs catch the light with subtle highlights, revealing the smooth, hand-carved curves and time-worn edges that speak of early modern craftsmanship.",
+                "size": "Medium",
+                "state": "well-worn but sturdy, showing age and frequent use",
+                "primary_colors": [
+                    "deep mahogany brown",
+                    "warm amber highlights"
+                ],
+                "material": "wood"
+            },
+            {
+                "object_id": 51,
+                "name": "cabbage",
+                "artistic_description": "A large, dense head of cabbage with tightly packed leaves that glisten softly in the candlelight, the outer leaves showing muted sage-green tones while the inner leaves reveal pale, almost luminous chartreuse where the light catches the moisture. The waxy surface has a subtle sheen, and the dense layers create deep shadows within the folds.",
+                "size": "Medium",
+                "state": "fresh and crisp, with slight wilting on outer leaves",
+                "primary_colors": [
+                    "sage green",
+                    "chartreuse"
+                ],
+                "material": ""
+            },
+            {
+                "object_id": 56,
+                "name": "pastry",
+                "artistic_description": "A golden-brown pastry with a flaky, layered crust that shimmers with a delicate buttery glaze under the warm artificial light, its surface showing a rich spectrum from deep amber to pale gold. The edges are delicately scalloped and slightly caramelized, creating tiny shadows that emphasize the crisp, airy texture.",
+                "size": "Small",
+                "state": "freshly baked, still slightly warm",
+                "primary_colors": [
+                    "golden amber",
+                    "pale butter yellow"
+                ],
+                "material": ""
+            },
+            {
+                "object_id": 25,
+                "name": "sack",
+                "artistic_description": "A coarse burlap sack with a rough, textured weave that catches the candlelight in a pattern of alternating light and shadow, the natural hemp fibers showing warm beige and taupe tones. The fabric is slightly frayed at the edges and shows subtle variations in color where the material has been worn smooth versus the rougher, darker patches of the untreated weave.",
+                "size": "Large",
+                "state": "empty and loosely draped, showing natural wear and coarse texture",
+                "primary_colors": [
+                    "warm beige",
+                    "natural taupe"
+                ],
+                "material": "burlap"
+            }
+        ]
+    },
+    "composition": {
+        "spatial_relations": [
+            [
+                51,
+                "on",
+                57
+            ],
+            [
+                56,
+                "on",
+                57
+            ],
+            [
+                25,
+                "on",
+                57
+            ],
+            [
+                51,
+                "next to",
+                56
+            ],
+            [
+                56,
+                "next to",
+                25
+            ],
+            [
+                51,
+                "next to",
+                25
+            ]
+        ],
+        "semantic_relations": []
+    },
+    "environment": {
+        "environment_details": {
+            "scene_brief": "A Baroque Market Stall featuring stool, with cabbage, pastry, and sack",
+            "place365_name": "/p/pub/indoor",
+            "place365_id": 274,
+            "time_of_day": "evening",
+            "weather": null,
+            "period": "Early modern",
+            "is_indoor": true,
+            "lighting": {
+                "type": "artificial",
+                "quality": "harsh",
+                "direction": "side-lit",
+                "reasoning": "To achieve the dramatic contrast of the Baroque style, an artificial light source (candle/lantern) is essential for an evening scene. 'Harsh' lighting creates strong shadows, and 'side-lit' directionality models the three-dimensional forms of the round cabbage, the flaky pastry, and the rough sack, emphasizing their textures and volume."
+            },
+            "atmosphere": "calm and relaxed"
+        },
+        "scene_inference": {
+            "all_candidates": [
+                {
+                    "scene_type": "Baroque Kitchen Still Life",
+                    "plausibility": 0.95,
+                    "reasoning": "A rustic kitchen scene where the stool serves as a base for a display of provisions. The cabbage and pastry are arranged on the stool, while the sack rests on the floor nearby, contributing to a composition of humble abundance.",
+                    "object_interpretations": {
+                        "stool": {
+                            "form": "real wooden stool",
+                            "scale": "normal",
+                            "role": "platform for display"
+                        },
+                        "cabbage": {
+                            "form": "real vegetable",
+                            "scale": "normal",
+                            "role": "still life subject"
+                        },
+                        "pastry": {
+                            "form": "real baked good",
+                            "scale": "normal",
+                            "role": "still life subject"
+                        },
+                        "sack": {
+                            "form": "real burlap sack",
+                            "scale": "normal",
+                            "role": "secondary storage element"
+                        }
+                    }
+                },
+                {
+                    "scene_type": "Baroque Market Stall",
+                    "plausibility": 0.9,
+                    "reasoning": "A bustling market scene. The stool is used by a vendor for sitting or as a display pedestal. The cabbage and pastry are goods for sale, and the sack contains more produce or flour for baking.",
+                    "object_interpretations": {
+                        "stool": {
+                            "form": "real wooden stool",
+                            "scale": "normal",
+                            "role": "vendor seating or display"
+                        },
+                        "cabbage": {
+                            "form": "real vegetable",
+                            "scale": "normal",
+                            "role": "market produce"
+                        },
+                        "pastry": {
+                            "form": "real baked good",
+                            "scale": "normal",
+                            "role": "market food item"
+                        },
+                        "sack": {
+                            "form": "real burlap sack",
+                            "scale": "normal",
+                            "role": "storage of goods"
+                        }
+                    },
+                    "scene_brief": "A Baroque Market Stall featuring stool, with cabbage, pastry, and sack"
+                },
+                {
+                    "scene_type": "Baroque Pantry Interior",
+                    "plausibility": 0.9,
+                    "reasoning": "A dimly lit pantry with shelves. The stool is placed in the foreground to hold a few select items: a cabbage and a pastry. The larger sack sits on the floor, suggesting bulk storage.",
+                    "object_interpretations": {
+                        "stool": {
+                            "form": "real wooden stool",
+                            "scale": "normal",
+                            "role": "foreground prop"
+                        },
+                        "cabbage": {
+                            "form": "real vegetable",
+                            "scale": "normal",
+                            "role": "stored produce"
+                        },
+                        "pastry": {
+                            "form": "real baked good",
+                            "scale": "normal",
+                            "role": "stored food"
+                        },
+                        "sack": {
+                            "form": "real burlap sack",
+                            "scale": "normal",
+                            "role": "bulk storage container"
+                        }
+                    }
+                },
+                {
+                    "scene_type": "Baroque Bakery Interior",
+                    "plausibility": 0.85,
+                    "reasoning": "A baker's workspace. The stool is used for sitting while kneading dough or as a stand for cooling pastries. The cabbage might be an ingredient or part of a meal for the baker, kept near the sack of flour.",
+                    "object_interpretations": {
+                        "stool": {
+                            "form": "real wooden stool",
+                            "scale": "normal",
+                            "role": "work seating or display"
+                        },
+                        "cabbage": {
+                            "form": "real vegetable",
+                            "scale": "normal",
+                            "role": "ingredient or meal component"
+                        },
+                        "pastry": {
+                            "form": "real baked good",
+                            "scale": "normal",
+                            "role": "finished product"
+                        },
+                        "sack": {
+                            "form": "real flour sack",
+                            "scale": "normal",
+                            "role": "primary ingredient storage"
+                        }
+                    }
+                },
+                {
+                    "scene_type": "Baroque Farmhouse Interior",
+                    "plausibility": 0.8,
+                    "reasoning": "A rustic farmhouse setting. The stool is a simple piece of furniture near a hearth or table. The cabbage and pastry are food items on the stool, and the sack is a grain or potato sack in the corner.",
+                    "object_interpretations": {
+                        "stool": {
+                            "form": "real wooden stool",
+                            "scale": "normal",
+                            "role": "simple furniture"
+                        },
+                        "cabbage": {
+                            "form": "real vegetable",
+                            "scale": "normal",
+                            "role": "harvested food"
+                        },
+                        "pastry": {
+                            "form": "real baked good",
+                            "scale": "normal",
+                            "role": "prepared food"
+                        },
+                        "sack": {
+                            "form": "real burlap sack",
+                            "scale": "normal",
+                            "role": "storage of harvest"
+                        }
+                    }
+                },
+                {
+                    "scene_type": "Baroque Allegory of Harvest",
+                    "plausibility": 0.75,
+                    "reasoning": "A symbolic scene representing harvest or provision. The stool acts as a pedestal for the bounty. The cabbage and pastry are symbols of vegetable and grain produce. The sack represents the storage of the harvest.",
+                    "object_interpretations": {
+                        "stool": {
+                            "form": "stylized wooden stool",
+                            "scale": "normal",
+                            "role": "pedestal for bounty"
+                        },
+                        "cabbage": {
+                            "form": "idealized vegetable",
+                            "scale": "normal",
+                            "role": "symbol of earth's yield"
+                        },
+                        "pastry": {
+                            "form": "idealized baked good",
+                            "scale": "normal",
+                            "role": "symbol of processed grain"
+                        },
+                        "sack": {
+                            "form": "stylized sack",
+                            "scale": "normal",
+                            "role": "symbol of storage and abundance"
+                        }
+                    }
+                },
+                {
+                    "scene_type": "Baroque Kitchen with Cat",
+                    "plausibility": 0.85,
+                    "reasoning": "A domestic scene where a cat has knocked items onto a stool. The stool is a makeshift platform. The cabbage and pastry are food items placed or fallen there. The sack is open on the floor.",
+                    "object_interpretations": {
+                        "stool": {
+                            "form": "real wooden stool",
+                            "scale": "normal",
+                            "role": "platform for scattered items"
+                        },
+                        "cabbage": {
+                            "form": "real vegetable",
+                            "scale": "normal",
+                            "role": "scattered food item"
+                        },
+                        "pastry": {
+                            "form": "real baked good",
+                            "scale": "normal",
+                            "role": "scattered food item"
+                        },
+                        "sack": {
+                            "form": "real burlap sack",
+                            "scale": "normal",
+                            "role": "source of spilled items"
+                        }
+                    }
+                },
+                {
+                    "scene_type": "Baroque Dining Preparation",
+                    "plausibility": 0.8,
+                    "reasoning": "A scene before a feast. The stool is used to hold items waiting to be brought to the table. The cabbage and pastry are prepared dishes or ingredients. The sack might contain herbs or spices.",
+                    "object_interpretations": {
+                        "stool": {
+                            "form": "real wooden stool",
+                            "scale": "normal",
+                            "role": "holding surface"
+                        },
+                        "cabbage": {
+                            "form": "prepared vegetable dish",
+                            "scale": "normal",
+                            "role": "side dish"
+                        },
+                        "pastry": {
+                            "form": "prepared pastry dish",
+                            "scale": "normal",
+                            "role": "dessert"
+                        },
+                        "sack": {
+                            "form": "small cloth sack",
+                            "scale": "normal",
+                            "role": "container for spices"
+                        }
+                    }
+                }
+            ],
+            "selected_scene": {
+                "scene_type": "Baroque Market Stall",
+                "plausibility": 0.9,
+                "reasoning": "A bustling market scene. The stool is used by a vendor for sitting or as a display pedestal. The cabbage and pastry are goods for sale, and the sack contains more produce or flour for baking.",
+                "object_interpretations": {
+                    "stool": {
+                        "form": "real wooden stool",
+                        "scale": "normal",
+                        "role": "vendor seating or display"
+                    },
+                    "cabbage": {
+                        "form": "real vegetable",
+                        "scale": "normal",
+                        "role": "market produce"
+                    },
+                    "pastry": {
+                        "form": "real baked good",
+                        "scale": "normal",
+                        "role": "market food item"
+                    },
+                    "sack": {
+                        "form": "real burlap sack",
+                        "scale": "normal",
+                        "role": "storage of goods"
+                    }
+                },
+                "scene_brief": "A Baroque Market Stall featuring stool, with cabbage, pastry, and sack"
+            }
+        }
+    },
+    "final_prompts": {
+        "main_prompt": "A Baroque painting depicting a calm and relaxed evening scene centered on a well-worn but sturdy stool of deep mahogany brown with warm amber highlights. Upon its surface rests a fresh and crisp sage green cabbage with chartreuse leaves, positioned directly beside a small, freshly baked pastry of golden amber and pale butter yellow hues. Next to the pastry lies a large, empty sack loosely draped in warm beige and natural taupe burlap fabric. The cabbage, pastry, and sack are all arranged closely together on the stool's surface, creating an intimate still-life composition. Artificial, harsh lighting from an unseen source casts dramatic shadows and illuminates the textures of wood and burlap, enhancing the rich materiality of the scene. The overall atmosphere is one of serene domesticity and quiet contemplation, rendered with the characteristic theatricality, deep chiaroscuro, and emotional intensity of the Baroque period.",
+        "negative_prompt": "photorealistic, 3d render, modern, digital art, photograph, low quality, blurry, distorted, ugly, deformed, cartoon, anime, text, watermark, signature, frame, border, people, animals",
+        "prompt_formats": {
+            "simple": "A Baroque still-life of a cabbage, pastry, and sack on a stool under harsh evening light.",
+            "complex": "A Baroque painting depicting a calm and relaxed evening scene centered on a well-worn but sturdy stool of deep mahogany brown with warm amber highlights. Upon its surface rests a fresh and crisp sage green cabbage with chartreuse leaves, positioned directly beside a small, freshly baked pastry of golden amber and pale butter yellow hues. Next to the pastry lies a large, empty sack loosely draped in warm beige and natural taupe burlap fabric. The cabbage, pastry, and sack are all arranged closely together on the stool's surface, creating an intimate still-life composition. Artificial, harsh lighting from an unseen source casts dramatic shadows and illuminates the textures of wood and burlap, enhancing the rich materiality of the scene. The overall atmosphere is one of serene domesticity and quiet contemplation, rendered with the characteristic theatricality, deep chiaroscuro, and emotional intensity of the Baroque period.",
+            "comma_separated": "Baroque painting, still life, stool, cabbage, pastry, sack, mahogany brown, sage green, golden amber, warm beige, evening, artificial harsh lighting, calm atmosphere, relaxed, chiaroscuro, dramatic shadows, wood texture, burlap texture",
+            "tags": "art, painting, Baroque, still life, chiaroscuro, dramatic lighting, evening, stool, cabbage, pastry, sack, domestic scene, texture study"
+        }
+    }
+}

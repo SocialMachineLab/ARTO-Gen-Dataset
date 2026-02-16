@@ -1,0 +1,356 @@
+{
+    "artwork_id": "artwork_20260103_152422_831",
+    "generation_timestamp": "2026-01-03T15:25:03.321619",
+    "style": "Baroque",
+    "objects": {
+        "object_ids": [
+            43,
+            49,
+            1,
+            19
+        ],
+        "object_names": [
+            "fork",
+            "sandwich",
+            "fisherman",
+            "lamb"
+        ],
+        "enhanced_objects": [
+            {
+                "object_id": 43,
+                "name": "fork",
+                "artistic_description": "A gleaming silver fork catches the brilliant noon sunlight streaming through high windows, its tines throwing sharp, dramatic shadows across its polished surface. The metal glows with warm golden highlights where the sun strikes directly, while cooler steel-gray tones recede in the crevices. Its ornate Baroque handle features intricate scrollwork that creates a play of light and shadow, with tiny facets sparkling like jewels. The surface is impeccably polished, creating mirror-like reflections of the surrounding warmth.",
+                "size": "Medium",
+                "state": "pristine and polished, reflecting the kitchen's industrious activity",
+                "primary_colors": [
+                    "warm silver-gold",
+                    "cool steel-gray"
+                ],
+                "material": "silver"
+            },
+            {
+                "object_id": 49,
+                "name": "sandwich",
+                "artistic_description": "Layers of rustic bread and roasted meat glow with appetizing warmth under the noon light, the crust toasted to rich amber and golden-brown tones. Fresh greens appear as vibrant emerald accents, their surfaces lightly dewy with natural moisture. The exposed interior reveals textures of tender meat in deep mahogany hues and creamy spreads that catch the light softly. Steam rises in delicate wisps, creating ethereal highlights against the bright, cheerful atmosphere.",
+                "size": "Medium",
+                "state": "freshly prepared, still warm with steam rising",
+                "primary_colors": [
+                    "golden-brown",
+                    "emerald green"
+                ],
+                "material": ""
+            },
+            {
+                "object_id": 1,
+                "name": "fisherman",
+                "artistic_description": "Weathered skin glows with ruddy warmth under the harsh noon sun, the face etched with deep shadows that carve dramatic lines across his features. His coarse woolen tunic absorbs light in deep navy and charcoal tones, while weathered leather accents catch golden highlights. Salt-encrusted hair appears as silvered strands against the bright illumination. The overall effect is one of rugged vitality, with sweat glistening like tiny diamonds on his brow.",
+                "size": "Large",
+                "state": "weathered and seasoned from sea voyages, bearing marks of his trade",
+                "primary_colors": [
+                    "ruddy bronze",
+                    "deep navy"
+                ],
+                "material": ""
+            },
+            {
+                "object_id": 19,
+                "name": "lamb",
+                "artistic_description": "Soft, dense wool reflects the noon light as a luminous cloud of creamy white and warm ivory tones, each curl catching the brightness with delicate highlights. The fleece appears plush and velvety, with subtle shadows nestling between the fibers creating depth and dimension. Its gentle face glows with soft peach and blush tones, eyes sparkling with liquid clarity. The overall texture is matte yet luminous, embodying purity and freshness in the vibrant kitchen atmosphere.",
+                "size": "Large",
+                "state": "gentle and pristine, with soft intact fleece",
+                "primary_colors": [
+                    "creamy white",
+                    "warm ivory"
+                ],
+                "material": "wool"
+            }
+        ]
+    },
+    "composition": {
+        "spatial_relations": [
+            [
+                43,
+                "on",
+                49
+            ],
+            [
+                1,
+                "next to",
+                19
+            ],
+            [
+                49,
+                "next to",
+                19
+            ],
+            [
+                43,
+                "next to",
+                1
+            ]
+        ],
+        "semantic_relations": [
+            [
+                1,
+                "holding",
+                43
+            ],
+            [
+                1,
+                "eating",
+                49
+            ]
+        ]
+    },
+    "environment": {
+        "environment_details": {
+            "scene_brief": "A Baroque royal kitchen featuring fork, with sandwich, fisherman, and lamb",
+            "place365_name": "/k/kitchen",
+            "place365_id": 203,
+            "time_of_day": "noon",
+            "weather": "sunny",
+            "period": "Early modern",
+            "is_indoor": true,
+            "lighting": {
+                "type": "natural",
+                "quality": "harsh",
+                "direction": "side-lit",
+                "mood": "warm",
+                "reasoning": "The 'noon' sun provides natural, harsh light. In a kitchen setting, this light likely enters from high windows, illuminating the scene from the side. This side-lighting accentuates the textures of the food (lamb, bread) and the metallic sheen of the fork, creating the dramatic, volumetric look central to Baroque art."
+            },
+            "atmosphere": "vibrant and lively and cheerful"
+        },
+        "scene_inference": {
+            "all_candidates": [
+                {
+                    "scene_type": "Baroque dining hall",
+                    "plausibility": 0.95,
+                    "reasoning": "A lavish Baroque dining hall is the natural habitat for a fork. The sandwich is the meal being eaten. The fisherman appears as a guest or a portrait subject, and the lamb is served as a main course.",
+                    "object_interpretations": {
+                        "fork": {
+                            "form": "real silverware",
+                            "scale": "normal",
+                            "role": "primary dining utensil"
+                        },
+                        "sandwich": {
+                            "form": "real food",
+                            "scale": "normal",
+                            "role": "meal on plate"
+                        },
+                        "fisherman": {
+                            "form": "real person",
+                            "scale": "normal",
+                            "role": "diner at the table"
+                        },
+                        "lamb": {
+                            "form": "real cooked meat",
+                            "scale": "normal",
+                            "role": "roast on serving platter"
+                        }
+                    }
+                },
+                {
+                    "scene_type": "Baroque still life painting",
+                    "plausibility": 0.9,
+                    "reasoning": "A classic vanitas or still life composition. The fork is part of the table setting. The sandwich is food, the fisherman is represented by a portrait on the wall, and the lamb is a roasted dish in the spread.",
+                    "object_interpretations": {
+                        "fork": {
+                            "form": "real silverware",
+                            "scale": "normal",
+                            "role": "foreground utensil"
+                        },
+                        "sandwich": {
+                            "form": "real food",
+                            "scale": "normal",
+                            "role": "part of the feast"
+                        },
+                        "fisherman": {
+                            "form": "painting subject",
+                            "scale": "small (portrait)",
+                            "role": "background art"
+                        },
+                        "lamb": {
+                            "form": "real cooked meat",
+                            "scale": "normal",
+                            "role": "centerpiece dish"
+                        }
+                    }
+                },
+                {
+                    "scene_type": "Baroque coastal tavern",
+                    "plausibility": 0.85,
+                    "reasoning": "A rustic tavern by the sea. The fisherman is eating a meal. He uses a fork to eat a sandwich. A leg of lamb is roasting in the fireplace in the background.",
+                    "object_interpretations": {
+                        "fork": {
+                            "form": "real iron fork",
+                            "scale": "normal",
+                            "role": "eating utensil"
+                        },
+                        "sandwich": {
+                            "form": "real food",
+                            "scale": "normal",
+                            "role": "meal"
+                        },
+                        "fisherman": {
+                            "form": "real person",
+                            "scale": "normal",
+                            "role": "patron eating"
+                        },
+                        "lamb": {
+                            "form": "real animal meat",
+                            "scale": "large (roast)",
+                            "role": "background cooking food"
+                        }
+                    }
+                },
+                {
+                    "scene_type": "Baroque royal kitchen",
+                    "plausibility": 0.8,
+                    "reasoning": "A bustling kitchen preparing a feast. A fork is set on a tray. A sandwich is a snack for the staff. The fisherman is a servant bringing in fish, and the lamb is being butchered or prepared.",
+                    "object_interpretations": {
+                        "fork": {
+                            "form": "real silverware",
+                            "scale": "normal",
+                            "role": "part of tableware set"
+                        },
+                        "sandwich": {
+                            "form": "real food",
+                            "scale": "normal",
+                            "role": "casual snack"
+                        },
+                        "fisherman": {
+                            "form": "real person",
+                            "scale": "normal",
+                            "role": "kitchen staff/supplier"
+                        },
+                        "lamb": {
+                            "form": "real animal",
+                            "scale": "normal",
+                            "role": "ingredient being prepared"
+                        }
+                    },
+                    "scene_brief": "A Baroque royal kitchen featuring fork, with sandwich, fisherman, and lamb"
+                },
+                {
+                    "scene_type": "Baroque allegorical tableau",
+                    "plausibility": 0.75,
+                    "reasoning": "A symbolic scene representing 'Abundance' or 'The Feast'. The fork is a scepter-like object. The sandwich is a jewel-like food. The fisherman is a personified figure, and the lamb is a sacrificial or celebratory offering.",
+                    "object_interpretations": {
+                        "fork": {
+                            "form": "ornate ceremonial object",
+                            "scale": "large",
+                            "role": "symbolic scepter"
+                        },
+                        "sandwich": {
+                            "form": "stylized food",
+                            "scale": "normal",
+                            "role": "symbol of sustenance"
+                        },
+                        "fisherman": {
+                            "form": "personified figure",
+                            "scale": "normal",
+                            "role": "allegorical character"
+                        },
+                        "lamb": {
+                            "form": "stylized animal",
+                            "scale": "normal",
+                            "role": "symbol of sacrifice/peace"
+                        }
+                    }
+                },
+                {
+                    "scene_type": "Baroque museum display",
+                    "plausibility": 0.85,
+                    "reasoning": "A museum exhibit displaying Baroque artifacts. A fork is in a glass case. A sandwich is a modern item left on a bench nearby (contrast). A painting of a fisherman and a sculpture of a lamb are part of the collection.",
+                    "object_interpretations": {
+                        "fork": {
+                            "form": "antique artifact",
+                            "scale": "normal",
+                            "role": "museum exhibit"
+                        },
+                        "sandwich": {
+                            "form": "modern food",
+                            "scale": "normal",
+                            "role": "litter/visitor item"
+                        },
+                        "fisherman": {
+                            "form": "painting",
+                            "scale": "normal",
+                            "role": "artwork on wall"
+                        },
+                        "lamb": {
+                            "form": "marble sculpture",
+                            "scale": "normal",
+                            "role": "statue in gallery"
+                        }
+                    }
+                },
+                {
+                    "scene_type": "Baroque banquet table",
+                    "plausibility": 0.9,
+                    "reasoning": "A long banquet table laden with food. The fork is on a plate. The sandwich is an hors d'oeuvre. A fisherman is a guest, and a whole roasted lamb is the main course.",
+                    "object_interpretations": {
+                        "fork": {
+                            "form": "real silverware",
+                            "scale": "normal",
+                            "role": "table setting"
+                        },
+                        "sandwich": {
+                            "form": "real food",
+                            "scale": "small",
+                            "role": "appetizer"
+                        },
+                        "fisherman": {
+                            "form": "real person",
+                            "scale": "normal",
+                            "role": "banquet guest"
+                        },
+                        "lamb": {
+                            "form": "real cooked animal",
+                            "scale": "large",
+                            "role": "feast centerpiece"
+                        }
+                    }
+                }
+            ],
+            "selected_scene": {
+                "scene_type": "Baroque royal kitchen",
+                "plausibility": 0.8,
+                "reasoning": "A bustling kitchen preparing a feast. A fork is set on a tray. A sandwich is a snack for the staff. The fisherman is a servant bringing in fish, and the lamb is being butchered or prepared.",
+                "object_interpretations": {
+                    "fork": {
+                        "form": "real silverware",
+                        "scale": "normal",
+                        "role": "part of tableware set"
+                    },
+                    "sandwich": {
+                        "form": "real food",
+                        "scale": "normal",
+                        "role": "casual snack"
+                    },
+                    "fisherman": {
+                        "form": "real person",
+                        "scale": "normal",
+                        "role": "kitchen staff/supplier"
+                    },
+                    "lamb": {
+                        "form": "real animal",
+                        "scale": "normal",
+                        "role": "ingredient being prepared"
+                    }
+                },
+                "scene_brief": "A Baroque royal kitchen featuring fork, with sandwich, fisherman, and lamb"
+            }
+        }
+    },
+    "final_prompts": {
+        "main_prompt": "A Baroque painting depicting a vibrant and lively noon scene with natural harsh lighting casting dramatic shadows. In the foreground, a large weathered fisherman with ruddy bronze skin and deep navy clothing stands beside a large gentle lamb with creamy white wool. Between them rests a medium-sized freshly prepared sandwich with golden-brown bread and emerald green lettuce, upon which sits a medium-sized pristine fork with warm silver-gold and cool steel-gray tones. The fork rests atop the sandwich, which sits beside the lamb, while the fisherman stands next to both the lamb and the fork. The composition features Baroque theatricality with dynamic diagonals, rich textures of wool and polished silver, and a cheerful atmosphere of rustic abundance.",
+        "negative_prompt": "photorealistic, 3d render, modern, digital art, photograph, low quality, blurry, distorted, anime, cartoon, surreal, abstract, deformed, ugly, bad anatomy",
+        "prompt_formats": {
+            "simple": "A Baroque painting of a fisherman and lamb with a sandwich and fork at noon.",
+            "complex": "A Baroque painting depicting a vibrant and lively noon scene with natural harsh lighting casting dramatic shadows. In the foreground, a large weathered fisherman with ruddy bronze skin and deep navy clothing stands beside a large gentle lamb with creamy white wool. Between them rests a medium-sized freshly prepared sandwich with golden-brown bread and emerald green lettuce, upon which sits a medium-sized pristine fork with warm silver-gold and cool steel-gray tones. The fork rests atop the sandwich, which sits beside the lamb, while the fisherman stands next to both the lamb and the fork. The composition features Baroque theatricality with dynamic diagonals, rich textures of wool and polished silver, and a cheerful atmosphere of rustic abundance.",
+            "comma_separated": "Baroque painting, fisherman, lamb, sandwich, fork, noon lighting, harsh natural light, vibrant atmosphere, lively scene, cheerful mood, dramatic shadows, rustic setting, polished silver, wool texture, golden-brown bread, emerald green lettuce, creamy white lamb, ruddy bronze skin, deep navy clothing",
+            "tags": "art, painting, Baroque, still life, genre scene, rustic, noon, dramatic lighting, fisherman, lamb, sandwich, fork, food, animals, human figure, textured, detailed, vibrant, cheerful"
+        }
+    }
+}

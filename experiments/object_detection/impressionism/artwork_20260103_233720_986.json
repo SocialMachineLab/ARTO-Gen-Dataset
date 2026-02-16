@@ -1,0 +1,437 @@
+{
+    "artwork_id": "artwork_20260103_233720_986",
+    "generation_timestamp": "2026-01-03T23:37:57.805995",
+    "style": "Impressionism",
+    "objects": {
+        "object_ids": [
+            15,
+            42,
+            39,
+            74,
+            72
+        ],
+        "object_names": [
+            "turkey",
+            "coffee cup",
+            "tennis racket",
+            "magazine",
+            "bathroom sink"
+        ],
+        "enhanced_objects": [
+            {
+                "object_id": 15,
+                "name": "turkey",
+                "artistic_description": "Golden-brown skin glistening with rendered fat catches warm afternoon light streaming through windows, creating dappled highlights of amber and honey across its crispy surface. Moisture beads on the skin, reflecting tiny points of light while the meat beneath shows warm coral and amber tones. The skin appears mottled with patches of deeper mahogany where it has crisped more intensely, with soft edges that blur slightly in the bright, cheerful atmosphere.",
+                "size": "Dominant",
+                "state": "freshly roasted, glistening with moisture and rendered fat",
+                "primary_colors": [
+                    "golden-brown",
+                    "amber"
+                ],
+                "material": "food"
+            },
+            {
+                "object_id": 42,
+                "name": "coffee cup",
+                "artistic_description": "White ceramic surface glows softly with warm reflected light, showing subtle variations of cream and pale yellow where afternoon sun strikes. The cup's glossy glaze creates gentle highlights that blend into the surrounding atmosphere, while a small area of darker brown liquid inside creates a shadowed pool. Steam rises in wispy, translucent curls that catch the light and dissolve into the bright air.",
+                "size": "Medium",
+                "state": "freshly poured, steaming gently",
+                "primary_colors": [
+                    "cream",
+                    "pale yellow"
+                ],
+                "material": "ceramic"
+            },
+            {
+                "object_id": 39,
+                "name": "tennis racket",
+                "artistic_description": "Vibrant green synthetic strings create a pattern of delicate lines against the bright background, catching sharp highlights where light strikes. The aluminum frame shows cool metallic tones with flashes of silver and pale blue, while the grip's textured surface appears in muted earth tones. Dust motes dance in the sunbeam across its surface, creating a soft, atmospheric haze.",
+                "size": "Medium",
+                "state": "well-used, slightly dusty from recent play",
+                "primary_colors": [
+                    "silver",
+                    "vibrant green"
+                ],
+                "material": "metal and synthetic"
+            },
+            {
+                "object_id": 74,
+                "name": "magazine",
+                "artistic_description": "Glossy pages reflect fragmented patches of warm light, creating a mosaic of saturated colors that blend impressionistically. The cover shows bright, saturated hues of red and yellow that appear more intense in the sunlight, while the edges curl slightly with wear. The paper's surface catches light in a way that makes the text and images soften into patches of pure color.",
+                "size": "Small",
+                "state": "open, slightly worn at corners",
+                "primary_colors": [
+                    "saturated red",
+                    "bright yellow"
+                ],
+                "material": "glossy paper"
+            },
+            {
+                "object_id": 72,
+                "name": "bathroom sink",
+                "artistic_description": "Porcelain surface glows with cool white tones in the mixed lighting, showing subtle blue-gray shadows where it receives indirect light. Water droplets scattered across the basin create tiny prisms that catch and scatter light into rainbow points. The chrome faucet gleams with sharp silver highlights, reflecting distorted fragments of the surrounding bright atmosphere.",
+                "size": "Medium",
+                "state": "damp with scattered water droplets",
+                "primary_colors": [
+                    "cool white",
+                    "silver"
+                ],
+                "material": "porcelain and chrome"
+            }
+        ]
+    },
+    "composition": {
+        "spatial_relations": [
+            [
+                15,
+                "on",
+                42
+            ],
+            [
+                39,
+                "next to",
+                42
+            ],
+            [
+                74,
+                "next to",
+                39
+            ],
+            [
+                72,
+                "behind",
+                42
+            ]
+        ],
+        "semantic_relations": [
+            [
+                15,
+                "eating",
+                42
+            ]
+        ]
+    },
+    "environment": {
+        "environment_details": {
+            "scene_brief": "A family dining room centered around turkey, with coffee cup, tennis racket, magazine, and bathroom sink in the background",
+            "place365_name": "/d/dining_room",
+            "place365_id": 121,
+            "time_of_day": "afternoon",
+            "weather": "sunny",
+            "period": "Contemporary",
+            "is_indoor": true,
+            "lighting": {
+                "type": "mixed",
+                "quality": "soft",
+                "direction": "side-lit",
+                "mood": "warm",
+                "reasoning": "The scene requires 'mixed' lighting to account for both the sunny exterior (natural) and interior lamps (artificial). 'Soft' light is essential for the Impressionist style, which relies on subtle color transitions and avoids harsh shadows. 'Side-lighting' from windows creates depth and highlights the textures of the food and objects. A 'warm' mood aligns with the cozy, familial theme."
+            },
+            "atmosphere": "bright and active and cheerful and gentle"
+        },
+        "scene_inference": {
+            "all_candidates": [
+                {
+                    "scene_type": "eclectic kitchen",
+                    "plausibility": 0.8,
+                    "reasoning": "A busy kitchen preparing a holiday meal. The turkey is the centerpiece on the counter. A coffee cup sits nearby, perhaps for the cook. A tennis racket might be leaning against a wall, brought in from another room. A magazine could be open on a stool. The impressionist style blurs the edges, suggesting a bustling, warm atmosphere.",
+                    "object_interpretations": {
+                        "turkey": {
+                            "form": "real roasted bird",
+                            "scale": "normal",
+                            "role": "primary food item"
+                        },
+                        "coffee cup": {
+                            "form": "real ceramic cup",
+                            "scale": "normal",
+                            "role": "beverage container"
+                        },
+                        "tennis racket": {
+                            "form": "real sports equipment",
+                            "scale": "normal",
+                            "role": "clutter/prop"
+                        },
+                        "magazine": {
+                            "form": "real printed media",
+                            "scale": "normal",
+                            "role": "reading material"
+                        },
+                        "bathroom sink": {
+                            "form": "real sink",
+                            "scale": "normal",
+                            "role": "background architectural element (open plan or visible through doorway)"
+                        }
+                    }
+                },
+                {
+                    "scene_type": "vacation rental",
+                    "plausibility": 0.85,
+                    "reasoning": "A guest's belongings scattered in a shared living space. A turkey (perhaps a prop or centerpiece) sits on a table. A coffee cup is on a coaster. A tennis racket leans against a couch. A magazine is on the coffee table. The bathroom sink is visible in the background of an open-plan apartment.",
+                    "object_interpretations": {
+                        "turkey": {
+                            "form": "decorative ceramic or prop",
+                            "scale": "normal",
+                            "role": "decoration"
+                        },
+                        "coffee cup": {
+                            "form": "real ceramic cup",
+                            "scale": "normal",
+                            "role": "beverage container"
+                        },
+                        "tennis racket": {
+                            "form": "real sports equipment",
+                            "scale": "normal",
+                            "role": "sports gear"
+                        },
+                        "magazine": {
+                            "form": "real printed media",
+                            "scale": "normal",
+                            "role": "reading material"
+                        },
+                        "bathroom sink": {
+                            "form": "real sink",
+                            "scale": "normal",
+                            "role": "background fixture"
+                        }
+                    }
+                },
+                {
+                    "scene_type": "art studio",
+                    "plausibility": 0.75,
+                    "reasoning": "An artist's studio filled with still life props. A taxidermy turkey or a frozen raw turkey sits on a table for a painting. A coffee cup is the artist's drink. A tennis racket is a prop for composition. A magazine provides reference images. A bathroom sink might be in the corner for cleaning brushes.",
+                    "object_interpretations": {
+                        "turkey": {
+                            "form": "taxidermy or raw bird",
+                            "scale": "normal",
+                            "role": "still life subject"
+                        },
+                        "coffee cup": {
+                            "form": "real ceramic cup",
+                            "scale": "normal",
+                            "role": "artist's beverage"
+                        },
+                        "tennis racket": {
+                            "form": "real sports equipment",
+                            "scale": "normal",
+                            "role": "prop"
+                        },
+                        "magazine": {
+                            "form": "real printed media",
+                            "scale": "normal",
+                            "role": "reference material"
+                        },
+                        "bathroom sink": {
+                            "form": "real sink",
+                            "scale": "normal",
+                            "role": "utility fixture"
+                        }
+                    }
+                },
+                {
+                    "scene_type": "vintage novelty shop",
+                    "plausibility": 0.8,
+                    "reasoning": "A cluttered antique store where items are stacked everywhere. A ceramic turkey figurine sits on a shelf. A vintage coffee cup is nearby. An old tennis racket hangs on the wall. A magazine is part of a pile of old papers. A bathroom sink might be a display piece or part of the shop's restroom visible through a door.",
+                    "object_interpretations": {
+                        "turkey": {
+                            "form": "ceramic figurine",
+                            "scale": "small/medium",
+                            "role": "decoration for sale"
+                        },
+                        "coffee cup": {
+                            "form": "vintage cup",
+                            "scale": "normal",
+                            "role": "antique item"
+                        },
+                        "tennis racket": {
+                            "form": "vintage equipment",
+                            "scale": "normal",
+                            "role": "wall decoration"
+                        },
+                        "magazine": {
+                            "form": "old magazine",
+                            "scale": "normal",
+                            "role": "collectible"
+                        },
+                        "bathroom sink": {
+                            "form": "vintage pedestal sink",
+                            "scale": "normal",
+                            "role": "display furniture or shop fixture"
+                        }
+                    }
+                },
+                {
+                    "scene_type": "family dining room",
+                    "plausibility": 0.85,
+                    "reasoning": "A family gathering before or after a meal. The turkey is on the dining table. A coffee cup is at a place setting. A tennis racket (belonging to a child) is left on a chair. A magazine is on a side table. The dining room is adjacent to a hallway where the bathroom sink is visible.",
+                    "object_interpretations": {
+                        "turkey": {
+                            "form": "real roasted bird",
+                            "scale": "normal",
+                            "role": "main course"
+                        },
+                        "coffee cup": {
+                            "form": "real ceramic cup",
+                            "scale": "normal",
+                            "role": "beverage"
+                        },
+                        "tennis racket": {
+                            "form": "real sports equipment",
+                            "scale": "normal",
+                            "role": "clutter"
+                        },
+                        "magazine": {
+                            "form": "real printed media",
+                            "scale": "normal",
+                            "role": "reading material"
+                        },
+                        "bathroom sink": {
+                            "form": "real sink",
+                            "scale": "normal",
+                            "role": "background element"
+                        }
+                    },
+                    "scene_brief": "A family dining room centered around turkey, with coffee cup, tennis racket, magazine, and bathroom sink in the background"
+                },
+                {
+                    "scene_type": "impromptu picnic",
+                    "plausibility": 0.7,
+                    "reasoning": "A picnic setup in a living room or sunroom (bad weather). A turkey sandwich or platter is on a blanket. A coffee cup is on a coaster. A tennis racket is nearby as gear. A magazine is being read. A bathroom sink is visible in the background (indoor setting).",
+                    "object_interpretations": {
+                        "turkey": {
+                            "form": "sandwich or deli meat",
+                            "scale": "normal",
+                            "role": "food"
+                        },
+                        "coffee cup": {
+                            "form": "real cup",
+                            "scale": "normal",
+                            "role": "beverage"
+                        },
+                        "tennis racket": {
+                            "form": "real equipment",
+                            "scale": "normal",
+                            "role": "gear"
+                        },
+                        "magazine": {
+                            "form": "real media",
+                            "scale": "normal",
+                            "role": "entertainment"
+                        },
+                        "bathroom sink": {
+                            "form": "real sink",
+                            "scale": "normal",
+                            "role": "indoor background"
+                        }
+                    }
+                },
+                {
+                    "scene_type": "bedroom",
+                    "plausibility": 0.65,
+                    "reasoning": "A messy bedroom. A turkey decoration (maybe a pillow or figurine) is on the bed. A coffee cup is on the nightstand. A tennis racket is on the floor. A magazine is on the bed. The bathroom sink is in the ensuite, visible.",
+                    "object_interpretations": {
+                        "turkey": {
+                            "form": "pillow or figurine",
+                            "scale": "normal",
+                            "role": "decoration"
+                        },
+                        "coffee cup": {
+                            "form": "real cup",
+                            "scale": "normal",
+                            "role": "beverage"
+                        },
+                        "tennis racket": {
+                            "form": "real equipment",
+                            "scale": "normal",
+                            "role": "clutter"
+                        },
+                        "magazine": {
+                            "form": "real media",
+                            "scale": "normal",
+                            "role": "reading material"
+                        },
+                        "bathroom sink": {
+                            "form": "real sink",
+                            "scale": "normal",
+                            "role": "ensuite fixture"
+                        }
+                    }
+                },
+                {
+                    "scene_type": "surreal dream",
+                    "plausibility": 0.95,
+                    "reasoning": "A dream logic scene where a giant turkey sits at a desk. A coffee cup floats. A tennis racket plays music. A magazine reads itself. A bathroom sink is in the middle of the room. Impressionism enhances the dreamlike quality.",
+                    "object_interpretations": {
+                        "turkey": {
+                            "form": "surreal giant bird",
+                            "scale": "large",
+                            "role": "dream figure"
+                        },
+                        "coffee cup": {
+                            "form": "floating cup",
+                            "scale": "normal",
+                            "role": "surreal element"
+                        },
+                        "tennis racket": {
+                            "form": "musical instrument",
+                            "scale": "normal",
+                            "role": "surreal prop"
+                        },
+                        "magazine": {
+                            "form": "living object",
+                            "scale": "normal",
+                            "role": "surreal prop"
+                        },
+                        "bathroom sink": {
+                            "form": "real sink",
+                            "scale": "normal",
+                            "role": "surreal placement"
+                        }
+                    }
+                }
+            ],
+            "selected_scene": {
+                "scene_type": "family dining room",
+                "plausibility": 0.85,
+                "reasoning": "A family gathering before or after a meal. The turkey is on the dining table. A coffee cup is at a place setting. A tennis racket (belonging to a child) is left on a chair. A magazine is on a side table. The dining room is adjacent to a hallway where the bathroom sink is visible.",
+                "object_interpretations": {
+                    "turkey": {
+                        "form": "real roasted bird",
+                        "scale": "normal",
+                        "role": "main course"
+                    },
+                    "coffee cup": {
+                        "form": "real ceramic cup",
+                        "scale": "normal",
+                        "role": "beverage"
+                    },
+                    "tennis racket": {
+                        "form": "real sports equipment",
+                        "scale": "normal",
+                        "role": "clutter"
+                    },
+                    "magazine": {
+                        "form": "real printed media",
+                        "scale": "normal",
+                        "role": "reading material"
+                    },
+                    "bathroom sink": {
+                        "form": "real sink",
+                        "scale": "normal",
+                        "role": "background element"
+                    }
+                },
+                "scene_brief": "A family dining room centered around turkey, with coffee cup, tennis racket, magazine, and bathroom sink in the background"
+            }
+        }
+    },
+    "final_prompts": {
+        "main_prompt": "A Impressionism painting depicting a bright and cheerful afternoon scene with mixed soft lighting. In the foreground, a freshly roasted, golden-brown turkey sits atop a cream-colored coffee cup with freshly poured coffee. Beside the coffee cup rests a well-used tennis racket with silver frame and vibrant green strings. Next to the tennis racket lies an open magazine with saturated red and bright yellow pages. In the background, a cool white bathroom sink with silver fixtures stands behind the coffee cup, its porcelain and chrome surfaces damp with scattered water droplets. The composition creates a gentle, active atmosphere through loose brushstrokes and vibrant color interplay between the warm food tones and cool ceramic surfaces.",
+        "negative_prompt": "photorealistic, 3d render, modern, digital art, photograph, low quality, blurry, distorted, surreal, abstract, dark, gloomy, monochrome, text, watermark, signature, frame, border",
+        "prompt_formats": {
+            "simple": "An Impressionist painting of a turkey on a coffee cup with tennis racket, magazine, and bathroom sink in a cheerful afternoon setting.",
+            "complex": "A Impressionism painting depicting a bright and cheerful afternoon scene with mixed soft lighting. In the foreground, a freshly roasted, golden-brown turkey sits atop a cream-colored coffee cup with freshly poured coffee. Beside the coffee cup rests a well-used tennis racket with silver frame and vibrant green strings. Next to the tennis racket lies an open magazine with saturated red and bright yellow pages. In the background, a cool white bathroom sink with silver fixtures stands behind the coffee cup, its porcelain and chrome surfaces damp with scattered water droplets. The composition creates a gentle, active atmosphere through loose brushstrokes and vibrant color interplay between the warm food tones and cool ceramic surfaces.",
+            "comma_separated": "Impressionism painting, golden-brown turkey on cream coffee cup, silver and green tennis racket beside cup, red and yellow open magazine beside racket, white and silver bathroom sink behind cup, afternoon lighting, soft mixed light, bright cheerful atmosphere, loose brushstrokes, vibrant colors, food and ceramic textures",
+            "tags": "art, painting, impressionism, still life, turkey, coffee cup, tennis racket, magazine, bathroom sink, afternoon light, cheerful, vibrant colors, loose brushwork, Claude Monet style, Pierre-Auguste Renoir influence"
+        }
+    }
+}

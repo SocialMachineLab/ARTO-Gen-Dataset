@@ -1,0 +1,340 @@
+{
+    "artwork_id": "artwork_20260103_033324_648",
+    "generation_timestamp": "2026-01-03T03:34:13.726636",
+    "style": "Post-Impressionism",
+    "objects": {
+        "object_ids": [
+            16,
+            14,
+            18,
+            50
+        ],
+        "object_names": [
+            "cat",
+            "church bench",
+            "horse",
+            "lemon"
+        ],
+        "enhanced_objects": [
+            {
+                "object_id": 16,
+                "name": "cat",
+                "artistic_description": "A sleek feline form rendered in bold, flattened planes of color, its fur catching the muted afternoon light filtering through cloudy skies. The coat displays rich, saturated patches of amber and deep charcoal, with visible brushstrokes creating texture. Whiskers and eyes are defined with strong dark outlines, the gaze luminous and slightly stylized. Soft shadows pool beneath its form, rendered in cool blue-gray tones that contrast with the warm fur.",
+                "size": "Medium",
+                "state": "Alert and poised, with fur appearing clean but animated by visible texture marks",
+                "primary_colors": [
+                    "warm amber",
+                    "deep charcoal"
+                ],
+                "material": "fur and living tissue"
+            },
+            {
+                "object_id": 14,
+                "name": "church bench",
+                "artistic_description": "A weathered wooden bench with visible grain patterns emphasized through deliberate, angular brushwork. The wood appears dry and matte, absorbing the cool, diffused light rather than reflecting it. Edges are softened with subtle scumbling, suggesting age and use. The surface shows patches of lighter, worn wood where hands have rested, contrasted against darker, untouched areas. Shadows are rendered as flat, violet-gray shapes beneath the seat.",
+                "size": "Large",
+                "state": "Well-worn but sturdy, showing signs of contemporary use with smoothed edges",
+                "primary_colors": [
+                    "weathered honey-brown",
+                    "cool gray-violet"
+                ],
+                "material": "aged wood"
+            },
+            {
+                "object_id": 18,
+                "name": "horse",
+                "artistic_description": "A toy horse rendered with charming simplicity, its form defined by clean contours and saturated, unmodulated color areas. The glossy plastic surface catches and diffuses the cloudy daylight, creating small highlights of pure white against the vibrant red body. The mane and tail are painted in thick, impasto strokes of bright yellow, standing out dramatically against the subdued environment. Its small scale is emphasized by the boldness of its colors.",
+                "size": "Small",
+                "state": "Playful and pristine, with bright colors that pop against the muted background",
+                "primary_colors": [
+                    "vibrant red",
+                    "bright yellow"
+                ],
+                "material": "glossy plastic"
+            },
+            {
+                "object_id": 50,
+                "name": "lemon",
+                "artistic_description": "A single lemon rendered with intense, almost electric yellow that dominates its small form. The peel appears textured with visible thick dabs of paint suggesting its dimpled surface. Under the cool, diffused light, the color maintains its saturation while subtle greenish undertones emerge near the stem. A small patch of reflected light appears as a sharp white highlight, giving the fruit a waxy, realistic sheen despite the stylized treatment.",
+                "size": "Marginal",
+                "state": "Fresh and vibrant, with a slight sheen from natural oils",
+                "primary_colors": [
+                    "intense yellow",
+                    "pale green"
+                ],
+                "material": "waxy fruit peel"
+            }
+        ]
+    },
+    "composition": {
+        "spatial_relations": [
+            [
+                16,
+                "next to",
+                14
+            ],
+            [
+                18,
+                "on",
+                14
+            ],
+            [
+                50,
+                "next to",
+                18
+            ]
+        ],
+        "semantic_relations": []
+    },
+    "environment": {
+        "environment_details": {
+            "scene_brief": "A surreal dreamscape featuring cat, with church bench, toy horse, and lemon",
+            "place365_name": "/l/living_room",
+            "place365_id": 215,
+            "time_of_day": "afternoon",
+            "weather": "cloudy",
+            "period": "Contemporary",
+            "is_indoor": true,
+            "lighting": {
+                "type": "natural",
+                "quality": "soft",
+                "direction": "side-lit",
+                "mood": "warm",
+                "reasoning": "Natural light from a window (side-lit) filtered through clouds provides soft, even illumination with a warm tone from the afternoon sun. This lighting reduces harsh contrasts, emphasizes textures and colors (vital for Post-Impressionism), and casts subtle shadows that enhance the dreamlike, three-dimensional feel of the surreal objects without overwhelming the composition."
+            },
+            "atmosphere": "bright and active and subdued and gentle"
+        },
+        "scene_inference": {
+            "all_candidates": [
+                {
+                    "scene_type": "rural village church",
+                    "plausibility": 0.85,
+                    "reasoning": "A cat can wander into a small rural church. A church bench is the primary furniture. A horse might be tied outside the open door, visible through the doorway. A lemon could be on the bench as part of a parishioner's forgotten lunch or a still-life offering.",
+                    "object_interpretations": {
+                        "cat": {
+                            "form": "real animal",
+                            "scale": "normal",
+                            "role": "wandering visitor"
+                        },
+                        "church bench": {
+                            "form": "real furniture",
+                            "scale": "full-size",
+                            "role": "structural element"
+                        },
+                        "horse": {
+                            "form": "real animal",
+                            "scale": "normal",
+                            "role": "distant background element"
+                        },
+                        "lemon": {
+                            "form": "real fruit",
+                            "scale": "normal",
+                            "role": "foreground detail"
+                        }
+                    }
+                },
+                {
+                    "scene_type": "country stable",
+                    "plausibility": 0.8,
+                    "reasoning": "A stable is a natural habitat for a horse. A cat often lives in stables to hunt mice. A church bench would be an unusual but possible piece of antique furniture used as a storage shelf or seating in the tack room. A lemon might be sitting on the bench as horse feed supplement or a worker's snack.",
+                    "object_interpretations": {
+                        "cat": {
+                            "form": "real animal",
+                            "scale": "normal",
+                            "role": "stable mouser"
+                        },
+                        "church bench": {
+                            "form": "real furniture",
+                            "scale": "full-size",
+                            "role": "rustic seating/storage"
+                        },
+                        "horse": {
+                            "form": "real animal",
+                            "scale": "normal",
+                            "role": "primary resident"
+                        },
+                        "lemon": {
+                            "form": "real fruit",
+                            "scale": "normal",
+                            "role": "object on bench"
+                        }
+                    }
+                },
+                {
+                    "scene_type": "vintage curiosity shop",
+                    "plausibility": 0.9,
+                    "reasoning": "A cluttered antique shop can hold anything. The church bench is a large item for sale. A horse figurine sits on the bench. A real cat sleeps on the bench. A lemon is part of a displayed still-life painting or a bowl of fruit on the bench.",
+                    "object_interpretations": {
+                        "cat": {
+                            "form": "real animal",
+                            "scale": "normal",
+                            "role": "shop pet sleeping"
+                        },
+                        "church bench": {
+                            "form": "real furniture",
+                            "scale": "full-size",
+                            "role": "display platform"
+                        },
+                        "horse": {
+                            "form": "toy/model",
+                            "scale": "miniature",
+                            "role": "decorative item"
+                        },
+                        "lemon": {
+                            "form": "real fruit",
+                            "scale": "normal",
+                            "role": "decorative prop"
+                        }
+                    }
+                },
+                {
+                    "scene_type": "art studio",
+                    "plausibility": 0.85,
+                    "reasoning": "An artist's studio filled with props. A church bench is a set piece. A horse skull or model serves as a drawing reference. The artist's cat sits on the bench. A lemon is part of a still-life arrangement on the bench.",
+                    "object_interpretations": {
+                        "cat": {
+                            "form": "real animal",
+                            "scale": "normal",
+                            "role": "studio companion"
+                        },
+                        "church bench": {
+                            "form": "real furniture",
+                            "scale": "full-size",
+                            "role": "set prop"
+                        },
+                        "horse": {
+                            "form": "model/skull",
+                            "scale": "miniature/medium",
+                            "role": "art reference"
+                        },
+                        "lemon": {
+                            "form": "real fruit",
+                            "scale": "normal",
+                            "role": "still-life subject"
+                        }
+                    }
+                },
+                {
+                    "scene_type": "surreal dreamscape",
+                    "plausibility": 0.75,
+                    "reasoning": "In a Post-Impressionist/Surreal style, logic bends. A giant cat sits on a floating church bench. A tiny horse gallops along the bench's backrest. A lemon the size of a sun hangs in the sky.",
+                    "object_interpretations": {
+                        "cat": {
+                            "form": "real animal",
+                            "scale": "giant",
+                            "role": "dream figure"
+                        },
+                        "church bench": {
+                            "form": "real furniture",
+                            "scale": "large",
+                            "role": "floating platform"
+                        },
+                        "horse": {
+                            "form": "real animal",
+                            "scale": "miniature",
+                            "role": "whimsical detail"
+                        },
+                        "lemon": {
+                            "form": "real fruit",
+                            "scale": "giant",
+                            "role": "surreal celestial body"
+                        }
+                    },
+                    "scene_brief": "A surreal dreamscape featuring cat, with church bench, toy horse, and lemon"
+                },
+                {
+                    "scene_type": "garden courtyard",
+                    "plausibility": 0.8,
+                    "reasoning": "An outdoor setting. A salvaged church bench sits under a tree. A cat lounges on it. A horse is in a nearby paddock. A lemon tree grows nearby, with fruit dropping onto the bench.",
+                    "object_interpretations": {
+                        "cat": {
+                            "form": "real animal",
+                            "scale": "normal",
+                            "role": "sunbather"
+                        },
+                        "church bench": {
+                            "form": "real furniture",
+                            "scale": "full-size",
+                            "role": "outdoor seating"
+                        },
+                        "horse": {
+                            "form": "real animal",
+                            "scale": "normal",
+                            "role": "background animal"
+                        },
+                        "lemon": {
+                            "form": "real fruit",
+                            "scale": "normal",
+                            "role": "fallen fruit"
+                        }
+                    }
+                },
+                {
+                    "scene_type": "veterinary clinic waiting room",
+                    "plausibility": 0.85,
+                    "reasoning": "A waiting room with mismatched antique furniture. A church bench serves as seating. A cat is in a carrier waiting. A horse model is on a shelf as decoration. A lemon is on a magazine table.",
+                    "object_interpretations": {
+                        "cat": {
+                            "form": "real animal",
+                            "scale": "normal",
+                            "role": "patient"
+                        },
+                        "church bench": {
+                            "form": "real furniture",
+                            "scale": "full-size",
+                            "role": "seating"
+                        },
+                        "horse": {
+                            "form": "toy/model",
+                            "scale": "miniature",
+                            "role": "decoration"
+                        },
+                        "lemon": {
+                            "form": "real fruit",
+                            "scale": "normal",
+                            "role": "still life object"
+                        }
+                    }
+                }
+            ],
+            "selected_scene": {
+                "scene_type": "surreal dreamscape",
+                "plausibility": 0.75,
+                "reasoning": "In a Post-Impressionist/Surreal style, logic bends. A giant cat sits on a floating church bench. A tiny horse gallops along the bench's backrest. A lemon the size of a sun hangs in the sky.",
+                "object_interpretations": {
+                    "cat": {
+                        "form": "real animal",
+                        "scale": "giant",
+                        "role": "dream figure"
+                    },
+                    "church bench": {
+                        "form": "real furniture",
+                        "scale": "large",
+                        "role": "floating platform"
+                    },
+                    "horse": {
+                        "form": "real animal",
+                        "scale": "miniature",
+                        "role": "whimsical detail"
+                    },
+                    "lemon": {
+                        "form": "real fruit",
+                        "scale": "giant",
+                        "role": "surreal celestial body"
+                    }
+                },
+                "scene_brief": "A surreal dreamscape featuring cat, with church bench, toy horse, and lemon"
+            }
+        }
+    },
+    "final_prompts": {
+        "main_prompt": "A Post-Impressionism painting depicting a bright and active yet subdued and gentle afternoon scene. In the foreground, a large, weathered honey-brown and cool gray-violet church bench stands sturdy and well-worn. Atop this bench sits a small, playful and pristine horse rendered in vibrant red and bright yellow glossy plastic-like textures. Beside the horse rests a fresh and vibrant lemon with intense yellow and pale green waxy peel. Next to the church bench, a medium-sized cat with warm amber and deep charcoal fur sits alert and poised, its living tissue and fur textures contrasting with the aged wood of the bench. The natural soft afternoon light filters through the scene, creating a gentle atmosphere with visible brushstrokes and expressive color application characteristic of Post-Impressionism.",
+        "negative_prompt": "photorealistic, 3d render, modern, digital art, photograph, low quality, blurry, distorted, ugly, deformed, watermark, signature, text, frame, border, cartoon, anime, hyperrealistic, symmetrical, perfect symmetry",
+        "prompt_formats": {
+            "simple": "A Post-Impressionism painting of a cat beside a church bench with a horse and lemon on it during a gentle afternoon.",
+            "complex": "A Post-Impressionism painting depicting a bright and active yet subdued and gentle afternoon scene. In the foreground, a large, weathered honey-brown and cool gray-violet church bench stands sturdy and well-worn. Atop this bench sits a small, playful and pristine horse rendered in vibrant red and bright yellow glossy plastic-like textures. Beside the horse rests a fresh and vibrant lemon with intense yellow and pale green waxy peel. Next to the church bench, a medium-sized cat with warm amber and deep charcoal fur sits alert and poised, its living tissue and fur textures contrasting with the aged wood of the bench. The natural soft afternoon light filters through the scene, creating a gentle atmosphere with visible brushstrokes and expressive color application characteristic of Post-Impressionism.",
+            "comma_separated": "Post-Impressionism painting, cat next to church bench, horse on bench, lemon beside horse, afternoon lighting, natural soft light, bright active subdued gentle atmosphere, warm amber deep charcoal cat, weathered honey-brown cool gray-violet bench, vibrant red bright yellow horse, intense yellow pale green lemon, visible brushstrokes, expressive colors",
+            "tags": "art, painting, post-impressionism, van gogh style, expressive brushwork, color theory, afternoon scene, animal painting, still life elements, textured surface, artistic composition"
+        }
+    }
+}

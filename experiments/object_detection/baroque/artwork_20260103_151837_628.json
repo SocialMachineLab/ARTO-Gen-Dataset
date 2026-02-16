@@ -1,0 +1,167 @@
+{
+    "artwork_id": "artwork_20260103_151837_628",
+    "generation_timestamp": "2026-01-03T15:19:08.697796",
+    "style": "Baroque",
+    "objects": {
+        "object_ids": [
+            18,
+            72,
+            43
+        ],
+        "object_names": [
+            "horse",
+            "kitchen sink",
+            "fork"
+        ],
+        "enhanced_objects": [
+            {
+                "object_id": 18,
+                "name": "horse",
+                "artistic_description": "A majestic steed rendered with Baroque dynamism, its muscular form catching the morning sun through nearby windows, creating dramatic chiaroscuro across its powerful shoulders and flanks. The coat gleams with a warm chestnut luster, each hair catching the golden light, while deeper shadows pool in the crevices of its musculature. Its mane and tail flow like dark silk, catching highlights of amber and bronze. The eyes sparkle with life, reflecting the bright morning atmosphere. The surface appears healthy and well-groomed, with a natural sheen that speaks to noble breeding, the morning light emphasizing the sculptural quality of its form.",
+                "size": "Dominant",
+                "state": "vigorous and alert, coat gleaming with health",
+                "primary_colors": [
+                    "warm chestnut brown",
+                    "deep amber"
+                ],
+                "material": "living flesh and hair"
+            },
+            {
+                "object_id": 72,
+                "name": "kitchen sink",
+                "artistic_description": "A miniature porcelain sink rendered with Baroque attention to material splendor, its white ceramic surface catching the bright morning light with a crisp, luminous quality. The basin reflects the cheerful atmosphere with subtle highlights along its curved edges, while the chrome faucet gleams with mirror-like brilliance, throwing sharp reflections of the sunlit room. Morning light dances across the wet-appearing surface, creating small pools of brilliance and shadow that emphasize the smooth, cold materiality. The porcelain shows a delicate translucence at its edges, and the overall effect is one of pristine freshness against the energetic lighting.",
+                "size": "Small",
+                "state": "pristine and gleaming, freshly clean",
+                "primary_colors": [
+                    "brilliant white",
+                    "chrome silver"
+                ],
+                "material": "porcelain and metal"
+            },
+            {
+                "object_id": 43,
+                "name": "fork",
+                "artistic_description": "A delicate toy fork rendered with Baroque miniature precision, its tines catching the morning sun with sharp, crystalline highlights that sparkle against the bright interior. The metallic surface gleams with a cool silver tone, yet the warm morning light infuses it with subtle golden reflections along its edges. Each prong throws a tiny, crisp shadow onto the surrounding surface, creating a lacework of light and dark. The polished metal reflects distorted glimpses of the cheerful room, and the overall appearance is one of refined utility catching the fresh, energetic light with brilliant flashes.",
+                "size": "Marginal",
+                "state": "polished and bright, catching light",
+                "primary_colors": [
+                    "silver",
+                    "warm gold highlights"
+                ],
+                "material": "metal"
+            }
+        ]
+    },
+    "composition": {
+        "spatial_relations": [
+            [
+                72,
+                "next to",
+                43
+            ],
+            [
+                72,
+                "in front of",
+                18
+            ],
+            [
+                43,
+                "in front of",
+                18
+            ]
+        ],
+        "semantic_relations": [
+            [
+                18,
+                "looking at",
+                72
+            ],
+            [
+                18,
+                "looking at",
+                43
+            ]
+        ]
+    },
+    "environment": {
+        "environment_details": {
+            "scene_brief": "A artistic composition featuring horse centered around horse, with toy kitchen sink, and toy fork",
+            "place365_name": "/k/kitchen",
+            "place365_id": 203,
+            "time_of_day": "morning",
+            "weather": "sunny",
+            "period": "Early modern",
+            "is_indoor": true,
+            "lighting": {
+                "type": "natural",
+                "quality": "harsh",
+                "direction": "side-lit",
+                "mood": "warm",
+                "reasoning": "Combining 'morning' time and 'sunny' weather results in natural lighting. The sun is low enough to cast harsh, warm rays across the scene from the side, creating deep shadows and high contrast essential for the Baroque drama."
+            },
+            "atmosphere": "fresh and energetic and cheerful"
+        },
+        "scene_inference": {
+            "all_candidates": [
+                {
+                    "scene_type": "artistic composition featuring horse",
+                    "plausibility": 0.7,
+                    "reasoning": "Default scene based on main variety 'horse'",
+                    "object_interpretations": {
+                        "horse": {
+                            "form": "primary object",
+                            "scale": "normal",
+                            "role": "primary"
+                        },
+                        "kitchen sink": {
+                            "form": "adapted to scene",
+                            "scale": "normal or miniature",
+                            "role": "secondary"
+                        },
+                        "fork": {
+                            "form": "adapted to scene",
+                            "scale": "normal or miniature",
+                            "role": "secondary"
+                        }
+                    },
+                    "fallback": true,
+                    "scene_brief": "A artistic composition featuring horse centered around horse, with toy kitchen sink, and toy fork"
+                }
+            ],
+            "selected_scene": {
+                "scene_type": "artistic composition featuring horse",
+                "plausibility": 0.7,
+                "reasoning": "Default scene based on main variety 'horse'",
+                "object_interpretations": {
+                    "horse": {
+                        "form": "primary object",
+                        "scale": "normal",
+                        "role": "primary"
+                    },
+                    "kitchen sink": {
+                        "form": "adapted to scene",
+                        "scale": "normal or miniature",
+                        "role": "secondary"
+                    },
+                    "fork": {
+                        "form": "adapted to scene",
+                        "scale": "normal or miniature",
+                        "role": "secondary"
+                    }
+                },
+                "fallback": true,
+                "scene_brief": "A artistic composition featuring horse centered around horse, with toy kitchen sink, and toy fork"
+            }
+        }
+    },
+    "final_prompts": {
+        "main_prompt": "A Baroque painting depicting a vigorous and alert warm chestnut brown horse with deep amber tones standing proudly in a sun-drenched morning courtyard. In front of the dominant horse, a small, pristine and gleaming kitchen sink of brilliant white porcelain with chrome silver fixtures sits upon a stone pedestal. Beside the sink, a marginal yet polished and bright silver fork with warm gold highlights rests on the sink's edge, catching the harsh natural morning light. The spatial arrangement places the kitchen sink directly in front of the horse, with the fork positioned next to the sink, also in front of the horse, creating a dynamic triangular composition. The atmosphere is fresh, energetic, and cheerful, with dramatic chiaroscuro lighting casting deep shadows and brilliant highlights across the living flesh and hair of the horse, the smooth porcelain and metal of the sink, and the reflective metal of the fork, all set within an ornate, classical architectural environment.",
+        "negative_prompt": "photorealistic, 3d render, modern, digital art, photograph, low quality, blurry, distorted, ugly, deformed, cartoon, anime, sketch, watermark, signature, text, frame, border, out of frame, extra limbs, bad anatomy, mutated, disfigured",
+        "prompt_formats": {
+            "simple": "A Baroque painting of a chestnut horse with a kitchen sink and fork in front of it in a cheerful morning courtyard.",
+            "complex": "A Baroque painting depicting a vigorous and alert warm chestnut brown horse with deep amber tones standing proudly in a sun-drenched morning courtyard. In front of the dominant horse, a small, pristine and gleaming kitchen sink of brilliant white porcelain with chrome silver fixtures sits upon a stone pedestal. Beside the sink, a marginal yet polished and bright silver fork with warm gold highlights rests on the sink's edge, catching the harsh natural morning light. The spatial arrangement places the kitchen sink directly in front of the horse, with the fork positioned next to the sink, also in front of the horse, creating a dynamic triangular composition. The atmosphere is fresh, energetic, and cheerful, with dramatic chiaroscuro lighting casting deep shadows and brilliant highlights across the living flesh and hair of the horse, the smooth porcelain and metal of the sink, and the reflective metal of the fork, all set within an ornate, classical architectural environment.",
+            "comma_separated": "Baroque painting, horse, kitchen sink, fork, warm chestnut brown, brilliant white porcelain, chrome silver, silver fork with gold highlights, morning lighting, harsh natural light, fresh energetic cheerful atmosphere, chiaroscuro, classical courtyard, dramatic shadows, ornate architecture",
+            "tags": "art, painting, Baroque, horse, kitchen sink, fork, still life, animal portrait, chiaroscuro, morning light, classical, energetic, cheerful, dynamic composition"
+        }
+    }
+}

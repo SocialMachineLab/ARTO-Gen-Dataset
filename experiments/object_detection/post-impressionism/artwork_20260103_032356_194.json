@@ -1,0 +1,291 @@
+{
+    "artwork_id": "artwork_20260103_032356_194",
+    "generation_timestamp": "2026-01-03T03:24:37.976009",
+    "style": "Post-Impressionism",
+    "objects": {
+        "object_ids": [
+            18,
+            58,
+            14
+        ],
+        "object_names": [
+            "horse",
+            "couch",
+            "church bench"
+        ],
+        "enhanced_objects": [
+            {
+                "object_id": 18,
+                "name": "horse",
+                "artistic_description": "A sculpted horse rendered in bold, sculptural forms with thick, visible brushstrokes in the mane. Sunlight from high windows creates sharp, angular shadows across its muscular flanks, while the bright interior light intensifies the contrast between warm chestnut highlights and deep umber recesses. The surface appears dry and matte, with light-absorbing textures that emphasize the solidity of the form against the cheerful atmosphere.",
+                "size": "Large",
+                "state": "static, sculpted form",
+                "primary_colors": [
+                    "chestnut brown",
+                    "golden ochre"
+                ],
+                "material": "bronze"
+            },
+            {
+                "object_id": 58,
+                "name": "couch",
+                "artistic_description": "A plush couch bathed in the warm glow of afternoon sunlight streaming through windows, casting elongated, soft-edged shadows across its cushions. The fabric catches the light with a gentle sheen, its surface alive with visible dabs of paint in vibrant teal and deep indigo, creating a rhythmic pattern that vibrates against the bright, airy room. The cheerful atmosphere is reflected in the saturated, jewel-toned colors that seem to hum with energy.",
+                "size": "Large",
+                "state": "upholstered, slightly worn",
+                "primary_colors": [
+                    "teal",
+                    "indigo"
+                ],
+                "material": "velvet"
+            },
+            {
+                "object_id": 14,
+                "name": "church bench",
+                "artistic_description": "A dark wooden bench, its surface weathered and dry, absorbing the bright interior light rather than reflecting it. The natural illumination reveals the grain of the wood through thick, textured strokes of deep walnut and muted violet, suggesting age and history within the contemporary setting. The form is solid and angular, with sharp, defined edges cast in strong relief by the cheerful, directional lighting.",
+                "size": "Medium",
+                "state": "aged, polished wood",
+                "primary_colors": [
+                    "deep walnut",
+                    "muted violet"
+                ],
+                "material": "wood"
+            }
+        ]
+    },
+    "composition": {
+        "spatial_relations": [
+            [
+                18,
+                "next to",
+                58
+            ],
+            [
+                14,
+                "behind",
+                58
+            ],
+            [
+                58,
+                "next to",
+                14
+            ],
+            [
+                58,
+                "in front of",
+                14
+            ]
+        ],
+        "semantic_relations": []
+    },
+    "environment": {
+        "environment_details": {
+            "scene_brief": "A museum of eclectic artifacts featuring horse, with couch, and church bench",
+            "place365_name": "/m/museum/indoor",
+            "place365_id": 236,
+            "time_of_day": "afternoon",
+            "weather": "sunny",
+            "period": "Contemporary",
+            "is_indoor": true,
+            "lighting": {
+                "type": "natural",
+                "quality": "harsh",
+                "direction": "side-lit",
+                "mood": "warm",
+                "reasoning": "Combining 'afternoon' time and 'sunny' weather results in strong natural light entering the museum. 'Side-lit' is chosen to cast long, defining shadows across the floor and objects (couch, bench, horse), emphasizing their volume and the eclectic arrangement. 'Harsh' light creates the high contrast often seen in Post-Impressionist works, while the 'warm' mood aligns with the afternoon sun."
+            },
+            "atmosphere": "bright and active and cheerful"
+        },
+        "scene_inference": {
+            "all_candidates": [
+                {
+                    "scene_type": "rural village church interior",
+                    "plausibility": 0.85,
+                    "reasoning": "A horse can be seen through the open church doors or in an adjacent stable visible from the nave. The church bench is a primary element of the interior. A couch could be in a side chapel, a vicar's vestry, or be a donation waiting to be moved.",
+                    "object_interpretations": {
+                        "horse": {
+                            "form": "real horse",
+                            "scale": "normal",
+                            "role": "secondary element, visible through doorway"
+                        },
+                        "couch": {
+                            "form": "real couch",
+                            "scale": "normal",
+                            "role": "furniture in side room or donation"
+                        },
+                        "church bench": {
+                            "form": "real pew",
+                            "scale": "normal",
+                            "role": "primary architectural element"
+                        }
+                    }
+                },
+                {
+                    "scene_type": "vintage country stable",
+                    "plausibility": 0.9,
+                    "reasoning": "The horse is the central figure. The church bench serves as rustic, unconventional seating or a divider in the stable aisle. The couch is placed in the tack room or as a 'living room' area within the stable complex.",
+                    "object_interpretations": {
+                        "horse": {
+                            "form": "real horse",
+                            "scale": "normal",
+                            "role": "primary subject"
+                        },
+                        "couch": {
+                            "form": "real couch",
+                            "scale": "normal",
+                            "role": "furniture in tack room"
+                        },
+                        "church bench": {
+                            "form": "real pew",
+                            "scale": "normal",
+                            "role": "rustic seating or divider"
+                        }
+                    }
+                },
+                {
+                    "scene_type": "artistic studio interior",
+                    "plausibility": 0.8,
+                    "reasoning": "A painter's studio filled with props. A live horse stands on a platform. A church bench and a couch are arranged as props for a composition, bathed in the Post-Impressionist light.",
+                    "object_interpretations": {
+                        "horse": {
+                            "form": "real horse",
+                            "scale": "normal",
+                            "role": "live model/subject"
+                        },
+                        "couch": {
+                            "form": "real couch",
+                            "scale": "normal",
+                            "role": "studio prop"
+                        },
+                        "church bench": {
+                            "form": "real pew",
+                            "scale": "normal",
+                            "role": "studio prop"
+                        }
+                    }
+                },
+                {
+                    "scene_type": "surreal dream landscape",
+                    "plausibility": 0.75,
+                    "reasoning": "In a Post-Impressionist style, logic is fluid. A horse roams a field where a church bench and a couch sit under the open sky, perhaps under a tree or on a hillside, creating a poetic, dreamlike tableau.",
+                    "object_interpretations": {
+                        "horse": {
+                            "form": "real horse",
+                            "scale": "normal",
+                            "role": "wanderer in the landscape"
+                        },
+                        "couch": {
+                            "form": "real couch",
+                            "scale": "normal",
+                            "role": "outdoor furniture"
+                        },
+                        "church bench": {
+                            "form": "real pew",
+                            "scale": "normal",
+                            "role": "outdoor furniture"
+                        }
+                    }
+                },
+                {
+                    "scene_type": "vintage country home living room",
+                    "plausibility": 0.7,
+                    "reasoning": "A large, open-plan country home. The living area features a couch and a repurposed church bench as seating. A large window or open door reveals a horse in the garden or paddock.",
+                    "object_interpretations": {
+                        "horse": {
+                            "form": "real horse",
+                            "scale": "normal",
+                            "role": "outdoor element visible through window"
+                        },
+                        "couch": {
+                            "form": "real couch",
+                            "scale": "normal",
+                            "role": "living room furniture"
+                        },
+                        "church bench": {
+                            "form": "real pew",
+                            "scale": "normal",
+                            "role": "unconventional living room seating"
+                        }
+                    }
+                },
+                {
+                    "scene_type": "museum of eclectic artifacts",
+                    "plausibility": 0.8,
+                    "reasoning": "A museum hall displaying a mix of items. A taxidermy horse is the centerpiece. A church bench and a couch are displayed as historical artifacts, perhaps with signage describing their origins.",
+                    "object_interpretations": {
+                        "horse": {
+                            "form": "taxidermy horse",
+                            "scale": "normal",
+                            "role": "museum exhibit"
+                        },
+                        "couch": {
+                            "form": "real couch",
+                            "scale": "normal",
+                            "role": "museum exhibit"
+                        },
+                        "church bench": {
+                            "form": "real pew",
+                            "scale": "normal",
+                            "role": "museum exhibit"
+                        }
+                    },
+                    "scene_brief": "A museum of eclectic artifacts featuring horse, with couch, and church bench"
+                },
+                {
+                    "scene_type": "theater stage set",
+                    "plausibility": 0.85,
+                    "reasoning": "A stage set for a play. The backdrop is painted in a Post-Impressionist style. A real horse (or a very realistic prop) is on stage. A couch and a church bench are set pieces for the scene.",
+                    "object_interpretations": {
+                        "horse": {
+                            "form": "real horse or high-quality prop",
+                            "scale": "normal",
+                            "role": "actor/prop"
+                        },
+                        "couch": {
+                            "form": "prop furniture",
+                            "scale": "normal",
+                            "role": "set piece"
+                        },
+                        "church bench": {
+                            "form": "prop furniture",
+                            "scale": "normal",
+                            "role": "set piece"
+                        }
+                    }
+                }
+            ],
+            "selected_scene": {
+                "scene_type": "museum of eclectic artifacts",
+                "plausibility": 0.8,
+                "reasoning": "A museum hall displaying a mix of items. A taxidermy horse is the centerpiece. A church bench and a couch are displayed as historical artifacts, perhaps with signage describing their origins.",
+                "object_interpretations": {
+                    "horse": {
+                        "form": "taxidermy horse",
+                        "scale": "normal",
+                        "role": "museum exhibit"
+                    },
+                    "couch": {
+                        "form": "real couch",
+                        "scale": "normal",
+                        "role": "museum exhibit"
+                    },
+                    "church bench": {
+                        "form": "real pew",
+                        "scale": "normal",
+                        "role": "museum exhibit"
+                    }
+                },
+                "scene_brief": "A museum of eclectic artifacts featuring horse, with couch, and church bench"
+            }
+        }
+    },
+    "final_prompts": {
+        "main_prompt": "A Post-Impressionism painting depicting a bright and cheerful afternoon scene with harsh natural lighting. In the foreground, a large, static chestnut brown horse with golden ochre highlights stands majestically next to a large teal and indigo upholstered couch. Directly behind the couch, positioned in the midground, is a medium-sized, aged church bench in deep walnut wood with muted violet accents, creating a clear spatial relationship where the couch sits in front of the bench. The active atmosphere is conveyed through bold, visible brushstrokes and a vibrant, contrasting color palette of warm browns, cool teals, and rich violets, all bathed in the intense, directional light of late afternoon that casts dramatic shadows and highlights the textures of velvet upholstery, polished wood, and the horse's gleaming coat.",
+        "negative_prompt": "photorealistic, 3d render, modern, digital art, photograph, low quality, blurry, distorted, surreal, abstract, cartoon, anime, sketch, watermark, signature, text, frame, border, ugly, deformed, mutated, disfigured",
+        "prompt_formats": {
+            "simple": "A Post-Impressionist painting of a chestnut horse next to a teal couch in front of a walnut church bench on a bright, cheerful afternoon.",
+            "complex": "A Post-Impressionism painting depicting a bright and cheerful afternoon scene with harsh natural lighting. In the foreground, a large, static chestnut brown horse with golden ochre highlights stands majestically next to a large teal and indigo upholstered couch. Directly behind the couch, positioned in the midground, is a medium-sized, aged church bench in deep walnut wood with muted violet accents, creating a clear spatial relationship where the couch sits in front of the bench. The active atmosphere is conveyed through bold, visible brushstrokes and a vibrant, contrasting color palette of warm browns, cool teals, and rich violets, all bathed in the intense, directional light of late afternoon that casts dramatic shadows and highlights the textures of velvet upholstery, polished wood, and the horse's gleaming coat.",
+            "comma_separated": "Post-Impressionism painting, large chestnut brown horse, golden ochre, static, large teal indigo upholstered couch, medium aged deep walnut church bench, muted violet, horse next to couch, couch in front of bench, harsh natural afternoon lighting, bright active cheerful atmosphere, visible brushstrokes, vibrant colors, dramatic shadows, textured velvet and wood",
+            "tags": "art, painting, post-impressionism, horse, couch, bench, interior, afternoon light, vibrant colors, textured, van gogh style, paul c\u00e9zanne, expressive brushwork"
+        }
+    }
+}

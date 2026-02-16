@@ -1,0 +1,437 @@
+{
+    "artwork_id": "artwork_20260104_145024_896",
+    "generation_timestamp": "2026-01-04T14:51:16.598167",
+    "style": "Baroque",
+    "objects": {
+        "object_ids": [
+            44,
+            54,
+            1,
+            9,
+            45,
+            25
+        ],
+        "object_names": [
+            "knife",
+            "pie",
+            "boy",
+            "canoe",
+            "spoon",
+            "sack"
+        ],
+        "enhanced_objects": [
+            {
+                "object_id": 44,
+                "name": "knife",
+                "artistic_description": "A polished steel blade catching cool, diffused afternoon light through cloud-filtered windows, creating sharp highlights along its honed edge. The handle appears as burnished silver with intricate Baroque scrollwork, its metallic surface reflecting muted gray tones from the overcast sky. A subtle patina suggests age-appropriate wear on the grip.",
+                "size": "Small",
+                "state": "polished and well-maintained with slight tarnish",
+                "primary_colors": [
+                    "cool steel gray",
+                    "silver"
+                ],
+                "material": "metal"
+            },
+            {
+                "object_id": 54,
+                "name": "pie",
+                "artistic_description": "A golden-brown pastry crust glowing with warm, buttery tones despite the cool ambient light, its lattice top glistening with a subtle sheen of reduced juices. The filling peeks through in deep amber and burgundy hues, creating rich color saturation against the pale ceramic dish. Steam rises in delicate wisps, catching the muted light.",
+                "size": "Medium",
+                "state": "freshly baked, still warm",
+                "primary_colors": [
+                    "golden brown",
+                    "amber"
+                ],
+                "material": "pastry"
+            },
+            {
+                "object_id": 1,
+                "name": "boy",
+                "artistic_description": "A youthful face rendered in soft, diffused light that models the features with gentle chiaroscuro. Skin tones carry warm peach undertones balanced by cool shadows from the cloudy daylight. Hair appears as dark chestnut with subtle highlights where light catches individual strands. Eyes catch the ambient gray light with depth and liveliness.",
+                "size": "Medium",
+                "state": "alert and attentive",
+                "primary_colors": [
+                    "peach",
+                    "chestnut"
+                ],
+                "material": "flesh"
+            },
+            {
+                "object_id": 9,
+                "name": "canoe",
+                "artistic_description": "A carved wooden vessel with rich, dark timber that absorbs much of the subdued light, creating deep shadows within its curved form. The wood grain shows as intricate patterns in varying shades of brown and mahogany, its surface matte and weathered. Aged patina appears as subtle silvering where light touches the exterior.",
+                "size": "Large",
+                "state": "weathered and dry",
+                "primary_colors": [
+                    "mahogany",
+                    "dark brown"
+                ],
+                "material": "wood"
+            },
+            {
+                "object_id": 45,
+                "name": "spoon",
+                "artistic_description": "A polished silver spoon catching cool highlights from the cloudy daylight, its concave surface reflecting distorted gray tones from the room. The ornate Baroque handle features raised details that create small shadows, adding texture. The bowl holds a subtle gleam, its metallic surface cool and reflective.",
+                "size": "Small",
+                "state": "polished and reflective",
+                "primary_colors": [
+                    "silver",
+                    "cool gray"
+                ],
+                "material": "metal"
+            },
+            {
+                "object_id": 25,
+                "name": "sack",
+                "artistic_description": "A coarse burlap sack with a matte, fibrous surface that diffuses the ambient light rather than reflecting it. The natural hemp color appears as muted ochre and tan, with darker threads creating a subtle woven pattern. The fabric folds create soft shadows, emphasizing its rough, textured quality.",
+                "size": "Medium",
+                "state": "empty and limp",
+                "primary_colors": [
+                    "ochre",
+                    "tan"
+                ],
+                "material": "burlap"
+            }
+        ]
+    },
+    "composition": {
+        "spatial_relations": [
+            [
+                44,
+                "on",
+                54
+            ],
+            [
+                45,
+                "on",
+                54
+            ],
+            [
+                1,
+                "at",
+                54
+            ],
+            [
+                25,
+                "next to",
+                9
+            ],
+            [
+                9,
+                "on",
+                25
+            ]
+        ],
+        "semantic_relations": [
+            [
+                1,
+                "eating",
+                54
+            ],
+            [
+                1,
+                "using",
+                44
+            ],
+            [
+                1,
+                "using",
+                45
+            ]
+        ]
+    },
+    "environment": {
+        "environment_details": {
+            "scene_brief": "A Baroque dining room featuring knife, with pie, boy, canoe, spoon, and sack",
+            "place365_name": "/d/dining_room",
+            "place365_id": 121,
+            "time_of_day": "afternoon",
+            "weather": "cloudy",
+            "period": "Early modern",
+            "is_indoor": true,
+            "lighting": {
+                "type": "natural",
+                "quality": "dramatic",
+                "direction": "side-lit",
+                "mood": "warm",
+                "reasoning": "The combination of an afternoon with cloudy weather suggests a single, strong light source (a window) illuminating the scene. 'Side-lit' is the classic setup for creating depth and volume in Baroque compositions. The 'dramatic' quality comes from the contrast between the illuminated objects (boy, pie, knife) and the deep shadows in the room. The 'warm' mood is derived from the 'afternoon' time, which imbues the light with a golden hue, contrasting beautifully with the cool shadows and enhancing the richness of the scene."
+            },
+            "atmosphere": "bright and active and subdued and striking"
+        },
+        "scene_inference": {
+            "all_candidates": [
+                {
+                    "scene_type": "Baroque kitchen",
+                    "plausibility": 0.85,
+                    "reasoning": "A grand, opulent kitchen with a boy as a kitchen helper, a knife for cutting a freshly baked pie, a spoon for stirring, and a sack of flour. The canoe is a miniature model on a shelf as a decorative element.",
+                    "object_interpretations": {
+                        "knife": {
+                            "form": "real kitchen knife",
+                            "scale": "normal",
+                            "role": "primary cutting tool"
+                        },
+                        "pie": {
+                            "form": "real baked pie",
+                            "scale": "normal",
+                            "role": "food item"
+                        },
+                        "boy": {
+                            "form": "real person",
+                            "scale": "normal",
+                            "role": "kitchen assistant"
+                        },
+                        "canoe": {
+                            "form": "model canoe",
+                            "scale": "miniature",
+                            "role": "decorative object"
+                        },
+                        "spoon": {
+                            "form": "real wooden spoon",
+                            "scale": "normal",
+                            "role": "cooking utensil"
+                        },
+                        "sack": {
+                            "form": "real flour sack",
+                            "scale": "normal",
+                            "role": "ingredient container"
+                        }
+                    }
+                },
+                {
+                    "scene_type": "Baroque still life",
+                    "plausibility": 0.9,
+                    "reasoning": "A classic vanitas or still life painting composition. A knife rests beside a pie on a table. A sack and spoon are additional table items. A boy is depicted in a small portrait on the wall. A canoe is a tiny sculpture in the background.",
+                    "object_interpretations": {
+                        "knife": {
+                            "form": "real knife",
+                            "scale": "normal",
+                            "role": "still life object"
+                        },
+                        "pie": {
+                            "form": "real pie",
+                            "scale": "normal",
+                            "role": "still life object"
+                        },
+                        "boy": {
+                            "form": "portrait painting",
+                            "scale": "small",
+                            "role": "wall decoration"
+                        },
+                        "canoe": {
+                            "form": "sculpture",
+                            "scale": "miniature",
+                            "role": "background decor"
+                        },
+                        "spoon": {
+                            "form": "real spoon",
+                            "scale": "normal",
+                            "role": "still life object"
+                        },
+                        "sack": {
+                            "form": "real sack",
+                            "scale": "normal",
+                            "role": "still life object"
+                        }
+                    }
+                },
+                {
+                    "scene_type": "Baroque riverside picnic",
+                    "plausibility": 0.8,
+                    "reasoning": "A boy sits by a river with a canoe. He has a sack with food, takes out a pie, and uses a knife to cut it. A spoon is for eating.",
+                    "object_interpretations": {
+                        "knife": {
+                            "form": "real knife",
+                            "scale": "normal",
+                            "role": "eating utensil"
+                        },
+                        "pie": {
+                            "form": "real pie",
+                            "scale": "normal",
+                            "role": "food"
+                        },
+                        "boy": {
+                            "form": "real person",
+                            "scale": "normal",
+                            "role": "picnicker"
+                        },
+                        "canoe": {
+                            "form": "real canoe",
+                            "scale": "large",
+                            "role": "transportation/Parked boat"
+                        },
+                        "spoon": {
+                            "form": "real spoon",
+                            "scale": "normal",
+                            "role": "eating utensil"
+                        },
+                        "sack": {
+                            "form": "real sack",
+                            "scale": "normal",
+                            "role": "picnic basket"
+                        }
+                    }
+                },
+                {
+                    "scene_type": "Baroque workshop",
+                    "plausibility": 0.75,
+                    "reasoning": "A craftsman's workshop. A boy apprentice is carving a wooden spoon. A knife is the tool. A sack holds wood chips. A pie sits on a table for lunch. A canoe model is being built or displayed.",
+                    "object_interpretations": {
+                        "knife": {
+                            "form": "carving knife",
+                            "scale": "normal",
+                            "role": "tool"
+                        },
+                        "pie": {
+                            "form": "real pie",
+                            "scale": "normal",
+                            "role": "food"
+                        },
+                        "boy": {
+                            "form": "real person",
+                            "scale": "normal",
+                            "role": "apprentice"
+                        },
+                        "canoe": {
+                            "form": "model canoe",
+                            "scale": "medium",
+                            "role": "project/decoration"
+                        },
+                        "spoon": {
+                            "form": "wooden spoon",
+                            "scale": "normal",
+                            "role": "project item"
+                        },
+                        "sack": {
+                            "form": "real sack",
+                            "scale": "normal",
+                            "role": "storage"
+                        }
+                    }
+                },
+                {
+                    "scene_type": "Baroque dining room",
+                    "plausibility": 0.85,
+                    "reasoning": "A formal dining setting. A boy is served a slice of pie. A knife and spoon are set at the table. A sack of nuts or fruit is decorative. A canoe painting hangs on the wall.",
+                    "object_interpretations": {
+                        "knife": {
+                            "form": "dining knife",
+                            "scale": "normal",
+                            "role": "cutlery"
+                        },
+                        "pie": {
+                            "form": "sliced pie",
+                            "scale": "normal",
+                            "role": "dessert"
+                        },
+                        "boy": {
+                            "form": "real person",
+                            "scale": "normal",
+                            "role": "diner"
+                        },
+                        "canoe": {
+                            "form": "painting",
+                            "scale": "medium",
+                            "role": "artwork"
+                        },
+                        "spoon": {
+                            "form": "dessert spoon",
+                            "scale": "normal",
+                            "role": "cutlery"
+                        },
+                        "sack": {
+                            "form": "decorative sack",
+                            "scale": "small",
+                            "role": "table decor"
+                        }
+                    },
+                    "scene_brief": "A Baroque dining room featuring knife, with pie, boy, canoe, spoon, and sack"
+                },
+                {
+                    "scene_type": "Baroque treasure room",
+                    "plausibility": 0.7,
+                    "reasoning": "A room filled with treasures. A boy explorer finds a sack containing a golden pie and a jeweled spoon. A ceremonial knife is displayed. A golden canoe model is on a pedestal.",
+                    "object_interpretations": {
+                        "knife": {
+                            "form": "ceremonial dagger",
+                            "scale": "normal",
+                            "role": "treasure"
+                        },
+                        "pie": {
+                            "form": "golden pie",
+                            "scale": "normal",
+                            "role": "treasure"
+                        },
+                        "boy": {
+                            "form": "real person",
+                            "scale": "normal",
+                            "role": "explorer"
+                        },
+                        "canoe": {
+                            "form": "golden model",
+                            "scale": "medium",
+                            "role": "treasure"
+                        },
+                        "spoon": {
+                            "form": "jeweled spoon",
+                            "scale": "normal",
+                            "role": "treasure"
+                        },
+                        "sack": {
+                            "form": "ancient sack",
+                            "scale": "normal",
+                            "role": "treasure container"
+                        }
+                    }
+                }
+            ],
+            "selected_scene": {
+                "scene_type": "Baroque dining room",
+                "plausibility": 0.85,
+                "reasoning": "A formal dining setting. A boy is served a slice of pie. A knife and spoon are set at the table. A sack of nuts or fruit is decorative. A canoe painting hangs on the wall.",
+                "object_interpretations": {
+                    "knife": {
+                        "form": "dining knife",
+                        "scale": "normal",
+                        "role": "cutlery"
+                    },
+                    "pie": {
+                        "form": "sliced pie",
+                        "scale": "normal",
+                        "role": "dessert"
+                    },
+                    "boy": {
+                        "form": "real person",
+                        "scale": "normal",
+                        "role": "diner"
+                    },
+                    "canoe": {
+                        "form": "painting",
+                        "scale": "medium",
+                        "role": "artwork"
+                    },
+                    "spoon": {
+                        "form": "dessert spoon",
+                        "scale": "normal",
+                        "role": "cutlery"
+                    },
+                    "sack": {
+                        "form": "decorative sack",
+                        "scale": "small",
+                        "role": "table decor"
+                    }
+                },
+                "scene_brief": "A Baroque dining room featuring knife, with pie, boy, canoe, spoon, and sack"
+            }
+        }
+    },
+    "final_prompts": {
+        "main_prompt": "A Baroque painting depicting a dramatic afternoon scene where a medium-sized boy with peach skin and chestnut hair stands alert and attentive at a medium-sized, freshly baked pie with a golden brown, amber crust. Resting atop the pie's surface are two small utensils: a cool steel gray, polished knife and a silver, reflective spoon. In the midground, a large, weathered mahogany canoe with dark brown wood sits upon a medium-sized, empty ochre sack that appears limp beneath its weight, with the sack positioned next to the canoe's hull. The natural dramatic lighting of late afternoon creates striking chiaroscuro contrasts, casting long shadows while illuminating the scene with a bright, active energy that feels simultaneously subdued and striking, highlighting the textures of metal, pastry, flesh, wood, and burlap materials in rich Baroque detail.",
+        "negative_prompt": "photorealistic, 3d render, modern, digital art, photograph, low quality, blurry, distorted, cartoon, anime, abstract, surreal, deformed, ugly, disfigured, bad anatomy, extra limbs, watermark, signature, text",
+        "prompt_formats": {
+            "simple": "A Baroque painting of a boy at a pie with utensils, with a canoe resting on a sack nearby during dramatic afternoon light.",
+            "complex": "A Baroque painting depicting a dramatic afternoon scene where a medium-sized boy with peach skin and chestnut hair stands alert and attentive at a medium-sized, freshly baked pie with a golden brown, amber crust. Resting atop the pie's surface are two small utensils: a cool steel gray, polished knife and a silver, reflective spoon. In the midground, a large, weathered mahogany canoe with dark brown wood sits upon a medium-sized, empty ochre sack that appears limp beneath its weight, with the sack positioned next to the canoe's hull. The natural dramatic lighting of late afternoon creates striking chiaroscuro contrasts, casting long shadows while illuminating the scene with a bright, active energy that feels simultaneously subdued and striking, highlighting the textures of metal, pastry, flesh, wood, and burlap materials in rich Baroque detail.",
+            "comma_separated": "Baroque painting, boy at pie, knife on pie, spoon on pie, canoe on sack, sack next to canoe, afternoon lighting, dramatic natural light, bright active subdued striking atmosphere, peach skin boy, golden brown pie, steel gray knife, silver spoon, mahogany canoe, ochre sack, chiaroscuro, textured materials",
+            "tags": "art, painting, Baroque, still life, genre scene, dramatic lighting, chiaroscuro, afternoon, utensils, food, transportation, texture, composition"
+        }
+    }
+}

@@ -1,0 +1,281 @@
+{
+    "artwork_id": "artwork_20260103_212343_599",
+    "generation_timestamp": "2026-01-03T21:24:11.404455",
+    "style": "Chinese Ink Painting",
+    "objects": {
+        "object_ids": [
+            46,
+            19,
+            59
+        ],
+        "object_names": [
+            "bowl",
+            "sheep",
+            "water lily"
+        ],
+        "enhanced_objects": [
+            {
+                "object_id": 46,
+                "name": "bowl",
+                "artistic_description": "A pristine white ceramic bowl rendered with delicate ink washes, its smooth surface catching the cool morning natural light with subtle gradations from pale gray to nearly white. The rim shows crisp, precise brushstrokes defining its elegant curve, while the interior holds a soft shadow that deepens toward the center. Fine cracks in the glaze (crazing) are suggested with barely-there horizontal lines, adding character without aging. The surface has a gentle matte sheen that diffuses the morning light evenly across its form.",
+                "size": "Medium",
+                "state": "clean and well-maintained, contemporary condition",
+                "primary_colors": [
+                    "pale celadon white",
+                    "soft gray"
+                ],
+                "material": "ceramic"
+            },
+            {
+                "object_id": 19,
+                "name": "sheep",
+                "artistic_description": "A toy sheep sculpted in soft white ceramic with stylized, minimalist form, its rounded body and head rendered with flowing ink strokes that suggest woolly texture through varied line weights. The morning light illuminates its smooth surface with gentle highlights along the upper curves, while soft shadows pool beneath its base. The matte finish absorbs light evenly, creating a warm, approachable appearance. Delicate black ink accents define the eyes and subtle facial features with calligraphic precision.",
+                "size": "Small",
+                "state": "pristine contemporary toy, smooth and intact",
+                "primary_colors": [
+                    "warm white",
+                    "charcoal black"
+                ],
+                "material": "ceramic"
+            },
+            {
+                "object_id": 59,
+                "name": "water lily",
+                "artistic_description": "A decorative water lily rendered in the classical ink painting style with expressive brushwork, its petals suggested through gradations of gray ink from deep black at the edges to ethereal washes toward the center. The morning's natural light filters through the composition, creating an airy, translucent quality as if the flower floats in space. Delicate strokes capture the flower's gentle unfolding, with subtle wet-on-wet techniques creating soft edges and atmospheric effects. The overall appearance is one of serene elegance, with ink bleeding slightly into the paper fibers.",
+                "size": "Marginal",
+                "state": "freshly bloomed, delicate and vibrant",
+                "primary_colors": [
+                    "ink-wash gray",
+                    "pale lavender-gray"
+                ],
+                "material": "ink on paper"
+            }
+        ]
+    },
+    "composition": {
+        "spatial_relations": [
+            [
+                19,
+                "next to",
+                46
+            ],
+            [
+                59,
+                "behind",
+                46
+            ]
+        ],
+        "semantic_relations": []
+    },
+    "environment": {
+        "environment_details": {
+            "scene_brief": "A Traditional Chinese Kitchen featuring bowl, with toy sheep placed nearby, and decorative water lily as decoration",
+            "place365_name": "/k/kitchen",
+            "place365_id": 203,
+            "time_of_day": "morning",
+            "weather": null,
+            "period": "Contemporary",
+            "is_indoor": true,
+            "lighting": {
+                "type": "natural",
+                "quality": "soft",
+                "direction": "side-lit",
+                "mood": "warm",
+                "reasoning": "A soft, side-lit natural light (typical of morning) creates gentle shadows and highlights the textures of the ceramic bowl and the organic form of the water lily. This lighting style mimics the brushwork and atmospheric depth found in traditional ink wash paintings, while the warm mood suits a domestic setting."
+            },
+            "atmosphere": "fresh and energetic and gentle"
+        },
+        "scene_inference": {
+            "all_candidates": [
+                {
+                    "scene_type": "Zen Garden Table",
+                    "plausibility": 0.95,
+                    "reasoning": "A bowl serves as a miniature Zen garden container. A water lily floats in the water/sand within the bowl, representing a pond. A small sheep figurine sits beside the bowl, gazing into the miniature landscape.",
+                    "object_interpretations": {
+                        "bowl": {
+                            "form": "ceramic bowl",
+                            "scale": "normal/tabletop",
+                            "role": "container/landscape base"
+                        },
+                        "sheep": {
+                            "form": "miniature figurine",
+                            "scale": "small (toy size)",
+                            "role": "observer/ornament"
+                        },
+                        "water lily": {
+                            "form": "real plant",
+                            "scale": "miniature",
+                            "role": "decorative element (pond)"
+                        }
+                    }
+                },
+                {
+                    "scene_type": "Traditional Chinese Kitchen",
+                    "plausibility": 0.9,
+                    "reasoning": "A large ceramic bowl holds water for washing vegetables. A water lily is placed in a small vase on the counter as decoration. A small sheep (perhaps a lucky charm or toy) sits on the windowsill.",
+                    "object_interpretations": {
+                        "bowl": {
+                            "form": "utility bowl",
+                            "scale": "normal/kitchenware",
+                            "role": "functional container"
+                        },
+                        "sheep": {
+                            "form": "lucky charm/toy",
+                            "scale": "small",
+                            "role": "decoration"
+                        },
+                        "water lily": {
+                            "form": "cut flower",
+                            "scale": "small",
+                            "role": "decorative vase filler"
+                        }
+                    },
+                    "scene_brief": "A Traditional Chinese Kitchen featuring bowl, with toy sheep placed nearby, and decorative water lily as decoration"
+                },
+                {
+                    "scene_type": "Art Studio",
+                    "plausibility": 0.92,
+                    "reasoning": "A bowl filled with water sits on a desk, used for rinsing brushes. A water lily is floating in a separate jar of water for reference. A small sheep model is positioned as a still-life subject.",
+                    "object_interpretations": {
+                        "bowl": {
+                            "form": "water bowl",
+                            "scale": "normal",
+                            "role": "artist tool"
+                        },
+                        "sheep": {
+                            "form": "model/statuette",
+                            "scale": "small",
+                            "role": "still life subject"
+                        },
+                        "water lily": {
+                            "form": "fresh specimen",
+                            "scale": "small",
+                            "role": "still life subject"
+                        }
+                    }
+                },
+                {
+                    "scene_type": "Pondside Pasture",
+                    "plausibility": 0.88,
+                    "reasoning": "A stone bowl (bird bath style) sits at the edge of a pond. Water lilies bloom in the water around it. A sheep wanders nearby, stopping to drink from the bowl.",
+                    "object_interpretations": {
+                        "bowl": {
+                            "form": "stone basin",
+                            "scale": "large/outdoor",
+                            "role": "water source"
+                        },
+                        "sheep": {
+                            "form": "real animal",
+                            "scale": "life-size",
+                            "role": "animal subject"
+                        },
+                        "water lily": {
+                            "form": "aquatic plant",
+                            "scale": "natural",
+                            "role": "environmental flora"
+                        }
+                    }
+                },
+                {
+                    "scene_type": "Scholar's Study",
+                    "plausibility": 0.9,
+                    "reasoning": "A bowl containing a water lily serves as a desk ornament (water feature). A small sheep paperweight holds down scrolls. The setting is quiet and contemplative.",
+                    "object_interpretations": {
+                        "bowl": {
+                            "form": "ornamental bowl",
+                            "scale": "desktop",
+                            "role": "water feature base"
+                        },
+                        "sheep": {
+                            "form": "paperweight",
+                            "scale": "small",
+                            "role": "functional decoration"
+                        },
+                        "water lily": {
+                            "form": "floating plant",
+                            "scale": "miniature",
+                            "role": "living decoration"
+                        }
+                    }
+                },
+                {
+                    "scene_type": "Festival Market",
+                    "plausibility": 0.85,
+                    "reasoning": "A vendor sells water lilies in bowls of water. A small sheep mascot or toy sits on the stall counter. The bowl is the vessel for the merchandise.",
+                    "object_interpretations": {
+                        "bowl": {
+                            "form": "sales vessel",
+                            "scale": "standard",
+                            "role": "container for goods"
+                        },
+                        "sheep": {
+                            "form": "mascot plush",
+                            "scale": "small",
+                            "role": "shop decoration"
+                        },
+                        "water lily": {
+                            "form": "live plant",
+                            "scale": "natural",
+                            "role": "merchandise"
+                        }
+                    }
+                },
+                {
+                    "scene_type": "Rainy Window Sill",
+                    "plausibility": 0.82,
+                    "reasoning": "Rain collects in a bowl left on the windowsill. A water lily leaf floats on the rainwater. A stray sheep (perhaps a neighbor's pet) looks in through the window.",
+                    "object_interpretations": {
+                        "bowl": {
+                            "form": "catchment bowl",
+                            "scale": "normal",
+                            "role": "environmental object"
+                        },
+                        "sheep": {
+                            "form": "real animal",
+                            "scale": "life-size (viewed through window)",
+                            "role": "background subject"
+                        },
+                        "water lily": {
+                            "form": "floating leaf",
+                            "scale": "small",
+                            "role": "floating debris"
+                        }
+                    }
+                }
+            ],
+            "selected_scene": {
+                "scene_type": "Traditional Chinese Kitchen",
+                "plausibility": 0.9,
+                "reasoning": "A large ceramic bowl holds water for washing vegetables. A water lily is placed in a small vase on the counter as decoration. A small sheep (perhaps a lucky charm or toy) sits on the windowsill.",
+                "object_interpretations": {
+                    "bowl": {
+                        "form": "utility bowl",
+                        "scale": "normal/kitchenware",
+                        "role": "functional container"
+                    },
+                    "sheep": {
+                        "form": "lucky charm/toy",
+                        "scale": "small",
+                        "role": "decoration"
+                    },
+                    "water lily": {
+                        "form": "cut flower",
+                        "scale": "small",
+                        "role": "decorative vase filler"
+                    }
+                },
+                "scene_brief": "A Traditional Chinese Kitchen featuring bowl, with toy sheep placed nearby, and decorative water lily as decoration"
+            }
+        }
+    },
+    "final_prompts": {
+        "main_prompt": "A Chinese Ink Painting painting depicting a serene morning scene where a medium-sized, pale celadon white ceramic bowl with soft gray undertones sits clean and well-maintained in the foreground. Beside the bowl, a small, pristine contemporary toy sheep in warm white with charcoal black accents stands attentively. Behind the bowl, a freshly bloomed water lily in marginal size displays its ink-wash gray petals with delicate pale lavender-gray hues, floating gently on the water's surface. The composition is arranged with the bowl and sheep occupying the foreground plane, while the water lily rests in the midground, creating depth through their spatial relationships. Natural soft morning light filters through, casting gentle shadows and illuminating the scene with a fresh, energetic, and gentle atmosphere that embodies the essence of ink on paper artistry.",
+        "negative_prompt": "photorealistic, 3d render, modern, digital art, photograph, low quality, blurry, distorted, oversaturated, cartoon, anime, western painting style, oil painting, acrylic, watercolor (non-ink), detailed background, crowded scene, text, signature, frame",
+        "prompt_formats": {
+            "simple": "A Chinese ink painting of a bowl, toy sheep, and water lily arranged in a gentle morning scene.",
+            "complex": "A Chinese Ink Painting painting depicting a serene morning scene where a medium-sized, pale celadon white ceramic bowl with soft gray undertones sits clean and well-maintained in the foreground. Beside the bowl, a small, pristine contemporary toy sheep in warm white with charcoal black accents stands attentively. Behind the bowl, a freshly bloomed water lily in marginal size displays its ink-wash gray petals with delicate pale lavender-gray hues, floating gently on the water's surface. The composition is arranged with the bowl and sheep occupying the foreground plane, while the water lily rests in the midground, creating depth through their spatial relationships. Natural soft morning light filters through, casting gentle shadows and illuminating the scene with a fresh, energetic, and gentle atmosphere that embodies the essence of ink on paper artistry.",
+            "comma_separated": "Chinese Ink Painting, bowl, sheep, water lily, medium size, small size, marginal size, pale celadon white, warm white, charcoal black, ink-wash gray, pale lavender-gray, ceramic, toy, freshly bloomed, morning, natural soft lighting, fresh atmosphere, energetic, gentle, serene, ink on paper, spatial composition",
+            "tags": "art, painting, chinese ink painting, ink wash, sumi-e, bowl, sheep, water lily, still life, morning, ceramic, toy, floral, serene, gentle, traditional art"
+        }
+    }
+}

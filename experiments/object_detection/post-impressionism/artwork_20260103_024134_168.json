@@ -1,0 +1,307 @@
+{
+    "artwork_id": "artwork_20260103_024134_168",
+    "generation_timestamp": "2026-01-03T02:47:05.729185",
+    "style": "Post-Impressionism",
+    "objects": {
+        "object_ids": [
+            22,
+            60,
+            58
+        ],
+        "object_names": [
+            "bear",
+            "canopy bed",
+            "couch"
+        ],
+        "enhanced_objects": [
+            {
+                "object_id": 22,
+                "name": "bear",
+                "artistic_description": "A plush toy bear rendered in warm afternoon sunlight, its brown fur catching golden highlights while deep shadows create bold, expressive contrasts. The natural light softens its features, giving the fabric a gentle glow with visible texture in the weave. Its button eyes sparkle with reflected light, and the stitching appears slightly worn from affectionate handling.",
+                "size": "Medium",
+                "state": "well-loved and gently worn",
+                "primary_colors": [
+                    "warm golden-brown",
+                    "deep chocolate"
+                ],
+                "material": "plush fabric"
+            },
+            {
+                "object_id": 60,
+                "name": "canopy bed",
+                "artistic_description": "A delicate white canopy bed bathed in bright natural light, its sheer fabric panels glowing with translucent luminosity. The afternoon sun creates soft, diffused shadows on the bedding, while the wooden frame shows subtle grain patterns in warm honey tones. The fabric drapes catch the light with gentle highlights, creating an ethereal, dreamy quality.",
+                "size": "Large",
+                "state": "pristine and well-maintained",
+                "primary_colors": [
+                    "luminous white",
+                    "warm honey wood"
+                ],
+                "material": "wood and cotton fabric"
+            },
+            {
+                "object_id": 58,
+                "name": "couch",
+                "artistic_description": "A small toy couch saturated in cheerful afternoon light, its colorful upholstery showing vibrant saturation with bold, visible brushstroke-like texture. The fabric displays rich color depth where sunlight hits directly, while recessed areas show deeper tones. The cushions appear slightly flattened from play, with the material showing a soft, matte finish that absorbs rather than reflects the bright light.",
+                "size": "Small",
+                "state": "soft and slightly compressed",
+                "primary_colors": [
+                    "bright primary red",
+                    "deep crimson"
+                ],
+                "material": "upholstered fabric"
+            }
+        ]
+    },
+    "composition": {
+        "spatial_relations": [
+            [
+                22,
+                "next to",
+                60
+            ],
+            [
+                22,
+                "next to",
+                58
+            ],
+            [
+                58,
+                "next to",
+                60
+            ]
+        ],
+        "semantic_relations": []
+    },
+    "environment": {
+        "environment_details": {
+            "scene_brief": "A children's nursery featuring toy bear, with canopy bed, and toy couch placed nearby",
+            "place365_name": "/l/living_room",
+            "place365_id": 215,
+            "time_of_day": "afternoon",
+            "weather": "sunny",
+            "period": "Contemporary",
+            "is_indoor": true,
+            "lighting": {
+                "type": "natural",
+                "quality": "soft",
+                "direction": "side-lit",
+                "reasoning": "Natural light from a sunny afternoon is dominant. 'Soft' light diffused through windows prevents harsh glare, allowing for the nuanced color fields preferred in Post-Impressionism. 'Side-lit' lighting models the toy bear and furniture with gentle volume, enhancing the 'tactile' feel of the scene."
+            },
+            "atmosphere": "bright and active and cheerful and gentle"
+        },
+        "scene_inference": {
+            "all_candidates": [
+                {
+                    "scene_type": "Victorian-era bedroom",
+                    "plausibility": 0.85,
+                    "reasoning": "A bear could be a large taxidermy trophy mounted on the wall above a luxurious canopy bed, with a couch in the corner for seating. The Post-Impressionist style would emphasize rich textures and decorative patterns.",
+                    "object_interpretations": {
+                        "bear": {
+                            "form": "taxidermy mount",
+                            "scale": "large (life-size)",
+                            "role": "hunting trophy/decorative focal point"
+                        },
+                        "canopy bed": {
+                            "form": "real furniture",
+                            "scale": "full-size",
+                            "role": "primary sleeping furniture"
+                        },
+                        "couch": {
+                            "form": "real furniture",
+                            "scale": "full-size",
+                            "role": "secondary seating"
+                        }
+                    }
+                },
+                {
+                    "scene_type": "children's nursery",
+                    "plausibility": 0.9,
+                    "reasoning": "A teddy bear sits on a canopy bed designed for a child, with a small couch for playtime. The Post-Impressionist style would use bold, simplified shapes and bright, emotional colors.",
+                    "object_interpretations": {
+                        "bear": {
+                            "form": "stuffed toy",
+                            "scale": "medium (1:3)",
+                            "role": "companion toy"
+                        },
+                        "canopy bed": {
+                            "form": "child's bed",
+                            "scale": "small (3/4 size)",
+                            "role": "primary sleeping furniture"
+                        },
+                        "couch": {
+                            "form": "toy furniture",
+                            "scale": "miniature",
+                            "role": "play furniture"
+                        }
+                    },
+                    "scene_brief": "A children's nursery featuring toy bear, with canopy bed, and toy couch placed nearby"
+                },
+                {
+                    "scene_type": "rustic mountain cabin",
+                    "plausibility": 0.88,
+                    "reasoning": "A live bear peers through the window at a cozy interior with a canopy bed and couch. The Post-Impressionist treatment would focus on the contrast between the wild exterior and warm interior.",
+                    "object_interpretations": {
+                        "bear": {
+                            "form": "live animal",
+                            "scale": "life-size",
+                            "role": "wildlife observer"
+                        },
+                        "canopy bed": {
+                            "form": "rustic four-poster bed",
+                            "scale": "full-size",
+                            "role": "bedroom furniture"
+                        },
+                        "couch": {
+                            "form": "worn leather couch",
+                            "scale": "full-size",
+                            "role": "living room seating"
+                        }
+                    }
+                },
+                {
+                    "scene_type": "art studio",
+                    "plausibility": 0.82,
+                    "reasoning": "An artist's studio with a live bear model (behind protective glass) positioned near a canopy bed and couch setup used as still life subjects. Post-Impressionist style would emphasize the artist's subjective view.",
+                    "object_interpretations": {
+                        "bear": {
+                            "form": "live animal model",
+                            "scale": "life-size",
+                            "role": "art model"
+                        },
+                        "canopy bed": {
+                            "form": "studio prop",
+                            "scale": "full-size",
+                            "role": "set dressing"
+                        },
+                        "couch": {
+                            "form": "studio prop",
+                            "scale": "full-size",
+                            "role": "set dressing"
+                        }
+                    }
+                },
+                {
+                    "scene_type": "fantasy dream world",
+                    "plausibility": 0.75,
+                    "reasoning": "A surreal scene where a giant bear sleeps on a canopy bed while a tiny couch floats nearby. Post-Impressionist style allows for non-naturalistic colors and dreamlike distortions.",
+                    "object_interpretations": {
+                        "bear": {
+                            "form": "anthropomorphic",
+                            "scale": "giant",
+                            "role": "dream character"
+                        },
+                        "canopy bed": {
+                            "form": "fantasy furniture",
+                            "scale": "oversized",
+                            "role": "sleeping place"
+                        },
+                        "couch": {
+                            "form": "floating furniture",
+                            "scale": "miniature",
+                            "role": "surreal element"
+                        }
+                    }
+                },
+                {
+                    "scene_type": "vintage hotel lobby",
+                    "plausibility": 0.8,
+                    "reasoning": "A decorative bear statue stands near a canopy bed display and couch in a hotel lobby. Post-Impressionist style would capture the atmospheric lighting and decorative details.",
+                    "object_interpretations": {
+                        "bear": {
+                            "form": "bronze statue",
+                            "scale": "life-size",
+                            "role": "decorative sculpture"
+                        },
+                        "canopy bed": {
+                            "form": "display bed",
+                            "scale": "full-size",
+                            "role": "furniture showcase"
+                        },
+                        "couch": {
+                            "form": "lobby furniture",
+                            "scale": "full-size",
+                            "role": "guest seating"
+                        }
+                    }
+                },
+                {
+                    "scene_type": "museum exhibit",
+                    "plausibility": 0.85,
+                    "reasoning": "A natural history museum display featuring a polar bear specimen with period furniture including a canopy bed and couch as part of a habitat recreation. Post-Impressionist style would emphasize the museum's atmospheric lighting.",
+                    "object_interpretations": {
+                        "bear": {
+                            "form": "museum specimen",
+                            "scale": "life-size",
+                            "role": "exhibit centerpiece"
+                        },
+                        "canopy bed": {
+                            "form": "antique furniture",
+                            "scale": "full-size",
+                            "role": "period display"
+                        },
+                        "couch": {
+                            "form": "antique furniture",
+                            "scale": "full-size",
+                            "role": "period display"
+                        }
+                    }
+                },
+                {
+                    "scene_type": "theater stage",
+                    "plausibility": 0.78,
+                    "reasoning": "A stage set for a play with an actor in a bear costume, a canopy bed prop, and a couch. Post-Impressionist style would focus on dramatic lighting and emotional color choices.",
+                    "object_interpretations": {
+                        "bear": {
+                            "form": "costumed actor",
+                            "scale": "human-size",
+                            "role": "performer"
+                        },
+                        "canopy bed": {
+                            "form": "stage prop",
+                            "scale": "full-size",
+                            "role": "set piece"
+                        },
+                        "couch": {
+                            "form": "stage prop",
+                            "scale": "full-size",
+                            "role": "set piece"
+                        }
+                    }
+                }
+            ],
+            "selected_scene": {
+                "scene_type": "children's nursery",
+                "plausibility": 0.9,
+                "reasoning": "A teddy bear sits on a canopy bed designed for a child, with a small couch for playtime. The Post-Impressionist style would use bold, simplified shapes and bright, emotional colors.",
+                "object_interpretations": {
+                    "bear": {
+                        "form": "stuffed toy",
+                        "scale": "medium (1:3)",
+                        "role": "companion toy"
+                    },
+                    "canopy bed": {
+                        "form": "child's bed",
+                        "scale": "small (3/4 size)",
+                        "role": "primary sleeping furniture"
+                    },
+                    "couch": {
+                        "form": "toy furniture",
+                        "scale": "miniature",
+                        "role": "play furniture"
+                    }
+                },
+                "scene_brief": "A children's nursery featuring toy bear, with canopy bed, and toy couch placed nearby"
+            }
+        }
+    },
+    "final_prompts": {
+        "main_prompt": "A Post-Impressionism painting depicting a bright and cheerful afternoon scene in a sunlit room. In the foreground, a well-loved, gently worn bear with warm golden-brown and deep chocolate fur sits on the floor, positioned between two larger furnishings. To its left rests a small, soft couch in bright primary red and deep crimson upholstered fabric, slightly compressed from use. To the bear's right stands a large, pristine canopy bed with luminous white cotton fabric drapes and warm honey wood frame, well-maintained and elegant. The three objects form a triangular arrangement in the center of the room, with the bear nestled between the couch and bed, all bathed in natural soft afternoon light streaming through a window. The atmosphere is active yet gentle, with visible brushstrokes capturing the play of light across plush fabrics and wooden surfaces, creating a vibrant, emotionally resonant domestic scene.",
+        "negative_prompt": "photorealistic, 3d render, modern, digital art, photograph, low quality, blurry, distorted, surreal, abstract, dark, gloomy, horror, night scene, empty, minimalist, cartoon, anime, sketch, watermark, signature, text, frame, border",
+        "prompt_formats": {
+            "simple": "A Post-Impressionism painting of a bear between a red couch and a white canopy bed in a cheerful afternoon room.",
+            "complex": "A Post-Impressionism painting depicting a bright and cheerful afternoon scene in a sunlit room. In the foreground, a well-loved, gently worn bear with warm golden-brown and deep chocolate fur sits on the floor, positioned between two larger furnishings. To its left rests a small, soft couch in bright primary red and deep crimson upholstered fabric, slightly compressed from use. To the bear's right stands a large, pristine canopy bed with luminous white cotton fabric drapes and warm honey wood frame, well-maintained and elegant. The three objects form a triangular arrangement in the center of the room, with the bear nestled between the couch and bed, all bathed in natural soft afternoon light streaming through a window. The atmosphere is active yet gentle, with visible brushstrokes capturing the play of light across plush fabrics and wooden surfaces, creating a vibrant, emotionally resonant domestic scene.",
+            "comma_separated": "Post-Impressionism painting, bear, canopy bed, couch, warm golden-brown bear, deep chocolate fur, bright red couch, luminous white bed, honey wood frame, afternoon lighting, natural soft light, bright cheerful atmosphere, active gentle scene, plush fabric, upholstered fabric, cotton fabric, well-loved bear, pristine bed, compressed couch, triangular composition, sunlit room, domestic interior, visible brushstrokes, vibrant colors",
+            "tags": "art, painting, post-impressionism, interior scene, still life, bear, canopy bed, couch, afternoon light, cheerful atmosphere, domestic, textile, fabric, wood, composition, color theory, brushwork, impressionist style"
+        }
+    }
+}

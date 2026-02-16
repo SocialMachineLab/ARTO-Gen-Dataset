@@ -1,0 +1,373 @@
+{
+    "artwork_id": "artwork_20260104_000726_968",
+    "generation_timestamp": "2026-01-04T00:08:09.224072",
+    "style": "Impressionism",
+    "objects": {
+        "object_ids": [
+            26,
+            25,
+            1,
+            19
+        ],
+        "object_names": [
+            "sunshade",
+            "backpack",
+            "soldier",
+            "lamb"
+        ],
+        "enhanced_objects": [
+            {
+                "object_id": 26,
+                "name": "sunshade",
+                "artistic_description": "A weathered canvas canopy rendered in soft, diffused strokes of muted ochre and pale gray, its fabric showing subtle variations where cloudy light filters through the weave. The surface bears faint water spots from recent moisture, creating gentle, irregular patches of darker tone. Edges appear slightly frayed with threads catching the ambient brightness, while the metal frame beneath shows muted silver highlights where light grazes the aged aluminum.",
+                "size": "Medium",
+                "state": "weathered and functional",
+                "primary_colors": [
+                    "muted ochre",
+                    "pale gray"
+                ],
+                "material": "canvas and metal"
+            },
+            {
+                "object_id": 25,
+                "name": "backpack",
+                "artistic_description": "A canvas pack rendered in loose, expressive dabs of dusty olive and charcoal, its surface showing subtle sheen where dampness from the humid air has darkened the fabric. The material absorbs the cool, overcast light, creating soft shadows in the folds with hints of deep forest green. Buckles and zippers appear as quick strokes of tarnished brass, their metallic glint subdued by the diffused atmosphere. Wear marks appear as lighter patches where pigment has been scraped away.",
+                "size": "Medium",
+                "state": "worn and weathered",
+                "primary_colors": [
+                    "dusty olive",
+                    "charcoal"
+                ],
+                "material": "canvas and metal"
+            },
+            {
+                "object_id": 1,
+                "name": "soldier",
+                "artistic_description": "A figure rendered in quick, visible brushstrokes of khaki and muted tan, the uniform showing subtle variations where overcast light catches the fabric weave. Skin appears in soft, blended tones of warm beige with cool gray shadows from the cloudy sky. The helmet shows muted metallic highlights in dull steel, while the face is suggested with loose strokes of shadow and light, capturing the subdued atmosphere. Equipment details appear as brief touches of darker pigment.",
+                "size": "Large",
+                "state": "alert and active",
+                "primary_colors": [
+                    "khaki",
+                    "muted tan"
+                ],
+                "material": "fabric and metal"
+            },
+            {
+                "object_id": 19,
+                "name": "lamb",
+                "artistic_description": "Soft patches of creamy white and warm ivory rendered with thick, textured strokes that suggest wool's natural fluffiness. The fleece catches the bright, diffused cloudy light, creating gentle highlights where fibers stand out, while shadows between tufts appear as cool gray-blue tones. The animal's form is suggested with loose, energetic marks in pale sand and soft beige, its surface appearing matte and natural against the subdued environment. A subtle warmth in the wool suggests life beneath the cool atmospheric conditions.",
+                "size": "Medium",
+                "state": "calm and still",
+                "primary_colors": [
+                    "creamy white",
+                    "warm ivory"
+                ],
+                "material": "wool"
+            }
+        ]
+    },
+    "composition": {
+        "spatial_relations": [
+            [
+                26,
+                "behind",
+                1
+            ],
+            [
+                25,
+                "on",
+                1
+            ],
+            [
+                19,
+                "next to",
+                1
+            ]
+        ],
+        "semantic_relations": [
+            [
+                1,
+                "wearing",
+                25
+            ]
+        ]
+    },
+    "environment": {
+        "environment_details": {
+            "scene_brief": "A War Trench featuring sunshade, with backpack, soldier, and lamb",
+            "place365_name": "/f/field/wild",
+            "place365_id": 141,
+            "time_of_day": "afternoon",
+            "weather": "cloudy",
+            "period": "Contemporary",
+            "is_indoor": false,
+            "lighting": {
+                "type": "natural",
+                "quality": "soft",
+                "direction": "side-lit",
+                "mood": "cool",
+                "reasoning": "Cloudy skies create soft, ambient natural light. A side-lit direction suggests the sun is breaking through clouds or the trench opening is oriented to receive ambient light from the side, creating gentle modeling on the soldier and lamb. The cool mood aligns with the somber setting and cloudy weather."
+            },
+            "atmosphere": "bright and active and subdued and gentle"
+        },
+        "scene_inference": {
+            "all_candidates": [
+                {
+                    "scene_type": "Beach Resort",
+                    "plausibility": 0.9,
+                    "reasoning": "A sunshade is the primary object, anchoring a beach scene. A backpack sits in the sand nearby, belonging to a soldier on leave who is relaxing under the shade. A lamb could be a small pet accompanying the soldier or a nearby attraction.",
+                    "object_interpretations": {
+                        "sunshade": {
+                            "form": "real beach umbrella",
+                            "scale": "large",
+                            "role": "primary shelter"
+                        },
+                        "backpack": {
+                            "form": "real canvas bag",
+                            "scale": "normal",
+                            "role": "personal belonging"
+                        },
+                        "soldier": {
+                            "form": "real person (casual uniform)",
+                            "scale": "normal",
+                            "role": "human subject"
+                        },
+                        "lamb": {
+                            "form": "real animal",
+                            "scale": "normal",
+                            "role": "companion/pet"
+                        }
+                    }
+                },
+                {
+                    "scene_type": "War Trench",
+                    "plausibility": 0.85,
+                    "reasoning": "A sunshade could be a makeshift camouflage or parasol in a trench. The soldier is the main figure. A backpack is standard gear. A lamb might be a stray animal wandering the battlefield or a soldier's mascot.",
+                    "object_interpretations": {
+                        "sunshade": {
+                            "form": "makeshift camouflage net/parasol",
+                            "scale": "large",
+                            "role": "cover/shelter"
+                        },
+                        "backpack": {
+                            "form": "military rucksack",
+                            "scale": "normal",
+                            "role": "equipment"
+                        },
+                        "soldier": {
+                            "form": "real combatant",
+                            "scale": "normal",
+                            "role": "primary subject"
+                        },
+                        "lamb": {
+                            "form": "real animal",
+                            "scale": "normal",
+                            "role": "mascot/stray"
+                        }
+                    },
+                    "scene_brief": "A War Trench featuring sunshade, with backpack, soldier, and lamb"
+                },
+                {
+                    "scene_type": "Picnic in the Park",
+                    "plausibility": 0.9,
+                    "reasoning": "A sunshade protects a picnic setup. A backpack contains the food. A soldier is enjoying a day off. A lamb is grazing in the background of the park.",
+                    "object_interpretations": {
+                        "sunshade": {
+                            "form": "picnic umbrella",
+                            "scale": "medium",
+                            "role": "shade provider"
+                        },
+                        "backpack": {
+                            "form": "hiking pack",
+                            "scale": "normal",
+                            "role": "storage"
+                        },
+                        "soldier": {
+                            "form": "off-duty soldier",
+                            "scale": "normal",
+                            "role": "picnicker"
+                        },
+                        "lamb": {
+                            "form": "grazing livestock",
+                            "scale": "normal",
+                            "role": "background element"
+                        }
+                    }
+                },
+                {
+                    "scene_type": "Art Studio",
+                    "plausibility": 0.8,
+                    "reasoning": "The scene depicts a painting in progress. The sunshade is a prop. The soldier is a model posing. The backpack is the model's gear. The lamb is a live reference model.",
+                    "object_interpretations": {
+                        "sunshade": {
+                            "form": "studio prop",
+                            "scale": "normal",
+                            "role": "set dressing"
+                        },
+                        "backpack": {
+                            "form": "prop",
+                            "scale": "normal",
+                            "role": "costume accessory"
+                        },
+                        "soldier": {
+                            "form": "model/subject",
+                            "scale": "normal",
+                            "role": "primary subject"
+                        },
+                        "lamb": {
+                            "form": "live model",
+                            "scale": "normal",
+                            "role": "secondary subject"
+                        }
+                    }
+                },
+                {
+                    "scene_type": "Vintage Market",
+                    "plausibility": 0.75,
+                    "reasoning": "A soldier is shopping at an outdoor market. He carries a backpack. A sunshade protects a stall. A lamb is for sale or being led by a vendor.",
+                    "object_interpretations": {
+                        "sunshade": {
+                            "form": "merchant's awning",
+                            "scale": "large",
+                            "role": "stall cover"
+                        },
+                        "backpack": {
+                            "form": "worn travel bag",
+                            "scale": "normal",
+                            "role": "personal item"
+                        },
+                        "soldier": {
+                            "form": "historical soldier",
+                            "scale": "normal",
+                            "role": "shopper"
+                        },
+                        "lamb": {
+                            "form": "farm animal",
+                            "scale": "normal",
+                            "role": "market goods"
+                        }
+                    }
+                },
+                {
+                    "scene_type": "Countryside Road",
+                    "plausibility": 0.85,
+                    "reasoning": "A soldier is marching or resting by a road. He has a backpack. He uses a sunshade (like a parasol) for protection. A lamb crosses the road.",
+                    "object_interpretations": {
+                        "sunshade": {
+                            "form": "parasol",
+                            "scale": "handheld",
+                            "role": "personal accessory"
+                        },
+                        "backpack": {
+                            "form": "military pack",
+                            "scale": "normal",
+                            "role": "luggage"
+                        },
+                        "soldier": {
+                            "form": "traveler",
+                            "scale": "normal",
+                            "role": "main figure"
+                        },
+                        "lamb": {
+                            "form": "stray animal",
+                            "scale": "normal",
+                            "role": "obstacle/creature"
+                        }
+                    }
+                },
+                {
+                    "scene_type": "Military Base Courtyard",
+                    "plausibility": 0.8,
+                    "reasoning": "A soldier is on break in a courtyard. A sunshade covers a table. A backpack is on the ground. A lamb is a camp mascot.",
+                    "object_interpretations": {
+                        "sunshade": {
+                            "form": "patio umbrella",
+                            "scale": "large",
+                            "role": "furniture"
+                        },
+                        "backpack": {
+                            "form": "gear bag",
+                            "scale": "normal",
+                            "role": "equipment"
+                        },
+                        "soldier": {
+                            "form": "uniformed personnel",
+                            "scale": "normal",
+                            "role": "resting figure"
+                        },
+                        "lamb": {
+                            "form": "pet",
+                            "scale": "normal",
+                            "role": "mascot"
+                        }
+                    }
+                },
+                {
+                    "scene_type": "Surreal Dreamscape",
+                    "plausibility": 0.7,
+                    "reasoning": "Due to Impressionism, the objects blend. A giant sunshade floats. A soldier marches on a cloud. A backpack floats. A lamb is oversized.",
+                    "object_interpretations": {
+                        "sunshade": {
+                            "form": "abstract shape",
+                            "scale": "variable",
+                            "role": "floating anchor"
+                        },
+                        "backpack": {
+                            "form": "floating object",
+                            "scale": "variable",
+                            "role": "symbolic weight"
+                        },
+                        "soldier": {
+                            "form": "silhouette",
+                            "scale": "variable",
+                            "role": "dream figure"
+                        },
+                        "lamb": {
+                            "form": "ghostly animal",
+                            "scale": "large",
+                            "role": "surreal presence"
+                        }
+                    }
+                }
+            ],
+            "selected_scene": {
+                "scene_type": "War Trench",
+                "plausibility": 0.85,
+                "reasoning": "A sunshade could be a makeshift camouflage or parasol in a trench. The soldier is the main figure. A backpack is standard gear. A lamb might be a stray animal wandering the battlefield or a soldier's mascot.",
+                "object_interpretations": {
+                    "sunshade": {
+                        "form": "makeshift camouflage net/parasol",
+                        "scale": "large",
+                        "role": "cover/shelter"
+                    },
+                    "backpack": {
+                        "form": "military rucksack",
+                        "scale": "normal",
+                        "role": "equipment"
+                    },
+                    "soldier": {
+                        "form": "real combatant",
+                        "scale": "normal",
+                        "role": "primary subject"
+                    },
+                    "lamb": {
+                        "form": "real animal",
+                        "scale": "normal",
+                        "role": "mascot/stray"
+                    }
+                },
+                "scene_brief": "A War Trench featuring sunshade, with backpack, soldier, and lamb"
+            }
+        }
+    },
+    "final_prompts": {
+        "main_prompt": "A Impressionism painting depicting a bright and active yet subdued and gentle afternoon scene. In the foreground, a large soldier in khaki and muted tan stands alert and active, with a medium-sized dusty olive and charcoal backpack worn and weathered on his back. Beside the soldier, a medium-sized lamb in creamy white and warm ivory wool remains calm and still. Behind the soldier, a medium-sized sunshade in muted ochre and pale gray stands weathered and functional, casting a soft shadow. The natural soft afternoon light filters through the scene, creating dappled patterns on the canvas-like ground, with brushstrokes capturing the interplay of fabric, metal, and wool textures in a cohesive, narrative composition.",
+        "negative_prompt": "photorealistic, 3d render, modern, digital art, photograph, low quality, blurry, distorted, cartoon, anime, surreal, abstract, text, watermark, signature, frame, border",
+        "prompt_formats": {
+            "simple": "An Impressionism painting of a soldier with a backpack, a lamb beside him, and a sunshade behind, in a soft afternoon light.",
+            "complex": "A Impressionism painting depicting a bright and active yet subdued and gentle afternoon scene. In the foreground, a large soldier in khaki and muted tan stands alert and active, with a medium-sized dusty olive and charcoal backpack worn and weathered on his back. Beside the soldier, a medium-sized lamb in creamy white and warm ivory wool remains calm and still. Behind the soldier, a medium-sized sunshade in muted ochre and pale gray stands weathered and functional, casting a soft shadow. The natural soft afternoon light filters through the scene, creating dappled patterns on the canvas-like ground, with brushstrokes capturing the interplay of fabric, metal, and wool textures in a cohesive, narrative composition.",
+            "comma_separated": "Impressionism painting, soldier, backpack, lamb, sunshade, large alert soldier, medium worn backpack, medium calm lamb, medium weathered sunshade, khaki, dusty olive, creamy white, muted ochre, soft afternoon lighting, bright active subdued gentle atmosphere, natural light, dappled patterns, fabric metal wool textures",
+            "tags": "art, painting, impressionism, soldier, lamb, backpack, sunshade, afternoon, soft lighting, natural light, brushstrokes, texture, narrative, cohesive, foreground, midground, background"
+        }
+    }
+}

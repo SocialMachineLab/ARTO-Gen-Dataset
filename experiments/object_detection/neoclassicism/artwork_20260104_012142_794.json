@@ -1,0 +1,303 @@
+{
+    "artwork_id": "artwork_20260104_012142_794",
+    "generation_timestamp": "2026-01-04T01:22:28.823431",
+    "style": "Neoclassicism",
+    "objects": {
+        "object_ids": [
+            46,
+            54,
+            15
+        ],
+        "object_names": [
+            "plate",
+            "pie",
+            "parrot"
+        ],
+        "enhanced_objects": [
+            {
+                "object_id": 46,
+                "name": "plate",
+                "artistic_description": "A pristine white ceramic plate with a subtle celadon glaze that catches the cool, diffused afternoon light filtering through the studio windows. The surface exhibits a delicate luminosity, with soft highlights dancing across its gentle curve, while the cloudy atmosphere prevents harsh reflections, creating a matte yet refined appearance reminiscent of classical still life paintings.",
+                "size": "Medium",
+                "state": "pristine and clean",
+                "primary_colors": [
+                    "ivory white",
+                    "celadon green"
+                ],
+                "material": "ceramic"
+            },
+            {
+                "object_id": 54,
+                "name": "pie",
+                "artistic_description": "A rustic lattice-top pie with golden-brown pastry that glows warmly despite the cool natural light, its crust dusted with crystalline sugar that sparkles like tiny diamonds. The filling peeks through the woven crust in deep amber and burgundy tones, while the cloudy conditions create soft, diffused shadows that emphasize the flaky texture and artisanal craftsmanship of the hand-crimped edges.",
+                "size": "Medium",
+                "state": "freshly baked and inviting",
+                "primary_colors": [
+                    "golden brown",
+                    "amber"
+                ],
+                "material": ""
+            },
+            {
+                "object_id": 15,
+                "name": "parrot",
+                "artistic_description": "A sculpted parrot model rendered in polished bronze with verdigris patina accents, its form capturing the elegant neoclassical idealization of nature. The cool, overcast light plays across its metallic surface, creating subtle gradations from deep forest green to bright emerald where the patina has been burnished, while the subdued studio atmosphere lends the piece a contemplative, museum-like quality.",
+                "size": "Small",
+                "state": "artfully aged with patina",
+                "primary_colors": [
+                    "emerald green",
+                    "deep bronze"
+                ],
+                "material": "bronze"
+            }
+        ]
+    },
+    "composition": {
+        "spatial_relations": [
+            [
+                46,
+                "on",
+                54
+            ],
+            [
+                15,
+                "next to",
+                54
+            ]
+        ],
+        "semantic_relations": []
+    },
+    "environment": {
+        "environment_details": {
+            "scene_brief": "A Art Studio featuring plate, with pie, and parrot model",
+            "place365_name": "/a/art_studio",
+            "place365_id": 21,
+            "time_of_day": "afternoon",
+            "weather": "cloudy",
+            "period": "Contemporary",
+            "is_indoor": true,
+            "lighting": {
+                "type": "natural",
+                "quality": "soft",
+                "direction": "side-lit",
+                "mood": "neutral",
+                "reasoning": "Cloudy afternoon light creates a soft, neutral, and diffused illumination. A side-lit direction (typical of a studio window) would sculpt the forms of the objects (plate, pie, parrot model) with gentle gradients, emphasizing volume and texture without dramatic contrast, which suits the Neoclassical style's emphasis on clarity and idealized form."
+            },
+            "atmosphere": "bright and active and subdued and gentle"
+        },
+        "scene_inference": {
+            "all_candidates": [
+                {
+                    "scene_type": "Dining Room",
+                    "plausibility": 0.95,
+                    "reasoning": "A formal dining setting is the most natural habitat for a plate. A parrot can be a pet allowed in the room or a subject of a painting on the wall. A pie is a typical course served on a plate.",
+                    "object_interpretations": {
+                        "plate": {
+                            "form": "real ceramic plate",
+                            "scale": "normal",
+                            "role": "table setting element"
+                        },
+                        "pie": {
+                            "form": "real baked pie",
+                            "scale": "normal",
+                            "role": "food served on the plate"
+                        },
+                        "parrot": {
+                            "form": "live pet bird",
+                            "scale": "normal",
+                            "role": "companion or decorative element"
+                        }
+                    }
+                },
+                {
+                    "scene_type": "Kitchen",
+                    "plausibility": 0.9,
+                    "reasoning": "The kitchen is where food is prepared. A pie is cooling on a counter, a plate is ready to serve it, and a parrot is a common household pet.",
+                    "object_interpretations": {
+                        "plate": {
+                            "form": "plain ceramic plate",
+                            "scale": "normal",
+                            "role": "serving vessel"
+                        },
+                        "pie": {
+                            "form": "freshly baked pie",
+                            "scale": "normal",
+                            "role": "finished product"
+                        },
+                        "parrot": {
+                            "form": "caged pet",
+                            "scale": "normal",
+                            "role": "kitchen pet"
+                        }
+                    }
+                },
+                {
+                    "scene_type": "Still Life Painting",
+                    "plausibility": 0.9,
+                    "reasoning": "Neoclassicism is famous for still life paintings. A plate with a slice of pie and a parrot as a decorative element or part of the composition fits perfectly.",
+                    "object_interpretations": {
+                        "plate": {
+                            "form": "painted object",
+                            "scale": "life-size representation",
+                            "role": "central subject"
+                        },
+                        "pie": {
+                            "form": "painted object",
+                            "scale": "life-size representation",
+                            "role": "food subject"
+                        },
+                        "parrot": {
+                            "form": "painted object",
+                            "scale": "life-size representation",
+                            "role": "decorative accent"
+                        }
+                    }
+                },
+                {
+                    "scene_type": "Conservatory",
+                    "plausibility": 0.85,
+                    "reasoning": "A glass conservatory is a place for exotic plants and birds. A parrot fits naturally. A plate of pie suggests a tea or light meal setting.",
+                    "object_interpretations": {
+                        "plate": {
+                            "form": "fine china plate",
+                            "scale": "normal",
+                            "role": "tableware"
+                        },
+                        "pie": {
+                            "form": "dessert",
+                            "scale": "normal",
+                            "role": "refreshment"
+                        },
+                        "parrot": {
+                            "form": "wild or domestic bird",
+                            "scale": "normal",
+                            "role": "environmental inhabitant"
+                        }
+                    }
+                },
+                {
+                    "scene_type": "Formal Banquet",
+                    "plausibility": 0.8,
+                    "reasoning": "A grand event. The plate is set for a guest. The pie is a banquet dessert. The parrot might be a performer or a caged decoration.",
+                    "object_interpretations": {
+                        "plate": {
+                            "form": "silver or porcelain charger",
+                            "scale": "large/normal",
+                            "role": "formal tableware"
+                        },
+                        "pie": {
+                            "form": "individual tart",
+                            "scale": "small",
+                            "role": "dessert course"
+                        },
+                        "parrot": {
+                            "form": "costumed performer",
+                            "scale": "normal",
+                            "role": "entertainment"
+                        }
+                    }
+                },
+                {
+                    "scene_type": "Victorian Parlor",
+                    "plausibility": 0.8,
+                    "reasoning": "A domestic scene. The parrot is a classic Victorian pet in a cage. The plate and pie indicate a meal being taken or cleared.",
+                    "object_interpretations": {
+                        "plate": {
+                            "form": "used dinner plate",
+                            "scale": "normal",
+                            "role": "post-meal object"
+                        },
+                        "pie": {
+                            "form": "slice of pie",
+                            "scale": "normal",
+                            "role": "remaining food"
+                        },
+                        "parrot": {
+                            "form": "caged bird",
+                            "scale": "normal",
+                            "role": "room decoration"
+                        }
+                    }
+                },
+                {
+                    "scene_type": "Art Studio",
+                    "plausibility": 0.75,
+                    "reasoning": "An artist's setup for a still life. The objects are arranged on a table to be painted in the Neoclassical style.",
+                    "object_interpretations": {
+                        "plate": {
+                            "form": "prop",
+                            "scale": "normal",
+                            "role": "art subject"
+                        },
+                        "pie": {
+                            "form": "prop",
+                            "scale": "normal",
+                            "role": "art subject"
+                        },
+                        "parrot": {
+                            "form": "live model",
+                            "scale": "normal",
+                            "role": "art subject"
+                        }
+                    },
+                    "scene_brief": "A Art Studio featuring plate, with pie, and parrot model"
+                },
+                {
+                    "scene_type": "Outdoor Garden Picnic",
+                    "plausibility": 0.7,
+                    "reasoning": "A picnic setting. The plate holds the pie. A parrot could be a wild bird in a tree or a pet accompanying the picnic.",
+                    "object_interpretations": {
+                        "plate": {
+                            "form": "portable plate",
+                            "scale": "normal",
+                            "role": "picnic ware"
+                        },
+                        "pie": {
+                            "form": "picnic pie",
+                            "scale": "normal",
+                            "role": "meal"
+                        },
+                        "parrot": {
+                            "form": "wild bird",
+                            "scale": "normal",
+                            "role": "bystander"
+                        }
+                    }
+                }
+            ],
+            "selected_scene": {
+                "scene_type": "Art Studio",
+                "plausibility": 0.75,
+                "reasoning": "An artist's setup for a still life. The objects are arranged on a table to be painted in the Neoclassical style.",
+                "object_interpretations": {
+                    "plate": {
+                        "form": "prop",
+                        "scale": "normal",
+                        "role": "art subject"
+                    },
+                    "pie": {
+                        "form": "prop",
+                        "scale": "normal",
+                        "role": "art subject"
+                    },
+                    "parrot": {
+                        "form": "live model",
+                        "scale": "normal",
+                        "role": "art subject"
+                    }
+                },
+                "scene_brief": "A Art Studio featuring plate, with pie, and parrot model"
+            }
+        }
+    },
+    "final_prompts": {
+        "main_prompt": "A Neoclassicism painting depicting a serene afternoon scene with precise spatial organization. In the foreground, a medium-sized ivory white and celadon green ceramic plate sits pristine and clean atop a freshly baked golden brown and amber pie of similar medium size, its inviting surface glistening. Beside this arrangement, in the midground, rests a small emerald green and deep bronze parrot with an artfully aged patina, positioned next to the pie. The background features a classical interior with soft, natural afternoon light streaming through a window, casting gentle shadows and creating a bright, active yet subdued and gentle atmosphere that highlights the harmonious composition and refined textures of the ceramic and bronze materials.",
+        "negative_prompt": "photorealistic, 3d render, modern, digital art, photograph, low quality, blurry, distorted, surreal, abstract, cartoon, anime, watermark, signature, text, frame, border, ugly, deformed, noisy",
+        "prompt_formats": {
+            "simple": "A Neoclassical painting of a plate on a pie with a parrot beside them in soft afternoon light.",
+            "complex": "A Neoclassicism painting depicting a serene afternoon scene with precise spatial organization. In the foreground, a medium-sized ivory white and celadon green ceramic plate sits pristine and clean atop a freshly baked golden brown and amber pie of similar medium size, its inviting surface glistening. Beside this arrangement, in the midground, rests a small emerald green and deep bronze parrot with an artfully aged patina, positioned next to the pie. The background features a classical interior with soft, natural afternoon light streaming through a window, casting gentle shadows and creating a bright, active yet subdued and gentle atmosphere that highlights the harmonious composition and refined textures of the ceramic and bronze materials.",
+            "comma_separated": "Neoclassicism painting, plate on pie, parrot next to pie, ivory white celadon green plate, golden brown amber pie, emerald green bronze parrot, soft natural afternoon lighting, bright active subdued gentle atmosphere, classical interior, ceramic, bronze, pristine, freshly baked, aged patina",
+            "tags": "art, painting, neoclassicism, still life, plate, pie, parrot, ceramic, bronze, afternoon light, classical, serene, detailed, textured"
+        }
+    }
+}

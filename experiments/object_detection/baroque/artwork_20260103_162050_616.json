@@ -1,0 +1,421 @@
+{
+    "artwork_id": "artwork_20260103_162050_616",
+    "generation_timestamp": "2026-01-03T16:21:33.172378",
+    "style": "Baroque",
+    "objects": {
+        "object_ids": [
+            72,
+            50,
+            28,
+            49
+        ],
+        "object_names": [
+            "kitchen sink",
+            "orange",
+            "tie",
+            "bread"
+        ],
+        "enhanced_objects": [
+            {
+                "object_id": 72,
+                "name": "kitchen sink",
+                "artistic_description": "A massive, weathered stone basin with deep grooves and worn edges, its surface cool and slightly damp from recent use, capturing the soft, diffused morning light that filters through the cloudy sky, creating subtle highlights on the mineral deposits and etched wear patterns",
+                "size": "Large",
+                "state": "worn and water-stained from daily use",
+                "primary_colors": [
+                    "weathered gray",
+                    "damp slate"
+                ],
+                "material": "stone"
+            },
+            {
+                "object_id": 50,
+                "name": "orange",
+                "artistic_description": "A vibrant citrus fruit with a textured, dimpled rind that glows with luminous amber and golden tones, its waxy surface catching the cool natural light with soft, diffused highlights, the color saturated and jewel-like against the muted background",
+                "size": "Small",
+                "state": "fresh and perfectly ripe",
+                "primary_colors": [
+                    "luminous amber",
+                    "warm golden-orange"
+                ],
+                "material": "fruit rind"
+            },
+            {
+                "object_id": 28,
+                "name": "tie",
+                "artistic_description": "A richly patterned silk necktie with subtle brocade weaving, its deep crimson and gold threads shimmering with a soft, luxurious sheen in the subdued morning light, the fabric draping with elegant folds that catch cool highlights along the crests",
+                "size": "Small",
+                "state": "carefully draped and slightly rumpled",
+                "primary_colors": [
+                    "deep crimson",
+                    "antique gold"
+                ],
+                "material": "silk"
+            },
+            {
+                "object_id": 49,
+                "name": "bread",
+                "artistic_description": "A rustic, crusty loaf with a golden-brown, flour-dusted crust that appears matte and warm-toned in the cloudy light, the surface showing delicate scoring marks and a soft, matte texture that absorbs rather than reflects the ambient illumination",
+                "size": "Medium",
+                "state": "freshly baked with a crisp crust",
+                "primary_colors": [
+                    "warm golden-brown",
+                    "soft wheat"
+                ],
+                "material": "bread"
+            }
+        ]
+    },
+    "composition": {
+        "spatial_relations": [
+            [
+                50,
+                "on",
+                72
+            ],
+            [
+                49,
+                "on",
+                72
+            ],
+            [
+                28,
+                "on",
+                72
+            ]
+        ],
+        "semantic_relations": []
+    },
+    "environment": {
+        "environment_details": {
+            "scene_brief": "A Baroque Kitchen with Servants featuring kitchen sink, with orange, tie, and bread",
+            "place365_name": "/k/kitchen",
+            "place365_id": 203,
+            "time_of_day": "morning",
+            "weather": "cloudy",
+            "period": "Early modern",
+            "is_indoor": true,
+            "lighting": {
+                "type": "natural",
+                "quality": "dramatic",
+                "direction": "side-lit",
+                "mood": "cool",
+                "reasoning": "Baroque art relies on high contrast (Chiaroscuro) to create drama and volume. A 'side-lit' setup from a window (implied by the weather choice) allows light to rake across the kitchen surfaces, highlighting the texture of the bread, the peel of the orange, and the fabric of the tie, while casting the rest of the room in deep, atmospheric shadow. The 'cloudy' weather creates a 'cool' mood, contrasting with the warm tones of the objects."
+            },
+            "atmosphere": "fresh and energetic and subdued and striking"
+        },
+        "scene_inference": {
+            "all_candidates": [
+                {
+                    "scene_type": "Baroque Kitchen Still Life",
+                    "plausibility": 0.95,
+                    "reasoning": "A classic kitchen scene with a stone sink as the centerpiece. An orange sits on the counter, a tie is draped over a chair, and a loaf of bread rests on a wooden board, creating a rich, textured composition typical of Baroque art.",
+                    "object_interpretations": {
+                        "kitchen sink": {
+                            "form": "real stone sink",
+                            "scale": "normal",
+                            "role": "primary functional object"
+                        },
+                        "orange": {
+                            "form": "real fruit",
+                            "scale": "normal",
+                            "role": "food item"
+                        },
+                        "tie": {
+                            "form": "real silk tie",
+                            "scale": "normal",
+                            "role": "decorative element"
+                        },
+                        "bread": {
+                            "form": "real loaf",
+                            "scale": "normal",
+                            "role": "food item"
+                        }
+                    }
+                },
+                {
+                    "scene_type": "Grand Manor Kitchen",
+                    "plausibility": 0.92,
+                    "reasoning": "An opulent kitchen in a Baroque manor. The sink is a large, ornate copper basin. A tie is part of a servant's uniform hanging on a hook, an orange is a luxury fruit in a bowl, and bread is prepared for the master's table.",
+                    "object_interpretations": {
+                        "kitchen sink": {
+                            "form": "ornate copper basin",
+                            "scale": "large",
+                            "role": "luxury fixture"
+                        },
+                        "orange": {
+                            "form": "fresh fruit",
+                            "scale": "normal",
+                            "role": "luxury food"
+                        },
+                        "tie": {
+                            "form": "uniform accessory",
+                            "scale": "normal",
+                            "role": "clothing element"
+                        },
+                        "bread": {
+                            "form": "artisanal loaf",
+                            "scale": "normal",
+                            "role": "staple food"
+                        }
+                    }
+                },
+                {
+                    "scene_type": "Baroque Market Kitchen",
+                    "plausibility": 0.88,
+                    "reasoning": "A bustling kitchen connected to a market. The sink is used for washing produce. Oranges are in crates, a merchant's tie is visible, and fresh bread is stacked on shelves.",
+                    "object_interpretations": {
+                        "kitchen sink": {
+                            "form": "functional utility sink",
+                            "scale": "normal",
+                            "role": "workstation"
+                        },
+                        "orange": {
+                            "form": "crate of fruit",
+                            "scale": "multiple",
+                            "role": "commodity"
+                        },
+                        "tie": {
+                            "form": "merchant's neckwear",
+                            "scale": "normal",
+                            "role": "character detail"
+                        },
+                        "bread": {
+                            "form": "stacked loaves",
+                            "scale": "multiple",
+                            "role": "bakery goods"
+                        }
+                    }
+                },
+                {
+                    "scene_type": "Dramatic Kitchen Interior",
+                    "plausibility": 0.85,
+                    "reasoning": "A chiaroscuro scene with dramatic lighting. The sink is in shadow, an orange is illuminated on the counter, a tie is draped dramatically across a basin, and bread is on a cutting board in the foreground.",
+                    "object_interpretations": {
+                        "kitchen sink": {
+                            "form": "stone sink",
+                            "scale": "normal",
+                            "role": "background element"
+                        },
+                        "orange": {
+                            "form": "single fruit",
+                            "scale": "normal",
+                            "role": "focal point"
+                        },
+                        "tie": {
+                            "form": "silk fabric",
+                            "scale": "normal",
+                            "role": "textural element"
+                        },
+                        "bread": {
+                            "form": "fresh loaf",
+                            "scale": "normal",
+                            "role": "still life subject"
+                        }
+                    }
+                },
+                {
+                    "scene_type": "Baroque Still Life Painting",
+                    "plausibility": 0.9,
+                    "reasoning": "A painted composition on canvas. The sink is depicted in a detailed architectural drawing on the wall. The orange, tie, and bread are arranged on a table as a traditional still life arrangement.",
+                    "object_interpretations": {
+                        "kitchen sink": {
+                            "form": "painting of sink",
+                            "scale": "small (wall art)",
+                            "role": "background art"
+                        },
+                        "orange": {
+                            "form": "real fruit",
+                            "scale": "normal",
+                            "role": "still life subject"
+                        },
+                        "tie": {
+                            "form": "draped fabric",
+                            "scale": "normal",
+                            "role": "still life subject"
+                        },
+                        "bread": {
+                            "form": "real loaf",
+                            "scale": "normal",
+                            "role": "still life subject"
+                        }
+                    }
+                },
+                {
+                    "scene_type": "Kitchen Pantry",
+                    "plausibility": 0.87,
+                    "reasoning": "A well-stocked pantry with a utility sink. Oranges are in a fruit bowl, a tie is hung on a door hook, and bread is in a bread box near the sink.",
+                    "object_interpretations": {
+                        "kitchen sink": {
+                            "form": "small utility sink",
+                            "scale": "normal",
+                            "role": "utility fixture"
+                        },
+                        "orange": {
+                            "form": "fruit in bowl",
+                            "scale": "normal",
+                            "role": "stored food"
+                        },
+                        "tie": {
+                            "form": "hanging accessory",
+                            "scale": "normal",
+                            "role": "decorative detail"
+                        },
+                        "bread": {
+                            "form": "bread box contents",
+                            "scale": "normal",
+                            "role": "stored food"
+                        }
+                    }
+                },
+                {
+                    "scene_type": "Baroque Kitchen with Servants",
+                    "plausibility": 0.82,
+                    "reasoning": "A busy kitchen scene with servants. The sink is central for washing. A servant's tie is part of their attire, oranges are being prepared, and bread is being sliced.",
+                    "object_interpretations": {
+                        "kitchen sink": {
+                            "form": "large stone sink",
+                            "scale": "normal",
+                            "role": "workstation"
+                        },
+                        "orange": {
+                            "form": "fruit being peeled",
+                            "scale": "normal",
+                            "role": "food preparation"
+                        },
+                        "tie": {
+                            "form": "servant's necktie",
+                            "scale": "normal",
+                            "role": "uniform component"
+                        },
+                        "bread": {
+                            "form": "sliced loaf",
+                            "scale": "normal",
+                            "role": "prepared food"
+                        }
+                    },
+                    "scene_brief": "A Baroque Kitchen with Servants featuring kitchen sink, with orange, tie, and bread"
+                },
+                {
+                    "scene_type": "Kitchen with Decorative Elements",
+                    "plausibility": 0.89,
+                    "reasoning": "A decorative kitchen setting. The sink is ornate, an orange is in a silver bowl, a tie is used as a decorative napkin ring, and bread is on a silver platter.",
+                    "object_interpretations": {
+                        "kitchen sink": {
+                            "form": "ornate sink",
+                            "scale": "normal",
+                            "role": "decorative fixture"
+                        },
+                        "orange": {
+                            "form": "fruit in silver bowl",
+                            "scale": "normal",
+                            "role": "decorative food"
+                        },
+                        "tie": {
+                            "form": "fabric napkin ring",
+                            "scale": "small",
+                            "role": "decorative accessory"
+                        },
+                        "bread": {
+                            "form": "artisanal loaf",
+                            "scale": "normal",
+                            "role": "decorative food"
+                        }
+                    }
+                },
+                {
+                    "scene_type": "Baroque Kitchen Still Life with Skull",
+                    "plausibility": 0.8,
+                    "reasoning": "A memento mori style still life. The sink is present, an orange is peeled, a tie is draped, and bread is on a plate, with symbolic elements.",
+                    "object_interpretations": {
+                        "kitchen sink": {
+                            "form": "stone sink",
+                            "scale": "normal",
+                            "role": "background element"
+                        },
+                        "orange": {
+                            "form": "peeled fruit",
+                            "scale": "normal",
+                            "role": "symbolic element"
+                        },
+                        "tie": {
+                            "form": "draped fabric",
+                            "scale": "normal",
+                            "role": "textural element"
+                        },
+                        "bread": {
+                            "form": "loaf",
+                            "scale": "normal",
+                            "role": "symbolic element"
+                        }
+                    }
+                },
+                {
+                    "scene_type": "Kitchen with Open Window",
+                    "plausibility": 0.83,
+                    "reasoning": "A kitchen with a view. The sink is under a window, an orange is on the sill, a tie is drying on a line, and bread is on the counter.",
+                    "object_interpretations": {
+                        "kitchen sink": {
+                            "form": "sink under window",
+                            "scale": "normal",
+                            "role": "primary fixture"
+                        },
+                        "orange": {
+                            "form": "fruit on sill",
+                            "scale": "normal",
+                            "role": "decorative detail"
+                        },
+                        "tie": {
+                            "form": "drying laundry",
+                            "scale": "normal",
+                            "role": "domestic detail"
+                        },
+                        "bread": {
+                            "form": "fresh loaf",
+                            "scale": "normal",
+                            "role": "food item"
+                        }
+                    }
+                }
+            ],
+            "selected_scene": {
+                "scene_type": "Baroque Kitchen with Servants",
+                "plausibility": 0.82,
+                "reasoning": "A busy kitchen scene with servants. The sink is central for washing. A servant's tie is part of their attire, oranges are being prepared, and bread is being sliced.",
+                "object_interpretations": {
+                    "kitchen sink": {
+                        "form": "large stone sink",
+                        "scale": "normal",
+                        "role": "workstation"
+                    },
+                    "orange": {
+                        "form": "fruit being peeled",
+                        "scale": "normal",
+                        "role": "food preparation"
+                    },
+                    "tie": {
+                        "form": "servant's necktie",
+                        "scale": "normal",
+                        "role": "uniform component"
+                    },
+                    "bread": {
+                        "form": "sliced loaf",
+                        "scale": "normal",
+                        "role": "prepared food"
+                    }
+                },
+                "scene_brief": "A Baroque Kitchen with Servants featuring kitchen sink, with orange, tie, and bread"
+            }
+        }
+    },
+    "final_prompts": {
+        "main_prompt": "A Baroque painting depicting a large, weathered gray kitchen sink of damp slate, worn and water-stained from daily use, dominating the foreground. Upon its worn surface rests a small, luminous amber orange with warm golden-orange hues, fresh and perfectly ripe, positioned beside a medium-sized loaf of warm golden-brown bread with a soft wheat interior and crisp crust, freshly baked. Draped carefully across the sink's edge is a small, deep crimson tie with antique gold accents, slightly rumpled as if recently placed. The composition is bathed in dramatic natural morning light streaming through a nearby window, casting deep shadows and brilliant highlights that create a fresh and energetic yet subdued and striking atmosphere, emphasizing the textures of stone, fruit rind, silk, and bread in a moment of quiet domestic grandeur.",
+        "negative_prompt": "photorealistic, 3d render, modern, digital art, photograph, low quality, blurry, distorted, cartoon, anime, abstract, surreal, ugly, deformed, bad anatomy, text, watermark, signature",
+        "prompt_formats": {
+            "simple": "A Baroque painting of a kitchen sink with an orange, bread, and a tie arranged upon it in dramatic morning light.",
+            "complex": "A Baroque painting depicting a large, weathered gray kitchen sink of damp slate, worn and water-stained from daily use, dominating the foreground. Upon its worn surface rests a small, luminous amber orange with warm golden-orange hues, fresh and perfectly ripe, positioned beside a medium-sized loaf of warm golden-brown bread with a soft wheat interior and crisp crust, freshly baked. Draped carefully across the sink's edge is a small, deep crimson tie with antique gold accents, slightly rumpled as if recently placed. The composition is bathed in dramatic natural morning light streaming through a nearby window, casting deep shadows and brilliant highlights that create a fresh and energetic yet subdued and striking atmosphere, emphasizing the textures of stone, fruit rind, silk, and bread in a moment of quiet domestic grandeur.",
+            "comma_separated": "Baroque painting, kitchen sink, orange, tie, bread, large weathered gray sink, small luminous amber orange, medium golden-brown bread, small crimson tie, dramatic morning lighting, fresh energetic subdued striking atmosphere, textures of stone fruit rind silk bread, chiaroscuro, domestic scene",
+            "tags": "art, painting, baroque, still life, kitchen, sink, orange, bread, tie, morning light, chiaroscuro, texture, domestic, dramatic lighting, classical art"
+        }
+    }
+}

@@ -1,0 +1,303 @@
+{
+    "artwork_id": "artwork_20260104_002453_426",
+    "generation_timestamp": "2026-01-04T00:25:22.388782",
+    "style": "Impressionism",
+    "objects": {
+        "object_ids": [
+            33,
+            52,
+            26
+        ],
+        "object_names": [
+            "ball",
+            "turnip",
+            "sunshade"
+        ],
+        "enhanced_objects": [
+            {
+                "object_id": 33,
+                "name": "ball",
+                "artistic_description": "A bright red rubber sphere that catches the natural afternoon light with a warm, luminous glow. The surface shows soft, impressionistic dabs of crimson, scarlet, and subtle orange highlights where sunlight directly strikes, while shadowed areas fade into deeper burgundy tones. The glossy material creates gentle reflections of the surrounding market atmosphere, with slight atmospheric haze softening the edges. Tiny specks of dust and wear create texture variations across its surface, rendered as delicate pointillist touches.",
+                "size": "Medium",
+                "state": "gently worn from play, slightly dusty from market display",
+                "primary_colors": [
+                    "crimson",
+                    "scarlet"
+                ],
+                "material": "rubber"
+            },
+            {
+                "object_id": 52,
+                "name": "turnip",
+                "artistic_description": "A cluster of earthy root vegetables with creamy white bulbs emerging from muted violet-green shoulders, their surfaces rendered in loose, painterly strokes. Natural afternoon light bathes them in warm, golden tones that soften the stark whites into buttery cream and transform the violet hues into dusty lavender. The matte, slightly textured skin absorbs light gently, showing subtle variations of beige, taupe, and shadowy browns where soil still clings. Impressionistic daubs of pale green tops wither delicately, adding organic texture and earthy authenticity.",
+                "size": "Medium",
+                "state": "freshly harvested, showing natural soil patina and slight wilting",
+                "primary_colors": [
+                    "creamy white",
+                    "muted violet"
+                ],
+                "material": "vegetable"
+            },
+            {
+                "object_id": 26,
+                "name": "sunshade",
+                "artistic_description": "A vibrant canvas canopy suspended in the bright atmosphere, its fabric rendered as a shimmering plane of warm ochre and golden yellow strokes. The natural light filters through the woven material, creating a dappled glow of translucent amber and honey tones on the underside. Direct sunlight transforms the upper surface into brilliant flashes of pale lemon and white, while the fabric's gentle movement is captured through soft, blended edges and atmospheric perspective. Loose brushwork suggests the cheerful, billowing form with subtle hints of weathered stitching and sun-faded patches.",
+                "size": "Large",
+                "state": "weathered from sun exposure, slightly faded but cheerful",
+                "primary_colors": [
+                    "golden ochre",
+                    "warm yellow"
+                ],
+                "material": "canvas"
+            }
+        ]
+    },
+    "composition": {
+        "spatial_relations": [
+            [
+                33,
+                "on",
+                52
+            ],
+            [
+                52,
+                "under",
+                26
+            ]
+        ],
+        "semantic_relations": []
+    },
+    "environment": {
+        "environment_details": {
+            "scene_brief": "A Country Market Stall featuring toy ball, with turnip, and sunshade",
+            "place365_name": "/m/market",
+            "place365_id": 21,
+            "time_of_day": "afternoon",
+            "weather": "sunny",
+            "period": "Contemporary",
+            "is_indoor": true,
+            "lighting": {
+                "type": "natural",
+                "quality": "soft",
+                "direction": "side-lit",
+                "mood": "warm",
+                "reasoning": "Afternoon sun filtered through a market sunshade creates soft, diffused, side-lit illumination. This reduces harsh shadows and allows for the blending of colors and light, fitting the Impressionist aesthetic perfectly."
+            },
+            "atmosphere": "bright and active and cheerful and gentle"
+        },
+        "scene_inference": {
+            "all_candidates": [
+                {
+                    "scene_type": "Summer Picnic",
+                    "plausibility": 0.95,
+                    "reasoning": "A grassy field suitable for playing ball. A sunshade provides relief from the sun. A turnip is part of a picnic spread, perhaps sliced or as part of a salad.",
+                    "object_interpretations": {
+                        "ball": {
+                            "form": "real ball",
+                            "scale": "normal",
+                            "role": "toy for recreation"
+                        },
+                        "sunshade": {
+                            "form": "real sunshade",
+                            "scale": "large",
+                            "role": "protection from elements"
+                        },
+                        "turnip": {
+                            "form": "real vegetable",
+                            "scale": "normal",
+                            "role": "food item"
+                        }
+                    }
+                },
+                {
+                    "scene_type": "Vegetable Garden",
+                    "plausibility": 0.9,
+                    "reasoning": "Turnips grow here. A child might play with a ball among the rows. A sunshade could be a small garden umbrella protecting seedlings or a seating area.",
+                    "object_interpretations": {
+                        "ball": {
+                            "form": "real ball",
+                            "scale": "normal",
+                            "role": "toy left by child"
+                        },
+                        "turnip": {
+                            "form": "real vegetable",
+                            "scale": "normal",
+                            "role": "garden crop"
+                        },
+                        "sunshade": {
+                            "form": "garden umbrella",
+                            "scale": "medium",
+                            "role": "shade for plants or seating"
+                        }
+                    }
+                },
+                {
+                    "scene_type": "Country Market Stall",
+                    "plausibility": 0.85,
+                    "reasoning": "Turnips are sold on the stall. A ball might be a toy for sale or dropped by a child. A sunshade protects the vendor and produce from the sun.",
+                    "object_interpretations": {
+                        "ball": {
+                            "form": "toy ball",
+                            "scale": "normal",
+                            "role": "merchandise or lost item"
+                        },
+                        "turnip": {
+                            "form": "fresh produce",
+                            "scale": "normal",
+                            "role": "item for sale"
+                        },
+                        "sunshade": {
+                            "form": "market canopy",
+                            "scale": "large",
+                            "role": "shade for stall"
+                        }
+                    },
+                    "scene_brief": "A Country Market Stall featuring toy ball, with turnip, and sunshade"
+                },
+                {
+                    "scene_type": "Backyard Garden",
+                    "plausibility": 0.9,
+                    "reasoning": "A turnip growing in the garden bed. A ball left on the grass nearby. A sunshade set up over a patio chair or kiddie pool.",
+                    "object_interpretations": {
+                        "ball": {
+                            "form": "real ball",
+                            "scale": "normal",
+                            "role": "outdoor toy"
+                        },
+                        "turnip": {
+                            "form": "root vegetable",
+                            "scale": "normal",
+                            "role": "garden produce"
+                        },
+                        "sunshade": {
+                            "form": "patio umbrella",
+                            "scale": "large",
+                            "role": "backyard shade"
+                        }
+                    }
+                },
+                {
+                    "scene_type": "Impressionist Painting - Garden Scene",
+                    "plausibility": 0.8,
+                    "reasoning": "In the Impressionist style, these objects are captured as subjects of light and color. A ball rests on the grass, a turnip is in a basket, and a sunshade adds a splash of color.",
+                    "object_interpretations": {
+                        "ball": {
+                            "form": "painted object",
+                            "scale": "normal",
+                            "role": "subject of composition"
+                        },
+                        "turnip": {
+                            "form": "painted object",
+                            "scale": "normal",
+                            "role": "subject of composition"
+                        },
+                        "sunshade": {
+                            "form": "painted object",
+                            "scale": "large",
+                            "role": "subject of composition"
+                        }
+                    }
+                },
+                {
+                    "scene_type": "Beach Day",
+                    "plausibility": 0.75,
+                    "reasoning": "A ball for beach games. A sunshade for shelter. A turnip might seem odd, but could be part of a packed lunch or a unique beach find.",
+                    "object_interpretations": {
+                        "ball": {
+                            "form": "beach ball",
+                            "scale": "large",
+                            "role": "toy"
+                        },
+                        "sunshade": {
+                            "form": "beach umbrella",
+                            "scale": "large",
+                            "role": "sun protection"
+                        },
+                        "turnip": {
+                            "form": "vegetable",
+                            "scale": "normal",
+                            "role": "food item or curiosity"
+                        }
+                    }
+                },
+                {
+                    "scene_type": "Farm Stand",
+                    "plausibility": 0.85,
+                    "reasoning": "Similar to a market, but specifically a farm stand. Turnips are piled up. A ball might be a child's toy. A sunshade protects the produce.",
+                    "object_interpretations": {
+                        "ball": {
+                            "form": "toy",
+                            "scale": "normal",
+                            "role": "plaything"
+                        },
+                        "turnip": {
+                            "form": "produce",
+                            "scale": "normal",
+                            "role": "main item for sale"
+                        },
+                        "sunshade": {
+                            "form": "awning",
+                            "scale": "large",
+                            "role": "shade"
+                        }
+                    }
+                },
+                {
+                    "scene_type": "Abstract Composition",
+                    "plausibility": 0.7,
+                    "reasoning": "Objects are deconstructed into shapes and colors. A round shape (ball), a bulbous shape (turnip), and a triangular shape (sunshade) interacting in a surreal space.",
+                    "object_interpretations": {
+                        "ball": {
+                            "form": "abstract shape",
+                            "scale": "variable",
+                            "role": "geometric element"
+                        },
+                        "turnip": {
+                            "form": "abstract shape",
+                            "scale": "variable",
+                            "role": "geometric element"
+                        },
+                        "sunshade": {
+                            "form": "abstract shape",
+                            "scale": "variable",
+                            "role": "geometric element"
+                        }
+                    }
+                }
+            ],
+            "selected_scene": {
+                "scene_type": "Country Market Stall",
+                "plausibility": 0.85,
+                "reasoning": "Turnips are sold on the stall. A ball might be a toy for sale or dropped by a child. A sunshade protects the vendor and produce from the sun.",
+                "object_interpretations": {
+                    "ball": {
+                        "form": "toy ball",
+                        "scale": "normal",
+                        "role": "merchandise or lost item"
+                    },
+                    "turnip": {
+                        "form": "fresh produce",
+                        "scale": "normal",
+                        "role": "item for sale"
+                    },
+                    "sunshade": {
+                        "form": "market canopy",
+                        "scale": "large",
+                        "role": "shade for stall"
+                    }
+                },
+                "scene_brief": "A Country Market Stall featuring toy ball, with turnip, and sunshade"
+            }
+        }
+    },
+    "final_prompts": {
+        "main_prompt": "A Impressionism painting depicting a bright and active afternoon scene with a gentle, cheerful atmosphere. In the foreground, a medium-sized, freshly harvested turnip in creamy white with muted violet hues rests on the ground. Balanced perfectly atop its rounded form is a medium crimson and scarlet rubber ball, its surface gently worn from play. Above them both, casting a warm, dappled shadow, stands a large sunshade in golden ochre and warm yellow tones, its canvas weathered from sun exposure. The soft, natural afternoon light filters through the sunshade, creating vibrant patches of color and light that dance across the scene, capturing the fleeting, joyful moment with loose, visible brushstrokes and a luminous quality characteristic of the Impressionist style.",
+        "negative_prompt": "photorealistic, 3d render, modern, digital art, photograph, low quality, blurry, distorted, ugly, deformed, text, watermark, signature, frame, border, cartoon, anime, hyperrealistic, surrealism, abstract",
+        "prompt_formats": {
+            "simple": "An Impressionist painting of a crimson ball resting on a creamy turnip under a golden sunshade on a bright, cheerful afternoon.",
+            "complex": "A Impressionism painting depicting a bright and active afternoon scene with a gentle, cheerful atmosphere. In the foreground, a medium-sized, freshly harvested turnip in creamy white with muted violet hues rests on the ground. Balanced perfectly atop its rounded form is a medium crimson and scarlet rubber ball, its surface gently worn from play. Above them both, casting a warm, dappled shadow, stands a large sunshade in golden ochre and warm yellow tones, its canvas weathered from sun exposure. The soft, natural afternoon light filters through the sunshade, creating vibrant patches of color and light that dance across the scene, capturing the fleeting, joyful moment with loose, visible brushstrokes and a luminous quality characteristic of the Impressionist style.",
+            "comma_separated": "Impressionism painting, bright active cheerful gentle atmosphere, soft natural afternoon lighting, medium crimson scarlet rubber ball gently worn, ball on turnip, medium creamy white muted violet turnip freshly harvested, large golden ochre warm yellow canvas sunshade weathered, turnip under sunshade, dappled light, loose visible brushstrokes, luminous, vibrant colors",
+            "tags": "art, painting, impressionism, still life, ball, turnip, sunshade, afternoon, soft light, cheerful, vibrant, Claude Monet style, Pierre-Auguste Renoir style, loose brushwork"
+        }
+    }
+}

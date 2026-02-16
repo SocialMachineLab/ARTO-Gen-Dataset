@@ -1,0 +1,324 @@
+{
+    "artwork_id": "artwork_20260103_173242_249",
+    "generation_timestamp": "2026-01-03T17:33:19.889731",
+    "style": "Impressionism",
+    "objects": {
+        "object_ids": [
+            48,
+            47,
+            10,
+            17
+        ],
+        "object_names": [
+            "strawberry",
+            "banana",
+            "lamp post",
+            "fox"
+        ],
+        "enhanced_objects": [
+            {
+                "object_id": 48,
+                "name": "strawberry",
+                "artistic_description": "Ruby-red berries glisten with golden sunset warmth, their surfaces catching scattered light that transforms them into luminous jewels. Soft, impressionistic dabs of crimson, amber, and coral create a vibrant mosaic where the boundary between fruit and light blurs. Tiny seeds catch the warm glow, while leafy green caps provide cool contrast against the heated tones. The skin appears velvety and slightly dewy from the dry heat, creating subtle highlights that dissolve into the surrounding atmosphere.",
+                "size": "Medium",
+                "state": "fresh and ripe, glistening with natural moisture",
+                "primary_colors": [
+                    "crimson",
+                    "golden amber"
+                ],
+                "material": "organic fruit"
+            },
+            {
+                "object_id": 47,
+                "name": "banana",
+                "artistic_description": "Curved yellow forms melt into the warm sunset air, their peels painted with broad, loose strokes of buttery gold, soft ochre, and gentle brown speckles. The impressionistic treatment dissolves hard edges into the glowing atmosphere, creating a sense of ripeness and sweetness. Sunlight transforms the yellow surface into a luminous, almost translucent quality where shadows are warm purples and the highlights burn with orange intensity.",
+                "size": "Medium",
+                "state": "perfectly ripe with gentle brown spots, slightly softened by warmth",
+                "primary_colors": [
+                    "golden yellow",
+                    "warm ochre"
+                ],
+                "material": "organic fruit"
+            },
+            {
+                "object_id": 10,
+                "name": "lamp post",
+                "artistic_description": "A tall silhouette emerges from the golden haze, its metal surface painted with impressionistic dabs of warm bronze, deep amber, and cool violet shadows. The sunset light catches along its vertical form, creating shimmering highlights that blend into the sky. The post appears weathered and soft-edged, as if dissolving into the warm atmosphere, with subtle reflections of the orange sky scattered across its aged metal surface.",
+                "size": "Large",
+                "state": "weathered with gentle patina, standing gracefully in the warm light",
+                "primary_colors": [
+                    "warm bronze",
+                    "deep amber"
+                ],
+                "material": "aged metal"
+            },
+            {
+                "object_id": 17,
+                "name": "fox",
+                "artistic_description": "Fiery orange fur blazes with sunset intensity, painted in loose, energetic strokes of rust, gold, and burnt sienna that merge with the warm atmosphere. The impressionistic treatment dissolves the edges of the creature into the golden light, creating a soft, ethereal presence. White chest fur glows with pale peach and cream tones, while the tail becomes a flowing brushstroke of warm color that seems to catch and hold the last rays of sun.",
+                "size": "Medium",
+                "state": "alert yet peaceful, fur glowing in the warm light",
+                "primary_colors": [
+                    "burnt orange",
+                    "golden rust"
+                ],
+                "material": "fur"
+            }
+        ]
+    },
+    "composition": {
+        "spatial_relations": [
+            [
+                48,
+                "on",
+                47
+            ],
+            [
+                47,
+                "next to",
+                10
+            ],
+            [
+                17,
+                "behind",
+                10
+            ],
+            [
+                17,
+                "next to",
+                47
+            ]
+        ],
+        "semantic_relations": [
+            [
+                17,
+                "watching",
+                48
+            ]
+        ]
+    },
+    "environment": {
+        "environment_details": {
+            "scene_brief": "A Whimsical Fruit Stand featuring strawberry, with banana, lamp post, and fox",
+            "place365_name": "/s/street",
+            "place365_id": 319,
+            "time_of_day": "sunset",
+            "weather": "sunny",
+            "period": "Contemporary",
+            "is_indoor": false,
+            "lighting": {
+                "type": "natural",
+                "quality": "soft",
+                "direction": "side-lit",
+                "mood": "warm",
+                "reasoning": "The setting sun (sunset) provides natural, warm, and soft lighting. The low angle of the sun at sunset creates beautiful side-lighting, casting long, soft shadows and highlighting the textures of the fruit stand and the fox, which is perfect for capturing the fleeting light effects of Impressionism."
+            },
+            "atmosphere": "warm and peaceful and cheerful and gentle"
+        },
+        "scene_inference": {
+            "all_candidates": [
+                {
+                    "scene_type": "Impressionist Market Stall",
+                    "plausibility": 0.95,
+                    "reasoning": "A vibrant outdoor market scene. The strawberry and banana are the main produce items for sale. A decorative lamp post stands nearby, casting soft light, and a curious fox approaches the stall.",
+                    "object_interpretations": {
+                        "strawberry": {
+                            "form": "real fruit",
+                            "scale": "normal",
+                            "role": "primary produce"
+                        },
+                        "banana": {
+                            "form": "real fruit",
+                            "scale": "normal",
+                            "role": "secondary produce"
+                        },
+                        "lamp post": {
+                            "form": "real street furniture",
+                            "scale": "normal",
+                            "role": "environmental structure"
+                        },
+                        "fox": {
+                            "form": "real animal",
+                            "scale": "normal",
+                            "role": "intruder/animal visitor"
+                        }
+                    }
+                },
+                {
+                    "scene_type": "Forest Picnic Clearing",
+                    "plausibility": 0.9,
+                    "reasoning": "A sun-dappled clearing in the woods. A picnic blanket holds a basket with strawberries and bananas. A rustic iron lamp post illuminates the area, and a wild fox watches from the edge of the trees.",
+                    "object_interpretations": {
+                        "strawberry": {
+                            "form": "real fruit",
+                            "scale": "normal",
+                            "role": "picnic food"
+                        },
+                        "banana": {
+                            "form": "real fruit",
+                            "scale": "normal",
+                            "role": "picnic food"
+                        },
+                        "lamp post": {
+                            "form": "ornate iron lamp",
+                            "scale": "normal",
+                            "role": "atmospheric lighting"
+                        },
+                        "fox": {
+                            "form": "real animal",
+                            "scale": "normal",
+                            "role": "wild observer"
+                        }
+                    }
+                },
+                {
+                    "scene_type": "Artistic Kitchen Garden",
+                    "plausibility": 0.85,
+                    "reasoning": "A quaint kitchen garden attached to a cottage. Strawberry plants grow in patches, and a banana bunch hangs from a protected stalk. A garden lamp post stands near the path, and a fox darts across the lawn.",
+                    "object_interpretations": {
+                        "strawberry": {
+                            "form": "growing plant with fruit",
+                            "scale": "normal",
+                            "role": "cultivated crop"
+                        },
+                        "banana": {
+                            "form": "growing plant with fruit",
+                            "scale": "normal",
+                            "role": "cultivated crop"
+                        },
+                        "lamp post": {
+                            "form": "garden lamp",
+                            "scale": "normal",
+                            "role": "path marker"
+                        },
+                        "fox": {
+                            "form": "real animal",
+                            "scale": "normal",
+                            "role": "passing wildlife"
+                        }
+                    }
+                },
+                {
+                    "scene_type": "Whimsical Fruit Stand",
+                    "plausibility": 0.8,
+                    "reasoning": "A fantastical roadside stand made of woven branches. The strawberry and banana are oversized, jewel-like fruits. A glowing lamp post illuminates the stand, and a stylized fox acts as the merchant.",
+                    "object_interpretations": {
+                        "strawberry": {
+                            "form": "stylized fruit",
+                            "scale": "large/enhanced",
+                            "role": "hero item"
+                        },
+                        "banana": {
+                            "form": "stylized fruit",
+                            "scale": "large/enhanced",
+                            "role": "hero item"
+                        },
+                        "lamp post": {
+                            "form": "glowing organic structure",
+                            "scale": "normal",
+                            "role": "magical light source"
+                        },
+                        "fox": {
+                            "form": "anthropomorphic animal",
+                            "scale": "normal",
+                            "role": "character/seller"
+                        }
+                    },
+                    "scene_brief": "A Whimsical Fruit Stand featuring strawberry, with banana, lamp post, and fox"
+                },
+                {
+                    "scene_type": "Dining Room Table Setting",
+                    "plausibility": 0.75,
+                    "reasoning": "An elegant dining room. A fruit bowl containing strawberries and bananas sits in the center. Outside the window, a street lamp post is visible through the glass, and a fox is seen running in the garden beyond.",
+                    "object_interpretations": {
+                        "strawberry": {
+                            "form": "fresh fruit",
+                            "scale": "normal",
+                            "role": "dessert component"
+                        },
+                        "banana": {
+                            "form": "fresh fruit",
+                            "scale": "normal",
+                            "role": "dessert component"
+                        },
+                        "lamp post": {
+                            "form": "street light",
+                            "scale": "distant/small",
+                            "role": "background detail"
+                        },
+                        "fox": {
+                            "form": "real animal",
+                            "scale": "distant/small",
+                            "role": "background wildlife"
+                        }
+                    }
+                },
+                {
+                    "scene_type": "Abstract Still Life",
+                    "plausibility": 0.7,
+                    "reasoning": "A dreamlike composition where objects float in a soft, textured space. The strawberry and banana are the focal points of color. The lamp post acts as a vertical anchor, and the fox is a blur of motion weaving through the scene.",
+                    "object_interpretations": {
+                        "strawberry": {
+                            "form": "painted object",
+                            "scale": "variable",
+                            "role": "color accent"
+                        },
+                        "banana": {
+                            "form": "painted object",
+                            "scale": "variable",
+                            "role": "color accent"
+                        },
+                        "lamp post": {
+                            "form": "abstract shape",
+                            "scale": "variable",
+                            "role": "structural line"
+                        },
+                        "fox": {
+                            "form": "suggested shape",
+                            "scale": "variable",
+                            "role": "dynamic element"
+                        }
+                    }
+                }
+            ],
+            "selected_scene": {
+                "scene_type": "Whimsical Fruit Stand",
+                "plausibility": 0.8,
+                "reasoning": "A fantastical roadside stand made of woven branches. The strawberry and banana are oversized, jewel-like fruits. A glowing lamp post illuminates the stand, and a stylized fox acts as the merchant.",
+                "object_interpretations": {
+                    "strawberry": {
+                        "form": "stylized fruit",
+                        "scale": "large/enhanced",
+                        "role": "hero item"
+                    },
+                    "banana": {
+                        "form": "stylized fruit",
+                        "scale": "large/enhanced",
+                        "role": "hero item"
+                    },
+                    "lamp post": {
+                        "form": "glowing organic structure",
+                        "scale": "normal",
+                        "role": "magical light source"
+                    },
+                    "fox": {
+                        "form": "anthropomorphic animal",
+                        "scale": "normal",
+                        "role": "character/seller"
+                    }
+                },
+                "scene_brief": "A Whimsical Fruit Stand featuring strawberry, with banana, lamp post, and fox"
+            }
+        }
+    },
+    "final_prompts": {
+        "main_prompt": "A Impressionism painting depicting a warm sunset scene where a medium-sized, perfectly ripe banana in golden yellow and warm ochre tones with gentle brown spots lies on the ground beside a large, weathered lamp post of warm bronze and deep amber with a gentle patina. Balanced atop the banana rests a medium-sized, fresh and ripe strawberry in crimson and golden amber hues. Behind the lamp post, a medium-sized fox in burnt orange and golden rust fur stands alert yet peaceful, its position placing it both behind the lamp post and next to the banana. The entire composition is bathed in natural, soft sunset lighting that creates a warm, peaceful, cheerful, and gentle atmosphere, with loose, visible brushstrokes capturing the organic textures of the fruit and fur and the aged metal of the lamp post.",
+        "negative_prompt": "photorealistic, 3d render, modern, digital art, photograph, low quality, blurry, distorted, ugly, deformed, cartoon, anime, text, watermark, signature, frame, border, oversaturated, dark, gloomy, scary, violent",
+        "prompt_formats": {
+            "simple": "An Impressionist sunset painting of a strawberry on a banana beside a lamp post, with a fox behind it.",
+            "complex": "A Impressionism painting depicting a warm sunset scene where a medium-sized, perfectly ripe banana in golden yellow and warm ochre tones with gentle brown spots lies on the ground beside a large, weathered lamp post of warm bronze and deep amber with a gentle patina. Balanced atop the banana rests a medium-sized, fresh and ripe strawberry in crimson and golden amber hues. Behind the lamp post, a medium-sized fox in burnt orange and golden rust fur stands alert yet peaceful, its position placing it both behind the lamp post and next to the banana. The entire composition is bathed in natural, soft sunset lighting that creates a warm, peaceful, cheerful, and gentle atmosphere, with loose, visible brushstrokes capturing the organic textures of the fruit and fur and the aged metal of the lamp post.",
+            "comma_separated": "Impressionism painting, strawberry on banana, banana next to lamp post, fox behind lamp post, sunset lighting, warm peaceful cheerful gentle atmosphere, medium strawberry crimson golden amber ripe, medium banana golden yellow ochre ripe, large lamp post warm bronze deep amber weathered, medium fox burnt orange golden rust alert, loose brushstrokes, soft light",
+            "tags": "art, painting, impressionism, still life, animal, sunset, strawberry, banana, lamp post, fox, warm colors, peaceful, cheerful, Claude Monet style, Pierre-Auguste Renoir style, visible brushstrokes, light study"
+        }
+    }
+}

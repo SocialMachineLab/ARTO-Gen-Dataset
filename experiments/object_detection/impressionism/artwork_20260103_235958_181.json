@@ -1,0 +1,345 @@
+{
+    "artwork_id": "artwork_20260103_235958_181",
+    "generation_timestamp": "2026-01-04T00:00:27.745161",
+    "style": "Impressionism",
+    "objects": {
+        "object_ids": [
+            35,
+            2,
+            15,
+            58
+        ],
+        "object_names": [
+            "stick",
+            "wheel",
+            "hen",
+            "couch"
+        ],
+        "enhanced_objects": [
+            {
+                "object_id": 35,
+                "name": "stick",
+                "artistic_description": "A weathered wooden stick rendered with loose, visible brushstrokes in warm ochre and sienna tones, its surface catching golden afternoon light that filters through workshop windows, creating soft highlights along its textured grain while casting gentle shadows that blur its edges into the bright atmosphere",
+                "size": "Small",
+                "state": "dry and aged with visible wood grain",
+                "primary_colors": [
+                    "warm ochre",
+                    "sienna brown"
+                ],
+                "material": "wood"
+            },
+            {
+                "object_id": 2,
+                "name": "wheel",
+                "artistic_description": "A vintage wooden wheel with spokes that dissolve into dappled light and shadow, its weathered rim glowing with warm amber tones where sunlight strikes directly, while the shadowed interior areas fade into cool gray-blue washes, the metal rim catching bright specular highlights that shimmer with impressionistic broken color",
+                "size": "Large",
+                "state": "worn and patinated with age",
+                "primary_colors": [
+                    "amber",
+                    "gray-blue"
+                ],
+                "material": "wood and metal"
+            },
+            {
+                "object_id": 15,
+                "name": "hen",
+                "artistic_description": "A plump hen whose feathers are suggested through rapid, textured strokes of russet brown and cream, bathed in the warm glow of afternoon sunlight that creates a soft halo effect around her form, with iridescent patches on her neck catching light in flashes of burnt orange and gold that dissolve into the bright, airy atmosphere",
+                "size": "Medium",
+                "state": "alert and lively",
+                "primary_colors": [
+                    "russet brown",
+                    "cream"
+                ],
+                "material": ""
+            },
+            {
+                "object_id": 58,
+                "name": "couch",
+                "artistic_description": "A vintage couch upholstered in faded fabric that appears as a soft tapestry of dusty rose and muted sage under the bright natural light, its worn cushions showing subtle variations of tone where the afternoon sun has softened the colors, with loose, visible brushwork capturing the gentle interplay of light on the textured weave and the cool shadows that pool in its crevices",
+                "size": "Dominant",
+                "state": "well-worn and comfortable",
+                "primary_colors": [
+                    "dusty rose",
+                    "muted sage"
+                ],
+                "material": "fabric"
+            }
+        ]
+    },
+    "composition": {
+        "spatial_relations": [
+            [
+                35,
+                "next to",
+                2
+            ],
+            [
+                2,
+                "next to",
+                35
+            ],
+            [
+                15,
+                "near",
+                58
+            ],
+            [
+                58,
+                "near",
+                15
+            ]
+        ],
+        "semantic_relations": []
+    },
+    "environment": {
+        "environment_details": {
+            "scene_brief": "A vintage workshop featuring stick, with wheel, hen, and couch",
+            "place365_name": "/h/hardware_store",
+            "place365_id": 172,
+            "time_of_day": "afternoon",
+            "weather": "sunny",
+            "period": "Modern",
+            "is_indoor": true,
+            "lighting": {
+                "type": "natural",
+                "quality": "soft",
+                "direction": "side-lit",
+                "mood": "warm",
+                "reasoning": "Combining sunny weather with an afternoon time creates natural, warm lighting. In a workshop setting, light likely enters through side windows, creating soft side-lighting that illuminates the objects (wheel, hen, couch) gently, enhancing the painterly, atmospheric feel of Impressionism."
+            },
+            "atmosphere": "bright and active and cheerful and gentle"
+        },
+        "scene_inference": {
+            "all_candidates": [
+                {
+                    "scene_type": "rustic farmyard",
+                    "plausibility": 0.95,
+                    "reasoning": "A stick can be a fallen branch or a tool, a hen is a natural farm resident, a wheel could be from a broken cart or wagon, and a couch placed outdoors suggests a relaxed, rustic setting where furniture is used in open-air spaces.",
+                    "object_interpretations": {
+                        "stick": {
+                            "form": "real branch",
+                            "scale": "normal",
+                            "role": "natural element on the ground"
+                        },
+                        "wheel": {
+                            "form": "real wooden wheel",
+                            "scale": "normal",
+                            "role": "debris from an old cart"
+                        },
+                        "hen": {
+                            "form": "live animal",
+                            "scale": "normal",
+                            "role": "primary animal resident"
+                        },
+                        "couch": {
+                            "form": "real outdoor furniture",
+                            "scale": "normal",
+                            "role": "seating on the porch or yard"
+                        }
+                    }
+                },
+                {
+                    "scene_type": "vintage workshop",
+                    "plausibility": 0.9,
+                    "reasoning": "A stick can be a piece of wood for crafting, a wheel is a common workshop item (e.g., a potter's wheel or castor), a hen could be a pet visiting the space, and a couch adds a homely touch to a cluttered workshop.",
+                    "object_interpretations": {
+                        "stick": {
+                            "form": "raw material",
+                            "scale": "normal",
+                            "role": "crafting component"
+                        },
+                        "wheel": {
+                            "form": "tool part",
+                            "scale": "normal",
+                            "role": "functional equipment"
+                        },
+                        "hen": {
+                            "form": "pet animal",
+                            "scale": "normal",
+                            "role": "visitor in the workshop"
+                        },
+                        "couch": {
+                            "form": "real furniture",
+                            "scale": "normal",
+                            "role": "rest area for the worker"
+                        }
+                    },
+                    "scene_brief": "A vintage workshop featuring stick, with wheel, hen, and couch"
+                },
+                {
+                    "scene_type": "artistic garden",
+                    "plausibility": 0.85,
+                    "reasoning": "In an impressionist garden, a stick is a fallen twig, a wheel could be a decorative garden ornament (like a cartwheel planter), a hen roams freely, and a couch is placed among the flowers for viewing the scenery.",
+                    "object_interpretations": {
+                        "stick": {
+                            "form": "fallen twig",
+                            "scale": "normal",
+                            "role": "ground texture element"
+                        },
+                        "wheel": {
+                            "form": "ornamental",
+                            "scale": "normal",
+                            "role": "garden decoration"
+                        },
+                        "hen": {
+                            "form": "wildlife",
+                            "scale": "normal",
+                            "role": "animated garden inhabitant"
+                        },
+                        "couch": {
+                            "form": "garden bench style",
+                            "scale": "normal",
+                            "role": "seating for relaxation"
+                        }
+                    }
+                },
+                {
+                    "scene_type": "country porch",
+                    "plausibility": 0.9,
+                    "reasoning": "A stick might be firewood or a tool left on the porch, a wheel could be from a child's toy or a nearby wagon, a hen pecks at the ground, and the couch is the main seating area.",
+                    "object_interpretations": {
+                        "stick": {
+                            "form": "firewood",
+                            "scale": "normal",
+                            "role": "fuel or tool"
+                        },
+                        "wheel": {
+                            "form": "toy or cart part",
+                            "scale": "normal",
+                            "role": "abandoned item"
+                        },
+                        "hen": {
+                            "form": "domestic bird",
+                            "scale": "normal",
+                            "role": "foraging animal"
+                        },
+                        "couch": {
+                            "form": "wicker or wooden",
+                            "scale": "normal",
+                            "role": "primary seating"
+                        }
+                    }
+                },
+                {
+                    "scene_type": "barn interior",
+                    "plausibility": 0.8,
+                    "reasoning": "A stick is common in barns for various uses, a wheel might be part of farm equipment, a hen is in its natural habitat, and a couch could be an old piece of furniture stored or used in the barn.",
+                    "object_interpretations": {
+                        "stick": {
+                            "form": "tool/branch",
+                            "scale": "normal",
+                            "role": "utility item"
+                        },
+                        "wheel": {
+                            "form": "machinery part",
+                            "scale": "normal",
+                            "role": "functional or decorative"
+                        },
+                        "hen": {
+                            "form": "barn animal",
+                            "scale": "normal",
+                            "role": "resident"
+                        },
+                        "couch": {
+                            "form": "vintage furniture",
+                            "scale": "normal",
+                            "role": "rest spot for farmers"
+                        }
+                    }
+                },
+                {
+                    "scene_type": "playroom",
+                    "plausibility": 0.7,
+                    "reasoning": "A stick can be a toy sword or stick for pretend play, a wheel is part of a toy car, a hen could be a plush toy, and a couch is standard furniture for the room.",
+                    "object_interpretations": {
+                        "stick": {
+                            "form": "toy",
+                            "scale": "miniature",
+                            "role": "play prop"
+                        },
+                        "wheel": {
+                            "form": "toy part",
+                            "scale": "miniature",
+                            "role": "component of a toy vehicle"
+                        },
+                        "hen": {
+                            "form": "plush toy",
+                            "scale": "miniature",
+                            "role": "plaything"
+                        },
+                        "couch": {
+                            "form": "real furniture",
+                            "scale": "normal",
+                            "role": "room fixture"
+                        }
+                    }
+                },
+                {
+                    "scene_type": "surreal dreamscape",
+                    "plausibility": 0.6,
+                    "reasoning": "In an impressionist style, objects blend. A stick floats as a brushstroke, a wheel turns as a sun, a hen is a blur of color, and a couch dissolves into the landscape.",
+                    "object_interpretations": {
+                        "stick": {
+                            "form": "abstract line",
+                            "scale": "variable",
+                            "role": "structural element"
+                        },
+                        "wheel": {
+                            "form": "circular motif",
+                            "scale": "large",
+                            "role": "central shape"
+                        },
+                        "hen": {
+                            "form": "color patch",
+                            "scale": "normal",
+                            "role": "focal point"
+                        },
+                        "couch": {
+                            "form": "blurred shape",
+                            "scale": "normal",
+                            "role": "background texture"
+                        }
+                    }
+                }
+            ],
+            "selected_scene": {
+                "scene_type": "vintage workshop",
+                "plausibility": 0.9,
+                "reasoning": "A stick can be a piece of wood for crafting, a wheel is a common workshop item (e.g., a potter's wheel or castor), a hen could be a pet visiting the space, and a couch adds a homely touch to a cluttered workshop.",
+                "object_interpretations": {
+                    "stick": {
+                        "form": "raw material",
+                        "scale": "normal",
+                        "role": "crafting component"
+                    },
+                    "wheel": {
+                        "form": "tool part",
+                        "scale": "normal",
+                        "role": "functional equipment"
+                    },
+                    "hen": {
+                        "form": "pet animal",
+                        "scale": "normal",
+                        "role": "visitor in the workshop"
+                    },
+                    "couch": {
+                        "form": "real furniture",
+                        "scale": "normal",
+                        "role": "rest area for the worker"
+                    }
+                },
+                "scene_brief": "A vintage workshop featuring stick, with wheel, hen, and couch"
+            }
+        }
+    },
+    "final_prompts": {
+        "main_prompt": "A Impressionism painting depicting a bright and cheerful afternoon scene bathed in soft natural light. In the foreground, a large, worn wheel with patinated amber and gray-blue tones rests beside a small, aged stick in warm ochre and sienna brown, its dry wood grain visible. Nearby in the midground, a medium-sized, alert hen in russet brown and cream feathers stands near a dominant, well-worn couch upholstered in dusty rose and muted sage fabric, creating a gentle, active atmosphere where all objects interact harmoniously under the warm afternoon glow.",
+        "negative_prompt": "photorealistic, 3d render, modern, digital art, photograph, low quality, blurry, distorted, surreal, abstract, cartoon, anime, text, watermark, signature, frame, border, ugly, deformed, noisy",
+        "prompt_formats": {
+            "simple": "An Impressionist painting of a stick, wheel, hen, and couch in a bright afternoon setting.",
+            "complex": "A Impressionism painting depicting a bright and cheerful afternoon scene bathed in soft natural light. In the foreground, a large, worn wheel with patinated amber and gray-blue tones rests beside a small, aged stick in warm ochre and sienna brown, its dry wood grain visible. Nearby in the midground, a medium-sized, alert hen in russet brown and cream feathers stands near a dominant, well-worn couch upholstered in dusty rose and muted sage fabric, creating a gentle, active atmosphere where all objects interact harmoniously under the warm afternoon glow.",
+            "comma_separated": "Impressionism painting, stick next to wheel, hen near couch, afternoon lighting, soft natural light, bright cheerful gentle atmosphere, aged wood, patinated metal, fabric texture, warm colors, active scene",
+            "tags": "art, painting, impressionism, still life, interior, afternoon light, wood texture, fabric texture, vintage, cheerful, gentle, Claude Monet style, Pierre-Auguste Renoir style"
+        }
+    }
+}

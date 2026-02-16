@@ -1,0 +1,270 @@
+{
+    "artwork_id": "artwork_20260104_002452_852",
+    "generation_timestamp": "2026-01-04T00:25:24.870519",
+    "style": "Impressionism",
+    "objects": {
+        "object_ids": [
+            19,
+            27,
+            17
+        ],
+        "object_names": [
+            "sheep",
+            "picnic basket",
+            "dog"
+        ],
+        "enhanced_objects": [
+            {
+                "object_id": 19,
+                "name": "sheep",
+                "artistic_description": "Fluffy wool catches the warm afternoon sun, creating soft dapples of cream and golden-white across their rounded forms. The natural light filters through their fleece, revealing subtle variations of ivory, pale yellow, and warm gray. Their wool appears dry and matte, with gentle shadows dancing across their textured surfaces as they move through the bright pasture. The sunlight creates a luminous halo effect around their edges, typical of impressionist light capture.",
+                "size": "Large",
+                "state": "Grazing peacefully, wool dry and clean",
+                "primary_colors": [
+                    "warm cream",
+                    "golden white"
+                ],
+                "material": "wool"
+            },
+            {
+                "object_id": 27,
+                "name": "picnic basket",
+                "artistic_description": "Woven wicker glows with warm honey tones under the bright afternoon sun, each strand catching light differently creating a tapestry of gold and amber. The natural fibers appear dry and slightly weathered from contemporary outdoor use. A woven texture creates intricate shadow patterns across its surface. The basket shows hints of warm brown where light doesn't directly hit, while sunlit areas shimmer with pale yellow highlights.",
+                "size": "Medium",
+                "state": "Resting on grass, slightly weathered from outdoor use",
+                "primary_colors": [
+                    "honey gold",
+                    "warm amber"
+                ],
+                "material": "wicker"
+            },
+            {
+                "object_id": 17,
+                "name": "dog",
+                "artistic_description": "Shaggy fur dances with highlights of burnt sienna and amber where the afternoon sun strikes, while shadowed areas show deep chocolate and warm umber tones. The coat appears slightly tousled and dry, with individual hairs catching the bright light creating a sparkling, textured effect. Sunlight creates a warm rim light around the silhouette, and the fur shows beautiful variations of color saturation depending on how directly it faces the sun.",
+                "size": "Medium",
+                "state": "Active and alert, fur dry and moving freely",
+                "primary_colors": [
+                    "burnt sienna",
+                    "warm amber"
+                ],
+                "material": "fur"
+            }
+        ]
+    },
+    "composition": {
+        "spatial_relations": [
+            [
+                19,
+                "next to",
+                27
+            ],
+            [
+                19,
+                "next to",
+                17
+            ],
+            [
+                27,
+                "next to",
+                17
+            ]
+        ],
+        "semantic_relations": [
+            [
+                17,
+                "watching",
+                19
+            ]
+        ]
+    },
+    "environment": {
+        "environment_details": {
+            "scene_brief": "A rural pasture centered around sheep, with picnic basket, and dog",
+            "place365_name": "/f/field/wild",
+            "place365_id": 141,
+            "time_of_day": "afternoon",
+            "weather": "sunny",
+            "period": "Contemporary",
+            "is_indoor": false,
+            "lighting": {
+                "type": "natural",
+                "quality": "soft",
+                "direction": "side-lit",
+                "mood": "warm",
+                "reasoning": "Afternoon sun is natural and casts a warm glow. In Impressionism, light is often broken or diffused rather than harsh; side-lighting from the sun creates depth on the pasture and objects, while the 'soft' quality mimics the atmospheric scattering of light typical of the style."
+            },
+            "atmosphere": "bright and active and cheerful and gentle"
+        },
+        "scene_inference": {
+            "all_candidates": [
+                {
+                    "scene_type": "rural pasture",
+                    "plausibility": 0.95,
+                    "reasoning": "A sheep is in its natural grazing habitat in a pasture. A dog, likely a sheepdog, is working to herd or guard the flock. A picnic basket suggests a nearby human presence, perhaps a shepherd or visitor enjoying a meal on the grassy hillside.",
+                    "object_interpretations": {
+                        "sheep": {
+                            "form": "real animal",
+                            "scale": "normal",
+                            "role": "primary subject"
+                        },
+                        "dog": {
+                            "form": "real animal",
+                            "scale": "normal",
+                            "role": "herding companion"
+                        },
+                        "picnic basket": {
+                            "form": "real object",
+                            "scale": "normal",
+                            "role": "human element accessory"
+                        }
+                    },
+                    "scene_brief": "A rural pasture centered around sheep, with picnic basket, and dog"
+                },
+                {
+                    "scene_type": "country meadow",
+                    "plausibility": 0.9,
+                    "reasoning": "A peaceful meadow scene where a sheep grazes. A dog plays nearby. A picnic basket sits open on a checkered blanket, suggesting a family outing in the countryside where the animals are part of the scenery.",
+                    "object_interpretations": {
+                        "sheep": {
+                            "form": "real animal",
+                            "scale": "normal",
+                            "role": "background wildlife"
+                        },
+                        "dog": {
+                            "form": "real animal",
+                            "scale": "normal",
+                            "role": "playful companion"
+                        },
+                        "picnic basket": {
+                            "form": "real object",
+                            "scale": "normal",
+                            "role": "central activity object"
+                        }
+                    }
+                },
+                {
+                    "scene_type": "farmyard",
+                    "plausibility": 0.85,
+                    "reasoning": "A sheep in a fenced farmyard area. A farm dog patrols the perimeter. A picnic basket might be sitting on a fence post or near a barn door, perhaps belonging to the farmer or a visitor.",
+                    "object_interpretations": {
+                        "sheep": {
+                            "form": "real animal",
+                            "scale": "normal",
+                            "role": "livestock"
+                        },
+                        "dog": {
+                            "form": "real animal",
+                            "scale": "normal",
+                            "role": "guardian"
+                        },
+                        "picnic basket": {
+                            "form": "real object",
+                            "scale": "normal",
+                            "role": "prop suggesting human activity"
+                        }
+                    }
+                },
+                {
+                    "scene_type": "artistic interpretation",
+                    "plausibility": 0.8,
+                    "reasoning": "In the Impressionist style, the sheep, dog, and picnic basket are arranged as artistic subjects. The sheep might be a model or a stylized representation, the dog a companion study, and the basket a still-life element, all composed within a studio or stylized outdoor setting.",
+                    "object_interpretations": {
+                        "sheep": {
+                            "form": "model or stylized animal",
+                            "scale": "variable",
+                            "role": "artistic subject"
+                        },
+                        "dog": {
+                            "form": "model or stylized animal",
+                            "scale": "variable",
+                            "role": "complementary subject"
+                        },
+                        "picnic basket": {
+                            "form": "still life object",
+                            "scale": "variable",
+                            "role": "textural element"
+                        }
+                    }
+                },
+                {
+                    "scene_type": "park landscape",
+                    "plausibility": 0.75,
+                    "reasoning": "A sheep in a large, open park (perhaps a petting zoo area or free-roaming section). A dog on a leash walks with its owner. A picnic basket is set on the grass nearby, creating a leisurely park scene.",
+                    "object_interpretations": {
+                        "sheep": {
+                            "form": "real animal",
+                            "scale": "normal",
+                            "role": "park attraction"
+                        },
+                        "dog": {
+                            "form": "real animal",
+                            "scale": "normal",
+                            "role": "pet"
+                        },
+                        "picnic basket": {
+                            "form": "real object",
+                            "scale": "normal",
+                            "role": "leisure accessory"
+                        }
+                    }
+                },
+                {
+                    "scene_type": "vintage illustration",
+                    "plausibility": 0.7,
+                    "reasoning": "A scene reminiscent of a children's storybook illustration. A fluffy sheep, a loyal sheepdog, and a wicker picnic basket are arranged in a charming, slightly idealized rural setting, perhaps near a stream or under a large oak tree.",
+                    "object_interpretations": {
+                        "sheep": {
+                            "form": "illustrated character",
+                            "scale": "normal",
+                            "role": "story protagonist"
+                        },
+                        "dog": {
+                            "form": "illustrated character",
+                            "scale": "normal",
+                            "role": "faithful sidekick"
+                        },
+                        "picnic basket": {
+                            "form": "illustrated prop",
+                            "scale": "normal",
+                            "role": "plot device (food source)"
+                        }
+                    }
+                }
+            ],
+            "selected_scene": {
+                "scene_type": "rural pasture",
+                "plausibility": 0.95,
+                "reasoning": "A sheep is in its natural grazing habitat in a pasture. A dog, likely a sheepdog, is working to herd or guard the flock. A picnic basket suggests a nearby human presence, perhaps a shepherd or visitor enjoying a meal on the grassy hillside.",
+                "object_interpretations": {
+                    "sheep": {
+                        "form": "real animal",
+                        "scale": "normal",
+                        "role": "primary subject"
+                    },
+                    "dog": {
+                        "form": "real animal",
+                        "scale": "normal",
+                        "role": "herding companion"
+                    },
+                    "picnic basket": {
+                        "form": "real object",
+                        "scale": "normal",
+                        "role": "human element accessory"
+                    }
+                },
+                "scene_brief": "A rural pasture centered around sheep, with picnic basket, and dog"
+            }
+        }
+    },
+    "final_prompts": {
+        "main_prompt": "A Impressionism painting depicting a bright and active afternoon scene with a gentle, cheerful atmosphere under natural soft lighting. In the foreground, a large sheep with warm cream and golden white wool grazes peacefully beside a medium-sized picnic basket in honey gold and warm amber wicker resting on the grass, which is also next to a medium dog in burnt sienna and warm amber fur that is active and alert. The three objects form a triangular composition in the lush green meadow, with the sheep's fluffy wool contrasting against the woven wicker basket and the dog's energetic posture. Loose, visible brushstrokes capture the dappled sunlight filtering through the trees in the background, creating vibrant color harmonies and a sense of joyful movement in this pastoral setting.",
+        "negative_prompt": "photorealistic, 3d render, modern, digital art, photograph, low quality, blurry, distorted, ugly, deformed, cartoon, anime, text, watermark, signature, frame, border, dark, gloomy, night, winter, urban, cityscape, buildings, people, faces, detailed features, sharp lines, hyperrealistic",
+        "prompt_formats": {
+            "simple": "An Impressionist painting of a sheep, picnic basket, and dog together in a sunny meadow during a cheerful afternoon.",
+            "complex": "A Impressionism painting depicting a bright and active afternoon scene with a gentle, cheerful atmosphere under natural soft lighting. In the foreground, a large sheep with warm cream and golden white wool grazes peacefully beside a medium-sized picnic basket in honey gold and warm amber wicker resting on the grass, which is also next to a medium dog in burnt sienna and warm amber fur that is active and alert. The three objects form a triangular composition in the lush green meadow, with the sheep's fluffy wool contrasting against the woven wicker basket and the dog's energetic posture. Loose, visible brushstrokes capture the dappled sunlight filtering through the trees in the background, creating vibrant color harmonies and a sense of joyful movement in this pastoral setting.",
+            "comma_separated": "Impressionism painting, large sheep grazing peacefully, warm cream golden white wool, medium picnic basket resting on grass, honey gold warm amber wicker, medium dog active alert, burnt sienna warm amber fur, sheep next to basket next to dog, triangular composition, lush green meadow, afternoon lighting, natural soft light, dappled sunlight, bright active cheerful gentle atmosphere, visible brushstrokes, vibrant colors, pastoral scene",
+            "tags": "art, painting, impressionism, impressionist, pastoral, meadow, sheep, dog, picnic basket, afternoon, sunlight, brushstrokes, color harmony, cheerful, gentle, Claude Monet style, Pierre-Auguste Renoir style, outdoor scene"
+        }
+    }
+}

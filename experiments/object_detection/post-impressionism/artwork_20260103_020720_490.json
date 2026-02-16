@@ -1,0 +1,346 @@
+{
+    "artwork_id": "artwork_20260103_020720_490",
+    "generation_timestamp": "2026-01-03T02:08:00.870438",
+    "style": "Post-Impressionism",
+    "objects": {
+        "object_ids": [
+            26,
+            9,
+            10,
+            22
+        ],
+        "object_names": [
+            "umbrella",
+            "canoe",
+            "lamp post",
+            "bear"
+        ],
+        "enhanced_objects": [
+            {
+                "object_id": 26,
+                "name": "umbrella",
+                "artistic_description": "A collapsed umbrella with fabric that catches the soft, diffused afternoon light filtering through warehouse windows. The material shows subtle variations of deep navy and muted violet in the subdued atmosphere, with gentle highlights where light grazes the folded fabric. The fabric appears slightly rumpled, with a matte finish that absorbs rather than reflects the gentle indoor lighting.",
+                "size": "Medium",
+                "state": "partially open, resting on floor",
+                "primary_colors": [
+                    "deep navy",
+                    "muted violet"
+                ],
+                "material": "fabric"
+            },
+            {
+                "object_id": 9,
+                "name": "canoe",
+                "artistic_description": "An overturned canoe with weathered wooden surfaces that glow with warm amber and sienna tones under the natural afternoon light. The paint is worn and scuffed, revealing the wood grain beneath in rich, textured strokes. The glossy surface catches subtle reflections of the bright studio environment, creating patches of luminous gold against the subdued, gentle atmosphere.",
+                "size": "Large",
+                "state": "upside down, weathered",
+                "primary_colors": [
+                    "warm amber",
+                    "weathered sienna"
+                ],
+                "material": "wood"
+            },
+            {
+                "object_id": 10,
+                "name": "lamp post",
+                "artistic_description": "A tall metal lamp post with a dark, almost black surface that absorbs the cloudy daylight, creating deep shadows and minimal highlights. The metal shows subtle patina and oxidation in muted gray-green tones. The glass fixture catches the bright studio light with a soft, diffused glow, appearing as a pale, luminous circle against the dark metal structure.",
+                "size": "Dominant",
+                "state": "unlit, oxidized",
+                "primary_colors": [
+                    "charcoal black",
+                    "muted gray-green"
+                ],
+                "material": "metal"
+            },
+            {
+                "object_id": 22,
+                "name": "bear",
+                "artistic_description": "A taxidermied bear with rich, dark brown fur that appears almost black in shadowed areas, while the tips catch the gentle afternoon light with subtle chestnut highlights. The glass eyes reflect the bright, active studio atmosphere as small, pale points of light. The nose and paw pads show a matte, leathery texture in deep umber tones, absorbing the soft natural light without shine.",
+                "size": "Large",
+                "state": "preserved, stationary",
+                "primary_colors": [
+                    "deep chestnut",
+                    "dark umber"
+                ],
+                "material": "fur and glass"
+            }
+        ]
+    },
+    "composition": {
+        "spatial_relations": [
+            [
+                26,
+                "next to",
+                10
+            ],
+            [
+                9,
+                "behind",
+                26
+            ],
+            [
+                22,
+                "next to",
+                9
+            ],
+            [
+                22,
+                "in front of",
+                10
+            ]
+        ],
+        "semantic_relations": []
+    },
+    "environment": {
+        "environment_details": {
+            "scene_brief": "A Artistic Warehouse Studio featuring umbrella, with canoe, lamp post, and bear",
+            "place365_name": "/a/art_studio",
+            "place365_id": 21,
+            "time_of_day": "afternoon",
+            "weather": "cloudy",
+            "period": "Contemporary",
+            "is_indoor": true,
+            "lighting": {
+                "type": "natural",
+                "quality": "soft",
+                "direction": "side-lit",
+                "direction_reasoning": "Large warehouse windows typically provide side lighting.",
+                "mood": "cool",
+                "reasoning": "The combination of 'cloudy' weather and 'afternoon' time results in natural, soft, diffused lighting. Large studio windows usually provide side lighting. The cool mood fits the cloudy weather and the contemporary, slightly melancholic or introspective vibe of a studio containing a canoe and a bear (likely taxidermy or artistic representations)."
+            },
+            "atmosphere": "bright and active and subdued and gentle"
+        },
+        "scene_inference": {
+            "all_candidates": [
+                {
+                    "scene_type": "Rainy City Street",
+                    "plausibility": 0.95,
+                    "reasoning": "A person holds an umbrella while walking past a lamp post. A bear, escaped from a nearby zoo or circus, wanders the wet street. A canoe is propped against a building or on a trailer, waiting for the rain to stop.",
+                    "object_interpretations": {
+                        "umbrella": {
+                            "form": "real object",
+                            "scale": "human-scale",
+                            "role": "primary functional object"
+                        },
+                        "lamp post": {
+                            "form": "real object",
+                            "scale": "standard street furniture",
+                            "role": "environmental anchor"
+                        },
+                        "bear": {
+                            "form": "real animal",
+                            "scale": "life-size",
+                            "role": "unexpected intruder"
+                        },
+                        "canoe": {
+                            "form": "real object",
+                            "scale": "standard",
+                            "role": "background element"
+                        }
+                    }
+                },
+                {
+                    "scene_type": "Riverside Campground",
+                    "plausibility": 0.9,
+                    "reasoning": "A canoe is pulled up on the shore near a campsite. A bear investigates the area. A park lamp post provides light near the water's edge. A camper holds an umbrella against the drizzle.",
+                    "object_interpretations": {
+                        "umbrella": {
+                            "form": "real object",
+                            "scale": "human-scale",
+                            "role": "weather protection"
+                        },
+                        "canoe": {
+                            "form": "real object",
+                            "scale": "standard",
+                            "role": "primary activity object"
+                        },
+                        "bear": {
+                            "form": "real animal",
+                            "scale": "life-size",
+                            "role": "wildlife presence"
+                        },
+                        "lamp post": {
+                            "form": "real object",
+                            "scale": "standard",
+                            "role": "campground infrastructure"
+                        }
+                    }
+                },
+                {
+                    "scene_type": "Artistic Warehouse Studio",
+                    "plausibility": 0.85,
+                    "reasoning": "An artist's studio containing a real canoe suspended from the ceiling. A taxidermy bear stands as a model. An umbrella is used as a lighting modifier. A vintage lamp post stands in the corner for atmosphere.",
+                    "object_interpretations": {
+                        "umbrella": {
+                            "form": "real object",
+                            "scale": "human-scale",
+                            "role": "studio equipment"
+                        },
+                        "canoe": {
+                            "form": "real object",
+                            "scale": "standard",
+                            "role": "artistic subject/decoration"
+                        },
+                        "bear": {
+                            "form": "taxidermy",
+                            "scale": "life-size",
+                            "role": "studio model"
+                        },
+                        "lamp post": {
+                            "form": "real object",
+                            "scale": "standard",
+                            "role": "studio prop"
+                        }
+                    },
+                    "scene_brief": "A Artistic Warehouse Studio featuring umbrella, with canoe, lamp post, and bear"
+                },
+                {
+                    "scene_type": "Surreal Dreamscape",
+                    "plausibility": 0.8,
+                    "reasoning": "In a Post-Impressionist dream logic, a canoe floats through the air above a street. A giant bear walks on hind legs holding an umbrella. A lamp post grows like a tree.",
+                    "object_interpretations": {
+                        "umbrella": {
+                            "form": "real object",
+                            "scale": "oversized",
+                            "role": "surreal accessory"
+                        },
+                        "canoe": {
+                            "form": "real object",
+                            "scale": "levitating",
+                            "role": "dream element"
+                        },
+                        "bear": {
+                            "form": "real animal",
+                            "scale": "giant",
+                            "role": "protagonist"
+                        },
+                        "lamp post": {
+                            "form": "organic structure",
+                            "scale": "architectural",
+                            "role": "environmental surrealism"
+                        }
+                    }
+                },
+                {
+                    "scene_type": "Vintage Amusement Park",
+                    "plausibility": 0.9,
+                    "reasoning": "A carousel bear statue sits near a ticket booth with a lamp post. A guest holds a colorful umbrella. A 'River Ride' canoe is docked nearby.",
+                    "object_interpretations": {
+                        "umbrella": {
+                            "form": "real object",
+                            "scale": "human-scale",
+                            "role": "crowd accessory"
+                        },
+                        "canoe": {
+                            "form": "ride vehicle",
+                            "scale": "standard",
+                            "role": "attraction element"
+                        },
+                        "bear": {
+                            "form": "statue/mascot",
+                            "scale": "life-size",
+                            "role": "park decoration"
+                        },
+                        "lamp post": {
+                            "form": "real object",
+                            "scale": "standard",
+                            "role": "park lighting"
+                        }
+                    }
+                },
+                {
+                    "scene_type": "Flooded Town Square",
+                    "plausibility": 0.85,
+                    "reasoning": "Heavy rains have flooded the town square. A canoe is used to navigate the water. A bear has come down from the hills seeking dry ground. A person stands on high ground under an umbrella. Lamp posts rise from the water.",
+                    "object_interpretations": {
+                        "umbrella": {
+                            "form": "real object",
+                            "scale": "human-scale",
+                            "role": "weather protection"
+                        },
+                        "canoe": {
+                            "form": "real object",
+                            "scale": "standard",
+                            "role": "transportation"
+                        },
+                        "bear": {
+                            "form": "real animal",
+                            "scale": "life-size",
+                            "role": "displaced wildlife"
+                        },
+                        "lamp post": {
+                            "form": "real object",
+                            "scale": "partially submerged",
+                            "role": "hazard marker"
+                        }
+                    }
+                },
+                {
+                    "scene_type": "Museum of Natural History",
+                    "plausibility": 0.8,
+                    "reasoning": "A diorama depicting a wilderness scene. A taxidermy bear stands in a forest setting. A canoe is part of the display. A museum visitor holds an umbrella (perhaps blocking a flash). A decorative lamp post is part of the 'street' section of the exhibit.",
+                    "object_interpretations": {
+                        "umbrella": {
+                            "form": "real object",
+                            "scale": "human-scale",
+                            "role": "viewer accessory"
+                        },
+                        "canoe": {
+                            "form": "artifact",
+                            "scale": "standard",
+                            "role": "exhibit item"
+                        },
+                        "bear": {
+                            "form": "taxidermy",
+                            "scale": "life-size",
+                            "role": "exhibit centerpiece"
+                        },
+                        "lamp post": {
+                            "form": "prop",
+                            "scale": "standard",
+                            "role": "diorama set dressing"
+                        }
+                    }
+                }
+            ],
+            "selected_scene": {
+                "scene_type": "Artistic Warehouse Studio",
+                "plausibility": 0.85,
+                "reasoning": "An artist's studio containing a real canoe suspended from the ceiling. A taxidermy bear stands as a model. An umbrella is used as a lighting modifier. A vintage lamp post stands in the corner for atmosphere.",
+                "object_interpretations": {
+                    "umbrella": {
+                        "form": "real object",
+                        "scale": "human-scale",
+                        "role": "studio equipment"
+                    },
+                    "canoe": {
+                        "form": "real object",
+                        "scale": "standard",
+                        "role": "artistic subject/decoration"
+                    },
+                    "bear": {
+                        "form": "taxidermy",
+                        "scale": "life-size",
+                        "role": "studio model"
+                    },
+                    "lamp post": {
+                        "form": "real object",
+                        "scale": "standard",
+                        "role": "studio prop"
+                    }
+                },
+                "scene_brief": "A Artistic Warehouse Studio featuring umbrella, with canoe, lamp post, and bear"
+            }
+        }
+    },
+    "final_prompts": {
+        "main_prompt": "A Post-Impressionism painting depicting a bright and active yet subdued and gentle afternoon scene. In the foreground, a large, preserved bear with deep chestnut and dark umber fur stands next to an upside-down canoe in warm amber and weathered sienna tones. Directly behind the canoe, a partially open umbrella in deep navy and muted violet rests beside a dominant, unlit lamp post of charcoal black and muted gray-green metal. The bear is positioned in front of the lamp post, creating a layered composition where natural soft afternoon light filters through the scene, casting expressive, visible brushstrokes that emphasize the textures of fur, weathered wood, fabric, and aged metal. The atmosphere feels both lively and tranquil, with vibrant yet harmonious colors typical of Post-Impressionist style.",
+        "negative_prompt": "photorealistic, 3d render, modern, digital art, photograph, low quality, blurry, distorted, oversaturated, cartoon, anime, surreal, abstract, text, watermark, signature, frame, border",
+        "prompt_formats": {
+            "simple": "A Post-Impressionist painting of a bear next to an upside-down canoe, with an umbrella beside a lamp post on a soft afternoon.",
+            "complex": "A Post-Impressionism painting depicting a bright and active yet subdued and gentle afternoon scene. In the foreground, a large, preserved bear with deep chestnut and dark umber fur stands next to an upside-down canoe in warm amber and weathered sienna tones. Directly behind the canoe, a partially open umbrella in deep navy and muted violet rests beside a dominant, unlit lamp post of charcoal black and muted gray-green metal. The bear is positioned in front of the lamp post, creating a layered composition where natural soft afternoon light filters through the scene, casting expressive, visible brushstrokes that emphasize the textures of fur, weathered wood, fabric, and aged metal. The atmosphere feels both lively and tranquil, with vibrant yet harmonious colors typical of Post-Impressionist style.",
+            "comma_separated": "Post-Impressionism painting, bear, canoe, umbrella, lamp post, deep chestnut fur, warm amber wood, deep navy fabric, charcoal black metal, afternoon lighting, soft natural light, bright active subdued gentle atmosphere, visible brushstrokes, textured composition",
+            "tags": "art, painting, post-impressionism, landscape, wildlife, still life, Vincent van Gogh style, Paul C\u00e9zanne influence, afternoon scene, natural lighting, textured brushwork, color harmony"
+        }
+    }
+}

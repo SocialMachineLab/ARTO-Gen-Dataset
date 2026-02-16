@@ -1,0 +1,150 @@
+{
+  "artwork_id": "artwork_20260115_030652_101",
+  "generation_timestamp": "2026-01-15T03:07:32.824499",
+  "style": "Post-Impressionism",
+  "objects": {
+    "object_ids": [
+      9
+    ],
+    "object_names": [
+      "boat"
+    ],
+    "enhanced_objects": [
+      {
+        "object_id": 9,
+        "name": "boat",
+        "artistic_description": "A weathered fishing boat with bold, visible brushstrokes capturing the sun-drenched afternoon light. The hull displays rich, saturated colors with warm golden highlights where sunlight strikes directly, contrasting with deep blue-violet shadows. Paint peels in patches revealing aged wood beneath, creating textured areas that catch the light. The surface shows a matte finish with subtle reflective quality on dry areas, while water-splashed sections appear darker and more saturated. Post-Impressionist color theory creates vibrant complementary contrasts between the orange-red rust tones on metal fittings and the turquoise water stains along the waterline. The boat's form is rendered with deliberate, visible paint application that emphasizes its sturdy, working condition through thick impasto technique.",
+        "size": "Large",
+        "state": "Weathered but functional, showing signs of regular use with peeling paint, rust stains, and worn edges",
+        "primary_colors": [
+          "warm ochre",
+          "deep ultramarine"
+        ],
+        "material": "wood with metal fittings"
+      }
+    ]
+  },
+  "composition": {
+    "spatial_relations": [],
+    "semantic_relations": []
+  },
+  "environment": {
+    "environment_details": {
+      "scene_brief": "A Fishing Village centered around boat",
+      "place365_name": "/s/street",
+      "place365_id": 319,
+      "time_of_day": "afternoon",
+      "weather": "sunny",
+      "period": "Contemporary",
+      "is_indoor": false,
+      "lighting": {
+        "type": "natural",
+        "quality": "harsh",
+        "direction": "side-lit",
+        "mood": "warm",
+        "reasoning": "Direct afternoon sun creates harsh, natural lighting that casts strong shadows, defining the geometric shapes of the boats and buildings. Side-lighting enhances texture and volume, a key technique in Post-Impressionism to move beyond flat representation, while the warm mood reflects the 'golden hour' feel of the afternoon."
+      },
+      "atmosphere": "bright and active and cheerful"
+    },
+    "scene_inference": {
+      "all_candidates": [
+        {
+          "scene_type": "Coastal Harbor at Dusk",
+          "plausibility": 0.95,
+          "reasoning": "A boat is the primary object, moored in a harbor. The Post-Impressionist style emphasizes vibrant, non-naturalistic colors and visible brushstrokes, capturing the mood of the scene. The boat is the central focus, with the water and sky rendered in bold, expressive hues.",
+          "object_interpretations": {
+            "boat": {
+              "form": "real boat",
+              "scale": "normal",
+              "role": "primary object"
+            }
+          }
+        },
+        {
+          "scene_type": "Riverbank Landscape",
+          "plausibility": 0.9,
+          "reasoning": "A boat is beached on a riverbank. The scene is a landscape where the boat serves as a compositional anchor. Post-Impressionism allows for the natural elements (water, trees) to be depicted with structured, geometric forms and intense color.",
+          "object_interpretations": {
+            "boat": {
+              "form": "real boat",
+              "scale": "normal",
+              "role": "primary object"
+            }
+          }
+        },
+        {
+          "scene_type": "Fishing Village",
+          "plausibility": 0.9,
+          "reasoning": "A boat is pulled up on the shore of a small village. It is part of a larger scene but remains the main subject. The style uses distinct areas of color to define the boat against the backdrop of simple cottages and sea.",
+          "object_interpretations": {
+            "boat": {
+              "form": "real boat",
+              "scale": "normal",
+              "role": "primary object"
+            }
+          },
+          "scene_brief": "A Fishing Village centered around boat"
+        },
+        {
+          "scene_type": "Open Sea with Waves",
+          "plausibility": 0.85,
+          "reasoning": "A boat is navigating through stylized waves. The focus is on the movement of the water and the boat's interaction with it. The Post-Impressionist approach uses rhythmic, curving lines and contrasting colors to depict the sea's energy.",
+          "object_interpretations": {
+            "boat": {
+              "form": "real boat",
+              "scale": "normal",
+              "role": "primary object"
+            }
+          }
+        },
+        {
+          "scene_type": "Studio Still Life with Model Boat",
+          "plausibility": 0.8,
+          "reasoning": "A small model boat is the subject of a still life arrangement. This allows for a controlled composition typical of studio work. The artist applies Post-Impressionist techniques to the model, treating it as a study in form and color.",
+          "object_interpretations": {
+            "boat": {
+              "form": "model boat",
+              "scale": "small",
+              "role": "primary object"
+            }
+          }
+        },
+        {
+          "scene_type": "Abstracted Water Surface",
+          "plausibility": 0.75,
+          "reasoning": "The boat is depicted as a simplified shape floating on a highly abstracted water surface. The scene is less about realism and more about the formal qualities of the boat's silhouette against the water's pattern.",
+          "object_interpretations": {
+            "boat": {
+              "form": "stylized boat",
+              "scale": "variable",
+              "role": "primary object"
+            }
+          }
+        }
+      ],
+      "selected_scene": {
+        "scene_type": "Fishing Village",
+        "plausibility": 0.9,
+        "reasoning": "A boat is pulled up on the shore of a small village. It is part of a larger scene but remains the main subject. The style uses distinct areas of color to define the boat against the backdrop of simple cottages and sea.",
+        "object_interpretations": {
+          "boat": {
+            "form": "real boat",
+            "scale": "normal",
+            "role": "primary object"
+          }
+        },
+        "scene_brief": "A Fishing Village centered around boat"
+      }
+    }
+  },
+  "final_prompts": {
+    "main_prompt": "A Post-Impressionism painting depicting a large, weathered but functional boat made of wood with metal fittings, rendered in warm ochre and deep ultramarine tones. The boat dominates the foreground, its substantial form angled slightly toward the viewer, creating a sense of immediate presence. In the midground, the shoreline gently curves, suggesting the boat's recent arrival or imminent departure. The background features a bright, active harbor scene under the harsh natural light of a late afternoon. The atmosphere is cheerful and vibrant, with bold, visible brushstrokes capturing the energy of the scene and the intense, sun-drenched light that casts sharp, defined shadows across the boat's textured surface and the surrounding water.",
+    "negative_prompt": "photorealistic, 3d render, modern, digital art, photograph, low quality, blurry, distorted",
+    "prompt_formats": {
+      "simple": "A large ochre and ultramarine boat on a cheerful, sunlit shore in Post-Impressionist style.",
+      "complex": "A Post-Impressionism painting depicting a large, weathered but functional boat made of wood with metal fittings, rendered in warm ochre and deep ultramarine tones, dominating the foreground with a shoreline in the midground and a bright, active harbor in the background under harsh afternoon light.",
+      "comma_separated": "Post-Impressionism, boat, large, weathered, functional, wood, metal fittings, warm ochre, deep ultramarine, foreground, midground, shoreline, background, harbor, afternoon, harsh natural light, bright, active, cheerful, bold brushstrokes",
+      "tags": "art, painting, post-impressionism, boat, harbor, seascape, afternoon light, ochre, ultramarine, vibrant"
+    }
+  }
+}

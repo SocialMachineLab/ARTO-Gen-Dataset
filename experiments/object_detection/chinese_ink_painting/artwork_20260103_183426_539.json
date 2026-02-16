@@ -1,0 +1,303 @@
+{
+    "artwork_id": "artwork_20260103_183426_539",
+    "generation_timestamp": "2026-01-03T18:35:00.751012",
+    "style": "Chinese Ink Painting",
+    "objects": {
+        "object_ids": [
+            48,
+            61,
+            26
+        ],
+        "object_names": [
+            "cherry",
+            "table",
+            "umbrella"
+        ],
+        "enhanced_objects": [
+            {
+                "object_id": 48,
+                "name": "cherry",
+                "artistic_description": "A cluster of ripe cherries rendered in traditional ink wash technique, their deep crimson hues subtly muted by the cloudy afternoon light filtering through the window. The berries possess a soft, matte finish with gentle gradations of ink wash suggesting their roundness, while tiny highlights are indicated by reserved paper white. The stems are delicate brushstrokes of darker ink, slightly desaturated by the subdued indoor lighting.",
+                "size": "Small",
+                "state": "fresh and ripe",
+                "primary_colors": [
+                    "deep crimson",
+                    "muted burgundy"
+                ],
+                "material": "organic fruit"
+            },
+            {
+                "object_id": 61,
+                "name": "table",
+                "artistic_description": "A dark wooden table surface rendered in rich, layered ink washes that create deep, cool shadows. The aged wood grain is suggested through subtle dry-brush techniques and varying ink densities. The cloudy daylight catches the edges with soft, diffused highlights, while the main surface absorbs light, appearing as deep, velvety blacks and warm, dark browns. The patina of contemporary use shows through gentle wear marks rendered in lighter ink tones.",
+                "size": "Large",
+                "state": "aged and polished",
+                "primary_colors": [
+                    "warm dark brown",
+                    "deep charcoal"
+                ],
+                "material": "wood"
+            },
+            {
+                "object_id": 26,
+                "name": "umbrella",
+                "artistic_description": "A folded umbrella with its fabric canopy rendered in soft, muted ink tones that reflect the gentle, subdued lighting of the study. The material appears as a medium-gray wash with subtle textural variations suggesting the woven fabric. The handle and metal components are indicated with crisp, darker ink strokes that catch the cool afternoon light, creating small reserved white highlights against the matte fabric surface.",
+                "size": "Medium",
+                "state": "folded and dry",
+                "primary_colors": [
+                    "soft gray",
+                    "charcoal"
+                ],
+                "material": "fabric and metal"
+            }
+        ]
+    },
+    "composition": {
+        "spatial_relations": [
+            [
+                48,
+                "on",
+                61
+            ],
+            [
+                26,
+                "next to",
+                61
+            ]
+        ],
+        "semantic_relations": []
+    },
+    "environment": {
+        "environment_details": {
+            "scene_brief": "A Traditional Scholar's Study featuring cherry, with table, and umbrella",
+            "place365_name": "/r/room",
+            "place365_id": 21,
+            "time_of_day": "afternoon",
+            "weather": "cloudy",
+            "period": "Contemporary",
+            "is_indoor": true,
+            "lighting": {
+                "type": "natural",
+                "quality": "soft",
+                "direction": "side-lit",
+                "mood": "cool",
+                "reasoning": "A side-lit configuration from a window (implied by the study setting) creates gentle shadows that define form without being harsh, essential for the dimensional yet flat aesthetic of ink painting. The cool, soft light from a cloudy afternoon complements the ink palette and the quiet, scholarly mood."
+            },
+            "atmosphere": "bright and active and subdued and gentle"
+        },
+        "scene_inference": {
+            "all_candidates": [
+                {
+                    "scene_type": "Traditional Scholar's Study",
+                    "plausibility": 0.95,
+                    "reasoning": "In a classical Chinese scholar's study, a wooden table serves as the desk for calligraphy and painting. A bowl of fresh cherries might be placed on the table as a natural still-life subject or a simple snack. An umbrella, likely made of oiled paper or silk, would be leaning against the table or wall, ready for use after a rain shower, a common motif in literati settings.",
+                    "object_interpretations": {
+                        "cherry": {
+                            "form": "real fruit",
+                            "scale": "normal",
+                            "role": "still-life subject / snack"
+                        },
+                        "table": {
+                            "form": "wooden table",
+                            "scale": "normal",
+                            "role": "primary furniture / desk"
+                        },
+                        "umbrella": {
+                            "form": "traditional paper/silk umbrella",
+                            "scale": "normal",
+                            "role": "functional accessory"
+                        }
+                    },
+                    "scene_brief": "A Traditional Scholar's Study featuring cherry, with table, and umbrella"
+                },
+                {
+                    "scene_type": "Rainy Garden Pavilion",
+                    "plausibility": 0.9,
+                    "reasoning": "A scene in a classical Chinese garden, with a small pavilion. A table is inside the pavilion, perhaps with a tea set. The cherry is not a fruit but a cherry blossom tree (Prunus serrulata) just outside, its branches overhanging the pavilion. The umbrella is held by a figure or placed nearby, protecting from the gentle rain that enhances the garden's atmosphere.",
+                    "object_interpretations": {
+                        "cherry": {
+                            "form": "cherry blossom tree",
+                            "scale": "large (tree)",
+                            "role": "natural backdrop / seasonal symbol"
+                        },
+                        "table": {
+                            "form": "low tea table",
+                            "scale": "normal",
+                            "role": "central gathering point"
+                        },
+                        "umbrella": {
+                            "form": "oil-paper umbrella",
+                            "scale": "normal",
+                            "role": "atmospheric prop"
+                        }
+                    }
+                },
+                {
+                    "scene_type": "Rustic Farmhouse Kitchen",
+                    "plausibility": 0.85,
+                    "reasoning": "A simple, rustic kitchen setting. A sturdy wooden table is the main work surface, holding a basket of freshly picked cherries. An umbrella is propped in a corner, used for protection while working in the fields. The ink painting style emphasizes the textures of wood and the organic shape of the fruit.",
+                    "object_interpretations": {
+                        "cherry": {
+                            "form": "fresh fruit in basket",
+                            "scale": "normal",
+                            "role": "harvest produce"
+                        },
+                        "table": {
+                            "form": "heavy wooden work table",
+                            "scale": "normal",
+                            "role": "functional workspace"
+                        },
+                        "umbrella": {
+                            "form": "simple cloth umbrella",
+                            "scale": "normal",
+                            "role": "stored tool"
+                        }
+                    }
+                },
+                {
+                    "scene_type": "Summer Lakeside Picnic",
+                    "plausibility": 0.9,
+                    "reasoning": "A leisurely scene by a lake. A picnic blanket could be interpreted as a low, flat table. A bowl of cherries sits on this 'table'. An umbrella is open, providing shade from the summer sun. The composition would focus on the reflection of the umbrella and cherry tree in the water.",
+                    "object_interpretations": {
+                        "cherry": {
+                            "form": "cherries in a bowl",
+                            "scale": "normal",
+                            "role": "picnic food"
+                        },
+                        "table": {
+                            "form": "picnic blanket (interpreted as table surface)",
+                            "scale": "normal",
+                            "role": "grounding surface"
+                        },
+                        "umbrella": {
+                            "form": "large sun umbrella",
+                            "scale": "large",
+                            "role": "shade provider / focal point"
+                        }
+                    }
+                },
+                {
+                    "scene_type": "Art Studio / Ink Painting Workshop",
+                    "plausibility": 0.8,
+                    "reasoning": "The scene depicts an artist's studio. A table is covered with ink stones, brushes, and paper. On the table is a small vase holding a single cherry blossom branch (the 'cherry'). An umbrella is hanging on the wall, perhaps used for transporting artwork or as a prop. The scene is meta, depicting the creation of the art style itself.",
+                    "object_interpretations": {
+                        "cherry": {
+                            "form": "cherry blossom branch in vase",
+                            "scale": "small",
+                            "role": "artist's subject / decoration"
+                        },
+                        "table": {
+                            "form": "artist's work table",
+                            "scale": "normal",
+                            "role": "creative space"
+                        },
+                        "umbrella": {
+                            "form": "decorative umbrella on wall",
+                            "scale": "normal",
+                            "role": "studio prop"
+                        }
+                    }
+                },
+                {
+                    "scene_type": "Antique Shop Interior",
+                    "plausibility": 0.75,
+                    "reasoning": "A cluttered, atmospheric antique shop. A dark wooden table displays various items. A ceramic cherry sculpture sits on the table as a decorative object. An antique oil-paper umbrella is also displayed on the table or leaning against it. The ink style enhances the dusty, timeless feel.",
+                    "object_interpretations": {
+                        "cherry": {
+                            "form": "ceramic sculpture",
+                            "scale": "small",
+                            "role": "decorative object"
+                        },
+                        "table": {
+                            "form": "antique display table",
+                            "scale": "normal",
+                            "role": "platform for objects"
+                        },
+                        "umbrella": {
+                            "form": "antique umbrella",
+                            "scale": "normal",
+                            "role": "collectible item"
+                        }
+                    }
+                },
+                {
+                    "scene_type": "Moonlit Courtyard",
+                    "plausibility": 0.85,
+                    "reasoning": "A serene night scene. A stone table is in the center of a courtyard. A single cherry fruit rests on the table, illuminated by moonlight. An umbrella stands closed next to the table, perhaps left there after an evening stroll. The ink wash would be very subtle, focusing on light and shadow.",
+                    "object_interpretations": {
+                        "cherry": {
+                            "form": "single real fruit",
+                            "scale": "normal",
+                            "role": "symbol of solitude/quiet"
+                        },
+                        "table": {
+                            "form": "stone garden table",
+                            "scale": "normal",
+                            "role": "stable anchor"
+                        },
+                        "umbrella": {
+                            "form": "closed umbrella",
+                            "scale": "normal",
+                            "role": "silent companion"
+                        }
+                    }
+                },
+                {
+                    "scene_type": "Tea House Veranda",
+                    "plausibility": 0.9,
+                    "reasoning": "A view from inside a tea house looking out. A low table is in the foreground with a tea set. A plate of cherries is on the table. On the veranda just outside, an umbrella is resting against the railing, suggesting a recent shower has passed. The open shoji screens frame the scene.",
+                    "object_interpretations": {
+                        "cherry": {
+                            "form": "fresh fruit",
+                            "scale": "normal",
+                            "role": "refreshment"
+                        },
+                        "table": {
+                            "form": "low lacquered table",
+                            "scale": "normal",
+                            "role": "tea service surface"
+                        },
+                        "umbrella": {
+                            "form": "traditional umbrella",
+                            "scale": "normal",
+                            "role": "transitional object (rain to clear)"
+                        }
+                    }
+                }
+            ],
+            "selected_scene": {
+                "scene_type": "Traditional Scholar's Study",
+                "plausibility": 0.95,
+                "reasoning": "In a classical Chinese scholar's study, a wooden table serves as the desk for calligraphy and painting. A bowl of fresh cherries might be placed on the table as a natural still-life subject or a simple snack. An umbrella, likely made of oiled paper or silk, would be leaning against the table or wall, ready for use after a rain shower, a common motif in literati settings.",
+                "object_interpretations": {
+                    "cherry": {
+                        "form": "real fruit",
+                        "scale": "normal",
+                        "role": "still-life subject / snack"
+                    },
+                    "table": {
+                        "form": "wooden table",
+                        "scale": "normal",
+                        "role": "primary furniture / desk"
+                    },
+                    "umbrella": {
+                        "form": "traditional paper/silk umbrella",
+                        "scale": "normal",
+                        "role": "functional accessory"
+                    }
+                },
+                "scene_brief": "A Traditional Scholar's Study featuring cherry, with table, and umbrella"
+            }
+        }
+    },
+    "final_prompts": {
+        "main_prompt": "A Chinese Ink Painting painting depicting a quiet afternoon scene where a large, aged and polished table in warm dark brown and deep charcoal tones occupies the foreground. Upon its worn surface rests a small cluster of fresh, ripe cherries in deep crimson and muted burgundy hues. Beside the table stands a medium-sized umbrella in soft gray and charcoal shades, folded and dry, leaning gently against the wooden edge. The composition is bathed in natural soft afternoon light that filters through, creating a bright and active yet simultaneously subdued and gentle atmosphere. The ink washes capture the organic textures of the fruit, wood, and fabric with flowing brushstrokes, emphasizing the spatial relationship where the cherries sit atop the table while the umbrella stands adjacent, all harmonized within the tranquil setting.",
+        "negative_prompt": "photorealistic, 3d render, modern, digital art, photograph, low quality, blurry, distorted, vibrant colors, cartoon, anime, western painting, oil painting, watercolor, abstract",
+        "prompt_formats": {
+            "simple": "A Chinese ink painting of cherries on a table with an umbrella beside it in soft afternoon light.",
+            "complex": "A Chinese Ink Painting painting depicting a quiet afternoon scene where a large, aged and polished table in warm dark brown and deep charcoal tones occupies the foreground. Upon its worn surface rests a small cluster of fresh, ripe cherries in deep crimson and muted burgundy hues. Beside the table stands a medium-sized umbrella in soft gray and charcoal shades, folded and dry, leaning gently against the wooden edge. The composition is bathed in natural soft afternoon light that filters through, creating a bright and active yet simultaneously subdued and gentle atmosphere. The ink washes capture the organic textures of the fruit, wood, and fabric with flowing brushstrokes, emphasizing the spatial relationship where the cherries sit atop the table while the umbrella stands adjacent, all harmonized within the tranquil setting.",
+            "comma_separated": "Chinese Ink Painting, cherry on table, umbrella next to table, afternoon lighting, natural soft light, bright active subdued gentle atmosphere, deep crimson cherries, warm dark brown table, soft gray umbrella, aged polished wood, fresh ripe fruit, folded dry umbrella, ink wash technique, flowing brushstrokes, tranquil composition",
+            "tags": "art, painting, chinese ink painting, ink wash, shan shui influence, still life, cherry, table, umbrella, afternoon, natural lighting, traditional art, asian art, brushwork, atmospheric"
+        }
+    }
+}

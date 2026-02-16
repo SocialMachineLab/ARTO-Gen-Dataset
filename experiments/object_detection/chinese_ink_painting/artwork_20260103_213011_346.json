@@ -1,0 +1,303 @@
+{
+    "artwork_id": "artwork_20260103_213011_346",
+    "generation_timestamp": "2026-01-03T21:30:40.914896",
+    "style": "Chinese Ink Painting",
+    "objects": {
+        "object_ids": [
+            78,
+            46,
+            40
+        ],
+        "object_names": [
+            "toy",
+            "plate",
+            "bottle"
+        ],
+        "enhanced_objects": [
+            {
+                "object_id": 78,
+                "name": "toy",
+                "artistic_description": "A wooden toy figure rendered in soft charcoal washes with delicate ink lines, its surface showing gentle wear from handling. The cloudy afternoon light creates subtle gradations of gray across its rounded form, with matte wood grain visible through thin washes. Edges are softened by the diffused natural light, giving it a gentle, lived-in quality.",
+                "size": "Medium",
+                "state": "gently worn from play, smooth from handling",
+                "primary_colors": [
+                    "warm gray",
+                    "soft brown"
+                ],
+                "material": "wood"
+            },
+            {
+                "object_id": 46,
+                "name": "plate",
+                "artistic_description": "A ceramic plate captured in precise ink outlines and graded washes, its glazed surface reflecting the cloudy daylight with a soft, even sheen. The rim shows subtle variations in tone where light catches the curvature, while the center remains a calm, muted gray. Fine crackle patterns emerge in the glaze under the bright, subdued light.",
+                "size": "Medium",
+                "state": "glazed and slightly weathered, clean",
+                "primary_colors": [
+                    "pale celadon gray",
+                    "soft white"
+                ],
+                "material": "ceramic"
+            },
+            {
+                "object_id": 40,
+                "name": "bottle",
+                "artistic_description": "A glass bottle rendered with transparent ink washes that suggest its translucent nature, the cloudy sky creating diffused highlights along its curved surface. The glass shows subtle internal reflections and a cool, milky quality where light passes through. The neck and base are defined by delicate dry-brush strokes that capture the material's fragility.",
+                "size": "Medium",
+                "state": "clear glass with subtle patina, empty",
+                "primary_colors": [
+                    "cool gray",
+                    "pale blue"
+                ],
+                "material": "glass"
+            }
+        ]
+    },
+    "composition": {
+        "spatial_relations": [
+            [
+                78,
+                "on",
+                46
+            ],
+            [
+                40,
+                "next to",
+                46
+            ]
+        ],
+        "semantic_relations": []
+    },
+    "environment": {
+        "environment_details": {
+            "scene_brief": "A Artisan's Workshop featuring toy toy, with plate, and bottle",
+            "place365_name": "/t/toyshop",
+            "place365_id": 335,
+            "time_of_day": "afternoon",
+            "weather": "cloudy",
+            "period": "Contemporary",
+            "is_indoor": true,
+            "lighting": {
+                "type": "natural",
+                "quality": "soft",
+                "direction": "side-lit",
+                "mood": "neutral",
+                "reasoning": "Soft, side-lit natural light from a window would illuminate the toys and tools on the workbench, creating gentle highlights and shadows. This lighting quality supports the delicate brushwork and tonal variations of ink painting."
+            },
+            "atmosphere": "bright and active and subdued and gentle"
+        },
+        "scene_inference": {
+            "all_candidates": [
+                {
+                    "scene_type": "Traditional Scholar's Study",
+                    "plausibility": 0.95,
+                    "reasoning": "In a scholar's study, a toy (like a small wooden horse or rattle) could be a child's plaything left on the desk. A plate might hold ink stones or snacks, and a bottle could contain ink or tea. The Chinese Ink Painting style perfectly captures the serene, monochromatic atmosphere of such a space.",
+                    "object_interpretations": {
+                        "toy": {
+                            "form": "traditional wooden toy",
+                            "scale": "small",
+                            "role": "child's object on desk"
+                        },
+                        "plate": {
+                            "form": "ceramic inkstone plate",
+                            "scale": "small",
+                            "role": "stationery holder"
+                        },
+                        "bottle": {
+                            "form": "ink bottle",
+                            "scale": "small",
+                            "role": "writing tool"
+                        }
+                    }
+                },
+                {
+                    "scene_type": "Kitchen Still Life",
+                    "plausibility": 0.9,
+                    "reasoning": "A simple kitchen table setting where a toy (perhaps a small doll or wooden toy) sits beside a meal. The plate holds food, and a bottle contains oil or soy sauce. The ink painting style emphasizes the humble, everyday beauty of these domestic objects.",
+                    "object_interpretations": {
+                        "toy": {
+                            "form": "small doll",
+                            "scale": "miniature",
+                            "role": "table companion"
+                        },
+                        "plate": {
+                            "form": "porcelain plate",
+                            "scale": "normal",
+                            "role": "food container"
+                        },
+                        "bottle": {
+                            "form": "ceramic condiment bottle",
+                            "scale": "small",
+                            "role": "seasoning vessel"
+                        }
+                    }
+                },
+                {
+                    "scene_type": "Child's Playroom",
+                    "plausibility": 0.85,
+                    "reasoning": "A child's play area where the toy is the main focus. A plate might be part of a toy kitchen set, and a bottle could be a toy bottle for dolls. The ink painting style transforms a colorful scene into an elegant composition of shapes and shadows.",
+                    "object_interpretations": {
+                        "toy": {
+                            "form": "main toy figure",
+                            "scale": "normal",
+                            "role": "primary play object"
+                        },
+                        "plate": {
+                            "form": "toy plate",
+                            "scale": "miniature",
+                            "role": "dollhouse accessory"
+                        },
+                        "bottle": {
+                            "form": "toy bottle",
+                            "scale": "miniature",
+                            "role": "dollhouse accessory"
+                        }
+                    }
+                },
+                {
+                    "scene_type": "Tea House Table",
+                    "plausibility": 0.8,
+                    "reasoning": "A tea ceremony setting where a toy (perhaps a small decorative charm) rests on the table. A plate holds tea snacks, and a bottle contains tea leaves or water. The ink painting style captures the meditative quality of the tea ceremony.",
+                    "object_interpretations": {
+                        "toy": {
+                            "form": "decorative charm",
+                            "scale": "very small",
+                            "role": "table ornament"
+                        },
+                        "plate": {
+                            "form": "tea plate",
+                            "scale": "small",
+                            "role": "snack holder"
+                        },
+                        "bottle": {
+                            "form": "tea canister",
+                            "scale": "small",
+                            "role": "tea storage"
+                        }
+                    }
+                },
+                {
+                    "scene_type": "Artisan's Workshop",
+                    "plausibility": 0.75,
+                    "reasoning": "A craftsman's workspace where a toy is being repaired or created. A plate might hold small parts or tools, and a bottle could contain glue or paint. The ink painting style highlights the textures of wood and ceramic.",
+                    "object_interpretations": {
+                        "toy": {
+                            "form": "unfinished toy",
+                            "scale": "normal",
+                            "role": "work in progress"
+                        },
+                        "plate": {
+                            "form": "work plate",
+                            "scale": "small",
+                            "role": "tool holder"
+                        },
+                        "bottle": {
+                            "form": "adhesive bottle",
+                            "scale": "small",
+                            "role": "craft material"
+                        }
+                    },
+                    "scene_brief": "A Artisan's Workshop featuring toy toy, with plate, and bottle"
+                },
+                {
+                    "scene_type": "Garden Pavilion",
+                    "plausibility": 0.7,
+                    "reasoning": "An outdoor garden setting where a toy (perhaps a small kite or spinning top) lies on a bench. A plate might hold bird food, and a bottle could contain water or oil for lamps. The ink painting style captures the natural light and shadow of the garden.",
+                    "object_interpretations": {
+                        "toy": {
+                            "form": "outdoor toy",
+                            "scale": "small",
+                            "role": "garden plaything"
+                        },
+                        "plate": {
+                            "form": "shallow dish",
+                            "scale": "small",
+                            "role": "bird feeder"
+                        },
+                        "bottle": {
+                            "form": "oil bottle",
+                            "scale": "small",
+                            "role": "lamp fuel"
+                        }
+                    }
+                },
+                {
+                    "scene_type": "Temple Offering Table",
+                    "plausibility": 0.65,
+                    "reasoning": "A temple offering table where a toy (perhaps a small child's offering) sits alongside ritual items. A plate holds fruit offerings, and a bottle contains incense oil. The ink painting style conveys the spiritual solemnity of the space.",
+                    "object_interpretations": {
+                        "toy": {
+                            "form": "small offering toy",
+                            "scale": "small",
+                            "role": "ritual object"
+                        },
+                        "plate": {
+                            "form": "offering plate",
+                            "scale": "normal",
+                            "role": "food offering holder"
+                        },
+                        "bottle": {
+                            "form": "incense oil bottle",
+                            "scale": "small",
+                            "role": "ritual item"
+                        }
+                    }
+                },
+                {
+                    "scene_type": "Vintage Shop Display",
+                    "plausibility": 0.6,
+                    "reasoning": "A curio shop where a toy is displayed for sale. A plate and bottle are also shop items, arranged together on a shelf. The ink painting style emphasizes the nostalgic quality of old objects.",
+                    "object_interpretations": {
+                        "toy": {
+                            "form": "antique toy",
+                            "scale": "normal",
+                            "role": "shop merchandise"
+                        },
+                        "plate": {
+                            "form": "decorative plate",
+                            "scale": "normal",
+                            "role": "shop merchandise"
+                        },
+                        "bottle": {
+                            "form": "vintage bottle",
+                            "scale": "normal",
+                            "role": "shop merchandise"
+                        }
+                    }
+                }
+            ],
+            "selected_scene": {
+                "scene_type": "Artisan's Workshop",
+                "plausibility": 0.75,
+                "reasoning": "A craftsman's workspace where a toy is being repaired or created. A plate might hold small parts or tools, and a bottle could contain glue or paint. The ink painting style highlights the textures of wood and ceramic.",
+                "object_interpretations": {
+                    "toy": {
+                        "form": "unfinished toy",
+                        "scale": "normal",
+                        "role": "work in progress"
+                    },
+                    "plate": {
+                        "form": "work plate",
+                        "scale": "small",
+                        "role": "tool holder"
+                    },
+                    "bottle": {
+                        "form": "adhesive bottle",
+                        "scale": "small",
+                        "role": "craft material"
+                    }
+                },
+                "scene_brief": "A Artisan's Workshop featuring toy toy, with plate, and bottle"
+            }
+        }
+    },
+    "final_prompts": {
+        "main_prompt": "A Chinese Ink Painting painting depicting a quiet afternoon scene where a gently worn toy in warm gray and soft brown sits atop a medium-sized plate of pale celadon gray and soft white, its glazed surface slightly weathered. Beside the plate rests a medium-sized bottle in cool gray and pale blue, its clear glass showing subtle patina. The composition arranges the toy and plate prominently in the foreground, with the bottle slightly behind and to the side in the midground, all placed on a simple wooden surface that fades into soft, atmospheric brushstrokes in the background. Natural soft afternoon light filters through, creating a bright and active yet subdued and gentle atmosphere, with delicate ink washes capturing the interplay of light and shadow on the ceramic, glass, and worn surfaces. The painting balances detailed rendering of the objects' textures with the expressive, fluid spontaneity characteristic of ink painting, evoking a moment of tranquil contemplation.",
+        "negative_prompt": "photorealistic, 3d render, modern, digital art, photograph, low quality, blurry, distorted, vibrant colors, sharp edges, cartoon, anime, western painting style, oil painting, watercolor, abstract",
+        "prompt_formats": {
+            "simple": "A Chinese ink painting of a toy on a plate with a bottle beside it in soft afternoon light.",
+            "complex": "A Chinese Ink Painting painting depicting a quiet afternoon scene where a gently worn toy in warm gray and soft brown sits atop a medium-sized plate of pale celadon gray and soft white, its glazed surface slightly weathered. Beside the plate rests a medium-sized bottle in cool gray and pale blue, its clear glass showing subtle patina. The composition arranges the toy and plate prominently in the foreground, with the bottle slightly behind and to the side in the midground, all placed on a simple wooden surface that fades into soft, atmospheric brushstrokes in the background. Natural soft afternoon light filters through, creating a bright and active yet subdued and gentle atmosphere, with delicate ink washes capturing the interplay of light and shadow on the ceramic, glass, and worn surfaces. The painting balances detailed rendering of the objects' textures with the expressive, fluid spontaneity characteristic of ink painting, evoking a moment of tranquil contemplation.",
+            "comma_separated": "Chinese Ink Painting, toy on plate, bottle beside plate, warm gray and soft brown toy, pale celadon gray plate, cool gray and pale blue bottle, gently worn, slightly weathered, subtle patina, soft afternoon lighting, bright active subdued gentle atmosphere, wooden surface, ink washes, brushstrokes, tranquil",
+            "tags": "art, painting, chinese ink painting, ink wash, shuimo, still life, toy, plate, bottle, afternoon light, ceramic, glass, wood, texture, atmosphere, traditional art"
+        }
+    }
+}

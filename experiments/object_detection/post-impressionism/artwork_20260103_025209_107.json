@@ -1,0 +1,244 @@
+{
+    "artwork_id": "artwork_20260103_025209_107",
+    "generation_timestamp": "2026-01-03T02:52:57.447140",
+    "style": "Post-Impressionism",
+    "objects": {
+        "object_ids": [
+            75,
+            46
+        ],
+        "object_names": [
+            "clock",
+            "glass bowl"
+        ],
+        "enhanced_objects": [
+            {
+                "object_id": 75,
+                "name": "clock",
+                "artistic_description": "A brass clock face glows with warm honey-gold tones under the afternoon sun, its polished surface catching and scattering light like scattered jewels. The numerals are rendered in bold, dark strokes that create a striking contrast against the luminous background. Weathered patina traces the edges of the metal casing, while the glass dome overhead creates subtle reflections of the surrounding greenery. The clock hands cast sharp, elongated shadows across the face, creating a dramatic interplay of light and dark characteristic of Post-Impressionist boldness.",
+                "size": "Medium",
+                "state": "well-maintained with natural patina, contemporary craftsmanship visible",
+                "primary_colors": [
+                    "honey-gold",
+                    "deep bronze"
+                ],
+                "material": "brass and glass"
+            },
+            {
+                "object_id": 46,
+                "name": "glass bowl",
+                "artistic_description": "A translucent glass bowl captures the brilliant afternoon sunlight, transforming it into a prism of luminous color that dances across its curved surface. The glass appears almost liquid, with thick, impasto-like ridges catching the light in bright white highlights while the deeper curves hold cool cerulean and violet shadows. Sunlight passing through creates pools of warm amber on the shelf beneath, and the bowl's surface reflects fragmented glimpses of the conservatory's lush foliage in saturated greens. The material seems to dissolve the boundary between solid and light, embodying the Post-Impressionist celebration of pure color and luminous atmosphere.",
+                "size": "Small",
+                "state": "pristine, highly reflective, catching and refracting sunlight dramatically",
+                "primary_colors": [
+                    "crystal clear",
+                    "prismatic blues"
+                ],
+                "material": "glass"
+            }
+        ]
+    },
+    "composition": {
+        "spatial_relations": [
+            [
+                75,
+                "on",
+                46
+            ],
+            [
+                75,
+                "inside",
+                46
+            ]
+        ],
+        "semantic_relations": []
+    },
+    "environment": {
+        "environment_details": {
+            "scene_brief": "A garden conservatory featuring clock, with glass bowl displayed on shelves",
+            "place365_name": "/b/botanical_garden",
+            "place365_id": 62,
+            "time_of_day": "afternoon",
+            "weather": "sunny",
+            "period": "Contemporary",
+            "is_indoor": false,
+            "lighting": {
+                "type": "natural",
+                "quality": "soft",
+                "direction": "side-lit",
+                "mood": "warm",
+                "reasoning": "Natural, soft side-lighting from the sunny afternoon filters through the glass structure, creating gentle highlights on the reflective glass bowls and the clock's face, evoking a warm, intimate mood that supports the Post-Impressionist emphasis on color harmony and emotional depth over strict realism."
+            },
+            "atmosphere": "bright and active and cheerful and gentle"
+        },
+        "scene_inference": {
+            "all_candidates": [
+                {
+                    "scene_type": "Post-Impressionist dining room",
+                    "plausibility": 0.95,
+                    "reasoning": "A wall clock marks time over a dining table. The glass bowl holds fruit, catching light with vibrant, broken color typical of the style.",
+                    "object_interpretations": {
+                        "clock": {
+                            "form": "real wall clock",
+                            "scale": "normal",
+                            "role": "primary temporal anchor"
+                        },
+                        "glass bowl": {
+                            "form": "real decorative bowl",
+                            "scale": "normal",
+                            "role": "centerpiece containing fruit"
+                        }
+                    }
+                },
+                {
+                    "scene_type": "kitchen still life",
+                    "plausibility": 0.92,
+                    "reasoning": "A kitchen counter scene. The clock hangs on the wall, while the glass bowl is filled with water or lemons, emphasizing texture and light.",
+                    "object_interpretations": {
+                        "clock": {
+                            "form": "real kitchen clock",
+                            "scale": "normal",
+                            "role": "functional timekeeper"
+                        },
+                        "glass bowl": {
+                            "form": "real utility bowl",
+                            "scale": "normal",
+                            "role": "kitchenware object"
+                        }
+                    }
+                },
+                {
+                    "scene_type": "artist's studio",
+                    "plausibility": 0.9,
+                    "reasoning": "A clock sits on a cluttered studio shelf. A glass bowl serves as a palette holder or brush washer, surrounded by paint tubes.",
+                    "object_interpretations": {
+                        "clock": {
+                            "form": "real antique clock",
+                            "scale": "normal",
+                            "role": "studio prop"
+                        },
+                        "glass bowl": {
+                            "form": "real art supply",
+                            "scale": "normal",
+                            "role": "utility vessel"
+                        }
+                    }
+                },
+                {
+                    "scene_type": "bedroom interior",
+                    "plausibility": 0.88,
+                    "reasoning": "A bedside table holds a small clock. A glass bowl on the dresser holds jewelry or trinkets, reflecting soft morning light.",
+                    "object_interpretations": {
+                        "clock": {
+                            "form": "real bedside clock",
+                            "scale": "small",
+                            "role": "alarm/timekeeper"
+                        },
+                        "glass bowl": {
+                            "form": "real vanity bowl",
+                            "scale": "small",
+                            "role": "decorative storage"
+                        }
+                    }
+                },
+                {
+                    "scene_type": "sunlit parlor",
+                    "plausibility": 0.85,
+                    "reasoning": "Sunlight streams through a window onto a mantelpiece clock. A large glass bowl on a side table refracts the light into color spectrums.",
+                    "object_interpretations": {
+                        "clock": {
+                            "form": "real mantel clock",
+                            "scale": "medium",
+                            "role": "focal point"
+                        },
+                        "glass bowl": {
+                            "form": "real cut-glass bowl",
+                            "scale": "medium",
+                            "role": "light refraction object"
+                        }
+                    }
+                },
+                {
+                    "scene_type": "garden conservatory",
+                    "plausibility": 0.8,
+                    "reasoning": "An outdoor clock mounted on a brick wall overlooks a glass cloche (bell jar) protecting delicate plants.",
+                    "object_interpretations": {
+                        "clock": {
+                            "form": "weatherproof outdoor clock",
+                            "scale": "large",
+                            "role": "garden ornament"
+                        },
+                        "glass bowl": {
+                            "form": "glass cloche/plant protector",
+                            "scale": "large",
+                            "role": "botanical display"
+                        }
+                    },
+                    "scene_brief": "A garden conservatory featuring clock, with glass bowl displayed on shelves"
+                },
+                {
+                    "scene_type": "vintage shop interior",
+                    "plausibility": 0.82,
+                    "reasoning": "A cluttered antique shop display. A grandfather clock stands tall while a glass bowl sits on a lower shelf filled with marbles or old coins.",
+                    "object_interpretations": {
+                        "clock": {
+                            "form": "real grandfather clock",
+                            "scale": "large",
+                            "role": "shop centerpiece"
+                        },
+                        "glass bowl": {
+                            "form": "antique glass bowl",
+                            "scale": "normal",
+                            "role": "display item"
+                        }
+                    }
+                },
+                {
+                    "scene_type": "abstract interior composition",
+                    "plausibility": 0.75,
+                    "reasoning": "Distorted perspective of a room. The clock floats geometrically on a wall, while the glass bowl shatters into prismatic shapes on a table.",
+                    "object_interpretations": {
+                        "clock": {
+                            "form": "stylized/cubist clock",
+                            "scale": "distorted",
+                            "role": "abstract time symbol"
+                        },
+                        "glass bowl": {
+                            "form": "fragmented glass shapes",
+                            "scale": "distorted",
+                            "role": "light/color study"
+                        }
+                    }
+                }
+            ],
+            "selected_scene": {
+                "scene_type": "garden conservatory",
+                "plausibility": 0.8,
+                "reasoning": "An outdoor clock mounted on a brick wall overlooks a glass cloche (bell jar) protecting delicate plants.",
+                "object_interpretations": {
+                    "clock": {
+                        "form": "weatherproof outdoor clock",
+                        "scale": "large",
+                        "role": "garden ornament"
+                    },
+                    "glass bowl": {
+                        "form": "glass cloche/plant protector",
+                        "scale": "large",
+                        "role": "botanical display"
+                    }
+                },
+                "scene_brief": "A garden conservatory featuring clock, with glass bowl displayed on shelves"
+            }
+        }
+    },
+    "final_prompts": {
+        "main_prompt": "A Post-Impressionism painting depicting a small, crystal-clear glass bowl with prismatic blue refractions, its pristine surface catching the soft afternoon light. Inside this delicate vessel rests a medium-sized clock of honey-gold and deep bronze, its well-maintained face showing a natural patina as it sits securely within the bowl's transparent confines. The spatial relationship is intimate and layered\u2014the clock is both physically supported by and visually contained within the glass bowl. The scene is bathed in natural, soft afternoon illumination that creates bright, active dapples of light and long, gentle shadows, contributing to a cheerful and gentle atmosphere. The composition emphasizes the interplay of materials\u2014the solid, warm brass of the clock against the fragile, cool glass\u2014rendered with the characteristic visible brushstrokes, vibrant color, and emotional resonance of Post-Impressionism.",
+        "negative_prompt": "photorealistic, 3d render, modern, digital art, photograph, low quality, blurry, distorted, ugly, deformed, text, watermark, signature, frame, cartoon, anime, sketch, grainy, oversaturated, hyperrealistic",
+        "prompt_formats": {
+            "simple": "A Post-Impressionism painting of a bronze clock inside a clear glass bowl in soft afternoon light.",
+            "complex": "A Post-Impressionism painting depicting a small, crystal-clear glass bowl with prismatic blue refractions, its pristine surface catching the soft afternoon light. Inside this delicate vessel rests a medium-sized clock of honey-gold and deep bronze, its well-maintained face showing a natural patina as it sits securely within the bowl's transparent confines. The spatial relationship is intimate and layered\u2014the clock is both physically supported by and visually contained within the glass bowl. The scene is bathed in natural, soft afternoon illumination that creates bright, active dapples of light and long, gentle shadows, contributing to a cheerful and gentle atmosphere. The composition emphasizes the interplay of materials\u2014the solid, warm brass of the clock against the fragile, cool glass\u2014rendered with the characteristic visible brushstrokes, vibrant color, and emotional resonance of Post-Impressionism.",
+            "comma_separated": "Post-Impressionism painting, medium honey-gold bronze clock, small crystal clear glass bowl, clock inside bowl, soft natural afternoon lighting, bright cheerful gentle atmosphere, visible brushstrokes, vibrant color, prismatic blue refractions, warm patina, intimate composition",
+            "tags": "art, painting, post-impressionism, still life, clock, glass bowl, brass, glass, afternoon light, cheerful, gentle, vibrant colors, textured brushwork"
+        }
+    }
+}

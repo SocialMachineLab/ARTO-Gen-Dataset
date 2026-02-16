@@ -1,0 +1,286 @@
+{
+    "artwork_id": "artwork_20260103_163717_396",
+    "generation_timestamp": "2026-01-03T16:37:58.725836",
+    "style": "Baroque",
+    "objects": {
+        "object_ids": [
+            58,
+            18,
+            16
+        ],
+        "object_names": [
+            "blanket",
+            "donkey",
+            "lion"
+        ],
+        "enhanced_objects": [
+            {
+                "object_id": 58,
+                "name": "blanket",
+                "artistic_description": "Rich velvet drapery cascades in heavy Baroque folds, its deep crimson surface catching warm candlelight with luminous highlights while shadows pool dramatically in the crevices. Gold brocade embroidery glimmers softly, the metallic threads reflecting flickering light like scattered embers. The fabric appears luxuriously thick, with a matte yet plush texture that absorbs and diffuses the ambient glow.",
+                "size": "Medium",
+                "state": "draped and settled, showing natural gravity and weight",
+                "primary_colors": [
+                    "crimson",
+                    "gold"
+                ],
+                "material": "velvet"
+            },
+            {
+                "object_id": 18,
+                "name": "donkey",
+                "artistic_description": "Coarse, dun-colored fur takes on warm ochre and amber tones under the mixed lighting, with individual hairs catching soft highlights. The muzzle and flanks show subtle shadows that emphasize the animal's rugged texture. Its patient form appears weathered yet dignified, with a matte coat that diffuses rather than reflects the ambient light, creating a natural, earthy presence.",
+                "size": "Large",
+                "state": "calm and still, showing signs of gentle age and use",
+                "primary_colors": [
+                    "ochre",
+                    "umber"
+                ],
+                "material": "fur"
+            },
+            {
+                "object_id": 16,
+                "name": "lion",
+                "artistic_description": "Magnificent golden mane radiates with Baroque theatricality, each curl catching warm light with burnished bronze and amber highlights. The tawny coat shimmers with subtle variations of sienna and burnt orange, while deep shadows sculpt the powerful musculature. Whiskers and fine fur details appear as delicate golden filaments against the dimmer background, creating a striking interplay of light and noble presence.",
+                "size": "Dominant",
+                "state": "regal and composed, embodying noble restraint",
+                "primary_colors": [
+                    "golden",
+                    "burnt sienna"
+                ],
+                "material": "fur"
+            }
+        ]
+    },
+    "composition": {
+        "spatial_relations": [
+            [
+                18,
+                "on",
+                58
+            ],
+            [
+                16,
+                "on",
+                58
+            ],
+            [
+                18,
+                "next to",
+                16
+            ]
+        ],
+        "semantic_relations": []
+    },
+    "environment": {
+        "environment_details": {
+            "scene_brief": "A Baroque stage set featuring blanket, with donkey, and lion",
+            "place365_name": "/p/pub/indoor",
+            "place365_id": 274,
+            "time_of_day": "evening",
+            "weather": null,
+            "period": "Early modern",
+            "is_indoor": true,
+            "lighting": {
+                "type": "mixed",
+                "quality": "dramatic",
+                "direction": "side-lit",
+                "mood": "warm",
+                "reasoning": "Baroque style is defined by dramatic chiaroscuro lighting. A mixed lighting setup (candlelight/torchlight from the stage combined with evening light from windows) creates the high contrast and deep shadows essential to Baroque atmosphere. Side-lighting would sculpt the forms of the donkey and lion, creating three-dimensionality and dramatic highlights on the blanket and animal forms, while warm tones enhance the theatrical, intimate mood."
+            },
+            "atmosphere": "calm and relaxed and striking"
+        },
+        "scene_inference": {
+            "all_candidates": [
+                {
+                    "scene_type": "Baroque royal nursery",
+                    "plausibility": 0.9,
+                    "reasoning": "A lavish royal nursery with a rich blanket on a crib. The donkey and lion appear as ornate, handcrafted toy figurines, perhaps part of a mobile or a set of royal playthings, reflecting the Baroque love for opulence and symbolism.",
+                    "object_interpretations": {
+                        "blanket": {
+                            "form": "real blanket",
+                            "scale": "normal",
+                            "role": "primary functional object"
+                        },
+                        "donkey": {
+                            "form": "toy figurine",
+                            "scale": "miniature",
+                            "role": "decorative toy"
+                        },
+                        "lion": {
+                            "form": "toy figurine",
+                            "scale": "miniature",
+                            "role": "decorative toy"
+                        }
+                    }
+                },
+                {
+                    "scene_type": "Baroque allegorical painting",
+                    "plausibility": 0.95,
+                    "reasoning": "A grand Baroque canvas depicting a mythological scene. The blanket is draped over a stone bench or throne. The donkey and lion are painted as symbolic animals in the scene, perhaps representing patience and courage, rendered with dramatic lighting.",
+                    "object_interpretations": {
+                        "blanket": {
+                            "form": "painted element",
+                            "scale": "normal",
+                            "role": "secondary decorative element"
+                        },
+                        "donkey": {
+                            "form": "painted animal",
+                            "scale": "normal",
+                            "role": "symbolic character"
+                        },
+                        "lion": {
+                            "form": "painted animal",
+                            "scale": "normal",
+                            "role": "symbolic character"
+                        }
+                    }
+                },
+                {
+                    "scene_type": "Baroque stage set",
+                    "plausibility": 0.85,
+                    "reasoning": "A theatrical stage set for a Baroque opera. The blanket is a prop, perhaps a royal cloak or a simple covering on a cot. The donkey and lion are costumed actors or elaborate puppets used in a pastoral or fable performance.",
+                    "object_interpretations": {
+                        "blanket": {
+                            "form": "theatrical prop",
+                            "scale": "normal",
+                            "role": "costume or set dressing"
+                        },
+                        "donkey": {
+                            "form": "costumed actor/puppet",
+                            "scale": "normal",
+                            "role": "character"
+                        },
+                        "lion": {
+                            "form": "costumed actor/puppet",
+                            "scale": "normal",
+                            "role": "character"
+                        }
+                    },
+                    "scene_brief": "A Baroque stage set featuring blanket, with donkey, and lion"
+                },
+                {
+                    "scene_type": "Baroque aristocratic salon",
+                    "plausibility": 0.8,
+                    "reasoning": "An opulent salon with rich textiles. The blanket is a luxurious throw on a chaise lounge. The donkey and lion are present as decorative motifs on wallpaper, tapestries, or as small bronze sculptures on a mantelpiece.",
+                    "object_interpretations": {
+                        "blanket": {
+                            "form": "real textile",
+                            "scale": "normal",
+                            "role": "furnishing"
+                        },
+                        "donkey": {
+                            "form": "sculpture/pattern",
+                            "scale": "small/miniature",
+                            "role": "decorative motif"
+                        },
+                        "lion": {
+                            "form": "sculpture/pattern",
+                            "scale": "small/miniature",
+                            "role": "decorative motif"
+                        }
+                    }
+                },
+                {
+                    "scene_type": "Baroque naturalist study",
+                    "plausibility": 0.75,
+                    "reasoning": "A cabinet of curiosities. The blanket is draped over a chair or a specimen table. The donkey and lion are taxidermy specimens or detailed anatomical models, displayed for study alongside other artifacts.",
+                    "object_interpretations": {
+                        "blanket": {
+                            "form": "real textile",
+                            "scale": "normal",
+                            "role": "furnishing"
+                        },
+                        "donkey": {
+                            "form": "taxidermy/model",
+                            "scale": "normal",
+                            "role": "scientific specimen"
+                        },
+                        "lion": {
+                            "form": "taxidermy/model",
+                            "scale": "normal",
+                            "role": "scientific specimen"
+                        }
+                    }
+                },
+                {
+                    "scene_type": "Baroque still life",
+                    "plausibility": 0.9,
+                    "reasoning": "A dark, dramatic still life painting. The blanket is a heavy, draped cloth forming the background or tablecloth. The donkey and lion are small, detailed wooden or wax figurines placed among fruit and silverware.",
+                    "object_interpretations": {
+                        "blanket": {
+                            "form": "painted fabric",
+                            "scale": "normal",
+                            "role": "background/tablecloth"
+                        },
+                        "donkey": {
+                            "form": "figurine",
+                            "scale": "small",
+                            "role": "decorative object"
+                        },
+                        "lion": {
+                            "form": "figurine",
+                            "scale": "small",
+                            "role": "decorative object"
+                        }
+                    }
+                },
+                {
+                    "scene_type": "Baroque stable interior",
+                    "plausibility": 0.7,
+                    "reasoning": "A surprisingly opulent stable fit for a royal favorite animal. The blanket is a rich, embroidered horse blanket on a donkey's back. The donkey is the resident. The lion is a chained guardian or a heraldic statue nearby, creating a surreal but visually rich scene.",
+                    "object_interpretations": {
+                        "blanket": {
+                            "form": "real blanket",
+                            "scale": "normal",
+                            "role": "animal covering"
+                        },
+                        "donkey": {
+                            "form": "real animal",
+                            "scale": "normal",
+                            "role": "primary resident"
+                        },
+                        "lion": {
+                            "form": "real animal/statue",
+                            "scale": "normal",
+                            "role": "guardian/decorative"
+                        }
+                    }
+                }
+            ],
+            "selected_scene": {
+                "scene_type": "Baroque stage set",
+                "plausibility": 0.85,
+                "reasoning": "A theatrical stage set for a Baroque opera. The blanket is a prop, perhaps a royal cloak or a simple covering on a cot. The donkey and lion are costumed actors or elaborate puppets used in a pastoral or fable performance.",
+                "object_interpretations": {
+                    "blanket": {
+                        "form": "theatrical prop",
+                        "scale": "normal",
+                        "role": "costume or set dressing"
+                    },
+                    "donkey": {
+                        "form": "costumed actor/puppet",
+                        "scale": "normal",
+                        "role": "character"
+                    },
+                    "lion": {
+                        "form": "costumed actor/puppet",
+                        "scale": "normal",
+                        "role": "character"
+                    }
+                },
+                "scene_brief": "A Baroque stage set featuring blanket, with donkey, and lion"
+            }
+        }
+    },
+    "final_prompts": {
+        "main_prompt": "A Baroque painting depicting a calm evening scene where a large ochre and umber donkey sits calmly and still upon a crimson and gold blanket, its body draped in soft fur, while next to it rests a dominant golden and burnt sienna lion, regal and composed with a majestic mane, both animals sharing the same velvet-textured blanket that is settled upon the ground. The spatial arrangement places the donkey and lion side by side in the foreground, their forms illuminated by a mixed dramatic lighting that casts deep shadows and highlights their textures against the twilight sky. The atmosphere is calm and relaxed yet strikingly powerful, with the evening light creating a chiaroscuro effect that enhances the rich crimson of the blanket and the warm hues of the animals, all set within a serene natural environment where the quiet of dusk envelops the scene.",
+        "negative_prompt": "photorealistic, 3d render, modern, digital art, photograph, low quality, blurry, distorted, cartoon, anime, abstract, surreal, futuristic, sci-fi, ugly, deformed, disfigured, poorly drawn",
+        "prompt_formats": {
+            "simple": "A Baroque painting of a donkey and lion resting together on a crimson blanket at dusk.",
+            "complex": "A Baroque painting depicting a calm evening scene where a large ochre and umber donkey sits calmly and still upon a crimson and gold blanket, its body draped in soft fur, while next to it rests a dominant golden and burnt sienna lion, regal and composed with a majestic mane, both animals sharing the same velvet-textured blanket that is settled upon the ground. The spatial arrangement places the donkey and lion side by side in the foreground, their forms illuminated by a mixed dramatic lighting that casts deep shadows and highlights their textures against the twilight sky. The atmosphere is calm and relaxed yet strikingly powerful, with the evening light creating a chiaroscuro effect that enhances the rich crimson of the blanket and the warm hues of the animals, all set within a serene natural environment where the quiet of dusk envelops the scene.",
+            "comma_separated": "Baroque painting, donkey on blanket, lion on blanket, donkey next to lion, large ochre donkey, dominant golden lion, crimson gold blanket, evening lighting, dramatic chiaroscuro, calm relaxed striking atmosphere, velvet texture, fur details, serene dusk environment",
+            "tags": "art, painting, Baroque, animal painting, donkey, lion, blanket, evening scene, dramatic lighting, chiaroscuro, calm atmosphere, velvet, fur, ochre, umber, golden, burnt sienna, crimson, gold"
+        }
+    }
+}

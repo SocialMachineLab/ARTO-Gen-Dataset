@@ -1,0 +1,303 @@
+{
+    "artwork_id": "artwork_20260103_174052_491",
+    "generation_timestamp": "2026-01-03T17:41:24.345046",
+    "style": "Neoclassicism",
+    "objects": {
+        "object_ids": [
+            49,
+            61,
+            52
+        ],
+        "object_names": [
+            "bread",
+            "side table",
+            "pumpkin"
+        ],
+        "enhanced_objects": [
+            {
+                "object_id": 49,
+                "name": "bread",
+                "artistic_description": "A golden-brown artisanal loaf with a crackling, flour-dusted crust that catches the afternoon sun, creating luminous highlights on its textured surface. The interior crumb glows with warm amber tones where light penetrates the porous structure, while the crust displays subtle variations from pale wheat to deep caramel. Moisture from the fresh interior creates a gentle steam that softens the edges in the bright, cheerful light.",
+                "size": "Medium",
+                "state": "freshly baked, warm, crusty exterior with soft interior",
+                "primary_colors": [
+                    "warm golden wheat",
+                    "rich caramel"
+                ],
+                "material": "bread"
+            },
+            {
+                "object_id": 61,
+                "name": "side table",
+                "artistic_description": "A refined wooden table with clean neoclassical lines, its polished surface reflecting the bright afternoon light in soft, diffused patterns. The natural wood grain appears in warm honey tones, with subtle amber undertones enhanced by the sun's gentle caress. Edges are crisp and well-defined, showing the characteristic restraint of neoclassical design, while the surface maintains a dignified matte sheen that absorbs and softens rather than mirrors the light.",
+                "size": "Large",
+                "state": "well-maintained contemporary piece with smooth finish",
+                "primary_colors": [
+                    "honey amber",
+                    "natural wood brown"
+                ],
+                "material": "wood"
+            },
+            {
+                "object_id": 52,
+                "name": "pumpkin",
+                "artistic_description": "A decorative pumpkin rendered in rich, saturated orange that vibrates with luminous energy under the bright natural light. Its smooth, matte skin absorbs the sunlight rather than reflecting it, creating deep, velvety shadows in the crevices while the rounded surfaces glow with internal warmth. The stem appears in muted olive tones, providing a sophisticated contrast to the vibrant body, with fine textural details visible in the subtle surface variations.",
+                "size": "Medium",
+                "state": "fresh autumn decoration, firm and vibrant",
+                "primary_colors": [
+                    "vibrant pumpkin orange",
+                    "deep olive green"
+                ],
+                "material": "pumpkin"
+            }
+        ]
+    },
+    "composition": {
+        "spatial_relations": [
+            [
+                49,
+                "on",
+                61
+            ],
+            [
+                52,
+                "next to",
+                61
+            ]
+        ],
+        "semantic_relations": []
+    },
+    "environment": {
+        "environment_details": {
+            "scene_brief": "A Harvest Dining Table featuring bread, with side table, and decorative pumpkin as decoration",
+            "place365_name": "/d/dining_room",
+            "place365_id": 121,
+            "time_of_day": "afternoon",
+            "weather": "sunny",
+            "period": "Contemporary",
+            "is_indoor": true,
+            "lighting": {
+                "type": "natural",
+                "quality": "soft",
+                "direction": "side-lit",
+                "mood": "warm",
+                "reasoning": "Combining 'afternoon' time and 'sunny' weather results in natural, warm lighting. For a Neoclassical aesthetic, soft side-lighting is optimal as it models the objects with gentle shadows, highlighting their volume and texture without harsh contrast, creating a harmonious and balanced composition."
+            },
+            "atmosphere": "bright and active and cheerful and gentle"
+        },
+        "scene_inference": {
+            "all_candidates": [
+                {
+                    "scene_type": "Still Life Breakfast Nook",
+                    "plausibility": 0.95,
+                    "reasoning": "A rustic wooden side table holds a basket of fresh bread and a small decorative pumpkin, evoking a simple morning meal scene typical of Neoclassical still life paintings.",
+                    "object_interpretations": {
+                        "bread": {
+                            "form": "real loaf",
+                            "scale": "normal",
+                            "role": "primary food item"
+                        },
+                        "side table": {
+                            "form": "real furniture",
+                            "scale": "normal",
+                            "role": "supporting surface"
+                        },
+                        "pumpkin": {
+                            "form": "real gourd",
+                            "scale": "small",
+                            "role": "seasonal accent"
+                        }
+                    }
+                },
+                {
+                    "scene_type": "Harvest Dining Table",
+                    "plausibility": 0.9,
+                    "reasoning": "A grand dining table features a centerpiece of wheat sheaves and a pumpkin, with a crusty baguette placed beside each setting, symbolizing abundance.",
+                    "object_interpretations": {
+                        "bread": {
+                            "form": "real artisanal loaf",
+                            "scale": "normal",
+                            "role": "dining staple"
+                        },
+                        "side table": {
+                            "form": "real furniture",
+                            "scale": "normal",
+                            "role": "serving station"
+                        },
+                        "pumpkin": {
+                            "form": "real pumpkin",
+                            "scale": "medium",
+                            "role": "decorative centerpiece"
+                        }
+                    },
+                    "scene_brief": "A Harvest Dining Table featuring bread, with side table, and decorative pumpkin as decoration"
+                },
+                {
+                    "scene_type": "Kitchen Pantry Shelf",
+                    "plausibility": 0.85,
+                    "reasoning": "A classical stone alcove with a wooden shelf holds a round loaf of bread and a small pumpkin, illuminated by soft window light.",
+                    "object_interpretations": {
+                        "bread": {
+                            "form": "real bread",
+                            "scale": "normal",
+                            "role": "stored food"
+                        },
+                        "side table": {
+                            "form": "real furniture",
+                            "scale": "normal",
+                            "role": "storage surface"
+                        },
+                        "pumpkin": {
+                            "form": "real pumpkin",
+                            "scale": "small",
+                            "role": "harvest decoration"
+                        }
+                    }
+                },
+                {
+                    "scene_type": "Formal Parlor with Serving Cart",
+                    "plausibility": 0.8,
+                    "reasoning": "An elegant side table displays a silver tray with bread rolls and a miniature pumpkin, blending domestic comfort with classical aesthetics.",
+                    "object_interpretations": {
+                        "bread": {
+                            "form": "real rolls",
+                            "scale": "normal",
+                            "role": "refreshment"
+                        },
+                        "side table": {
+                            "form": "real furniture",
+                            "scale": "normal",
+                            "role": "display surface"
+                        },
+                        "pumpkin": {
+                            "form": "real pumpkin",
+                            "scale": "miniature",
+                            "role": "ornamental object"
+                        }
+                    }
+                },
+                {
+                    "scene_type": "Garden Pavilion Picnic",
+                    "plausibility": 0.75,
+                    "reasoning": "A neoclassical stone bench (side table) holds a picnic basket with bread and a small pumpkin amidst garden greenery.",
+                    "object_interpretations": {
+                        "bread": {
+                            "form": "real bread",
+                            "scale": "normal",
+                            "role": "picnic food"
+                        },
+                        "side table": {
+                            "form": "stone bench",
+                            "scale": "normal",
+                            "role": "seating/surface"
+                        },
+                        "pumpkin": {
+                            "form": "real pumpkin",
+                            "scale": "small",
+                            "role": "garden accent"
+                        }
+                    }
+                },
+                {
+                    "scene_type": "Art Studio Prop Table",
+                    "plausibility": 0.7,
+                    "reasoning": "A draped side table holds bread and a pumpkin as still life props for a painter, arranged in classical composition.",
+                    "object_interpretations": {
+                        "bread": {
+                            "form": "real bread",
+                            "scale": "normal",
+                            "role": "artistic subject"
+                        },
+                        "side table": {
+                            "form": "real furniture",
+                            "scale": "normal",
+                            "role": "prop surface"
+                        },
+                        "pumpkin": {
+                            "form": "real pumpkin",
+                            "scale": "normal",
+                            "role": "artistic subject"
+                        }
+                    }
+                },
+                {
+                    "scene_type": "Farmhouse Hearth",
+                    "plausibility": 0.85,
+                    "reasoning": "A rustic side table near a fireplace holds a loaf of bread warming and a pumpkin for winter storage.",
+                    "object_interpretations": {
+                        "bread": {
+                            "form": "real bread",
+                            "scale": "normal",
+                            "role": "warm food"
+                        },
+                        "side table": {
+                            "form": "real furniture",
+                            "scale": "normal",
+                            "role": "hearth surface"
+                        },
+                        "pumpkin": {
+                            "form": "real pumpkin",
+                            "scale": "medium",
+                            "role": "seasonal produce"
+                        }
+                    }
+                },
+                {
+                    "scene_type": "Banquet Hall Buffet",
+                    "plausibility": 0.8,
+                    "reasoning": "A classical sideboard holds baskets of bread and decorative gourds for a formal banquet.",
+                    "object_interpretations": {
+                        "bread": {
+                            "form": "real bread",
+                            "scale": "normal",
+                            "role": "banquet food"
+                        },
+                        "side table": {
+                            "form": "real furniture",
+                            "scale": "large",
+                            "role": "serving surface"
+                        },
+                        "pumpkin": {
+                            "form": "real pumpkin",
+                            "scale": "medium",
+                            "role": "table decoration"
+                        }
+                    }
+                }
+            ],
+            "selected_scene": {
+                "scene_type": "Harvest Dining Table",
+                "plausibility": 0.9,
+                "reasoning": "A grand dining table features a centerpiece of wheat sheaves and a pumpkin, with a crusty baguette placed beside each setting, symbolizing abundance.",
+                "object_interpretations": {
+                    "bread": {
+                        "form": "real artisanal loaf",
+                        "scale": "normal",
+                        "role": "dining staple"
+                    },
+                    "side table": {
+                        "form": "real furniture",
+                        "scale": "normal",
+                        "role": "serving station"
+                    },
+                    "pumpkin": {
+                        "form": "real pumpkin",
+                        "scale": "medium",
+                        "role": "decorative centerpiece"
+                    }
+                },
+                "scene_brief": "A Harvest Dining Table featuring bread, with side table, and decorative pumpkin as decoration"
+            }
+        }
+    },
+    "final_prompts": {
+        "main_prompt": "A Neoclassicism painting depicting a bright and active afternoon scene with a gentle, cheerful atmosphere. In the foreground, a large, well-maintained contemporary side table in honey amber and natural wood brown tones stands prominently. Upon its polished surface rests a medium-sized loaf of freshly baked bread, its crust glowing with warm golden wheat and rich caramel hues. Beside the table, slightly to the right in the midground, sits a medium-sized pumpkin serving as a fresh autumn decoration, its vibrant pumpkin orange skin contrasted by deep olive green stem accents. The composition is illuminated by soft, natural afternoon light that casts gentle shadows and highlights the textures of the bread's crust, the wood grain of the table, and the smooth surface of the pumpkin, creating a harmonious domestic still life arrangement with classical balance and clarity.",
+        "negative_prompt": "photorealistic, 3d render, modern, digital art, photograph, low quality, blurry, distorted, surreal, abstract, cartoon, anime, fantasy, dark, gloomy, night, indoor lighting, artificial light, cluttered, messy, deformed objects, bad proportions, watermark, signature, text",
+        "prompt_formats": {
+            "simple": "A Neoclassical still life painting of bread on a side table with a pumpkin beside it in soft afternoon light.",
+            "complex": "A Neoclassicism painting depicting a bright and active afternoon scene with a gentle, cheerful atmosphere. In the foreground, a large, well-maintained contemporary side table in honey amber and natural wood brown tones stands prominently. Upon its polished surface rests a medium-sized loaf of freshly baked bread, its crust glowing with warm golden wheat and rich caramel hues. Beside the table, slightly to the right in the midground, sits a medium-sized pumpkin serving as a fresh autumn decoration, its vibrant pumpkin orange skin contrasted by deep olive green stem accents. The composition is illuminated by soft, natural afternoon light that casts gentle shadows and highlights the textures of the bread's crust, the wood grain of the table, and the smooth surface of the pumpkin, creating a harmonious domestic still life arrangement with classical balance and clarity.",
+            "comma_separated": "Neoclassicism painting, still life, large honey amber side table, medium warm golden wheat bread on table, medium vibrant orange pumpkin beside table, soft natural afternoon lighting, bright cheerful gentle atmosphere, classical composition, balanced arrangement, textured materials",
+            "tags": "art, painting, neoclassicism, still life, bread, side table, pumpkin, afternoon light, domestic scene, classical art, autumn decoration"
+        }
+    }
+}

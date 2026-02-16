@@ -1,0 +1,350 @@
+{
+    "artwork_id": "artwork_20260103_023834_385",
+    "generation_timestamp": "2026-01-03T02:39:10.184087",
+    "style": "Post-Impressionism",
+    "objects": {
+        "object_ids": [
+            3,
+            26,
+            19,
+            60
+        ],
+        "object_names": [
+            "wagon",
+            "canopy",
+            "lamb",
+            "canopy bed"
+        ],
+        "enhanced_objects": [
+            {
+                "object_id": 3,
+                "name": "wagon",
+                "artistic_description": "Weathered wooden wagon bathed in warm afternoon sunlight, its aged planks glowing with golden honey tones and casting deep amber shadows. The paint is faded and peeling, revealing natural wood grain that catches the bright light. Dust motes dance in the air, settling on its sun-bleached surfaces. Iron hardware glints with sharp metallic highlights against the warm wood.",
+                "size": "Large",
+                "state": "weathered and sun-bleached",
+                "primary_colors": [
+                    "golden amber",
+                    "weathered brown"
+                ],
+                "material": "wood and iron"
+            },
+            {
+                "object_id": 26,
+                "name": "canopy",
+                "artistic_description": "Vibrant fabric canopy saturated with brilliant color under the intense afternoon sun. The cloth appears almost translucent where light penetrates, glowing with luminous saturated hues. Edges are crisp against the bright sky, with subtle variations in tone where the fabric folds. The material seems to breathe gently in the warm air, its colors vivid and expressive.",
+                "size": "Medium",
+                "state": "fluttering gently in warm breeze",
+                "primary_colors": [
+                    "vibrant crimson",
+                    "saturated cerulean"
+                ],
+                "material": "canvas fabric"
+            },
+            {
+                "object_id": 19,
+                "name": "lamb",
+                "artistic_description": "Small lamb with woolly coat that appears as textured patches of creamy white and warm ivory under the bright sunlight. Its fleece catches the light, creating a soft halo effect with subtle golden highlights from the afternoon warmth. Dark wool at the hooves and face provides striking contrast. The animal's form is rendered with visible brushstrokes that suggest movement and life.",
+                "size": "Small",
+                "state": "grazing peacefully",
+                "primary_colors": [
+                    "creamy white",
+                    "warm ivory"
+                ],
+                "material": "wool"
+            },
+            {
+                "object_id": 60,
+                "name": "canopy bed",
+                "artistic_description": "Delicate canopy bed with flowing white fabric that billows softly in the warm breeze. The material glows with luminous transparency where sunlight passes through, creating ethereal patches of pure white and pale cream. The wooden frame shows subtle weathering, its surface warmed to a soft golden brown by the afternoon sun. Shadows cast by the canopy create gentle, dappled patterns on the ground.",
+                "size": "Medium",
+                "state": "airy and inviting",
+                "primary_colors": [
+                    "luminous white",
+                    "golden brown"
+                ],
+                "material": "fabric and weathered wood"
+            }
+        ]
+    },
+    "composition": {
+        "spatial_relations": [
+            [
+                3,
+                "next to",
+                60
+            ],
+            [
+                19,
+                "next to",
+                3
+            ],
+            [
+                19,
+                "next to",
+                60
+            ],
+            [
+                26,
+                "above",
+                3
+            ],
+            [
+                26,
+                "above",
+                60
+            ]
+        ],
+        "semantic_relations": []
+    },
+    "environment": {
+        "environment_details": {
+            "scene_brief": "A pastoral meadow featuring wagon, with canopy, lamb, and canopy bed",
+            "place365_name": "/f/field",
+            "place365_id": 21,
+            "time_of_day": "afternoon",
+            "weather": "sunny",
+            "period": "Contemporary",
+            "is_indoor": false,
+            "lighting": {
+                "type": "natural",
+                "quality": "soft",
+                "direction": "side-lit",
+                "mood": "warm",
+                "reasoning": "Natural lighting from the afternoon sun provides a warm, soft glow that illuminates the meadow and objects gently. Side-lighting adds depth and dimension to the wagon and bed, enhancing the textured, expressive brushstrokes typical of Post-Impressionism while maintaining a serene mood."
+            },
+            "atmosphere": "bright and active and cheerful and gentle"
+        },
+        "scene_inference": {
+            "all_candidates": [
+                {
+                    "scene_type": "farmhouse nursery",
+                    "plausibility": 0.85,
+                    "reasoning": "A rustic nursery scene where a toy wagon serves as a unique bed for a lamb. The canopy bed's frame is repurposed as a decorative structure, and a fabric canopy provides shelter. Post-Impressionist style emphasizes the texture of the wood and wool.",
+                    "object_interpretations": {
+                        "wagon": {
+                            "form": "toy wagon",
+                            "scale": "miniature",
+                            "role": "primary object, makeshift bed"
+                        },
+                        "canopy": {
+                            "form": "fabric canopy",
+                            "scale": "small",
+                            "role": "shelter for the lamb"
+                        },
+                        "lamb": {
+                            "form": "real lamb",
+                            "scale": "normal",
+                            "role": "primary living subject"
+                        },
+                        "canopy bed": {
+                            "form": "disassembled frame",
+                            "scale": "large",
+                            "role": "background decorative structure"
+                        }
+                    }
+                },
+                {
+                    "scene_type": "vintage garden party",
+                    "plausibility": 0.8,
+                    "reasoning": "A decorative wagon sits on a lawn, filled with flowers. A lamb wanders nearby. A canopy bed is set up as a prop for a photo shoot, draped with fabric. The 'canopy' is the tent overhead.",
+                    "object_interpretations": {
+                        "wagon": {
+                            "form": "decorative wagon",
+                            "scale": "normal",
+                            "role": "flower planter"
+                        },
+                        "canopy": {
+                            "form": "tent canopy",
+                            "scale": "large",
+                            "role": "shelter for the event"
+                        },
+                        "lamb": {
+                            "form": "pet lamb",
+                            "scale": "normal",
+                            "role": "mascot of the party"
+                        },
+                        "canopy bed": {
+                            "form": "prop bed",
+                            "scale": "normal",
+                            "role": "decorative seating area"
+                        }
+                    }
+                },
+                {
+                    "scene_type": "artistic barn studio",
+                    "plausibility": 0.9,
+                    "reasoning": "An artist's studio inside a barn. A wagon is the central subject of a painting. A lamb models inside the wagon. A canopy bed frame stands nearby as a prop, draped with a canopy cloth used for lighting diffusion.",
+                    "object_interpretations": {
+                        "wagon": {
+                            "form": "real wagon",
+                            "scale": "normal",
+                            "role": "subject of art"
+                        },
+                        "canopy": {
+                            "form": "light diffuser",
+                            "scale": "large",
+                            "role": "studio equipment"
+                        },
+                        "lamb": {
+                            "form": "live model",
+                            "scale": "normal",
+                            "role": "subject of art"
+                        },
+                        "canopy bed": {
+                            "form": "studio prop",
+                            "scale": "normal",
+                            "role": "background element"
+                        }
+                    }
+                },
+                {
+                    "scene_type": "surreal dream landscape",
+                    "plausibility": 0.75,
+                    "reasoning": "A Post-Impressionist dreamscape. A giant wagon floats down a river. A lamb sits atop it. A canopy bed floats alongside like a boat. A magical canopy protects them from the sky.",
+                    "object_interpretations": {
+                        "wagon": {
+                            "form": "surreal wagon",
+                            "scale": "giant",
+                            "role": "transport vessel"
+                        },
+                        "canopy": {
+                            "form": "cloud canopy",
+                            "scale": "sky-filling",
+                            "role": "atmospheric shield"
+                        },
+                        "lamb": {
+                            "form": "mythical lamb",
+                            "scale": "normal",
+                            "role": "companion"
+                        },
+                        "canopy bed": {
+                            "form": "floating bed",
+                            "scale": "large",
+                            "role": "secondary vessel"
+                        }
+                    }
+                },
+                {
+                    "scene_type": "children's playroom",
+                    "plausibility": 0.95,
+                    "reasoning": "A cluttered playroom. A wooden toy wagon is the favorite toy. A toy lamb fits inside it. A miniature canopy bed is a dollhouse furniture. A small fabric canopy hangs from the ceiling.",
+                    "object_interpretations": {
+                        "wagon": {
+                            "form": "toy wagon",
+                            "scale": "miniature",
+                            "role": "toy"
+                        },
+                        "canopy": {
+                            "form": "hanging mobile",
+                            "scale": "small",
+                            "role": "decoration"
+                        },
+                        "lamb": {
+                            "form": "stuffed toy",
+                            "scale": "miniature",
+                            "role": "toy passenger"
+                        },
+                        "canopy bed": {
+                            "form": "dollhouse furniture",
+                            "scale": "miniature",
+                            "role": "toy prop"
+                        }
+                    }
+                },
+                {
+                    "scene_type": "pastoral meadow",
+                    "plausibility": 0.8,
+                    "reasoning": "A wagon is parked in a field. A lamb rests near it. A portable canopy is set up for shade. A bed with a canopy is inexplicably placed outdoors for a picnic.",
+                    "object_interpretations": {
+                        "wagon": {
+                            "form": "farm wagon",
+                            "scale": "normal",
+                            "role": "utility vehicle"
+                        },
+                        "canopy": {
+                            "form": "picnic canopy",
+                            "scale": "large",
+                            "role": "sun shade"
+                        },
+                        "lamb": {
+                            "form": "grazing lamb",
+                            "scale": "normal",
+                            "role": "wildlife"
+                        },
+                        "canopy bed": {
+                            "form": "outdoor daybed",
+                            "scale": "normal",
+                            "role": "furniture"
+                        }
+                    },
+                    "scene_brief": "A pastoral meadow featuring wagon, with canopy, lamb, and canopy bed"
+                },
+                {
+                    "scene_type": "vintage shop interior",
+                    "plausibility": 0.85,
+                    "reasoning": "A cluttered antique shop. A wagon is a display piece. A taxidermy lamb sits inside it. A canopy bed is for sale in the background. A canopy is draped over a mirror.",
+                    "object_interpretations": {
+                        "wagon": {
+                            "form": "antique wagon",
+                            "scale": "normal",
+                            "role": "display item"
+                        },
+                        "canopy": {
+                            "form": "mirror drape",
+                            "scale": "small",
+                            "role": "decoration"
+                        },
+                        "lamb": {
+                            "form": "taxidermy",
+                            "scale": "normal",
+                            "role": "display prop"
+                        },
+                        "canopy bed": {
+                            "form": "bed frame",
+                            "scale": "normal",
+                            "role": "furniture for sale"
+                        }
+                    }
+                }
+            ],
+            "selected_scene": {
+                "scene_type": "pastoral meadow",
+                "plausibility": 0.8,
+                "reasoning": "A wagon is parked in a field. A lamb rests near it. A portable canopy is set up for shade. A bed with a canopy is inexplicably placed outdoors for a picnic.",
+                "object_interpretations": {
+                    "wagon": {
+                        "form": "farm wagon",
+                        "scale": "normal",
+                        "role": "utility vehicle"
+                    },
+                    "canopy": {
+                        "form": "picnic canopy",
+                        "scale": "large",
+                        "role": "sun shade"
+                    },
+                    "lamb": {
+                        "form": "grazing lamb",
+                        "scale": "normal",
+                        "role": "wildlife"
+                    },
+                    "canopy bed": {
+                        "form": "outdoor daybed",
+                        "scale": "normal",
+                        "role": "furniture"
+                    }
+                },
+                "scene_brief": "A pastoral meadow featuring wagon, with canopy, lamb, and canopy bed"
+            }
+        }
+    },
+    "final_prompts": {
+        "main_prompt": "A Post-Impressionism painting depicting a bright and cheerful afternoon scene with natural soft lighting. In the foreground, a large golden amber wagon with weathered brown wood and iron details sits sun-bleached and weathered, positioned directly beside a medium-sized canopy bed made of luminous white fabric and golden brown weathered wood, appearing airy and inviting. A small creamy white lamb with warm ivory wool grazes peacefully in the midground, positioned between both the wagon and the canopy bed. Above this arrangement, a medium-sized canopy in vibrant crimson and saturated cerulean canvas fabric flutters gently in a warm breeze, casting dappled shadows over both the wagon and canopy bed below. The overall atmosphere is active yet gentle, with visible brushstrokes capturing the movement of the breeze and the warm afternoon light filtering through the fluttering canopy fabric.",
+        "negative_prompt": "photorealistic, 3d render, modern, digital art, photograph, low quality, blurry, distorted, surreal, abstract, cartoon, anime, hyperrealistic, CGI, computer generated",
+        "prompt_formats": {
+            "simple": "A Post-Impressionism painting of a wagon, canopy, lamb, and canopy bed in a bright afternoon setting.",
+            "complex": "A Post-Impressionism painting depicting a bright and cheerful afternoon scene with natural soft lighting. In the foreground, a large golden amber wagon with weathered brown wood and iron details sits sun-bleached and weathered, positioned directly beside a medium-sized canopy bed made of luminous white fabric and golden brown weathered wood, appearing airy and inviting. A small creamy white lamb with warm ivory wool grazes peacefully in the midground, positioned between both the wagon and the canopy bed. Above this arrangement, a medium-sized canopy in vibrant crimson and saturated cerulean canvas fabric flutters gently in a warm breeze, casting dappled shadows over both the wagon and canopy bed below. The overall atmosphere is active yet gentle, with visible brushstrokes capturing the movement of the breeze and the warm afternoon light filtering through the fluttering canopy fabric.",
+            "comma_separated": "Post-Impressionism painting, large golden amber wagon, weathered brown wood, medium crimson cerulean canopy, small creamy white lamb, medium white canopy bed, afternoon lighting, natural soft light, bright cheerful atmosphere, active gentle scene, visible brushstrokes, warm breeze, dappled shadows",
+            "tags": "art, painting, post-impressionism, landscape, pastoral, afternoon, wagon, canopy, lamb, canopy bed, golden amber, crimson, cerulean, white, ivory, wood, fabric, canvas, wool, brushstrokes, light, shadow, movement, breeze"
+        }
+    }
+}

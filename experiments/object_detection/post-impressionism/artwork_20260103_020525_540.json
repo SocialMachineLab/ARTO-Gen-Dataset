@@ -1,0 +1,373 @@
+{
+    "artwork_id": "artwork_20260103_020525_540",
+    "generation_timestamp": "2026-01-03T02:05:57.073068",
+    "style": "Post-Impressionism",
+    "objects": {
+        "object_ids": [
+            17,
+            16,
+            46,
+            20
+        ],
+        "object_names": [
+            "dog",
+            "cat",
+            "soup bowl",
+            "cow"
+        ],
+        "enhanced_objects": [
+            {
+                "object_id": 17,
+                "name": "dog",
+                "artistic_description": "A vibrant, energetic form rendered in bold, visible brushstrokes. The coat shimmers with warm highlights of golden ochre and burnt sienna where the afternoon sun strikes, while shadowed areas deepen to rich umber. The eyes gleam with reflected light, capturing the cheerful brightness of the day. The fur appears textured and alive, with short, energetic dabs of paint suggesting movement and warmth.",
+                "size": "Large",
+                "state": "alert and active",
+                "primary_colors": [
+                    "golden ochre",
+                    "burnt sienna"
+                ],
+                "material": "fur"
+            },
+            {
+                "object_id": 16,
+                "name": "cat",
+                "artistic_description": "A sleek silhouette with soft, blended brushstrokes in muted grays and warm browns. The afternoon light catches the subtle sheen on its back, creating a halo of pale yellow and cream. The eyes are luminous pools of emerald green, sharply defined against the softer body. Shadows are rendered in cool blue-gray tones, contrasting with the sun-warmed highlights.",
+                "size": "Medium",
+                "state": "relaxed but observant",
+                "primary_colors": [
+                    "warm gray",
+                    "cream"
+                ],
+                "material": "fur"
+            },
+            {
+                "object_id": 46,
+                "name": "soup bowl",
+                "artistic_description": "A simple ceramic form that catches the brilliant sunlight with a stark white glare on its rim. The interior is a deep, warm shadow, suggesting depth. The glazed surface reflects tiny specks of blue sky and green foliage in fragmented dabs of color. The exterior shows a subtle, creamy texture where the matte ceramic diffuses the bright light.",
+                "size": "Small",
+                "state": "empty and clean",
+                "primary_colors": [
+                    "brilliant white",
+                    "deep shadow"
+                ],
+                "material": "ceramic"
+            },
+            {
+                "object_id": 20,
+                "name": "cow",
+                "artistic_description": "A massive, placid volume defined by broad, confident strokes of black and white. The white patches are not pure, but tinged with the warm yellow of afternoon sun, while the black patches absorb the light, appearing as deep, cool indigo and charcoal. The hide has a matte, dusty texture that softens the edges of the color blocks. The overall impression is one of solid, sun-warmed mass.",
+                "size": "Dominant",
+                "state": "grazing and calm",
+                "primary_colors": [
+                    "sunlit white",
+                    "deep indigo"
+                ],
+                "material": "hide"
+            }
+        ]
+    },
+    "composition": {
+        "spatial_relations": [
+            [
+                17,
+                "next to",
+                16
+            ],
+            [
+                16,
+                "on",
+                20
+            ],
+            [
+                46,
+                "next to",
+                17
+            ]
+        ],
+        "semantic_relations": [
+            [
+                17,
+                "watching",
+                46
+            ]
+        ]
+    },
+    "environment": {
+        "environment_details": {
+            "scene_brief": "A Outdoor Garden featuring dog, with cat, soup bowl, and cow",
+            "place365_name": "/f/formal_garden",
+            "place365_id": 153,
+            "time_of_day": "afternoon",
+            "weather": "sunny",
+            "period": "Contemporary",
+            "is_indoor": false,
+            "lighting": {
+                "type": "natural",
+                "quality": "harsh",
+                "direction": "side-lit",
+                "mood": "warm",
+                "reasoning": "Direct afternoon sun creates harsh, well-defined shadows, which is a hallmark of Post-Impressionist technique (e.g., Van Gogh). Side-lighting emphasizes the texture of the fur and the form of the bowl, while the warm mood of the afternoon sun enhances the saturated palette typical of the style."
+            },
+            "atmosphere": "bright and active and cheerful"
+        },
+        "scene_inference": {
+            "all_candidates": [
+                {
+                    "scene_type": "Farmhouse Kitchen",
+                    "plausibility": 0.95,
+                    "reasoning": "A rustic farmhouse kitchen is a natural habitat for a dog and a cow (as a pet or working animal). A cat can coexist, and a soup bowl is a common household item. The Post-Impressionist style suits the rustic textures.",
+                    "object_interpretations": {
+                        "dog": {
+                            "form": "real animal",
+                            "scale": "normal",
+                            "role": "house pet"
+                        },
+                        "cat": {
+                            "form": "real animal",
+                            "scale": "normal",
+                            "role": "house pet"
+                        },
+                        "soup bowl": {
+                            "form": "real object",
+                            "scale": "normal",
+                            "role": "kitchenware"
+                        },
+                        "cow": {
+                            "form": "real animal",
+                            "scale": "normal (seen through window or in adjacent yard)",
+                            "role": "livestock"
+                        }
+                    }
+                },
+                {
+                    "scene_type": "Living Room",
+                    "plausibility": 0.9,
+                    "reasoning": "Domestic pets (dog and cat) are at home in a living room. A soup bowl could be on a coffee table or held by a person. A cow could be a large decorative painting or sculpture in the background.",
+                    "object_interpretations": {
+                        "dog": {
+                            "form": "real animal",
+                            "scale": "normal",
+                            "role": "pet resting on rug"
+                        },
+                        "cat": {
+                            "form": "real animal",
+                            "scale": "normal",
+                            "role": "pet on sofa"
+                        },
+                        "soup bowl": {
+                            "form": "real object",
+                            "scale": "normal",
+                            "role": "tableware on side table"
+                        },
+                        "cow": {
+                            "form": "artwork",
+                            "scale": "large (painting on wall)",
+                            "role": "decoration"
+                        }
+                    }
+                },
+                {
+                    "scene_type": "Art Studio",
+                    "plausibility": 0.85,
+                    "reasoning": "An artist's studio often contains live models (dog, cat, cow) and still life props (soup bowl). The Post-Impressionist style fits the setting perfectly.",
+                    "object_interpretations": {
+                        "dog": {
+                            "form": "real animal",
+                            "scale": "normal",
+                            "role": "artist's model"
+                        },
+                        "cat": {
+                            "form": "real animal",
+                            "scale": "normal",
+                            "role": "artist's model"
+                        },
+                        "soup bowl": {
+                            "form": "real object",
+                            "scale": "normal",
+                            "role": "still life prop"
+                        },
+                        "cow": {
+                            "form": "real animal",
+                            "scale": "normal (smaller breed or reference photo)",
+                            "role": "artist's model"
+                        }
+                    }
+                },
+                {
+                    "scene_type": "Outdoor Garden",
+                    "plausibility": 0.8,
+                    "reasoning": "A garden allows for the dog and cat to roam. A soup bowl could be part of a picnic setup. A cow could be a topiary sculpture or a neighbor's animal visible over a fence.",
+                    "object_interpretations": {
+                        "dog": {
+                            "form": "real animal",
+                            "scale": "normal",
+                            "role": "outdoor pet"
+                        },
+                        "cat": {
+                            "form": "real animal",
+                            "scale": "normal",
+                            "role": "outdoor pet"
+                        },
+                        "soup bowl": {
+                            "form": "real object",
+                            "scale": "normal",
+                            "role": "picnic accessory"
+                        },
+                        "cow": {
+                            "form": "sculpture",
+                            "scale": "normal",
+                            "role": "garden ornament"
+                        }
+                    },
+                    "scene_brief": "A Outdoor Garden featuring dog, with cat, soup bowl, and cow"
+                },
+                {
+                    "scene_type": "Vintage Diner",
+                    "plausibility": 0.75,
+                    "reasoning": "A diner features soup bowls prominently. A dog and cat could be strays or pets of the owner. A cow could be a mural on the wall or a logo.",
+                    "object_interpretations": {
+                        "dog": {
+                            "form": "real animal",
+                            "scale": "normal",
+                            "role": "begging at counter"
+                        },
+                        "cat": {
+                            "form": "real animal",
+                            "scale": "normal",
+                            "role": "mouser in corner"
+                        },
+                        "soup bowl": {
+                            "form": "real object",
+                            "scale": "normal",
+                            "role": "serving dish"
+                        },
+                        "cow": {
+                            "form": "mural",
+                            "scale": "large",
+                            "role": "wall art"
+                        }
+                    }
+                },
+                {
+                    "scene_type": "Children's Playroom",
+                    "plausibility": 0.7,
+                    "reasoning": "All objects can exist as toys. A toy dog, toy cat, toy cow, and a toy soup bowl fit perfectly in a playroom setting.",
+                    "object_interpretations": {
+                        "dog": {
+                            "form": "toy",
+                            "scale": "miniature",
+                            "role": "plaything"
+                        },
+                        "cat": {
+                            "form": "toy",
+                            "scale": "miniature",
+                            "role": "plaything"
+                        },
+                        "soup bowl": {
+                            "form": "toy",
+                            "scale": "miniature",
+                            "role": "play kitchen accessory"
+                        },
+                        "cow": {
+                            "form": "toy",
+                            "scale": "miniature",
+                            "role": "plaything"
+                        }
+                    }
+                },
+                {
+                    "scene_type": "Petting Zoo",
+                    "plausibility": 0.85,
+                    "reasoning": "A petting zoo houses domestic animals like dogs, cats, and cows. A soup bowl could be a water dish or food bowl for the animals.",
+                    "object_interpretations": {
+                        "dog": {
+                            "form": "real animal",
+                            "scale": "normal",
+                            "role": "zoo resident"
+                        },
+                        "cat": {
+                            "form": "real animal",
+                            "scale": "normal",
+                            "role": "zoo resident"
+                        },
+                        "soup bowl": {
+                            "form": "real object",
+                            "scale": "large",
+                            "role": "water trough"
+                        },
+                        "cow": {
+                            "form": "real animal",
+                            "scale": "normal",
+                            "role": "zoo resident"
+                        }
+                    }
+                },
+                {
+                    "scene_type": "Abstract Composition",
+                    "plausibility": 0.6,
+                    "reasoning": "In Post-Impressionism, shapes can be symbolic. The cow might be a pattern on a rug, the dog and cat are shapes in the room, and the bowl is a geometric form.",
+                    "object_interpretations": {
+                        "dog": {
+                            "form": "stylized shape",
+                            "scale": "variable",
+                            "role": "visual element"
+                        },
+                        "cat": {
+                            "form": "stylized shape",
+                            "scale": "variable",
+                            "role": "visual element"
+                        },
+                        "soup bowl": {
+                            "form": "stylized shape",
+                            "scale": "variable",
+                            "role": "visual element"
+                        },
+                        "cow": {
+                            "form": "pattern",
+                            "scale": "variable",
+                            "role": "textural element"
+                        }
+                    }
+                }
+            ],
+            "selected_scene": {
+                "scene_type": "Outdoor Garden",
+                "plausibility": 0.8,
+                "reasoning": "A garden allows for the dog and cat to roam. A soup bowl could be part of a picnic setup. A cow could be a topiary sculpture or a neighbor's animal visible over a fence.",
+                "object_interpretations": {
+                    "dog": {
+                        "form": "real animal",
+                        "scale": "normal",
+                        "role": "outdoor pet"
+                    },
+                    "cat": {
+                        "form": "real animal",
+                        "scale": "normal",
+                        "role": "outdoor pet"
+                    },
+                    "soup bowl": {
+                        "form": "real object",
+                        "scale": "normal",
+                        "role": "picnic accessory"
+                    },
+                    "cow": {
+                        "form": "sculpture",
+                        "scale": "normal",
+                        "role": "garden ornament"
+                    }
+                },
+                "scene_brief": "A Outdoor Garden featuring dog, with cat, soup bowl, and cow"
+            }
+        }
+    },
+    "final_prompts": {
+        "main_prompt": "A Post-Impressionism painting depicting a bright and cheerful afternoon scene under harsh natural light. In the foreground, a large dog with golden ochre and burnt sienna fur stands alert and active beside a small, brilliant white soup bowl with deep shadows, the bowl appearing empty and clean. Next to the dog, a medium-sized cat in warm gray and cream fur sits relaxed but observant atop a dominant cow, the cow's hide painted in sunlit white and deep indigo patches as it grazes calmly. The spatial arrangement shows the dog positioned next to the cat, which rests on the cow's back, while the soup bowl sits beside the dog, creating a lively composition with visible brushstrokes and vibrant color contrasts that capture the active, cheerful atmosphere.",
+        "negative_prompt": "photorealistic, 3d render, modern, digital art, photograph, low quality, blurry, distorted, surreal, abstract, cartoon, anime, watermark, signature, text, frame, border",
+        "prompt_formats": {
+            "simple": "A Post-Impressionism painting of a dog, cat, soup bowl, and cow in a bright afternoon setting.",
+            "complex": "A Post-Impressionism painting depicting a bright and cheerful afternoon scene under harsh natural light. In the foreground, a large dog with golden ochre and burnt sienna fur stands alert and active beside a small, brilliant white soup bowl with deep shadows, the bowl appearing empty and clean. Next to the dog, a medium-sized cat in warm gray and cream fur sits relaxed but observant atop a dominant cow, the cow's hide painted in sunlit white and deep indigo patches as it grazes calmly. The spatial arrangement shows the dog positioned next to the cat, which rests on the cow's back, while the soup bowl sits beside the dog, creating a lively composition with visible brushstrokes and vibrant color contrasts that capture the active, cheerful atmosphere.",
+            "comma_separated": "Post-Impressionism painting, dog, cat, soup bowl, cow, large dog golden ochre burnt sienna, medium cat warm gray cream, small bowl brilliant white, dominant cow sunlit white indigo, dog next to cat, cat on cow, bowl next to dog, afternoon lighting, harsh natural light, bright cheerful active atmosphere, visible brushstrokes, vibrant colors",
+            "tags": "art, painting, post-impressionism, animal scene, afternoon light, vibrant colors, brushstroke texture, cheerful atmosphere, dog, cat, cow, still life elements"
+        }
+    }
+}

@@ -1,0 +1,291 @@
+{
+    "artwork_id": "artwork_20260104_000814_984",
+    "generation_timestamp": "2026-01-04T00:08:55.171429",
+    "style": "Impressionism",
+    "objects": {
+        "object_ids": [
+            48,
+            17,
+            26
+        ],
+        "object_names": [
+            "peach",
+            "fox",
+            "umbrella"
+        ],
+        "enhanced_objects": [
+            {
+                "object_id": 48,
+                "name": "peach",
+                "artistic_description": "A luscious peach with a velvety skin that catches the afternoon sun, its surface a delicate tapestry of warm coral and soft amber tones. The natural light creates a gentle luminosity, with subtle highlights dancing across its curved form. A fine, almost imperceptible fuzz diffuses the light, giving it a dreamy, soft-focus quality. The fruit appears plump and ripe, with a faint blush of rose where the sun kisses its skin most directly.",
+                "size": "Medium",
+                "state": "fresh and ripe",
+                "primary_colors": [
+                    "warm coral",
+                    "soft amber"
+                ],
+                "material": "fruit"
+            },
+            {
+                "object_id": 17,
+                "name": "fox",
+                "artistic_description": "A vibrant fox whose russet coat glows with rich, warm tones under the bright afternoon sun. Its fur appears as textured brushstrokes of burnt sienna and golden ochre, with dappled light creating a lively interplay of highlights and shadows. The sunlight catches the tips of its fur, creating a halo effect. Its eyes gleam with amber light, and the warm atmosphere adds a cheerful, almost magical radiance to its appearance.",
+                "size": "Large",
+                "state": "alert and lively",
+                "primary_colors": [
+                    "burnt sienna",
+                    "golden ochre"
+                ],
+                "material": "fur"
+            },
+            {
+                "object_id": 26,
+                "name": "umbrella",
+                "artistic_description": "A cheerful umbrella with fabric that billows gently in the bright light, its surface rendered in loose, expressive strokes of sky blue and creamy white. The natural sunlight filters through the material, creating a luminous, translucent quality. The fabric shows subtle variations in saturation, with the sunlit areas appearing almost white while the folds hold deeper azure tones. A delicate sheen suggests the material is smooth and slightly reflective.",
+                "size": "Medium",
+                "state": "open and pristine",
+                "primary_colors": [
+                    "sky blue",
+                    "creamy white"
+                ],
+                "material": "fabric"
+            }
+        ]
+    },
+    "composition": {
+        "spatial_relations": [
+            [
+                48,
+                "on",
+                26
+            ],
+            [
+                17,
+                "next to",
+                26
+            ],
+            [
+                17,
+                "under",
+                26
+            ]
+        ],
+        "semantic_relations": [
+            [
+                17,
+                "holding",
+                26
+            ]
+        ]
+    },
+    "environment": {
+        "environment_details": {
+            "scene_brief": "A Whimsical Storybook featuring peach, with fox, and umbrella",
+            "place365_name": "/p/park",
+            "place365_id": 254,
+            "time_of_day": "afternoon",
+            "weather": "sunny",
+            "period": "Contemporary",
+            "is_indoor": false,
+            "lighting": {
+                "type": "natural",
+                "quality": "soft",
+                "direction": "side-lit",
+                "reasoning": "Natural light is essential for an outdoor scene. Soft, side-lit lighting (typical of the afternoon sun) creates gentle highlights and shadows on the fox and the umbrella, emphasizing texture and form without harshness, fitting the Impressionist style's focus on light effects."
+            },
+            "atmosphere": "bright and active and cheerful and gentle"
+        },
+        "scene_inference": {
+            "all_candidates": [
+                {
+                    "scene_type": "Summer Orchard",
+                    "plausibility": 0.95,
+                    "reasoning": "A sun-drenched peach orchard during a brief summer shower. The peach is the primary fruit on the tree, a wild fox wanders the rows foraging, and an umbrella provides shelter for a picker or is left under a tree.",
+                    "object_interpretations": {
+                        "peach": {
+                            "form": "real fruit",
+                            "scale": "normal",
+                            "role": "primary natural object"
+                        },
+                        "fox": {
+                            "form": "real animal",
+                            "scale": "normal",
+                            "role": "wildlife observer/forager"
+                        },
+                        "umbrella": {
+                            "form": "real object",
+                            "scale": "normal",
+                            "role": "weather protection"
+                        }
+                    }
+                },
+                {
+                    "scene_type": "Country Market Stall",
+                    "plausibility": 0.9,
+                    "reasoning": "A rustic outdoor market stall overflowing with summer produce. A basket of peaches is the centerpiece. A fox (perhaps a local stray or a painted sign mascot) watches nearby, and a colorful umbrella shades the produce.",
+                    "object_interpretations": {
+                        "peach": {
+                            "form": "real fruit",
+                            "scale": "normal",
+                            "role": "main merchandise"
+                        },
+                        "fox": {
+                            "form": "real animal",
+                            "scale": "normal",
+                            "role": "curious onlooker"
+                        },
+                        "umbrella": {
+                            "form": "real object",
+                            "scale": "normal",
+                            "role": "sunshade for stall"
+                        }
+                    }
+                },
+                {
+                    "scene_type": "Surreal Dreamscape",
+                    "plausibility": 0.85,
+                    "reasoning": "In the Impressionist style, reality blurs. A giant peach floats in a sky of clouds. A fox runs along a cloud bank, and an umbrella drifts like a parachute, all rendered in soft, blended brushstrokes.",
+                    "object_interpretations": {
+                        "peach": {
+                            "form": "surreal object",
+                            "scale": "giant",
+                            "role": "central dream anchor"
+                        },
+                        "fox": {
+                            "form": "stylized animal",
+                            "scale": "normal",
+                            "role": "dream traveler"
+                        },
+                        "umbrella": {
+                            "form": "floating object",
+                            "scale": "normal",
+                            "role": "ethereal accessory"
+                        }
+                    }
+                },
+                {
+                    "scene_type": "Art Studio Interior",
+                    "plausibility": 0.8,
+                    "reasoning": "An artist's studio with a still life setup. A single peach sits on a table as the subject. A fox fur stole (or a sleeping pet fox) rests on a chair, and an umbrella leans in the corner, perhaps used as a prop for lighting.",
+                    "object_interpretations": {
+                        "peach": {
+                            "form": "real fruit",
+                            "scale": "normal",
+                            "role": "still life subject"
+                        },
+                        "fox": {
+                            "form": "animal prop/trophy",
+                            "scale": "normal",
+                            "role": "decorative studio element"
+                        },
+                        "umbrella": {
+                            "form": "real object",
+                            "scale": "normal",
+                            "role": "lighting modifier"
+                        }
+                    }
+                },
+                {
+                    "scene_type": "Rainy Garden",
+                    "plausibility": 0.9,
+                    "reasoning": "A garden peach tree dropping fruit during a rainstorm. A fox seeks shelter under the branches. A discarded umbrella lies on the wet grass, perhaps dropped by a fleeing gardener.",
+                    "object_interpretations": {
+                        "peach": {
+                            "form": "real fruit",
+                            "scale": "normal",
+                            "role": "fallen fruit"
+                        },
+                        "fox": {
+                            "form": "real animal",
+                            "scale": "normal",
+                            "role": "creature seeking shelter"
+                        },
+                        "umbrella": {
+                            "form": "real object",
+                            "scale": "normal",
+                            "role": "abandoned shelter"
+                        }
+                    }
+                },
+                {
+                    "scene_type": "Vintage Picnic",
+                    "plausibility": 0.85,
+                    "reasoning": "A nostalgic picnic scene in a field. A basket contains peaches. A fox curiously approaches the blanket, and a large parasol (umbrella) provides shade for the absent picnic-goers.",
+                    "object_interpretations": {
+                        "peach": {
+                            "form": "real fruit",
+                            "scale": "normal",
+                            "role": "picnic food"
+                        },
+                        "fox": {
+                            "form": "real animal",
+                            "scale": "normal",
+                            "role": "intruder/thief"
+                        },
+                        "umbrella": {
+                            "form": "parasol",
+                            "scale": "large",
+                            "role": "shade provider"
+                        }
+                    }
+                },
+                {
+                    "scene_type": "Whimsical Storybook",
+                    "plausibility": 0.8,
+                    "reasoning": "A scene from a children's book. A fox carries a stolen peach in a bindle tied to a stick. The bindle is draped over the handle of an upside-down umbrella used as a makeshift cart.",
+                    "object_interpretations": {
+                        "peach": {
+                            "form": "cartoon fruit",
+                            "scale": "normal",
+                            "role": "treasure"
+                        },
+                        "fox": {
+                            "form": "anthropomorphic",
+                            "scale": "normal",
+                            "role": "protagonist/thief"
+                        },
+                        "umbrella": {
+                            "form": "tool/vehicle",
+                            "scale": "normal",
+                            "role": "transport mechanism"
+                        }
+                    },
+                    "scene_brief": "A Whimsical Storybook featuring peach, with fox, and umbrella"
+                }
+            ],
+            "selected_scene": {
+                "scene_type": "Whimsical Storybook",
+                "plausibility": 0.8,
+                "reasoning": "A scene from a children's book. A fox carries a stolen peach in a bindle tied to a stick. The bindle is draped over the handle of an upside-down umbrella used as a makeshift cart.",
+                "object_interpretations": {
+                    "peach": {
+                        "form": "cartoon fruit",
+                        "scale": "normal",
+                        "role": "treasure"
+                    },
+                    "fox": {
+                        "form": "anthropomorphic",
+                        "scale": "normal",
+                        "role": "protagonist/thief"
+                    },
+                    "umbrella": {
+                        "form": "tool/vehicle",
+                        "scale": "normal",
+                        "role": "transport mechanism"
+                    }
+                },
+                "scene_brief": "A Whimsical Storybook featuring peach, with fox, and umbrella"
+            }
+        }
+    },
+    "final_prompts": {
+        "main_prompt": "A Impressionism painting depicting a bright and cheerful afternoon scene with natural soft lighting. In the foreground, a large fox in burnt sienna and golden ochre fur sits alert and lively beside a medium-sized sky blue and creamy white umbrella that stands open and pristine. Balanced delicately atop the umbrella's curved fabric surface rests a medium-sized peach, its warm coral and soft amber skin appearing fresh and ripe. The fox positions itself partially under the umbrella's shade, creating a gentle and active composition. The overall atmosphere is bright, active, cheerful, and gentle, with dappled afternoon light filtering through the scene and visible brushstrokes capturing the play of light on fur, fabric, and fruit.",
+        "negative_prompt": "photorealistic, 3d render, modern, digital art, photograph, low quality, blurry, distorted, ugly, deformed, text, watermark, signature, frame, cartoon, anime, hyperrealistic, surrealism, abstract",
+        "prompt_formats": {
+            "simple": "An Impressionist painting of a fox under an umbrella with a peach on top during a cheerful afternoon.",
+            "complex": "A Impressionism painting depicting a bright and cheerful afternoon scene with natural soft lighting. In the foreground, a large fox in burnt sienna and golden ochre fur sits alert and lively beside a medium-sized sky blue and creamy white umbrella that stands open and pristine. Balanced delicately atop the umbrella's curved fabric surface rests a medium-sized peach, its warm coral and soft amber skin appearing fresh and ripe. The fox positions itself partially under the umbrella's shade, creating a gentle and active composition. The overall atmosphere is bright, active, cheerful, and gentle, with dappled afternoon light filtering through the scene and visible brushstrokes capturing the play of light on fur, fabric, and fruit.",
+            "comma_separated": "Impressionism painting, afternoon, natural soft lighting, bright cheerful gentle atmosphere, large fox, burnt sienna golden ochre fur, alert lively, medium umbrella, sky blue creamy white, open pristine, medium peach, warm coral soft amber, fresh ripe, peach on umbrella, fox beside umbrella, fox under umbrella, dappled light, visible brushstrokes",
+            "tags": "art, painting, impressionism, fox, peach, umbrella, afternoon, cheerful, gentle, bright, soft lighting, animal, fruit, still life, outdoor scene"
+        }
+    }
+}

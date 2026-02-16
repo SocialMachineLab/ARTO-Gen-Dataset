@@ -1,0 +1,317 @@
+{
+    "artwork_id": "artwork_20260104_000849_475",
+    "generation_timestamp": "2026-01-04T00:09:27.670670",
+    "style": "Impressionism",
+    "objects": {
+        "object_ids": [
+            20,
+            15,
+            46,
+            59
+        ],
+        "object_names": [
+            "bull",
+            "hen",
+            "plate",
+            "rose"
+        ],
+        "enhanced_objects": [
+            {
+                "object_id": 20,
+                "name": "bull",
+                "artistic_description": "A decorative ceramic bull rendered in soft, diffused afternoon light filtering through cloudy skies. The matte glaze absorbs light gently, creating subtle variations in the deep brown and charcoal tones with hints of cool gray shadows. Brushstrokes are visible in the Impressionist style, suggesting form rather than defining it precisely. The surface shows a dry, slightly weathered patina consistent with contemporary decorative art.",
+                "size": "Large",
+                "state": "decorative ceramic figurine with matte finish",
+                "primary_colors": [
+                    "deep brown",
+                    "charcoal gray"
+                ],
+                "material": "ceramic"
+            },
+            {
+                "object_id": 15,
+                "name": "hen",
+                "artistic_description": "A toy hen with soft fabric plumage, bathed in the gentle, cool light of the cloudy afternoon. The white and cream feathers catch subtle blue-gray tones from the ambient light, with delicate brushwork suggesting texture rather than detail. The felted surface appears dry and matte, absorbing rather than reflecting light, creating a soft, subdued appearance appropriate for a toy.",
+                "size": "Small",
+                "state": "toy figurine with soft fabric texture",
+                "primary_colors": [
+                    "cream white",
+                    "soft gray"
+                ],
+                "material": "fabric"
+            },
+            {
+                "object_id": 46,
+                "name": "plate",
+                "artistic_description": "A ceramic plate reflecting the cool, diffused daylight with a subtle, milky luminosity. The white glaze shows delicate variations of pale blue and soft lavender where light catches the curved rim, rendered with loose, visible brushstrokes. The surface appears smooth and slightly reflective, capturing ambient light without harsh highlights, typical of contemporary tableware.",
+                "size": "Medium",
+                "state": "glazed ceramic dish with subtle surface sheen",
+                "primary_colors": [
+                    "milky white",
+                    "pale blue"
+                ],
+                "material": "ceramic"
+            },
+            {
+                "object_id": 59,
+                "name": "rose",
+                "artistic_description": "A fresh rose whose petals are softened by the muted, cloudy light, creating a watercolor-like effect of blended pinks and muted crimson. The velvety petals show subtle moisture from the humid air, catching gentle highlights in soft coral and rose tones. Impressionist daubs of color suggest the flower's form without sharp edges, capturing the delicate, living quality of the bloom.",
+                "size": "Medium",
+                "state": "fresh flower with slightly dewy petals",
+                "primary_colors": [
+                    "muted pink",
+                    "soft coral"
+                ],
+                "material": "organic"
+            }
+        ]
+    },
+    "composition": {
+        "spatial_relations": [
+            [
+                20,
+                "next to",
+                15
+            ],
+            [
+                46,
+                "next to",
+                20
+            ],
+            [
+                46,
+                "next to",
+                15
+            ],
+            [
+                59,
+                "on",
+                46
+            ]
+        ],
+        "semantic_relations": []
+    },
+    "environment": {
+        "environment_details": {
+            "scene_brief": "A still life painting studio featuring decorative bull, with toy hen placed nearby, plate, and rose",
+            "place365_name": "/a/art_studio",
+            "place365_id": 21,
+            "time_of_day": "afternoon",
+            "weather": "cloudy",
+            "period": "Contemporary",
+            "is_indoor": true,
+            "lighting": {
+                "type": "natural",
+                "quality": "soft",
+                "direction": "side-lit",
+                "reasoning": "The combination of an afternoon on a cloudy day results in soft, diffused natural light. In a studio, this light would likely enter from a side window, gently illuminating the still life arrangement, enhancing the subtle colors and textures of the objects, which is characteristic of the Impressionist style."
+            },
+            "atmosphere": "bright and active and subdued and gentle"
+        },
+        "scene_inference": {
+            "all_candidates": [
+                {
+                    "scene_type": "farmhouse kitchen",
+                    "plausibility": 0.95,
+                    "reasoning": "A bull can be seen through the window in a field, a hen can be a live pet inside or outside, a plate is a common kitchen item, and a rose can be in a vase on the table. The Impressionist style blurs the boundaries between the indoor and outdoor scenes.",
+                    "object_interpretations": {
+                        "bull": {
+                            "form": "real animal",
+                            "scale": "normal",
+                            "role": "distant view through window"
+                        },
+                        "hen": {
+                            "form": "real animal",
+                            "scale": "normal",
+                            "role": "farm pet"
+                        },
+                        "plate": {
+                            "form": "real dishware",
+                            "scale": "normal",
+                            "role": "functional object on table"
+                        },
+                        "rose": {
+                            "form": "real flower",
+                            "scale": "normal",
+                            "role": "decorative centerpiece"
+                        }
+                    }
+                },
+                {
+                    "scene_type": "country garden",
+                    "plausibility": 0.9,
+                    "reasoning": "A bull grazes in the background of a lush garden where a hen scratches at the ground. A plate with food rests on a garden bench, and a rose bush blooms nearby.",
+                    "object_interpretations": {
+                        "bull": {
+                            "form": "real animal",
+                            "scale": "normal",
+                            "role": "background livestock"
+                        },
+                        "hen": {
+                            "form": "real animal",
+                            "scale": "normal",
+                            "role": "foraging bird"
+                        },
+                        "plate": {
+                            "form": "real dishware",
+                            "scale": "normal",
+                            "role": "picnic item"
+                        },
+                        "rose": {
+                            "form": "real flower",
+                            "scale": "normal",
+                            "role": "garden flora"
+                        }
+                    }
+                },
+                {
+                    "scene_type": "still life painting studio",
+                    "plausibility": 0.85,
+                    "reasoning": "The scene depicts an artist's studio. A taxidermy bull head hangs on the wall as a trophy. A live hen might be pecking on the floor (or a toy hen). A plate holds fruit, and a vase of roses sits on the table.",
+                    "object_interpretations": {
+                        "bull": {
+                            "form": "taxidermy/decoration",
+                            "scale": "normal",
+                            "role": "wall trophy"
+                        },
+                        "hen": {
+                            "form": "toy or live pet",
+                            "scale": "normal",
+                            "role": "studio inhabitant"
+                        },
+                        "plate": {
+                            "form": "real dishware",
+                            "scale": "normal",
+                            "role": "still life subject"
+                        },
+                        "rose": {
+                            "form": "real flower",
+                            "scale": "normal",
+                            "role": "still life subject"
+                        }
+                    },
+                    "scene_brief": "A still life painting studio featuring decorative bull, with toy hen placed nearby, plate, and rose"
+                },
+                {
+                    "scene_type": "vintage restaurant",
+                    "plausibility": 0.8,
+                    "reasoning": "A painting of a bull hangs on the wall. A decorative ceramic hen sits on a shelf. A plate is set on the table, and a rose is in a small vase.",
+                    "object_interpretations": {
+                        "bull": {
+                            "form": "painting/art",
+                            "scale": "normal",
+                            "role": "wall decor"
+                        },
+                        "hen": {
+                            "form": "figurine",
+                            "scale": "small",
+                            "role": "decoration"
+                        },
+                        "plate": {
+                            "form": "real dishware",
+                            "scale": "normal",
+                            "role": "table setting"
+                        },
+                        "rose": {
+                            "form": "real flower",
+                            "scale": "normal",
+                            "role": "table centerpiece"
+                        }
+                    }
+                },
+                {
+                    "scene_type": "barn interior",
+                    "plausibility": 0.9,
+                    "reasoning": "A bull stands in a stall. A hen roosts on a beam. A feed plate is on the floor. A wild rose vine creeps through a crack in the wall.",
+                    "object_interpretations": {
+                        "bull": {
+                            "form": "real animal",
+                            "scale": "normal",
+                            "role": "primary occupant"
+                        },
+                        "hen": {
+                            "form": "real animal",
+                            "scale": "normal",
+                            "role": "secondary occupant"
+                        },
+                        "plate": {
+                            "form": "utilitarian dish",
+                            "scale": "normal",
+                            "role": "feeding trough"
+                        },
+                        "rose": {
+                            "form": "wild flower",
+                            "scale": "small",
+                            "role": "natural detail"
+                        }
+                    }
+                },
+                {
+                    "scene_type": "abstract pastoral dream",
+                    "plausibility": 0.7,
+                    "reasoning": "Using the Impressionist style to blend reality. The bull is a large shape of color. The hen is a smaller shape near a table. The plate and rose merge into a colorful still life arrangement on the table, blending with the landscape.",
+                    "object_interpretations": {
+                        "bull": {
+                            "form": "real animal",
+                            "scale": "normal",
+                            "role": "dominant shape in background"
+                        },
+                        "hen": {
+                            "form": "real animal",
+                            "scale": "normal",
+                            "role": "foreground accent"
+                        },
+                        "plate": {
+                            "form": "real object",
+                            "scale": "normal",
+                            "role": "geometric element"
+                        },
+                        "rose": {
+                            "form": "real flower",
+                            "scale": "normal",
+                            "role": "color accent"
+                        }
+                    }
+                }
+            ],
+            "selected_scene": {
+                "scene_type": "still life painting studio",
+                "plausibility": 0.85,
+                "reasoning": "The scene depicts an artist's studio. A taxidermy bull head hangs on the wall as a trophy. A live hen might be pecking on the floor (or a toy hen). A plate holds fruit, and a vase of roses sits on the table.",
+                "object_interpretations": {
+                    "bull": {
+                        "form": "taxidermy/decoration",
+                        "scale": "normal",
+                        "role": "wall trophy"
+                    },
+                    "hen": {
+                        "form": "toy or live pet",
+                        "scale": "normal",
+                        "role": "studio inhabitant"
+                    },
+                    "plate": {
+                        "form": "real dishware",
+                        "scale": "normal",
+                        "role": "still life subject"
+                    },
+                    "rose": {
+                        "form": "real flower",
+                        "scale": "normal",
+                        "role": "still life subject"
+                    }
+                },
+                "scene_brief": "A still life painting studio featuring decorative bull, with toy hen placed nearby, plate, and rose"
+            }
+        }
+    },
+    "final_prompts": {
+        "main_prompt": "A Impressionism painting depicting a bright and active yet subdued and gentle afternoon scene, bathed in natural soft light. In the foreground, a large decorative ceramic bull figurine in deep brown and charcoal gray with a matte finish stands next to a small cream white and soft gray hen toy figurine with a soft fabric texture. Beside them both rests a medium-sized milky white and pale blue glazed ceramic plate, its subtle surface holding a medium-sized fresh rose with muted pink and soft coral, slightly dewy petals. The composition captures the gentle spatial relationships with loose, visible brushstrokes, conveying a peaceful, atmospheric moment where the ceramic and organic materials interact in the soft afternoon glow.",
+        "negative_prompt": "photorealistic, 3d render, modern, digital art, photograph, low quality, blurry, distorted, ugly, deformed, text, watermark, signature, frame, border, cartoon, anime, hyperrealistic, surrealism, abstract",
+        "prompt_formats": {
+            "simple": "An Impressionist painting of a ceramic bull and fabric hen beside a plate holding a dewy rose in soft afternoon light.",
+            "complex": "A Impressionism painting depicting a bright and active yet subdued and gentle afternoon scene, bathed in natural soft light. In the foreground, a large decorative ceramic bull figurine in deep brown and charcoal gray with a matte finish stands next to a small cream white and soft gray hen toy figurine with a soft fabric texture. Beside them both rests a medium-sized milky white and pale blue glazed ceramic plate, its subtle surface holding a medium-sized fresh rose with muted pink and soft coral, slightly dewy petals. The composition captures the gentle spatial relationships with loose, visible brushstrokes, conveying a peaceful, atmospheric moment where the ceramic and organic materials interact in the soft afternoon glow.",
+            "comma_separated": "Impressionism painting, large ceramic bull figurine deep brown charcoal gray, small fabric hen toy cream white soft gray, medium ceramic plate milky white pale blue, fresh rose muted pink soft coral dewy petals, bull next to hen, plate next to bull and hen, rose on plate, soft natural afternoon lighting, bright active subdued gentle atmosphere, visible brushstrokes, atmospheric, peaceful",
+            "tags": "art, painting, impressionism, still life, ceramic, fabric, floral, afternoon light, soft lighting, decorative figurine, toy, plate, rose, brushstrokes, atmospheric"
+        }
+    }
+}

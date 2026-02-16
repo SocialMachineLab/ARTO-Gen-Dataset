@@ -1,0 +1,372 @@
+{
+    "artwork_id": "artwork_20260103_210602_914",
+    "generation_timestamp": "2026-01-03T21:06:38.089174",
+    "style": "Neoclassicism",
+    "objects": {
+        "object_ids": [
+            28,
+            79,
+            12,
+            17
+        ],
+        "object_names": [
+            "brooch",
+            "comb",
+            "sign",
+            "dog"
+        ],
+        "enhanced_objects": [
+            {
+                "object_id": 28,
+                "name": "brooch",
+                "artistic_description": "A delicate gold brooch catches the warm afternoon sunlight streaming through tall studio windows, its intricate neoclassical filigree work glowing with soft amber highlights. The metal surface gleams with a polished luster, while tiny gemstones set in geometric patterns scatter prismatic light across its face. Gentle shadows play within the carved recesses, revealing fine laurel wreath motifs rendered in high relief.",
+                "size": "Small",
+                "state": "pristine condition, polished and gleaming",
+                "primary_colors": [
+                    "warm gold",
+                    "amber"
+                ],
+                "material": "gold with gemstones"
+            },
+            {
+                "object_id": 79,
+                "name": "comb",
+                "artistic_description": "An ivory comb rests with quiet dignity, its natural material warmed by the golden afternoon light into creamy tones of honey and pale wheat. The neoclassical carved pattern of acanthus leaves along its spine creates delicate shadows that dance across its surface. Sunlight filters through the translucent teeth, making them glow softly against the bright studio atmosphere.",
+                "size": "Small",
+                "state": "well-preserved antique with gentle wear",
+                "primary_colors": [
+                    "creamy ivory",
+                    "warm honey"
+                ],
+                "material": "ivory"
+            },
+            {
+                "object_id": 12,
+                "name": "sign",
+                "artistic_description": "A wooden sign displays crisp lettering in deep indigo, its painted surface catching the bright natural light with a matte finish that absorbs rather than reflects the illumination. The neoclassical typography stands in sharp relief against the aged wood grain, which shows subtle variations in tone from the afternoon sun. Edges are gently weathered, suggesting noble antiquity rather than decay.",
+                "size": "Medium",
+                "state": "aged but dignified, with dignified patina",
+                "primary_colors": [
+                    "deep indigo",
+                    "natural wood brown"
+                ],
+                "material": "wood with painted finish"
+            },
+            {
+                "object_id": 17,
+                "name": "dog",
+                "artistic_description": "A noble hound sits with classical composure, its short coat illuminated by bright studio light that reveals every hair with crystalline clarity. Sunlight creates a soft halo effect around its silhouette, while warm golden tones deepen the natural sable coloring of its fur. The animal's eyes catch the cheerful light with liquid amber brilliance, and its smooth coat shows subtle highlights where the afternoon sun strikes its back.",
+                "size": "Medium",
+                "state": "alert and well-groomed, calm demeanor",
+                "primary_colors": [
+                    "rich sable brown",
+                    "golden amber"
+                ],
+                "material": "living animal with fur"
+            }
+        ]
+    },
+    "composition": {
+        "spatial_relations": [
+            [
+                28,
+                "on",
+                79
+            ],
+            [
+                79,
+                "next to",
+                12
+            ],
+            [
+                17,
+                "behind",
+                79
+            ],
+            [
+                12,
+                "next to",
+                17
+            ]
+        ],
+        "semantic_relations": []
+    },
+    "environment": {
+        "environment_details": {
+            "scene_brief": "A Neoclassical portrait studio featuring brooch, with comb, sign, and dog",
+            "place365_name": "/a/art_studio",
+            "place365_id": 21,
+            "time_of_day": "afternoon",
+            "weather": "sunny",
+            "period": "Classical",
+            "is_indoor": true,
+            "lighting": {
+                "type": "natural",
+                "quality": "soft",
+                "direction": "side-lit",
+                "mood": "warm",
+                "reasoning": "Neoclassical portraiture relies on clear, diffused light to render forms accurately. 'Side-lit' lighting creates gentle modeling on the subject's face and objects, avoiding harsh contrasts. 'Soft' quality diffuses shadows, and 'warm' mood aligns with the 'afternoon' selection, adding a touch of intimacy to the formal setting."
+            },
+            "atmosphere": "bright and active and cheerful and gentle"
+        },
+        "scene_inference": {
+            "all_candidates": [
+                {
+                    "scene_type": "Neoclassical dressing table",
+                    "plausibility": 0.95,
+                    "reasoning": "A dressing table is the natural habitat for a brooch and comb. The dog can be a pet resting nearby, and the sign can be a small antique price tag or maker's mark on the underside of the comb or brooch.",
+                    "object_interpretations": {
+                        "brooch": {
+                            "form": "real jewelry",
+                            "scale": "small",
+                            "role": "primary decorative object"
+                        },
+                        "comb": {
+                            "form": "real comb",
+                            "scale": "small",
+                            "role": "functional accessory"
+                        },
+                        "sign": {
+                            "form": "paper tag",
+                            "scale": "miniature",
+                            "role": "information label"
+                        },
+                        "dog": {
+                            "form": "real dog",
+                            "scale": "normal",
+                            "role": "companion resting on rug"
+                        }
+                    }
+                },
+                {
+                    "scene_type": "Neoclassical portrait studio",
+                    "plausibility": 0.9,
+                    "reasoning": "In a formal portrait, the subject wears the brooch and holds the comb. The dog sits at their feet as a loyal companion. The sign could be a studio placard or a prop.",
+                    "object_interpretations": {
+                        "brooch": {
+                            "form": "real jewelry",
+                            "scale": "small",
+                            "role": "worn accessory"
+                        },
+                        "comb": {
+                            "form": "real comb",
+                            "scale": "small",
+                            "role": "held prop"
+                        },
+                        "sign": {
+                            "form": "wooden placard",
+                            "scale": "medium",
+                            "role": "studio backdrop element"
+                        },
+                        "dog": {
+                            "form": "real dog",
+                            "scale": "normal",
+                            "role": "portrait subject accessory"
+                        }
+                    },
+                    "scene_brief": "A Neoclassical portrait studio featuring brooch, with comb, sign, and dog"
+                },
+                {
+                    "scene_type": "Classical archaeological dig site",
+                    "plausibility": 0.85,
+                    "reasoning": "The brooch and comb are ancient artifacts just unearthed. The sign is an excavation marker. The dog is a stray wandering the ruins.",
+                    "object_interpretations": {
+                        "brooch": {
+                            "form": "ancient artifact",
+                            "scale": "small",
+                            "role": "excavation find"
+                        },
+                        "comb": {
+                            "form": "ancient artifact",
+                            "scale": "small",
+                            "role": "excavation find"
+                        },
+                        "sign": {
+                            "form": "wooden marker",
+                            "scale": "medium",
+                            "role": "site identification"
+                        },
+                        "dog": {
+                            "form": "real dog",
+                            "scale": "normal",
+                            "role": "site visitor"
+                        }
+                    }
+                },
+                {
+                    "scene_type": "Neoclassical museum display",
+                    "plausibility": 0.9,
+                    "reasoning": "The brooch and comb are displayed under glass. The sign is the museum label. The dog is a taxidermy mount or a stone statue guarding the exhibit.",
+                    "object_interpretations": {
+                        "brooch": {
+                            "form": "museum artifact",
+                            "scale": "small",
+                            "role": "exhibit item"
+                        },
+                        "comb": {
+                            "form": "museum artifact",
+                            "scale": "small",
+                            "role": "exhibit item"
+                        },
+                        "sign": {
+                            "form": "printed card",
+                            "scale": "small",
+                            "role": "exhibit label"
+                        },
+                        "dog": {
+                            "form": "statue/taxidermy",
+                            "scale": "normal",
+                            "role": "decorative guardian"
+                        }
+                    }
+                },
+                {
+                    "scene_type": "Classical mythology scene",
+                    "plausibility": 0.8,
+                    "reasoning": "A goddess (Venus or Diana) holds the comb and wears the brooch. The dog is her sacred animal. The sign could be a carved stone inscription.",
+                    "object_interpretations": {
+                        "brooch": {
+                            "form": "divine jewelry",
+                            "scale": "small",
+                            "role": "divine ornament"
+                        },
+                        "comb": {
+                            "form": "divine accessory",
+                            "scale": "small",
+                            "role": "grooming tool"
+                        },
+                        "sign": {
+                            "form": "stone inscription",
+                            "scale": "medium",
+                            "role": "mythological context"
+                        },
+                        "dog": {
+                            "form": "real dog",
+                            "scale": "normal",
+                            "role": "sacred companion"
+                        }
+                    }
+                },
+                {
+                    "scene_type": "Neoclassical boudoir",
+                    "plausibility": 0.92,
+                    "reasoning": "A private dressing room setting. The comb and brooch are on a vanity. The dog is a lapdog on a cushion. The sign is a small decorative plaque on the wall.",
+                    "object_interpretations": {
+                        "brooch": {
+                            "form": "real jewelry",
+                            "scale": "small",
+                            "role": "luxury item"
+                        },
+                        "comb": {
+                            "form": "real comb",
+                            "scale": "small",
+                            "role": "toilette item"
+                        },
+                        "sign": {
+                            "form": "metal plaque",
+                            "scale": "small",
+                            "role": "wall decoration"
+                        },
+                        "dog": {
+                            "form": "real dog",
+                            "scale": "small",
+                            "role": "lap pet"
+                        }
+                    }
+                },
+                {
+                    "scene_type": "Classical still life painting",
+                    "plausibility": 0.88,
+                    "reasoning": "A composition of objects on a table. The brooch and comb are arranged with other items. The dog is a realistic painting on the wall behind the table. The sign is a label on the frame.",
+                    "object_interpretations": {
+                        "brooch": {
+                            "form": "real object",
+                            "scale": "small",
+                            "role": "still life subject"
+                        },
+                        "comb": {
+                            "form": "real object",
+                            "scale": "small",
+                            "role": "still life subject"
+                        },
+                        "sign": {
+                            "form": "paper label",
+                            "scale": "miniature",
+                            "role": "frame label"
+                        },
+                        "dog": {
+                            "form": "painting",
+                            "scale": "medium",
+                            "role": "background art"
+                        }
+                    }
+                },
+                {
+                    "scene_type": "Neoclassical garden",
+                    "plausibility": 0.75,
+                    "reasoning": "A lady drops her comb and brooch in the garden. The dog plays nearby. The sign is a garden marker or statue plinth.",
+                    "object_interpretations": {
+                        "brooch": {
+                            "form": "real jewelry",
+                            "scale": "small",
+                            "role": "lost item"
+                        },
+                        "comb": {
+                            "form": "real comb",
+                            "scale": "small",
+                            "role": "lost item"
+                        },
+                        "sign": {
+                            "form": "stone marker",
+                            "scale": "medium",
+                            "role": "garden ornament"
+                        },
+                        "dog": {
+                            "form": "real dog",
+                            "scale": "normal",
+                            "role": "playful companion"
+                        }
+                    }
+                }
+            ],
+            "selected_scene": {
+                "scene_type": "Neoclassical portrait studio",
+                "plausibility": 0.9,
+                "reasoning": "In a formal portrait, the subject wears the brooch and holds the comb. The dog sits at their feet as a loyal companion. The sign could be a studio placard or a prop.",
+                "object_interpretations": {
+                    "brooch": {
+                        "form": "real jewelry",
+                        "scale": "small",
+                        "role": "worn accessory"
+                    },
+                    "comb": {
+                        "form": "real comb",
+                        "scale": "small",
+                        "role": "held prop"
+                    },
+                    "sign": {
+                        "form": "wooden placard",
+                        "scale": "medium",
+                        "role": "studio backdrop element"
+                    },
+                    "dog": {
+                        "form": "real dog",
+                        "scale": "normal",
+                        "role": "portrait subject accessory"
+                    }
+                },
+                "scene_brief": "A Neoclassical portrait studio featuring brooch, with comb, sign, and dog"
+            }
+        }
+    },
+    "final_prompts": {
+        "main_prompt": "A Neoclassicism painting depicting a bright and active afternoon scene with a gentle, cheerful atmosphere. In the foreground, a small, well-preserved antique comb of creamy ivory and warm honey rests on a stone surface, with a small, pristine brooch of warm gold and amber placed delicately atop it. Beside the comb stands a medium-sized sign of deep indigo and natural wood brown, aged but dignified. Behind the comb, a medium-sized dog with rich sable brown and golden amber fur stands alert and well-groomed, its gaze directed toward the viewer. The composition is bathed in soft, natural afternoon light that highlights the textures of the ivory comb, the gleaming gold brooch, the painted wood sign, and the dog's lustrous fur, creating a harmonious balance of classical elegance and lively warmth.",
+        "negative_prompt": "photorealistic, 3d render, modern, digital art, photograph, low quality, blurry, distorted, surreal, abstract, cartoon, anime, fantasy, horror, dark, gloomy, chaotic, cluttered, deformed, ugly, bad anatomy, text, watermark, signature",
+        "prompt_formats": {
+            "simple": "A Neoclassicism painting of a brooch on a comb beside a sign with a dog behind, set in a bright afternoon.",
+            "complex": "A Neoclassicism painting depicting a bright and active afternoon scene with a gentle, cheerful atmosphere. In the foreground, a small, well-preserved antique comb of creamy ivory and warm honey rests on a stone surface, with a small, pristine brooch of warm gold and amber placed delicately atop it. Beside the comb stands a medium-sized sign of deep indigo and natural wood brown, aged but dignified. Behind the comb, a medium-sized dog with rich sable brown and golden amber fur stands alert and well-groomed, its gaze directed toward the viewer. The composition is bathed in soft, natural afternoon light that highlights the textures of the ivory comb, the gleaming gold brooch, the painted wood sign, and the dog's lustrous fur, creating a harmonious balance of classical elegance and lively warmth.",
+            "comma_separated": "Neoclassicism painting, brooch on comb, comb next to sign, dog behind comb, afternoon lighting, bright cheerful atmosphere, small gold brooch, ivory comb, indigo sign, sable brown dog, classical composition, natural soft light, elegant, harmonious",
+            "tags": "art, painting, neoclassicism, classical art, still life, animal portrait, afternoon light, antique, brooch, comb, sign, dog, gold, ivory, wood, fur, elegant, cheerful, bright"
+        }
+    }
+}

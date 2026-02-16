@@ -1,0 +1,303 @@
+{
+    "artwork_id": "artwork_20260103_165536_246",
+    "generation_timestamp": "2026-01-03T16:56:09.257691",
+    "style": "Baroque",
+    "objects": {
+        "object_ids": [
+            14,
+            56,
+            20
+        ],
+        "object_names": [
+            "workbench",
+            "apple pie",
+            "calf"
+        ],
+        "enhanced_objects": [
+            {
+                "object_id": 14,
+                "name": "workbench",
+                "artistic_description": "A massive oak workbench dominates the scene with rich, warm tones glowing under the afternoon sun streaming through high windows. The aged wooden surface shows deep grooves and tool marks, its patina burnished to a honey-gold sheen where direct light hits. Dust motes dance in the luminous shafts, catching on the weathered grain and iron vices that gleam with polished brass highlights. The wood absorbs and reflects light with a velvety, matte richness characteristic of Baroque tenebrism.",
+                "size": "Dominant",
+                "state": "well-worn and seasoned, covered in a fine layer of wood dust and shavings that catch the light",
+                "primary_colors": [
+                    "warm honey-gold",
+                    "deep umber"
+                ],
+                "material": "oak wood with iron and brass fittings"
+            },
+            {
+                "object_id": 56,
+                "name": "apple pie",
+                "artistic_description": "A golden-brown apple pie rests on a pewter plate, its lattice crust glistening with crystallized sugar that sparkles like tiny diamonds in the bright afternoon light. The filling bubbles through the vents, glowing with amber and ruby tones where the sun catches the translucent apple slices. Steam rises in delicate wisps, catching the luminous rays and creating a soft, ethereal halo around the dessert. The buttery crust has a rich, burnished quality with deep shadows in the crevices, exemplifying Baroque still-life opulence.",
+                "size": "Medium",
+                "state": "freshly baked, still warm with a perfectly golden, flaky crust",
+                "primary_colors": [
+                    "golden amber",
+                    "warm caramel"
+                ],
+                "material": "baked pastry with fruit filling"
+            },
+            {
+                "object_id": 20,
+                "name": "calf",
+                "artistic_description": "A young calf stands in a pool of golden afternoon light, its soft brown coat rendered in velvety textures with highlights of burnished copper and warm chestnut where the sun strikes its flank. The fur has a luminous, almost translucent quality at the edges, catching light with a gentle glow. Its dark, liquid eyes reflect the bright atmosphere with deep, mysterious pools of shadow. The hide shows subtle variations in tone, from rich chocolate to warm tan, with a matte finish that absorbs rather than reflects the intense light.",
+                "size": "Large",
+                "state": "young and healthy, with a soft, downy coat and bright, alert eyes",
+                "primary_colors": [
+                    "warm chestnut brown",
+                    "rich chocolate"
+                ],
+                "material": "living animal with soft fur"
+            }
+        ]
+    },
+    "composition": {
+        "spatial_relations": [
+            [
+                56,
+                "on",
+                14
+            ],
+            [
+                20,
+                "next to",
+                14
+            ]
+        ],
+        "semantic_relations": []
+    },
+    "environment": {
+        "environment_details": {
+            "scene_brief": "A Baroque artisan's workshop featuring workbench as the main functional element, with apple pie, and calf",
+            "place365_name": "/p/pub/indoor",
+            "place365_id": 274,
+            "time_of_day": "afternoon",
+            "weather": "sunny",
+            "period": "Early modern",
+            "is_indoor": true,
+            "lighting": {
+                "type": "natural",
+                "quality": "harsh",
+                "direction": "side-lit",
+                "mood": "warm",
+                "reasoning": "Combining the 'afternoon' time and 'sunny' weather results in natural lighting. The sun is high enough to penetrate a window from the side, creating harsh contrasts between light and dark (chiaroscuro). The warm color temperature of afternoon sun complements the rustic wooden textures of the workshop and the golden hue of the apple pie."
+            },
+            "atmosphere": "bright and active and cheerful"
+        },
+        "scene_inference": {
+            "all_candidates": [
+                {
+                    "scene_type": "Baroque artisan's workshop",
+                    "plausibility": 0.85,
+                    "reasoning": "A workbench is the central tool in a craftsman's workshop. The apple pie can be a meal brought by a family member or apprentice. The calf can be a small, young calf that is being kept safe in a corner of the workshop, perhaps orphaned, or a sculptor's reference model.",
+                    "object_interpretations": {
+                        "workbench": {
+                            "form": "real workbench",
+                            "scale": "normal",
+                            "role": "primary functional object"
+                        },
+                        "apple pie": {
+                            "form": "real food",
+                            "scale": "normal",
+                            "role": "sustenance for the worker"
+                        },
+                        "calf": {
+                            "form": "real calf",
+                            "scale": "small/young",
+                            "role": "pet or temporary resident"
+                        }
+                    },
+                    "scene_brief": "A Baroque artisan's workshop featuring workbench as the main functional element, with apple pie, and calf"
+                },
+                {
+                    "scene_type": "Baroque rustic kitchen",
+                    "plausibility": 0.8,
+                    "reasoning": "In a rustic setting, a sturdy workbench serves as a kitchen preparation table. The apple pie is the finished dish sitting on the bench. The calf might be visible through a window or in an adjacent stable area, connecting the kitchen to the farm.",
+                    "object_interpretations": {
+                        "workbench": {
+                            "form": "real heavy table",
+                            "scale": "normal",
+                            "role": "kitchen preparation surface"
+                        },
+                        "apple pie": {
+                            "form": "real baked good",
+                            "scale": "normal",
+                            "role": "centerpiece of the meal"
+                        },
+                        "calf": {
+                            "form": "real calf",
+                            "scale": "young",
+                            "role": "background farm animal"
+                        }
+                    }
+                },
+                {
+                    "scene_type": "Baroque artist's studio",
+                    "plausibility": 0.75,
+                    "reasoning": "An artist's studio often has a workbench for preparing paints and canvases. The apple pie serves as a still life subject or a snack. The calf is a live model for a painting or a sculpture being worked on.",
+                    "object_interpretations": {
+                        "workbench": {
+                            "form": "real artist's table",
+                            "scale": "normal",
+                            "role": "creative workspace"
+                        },
+                        "apple pie": {
+                            "form": "real food",
+                            "scale": "normal",
+                            "role": "still life subject"
+                        },
+                        "calf": {
+                            "form": "real calf",
+                            "scale": "normal",
+                            "role": "live model for art"
+                        }
+                    }
+                },
+                {
+                    "scene_type": "Baroque royal stables",
+                    "plausibility": 0.7,
+                    "reasoning": "A workbench is used by stable hands for repairing tack and tools. An apple pie might be a treat brought to the stable workers. The calf is a young calf being raised in the royal stables.",
+                    "object_interpretations": {
+                        "workbench": {
+                            "form": "real workbench",
+                            "scale": "normal",
+                            "role": "utility table for repairs"
+                        },
+                        "apple pie": {
+                            "form": "real food",
+                            "scale": "normal",
+                            "role": "treat for workers"
+                        },
+                        "calf": {
+                            "form": "real calf",
+                            "scale": "young",
+                            "role": "stable resident"
+                        }
+                    }
+                },
+                {
+                    "scene_type": "Baroque rustic feast",
+                    "plausibility": 0.8,
+                    "reasoning": "A large workbench serves as a makeshift banquet table in a rustic setting. The apple pie is the dessert placed on the table. The calf is a decoration or a costumed mascot at the feast.",
+                    "object_interpretations": {
+                        "workbench": {
+                            "form": "real table",
+                            "scale": "large",
+                            "role": "banquet table"
+                        },
+                        "apple pie": {
+                            "form": "real food",
+                            "scale": "normal",
+                            "role": "dessert"
+                        },
+                        "calf": {
+                            "form": "costumed person or statue",
+                            "scale": "human-sized",
+                            "role": "festive decoration"
+                        }
+                    }
+                },
+                {
+                    "scene_type": "Baroque sculptor's foundry",
+                    "plausibility": 0.65,
+                    "reasoning": "A heavy workbench is used for assembling molds and tools. An apple pie sits on a corner of the bench as a worker's lunch. A small calf is a reference model for a bronze sculpture being cast.",
+                    "object_interpretations": {
+                        "workbench": {
+                            "form": "real industrial bench",
+                            "scale": "normal",
+                            "role": "workstation"
+                        },
+                        "apple pie": {
+                            "form": "real food",
+                            "scale": "normal",
+                            "role": "lunch"
+                        },
+                        "calf": {
+                            "form": "real calf",
+                            "scale": "normal",
+                            "role": "sculpture reference"
+                        }
+                    }
+                },
+                {
+                    "scene_type": "Baroque rustic cottage interior",
+                    "plausibility": 0.85,
+                    "reasoning": "A multi-purpose workbench serves as a table for eating and crafting. The apple pie is the meal being eaten. The calf is a beloved pet kept indoors.",
+                    "object_interpretations": {
+                        "workbench": {
+                            "form": "real table/bench",
+                            "scale": "normal",
+                            "role": "multi-purpose surface"
+                        },
+                        "apple pie": {
+                            "form": "real food",
+                            "scale": "normal",
+                            "role": "meal"
+                        },
+                        "calf": {
+                            "form": "real calf",
+                            "scale": "small",
+                            "role": "house pet"
+                        }
+                    }
+                },
+                {
+                    "scene_type": "Baroque dairy farm",
+                    "plausibility": 0.9,
+                    "reasoning": "A workbench is essential for farm repairs. The apple pie is a homemade treat for the farmers. The calf is the central subject of the scene, being cared for.",
+                    "object_interpretations": {
+                        "workbench": {
+                            "form": "real workbench",
+                            "scale": "normal",
+                            "role": "farm utility"
+                        },
+                        "apple pie": {
+                            "form": "real food",
+                            "scale": "normal",
+                            "role": "homemade treat"
+                        },
+                        "calf": {
+                            "form": "real calf",
+                            "scale": "young",
+                            "role": "farm animal"
+                        }
+                    }
+                }
+            ],
+            "selected_scene": {
+                "scene_type": "Baroque artisan's workshop",
+                "plausibility": 0.85,
+                "reasoning": "A workbench is the central tool in a craftsman's workshop. The apple pie can be a meal brought by a family member or apprentice. The calf can be a small, young calf that is being kept safe in a corner of the workshop, perhaps orphaned, or a sculptor's reference model.",
+                "object_interpretations": {
+                    "workbench": {
+                        "form": "real workbench",
+                        "scale": "normal",
+                        "role": "primary functional object"
+                    },
+                    "apple pie": {
+                        "form": "real food",
+                        "scale": "normal",
+                        "role": "sustenance for the worker"
+                    },
+                    "calf": {
+                        "form": "real calf",
+                        "scale": "small/young",
+                        "role": "pet or temporary resident"
+                    }
+                },
+                "scene_brief": "A Baroque artisan's workshop featuring workbench as the main functional element, with apple pie, and calf"
+            }
+        }
+    },
+    "final_prompts": {
+        "main_prompt": "A Baroque painting depicting a bright and cheerful afternoon scene in a rustic workshop, where a large, healthy calf with a warm chestnut brown and rich chocolate coat stands attentively beside a well-worn workbench of warm honey-gold and deep umber oak wood with iron and brass fittings. On the workbench's seasoned surface rests a freshly baked apple pie of medium size, its golden amber and warm caramel crust glistening under the harsh natural afternoon light that streams through a window, casting dramatic shadows and illuminating the active, cheerful atmosphere with a sense of warmth and abundance.",
+        "negative_prompt": "photorealistic, 3d render, modern, digital art, photograph, low quality, blurry, distorted, surreal, abstract, cartoon, anime, text, watermark, signature, frame, border, ugly, deformed, mutated",
+        "prompt_formats": {
+            "simple": "A Baroque painting of a calf beside a workbench with an apple pie in a bright afternoon workshop.",
+            "complex": "A Baroque painting depicting a bright and cheerful afternoon scene in a rustic workshop, where a large, healthy calf with a warm chestnut brown and rich chocolate coat stands attentively beside a well-worn workbench of warm honey-gold and deep umber oak wood with iron and brass fittings. On the workbench's seasoned surface rests a freshly baked apple pie of medium size, its golden amber and warm caramel crust glistening under the harsh natural afternoon light that streams through a window, casting dramatic shadows and illuminating the active, cheerful atmosphere with a sense of warmth and abundance.",
+            "comma_separated": "Baroque painting, workbench, apple pie, calf, large calf, medium pie, warm chestnut brown, honey-gold wood, golden amber crust, afternoon lighting, harsh natural light, bright cheerful atmosphere, rustic workshop, dramatic shadows, warm colors",
+            "tags": "art, painting, Baroque, still life, animal portrait, rustic, workshop, afternoon light, chiaroscuro, warm colors, detailed, textural, oil painting, classical art"
+        }
+    }
+}

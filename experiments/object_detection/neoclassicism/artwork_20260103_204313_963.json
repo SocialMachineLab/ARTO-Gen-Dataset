@@ -1,0 +1,303 @@
+{
+    "artwork_id": "artwork_20260103_204313_963",
+    "generation_timestamp": "2026-01-03T20:43:46.292863",
+    "style": "Neoclassicism",
+    "objects": {
+        "object_ids": [
+            15,
+            57,
+            27
+        ],
+        "object_names": [
+            "falcon",
+            "stage",
+            "bundle"
+        ],
+        "enhanced_objects": [
+            {
+                "object_id": 15,
+                "name": "falcon",
+                "artistic_description": "A majestic falcon rendered in warm, golden candlelight with rich chestnut and umber plumage that catches the artificial illumination. The feathers display subtle iridescence where light grazes their edges, creating delicate highlights against deep shadowed tones. Its piercing eyes reflect the stage lights with crystalline clarity, while its talons gleam like polished bronze in the amber glow. The bird's form is sculpted with classical precision, every feather defined by chiaroscuro that emphasizes its noble bearing.",
+                "size": "Medium",
+                "state": "alert and poised, feathers sleek and well-groomed, radiating contained energy",
+                "primary_colors": [
+                    "warm chestnut brown",
+                    "golden amber"
+                ],
+                "material": "feathers and flesh"
+            },
+            {
+                "object_id": 57,
+                "name": "stage",
+                "artistic_description": "A grand Neoclassical stage platform rendered in warm, honeyed tones from the artificial lighting. The wooden boards show a rich patina of age, their surface burnished to a soft sheen where the light catches the grain. Carved pilasters along the edges glow with deep umber shadows, their fluted columns catching highlights in sienna and burnt orange. The proscenium arch frames the space with classical authority, its gilded details shimmering delicately in the calm atmosphere.",
+                "size": "Dominant",
+                "state": "time-worn but dignified, polished wood showing decades of careful maintenance",
+                "primary_colors": [
+                    "honeyed amber",
+                    "deep umber"
+                ],
+                "material": "aged wood and gilded plaster"
+            },
+            {
+                "object_id": 27,
+                "name": "bundle",
+                "artistic_description": "A tightly bound package wrapped in weathered canvas that absorbs the warm stage light into its matte surface, creating soft, muted shadows in its folds. The binding ropes are thick hemp, their twisted fibers catching stray glints of amber light. The fabric shows subtle variations in tone from ochre to dusty brown, suggesting years of use. Corners are slightly frayed, revealing glimpses of darker material beneath, all rendered with the restrained elegance of classical composition.",
+                "size": "Medium",
+                "state": "securely bound and weathered, showing practical use while maintaining dignified appearance",
+                "primary_colors": [
+                    "dusty ochre",
+                    "weathered brown"
+                ],
+                "material": "canvas and hemp rope"
+            }
+        ]
+    },
+    "composition": {
+        "spatial_relations": [
+            [
+                15,
+                "on",
+                57
+            ],
+            [
+                27,
+                "on",
+                57
+            ]
+        ],
+        "semantic_relations": []
+    },
+    "environment": {
+        "environment_details": {
+            "scene_brief": "A Neoclassical theater stage featuring falcon, with stage, and bundle",
+            "place365_name": "/a/auditorium",
+            "place365_id": 27,
+            "time_of_day": "evening",
+            "weather": null,
+            "period": "Classical",
+            "is_indoor": true,
+            "lighting": {
+                "type": "artificial",
+                "quality": "dramatic",
+                "direction": "front-lit",
+                "mood": "warm",
+                "reasoning": "An evening theater performance relies on artificial stage lighting. Dramatic lighting creates strong contrasts and highlights the central figures (falcon, bundle) and architectural details, essential for the Neoclassical style's theatricality. Front lighting ensures clarity of the stage action, and warm tones evoke the glow of oil lamps or early gaslight typical of the period."
+            },
+            "atmosphere": "calm and relaxed and striking"
+        },
+        "scene_inference": {
+            "all_candidates": [
+                {
+                    "scene_type": "Neoclassical theater stage",
+                    "plausibility": 0.95,
+                    "reasoning": "The stage is the central setting, a falcon is a prop or performer's bird perched on the stage, and a bundle is a prop sack or package on the stage floor.",
+                    "object_interpretations": {
+                        "falcon": {
+                            "form": "real bird",
+                            "scale": "normal",
+                            "role": "performer's bird or stage prop"
+                        },
+                        "stage": {
+                            "form": "real stage",
+                            "scale": "full-size",
+                            "role": "primary setting"
+                        },
+                        "bundle": {
+                            "form": "fabric sack",
+                            "scale": "normal",
+                            "role": "stage prop"
+                        }
+                    },
+                    "scene_brief": "A Neoclassical theater stage featuring falcon, with stage, and bundle"
+                },
+                {
+                    "scene_type": "Neoclassical opera house balcony",
+                    "plausibility": 0.9,
+                    "reasoning": "A falcon is a decorative taxidermy piece on the balcony railing, overlooking the stage below, with a bundle of playbills on a seat.",
+                    "object_interpretations": {
+                        "falcon": {
+                            "form": "taxidermy",
+                            "scale": "normal",
+                            "role": "decorative element"
+                        },
+                        "stage": {
+                            "form": "architectural view",
+                            "scale": "distant/small",
+                            "role": "background focal point"
+                        },
+                        "bundle": {
+                            "form": "paper stack",
+                            "scale": "small",
+                            "role": "casual item"
+                        }
+                    }
+                },
+                {
+                    "scene_type": "Neoclassical museum gallery",
+                    "plausibility": 0.85,
+                    "reasoning": "The stage refers to the display platform; the falcon is a taxidermy specimen on the platform, and the bundle is a wrapped artifact nearby.",
+                    "object_interpretations": {
+                        "falcon": {
+                            "form": "taxidermy",
+                            "scale": "normal",
+                            "role": "exhibit"
+                        },
+                        "stage": {
+                            "form": "display pedestal",
+                            "scale": "normal",
+                            "role": "exhibit base"
+                        },
+                        "bundle": {
+                            "form": "wrapped artifact",
+                            "scale": "normal",
+                            "role": "exhibit"
+                        }
+                    }
+                },
+                {
+                    "scene_type": "Neoclassical courtyard",
+                    "plausibility": 0.8,
+                    "reasoning": "A falcon is a live bird perched on a stone pedestal (stage), with a bundle of herbs or cloth on the ground.",
+                    "object_interpretations": {
+                        "falcon": {
+                            "form": "real bird",
+                            "scale": "normal",
+                            "role": "wildlife"
+                        },
+                        "stage": {
+                            "form": "stone pedestal",
+                            "scale": "normal",
+                            "role": "perch"
+                        },
+                        "bundle": {
+                            "form": "cloth sack",
+                            "scale": "normal",
+                            "role": "ground item"
+                        }
+                    }
+                },
+                {
+                    "scene_type": "Neoclassical study",
+                    "plausibility": 0.75,
+                    "reasoning": "A falcon is a statue on a desk (stage), with a bundle of scrolls tied with ribbon.",
+                    "object_interpretations": {
+                        "falcon": {
+                            "form": "statue",
+                            "scale": "small",
+                            "role": "desk ornament"
+                        },
+                        "stage": {
+                            "form": "desk surface",
+                            "scale": "normal",
+                            "role": "workspace"
+                        },
+                        "bundle": {
+                            "form": "scrolls",
+                            "scale": "small",
+                            "role": "documents"
+                        }
+                    }
+                },
+                {
+                    "scene_type": "Neoclassical banquet hall",
+                    "plausibility": 0.7,
+                    "reasoning": "A falcon is a centerpiece sculpture on the table (stage), with a bundle of napkins or silverware.",
+                    "object_interpretations": {
+                        "falcon": {
+                            "form": "sculpture",
+                            "scale": "small",
+                            "role": "centerpiece"
+                        },
+                        "stage": {
+                            "form": "dining table",
+                            "scale": "large",
+                            "role": "main surface"
+                        },
+                        "bundle": {
+                            "form": "linen",
+                            "scale": "small",
+                            "role": "table setting"
+                        }
+                    }
+                },
+                {
+                    "scene_type": "Neoclassical garden",
+                    "plausibility": 0.8,
+                    "reasoning": "A falcon is a live bird on a garden trellis (stage-like structure), with a bundle of firewood on the path.",
+                    "object_interpretations": {
+                        "falcon": {
+                            "form": "real bird",
+                            "scale": "normal",
+                            "role": "wildlife"
+                        },
+                        "stage": {
+                            "form": "garden arch",
+                            "scale": "large",
+                            "role": "structural element"
+                        },
+                        "bundle": {
+                            "form": "firewood",
+                            "scale": "normal",
+                            "role": "utility item"
+                        }
+                    }
+                },
+                {
+                    "scene_type": "Neoclassical library",
+                    "plausibility": 0.65,
+                    "reasoning": "A falcon is a decorative motif on a stage-like podium, with a bundle of books tied together.",
+                    "object_interpretations": {
+                        "falcon": {
+                            "form": "carving",
+                            "scale": "small",
+                            "role": "decoration"
+                        },
+                        "stage": {
+                            "form": "reading podium",
+                            "scale": "normal",
+                            "role": "furniture"
+                        },
+                        "bundle": {
+                            "form": "books",
+                            "scale": "small",
+                            "role": "library item"
+                        }
+                    }
+                }
+            ],
+            "selected_scene": {
+                "scene_type": "Neoclassical theater stage",
+                "plausibility": 0.95,
+                "reasoning": "The stage is the central setting, a falcon is a prop or performer's bird perched on the stage, and a bundle is a prop sack or package on the stage floor.",
+                "object_interpretations": {
+                    "falcon": {
+                        "form": "real bird",
+                        "scale": "normal",
+                        "role": "performer's bird or stage prop"
+                    },
+                    "stage": {
+                        "form": "real stage",
+                        "scale": "full-size",
+                        "role": "primary setting"
+                    },
+                    "bundle": {
+                        "form": "fabric sack",
+                        "scale": "normal",
+                        "role": "stage prop"
+                    }
+                },
+                "scene_brief": "A Neoclassical theater stage featuring falcon, with stage, and bundle"
+            }
+        }
+    },
+    "final_prompts": {
+        "main_prompt": "A Neoclassicism painting depicting an evening scene on a time-worn but dignified stage, illuminated by artificial dramatic lighting that creates a calm, relaxed, and striking atmosphere. In the foreground, a warm chestnut brown and golden amber falcon stands alert and poised upon the honeyed amber and deep umber wooden planks of the stage. Beside the falcon in the midground lies a medium-sized bundle, securely bound and weathered in dusty ochre and weathered brown hues, resting on the same aged wooden surface. The composition emphasizes classical balance and clarity, with the falcon's feathers and flesh rendered in precise detail against the textured materials of aged wood and gilded plaster in the background, while the bundle's canvas and hemp rope textures add tactile richness to the serene yet dramatic tableau.",
+        "negative_prompt": "photorealistic, 3d render, modern, digital art, photograph, low quality, blurry, distorted, surreal, abstract, cartoon, anime, pop art, graffiti, impressionism, expressionism, cubism, baroque, rococo, ugly, deformed, mutated, watermark, signature, text, frame, border",
+        "prompt_formats": {
+            "simple": "A Neoclassical evening scene of an alert falcon and a weathered bundle on a dignified stage under dramatic lighting.",
+            "complex": "A Neoclassicism painting depicting an evening scene on a time-worn but dignified stage, illuminated by artificial dramatic lighting that creates a calm, relaxed, and striking atmosphere. In the foreground, a warm chestnut brown and golden amber falcon stands alert and poised upon the honeyed amber and deep umber wooden planks of the stage. Beside the falcon in the midground lies a medium-sized bundle, securely bound and weathered in dusty ochre and weathered brown hues, resting on the same aged wooden surface. The composition emphasizes classical balance and clarity, with the falcon's feathers and flesh rendered in precise detail against the textured materials of aged wood and gilded plaster in the background, while the bundle's canvas and hemp rope textures add tactile richness to the serene yet dramatic tableau.",
+            "comma_separated": "Neoclassicism painting, evening scene, falcon on stage, bundle on stage, warm chestnut brown falcon, golden amber falcon, alert and poised, honeyed amber stage, deep umber stage, time-worn, dignified, dusty ochre bundle, weathered brown bundle, securely bound, artificial dramatic lighting, calm atmosphere, relaxed atmosphere, striking atmosphere, classical balance, detailed feathers, aged wood, gilded plaster, canvas texture, hemp rope",
+            "tags": "art, painting, neoclassicism, falcon, stage, bundle, evening, dramatic lighting, classical art, animal painting, still life, texture study, historical art, calm scene"
+        }
+    }
+}

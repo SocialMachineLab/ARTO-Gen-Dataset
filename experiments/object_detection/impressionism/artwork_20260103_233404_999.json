@@ -1,0 +1,414 @@
+{
+    "artwork_id": "artwork_20260103_233404_999",
+    "generation_timestamp": "2026-01-03T23:34:36.552039",
+    "style": "Impressionism",
+    "objects": {
+        "object_ids": [
+            9,
+            61,
+            39,
+            70,
+            54
+        ],
+        "object_names": [
+            "boat",
+            "place mat",
+            "tennis racket",
+            "cooker",
+            "pie"
+        ],
+        "enhanced_objects": [
+            {
+                "object_id": 9,
+                "name": "boat",
+                "artistic_description": "A miniature wooden boat rendered in dappled afternoon light, its polished hull catching warm golden highlights while shadows pool in subtle crevices. The paint shows gentle weathering with soft brushstrokes suggesting age, and the surface reflects scattered light from nearby windows in impressionistic flecks of white and amber.",
+                "size": "Medium",
+                "state": "vintage display piece with gentle aging",
+                "primary_colors": [
+                    "warm amber",
+                    "deep brown"
+                ],
+                "material": "wood"
+            },
+            {
+                "object_id": 61,
+                "name": "place mat",
+                "artistic_description": "A woven place mat bathed in soft afternoon glow, its natural fibers absorbing and scattering light in a gentle interplay of texture. The surface shows subtle variations of cream and pale gold where sunlight touches it, with impressionistic dabs of shadow creating depth in the woven pattern.",
+                "size": "Small",
+                "state": "fresh and clean, slightly faded from display",
+                "primary_colors": [
+                    "cream",
+                    "pale gold"
+                ],
+                "material": "fabric"
+            },
+            {
+                "object_id": 39,
+                "name": "tennis racket",
+                "artistic_description": "A vintage tennis racket with taut strings that catch the mixed lighting as delicate silver threads, casting fine shadows across its wooden frame. The grip shows warm patina where afternoon light kisses the worn surface, while the metallic frame glints with impressionistic bursts of bright highlights.",
+                "size": "Medium",
+                "state": "well-preserved vintage piece with worn handle",
+                "primary_colors": [
+                    "natural wood",
+                    "silver"
+                ],
+                "material": "wood and metal"
+            },
+            {
+                "object_id": 70,
+                "name": "cooker",
+                "artistic_description": "A miniature cooker model gleaming with soft metallic reflections, its surfaces catching warm afternoon light in broad, loose strokes of silver and gold. The enamel details show subtle variations in tone where light and shadow mingle, creating an impression of solidity and vintage charm.",
+                "size": "Medium",
+                "state": "pristine display model with polished surfaces",
+                "primary_colors": [
+                    "silver",
+                    "warm gray"
+                ],
+                "material": "metal"
+            },
+            {
+                "object_id": 54,
+                "name": "pie",
+                "artistic_description": "A miniature pie with a golden crust that glows warmly in the afternoon sun, its surface textured with impressionistic dabs of rich amber and honey tones. The lattice top creates delicate shadows across the filling, while the edges show subtle highlights where light catches the flaky, buttery texture.",
+                "size": "Small",
+                "state": "artificial display piece with realistic coloring",
+                "primary_colors": [
+                    "golden brown",
+                    "honey"
+                ],
+                "material": "ceramic"
+            }
+        ]
+    },
+    "composition": {
+        "spatial_relations": [
+            [
+                9,
+                "on",
+                61
+            ],
+            [
+                39,
+                "on",
+                61
+            ],
+            [
+                70,
+                "on",
+                61
+            ],
+            [
+                54,
+                "on",
+                61
+            ],
+            [
+                39,
+                "next to",
+                9
+            ],
+            [
+                70,
+                "next to",
+                39
+            ],
+            [
+                54,
+                "next to",
+                70
+            ]
+        ],
+        "semantic_relations": []
+    },
+    "environment": {
+        "environment_details": {
+            "scene_brief": "A Vintage Shop Display featuring boat model, with place mat displayed on shelves, tennis racket displayed on shelves, cooker model displayed on shelves, and pie displayed on shelves",
+            "place365_name": "/g/gift_shop",
+            "place365_id": 162,
+            "time_of_day": "afternoon",
+            "weather": "sunny",
+            "period": "Modern",
+            "is_indoor": true,
+            "lighting": {
+                "type": "mixed",
+                "quality": "soft",
+                "direction": "side-lit",
+                "mood": "warm",
+                "reasoning": "Mixed lighting combines natural sunlight from windows (sunny afternoon) with warm artificial shop lighting. Soft, side-lit illumination creates gentle shadows and highlights the textures of vintage objects, perfect for Impressionist brushwork and atmospheric rendering."
+            },
+            "atmosphere": "bright and active and cheerful and gentle"
+        },
+        "scene_inference": {
+            "all_candidates": [
+                {
+                    "scene_type": "Riverside Picnic",
+                    "plausibility": 0.9,
+                    "reasoning": "A boat is docked or moored by a riverbank where a picnic is set up. The place mat is on the grass, holding a pie and a tennis racket which might have been brought along for recreation after boating.",
+                    "object_interpretations": {
+                        "boat": {
+                            "form": "real boat",
+                            "scale": "normal",
+                            "role": "primary object, moored nearby"
+                        },
+                        "place mat": {
+                            "form": "real place mat",
+                            "scale": "normal",
+                            "role": "picnic accessory"
+                        },
+                        "tennis racket": {
+                            "form": "real tennis racket",
+                            "scale": "normal",
+                            "role": "recreational equipment"
+                        },
+                        "cooker": {
+                            "form": "portable camping cooker",
+                            "scale": "small",
+                            "role": "cooking equipment for picnic"
+                        },
+                        "pie": {
+                            "form": "real pie",
+                            "scale": "normal",
+                            "role": "picnic food"
+                        }
+                    }
+                },
+                {
+                    "scene_type": "Kitchen with a View",
+                    "plausibility": 0.85,
+                    "reasoning": "A kitchen window overlooks a harbor or lake. The boat is visible outside. Inside, a cooker is the main appliance, with a pie on the counter and a place mat set for a meal. A tennis racket leans against a wall, perhaps waiting for a break.",
+                    "object_interpretations": {
+                        "boat": {
+                            "form": "real boat",
+                            "scale": "normal",
+                            "role": "view from window"
+                        },
+                        "place mat": {
+                            "form": "real place mat",
+                            "scale": "normal",
+                            "role": "table setting"
+                        },
+                        "tennis racket": {
+                            "form": "real tennis racket",
+                            "scale": "normal",
+                            "role": "decorative/functional item leaning against wall"
+                        },
+                        "cooker": {
+                            "form": "real cooker",
+                            "scale": "normal",
+                            "role": "primary kitchen appliance"
+                        },
+                        "pie": {
+                            "form": "real pie",
+                            "scale": "normal",
+                            "role": "food on counter"
+                        }
+                    }
+                },
+                {
+                    "scene_type": "Boat Deck Dining",
+                    "plausibility": 0.8,
+                    "reasoning": "A boat (perhaps a houseboat or large yacht) has a small galley with a cooker. A meal is served on deck with a place mat and pie. A tennis racket is present as a quirky item brought along for entertainment.",
+                    "object_interpretations": {
+                        "boat": {
+                            "form": "real boat",
+                            "scale": "normal",
+                            "role": "primary setting"
+                        },
+                        "place mat": {
+                            "form": "real place mat",
+                            "scale": "normal",
+                            "role": "table setting on deck"
+                        },
+                        "tennis racket": {
+                            "form": "real tennis racket",
+                            "scale": "normal",
+                            "role": "leisure item"
+                        },
+                        "cooker": {
+                            "form": "boat galley cooker",
+                            "scale": "small",
+                            "role": "cooking appliance"
+                        },
+                        "pie": {
+                            "form": "real pie",
+                            "scale": "normal",
+                            "role": "dessert"
+                        }
+                    }
+                },
+                {
+                    "scene_type": "Art Studio Still Life",
+                    "plausibility": 0.75,
+                    "reasoning": "An artist's studio where a still life composition is arranged. A model boat is the centerpiece, surrounded by props: a tennis racket, a cooker (perhaps a vintage one), a pie, and a place mat used as a backdrop or texture.",
+                    "object_interpretations": {
+                        "boat": {
+                            "form": "model boat",
+                            "scale": "small",
+                            "role": "still life subject"
+                        },
+                        "place mat": {
+                            "form": "real place mat",
+                            "scale": "normal",
+                            "role": "textural element/background"
+                        },
+                        "tennis racket": {
+                            "form": "real tennis racket",
+                            "scale": "normal",
+                            "role": "prop"
+                        },
+                        "cooker": {
+                            "form": "model/vintage cooker",
+                            "scale": "small",
+                            "role": "prop"
+                        },
+                        "pie": {
+                            "form": "real pie",
+                            "scale": "normal",
+                            "role": "prop/food"
+                        }
+                    }
+                },
+                {
+                    "scene_type": "Vintage Shop Display",
+                    "plausibility": 0.7,
+                    "reasoning": "A cluttered antique shop. A model boat sits on a shelf. Nearby, a place mat, an old tennis racket, a small decorative cooker, and a fake pie are arranged as part of a 'home life' display.",
+                    "object_interpretations": {
+                        "boat": {
+                            "form": "model boat",
+                            "scale": "small",
+                            "role": "display item"
+                        },
+                        "place mat": {
+                            "form": "real place mat",
+                            "scale": "normal",
+                            "role": "display item"
+                        },
+                        "tennis racket": {
+                            "form": "vintage tennis racket",
+                            "scale": "normal",
+                            "role": "display item"
+                        },
+                        "cooker": {
+                            "form": "model cooker",
+                            "scale": "small",
+                            "role": "display item"
+                        },
+                        "pie": {
+                            "form": "fake pie",
+                            "scale": "normal",
+                            "role": "display item"
+                        }
+                    },
+                    "scene_brief": "A Vintage Shop Display featuring boat model, with place mat displayed on shelves, tennis racket displayed on shelves, cooker model displayed on shelves, and pie displayed on shelves"
+                },
+                {
+                    "scene_type": "Beachside Cafe",
+                    "plausibility": 0.8,
+                    "reasoning": "A cafe near the beach. A boat is visible through the window. Inside, a cooker is in the kitchen area, while a table has a place mat and a pie. A tennis racket might be leaning against a chair belonging to a customer.",
+                    "object_interpretations": {
+                        "boat": {
+                            "form": "real boat",
+                            "scale": "normal",
+                            "role": "scenery/view"
+                        },
+                        "place mat": {
+                            "form": "real place mat",
+                            "scale": "normal",
+                            "role": "table setting"
+                        },
+                        "tennis racket": {
+                            "form": "real tennis racket",
+                            "scale": "normal",
+                            "role": "personal item"
+                        },
+                        "cooker": {
+                            "form": "commercial cooker",
+                            "scale": "large",
+                            "role": "kitchen appliance"
+                        },
+                        "pie": {
+                            "form": "real pie",
+                            "scale": "normal",
+                            "role": "food item"
+                        }
+                    }
+                },
+                {
+                    "scene_type": "Surreal Dreamscape",
+                    "plausibility": 0.6,
+                    "reasoning": "In an Impressionist/Surreal style, a boat floats on clouds or a river of pie filling. A tennis racket acts as an oar, and a cooker sits on the deck emitting steam. A place mat might be a sail.",
+                    "object_interpretations": {
+                        "boat": {
+                            "form": "real boat",
+                            "scale": "normal",
+                            "role": "travel vessel"
+                        },
+                        "place mat": {
+                            "form": "fabric",
+                            "scale": "large",
+                            "role": "sail"
+                        },
+                        "tennis racket": {
+                            "form": "real tennis racket",
+                            "scale": "normal",
+                            "role": "paddle/oar"
+                        },
+                        "cooker": {
+                            "form": "real cooker",
+                            "scale": "small",
+                            "role": "engine/steam source"
+                        },
+                        "pie": {
+                            "form": "liquid pie",
+                            "scale": "environmental",
+                            "role": "water/landscape"
+                        }
+                    }
+                }
+            ],
+            "selected_scene": {
+                "scene_type": "Vintage Shop Display",
+                "plausibility": 0.7,
+                "reasoning": "A cluttered antique shop. A model boat sits on a shelf. Nearby, a place mat, an old tennis racket, a small decorative cooker, and a fake pie are arranged as part of a 'home life' display.",
+                "object_interpretations": {
+                    "boat": {
+                        "form": "model boat",
+                        "scale": "small",
+                        "role": "display item"
+                    },
+                    "place mat": {
+                        "form": "real place mat",
+                        "scale": "normal",
+                        "role": "display item"
+                    },
+                    "tennis racket": {
+                        "form": "vintage tennis racket",
+                        "scale": "normal",
+                        "role": "display item"
+                    },
+                    "cooker": {
+                        "form": "model cooker",
+                        "scale": "small",
+                        "role": "display item"
+                    },
+                    "pie": {
+                        "form": "fake pie",
+                        "scale": "normal",
+                        "role": "display item"
+                    }
+                },
+                "scene_brief": "A Vintage Shop Display featuring boat model, with place mat displayed on shelves, tennis racket displayed on shelves, cooker model displayed on shelves, and pie displayed on shelves"
+            }
+        }
+    },
+    "final_prompts": {
+        "main_prompt": "A Impressionism painting depicting a bright and cheerful afternoon scene where a warm amber and deep brown vintage boat, a natural wood and silver tennis racket with worn handle, a silver and warm gray pristine cooker, and a golden brown and honey-colored artificial pie are all arranged upon a fresh cream and pale gold place mat. The boat sits prominently on the mat, with the tennis racket placed beside it, followed by the cooker next to the racket, and finally the pie positioned beside the cooker, creating a gentle, active display. Soft, mixed afternoon light filters through the scene, casting gentle shadows and highlighting the textures of wood, fabric, metal, and ceramic materials, creating a cohesive and visually rich composition with a bright, active, and cheerful atmosphere.",
+        "negative_prompt": "photorealistic, 3d render, modern, digital art, photograph, low quality, blurry, distorted, ugly, deformed, noisy, oversaturated, text, watermark, signature, frame, border",
+        "prompt_formats": {
+            "simple": "An Impressionist painting of a boat, tennis racket, cooker, and pie arranged on a place mat in soft afternoon light.",
+            "complex": "A Impressionism painting depicting a bright and cheerful afternoon scene where a warm amber and deep brown vintage boat, a natural wood and silver tennis racket with worn handle, a silver and warm gray pristine cooker, and a golden brown and honey-colored artificial pie are all arranged upon a fresh cream and pale gold place mat. The boat sits prominently on the mat, with the tennis racket placed beside it, followed by the cooker next to the racket, and finally the pie positioned beside the cooker, creating a gentle, active display. Soft, mixed afternoon light filters through the scene, casting gentle shadows and highlighting the textures of wood, fabric, metal, and ceramic materials, creating a cohesive and visually rich composition with a bright, active, and cheerful atmosphere.",
+            "comma_separated": "Impressionism painting, boat on place mat, tennis racket beside boat, cooker beside racket, pie beside cooker, warm amber boat, cream place mat, wood tennis racket, silver cooker, golden pie, soft afternoon lighting, bright cheerful atmosphere, vintage objects, display arrangement, gentle shadows, textured materials",
+            "tags": "art, painting, impressionism, still life, vintage, display, afternoon light, cheerful, bright, arranged objects, boat, tennis racket, cooker, pie, place mat"
+        }
+    }
+}

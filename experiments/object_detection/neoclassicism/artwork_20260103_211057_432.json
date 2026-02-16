@@ -1,0 +1,312 @@
+{
+    "artwork_id": "artwork_20260103_211057_432",
+    "generation_timestamp": "2026-01-03T21:11:29.280251",
+    "style": "Neoclassicism",
+    "objects": {
+        "object_ids": [
+            9,
+            46,
+            9,
+            14
+        ],
+        "object_names": [
+            "sailboat",
+            "bowl",
+            "raft",
+            "swing"
+        ],
+        "enhanced_objects": [
+            {
+                "object_id": 9,
+                "name": "sailboat",
+                "artistic_description": "A pristine white canvas sail billows gracefully, catching the brilliant afternoon sunlight with a warm golden glow, while the hull's polished teak wood gleams with a rich amber hue, its varnished surface reflecting sharp, crisp shadows on the sun-drenched water",
+                "size": "Large",
+                "state": "well-maintained and pristine",
+                "primary_colors": [
+                    "golden white",
+                    "warm amber"
+                ],
+                "material": "canvas and teak wood"
+            },
+            {
+                "object_id": 46,
+                "name": "bowl",
+                "artistic_description": "A ceramic bowl with a smooth, matte glaze appears in soft cream tones under the bright sun, its surface absorbing the gentle light while casting a subtle, cool shadow beneath, the rim catching delicate highlights where the sun strikes its curve",
+                "size": "Small",
+                "state": "clean and polished",
+                "primary_colors": [
+                    "cream",
+                    "soft ivory"
+                ],
+                "material": "ceramic"
+            },
+            {
+                "object_id": 9,
+                "name": "raft",
+                "artistic_description": "A miniature wooden raft floats with weathered planks showing natural grain patterns, the sun's direct light revealing warm honey-brown tones and creating sharp contrast between the dry, matte wood surfaces and the subtle reflective quality of the water beneath",
+                "size": "Marginal",
+                "state": "slightly weathered but intact",
+                "primary_colors": [
+                    "honey brown",
+                    "natural wood"
+                ],
+                "material": "weathered wood"
+            },
+            {
+                "object_id": 14,
+                "name": "swing",
+                "artistic_description": "White painted wooden planks of the swing seat glow with luminous brightness against the vivid blue sky, the paint's smooth surface creating crisp, defined shadows on the ground below, while the metal chains catch brilliant specular highlights from the intense afternoon sun",
+                "size": "Medium",
+                "state": "freshly painted and sturdy",
+                "primary_colors": [
+                    "brilliant white",
+                    "silver"
+                ],
+                "material": "painted wood and metal"
+            }
+        ]
+    },
+    "composition": {
+        "spatial_relations": [
+            [
+                9,
+                "on",
+                46
+            ],
+            [
+                9,
+                "next to",
+                14
+            ],
+            [
+                46,
+                "next to",
+                14
+            ]
+        ],
+        "semantic_relations": []
+    },
+    "environment": {
+        "environment_details": {
+            "scene_brief": "A Seaside Villa Garden featuring sailboat, with bowl, toy raft placed nearby, and swing",
+            "place365_name": "/f/formal_garden",
+            "place365_id": 153,
+            "time_of_day": "afternoon",
+            "weather": "sunny",
+            "period": "Contemporary",
+            "is_indoor": false,
+            "lighting": {
+                "type": "natural",
+                "quality": "soft",
+                "direction": "side-lit",
+                "reasoning": "Afternoon sun filtered through slight atmospheric haze creates soft, directional lighting. Side-lighting emphasizes the three-dimensionality of architectural and sculptural elements in the Neoclassical style while maintaining gentle shadows that don't overpower the scene's serene mood."
+            },
+            "atmosphere": "bright and active and cheerful and gentle"
+        },
+        "scene_inference": {
+            "all_candidates": [
+                {
+                    "scene_type": "Neoclassical Harbor",
+                    "plausibility": 0.9,
+                    "reasoning": "A serene harbor scene typical of Neoclassical art. The sailboat is the primary vessel on the water. The raft is a small utility craft tethered to the dock. The swing is part of a leisurely garden or dockside play area for children. The bowl is a decorative ceramic piece on a dockside table or held by a figure.",
+                    "object_interpretations": {
+                        "sailboat": {
+                            "form": "real vessel",
+                            "scale": "large/normal",
+                            "role": "primary object"
+                        },
+                        "raft": {
+                            "form": "real utility raft",
+                            "scale": "small",
+                            "role": "secondary transport"
+                        },
+                        "swing": {
+                            "form": "rope and plank swing",
+                            "scale": "normal",
+                            "role": "recreational element"
+                        },
+                        "bowl": {
+                            "form": "classical ceramic bowl",
+                            "scale": "normal",
+                            "role": "decorative/functional object"
+                        }
+                    }
+                },
+                {
+                    "scene_type": "Seaside Villa Garden",
+                    "plausibility": 0.85,
+                    "reasoning": "A formal garden overlooking the sea. The sailboat is visible in the background on the water. The swing hangs from a sturdy tree branch in the foreground. The raft is a model or toy in a decorative pond. The bowl is a stone birdbath or a serving bowl on a garden table.",
+                    "object_interpretations": {
+                        "sailboat": {
+                            "form": "real vessel",
+                            "scale": "distant/large",
+                            "role": "background element"
+                        },
+                        "raft": {
+                            "form": "toy/model raft",
+                            "scale": "miniature",
+                            "role": "garden decoration"
+                        },
+                        "swing": {
+                            "form": "garden swing",
+                            "scale": "normal",
+                            "role": "foreground focal point"
+                        },
+                        "bowl": {
+                            "form": "stone birdbath",
+                            "scale": "normal",
+                            "role": "garden feature"
+                        }
+                    },
+                    "scene_brief": "A Seaside Villa Garden featuring sailboat, with bowl, toy raft placed nearby, and swing"
+                },
+                {
+                    "scene_type": "Marine Still Life",
+                    "plausibility": 0.8,
+                    "reasoning": "A composition of objects found on a boat or shore. The sailboat is depicted in a painting or model on a table. The raft is a small inflatable toy on the floor. The swing is a hanging toy for a pet or child. The bowl contains fruit or sea shells on the table.",
+                    "object_interpretations": {
+                        "sailboat": {
+                            "form": "painting/model",
+                            "scale": "small/miniature",
+                            "role": "artistic subject"
+                        },
+                        "raft": {
+                            "form": "toy raft",
+                            "scale": "small",
+                            "role": "floor item"
+                        },
+                        "swing": {
+                            "form": "hanging toy",
+                            "scale": "small",
+                            "role": "decoration"
+                        },
+                        "bowl": {
+                            "form": "fruit bowl",
+                            "scale": "normal",
+                            "role": "table object"
+                        }
+                    }
+                },
+                {
+                    "scene_type": "Classical Riverbank",
+                    "plausibility": 0.8,
+                    "reasoning": "A river scene with Neoclassical architecture in the distance. The sailboat navigates the river. The raft floats near the bank. A swing is attached to a riverside tree. A stone bowl sits on a riverside bench.",
+                    "object_interpretations": {
+                        "sailboat": {
+                            "form": "real vessel",
+                            "scale": "normal",
+                            "role": "primary object"
+                        },
+                        "raft": {
+                            "form": "wooden raft",
+                            "scale": "small",
+                            "role": "floating object"
+                        },
+                        "swing": {
+                            "form": "simple rope swing",
+                            "scale": "normal",
+                            "role": "recreation"
+                        },
+                        "bowl": {
+                            "form": "stone bowl",
+                            "scale": "normal",
+                            "role": "sculptural/decorative"
+                        }
+                    }
+                },
+                {
+                    "scene_type": "Nautical Museum Interior",
+                    "plausibility": 0.75,
+                    "reasoning": "An interior space dedicated to maritime history. The sailboat is a large detailed model in the center. The raft is a historical artifact displayed nearby. The swing is a child's swing hanging in a designated play area or as part of a display. The bowl is a piece of antique pottery from a shipwreck.",
+                    "object_interpretations": {
+                        "sailboat": {
+                            "form": "detailed model",
+                            "scale": "large model",
+                            "role": "exhibit centerpiece"
+                        },
+                        "raft": {
+                            "form": "historical artifact",
+                            "scale": "normal",
+                            "role": "exhibit"
+                        },
+                        "swing": {
+                            "form": "display swing",
+                            "scale": "normal",
+                            "role": "interactive element"
+                        },
+                        "bowl": {
+                            "form": "antique pottery",
+                            "scale": "small",
+                            "role": "display object"
+                        }
+                    }
+                },
+                {
+                    "scene_type": "Dreamscape / Allegorical Scene",
+                    "plausibility": 0.7,
+                    "reasoning": "A surreal Neoclassical interpretation. The sailboat floats on a calm sea. The raft is a mythical vessel. The swing hangs from clouds. The bowl is a large basin holding water or stars.",
+                    "object_interpretations": {
+                        "sailboat": {
+                            "form": "real vessel",
+                            "scale": "normal",
+                            "role": "symbol of journey"
+                        },
+                        "raft": {
+                            "form": "stylized raft",
+                            "scale": "variable",
+                            "role": "symbol of survival"
+                        },
+                        "swing": {
+                            "form": "cloud swing",
+                            "scale": "large",
+                            "role": "fantasy element"
+                        },
+                        "bowl": {
+                            "form": "celestial basin",
+                            "scale": "large",
+                            "role": "symbolic container"
+                        }
+                    }
+                }
+            ],
+            "selected_scene": {
+                "scene_type": "Seaside Villa Garden",
+                "plausibility": 0.85,
+                "reasoning": "A formal garden overlooking the sea. The sailboat is visible in the background on the water. The swing hangs from a sturdy tree branch in the foreground. The raft is a model or toy in a decorative pond. The bowl is a stone birdbath or a serving bowl on a garden table.",
+                "object_interpretations": {
+                    "sailboat": {
+                        "form": "real vessel",
+                        "scale": "distant/large",
+                        "role": "background element"
+                    },
+                    "raft": {
+                        "form": "toy/model raft",
+                        "scale": "miniature",
+                        "role": "garden decoration"
+                    },
+                    "swing": {
+                        "form": "garden swing",
+                        "scale": "normal",
+                        "role": "foreground focal point"
+                    },
+                    "bowl": {
+                        "form": "stone birdbath",
+                        "scale": "normal",
+                        "role": "garden feature"
+                    }
+                },
+                "scene_brief": "A Seaside Villa Garden featuring sailboat, with bowl, toy raft placed nearby, and swing"
+            }
+        }
+    },
+    "final_prompts": {
+        "main_prompt": "A Neoclassicism painting depicting a bright and active afternoon scene with a gentle, cheerful atmosphere. In the foreground, a large, pristine sailboat in golden white and warm amber hues sits atop a small, polished cream and soft ivory bowl. Beside this arrangement, a medium-sized swing in brilliant white and silver, freshly painted and sturdy, stands adjacent to both the bowl and the sailboat. In the midground, a marginal raft in honey brown natural wood, slightly weathered but intact, rests gently on the ground. The composition is bathed in natural soft afternoon light, highlighting the clean lines and classical forms of the objects, with materials like ceramic, painted wood, metal, and weathered wood adding textural contrast. The scene evokes a sense of orderly beauty and serene activity, characteristic of Neoclassical harmony and clarity.",
+        "negative_prompt": "photorealistic, 3d render, modern, digital art, photograph, low quality, blurry, distorted, surreal, abstract, cartoon, anime, fantasy, horror, dark, gloomy, chaotic, cluttered, deformed, ugly, bad anatomy, extra limbs, watermark, signature, text",
+        "prompt_formats": {
+            "simple": "A Neoclassical painting of a sailboat on a bowl next to a swing, with a raft nearby, in a soft afternoon light.",
+            "complex": "A Neoclassicism painting depicting a bright and active afternoon scene with a gentle, cheerful atmosphere. In the foreground, a large, pristine sailboat in golden white and warm amber hues sits atop a small, polished cream and soft ivory bowl. Beside this arrangement, a medium-sized swing in brilliant white and silver, freshly painted and sturdy, stands adjacent to both the bowl and the sailboat. In the midground, a marginal raft in honey brown natural wood, slightly weathered but intact, rests gently on the ground. The composition is bathed in natural soft afternoon light, highlighting the clean lines and classical forms of the objects, with materials like ceramic, painted wood, metal, and weathered wood adding textural contrast. The scene evokes a sense of orderly beauty and serene activity, characteristic of Neoclassical harmony and clarity.",
+            "comma_separated": "Neoclassicism, painting, sailboat, bowl, raft, swing, large, small, medium, marginal, golden white, warm amber, cream, ivory, honey brown, brilliant white, silver, pristine, polished, weathered, sturdy, afternoon, natural soft lighting, bright, active, cheerful, gentle atmosphere, orderly composition, classical forms",
+            "tags": "art, painting, neoclassicism, sailboat, bowl, raft, swing, afternoon light, cheerful, classical art, still life, composition"
+        }
+    }
+}

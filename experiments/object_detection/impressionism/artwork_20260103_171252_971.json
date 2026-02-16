@@ -1,0 +1,312 @@
+{
+    "artwork_id": "artwork_20260103_171252_971",
+    "generation_timestamp": "2026-01-03T17:13:32.030717",
+    "style": "Impressionism",
+    "objects": {
+        "object_ids": [
+            70,
+            14,
+            5
+        ],
+        "object_names": [
+            "stove",
+            "bench",
+            "airship"
+        ],
+        "enhanced_objects": [
+            {
+                "object_id": 70,
+                "name": "stove",
+                "artistic_description": "Rusticated cast iron surface rendered in broken strokes of muted umber and slate gray, catching mixed light through a wash of warm amber where direct rays strike, cooling to blue-gray in shadowed recesses. Weathered patina shows subtle greenish oxidation at rivet points. Matte surface absorbs light while polished edges create soft, impressionistic highlights. Steam-softened corners blur into the surrounding atmosphere.",
+                "size": "Large",
+                "state": "aged but functional, showing years of steady use",
+                "primary_colors": [
+                    "warm umber",
+                    "cool slate gray"
+                ],
+                "material": "cast iron"
+            },
+            {
+                "object_id": 14,
+                "name": "bench",
+                "artistic_description": "Worn wooden planks painted in dappled strokes of honeyed oak and weathered pewter, where cloudy daylight filters through dust motes. Surface shows gentle undulations from time and use, with grain patterns emerging through layers of varnish. Soft, diffused shadows nestle between planks. Edges softened by touch, catching muted highlights in cool silver tones.",
+                "size": "Medium",
+                "state": "well-worn and comfortable, smoothed by years of use",
+                "primary_colors": [
+                    "honeyed oak",
+                    "weathered pewter"
+                ],
+                "material": "wood"
+            },
+            {
+                "object_id": 5,
+                "name": "airship",
+                "artistic_description": "Delicate brass framework rendered in impressionistic flecks of tarnished gold and copper, suspended like a captured breath. Cloud-filtered light dances across curved glass panels in soft cerulean and pearl tones. Gilded filigree catches scattered highlights while shadowed areas deepen to bronze. Fine mechanical details dissolve into atmospheric haze, creating a dreamlike quality of motion captured in stillness.",
+                "size": "Small",
+                "state": "meticulously crafted model, pristine and gleaming",
+                "primary_colors": [
+                    "tarnished gold",
+                    "cerulean"
+                ],
+                "material": "brass and glass"
+            }
+        ]
+    },
+    "composition": {
+        "spatial_relations": [
+            [
+                5,
+                "next to",
+                70
+            ],
+            [
+                14,
+                "next to",
+                70
+            ],
+            [
+                5,
+                "on",
+                14
+            ],
+            [
+                14,
+                "behind",
+                70
+            ]
+        ],
+        "semantic_relations": []
+    },
+    "environment": {
+        "environment_details": {
+            "scene_brief": "A Steampunk Inventor's Workshop featuring stove, with bench, and airship model",
+            "place365_name": "/d/delicatessen",
+            "place365_id": 114,
+            "time_of_day": "afternoon",
+            "weather": "cloudy",
+            "period": "Contemporary",
+            "is_indoor": true,
+            "lighting": {
+                "type": "mixed",
+                "quality": "soft",
+                "direction": "side-lit",
+                "reasoning": "The lighting is 'mixed' (natural from windows and artificial from lamps/stove) to reflect the 'Contemporary' period applied to a Steampunk setting. The 'soft' quality is derived from the 'cloudy' weather and the diffuse nature of Impressionism. 'Side-lit' is chosen to cast gentle shadows that define the forms of the inventor's bench and the intricate details of the airship model, enhancing the textural elements typical of the style."
+            },
+            "atmosphere": "bright and active and subdued and gentle"
+        },
+        "scene_inference": {
+            "all_candidates": [
+                {
+                    "scene_type": "Impressionist Riverfront Market",
+                    "plausibility": 0.8,
+                    "reasoning": "A bustling outdoor market along a riverbank. The stove is a portable cast-iron cooking station for vendors. Benches are public seating for patrons. The airship is a distant, majestic spectacle drifting lazily over the water, its form rendered in soft, atmospheric Impressionist strokes.",
+                    "object_interpretations": {
+                        "stove": {
+                            "form": "real portable stove",
+                            "scale": "normal",
+                            "role": "cooking appliance for food vendors"
+                        },
+                        "bench": {
+                            "form": "real wooden bench",
+                            "scale": "normal",
+                            "role": "public seating for market visitors"
+                        },
+                        "airship": {
+                            "form": "real airship",
+                            "scale": "large (distant)",
+                            "role": "spectacle in the sky, atmospheric element"
+                        }
+                    }
+                },
+                {
+                    "scene_type": "Industrial Rooftop Garden",
+                    "plausibility": 0.85,
+                    "reasoning": "A rooftop garden atop a converted industrial building. A wood-fired stove is used for outdoor cooking and heating. Benches provide seating among the plants. An airship is moored at a nearby docking tower, its gasbag shimmering in the afternoon light.",
+                    "object_interpretations": {
+                        "stove": {
+                            "form": "real outdoor wood stove",
+                            "scale": "normal",
+                            "role": "heating and cooking centerpiece"
+                        },
+                        "bench": {
+                            "form": "real metal and wood bench",
+                            "scale": "normal",
+                            "role": "garden seating"
+                        },
+                        "airship": {
+                            "form": "real moored airship",
+                            "scale": "large (nearby)",
+                            "role": "transportation vessel, structural anchor"
+                        }
+                    }
+                },
+                {
+                    "scene_type": "Fantasy Village Square",
+                    "plausibility": 0.75,
+                    "reasoning": "A quaint, sun-dappled village square. A large communal stove serves as a gathering point for cooking. Benches line the cobblestones. An airship serves as a whimsical form of public transport, tethered to a central tower.",
+                    "object_interpretations": {
+                        "stove": {
+                            "form": "real communal stove",
+                            "scale": "large",
+                            "role": "community gathering point"
+                        },
+                        "bench": {
+                            "form": "real wooden bench",
+                            "scale": "normal",
+                            "role": "seating for villagers"
+                        },
+                        "airship": {
+                            "form": "real fantasy airship",
+                            "scale": "large",
+                            "role": "public transport vessel"
+                        }
+                    }
+                },
+                {
+                    "scene_type": "Impressionist Art Studio",
+                    "plausibility": 0.7,
+                    "reasoning": "An artist's cluttered studio. The 'stove' is a small pot-bellied stove for heating. The 'bench' is a workbench for painting. The 'airship' is a detailed scale model hanging from the ceiling or sitting on a shelf, serving as a subject of study.",
+                    "object_interpretations": {
+                        "stove": {
+                            "form": "real pot-bellied stove",
+                            "scale": "small",
+                            "role": "heating source"
+                        },
+                        "bench": {
+                            "form": "real workbench",
+                            "scale": "normal",
+                            "role": "artist's work surface"
+                        },
+                        "airship": {
+                            "form": "scale model",
+                            "scale": "miniature",
+                            "role": "artistic subject/decoration"
+                        }
+                    }
+                },
+                {
+                    "scene_type": "Vintage Train Station",
+                    "plausibility": 0.8,
+                    "reasoning": "A grand, old-fashioned train station. A pot-bellied stove heats the waiting area. Benches provide seating for travelers. An airship is visible through the glass ceiling or outside the window, representing an alternative mode of travel in this era.",
+                    "object_interpretations": {
+                        "stove": {
+                            "form": "real pot-bellied stove",
+                            "scale": "normal",
+                            "role": "heating source for waiting room"
+                        },
+                        "bench": {
+                            "form": "real wooden bench",
+                            "scale": "normal",
+                            "role": "seating for passengers"
+                        },
+                        "airship": {
+                            "form": "real airship",
+                            "scale": "large (distant)",
+                            "role": "background transportation element"
+                        }
+                    }
+                },
+                {
+                    "scene_type": "Steampunk Inventor's Workshop",
+                    "plausibility": 0.65,
+                    "reasoning": "A cluttered workshop filled with brass and copper. The stove is a complex, steam-powered heating unit. Benches are workbenches with tools. An airship is being constructed in the background or is a blueprint on the wall.",
+                    "object_interpretations": {
+                        "stove": {
+                            "form": "real steam-powered stove",
+                            "scale": "normal",
+                            "role": "heating and power source"
+                        },
+                        "bench": {
+                            "form": "real workbench",
+                            "scale": "normal",
+                            "role": "work surface"
+                        },
+                        "airship": {
+                            "form": "partially built model or blueprint",
+                            "scale": "large (incomplete) or small (blueprint)",
+                            "role": "project centerpiece"
+                        }
+                    },
+                    "scene_brief": "A Steampunk Inventor's Workshop featuring stove, with bench, and airship model"
+                },
+                {
+                    "scene_type": "Outdoor Cafe Terrace",
+                    "plausibility": 0.9,
+                    "reasoning": "A charming cafe terrace. A stove is used for cooking pizzas or keeping food warm. Benches are part of the outdoor seating. An airship is a distant, romanticized element in the sky, adding to the ambiance.",
+                    "object_interpretations": {
+                        "stove": {
+                            "form": "real outdoor pizza oven/stove",
+                            "scale": "normal",
+                            "role": "cooking appliance"
+                        },
+                        "bench": {
+                            "form": "real cafe bench",
+                            "scale": "normal",
+                            "role": "customer seating"
+                        },
+                        "airship": {
+                            "form": "real airship",
+                            "scale": "large (distant)",
+                            "role": "atmospheric decoration"
+                        }
+                    }
+                },
+                {
+                    "scene_type": "Museum of Flight",
+                    "plausibility": 0.75,
+                    "reasoning": "A museum hall dedicated to aviation history. An antique stove is part of a display about early airship travel (e.g., how passengers cooked). Benches are for museum visitors. The airship is a massive, suspended model or a real artifact.",
+                    "object_interpretations": {
+                        "stove": {
+                            "form": "real antique stove",
+                            "scale": "normal",
+                            "role": "museum exhibit artifact"
+                        },
+                        "bench": {
+                            "form": "real museum bench",
+                            "scale": "normal",
+                            "role": "visitor seating"
+                        },
+                        "airship": {
+                            "form": "suspended model or real artifact",
+                            "scale": "very large",
+                            "role": "main museum exhibit"
+                        }
+                    }
+                }
+            ],
+            "selected_scene": {
+                "scene_type": "Steampunk Inventor's Workshop",
+                "plausibility": 0.65,
+                "reasoning": "A cluttered workshop filled with brass and copper. The stove is a complex, steam-powered heating unit. Benches are workbenches with tools. An airship is being constructed in the background or is a blueprint on the wall.",
+                "object_interpretations": {
+                    "stove": {
+                        "form": "real steam-powered stove",
+                        "scale": "normal",
+                        "role": "heating and power source"
+                    },
+                    "bench": {
+                        "form": "real workbench",
+                        "scale": "normal",
+                        "role": "work surface"
+                    },
+                    "airship": {
+                        "form": "partially built model or blueprint",
+                        "scale": "large (incomplete) or small (blueprint)",
+                        "role": "project centerpiece"
+                    }
+                },
+                "scene_brief": "A Steampunk Inventor's Workshop featuring stove, with bench, and airship model"
+            }
+        }
+    },
+    "final_prompts": {
+        "main_prompt": "A Impressionism painting depicting a bright and active yet subdued and gentle afternoon scene in a workshop courtyard. In the foreground, a large, aged but functional cast iron stove in warm umber and cool slate gray dominates the space. Immediately next to it, a medium-sized, well-worn and comfortable bench of honeyed oak and weathered pewter sits, its wooden surface catching the mixed soft light. On this bench, positioned carefully behind the stove, rests a small, meticulously crafted model airship, its hull gleaming in tarnished gold and cerulean. The soft, dappled afternoon light filters through unseen foliage, creating a gentle interplay of light and shadow across the cast iron, wood, brass, and glass materials, imbuing the scene with a quiet, vibrant energy.",
+        "negative_prompt": "photorealistic, 3d render, modern, digital art, photograph, low quality, blurry, distorted, ugly, deformed, cartoon, anime, text, watermark, signature, frame, border",
+        "prompt_formats": {
+            "simple": "An Impressionist painting of a stove, bench, and model airship in a softly lit afternoon courtyard.",
+            "complex": "A Impressionism painting depicting a bright and active yet subdued and gentle afternoon scene in a workshop courtyard. In the foreground, a large, aged but functional cast iron stove in warm umber and cool slate gray dominates the space. Immediately next to it, a medium-sized, well-worn and comfortable bench of honeyed oak and weathered pewter sits, its wooden surface catching the mixed soft light. On this bench, positioned carefully behind the stove, rests a small, meticulously crafted model airship, its hull gleaming in tarnished gold and cerulean. The soft, dappled afternoon light filters through unseen foliage, creating a gentle interplay of light and shadow across the cast iron, wood, brass, and glass materials, imbuing the scene with a quiet, vibrant energy.",
+            "comma_separated": "Impressionism painting, large aged stove, warm umber, cool slate gray, medium bench, honeyed oak, weathered pewter, small model airship, tarnished gold, cerulean, airship on bench, bench next to stove, afternoon lighting, mixed soft light, bright active subdued gentle atmosphere, courtyard workshop, dappled light, cast iron, wood, brass, glass",
+            "tags": "art, painting, impressionism, still life, interior, stove, bench, airship model, afternoon light, dappled light, warm colors, textured brushwork"
+        }
+    }
+}

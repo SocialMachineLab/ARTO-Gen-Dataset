@@ -1,0 +1,324 @@
+{
+    "artwork_id": "artwork_20260103_233619_850",
+    "generation_timestamp": "2026-01-03T23:36:47.820144",
+    "style": "Impressionism",
+    "objects": {
+        "object_ids": [
+            58,
+            16,
+            46,
+            56
+        ],
+        "object_names": [
+            "blanket",
+            "cat",
+            "tray",
+            "chocolate cake"
+        ],
+        "enhanced_objects": [
+            {
+                "object_id": 58,
+                "name": "blanket",
+                "artistic_description": "A soft textile surface dappled with warm afternoon sunlight filtering through overhead foliage, creating a mosaic of golden highlights and cool green shadows across its weave. The fabric shows subtle variations in saturation where direct sun hits versus areas in gentle shade, with threads catching the light in impressionistic dabs of warm ochre and muted sage. The surface appears dry and slightly rumpled, with natural folds creating soft gradations of tone.",
+                "size": "Large",
+                "state": "laid flat with gentle wrinkles and folds from use",
+                "primary_colors": [
+                    "warm ochre",
+                    "sage green"
+                ],
+                "material": "cotton fabric"
+            },
+            {
+                "object_id": 16,
+                "name": "cat",
+                "artistic_description": "A feline form rendered in loose, visible brushstrokes of warm ginger and amber, its fur catching the brilliant afternoon sun in scattered highlights of pale gold and cream. The eyes gleam with reflected sky light, appearing as bright emerald points against the shadowed face. Subtle dappled patterns of leaf shadows dance across its back, breaking the solid color into impressionistic patches of light and dark. The whiskers catch the light as fine, pale strokes.",
+                "size": "Medium",
+                "state": "alert and relaxed, basking in sunlight",
+                "primary_colors": [
+                    "ginger",
+                    "amber"
+                ],
+                "material": "fur"
+            },
+            {
+                "object_id": 46,
+                "name": "tray",
+                "artistic_description": "A wooden surface reflecting the bright natural light in scattered, broken strokes of warm honey and chestnut, with sharp specular highlights where the sun strikes directly. The edges show subtle rim lighting in pale gold, while the interior shadows contain cool reflections of the surrounding greenery. The material appears dry and slightly weathered, with visible grain patterns rendered as quick, angular marks of varying tone.",
+                "size": "Medium",
+                "state": "clean and dry with visible wood grain",
+                "primary_colors": [
+                    "honey brown",
+                    "chestnut"
+                ],
+                "material": "wood"
+            },
+            {
+                "object_id": 56,
+                "name": "chocolate cake",
+                "artistic_description": "A rich, dark form rendered in deep umber and sienna tones, its surface catching scattered highlights of warm amber where the afternoon sun strikes the glossy frosting. The edges show subtle variations in saturation, with the dark chocolate appearing almost black in shadowed areas while glowing with reflected warmth in direct light. Small dabs of cream-colored frosting provide contrast, appearing as bright strokes of pale vanilla against the deep brown.",
+                "size": "Medium",
+                "state": "freshly cut with exposed crumb texture",
+                "primary_colors": [
+                    "deep umber",
+                    "sienna"
+                ],
+                "material": "chocolate cake"
+            }
+        ]
+    },
+    "composition": {
+        "spatial_relations": [
+            [
+                46,
+                "on",
+                58
+            ],
+            [
+                56,
+                "on",
+                58
+            ],
+            [
+                16,
+                "on",
+                58
+            ],
+            [
+                46,
+                "next to",
+                56
+            ]
+        ],
+        "semantic_relations": [
+            [
+                16,
+                "watching",
+                56
+            ]
+        ]
+    },
+    "environment": {
+        "environment_details": {
+            "scene_brief": "A Garden Picnic centered around blanket, with cat, tray, and chocolate cake",
+            "place365_name": "/f/formal_garden",
+            "place365_id": 153,
+            "time_of_day": "afternoon",
+            "weather": "sunny",
+            "period": "Contemporary",
+            "is_indoor": false,
+            "lighting": {
+                "type": "natural",
+                "quality": "soft",
+                "direction": "side-lit",
+                "mood": "warm",
+                "reasoning": "Natural afternoon sunlight, filtered through trees or soft clouds, creates a gentle, side-lit effect that enhances the textures of the picnic elements and the cat's fur. This soft, warm lighting is characteristic of Impressionism, emphasizing color interplay and atmospheric warmth without harsh shadows."
+            },
+            "atmosphere": "bright and active and cheerful and gentle"
+        },
+        "scene_inference": {
+            "all_candidates": [
+                {
+                    "scene_type": "Cozy Living Room",
+                    "plausibility": 0.95,
+                    "reasoning": "A blanket is the primary object, draped over a couch. A cat is naturally found sleeping on a blanket. A tray on the coffee table can hold a slice of chocolate cake, creating a perfect scene of domestic comfort.",
+                    "object_interpretations": {
+                        "blanket": {
+                            "form": "real blanket",
+                            "scale": "normal",
+                            "role": "primary comfort object"
+                        },
+                        "cat": {
+                            "form": "real cat",
+                            "scale": "normal",
+                            "role": "companion on the blanket"
+                        },
+                        "tray": {
+                            "form": "real serving tray",
+                            "scale": "normal",
+                            "role": "holding the cake"
+                        },
+                        "chocolate cake": {
+                            "form": "real dessert",
+                            "scale": "normal slice",
+                            "role": "food on the tray"
+                        }
+                    }
+                },
+                {
+                    "scene_type": "Bedroom Morning",
+                    "plausibility": 0.9,
+                    "reasoning": "The blanket is the main anchor on the bed. A cat often sleeps at the foot of the bed. A breakfast tray allows for chocolate cake to be enjoyed in bed.",
+                    "object_interpretations": {
+                        "blanket": {
+                            "form": "real duvet",
+                            "scale": "normal",
+                            "role": "primary bedding"
+                        },
+                        "cat": {
+                            "form": "real cat",
+                            "scale": "normal",
+                            "role": "sleeping pet"
+                        },
+                        "tray": {
+                            "form": "breakfast in bed tray",
+                            "scale": "normal",
+                            "role": "serving surface"
+                        },
+                        "chocolate cake": {
+                            "form": "breakfast treat",
+                            "scale": "individual portion",
+                            "role": "indulgent meal"
+                        }
+                    }
+                },
+                {
+                    "scene_type": "Art Studio",
+                    "plausibility": 0.8,
+                    "reasoning": "In an Impressionist art studio, the blanket serves as a draped fabric for studying light and shadow. A cat is a classic studio pet. The tray and cake are still life props.",
+                    "object_interpretations": {
+                        "blanket": {
+                            "form": "draped fabric",
+                            "scale": "normal",
+                            "role": "subject for light study"
+                        },
+                        "cat": {
+                            "form": "studio cat",
+                            "scale": "normal",
+                            "role": "decorative companion"
+                        },
+                        "tray": {
+                            "form": "still life prop",
+                            "scale": "normal",
+                            "role": "holding the subject"
+                        },
+                        "chocolate cake": {
+                            "form": "still life subject",
+                            "scale": "normal",
+                            "role": "color contrast object"
+                        }
+                    }
+                },
+                {
+                    "scene_type": "Garden Picnic",
+                    "plausibility": 0.85,
+                    "reasoning": "The blanket is the primary object, spread on the grass as a picnic mat. A cat might be prowling nearby or sitting on the edge. A picnic tray holds the cake.",
+                    "object_interpretations": {
+                        "blanket": {
+                            "form": "picnic blanket",
+                            "scale": "large",
+                            "role": "primary seating area"
+                        },
+                        "cat": {
+                            "form": "outdoor cat",
+                            "scale": "normal",
+                            "role": "curious observer"
+                        },
+                        "tray": {
+                            "form": "outdoor serving tray",
+                            "scale": "normal",
+                            "role": "food transport"
+                        },
+                        "chocolate cake": {
+                            "form": "picnic dessert",
+                            "scale": "whole or slice",
+                            "role": "treat"
+                        }
+                    },
+                    "scene_brief": "A Garden Picnic centered around blanket, with cat, tray, and chocolate cake"
+                },
+                {
+                    "scene_type": "Vintage Tea Room",
+                    "plausibility": 0.75,
+                    "reasoning": "A blanket draped over an armchair sets the scene. A cat sleeping on the blanket adds charm. A silver tray with cake fits the tea room aesthetic.",
+                    "object_interpretations": {
+                        "blanket": {
+                            "form": "knitted throw",
+                            "scale": "normal",
+                            "role": "decorative accent"
+                        },
+                        "cat": {
+                            "form": "lap cat",
+                            "scale": "normal",
+                            "role": "warmth seeker"
+                        },
+                        "tray": {
+                            "form": "silver serving tray",
+                            "scale": "normal",
+                            "role": "elegant service"
+                        },
+                        "chocolate cake": {
+                            "form": "tea cake",
+                            "scale": "slice",
+                            "role": "refreshment"
+                        }
+                    }
+                },
+                {
+                    "scene_type": "Child's Playroom",
+                    "plausibility": 0.7,
+                    "reasoning": "The blanket is a fort building material. The cat is a plush toy. The tray is a toy serving set, and the cake is a play-doh or plastic toy food.",
+                    "object_interpretations": {
+                        "blanket": {
+                            "form": "play blanket",
+                            "scale": "normal",
+                            "role": "fort roof"
+                        },
+                        "cat": {
+                            "form": "stuffed animal",
+                            "scale": "toy",
+                            "role": "toy companion"
+                        },
+                        "tray": {
+                            "form": "toy tray",
+                            "scale": "miniature",
+                            "role": "part of play kitchen"
+                        },
+                        "chocolate cake": {
+                            "form": "toy food",
+                            "scale": "miniature",
+                            "role": "pretend dessert"
+                        }
+                    }
+                }
+            ],
+            "selected_scene": {
+                "scene_type": "Garden Picnic",
+                "plausibility": 0.85,
+                "reasoning": "The blanket is the primary object, spread on the grass as a picnic mat. A cat might be prowling nearby or sitting on the edge. A picnic tray holds the cake.",
+                "object_interpretations": {
+                    "blanket": {
+                        "form": "picnic blanket",
+                        "scale": "large",
+                        "role": "primary seating area"
+                    },
+                    "cat": {
+                        "form": "outdoor cat",
+                        "scale": "normal",
+                        "role": "curious observer"
+                    },
+                    "tray": {
+                        "form": "outdoor serving tray",
+                        "scale": "normal",
+                        "role": "food transport"
+                    },
+                    "chocolate cake": {
+                        "form": "picnic dessert",
+                        "scale": "whole or slice",
+                        "role": "treat"
+                    }
+                },
+                "scene_brief": "A Garden Picnic centered around blanket, with cat, tray, and chocolate cake"
+            }
+        }
+    },
+    "final_prompts": {
+        "main_prompt": "A Impressionism painting depicting a bright and cheerful afternoon scene on a large, warm ochre and sage green cotton blanket laid flat with gentle wrinkles and folds. In the foreground, a medium-sized ginger and amber cat sits alert yet relaxed on the blanket's textured surface. Beside the cat, a medium honey brown and chestnut wooden tray with visible grain rests clean and dry on the blanket, positioned next to a medium-sized chocolate cake in deep umber and sienna hues, freshly cut to reveal its moist crumb texture. The natural soft afternoon light filters through, casting gentle shadows and creating an active, gentle atmosphere where all objects\u2014blanket, cat, tray, and chocolate cake\u2014are harmoniously arranged in a cohesive composition of warm tones and tactile materials.",
+        "negative_prompt": "photorealistic, 3d render, modern, digital art, photograph, low quality, blurry, distorted, oversaturated, cartoon, anime, text, watermark, signature, frame, border, ugly, deformed, noisy",
+        "prompt_formats": {
+            "simple": "An Impressionist painting of a cat, tray, and chocolate cake on a blanket during a soft afternoon.",
+            "complex": "A Impressionism painting depicting a bright and cheerful afternoon scene on a large, warm ochre and sage green cotton blanket laid flat with gentle wrinkles and folds. In the foreground, a medium-sized ginger and amber cat sits alert yet relaxed on the blanket's textured surface. Beside the cat, a medium honey brown and chestnut wooden tray with visible grain rests clean and dry on the blanket, positioned next to a medium-sized chocolate cake in deep umber and sienna hues, freshly cut to reveal its moist crumb texture. The natural soft afternoon light filters through, casting gentle shadows and creating an active, gentle atmosphere where all objects\u2014blanket, cat, tray, and chocolate cake\u2014are harmoniously arranged in a cohesive composition of warm tones and tactile materials.",
+            "comma_separated": "Impressionism painting, large blanket, warm ochre, sage green, ginger cat, amber, wooden tray, honey brown, chestnut, chocolate cake, deep umber, sienna, afternoon lighting, soft natural light, bright cheerful atmosphere, gentle active scene, tactile textures, cohesive composition",
+            "tags": "art, painting, impressionism, still life, domestic scene, afternoon light, soft shadows, warm palette, textile, fur, wood grain, cake texture, cheerful mood, gentle atmosphere"
+        }
+    }
+}

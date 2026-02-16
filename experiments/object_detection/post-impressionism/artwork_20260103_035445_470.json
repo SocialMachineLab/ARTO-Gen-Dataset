@@ -1,0 +1,303 @@
+{
+    "artwork_id": "artwork_20260103_035445_470",
+    "generation_timestamp": "2026-01-03T03:55:29.315840",
+    "style": "Post-Impressionism",
+    "objects": {
+        "object_ids": [
+            50,
+            3,
+            74
+        ],
+        "object_names": [
+            "lemon",
+            "cart",
+            "book"
+        ],
+        "enhanced_objects": [
+            {
+                "object_id": 50,
+                "name": "lemon",
+                "artistic_description": "A vibrant, sun-drenched lemon with thick, waxy skin that catches the afternoon light with intense luminosity. The peel displays thick, impasto brushstrokes in brilliant cadmium yellow with touches of warm orange where the sun hits most directly, while the shaded areas show subtle greenish-yellow undertones. Tiny, dark pores create texture across the surface, and the stem end shows a small cluster of brownish-green. The fruit appears almost translucent where the rind is thin, glowing with internal light.",
+                "size": "Medium",
+                "state": "fresh and plump, perfectly ripe with dew-like moisture from the humid market air",
+                "primary_colors": [
+                    "luminous cadmium yellow",
+                    "warm orange-yellow"
+                ],
+                "material": "citrus fruit with waxy rind"
+            },
+            {
+                "object_id": 3,
+                "name": "cart",
+                "artistic_description": "A weathered wooden cart with surfaces saturated in warm afternoon light, rendered in thick, visible strokes of burnt sienna and weathered gray. The wood grain shows through layers of peeling paint in patches of faded red and natural wood tones, creating a rich tapestry of texture. Metal hardware gleams with sharp highlights of titanium white against deep shadows of Payne's gray. The wheels cast strong, warm-edged shadows on the floor, and the entire structure glows with a patina of age and use.",
+                "size": "Large",
+                "state": "well-used but sturdy, showing character through worn edges and a smooth, hand-polished surface from years of handling",
+                "primary_colors": [
+                    "burnt sienna",
+                    "weathered gray"
+                ],
+                "material": "aged wood with iron hardware"
+            },
+            {
+                "object_id": 74,
+                "name": "book",
+                "artistic_description": "A leather-bound volume with a cover that absorbs and reflects light in complex ways, rendered in deep, saturated strokes of burnt umber and warm chocolate brown. The spine shows raised bands that create strong shadows, while gold lettering catches the afternoon sun with brilliant, almost white highlights. The leather shows subtle variations in tone\u2014from reddish-brown in the light to near-black in crevices\u2014creating a sense of rich, tactile surface. The pages along the edge show a gentle gradient from cream to warm amber where the light penetrates.",
+                "size": "Medium",
+                "state": "gently worn with softened corners and a supple, broken-in cover that speaks of careful reading",
+                "primary_colors": [
+                    "burnt umber",
+                    "golden brown"
+                ],
+                "material": "leather with gilt lettering"
+            }
+        ]
+    },
+    "composition": {
+        "spatial_relations": [
+            [
+                50,
+                "on",
+                3
+            ],
+            [
+                74,
+                "next to",
+                3
+            ]
+        ],
+        "semantic_relations": []
+    },
+    "environment": {
+        "environment_details": {
+            "scene_brief": "A country market stall centered around lemon, with cart displayed on shelves, and book",
+            "place365_name": "/m/market",
+            "place365_id": 21,
+            "time_of_day": "afternoon",
+            "weather": "sunny",
+            "period": "Contemporary",
+            "is_indoor": true,
+            "lighting": {
+                "type": "natural",
+                "quality": "harsh",
+                "direction": "side-lit",
+                "mood": "warm",
+                "reasoning": "Strong afternoon sun creates harsh, defined shadows and vibrant highlights, perfect for the bold, structured brushstrokes of Post-Impressionism. Side lighting models the forms of the cart and fruit, adding depth and volume."
+            },
+            "atmosphere": "bright and active and cheerful"
+        },
+        "scene_inference": {
+            "all_candidates": [
+                {
+                    "scene_type": "country market stall",
+                    "plausibility": 0.95,
+                    "reasoning": "A lemon is a common produce item sold at markets. A cart is the vendor's essential equipment for transporting goods. A book can be the vendor's ledger for tracking sales or a personal reading item during quiet moments. The Post-Impressionist style would emphasize the vibrant yellow of the lemon and the rustic textures of the cart and wooden stall.",
+                    "object_interpretations": {
+                        "lemon": {
+                            "form": "real fruit",
+                            "scale": "normal",
+                            "role": "primary produce for sale"
+                        },
+                        "cart": {
+                            "form": "real merchant cart",
+                            "scale": "full-size",
+                            "role": "transport and display unit"
+                        },
+                        "book": {
+                            "form": "ledger book",
+                            "scale": "normal",
+                            "role": "sales record"
+                        }
+                    },
+                    "scene_brief": "A country market stall centered around lemon, with cart displayed on shelves, and book"
+                },
+                {
+                    "scene_type": "artist's studio",
+                    "plausibility": 0.9,
+                    "reasoning": "A lemon is a classic still life subject. A cart could be a miniature model or a toy used for compositional studies. A book could be an art reference or sketchbook. The Post-Impressionist style suits a painter's studio where light and color are being studied.",
+                    "object_interpretations": {
+                        "lemon": {
+                            "form": "still life model",
+                            "scale": "normal",
+                            "role": "subject of the painting"
+                        },
+                        "cart": {
+                            "form": "toy or model cart",
+                            "scale": "miniature",
+                            "role": "compositional element"
+                        },
+                        "book": {
+                            "form": "sketchbook",
+                            "scale": "normal",
+                            "role": "artist's tool"
+                        }
+                    }
+                },
+                {
+                    "scene_type": "vintage grocery store",
+                    "plausibility": 0.85,
+                    "reasoning": "Lemons are stocked in grocery stores. A hand cart (dolly) is used to move crates of produce. A book could be a price guide or inventory list left on a shelf. The Post-Impressionist style evokes a nostalgic, textured view of everyday commerce.",
+                    "object_interpretations": {
+                        "lemon": {
+                            "form": "fresh produce",
+                            "scale": "normal",
+                            "role": "consumer good"
+                        },
+                        "cart": {
+                            "form": "hand truck/dolly",
+                            "scale": "full-size",
+                            "role": "logistics equipment"
+                        },
+                        "book": {
+                            "form": "inventory book",
+                            "scale": "normal",
+                            "role": "business record"
+                        }
+                    }
+                },
+                {
+                    "scene_type": "kitchen counter",
+                    "plausibility": 0.8,
+                    "reasoning": "A lemon is a kitchen staple. A cart might be a serving cart pushed into the kitchen. A cookbook is a common kitchen item. The scene captures the domestic utility of the objects.",
+                    "object_interpretations": {
+                        "lemon": {
+                            "form": "whole fruit",
+                            "scale": "normal",
+                            "role": "ingredient"
+                        },
+                        "cart": {
+                            "form": "serving cart",
+                            "scale": "small/full-size",
+                            "role": "storage/transport"
+                        },
+                        "book": {
+                            "form": "cookbook",
+                            "scale": "normal",
+                            "role": "instructional guide"
+                        }
+                    }
+                },
+                {
+                    "scene_type": "library reading nook",
+                    "plausibility": 0.75,
+                    "reasoning": "A book is the primary object here. A lemon could be a decorative bowl of fruit on a table or a tea ingredient. A cart could be a book cart used to transport books or a tea trolley. The style adds warmth to the scholarly setting.",
+                    "object_interpretations": {
+                        "lemon": {
+                            "form": "decorative fruit",
+                            "scale": "normal",
+                            "role": "still life accent"
+                        },
+                        "cart": {
+                            "form": "book cart",
+                            "scale": "full-size",
+                            "role": "organizational tool"
+                        },
+                        "book": {
+                            "form": "novel",
+                            "scale": "normal",
+                            "role": "primary object"
+                        }
+                    }
+                },
+                {
+                    "scene_type": "outdoor picnic",
+                    "plausibility": 0.85,
+                    "reasoning": "A lemon is a common picnic food or drink flavoring. A picnic basket is essentially a portable cart. A book is a classic leisure activity for a picnic. The style captures the dappled light of an outdoor setting.",
+                    "object_interpretations": {
+                        "lemon": {
+                            "form": "fresh fruit",
+                            "scale": "normal",
+                            "role": "refreshment"
+                        },
+                        "cart": {
+                            "form": "picnic basket (wheeled)",
+                            "scale": "normal",
+                            "role": "food container"
+                        },
+                        "book": {
+                            "form": "novel",
+                            "scale": "normal",
+                            "role": "leisure activity"
+                        }
+                    }
+                },
+                {
+                    "scene_type": "farmhouse porch",
+                    "plausibility": 0.8,
+                    "reasoning": "A lemon tree might be potted on a porch. A cart could be a farm utility cart. A book could be a farmer's almanac. The style emphasizes the rustic, rural atmosphere.",
+                    "object_interpretations": {
+                        "lemon": {
+                            "form": "fruit on a branch",
+                            "scale": "normal",
+                            "role": "harvest yield"
+                        },
+                        "cart": {
+                            "form": "farm utility cart",
+                            "scale": "full-size",
+                            "role": "equipment storage"
+                        },
+                        "book": {
+                            "form": "almanac",
+                            "scale": "normal",
+                            "role": "reference material"
+                        }
+                    }
+                },
+                {
+                    "scene_type": "antique shop",
+                    "plausibility": 0.7,
+                    "reasoning": "A lemon could be a ceramic decoration or a preserved specimen. A cart could be an antique display piece. A book is a common antique item. The cluttered, textured nature of an antique shop fits the style well.",
+                    "object_interpretations": {
+                        "lemon": {
+                            "form": "ceramic figurine",
+                            "scale": "small",
+                            "role": "decoration"
+                        },
+                        "cart": {
+                            "form": "antique display cart",
+                            "scale": "small",
+                            "role": "display furniture"
+                        },
+                        "book": {
+                            "form": "old book",
+                            "scale": "normal",
+                            "role": "collectible"
+                        }
+                    }
+                }
+            ],
+            "selected_scene": {
+                "scene_type": "country market stall",
+                "plausibility": 0.95,
+                "reasoning": "A lemon is a common produce item sold at markets. A cart is the vendor's essential equipment for transporting goods. A book can be the vendor's ledger for tracking sales or a personal reading item during quiet moments. The Post-Impressionist style would emphasize the vibrant yellow of the lemon and the rustic textures of the cart and wooden stall.",
+                "object_interpretations": {
+                    "lemon": {
+                        "form": "real fruit",
+                        "scale": "normal",
+                        "role": "primary produce for sale"
+                    },
+                    "cart": {
+                        "form": "real merchant cart",
+                        "scale": "full-size",
+                        "role": "transport and display unit"
+                    },
+                    "book": {
+                        "form": "ledger book",
+                        "scale": "normal",
+                        "role": "sales record"
+                    }
+                },
+                "scene_brief": "A country market stall centered around lemon, with cart displayed on shelves, and book"
+            }
+        }
+    },
+    "final_prompts": {
+        "main_prompt": "A Post-Impressionism painting depicting a bright and cheerful afternoon scene. In the foreground, a large, well-used cart in weathered gray and burnt sienna sits prominently, its aged wood and iron hardware showing signs of sturdy use. Atop the cart rests a medium-sized, plump lemon in luminous cadmium yellow with warm orange-yellow tones, its waxy rind catching the harsh natural afternoon light. Beside the cart, a medium-sized book in burnt umber and golden brown lies gently worn, with softened corners and supple leather binding showing subtle gilt lettering. The composition uses bold, visible brushstrokes and vibrant, non-naturalistic colors to convey an active, cheerful atmosphere, with the harsh afternoon light creating dramatic shadows and highlights that enhance the scene's lively energy.",
+        "negative_prompt": "photorealistic, 3d render, modern, digital art, photograph, low quality, blurry, distorted, surreal, abstract, cartoon, anime, watermark, signature, text, frame, border, ugly, deformed, noisy",
+        "prompt_formats": {
+            "simple": "A Post-Impressionism painting of a lemon on a cart with a book beside it during a bright afternoon.",
+            "complex": "A Post-Impressionism painting depicting a bright and cheerful afternoon scene. In the foreground, a large, well-used cart in weathered gray and burnt sienna sits prominently, its aged wood and iron hardware showing signs of sturdy use. Atop the cart rests a medium-sized, plump lemon in luminous cadmium yellow with warm orange-yellow tones, its waxy rind catching the harsh natural afternoon light. Beside the cart, a medium-sized book in burnt umber and golden brown lies gently worn, with softened corners and supple leather binding showing subtle gilt lettering. The composition uses bold, visible brushstrokes and vibrant, non-naturalistic colors to convey an active, cheerful atmosphere, with the harsh afternoon light creating dramatic shadows and highlights that enhance the scene's lively energy.",
+            "comma_separated": "Post-Impressionism painting, lemon on cart, book beside cart, luminous cadmium yellow lemon, burnt sienna cart, burnt umber book, harsh afternoon lighting, bright cheerful atmosphere, visible brushstrokes, vibrant colors, foreground composition",
+            "tags": "art, painting, post-impressionism, still life, lemon, cart, book, afternoon light, cheerful, vibrant colors, visible brushstrokes, composition"
+        }
+    }
+}

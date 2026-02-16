@@ -1,0 +1,281 @@
+{
+    "artwork_id": "artwork_20260103_205115_642",
+    "generation_timestamp": "2026-01-03T20:51:55.567921",
+    "style": "Neoclassicism",
+    "objects": {
+        "object_ids": [
+            8,
+            61,
+            15
+        ],
+        "object_names": [
+            "cannon",
+            "dinning table",
+            "eagle"
+        ],
+        "enhanced_objects": [
+            {
+                "object_id": 8,
+                "name": "cannon",
+                "artistic_description": "A monumental bronze cannon gleams under the warm artificial stage lights, its polished barrel catching golden highlights while deep shadows pool in the engraved rifling. The metal surface shows a rich patina of dark umber and burnished copper, with deliberate scuff marks suggesting ceremonial use rather than battle. The carriage appears as dark walnut wood with a satin finish, reflecting the amber glow in subtle sheens across its carved details.",
+                "size": "Large",
+                "state": "ceremonial and pristine, maintained for display",
+                "primary_colors": [
+                    "burnished bronze",
+                    "deep walnut brown"
+                ],
+                "material": "bronze and walnut wood"
+            },
+            {
+                "object_id": 61,
+                "name": "dinning table",
+                "artistic_description": "A grand mahogany dining table glows with deep crimson undertones beneath the theatrical lighting, its polished surface creating mirror-like reflections of the unseen lights above. The rich wood grain appears as flowing ribbons of dark chocolate and russet, enhanced by the warm artificial illumination. The carved pedestal base casts dramatic shadows, while the table's edge catches bright highlights in amber and gold.",
+                "size": "Dominant",
+                "state": "elegant and immaculate, polished for theatrical presentation",
+                "primary_colors": [
+                    "rich mahogany red",
+                    "dark chocolate brown"
+                ],
+                "material": "mahogany wood"
+            },
+            {
+                "object_id": 15,
+                "name": "eagle",
+                "artistic_description": "A majestic bronze eagle sculpture perches with wings partially unfurled, its surface alive with flickering highlights of bright gold and deep shadowed bronze. The artificial lighting catches the sharp edges of each feather, creating a dramatic interplay of light and dark that emphasizes the neoclassical idealization of form. The patinated surface shows intentional verdigris accents in the crevices, adding depth and antiquity to the otherwise brilliant metallic form.",
+                "size": "Medium",
+                "state": "heroic and timeless, cast as a classical emblem",
+                "primary_colors": [
+                    "brilliant bronze gold",
+                    "verdigris green"
+                ],
+                "material": "bronze"
+            }
+        ]
+    },
+    "composition": {
+        "spatial_relations": [
+            [
+                8,
+                "next to",
+                61
+            ],
+            [
+                15,
+                "on",
+                61
+            ]
+        ],
+        "semantic_relations": []
+    },
+    "environment": {
+        "environment_details": {
+            "scene_brief": "A theater stage set featuring cannon, with dinning table, and eagle",
+            "place365_name": "/a/auditorium",
+            "place365_id": 27,
+            "time_of_day": "evening",
+            "weather": null,
+            "period": "Contemporary",
+            "is_indoor": true,
+            "lighting": {
+                "type": "artificial",
+                "quality": "dramatic",
+                "direction": "front-lit",
+                "mood": "warm",
+                "reasoning": "Theatrical lighting is artificial and designed to be dramatic to highlight the stage action. A warm mood suits the evening setting, and front lighting ensures the props (cannon, table, eagle) are clearly visible to the audience."
+            },
+            "atmosphere": "calm and relaxed and striking"
+        },
+        "scene_inference": {
+            "all_candidates": [
+                {
+                    "scene_type": "military museum hall",
+                    "plausibility": 0.95,
+                    "reasoning": "A grand museum hall dedicated to military history. The cannon is the central exhibit, a large, authentic piece of artillery. The dining table is a period piece from the era of the cannon, perhaps used for planning battles, now serving as a display stand for smaller artifacts. The eagle is depicted in a Neoclassical painting on the wall, symbolizing martial prowess and republicanism, a common motif in such settings.",
+                    "object_interpretations": {
+                        "cannon": {
+                            "form": "real artifact",
+                            "scale": "large/full-size",
+                            "role": "primary exhibit"
+                        },
+                        "dinning table": {
+                            "form": "real antique furniture",
+                            "scale": "normal",
+                            "role": "display furniture"
+                        },
+                        "eagle": {
+                            "form": "painting",
+                            "scale": "normal",
+                            "role": "decorative art"
+                        }
+                    }
+                },
+                {
+                    "scene_type": "neoclassical estate library",
+                    "plausibility": 0.9,
+                    "reasoning": "The opulent library of a wealthy landowner or military leader. A small, ornate cannon model sits on the grand dining table, which doubles as a large desk for studying maps. A taxidermied eagle is mounted on the wall, a trophy from a hunt, representing the owner's dominion over his lands.",
+                    "object_interpretations": {
+                        "cannon": {
+                            "form": "model",
+                            "scale": "small (1:20)",
+                            "role": "decorative object"
+                        },
+                        "dinning table": {
+                            "form": "real antique table",
+                            "scale": "large",
+                            "role": "central desk"
+                        },
+                        "eagle": {
+                            "form": "taxidermy",
+                            "scale": "life-size",
+                            "role": "trophy"
+                        }
+                    }
+                },
+                {
+                    "scene_type": "formal dining room",
+                    "plausibility": 0.85,
+                    "reasoning": "A Neoclassical dining room for a military-themed banquet. The dining table is the centerpiece, set with fine china. A small, decorative cannon serves as a centerpiece candelabra or centerpiece sculpture. An eagle motif is carved into the table legs or appears on the wallpaper, reinforcing the patriotic theme.",
+                    "object_interpretations": {
+                        "cannon": {
+                            "form": "decorative sculpture",
+                            "scale": "small",
+                            "role": "centerpiece"
+                        },
+                        "dinning table": {
+                            "form": "real furniture",
+                            "scale": "large",
+                            "role": "primary furniture"
+                        },
+                        "eagle": {
+                            "form": "architectural detail",
+                            "scale": "small",
+                            "role": "decorative motif"
+                        }
+                    }
+                },
+                {
+                    "scene_type": "historical diorama",
+                    "plausibility": 0.9,
+                    "reasoning": "A museum-quality diorama depicting a scene from the American or French Revolution. The cannon is a key prop in the foreground. The dining table is part of the set, perhaps a field desk for officers. The eagle is a painted backdrop element or a flag detail, symbolizing the nation.",
+                    "object_interpretations": {
+                        "cannon": {
+                            "form": "realistic prop",
+                            "scale": "normal",
+                            "role": "main subject"
+                        },
+                        "dinning table": {
+                            "form": "prop furniture",
+                            "scale": "normal",
+                            "role": "scene setting"
+                        },
+                        "eagle": {
+                            "form": "painting/flag detail",
+                            "scale": "normal",
+                            "role": "symbolic element"
+                        }
+                    }
+                },
+                {
+                    "scene_type": "sculpture garden",
+                    "plausibility": 0.8,
+                    "reasoning": "An outdoor garden featuring Neoclassical sculptures. A large stone cannon is a sculptural centerpiece. Nearby, a stone dining table and benches provide seating. A bronze eagle statue perches on a pedestal nearby, completing the classical, patriotic theme.",
+                    "object_interpretations": {
+                        "cannon": {
+                            "form": "sculpture",
+                            "scale": "large",
+                            "role": "sculptural element"
+                        },
+                        "dinning table": {
+                            "form": "sculpture/real furniture",
+                            "scale": "large",
+                            "role": "garden furniture"
+                        },
+                        "eagle": {
+                            "form": "sculpture",
+                            "scale": "life-size",
+                            "role": "sculptural element"
+                        }
+                    }
+                },
+                {
+                    "scene_type": "armory workshop",
+                    "plausibility": 0.85,
+                    "reasoning": "A workshop where cannons are forged and repaired. A cannon is being worked on. A sturdy wooden table, used for dining by the workers, is cluttered with tools. An eagle, perhaps a symbol of the state or a patron, is displayed on a banner or a small emblem on the wall.",
+                    "object_interpretations": {
+                        "cannon": {
+                            "form": "real object",
+                            "scale": "large",
+                            "role": "object of work"
+                        },
+                        "dinning table": {
+                            "form": "real furniture",
+                            "scale": "normal",
+                            "role": "work/dining table"
+                        },
+                        "eagle": {
+                            "form": "banner/insignia",
+                            "scale": "small",
+                            "role": "symbol"
+                        }
+                    }
+                },
+                {
+                    "scene_type": "theater stage set",
+                    "plausibility": 0.8,
+                    "reasoning": "The stage for a historical drama. A prop cannon is a key element of the set. A dining table is part of the set for a scene in a command tent or a palace. An eagle emblem is painted on a backdrop or a prop shield.",
+                    "object_interpretations": {
+                        "cannon": {
+                            "form": "prop",
+                            "scale": "normal",
+                            "role": "set piece"
+                        },
+                        "dinning table": {
+                            "form": "prop",
+                            "scale": "normal",
+                            "role": "set piece"
+                        },
+                        "eagle": {
+                            "form": "painted prop",
+                            "scale": "normal",
+                            "role": "set decoration"
+                        }
+                    },
+                    "scene_brief": "A theater stage set featuring cannon, with dinning table, and eagle"
+                }
+            ],
+            "selected_scene": {
+                "scene_type": "theater stage set",
+                "plausibility": 0.8,
+                "reasoning": "The stage for a historical drama. A prop cannon is a key element of the set. A dining table is part of the set for a scene in a command tent or a palace. An eagle emblem is painted on a backdrop or a prop shield.",
+                "object_interpretations": {
+                    "cannon": {
+                        "form": "prop",
+                        "scale": "normal",
+                        "role": "set piece"
+                    },
+                    "dinning table": {
+                        "form": "prop",
+                        "scale": "normal",
+                        "role": "set piece"
+                    },
+                    "eagle": {
+                        "form": "painted prop",
+                        "scale": "normal",
+                        "role": "set decoration"
+                    }
+                },
+                "scene_brief": "A theater stage set featuring cannon, with dinning table, and eagle"
+            }
+        }
+    },
+    "final_prompts": {
+        "main_prompt": "A Neoclassicism painting depicting a calm and striking evening scene in an elegant hall. In the foreground, a large ceremonial cannon of burnished bronze and deep walnut brown sits pristine and imposing beside a dominant, elegant dining table of rich mahogany red and dark chocolate brown. On the immaculate surface of the dining table, a medium-sized eagle with brilliant bronze gold and verdigris green plumage perches heroically, its timeless form catching the artificial dramatic lighting. The composition is balanced and harmonious, with the cannon and table creating strong vertical and horizontal lines typical of Neoclassical design. The evening atmosphere is calm and relaxed yet striking, with warm artificial light casting dramatic shadows that emphasize the textures of bronze and polished wood, creating a scene of refined grandeur and quiet power.",
+        "negative_prompt": "photorealistic, 3d render, modern, digital art, photograph, low quality, blurry, distorted, cartoon, anime, abstract, surreal, messy, cluttered, noisy, grainy, text, watermark, signature, frame, border, people, humans, figures, animals other than eagle",
+        "prompt_formats": {
+            "simple": "A Neoclassical evening scene with a bronze cannon beside a mahogany dining table where a heroic eagle perches under dramatic artificial lighting.",
+            "complex": "A Neoclassicism painting depicting a calm and striking evening scene in an elegant hall. In the foreground, a large ceremonial cannon of burnished bronze and deep walnut brown sits pristine and imposing beside a dominant, elegant dining table of rich mahogany red and dark chocolate brown. On the immaculate surface of the dining table, a medium-sized eagle with brilliant bronze gold and verdigris green plumage perches heroically, its timeless form catching the artificial dramatic lighting. The composition is balanced and harmonious, with the cannon and table creating strong vertical and horizontal lines typical of Neoclassical design. The evening atmosphere is calm and relaxed yet striking, with warm artificial light casting dramatic shadows that emphasize the textures of bronze and polished wood, creating a scene of refined grandeur and quiet power.",
+            "comma_separated": "Neoclassicism painting, evening scene, calm and striking atmosphere, artificial dramatic lighting, large ceremonial cannon, burnished bronze, walnut brown, pristine, dominant dining table, mahogany red, chocolate brown, elegant, medium eagle, bronze gold, verdigris green, heroic, timeless, cannon beside table, eagle on table, balanced composition, refined grandeur, polished wood textures, warm lighting, dramatic shadows",
+            "tags": "art, painting, neoclassicism, still life, evening, artificial lighting, dramatic lighting, cannon, dining table, eagle, bronze, mahogany, ceremonial, heroic, calm atmosphere, striking composition, elegant hall, polished surfaces, shadows, texture, grandeur"
+        }
+    }
+}

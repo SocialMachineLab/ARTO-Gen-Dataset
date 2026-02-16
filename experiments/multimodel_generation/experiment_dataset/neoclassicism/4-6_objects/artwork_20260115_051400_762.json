@@ -1,0 +1,318 @@
+{
+  "artwork_id": "artwork_20260115_051400_762",
+  "generation_timestamp": "2026-01-15T05:14:41.802980",
+  "style": "Neoclassicism",
+  "objects": {
+    "object_ids": [
+      45,
+      29,
+      78,
+      5
+    ],
+    "object_names": [
+      "ladle",
+      "luggage",
+      "toy",
+      "airship"
+    ],
+    "enhanced_objects": [
+      {
+        "object_id": 45,
+        "name": "ladle",
+        "artistic_description": "A polished bronze ladle catches the cool, diffused afternoon light filtering through tall windows, its metallic surface glowing with a muted golden sheen. The handle features subtle classical fluting, and the bowl holds a soft, silvery reflection of the bright but subdued atmosphere. Its surface shows gentle oxidation at the joints, consistent with ancient craftsmanship.",
+        "size": "Medium",
+        "state": "well-used but carefully maintained, showing dignified age",
+        "primary_colors": [
+          "warm bronze",
+          "soft gold"
+        ],
+        "material": "bronze"
+      },
+      {
+        "object_id": 29,
+        "name": "luggage",
+        "artistic_description": "A leather-bound travel chest rests with dignified presence, its dark brown surface absorbing the cool gray light while polished brass fittings catch bright highlights. The leather shows a matte patina with gentle wear at the corners, and the cloudy sky creates soft, diffused reflections on the metal hardware without harsh glare.",
+        "size": "Large",
+        "state": "weathered from travel, dignified and functional",
+        "primary_colors": [
+          "deep mahogany brown",
+          "muted brass"
+        ],
+        "material": "leather and brass"
+      },
+      {
+        "object_id": 78,
+        "name": "toy",
+        "artistic_description": "A small wooden horse figurine stands in quiet repose, its painted details softened by the gentle, indirect light. The colors appear subdued and harmonious\u2014deep reds muted to burgundy, whites to cream\u2014while the smooth wood grain shows through the aged varnish. It catches just enough light to reveal the delicate brushwork of its classical decoration.",
+        "size": "Small",
+        "state": "gently worn from play, cherished and preserved",
+        "primary_colors": [
+          "muted crimson",
+          "aged cream"
+        ],
+        "material": "wood and paint"
+      },
+      {
+        "object_id": 5,
+        "name": "airship",
+        "artistic_description": "A miniature airship model hangs suspended in the background, its silk envelope catching the cool, overcast light with a soft, pearlescent glow. The wicker basket and brass fittings are rendered in delicate detail, with muted metallic highlights that suggest distant, dreamlike travel through cloudy skies. The colors are restrained and elegant\u2014soft gray-blue with touches of tarnished silver.",
+        "size": "Marginal",
+        "state": "delicate and display-worthy, an object of contemplation",
+        "primary_colors": [
+          "pale sky blue",
+          "tarnished silver"
+        ],
+        "material": "silk, wicker, and brass"
+      }
+    ]
+  },
+  "composition": {
+    "spatial_relations": [
+      [
+        45,
+        "on",
+        29
+      ],
+      [
+        78,
+        "beside",
+        45
+      ],
+      [
+        29,
+        "in front of",
+        5
+      ],
+      [
+        5,
+        "behind",
+        29
+      ]
+    ],
+    "semantic_relations": []
+  },
+  "environment": {
+    "environment_details": {
+      "scene_brief": "A Neoclassical Dining Hall featuring ladle as the main functional element, with luggage, toy, and airship in the background",
+      "place365_name": "/d/dining_room",
+      "place365_id": 121,
+      "time_of_day": "afternoon",
+      "weather": "cloudy",
+      "period": "Classical",
+      "is_indoor": true,
+      "lighting": {
+        "type": "natural",
+        "quality": "soft",
+        "direction": "side-lit",
+        "mood": "neutral",
+        "reasoning": "Large windows typical of Neoclassical architecture would allow soft, ambient light to wash across the room. Side-lighting emphasizes the volume and form of the ladle and the geometric symmetry of the dining hall, aligning with the Neoclassical focus on clarity and order."
+      },
+      "atmosphere": "bright and active and subdued and gentle"
+    },
+    "scene_inference": {
+      "all_candidates": [
+        {
+          "scene_type": "Grand Neoclassical Kitchen",
+          "plausibility": 0.85,
+          "reasoning": "The ladle is the primary functional object in a large, classical kitchen. The luggage is a wealthy traveler's trunk stored temporarily. The toy is a child's wooden horse left on a stool. The airship is a detailed model or painting displayed as a marvel of modern invention.",
+          "object_interpretations": {
+            "ladle": {
+              "form": "real utensil",
+              "scale": "normal",
+              "role": "primary functional object"
+            },
+            "luggage": {
+              "form": "trunk",
+              "scale": "large",
+              "role": "storage/prop"
+            },
+            "toy": {
+              "form": "wooden toy",
+              "scale": "small",
+              "role": "decorative element"
+            },
+            "airship": {
+              "form": "model/painting",
+              "scale": "miniature",
+              "role": "artistic display"
+            }
+          }
+        },
+        {
+          "scene_type": "Neoclassical Dining Hall",
+          "plausibility": 0.8,
+          "reasoning": "A formal dining setting. The ladle rests in a tureen. Luggage sits by the door for a departing guest. A toy is a silver rattle on the table. An airship is a motif on the wallpaper or porcelain.",
+          "object_interpretations": {
+            "ladle": {
+              "form": "silver serving utensil",
+              "scale": "normal",
+              "role": "primary functional object"
+            },
+            "luggage": {
+              "form": "portmanteau",
+              "scale": "large",
+              "role": "prop"
+            },
+            "toy": {
+              "form": "silver rattle",
+              "scale": "small",
+              "role": "table decoration"
+            },
+            "airship": {
+              "form": "wallpaper print",
+              "scale": "variable",
+              "role": "background pattern"
+            }
+          },
+          "scene_brief": "A Neoclassical Dining Hall featuring ladle as the main functional element, with luggage, toy, and airship in the background"
+        },
+        {
+          "scene_type": "Antique Curiosity Shop",
+          "plausibility": 0.9,
+          "reasoning": "The ladle is an antique for sale. Luggage is vintage luggage stacked nearby. Toys are old dolls or games. The airship is a blueprint or model of a flying machine.",
+          "object_interpretations": {
+            "ladle": {
+              "form": "antique",
+              "scale": "normal",
+              "role": "for sale"
+            },
+            "luggage": {
+              "form": "vintage suitcase",
+              "scale": "large",
+              "role": "merchandise"
+            },
+            "toy": {
+              "form": "vintage doll",
+              "scale": "small",
+              "role": "merchandise"
+            },
+            "airship": {
+              "form": "blueprint/model",
+              "scale": "medium",
+              "role": "curiosity"
+            }
+          }
+        },
+        {
+          "scene_type": "Artist's Studio",
+          "plausibility": 0.85,
+          "reasoning": "An artist's still life setup. The ladle is a prop. Luggage is a prop for a travel scene. A toy adds character. An airship model serves as an inspiration for a grand painting.",
+          "object_interpretations": {
+            "ladle": {
+              "form": "prop",
+              "scale": "normal",
+              "role": "still life subject"
+            },
+            "luggage": {
+              "form": "prop",
+              "scale": "large",
+              "role": "background element"
+            },
+            "toy": {
+              "form": "prop",
+              "scale": "small",
+              "role": "accent"
+            },
+            "airship": {
+              "form": "model",
+              "scale": "medium",
+              "role": "muse"
+            }
+          }
+        },
+        {
+          "scene_type": "Classical Garden Pavilion",
+          "plausibility": 0.75,
+          "reasoning": "A picnic scene. The ladle is used for serving punch. Luggage is packed for the outing. A toy is played with by children. An airship is a distant object in the sky or a kite.",
+          "object_interpretations": {
+            "ladle": {
+              "form": "punch ladle",
+              "scale": "normal",
+              "role": "serving tool"
+            },
+            "luggage": {
+              "form": "picnic basket",
+              "scale": "medium",
+              "role": "container"
+            },
+            "toy": {
+              "form": "ball",
+              "scale": "small",
+              "role": "activity"
+            },
+            "airship": {
+              "form": "kite/distant object",
+              "scale": "variable",
+              "role": "sky element"
+            }
+          }
+        },
+        {
+          "scene_type": "Museum of Science and History",
+          "plausibility": 0.9,
+          "reasoning": "Exhibit on early travel. The airship is the centerpiece. Luggage is period-appropriate baggage. A toy represents childhood in that era. A ladle is part of a display on domestic life.",
+          "object_interpretations": {
+            "ladle": {
+              "form": "artifact",
+              "scale": "normal",
+              "role": "exhibit item"
+            },
+            "luggage": {
+              "form": "artifact",
+              "scale": "large",
+              "role": "exhibit item"
+            },
+            "toy": {
+              "form": "artifact",
+              "scale": "small",
+              "role": "exhibit item"
+            },
+            "airship": {
+              "form": "model/diorama",
+              "scale": "large",
+              "role": "main exhibit"
+            }
+          }
+        }
+      ],
+      "selected_scene": {
+        "scene_type": "Neoclassical Dining Hall",
+        "plausibility": 0.8,
+        "reasoning": "A formal dining setting. The ladle rests in a tureen. Luggage sits by the door for a departing guest. A toy is a silver rattle on the table. An airship is a motif on the wallpaper or porcelain.",
+        "object_interpretations": {
+          "ladle": {
+            "form": "silver serving utensil",
+            "scale": "normal",
+            "role": "primary functional object"
+          },
+          "luggage": {
+            "form": "portmanteau",
+            "scale": "large",
+            "role": "prop"
+          },
+          "toy": {
+            "form": "silver rattle",
+            "scale": "small",
+            "role": "table decoration"
+          },
+          "airship": {
+            "form": "wallpaper print",
+            "scale": "variable",
+            "role": "background pattern"
+          }
+        },
+        "scene_brief": "A Neoclassical Dining Hall featuring ladle as the main functional element, with luggage, toy, and airship in the background"
+      }
+    }
+  },
+  "final_prompts": {
+    "main_prompt": "A Neoclassicism painting depicting a warm bronze, well-used ladle resting atop a large, deep mahogany brown luggage with muted brass fittings, weathered from travel. Beside the ladle sits a small, gently worn toy in muted crimson and aged cream. The luggage is positioned in the foreground, placed in front of a marginal, pale sky blue airship with tarnished silver details, which appears delicate and display-worthy. The scene is bathed in the soft, natural light of an afternoon, casting gentle shadows. The atmosphere is bright and active yet subdued and gentle, evoking a quiet moment of travel preparation in a sunlit, airy space.",
+    "negative_prompt": "photorealistic, 3d render, modern, digital art, photograph, low quality, blurry, distorted",
+    "prompt_formats": {
+      "simple": "A Neoclassical still life of a ladle on luggage next to a toy, before a delicate airship in soft afternoon light.",
+      "complex": "A Neoclassicism painting depicting a warm bronze, well-used ladle resting atop a large, deep mahogany brown luggage with muted brass fittings, weathered from travel. Beside the ladle sits a small, gently worn toy in muted crimson and aged cream. The luggage is positioned in the foreground, placed in front of a marginal, pale sky blue airship with tarnished silver details, which appears delicate and display-worthy. The scene is bathed in the soft, natural light of an afternoon, casting gentle shadows. The atmosphere is bright and active yet subdued and gentle, evoking a quiet moment of travel preparation in a sunlit, airy space.",
+      "comma_separated": "Neoclassicism, ladle, luggage, toy, airship, warm bronze, mahogany brown, muted crimson, pale sky blue, afternoon, soft natural light, bright, active, subdued, gentle, weathered, delicate",
+      "tags": "art, painting, neoclassicism, still life, ladle, luggage, toy, airship, afternoon light, historical, travel"
+    }
+  }
+}

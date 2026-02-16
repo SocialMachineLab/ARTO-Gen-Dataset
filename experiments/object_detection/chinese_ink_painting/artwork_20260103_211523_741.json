@@ -1,0 +1,308 @@
+{
+    "artwork_id": "artwork_20260103_211523_741",
+    "generation_timestamp": "2026-01-03T21:16:03.279782",
+    "style": "Chinese Ink Painting",
+    "objects": {
+        "object_ids": [
+            61,
+            74,
+            44
+        ],
+        "object_names": [
+            "dining table",
+            "scroll",
+            "sword"
+        ],
+        "enhanced_objects": [
+            {
+                "object_id": 61,
+                "name": "dining table",
+                "artistic_description": "A polished dark wood table with deep, rich grain patterns rendered in varying ink washes. The afternoon's mixed lighting creates subtle highlights along the edges where warm light catches the varnish, while cooler shadows pool in the recesses of the wood grain. The surface reflects a soft, diffused glow, appearing almost luminous against the matte darkness of the wood.",
+                "size": "Large",
+                "state": "pristine, well-maintained contemporary piece with protective glass covering",
+                "primary_colors": [
+                    "deep mahogany brown",
+                    "warm amber highlights"
+                ],
+                "material": "wood"
+            },
+            {
+                "object_id": 74,
+                "name": "scroll",
+                "artistic_description": "An ancient parchment scroll with delicate, fibrous texture rendered through fine ink stippling. The afternoon light illuminates the yellowed surface with a gentle warmth, making the aged paper appear translucent at the edges. The inked characters fade softly into the paper's grain, with some areas showing subtle darkening from centuries of handling. The rolled edges catch the light, creating soft white highlights against the weathered cream background.",
+                "size": "Medium",
+                "state": "fragile, aged parchment with gentle wear and slight discoloration from time",
+                "primary_colors": [
+                    "aged cream",
+                    "faded sepia"
+                ],
+                "material": "parchment"
+            },
+            {
+                "object_id": 44,
+                "name": "sword",
+                "artistic_description": "A ceremonial blade rendered with stark, confident brushstrokes that capture the play of mixed lighting across its polished surface. The afternoon light glints along the curved edge with brilliant white highlights, while the flat of the blade shows subtle gradations of cool gray and blue tones. The ornate hilt is rendered in deep, saturated ink washes, with gold accents catching the warm light. The metal surface appears cool and reflective, contrasting with the matte texture of the wrapped handle.",
+                "size": "Medium",
+                "state": "immaculate, museum-quality preservation with mirror-like polish",
+                "primary_colors": [
+                    "silver-gray",
+                    "deep blue-black"
+                ],
+                "material": "metal"
+            }
+        ]
+    },
+    "composition": {
+        "spatial_relations": [
+            [
+                74,
+                "on",
+                61
+            ],
+            [
+                44,
+                "on",
+                61
+            ],
+            [
+                74,
+                "next to",
+                44
+            ]
+        ],
+        "semantic_relations": []
+    },
+    "environment": {
+        "environment_details": {
+            "scene_brief": "A Museum Display featuring dining table, with scroll, and sword",
+            "place365_name": "/m/museum/indoor",
+            "place365_id": 236,
+            "time_of_day": "afternoon",
+            "weather": null,
+            "period": "Contemporary",
+            "is_indoor": true,
+            "lighting": {
+                "type": "mixed",
+                "quality": "soft",
+                "direction": "side-lit",
+                "mood": "neutral",
+                "reasoning": "Museums typically use a mix of ambient natural light (from windows/skylights) and controlled artificial spotlights. 'Soft' lighting prevents harsh shadows that would disrupt the ink wash aesthetic. 'Side-lit' directionality helps define the texture of the scroll and the metallic sheen of the sword without flattening the image. 'Neutral' mood supports the historical and artistic reverence of the objects."
+            },
+            "atmosphere": "bright and active and gentle"
+        },
+        "scene_inference": {
+            "all_candidates": [
+                {
+                    "scene_type": "Scholar's Study",
+                    "plausibility": 0.95,
+                    "reasoning": "A scholar's study is a traditional setting where a dining table could be repurposed as a desk. The scroll represents a document or calligraphy, and the sword is a ceremonial weapon often displayed in a scholar's quarters, symbolizing the balance between intellect and martial prowess.",
+                    "object_interpretations": {
+                        "dining table": {
+                            "form": "wooden table",
+                            "scale": "normal",
+                            "role": "desk surface for calligraphy"
+                        },
+                        "scroll": {
+                            "form": "unfurled parchment",
+                            "scale": "normal",
+                            "role": "document for writing/reading"
+                        },
+                        "sword": {
+                            "form": "ornate sword",
+                            "scale": "normal",
+                            "role": "decorative wall hanging"
+                        }
+                    }
+                },
+                {
+                    "scene_type": "Traditional Banquet Hall",
+                    "plausibility": 0.9,
+                    "reasoning": "In a formal banquet, a dining table is central. A scroll can serve as a decorative table runner or a menu. A sword might be part of a ceremonial guard's attire or a display piece on the wall behind the table.",
+                    "object_interpretations": {
+                        "dining table": {
+                            "form": "long banquet table",
+                            "scale": "large",
+                            "role": "main dining surface"
+                        },
+                        "scroll": {
+                            "form": "decorative fabric runner",
+                            "scale": "long",
+                            "role": "table decoration"
+                        },
+                        "sword": {
+                            "form": "ceremonial sword",
+                            "scale": "normal",
+                            "role": "wall decoration"
+                        }
+                    }
+                },
+                {
+                    "scene_type": "Warlord's Chamber",
+                    "plausibility": 0.85,
+                    "reasoning": "A warlord might use a sturdy dining table for planning campaigns, spreading maps (scrolls). The sword is his personal weapon, resting on the table or nearby, ready for action.",
+                    "object_interpretations": {
+                        "dining table": {
+                            "form": "heavy wooden table",
+                            "scale": "normal",
+                            "role": "strategy table"
+                        },
+                        "scroll": {
+                            "form": "map scroll",
+                            "scale": "normal",
+                            "role": "tactical map"
+                        },
+                        "sword": {
+                            "form": "battle sword",
+                            "scale": "normal",
+                            "role": "personal weapon"
+                        }
+                    }
+                },
+                {
+                    "scene_type": "Ink Painting Art Studio",
+                    "plausibility": 0.8,
+                    "reasoning": "The dining table serves as the artist's workbench. The scroll is the artwork being created. The sword is a prop or an object of inspiration, perhaps used to study the dynamics of movement for painting.",
+                    "object_interpretations": {
+                        "dining table": {
+                            "form": "ink-stained table",
+                            "scale": "normal",
+                            "role": "artist's workbench"
+                        },
+                        "scroll": {
+                            "form": "partially painted scroll",
+                            "scale": "normal",
+                            "role": "artwork in progress"
+                        },
+                        "sword": {
+                            "form": "practice sword",
+                            "scale": "normal",
+                            "role": "artist's reference object"
+                        }
+                    }
+                },
+                {
+                    "scene_type": "Temple Courtyard",
+                    "plausibility": 0.75,
+                    "reasoning": "An outdoor setting where a simple table holds offerings. A scroll could be a prayer text or sutra. A sword might be a ritualistic object used in martial arts demonstrations or as a guardian symbol.",
+                    "object_interpretations": {
+                        "dining table": {
+                            "form": "stone or low wooden table",
+                            "scale": "normal",
+                            "role": "offering altar"
+                        },
+                        "scroll": {
+                            "form": "sutra scroll",
+                            "scale": "normal",
+                            "role": "religious text"
+                        },
+                        "sword": {
+                            "form": "ritual sword",
+                            "scale": "normal",
+                            "role": "symbol of protection"
+                        }
+                    }
+                },
+                {
+                    "scene_type": "Tea House",
+                    "plausibility": 0.7,
+                    "reasoning": "A tea house setting where a table is used for tea ceremony. A scroll might be displayed on the wall or used as a placemat. A sword could be a decorative piece owned by a patron or host.",
+                    "object_interpretations": {
+                        "dining table": {
+                            "form": "low tea table",
+                            "scale": "small",
+                            "role": "tea service surface"
+                        },
+                        "scroll": {
+                            "form": "calligraphy scroll",
+                            "scale": "small",
+                            "role": "wall art"
+                        },
+                        "sword": {
+                            "form": "small dagger",
+                            "scale": "small",
+                            "role": "personal accessory"
+                        }
+                    }
+                },
+                {
+                    "scene_type": "Historical Reenactment Stage",
+                    "plausibility": 0.85,
+                    "reasoning": "A stage set for a historical play. The dining table is a prop. The scroll is a prop document. The sword is a prop weapon used in the performance.",
+                    "object_interpretations": {
+                        "dining table": {
+                            "form": "stage prop table",
+                            "scale": "normal",
+                            "role": "set piece"
+                        },
+                        "scroll": {
+                            "form": "prop scroll",
+                            "scale": "normal",
+                            "role": "script prop"
+                        },
+                        "sword": {
+                            "form": "stage sword",
+                            "scale": "normal",
+                            "role": "prop weapon"
+                        }
+                    }
+                },
+                {
+                    "scene_type": "Museum Display",
+                    "plausibility": 0.9,
+                    "reasoning": "A museum exhibit showcasing artifacts. The dining table is an antique piece. The scroll and sword are displayed on or near the table as historical artifacts.",
+                    "object_interpretations": {
+                        "dining table": {
+                            "form": "antique table",
+                            "scale": "normal",
+                            "role": "display pedestal"
+                        },
+                        "scroll": {
+                            "form": "ancient manuscript",
+                            "scale": "normal",
+                            "role": "exhibited artifact"
+                        },
+                        "sword": {
+                            "form": "historical weapon",
+                            "scale": "normal",
+                            "role": "exhibited artifact"
+                        }
+                    },
+                    "scene_brief": "A Museum Display featuring dining table, with scroll, and sword"
+                }
+            ],
+            "selected_scene": {
+                "scene_type": "Museum Display",
+                "plausibility": 0.9,
+                "reasoning": "A museum exhibit showcasing artifacts. The dining table is an antique piece. The scroll and sword are displayed on or near the table as historical artifacts.",
+                "object_interpretations": {
+                    "dining table": {
+                        "form": "antique table",
+                        "scale": "normal",
+                        "role": "display pedestal"
+                    },
+                    "scroll": {
+                        "form": "ancient manuscript",
+                        "scale": "normal",
+                        "role": "exhibited artifact"
+                    },
+                    "sword": {
+                        "form": "historical weapon",
+                        "scale": "normal",
+                        "role": "exhibited artifact"
+                    }
+                },
+                "scene_brief": "A Museum Display featuring dining table, with scroll, and sword"
+            }
+        }
+    },
+    "final_prompts": {
+        "main_prompt": "A Chinese Ink Painting painting depicting a quiet afternoon scene in a scholar's studio. In the foreground, a large, pristine dining table of deep mahogany brown with warm amber highlights dominates the composition. Upon its polished surface rests a medium-sized, fragile scroll of aged cream parchment with faded sepia ink markings, positioned directly beside an immaculate, medium-length sword with a silver-gray blade and deep blue-black fittings. The scroll lies partially unrolled next to the sword, creating a diagonal compositional line. Soft afternoon light filters through paper lattice windows, casting mixed, gentle shadows that blend with the ink washes. The atmosphere is bright yet serene, active in its detailed brushwork but gentle in its overall mood, with subtle ink gradations suggesting the quiet passage of time. In the background, minimalist suggestions of wooden shelves and calligraphy brushes complete the scholarly environment, all rendered in the expressive monochrome palette and fluid brushstrokes characteristic of classical ink painting.",
+        "negative_prompt": "photorealistic, 3d render, modern, digital art, photograph, low quality, blurry, distorted, colorful, vibrant colors, anime, cartoon, western painting, oil painting, watercolor, abstract",
+        "prompt_formats": {
+            "simple": "A Chinese ink painting of a dining table with a scroll and sword in afternoon light.",
+            "complex": "A Chinese Ink Painting painting depicting a quiet afternoon scene in a scholar's studio. In the foreground, a large, pristine dining table of deep mahogany brown with warm amber highlights dominates the composition. Upon its polished surface rests a medium-sized, fragile scroll of aged cream parchment with faded sepia ink markings, positioned directly beside an immaculate, medium-length sword with a silver-gray blade and deep blue-black fittings. The scroll lies partially unrolled next to the sword, creating a diagonal compositional line. Soft afternoon light filters through paper lattice windows, casting mixed, gentle shadows that blend with the ink washes. The atmosphere is bright yet serene, active in its detailed brushwork but gentle in its overall mood, with subtle ink gradations suggesting the quiet passage of time. In the background, minimalist suggestions of wooden shelves and calligraphy brushes complete the scholarly environment, all rendered in the expressive monochrome palette and fluid brushstrokes characteristic of classical ink painting.",
+            "comma_separated": "Chinese Ink Painting, dining table, scroll, sword, large mahogany table, aged cream scroll, silver-gray sword, scroll on table, sword on table, scroll next to sword, afternoon lighting, soft light, bright active gentle atmosphere, scholar's studio, ink wash, brushstrokes, monochrome",
+            "tags": "art, painting, chinese ink painting, ink wash, sumi-e, scholar's studio, dining table, scroll, sword, afternoon light, traditional art, monochrome, brushwork, composition"
+        }
+    }
+}

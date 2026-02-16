@@ -1,0 +1,264 @@
+{
+    "artwork_id": "artwork_20260104_005446_392",
+    "generation_timestamp": "2026-01-04T00:55:21.296754",
+    "style": "Neoclassicism",
+    "objects": {
+        "object_ids": [
+            26,
+            5,
+            78
+        ],
+        "object_names": [
+            "umbrella",
+            "airship",
+            "toy"
+        ],
+        "enhanced_objects": [
+            {
+                "object_id": 26,
+                "name": "umbrella",
+                "artistic_description": "A classical parasol with a taut silk canopy in deep indigo, its surface catching the warm amber glow of stage footlights while the underside glows with a soft violet luminescence. The polished mahogany handle curves gracefully with a burnished brass finial that reflects scattered highlights of copper and gold. Fine droplets of condensation cling to the fabric's waxy surface, creating tiny prismatic glints where the mixed lighting refracts through them.",
+                "size": "Medium",
+                "state": "pristine ceremonial parasol, slightly dewed from indoor humidity",
+                "primary_colors": [
+                    "deep indigo",
+                    "warm amber"
+                ],
+                "material": "silk, mahogany, brass"
+            },
+            {
+                "object_id": 5,
+                "name": "airship",
+                "artistic_description": "A miniature dirigible rendered in the neoclassical style, its envelope crafted from stretched parchment-like fabric in muted ochre and sepia tones. The wicker gondola beneath glows with a warm honey color where spotlights hit its woven texture, while shadowed areas fall into cool slate grays. Delicate gold leaf trim along the rigging catches the light in thin, luminous threads, and the entire vessel appears suspended in a gentle haze that softens its edges.",
+                "size": "Large",
+                "state": "theatrical prop with weathered patina and gilded accents",
+                "primary_colors": [
+                    "ochre",
+                    "sepia"
+                ],
+                "material": "parchment, wicker, gold leaf"
+            },
+            {
+                "object_id": 78,
+                "name": "toy",
+                "artistic_description": "A small wooden soldier figure with painted details that appear muted and velvety under the dim evening lighting. Its crimson coat deepens to burgundy in shadow while catching muted highlights of burnt sienna where the mixed light strikes its rounded form. The polished wooden base reflects a faint, warm glow, and the metallic buttons glint with subdued pewter tones. A fine layer of stage dust softens the contours, giving the surface a matte, almost powdery appearance.",
+                "size": "Small",
+                "state": "vintage wooden toy with gentle wear and softened paint",
+                "primary_colors": [
+                    "burgundy",
+                    "burnt sienna"
+                ],
+                "material": "wood, paint, metal"
+            }
+        ]
+    },
+    "composition": {
+        "spatial_relations": [
+            [
+                78,
+                "on",
+                26
+            ],
+            [
+                5,
+                "behind",
+                26
+            ],
+            [
+                5,
+                "above",
+                78
+            ]
+        ],
+        "semantic_relations": []
+    },
+    "environment": {
+        "environment_details": {
+            "scene_brief": "A Neoclassical Opera Set Design featuring umbrella, with airship, and toy",
+            "place365_name": "/r/room",
+            "place365_id": 21,
+            "time_of_day": "evening",
+            "weather": null,
+            "period": "Classical",
+            "is_indoor": true,
+            "lighting": {
+                "type": "mixed",
+                "quality": "dramatic",
+                "direction": "front-lit",
+                "mood": "warm",
+                "reasoning": "Opera sets utilize theatrical lighting (artificial) to create drama and focus. 'Mixed' accounts for potential ambient light, but 'Artificial' is primary. 'Dramatic' lighting highlights the grandeur of Neoclassicism and the theatrical nature. 'Front-lit' ensures the objects (umbrella, airship, toy) and set details are clearly visible to the audience. 'Warm' lighting creates an inviting and rich atmosphere suitable for a performance."
+            },
+            "atmosphere": "calm and relaxed and striking"
+        },
+        "scene_inference": {
+            "all_candidates": [
+                {
+                    "scene_type": "Neoclassical Museum Gallery",
+                    "plausibility": 0.95,
+                    "reasoning": "A grand museum hall displaying historical artifacts. The umbrella is a prop for a period mannequin. The airship is a large, detailed architectural model hanging from the ceiling. The toy is a vintage child's plaything in a display case.",
+                    "object_interpretations": {
+                        "umbrella": {
+                            "form": "real object",
+                            "scale": "normal",
+                            "role": "historical accessory"
+                        },
+                        "airship": {
+                            "form": "scale model",
+                            "scale": "large (architectural)",
+                            "role": "centerpiece exhibit"
+                        },
+                        "toy": {
+                            "form": "vintage toy",
+                            "scale": "miniature",
+                            "role": "displayed artifact"
+                        }
+                    }
+                },
+                {
+                    "scene_type": "Neoclassical Salon",
+                    "plausibility": 0.9,
+                    "reasoning": "An opulent 18th-century reception room. An umbrella rests in a stand. A small airship model sits on a mantelpiece as a curiosity. A toy is a decorative porcelain figure on a table.",
+                    "object_interpretations": {
+                        "umbrella": {
+                            "form": "real object",
+                            "scale": "normal",
+                            "role": "utility item"
+                        },
+                        "airship": {
+                            "form": "sculpture",
+                            "scale": "small",
+                            "role": "curio/decoration"
+                        },
+                        "toy": {
+                            "form": "figurine",
+                            "scale": "small",
+                            "role": "decoration"
+                        }
+                    }
+                },
+                {
+                    "scene_type": "Neoclassical Garden",
+                    "plausibility": 0.85,
+                    "reasoning": "A formal garden with geometric hedges. An umbrella provides shade for a statue. A toy airship is a whimsical topiary or sculpture. A toy is a child's forgotten ball on the path.",
+                    "object_interpretations": {
+                        "umbrella": {
+                            "form": "real object",
+                            "scale": "normal",
+                            "role": "garden accessory"
+                        },
+                        "airship": {
+                            "form": "topiary/sculpture",
+                            "scale": "large",
+                            "role": "garden ornament"
+                        },
+                        "toy": {
+                            "form": "real toy",
+                            "scale": "normal",
+                            "role": "prop"
+                        }
+                    }
+                },
+                {
+                    "scene_type": "Neoclassical Artist's Studio",
+                    "plausibility": 0.8,
+                    "reasoning": "A studio with classical busts and draped fabrics. An umbrella is a prop for a painting. An airship model is a study of mechanics. A toy is a simple wooden figure on a workbench.",
+                    "object_interpretations": {
+                        "umbrella": {
+                            "form": "real object",
+                            "scale": "normal",
+                            "role": "artist's prop"
+                        },
+                        "airship": {
+                            "form": "technical model",
+                            "scale": "medium",
+                            "role": "study subject"
+                        },
+                        "toy": {
+                            "form": "handcrafted toy",
+                            "scale": "small",
+                            "role": "still life object"
+                        }
+                    }
+                },
+                {
+                    "scene_type": "Neoclassical Opera Set Design",
+                    "plausibility": 0.75,
+                    "reasoning": "A theatrical stage set painted in the Neoclassical style. The umbrella is a prop. The airship is a suspended scenic element. The toy is part of a scene depicting childhood.",
+                    "object_interpretations": {
+                        "umbrella": {
+                            "form": "theatrical prop",
+                            "scale": "normal",
+                            "role": "stage element"
+                        },
+                        "airship": {
+                            "form": "scenic backdrop/hanging",
+                            "scale": "variable",
+                            "role": "set decoration"
+                        },
+                        "toy": {
+                            "form": "theatrical prop",
+                            "scale": "normal",
+                            "role": "storytelling element"
+                        }
+                    },
+                    "scene_brief": "A Neoclassical Opera Set Design featuring umbrella, with airship, and toy"
+                },
+                {
+                    "scene_type": "Neoclassical Library",
+                    "plausibility": 0.7,
+                    "reasoning": "A stately library with tall shelves. An umbrella leans against a bookcase. A toy airship is a decorative paperweight on a desk. A toy is a child's alphabet block on the floor.",
+                    "object_interpretations": {
+                        "umbrella": {
+                            "form": "real object",
+                            "scale": "normal",
+                            "role": "forgotten item"
+                        },
+                        "airship": {
+                            "form": "paperweight",
+                            "scale": "small",
+                            "role": "desk accessory"
+                        },
+                        "toy": {
+                            "form": "wooden toy",
+                            "scale": "small",
+                            "role": "prop"
+                        }
+                    }
+                }
+            ],
+            "selected_scene": {
+                "scene_type": "Neoclassical Opera Set Design",
+                "plausibility": 0.75,
+                "reasoning": "A theatrical stage set painted in the Neoclassical style. The umbrella is a prop. The airship is a suspended scenic element. The toy is part of a scene depicting childhood.",
+                "object_interpretations": {
+                    "umbrella": {
+                        "form": "theatrical prop",
+                        "scale": "normal",
+                        "role": "stage element"
+                    },
+                    "airship": {
+                        "form": "scenic backdrop/hanging",
+                        "scale": "variable",
+                        "role": "set decoration"
+                    },
+                    "toy": {
+                        "form": "theatrical prop",
+                        "scale": "normal",
+                        "role": "storytelling element"
+                    }
+                },
+                "scene_brief": "A Neoclassical Opera Set Design featuring umbrella, with airship, and toy"
+            }
+        }
+    },
+    "final_prompts": {
+        "main_prompt": "A Neoclassicism painting depicting a calm and relaxed yet striking evening scene. In the foreground, a pristine ceremonial parasol of deep indigo silk with warm amber accents stands upright, its mahogany handle planted firmly. Upon its taut silk canopy rests a small vintage wooden toy in burgundy and burnt sienna, showing gentle wear. Soaring in the midground, behind and above the umbrella, is a large theatrical airship with a weathered patina, its ochre and sepia envelope of parchment and wicker contrasting against the dusky sky. The mixed dramatic lighting of the evening casts long, soft shadows and highlights the gold leaf and brass details on the objects, creating a serene, composed atmosphere with a sense of quiet grandeur.",
+        "negative_prompt": "photorealistic, 3d render, modern, digital art, photograph, low quality, blurry, distorted, ugly, deformed, noisy, watermark, text, signature, cartoon, anime, abstract, surrealism, impressionism",
+        "prompt_formats": {
+            "simple": "A Neoclassical evening scene with a ceremonial umbrella holding a vintage toy, and a weathered airship in the background.",
+            "complex": "A Neoclassicism painting depicting a calm and relaxed yet striking evening scene. In the foreground, a pristine ceremonial parasol of deep indigo silk with warm amber accents stands upright, its mahogany handle planted firmly. Upon its taut silk canopy rests a small vintage wooden toy in burgundy and burnt sienna, showing gentle wear. Soaring in the midground, behind and above the umbrella, is a large theatrical airship with a weathered patina, its ochre and sepia envelope of parchment and wicker contrasting against the dusky sky. The mixed dramatic lighting of the evening casts long, soft shadows and highlights the gold leaf and brass details on the objects, creating a serene, composed atmosphere with a sense of quiet grandeur.",
+            "comma_separated": "Neoclassicism painting, ceremonial umbrella, deep indigo, warm amber, vintage wooden toy, burgundy, burnt sienna, theatrical airship, ochre, sepia, weathered patina, evening, dramatic lighting, calm, relaxed, striking atmosphere, serene composition",
+            "tags": "art, painting, neoclassicism, historical art, ceremonial parasol, vintage toy, airship prop, evening scene, dramatic lighting, silk, mahogany, brass, parchment, wicker, gold leaf"
+        }
+    }
+}

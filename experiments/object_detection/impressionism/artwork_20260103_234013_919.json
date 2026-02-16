@@ -1,0 +1,259 @@
+{
+    "artwork_id": "artwork_20260103_234013_919",
+    "generation_timestamp": "2026-01-03T23:40:55.666453",
+    "style": "Impressionism",
+    "objects": {
+        "object_ids": [
+            5,
+            57,
+            60
+        ],
+        "object_names": [
+            "airship",
+            "folding chair",
+            "bed frame"
+        ],
+        "enhanced_objects": [
+            {
+                "object_id": 5,
+                "name": "airship",
+                "artistic_description": "A luminous, ethereal form suspended in the studio's morning light, its envelope catching the sun's fresh radiance with soft, diffused edges. The natural illumination creates gentle highlights of pale gold and warm cream across its surface, while subtle shadows in cool lavender-gray suggest its volumetric presence. The material appears to dissolve into the bright atmosphere, with broken brushstrokes of light suggesting movement and airiness.",
+                "size": "Dominant",
+                "state": "gracefully weathered from contemporary use, its surface showing delicate wear that catches light in scattered points",
+                "primary_colors": [
+                    "luminous cream",
+                    "pale gold"
+                ],
+                "material": "fabric"
+            },
+            {
+                "object_id": 57,
+                "name": "folding chair",
+                "artistic_description": "A crisp silhouette rendered in dappled morning sunlight, its angular form defined by sharp contrasts of warm amber highlights and cool blue-gray shadows. The natural light reveals subtle variations in its painted surface, with scattered flecks of pure white where sun strikes directly. Its metallic components catch and scatter the bright illumination into quick, shimmering notes of silver and chrome.",
+                "size": "Medium",
+                "state": "contemporary wear with scuffed edges and faint rust spots that glint in the sunlight",
+                "primary_colors": [
+                    "warm amber",
+                    "cool blue-gray"
+                ],
+                "material": "metal"
+            },
+            {
+                "object_id": 60,
+                "name": "bed frame",
+                "artistic_description": "A solid, grounding presence painted in loose, visible strokes of shadow and light. Morning sun streams across its wooden surface, creating warm patches of honey-gold where the grain catches the light, while recessed areas fall into soft, violet-tinged shadows. The natural illumination reveals the tactile history of the wood through subtle variations in tone and texture, with atmospheric perspective softening its edges into the bright studio air.",
+                "size": "Large",
+                "state": "contemporary with gentle aging, showing smooth wear patterns and a matte patina that absorbs and diffuses light",
+                "primary_colors": [
+                    "honey-gold",
+                    "violet-gray"
+                ],
+                "material": "wood"
+            }
+        ]
+    },
+    "composition": {
+        "spatial_relations": [
+            [
+                5,
+                "in",
+                60
+            ],
+            [
+                57,
+                "next to",
+                60
+            ]
+        ],
+        "semantic_relations": []
+    },
+    "environment": {
+        "environment_details": {
+            "scene_brief": "A art studio featuring airship, with folding chair, and bed frame",
+            "place365_name": "/a/art_studio",
+            "place365_id": 21,
+            "time_of_day": "morning",
+            "weather": "sunny",
+            "period": "Contemporary",
+            "is_indoor": true,
+            "lighting": {
+                "type": "natural",
+                "quality": "soft",
+                "direction": "side-lit",
+                "mood": "warm",
+                "reasoning": "Morning sun from a side direction would create soft, warm natural lighting that is quintessential to Impressionism. This lighting would gently illuminate the studio's interior elements while creating subtle gradations of color and shadow, allowing the artist to capture the ephemeral quality of light on different surfaces and forms."
+            },
+            "atmosphere": "fresh and energetic and cheerful and gentle"
+        },
+        "scene_inference": {
+            "all_candidates": [
+                {
+                    "scene_type": "Victorian airship hangar",
+                    "plausibility": 0.85,
+                    "reasoning": "The airship is the primary object moored inside a vast hangar. The bed frame is part of a mechanic's makeshift sleeping quarters within the hangar. The folding chair is for rest or observing work on the airship.",
+                    "object_interpretations": {
+                        "airship": {
+                            "form": "real airship",
+                            "scale": "large",
+                            "role": "primary object"
+                        },
+                        "bed frame": {
+                            "form": "real bed frame",
+                            "scale": "normal",
+                            "role": "functional furniture in living space"
+                        },
+                        "folding chair": {
+                            "form": "real folding chair",
+                            "scale": "normal",
+                            "role": "seating"
+                        }
+                    }
+                },
+                {
+                    "scene_type": "abandoned industrial loft",
+                    "plausibility": 0.8,
+                    "reasoning": "A large, abandoned loft space. A miniature airship model hangs from the ceiling. The bed frame and folding chair are part of leftover furniture, perhaps used by an artist or squatter.",
+                    "object_interpretations": {
+                        "airship": {
+                            "form": "model airship",
+                            "scale": "miniature",
+                            "role": "decorative hanging object"
+                        },
+                        "bed frame": {
+                            "form": "real bed frame",
+                            "scale": "normal",
+                            "role": "abandoned furniture"
+                        },
+                        "folding chair": {
+                            "form": "real folding chair",
+                            "scale": "normal",
+                            "role": "abandoned furniture"
+                        }
+                    }
+                },
+                {
+                    "scene_type": "surreal dreamscape",
+                    "plausibility": 0.9,
+                    "reasoning": "In a dream logic scene, an airship floats in the sky, but its gondola is furnished like a bedroom. The bed frame is the actual floor of the gondola, and a folding chair floats nearby.",
+                    "object_interpretations": {
+                        "airship": {
+                            "form": "real airship",
+                            "scale": "large",
+                            "role": "environment/vehicle"
+                        },
+                        "bed frame": {
+                            "form": "real bed frame",
+                            "scale": "large",
+                            "role": "structural floor of gondola"
+                        },
+                        "folding chair": {
+                            "form": "real folding chair",
+                            "scale": "normal",
+                            "role": "floating furniture"
+                        }
+                    }
+                },
+                {
+                    "scene_type": "art studio",
+                    "plausibility": 0.75,
+                    "reasoning": "An artist is painting an airship. The bed frame is a prop for draping fabric, and the folding chair is where the artist sits to paint.",
+                    "object_interpretations": {
+                        "airship": {
+                            "form": "painting of airship",
+                            "scale": "normal (2D)",
+                            "role": "subject of art"
+                        },
+                        "bed frame": {
+                            "form": "real bed frame",
+                            "scale": "normal",
+                            "role": "studio prop"
+                        },
+                        "folding chair": {
+                            "form": "real folding chair",
+                            "scale": "normal",
+                            "role": "seating"
+                        }
+                    },
+                    "scene_brief": "A art studio featuring airship, with folding chair, and bed frame"
+                },
+                {
+                    "scene_type": "vintage travel poster",
+                    "plausibility": 0.8,
+                    "reasoning": "A stylized scene depicting a luxury airship travel experience. The airship is in the background. In the foreground, a deck chair (folding chair) and a daybed (bed frame) are set up on a viewing deck.",
+                    "object_interpretations": {
+                        "airship": {
+                            "form": "real airship",
+                            "scale": "distant/large",
+                            "role": "background subject"
+                        },
+                        "bed frame": {
+                            "form": "daybed",
+                            "scale": "normal",
+                            "role": "outdoor furniture"
+                        },
+                        "folding chair": {
+                            "form": "deck chair",
+                            "scale": "normal",
+                            "role": "outdoor furniture"
+                        }
+                    }
+                },
+                {
+                    "scene_type": "junkyard sculpture garden",
+                    "plausibility": 0.7,
+                    "reasoning": "An art installation made of scrap metal. The airship is a sculpture welded from junk. The bed frame and folding chair are part of the surrounding debris or integrated into the sculpture.",
+                    "object_interpretations": {
+                        "airship": {
+                            "form": "sculpture",
+                            "scale": "large",
+                            "role": "art piece"
+                        },
+                        "bed frame": {
+                            "form": "real bed frame",
+                            "scale": "normal",
+                            "role": "junk/debris"
+                        },
+                        "folding chair": {
+                            "form": "real folding chair",
+                            "scale": "normal",
+                            "role": "junk/debris"
+                        }
+                    }
+                }
+            ],
+            "selected_scene": {
+                "scene_type": "art studio",
+                "plausibility": 0.75,
+                "reasoning": "An artist is painting an airship. The bed frame is a prop for draping fabric, and the folding chair is where the artist sits to paint.",
+                "object_interpretations": {
+                    "airship": {
+                        "form": "painting of airship",
+                        "scale": "normal (2D)",
+                        "role": "subject of art"
+                    },
+                    "bed frame": {
+                        "form": "real bed frame",
+                        "scale": "normal",
+                        "role": "studio prop"
+                    },
+                    "folding chair": {
+                        "form": "real folding chair",
+                        "scale": "normal",
+                        "role": "seating"
+                    }
+                },
+                "scene_brief": "A art studio featuring airship, with folding chair, and bed frame"
+            }
+        }
+    },
+    "final_prompts": {
+        "main_prompt": "A Impressionism painting depicting a luminous cream and pale gold airship gracefully weathered from contemporary use, nestled within the honey-gold and violet-gray bed frame of gentle contemporary aging, with a warm amber and cool blue-gray folding chair showing scuffed edges from wear placed beside the bed frame. The composition arranges the large bed frame and its contained airship in the foreground, the medium-sized folding chair in the midground, and a soft morning environment in the background. Natural soft morning light filters through, casting gentle shadows and highlighting the textures of fabric, metal, and wood, creating a fresh, energetic, cheerful, and gentle atmosphere with visible brushstrokes capturing the play of light and color.",
+        "negative_prompt": "photorealistic, 3d render, modern, digital art, photograph, low quality, blurry, distorted, surreal, fantasy, cartoon, anime, hyperrealistic, oversaturated, dark, gloomy, night scene, harsh lighting",
+        "prompt_formats": {
+            "simple": "An Impressionist painting of a weathered airship in a bed frame with a folding chair beside it in soft morning light.",
+            "complex": "A Impressionism painting depicting a luminous cream and pale gold airship gracefully weathered from contemporary use, nestled within the honey-gold and violet-gray bed frame of gentle contemporary aging, with a warm amber and cool blue-gray folding chair showing scuffed edges from wear placed beside the bed frame. The composition arranges the large bed frame and its contained airship in the foreground, the medium-sized folding chair in the midground, and a soft morning environment in the background. Natural soft morning light filters through, casting gentle shadows and highlighting the textures of fabric, metal, and wood, creating a fresh, energetic, cheerful, and gentle atmosphere with visible brushstrokes capturing the play of light and color.",
+            "comma_separated": "Impressionism painting, airship in bed frame, folding chair beside bed frame, luminous cream pale gold airship, honey-gold violet-gray bed frame, warm amber cool blue-gray folding chair, soft morning light, fresh energetic cheerful gentle atmosphere, visible brushstrokes, natural lighting, fabric metal wood textures",
+            "tags": "art, painting, impressionism, airship, bed frame, folding chair, morning light, soft lighting, textured brushwork, color harmony, contemporary objects, gentle atmosphere"
+        }
+    }
+}

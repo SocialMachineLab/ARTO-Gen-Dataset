@@ -1,0 +1,303 @@
+{
+    "artwork_id": "artwork_20260103_235645_472",
+    "generation_timestamp": "2026-01-03T23:57:13.232180",
+    "style": "Impressionism",
+    "objects": {
+        "object_ids": [
+            57,
+            75,
+            46
+        ],
+        "object_names": [
+            "chair",
+            "clock",
+            "glass bowl"
+        ],
+        "enhanced_objects": [
+            {
+                "object_id": 57,
+                "name": "chair",
+                "artistic_description": "Soft-edged wooden chair rendered in muted grays and warm ochres, its surface catching the cool, diffused morning light through cloud-filtered windows. Brushstrokes suggest the gentle wear of daily use, with subtle highlights of pale blue-gray where light grazes the rounded edges of the backrest and seat, creating a gentle, atmospheric presence",
+                "size": "Large",
+                "state": "gently worn contemporary wooden chair with smooth patina",
+                "primary_colors": [
+                    "muted ochre",
+                    "cool gray-blue"
+                ],
+                "material": "wood"
+            },
+            {
+                "object_id": 75,
+                "name": "clock",
+                "artistic_description": "Circular face rendered in soft whites and pale creams, its numbers dissolving into the diffused morning atmosphere. The pale hands catch faint reflections of the cloudy sky, while the brushed metal frame emits subtle cool tones, its edges softened by the gentle, even light that eliminates harsh shadows",
+                "size": "Medium",
+                "state": "contemporary analog wall clock with clean, minimalist design",
+                "primary_colors": [
+                    "soft cream",
+                    "pale silver"
+                ],
+                "material": "metal"
+            },
+            {
+                "object_id": 46,
+                "name": "glass bowl",
+                "artistic_description": "Translucent vessel capturing the muted grays of the cloudy morning, its curved surface refracting gentle, cool light into soft prismatic hints. The glass appears almost ethereal, with loose, flowing brushstrokes suggesting its delicate form and the way the subdued atmosphere mutes its reflections into whispers of pale blue and silver",
+                "size": "Small",
+                "state": "clear contemporary glass bowl with smooth, reflective surface",
+                "primary_colors": [
+                    "pale blue",
+                    "silver"
+                ],
+                "material": "glass"
+            }
+        ]
+    },
+    "composition": {
+        "spatial_relations": [
+            [
+                57,
+                "next to",
+                75
+            ],
+            [
+                46,
+                "on",
+                57
+            ]
+        ],
+        "semantic_relations": []
+    },
+    "environment": {
+        "environment_details": {
+            "scene_brief": "A Bedroom centered around chair, with clock, and glass bowl",
+            "place365_name": "/b/bedroom",
+            "place365_id": 52,
+            "time_of_day": "morning",
+            "weather": "cloudy",
+            "period": "Contemporary",
+            "is_indoor": true,
+            "lighting": {
+                "type": "natural",
+                "quality": "soft",
+                "direction": "side-lit",
+                "mood": "cool",
+                "reasoning": "Morning light filtered through clouds creates soft, cool-toned natural lighting. Side-lit illumination from a window would beautifully highlight the chair and glass bowl, creating subtle reflections and shadows that Impressionism captures through loose brushwork and color interplay."
+            },
+            "atmosphere": "fresh and energetic and subdued and gentle"
+        },
+        "scene_inference": {
+            "all_candidates": [
+                {
+                    "scene_type": "Victorian living room",
+                    "plausibility": 0.95,
+                    "reasoning": "A classic sitting area with a comfortable chair for reading, a mantel clock marking the passage of time, and a glass bowl on a side table for holding decorative items or fruit.",
+                    "object_interpretations": {
+                        "chair": {
+                            "form": "real furniture",
+                            "scale": "normal",
+                            "role": "primary seating object"
+                        },
+                        "clock": {
+                            "form": "real mantel clock",
+                            "scale": "normal",
+                            "role": "secondary decorative and functional object"
+                        },
+                        "glass bowl": {
+                            "form": "real decorative bowl",
+                            "scale": "normal",
+                            "role": "secondary decorative object"
+                        }
+                    }
+                },
+                {
+                    "scene_type": "Sunlit breakfast nook",
+                    "plausibility": 0.9,
+                    "reasoning": "A bright corner for morning coffee, where a chair sits at a small table, a clock on the wall tracks time, and a glass bowl filled with fruit serves as a centerpiece.",
+                    "object_interpretations": {
+                        "chair": {
+                            "form": "real dining chair",
+                            "scale": "normal",
+                            "role": "primary functional object"
+                        },
+                        "clock": {
+                            "form": "wall clock",
+                            "scale": "normal",
+                            "role": "secondary functional object"
+                        },
+                        "glass bowl": {
+                            "form": "real serving bowl",
+                            "scale": "normal",
+                            "role": "secondary functional/decorative object"
+                        }
+                    }
+                },
+                {
+                    "scene_type": "Art studio",
+                    "plausibility": 0.85,
+                    "reasoning": "An artist's workspace where a simple chair awaits a model, a clock provides reference for time, and a glass bowl serves as a still-life subject for a painting.",
+                    "object_interpretations": {
+                        "chair": {
+                            "form": "real wooden chair",
+                            "scale": "normal",
+                            "role": "primary subject/object for sitting"
+                        },
+                        "clock": {
+                            "form": "real wall clock",
+                            "scale": "normal",
+                            "role": "secondary environmental detail"
+                        },
+                        "glass bowl": {
+                            "form": "real glass bowl",
+                            "scale": "normal",
+                            "role": "secondary prop for still-life"
+                        }
+                    }
+                },
+                {
+                    "scene_type": "Vintage shop interior",
+                    "plausibility": 0.8,
+                    "reasoning": "A cluttered antique store where a chair is for sale, a clock sits on a shelf among other items, and a glass bowl is displayed as a piece of glassware.",
+                    "object_interpretations": {
+                        "chair": {
+                            "form": "real antique chair",
+                            "scale": "normal",
+                            "role": "primary merchandise"
+                        },
+                        "clock": {
+                            "form": "real antique clock",
+                            "scale": "normal",
+                            "role": "secondary merchandise"
+                        },
+                        "glass bowl": {
+                            "form": "real antique bowl",
+                            "scale": "normal",
+                            "role": "secondary merchandise"
+                        }
+                    }
+                },
+                {
+                    "scene_type": "Minimalist Scandinavian interior",
+                    "plausibility": 0.85,
+                    "reasoning": "A clean, airy space with a signature wooden chair, a sleek modern clock on the wall, and a simple glass bowl on a side table as a single decorative accent.",
+                    "object_interpretations": {
+                        "chair": {
+                            "form": "real designer chair",
+                            "scale": "normal",
+                            "role": "primary furniture piece"
+                        },
+                        "clock": {
+                            "form": "real wall clock",
+                            "scale": "normal",
+                            "role": "secondary functional decor"
+                        },
+                        "glass bowl": {
+                            "form": "real glass bowl",
+                            "scale": "normal",
+                            "role": "secondary minimalist decor"
+                        }
+                    }
+                },
+                {
+                    "scene_type": "Bedroom",
+                    "plausibility": 0.9,
+                    "reasoning": "A personal space with a chair in the corner for putting on shoes, a clock on the nightstand for waking up, and a glass bowl on the dresser holding jewelry.",
+                    "object_interpretations": {
+                        "chair": {
+                            "form": "real accent chair",
+                            "scale": "normal",
+                            "role": "primary seating object"
+                        },
+                        "clock": {
+                            "form": "real alarm clock",
+                            "scale": "normal",
+                            "role": "secondary functional object"
+                        },
+                        "glass bowl": {
+                            "form": "real decorative bowl",
+                            "scale": "normal",
+                            "role": "secondary organizational object"
+                        }
+                    },
+                    "scene_brief": "A Bedroom centered around chair, with clock, and glass bowl"
+                },
+                {
+                    "scene_type": "Outdoor garden patio",
+                    "plausibility": 0.75,
+                    "reasoning": "A relaxing outdoor setting with a weather-resistant chair, a garden clock on a post, and a glass bowl on a table perhaps holding water for birds or decorative stones.",
+                    "object_interpretations": {
+                        "chair": {
+                            "form": "real patio chair",
+                            "scale": "normal",
+                            "role": "primary outdoor furniture"
+                        },
+                        "clock": {
+                            "form": "real outdoor clock",
+                            "scale": "normal",
+                            "role": "secondary decorative element"
+                        },
+                        "glass bowl": {
+                            "form": "real glass bowl",
+                            "scale": "normal",
+                            "role": "secondary decorative element"
+                        }
+                    }
+                },
+                {
+                    "scene_type": "Children's playroom",
+                    "plausibility": 0.7,
+                    "reasoning": "A playful space where a small chair is for the child, a toy clock teaches time, and a plastic glass bowl is used for sorting toys or as a play item.",
+                    "object_interpretations": {
+                        "chair": {
+                            "form": "toy chair",
+                            "scale": "small",
+                            "role": "primary child-sized furniture"
+                        },
+                        "clock": {
+                            "form": "toy learning clock",
+                            "scale": "small",
+                            "role": "secondary educational toy"
+                        },
+                        "glass bowl": {
+                            "form": "plastic play bowl",
+                            "scale": "small",
+                            "role": "secondary toy"
+                        }
+                    }
+                }
+            ],
+            "selected_scene": {
+                "scene_type": "Bedroom",
+                "plausibility": 0.9,
+                "reasoning": "A personal space with a chair in the corner for putting on shoes, a clock on the nightstand for waking up, and a glass bowl on the dresser holding jewelry.",
+                "object_interpretations": {
+                    "chair": {
+                        "form": "real accent chair",
+                        "scale": "normal",
+                        "role": "primary seating object"
+                    },
+                    "clock": {
+                        "form": "real alarm clock",
+                        "scale": "normal",
+                        "role": "secondary functional object"
+                    },
+                    "glass bowl": {
+                        "form": "real decorative bowl",
+                        "scale": "normal",
+                        "role": "secondary organizational object"
+                    }
+                },
+                "scene_brief": "A Bedroom centered around chair, with clock, and glass bowl"
+            }
+        }
+    },
+    "final_prompts": {
+        "main_prompt": "A Impressionism painting depicting a fresh and energetic yet subdued and gentle morning scene. In the foreground, a large, gently worn contemporary wooden chair in muted ochre and cool gray-blue tones stands prominently. On the seat of this chair rests a small, clear contemporary glass bowl with smooth curves, its pale blue and silver surfaces catching the soft natural morning light. To the side, a medium-sized contemporary analog wall clock in soft cream and pale silver hangs on the wall, its clean lines positioned next to the chair. The spatial arrangement shows the glass bowl placed upon the chair's seat, with the clock positioned beside the chair against the wall. The overall atmosphere is fresh and energetic yet simultaneously subdued and gentle, with morning light filtering softly through the space, illuminating the wood, metal, and glass materials with impressionistic brushstrokes that capture the interplay of light and color.",
+        "negative_prompt": "photorealistic, 3d render, modern, digital art, photograph, low quality, blurry, distorted, ugly, deformed, cartoon, anime, text, watermark, signature, frame, border",
+        "prompt_formats": {
+            "simple": "An Impressionist painting of a chair with a glass bowl on it and a clock beside it in soft morning light.",
+            "complex": "A Impressionism painting depicting a fresh and energetic yet subdued and gentle morning scene. In the foreground, a large, gently worn contemporary wooden chair in muted ochre and cool gray-blue tones stands prominently. On the seat of this chair rests a small, clear contemporary glass bowl with smooth curves, its pale blue and silver surfaces catching the soft natural morning light. To the side, a medium-sized contemporary analog wall clock in soft cream and pale silver hangs on the wall, its clean lines positioned next to the chair. The spatial arrangement shows the glass bowl placed upon the chair's seat, with the clock positioned beside the chair against the wall. The overall atmosphere is fresh and energetic yet simultaneously subdued and gentle, with morning light filtering softly through the space, illuminating the wood, metal, and glass materials with impressionistic brushstrokes that capture the interplay of light and color.",
+            "comma_separated": "Impressionism painting, large wooden chair, muted ochre, cool gray-blue, gently worn, glass bowl on chair, pale blue, silver, clear glass, analog wall clock, soft cream, pale silver, next to chair, morning light, natural soft lighting, fresh energetic atmosphere, subdued gentle mood, impressionistic brushstrokes, light and color interplay",
+            "tags": "art, painting, impressionism, still life, interior, morning light, chair, clock, glass bowl, wood texture, glass reflection, soft lighting, impressionist brushwork, color harmony"
+        }
+    }
+}

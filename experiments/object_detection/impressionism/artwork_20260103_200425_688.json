@@ -1,0 +1,173 @@
+{
+    "artwork_id": "artwork_20260103_200425_688",
+    "generation_timestamp": "2026-01-03T20:04:56.403747",
+    "style": "Impressionism",
+    "objects": {
+        "object_ids": [
+            60
+        ],
+        "object_names": [
+            "bed frame"
+        ],
+        "enhanced_objects": [
+            {
+                "object_id": 60,
+                "name": "bed frame",
+                "artistic_description": "Weathered wooden bed frame bathed in warm afternoon sunlight streaming through attic windows, creating dappled golden highlights across its aged surface. The natural light reveals subtle variations in the honey-brown wood grain, with soft impressionistic strokes suggesting decades of use. Dust motes dance in the sunbeams, catching light on the slightly matte, dry surface that shows gentle wear patterns and muted shadows in the crevices. The warm afternoon glow softens the harsh edges, creating a gentle interplay of light and shadow that transforms the utilitarian object into a study of time and memory.",
+                "size": "Large",
+                "state": "aged but stable, showing gentle wear from contemporary use",
+                "primary_colors": [
+                    "warm honey-brown",
+                    "golden amber"
+                ],
+                "material": "wood"
+            }
+        ]
+    },
+    "composition": {
+        "spatial_relations": [],
+        "semantic_relations": []
+    },
+    "environment": {
+        "environment_details": {
+            "scene_brief": "A attic storage featuring bed frame",
+            "place365_name": "/a/attic",
+            "place365_id": 26,
+            "time_of_day": "afternoon",
+            "weather": "sunny",
+            "period": "Contemporary",
+            "is_indoor": true,
+            "lighting": {
+                "type": "natural",
+                "quality": "soft",
+                "direction": "side-lit",
+                "reasoning": "Natural afternoon sunlight filtering through attic windows creates soft, diffused side lighting that captures the play of light and shadow on the bed frame and stored objects. The quality is soft due to atmospheric diffusion, ideal for Impressionist brushwork capturing fleeting light effects."
+            },
+            "atmosphere": "bright and active and cheerful and gentle"
+        },
+        "scene_inference": {
+            "all_candidates": [
+                {
+                    "scene_type": "bedroom",
+                    "plausibility": 0.95,
+                    "reasoning": "A bed frame is the primary functional object in a bedroom. In Impressionism, the scene would be captured with soft light, perhaps morning sun filtering through a window, creating a peaceful, intimate atmosphere.",
+                    "object_interpretations": {
+                        "bed frame": {
+                            "form": "real furniture",
+                            "scale": "normal",
+                            "role": "primary functional object"
+                        }
+                    }
+                },
+                {
+                    "scene_type": "antique shop interior",
+                    "plausibility": 0.9,
+                    "reasoning": "A bed frame could be a standalone piece or part of a larger collection in an antique shop. The style would emphasize the textures of aged wood and the play of light on dusty surfaces.",
+                    "object_interpretations": {
+                        "bed frame": {
+                            "form": "antique furniture",
+                            "scale": "normal",
+                            "role": "display piece"
+                        }
+                    }
+                },
+                {
+                    "scene_type": "artist's studio",
+                    "plausibility": 0.85,
+                    "reasoning": "An artist might use a bed frame as a subject for a still life, or it could be part of the studio's furniture. The Impressionist style would focus on the form and the light it casts.",
+                    "object_interpretations": {
+                        "bed frame": {
+                            "form": "studio furniture",
+                            "scale": "normal",
+                            "role": "subject or background element"
+                        }
+                    }
+                },
+                {
+                    "scene_type": "outdoor garden patio",
+                    "plausibility": 0.7,
+                    "reasoning": "A bed frame could be repurposed as a decorative garden trellis or a unique outdoor bench. The scene would be vibrant with natural light and foliage.",
+                    "object_interpretations": {
+                        "bed frame": {
+                            "form": "repurposed furniture",
+                            "scale": "normal",
+                            "role": "garden decoration"
+                        }
+                    }
+                },
+                {
+                    "scene_type": "vintage hotel room",
+                    "plausibility": 0.9,
+                    "reasoning": "Similar to a bedroom but with a more formal, historic feel. The bed frame is central, and the style would capture the ambiance of a bygone era through light and color.",
+                    "object_interpretations": {
+                        "bed frame": {
+                            "form": "hotel furniture",
+                            "scale": "normal",
+                            "role": "primary functional object"
+                        }
+                    }
+                },
+                {
+                    "scene_type": "flea market stall",
+                    "plausibility": 0.8,
+                    "reasoning": "A bed frame could be among various items for sale. The scene would be bustling with implied figures and a mix of light and shadow.",
+                    "object_interpretations": {
+                        "bed frame": {
+                            "form": "used furniture",
+                            "scale": "normal",
+                            "role": "item for sale"
+                        }
+                    }
+                },
+                {
+                    "scene_type": "attic storage",
+                    "plausibility": 0.75,
+                    "reasoning": "A bed frame stored away, perhaps covered in dust cloths. The scene would be atmospheric, with light coming from a single window.",
+                    "object_interpretations": {
+                        "bed frame": {
+                            "form": "stored furniture",
+                            "scale": "normal",
+                            "role": "background element"
+                        }
+                    },
+                    "scene_brief": "A attic storage featuring bed frame"
+                },
+                {
+                    "scene_type": "bedroom",
+                    "plausibility": 0.95,
+                    "reasoning": "A bed frame is the primary functional object in a bedroom. In Impressionism, the scene would be captured with soft light, perhaps morning sun filtering through a window, creating a peaceful, intimate atmosphere.",
+                    "object_interpretations": {
+                        "bed frame": {
+                            "form": "real furniture",
+                            "scale": "normal",
+                            "role": "primary functional object"
+                        }
+                    }
+                }
+            ],
+            "selected_scene": {
+                "scene_type": "attic storage",
+                "plausibility": 0.75,
+                "reasoning": "A bed frame stored away, perhaps covered in dust cloths. The scene would be atmospheric, with light coming from a single window.",
+                "object_interpretations": {
+                    "bed frame": {
+                        "form": "stored furniture",
+                        "scale": "normal",
+                        "role": "background element"
+                    }
+                },
+                "scene_brief": "A attic storage featuring bed frame"
+            }
+        }
+    },
+    "final_prompts": {
+        "main_prompt": "A Impressionism painting depicting a large, aged but stable bed frame in warm honey-brown and golden amber wood tones, positioned centrally in the foreground of a sunlit room. The bed frame dominates the composition, its substantial form anchoring the scene with visible wood grain and gentle wear that catches the soft afternoon light. Natural, soft illumination streams through unseen windows, casting elongated, dappled shadows across the floor and creating a bright, active, and cheerful atmosphere. The gentle, cheerful mood is enhanced by the interplay of light and color, with brushstrokes suggesting the vibrant, lively quality of a peaceful afternoon interior. The spatial arrangement emphasizes the bed frame as the focal point, surrounded by the implied space of a room filled with warm, gentle air and the quiet energy of daylight.",
+        "negative_prompt": "photorealistic, 3d render, modern, digital art, photograph, low quality, blurry, distorted, dark, gloomy, surreal, abstract, cartoon, anime, text, watermark, signature, frame, border, people, figures, animals",
+        "prompt_formats": {
+            "simple": "An Impressionist painting of a large honey-brown bed frame in a softly lit, cheerful afternoon room.",
+            "complex": "A Impressionism painting depicting a large, aged but stable bed frame in warm honey-brown and golden amber wood tones, positioned centrally in the foreground of a sunlit room. The bed frame dominates the composition, its substantial form anchoring the scene with visible wood grain and gentle wear that catches the soft afternoon light. Natural, soft illumination streams through unseen windows, casting elongated, dappled shadows across the floor and creating a bright, active, and cheerful atmosphere. The gentle, cheerful mood is enhanced by the interplay of light and color, with brushstrokes suggesting the vibrant, lively quality of a peaceful afternoon interior. The spatial arrangement emphasizes the bed frame as the focal point, surrounded by the implied space of a room filled with warm, gentle air and the quiet energy of daylight.",
+            "comma_separated": "Impressionism painting, large bed frame, warm honey-brown wood, golden amber tones, aged but stable, central foreground, soft natural afternoon light, bright cheerful gentle atmosphere, sunlit room, dappled shadows, vibrant brushstrokes, peaceful interior",
+            "tags": "art, painting, impressionism, bed frame, wooden furniture, interior, afternoon light, sunlit, cheerful, gentle, peaceful, brushstroke texture, color study"
+        }
+    }
+}

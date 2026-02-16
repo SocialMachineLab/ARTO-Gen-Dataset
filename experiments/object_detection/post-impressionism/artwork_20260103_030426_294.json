@@ -1,0 +1,345 @@
+{
+    "artwork_id": "artwork_20260103_030426_294",
+    "generation_timestamp": "2026-01-03T03:05:02.513759",
+    "style": "Post-Impressionism",
+    "objects": {
+        "object_ids": [
+            74,
+            72,
+            60,
+            26
+        ],
+        "object_names": [
+            "book",
+            "sink",
+            "hammock",
+            "canopy"
+        ],
+        "enhanced_objects": [
+            {
+                "object_id": 74,
+                "name": "book",
+                "artistic_description": "A paperback novel with pages slightly curled from humidity, its cover displaying vibrant saturated colors that glow intensely in the direct afternoon sunlight. The paper has a warm golden cast where light hits it directly, while shadows fall in rich violet-blue tones. Tiny fibers on the page edges catch the light like a halo, and the glossy cover reflects the bright sky in patches of cyan.",
+                "size": "Small",
+                "state": "slightly weathered from outdoor use, pages softened by ambient moisture",
+                "primary_colors": [
+                    "warm cream",
+                    "deep violet-blue"
+                ],
+                "material": "paper and cardstock"
+            },
+            {
+                "object_id": 72,
+                "name": "sink",
+                "artistic_description": "A portable camping sink with a basin that holds brilliant reflections of the overhead sun, creating dazzling white-hot highlights on its curved surface. The white plastic appears almost luminous, with strong shadows pooling in cool indigo depths. Water droplets on the surface catch the light as tiny prisms, scattering rainbow flecks across the rim.",
+                "size": "Medium",
+                "state": "pristine and functional, beaded with moisture",
+                "primary_colors": [
+                    "brilliant white",
+                    "deep indigo"
+                ],
+                "material": "plastic"
+            },
+            {
+                "object_id": 60,
+                "name": "hammock",
+                "artistic_description": "A canvas hammock stretched taut, its fabric saturated with intense turquoise from the bright sky above, while the underside falls into warm terracotta shadows. The woven texture creates a delicate pattern of light and dark stripes, with individual threads catching the afternoon sun as fine golden lines. The fabric appears soft and inviting, with a gentle sheen on the taut surface.",
+                "size": "Large",
+                "state": "taut and well-used, slightly faded from sun exposure",
+                "primary_colors": [
+                    "vibrant turquoise",
+                    "warm terracotta"
+                ],
+                "material": "canvas"
+            },
+            {
+                "object_id": 26,
+                "name": "canopy",
+                "artistic_description": "A striped fabric canopy filtering the harsh overhead light into bands of luminous color. Where the sun penetrates the fabric, it glows with jewel-toned intensity\u2014crimson and amber stripes creating a stained-glass effect. The underside appears dramatically darker, with deep burgundy and chocolate tones where light is absorbed. The fabric ripples gently, causing the light patterns to shift and dance.",
+                "size": "Dominant",
+                "state": "crisp and taut, creating dramatic light filtration",
+                "primary_colors": [
+                    "brilliant crimson",
+                    "deep burgundy"
+                ],
+                "material": "weatherproof fabric"
+            }
+        ]
+    },
+    "composition": {
+        "spatial_relations": [
+            [
+                74,
+                "on",
+                60
+            ],
+            [
+                72,
+                "next to",
+                60
+            ],
+            [
+                60,
+                "under",
+                26
+            ],
+            [
+                72,
+                "under",
+                26
+            ]
+        ],
+        "semantic_relations": []
+    },
+    "environment": {
+        "environment_details": {
+            "scene_brief": "A Outdoor Riverbank featuring book, with sink, hammock, and canopy",
+            "place365_name": "/g/garden",
+            "place365_id": 21,
+            "time_of_day": "afternoon",
+            "weather": "sunny",
+            "period": "Contemporary",
+            "is_indoor": false,
+            "lighting": {
+                "type": "natural",
+                "quality": "soft",
+                "direction": "side-lit",
+                "mood": "warm",
+                "reasoning": "Natural afternoon sunlight, softened by the canopy, creates a side-lit effect that highlights textures of the book, hammock, and sink. This setup evokes a warm, inviting mood, consistent with Post-Impressionism's expressive use of color and light to convey emotion in a contemporary outdoor scene."
+            },
+            "atmosphere": "bright and active and cheerful and gentle"
+        },
+        "scene_inference": {
+            "all_candidates": [
+                {
+                    "scene_type": "Bohemian Reading Nook",
+                    "plausibility": 0.95,
+                    "reasoning": "A cozy, eclectic corner designed for relaxation and reading. The hammock is the primary seating, the book is being read by the occupant, a small portable sink stands nearby for washing, and a canopy provides shade or decoration overhead.",
+                    "object_interpretations": {
+                        "book": {
+                            "form": "real book",
+                            "scale": "normal",
+                            "role": "primary object of focus"
+                        },
+                        "hammock": {
+                            "form": "real hammock",
+                            "scale": "normal",
+                            "role": "primary furniture"
+                        },
+                        "sink": {
+                            "form": "real sink",
+                            "scale": "normal",
+                            "role": "utility fixture"
+                        },
+                        "canopy": {
+                            "form": "real canopy",
+                            "scale": "large",
+                            "role": "shelter/decor"
+                        }
+                    }
+                },
+                {
+                    "scene_type": "Art Studio Interior",
+                    "plausibility": 0.9,
+                    "reasoning": "An artist's cluttered studio. A book lies open on a table as reference material. A sink is used for washing brushes. A hammock is slung in a corner for naps. A canopy is draped over a window or used to diffuse light.",
+                    "object_interpretations": {
+                        "book": {
+                            "form": "real book",
+                            "scale": "normal",
+                            "role": "reference material"
+                        },
+                        "hammock": {
+                            "form": "real hammock",
+                            "scale": "normal",
+                            "role": "rest area"
+                        },
+                        "sink": {
+                            "form": "real utility sink",
+                            "scale": "normal",
+                            "role": "tool cleaning"
+                        },
+                        "canopy": {
+                            "form": "fabric canopy",
+                            "scale": "large",
+                            "role": "light diffusion/decor"
+                        }
+                    }
+                },
+                {
+                    "scene_type": "Vintage Garden Party",
+                    "plausibility": 0.85,
+                    "reasoning": "An outdoor gathering. Guests lounge in a hammock reading a book. A decorative wash basin (sink) is set up for hand washing. A large canopy tent provides shelter from the sun.",
+                    "object_interpretations": {
+                        "book": {
+                            "form": "real book",
+                            "scale": "normal",
+                            "role": "leisure activity"
+                        },
+                        "hammock": {
+                            "form": "real hammock",
+                            "scale": "normal",
+                            "role": "seating"
+                        },
+                        "sink": {
+                            "form": "wash basin",
+                            "scale": "normal",
+                            "role": "hygiene utility"
+                        },
+                        "canopy": {
+                            "form": "event tent",
+                            "scale": "large",
+                            "role": "shelter"
+                        }
+                    }
+                },
+                {
+                    "scene_type": "Luxury Bathroom",
+                    "plausibility": 0.8,
+                    "reasoning": "A large, spa-like bathroom. A hammock is suspended in the center for relaxation. A freestanding sink is present. A canopy hangs over the hammock. A book sits on a small ledge or tray.",
+                    "object_interpretations": {
+                        "book": {
+                            "form": "real book",
+                            "scale": "normal",
+                            "role": "entertainment"
+                        },
+                        "hammock": {
+                            "form": "hammock",
+                            "scale": "normal",
+                            "role": "relaxation furniture"
+                        },
+                        "sink": {
+                            "form": "pedestal sink",
+                            "scale": "normal",
+                            "role": "fixture"
+                        },
+                        "canopy": {
+                            "form": "bed canopy",
+                            "scale": "large",
+                            "role": "decorative accent"
+                        }
+                    }
+                },
+                {
+                    "scene_type": "Children's Play Tent",
+                    "plausibility": 0.85,
+                    "reasoning": "A child's indoor play area. A small play canopy covers a fort. A toy hammock holds stuffed animals. A toy sink is part of a play kitchen set. A picture book lies on the floor.",
+                    "object_interpretations": {
+                        "book": {
+                            "form": "picture book",
+                            "scale": "normal",
+                            "role": "toy"
+                        },
+                        "hammock": {
+                            "form": "toy hammock",
+                            "scale": "miniature",
+                            "role": "toy storage"
+                        },
+                        "sink": {
+                            "form": "toy sink",
+                            "scale": "miniature",
+                            "role": "play element"
+                        },
+                        "canopy": {
+                            "form": "play tent",
+                            "scale": "child-sized",
+                            "role": "play structure"
+                        }
+                    }
+                },
+                {
+                    "scene_type": "Surreal Dreamscape",
+                    "plausibility": 0.7,
+                    "reasoning": "A Post-Impressionist interpretation of a dream. The book floats in the air. The sink is embedded in a tree trunk. The hammock is woven from clouds. The canopy is the sky itself.",
+                    "object_interpretations": {
+                        "book": {
+                            "form": "floating book",
+                            "scale": "variable",
+                            "role": "surreal element"
+                        },
+                        "hammock": {
+                            "form": "cloud hammock",
+                            "scale": "large",
+                            "role": "surreal element"
+                        },
+                        "sink": {
+                            "form": "tree sink",
+                            "scale": "normal",
+                            "role": "surreal element"
+                        },
+                        "canopy": {
+                            "form": "sky",
+                            "scale": "massive",
+                            "role": "environment"
+                        }
+                    }
+                },
+                {
+                    "scene_type": "Outdoor Riverbank",
+                    "plausibility": 0.8,
+                    "reasoning": "A hammock is tied between trees near a river. A natural spring acts as a water source (sink). A canopy is set up for shade. A traveler reads a book in the hammock.",
+                    "object_interpretations": {
+                        "book": {
+                            "form": "real book",
+                            "scale": "normal",
+                            "role": "leisure"
+                        },
+                        "hammock": {
+                            "form": "real hammock",
+                            "scale": "normal",
+                            "role": "seating"
+                        },
+                        "sink": {
+                            "form": "natural spring",
+                            "scale": "natural",
+                            "role": "water source"
+                        },
+                        "canopy": {
+                            "form": "tarp/canopy",
+                            "scale": "large",
+                            "role": "sun protection"
+                        }
+                    },
+                    "scene_brief": "A Outdoor Riverbank featuring book, with sink, hammock, and canopy"
+                }
+            ],
+            "selected_scene": {
+                "scene_type": "Outdoor Riverbank",
+                "plausibility": 0.8,
+                "reasoning": "A hammock is tied between trees near a river. A natural spring acts as a water source (sink). A canopy is set up for shade. A traveler reads a book in the hammock.",
+                "object_interpretations": {
+                    "book": {
+                        "form": "real book",
+                        "scale": "normal",
+                        "role": "leisure"
+                    },
+                    "hammock": {
+                        "form": "real hammock",
+                        "scale": "normal",
+                        "role": "seating"
+                    },
+                    "sink": {
+                        "form": "natural spring",
+                        "scale": "natural",
+                        "role": "water source"
+                    },
+                    "canopy": {
+                        "form": "tarp/canopy",
+                        "scale": "large",
+                        "role": "sun protection"
+                    }
+                },
+                "scene_brief": "A Outdoor Riverbank featuring book, with sink, hammock, and canopy"
+            }
+        }
+    },
+    "final_prompts": {
+        "main_prompt": "A Post-Impressionism painting depicting a bright and cheerful afternoon scene under a brilliant crimson and deep burgundy canopy, its crisp, taut weatherproof fabric creating a dominant shelter. In the midground, a large, well-used hammock in vibrant turquoise and warm terracotta hangs tautly, with a small, slightly weathered book in warm cream and deep violet-blue resting upon its canvas surface. Beside the hammock, a medium-sized sink in brilliant white and deep indigo stands pristine and functional, both objects sharing the shaded space beneath the canopy. The composition is bathed in natural soft afternoon light that filters through the fabric, casting dappled patterns and enhancing the active, gentle atmosphere with visible brushstrokes and expressive color contrasts.",
+        "negative_prompt": "photorealistic, 3d render, modern, digital art, photograph, low quality, blurry, distorted, ugly, deformed, text, watermark, signature, frame, border, cartoon, anime, sketch, grayscale, monochrome, oversaturated",
+        "prompt_formats": {
+            "simple": "A Post-Impressionism painting of a book on a hammock with a sink nearby, all under a crimson canopy on a bright afternoon.",
+            "complex": "A Post-Impressionism painting depicting a bright and cheerful afternoon scene under a brilliant crimson and deep burgundy canopy, its crisp, taut weatherproof fabric creating a dominant shelter. In the midground, a large, well-used hammock in vibrant turquoise and warm terracotta hangs tautly, with a small, slightly weathered book in warm cream and deep violet-blue resting upon its canvas surface. Beside the hammock, a medium-sized sink in brilliant white and deep indigo stands pristine and functional, both objects sharing the shaded space beneath the canopy. The composition is bathed in natural soft afternoon light that filters through the fabric, casting dappled patterns and enhancing the active, gentle atmosphere with visible brushstrokes and expressive color contrasts.",
+            "comma_separated": "Post-Impressionism painting, book on hammock, sink next to hammock, hammock under canopy, sink under canopy, afternoon lighting, bright cheerful gentle atmosphere, vibrant colors, expressive brushstrokes, dappled light, weatherproof fabric, canvas, plastic, paper",
+            "tags": "art, painting, post-impressionism, still life, outdoor scene, canopy, hammock, sink, book, afternoon, bright, cheerful, gentle, expressive, color contrast, brushstrokes, texture, light and shadow"
+        }
+    }
+}

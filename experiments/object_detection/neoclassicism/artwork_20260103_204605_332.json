@@ -1,0 +1,303 @@
+{
+    "artwork_id": "artwork_20260103_204605_332",
+    "generation_timestamp": "2026-01-03T20:46:43.056028",
+    "style": "Neoclassicism",
+    "objects": {
+        "object_ids": [
+            60,
+            14,
+            29
+        ],
+        "object_names": [
+            "infant bed",
+            "church bench",
+            "luggage"
+        ],
+        "enhanced_objects": [
+            {
+                "object_id": 60,
+                "name": "infant bed",
+                "artistic_description": "A neoclassical-style infant bed rendered in soft, cool morning light filtering through cloudy skies. The pale white paint appears luminous with subtle blue-gray undertones, while the turned wooden posts cast delicate, elongated shadows across the surface. The linen bedding shows gentle creases with matte texture absorbing the diffused light, creating a serene, ethereal quality. Fine carved details on the headboard are softened by the subdued atmosphere, revealing subtle variations in the ivory finish.",
+                "size": "Medium",
+                "state": "well-preserved contemporary piece with gentle wear",
+                "primary_colors": [
+                    "luminous white",
+                    "soft blue-gray"
+                ],
+                "material": "wood"
+            },
+            {
+                "object_id": 14,
+                "name": "church bench",
+                "artistic_description": "A substantial church bench in neoclassical design, its dark walnut surface absorbing the cool morning light while polished edges catch subtle highlights. The wood grain appears rich and deep with warm brown tones muted by the overcast conditions, creating a dignified presence. Carved details and joinery are defined by soft shadows rather than harsh contrasts, giving the piece a contemplative, subdued character. The aged patina shows gentle wear on the seat, with matte finish that diffuses the ambient light evenly.",
+                "size": "Large",
+                "state": "antique condition with dignified aging",
+                "primary_colors": [
+                    "deep walnut brown",
+                    "muted umber"
+                ],
+                "material": "wood"
+            },
+            {
+                "object_id": 29,
+                "name": "luggage",
+                "artistic_description": "A leather suitcase rendered with neoclassical restraint, its surface showing the effects of soft morning light on aged leather. The cool, cloudy atmosphere brings out subtle gray undertones in the brown leather, while brass hardware provides gentle points of reflection. The leather's matte patina absorbs rather than reflects light, creating a velvety appearance. Corners show softened wear with fibers catching the diffused light, while the overall surface maintains a dignified, understated elegance appropriate to contemporary times.",
+                "size": "Small",
+                "state": "vintage condition with softened edges",
+                "primary_colors": [
+                    "weathered brown",
+                    "dull brass"
+                ],
+                "material": "leather"
+            }
+        ]
+    },
+    "composition": {
+        "spatial_relations": [
+            [
+                60,
+                "next to",
+                14
+            ],
+            [
+                29,
+                "next to",
+                14
+            ]
+        ],
+        "semantic_relations": []
+    },
+    "environment": {
+        "environment_details": {
+            "scene_brief": "A Art studio featuring infant bed, with church bench, and luggage",
+            "place365_name": "/a/art_studio",
+            "place365_id": 21,
+            "time_of_day": "morning",
+            "weather": "cloudy",
+            "period": "Contemporary",
+            "is_indoor": true,
+            "lighting": {
+                "type": "natural",
+                "quality": "soft",
+                "direction": "side-lit",
+                "mood": "neutral",
+                "reasoning": "Soft, side-lit natural light from a window complements the cloudy weather and morning time. This lighting setup creates gentle modeling on the objects (bed, bench, luggage), emphasizing their volume and materiality in a way that aligns with Neoclassical aesthetics, while maintaining a calm, neutral mood."
+            },
+            "atmosphere": "fresh and energetic and subdued and gentle"
+        },
+        "scene_inference": {
+            "all_candidates": [
+                {
+                    "scene_type": "Victorian nursery",
+                    "plausibility": 0.85,
+                    "reasoning": "The infant bed is the central functional object. The church bench serves as a seating area for a nanny or parent, repurposed from a church or chapel. The luggage is packed for a family trip or a seasonal move to the country.",
+                    "object_interpretations": {
+                        "infant bed": {
+                            "form": "real",
+                            "scale": "normal",
+                            "role": "primary functional object"
+                        },
+                        "church bench": {
+                            "form": "real",
+                            "scale": "normal",
+                            "role": "seating furniture"
+                        },
+                        "luggage": {
+                            "form": "real",
+                            "scale": "normal",
+                            "role": "travel accessory"
+                        }
+                    }
+                },
+                {
+                    "scene_type": "Neoclassical country estate",
+                    "plausibility": 0.8,
+                    "reasoning": "A grand room in a country house. The infant bed is placed near the fireplace. The church bench is a decorative or functional piece of antique furniture, perhaps from a family chapel. The luggage is stacked, awaiting transport.",
+                    "object_interpretations": {
+                        "infant bed": {
+                            "form": "real",
+                            "scale": "normal",
+                            "role": "primary functional object"
+                        },
+                        "church bench": {
+                            "form": "real",
+                            "scale": "normal",
+                            "role": "antique furniture/decor"
+                        },
+                        "luggage": {
+                            "form": "real",
+                            "scale": "normal",
+                            "role": "travel accessory"
+                        }
+                    }
+                },
+                {
+                    "scene_type": "Historical museum exhibit",
+                    "plausibility": 0.9,
+                    "reasoning": "A curated display showing domestic life. The infant bed is the main exhibit. The church bench is arranged nearby to show historical context or religious influence. The luggage is part of the display to represent travel or migration.",
+                    "object_interpretations": {
+                        "infant bed": {
+                            "form": "real",
+                            "scale": "normal",
+                            "role": "museum exhibit"
+                        },
+                        "church bench": {
+                            "form": "real",
+                            "scale": "normal",
+                            "role": "museum exhibit"
+                        },
+                        "luggage": {
+                            "form": "real",
+                            "scale": "normal",
+                            "role": "museum exhibit"
+                        }
+                    }
+                },
+                {
+                    "scene_type": "Art studio",
+                    "plausibility": 0.75,
+                    "reasoning": "A still life composition for a painting. The artist has arranged an infant bed, a church bench, and luggage to create a scene of domesticity and travel, typical of Neoclassical allegorical themes.",
+                    "object_interpretations": {
+                        "infant bed": {
+                            "form": "real",
+                            "scale": "normal",
+                            "role": "subject of painting/still life object"
+                        },
+                        "church bench": {
+                            "form": "real",
+                            "scale": "normal",
+                            "role": "subject of painting/still life object"
+                        },
+                        "luggage": {
+                            "form": "real",
+                            "scale": "normal",
+                            "role": "subject of painting/still life object"
+                        }
+                    },
+                    "scene_brief": "A Art studio featuring infant bed, with church bench, and luggage"
+                },
+                {
+                    "scene_type": "Theater stage set",
+                    "plausibility": 0.8,
+                    "reasoning": "A stage set for a drama. The infant bed is a prop for a scene involving a baby. The church bench serves as a seat for a character. The luggage indicates a departure or arrival.",
+                    "object_interpretations": {
+                        "infant bed": {
+                            "form": "prop",
+                            "scale": "normal",
+                            "role": "stage prop"
+                        },
+                        "church bench": {
+                            "form": "prop",
+                            "scale": "normal",
+                            "role": "stage prop"
+                        },
+                        "luggage": {
+                            "form": "prop",
+                            "scale": "normal",
+                            "role": "stage prop"
+                        }
+                    }
+                },
+                {
+                    "scene_type": "Chapel anteroom",
+                    "plausibility": 0.7,
+                    "reasoning": "A room adjacent to a church. The infant bed is used for a baptism or as a temporary shelter. The church bench is standard furniture. The luggage belongs to a visitor or pilgrim.",
+                    "object_interpretations": {
+                        "infant bed": {
+                            "form": "real",
+                            "scale": "normal",
+                            "role": "functional object"
+                        },
+                        "church bench": {
+                            "form": "real",
+                            "scale": "normal",
+                            "role": "functional furniture"
+                        },
+                        "luggage": {
+                            "form": "real",
+                            "scale": "normal",
+                            "role": "personal belongings"
+                        }
+                    }
+                },
+                {
+                    "scene_type": "Vintage nursery",
+                    "plausibility": 0.85,
+                    "reasoning": "A nursery with eclectic furniture. The infant bed is central. The church bench is used as a toy box or seating. The luggage is stored on a shelf or in a corner.",
+                    "object_interpretations": {
+                        "infant bed": {
+                            "form": "real",
+                            "scale": "normal",
+                            "role": "primary functional object"
+                        },
+                        "church bench": {
+                            "form": "real",
+                            "scale": "normal",
+                            "role": "multi-purpose furniture"
+                        },
+                        "luggage": {
+                            "form": "real",
+                            "scale": "normal",
+                            "role": "storage/decor"
+                        }
+                    }
+                },
+                {
+                    "scene_type": "Neoclassical painting",
+                    "plausibility": 0.9,
+                    "reasoning": "The scene is a 2D artwork. The composition depicts a domestic interior with these objects, painted in the Neoclassical style.",
+                    "object_interpretations": {
+                        "infant bed": {
+                            "form": "painted",
+                            "scale": "normal",
+                            "role": "element of composition"
+                        },
+                        "church bench": {
+                            "form": "painted",
+                            "scale": "normal",
+                            "role": "element of composition"
+                        },
+                        "luggage": {
+                            "form": "painted",
+                            "scale": "normal",
+                            "role": "element of composition"
+                        }
+                    }
+                }
+            ],
+            "selected_scene": {
+                "scene_type": "Art studio",
+                "plausibility": 0.75,
+                "reasoning": "A still life composition for a painting. The artist has arranged an infant bed, a church bench, and luggage to create a scene of domesticity and travel, typical of Neoclassical allegorical themes.",
+                "object_interpretations": {
+                    "infant bed": {
+                        "form": "real",
+                        "scale": "normal",
+                        "role": "subject of painting/still life object"
+                    },
+                    "church bench": {
+                        "form": "real",
+                        "scale": "normal",
+                        "role": "subject of painting/still life object"
+                    },
+                    "luggage": {
+                        "form": "real",
+                        "scale": "normal",
+                        "role": "subject of painting/still life object"
+                    }
+                },
+                "scene_brief": "A Art studio featuring infant bed, with church bench, and luggage"
+            }
+        }
+    },
+    "final_prompts": {
+        "main_prompt": "A Neoclassicism painting depicting a morning scene in a serene, sunlit space where a large, antique church bench in deep walnut brown with muted umber accents stands with dignified aging. Next to the bench, a luminous white infant bed with soft blue-gray tones, a well-preserved contemporary piece, is positioned, while a small piece of weathered brown luggage with dull brass fittings and softened edges rests beside the bench. The objects are arranged in the foreground against a softly lit background, with natural morning light casting gentle shadows and creating a fresh, energetic yet subdued and gentle atmosphere. The composition emphasizes classical balance, clean lines, and a harmonious blend of wood and subtle textures, evoking a sense of quiet dignity and timeless elegance.",
+        "negative_prompt": "photorealistic, 3d render, modern, digital art, photograph, low quality, blurry, distorted, surreal, abstract, cartoon, anime, pop art, graffiti, messy, cluttered, oversaturated, dark, gloomy, horror, fantasy, sci-fi, text, watermark, signature, frame, border",
+        "prompt_formats": {
+            "simple": "A Neoclassicism painting of an infant bed, church bench, and luggage arranged in a morning-lit space with a fresh, gentle atmosphere.",
+            "complex": "A Neoclassicism painting depicting a morning scene in a serene, sunlit space where a large, antique church bench in deep walnut brown with muted umber accents stands with dignified aging. Next to the bench, a luminous white infant bed with soft blue-gray tones, a well-preserved contemporary piece, is positioned, while a small piece of weathered brown luggage with dull brass fittings and softened edges rests beside the bench. The objects are arranged in the foreground against a softly lit background, with natural morning light casting gentle shadows and creating a fresh, energetic yet subdued and gentle atmosphere. The composition emphasizes classical balance, clean lines, and a harmonious blend of wood and subtle textures, evoking a sense of quiet dignity and timeless elegance.",
+            "comma_separated": "Neoclassicism painting, infant bed, church bench, luggage, morning lighting, natural soft light, fresh energetic subdued gentle atmosphere, antique bench, contemporary bed, vintage luggage, wood textures, classical composition, serene scene, dignified aging, luminous white, deep walnut brown, weathered brown",
+            "tags": "art, painting, neoclassicism, still life, classical art, morning scene, infant bed, church bench, luggage, antique, vintage, contemporary, wood, leather, soft lighting, serene, dignified, balanced composition"
+        }
+    }
+}

@@ -1,0 +1,324 @@
+{
+    "artwork_id": "artwork_20260103_212937_303",
+    "generation_timestamp": "2026-01-03T21:30:07.951739",
+    "style": "Chinese Ink Painting",
+    "objects": {
+        "object_ids": [
+            44,
+            1,
+            14,
+            58
+        ],
+        "object_names": [
+            "sword",
+            "baby",
+            "swing",
+            "blanket"
+        ],
+        "enhanced_objects": [
+            {
+                "object_id": 44,
+                "name": "sword",
+                "artistic_description": "A weathered blade rendered in deep indigo-black ink washes, its surface catching the cool morning light with subtle matte reflections. The metal shows gentle oxidation along the edges, with dry brushstrokes suggesting worn leather wrapping on the handle. Ink splatters create a sense of aged patina, while the blade's edge is defined by stark, confident strokes that contrast against the muted background.",
+                "size": "Medium",
+                "state": "aged and weathered from mountain exposure",
+                "primary_colors": [
+                    "deep indigo-black",
+                    "steel gray"
+                ],
+                "material": "steel and leather"
+            },
+            {
+                "object_id": 1,
+                "name": "baby",
+                "artistic_description": "Soft, delicate ink washes form the infant's form, rendered in gentle gray tones with minimal contrast. The skin appears luminous in the cloudy morning light, achieved through subtle white space preservation and light gray washes. Wispy, fine brushstrokes suggest soft hair and rounded features, while the overall treatment remains ethereal and tender, with edges softly diffused into the surrounding atmosphere.",
+                "size": "Small",
+                "state": "peaceful and sleeping",
+                "primary_colors": [
+                    "soft pearl gray",
+                    "warm cream"
+                ],
+                "material": "flesh and fabric"
+            },
+            {
+                "object_id": 14,
+                "name": "swing",
+                "artistic_description": "Weathered wooden planks depicted through textured ink strokes showing grain and age. The ropes are rendered in varying tones of diluted black ink, suggesting frayed hemp fibers catching the cool morning air. Subtle moisture from the cloudy weather darkens the wood grain, creating deeper shadows in the crevices. The structure shows gentle wear through faded ink tones and exposed wood texture.",
+                "size": "Medium",
+                "state": "weathered and still, damp from morning moisture",
+                "primary_colors": [
+                    "weathered brown",
+                    "charcoal gray"
+                ],
+                "material": "wood and rope"
+            },
+            {
+                "object_id": 58,
+                "name": "blanket",
+                "artistic_description": "A soft textile rendered in gentle, flowing ink washes that suggest worn cotton or wool. The fabric shows subtle variation in tone, with darker folds where moisture has settled in the cloudy morning air. Delicate brushwork creates a textured surface, while the edges are softened with atmospheric blending. The material appears comforting and well-used, with muted tones that absorb rather than reflect the cool light.",
+                "size": "Medium",
+                "state": "soft and slightly damp from morning dew",
+                "primary_colors": [
+                    "muted sage",
+                    "soft gray"
+                ],
+                "material": "cotton or wool fabric"
+            }
+        ]
+    },
+    "composition": {
+        "spatial_relations": [
+            [
+                44,
+                "next to",
+                1
+            ],
+            [
+                14,
+                "under",
+                1
+            ],
+            [
+                58,
+                "on",
+                14
+            ]
+        ],
+        "semantic_relations": [
+            [
+                1,
+                "holding",
+                44
+            ],
+            [
+                1,
+                "on",
+                58
+            ]
+        ]
+    },
+    "environment": {
+        "environment_details": {
+            "scene_brief": "A Mountain Monastery featuring sword, with baby, swing, and blanket",
+            "place365_name": "/m/mountain",
+            "place365_id": 232,
+            "time_of_day": "morning",
+            "weather": "cloudy",
+            "period": "Contemporary",
+            "is_indoor": false,
+            "lighting": {
+                "type": "natural",
+                "quality": "soft",
+                "direction": "side-lit",
+                "mood": "cool",
+                "reasoning": "Natural lighting is required for an outdoor monastery. 'Soft' quality matches the cloudy weather and ink style. 'Side-lighting' is chosen to gently reveal the texture of the architecture and the landscape forms, creating depth without harshness. A 'cool' mood aligns with the serenity of the mountains and the monochromatic palette of ink."
+            },
+            "atmosphere": "fresh and energetic and subdued and gentle"
+        },
+        "scene_inference": {
+            "all_candidates": [
+                {
+                    "scene_type": "Courtyard Garden",
+                    "plausibility": 0.85,
+                    "reasoning": "A traditional Chinese courtyard provides a setting where a warrior's sword can be present, a baby can be in a swing, and a blanket can be draped over furniture or the swing itself. The ink painting style suits this domestic yet historically grounded scene.",
+                    "object_interpretations": {
+                        "sword": {
+                            "form": "real weapon",
+                            "scale": "normal",
+                            "role": "warrior's tool resting against a pillar"
+                        },
+                        "baby": {
+                            "form": "real infant",
+                            "scale": "normal",
+                            "role": "child being watched"
+                        },
+                        "swing": {
+                            "form": "wooden swing",
+                            "scale": "normal",
+                            "role": "play equipment"
+                        },
+                        "blanket": {
+                            "form": "fabric",
+                            "scale": "normal",
+                            "role": "covering for the baby"
+                        }
+                    }
+                },
+                {
+                    "scene_type": "Mountain Monastery",
+                    "plausibility": 0.8,
+                    "reasoning": "A secluded monastery where a monk's sword is kept as a relic or training tool, a visiting baby is in a makeshift swing, and a blanket provides warmth in the cool mountain air.",
+                    "object_interpretations": {
+                        "sword": {
+                            "form": "ceremonial weapon",
+                            "scale": "normal",
+                            "role": "artifact on a stand"
+                        },
+                        "baby": {
+                            "form": "real infant",
+                            "scale": "normal",
+                            "role": "young visitor"
+                        },
+                        "swing": {
+                            "form": "rope swing",
+                            "scale": "normal",
+                            "role": "temporary plaything"
+                        },
+                        "blanket": {
+                            "form": "heavy wool",
+                            "scale": "normal",
+                            "role": "insulation against cold"
+                        }
+                    },
+                    "scene_brief": "A Mountain Monastery featuring sword, with baby, swing, and blanket"
+                },
+                {
+                    "scene_type": "Ancient Battlefield",
+                    "plausibility": 0.75,
+                    "reasoning": "A post-battle scene where a sword lies abandoned, a baby is found safe in a swing (perhaps a tree swing), and a blanket is wrapped around the child for protection.",
+                    "object_interpretations": {
+                        "sword": {
+                            "form": "battle-worn weapon",
+                            "scale": "normal",
+                            "role": "relic of conflict"
+                        },
+                        "baby": {
+                            "form": "real infant",
+                            "scale": "normal",
+                            "role": "survivor"
+                        },
+                        "swing": {
+                            "form": "tree branch swing",
+                            "scale": "normal",
+                            "role": "shelter"
+                        },
+                        "blanket": {
+                            "form": "tattered cloth",
+                            "scale": "normal",
+                            "role": "protection"
+                        }
+                    }
+                },
+                {
+                    "scene_type": "Dream Sequence",
+                    "plausibility": 0.9,
+                    "reasoning": "A surreal dream where the sword floats as a symbol of protection, the baby swings gently in mid-air, and the blanket drifts like a cloud. Ink painting style allows for fluid, ethereal forms.",
+                    "object_interpretations": {
+                        "sword": {
+                            "form": "ethereal blade",
+                            "scale": "floating",
+                            "role": "guardian spirit"
+                        },
+                        "baby": {
+                            "form": "sleeping infant",
+                            "scale": "normal",
+                            "role": "dreamer"
+                        },
+                        "swing": {
+                            "form": "floating ropes",
+                            "scale": "suspended",
+                            "role": "dream object"
+                        },
+                        "blanket": {
+                            "form": "mist",
+                            "scale": "expansive",
+                            "role": "dream blanket"
+                        }
+                    }
+                },
+                {
+                    "scene_type": "Storyteller's Illustration",
+                    "plausibility": 0.85,
+                    "reasoning": "A scene depicting a storybook illustration where a hero's sword is drawn, a baby is in a swing in the background, and a blanket is part of the nursery setting, all within a single narrative frame.",
+                    "object_interpretations": {
+                        "sword": {
+                            "form": "illustrated weapon",
+                            "scale": "stylized",
+                            "role": "story element"
+                        },
+                        "baby": {
+                            "form": "illustrated baby",
+                            "scale": "stylized",
+                            "role": "story character"
+                        },
+                        "swing": {
+                            "form": "illustrated swing",
+                            "scale": "stylized",
+                            "role": "background detail"
+                        },
+                        "blanket": {
+                            "form": "illustrated fabric",
+                            "scale": "stylized",
+                            "role": "setting detail"
+                        }
+                    }
+                },
+                {
+                    "scene_type": "Memory Fragment",
+                    "plausibility": 0.8,
+                    "reasoning": "A fragmented memory scene where the sword represents a past life, the baby is a memory of childhood, the swing is a nostalgic object, and the blanket is a comforting memory, all rendered in loose ink strokes.",
+                    "object_interpretations": {
+                        "sword": {
+                            "form": "ghostly image",
+                            "scale": "variable",
+                            "role": "memory of the past"
+                        },
+                        "baby": {
+                            "form": "faint image",
+                            "scale": "small",
+                            "role": "memory of youth"
+                        },
+                        "swing": {
+                            "form": "faded shape",
+                            "scale": "normal",
+                            "role": "nostalgic object"
+                        },
+                        "blanket": {
+                            "form": "soft blur",
+                            "scale": "normal",
+                            "role": "comforting memory"
+                        }
+                    }
+                }
+            ],
+            "selected_scene": {
+                "scene_type": "Mountain Monastery",
+                "plausibility": 0.8,
+                "reasoning": "A secluded monastery where a monk's sword is kept as a relic or training tool, a visiting baby is in a makeshift swing, and a blanket provides warmth in the cool mountain air.",
+                "object_interpretations": {
+                    "sword": {
+                        "form": "ceremonial weapon",
+                        "scale": "normal",
+                        "role": "artifact on a stand"
+                    },
+                    "baby": {
+                        "form": "real infant",
+                        "scale": "normal",
+                        "role": "young visitor"
+                    },
+                    "swing": {
+                        "form": "rope swing",
+                        "scale": "normal",
+                        "role": "temporary plaything"
+                    },
+                    "blanket": {
+                        "form": "heavy wool",
+                        "scale": "normal",
+                        "role": "insulation against cold"
+                    }
+                },
+                "scene_brief": "A Mountain Monastery featuring sword, with baby, swing, and blanket"
+            }
+        }
+    },
+    "final_prompts": {
+        "main_prompt": "A Chinese Ink Painting painting depicting a tranquil morning scene where a peaceful, sleeping baby rests in a weathered brown and charcoal gray swing. The baby, rendered in soft pearl gray and warm cream tones, lies upon a muted sage and soft gray blanket that drapes over the swing's seat, slightly damp with morning dew. Beside the baby, an aged and weathered sword in deep indigo-black and steel gray leans against the swing's frame, its surface telling stories of mountain exposure. The composition is organized with the baby, sword, and swing in the foreground, while the midground and background fade into soft, atmospheric washes of ink suggesting a gentle garden or courtyard. Natural soft morning light filters through, creating a fresh and energetic yet subdued and gentle atmosphere, with the quiet stillness of the scene emphasized by the contrast between the sleeping infant and the still, weathered objects.",
+        "negative_prompt": "photorealistic, 3d render, modern, digital art, photograph, low quality, blurry, distorted, cartoon, anime, western painting, oil painting, watercolor, bright colors, vibrant, saturated, detailed background, busy, crowded, text, signature, frame",
+        "prompt_formats": {
+            "simple": "A Chinese ink painting of a sleeping baby on a swing with a blanket and a sword beside it in a soft morning light.",
+            "complex": "A Chinese Ink Painting painting depicting a tranquil morning scene where a peaceful, sleeping baby rests in a weathered brown and charcoal gray swing. The baby, rendered in soft pearl gray and warm cream tones, lies upon a muted sage and soft gray blanket that drapes over the swing's seat, slightly damp with morning dew. Beside the baby, an aged and weathered sword in deep indigo-black and steel gray leans against the swing's frame, its surface telling stories of mountain exposure. The composition is organized with the baby, sword, and swing in the foreground, while the midground and background fade into soft, atmospheric washes of ink suggesting a gentle garden or courtyard. Natural soft morning light filters through, creating a fresh and energetic yet subdued and gentle atmosphere, with the quiet stillness of the scene emphasized by the contrast between the sleeping infant and the still, weathered objects.",
+            "comma_separated": "Chinese Ink Painting, baby sleeping on swing, blanket on swing, sword next to baby, soft morning light, fresh energetic subdued gentle atmosphere, weathered objects, ink wash background, serene composition",
+            "tags": "art, painting, chinese ink painting, ink wash, sumi-e, baby, sword, swing, blanket, morning, serene, tranquil, traditional art, monochrome, atmospheric"
+        }
+    }
+}

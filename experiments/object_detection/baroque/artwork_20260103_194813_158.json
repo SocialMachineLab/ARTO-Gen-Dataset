@@ -1,0 +1,259 @@
+{
+    "artwork_id": "artwork_20260103_194813_158",
+    "generation_timestamp": "2026-01-03T19:48:57.503286",
+    "style": "Baroque",
+    "objects": {
+        "object_ids": [
+            19,
+            33,
+            26
+        ],
+        "object_names": [
+            "sheep",
+            "ball",
+            "canopy"
+        ],
+        "enhanced_objects": [
+            {
+                "object_id": 19,
+                "name": "sheep",
+                "artistic_description": "Plump woolly form rendered in rich cream and warm ivory tones, with individual fleece strands catching the golden candlelight in delicate highlights. The dense fleece appears soft and matte, absorbing the warm artificial glow while creating subtle shadows within its depth. Faint amber reflections dance across the curved flanks where light grazes the natural lanolin sheen.",
+                "size": "Medium",
+                "state": "Calmly standing with relaxed posture, fleece pristine and well-maintained befitting a theatrical prop",
+                "primary_colors": [
+                    "warm ivory",
+                    "golden cream"
+                ],
+                "material": "natural wool"
+            },
+            {
+                "object_id": 33,
+                "name": "ball",
+                "artistic_description": "Polished sphere gleaming with theatrical splendor, its lacquered surface catching and reflecting the candlelight in concentrated points of brilliance. Deep crimson varnish glows with inner warmth, appearing almost liquid where the light pools across its convex form. The surface shows no scuffs or imperfections, maintaining a flawless mirror-like quality that amplifies the ambient glow.",
+                "size": "Small",
+                "state": "Perfectly smooth and lustrous, freshly polished for performance",
+                "primary_colors": [
+                    "deep crimson",
+                    "ruby highlights"
+                ],
+                "material": "lacquered wood"
+            },
+            {
+                "object_id": 26,
+                "name": "canopy",
+                "artistic_description": "Sumptuous drapery cascading in heavy, sculptural folds of saturated velvet. Rich gold fabric absorbs and radiates the artificial light with a deep, burnished luminosity, while crimson brocade trim catches the illumination in metallic threads. The dense pile creates velvety shadows within the folds, contrasting with lustrous highlights on the upper curves where fabric stretches taut.",
+                "size": "Large",
+                "state": "Freshly arranged with crisp pleats and no signs of wear, hanging with theatrical grandeur",
+                "primary_colors": [
+                    "burnished gold",
+                    "crimson"
+                ],
+                "material": "velvet"
+            }
+        ]
+    },
+    "composition": {
+        "spatial_relations": [
+            [
+                19,
+                "on",
+                33
+            ],
+            [
+                26,
+                "behind",
+                19
+            ]
+        ],
+        "semantic_relations": []
+    },
+    "environment": {
+        "environment_details": {
+            "scene_brief": "A Baroque theater stage featuring sheep, with ball, and canopy",
+            "place365_name": "/a/auditorium",
+            "place365_id": 27,
+            "time_of_day": "evening",
+            "weather": null,
+            "period": "Early modern",
+            "is_indoor": true,
+            "lighting": {
+                "type": "artificial",
+                "quality": "dramatic",
+                "direction": "front-lit",
+                "mood": "warm",
+                "reasoning": "Baroque lighting relies on artificial sources like candles and oil lamps, creating a warm, flickering glow. Theatrical lighting is inherently dramatic, using contrast (chiaroscuro) to highlight the actors (sheep) and set pieces (ball, canopy). Front-lighting ensures the performers are visible to the audience."
+            },
+            "atmosphere": "calm and relaxed and striking"
+        },
+        "scene_inference": {
+            "all_candidates": [
+                {
+                    "scene_type": "Baroque pastoral landscape",
+                    "plausibility": 0.95,
+                    "reasoning": "A sheep is a natural fit for a pastoral scene. The canopy can be an ornate, temporary structure like a pavilion or gazebo for aristocracy. The ball can be a decorative garden sphere or a toy for a child tending the flock.",
+                    "object_interpretations": {
+                        "sheep": {
+                            "form": "real animal",
+                            "scale": "normal",
+                            "role": "primary subject"
+                        },
+                        "canopy": {
+                            "form": "ornate fabric structure",
+                            "scale": "large",
+                            "role": "shelter/decorative backdrop"
+                        },
+                        "ball": {
+                            "form": "gilded garden ornament",
+                            "scale": "medium",
+                            "role": "decorative element"
+                        }
+                    }
+                },
+                {
+                    "scene_type": "Baroque royal garden",
+                    "plausibility": 0.9,
+                    "reasoning": "Sheep were sometimes kept in royal menageries. The canopy represents a royal pavilion. The ball is a topiary sphere or a decorative lawn ornament common in formal gardens.",
+                    "object_interpretations": {
+                        "sheep": {
+                            "form": "real animal",
+                            "scale": "normal",
+                            "role": "exotic pet/lawn ornament"
+                        },
+                        "canopy": {
+                            "form": "royal pavilion",
+                            "scale": "large",
+                            "role": "shelter for royalty"
+                        },
+                        "ball": {
+                            "form": "topiary or stone sphere",
+                            "scale": "medium",
+                            "role": "garden decoration"
+                        }
+                    }
+                },
+                {
+                    "scene_type": "Baroque still life",
+                    "plausibility": 0.85,
+                    "reasoning": "The sheep is represented as a small statue or a wool skein arrangement. The canopy is a heavy drape in the background. The ball is a decorative orb or a ball of yarn.",
+                    "object_interpretations": {
+                        "sheep": {
+                            "form": "sculpture or wool artifact",
+                            "scale": "small",
+                            "role": "decorative object"
+                        },
+                        "canopy": {
+                            "form": "heavy velvet drape",
+                            "scale": "large",
+                            "role": "background texture"
+                        },
+                        "ball": {
+                            "form": "decorative orb or yarn",
+                            "scale": "small",
+                            "role": "compositional balance"
+                        }
+                    }
+                },
+                {
+                    "scene_type": "Baroque hunting lodge interior",
+                    "plausibility": 0.8,
+                    "reasoning": "A taxidermy sheep or wool rug represents the sheep. The canopy is a heavy bed canopy or window treatment. The ball is a hunting trophy or a decorative object on a table.",
+                    "object_interpretations": {
+                        "sheep": {
+                            "form": "taxidermy or rug",
+                            "scale": "normal",
+                            "role": "hunting trophy/decor"
+                        },
+                        "canopy": {
+                            "form": "bed canopy",
+                            "scale": "large",
+                            "role": "furniture element"
+                        },
+                        "ball": {
+                            "form": "hunting ball/trophy",
+                            "scale": "medium",
+                            "role": "decoration"
+                        }
+                    }
+                },
+                {
+                    "scene_type": "Surreal Baroque dream",
+                    "plausibility": 0.75,
+                    "reasoning": "The sheep floats under a massive, floating canopy. The ball is a giant celestial sphere. Highly stylized to fit the Baroque love of drama and movement.",
+                    "object_interpretations": {
+                        "sheep": {
+                            "form": "ethereal/cloud-like",
+                            "scale": "large",
+                            "role": "dream subject"
+                        },
+                        "canopy": {
+                            "form": "floating fabric",
+                            "scale": "massive",
+                            "role": "sky cover"
+                        },
+                        "ball": {
+                            "form": "planet/celestial body",
+                            "scale": "medium",
+                            "role": "light source"
+                        }
+                    }
+                },
+                {
+                    "scene_type": "Baroque theater stage",
+                    "plausibility": 0.85,
+                    "reasoning": "The sheep is a costumed actor or puppet. The canopy is a stage prop representing a sky or shelter. The ball is a prop used in the play.",
+                    "object_interpretations": {
+                        "sheep": {
+                            "form": "costume/puppet",
+                            "scale": "human/normal",
+                            "role": "actor"
+                        },
+                        "canopy": {
+                            "form": "stage set piece",
+                            "scale": "large",
+                            "role": "scenery"
+                        },
+                        "ball": {
+                            "form": "prop",
+                            "scale": "handheld",
+                            "role": "plot device"
+                        }
+                    },
+                    "scene_brief": "A Baroque theater stage featuring sheep, with ball, and canopy"
+                }
+            ],
+            "selected_scene": {
+                "scene_type": "Baroque theater stage",
+                "plausibility": 0.85,
+                "reasoning": "The sheep is a costumed actor or puppet. The canopy is a stage prop representing a sky or shelter. The ball is a prop used in the play.",
+                "object_interpretations": {
+                    "sheep": {
+                        "form": "costume/puppet",
+                        "scale": "human/normal",
+                        "role": "actor"
+                    },
+                    "canopy": {
+                        "form": "stage set piece",
+                        "scale": "large",
+                        "role": "scenery"
+                    },
+                    "ball": {
+                        "form": "prop",
+                        "scale": "handheld",
+                        "role": "plot device"
+                    }
+                },
+                "scene_brief": "A Baroque theater stage featuring sheep, with ball, and canopy"
+            }
+        }
+    },
+    "final_prompts": {
+        "main_prompt": "A Baroque painting depicting a calm evening scene where a medium-sized sheep with warm ivory and golden cream wool stands calmly with relaxed posture atop a small, perfectly smooth ball of deep crimson with ruby highlights. Directly behind the sheep, a large canopy of burnished gold and crimson velvet with crisp pleats and no signs of wear is freshly arranged, creating a striking backdrop. The artificial dramatic lighting casts deep shadows and luminous highlights across the natural wool of the sheep, the lustrous lacquered surface of the ball, and the rich velvet folds of the canopy, creating a calm and relaxed yet visually striking atmosphere in the intimate evening setting.",
+        "negative_prompt": "photorealistic, 3d render, modern, digital art, photograph, low quality, blurry, distorted, cartoon, anime, abstract, surreal, deformed, ugly, bad anatomy, extra limbs, poorly drawn",
+        "prompt_formats": {
+            "simple": "A Baroque painting of a sheep standing on a crimson ball with a golden canopy behind it in dramatic evening light.",
+            "complex": "A Baroque painting depicting a calm evening scene where a medium-sized sheep with warm ivory and golden cream wool stands calmly with relaxed posture atop a small, perfectly smooth ball of deep crimson with ruby highlights. Directly behind the sheep, a large canopy of burnished gold and crimson velvet with crisp pleats and no signs of wear is freshly arranged, creating a striking backdrop. The artificial dramatic lighting casts deep shadows and luminous highlights across the natural wool of the sheep, the lustrous lacquered surface of the ball, and the rich velvet folds of the canopy, creating a calm and relaxed yet visually striking atmosphere in the intimate evening setting.",
+            "comma_separated": "Baroque painting, sheep on ball, canopy behind, medium sheep, warm ivory golden cream wool, small ball, deep crimson ruby highlights, large canopy, burnished gold crimson velvet, dramatic artificial lighting, evening, calm relaxed striking atmosphere, chiaroscuro, rich textures, natural wool, lacquered surface, velvet folds",
+            "tags": "art, painting, Baroque, sheep, ball, canopy, evening, dramatic lighting, chiaroscuro, still life, animal art, golden hour, velvet, wool, lacquer, calm atmosphere, striking composition"
+        }
+    }
+}

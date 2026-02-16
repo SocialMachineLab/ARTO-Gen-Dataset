@@ -1,0 +1,308 @@
+{
+    "artwork_id": "artwork_20260103_165029_697",
+    "generation_timestamp": "2026-01-03T16:51:08.741997",
+    "style": "Baroque",
+    "objects": {
+        "object_ids": [
+            79,
+            1,
+            48
+        ],
+        "object_names": [
+            "comb",
+            "bishop",
+            "onion"
+        ],
+        "enhanced_objects": [
+            {
+                "object_id": 79,
+                "name": "comb",
+                "artistic_description": "An ornate Baroque comb with intricate scrollwork and raised relief carvings, its ivory teeth catching the cool, diffused afternoon light filtering through cloud cover. The surface displays a creamy patina with subtle golden undertones where light grazes the polished curves, while deeper recesses remain in soft shadow. Delicate wear patterns on the comb's crest reveal the material's age and use, creating a tactile contrast between smooth, luminous surfaces and textured, shadowed details.",
+                "size": "Medium",
+                "state": "well-preserved with gentle wear, showing its age and use",
+                "primary_colors": [
+                    "creamy ivory",
+                    "warm golden highlights"
+                ],
+                "material": "ivory"
+            },
+            {
+                "object_id": 1,
+                "name": "bishop",
+                "artistic_description": "A small Baroque bishop figure rendered in dark, polished wood, its silhouette emerging from the subdued atmospheric depth of the background. The cool, cloudy daylight catches the high polish on its rounded mitre and crozier, creating subtle highlights in muted amber tones. The figure's deep, rich tones absorb much of the ambient light, giving it a solemn, contemplative presence with barely perceptible details in the carved vestments.",
+                "size": "Marginal",
+                "state": "darkened with age, highly polished",
+                "primary_colors": [
+                    "deep mahogany",
+                    "muted amber"
+                ],
+                "material": "wood"
+            },
+            {
+                "object_id": 48,
+                "name": "onion",
+                "artistic_description": "A plump onion with papery, translucent skin that glows with pearlescent warmth where the diffused afternoon light penetrates its delicate layers. Its surface shows a subtle sheen of moisture from the humid indoor atmosphere, creating soft reflections that highlight the organic, concentric textures. The outer layers display muted golden-brown tones that transition to creamy whites where the flesh peeks through, with fine, hair-like root tendrils catching tiny points of light.",
+                "size": "Medium",
+                "state": "fresh with beginning signs of drying, showing natural imperfections",
+                "primary_colors": [
+                    "golden brown",
+                    "creamy white"
+                ],
+                "material": ""
+            }
+        ]
+    },
+    "composition": {
+        "spatial_relations": [
+            [
+                79,
+                "on",
+                48
+            ],
+            [
+                1,
+                "behind",
+                48
+            ],
+            [
+                1,
+                "behind",
+                79
+            ]
+        ],
+        "semantic_relations": []
+    },
+    "environment": {
+        "environment_details": {
+            "scene_brief": "A Baroque Still Life Painting featuring decorative comb, with bishop in the background, and onion",
+            "place365_name": "/p/pub/indoor",
+            "place365_id": 274,
+            "time_of_day": "afternoon",
+            "weather": "cloudy",
+            "period": "Early modern",
+            "is_indoor": true,
+            "lighting": {
+                "type": "natural",
+                "quality": "dramatic",
+                "direction": "side-lit",
+                "mood": "warm",
+                "reasoning": "Side-lit natural light from a window, filtered by clouds, creates the chiaroscuro effect characteristic of Baroque art, highlighting the comb's intricacies and the onion's form with warm, dramatic shadows."
+            },
+            "atmosphere": "bright and active and subdued and striking"
+        },
+        "scene_inference": {
+            "all_candidates": [
+                {
+                    "scene_type": "Baroque Bishop's Private Study",
+                    "plausibility": 0.95,
+                    "reasoning": "A bishop's study is the natural habitat for a bishop. The comb is a personal grooming item for the bishop, likely on the desk. The onion could be a simple food item for a frugal meal, a botanical study specimen, or even a symbolic element in a still life on the side table.",
+                    "object_interpretations": {
+                        "comb": {
+                            "form": "real comb",
+                            "scale": "normal",
+                            "role": "personal grooming accessory"
+                        },
+                        "bishop": {
+                            "form": "real person",
+                            "scale": "normal",
+                            "role": "primary subject, owner of the study"
+                        },
+                        "onion": {
+                            "form": "real vegetable",
+                            "scale": "normal",
+                            "role": "food item or still life object"
+                        }
+                    }
+                },
+                {
+                    "scene_type": "Baroque Still Life Painting",
+                    "plausibility": 0.98,
+                    "reasoning": "Baroque still life paintings often featured symbolic objects. The bishop could be a small statue or a portrait on the wall. The comb and onion are classic objects for a vanitas painting, representing vanity and the earthly life.",
+                    "object_interpretations": {
+                        "comb": {
+                            "form": "real comb",
+                            "scale": "normal",
+                            "role": "decorative object in still life"
+                        },
+                        "bishop": {
+                            "form": "statue or portrait",
+                            "scale": "small to normal",
+                            "role": "background or symbolic element"
+                        },
+                        "onion": {
+                            "form": "real vegetable",
+                            "scale": "normal",
+                            "role": "food item in still life"
+                        }
+                    },
+                    "scene_brief": "A Baroque Still Life Painting featuring decorative comb, with bishop in the background, and onion"
+                },
+                {
+                    "scene_type": "Baroque Kitchen",
+                    "plausibility": 0.9,
+                    "reasoning": "A kitchen is a natural place for an onion. A bishop could be visiting or overseeing the kitchen. A comb could be a personal item left on a shelf or table.",
+                    "object_interpretations": {
+                        "comb": {
+                            "form": "real comb",
+                            "scale": "normal",
+                            "role": "personal item on a shelf"
+                        },
+                        "bishop": {
+                            "form": "real person",
+                            "scale": "normal",
+                            "role": "visitor or overseer"
+                        },
+                        "onion": {
+                            "form": "real vegetable",
+                            "scale": "normal",
+                            "role": "food ingredient"
+                        }
+                    }
+                },
+                {
+                    "scene_type": "Baroque Curiosity Cabinet",
+                    "plausibility": 0.85,
+                    "reasoning": "Curiosity cabinets collected rare and interesting items. A bishop's miter (hat) could be displayed, a comb could be an ornate artifact, and an onion could be a preserved botanical specimen.",
+                    "object_interpretations": {
+                        "comb": {
+                            "form": "ornate artifact",
+                            "scale": "normal",
+                            "role": "display object"
+                        },
+                        "bishop": {
+                            "form": "miter (hat) or small statue",
+                            "scale": "small to normal",
+                            "role": "display object"
+                        },
+                        "onion": {
+                            "form": "preserved specimen",
+                            "scale": "normal",
+                            "role": "botanical curiosity"
+                        }
+                    }
+                },
+                {
+                    "scene_type": "Baroque Church Interior",
+                    "plausibility": 0.8,
+                    "reasoning": "The bishop is in his natural setting. The comb could be a ceremonial object or a personal item in his vestments. The onion could be a strange offering on the altar or a symbol in a painting.",
+                    "object_interpretations": {
+                        "comb": {
+                            "form": "ceremonial comb",
+                            "scale": "normal",
+                            "role": "religious or personal accessory"
+                        },
+                        "bishop": {
+                            "form": "real person",
+                            "scale": "normal",
+                            "role": "celebrant"
+                        },
+                        "onion": {
+                            "form": "real vegetable",
+                            "scale": "normal",
+                            "role": "symbolic offering or painting element"
+                        }
+                    }
+                },
+                {
+                    "scene_type": "Baroque Dining Hall",
+                    "plausibility": 0.85,
+                    "reasoning": "A bishop at a feast. The onion is part of the meal on the table. The comb could be a decorative centerpiece or a personal item placed on the table.",
+                    "object_interpretations": {
+                        "comb": {
+                            "form": "decorative comb",
+                            "scale": "normal",
+                            "role": "centerpiece or personal item"
+                        },
+                        "bishop": {
+                            "form": "real person",
+                            "scale": "normal",
+                            "role": "guest of honor"
+                        },
+                        "onion": {
+                            "form": "cooked or raw vegetable",
+                            "scale": "normal",
+                            "role": "food item"
+                        }
+                    }
+                },
+                {
+                    "scene_type": "Baroque Garden",
+                    "plausibility": 0.75,
+                    "reasoning": "A bishop walking in a formal garden. Onions could be growing in a vegetable patch. A comb could be a garden tool or a lost personal item.",
+                    "object_interpretations": {
+                        "comb": {
+                            "form": "real comb",
+                            "scale": "normal",
+                            "role": "lost personal item"
+                        },
+                        "bishop": {
+                            "form": "real person",
+                            "scale": "normal",
+                            "role": "stroller"
+                        },
+                        "onion": {
+                            "form": "growing vegetable",
+                            "scale": "normal",
+                            "role": "garden plant"
+                        }
+                    }
+                },
+                {
+                    "scene_type": "Surreal Baroque Dream",
+                    "plausibility": 0.7,
+                    "reasoning": "In a surreal interpretation, the bishop could be a giant figure, the comb a monumental structure, and the onion a floating orb. This uses the Baroque style's dramatic lighting and emotion.",
+                    "object_interpretations": {
+                        "comb": {
+                            "form": "monumental structure",
+                            "scale": "giant",
+                            "role": "surreal architecture"
+                        },
+                        "bishop": {
+                            "form": "surreal figure",
+                            "scale": "giant",
+                            "role": "dream figure"
+                        },
+                        "onion": {
+                            "form": "floating orb",
+                            "scale": "large",
+                            "role": "surreal element"
+                        }
+                    }
+                }
+            ],
+            "selected_scene": {
+                "scene_type": "Baroque Still Life Painting",
+                "plausibility": 0.98,
+                "reasoning": "Baroque still life paintings often featured symbolic objects. The bishop could be a small statue or a portrait on the wall. The comb and onion are classic objects for a vanitas painting, representing vanity and the earthly life.",
+                "object_interpretations": {
+                    "comb": {
+                        "form": "real comb",
+                        "scale": "normal",
+                        "role": "decorative object in still life"
+                    },
+                    "bishop": {
+                        "form": "statue or portrait",
+                        "scale": "small to normal",
+                        "role": "background or symbolic element"
+                    },
+                    "onion": {
+                        "form": "real vegetable",
+                        "scale": "normal",
+                        "role": "food item in still life"
+                    }
+                },
+                "scene_brief": "A Baroque Still Life Painting featuring decorative comb, with bishop in the background, and onion"
+            }
+        }
+    },
+    "final_prompts": {
+        "main_prompt": "A Baroque painting depicting a dramatic afternoon scene where a creamy ivory comb with warm golden highlights rests atop a golden-brown onion with creamy white layers, both objects showing gentle wear and beginning signs of drying respectively. Behind this central arrangement stands a bishop carved from deep mahogany wood with muted amber accents, darkened with age, positioned so that he appears behind both the onion and the comb, creating a layered composition. The natural dramatic afternoon light streams diagonally across the scene, casting long shadows and illuminating the textures of ivory and wood, creating a bright and active yet simultaneously subdued and striking atmosphere where every object seems charged with symbolic weight and tactile presence.",
+        "negative_prompt": "photorealistic, 3d render, modern, digital art, photograph, low quality, blurry, distorted, anime, cartoon, abstract, surrealism, impressionism, watercolor, sketch, grainy, oversaturated, flat lighting, symmetry, text, signature, frame, border",
+        "prompt_formats": {
+            "simple": "A Baroque painting of a comb on an onion with a bishop behind them in dramatic afternoon light.",
+            "complex": "A Baroque painting depicting a dramatic afternoon scene where a creamy ivory comb with warm golden highlights rests atop a golden-brown onion with creamy white layers, both objects showing gentle wear and beginning signs of drying respectively. Behind this central arrangement stands a bishop carved from deep mahogany wood with muted amber accents, darkened with age, positioned so that he appears behind both the onion and the comb, creating a layered composition. The natural dramatic afternoon light streams diagonally across the scene, casting long shadows and illuminating the textures of ivory and wood, creating a bright and active yet simultaneously subdued and striking atmosphere where every object seems charged with symbolic weight and tactile presence.",
+            "comma_separated": "Baroque painting, comb on onion, bishop behind, creamy ivory comb, golden-brown onion, mahogany bishop, dramatic afternoon lighting, natural light, chiaroscuro, bright active subdued striking atmosphere, ivory texture, wood grain, symbolic still life, Caravaggio style, tenebrism",
+            "tags": "art, painting, Baroque, still life, religious symbolism, chiaroscuro, tenebrism, dramatic lighting, afternoon light, ivory comb, onion, wooden bishop, Caravaggio inspired, Dutch Golden Age, texture detail, symbolic composition"
+        }
+    }
+}

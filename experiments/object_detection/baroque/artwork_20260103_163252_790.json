@@ -1,0 +1,366 @@
+{
+    "artwork_id": "artwork_20260103_163252_790",
+    "generation_timestamp": "2026-01-03T16:33:35.441101",
+    "style": "Baroque",
+    "objects": {
+        "object_ids": [
+            75,
+            61,
+            27,
+            26
+        ],
+        "object_names": [
+            "clock",
+            "table",
+            "bag",
+            "canopy"
+        ],
+        "enhanced_objects": [
+            {
+                "object_id": 75,
+                "name": "clock",
+                "artistic_description": "An ornate Baroque mantel clock with gilded bronze case catching warm afternoon light through museum windows, its elaborate scrollwork and cherub motifs casting intricate shadows across polished surfaces. The clock face displays creamy enamel with golden Roman numerals, while the mixed lighting makes the gilding glow with rich, luminous warmth against deep patina in recessed areas",
+                "size": "Medium",
+                "state": "meticulously preserved with gentle aging on bronze components, polished to a soft sheen that responds to ambient light",
+                "primary_colors": [
+                    "warm golden bronze",
+                    "creamy ivory"
+                ],
+                "material": "gilded bronze and enamel"
+            },
+            {
+                "object_id": 61,
+                "name": "table",
+                "artistic_description": "A massive Baroque console table carved from dark walnut, its deeply sculpted pilasters and acanthus leaf ornamentation creating dramatic chiaroscuro under the bright museum lighting. The afternoon sun highlights the rich, warm brown tones of the wood grain while casting velvety shadows in the intricate carvings, the polished surface reflecting light with a deep, amber glow",
+                "size": "Large",
+                "state": "sturdy and dignified with a lustrous patina developed over centuries, surface smoothed by time yet details sharply defined",
+                "primary_colors": [
+                    "deep mahogany brown",
+                    "rich amber"
+                ],
+                "material": "carved walnut wood"
+            },
+            {
+                "object_id": 27,
+                "name": "bag",
+                "artistic_description": "A Baroque-era travel pouch made of embossed leather with ornate metal fittings that catch the mixed lighting with subtle flashes. The leather shows warm, reddish-brown undertones where afternoon light hits directly, while recessed areas appear in cool, deep shadows. Gold-toned studs and clasps gleam with crisp highlights against the textured, weathered surface",
+                "size": "Small",
+                "state": "well-worn from historical use yet dignified, showing character through softened edges and gentle scuffing that adds authenticity",
+                "primary_colors": [
+                    "warm russet leather",
+                    "tarnished gold"
+                ],
+                "material": "embossed leather with brass fittings"
+            },
+            {
+                "object_id": 26,
+                "name": "canopy",
+                "artistic_description": "A sumptuous Baroque canopy of heavy damask silk suspended above the display, its rich fabric folds creating dramatic sculptural forms under the bright, active lighting. The fabric displays deep crimson and gold threads that shimmer with luminous warmth where light penetrates the weave, while shadowed folds appear in saturated, wine-dark tones. The material's subtle sheen catches ambient light with a soft, ethereal glow",
+                "size": "Dominant",
+                "state": "pristine and opulent, fabric maintaining its noble drape and vibrant coloration as if recently commissioned",
+                "primary_colors": [
+                    "royal crimson",
+                    "golden ochre"
+                ],
+                "material": "heavy damask silk"
+            }
+        ]
+    },
+    "composition": {
+        "spatial_relations": [
+            [
+                75,
+                "on",
+                61
+            ],
+            [
+                27,
+                "on",
+                61
+            ],
+            [
+                61,
+                "under",
+                26
+            ]
+        ],
+        "semantic_relations": []
+    },
+    "environment": {
+        "environment_details": {
+            "scene_brief": "A Baroque Museum Display featuring clock, with table, bag, and canopy",
+            "place365_name": "/m/museum/indoor",
+            "place365_id": 236,
+            "time_of_day": "afternoon",
+            "weather": null,
+            "period": "Early modern",
+            "is_indoor": true,
+            "lighting": {
+                "type": "mixed",
+                "quality": "dramatic",
+                "direction": "side-lit",
+                "reasoning": "Baroque style is defined by dramatic lighting (chiaroscuro). A mixed lighting setup (soft natural light from windows combined with focused artificial spotlights on the display) would create strong contrasts and highlights on the clock and canopy, emphasizing their form and texture. Side-lighting is effective for revealing the three-dimensionality of objects on a table."
+            },
+            "atmosphere": "bright and active and striking"
+        },
+        "scene_inference": {
+            "all_candidates": [
+                {
+                    "scene_type": "Baroque Royal Bedchamber",
+                    "plausibility": 0.95,
+                    "reasoning": "A grand, opulent bedroom where a large clock serves as a centerpiece on a mantel or wall. A luxurious table sits nearby holding a decorative bag, while a canopy bed provides the architectural frame.",
+                    "object_interpretations": {
+                        "clock": {
+                            "form": "real ornate mantel clock",
+                            "scale": "large (2-3 feet tall)",
+                            "role": "primary functional and decorative object"
+                        },
+                        "table": {
+                            "form": "real carved wooden table",
+                            "scale": "normal (3-4 feet tall)",
+                            "role": "secondary furniture for display"
+                        },
+                        "bag": {
+                            "form": "luxury velvet pouch",
+                            "scale": "small (handheld)",
+                            "role": "decorative accessory on table"
+                        },
+                        "canopy": {
+                            "form": "fabric bed canopy",
+                            "scale": "large (room-sized)",
+                            "role": "architectural backdrop"
+                        }
+                    }
+                },
+                {
+                    "scene_type": "Baroque Study/Library",
+                    "plausibility": 0.9,
+                    "reasoning": "An intellectual space with a wall clock overseeing a scholar's desk (table). A leather satchel (bag) rests on the table, and a decorative canopy drapes above a reading nook.",
+                    "object_interpretations": {
+                        "clock": {
+                            "form": "real wall-mounted clock",
+                            "scale": "normal (2 feet diameter)",
+                            "role": "timekeeping centerpiece"
+                        },
+                        "table": {
+                            "form": "real heavy oak desk",
+                            "scale": "normal",
+                            "role": "primary workspace"
+                        },
+                        "bag": {
+                            "form": "leather satchel",
+                            "scale": "normal",
+                            "role": "functional accessory"
+                        },
+                        "canopy": {
+                            "form": "decorative fabric canopy",
+                            "scale": "medium (over reading chair)",
+                            "role": "accent piece"
+                        }
+                    }
+                },
+                {
+                    "scene_type": "Baroque Garden Pavilion",
+                    "plausibility": 0.85,
+                    "reasoning": "An outdoor garden setting with a sundial (clock) on a pedestal table. A decorative tote bag sits nearby, and a garden canopy provides shade.",
+                    "object_interpretations": {
+                        "clock": {
+                            "form": "sundial",
+                            "scale": "normal",
+                            "role": "garden ornament and timepiece"
+                        },
+                        "table": {
+                            "form": "stone pedestal table",
+                            "scale": "normal",
+                            "role": "garden furniture"
+                        },
+                        "bag": {
+                            "form": "woven decorative bag",
+                            "scale": "medium",
+                            "role": "garden accessory"
+                        },
+                        "canopy": {
+                            "form": "garden canopy/awning",
+                            "scale": "large (covering seating area)",
+                            "role": "shade structure"
+                        }
+                    }
+                },
+                {
+                    "scene_type": "Baroque Art Studio",
+                    "plausibility": 0.8,
+                    "reasoning": "An artist's studio where a clock is part of a still life arrangement on a work table. A fabric bag holds art supplies, and a canopy serves as a backdrop for painting.",
+                    "object_interpretations": {
+                        "clock": {
+                            "form": "antique clock",
+                            "scale": "medium",
+                            "role": "still life subject"
+                        },
+                        "table": {
+                            "form": "artist's work table",
+                            "scale": "normal",
+                            "role": "workspace"
+                        },
+                        "bag": {
+                            "form": "painter's supply bag",
+                            "scale": "medium",
+                            "role": "functional storage"
+                        },
+                        "canopy": {
+                            "form": "draped fabric backdrop",
+                            "scale": "large",
+                            "role": "studio prop"
+                        }
+                    }
+                },
+                {
+                    "scene_type": "Baroque Dining Hall",
+                    "plausibility": 0.85,
+                    "reasoning": "A formal dining space with a grandfather clock against the wall. A side table holds a guest's handbag, and a canopy drapes over a serving station.",
+                    "object_interpretations": {
+                        "clock": {
+                            "form": "grandfather clock",
+                            "scale": "large (6-7 feet tall)",
+                            "role": "statement piece"
+                        },
+                        "table": {
+                            "form": "side table/buffet",
+                            "scale": "normal",
+                            "role": "serving station"
+                        },
+                        "bag": {
+                            "form": "elegant clutch purse",
+                            "scale": "small",
+                            "role": "personal accessory"
+                        },
+                        "canopy": {
+                            "form": "serving station canopy",
+                            "scale": "medium",
+                            "role": "decorative cover"
+                        }
+                    }
+                },
+                {
+                    "scene_type": "Baroque Vanity/ dressing Room",
+                    "plausibility": 0.9,
+                    "reasoning": "A private dressing area with a small clock on a vanity table. A jewelry bag sits open, and a canopy bed or mirror frame is visible.",
+                    "object_interpretations": {
+                        "clock": {
+                            "form": "table clock",
+                            "scale": "small",
+                            "role": "vanity accessory"
+                        },
+                        "table": {
+                            "form": "vanity table",
+                            "scale": "normal",
+                            "role": "dressing surface"
+                        },
+                        "bag": {
+                            "form": "jewelry pouch",
+                            "scale": "small",
+                            "role": "storage"
+                        },
+                        "canopy": {
+                            "form": "mirror canopy",
+                            "scale": "medium",
+                            "role": "decorative frame"
+                        }
+                    }
+                },
+                {
+                    "scene_type": "Baroque Museum Display",
+                    "plausibility": 0.8,
+                    "reasoning": "A museum exhibition hall where historical artifacts are displayed. A clock is under glass on a pedestal table, with a curator's bag nearby and a canopy protecting the display.",
+                    "object_interpretations": {
+                        "clock": {
+                            "form": "antique clock artifact",
+                            "scale": "normal",
+                            "role": "exhibit piece"
+                        },
+                        "table": {
+                            "form": "display pedestal/table",
+                            "scale": "normal",
+                            "role": "exhibit support"
+                        },
+                        "bag": {
+                            "form": "curator's document bag",
+                            "scale": "medium",
+                            "role": "professional accessory"
+                        },
+                        "canopy": {
+                            "form": "display canopy",
+                            "scale": "large",
+                            "role": "protective cover"
+                        }
+                    },
+                    "scene_brief": "A Baroque Museum Display featuring clock, with table, bag, and canopy"
+                },
+                {
+                    "scene_type": "Baroque Ballroom",
+                    "plausibility": 0.75,
+                    "reasoning": "A grand ballroom with a large clock on the wall. A side table holds a guest's reticule (bag), and a canopy decorates a seating area or stage.",
+                    "object_interpretations": {
+                        "clock": {
+                            "form": "wall clock",
+                            "scale": "large",
+                            "role": "timekeeper for event"
+                        },
+                        "table": {
+                            "form": "side table",
+                            "scale": "normal",
+                            "role": "furniture"
+                        },
+                        "bag": {
+                            "form": "reticule/handbag",
+                            "scale": "small",
+                            "role": "personal accessory"
+                        },
+                        "canopy": {
+                            "form": "decorative canopy",
+                            "scale": "large",
+                            "role": "event decoration"
+                        }
+                    }
+                }
+            ],
+            "selected_scene": {
+                "scene_type": "Baroque Museum Display",
+                "plausibility": 0.8,
+                "reasoning": "A museum exhibition hall where historical artifacts are displayed. A clock is under glass on a pedestal table, with a curator's bag nearby and a canopy protecting the display.",
+                "object_interpretations": {
+                    "clock": {
+                        "form": "antique clock artifact",
+                        "scale": "normal",
+                        "role": "exhibit piece"
+                    },
+                    "table": {
+                        "form": "display pedestal/table",
+                        "scale": "normal",
+                        "role": "exhibit support"
+                    },
+                    "bag": {
+                        "form": "curator's document bag",
+                        "scale": "medium",
+                        "role": "professional accessory"
+                    },
+                    "canopy": {
+                        "form": "display canopy",
+                        "scale": "large",
+                        "role": "protective cover"
+                    }
+                },
+                "scene_brief": "A Baroque Museum Display featuring clock, with table, bag, and canopy"
+            }
+        }
+    },
+    "final_prompts": {
+        "main_prompt": "A Baroque painting depicting a grand afternoon scene filled with dramatic chiaroscuro lighting that creates a bright, active, and striking atmosphere. In the foreground, a large, dignified table of deep mahogany brown with a rich amber patina stands sturdy and lustrous. Upon its surface rests a meticulously preserved clock of warm golden bronze and creamy ivory, showing gentle aging on its components, and beside it lies a small, well-worn bag of warm russet leather with tarnished gold fittings, dignified from historical use. Above them, a dominant canopy of royal crimson and golden ochre, pristine and opulent, arches over the table, casting dynamic shadows and highlights. The spatial arrangement clearly shows the clock and bag on the table, with the table positioned under the voluminous canopy, all rendered with Baroque theatricality, rich textures of gilded bronze, carved walnut, embossed leather, and heavy damask silk, enhanced by the mixed dramatic afternoon light that amplifies the scene's vibrant energy and ornate detail.",
+        "negative_prompt": "photorealistic, 3d render, modern, digital art, photograph, low quality, blurry, distorted, cartoon, anime, abstract, minimalist, futuristic, sci-fi, watermark, signature, text, frame",
+        "prompt_formats": {
+            "simple": "A Baroque painting of a clock and bag on a mahogany table under a crimson canopy, set in a dramatic afternoon light.",
+            "complex": "A Baroque painting depicting a grand afternoon scene filled with dramatic chiaroscuro lighting that creates a bright, active, and striking atmosphere. In the foreground, a large, dignified table of deep mahogany brown with a rich amber patina stands sturdy and lustrous. Upon its surface rests a meticulously preserved clock of warm golden bronze and creamy ivory, showing gentle aging on its components, and beside it lies a small, well-worn bag of warm russet leather with tarnished gold fittings, dignified from historical use. Above them, a dominant canopy of royal crimson and golden ochre, pristine and opulent, arches over the table, casting dynamic shadows and highlights. The spatial arrangement clearly shows the clock and bag on the table, with the table positioned under the voluminous canopy, all rendered with Baroque theatricality, rich textures of gilded bronze, carved walnut, embossed leather, and heavy damask silk, enhanced by the mixed dramatic afternoon light that amplifies the scene's vibrant energy and ornate detail.",
+            "comma_separated": "Baroque painting, clock on table, bag on table, table under canopy, large mahogany table, warm golden bronze clock, small russet leather bag, dominant crimson canopy, afternoon lighting, dramatic chiaroscuro, bright active striking atmosphere, ornate textures, gilded bronze, carved walnut, embossed leather, damask silk, historical, opulent, vibrant",
+            "tags": "art, painting, Baroque, still life, clock, table, bag, canopy, mahogany, leather, crimson, afternoon light, chiaroscuro, dramatic, ornate, historical, opulent, texture, golden, patina"
+        }
+    }
+}

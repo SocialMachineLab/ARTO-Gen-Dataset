@@ -1,0 +1,372 @@
+{
+    "artwork_id": "artwork_20260103_142744_471",
+    "generation_timestamp": "2026-01-03T14:28:19.803405",
+    "style": "Baroque",
+    "objects": {
+        "object_ids": [
+            45,
+            59,
+            25,
+            47,
+            2
+        ],
+        "object_names": [
+            "spoon",
+            "ivy",
+            "backpack",
+            "banana",
+            "wheel"
+        ],
+        "enhanced_objects": [
+            {
+                "object_id": 45,
+                "name": "spoon",
+                "artistic_description": "A gleaming silver spoon catches the muted afternoon light streaming through the studio window, its polished concave surface reflecting a distorted, luminous slice of the cloudy sky. The handle features intricate Baroque scrollwork with deep crevices casting dramatic chiaroscuro shadows, while the bowl holds a soft pool of cool, diffused light against its burnished metal.",
+                "size": "Medium",
+                "state": "polished and well-maintained, showing slight tarnish in the ornate crevices",
+                "primary_colors": [
+                    "cool silver",
+                    "soft gray"
+                ],
+                "material": "silver"
+            },
+            {
+                "object_id": 59,
+                "name": "ivy",
+                "artistic_description": "Lush ivy tendrils cascade in the background, their deep green leaves rendered in velvety shadows and muted highlights under the overcast light. The foliage appears almost painted in rich umber and viridian tones, with delicate leaf veins catching subtle glints of natural illumination, creating a living tapestry of organic Baroque ornamentation.",
+                "size": "Large",
+                "state": "vibrant and trailing, slightly damp from the humid indoor atmosphere",
+                "primary_colors": [
+                    "deep forest green",
+                    "mossy olive"
+                ],
+                "material": "living foliage"
+            },
+            {
+                "object_id": 25,
+                "name": "backpack",
+                "artistic_description": "A worn leather backpack rests with dignified presence, its weathered surface absorbing the subdued afternoon light into rich, warm brown tones. The leather shows a patina of age with subtle highlights along worn edges and creases, while brass buckles provide small, muted points of metallic reflection against the matte, supple texture.",
+                "size": "Medium",
+                "state": "aged and softened with use, showing characterful wear and gentle scuffs",
+                "primary_colors": [
+                    "deep mahogany",
+                    "burnt sienna"
+                ],
+                "material": "aged leather"
+            },
+            {
+                "object_id": 47,
+                "name": "banana",
+                "artistic_description": "A golden banana rests with sculptural grace, its curved form catching the cool, diffused light on one side while the other dissolves into soft shadow. The peel displays a painterly gradient from bright ochre to muted yellow-green, with subtle brown speckles adding Baroque naturalism to its organic, yielding surface.",
+                "size": "Small",
+                "state": "fresh but ripening, with soft indentations and a slight sheen",
+                "primary_colors": [
+                    "warm golden yellow",
+                    "muted chartreuse"
+                ],
+                "material": "organic fruit"
+            },
+            {
+                "object_id": 2,
+                "name": "wheel",
+                "artistic_description": "A decorative wooden wheel stands as a Baroque still-life element, its circular form creating a dramatic tonal range from deep umber shadows in the hub to lighter, weathered oak along the rim. The aged wood grain follows the curve in rhythmic patterns, while the surface shows a dry, matte patina that softly diffuses the afternoon light without reflection.",
+                "size": "Large",
+                "state": "weathered and rustic, with a dry, textured surface showing age and character",
+                "primary_colors": [
+                    "warm oak brown",
+                    "deep walnut"
+                ],
+                "material": "aged wood"
+            }
+        ]
+    },
+    "composition": {
+        "spatial_relations": [
+            [
+                45,
+                "on",
+                25
+            ],
+            [
+                47,
+                "next to",
+                45
+            ],
+            [
+                2,
+                "behind",
+                25
+            ],
+            [
+                59,
+                "behind",
+                2
+            ],
+            [
+                25,
+                "in front of",
+                59
+            ]
+        ],
+        "semantic_relations": []
+    },
+    "environment": {
+        "environment_details": {
+            "scene_brief": "A Baroque artist's studio centered around spoon, with ivy in the background, backpack, banana, and decorative wheel as decoration",
+            "place365_name": "/a/art_studio",
+            "place365_id": 21,
+            "time_of_day": "afternoon",
+            "weather": "cloudy",
+            "period": "Early modern",
+            "is_indoor": true,
+            "lighting": {
+                "type": "natural",
+                "quality": "dramatic",
+                "direction": "side-lit",
+                "mood": "cool",
+                "reasoning": "Side-lit natural light from windows creates the strong directional shadows essential to Baroque drama. Cloudy weather provides a cool-toned, diffused light that allows for controlled chiaroscuro effects. The afternoon sun at an angle will highlight the spoon and decorative objects while casting deep shadows, creating the theatrical atmosphere of Baroque painting."
+            },
+            "atmosphere": "bright and active and subdued and striking"
+        },
+        "scene_inference": {
+            "all_candidates": [
+                {
+                    "scene_type": "Baroque artist's studio",
+                    "plausibility": 0.85,
+                    "reasoning": "A still life composition on a draped table. The spoon is the central utensil for a meal, the banana is the subject fruit, ivy creeps over a wooden crate in the background, a backpack rests on a stool, and a decorative wooden wheel hangs on the wall as a prop.",
+                    "object_interpretations": {
+                        "spoon": {
+                            "form": "real silver spoon",
+                            "scale": "normal",
+                            "role": "primary object in still life"
+                        },
+                        "ivy": {
+                            "form": "real plant",
+                            "scale": "normal",
+                            "role": "background greenery"
+                        },
+                        "backpack": {
+                            "form": "leather satchel",
+                            "scale": "normal",
+                            "role": "secondary prop"
+                        },
+                        "banana": {
+                            "form": "real fruit",
+                            "scale": "normal",
+                            "role": "food subject"
+                        },
+                        "wheel": {
+                            "form": "wooden cart wheel",
+                            "scale": "medium",
+                            "role": "decorative wall hanging"
+                        }
+                    },
+                    "scene_brief": "A Baroque artist's studio centered around spoon, with ivy in the background, backpack, banana, and decorative wheel as decoration"
+                },
+                {
+                    "scene_type": "opulent dining hall",
+                    "plausibility": 0.9,
+                    "reasoning": "A lavish banquet setting. The spoon sits on a silk napkin, a banana is on a gilded plate, ivy cascades from a centerpiece, a backpack is a wealthy traveler's accessory on a side bench, and a wheel is part of a large carriage clock on the mantle.",
+                    "object_interpretations": {
+                        "spoon": {
+                            "form": "ornate silverware",
+                            "scale": "normal",
+                            "role": "primary dining utensil"
+                        },
+                        "ivy": {
+                            "form": "garland",
+                            "scale": "normal",
+                            "role": "table decoration"
+                        },
+                        "backpack": {
+                            "form": "embroidered travel bag",
+                            "scale": "normal",
+                            "role": "accessory"
+                        },
+                        "banana": {
+                            "form": "exotic fruit",
+                            "scale": "normal",
+                            "role": "dessert"
+                        },
+                        "wheel": {
+                            "form": "clock mechanism",
+                            "scale": "medium",
+                            "role": "decorative element"
+                        }
+                    }
+                },
+                {
+                    "scene_type": "Baroque garden conservatory",
+                    "plausibility": 0.8,
+                    "reasoning": "A glass-enclosed garden room. Ivy grows on the trellis, a backpack is a gardener's tool bag, a banana tree is in a pot, a spoon is used for potting soil, and a wheel is part of a potting bench or a decorative garden ornament.",
+                    "object_interpretations": {
+                        "spoon": {
+                            "form": "gardening trowel",
+                            "scale": "normal",
+                            "role": "tool"
+                        },
+                        "ivy": {
+                            "form": "climbing vine",
+                            "scale": "large",
+                            "role": "structural greenery"
+                        },
+                        "backpack": {
+                            "form": "canvas satchel",
+                            "scale": "normal",
+                            "role": "utility item"
+                        },
+                        "banana": {
+                            "form": "potted banana plant",
+                            "scale": "normal",
+                            "role": "botanical specimen"
+                        },
+                        "wheel": {
+                            "form": "wheelbarrow wheel",
+                            "scale": "medium",
+                            "role": "garden tool prop"
+                        }
+                    }
+                },
+                {
+                    "scene_type": "Baroque study/library",
+                    "plausibility": 0.75,
+                    "reasoning": "A scholar's cluttered desk. A spoon is left beside a tea cup, a backpack holds scrolls, ivy grows outside the window (seen through glass), a banana is a snack on the desk, and a wheel is a decorative motif on a globe stand.",
+                    "object_interpretations": {
+                        "spoon": {
+                            "form": "tea spoon",
+                            "scale": "normal",
+                            "role": "personal item"
+                        },
+                        "ivy": {
+                            "form": "window view",
+                            "scale": "distant",
+                            "role": "atmospheric element"
+                        },
+                        "backpack": {
+                            "form": "leather document case",
+                            "scale": "normal",
+                            "role": "storage"
+                        },
+                        "banana": {
+                            "form": "fresh fruit",
+                            "scale": "normal",
+                            "role": "refreshment"
+                        },
+                        "wheel": {
+                            "form": "ornamental carving",
+                            "scale": "small",
+                            "role": "decoration"
+                        }
+                    }
+                },
+                {
+                    "scene_type": "mystical apothecary",
+                    "plausibility": 0.8,
+                    "reasoning": "A shop filled with curiosities. The spoon is a measuring tool for potions, ivy is a dried herb hanging from the ceiling, a backpack is a customer's bag, a banana is a rare tropical ingredient, and a wheel is a spinning display for charms.",
+                    "object_interpretations": {
+                        "spoon": {
+                            "form": "ladle",
+                            "scale": "normal",
+                            "role": "apothecary tool"
+                        },
+                        "ivy": {
+                            "form": "dried vines",
+                            "scale": "normal",
+                            "role": "hanging decoration"
+                        },
+                        "backpack": {
+                            "form": "worn leather pack",
+                            "scale": "normal",
+                            "role": "customer item"
+                        },
+                        "banana": {
+                            "form": "preserved specimen",
+                            "scale": "normal",
+                            "role": "ingredient"
+                        },
+                        "wheel": {
+                            "form": "spinning rack",
+                            "scale": "medium",
+                            "role": "display mechanism"
+                        }
+                    }
+                },
+                {
+                    "scene_type": "royal treasure room",
+                    "plausibility": 0.7,
+                    "reasoning": "A vault of exotic goods. A golden spoon is part of a display, ivy is woven into a tapestry, a backpack is a merchant's sample bag, a banana is a porcelain figurine, and a wheel is a jeweled ornament.",
+                    "object_interpretations": {
+                        "spoon": {
+                            "form": "gold artifact",
+                            "scale": "normal",
+                            "role": "treasure"
+                        },
+                        "ivy": {
+                            "form": "embroidery",
+                            "scale": "large",
+                            "role": "textile art"
+                        },
+                        "backpack": {
+                            "form": "velvet pouch",
+                            "scale": "normal",
+                            "role": "carrier"
+                        },
+                        "banana": {
+                            "form": "porcelain statue",
+                            "scale": "normal",
+                            "role": "art object"
+                        },
+                        "wheel": {
+                            "form": "jeweled brooch",
+                            "scale": "small",
+                            "role": "jewelry"
+                        }
+                    }
+                }
+            ],
+            "selected_scene": {
+                "scene_type": "Baroque artist's studio",
+                "plausibility": 0.85,
+                "reasoning": "A still life composition on a draped table. The spoon is the central utensil for a meal, the banana is the subject fruit, ivy creeps over a wooden crate in the background, a backpack rests on a stool, and a decorative wooden wheel hangs on the wall as a prop.",
+                "object_interpretations": {
+                    "spoon": {
+                        "form": "real silver spoon",
+                        "scale": "normal",
+                        "role": "primary object in still life"
+                    },
+                    "ivy": {
+                        "form": "real plant",
+                        "scale": "normal",
+                        "role": "background greenery"
+                    },
+                    "backpack": {
+                        "form": "leather satchel",
+                        "scale": "normal",
+                        "role": "secondary prop"
+                    },
+                    "banana": {
+                        "form": "real fruit",
+                        "scale": "normal",
+                        "role": "food subject"
+                    },
+                    "wheel": {
+                        "form": "wooden cart wheel",
+                        "scale": "medium",
+                        "role": "decorative wall hanging"
+                    }
+                },
+                "scene_brief": "A Baroque artist's studio centered around spoon, with ivy in the background, backpack, banana, and decorative wheel as decoration"
+            }
+        }
+    },
+    "final_prompts": {
+        "main_prompt": "A Baroque painting depicting a dramatic afternoon scene with striking chiaroscuro lighting. In the foreground, a medium-sized, aged backpack in deep mahogany and burnt sienna sits softened with use, its surface supporting a polished, cool silver spoon. Beside the spoon rests a small, fresh but ripening banana in warm golden yellow and muted chartreuse. Behind the backpack, a large, weathered wheel in warm oak brown and deep walnut stands rustic and prominent. Further back, vibrant, trailing ivy in deep forest green and mossy olive creates a lush backdrop. The natural dramatic afternoon light casts deep shadows and bright highlights, creating a bright, active, yet subdued and striking atmosphere where each object's texture\u2014from the spoon's silver sheen to the backpack's aged leather and the wheel's aged wood\u2014is rendered with Baroque theatricality.",
+        "negative_prompt": "photorealistic, 3d render, modern, digital art, photograph, low quality, blurry, distorted, cartoon, anime, abstract, surreal, futuristic, minimalist, sketch, watermark, signature, text, frame, border, oversaturated, ugly, deformed, mutated",
+        "prompt_formats": {
+            "simple": "A Baroque painting of a spoon on a backpack with a banana beside it, a wheel behind, and ivy in the background, set in dramatic afternoon light.",
+            "complex": "A Baroque painting depicting a dramatic afternoon scene with striking chiaroscuro lighting. In the foreground, a medium-sized, aged backpack in deep mahogany and burnt sienna sits softened with use, its surface supporting a polished, cool silver spoon. Beside the spoon rests a small, fresh but ripening banana in warm golden yellow and muted chartreuse. Behind the backpack, a large, weathered wheel in warm oak brown and deep walnut stands rustic and prominent. Further back, vibrant, trailing ivy in deep forest green and mossy olive creates a lush backdrop. The natural dramatic afternoon light casts deep shadows and bright highlights, creating a bright, active, yet subdued and striking atmosphere where each object's texture\u2014from the spoon's silver sheen to the backpack's aged leather and the wheel's aged wood\u2014is rendered with Baroque theatricality.",
+            "comma_separated": "Baroque painting, spoon on backpack, banana next to spoon, wheel behind backpack, ivy behind wheel, afternoon lighting, dramatic chiaroscuro, bright active subdued striking atmosphere, polished silver spoon, deep green ivy, aged mahogany backpack, golden yellow banana, weathered oak wheel, natural light, textured details, theatrical composition",
+            "tags": "art, painting, Baroque, chiaroscuro, still life, dramatic lighting, afternoon, spoon, ivy, backpack, banana, wheel, aged leather, organic, rustic, textural, classical art"
+        }
+    }
+}

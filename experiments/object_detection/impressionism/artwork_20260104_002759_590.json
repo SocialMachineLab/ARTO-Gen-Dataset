@@ -1,0 +1,340 @@
+{
+    "artwork_id": "artwork_20260104_002759_590",
+    "generation_timestamp": "2026-01-04T00:28:30.932440",
+    "style": "Impressionism",
+    "objects": {
+        "object_ids": [
+            48,
+            20,
+            18,
+            47
+        ],
+        "object_names": [
+            "pomegranate",
+            "calf",
+            "donkey",
+            "banana"
+        ],
+        "enhanced_objects": [
+            {
+                "object_id": 48,
+                "name": "pomegranate",
+                "artistic_description": "A ripe pomegranate glows with deep crimson and ruby tones under bright morning light filtering through barn windows, its leathery rind catching warm highlights while casting soft violet shadows on the rough wooden surface beneath; tiny flecks of light dance across its crown where dried remnants of blossom cling, the waxy skin absorbing and reflecting the golden morning rays with a subtle, matte sheen",
+                "size": "Medium",
+                "state": "freshly harvested, slightly dusty from the barn environment",
+                "primary_colors": [
+                    "crimson",
+                    "ruby"
+                ],
+                "material": "fruit rind"
+            },
+            {
+                "object_id": 20,
+                "name": "calf",
+                "artistic_description": "A young calf's soft brown coat shimmers with warm golden highlights where morning sun streams through barn slats, while cooler gray-blue shadows define its muscular form; its velvety fur appears slightly fluffy in the crisp air, with delicate strands catching the light and creating a halo effect around its silhouette, moist black nose reflecting bright points of light",
+                "size": "Large",
+                "state": "alert and curious, standing in fresh straw",
+                "primary_colors": [
+                    "golden brown",
+                    "cream"
+                ],
+                "material": "fur"
+            },
+            {
+                "object_id": 18,
+                "name": "donkey",
+                "artistic_description": "An aged donkey's coarse gray coat absorbs the morning light in muted silvery tones, its longer mane and tail appearing almost charcoal against the bright window behind; weathered patches of darker fur create subtle tonal variations across its patient form, while its long ears catch translucent golden edges where sunlight passes through the thin hair, the overall appearance softened by the gentle atmospheric haze of the barn",
+                "size": "Large",
+                "state": "calm and weathered, bearing marks of time",
+                "primary_colors": [
+                    "silver gray",
+                    "charcoal"
+                ],
+                "material": "fur"
+            },
+            {
+                "object_id": 47,
+                "name": "banana",
+                "artistic_description": "A curved banana rests with vibrant yellow skin that intensifies to rich amber where direct sunlight hits its surface, while the shaded side fades to soft buttery cream; subtle brown speckles emerge across its peel like scattered freckles, and the matte texture diffuses the morning light into gentle, luminous patches that suggest the fruit's yielding softness beneath",
+                "size": "Small",
+                "state": "perfectly ripe, showing slight pressure marks from handling",
+                "primary_colors": [
+                    "vibrant yellow",
+                    "amber"
+                ],
+                "material": "fruit peel"
+            }
+        ]
+    },
+    "composition": {
+        "spatial_relations": [
+            [
+                48,
+                "on",
+                20
+            ],
+            [
+                47,
+                "on",
+                20
+            ],
+            [
+                20,
+                "next to",
+                18
+            ]
+        ],
+        "semantic_relations": []
+    },
+    "environment": {
+        "environment_details": {
+            "scene_brief": "A Barnyard Morning featuring pomegranate, with calf, donkey, and banana",
+            "place365_name": "/p/pub/indoor",
+            "place365_id": 274,
+            "time_of_day": "morning",
+            "weather": "sunny",
+            "period": "Contemporary",
+            "is_indoor": true,
+            "lighting": {
+                "type": "natural",
+                "quality": "soft",
+                "direction": "front-lit",
+                "mood": "warm",
+                "reasoning": "Impressionism relies on capturing the fleeting effects of natural light. Morning sunlight ('sunny' weather) is naturally soft and warm (golden hour tones). A 'side-lit' or 'front-lit' approach would highlight the textures of the objects (calf, donkey, fruit) and the vibrant colors typical of the style, avoiding the harsh shadows of midday or the dramatic darkness of evening."
+            },
+            "atmosphere": "fresh and energetic and cheerful and gentle"
+        },
+        "scene_inference": {
+            "all_candidates": [
+                {
+                    "scene_type": "Farm Market Stall",
+                    "plausibility": 0.95,
+                    "reasoning": "A bustling farm market stall is a natural setting for produce like pomegranates and bananas. The calf and donkey are either the working animals that pulled the cart of goods to market, or are tethered nearby as part of the farm's presence. The Impressionist style captures the vibrant colors and lively atmosphere.",
+                    "object_interpretations": {
+                        "pomegranate": {
+                            "form": "real fruit",
+                            "scale": "normal",
+                            "role": "primary produce for sale"
+                        },
+                        "calf": {
+                            "form": "real animal",
+                            "scale": "normal",
+                            "role": "farm animal, part of the market scene"
+                        },
+                        "donkey": {
+                            "form": "real animal",
+                            "scale": "normal",
+                            "role": "working animal or companion at the market"
+                        },
+                        "banana": {
+                            "form": "real fruit",
+                            "scale": "normal",
+                            "role": "secondary produce for sale"
+                        }
+                    }
+                },
+                {
+                    "scene_type": "Barnyard Morning",
+                    "plausibility": 0.9,
+                    "reasoning": "In a rustic barnyard setting, the calf and donkey are central figures. A farmer might have brought out a basket of fruit for a snack or to sell, containing pomegranates and bananas. The soft morning light is perfect for Impressionism.",
+                    "object_interpretations": {
+                        "pomegranate": {
+                            "form": "real fruit",
+                            "scale": "normal",
+                            "role": "part of a farmer's harvest basket"
+                        },
+                        "calf": {
+                            "form": "real animal",
+                            "scale": "normal",
+                            "role": "primary resident of the barnyard"
+                        },
+                        "donkey": {
+                            "form": "real animal",
+                            "scale": "normal",
+                            "role": "barnyard companion"
+                        },
+                        "banana": {
+                            "form": "real fruit",
+                            "scale": "normal",
+                            "role": "part of a farmer's harvest basket"
+                        }
+                    },
+                    "scene_brief": "A Barnyard Morning featuring pomegranate, with calf, donkey, and banana"
+                },
+                {
+                    "scene_type": "Mediterranean Coastal Village",
+                    "plausibility": 0.85,
+                    "reasoning": "In a sun-drenched Mediterranean village, pomegranates and bananas are common local produce. A donkey is a traditional beast of burden, and a calf might be seen grazing on the outskirts. The scene is filled with bright, dappled light.",
+                    "object_interpretations": {
+                        "pomegranate": {
+                            "form": "real fruit",
+                            "scale": "normal",
+                            "role": "local produce in a vendor's cart"
+                        },
+                        "calf": {
+                            "form": "real animal",
+                            "scale": "normal",
+                            "role": "young livestock grazing nearby"
+                        },
+                        "donkey": {
+                            "form": "real animal",
+                            "scale": "normal",
+                            "role": "transporting goods through the village"
+                        },
+                        "banana": {
+                            "form": "real fruit",
+                            "scale": "normal",
+                            "role": "local produce in a vendor's cart"
+                        }
+                    }
+                },
+                {
+                    "scene_type": "Still Life in a Rustic Kitchen",
+                    "plausibility": 0.8,
+                    "reasoning": "A classic Impressionist subject. The pomegranate and banana are part of a fruit arrangement on a kitchen table. The calf and donkey are not physically in the room but are depicted in a painting on the wall, or as small toy figurines on a shelf, representing the farm life outside.",
+                    "object_interpretations": {
+                        "pomegranate": {
+                            "form": "real fruit",
+                            "scale": "normal",
+                            "role": "subject of the still life"
+                        },
+                        "calf": {
+                            "form": "toy figurine or painting",
+                            "scale": "small or miniature",
+                            "role": "decorative element, memory of the farm"
+                        },
+                        "donkey": {
+                            "form": "toy figurine or painting",
+                            "scale": "small or miniature",
+                            "role": "decorative element, memory of the farm"
+                        },
+                        "banana": {
+                            "form": "real fruit",
+                            "scale": "normal",
+                            "role": "subject of the still life"
+                        }
+                    }
+                },
+                {
+                    "scene_type": "County Fair",
+                    "plausibility": 0.9,
+                    "reasoning": "At a county fair, there are animal pens with calves and donkeys. Nearby, there are food stalls selling fresh fruit like pomegranates and bananas. The scene is vibrant with people and color.",
+                    "object_interpretations": {
+                        "pomegranate": {
+                            "form": "real fruit",
+                            "scale": "normal",
+                            "role": "snack or prize from a food stall"
+                        },
+                        "calf": {
+                            "form": "real animal",
+                            "scale": "normal",
+                            "role": "contestant in the animal show"
+                        },
+                        "donkey": {
+                            "form": "real animal",
+                            "scale": "normal",
+                            "role": "contestant in the animal show"
+                        },
+                        "banana": {
+                            "form": "real fruit",
+                            "scale": "normal",
+                            "role": "snack or prize from a food stall"
+                        }
+                    }
+                },
+                {
+                    "scene_type": "Artisan's Garden",
+                    "plausibility": 0.85,
+                    "reasoning": "An artist's garden where pomegranate and banana trees grow. The artist uses the garden as a subject, and also keeps a calf and a donkey for companionship and to help with garden chores. The Impressionist style highlights the lush foliage and dappled light.",
+                    "object_interpretations": {
+                        "pomegranate": {
+                            "form": "real fruit",
+                            "scale": "normal",
+                            "role": "hanging from a tree in the garden"
+                        },
+                        "calf": {
+                            "form": "real animal",
+                            "scale": "normal",
+                            "role": "grazing in the pasture adjacent to the garden"
+                        },
+                        "donkey": {
+                            "form": "real animal",
+                            "scale": "normal",
+                            "role": "grazing in the pasture adjacent to the garden"
+                        },
+                        "banana": {
+                            "form": "real fruit",
+                            "scale": "normal",
+                            "role": "hanging from a tree in the garden"
+                        }
+                    }
+                },
+                {
+                    "scene_type": "Picnic in the Orchard",
+                    "plausibility": 0.9,
+                    "reasoning": "A family picnic in an orchard that grows pomegranates and bananas. The family's pet calf and donkey are allowed to wander nearby, curious about the picnic spread. The dappled light through the trees is ideal for Impressionism.",
+                    "object_interpretations": {
+                        "pomegranate": {
+                            "form": "real fruit",
+                            "scale": "normal",
+                            "role": "part of the picnic food"
+                        },
+                        "calf": {
+                            "form": "real animal",
+                            "scale": "normal",
+                            "role": "curious onlooker at the picnic"
+                        },
+                        "donkey": {
+                            "form": "real animal",
+                            "scale": "normal",
+                            "role": "curious onlooker at the picnic"
+                        },
+                        "banana": {
+                            "form": "real fruit",
+                            "scale": "normal",
+                            "role": "part of the picnic food"
+                        }
+                    }
+                }
+            ],
+            "selected_scene": {
+                "scene_type": "Barnyard Morning",
+                "plausibility": 0.9,
+                "reasoning": "In a rustic barnyard setting, the calf and donkey are central figures. A farmer might have brought out a basket of fruit for a snack or to sell, containing pomegranates and bananas. The soft morning light is perfect for Impressionism.",
+                "object_interpretations": {
+                    "pomegranate": {
+                        "form": "real fruit",
+                        "scale": "normal",
+                        "role": "part of a farmer's harvest basket"
+                    },
+                    "calf": {
+                        "form": "real animal",
+                        "scale": "normal",
+                        "role": "primary resident of the barnyard"
+                    },
+                    "donkey": {
+                        "form": "real animal",
+                        "scale": "normal",
+                        "role": "barnyard companion"
+                    },
+                    "banana": {
+                        "form": "real fruit",
+                        "scale": "normal",
+                        "role": "part of a farmer's harvest basket"
+                    }
+                },
+                "scene_brief": "A Barnyard Morning featuring pomegranate, with calf, donkey, and banana"
+            }
+        }
+    },
+    "final_prompts": {
+        "main_prompt": "A Impressionism painting depicting a fresh morning scene in a sun-drenched pasture. In the foreground, a large, alert and curious golden brown and cream calf stands beside a large, calm and weathered silver gray and charcoal donkey. Balanced delicately on the calf's broad back are two fruits: a medium-sized, freshly harvested crimson and ruby pomegranate and a small, perfectly ripe vibrant yellow and amber banana. The natural soft morning light filters through the atmosphere, casting gentle, dappled shadows and creating a fresh, energetic, cheerful, and gentle mood. Loose, visible brushstrokes capture the texture of the calf's fur, the donkey's coarse coat, the glossy rind of the pomegranate, and the smooth peel of the banana, all bathed in the warm, luminous glow of dawn.",
+        "negative_prompt": "photorealistic, 3d render, modern, digital art, photograph, low quality, blurry, distorted, ugly, deformed, cartoon, anime, text, watermark, signature, frame, border, hyperdetailed, oversaturated",
+        "prompt_formats": {
+            "simple": "An Impressionist painting of a calf with a pomegranate and banana on its back, standing next to a donkey in a cheerful morning pasture.",
+            "complex": "A Impressionism painting depicting a fresh morning scene in a sun-drenched pasture. In the foreground, a large, alert and curious golden brown and cream calf stands beside a large, calm and weathered silver gray and charcoal donkey. Balanced delicately on the calf's broad back are two fruits: a medium-sized, freshly harvested crimson and ruby pomegranate and a small, perfectly ripe vibrant yellow and amber banana. The natural soft morning light filters through the atmosphere, casting gentle, dappled shadows and creating a fresh, energetic, cheerful, and gentle mood. Loose, visible brushstrokes capture the texture of the calf's fur, the donkey's coarse coat, the glossy rind of the pomegranate, and the smooth peel of the banana, all bathed in the warm, luminous glow of dawn.",
+            "comma_separated": "Impressionism painting, morning pasture, golden brown calf, silver gray donkey, crimson pomegranate on calf, yellow banana on calf, calf next to donkey, soft natural lighting, fresh energetic cheerful gentle atmosphere, loose brushstrokes, dappled light, Claude Monet style",
+            "tags": "art, painting, impressionism, animal painting, still life, pastoral, morning light, calf, donkey, pomegranate, banana, fruit, fur texture, brushstroke"
+        }
+    }
+}

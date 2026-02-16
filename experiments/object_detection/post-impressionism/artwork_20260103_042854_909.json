@@ -1,0 +1,287 @@
+{
+    "artwork_id": "artwork_20260103_042854_909",
+    "generation_timestamp": "2026-01-03T04:29:23.103792",
+    "style": "Post-Impressionism",
+    "objects": {
+        "object_ids": [
+            15,
+            1,
+            48
+        ],
+        "object_names": [
+            "falcon",
+            "child",
+            "peach"
+        ],
+        "enhanced_objects": [
+            {
+                "object_id": 15,
+                "name": "falcon",
+                "artistic_description": "A striking bird rendered with bold, visible brushstrokes in rich chocolate browns and deep indigos, its feathers catching the bright afternoon sunlight with iridescent highlights of burnt sienna and cobalt. The intense natural light creates sharp contrasts between dark shadowed areas and brilliantly illuminated edges, giving the creature a sculptural presence. Its piercing eye gleams with a single dot of cadmium yellow against the matte darkness of its head.",
+                "size": "Large",
+                "state": "alert and poised",
+                "primary_colors": [
+                    "deep chocolate brown",
+                    "iridescent indigo"
+                ],
+                "material": "feathers"
+            },
+            {
+                "object_id": 1,
+                "name": "child",
+                "artistic_description": "A youthful figure bathed in warm afternoon sunlight streaming through studio windows, skin tones rendered in peachy creams with violet shadows where light doesn't directly fall. The bright, cheerful atmosphere is captured through vibrant patches of rose madder and golden ochre on the cheeks and hands. Visible, energetic brushwork suggests movement and life, with the intense natural light creating a halo effect around the hair in shades of raw sienna and amber.",
+                "size": "Medium",
+                "state": "active and cheerful",
+                "primary_colors": [
+                    "peachy cream",
+                    "rose madder"
+                ],
+                "material": "skin"
+            },
+            {
+                "object_id": 48,
+                "name": "peach",
+                "artistic_description": "A luscious fruit glowing with translucent warmth, its fuzzy skin rendered in thick impasto strokes of coral pink and warm apricot that catch the brilliant afternoon light. The intense natural illumination makes the surface appear almost luminous, with subtle highlights of titanium white where the sun strikes its curve. Matte skin absorbs light in velvety patches while the ripe flesh beneath suggests a juicy, vibrant interior.",
+                "size": "Small",
+                "state": "ripe and fresh",
+                "primary_colors": [
+                    "coral pink",
+                    "warm apricot"
+                ],
+                "material": "fruit skin"
+            }
+        ]
+    },
+    "composition": {
+        "spatial_relations": [
+            [
+                1,
+                "inside",
+                15
+            ],
+            [
+                48,
+                "on",
+                15
+            ]
+        ],
+        "semantic_relations": [
+            [
+                1,
+                "holding",
+                48
+            ]
+        ]
+    },
+    "environment": {
+        "environment_details": {
+            "scene_brief": "A Art studio featuring falcon, with child, and peach",
+            "place365_name": "/a/art_studio",
+            "place365_id": 21,
+            "time_of_day": "afternoon",
+            "weather": "sunny",
+            "period": "Contemporary",
+            "is_indoor": true,
+            "lighting": {
+                "type": "natural",
+                "quality": "harsh",
+                "direction": "side-lit",
+                "mood": "warm",
+                "reasoning": "Combining 'sunny' weather and 'afternoon' time results in strong natural light. A 'side-lit' direction creates dramatic shadows and highlights, essential for the structural emphasis in Post-Impressionism. The 'warm' mood complements the afternoon sun and the subject matter."
+            },
+            "atmosphere": "bright and active and cheerful"
+        },
+        "scene_inference": {
+            "all_candidates": [
+                {
+                    "scene_type": "Victorian greenhouse",
+                    "plausibility": 0.85,
+                    "reasoning": "A large, ornate greenhouse with humid air and exotic plants. The falcon is a trained bird perched on a glove, the child is a young visitor, and the peach is a piece of fruit from a ripening tree inside.",
+                    "object_interpretations": {
+                        "falcon": {
+                            "form": "real animal",
+                            "scale": "normal",
+                            "role": "trained companion"
+                        },
+                        "child": {
+                            "form": "real person",
+                            "scale": "normal",
+                            "role": "observer/visitor"
+                        },
+                        "peach": {
+                            "form": "real fruit",
+                            "scale": "normal",
+                            "role": "natural object/garden produce"
+                        }
+                    }
+                },
+                {
+                    "scene_type": "Country garden",
+                    "plausibility": 0.9,
+                    "reasoning": "An outdoor garden scene with a child playing near a fruit tree. A falcon soars overhead or perches on a branch, and a peach rests on the grass or in a basket.",
+                    "object_interpretations": {
+                        "falcon": {
+                            "form": "real animal",
+                            "scale": "normal",
+                            "role": "wildlife/predator"
+                        },
+                        "child": {
+                            "form": "real person",
+                            "scale": "normal",
+                            "role": "playful protagonist"
+                        },
+                        "peach": {
+                            "form": "real fruit",
+                            "scale": "normal",
+                            "role": "harvest/food"
+                        }
+                    }
+                },
+                {
+                    "scene_type": "Art studio",
+                    "plausibility": 0.8,
+                    "reasoning": "A painter's studio where a child model sits. A stuffed falcon is used as a reference, and a real peach is part of a still life arrangement on a table.",
+                    "object_interpretations": {
+                        "falcon": {
+                            "form": "taxidermy/statue",
+                            "scale": "normal",
+                            "role": "artistic reference/decoration"
+                        },
+                        "child": {
+                            "form": "real person",
+                            "scale": "normal",
+                            "role": "artist's subject/model"
+                        },
+                        "peach": {
+                            "form": "real fruit",
+                            "scale": "normal",
+                            "role": "still life object"
+                        }
+                    },
+                    "scene_brief": "A Art studio featuring falcon, with child, and peach"
+                },
+                {
+                    "scene_type": "Museum natural history exhibit",
+                    "plausibility": 0.75,
+                    "reasoning": "A diorama displaying a falcon habitat. A child looks at the display, which includes a realistic model of a peach tree branch to show food sources.",
+                    "object_interpretations": {
+                        "falcon": {
+                            "form": "stuffed/mounted",
+                            "scale": "normal",
+                            "role": "exhibit specimen"
+                        },
+                        "child": {
+                            "form": "real person",
+                            "scale": "normal",
+                            "role": "museum visitor"
+                        },
+                        "peach": {
+                            "form": "model/plastic",
+                            "scale": "normal",
+                            "role": "part of diorama decor"
+                        }
+                    }
+                },
+                {
+                    "scene_type": "Fantasy forest",
+                    "plausibility": 0.7,
+                    "reasoning": "A surreal, dreamlike forest. The falcon is a magical guardian, the child is an adventurer, and the peach is a giant, enchanted fruit growing on a mystical tree.",
+                    "object_interpretations": {
+                        "falcon": {
+                            "form": "real animal",
+                            "scale": "large/enlarged",
+                            "role": "mythical creature"
+                        },
+                        "child": {
+                            "form": "real person",
+                            "scale": "normal",
+                            "role": "explorer"
+                        },
+                        "peach": {
+                            "form": "real fruit",
+                            "scale": "large/enlarged",
+                            "role": "magical artifact"
+                        }
+                    }
+                },
+                {
+                    "scene_type": "Vintage kitchen",
+                    "plausibility": 0.85,
+                    "reasoning": "A rustic kitchen with a window view. A caged falcon (perhaps a pet or waiting for training) sits on a shelf, a child helps prepare food, and a bowl of peaches sits on the counter.",
+                    "object_interpretations": {
+                        "falcon": {
+                            "form": "real animal",
+                            "scale": "normal",
+                            "role": "caged pet"
+                        },
+                        "child": {
+                            "form": "real person",
+                            "scale": "normal",
+                            "role": "helper/chef"
+                        },
+                        "peach": {
+                            "form": "real fruit",
+                            "scale": "normal",
+                            "role": "ingredient"
+                        }
+                    }
+                },
+                {
+                    "scene_type": "Outdoor market",
+                    "plausibility": 0.8,
+                    "reasoning": "A bustling market stall selling fruit. A child is at the stall. A falcon is trained to sit on a nearby post to scare away pests, and peaches are the main produce for sale.",
+                    "object_interpretations": {
+                        "falcon": {
+                            "form": "real animal",
+                            "scale": "normal",
+                            "role": "pest control/decor"
+                        },
+                        "child": {
+                            "form": "real person",
+                            "scale": "normal",
+                            "role": "customer/helper"
+                        },
+                        "peach": {
+                            "form": "real fruit",
+                            "scale": "normal",
+                            "role": "commodity"
+                        }
+                    }
+                }
+            ],
+            "selected_scene": {
+                "scene_type": "Art studio",
+                "plausibility": 0.8,
+                "reasoning": "A painter's studio where a child model sits. A stuffed falcon is used as a reference, and a real peach is part of a still life arrangement on a table.",
+                "object_interpretations": {
+                    "falcon": {
+                        "form": "taxidermy/statue",
+                        "scale": "normal",
+                        "role": "artistic reference/decoration"
+                    },
+                    "child": {
+                        "form": "real person",
+                        "scale": "normal",
+                        "role": "artist's subject/model"
+                    },
+                    "peach": {
+                        "form": "real fruit",
+                        "scale": "normal",
+                        "role": "still life object"
+                    }
+                },
+                "scene_brief": "A Art studio featuring falcon, with child, and peach"
+            }
+        }
+    },
+    "final_prompts": {
+        "main_prompt": "A Post-Impressionism painting depicting a bright and cheerful afternoon scene under harsh natural light. In the foreground, a large, deep chocolate brown falcon with iridescent indigo feathers stands alert and poised. Inside the falcon's open form, a medium-sized child with peachy cream skin and rose madder accents appears active and cheerful. Resting atop the falcon's back is a small, ripe peach with coral pink and warm apricot hues, its fresh fruit skin glistening in the sunlight. The spatial arrangement shows the child nestled within the falcon's protective shape while the peach balances delicately on the bird's upper feathers. The overall atmosphere is active and vibrant, with bold, visible brushstrokes capturing the dynamic energy and joyful mood of the scene.",
+        "negative_prompt": "photorealistic, 3d render, modern, digital art, photograph, low quality, blurry, distorted, surreal, abstract, cartoon, anime, watercolor, sketch, grayscale, monochrome, dark, gloomy, sad, violent",
+        "prompt_formats": {
+            "simple": "A Post-Impressionism painting of a falcon containing a cheerful child with a ripe peach resting on its back during a bright afternoon.",
+            "complex": "A Post-Impressionism painting depicting a bright and cheerful afternoon scene under harsh natural light. In the foreground, a large, deep chocolate brown falcon with iridescent indigo feathers stands alert and poised. Inside the falcon's open form, a medium-sized child with peachy cream skin and rose madder accents appears active and cheerful. Resting atop the falcon's back is a small, ripe peach with coral pink and warm apricot hues, its fresh fruit skin glistening in the sunlight. The spatial arrangement shows the child nestled within the falcon's protective shape while the peach balances delicately on the bird's upper feathers. The overall atmosphere is active and vibrant, with bold, visible brushstrokes capturing the dynamic energy and joyful mood of the scene.",
+            "comma_separated": "Post-Impressionism painting, large falcon, deep chocolate brown, iridescent indigo, alert and poised, child inside falcon, medium size, peachy cream skin, rose madder, active and cheerful, peach on falcon, small, coral pink, warm apricot, ripe and fresh, afternoon lighting, harsh natural light, bright atmosphere, active scene, cheerful mood, visible brushstrokes, vibrant colors",
+            "tags": "art, painting, post-impressionism, falcon, child, peach, afternoon, bright, cheerful, active, natural light, vibrant colors, visible brushstrokes, figurative art"
+        }
+    }
+}

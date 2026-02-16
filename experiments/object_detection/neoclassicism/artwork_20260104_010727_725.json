@@ -1,0 +1,281 @@
+{
+    "artwork_id": "artwork_20260104_010727_725",
+    "generation_timestamp": "2026-01-04T01:08:05.640888",
+    "style": "Neoclassicism",
+    "objects": {
+        "object_ids": [
+            27,
+            18,
+            28
+        ],
+        "object_names": [
+            "bag",
+            "mule",
+            "dress shirt"
+        ],
+        "enhanced_objects": [
+            {
+                "object_id": 27,
+                "name": "bag",
+                "artistic_description": "A structured leather satchel with softened edges and subtle patina, its surface absorbing the cool, diffused afternoon light through the cloudy sky. The leather exhibits a muted, sophisticated sheen with gentle highlights along the curves, while the brass hardware catches the natural illumination with subdued glints. The material shows fine grain texture and slight wear marks that speak to contemporary use, rendered in the neoclassical tradition of dignified utility.",
+                "size": "Medium",
+                "state": "well-worn but maintained, showing signs of contemporary use",
+                "primary_colors": [
+                    "deep brown",
+                    "warm amber"
+                ],
+                "material": "leather"
+            },
+            {
+                "object_id": 18,
+                "name": "mule",
+                "artistic_description": "An elegant decorative slipper with refined lines and classical proportions, its fabric surface catching the soft, cool light with a gentle matte texture. The neoclassical styling emphasizes clean silhouettes and understated ornamentation, with subtle tonal variations across the curved form. The material appears dry and velvety, absorbing the cloudy daylight without harsh reflections, creating a dignified, sculptural presence.",
+                "size": "Small",
+                "state": "pristine decorative condition, untouched",
+                "primary_colors": [
+                    "dusty rose",
+                    "soft cream"
+                ],
+                "material": "velvet"
+            },
+            {
+                "object_id": 28,
+                "name": "dress shirt",
+                "artistic_description": "A crisp white dress shirt with sharp pleats and structured collar, its cotton fabric reflecting the bright, subdued afternoon light with a clean, luminous quality. The neoclassical influence appears in the precise tailoring and geometric folds, while the cloudy conditions prevent harsh shadows, allowing the pure white to appear soft and integrated. Fine stitching details and subtle texture variations are visible in the gentle illumination.",
+                "size": "Medium",
+                "state": "freshly pressed, immaculate condition",
+                "primary_colors": [
+                    "bright white",
+                    "cool gray"
+                ],
+                "material": "cotton"
+            }
+        ]
+    },
+    "composition": {
+        "spatial_relations": [
+            [
+                27,
+                "on",
+                18
+            ],
+            [
+                28,
+                "next to",
+                27
+            ]
+        ],
+        "semantic_relations": []
+    },
+    "environment": {
+        "environment_details": {
+            "scene_brief": "A Victorian study featuring bag as the main functional element, with decorative mule as decoration, and dress shirt",
+            "place365_name": "/l/living_room",
+            "place365_id": 215,
+            "time_of_day": "afternoon",
+            "weather": "cloudy",
+            "period": "Contemporary",
+            "is_indoor": true,
+            "lighting": {
+                "type": "natural",
+                "quality": "soft",
+                "direction": "side-lit",
+                "mood": "neutral",
+                "reasoning": "Soft, side-lit natural light from a window (implied by the weather choice) creates gentle shadows that define the contours of the bag, mule, and shirt. This lighting style supports the Neoclassical aesthetic of clarity and balanced composition."
+            },
+            "atmosphere": "bright and active and subdued and gentle"
+        },
+        "scene_inference": {
+            "all_candidates": [
+                {
+                    "scene_type": "Victorian study",
+                    "plausibility": 0.85,
+                    "reasoning": "A gentleman's study contains a leather travel bag ready for departure. A mule appears as a bronze sculpture on the desk, representing diligence. A dress shirt is folded neatly on a chair or in an open drawer.",
+                    "object_interpretations": {
+                        "bag": {
+                            "form": "real object",
+                            "scale": "normal",
+                            "role": "primary functional object"
+                        },
+                        "mule": {
+                            "form": "bronze sculpture",
+                            "scale": "small (desk ornament)",
+                            "role": "decorative element"
+                        },
+                        "dress shirt": {
+                            "form": "real garment",
+                            "scale": "normal",
+                            "role": "secondary functional object"
+                        }
+                    },
+                    "scene_brief": "A Victorian study featuring bag as the main functional element, with decorative mule as decoration, and dress shirt"
+                },
+                {
+                    "scene_type": "Neoclassical hallway",
+                    "plausibility": 0.9,
+                    "reasoning": "A guest arrives with a travel bag. A mule is depicted in a wall tapestry or relief. A dress shirt is visible on a waiting servant or mannequin in the background.",
+                    "object_interpretations": {
+                        "bag": {
+                            "form": "real object",
+                            "scale": "normal",
+                            "role": "primary functional object"
+                        },
+                        "mule": {
+                            "form": "woven textile",
+                            "scale": "normal (2D representation)",
+                            "role": "decorative element"
+                        },
+                        "dress shirt": {
+                            "form": "real garment",
+                            "scale": "normal",
+                            "role": "secondary functional object"
+                        }
+                    }
+                },
+                {
+                    "scene_type": "Rural stable",
+                    "plausibility": 0.8,
+                    "reasoning": "A mule stands in a stable. A bag is a saddlebag resting on the mule's back. A dress shirt is draped over a fence post or saddle, perhaps waiting to be worn.",
+                    "object_interpretations": {
+                        "bag": {
+                            "form": "real object",
+                            "scale": "normal",
+                            "role": "secondary functional object (saddlebag)"
+                        },
+                        "mule": {
+                            "form": "real animal",
+                            "scale": "normal",
+                            "role": "primary functional object"
+                        },
+                        "dress shirt": {
+                            "form": "real garment",
+                            "scale": "normal",
+                            "role": "decorative/ambient element"
+                        }
+                    }
+                },
+                {
+                    "scene_type": "Art studio",
+                    "plausibility": 0.85,
+                    "reasoning": "A painter's studio with a bag of supplies on the floor. A mule serves as a live model or a reference sculpture. A dress shirt is draped over a chair, perhaps part of a costume or the artist's clothing.",
+                    "object_interpretations": {
+                        "bag": {
+                            "form": "real object",
+                            "scale": "normal",
+                            "role": "functional object"
+                        },
+                        "mule": {
+                            "form": "real animal or sculpture",
+                            "scale": "normal",
+                            "role": "subject/model"
+                        },
+                        "dress shirt": {
+                            "form": "real garment",
+                            "scale": "normal",
+                            "role": "ambient detail"
+                        }
+                    }
+                },
+                {
+                    "scene_type": "Museum gallery",
+                    "plausibility": 0.9,
+                    "reasoning": "A display case contains an ancient bag. A statue of a mule stands nearby. A dress shirt is displayed in a separate case as a historical artifact or fashion piece.",
+                    "object_interpretations": {
+                        "bag": {
+                            "form": "artifact",
+                            "scale": "normal",
+                            "role": "exhibit"
+                        },
+                        "mule": {
+                            "form": "stone/bronze statue",
+                            "scale": "normal",
+                            "role": "exhibit"
+                        },
+                        "dress shirt": {
+                            "form": "artifact",
+                            "scale": "normal",
+                            "role": "exhibit"
+                        }
+                    }
+                },
+                {
+                    "scene_type": "Formal banquet",
+                    "plausibility": 0.75,
+                    "reasoning": "Guests arrive with hand bags. A mule is depicted in a centerpiece floral arrangement or tablecloth pattern. A dress shirt is worn by a statue in the room or a guest.",
+                    "object_interpretations": {
+                        "bag": {
+                            "form": "real object",
+                            "scale": "normal",
+                            "role": "accessory"
+                        },
+                        "mule": {
+                            "form": "sculpture/arrangement",
+                            "scale": "small",
+                            "role": "decorative element"
+                        },
+                        "dress shirt": {
+                            "form": "real garment",
+                            "scale": "normal",
+                            "role": "clothing"
+                        }
+                    }
+                },
+                {
+                    "scene_type": "Historical reenactment",
+                    "plausibility": 0.8,
+                    "reasoning": "A person carries a period-correct bag. A mule is used for transport. A dress shirt is part of the historical costume.",
+                    "object_interpretations": {
+                        "bag": {
+                            "form": "real object",
+                            "scale": "normal",
+                            "role": "prop"
+                        },
+                        "mule": {
+                            "form": "real animal",
+                            "scale": "normal",
+                            "role": "transport"
+                        },
+                        "dress shirt": {
+                            "form": "real garment",
+                            "scale": "normal",
+                            "role": "clothing"
+                        }
+                    }
+                }
+            ],
+            "selected_scene": {
+                "scene_type": "Victorian study",
+                "plausibility": 0.85,
+                "reasoning": "A gentleman's study contains a leather travel bag ready for departure. A mule appears as a bronze sculpture on the desk, representing diligence. A dress shirt is folded neatly on a chair or in an open drawer.",
+                "object_interpretations": {
+                    "bag": {
+                        "form": "real object",
+                        "scale": "normal",
+                        "role": "primary functional object"
+                    },
+                    "mule": {
+                        "form": "bronze sculpture",
+                        "scale": "small (desk ornament)",
+                        "role": "decorative element"
+                    },
+                    "dress shirt": {
+                        "form": "real garment",
+                        "scale": "normal",
+                        "role": "secondary functional object"
+                    }
+                },
+                "scene_brief": "A Victorian study featuring bag as the main functional element, with decorative mule as decoration, and dress shirt"
+            }
+        }
+    },
+    "final_prompts": {
+        "main_prompt": "A Neoclassicism painting depicting a serene afternoon scene where a small mule in pristine decorative condition, with a dusty rose and soft cream coat, stands patiently in the foreground. Resting atop the mule's back is a medium-sized, well-worn but maintained bag crafted from deep brown, warm amber leather, its straps draped naturally over the animal's side. Beside the bag, carefully folded and placed on a stone ledge, lies a medium-sized dress shirt in bright white and cool gray cotton, freshly pressed and appearing almost luminous. The composition is arranged with classical balance, the mule positioned centrally with the bag and shirt creating a harmonious triangular arrangement. Natural soft afternoon light filters through the scene, casting gentle shadows and highlighting the textures of leather, velvet-like animal coat, and crisp cotton. The atmosphere is both bright and active with subtle movement in the background foliage, yet simultaneously subdued and gentle in its overall mood, evoking the Neoclassical ideals of order, clarity, and restrained emotion within a pastoral setting.",
+        "negative_prompt": "photorealistic, 3d render, modern, digital art, photograph, low quality, blurry, distorted, surreal, abstract, cartoon, anime, pop art, impressionism, expressionism, baroque, rococo, ugly, deformed, mutated, text, watermark, signature, frame, border",
+        "prompt_formats": {
+            "simple": "A Neoclassical painting of a mule with a leather bag on its back and a folded dress shirt nearby in soft afternoon light.",
+            "complex": "A Neoclassicism painting depicting a serene afternoon scene where a small mule in pristine decorative condition, with a dusty rose and soft cream coat, stands patiently in the foreground. Resting atop the mule's back is a medium-sized, well-worn but maintained bag crafted from deep brown, warm amber leather, its straps draped naturally over the animal's side. Beside the bag, carefully folded and placed on a stone ledge, lies a medium-sized dress shirt in bright white and cool gray cotton, freshly pressed and appearing almost luminous. The composition is arranged with classical balance, the mule positioned centrally with the bag and shirt creating a harmonious triangular arrangement. Natural soft afternoon light filters through the scene, casting gentle shadows and highlighting the textures of leather, velvet-like animal coat, and crisp cotton. The atmosphere is both bright and active with subtle movement in the background foliage, yet simultaneously subdued and gentle in its overall mood, evoking the Neoclassical ideals of order, clarity, and restrained emotion within a pastoral setting.",
+            "comma_separated": "Neoclassicism painting, small mule, dusty rose and soft cream coat, medium leather bag, deep brown warm amber, well-worn but maintained, medium dress shirt, bright white cool gray cotton, freshly pressed, bag on mule, shirt beside bag, soft natural afternoon lighting, bright active subdued gentle atmosphere, pastoral setting, classical composition, leather texture, cotton fabric",
+            "tags": "art, painting, neoclassicism, classical art, mule, leather bag, dress shirt, afternoon light, pastoral scene, animal painting, still life elements, natural lighting, balanced composition"
+        }
+    }
+}

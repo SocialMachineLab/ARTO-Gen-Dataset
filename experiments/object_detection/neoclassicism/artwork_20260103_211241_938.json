@@ -1,0 +1,286 @@
+{
+    "artwork_id": "artwork_20260103_211241_938",
+    "generation_timestamp": "2026-01-03T21:13:28.238693",
+    "style": "Neoclassicism",
+    "objects": {
+        "object_ids": [
+            10,
+            18,
+            15
+        ],
+        "object_names": [
+            "lamp post",
+            "donkey",
+            "ostrich"
+        ],
+        "enhanced_objects": [
+            {
+                "object_id": 10,
+                "name": "lamp post",
+                "artistic_description": "Tall bronze lamp post with classical fluted column design, bathed in warm afternoon sunlight that creates sharp highlights on the polished metal surface and casts crisp geometric shadows on the stone courtyard. The golden light enhances the warm patina of aged bronze, while the glass lantern reflects brilliant white highlights. Fine neoclassical details including acanthus leaf motifs are crisply defined by the strong directional light, with deep shadows accentuating the relief work.",
+                "size": "Large",
+                "state": "well-maintained with dignified patina appropriate to classical period",
+                "primary_colors": [
+                    "warm bronze-gold",
+                    "sunlit amber"
+                ],
+                "material": "bronze and glass"
+            },
+            {
+                "object_id": 18,
+                "name": "donkey",
+                "artistic_description": "Patient donkey with coarse gray coat that catches the bright afternoon sun, creating a textured, matte surface with subtle warm tones where light directly strikes. The strong natural lighting reveals every hair and fold of skin, while the darker areas of the coat show cool gray shadows. Its ears are outlined in sharp silhouette against the bright sky, and the eyes gleam with reflected light. Dust motes dance in the sunbeams around its form, adding atmospheric depth.",
+                "size": "Medium",
+                "state": "calm and stationary, coat slightly dusty from courtyard exposure",
+                "primary_colors": [
+                    "sun-bleached gray",
+                    "warm taupe"
+                ],
+                "material": "living animal - coarse hair and hide"
+            },
+            {
+                "object_id": 15,
+                "name": "ostrich",
+                "artistic_description": "Towering ostrich with plumage that shimmers in the brilliant sunlight, the soft feathers catching and scattering light to create a luminous, almost ethereal quality. The afternoon sun reveals subtle color variations in the plumage - from deep charcoal to silvery gray - with each feather defined by sharp highlights and delicate shadows. Its long neck catches the light dramatically, creating a graceful arc of alternating light and shadow, while the eye gleams with a sharp, intelligent highlight. The strong natural illumination makes the bird appear both monumental and delicate.",
+                "size": "Large",
+                "state": "alert and poised, feathers ruffled by gentle breeze",
+                "primary_colors": [
+                    "charcoal gray",
+                    "silver-white"
+                ],
+                "material": "living animal - soft feathers and leathery skin"
+            }
+        ]
+    },
+    "composition": {
+        "spatial_relations": [
+            [
+                18,
+                "next to",
+                15
+            ],
+            [
+                10,
+                "behind",
+                18
+            ],
+            [
+                10,
+                "behind",
+                15
+            ]
+        ],
+        "semantic_relations": []
+    },
+    "environment": {
+        "environment_details": {
+            "scene_brief": "A Neoclassical Museum Courtyard featuring lamp post, with donkey, and ostrich",
+            "place365_name": "/m/museum/outdoor",
+            "place365_id": 237,
+            "time_of_day": "afternoon",
+            "weather": "sunny",
+            "period": "Classical",
+            "is_indoor": false,
+            "lighting": {
+                "type": "natural",
+                "quality": "harsh",
+                "direction": "front-lit",
+                "mood": "warm",
+                "reasoning": "Strong afternoon sun (natural, harsh) will create distinct shadows, emphasizing the relief and texture of the stone architecture typical of the Classical/Neoclassical style. Side-lighting or front-lighting ensures the objects (donkey, ostrich) and the lamp post are clearly visible."
+            },
+            "atmosphere": "bright and active and cheerful"
+        },
+        "scene_inference": {
+            "all_candidates": [
+                {
+                    "scene_type": "Neoclassical City Park",
+                    "plausibility": 0.9,
+                    "reasoning": "A formal city park in the Neoclassical style features stone lamp posts as standard lighting. Donkeys and ostriches can be kept as exotic or domesticated animals within a zoo enclosure or a menagerie section of the park, visible from the path.",
+                    "object_interpretations": {
+                        "lamp post": {
+                            "form": "real lamp post",
+                            "scale": "normal",
+                            "role": "street lighting"
+                        },
+                        "donkey": {
+                            "form": "real animal",
+                            "scale": "normal",
+                            "role": "park animal / visitor attraction"
+                        },
+                        "ostrich": {
+                            "form": "real animal",
+                            "scale": "normal",
+                            "role": "park animal / visitor attraction"
+                        }
+                    }
+                },
+                {
+                    "scene_type": "Neoclassical Museum Courtyard",
+                    "plausibility": 0.85,
+                    "reasoning": "A grand museum courtyard with stone columns and a central lamp post. The donkey and ostrich appear as bronze sculptures on plinths, fitting the artistic and historical theme of the space.",
+                    "object_interpretations": {
+                        "lamp post": {
+                            "form": "real lamp post",
+                            "scale": "normal",
+                            "role": "architectural lighting"
+                        },
+                        "donkey": {
+                            "form": "bronze statue",
+                            "scale": "life-size",
+                            "role": "artistic sculpture"
+                        },
+                        "ostrich": {
+                            "form": "bronze statue",
+                            "scale": "life-size",
+                            "role": "artistic sculpture"
+                        }
+                    },
+                    "scene_brief": "A Neoclassical Museum Courtyard featuring lamp post, with donkey, and ostrich"
+                },
+                {
+                    "scene_type": "Neoclassical Farm Estate",
+                    "plausibility": 0.8,
+                    "reasoning": "A wealthy estate with Neoclassical architecture. A lamp post lights the driveway. A donkey is in the paddock. An ostrich is present in an enclosed aviary or as part of a decorative garden ornament collection.",
+                    "object_interpretations": {
+                        "lamp post": {
+                            "form": "real lamp post",
+                            "scale": "normal",
+                            "role": "estate lighting"
+                        },
+                        "donkey": {
+                            "form": "real animal",
+                            "scale": "normal",
+                            "role": "livestock / pet"
+                        },
+                        "ostrich": {
+                            "form": "real animal",
+                            "scale": "normal",
+                            "role": "exotic pet / aviary resident"
+                        }
+                    }
+                },
+                {
+                    "scene_type": "Neoclassical Theater Stage Set",
+                    "plausibility": 0.75,
+                    "reasoning": "A stage set designed for a play set in ancient times or a fable. The lamp post is a painted backdrop or a prop. The donkey and ostrich are costumed actors or puppets performing in the scene.",
+                    "object_interpretations": {
+                        "lamp post": {
+                            "form": "stage prop",
+                            "scale": "variable / stylized",
+                            "role": "set dressing"
+                        },
+                        "donkey": {
+                            "form": "costumed actor",
+                            "scale": "human-height",
+                            "role": "actor"
+                        },
+                        "ostrich": {
+                            "form": "puppet / costume",
+                            "scale": "stylized",
+                            "role": "actor"
+                        }
+                    }
+                },
+                {
+                    "scene_type": "Neoclassical Natural History Museum",
+                    "plausibility": 0.85,
+                    "reasoning": "The museum exterior has Neoclassical columns and a lamp post. Inside or in a display window, there are taxidermy specimens of a donkey and an ostrich arranged in a diorama.",
+                    "object_interpretations": {
+                        "lamp post": {
+                            "form": "real lamp post",
+                            "scale": "normal",
+                            "role": "exterior lighting"
+                        },
+                        "donkey": {
+                            "form": "taxidermy",
+                            "scale": "life-size",
+                            "role": "museum exhibit"
+                        },
+                        "ostrich": {
+                            "form": "taxidermy",
+                            "scale": "life-size",
+                            "role": "museum exhibit"
+                        }
+                    }
+                },
+                {
+                    "scene_type": "Neoclassical Garden Party",
+                    "plausibility": 0.8,
+                    "reasoning": "A garden party on the lawn of a Neoclassical manor. Lamp posts line the path. A donkey is used for rides for children, and an ostrich is kept in a large cage as a decorative curiosity.",
+                    "object_interpretations": {
+                        "lamp post": {
+                            "form": "real lamp post",
+                            "scale": "normal",
+                            "role": "ambient lighting"
+                        },
+                        "donkey": {
+                            "form": "real animal",
+                            "scale": "normal",
+                            "role": "ride animal"
+                        },
+                        "ostrich": {
+                            "form": "real animal",
+                            "scale": "normal",
+                            "role": "curiosity / decoration"
+                        }
+                    }
+                },
+                {
+                    "scene_type": "Neoclassical Zoo Entrance",
+                    "plausibility": 0.9,
+                    "reasoning": "The entrance to a historic zoo features Neoclassical architecture and stone lamp posts. The donkey and ostrich are likely the first exhibits or statues near the entrance representing the zoo's collection.",
+                    "object_interpretations": {
+                        "lamp post": {
+                            "form": "real lamp post",
+                            "scale": "normal",
+                            "role": "street furniture"
+                        },
+                        "donkey": {
+                            "form": "real animal",
+                            "scale": "normal",
+                            "role": "zoo resident"
+                        },
+                        "ostrich": {
+                            "form": "real animal",
+                            "scale": "normal",
+                            "role": "zoo resident"
+                        }
+                    }
+                }
+            ],
+            "selected_scene": {
+                "scene_type": "Neoclassical Museum Courtyard",
+                "plausibility": 0.85,
+                "reasoning": "A grand museum courtyard with stone columns and a central lamp post. The donkey and ostrich appear as bronze sculptures on plinths, fitting the artistic and historical theme of the space.",
+                "object_interpretations": {
+                    "lamp post": {
+                        "form": "real lamp post",
+                        "scale": "normal",
+                        "role": "architectural lighting"
+                    },
+                    "donkey": {
+                        "form": "bronze statue",
+                        "scale": "life-size",
+                        "role": "artistic sculpture"
+                    },
+                    "ostrich": {
+                        "form": "bronze statue",
+                        "scale": "life-size",
+                        "role": "artistic sculpture"
+                    }
+                },
+                "scene_brief": "A Neoclassical Museum Courtyard featuring lamp post, with donkey, and ostrich"
+            }
+        }
+    },
+    "final_prompts": {
+        "main_prompt": "A Neoclassicism painting depicting a bright and active afternoon scene with harsh natural lighting. In the foreground, a calm, stationary donkey of medium size stands next to a large, alert ostrich, both positioned before a dignified lamp post. The donkey's sun-bleached gray and warm taupe hide contrasts with the ostrich's charcoal gray and silver-white feathers, while the large, warm bronze-gold lamp post rises behind them, its sunlit amber glass and well-maintained patina catching the cheerful afternoon light. The spatial arrangement clearly shows the donkey beside the ostrich, with the lamp post situated behind both animals, casting subtle shadows that enhance the scene's classical composition and vibrant, cheerful atmosphere.",
+        "negative_prompt": "photorealistic, 3d render, modern, digital art, photograph, low quality, blurry, distorted, surreal, abstract, cartoon, anime, fantasy, mythical, dark, gloomy, night, rainy, foggy, crowded, cluttered, deformed, ugly, asymmetrical, text, watermark, signature, frame, border",
+        "prompt_formats": {
+            "simple": "A Neoclassical painting of a donkey and ostrich beside a lamp post on a bright afternoon.",
+            "complex": "A Neoclassicism painting depicting a bright and active afternoon scene with harsh natural lighting. In the foreground, a calm, stationary donkey of medium size stands next to a large, alert ostrich, both positioned before a dignified lamp post. The donkey's sun-bleached gray and warm taupe hide contrasts with the ostrich's charcoal gray and silver-white feathers, while the large, warm bronze-gold lamp post rises behind them, its sunlit amber glass and well-maintained patina catching the cheerful afternoon light. The spatial arrangement clearly shows the donkey beside the ostrich, with the lamp post situated behind both animals, casting subtle shadows that enhance the scene's classical composition and vibrant, cheerful atmosphere.",
+            "comma_separated": "Neoclassicism painting, donkey next to ostrich, lamp post behind animals, afternoon lighting, harsh natural light, bright cheerful atmosphere, sun-bleached gray donkey, charcoal gray ostrich, bronze-gold lamp post, classical composition, dignified patina, active scene, stationary donkey, alert ostrich",
+            "tags": "art, painting, neoclassicism, classical art, animal painting, donkey, ostrich, lamp post, afternoon, harsh lighting, bright atmosphere, bronze, feathers, hide, patina, composition, spatial arrangement"
+        }
+    }
+}

@@ -1,0 +1,351 @@
+{
+  "artwork_id": "artwork_20260115_060909_141",
+  "generation_timestamp": "2026-01-15T06:09:54.084512",
+  "style": "Chinese Ink Painting",
+  "objects": {
+    "object_ids": [
+      20,
+      16,
+      46,
+      9
+    ],
+    "object_names": [
+      "bull",
+      "cat",
+      "bowl",
+      "canoe"
+    ],
+    "enhanced_objects": [
+      {
+        "object_id": 20,
+        "name": "bull",
+        "artistic_description": "A powerful bull rendered in traditional xieyi brushwork with thick, expressive black ink strokes defining muscular form. Morning fog diffuses the silhouette, creating soft edges and subtle gradations from deep charcoal to misty gray. The wet atmosphere gives the dark coat a slight sheen, while dry-brush technique suggests textured hide. Single wash of diluted ink creates atmospheric perspective, making the form emerge from the mist.",
+        "size": "Large",
+        "state": "alert and grounded, breath visible as faint vapor in cool morning air",
+        "primary_colors": [
+          "charcoal black",
+          "misty gray"
+        ],
+        "material": "living hide and horn"
+      },
+      {
+        "object_id": 16,
+        "name": "cat",
+        "artistic_description": "A slender cat captured with minimal, elegant brushstrokes using concentrated black ink. The foggy morning light softens its silhouette, creating ethereal edges that blend into the atmospheric haze. Fine, dry-brush whiskers and tail details stand out against the muted background. The moist air slightly dulls the ink's gloss, giving the fur a matte, velvety appearance. Subtle gradation from solid black to translucent gray suggests movement through the mist.",
+        "size": "Medium",
+        "state": "crouched and watchful, fur slightly damp from morning moisture",
+        "primary_colors": [
+          "deep black",
+          "soft gray"
+        ],
+        "material": "fur and whiskers"
+      },
+      {
+        "object_id": 46,
+        "name": "bowl",
+        "artistic_description": "A ceramic bowl rendered with precise ink outlines and subtle washes. Morning light filtering through fog creates gentle highlights on the rim, captured with minimal white space against the dark ink. The cool, diffused lighting softens the ceramic's natural luster, giving it a matte, stoneware appearance. Moisture in the air condenses as faint mist on the surface, subtly breaking up the ink tones. Interior shadow rendered with a deep, wet-on-wet ink wash suggesting depth.",
+        "size": "Small",
+        "state": "empty and contemplative, surface cool and slightly dewy",
+        "primary_colors": [
+          "warm gray",
+          "deep black"
+        ],
+        "material": "ceramic"
+      },
+      {
+        "object_id": 9,
+        "name": "canoe",
+        "artistic_description": "A miniature canoe model depicted with flowing, calligraphic brushstrokes. The fog-diffused morning light creates a dreamlike quality, with ink tones ranging from solid black to pale washes that suggest atmospheric depth. Moisture in the air gives the painted surface a subdued, non-reflective finish. Fine line work captures wood grain texture using dry-brush technique. The cool morning tones add subtle blue-gray undertones to the traditional black ink.",
+        "size": "Marginal",
+        "state": "resting placidly, weathered from use yet carefully maintained",
+        "primary_colors": [
+          "weathered black",
+          "mist blue"
+        ],
+        "material": "wood and paint"
+      }
+    ]
+  },
+  "composition": {
+    "spatial_relations": [
+      [
+        20,
+        "in",
+        16
+      ],
+      [
+        16,
+        "beside",
+        46
+      ],
+      [
+        46,
+        "on",
+        9
+      ]
+    ],
+    "semantic_relations": [
+      [
+        16,
+        "protecting",
+        46
+      ],
+      [
+        20,
+        "watching",
+        9
+      ]
+    ]
+  },
+  "environment": {
+    "environment_details": {
+      "scene_brief": "A Mountain Temple Courtyard featuring bull, with cat, bowl, and canoe model",
+      "place365_name": "/c/courtyard",
+      "place365_id": 109,
+      "time_of_day": "morning",
+      "weather": "foggy",
+      "period": "Contemporary",
+      "is_indoor": true,
+      "lighting": {
+        "type": "natural",
+        "quality": "soft",
+        "direction": "side-lit",
+        "mood": "cool",
+        "reasoning": "A soft, cool, side-lit natural light complements the ink painting style by emphasizing form and texture over color. It creates subtle gradients on the bull and the architecture, while the cool mood enhances the contemplative, misty atmosphere of the foggy mountain morning."
+      },
+      "atmosphere": "fresh and energetic and mysterious and gentle"
+    },
+    "scene_inference": {
+      "all_candidates": [
+        {
+          "scene_type": "Rural Farmyard",
+          "plausibility": 0.9,
+          "reasoning": "A bull rests in a barnyard. A cat prowls for mice near a feed trough. A large wooden bowl holds grain for the animals. A canoe is stored on the rafters or against the barn wall, out of the way.",
+          "object_interpretations": {
+            "bull": {
+              "form": "real animal",
+              "scale": "large",
+              "role": "primary subject"
+            },
+            "cat": {
+              "form": "real animal",
+              "scale": "normal",
+              "role": "secondary hunter"
+            },
+            "bowl": {
+              "form": "wooden container",
+              "scale": "large",
+              "role": "functional object"
+            },
+            "canoe": {
+              "form": "real canoe",
+              "scale": "large",
+              "role": "stored equipment"
+            }
+          }
+        },
+        {
+          "scene_type": "Riverbank Landscape",
+          "plausibility": 0.85,
+          "reasoning": "A bull stands on the river bank. A canoe is moored nearby. A cat sits inside the canoe or on the dock. A bowl sits on the dock, perhaps holding water or fish.",
+          "object_interpretations": {
+            "bull": {
+              "form": "real animal",
+              "scale": "large",
+              "role": "primary subject"
+            },
+            "cat": {
+              "form": "real animal",
+              "scale": "normal",
+              "role": "companion"
+            },
+            "bowl": {
+              "form": "ceramic vessel",
+              "scale": "normal",
+              "role": "container"
+            },
+            "canoe": {
+              "form": "real canoe",
+              "scale": "large",
+              "role": "transport"
+            }
+          }
+        },
+        {
+          "scene_type": "Mountain Temple Courtyard",
+          "plausibility": 0.8,
+          "reasoning": "A temple bull wanders the courtyard. A stray cat suns itself on a stone bench. A stone bowl (pedestal) holds water. A decorative canoe hangs on the wall as art.",
+          "object_interpretations": {
+            "bull": {
+              "form": "real animal",
+              "scale": "large",
+              "role": "guardian"
+            },
+            "cat": {
+              "form": "real animal",
+              "scale": "normal",
+              "role": "wanderer"
+            },
+            "bowl": {
+              "form": "stone basin",
+              "scale": "large",
+              "role": "architectural feature"
+            },
+            "canoe": {
+              "form": "model or art piece",
+              "scale": "medium",
+              "role": "decoration"
+            }
+          },
+          "scene_brief": "A Mountain Temple Courtyard featuring bull, with cat, bowl, and canoe model"
+        },
+        {
+          "scene_type": "Abstract Nature",
+          "plausibility": 0.75,
+          "reasoning": "The bull is a large ink wash shape. The cat is a smaller, sharper silhouette. The bowl is a dark circle on the ground. The canoe is a curved line floating in the mist.",
+          "object_interpretations": {
+            "bull": {
+              "form": "stylized shape",
+              "scale": "dominant",
+              "role": "mass"
+            },
+            "cat": {
+              "form": "silhouette",
+              "scale": "small",
+              "role": "accent"
+            },
+            "bowl": {
+              "form": "geometric shape",
+              "scale": "medium",
+              "role": "texture"
+            },
+            "canoe": {
+              "form": "line art",
+              "scale": "medium",
+              "role": "flow"
+            }
+          }
+        },
+        {
+          "scene_type": "Fishing Village",
+          "plausibility": 0.85,
+          "reasoning": "A bull helps pull a cart. A cat sits on a crate. A bowl is used for sorting fish. A canoe is pulled up on the shore.",
+          "object_interpretations": {
+            "bull": {
+              "form": "real animal",
+              "scale": "large",
+              "role": "beast of burden"
+            },
+            "cat": {
+              "form": "real animal",
+              "scale": "normal",
+              "role": "mouser"
+            },
+            "bowl": {
+              "form": "woven basket",
+              "scale": "large",
+              "role": "tool"
+            },
+            "canoe": {
+              "form": "real canoe",
+              "scale": "large",
+              "role": "vehicle"
+            }
+          }
+        },
+        {
+          "scene_type": "Domestic Interior",
+          "plausibility": 0.7,
+          "reasoning": "A miniature bull statue sits on a table. A real cat sleeps on a mat. A rice bowl is on the floor. A toy canoe hangs from the ceiling.",
+          "object_interpretations": {
+            "bull": {
+              "form": "statuette",
+              "scale": "miniature",
+              "role": "decoration"
+            },
+            "cat": {
+              "form": "real animal",
+              "scale": "normal",
+              "role": "pet"
+            },
+            "bowl": {
+              "form": "ceramic dish",
+              "scale": "small",
+              "role": "utility"
+            },
+            "canoe": {
+              "form": "model",
+              "scale": "small",
+              "role": "ornament"
+            }
+          }
+        },
+        {
+          "scene_type": "Mythological Landscape",
+          "plausibility": 0.65,
+          "reasoning": "A divine bull (Niu) stands amidst clouds. A spirit cat (Bakeneko) watches. A magical bowl floats. A celestial canoe drifts on the wind.",
+          "object_interpretations": {
+            "bull": {
+              "form": "mythical beast",
+              "scale": "massive",
+              "role": "deity"
+            },
+            "cat": {
+              "form": "spirit creature",
+              "scale": "normal",
+              "role": "observer"
+            },
+            "bowl": {
+              "form": "magical artifact",
+              "scale": "floating",
+              "role": "focus"
+            },
+            "canoe": {
+              "form": "cloud boat",
+              "scale": "large",
+              "role": "transport"
+            }
+          }
+        }
+      ],
+      "selected_scene": {
+        "scene_type": "Mountain Temple Courtyard",
+        "plausibility": 0.8,
+        "reasoning": "A temple bull wanders the courtyard. A stray cat suns itself on a stone bench. A stone bowl (pedestal) holds water. A decorative canoe hangs on the wall as art.",
+        "object_interpretations": {
+          "bull": {
+            "form": "real animal",
+            "scale": "large",
+            "role": "guardian"
+          },
+          "cat": {
+            "form": "real animal",
+            "scale": "normal",
+            "role": "wanderer"
+          },
+          "bowl": {
+            "form": "stone basin",
+            "scale": "large",
+            "role": "architectural feature"
+          },
+          "canoe": {
+            "form": "model or art piece",
+            "scale": "medium",
+            "role": "decoration"
+          }
+        },
+        "scene_brief": "A Mountain Temple Courtyard featuring bull, with cat, bowl, and canoe model"
+      }
+    }
+  },
+  "final_prompts": {
+    "main_prompt": "A Chinese Ink Painting painting depicting a large charcoal black bull with misty gray undertones, alert and grounded, positioned within a medium deep black cat with soft gray accents, crouched and watchful. The cat sits beside a small warm gray bowl with deep black edges, empty and contemplative. The bowl rests upon a marginal weathered black canoe with mist blue highlights, resting placidly. Morning light washes over the scene with a fresh, energetic, mysterious, and gentle atmosphere. The composition flows from the foreground bull and cat to the midground bowl and canoe, set against a soft, misty background.",
+    "negative_prompt": "photorealistic, 3d render, modern, digital art, photograph, low quality, blurry, distorted",
+    "prompt_formats": {
+      "simple": "Morning Chinese ink painting of a bull in a cat beside a bowl on a canoe, fresh and mysterious atmosphere.",
+      "complex": "A Chinese Ink Painting painting depicting a large charcoal black bull with misty gray undertones, alert and grounded, positioned within a medium deep black cat with soft gray accents, crouched and watchful. The cat sits beside a small warm gray bowl with deep black edges, empty and contemplative. The bowl rests upon a marginal weathered black canoe with mist blue highlights, resting placidly. Morning light washes over the scene with a fresh, energetic, mysterious, and gentle atmosphere.",
+      "comma_separated": "Chinese Ink Painting, bull, cat, bowl, canoe, large, medium, small, marginal, charcoal black, misty gray, deep black, soft gray, warm gray, deep black, weathered black, mist blue, alert, grounded, crouched, watchful, empty, contemplative, resting placidly, morning, natural soft lighting, fresh, energetic, mysterious, gentle, morning light, misty background",
+      "tags": "art, painting, chinese ink painting, bull, cat, bowl, canoe, morning, mist, fresh, mysterious, gentle, ink wash, monochrome"
+    }
+  }
+}

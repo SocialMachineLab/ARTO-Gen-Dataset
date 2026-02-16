@@ -1,0 +1,302 @@
+{
+    "artwork_id": "artwork_20260103_144259_192",
+    "generation_timestamp": "2026-01-03T14:43:37.397999",
+    "style": "Baroque",
+    "objects": {
+        "object_ids": [
+            42,
+            27,
+            56
+        ],
+        "object_names": [
+            "coffee cup",
+            "bag",
+            "apple pie"
+        ],
+        "enhanced_objects": [
+            {
+                "object_id": 42,
+                "name": "coffee cup",
+                "artistic_description": "A delicate porcelain cup with ornate Baroque scrollwork and gold filigree, its surface catching the mixed afternoon light with a warm, luminous glow. The white porcelain takes on subtle cream and amber tones where direct light strikes, while shadows reveal delicate translucency. A faint wisp of steam rises, catching the light in ethereal curls. The gilded rim and handle shimmer with reflected light, creating small points of brilliance against the soft, diffused illumination of the pavilion.",
+                "size": "Medium",
+                "state": "freshly poured, steaming gently",
+                "primary_colors": [
+                    "warm cream",
+                    "golden amber"
+                ],
+                "material": "porcelain with gold leaf"
+            },
+            {
+                "object_id": 27,
+                "name": "bag",
+                "artistic_description": "A rich leather satchel with embossed Baroque patterns and ornate brass fittings that gleam softly in the mixed light. The leather shows deep, saturated burgundy tones where light falls directly, while recessed areas appear as rich chocolate brown with subtle purple undertones. The surface has a gentle sheen, neither fully matte nor highly reflective, with visible grain and wear marks that speak of early modern craftsmanship. Brass buckles and corners catch highlights with a muted golden glow.",
+                "size": "Large",
+                "state": "well-worn but elegant, showing gentle aging",
+                "primary_colors": [
+                    "deep burgundy",
+                    "rich chocolate"
+                ],
+                "material": "embossed leather with brass"
+            },
+            {
+                "object_id": 56,
+                "name": "apple pie",
+                "artistic_description": "A rustic yet refined tart with a golden-brown lattice crust that glows warmly under the afternoon light, the surface brushed with a honeyed sheen. The crust displays a beautiful gradient from deep amber at the edges to pale gold at the peaks, with a delicate dusting of sugar crystals that sparkle like tiny jewels. Steam rises in delicate tendrils, softening the edges and creating a dreamy, atmospheric quality. The filling peeks through the lattice in deep, jewel-toned reds and caramels, saturated and luscious.",
+                "size": "Medium",
+                "state": "freshly baked, still warm with gentle steam",
+                "primary_colors": [
+                    "golden amber",
+                    "deep caramel"
+                ],
+                "material": "baked pastry with fruit filling"
+            }
+        ]
+    },
+    "composition": {
+        "spatial_relations": [
+            [
+                42,
+                "on",
+                27
+            ],
+            [
+                56,
+                "next to",
+                42
+            ]
+        ],
+        "semantic_relations": []
+    },
+    "environment": {
+        "environment_details": {
+            "scene_brief": "A Baroque garden pavilion featuring coffee cup, with bag, and apple pie",
+            "place365_name": "/b/bar",
+            "place365_id": 39,
+            "time_of_day": "afternoon",
+            "weather": null,
+            "period": "Early modern",
+            "is_indoor": true,
+            "lighting": {
+                "type": "mixed",
+                "quality": "soft",
+                "direction": "front-lit",
+                "mood": "neutral"
+            },
+            "atmosphere": "balanced and harmonious"
+        },
+        "scene_inference": {
+            "all_candidates": [
+                {
+                    "scene_type": "Baroque cafe interior",
+                    "plausibility": 0.95,
+                    "reasoning": "A richly decorated cafe with dark wood and gold accents. The coffee cup is the primary object on a saucer. The apple pie sits on a decorative plate as a pastry offering. The bag is a leather satchel hanging from the chair back or resting on the floor.",
+                    "object_interpretations": {
+                        "coffee cup": {
+                            "form": "real ceramic cup",
+                            "scale": "normal",
+                            "role": "primary functional object"
+                        },
+                        "bag": {
+                            "form": "real leather satchel",
+                            "scale": "normal",
+                            "role": "personal accessory"
+                        },
+                        "apple pie": {
+                            "form": "real pastry",
+                            "scale": "normal slice",
+                            "role": "food item"
+                        }
+                    }
+                },
+                {
+                    "scene_type": "Baroque still life painting",
+                    "plausibility": 0.98,
+                    "reasoning": "A classical still life composition on a dark background. The coffee cup is central, ornate and porcelain. The apple pie is a golden-crusted wedge on a pewter plate. The bag is a richly tooled leather pouch, perhaps spilling coins, adding to the vanitas theme.",
+                    "object_interpretations": {
+                        "coffee cup": {
+                            "form": "ornate porcelain cup",
+                            "scale": "normal",
+                            "role": "central subject"
+                        },
+                        "bag": {
+                            "form": "decorative leather pouch",
+                            "scale": "normal",
+                            "role": "symbolic element (wealth)"
+                        },
+                        "apple pie": {
+                            "form": "painted/realistic pie",
+                            "scale": "normal",
+                            "role": "food subject"
+                        }
+                    }
+                },
+                {
+                    "scene_type": "Baroque banquet hall",
+                    "plausibility": 0.9,
+                    "reasoning": "A grand dining setting with heavy drapes and candelabras. The coffee cup is part of a place setting. The apple pie is a dessert on a shared platter. The bag is a guest's embroidered handbag placed on the table edge.",
+                    "object_interpretations": {
+                        "coffee cup": {
+                            "form": "fine china cup",
+                            "scale": "normal",
+                            "role": "tableware"
+                        },
+                        "bag": {
+                            "form": "embroidered handbag",
+                            "scale": "normal",
+                            "role": "personal item"
+                        },
+                        "apple pie": {
+                            "form": "whole pie",
+                            "scale": "normal",
+                            "role": "dessert"
+                        }
+                    }
+                },
+                {
+                    "scene_type": "Baroque study/library",
+                    "plausibility": 0.85,
+                    "reasoning": "A scholar's room with leather-bound books and velvet curtains. The coffee cup is on a desk beside papers. The apple pie is a snack on a side table. The bag is a travel trunk or satchel near the desk, packed for a journey.",
+                    "object_interpretations": {
+                        "coffee cup": {
+                            "form": "simple ceramic cup",
+                            "scale": "normal",
+                            "role": "desk accessory"
+                        },
+                        "bag": {
+                            "form": "leather travel trunk",
+                            "scale": "normal",
+                            "role": "storage object"
+                        },
+                        "apple pie": {
+                            "form": "homemade pie",
+                            "scale": "normal",
+                            "role": "refreshment"
+                        }
+                    }
+                },
+                {
+                    "scene_type": "Baroque kitchen interior",
+                    "plausibility": 0.88,
+                    "reasoning": "A rustic but ornate kitchen with copper pots and marble counters. The coffee cup is on a wooden table. The apple pie is cooling on a windowsill. The bag is a cloth market bag filled with ingredients on the floor.",
+                    "object_interpretations": {
+                        "coffee cup": {
+                            "form": "earthenware cup",
+                            "scale": "normal",
+                            "role": "breakfast item"
+                        },
+                        "bag": {
+                            "form": "cloth market bag",
+                            "scale": "normal",
+                            "role": "utility object"
+                        },
+                        "apple pie": {
+                            "form": "freshly baked pie",
+                            "scale": "normal",
+                            "role": "baked good"
+                        }
+                    }
+                },
+                {
+                    "scene_type": "Baroque tavern/inn",
+                    "plausibility": 0.82,
+                    "reasoning": "A lively tavern with wooden beams and candlelight. The coffee cup is on a rough-hewn table. The apple pie is a serving on a pewter plate. The bag is a pilgrim's leather pack on the bench.",
+                    "object_interpretations": {
+                        "coffee cup": {
+                            "form": "mug",
+                            "scale": "normal",
+                            "role": "beverage container"
+                        },
+                        "bag": {
+                            "form": "worn leather pack",
+                            "scale": "normal",
+                            "role": "traveler's gear"
+                        },
+                        "apple pie": {
+                            "form": "tavern pie",
+                            "scale": "normal",
+                            "role": "meal"
+                        }
+                    }
+                },
+                {
+                    "scene_type": "Baroque garden pavilion",
+                    "plausibility": 0.75,
+                    "reasoning": "An outdoor stone pavilion with vines and statues. The coffee cup is on a wrought iron table. The apple pie is a picnic item on a cloth. The bag is a velvet reticule (small purse) on the table.",
+                    "object_interpretations": {
+                        "coffee cup": {
+                            "form": "porcelain cup",
+                            "scale": "normal",
+                            "role": "outdoor refreshment"
+                        },
+                        "bag": {
+                            "form": "velvet reticule",
+                            "scale": "normal",
+                            "role": "fashion accessory"
+                        },
+                        "apple pie": {
+                            "form": "picnic pie",
+                            "scale": "normal",
+                            "role": "outdoor food"
+                        }
+                    },
+                    "scene_brief": "A Baroque garden pavilion featuring coffee cup, with bag, and apple pie"
+                },
+                {
+                    "scene_type": "Baroque merchant's shop",
+                    "plausibility": 0.8,
+                    "reasoning": "A cluttered shop with exotic goods and scales. The coffee cup is on the counter. The apple pie is a sample for customers. The bag is a merchant's coin purse or a customer's shopping bag.",
+                    "object_interpretations": {
+                        "coffee cup": {
+                            "form": "merchant's cup",
+                            "scale": "normal",
+                            "role": "counter item"
+                        },
+                        "bag": {
+                            "form": "coin purse or shopping bag",
+                            "scale": "normal",
+                            "role": "commerce object"
+                        },
+                        "apple pie": {
+                            "form": "sample pie",
+                            "scale": "normal",
+                            "role": "merchandise"
+                        }
+                    }
+                }
+            ],
+            "selected_scene": {
+                "scene_type": "Baroque garden pavilion",
+                "plausibility": 0.75,
+                "reasoning": "An outdoor stone pavilion with vines and statues. The coffee cup is on a wrought iron table. The apple pie is a picnic item on a cloth. The bag is a velvet reticule (small purse) on the table.",
+                "object_interpretations": {
+                    "coffee cup": {
+                        "form": "porcelain cup",
+                        "scale": "normal",
+                        "role": "outdoor refreshment"
+                    },
+                    "bag": {
+                        "form": "velvet reticule",
+                        "scale": "normal",
+                        "role": "fashion accessory"
+                    },
+                    "apple pie": {
+                        "form": "picnic pie",
+                        "scale": "normal",
+                        "role": "outdoor food"
+                    }
+                },
+                "scene_brief": "A Baroque garden pavilion featuring coffee cup, with bag, and apple pie"
+            }
+        }
+    },
+    "final_prompts": {
+        "main_prompt": "A Baroque painting depicting a harmonious afternoon scene centered on a well-worn but elegant large bag in deep burgundy and rich chocolate leather, upon which rests a medium-sized porcelain coffee cup in warm cream and golden amber hues, freshly poured and steaming gently. Beside the cup, a medium-sized apple pie in golden amber and deep caramel crust sits freshly baked, its fruit filling visible through artfully cracked pastry. The objects are arranged in a triangular composition on a weathered wooden table, bathed in mixed soft afternoon light that streams through a nearby window, casting dramatic chiaroscuro shadows that highlight the textures of embossed leather, porcelain with delicate gold leaf accents, and glistening baked pastry. The atmosphere is balanced and harmonious, with rich Baroque detailing in the background suggesting a domestic interior with velvet drapes and ornate woodwork, all rendered with the dramatic lighting, emotional depth, and opulent detail characteristic of the Baroque period.",
+        "negative_prompt": "photorealistic, 3d render, modern, digital art, photograph, low quality, blurry, distorted, cartoon, anime, surreal, abstract, minimalist, flat lighting, oversaturated, ugly, deformed, bad anatomy, text, watermark, signature",
+        "prompt_formats": {
+            "simple": "A Baroque painting of a coffee cup on a leather bag with an apple pie beside it in soft afternoon light.",
+            "complex": "A Baroque painting depicting a harmonious afternoon scene centered on a well-worn but elegant large bag in deep burgundy and rich chocolate leather, upon which rests a medium-sized porcelain coffee cup in warm cream and golden amber hues, freshly poured and steaming gently. Beside the cup, a medium-sized apple pie in golden amber and deep caramel crust sits freshly baked, its fruit filling visible through artfully cracked pastry. The objects are arranged in a triangular composition on a weathered wooden table, bathed in mixed soft afternoon light that streams through a nearby window, casting dramatic chiaroscuro shadows that highlight the textures of embossed leather, porcelain with delicate gold leaf accents, and glistening baked pastry. The atmosphere is balanced and harmonious, with rich Baroque detailing in the background suggesting a domestic interior with velvet drapes and ornate woodwork, all rendered with the dramatic lighting, emotional depth, and opulent detail characteristic of the Baroque period.",
+            "comma_separated": "Baroque painting, coffee cup on bag, apple pie beside cup, large burgundy chocolate leather bag, medium cream amber porcelain cup, medium golden caramel apple pie, freshly poured, well-worn elegant, freshly baked, soft afternoon lighting, chiaroscuro, dramatic shadows, harmonious atmosphere, domestic interior, ornate details, textured materials, still life",
+            "tags": "art, painting, Baroque, still life, coffee cup, leather bag, apple pie, chiaroscuro, afternoon light, domestic scene, textured materials, porcelain, pastry, harmonious composition"
+        }
+    }
+}

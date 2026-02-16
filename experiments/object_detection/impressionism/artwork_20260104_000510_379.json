@@ -1,0 +1,345 @@
+{
+    "artwork_id": "artwork_20260104_000510_379",
+    "generation_timestamp": "2026-01-04T00:06:09.763452",
+    "style": "Impressionism",
+    "objects": {
+        "object_ids": [
+            5,
+            75,
+            47,
+            49
+        ],
+        "object_names": [
+            "plane",
+            "clock",
+            "banana",
+            "bread"
+        ],
+        "enhanced_objects": [
+            {
+                "object_id": 5,
+                "name": "plane",
+                "artistic_description": "A small aircraft rendered in soft, diffused morning light filtering through fog, its metallic surface catching muted silvery highlights while shadows blend into gentle gray-blue tones. The fuselage appears slightly weathered, with subtle brushstrokes suggesting atmospheric moisture clinging to its curves, creating a dreamlike, ethereal quality.",
+                "size": "Large",
+                "state": "weathered and atmospheric",
+                "primary_colors": [
+                    "silvery-gray",
+                    "soft blue"
+                ],
+                "material": "metal"
+            },
+            {
+                "object_id": 75,
+                "name": "clock",
+                "artistic_description": "A vintage wall clock whose face glows softly in the fog-filtered morning light, its numbers and hands rendered in loose, impressionistic strokes of warm cream and pale gold. The brass frame catches subtle luminous highlights, while the glass surface reflects the ambient mist, creating a hazy, mysterious appearance that blurs precise details.",
+                "size": "Medium",
+                "state": "aged and luminous",
+                "primary_colors": [
+                    "warm cream",
+                    "pale gold"
+                ],
+                "material": "brass and glass"
+            },
+            {
+                "object_id": 47,
+                "name": "banana",
+                "artistic_description": "A ripe banana whose curved form is bathed in gentle morning light, its yellow skin softened to muted golden tones with hints of warm ochre where the fog diffuses the natural illumination. The surface shows subtle matte texture with delicate brown speckles, rendered with soft, blended brushstrokes that capture the fruit's organic, yielding quality.",
+                "size": "Small",
+                "state": "ripe and fresh",
+                "primary_colors": [
+                    "golden yellow",
+                    "warm ochre"
+                ],
+                "material": "organic"
+            },
+            {
+                "object_id": 49,
+                "name": "bread",
+                "artistic_description": "A rustic loaf of bread with a crusty exterior that catches the cool, diffused morning light in soft beige and pale amber highlights. The crumbly texture is suggested through loose, expressive strokes, while the surface shows a matte finish with subtle shadows that blend seamlessly into the surrounding fog, creating a comforting, tactile presence.",
+                "size": "Small",
+                "state": "fresh and crusty",
+                "primary_colors": [
+                    "warm beige",
+                    "pale amber"
+                ],
+                "material": "organic"
+            }
+        ]
+    },
+    "composition": {
+        "spatial_relations": [
+            [
+                5,
+                "in",
+                75
+            ],
+            [
+                47,
+                "on",
+                75
+            ],
+            [
+                49,
+                "on",
+                75
+            ],
+            [
+                75,
+                "under",
+                5
+            ]
+        ],
+        "semantic_relations": []
+    },
+    "environment": {
+        "environment_details": {
+            "scene_brief": "A Surreal Dreamscape featuring plane, with clock, banana, and bread",
+            "place365_name": "/r/room",
+            "place365_id": 21,
+            "time_of_day": "morning",
+            "weather": "foggy",
+            "period": "Contemporary",
+            "is_indoor": true,
+            "lighting": {
+                "type": "natural",
+                "quality": "soft",
+                "direction": "side-lit",
+                "mood": "cool",
+                "reasoning": "Soft, side-lit natural light from a window would create gentle shadows and highlights, enhancing the dreamlike, ethereal quality of the scene. A cool mood reinforces the surreal, otherworldly atmosphere."
+            },
+            "atmosphere": "fresh and energetic and mysterious and gentle"
+        },
+        "scene_inference": {
+            "all_candidates": [
+                {
+                    "scene_type": "Airport Terminal",
+                    "plausibility": 0.95,
+                    "reasoning": "A plane is the primary object visible through large windows. A clock is a standard fixture on the terminal wall. A banana and bread are common travel snacks purchased at a terminal kiosk or brought from home.",
+                    "object_interpretations": {
+                        "plane": {
+                            "form": "real airplane",
+                            "scale": "large",
+                            "role": "primary object outside window"
+                        },
+                        "clock": {
+                            "form": "real wall clock",
+                            "scale": "normal",
+                            "role": "functional terminal fixture"
+                        },
+                        "banana": {
+                            "form": "real fruit",
+                            "scale": "normal",
+                            "role": "travel snack"
+                        },
+                        "bread": {
+                            "form": "real loaf",
+                            "scale": "normal",
+                            "role": "travel snack"
+                        }
+                    }
+                },
+                {
+                    "scene_type": "Airport Tarmac",
+                    "plausibility": 0.9,
+                    "reasoning": "The plane is parked on the tarmac. A mechanic might have a pocket watch (clock) on a chain. A packed lunch containing a banana and a sandwich (bread) sits on a toolbox.",
+                    "object_interpretations": {
+                        "plane": {
+                            "form": "real airplane",
+                            "scale": "massive",
+                            "role": "primary object"
+                        },
+                        "clock": {
+                            "form": "pocket watch",
+                            "scale": "small",
+                            "role": "mechanic's tool"
+                        },
+                        "banana": {
+                            "form": "real fruit",
+                            "scale": "normal",
+                            "role": "part of lunch"
+                        },
+                        "bread": {
+                            "form": "sandwich",
+                            "scale": "normal",
+                            "role": "part of lunch"
+                        }
+                    }
+                },
+                {
+                    "scene_type": "Vintage Air Museum",
+                    "plausibility": 0.9,
+                    "reasoning": "A vintage plane is the centerpiece of the exhibit. A retro clock hangs on the wall indicating visiting hours. A display of 'Food in Aviation History' features a banana and bread typical of early flight rations.",
+                    "object_interpretations": {
+                        "plane": {
+                            "form": "historic airplane",
+                            "scale": "large",
+                            "role": "museum exhibit"
+                        },
+                        "clock": {
+                            "form": "wall clock",
+                            "scale": "normal",
+                            "role": "decorative fixture"
+                        },
+                        "banana": {
+                            "form": "plastic replica",
+                            "scale": "normal",
+                            "role": "museum prop"
+                        },
+                        "bread": {
+                            "form": "replica bread",
+                            "scale": "normal",
+                            "role": "museum prop"
+                        }
+                    }
+                },
+                {
+                    "scene_type": "Surreal Dreamscape",
+                    "plausibility": 0.85,
+                    "reasoning": "In an Impressionist/Surreal style, a plane might float lazily in a sky painted with loose strokes. A giant clock melts over a cloud (nod to Dali), while a banana and bread float like balloons.",
+                    "object_interpretations": {
+                        "plane": {
+                            "form": "silhouette",
+                            "scale": "variable",
+                            "role": "dream element"
+                        },
+                        "clock": {
+                            "form": "melting object",
+                            "scale": "large",
+                            "role": "surreal focal point"
+                        },
+                        "banana": {
+                            "form": "balloon",
+                            "scale": "large",
+                            "role": "floating object"
+                        },
+                        "bread": {
+                            "form": "cloud-like",
+                            "scale": "large",
+                            "role": "floating object"
+                        }
+                    },
+                    "scene_brief": "A Surreal Dreamscape featuring plane, with clock, banana, and bread"
+                },
+                {
+                    "scene_type": "Pilot's Cockpit",
+                    "plausibility": 0.8,
+                    "reasoning": "The plane is the environment itself. The clock is the instrument panel clock. The banana and bread are snacks on the console for a long flight.",
+                    "object_interpretations": {
+                        "plane": {
+                            "form": "interior environment",
+                            "scale": "enclosed",
+                            "role": "setting"
+                        },
+                        "clock": {
+                            "form": "instrument gauge",
+                            "scale": "small",
+                            "role": "flight instrument"
+                        },
+                        "banana": {
+                            "form": "real fruit",
+                            "scale": "small",
+                            "role": "snack"
+                        },
+                        "bread": {
+                            "form": "sandwich",
+                            "scale": "small",
+                            "role": "snack"
+                        }
+                    }
+                },
+                {
+                    "scene_type": "Picnic in a Field near an Airfield",
+                    "plausibility": 0.85,
+                    "reasoning": "A plane flies overhead (primary object). The picnic blanket features a checkered pattern with a portable clock, a bunch of bananas, and a baguette (bread).",
+                    "object_interpretations": {
+                        "plane": {
+                            "form": "real airplane",
+                            "scale": "small (distant)",
+                            "role": "background element"
+                        },
+                        "clock": {
+                            "form": "travel alarm clock",
+                            "scale": "small",
+                            "role": "picnic accessory"
+                        },
+                        "banana": {
+                            "form": "real fruit",
+                            "scale": "normal",
+                            "role": "picnic food"
+                        },
+                        "bread": {
+                            "form": "baguette",
+                            "scale": "normal",
+                            "role": "picnic food"
+                        }
+                    }
+                },
+                {
+                    "scene_type": "Abstract Aviation Art",
+                    "plausibility": 0.75,
+                    "reasoning": "The plane is represented by geometric shapes. The clock, banana, and bread are also abstracted into shapes and colors that blend with the Impressionist style, suggesting a collage of travel elements.",
+                    "object_interpretations": {
+                        "plane": {
+                            "form": "abstract shape",
+                            "scale": "relative",
+                            "role": "main subject"
+                        },
+                        "clock": {
+                            "form": "circular shape",
+                            "scale": "relative",
+                            "role": "abstract element"
+                        },
+                        "banana": {
+                            "form": "curved yellow stroke",
+                            "scale": "relative",
+                            "role": "abstract element"
+                        },
+                        "bread": {
+                            "form": "brown block",
+                            "scale": "relative",
+                            "role": "abstract element"
+                        }
+                    }
+                }
+            ],
+            "selected_scene": {
+                "scene_type": "Surreal Dreamscape",
+                "plausibility": 0.85,
+                "reasoning": "In an Impressionist/Surreal style, a plane might float lazily in a sky painted with loose strokes. A giant clock melts over a cloud (nod to Dali), while a banana and bread float like balloons.",
+                "object_interpretations": {
+                    "plane": {
+                        "form": "silhouette",
+                        "scale": "variable",
+                        "role": "dream element"
+                    },
+                    "clock": {
+                        "form": "melting object",
+                        "scale": "large",
+                        "role": "surreal focal point"
+                    },
+                    "banana": {
+                        "form": "balloon",
+                        "scale": "large",
+                        "role": "floating object"
+                    },
+                    "bread": {
+                        "form": "cloud-like",
+                        "scale": "large",
+                        "role": "floating object"
+                    }
+                },
+                "scene_brief": "A Surreal Dreamscape featuring plane, with clock, banana, and bread"
+            }
+        }
+    },
+    "final_prompts": {
+        "main_prompt": "A Impressionism painting depicting a surreal morning scene where a large, weathered silvery-gray plane with soft blue accents appears to emerge from within a medium-sized, aged clock with a warm cream and pale gold luminous face. Resting atop the clock's surface are two small objects: a ripe, golden yellow banana with warm ochre highlights and a fresh, crusty loaf of bread in warm beige and pale amber tones. The clock, positioned centrally, supports all elements, creating a gentle yet mysterious spatial paradox. The scene is bathed in natural, soft morning light that filters through a fresh and energetic atmosphere, casting gentle, dappled shadows and enhancing the luminous quality of the aged brass and glass clock, the organic textures of the banana and bread, and the atmospheric, weathered metal of the plane. The overall mood is a harmonious blend of fresh energy and gentle mystery, captured with loose, visible brushstrokes and a vibrant, light-filled palette typical of Impressionism.",
+        "negative_prompt": "photorealistic, 3d render, modern, digital art, photograph, low quality, blurry, distorted, ugly, deformed, disfigured, poorly drawn, bad anatomy, wrong anatomy, extra limb, missing limb, floating limbs, disconnected limbs, mutation, mutated, out of focus, long neck, watermark, signature, text, words, letters, cartoon, anime, video game, CGI, synthetic, hyperrealistic, symmetrical, duplicate, cloned",
+        "prompt_formats": {
+            "simple": "An Impressionist painting of a plane emerging from a clock, with a banana and bread on top, in soft morning light.",
+            "complex": "A Impressionism painting depicting a surreal morning scene where a large, weathered silvery-gray plane with soft blue accents appears to emerge from within a medium-sized, aged clock with a warm cream and pale gold luminous face. Resting atop the clock's surface are two small objects: a ripe, golden yellow banana with warm ochre highlights and a fresh, crusty loaf of bread in warm beige and pale amber tones. The clock, positioned centrally, supports all elements, creating a gentle yet mysterious spatial paradox. The scene is bathed in natural, soft morning light that filters through a fresh and energetic atmosphere, casting gentle, dappled shadows and enhancing the luminous quality of the aged brass and glass clock, the organic textures of the banana and bread, and the atmospheric, weathered metal of the plane. The overall mood is a harmonious blend of fresh energy and gentle mystery, captured with loose, visible brushstrokes and a vibrant, light-filled palette typical of Impressionism.",
+            "comma_separated": "Impressionism painting, large silvery-gray plane in clock, medium warm cream clock, small golden yellow banana on clock, small warm beige bread on clock, soft morning lighting, fresh energetic mysterious gentle atmosphere, weathered metal, aged brass and glass, organic textures, loose brushstrokes, vibrant light",
+            "tags": "art, painting, impressionism, surreal, still life, plane, clock, banana, bread, morning light, atmospheric, textured, brushwork, luminous, vintage, organic, metal, paradox, dreamlike"
+        }
+    }
+}

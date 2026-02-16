@@ -1,0 +1,303 @@
+{
+    "artwork_id": "artwork_20260104_003105_589",
+    "generation_timestamp": "2026-01-04T00:31:38.760844",
+    "style": "Impressionism",
+    "objects": {
+        "object_ids": [
+            3,
+            28,
+            74
+        ],
+        "object_names": [
+            "cart",
+            "dress shirt",
+            "scroll"
+        ],
+        "enhanced_objects": [
+            {
+                "object_id": 3,
+                "name": "cart",
+                "artistic_description": "Rough wooden planks rendered in soft, diffused afternoon light filtering through cloud cover. The weathered wood grain appears as broken strokes of warm ochre and cool gray, with subtle violet shadows pooling in crevices. Metal wheels catch muted highlights, their surfaces dulled by indoor dust. The structure shows contemporary wear with chipped paint revealing underlying wood tones that shift between sienna and ash under the gentle, subdued lighting.",
+                "size": "Large",
+                "state": "weathered and functional, showing contemporary workshop use",
+                "primary_colors": [
+                    "warm ochre",
+                    "cool gray"
+                ],
+                "material": "wood and metal"
+            },
+            {
+                "object_id": 28,
+                "name": "dress shirt",
+                "artistic_description": "Crisp white fabric softened by cloudy daylight, appearing as a luminous canvas of subtle cream and pearl tones rather than stark white. The cotton weave catches the gentle light with a soft, matte glow, while faint shadows from folds create delicate strokes of pale blue-gray. Contemporary buttons scatter tiny points of reflected light, and the fabric's texture is suggested through loose, impressionistic brushwork that captures the material's breathability and lived-in softness.",
+                "size": "Medium",
+                "state": "clean and pressed, contemporary style with slight wear from use",
+                "primary_colors": [
+                    "cream",
+                    "pale blue-gray"
+                ],
+                "material": "cotton fabric"
+            },
+            {
+                "object_id": 74,
+                "name": "scroll",
+                "artistic_description": "Aged parchment glowing with warm amber tones where afternoon light grazes its surface, while shadowed areas deepen to rich umber and burnt sienna. The paper's texture is visible through broken strokes of dry brushwork, suggesting fibers and subtle creases. Inked markings appear as fluid, dark strokes that bleed slightly into the fibrous surface. The edges curl gently, catching light on their pale, yellowed surfaces while interiors remain in soft, contemplative shadow.",
+                "size": "Small",
+                "state": "partially unrolled and aged, contemporary documents with handling marks",
+                "primary_colors": [
+                    "amber",
+                    "umber"
+                ],
+                "material": "parchment paper"
+            }
+        ]
+    },
+    "composition": {
+        "spatial_relations": [
+            [
+                28,
+                "on",
+                3
+            ],
+            [
+                74,
+                "on",
+                3
+            ]
+        ],
+        "semantic_relations": []
+    },
+    "environment": {
+        "environment_details": {
+            "scene_brief": "A theater costume workshop centered around cart, with dress shirt, and scroll",
+            "place365_name": "/b/bookstore",
+            "place365_id": 60,
+            "time_of_day": "afternoon",
+            "weather": "cloudy",
+            "period": "Contemporary",
+            "is_indoor": true,
+            "lighting": {
+                "type": "natural",
+                "quality": "soft",
+                "direction": "side-lit",
+                "mood": "neutral",
+                "reasoning": "Natural light from a window (implied by the indoor setting) filtered through clouds creates soft, diffused lighting. Side-lighting would sculpt the forms of the cart and objects, highlighting textures and creating depth, which is essential for Impressionist brushwork. A neutral mood fits the contemplative nature of a workshop."
+            },
+            "atmosphere": "bright and active and subdued and gentle"
+        },
+        "scene_inference": {
+            "all_candidates": [
+                {
+                    "scene_type": "antique market stall",
+                    "plausibility": 0.95,
+                    "reasoning": "A wooden cart serves as a rustic display table for various wares. A fine dress shirt can be draped over the side as a textile item for sale. An ancient scroll can be laid out on the cart's surface as a rare artifact.",
+                    "object_interpretations": {
+                        "cart": {
+                            "form": "real wooden merchant cart",
+                            "scale": "normal",
+                            "role": "primary display structure"
+                        },
+                        "dress shirt": {
+                            "form": "real folded garment",
+                            "scale": "normal",
+                            "role": "textile merchandise"
+                        },
+                        "scroll": {
+                            "form": "real parchment scroll",
+                            "scale": "normal",
+                            "role": "historical artifact"
+                        }
+                    }
+                },
+                {
+                    "scene_type": "vintage laundry room",
+                    "plausibility": 0.9,
+                    "reasoning": "A laundry cart holds freshly washed dress shirts stacked in a pile. A scroll containing washing instructions or a vintage pattern design rests against the cart's metal frame.",
+                    "object_interpretations": {
+                        "cart": {
+                            "form": "wire laundry basket on wheels",
+                            "scale": "normal",
+                            "role": "primary utility container"
+                        },
+                        "dress shirt": {
+                            "form": "real clean laundry",
+                            "scale": "normal",
+                            "role": "primary content"
+                        },
+                        "scroll": {
+                            "form": "paper document",
+                            "scale": "normal",
+                            "role": "instructional reference"
+                        }
+                    }
+                },
+                {
+                    "scene_type": "theater costume workshop",
+                    "plausibility": 0.85,
+                    "reasoning": "A prop cart is used to transport costumes. A dress shirt hangs from the cart as part of a costume set. A scroll serves as a script or prop list attached to the cart.",
+                    "object_interpretations": {
+                        "cart": {
+                            "form": "rolling costume rack",
+                            "scale": "normal",
+                            "role": "primary transport device"
+                        },
+                        "dress shirt": {
+                            "form": "costume piece",
+                            "scale": "normal",
+                            "role": "hanging garment"
+                        },
+                        "scroll": {
+                            "form": "prop script",
+                            "scale": "normal",
+                            "role": "production document"
+                        }
+                    },
+                    "scene_brief": "A theater costume workshop centered around cart, with dress shirt, and scroll"
+                },
+                {
+                    "scene_type": "art studio storage",
+                    "plausibility": 0.8,
+                    "reasoning": "An artist's utility cart holds supplies. A dress shirt draped over the cart serves as a still life subject or reference. A scroll of paper is unrolled on the cart surface as a canvas.",
+                    "object_interpretations": {
+                        "cart": {
+                            "form": "artist's trolley",
+                            "scale": "normal",
+                            "role": "supply station"
+                        },
+                        "dress shirt": {
+                            "form": "reference object",
+                            "scale": "normal",
+                            "role": "still life subject"
+                        },
+                        "scroll": {
+                            "form": "paper roll",
+                            "scale": "normal",
+                            "role": "canvas or sketch paper"
+                        }
+                    }
+                },
+                {
+                    "scene_type": "vintage shop interior",
+                    "plausibility": 0.9,
+                    "reasoning": "A small wooden cart displays vintage items. A dress shirt is folded on the lower shelf as merchandise. A scroll is partially unrolled on the top shelf showing calligraphy.",
+                    "object_interpretations": {
+                        "cart": {
+                            "form": "display cart",
+                            "scale": "small",
+                            "role": "merchandise display"
+                        },
+                        "dress shirt": {
+                            "form": "vintage clothing",
+                            "scale": "normal",
+                            "role": "display item"
+                        },
+                        "scroll": {
+                            "form": "antique document",
+                            "scale": "normal",
+                            "role": "collectible item"
+                        }
+                    }
+                },
+                {
+                    "scene_type": "library reading nook",
+                    "plausibility": 0.75,
+                    "reasoning": "A book cart holds various items. A dress shirt might be draped over the cart as a personal item left by a reader. A scroll is a rare manuscript being transported or displayed.",
+                    "object_interpretations": {
+                        "cart": {
+                            "form": "library book cart",
+                            "scale": "normal",
+                            "role": "transport device"
+                        },
+                        "dress shirt": {
+                            "form": "personal clothing",
+                            "scale": "normal",
+                            "role": "secondary object"
+                        },
+                        "scroll": {
+                            "form": "ancient manuscript",
+                            "scale": "normal",
+                            "role": "primary content"
+                        }
+                    }
+                },
+                {
+                    "scene_type": "historical reenactment camp",
+                    "plausibility": 0.85,
+                    "reasoning": "A period cart holds camp supplies. A linen dress shirt is folded on the cart. A scroll contains maps or orders for the encampment.",
+                    "object_interpretations": {
+                        "cart": {
+                            "form": "reproduction wooden cart",
+                            "scale": "normal",
+                            "role": "camp furniture"
+                        },
+                        "dress shirt": {
+                            "form": "period clothing",
+                            "scale": "normal",
+                            "role": "clothing item"
+                        },
+                        "scroll": {
+                            "form": "military dispatch",
+                            "scale": "normal",
+                            "role": "document"
+                        }
+                    }
+                },
+                {
+                    "scene_type": "impresionistic street scene",
+                    "plausibility": 0.8,
+                    "reasoning": "A vendor's cart on a cobblestone street. A dress shirt hangs from the cart as displayed merchandise. A scroll is a sign or price list attached to the cart.",
+                    "object_interpretations": {
+                        "cart": {
+                            "form": "street vendor cart",
+                            "scale": "normal",
+                            "role": "primary structure"
+                        },
+                        "dress shirt": {
+                            "form": "hanging merchandise",
+                            "scale": "normal",
+                            "role": "display item"
+                        },
+                        "scroll": {
+                            "form": "signage",
+                            "scale": "normal",
+                            "role": "informational element"
+                        }
+                    }
+                }
+            ],
+            "selected_scene": {
+                "scene_type": "theater costume workshop",
+                "plausibility": 0.85,
+                "reasoning": "A prop cart is used to transport costumes. A dress shirt hangs from the cart as part of a costume set. A scroll serves as a script or prop list attached to the cart.",
+                "object_interpretations": {
+                    "cart": {
+                        "form": "rolling costume rack",
+                        "scale": "normal",
+                        "role": "primary transport device"
+                    },
+                    "dress shirt": {
+                        "form": "costume piece",
+                        "scale": "normal",
+                        "role": "hanging garment"
+                    },
+                    "scroll": {
+                        "form": "prop script",
+                        "scale": "normal",
+                        "role": "production document"
+                    }
+                },
+                "scene_brief": "A theater costume workshop centered around cart, with dress shirt, and scroll"
+            }
+        }
+    },
+    "final_prompts": {
+        "main_prompt": "A Impressionism painting depicting a warm afternoon scene where a large, weathered cart in warm ochre and cool gray tones occupies the foreground, its functional wooden frame and metal fittings catching the soft natural light. Resting atop the cart's worn surface are two distinct objects: a medium-sized dress shirt in cream and pale blue-gray, clean and neatly pressed as if recently laid there, and a small, aged scroll in amber and umber hues, partially unrolled to reveal its parchment texture. The cart sits slightly off-center in a sun-dappled courtyard or garden path, with blurred foliage and architectural hints in the midground and background, all bathed in the gentle, subdued yet bright atmosphere of an active afternoon where light and shadow play across surfaces in loose, visible brushstrokes characteristic of Impressionist technique.",
+        "negative_prompt": "photorealistic, 3d render, modern, digital art, photograph, low quality, blurry, distorted, surreal, cartoon, anime, hyperrealistic, oversaturated, ugly, deformed, text, watermark, signature, frame",
+        "prompt_formats": {
+            "simple": "An Impressionist painting of a cart with a dress shirt and scroll on it in soft afternoon light.",
+            "complex": "A Impressionism painting depicting a warm afternoon scene where a large, weathered cart in warm ochre and cool gray tones occupies the foreground, its functional wooden frame and metal fittings catching the soft natural light. Resting atop the cart's worn surface are two distinct objects: a medium-sized dress shirt in cream and pale blue-gray, clean and neatly pressed as if recently laid there, and a small, aged scroll in amber and umber hues, partially unrolled to reveal its parchment texture. The cart sits slightly off-center in a sun-dappled courtyard or garden path, with blurred foliage and architectural hints in the midground and background, all bathed in the gentle, subdued yet bright atmosphere of an active afternoon where light and shadow play across surfaces in loose, visible brushstrokes characteristic of Impressionist technique.",
+            "comma_separated": "Impressionism painting, large weathered cart in warm ochre and cool gray, medium dress shirt in cream and pale blue-gray on cart, small aged scroll in amber and umber on cart, soft natural afternoon lighting, bright active subdued gentle atmosphere, loose brushstrokes, dappled light, garden courtyard setting",
+            "tags": "art, painting, impressionism, cart, dress shirt, scroll, afternoon light, soft lighting, weathered, pressed, aged, ochre, gray, cream, blue-gray, amber, umber, garden, courtyard, brushstrokes, dappled"
+        }
+    }
+}

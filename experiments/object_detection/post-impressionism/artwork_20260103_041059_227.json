@@ -1,0 +1,281 @@
+{
+    "artwork_id": "artwork_20260103_041059_227",
+    "generation_timestamp": "2026-01-03T04:11:27.463841",
+    "style": "Post-Impressionism",
+    "objects": {
+        "object_ids": [
+            14,
+            15,
+            58
+        ],
+        "object_names": [
+            "church bench",
+            "falcon",
+            "blanket"
+        ],
+        "enhanced_objects": [
+            {
+                "object_id": 14,
+                "name": "church bench",
+                "artistic_description": "Miniature wooden pew rendered in soft, diffused afternoon light filtering through clouds. The varnished wood surface catches muted highlights with subtle violet and gray undertones, while the dark grain creates rhythmic patterns like brushstrokes. The aged finish shows gentle wear at the edges where the natural wood peeks through, creating a warm amber glow against the cooler shadowed recesses of the miniature seating planks.",
+                "size": "Medium",
+                "state": "well-maintained miniature with gentle wear",
+                "primary_colors": [
+                    "warm amber",
+                    "cool gray-violet"
+                ],
+                "material": "wood"
+            },
+            {
+                "object_id": 15,
+                "name": "falcon",
+                "artistic_description": "Small ceramic falcon statue glazed in rich, saturated earth tones that deepen in the subdued natural light. The feathers are stylized with bold, impasto-like ridges in deep chocolate brown and burnt sienna, catching soft highlights along the raised edges. The beak and talons gleam with a metallic bronze sheen, while the matte body absorbs the gentle ambient light, creating velvety shadows in the sculpted contours.",
+                "size": "Small",
+                "state": "ceramic figurine with glossy glaze",
+                "primary_colors": [
+                    "burnt sienna",
+                    "deep chocolate brown"
+                ],
+                "material": "ceramic"
+            },
+            {
+                "object_id": 58,
+                "name": "blanket",
+                "artistic_description": "Soft textile draped in gentle folds, its woolen surface diffusing the cloudy daylight into a painterly haze of muted tones. The fabric shows subtle color shifts from dusty rose to soft sage, with the woven texture creating a pointillistic effect where individual threads catch the subdued light. The edges fray slightly with a delicate, feathery quality, and the overall surface has a matte, absorbent quality that softens any harsh reflections.",
+                "size": "Medium",
+                "state": "softly worn textile with gentle pilling",
+                "primary_colors": [
+                    "dusty rose",
+                    "soft sage"
+                ],
+                "material": "wool"
+            }
+        ]
+    },
+    "composition": {
+        "spatial_relations": [
+            [
+                14,
+                "on",
+                58
+            ],
+            [
+                15,
+                "next to",
+                14
+            ]
+        ],
+        "semantic_relations": []
+    },
+    "environment": {
+        "environment_details": {
+            "scene_brief": "A clergy study featuring toy church bench, with falcon, and blanket",
+            "place365_name": "/l/living_room",
+            "place365_id": 215,
+            "time_of_day": "afternoon",
+            "weather": "cloudy",
+            "period": "Contemporary",
+            "is_indoor": true,
+            "lighting": {
+                "type": "natural",
+                "quality": "soft",
+                "direction": "side-lit",
+                "mood": "cool",
+                "reasoning": "Cloudy afternoon light provides soft, even illumination ideal for a study setting. Side-lighting from windows creates gentle modeling of objects without harsh contrasts, allowing the Post-Impressionist style to emphasize color relationships and mood over dramatic chiaroscuro. The cool quality of cloudy light creates a contemplative, spiritual atmosphere appropriate for a clergy study."
+            },
+            "atmosphere": "bright and active and subdued and gentle"
+        },
+        "scene_inference": {
+            "all_candidates": [
+                {
+                    "scene_type": "rural church interior",
+                    "plausibility": 0.95,
+                    "reasoning": "A falcon could be a taxidermy mount or a decorative weather vane model placed on the church bench alongside a folded blanket left by a parishioner.",
+                    "object_interpretations": {
+                        "church bench": {
+                            "form": "real wooden pew",
+                            "scale": "normal",
+                            "role": "primary seating"
+                        },
+                        "falcon": {
+                            "form": "taxidermy mount",
+                            "scale": "life-size",
+                            "role": "decorative object"
+                        },
+                        "blanket": {
+                            "form": "woolen blanket",
+                            "scale": "normal",
+                            "role": "abandoned item"
+                        }
+                    }
+                },
+                {
+                    "scene_type": "vintage museum exhibit",
+                    "plausibility": 0.9,
+                    "reasoning": "The church bench is a display piece. A falcon statue represents a heraldic symbol, and a blanket is draped over the bench to show texture.",
+                    "object_interpretations": {
+                        "church bench": {
+                            "form": "museum artifact",
+                            "scale": "normal",
+                            "role": "display furniture"
+                        },
+                        "falcon": {
+                            "form": "stone or metal sculpture",
+                            "scale": "small (statuette)",
+                            "role": "heraldic symbol"
+                        },
+                        "blanket": {
+                            "form": "tapestry throw",
+                            "scale": "normal",
+                            "role": "display textile"
+                        }
+                    }
+                },
+                {
+                    "scene_type": "abandoned chapel",
+                    "plausibility": 0.85,
+                    "reasoning": "Nature reclaiming the space. A wild falcon might perch on the back of the bench, and a tattered blanket lies discarded on the seat.",
+                    "object_interpretations": {
+                        "church bench": {
+                            "form": "weathered wood",
+                            "scale": "normal",
+                            "role": "structural remnant"
+                        },
+                        "falcon": {
+                            "form": "living bird",
+                            "scale": "normal",
+                            "role": "wild occupant"
+                        },
+                        "blanket": {
+                            "form": "ragged fabric",
+                            "scale": "normal",
+                            "role": "trash/debris"
+                        }
+                    }
+                },
+                {
+                    "scene_type": "clergy study",
+                    "plausibility": 0.8,
+                    "reasoning": "A miniature church bench sits on a desk as a model. A falcon is a bookend, and a blanket is a lap rug for the chair.",
+                    "object_interpretations": {
+                        "church bench": {
+                            "form": "architectural model",
+                            "scale": "miniature",
+                            "role": "desk ornament"
+                        },
+                        "falcon": {
+                            "form": "metal bookend",
+                            "scale": "small",
+                            "role": "utility object"
+                        },
+                        "blanket": {
+                            "form": "knitted throw",
+                            "scale": "small",
+                            "role": "comfort item"
+                        }
+                    },
+                    "scene_brief": "A clergy study featuring toy church bench, with falcon, and blanket"
+                },
+                {
+                    "scene_type": "outdoor church courtyard",
+                    "plausibility": 0.9,
+                    "reasoning": "A stone bench sits in the garden. A falcon statue acts as a gargoyle on the bench end, and a picnic blanket is folded next to it.",
+                    "object_interpretations": {
+                        "church bench": {
+                            "form": "stone bench",
+                            "scale": "normal",
+                            "role": "garden seating"
+                        },
+                        "falcon": {
+                            "form": "stone carving",
+                            "scale": "small",
+                            "role": "architectural detail"
+                        },
+                        "blanket": {
+                            "form": "checkered cloth",
+                            "scale": "normal",
+                            "role": "picnic accessory"
+                        }
+                    }
+                },
+                {
+                    "scene_type": "stained glass workshop",
+                    "plausibility": 0.75,
+                    "reasoning": "A sketch of a church bench is on the wall. A falcon is the subject of a glass panel being worked on, and a blanket is used to wrap fragile glass pieces.",
+                    "object_interpretations": {
+                        "church bench": {
+                            "form": "drawing/painting",
+                            "scale": "variable",
+                            "role": "reference art"
+                        },
+                        "falcon": {
+                            "form": "glass shards",
+                            "scale": "medium",
+                            "role": "art material"
+                        },
+                        "blanket": {
+                            "form": "heavy wool",
+                            "scale": "normal",
+                            "role": "protective padding"
+                        }
+                    }
+                },
+                {
+                    "scene_type": "fantasy cathedral",
+                    "plausibility": 0.7,
+                    "reasoning": "A magical setting where the bench is enchanted. A mechanical falcon perches on it, guarding a magical blanket.",
+                    "object_interpretations": {
+                        "church bench": {
+                            "form": "ornate gothic pew",
+                            "scale": "normal",
+                            "role": "magical seating"
+                        },
+                        "falcon": {
+                            "form": "clockwork automaton",
+                            "scale": "normal",
+                            "role": "guardian"
+                        },
+                        "blanket": {
+                            "form": "velvet cloak",
+                            "scale": "normal",
+                            "role": "enchanted item"
+                        }
+                    }
+                }
+            ],
+            "selected_scene": {
+                "scene_type": "clergy study",
+                "plausibility": 0.8,
+                "reasoning": "A miniature church bench sits on a desk as a model. A falcon is a bookend, and a blanket is a lap rug for the chair.",
+                "object_interpretations": {
+                    "church bench": {
+                        "form": "architectural model",
+                        "scale": "miniature",
+                        "role": "desk ornament"
+                    },
+                    "falcon": {
+                        "form": "metal bookend",
+                        "scale": "small",
+                        "role": "utility object"
+                    },
+                    "blanket": {
+                        "form": "knitted throw",
+                        "scale": "small",
+                        "role": "comfort item"
+                    }
+                },
+                "scene_brief": "A clergy study featuring toy church bench, with falcon, and blanket"
+            }
+        }
+    },
+    "final_prompts": {
+        "main_prompt": "A Post-Impressionism painting depicting a softly worn textile blanket in dusty rose and soft sage hues, its gentle pilling visible in the afternoon light. Upon this blanket rests a well-maintained miniature church bench, its warm amber and cool gray-violet wood grain rendered with visible, expressive brushstrokes. Beside the bench sits a small ceramic falcon figurine in burnt sienna and deep chocolate brown, its glossy glaze catching the natural soft light. The scene is bathed in the subdued yet bright atmosphere of a gentle afternoon, with an active interplay of color and light that creates a sense of quiet, textured vibrancy, all composed with the characteristic broken color and emotional resonance of the Post-Impressionist style.",
+        "negative_prompt": "photorealistic, 3d render, modern, digital art, photograph, low quality, blurry, distorted, ugly, deformed, cartoon, anime, text, watermark, signature, frame, border",
+        "prompt_formats": {
+            "simple": "A Post-Impressionist painting of a ceramic falcon beside a miniature church bench on a worn blanket in soft afternoon light.",
+            "complex": "A Post-Impressionism painting depicting a softly worn textile blanket in dusty rose and soft sage hues, its gentle pilling visible in the afternoon light. Upon this blanket rests a well-maintained miniature church bench, its warm amber and cool gray-violet wood grain rendered with visible, expressive brushstrokes. Beside the bench sits a small ceramic falcon figurine in burnt sienna and deep chocolate brown, its glossy glaze catching the natural soft light. The scene is bathed in the subdued yet bright atmosphere of a gentle afternoon, with an active interplay of color and light that creates a sense of quiet, textured vibrancy, all composed with the characteristic broken color and emotional resonance of the Post-Impressionist style.",
+            "comma_separated": "Post-Impressionism painting, church bench on blanket, falcon next to bench, afternoon lighting, natural soft light, bright active subdued gentle atmosphere, miniature wooden bench, ceramic falcon figurine, worn textile blanket, warm amber, cool gray-violet, burnt sienna, chocolate brown, dusty rose, soft sage, textured brushstrokes, vibrant color",
+            "tags": "art, painting, post-impressionism, still life, van gogh style, textured, ceramic, wood, wool, afternoon light, subdued, gentle, vibrant"
+        }
+    }
+}

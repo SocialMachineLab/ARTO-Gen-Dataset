@@ -1,0 +1,308 @@
+{
+    "artwork_id": "artwork_20260104_031119_579",
+    "generation_timestamp": "2026-01-04T03:12:22.400769",
+    "style": "Chinese Ink Painting",
+    "objects": {
+        "object_ids": [
+            35,
+            26,
+            76
+        ],
+        "object_names": [
+            "spear",
+            "canopy",
+            "vase"
+        ],
+        "enhanced_objects": [
+            {
+                "object_id": 35,
+                "name": "spear",
+                "artistic_description": "A slender metallic shaft rendered in deep charcoal and muted silver tones, its surface catching the cool morning fog in subtle highlights. The spear tip gleams with a faint, ghostly luminescence against the misty backdrop, while the shaft shows fine brushstroke textures suggesting refined craftsmanship. Moisture from the fog creates delicate micro-droplets along its length, softening reflections into ethereal wisps.",
+                "size": "Medium",
+                "state": "polished and ceremonial, lightly dewed from morning fog",
+                "primary_colors": [
+                    "charcoal gray",
+                    "silver"
+                ],
+                "material": "metal"
+            },
+            {
+                "object_id": 26,
+                "name": "canopy",
+                "artistic_description": "A graceful fabric canopy suspended in soft layers, its silk surface absorbing the diffused foggy light to create gentle gradations of misty gray and pale jade. The material appears slightly damp, causing subtle variations in tone where moisture clings to the weave. Delicate brushwork suggests embroidered patterns that emerge and vanish like memories in the swirling vapor, with edges softly dissolving into the atmospheric haze.",
+                "size": "Large",
+                "state": "draped and flowing, slightly damp from atmospheric moisture",
+                "primary_colors": [
+                    "misty jade",
+                    "pale gray"
+                ],
+                "material": "silk"
+            },
+            {
+                "object_id": 76,
+                "name": "vase",
+                "artistic_description": "An elegant ceramic vessel with a smooth, cool surface that reflects the fog-filtered morning light in soft, muted tones. Its glaze shows subtle variations of celadon and pearl, with moisture from the air creating a gentle sheen that enhances its refined texture. The porcelain surface appears luminous yet restrained, with fine crackle patterns visible only upon close observation, embodying the quiet mystery of the morning garden.",
+                "size": "Medium",
+                "state": "pristine and reflective, beaded with fine morning dew",
+                "primary_colors": [
+                    "celadon",
+                    "pearl white"
+                ],
+                "material": "ceramic"
+            }
+        ]
+    },
+    "composition": {
+        "spatial_relations": [
+            [
+                35,
+                "next to",
+                76
+            ],
+            [
+                35,
+                "under",
+                26
+            ],
+            [
+                76,
+                "under",
+                26
+            ]
+        ],
+        "semantic_relations": []
+    },
+    "environment": {
+        "environment_details": {
+            "scene_brief": "A Garden Pavilion featuring decorative spear, with canopy, and vase",
+            "place365_name": "/j/japanese_garden",
+            "place365_id": 197,
+            "time_of_day": "morning",
+            "weather": "foggy",
+            "period": "Contemporary",
+            "is_indoor": false,
+            "lighting": {
+                "type": "natural",
+                "quality": "soft",
+                "direction": "front-lit",
+                "mood": "cool",
+                "reasoning": "Morning light filtered through fog creates a soft, diffused, and cool-toned illumination. This lighting minimizes harsh contrast, which is essential for the subtle tonal range of ink wash painting. A front or slightly side-lit approach ensures the architectural details of the pavilion and the texture of the vase are visible without losing the atmospheric mood."
+            },
+            "atmosphere": "fresh and energetic and mysterious and gentle"
+        },
+        "scene_inference": {
+            "all_candidates": [
+                {
+                    "scene_type": "Imperial Palace Courtyard",
+                    "plausibility": 0.95,
+                    "reasoning": "In a grand imperial courtyard during a ceremonial display, a spear represents the guard's weapon. A decorative canopy provides shade for the officials, and an ornate vase sits on a pedestal as part of the decor.",
+                    "object_interpretations": {
+                        "spear": {
+                            "form": "real weapon",
+                            "scale": "normal",
+                            "role": "ceremonial weapon held by a guard"
+                        },
+                        "canopy": {
+                            "form": "fabric structure",
+                            "scale": "large",
+                            "role": "architectural shade structure"
+                        },
+                        "vase": {
+                            "form": "ceramic artifact",
+                            "scale": "normal",
+                            "role": "decorative element on pedestal"
+                        }
+                    }
+                },
+                {
+                    "scene_type": "Mountain Warrior's Hut",
+                    "plausibility": 0.9,
+                    "reasoning": "A simple hut on a misty mountain. The spear is the warrior's weapon leaning against the wall. A canopy hangs over the bed for privacy/warmth, and a vase holds water or flowers on a table.",
+                    "object_interpretations": {
+                        "spear": {
+                            "form": "real weapon",
+                            "scale": "normal",
+                            "role": "primary weapon leaning against wall"
+                        },
+                        "canopy": {
+                            "form": "cloth hanging",
+                            "scale": "medium",
+                            "role": "bed curtain or divider"
+                        },
+                        "vase": {
+                            "form": "simple pottery",
+                            "scale": "normal",
+                            "role": "utility vessel on table"
+                        }
+                    }
+                },
+                {
+                    "scene_type": "Ancient Temple Interior",
+                    "plausibility": 0.85,
+                    "reasoning": "A temple hall housing statues of deities. The spear is part of the statue's attributes (like a guardian deity). A canopy hangs above the altar, and a vase holds offerings.",
+                    "object_interpretations": {
+                        "spear": {
+                            "form": "statue attribute",
+                            "scale": "normal",
+                            "role": "part of deity statue"
+                        },
+                        "canopy": {
+                            "form": "embroidered fabric",
+                            "scale": "large",
+                            "role": "altar canopy"
+                        },
+                        "vase": {
+                            "form": "ritual vessel",
+                            "scale": "normal",
+                            "role": "offering container"
+                        }
+                    }
+                },
+                {
+                    "scene_type": "Garden Pavilion",
+                    "plausibility": 0.9,
+                    "reasoning": "A traditional garden setting with a pavilion. The spear is displayed as a historical artifact or decoration inside. The pavilion itself has a canopy roof. A vase sits on the railing as a garden ornament.",
+                    "object_interpretations": {
+                        "spear": {
+                            "form": "antique display",
+                            "scale": "normal",
+                            "role": "decorative artifact"
+                        },
+                        "canopy": {
+                            "form": "pavilion roof",
+                            "scale": "large",
+                            "role": "architectural element"
+                        },
+                        "vase": {
+                            "form": "garden pottery",
+                            "scale": "normal",
+                            "role": "decoration on railing"
+                        }
+                    },
+                    "scene_brief": "A Garden Pavilion featuring decorative spear, with canopy, and vase"
+                },
+                {
+                    "scene_type": "War Council Tent",
+                    "plausibility": 0.95,
+                    "reasoning": "A military campaign tent. The spear stands in a rack as the commander's weapon. A canopy covers the tent entrance. A vase sits on a map table holding brushes or flowers.",
+                    "object_interpretations": {
+                        "spear": {
+                            "form": "military equipment",
+                            "scale": "normal",
+                            "role": "weapon in rack"
+                        },
+                        "canopy": {
+                            "form": "tent fabric",
+                            "scale": "large",
+                            "role": "tent structure"
+                        },
+                        "vase": {
+                            "form": "porcelain vessel",
+                            "scale": "small",
+                            "role": "desk accessory"
+                        }
+                    }
+                },
+                {
+                    "scene_type": "Scholar's Study",
+                    "plausibility": 0.8,
+                    "reasoning": "A scholar's room displaying martial and literary arts. The spear is a wall decoration symbolizing martial prowess. A canopy hangs over the reading nook. A vase holds a single plum branch on the desk.",
+                    "object_interpretations": {
+                        "spear": {
+                            "form": "wall decoration",
+                            "scale": "normal",
+                            "role": "symbolic display"
+                        },
+                        "canopy": {
+                            "form": "bed curtain",
+                            "scale": "medium",
+                            "role": "room divider"
+                        },
+                        "vase": {
+                            "form": "artistic pottery",
+                            "scale": "small",
+                            "role": "desk ornament"
+                        }
+                    }
+                },
+                {
+                    "scene_type": "Royal Banquet Hall",
+                    "plausibility": 0.85,
+                    "reasoning": "A grand hall for feasting. Guards stand with spears at attention. A canopy covers the head table. Ornate vases decorate the side tables.",
+                    "object_interpretations": {
+                        "spear": {
+                            "form": "ceremonial weapon",
+                            "scale": "normal",
+                            "role": "guard's equipment"
+                        },
+                        "canopy": {
+                            "form": "royal dais cover",
+                            "scale": "large",
+                            "role": "head table decoration"
+                        },
+                        "vase": {
+                            "form": "fine china",
+                            "scale": "normal",
+                            "role": "table decoration"
+                        }
+                    }
+                },
+                {
+                    "scene_type": "Forest Clearing Ritual",
+                    "plausibility": 0.9,
+                    "reasoning": "An outdoor ritual space. The spear is used in the ceremony. A canopy marks the sacred space. A vase holds ritual water or flowers on an altar.",
+                    "object_interpretations": {
+                        "spear": {
+                            "form": "ritual object",
+                            "scale": "normal",
+                            "role": "ceremonial focus"
+                        },
+                        "canopy": {
+                            "form": "ceremonial awning",
+                            "scale": "medium",
+                            "role": "space marker"
+                        },
+                        "vase": {
+                            "form": "ritual vessel",
+                            "scale": "normal",
+                            "role": "altar offering"
+                        }
+                    }
+                }
+            ],
+            "selected_scene": {
+                "scene_type": "Garden Pavilion",
+                "plausibility": 0.9,
+                "reasoning": "A traditional garden setting with a pavilion. The spear is displayed as a historical artifact or decoration inside. The pavilion itself has a canopy roof. A vase sits on the railing as a garden ornament.",
+                "object_interpretations": {
+                    "spear": {
+                        "form": "antique display",
+                        "scale": "normal",
+                        "role": "decorative artifact"
+                    },
+                    "canopy": {
+                        "form": "pavilion roof",
+                        "scale": "large",
+                        "role": "architectural element"
+                    },
+                    "vase": {
+                        "form": "garden pottery",
+                        "scale": "normal",
+                        "role": "decoration on railing"
+                    }
+                },
+                "scene_brief": "A Garden Pavilion featuring decorative spear, with canopy, and vase"
+            }
+        }
+    },
+    "final_prompts": {
+        "main_prompt": "A Chinese Ink Painting painting depicting a serene morning scene where a large, misty jade and pale gray canopy flows gently overhead, its draped silk-like fabric creating soft shadows. Under this flowing canopy, positioned in the foreground, rests a medium-sized celadon and pearl white vase with a pristine, reflective ceramic surface. Beside this vase, also sheltered beneath the canopy, stands a medium-sized spear in charcoal gray and polished silver, its ceremonial form appearing both elegant and mysterious. The natural soft morning light filters through the canopy, casting delicate gradients of ink wash across the scene, creating an atmosphere that feels fresh and energetic yet simultaneously gentle and mysterious, with subtle mist-like brushstrokes suggesting dew and morning air. The composition balances the solidity of the metal spear and ceramic vase against the fluidity of the silk-like canopy, all rendered in traditional ink tones with masterful use of negative space and varying ink densities.",
+        "negative_prompt": "photorealistic, 3d render, modern, digital art, photograph, low quality, blurry, distorted, western style, oil painting, bright colors, cartoon, anime, sketch, watermark, signature, text, frame, border",
+        "prompt_formats": {
+            "simple": "A Chinese ink painting showing a ceremonial spear and celadon vase under a flowing canopy in soft morning light.",
+            "complex": "A Chinese Ink Painting painting depicting a serene morning scene where a large, misty jade and pale gray canopy flows gently overhead, its draped silk-like fabric creating soft shadows. Under this flowing canopy, positioned in the foreground, rests a medium-sized celadon and pearl white vase with a pristine, reflective ceramic surface. Beside this vase, also sheltered beneath the canopy, stands a medium-sized spear in charcoal gray and polished silver, its ceremonial form appearing both elegant and mysterious. The natural soft morning light filters through the canopy, casting delicate gradients of ink wash across the scene, creating an atmosphere that feels fresh and energetic yet simultaneously gentle and mysterious, with subtle mist-like brushstrokes suggesting dew and morning air. The composition balances the solidity of the metal spear and ceramic vase against the fluidity of the silk-like canopy, all rendered in traditional ink tones with masterful use of negative space and varying ink densities.",
+            "comma_separated": "Chinese Ink Painting, ceremonial spear, celadon vase, flowing canopy, morning light, misty jade, charcoal gray, pearl white, soft shadows, fresh atmosphere, energetic, mysterious, gentle, ink wash, negative space, traditional brushwork",
+            "tags": "art, painting, chinese ink painting, ink wash, traditional chinese art, morning scene, ceremonial objects, canopy, vase, spear, atmospheric, misty, gentle lighting, brushstroke technique"
+        }
+    }
+}

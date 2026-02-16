@@ -1,0 +1,340 @@
+{
+    "artwork_id": "artwork_20260103_022745_501",
+    "generation_timestamp": "2026-01-03T02:28:21.025851",
+    "style": "Post-Impressionism",
+    "objects": {
+        "object_ids": [
+            20,
+            40,
+            58,
+            50
+        ],
+        "object_names": [
+            "cow",
+            "bottle",
+            "blanket",
+            "lemon"
+        ],
+        "enhanced_objects": [
+            {
+                "object_id": 20,
+                "name": "cow",
+                "artistic_description": "A plush toy cow rendered in soft, muted Post-Impressionist brushstrokes, its white and black patches appearing as gentle daubs of ivory and charcoal-gray under the cloudy natural light filtering through the clinic windows. The plush surface catches subtle highlights where the subdued afternoon brightness touches it, creating a velvety texture with visible fabric grain in the paint application.",
+                "size": "Medium",
+                "state": "well-loved with slightly matted fur from gentle use",
+                "primary_colors": [
+                    "ivory white",
+                    "charcoal gray"
+                ],
+                "material": "plush fabric"
+            },
+            {
+                "object_id": 40,
+                "name": "bottle",
+                "artistic_description": "A clear glass bottle capturing the bright, cool natural light in fractured planes of pale blue and soft white, its transparent body showing slight distortion like a Monet study. The cloudy sky's diffused illumination creates gentle reflections across its smooth surface, with subtle greenish tints where the glass catches the ambient brightness.",
+                "size": "Small",
+                "state": "pristine and clean with visible clarity",
+                "primary_colors": [
+                    "pale blue",
+                    "translucent white"
+                ],
+                "material": "glass"
+            },
+            {
+                "object_id": 58,
+                "name": "blanket",
+                "artistic_description": "A soft blanket rendered in thick, textured Post-Impressionist impasto, its fibers absorbing the gentle clinic light into deep, muted folds of sage and warm cream. The subdued atmosphere is captured in the fabric's matte surface, with visible weave patterns suggested through varied brushstrokes that create a tactile, comforting presence.",
+                "size": "Large",
+                "state": "slightly rumpled with soft, inviting texture",
+                "primary_colors": [
+                    "sage green",
+                    "warm cream"
+                ],
+                "material": "fabric"
+            },
+            {
+                "object_id": 50,
+                "name": "lemon",
+                "artistic_description": "A decorative lemon rendered in bold, expressive strokes of vibrant yellow and cool chartreuse, its glossy surface reflecting the bright but gentle natural light in sharp highlights. The cloudy afternoon sky provides soft, diffused illumination that reveals the fruit's waxy texture and subtle blemishes, with deep shadows in its dimpled peel suggesting rich impasto application.",
+                "size": "Small",
+                "state": "fresh and polished with a slight sheen",
+                "primary_colors": [
+                    "vibrant yellow",
+                    "chartreuse"
+                ],
+                "material": "ceramic"
+            }
+        ]
+    },
+    "composition": {
+        "spatial_relations": [
+            [
+                20,
+                "on",
+                58
+            ],
+            [
+                40,
+                "next to",
+                20
+            ],
+            [
+                50,
+                "next to",
+                40
+            ]
+        ],
+        "semantic_relations": []
+    },
+    "environment": {
+        "environment_details": {
+            "scene_brief": "A veterinary clinic waiting room featuring toy cow, with bottle, blanket, and decorative lemon as decoration",
+            "place365_name": "/w/waiting_room",
+            "place365_id": 352,
+            "time_of_day": "afternoon",
+            "weather": "cloudy",
+            "period": "Contemporary",
+            "is_indoor": true,
+            "lighting": {
+                "type": "natural",
+                "quality": "soft",
+                "direction": "side-lit",
+                "mood": "neutral",
+                "reasoning": "Soft, side-lit natural light from windows (implied by cloudy weather) creates gentle modeling on the objects (toy cow, bottle, blanket) and prevents the scene from feeling too sterile or clinical. This supports the Post-Impressionist goal of capturing the 'impression' of the space with a focus on color harmony and texture rather than high-contrast drama."
+            },
+            "atmosphere": "bright and active and subdued and gentle"
+        },
+        "scene_inference": {
+            "all_candidates": [
+                {
+                    "scene_type": "rural farmhouse kitchen",
+                    "plausibility": 0.95,
+                    "reasoning": "A cow is the source of milk, which is stored in a bottle. A blanket can be for warmth, and a lemon is a common kitchen fruit. In Post-Impressionism, the scene would feature bold, unblended colors and visible brushstrokes, depicting the rustic interior.",
+                    "object_interpretations": {
+                        "cow": {
+                            "form": "real animal",
+                            "scale": "normal",
+                            "role": "primary object, source of milk"
+                        },
+                        "bottle": {
+                            "form": "glass milk bottle",
+                            "scale": "normal",
+                            "role": "container for milk"
+                        },
+                        "blanket": {
+                            "form": "woolen blanket",
+                            "scale": "normal",
+                            "role": "domestic utility item"
+                        },
+                        "lemon": {
+                            "form": "real fruit",
+                            "scale": "normal",
+                            "role": "kitchen produce"
+                        }
+                    }
+                },
+                {
+                    "scene_type": "veterinary clinic waiting room",
+                    "plausibility": 0.9,
+                    "reasoning": "A cow (perhaps a miniature breed or a pet) might be waiting for a checkup. A bottle could be for feeding or medicine, a blanket for comfort, and a lemon might be a curious item on a side table. The style would emphasize the clinical geometry and emotional weight through color.",
+                    "object_interpretations": {
+                        "cow": {
+                            "form": "real animal",
+                            "scale": "small/miniature breed",
+                            "role": "patient"
+                        },
+                        "bottle": {
+                            "form": "medicine bottle",
+                            "scale": "normal",
+                            "role": "medical supply"
+                        },
+                        "blanket": {
+                            "form": "towel/blanket",
+                            "scale": "normal",
+                            "role": "comfort item"
+                        },
+                        "lemon": {
+                            "form": "real fruit",
+                            "scale": "normal",
+                            "role": "decorative or forgotten item"
+                        }
+                    },
+                    "scene_brief": "A veterinary clinic waiting room featuring toy cow, with bottle, blanket, and decorative lemon as decoration"
+                },
+                {
+                    "scene_type": "children's playroom",
+                    "plausibility": 0.85,
+                    "reasoning": "The cow is a stuffed toy, central to a child's play. The bottle is a toy feeding bottle, the blanket is a doll's blanket, and the lemon is a plastic toy fruit. Post-Impressionism allows for a vibrant, patterned depiction of the room.",
+                    "object_interpretations": {
+                        "cow": {
+                            "form": "stuffed toy",
+                            "scale": "toy/medium",
+                            "role": "primary toy"
+                        },
+                        "bottle": {
+                            "form": "toy bottle",
+                            "scale": "miniature",
+                            "role": "prop for play"
+                        },
+                        "blanket": {
+                            "form": "doll blanket",
+                            "scale": "small",
+                            "role": "accessory"
+                        },
+                        "lemon": {
+                            "form": "plastic toy",
+                            "scale": "miniature",
+                            "role": "play food"
+                        }
+                    }
+                },
+                {
+                    "scene_type": "pastoral meadow",
+                    "plausibility": 0.8,
+                    "reasoning": "A cow grazes in a field. A bottle sits on a fence post (perhaps empty), a blanket is spread on the grass for a picnic, and a lemon sits on the blanket. The style would focus on the dappled light and nature, typical of the style.",
+                    "object_interpretations": {
+                        "cow": {
+                            "form": "real animal",
+                            "scale": "normal",
+                            "role": "grazing livestock"
+                        },
+                        "bottle": {
+                            "form": "glass bottle",
+                            "scale": "normal",
+                            "role": "picnic item"
+                        },
+                        "blanket": {
+                            "form": "checkered blanket",
+                            "scale": "large",
+                            "role": "picnic seating"
+                        },
+                        "lemon": {
+                            "form": "real fruit",
+                            "scale": "normal",
+                            "role": "food"
+                        }
+                    }
+                },
+                {
+                    "scene_type": "art studio",
+                    "plausibility": 0.75,
+                    "reasoning": "The cow is a reference photo or a statue. The bottle and lemon are still life props on a table, and the blanket is draped over a chair to add texture. The artist uses thick impasto and distinct color zones.",
+                    "object_interpretations": {
+                        "cow": {
+                            "form": "painting/photo",
+                            "scale": "variable",
+                            "role": "subject of art"
+                        },
+                        "bottle": {
+                            "form": "glass bottle",
+                            "scale": "normal",
+                            "role": "still life prop"
+                        },
+                        "blanket": {
+                            "form": "fabric",
+                            "scale": "normal",
+                            "role": "textural element"
+                        },
+                        "lemon": {
+                            "form": "real fruit",
+                            "scale": "normal",
+                            "role": "still life prop"
+                        }
+                    }
+                },
+                {
+                    "scene_type": "vintage general store",
+                    "plausibility": 0.85,
+                    "reasoning": "A cow might be a ceramic bank on the counter. Bottles, blankets, and lemons are all goods for sale. The scene captures the cluttered, colorful nature of a shop with bold outlines.",
+                    "object_interpretations": {
+                        "cow": {
+                            "form": "ceramic figurine",
+                            "scale": "small",
+                            "role": "decoration/merchandise"
+                        },
+                        "bottle": {
+                            "form": "glass soda bottle",
+                            "scale": "normal",
+                            "role": "merchandise"
+                        },
+                        "blanket": {
+                            "form": "folded wool blanket",
+                            "scale": "medium",
+                            "role": "merchandise"
+                        },
+                        "lemon": {
+                            "form": "fresh produce",
+                            "scale": "normal",
+                            "role": "merchandise"
+                        }
+                    }
+                },
+                {
+                    "scene_type": "surreal dreamscape",
+                    "plausibility": 0.7,
+                    "reasoning": "In a Post-Impressionist/Surrealist fusion, a cow floats in the sky, a bottle pours a river, a blanket forms a cloud, and a lemon is the sun. The logic is dreamlike, allowing total freedom.",
+                    "object_interpretations": {
+                        "cow": {
+                            "form": "real animal",
+                            "scale": "giant",
+                            "role": "dream figure"
+                        },
+                        "bottle": {
+                            "form": "glass bottle",
+                            "scale": "giant",
+                            "role": "source of liquid"
+                        },
+                        "blanket": {
+                            "form": "fabric",
+                            "scale": "giant",
+                            "role": "sky/ground"
+                        },
+                        "lemon": {
+                            "form": "fruit",
+                            "scale": "giant",
+                            "role": "celestial body"
+                        }
+                    }
+                }
+            ],
+            "selected_scene": {
+                "scene_type": "veterinary clinic waiting room",
+                "plausibility": 0.9,
+                "reasoning": "A cow (perhaps a miniature breed or a pet) might be waiting for a checkup. A bottle could be for feeding or medicine, a blanket for comfort, and a lemon might be a curious item on a side table. The style would emphasize the clinical geometry and emotional weight through color.",
+                "object_interpretations": {
+                    "cow": {
+                        "form": "real animal",
+                        "scale": "small/miniature breed",
+                        "role": "patient"
+                    },
+                    "bottle": {
+                        "form": "medicine bottle",
+                        "scale": "normal",
+                        "role": "medical supply"
+                    },
+                    "blanket": {
+                        "form": "towel/blanket",
+                        "scale": "normal",
+                        "role": "comfort item"
+                    },
+                    "lemon": {
+                        "form": "real fruit",
+                        "scale": "normal",
+                        "role": "decorative or forgotten item"
+                    }
+                },
+                "scene_brief": "A veterinary clinic waiting room featuring toy cow, with bottle, blanket, and decorative lemon as decoration"
+            }
+        }
+    },
+    "final_prompts": {
+        "main_prompt": "A Post-Impressionism painting depicting a serene afternoon scene where a medium-sized, well-loved cow with ivory white and charcoal gray fur, its coat slightly matted, rests upon a large, slightly rumpled sage green and warm cream blanket with plush fabric texture. Beside the cow, a small, pristine pale blue and translucent white glass bottle stands with visible clarity, and adjacent to it rests a small, fresh lemon with vibrant yellow and chartreuse hues, polished to a slight sheen. The spatial arrangement places the cow centrally on the blanket in the foreground, with the bottle and lemon positioned closely together in the midground beside the cow. The environment is bathed in natural soft afternoon light, creating a bright and active yet subdued and gentle atmosphere, with visible brushstrokes and vibrant color blocks characteristic of Post-Impressionist style.",
+        "negative_prompt": "photorealistic, 3d render, modern, digital art, photograph, low quality, blurry, distorted, surreal, abstract, cartoon, anime, watermark, signature, text, frame, border",
+        "prompt_formats": {
+            "simple": "A Post-Impressionist painting of a cow on a blanket with a bottle and lemon beside it in soft afternoon light.",
+            "complex": "A Post-Impressionism painting depicting a serene afternoon scene where a medium-sized, well-loved cow with ivory white and charcoal gray fur, its coat slightly matted, rests upon a large, slightly rumpled sage green and warm cream blanket with plush fabric texture. Beside the cow, a small, pristine pale blue and translucent white glass bottle stands with visible clarity, and adjacent to it rests a small, fresh lemon with vibrant yellow and chartreuse hues, polished to a slight sheen. The spatial arrangement places the cow centrally on the blanket in the foreground, with the bottle and lemon positioned closely together in the midground beside the cow. The environment is bathed in natural soft afternoon light, creating a bright and active yet subdued and gentle atmosphere, with visible brushstrokes and vibrant color blocks characteristic of Post-Impressionist style.",
+            "comma_separated": "Post-Impressionism painting, cow on blanket, bottle next to cow, lemon next to bottle, medium ivory white charcoal gray cow, large sage green warm cream blanket, small pale blue translucent white bottle, small vibrant yellow chartreuse lemon, soft afternoon lighting, bright active subdued gentle atmosphere, visible brushstrokes, vibrant colors",
+            "tags": "art, painting, post-impressionism, animal art, still life, cow, bottle, lemon, blanket, afternoon light, serene scene, Vincent van Gogh style, Paul C\u00e9zanne influence, color blocks, textured brushwork"
+        }
+    }
+}

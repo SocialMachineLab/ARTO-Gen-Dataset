@@ -1,0 +1,286 @@
+{
+    "artwork_id": "artwork_20260103_152142_618",
+    "generation_timestamp": "2026-01-03T15:22:13.792861",
+    "style": "Baroque",
+    "objects": {
+        "object_ids": [
+            50,
+            15,
+            31
+        ],
+        "object_names": [
+            "orange",
+            "bird",
+            "sleigh"
+        ],
+        "enhanced_objects": [
+            {
+                "object_id": 50,
+                "name": "orange",
+                "artistic_description": "A lustrous citrus fruit with a rich, sun-warmed orange skin that glows with deep amber and burnt sienna tones under the flickering candlelight. The surface shows subtle mottling and a delicate waxen sheen, catching highlights that dance across its dimpled rind. A faint mist of condensation creates tiny, jewel-like droplets that refract the warm light into miniature prisms.",
+                "size": "Small",
+                "state": "Fresh and perfectly preserved, its skin taut and vibrant with natural oils",
+                "primary_colors": [
+                    "burnt sienna",
+                    "deep amber"
+                ],
+                "material": "citrus fruit"
+            },
+            {
+                "object_id": 15,
+                "name": "bird",
+                "artistic_description": "A delicate songbird rendered in exquisite taxidermy with iridescent plumage that shimmers like polished gemstones under the golden candlelight. Its feathers display a masterful gradient from midnight blue at the wings to emerald green and copper at the breast, each barb and filament catching the light with velvety depth. Glass eyes gleam with a liquid, lifelike quality, reflecting miniature flames in their polished surfaces.",
+                "size": "Medium",
+                "state": "Meticulously preserved in a lifelike pose, feathers immaculate and pristine",
+                "primary_colors": [
+                    "midnight blue",
+                    "emerald green"
+                ],
+                "material": "feathers and glass"
+            },
+            {
+                "object_id": 31,
+                "name": "sleigh",
+                "artistic_description": "An ornate miniature sleigh carved from dark walnut, its surfaces burnished to a deep, lustrous patina that drinks the candlelight while revealing intricate scrollwork in relief. Gilded accents along the runners and body catch the flame with flashes of antique gold, while the lacquered finish creates a mirror-like depth that seems to swallow and reflect light simultaneously. Delicate silver inlay work glints like cold starlight against the warm wood.",
+                "size": "Medium",
+                "state": "Exquisitely crafted with aged patina, showing the refined elegance of early modern decorative arts",
+                "primary_colors": [
+                    "deep walnut brown",
+                    "antique gold"
+                ],
+                "material": "walnut wood with gilded metal and silver inlay"
+            }
+        ]
+    },
+    "composition": {
+        "spatial_relations": [
+            [
+                50,
+                "on",
+                31
+            ],
+            [
+                15,
+                "on",
+                31
+            ],
+            [
+                15,
+                "next to",
+                50
+            ]
+        ],
+        "semantic_relations": []
+    },
+    "environment": {
+        "environment_details": {
+            "scene_brief": "A Baroque banquet table featuring orange, with bird, and decorative sleigh as decoration",
+            "place365_name": "/p/pub/indoor",
+            "place365_id": 274,
+            "time_of_day": "evening",
+            "weather": null,
+            "period": "Early modern",
+            "is_indoor": true,
+            "lighting": {
+                "type": "artificial",
+                "quality": "dramatic",
+                "direction": "side-lit",
+                "mood": "warm",
+                "reasoning": "Artificial lighting from candles or hearths would be used in an evening indoor setting, creating dramatic shadows and warm highlights that emphasize the richness of the Baroque decor and the textures of the objects."
+            },
+            "atmosphere": "calm and relaxed and striking"
+        },
+        "scene_inference": {
+            "all_candidates": [
+                {
+                    "scene_type": "Baroque still life painting",
+                    "plausibility": 0.95,
+                    "reasoning": "A classic Baroque still life composition. The orange is the central fruit element, placed on a draped table. A bird (perhaps a dead game bird or a small live one) is part of the traditional vanitas or bounty motif. A sleigh is depicted as a miniature wooden toy or a decorative carving, resting on the table or in the background, adding an unusual but artistically plausible element to the lavish arrangement.",
+                    "object_interpretations": {
+                        "orange": {
+                            "form": "real fruit",
+                            "scale": "normal",
+                            "role": "primary subject and color accent"
+                        },
+                        "bird": {
+                            "form": "real bird (alive or taxidermy)",
+                            "scale": "normal",
+                            "role": "secondary subject, part of the bounty/vanitas theme"
+                        },
+                        "sleigh": {
+                            "form": "miniature wooden toy",
+                            "scale": "small (6-8 inches)",
+                            "role": "decorative curiosity or symbolic element"
+                        }
+                    }
+                },
+                {
+                    "scene_type": "Royal winter court scene",
+                    "plausibility": 0.9,
+                    "reasoning": "An opulent Baroque palace interior with a view of a snowy landscape. The orange is a rare, exotic fruit displayed in a silver bowl on a table, signifying wealth. A small, ornate sleigh (perhaps a royal child's toy or a decorative object) sits nearby. A bird (a prized canary or parrot in a gilded cage, or a falcon on a perch) is present as a nobleman's pet.",
+                    "object_interpretations": {
+                        "orange": {
+                            "form": "real fruit",
+                            "scale": "normal",
+                            "role": "symbol of luxury and exoticism"
+                        },
+                        "bird": {
+                            "form": "pet bird (in cage or on perch)",
+                            "scale": "normal",
+                            "role": "nobleman's pet, decorative element"
+                        },
+                        "sleigh": {
+                            "form": "ornate miniature toy",
+                            "scale": "small",
+                            "role": "symbol of winter/royalty, decorative object"
+                        }
+                    }
+                },
+                {
+                    "scene_type": "Baroque banquet table",
+                    "plausibility": 0.85,
+                    "reasoning": "A lavish banquet scene with abundant food. The orange is part of the fruit display. A bird (roast duck or pheasant) is the main course on a platter. A sleigh is a decorative centerpiece made of spun sugar or a small silver model, placed amidst the feast.",
+                    "object_interpretations": {
+                        "orange": {
+                            "form": "real fruit",
+                            "scale": "normal",
+                            "role": "part of the dessert/fruit course"
+                        },
+                        "bird": {
+                            "form": "cooked poultry",
+                            "scale": "normal",
+                            "role": "main course"
+                        },
+                        "sleigh": {
+                            "form": "sugar sculpture or silver centerpiece",
+                            "scale": "small to medium",
+                            "role": "decorative element of the feast"
+                        }
+                    },
+                    "scene_brief": "A Baroque banquet table featuring orange, with bird, and decorative sleigh as decoration"
+                },
+                {
+                    "scene_type": "Baroque garden with grotto",
+                    "plausibility": 0.8,
+                    "reasoning": "A formal Baroque garden with a decorative grotto. The orange is from an orange tree in a pot (a luxury item). A bird is perched on the tree or flying nearby. A sleigh is a stone sculpture or a topiary shaped like a sleigh, part of the garden's whimsical ornamentation.",
+                    "object_interpretations": {
+                        "orange": {
+                            "form": "real fruit on tree",
+                            "scale": "normal",
+                            "role": "product of the ornamental garden"
+                        },
+                        "bird": {
+                            "form": "wild bird",
+                            "scale": "normal",
+                            "role": "natural element of the garden"
+                        },
+                        "sleigh": {
+                            "form": "stone statue or topiary",
+                            "scale": "large",
+                            "role": "garden ornament"
+                        }
+                    }
+                },
+                {
+                    "scene_type": "Baroque study/library",
+                    "plausibility": 0.75,
+                    "reasoning": "A dark, richly decorated study. The orange is a still life subject on a table or a rare treat for the scholar. A bird is a caged songbird by the window. A sleigh is a detailed model on a bookshelf, representing a hobby or a gift.",
+                    "object_interpretations": {
+                        "orange": {
+                            "form": "real fruit",
+                            "scale": "normal",
+                            "role": "still life object or refreshment"
+                        },
+                        "bird": {
+                            "form": "pet bird in cage",
+                            "scale": "normal",
+                            "role": "companion and ambient sound source"
+                        },
+                        "sleigh": {
+                            "form": "detailed wooden model",
+                            "scale": "small",
+                            "role": "decorative object on shelf"
+                        }
+                    }
+                },
+                {
+                    "scene_type": "Baroque theatrical stage set",
+                    "plausibility": 0.7,
+                    "reasoning": "A stage set for a Baroque opera or play. The orange is a prop, perhaps a 'golden apple' or a simple fruit. A bird is a mechanical puppet or a real bird trained for performance. A sleigh is a large prop on stage, used in a winter scene.",
+                    "object_interpretations": {
+                        "orange": {
+                            "form": "prop",
+                            "scale": "normal",
+                            "role": "theatrical prop"
+                        },
+                        "bird": {
+                            "form": "mechanical puppet or trained bird",
+                            "scale": "normal",
+                            "role": "performer/prop"
+                        },
+                        "sleigh": {
+                            "form": "large stage prop",
+                            "scale": "large",
+                            "role": "set piece"
+                        }
+                    }
+                },
+                {
+                    "scene_type": "Baroque kitchen pantry",
+                    "plausibility": 0.65,
+                    "reasoning": "A well-stocked pantry. The orange is a prized citrus fruit stored for winter. A bird is a game bird hanging ready for cooking. A sleigh is a child's toy left in the corner of the pantry, perhaps brought in from the cold.",
+                    "object_interpretations": {
+                        "orange": {
+                            "form": "real fruit",
+                            "scale": "normal",
+                            "role": "stored food"
+                        },
+                        "bird": {
+                            "form": "game bird",
+                            "scale": "normal",
+                            "role": "food item"
+                        },
+                        "sleigh": {
+                            "form": "toy",
+                            "scale": "small",
+                            "role": "forgotten toy"
+                        }
+                    }
+                }
+            ],
+            "selected_scene": {
+                "scene_type": "Baroque banquet table",
+                "plausibility": 0.85,
+                "reasoning": "A lavish banquet scene with abundant food. The orange is part of the fruit display. A bird (roast duck or pheasant) is the main course on a platter. A sleigh is a decorative centerpiece made of spun sugar or a small silver model, placed amidst the feast.",
+                "object_interpretations": {
+                    "orange": {
+                        "form": "real fruit",
+                        "scale": "normal",
+                        "role": "part of the dessert/fruit course"
+                    },
+                    "bird": {
+                        "form": "cooked poultry",
+                        "scale": "normal",
+                        "role": "main course"
+                    },
+                    "sleigh": {
+                        "form": "sugar sculpture or silver centerpiece",
+                        "scale": "small to medium",
+                        "role": "decorative element of the feast"
+                    }
+                },
+                "scene_brief": "A Baroque banquet table featuring orange, with bird, and decorative sleigh as decoration"
+            }
+        }
+    },
+    "final_prompts": {
+        "main_prompt": "A Baroque painting depicting a calm yet striking evening scene with dramatic artificial lighting. In the foreground, an exquisitely crafted sleigh of deep walnut brown with antique gold accents and aged patina rests prominently. Upon the sleigh's surface, a small orange with burnt sienna and deep amber hues sits fresh and perfectly preserved, positioned beside a medium-sized bird meticulously preserved in a lifelike pose, its plumage shimmering in midnight blue and emerald green tones. The bird stands next to the orange on the sleigh, creating an intimate still-life arrangement. The artificial lighting casts deep, theatrical shadows and highlights the textures of citrus fruit, delicate feathers, and the walnut wood with gilded metal and silver inlay details, creating a relaxed yet visually arresting atmosphere that emphasizes the Baroque aesthetic of dramatic contrast and exquisite detail.",
+        "negative_prompt": "photorealistic, 3d render, modern, digital art, photograph, low quality, blurry, distorted, cartoon, anime, abstract, surreal, deformed, ugly, bad anatomy, watermark, signature, text",
+        "prompt_formats": {
+            "simple": "A Baroque painting of an orange and a bird on a sleigh in dramatic evening lighting.",
+            "complex": "A Baroque painting depicting a calm yet striking evening scene with dramatic artificial lighting. In the foreground, an exquisitely crafted sleigh of deep walnut brown with antique gold accents and aged patina rests prominently. Upon the sleigh's surface, a small orange with burnt sienna and deep amber hues sits fresh and perfectly preserved, positioned beside a medium-sized bird meticulously preserved in a lifelike pose, its plumage shimmering in midnight blue and emerald green tones. The bird stands next to the orange on the sleigh, creating an intimate still-life arrangement. The artificial lighting casts deep, theatrical shadows and highlights the textures of citrus fruit, delicate feathers, and the walnut wood with gilded metal and silver inlay details, creating a relaxed yet visually arresting atmosphere that emphasizes the Baroque aesthetic of dramatic contrast and exquisite detail.",
+            "comma_separated": "Baroque painting, sleigh, orange, bird, evening scene, dramatic artificial lighting, calm atmosphere, striking composition, deep walnut brown, antique gold, burnt sienna, midnight blue, emerald green, aged patina, perfectly preserved, lifelike pose, theatrical shadows, exquisite detail",
+            "tags": "art, painting, Baroque, still life, evening, dramatic lighting, sleigh, orange, bird, antique, preserved, detailed, atmospheric, calm, striking"
+        }
+    }
+}

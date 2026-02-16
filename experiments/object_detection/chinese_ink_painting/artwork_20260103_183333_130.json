@@ -1,0 +1,371 @@
+{
+    "artwork_id": "artwork_20260103_183333_130",
+    "generation_timestamp": "2026-01-03T18:34:09.873661",
+    "style": "Chinese Ink Painting",
+    "objects": {
+        "object_ids": [
+            78,
+            19,
+            59,
+            57
+        ],
+        "object_names": [
+            "toy",
+            "sheep",
+            "carnation",
+            "stand"
+        ],
+        "enhanced_objects": [
+            {
+                "object_id": 78,
+                "name": "toy",
+                "artistic_description": "A small toy figure rendered in soft ink washes, its plastic surface muted by the cloudy morning light. The colors appear desaturated with subtle gray undertones, while the matte finish absorbs light without reflection. Fine brushstrokes suggest worn edges and gentle use.",
+                "size": "Small",
+                "state": "slightly weathered from outdoor exposure",
+                "primary_colors": [
+                    "muted gray-blue",
+                    "soft beige"
+                ],
+                "material": "plastic"
+            },
+            {
+                "object_id": 19,
+                "name": "sheep",
+                "artistic_description": "A woolly sheep depicted with expressive ink splatters and dry brush techniques. The cloudy atmosphere softens its white fleece into gentle shades of pearl gray, with delicate wet-on-wet techniques suggesting the damp morning air clinging to its wool.",
+                "size": "Medium",
+                "state": "standing calmly with dew-moistened fleece",
+                "primary_colors": [
+                    "pearl gray",
+                    "charcoal"
+                ],
+                "material": "wool"
+            },
+            {
+                "object_id": 59,
+                "name": "carnation",
+                "artistic_description": "A delicate carnation blossom painted with precise ink outlines and subtle washes. The overcast lighting reveals subtle variations in the petals, from soft pink-gray to deeper mauve tones, with a slight sheen indicating morning dew.",
+                "size": "Small",
+                "state": "freshly bloomed with dewdrops",
+                "primary_colors": [
+                    "dusty pink",
+                    "pale mauve"
+                ],
+                "material": "flower petals"
+            },
+            {
+                "object_id": 57,
+                "name": "stand",
+                "artistic_description": "A wooden stand rendered with strong calligraphic strokes and textured ink washes. The cloudy morning light reveals the natural grain pattern in deep sepia and charcoal tones, with a matte, dry finish that suggests aged wood exposed to the elements.",
+                "size": "Large",
+                "state": "weathered but sturdy",
+                "primary_colors": [
+                    "deep sepia",
+                    "dark charcoal"
+                ],
+                "material": "wood"
+            }
+        ]
+    },
+    "composition": {
+        "spatial_relations": [
+            [
+                78,
+                "next to",
+                19
+            ],
+            [
+                57,
+                "next to",
+                19
+            ],
+            [
+                59,
+                "next to",
+                57
+            ],
+            [
+                59,
+                "on",
+                57
+            ]
+        ],
+        "semantic_relations": []
+    },
+    "environment": {
+        "environment_details": {
+            "scene_brief": "A Rural Garden featuring toy toy, with sheep, carnation, and stand",
+            "place365_name": "/v/vegetable_garden",
+            "place365_id": 345,
+            "time_of_day": "morning",
+            "weather": "cloudy",
+            "period": "Contemporary",
+            "is_indoor": false,
+            "lighting": {
+                "type": "natural",
+                "quality": "soft",
+                "direction": "side-lit",
+                "reasoning": "Soft, natural light from a cloudy morning creates an even, diffused illumination. Side-lighting is chosen to gently define the forms of the 'sheep' and 'stand' without creating harsh edges, preserving the ethereal and minimalist aesthetic of Chinese Ink Painting."
+            },
+            "atmosphere": "fresh and energetic and subdued and gentle"
+        },
+        "scene_inference": {
+            "all_candidates": [
+                {
+                    "scene_type": "Scholar's Study",
+                    "plausibility": 0.95,
+                    "reasoning": "In a traditional Chinese scholar's study, a wooden toy (perhaps a top or a carved animal) rests on a desk. A small vase holding a single carnation provides a touch of nature and beauty. A small sheep figurine, representing the zodiac or simply a decorative piece, sits nearby. The stand could be a brush rest or a small pedestal for the toy.",
+                    "object_interpretations": {
+                        "toy": {
+                            "form": "wooden toy (carved animal or top)",
+                            "scale": "small (handheld)",
+                            "role": "personal item on desk"
+                        },
+                        "sheep": {
+                            "form": "small ceramic or jade figurine",
+                            "scale": "miniature",
+                            "role": "decorative zodiac piece"
+                        },
+                        "carnation": {
+                            "form": "fresh flower in a small vase",
+                            "scale": "small (single bloom)",
+                            "role": "nature/decoration"
+                        },
+                        "stand": {
+                            "form": "wooden brush rest or small pedestal",
+                            "scale": "small",
+                            "role": "functional support object"
+                        }
+                    }
+                },
+                {
+                    "scene_type": "Rural Garden",
+                    "plausibility": 0.9,
+                    "reasoning": "A child's toy (like a wooden doll or ball) lies in a grassy garden. A real sheep grazes nearby in the distance or is a pet. Wild carnations grow among the grass. A stone stand or pedestal might be part of the garden architecture.",
+                    "object_interpretations": {
+                        "toy": {
+                            "form": "simple wooden toy (doll/ball)",
+                            "scale": "normal (child-sized)",
+                            "role": "abandoned plaything"
+                        },
+                        "sheep": {
+                            "form": "real livestock",
+                            "scale": "normal/animal-sized",
+                            "role": "garden inhabitant"
+                        },
+                        "carnation": {
+                            "form": "wildflower",
+                            "scale": "natural",
+                            "role": "garden flora"
+                        },
+                        "stand": {
+                            "form": "stone pedestal or garden ornament",
+                            "scale": "large",
+                            "role": "architectural element"
+                        }
+                    },
+                    "scene_brief": "A Rural Garden featuring toy toy, with sheep, carnation, and stand"
+                },
+                {
+                    "scene_type": "Temple Courtyard",
+                    "plausibility": 0.85,
+                    "reasoning": "A ceremonial toy (perhaps a gong or a drum) sits on a stand in a quiet temple courtyard. A stone sheep statue (guardian animal) watches over the space. A pot of carnations offers a floral offering to the deities.",
+                    "object_interpretations": {
+                        "toy": {
+                            "form": "ceremonial percussion instrument (toy-sized)",
+                            "scale": "medium",
+                            "role": "ritual object"
+                        },
+                        "sheep": {
+                            "form": "stone statue",
+                            "scale": "large",
+                            "role": "guardian figure"
+                        },
+                        "carnation": {
+                            "form": "potted plant",
+                            "scale": "medium",
+                            "role": "religious offering"
+                        },
+                        "stand": {
+                            "form": "incense burner stand or altar table",
+                            "scale": "large",
+                            "role": "supporting altar"
+                        }
+                    }
+                },
+                {
+                    "scene_type": "Art Studio",
+                    "plausibility": 0.9,
+                    "reasoning": "An artist's studio where a wooden toy serves as a still life subject. A small sheep model and a vase of carnations are arranged together on a stand for a painting composition.",
+                    "object_interpretations": {
+                        "toy": {
+                            "form": "wooden toy block or figure",
+                            "scale": "small",
+                            "role": "still life subject"
+                        },
+                        "sheep": {
+                            "form": "clay model/figurine",
+                            "scale": "small",
+                            "role": "still life subject"
+                        },
+                        "carnation": {
+                            "form": "fresh flower",
+                            "scale": "small",
+                            "role": "still life subject"
+                        },
+                        "stand": {
+                            "form": "artist's display pedestal",
+                            "scale": "medium",
+                            "role": "support for subjects"
+                        }
+                    }
+                },
+                {
+                    "scene_type": "Festival Market",
+                    "plausibility": 0.8,
+                    "reasoning": "A bustling market stall selling toys and gifts. A wooden toy is displayed on a stand. A lucky sheep charm sits nearby. A bouquet of carnations is for sale.",
+                    "object_interpretations": {
+                        "toy": {
+                            "form": "traditional toy",
+                            "scale": "small",
+                            "role": "merchandise"
+                        },
+                        "sheep": {
+                            "form": "lucky charm/statuette",
+                            "scale": "very small",
+                            "role": "good luck charm"
+                        },
+                        "carnation": {
+                            "form": "cut flowers",
+                            "scale": "small bouquet",
+                            "role": "for sale item"
+                        },
+                        "stand": {
+                            "form": "wooden display rack",
+                            "scale": "medium",
+                            "role": "shop fixture"
+                        }
+                    }
+                },
+                {
+                    "scene_type": "Miniature Landscape",
+                    "plausibility": 0.95,
+                    "reasoning": "A bonsai or miniature garden scene. A tiny toy figure stands on a path. A miniature sheep model grazes on the moss. A tiny carnation (or wire representation) grows in the 'field'. A stand elevates the toy figure.",
+                    "object_interpretations": {
+                        "toy": {
+                            "form": "miniature figure",
+                            "scale": "tiny (1:50)",
+                            "role": "inhabitant of the landscape"
+                        },
+                        "sheep": {
+                            "form": "model animal",
+                            "scale": "tiny",
+                            "role": "landscape element"
+                        },
+                        "carnation": {
+                            "form": "miniature flower",
+                            "scale": "tiny",
+                            "role": "flora"
+                        },
+                        "stand": {
+                            "form": "rock or small platform",
+                            "scale": "small",
+                            "role": "elevation"
+                        }
+                    }
+                },
+                {
+                    "scene_type": "Tea House",
+                    "plausibility": 0.85,
+                    "reasoning": "A quiet tea house setting. A decorative toy (like a spinning top) sits on a tray. A small sheep statue is a table ornament. A single carnation in a bud vase decorates the table. The stand is a tea caddy or utensil holder.",
+                    "object_interpretations": {
+                        "toy": {
+                            "form": "decorative top",
+                            "scale": "small",
+                            "role": "table ornament"
+                        },
+                        "sheep": {
+                            "form": "bronze figurine",
+                            "scale": "small",
+                            "role": "decoration"
+                        },
+                        "carnation": {
+                            "form": "single flower",
+                            "scale": "small",
+                            "role": "table centerpiece"
+                        },
+                        "stand": {
+                            "form": "lacquered stand",
+                            "scale": "small",
+                            "role": "tray or utensil holder"
+                        }
+                    }
+                },
+                {
+                    "scene_type": "Nursery",
+                    "plausibility": 0.9,
+                    "reasoning": "A child's room. A wooden toy sheep sits on a shelf. A stuffed toy (perhaps shaped like a sheep) is nearby. A carnation pattern is on the wallpaper or bedding. A stand holds a photo frame or a lamp.",
+                    "object_interpretations": {
+                        "toy": {
+                            "form": "wooden pull-toy",
+                            "scale": "small",
+                            "role": "plaything"
+                        },
+                        "sheep": {
+                            "form": "stuffed animal",
+                            "scale": "medium",
+                            "role": "companion toy"
+                        },
+                        "carnation": {
+                            "form": "pattern on fabric",
+                            "scale": "pattern",
+                            "role": "decoration"
+                        },
+                        "stand": {
+                            "form": "nightstand",
+                            "scale": "medium",
+                            "role": "furniture"
+                        }
+                    }
+                }
+            ],
+            "selected_scene": {
+                "scene_type": "Rural Garden",
+                "plausibility": 0.9,
+                "reasoning": "A child's toy (like a wooden doll or ball) lies in a grassy garden. A real sheep grazes nearby in the distance or is a pet. Wild carnations grow among the grass. A stone stand or pedestal might be part of the garden architecture.",
+                "object_interpretations": {
+                    "toy": {
+                        "form": "simple wooden toy (doll/ball)",
+                        "scale": "normal (child-sized)",
+                        "role": "abandoned plaything"
+                    },
+                    "sheep": {
+                        "form": "real livestock",
+                        "scale": "normal/animal-sized",
+                        "role": "garden inhabitant"
+                    },
+                    "carnation": {
+                        "form": "wildflower",
+                        "scale": "natural",
+                        "role": "garden flora"
+                    },
+                    "stand": {
+                        "form": "stone pedestal or garden ornament",
+                        "scale": "large",
+                        "role": "architectural element"
+                    }
+                },
+                "scene_brief": "A Rural Garden featuring toy toy, with sheep, carnation, and stand"
+            }
+        }
+    },
+    "final_prompts": {
+        "main_prompt": "A Chinese Ink Painting painting depicting a tranquil morning scene where a medium-sized sheep with pearl gray and charcoal wool, standing calmly with dew-moistened fleece, occupies the foreground. Directly next to the sheep, a small muted gray-blue and soft beige toy rests slightly weathered from outdoor exposure. Adjacent to the sheep stands a large, weathered but sturdy stand in deep sepia and dark charcoal tones. Upon this stand sits a small dusty pink and pale mauve carnation, freshly bloomed with delicate dewdrops on its petals. The composition flows from foreground to midground with the sheep and toy as focal points, the stand providing vertical structure, and the carnation adding a delicate accent. Natural soft morning light filters through the scene, creating a fresh and energetic yet subdued and gentle atmosphere where ink washes suggest moisture in the air and subtle gradations of gray and sepia capture the quiet vitality of dawn.",
+        "negative_prompt": "photorealistic, 3d render, modern, digital art, photograph, low quality, blurry, distorted, vibrant colors, cartoon, anime, western painting, oil painting, watercolor, abstract",
+        "prompt_formats": {
+            "simple": "A Chinese ink painting of a sheep, toy, stand with carnation in soft morning light.",
+            "complex": "A Chinese Ink Painting painting depicting a tranquil morning scene where a medium-sized sheep with pearl gray and charcoal wool, standing calmly with dew-moistened fleece, occupies the foreground. Directly next to the sheep, a small muted gray-blue and soft beige toy rests slightly weathered from outdoor exposure. Adjacent to the sheep stands a large, weathered but sturdy stand in deep sepia and dark charcoal tones. Upon this stand sits a small dusty pink and pale mauve carnation, freshly bloomed with delicate dewdrops on its petals. The composition flows from foreground to midground with the sheep and toy as focal points, the stand providing vertical structure, and the carnation adding a delicate accent. Natural soft morning light filters through the scene, creating a fresh and energetic yet subdued and gentle atmosphere where ink washes suggest moisture in the air and subtle gradations of gray and sepia capture the quiet vitality of dawn.",
+            "comma_separated": "Chinese Ink Painting, sheep, toy, stand, carnation, morning, soft natural light, fresh energetic subdued gentle atmosphere, pearl gray charcoal wool, muted gray-blue soft beige toy, deep sepia dark charcoal stand, dusty pink pale mauve carnation, dew-moistened, weathered, freshly bloomed, ink washes, gradations",
+            "tags": "art, painting, chinese ink painting, ink wash, sumi-e, morning scene, sheep, toy, carnation, stand, natural light, tranquil, gentle, traditional art"
+        }
+    }
+}

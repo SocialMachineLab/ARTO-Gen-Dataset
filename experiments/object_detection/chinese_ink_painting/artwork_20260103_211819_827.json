@@ -1,0 +1,377 @@
+{
+    "artwork_id": "artwork_20260103_211819_827",
+    "generation_timestamp": "2026-01-03T21:18:59.378866",
+    "style": "Chinese Ink Painting",
+    "objects": {
+        "object_ids": [
+            18,
+            15,
+            40,
+            50
+        ],
+        "object_names": [
+            "horse",
+            "hen",
+            "bottle",
+            "orange"
+        ],
+        "enhanced_objects": [
+            {
+                "object_id": 18,
+                "name": "horse",
+                "artistic_description": "A majestic equine form rendered in expressive black ink washes, with subtle gray tones suggesting the soft, diffused morning light filtering through clouds. The coat shows wetness from morning dew, creating subtle highlights where light catches the contours. Ink splatters and dry brush techniques create a textured, energetic mane and tail. The eyes are dark pools with a single white highlight, capturing the alert, vital spirit of the animal.",
+                "size": "Dominant",
+                "state": "alert and vital, coat damp with morning dew",
+                "primary_colors": [
+                    "charcoal black",
+                    "warm gray"
+                ],
+                "material": "living flesh and hair"
+            },
+            {
+                "object_id": 15,
+                "name": "hen",
+                "artistic_description": "A compact form rendered in varied ink densities, from deep black shadows to soft gray washes that capture the subdued morning light. Feathers are suggested through fine, layered brushstrokes and subtle texturing. The plumage appears slightly ruffled and damp, with matte surfaces absorbing the cool, cloudy light. Small touches of white paper showing through create the impression of soft under-feathers.",
+                "size": "Medium",
+                "state": "alert and grounded, feathers slightly ruffled",
+                "primary_colors": [
+                    "mottled brown-black",
+                    "soft gray"
+                ],
+                "material": "feathers and flesh"
+            },
+            {
+                "object_id": 40,
+                "name": "bottle",
+                "artistic_description": "A translucent glass vessel rendered with delicate ink washes and strategic white space, suggesting the cool, diffused quality of cloudy morning light. The surface shows subtle condensation droplets rendered as tiny white highlights against gray washes. The glass has a slight greenish tint visible in the ink tones, with darker outlines defining its cylindrical form. Light passes through, creating soft internal reflections.",
+                "size": "Small",
+                "state": "empty, cool to the touch with condensation",
+                "primary_colors": [
+                    "pale green-gray",
+                    "translucent white"
+                ],
+                "material": "glass"
+            },
+            {
+                "object_id": 50,
+                "name": "orange",
+                "artistic_description": "A vibrant sphere rendered in warm ochre and sienna ink washes that stand out against the cool gray environment. The skin shows subtle texture through fine stippling and has a matte finish that diffuses the muted morning light. A small area of brighter ink suggests a highlight where light catches the curved surface. The color appears rich yet subdued, maintaining energy within the gentle atmosphere.",
+                "size": "Small",
+                "state": "fresh and whole, slightly dewy",
+                "primary_colors": [
+                    "warm ochre",
+                    "deep sienna"
+                ],
+                "material": "fruit skin"
+            }
+        ]
+    },
+    "composition": {
+        "spatial_relations": [
+            [
+                15,
+                "next to",
+                50
+            ],
+            [
+                40,
+                "next to",
+                50
+            ],
+            [
+                18,
+                "behind",
+                15
+            ],
+            [
+                18,
+                "behind",
+                40
+            ],
+            [
+                18,
+                "behind",
+                50
+            ]
+        ],
+        "semantic_relations": []
+    },
+    "environment": {
+        "environment_details": {
+            "scene_brief": "A Traditional Farmyard centered around horse, with hen, bottle, and orange",
+            "place365_name": "/f/field/wild",
+            "place365_id": 141,
+            "time_of_day": "morning",
+            "weather": "cloudy",
+            "period": "Contemporary",
+            "is_indoor": false,
+            "lighting": {
+                "type": "natural",
+                "quality": "soft",
+                "direction": "side-lit",
+                "mood": "neutral",
+                "reasoning": "Natural, soft, side-lit lighting from an overcast morning sky creates ideal conditions for Chinese Ink Painting. The diffuse, directional light provides gentle modeling of forms without harsh contrasts, allowing for the nuanced brushwork and tonal gradations essential to the style. The neutral mood maintains the contemplative, balanced aesthetic of traditional ink painting."
+            },
+            "atmosphere": "fresh and energetic and subdued and gentle"
+        },
+        "scene_inference": {
+            "all_candidates": [
+                {
+                    "scene_type": "Traditional Farmyard",
+                    "plausibility": 0.95,
+                    "reasoning": "A classic rural setting where a horse might be stabled or grazing. A hen would naturally roam the farmyard. A bottle could be discarded feed container or farm tool, and an orange could be a treat for the farmer or fallen from a tree.",
+                    "object_interpretations": {
+                        "horse": {
+                            "form": "real horse",
+                            "scale": "normal",
+                            "role": "primary farm animal"
+                        },
+                        "hen": {
+                            "form": "real hen",
+                            "scale": "normal",
+                            "role": "secondary farm animal"
+                        },
+                        "bottle": {
+                            "form": "glass bottle",
+                            "scale": "normal",
+                            "role": "farm utility item"
+                        },
+                        "orange": {
+                            "form": "real fruit",
+                            "scale": "normal",
+                            "role": "food item"
+                        }
+                    },
+                    "scene_brief": "A Traditional Farmyard centered around horse, with hen, bottle, and orange"
+                },
+                {
+                    "scene_type": "Mountainous Landscape",
+                    "plausibility": 0.9,
+                    "reasoning": "A horse traversing a mountain path. A hen could be a wild bird or escaped farm animal. A bottle might be a discarded traveler's flask, and an orange could be growing on a tree or carried by a traveler.",
+                    "object_interpretations": {
+                        "horse": {
+                            "form": "real horse",
+                            "scale": "normal",
+                            "role": "traveler's mount"
+                        },
+                        "hen": {
+                            "form": "wild bird",
+                            "scale": "normal",
+                            "role": "wildlife element"
+                        },
+                        "bottle": {
+                            "form": "ceramic flask",
+                            "scale": "normal",
+                            "role": "traveler's gear"
+                        },
+                        "orange": {
+                            "form": "fruit",
+                            "scale": "normal",
+                            "role": "provisions"
+                        }
+                    }
+                },
+                {
+                    "scene_type": "Scholar's Garden",
+                    "plausibility": 0.85,
+                    "reasoning": "In Chinese Ink Painting, horses are noble subjects. A hen adds rustic charm. A bottle could be an antique vase or wine vessel. An orange could be a symbolic fruit on a table or growing in the garden.",
+                    "object_interpretations": {
+                        "horse": {
+                            "form": "painted horse",
+                            "scale": "normal",
+                            "role": "noble subject"
+                        },
+                        "hen": {
+                            "form": "decorative element",
+                            "scale": "normal",
+                            "role": "rustic accent"
+                        },
+                        "bottle": {
+                            "form": "antique vase",
+                            "scale": "normal",
+                            "role": "decorative object"
+                        },
+                        "orange": {
+                            "form": "fruit",
+                            "scale": "normal",
+                            "role": "symbolic element"
+                        }
+                    }
+                },
+                {
+                    "scene_type": "Village Market",
+                    "plausibility": 0.9,
+                    "reasoning": "A horse might be used for transport or trade. A hen could be sold in a cage. A bottle could be oil or wine for sale, and an orange would be produce sold at the market.",
+                    "object_interpretations": {
+                        "horse": {
+                            "form": "real horse",
+                            "scale": "normal",
+                            "role": "transport animal"
+                        },
+                        "hen": {
+                            "form": "caged hen",
+                            "scale": "normal",
+                            "role": "livestock for sale"
+                        },
+                        "bottle": {
+                            "form": "merchant's bottle",
+                            "scale": "normal",
+                            "role": "goods for sale"
+                        },
+                        "orange": {
+                            "form": "fresh fruit",
+                            "scale": "normal",
+                            "role": "market produce"
+                        }
+                    }
+                },
+                {
+                    "scene_type": "Orchard Grove",
+                    "plausibility": 0.85,
+                    "reasoning": "A horse grazing near an orange grove. A hen could be foraging among the trees. A bottle might be resting near a picnic area or fallen from a tree.",
+                    "object_interpretations": {
+                        "horse": {
+                            "form": "grazing horse",
+                            "scale": "normal",
+                            "role": "primary animal"
+                        },
+                        "hen": {
+                            "form": "foraging hen",
+                            "scale": "normal",
+                            "role": "secondary animal"
+                        },
+                        "bottle": {
+                            "form": "glass bottle",
+                            "scale": "normal",
+                            "role": "abandoned item"
+                        },
+                        "orange": {
+                            "form": "fruit on tree",
+                            "scale": "normal",
+                            "role": "natural element"
+                        }
+                    }
+                },
+                {
+                    "scene_type": "Winter Pasture",
+                    "plausibility": 0.8,
+                    "reasoning": "A horse standing in snow. A hen seeking shelter. A bottle could be frozen water container. An orange could be a rare treat for animals or a decorative element.",
+                    "object_interpretations": {
+                        "horse": {
+                            "form": "real horse",
+                            "scale": "normal",
+                            "role": "primary animal"
+                        },
+                        "hen": {
+                            "form": "real hen",
+                            "scale": "normal",
+                            "role": "sheltering animal"
+                        },
+                        "bottle": {
+                            "form": "frozen bottle",
+                            "scale": "normal",
+                            "role": "utility item"
+                        },
+                        "orange": {
+                            "form": "fruit",
+                            "scale": "normal",
+                            "role": "rare winter fruit"
+                        }
+                    }
+                },
+                {
+                    "scene_type": "Riverbank Scene",
+                    "plausibility": 0.85,
+                    "reasoning": "A horse drinking from a river. A hen could be near the water. A bottle could be floating or on the bank. An orange could be floating or on the shore.",
+                    "object_interpretations": {
+                        "horse": {
+                            "form": "real horse",
+                            "scale": "normal",
+                            "role": "primary animal"
+                        },
+                        "hen": {
+                            "form": "real hen",
+                            "scale": "normal",
+                            "role": "riverside animal"
+                        },
+                        "bottle": {
+                            "form": "floating bottle",
+                            "scale": "normal",
+                            "role": "floating object"
+                        },
+                        "orange": {
+                            "form": "floating fruit",
+                            "scale": "normal",
+                            "role": "floating object"
+                        }
+                    }
+                },
+                {
+                    "scene_type": "Temple Courtyard",
+                    "plausibility": 0.75,
+                    "reasoning": "A horse statue or real horse in temple grounds. A hen as a temple pet. A bottle as an offering vessel. An orange as an offering fruit.",
+                    "object_interpretations": {
+                        "horse": {
+                            "form": "stone statue",
+                            "scale": "normal",
+                            "role": "decorative element"
+                        },
+                        "hen": {
+                            "form": "temple pet",
+                            "scale": "normal",
+                            "role": "living element"
+                        },
+                        "bottle": {
+                            "form": "offering vessel",
+                            "scale": "normal",
+                            "role": "religious object"
+                        },
+                        "orange": {
+                            "form": "offering fruit",
+                            "scale": "normal",
+                            "role": "religious offering"
+                        }
+                    }
+                }
+            ],
+            "selected_scene": {
+                "scene_type": "Traditional Farmyard",
+                "plausibility": 0.95,
+                "reasoning": "A classic rural setting where a horse might be stabled or grazing. A hen would naturally roam the farmyard. A bottle could be discarded feed container or farm tool, and an orange could be a treat for the farmer or fallen from a tree.",
+                "object_interpretations": {
+                    "horse": {
+                        "form": "real horse",
+                        "scale": "normal",
+                        "role": "primary farm animal"
+                    },
+                    "hen": {
+                        "form": "real hen",
+                        "scale": "normal",
+                        "role": "secondary farm animal"
+                    },
+                    "bottle": {
+                        "form": "glass bottle",
+                        "scale": "normal",
+                        "role": "farm utility item"
+                    },
+                    "orange": {
+                        "form": "real fruit",
+                        "scale": "normal",
+                        "role": "food item"
+                    }
+                },
+                "scene_brief": "A Traditional Farmyard centered around horse, with hen, bottle, and orange"
+            }
+        }
+    },
+    "final_prompts": {
+        "main_prompt": "A Chinese Ink Painting painting depicting a fresh and energetic yet subdued morning scene. In the foreground, a mottled brown-black and soft gray hen stands alert and grounded beside a warm ochre and deep sienna orange, which rests whole and fresh upon the ground. Next to the orange sits a small, pale green-gray and translucent white bottle, empty and catching the soft morning light. Behind this central grouping, a dominant charcoal black and warm gray horse stands alert and vital, its powerful form positioned behind both the hen, the bottle, and the orange, creating a layered depth. The composition is rendered with the flowing brushstrokes and tonal gradations of ink wash, capturing the textures of living flesh and hair, feathers, smooth glass, and dimpled fruit skin. The atmosphere is gentle and fresh, bathed in natural, soft morning light that casts subtle shadows and highlights the quiet energy of the scene.",
+        "negative_prompt": "photorealistic, 3d render, modern, digital art, photograph, low quality, blurry, distorted, cartoon, anime, western style, oil painting, watercolor, vibrant colors, saturated, high contrast, text, signature, frame, border",
+        "prompt_formats": {
+            "simple": "A Chinese ink painting of a horse behind a hen, bottle, and orange on a soft morning.",
+            "complex": "A Chinese Ink Painting painting depicting a fresh and energetic yet subdued morning scene. In the foreground, a mottled brown-black and soft gray hen stands alert and grounded beside a warm ochre and deep sienna orange, which rests whole and fresh upon the ground. Next to the orange sits a small, pale green-gray and translucent white bottle, empty and catching the soft morning light. Behind this central grouping, a dominant charcoal black and warm gray horse stands alert and vital, its powerful form positioned behind both the hen, the bottle, and the orange, creating a layered depth. The composition is rendered with the flowing brushstrokes and tonal gradations of ink wash, capturing the textures of living flesh and hair, feathers, smooth glass, and dimpled fruit skin. The atmosphere is gentle and fresh, bathed in natural, soft morning light that casts subtle shadows and highlights the quiet energy of the scene.",
+            "comma_separated": "Chinese Ink Painting, horse, hen, bottle, orange, charcoal black, mottled brown, pale green, warm ochre, morning, soft light, fresh atmosphere, energetic, subdued, gentle, ink wash, brushstrokes, tonal",
+            "tags": "art, painting, chinese ink painting, ink wash, sumi-e, horse, hen, rooster, bottle, orange, still life, animal, morning, serene, traditional art, monochrome, composition"
+        }
+    }
+}

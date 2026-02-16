@@ -1,0 +1,308 @@
+{
+    "artwork_id": "artwork_20260103_233310_945",
+    "generation_timestamp": "2026-01-03T23:33:45.254997",
+    "style": "Impressionism",
+    "objects": {
+        "object_ids": [
+            48,
+            59,
+            74
+        ],
+        "object_names": [
+            "apple",
+            "potted plant",
+            "magazine"
+        ],
+        "enhanced_objects": [
+            {
+                "object_id": 48,
+                "name": "apple",
+                "artistic_description": "A luminous sphere of crimson and amber, its polished skin catching morning sun in scattered dappled highlights that dissolve into soft impressionistic strokes. The surface shimmers with a delicate waxy sheen, its edges blending into the surrounding light with gentle, atmospheric diffusion. Subtle variations of rose, gold, and deep burgundy dance across its form, creating a vibrant yet soft focal point.",
+                "size": "Medium",
+                "state": "fresh and glossy",
+                "primary_colors": [
+                    "crimson",
+                    "amber"
+                ],
+                "material": "fruit"
+            },
+            {
+                "object_id": 59,
+                "name": "potted plant",
+                "artistic_description": "A lush cascade of emerald and chartreuse foliage, rendered in loose, energetic brushstrokes that capture the dance of sunlight through leaves. The upper surfaces glow with warm golden-green tones where light directly strikes, while shadowed areas fall into cool, deep viridian. Individual leaves become impressionistic blurs of light and color, their edges softening into the bright atmosphere. The terracotta pot provides an earthy anchor of warm burnt sienna and ochre.",
+                "size": "Large",
+                "state": "vibrant and thriving",
+                "primary_colors": [
+                    "emerald",
+                    "viridian"
+                ],
+                "material": "plant and terracotta"
+            },
+            {
+                "object_id": 74,
+                "name": "magazine",
+                "artistic_description": "A rectangular composition of crisp white and cool blue tones, its glossy surface reflecting scattered highlights of pale morning light. The cover becomes a mosaic of impressionistic color patches\u2014sharp cyan, clean white, and subtle gray shadows\u2014where light glances across the smooth paper. Edges appear slightly softened by the bright, airy atmosphere, with fine text dissolving into abstract patterns of light and dark.",
+                "size": "Medium",
+                "state": "pristine and glossy",
+                "primary_colors": [
+                    "white",
+                    "cyan"
+                ],
+                "material": "glossy paper"
+            }
+        ]
+    },
+    "composition": {
+        "spatial_relations": [
+            [
+                48,
+                "on",
+                74
+            ],
+            [
+                59,
+                "next to",
+                74
+            ],
+            [
+                74,
+                "on",
+                59
+            ]
+        ],
+        "semantic_relations": []
+    },
+    "environment": {
+        "environment_details": {
+            "scene_brief": "A modern office desk featuring apple, with potted plant, and magazine",
+            "place365_name": "/h/home_office",
+            "place365_id": 176,
+            "time_of_day": "morning",
+            "weather": "sunny",
+            "period": "Contemporary",
+            "is_indoor": true,
+            "lighting": {
+                "type": "natural",
+                "quality": "soft",
+                "direction": "side-lit",
+                "mood": "warm",
+                "reasoning": "Morning sun filtered through a window provides soft, warm natural light. Side-lighting is ideal for revealing the form and texture of the objects on the desk without creating harsh shadows, allowing the Impressionist brushwork to capture the subtle interplay of color and light."
+            },
+            "atmosphere": "fresh and energetic and cheerful and gentle"
+        },
+        "scene_inference": {
+            "all_candidates": [
+                {
+                    "scene_type": "sunny breakfast nook",
+                    "plausibility": 0.95,
+                    "reasoning": "A bright, casual dining area with morning light. The apple serves as a fresh breakfast item on the table, the potted plant adds natural greenery to the windowsill, and the magazine is reading material left on the table.",
+                    "object_interpretations": {
+                        "apple": {
+                            "form": "real fruit",
+                            "scale": "normal",
+                            "role": "food item on table"
+                        },
+                        "potted plant": {
+                            "form": "real plant",
+                            "scale": "normal (tabletop size)",
+                            "role": "decorative natural element"
+                        },
+                        "magazine": {
+                            "form": "printed publication",
+                            "scale": "standard magazine size",
+                            "role": "reading material"
+                        }
+                    }
+                },
+                {
+                    "scene_type": "art studio desk",
+                    "plausibility": 0.9,
+                    "reasoning": "An artist's workspace with natural still life subjects. The apple is a classic drawing subject, the potted plant provides living decor, and the magazine might contain reference images or inspiration.",
+                    "object_interpretations": {
+                        "apple": {
+                            "form": "real fruit",
+                            "scale": "normal",
+                            "role": "still life subject"
+                        },
+                        "potted plant": {
+                            "form": "real plant",
+                            "scale": "normal",
+                            "role": "studio decor and natural element"
+                        },
+                        "magazine": {
+                            "form": "printed publication",
+                            "scale": "standard",
+                            "role": "visual reference/inspiration"
+                        }
+                    }
+                },
+                {
+                    "scene_type": "cozy living room coffee table",
+                    "plausibility": 0.85,
+                    "reasoning": "A comfortable living space for relaxation. The apple is a healthy snack, the potted plant sits on a side table, and the magazine is casual reading material.",
+                    "object_interpretations": {
+                        "apple": {
+                            "form": "real fruit",
+                            "scale": "normal",
+                            "role": "snack item"
+                        },
+                        "potted plant": {
+                            "form": "real plant",
+                            "scale": "medium (floor or side table)",
+                            "role": "living decor"
+                        },
+                        "magazine": {
+                            "form": "printed publication",
+                            "scale": "standard",
+                            "role": "entertainment reading"
+                        }
+                    }
+                },
+                {
+                    "scene_type": "bright kitchen counter",
+                    "plausibility": 0.92,
+                    "reasoning": "A clean, functional kitchen space. The apple is fresh produce, the potted herb plant adds greenery, and the magazine could be a recipe or food publication.",
+                    "object_interpretations": {
+                        "apple": {
+                            "form": "real fruit",
+                            "scale": "normal",
+                            "role": "fresh ingredient"
+                        },
+                        "potted plant": {
+                            "form": "herb plant",
+                            "scale": "small (countertop)",
+                            "role": "culinary herb source"
+                        },
+                        "magazine": {
+                            "form": "printed publication",
+                            "scale": "standard",
+                            "role": "recipe reference"
+                        }
+                    }
+                },
+                {
+                    "scene_type": "bedroom vanity table",
+                    "plausibility": 0.8,
+                    "reasoning": "A personal grooming and morning routine space. The apple is a healthy breakfast choice, the potted plant adds life to the vanity, and the magazine provides entertainment.",
+                    "object_interpretations": {
+                        "apple": {
+                            "form": "real fruit",
+                            "scale": "normal",
+                            "role": "healthy snack"
+                        },
+                        "potted plant": {
+                            "form": "real plant",
+                            "scale": "small",
+                            "role": "vanity decoration"
+                        },
+                        "magazine": {
+                            "form": "printed publication",
+                            "scale": "standard",
+                            "role": "casual reading"
+                        }
+                    }
+                },
+                {
+                    "scene_type": "outdoor garden patio",
+                    "plausibility": 0.88,
+                    "reasoning": "An outdoor relaxation space. The apple is fresh produce from a tree, the potted plant is part of the garden display, and the magazine is reading material for lounging.",
+                    "object_interpretations": {
+                        "apple": {
+                            "form": "real fruit",
+                            "scale": "normal",
+                            "role": "fresh produce"
+                        },
+                        "potted plant": {
+                            "form": "real plant",
+                            "scale": "medium to large",
+                            "role": "garden decoration"
+                        },
+                        "magazine": {
+                            "form": "printed publication",
+                            "scale": "standard",
+                            "role": "outdoor reading"
+                        }
+                    }
+                },
+                {
+                    "scene_type": "modern office desk",
+                    "plausibility": 0.75,
+                    "reasoning": "A workspace with personal touches. The apple is a healthy desk snack, the potted plant adds life to the environment, and the magazine is break-time reading.",
+                    "object_interpretations": {
+                        "apple": {
+                            "form": "real fruit",
+                            "scale": "normal",
+                            "role": "healthy snack"
+                        },
+                        "potted plant": {
+                            "form": "real plant",
+                            "scale": "small",
+                            "role": "desk decoration"
+                        },
+                        "magazine": {
+                            "form": "printed publication",
+                            "scale": "standard",
+                            "role": "break-time reading"
+                        }
+                    },
+                    "scene_brief": "A modern office desk featuring apple, with potted plant, and magazine"
+                },
+                {
+                    "scene_type": "rustic farmhouse table",
+                    "plausibility": 0.85,
+                    "reasoning": "A country-style dining or kitchen setting. The apple is homegrown produce, the potted plant is a windowsill herb, and the magazine is farm or lifestyle reading.",
+                    "object_interpretations": {
+                        "apple": {
+                            "form": "real fruit",
+                            "scale": "normal",
+                            "role": "harvested produce"
+                        },
+                        "potted plant": {
+                            "form": "herb plant",
+                            "scale": "small",
+                            "role": "kitchen herb"
+                        },
+                        "magazine": {
+                            "form": "printed publication",
+                            "scale": "standard",
+                            "role": "lifestyle reading"
+                        }
+                    }
+                }
+            ],
+            "selected_scene": {
+                "scene_type": "modern office desk",
+                "plausibility": 0.75,
+                "reasoning": "A workspace with personal touches. The apple is a healthy desk snack, the potted plant adds life to the environment, and the magazine is break-time reading.",
+                "object_interpretations": {
+                    "apple": {
+                        "form": "real fruit",
+                        "scale": "normal",
+                        "role": "healthy snack"
+                    },
+                    "potted plant": {
+                        "form": "real plant",
+                        "scale": "small",
+                        "role": "desk decoration"
+                    },
+                    "magazine": {
+                        "form": "printed publication",
+                        "scale": "standard",
+                        "role": "break-time reading"
+                    }
+                },
+                "scene_brief": "A modern office desk featuring apple, with potted plant, and magazine"
+            }
+        }
+    },
+    "final_prompts": {
+        "main_prompt": "A Impressionism painting depicting a cheerful morning scene with natural soft lighting that creates a fresh and energetic atmosphere. In the foreground, a large potted plant with vibrant emerald and viridian leaves sits in a terracotta pot, its thriving foliage catching the gentle morning light. Resting atop the plant's soil is a medium-sized magazine with pristine white pages and glossy cyan accents. Balanced delicately on the magazine's surface is a medium crimson and amber apple, its glossy skin reflecting the soft illumination. The spatial arrangement shows the apple resting on the magazine, which in turn sits upon the potted plant's soil, with the plant positioned prominently beside the magazine's edge. Loose, visible brushstrokes capture the play of morning light across the glossy fruit, terracotta pot, and glossy paper surfaces, creating a gentle, cheerful composition full of energetic color and fresh ambiance.",
+        "negative_prompt": "photorealistic, 3d render, modern, digital art, photograph, low quality, blurry, distorted, surreal, abstract, dark, gloomy, night scene, harsh lighting, photobashing, collage, text, watermark, signature, frame, border",
+        "prompt_formats": {
+            "simple": "An Impressionist painting of a crimson apple on a white magazine resting on a vibrant potted plant in soft morning light.",
+            "complex": "A Impressionism painting depicting a cheerful morning scene with natural soft lighting that creates a fresh and energetic atmosphere. In the foreground, a large potted plant with vibrant emerald and viridian leaves sits in a terracotta pot, its thriving foliage catching the gentle morning light. Resting atop the plant's soil is a medium-sized magazine with pristine white pages and glossy cyan accents. Balanced delicately on the magazine's surface is a medium crimson and amber apple, its glossy skin reflecting the soft illumination. The spatial arrangement shows the apple resting on the magazine, which in turn sits upon the potted plant's soil, with the plant positioned prominently beside the magazine's edge. Loose, visible brushstrokes capture the play of morning light across the glossy fruit, terracotta pot, and glossy paper surfaces, creating a gentle, cheerful composition full of energetic color and fresh ambiance.",
+            "comma_separated": "Impressionism painting, morning scene, natural soft lighting, fresh energetic cheerful gentle atmosphere, large potted plant, emerald viridian leaves, terracotta pot, vibrant thriving foliage, medium magazine, white cyan pages, pristine glossy, medium apple, crimson amber, fresh glossy, apple on magazine, magazine on potted plant, plant beside magazine, visible brushstrokes, light play, still life composition",
+            "tags": "art, painting, impressionism, still life, morning light, potted plant, apple, magazine, terracotta, glossy, vibrant colors, loose brushwork, cheerful atmosphere, natural lighting, composition"
+        }
+    }
+}

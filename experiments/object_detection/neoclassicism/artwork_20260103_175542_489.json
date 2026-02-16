@@ -1,0 +1,259 @@
+{
+    "artwork_id": "artwork_20260103_175542_489",
+    "generation_timestamp": "2026-01-03T17:56:13.851406",
+    "style": "Neoclassicism",
+    "objects": {
+        "object_ids": [
+            79,
+            49,
+            29
+        ],
+        "object_names": [
+            "comb",
+            "bread",
+            "luggage"
+        ],
+        "enhanced_objects": [
+            {
+                "object_id": 79,
+                "name": "comb",
+                "artistic_description": "A refined ivory comb with delicate neoclassical fluting along its spine, bathed in crisp afternoon sunlight streaming through tall windows. The natural light catches the fine striations in the material, creating subtle highlights along the polished teeth. The surface glows with a warm, creamy luminance, revealing the organic grain beneath a lustrous finish. Each tooth is precisely carved, casting fine, sharp shadows on the adjacent surface.",
+                "size": "Small",
+                "state": "polished and pristine",
+                "primary_colors": [
+                    "warm ivory",
+                    "creamy white"
+                ],
+                "material": "ivory"
+            },
+            {
+                "object_id": 49,
+                "name": "bread",
+                "artistic_description": "A rustic loaf of bread with a golden-brown crust, its surface dusted with fine flour that catches the bright natural light. The afternoon sun illuminates the bread's textured crust, revealing a rich, amber-toned sheen where the heat has caramelized the exterior. The interior crumb glows softly with a warm, pale gold hue, while the crust displays subtle variations from deep amber to lighter toasted notes.",
+                "size": "Medium",
+                "state": "freshly baked and warm",
+                "primary_colors": [
+                    "golden brown",
+                    "pale gold"
+                ],
+                "material": ""
+            },
+            {
+                "object_id": 29,
+                "name": "luggage",
+                "artistic_description": "A classic leather trunk with brass hardware, its rich patina enhanced by the bright, natural illumination. The afternoon light dances across the polished leather surface, creating deep reflections in the dark, burnished areas while highlighting the subtle grain and wear marks that speak to contemporary travel. The brass fittings gleam with a warm, metallic luster, casting small points of light against the rich, dark body.",
+                "size": "Large",
+                "state": "well-traveled and dignified",
+                "primary_colors": [
+                    "deep mahogany",
+                    "warm brass"
+                ],
+                "material": "leather and brass"
+            }
+        ]
+    },
+    "composition": {
+        "spatial_relations": [
+            [
+                79,
+                "on",
+                29
+            ],
+            [
+                49,
+                "next to",
+                29
+            ]
+        ],
+        "semantic_relations": []
+    },
+    "environment": {
+        "environment_details": {
+            "scene_brief": "A Grand Hallway / Entryway featuring comb, with bread, and luggage",
+            "place365_name": "/d/dining_room",
+            "place365_id": 121,
+            "time_of_day": "afternoon",
+            "weather": "sunny",
+            "period": "Contemporary",
+            "is_indoor": true,
+            "lighting": {
+                "type": "natural",
+                "quality": "harsh",
+                "direction": "side-lit",
+                "mood": "warm",
+                "reasoning": "Combining 'sunny' weather and 'afternoon' time suggests strong natural light. 'Side-lit' lighting is ideal for Neoclassical art to emphasize volume and texture (chiaroscuro) on the luggage and comb. 'Harsh' light creates sharp shadows that define the geometry of the hall, while the 'warm' mood reflects the afternoon sun."
+            },
+            "atmosphere": "bright and active and cheerful"
+        },
+        "scene_inference": {
+            "all_candidates": [
+                {
+                    "scene_type": "Neoclassical Kitchen Interior",
+                    "plausibility": 0.85,
+                    "reasoning": "A domestic scene where a comb is used for personal grooming before or after a meal. The bread is a staple food on the table, and luggage suggests imminent travel, a common theme in classical narratives.",
+                    "object_interpretations": {
+                        "comb": {
+                            "form": "real comb",
+                            "scale": "normal",
+                            "role": "personal grooming tool"
+                        },
+                        "bread": {
+                            "form": "real loaf of bread",
+                            "scale": "normal",
+                            "role": "food item on the table"
+                        },
+                        "luggage": {
+                            "form": "real travel trunk",
+                            "scale": "large",
+                            "role": "travel preparation item"
+                        }
+                    }
+                },
+                {
+                    "scene_type": "Grand Hallway / Entryway",
+                    "plausibility": 0.8,
+                    "reasoning": "A scene depicting departure or arrival. Luggage is central, a guest might set down their comb on a console table, and bread could be part of a welcoming offering or a gift brought from home.",
+                    "object_interpretations": {
+                        "comb": {
+                            "form": "ornate decorative comb",
+                            "scale": "normal",
+                            "role": "accessory left on a console"
+                        },
+                        "bread": {
+                            "form": "basket of bread rolls",
+                            "scale": "normal",
+                            "role": "hospitality offering"
+                        },
+                        "luggage": {
+                            "form": "elegant leather trunk",
+                            "scale": "large",
+                            "role": "travel luggage"
+                        }
+                    },
+                    "scene_brief": "A Grand Hallway / Entryway featuring comb, with bread, and luggage"
+                },
+                {
+                    "scene_type": "Still Life with Traveler's Effects",
+                    "plausibility": 0.9,
+                    "reasoning": "A composition of objects on a table, typical of Neoclassical still life. The luggage is open, revealing personal items including a comb, and provisions like bread for the journey.",
+                    "object_interpretations": {
+                        "comb": {
+                            "form": "real comb",
+                            "scale": "normal",
+                            "role": "personal belonging"
+                        },
+                        "bread": {
+                            "form": "loaf of bread",
+                            "scale": "normal",
+                            "role": "travel provisions"
+                        },
+                        "luggage": {
+                            "form": "open travel case",
+                            "scale": "medium",
+                            "role": "container for objects"
+                        }
+                    }
+                },
+                {
+                    "scene_type": "Rustic Farmhouse Interior",
+                    "plausibility": 0.75,
+                    "reasoning": "A humble setting where utility reigns. A simple comb is used for grooming, bread is freshly baked on the hearth, and luggage (perhaps a sack or simple crate) is packed for a trip to the market or city.",
+                    "object_interpretations": {
+                        "comb": {
+                            "form": "wooden comb",
+                            "scale": "normal",
+                            "role": "daily utility tool"
+                        },
+                        "bread": {
+                            "form": "freshly baked rustic loaf",
+                            "scale": "normal",
+                            "role": "staple food"
+                        },
+                        "luggage": {
+                            "form": "canvas sack or wooden crate",
+                            "scale": "medium",
+                            "role": "transport container"
+                        }
+                    }
+                },
+                {
+                    "scene_type": "Dressing Room / Boudoir",
+                    "plausibility": 0.85,
+                    "reasoning": "A private space for preparation. The comb is essential for hair styling. Bread might be a simple breakfast item on a tray, and luggage sits packed nearby for a trip after dressing.",
+                    "object_interpretations": {
+                        "comb": {
+                            "form": "fine toothed comb",
+                            "scale": "normal",
+                            "role": "grooming instrument"
+                        },
+                        "bread": {
+                            "form": "slice of bread on a plate",
+                            "scale": "small",
+                            "role": "light meal"
+                        },
+                        "luggage": {
+                            "form": "small travel valise",
+                            "scale": "medium",
+                            "role": "packed bag"
+                        }
+                    }
+                },
+                {
+                    "scene_type": "Allegorical Scene of 'The Journey'",
+                    "plausibility": 0.7,
+                    "reasoning": "A symbolic representation. Luggage represents the burden of life, bread represents sustenance needed for the path, and the comb represents the maintenance of dignity and appearance throughout the journey.",
+                    "object_interpretations": {
+                        "comb": {
+                            "form": "stylized comb",
+                            "scale": "normal",
+                            "role": "symbol of vanity/dignity"
+                        },
+                        "bread": {
+                            "form": "loaf of bread",
+                            "scale": "normal",
+                            "role": "symbol of sustenance"
+                        },
+                        "luggage": {
+                            "form": "large trunk",
+                            "scale": "large",
+                            "role": "symbol of burden/travel"
+                        }
+                    }
+                }
+            ],
+            "selected_scene": {
+                "scene_type": "Grand Hallway / Entryway",
+                "plausibility": 0.8,
+                "reasoning": "A scene depicting departure or arrival. Luggage is central, a guest might set down their comb on a console table, and bread could be part of a welcoming offering or a gift brought from home.",
+                "object_interpretations": {
+                    "comb": {
+                        "form": "ornate decorative comb",
+                        "scale": "normal",
+                        "role": "accessory left on a console"
+                    },
+                    "bread": {
+                        "form": "basket of bread rolls",
+                        "scale": "normal",
+                        "role": "hospitality offering"
+                    },
+                    "luggage": {
+                        "form": "elegant leather trunk",
+                        "scale": "large",
+                        "role": "travel luggage"
+                    }
+                },
+                "scene_brief": "A Grand Hallway / Entryway featuring comb, with bread, and luggage"
+            }
+        }
+    },
+    "final_prompts": {
+        "main_prompt": "A Neoclassicism painting depicting a bright and cheerful afternoon scene with harsh natural lighting. In the foreground, a large, dignified piece of luggage in deep mahogany with warm brass fittings sits prominently, its well-traveled leather surface showing dignified wear. Resting atop the luggage is a small, pristine comb carved from warm ivory with creamy white tones, polished to a gentle sheen. Beside the luggage on a simple stone surface lies a medium-sized loaf of bread, its crust glowing golden brown with pale gold highlights, radiating warmth as if freshly baked. The spatial arrangement creates a balanced triangular composition, with the luggage as the central anchor, the comb providing delicate detail above, and the bread offering organic warmth beside it. The atmosphere is active yet harmonious, with crisp shadows cast by the harsh afternoon light enhancing the classical forms and textures of ivory, leather, and brass materials.",
+        "negative_prompt": "photorealistic, 3d render, modern, digital art, photograph, low quality, blurry, distorted, surreal, abstract, cartoon, anime, fantasy, dark, gloomy, muted colors, cluttered, messy, text, watermark, signature, frame, border",
+        "prompt_formats": {
+            "simple": "A Neoclassical painting of a comb on luggage with bread beside it in bright afternoon light.",
+            "complex": "A Neoclassicism painting depicting a bright and cheerful afternoon scene with harsh natural lighting. In the foreground, a large, dignified piece of luggage in deep mahogany with warm brass fittings sits prominently, its well-traveled leather surface showing dignified wear. Resting atop the luggage is a small, pristine comb carved from warm ivory with creamy white tones, polished to a gentle sheen. Beside the luggage on a simple stone surface lies a medium-sized loaf of bread, its crust glowing golden brown with pale gold highlights, radiating warmth as if freshly baked. The spatial arrangement creates a balanced triangular composition, with the luggage as the central anchor, the comb providing delicate detail above, and the bread offering organic warmth beside it. The atmosphere is active yet harmonious, with crisp shadows cast by the harsh afternoon light enhancing the classical forms and textures of ivory, leather, and brass materials.",
+            "comma_separated": "Neoclassicism painting, luggage large deep mahogany brass dignified, comb small ivory creamy white pristine on luggage, bread medium golden brown warm beside luggage, harsh natural afternoon lighting, bright active cheerful atmosphere, classical composition, polished ivory, leather texture, brass details",
+            "tags": "art, painting, neoclassicism, still life, luggage, comb, bread, afternoon light, harsh lighting, cheerful, ivory, leather, brass, classical composition, foreground objects"
+        }
+    }
+}

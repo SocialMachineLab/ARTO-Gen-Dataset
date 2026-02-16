@@ -1,0 +1,303 @@
+{
+    "artwork_id": "artwork_20260103_202113_669",
+    "generation_timestamp": "2026-01-03T20:21:41.836754",
+    "style": "Impressionism",
+    "objects": {
+        "object_ids": [
+            46,
+            56,
+            18
+        ],
+        "object_names": [
+            "bowl",
+            "cake",
+            "mule"
+        ],
+        "enhanced_objects": [
+            {
+                "object_id": 46,
+                "name": "bowl",
+                "artistic_description": "A ceramic bowl catching the bright afternoon sun, its glazed surface fractured into dappled highlights of pure white and pale yellow, with soft violet shadows pooling in its curve. The rim glows with a warm, sun-kissed aura, while scattered flecks of reflected blue sky dance across its interior in loose, impressionistic strokes.",
+                "size": "Medium",
+                "state": "clean and dry",
+                "primary_colors": [
+                    "warm white",
+                    "pale yellow"
+                ],
+                "material": "ceramic"
+            },
+            {
+                "object_id": 56,
+                "name": "cake",
+                "artistic_description": "A frosted cake rendered in buttery daubs of cream and pale gold, its surface a mosaic of soft-edged highlights where the intense sunlight bleeds the colors together. The frosting appears almost luminous, with subtle strokes of peach and warm beige suggesting vanilla and spice, while tiny flecks of shadow create a sense of airy texture.",
+                "size": "Medium",
+                "state": "fresh and pristine",
+                "primary_colors": [
+                    "cream",
+                    "pale gold"
+                ],
+                "material": "food"
+            },
+            {
+                "object_id": 18,
+                "name": "mule",
+                "artistic_description": "A mule whose dusty coat is a tapestry of warm browns and ochres, shimmering under the harsh afternoon light with a soft halo of golden dust motes. Its form is suggested rather than defined, with loose, energetic brushstrokes capturing the play of sunlight on its flank and the deep, cool shadows beneath its jaw, giving it a vibrant, living presence.",
+                "size": "Large",
+                "state": "alert and dusty",
+                "primary_colors": [
+                    "warm brown",
+                    "ochre"
+                ],
+                "material": "fur"
+            }
+        ]
+    },
+    "composition": {
+        "spatial_relations": [
+            [
+                46,
+                "next to",
+                56
+            ],
+            [
+                56,
+                "on",
+                18
+            ]
+        ],
+        "semantic_relations": []
+    },
+    "environment": {
+        "environment_details": {
+            "scene_brief": "A stable yard featuring bowl, with cake, and mule",
+            "place365_name": "/f/field/wild",
+            "place365_id": 141,
+            "time_of_day": "afternoon",
+            "weather": "sunny",
+            "period": "Contemporary",
+            "is_indoor": false,
+            "lighting": {
+                "type": "natural",
+                "quality": "soft",
+                "direction": "side-lit",
+                "mood": "warm",
+                "reasoning": "Natural light is required for an outdoor scene. 'Soft' quality results from the diffuse light of the afternoon sun, avoiding harsh contrasts. 'Side-lit' creates volume and form on the mule and objects, while 'warm' mood aligns with the afternoon time and the rustic setting."
+            },
+            "atmosphere": "bright and active and cheerful and gentle"
+        },
+        "scene_inference": {
+            "all_candidates": [
+                {
+                    "scene_type": "country kitchen",
+                    "plausibility": 0.9,
+                    "reasoning": "A rustic country kitchen setting allows for a ceramic bowl on a table, a freshly baked cake in the bowl or on the table, and a mule visible through the window in the yard.",
+                    "object_interpretations": {
+                        "bowl": {
+                            "form": "real ceramic bowl",
+                            "scale": "normal",
+                            "role": "primary container"
+                        },
+                        "cake": {
+                            "form": "real cake",
+                            "scale": "normal",
+                            "role": "food item"
+                        },
+                        "mule": {
+                            "form": "real animal",
+                            "scale": "normal (distant)",
+                            "role": "background element"
+                        }
+                    }
+                },
+                {
+                    "scene_type": "farmhouse dining room",
+                    "plausibility": 0.85,
+                    "reasoning": "A wooden table holds a bowl filled with cake, while a mule is being led past the open dining room door.",
+                    "object_interpretations": {
+                        "bowl": {
+                            "form": "wooden bowl",
+                            "scale": "normal",
+                            "role": "primary serving dish"
+                        },
+                        "cake": {
+                            "form": "sliced cake",
+                            "scale": "normal",
+                            "role": "dessert"
+                        },
+                        "mule": {
+                            "form": "working animal",
+                            "scale": "normal",
+                            "role": "exterior activity"
+                        }
+                    }
+                },
+                {
+                    "scene_type": "stable yard",
+                    "plausibility": 0.75,
+                    "reasoning": "A worker eats cake from a bowl while sitting on a fence near a mule.",
+                    "object_interpretations": {
+                        "bowl": {
+                            "form": "metal mixing bowl",
+                            "scale": "normal",
+                            "role": "eating vessel"
+                        },
+                        "cake": {
+                            "form": "piece of cake",
+                            "scale": "normal",
+                            "role": "snack"
+                        },
+                        "mule": {
+                            "form": "tethered animal",
+                            "scale": "normal",
+                            "role": "companion animal"
+                        }
+                    },
+                    "scene_brief": "A stable yard featuring bowl, with cake, and mule"
+                },
+                {
+                    "scene_type": "picnic in a meadow",
+                    "plausibility": 0.8,
+                    "reasoning": "A picnic blanket features a bowl of cake, with a grazing mule nearby in the field.",
+                    "object_interpretations": {
+                        "bowl": {
+                            "form": "woven basket bowl",
+                            "scale": "normal",
+                            "role": "picnic container"
+                        },
+                        "cake": {
+                            "form": "cupcakes",
+                            "scale": "normal",
+                            "role": "treat"
+                        },
+                        "mule": {
+                            "form": "grazing animal",
+                            "scale": "normal",
+                            "role": "nature element"
+                        }
+                    }
+                },
+                {
+                    "scene_type": "art studio",
+                    "plausibility": 0.9,
+                    "reasoning": "A still life setup on a table includes a bowl and a cake, with a small toy mule figurine placed on the table as part of the composition.",
+                    "object_interpretations": {
+                        "bowl": {
+                            "form": "pottery bowl",
+                            "scale": "normal",
+                            "role": "still life subject"
+                        },
+                        "cake": {
+                            "form": "model cake",
+                            "scale": "normal",
+                            "role": "still life subject"
+                        },
+                        "mule": {
+                            "form": "toy figurine",
+                            "scale": "miniature",
+                            "role": "decorative prop"
+                        }
+                    }
+                },
+                {
+                    "scene_type": "vintage bakery",
+                    "plausibility": 0.85,
+                    "reasoning": "A display case holds a cake in a bowl, while a mural of a mule covers the back wall.",
+                    "object_interpretations": {
+                        "bowl": {
+                            "form": "glass punch bowl",
+                            "scale": "normal",
+                            "role": "display vessel"
+                        },
+                        "cake": {
+                            "form": "layer cake",
+                            "scale": "normal",
+                            "role": "product"
+                        },
+                        "mule": {
+                            "form": "painting",
+                            "scale": "large",
+                            "role": "wall decor"
+                        }
+                    }
+                },
+                {
+                    "scene_type": "garden party",
+                    "plausibility": 0.7,
+                    "reasoning": "Guests gather around a table with a punch bowl and cake, while a pet mule wanders the perimeter of the garden.",
+                    "object_interpretations": {
+                        "bowl": {
+                            "form": "punch bowl",
+                            "scale": "large",
+                            "role": "centerpiece"
+                        },
+                        "cake": {
+                            "form": "tiered cake",
+                            "scale": "normal",
+                            "role": "dessert"
+                        },
+                        "mule": {
+                            "form": "domesticated mule",
+                            "scale": "normal",
+                            "role": "garden pet"
+                        }
+                    }
+                },
+                {
+                    "scene_type": "harvest festival",
+                    "plausibility": 0.8,
+                    "reasoning": "A booth sells cake from a large bowl, with a mule-drawn cart passing by in the background.",
+                    "object_interpretations": {
+                        "bowl": {
+                            "form": "serving bowl",
+                            "scale": "normal",
+                            "role": "food container"
+                        },
+                        "cake": {
+                            "form": "bundt cake",
+                            "scale": "normal",
+                            "role": "sale item"
+                        },
+                        "mule": {
+                            "form": "draft animal",
+                            "scale": "normal",
+                            "role": "transportation"
+                        }
+                    }
+                }
+            ],
+            "selected_scene": {
+                "scene_type": "stable yard",
+                "plausibility": 0.75,
+                "reasoning": "A worker eats cake from a bowl while sitting on a fence near a mule.",
+                "object_interpretations": {
+                    "bowl": {
+                        "form": "metal mixing bowl",
+                        "scale": "normal",
+                        "role": "eating vessel"
+                    },
+                    "cake": {
+                        "form": "piece of cake",
+                        "scale": "normal",
+                        "role": "snack"
+                    },
+                    "mule": {
+                        "form": "tethered animal",
+                        "scale": "normal",
+                        "role": "companion animal"
+                    }
+                },
+                "scene_brief": "A stable yard featuring bowl, with cake, and mule"
+            }
+        }
+    },
+    "final_prompts": {
+        "main_prompt": "A Impressionism painting depicting a bright and active afternoon scene with a gentle, cheerful atmosphere. In the foreground, a large, alert mule stands in a dusty field, its warm brown and ochre fur catching the soft natural light. Balanced carefully on the mule's back is a medium-sized cake, its cream and pale gold surface appearing fresh and pristine. Beside the cake, nestled against its side, sits a medium-sized bowl of warm white and pale yellow ceramic, clean and dry. The spatial arrangement shows the cake resting atop the mule's back with the bowl positioned immediately adjacent to the cake. The entire scene is bathed in the golden-hued, diffused lighting of late afternoon, with loose, visible brushstrokes capturing the movement of light across the ceramic bowl, the textured food surface of the cake, and the dusty fur of the patient mule, creating a cohesive narrative of rustic preparation or celebration.",
+        "negative_prompt": "photorealistic, 3d render, modern, digital art, photograph, low quality, blurry, distorted, ugly, deformed, disfigured, poorly drawn, bad anatomy, wrong anatomy, extra limb, missing limb, floating limbs, disconnected limbs, mutation, mutated, out of focus, long neck, watermark, signature, text, words, letters, cartoon, anime, sketch, drawing, airbrushed, hyperrealistic, surreal, dark, gloomy, sinister, night, indoor, studio lighting, harsh shadows",
+        "prompt_formats": {
+            "simple": "An Impressionist painting of a cake on a mule's back with a bowl beside it in a cheerful afternoon field.",
+            "complex": "A Impressionism painting depicting a bright and active afternoon scene with a gentle, cheerful atmosphere. In the foreground, a large, alert mule stands in a dusty field, its warm brown and ochre fur catching the soft natural light. Balanced carefully on the mule's back is a medium-sized cake, its cream and pale gold surface appearing fresh and pristine. Beside the cake, nestled against its side, sits a medium-sized bowl of warm white and pale yellow ceramic, clean and dry. The spatial arrangement shows the cake resting atop the mule's back with the bowl positioned immediately adjacent to the cake. The entire scene is bathed in the golden-hued, diffused lighting of late afternoon, with loose, visible brushstrokes capturing the movement of light across the ceramic bowl, the textured food surface of the cake, and the dusty fur of the patient mule, creating a cohesive narrative of rustic preparation or celebration.",
+            "comma_separated": "Impressionism painting, large alert mule, warm brown ochre fur, dusty, medium cake on mule's back, cream pale gold, fresh pristine, medium bowl beside cake, warm white pale yellow ceramic, clean dry, afternoon lighting, natural soft light, bright active cheerful gentle atmosphere, golden hour, field, loose brushstrokes, visible texture, light play",
+            "tags": "art, painting, impressionism, mule, cake, bowl, still life, animal, afternoon, golden hour, field, ceramic, food, fur, texture, light, cheerful, active, gentle, Claude Monet, Pierre-Auguste Renoir, brushwork"
+        }
+    }
+}
