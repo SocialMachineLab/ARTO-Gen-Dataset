@@ -151,7 +151,6 @@ ARTO-Gen-Dataset/
 │   ├── multimodel_generation/    # Multi-model comparison experiments
 │   ├── object_detection/         # Object detection validation
 │   └── style_feature_analysis/   # Style feature extraction
-└── docs/                         # Documentation
 ```
 
 ## Generation Framework
