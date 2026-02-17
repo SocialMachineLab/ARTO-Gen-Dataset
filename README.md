@@ -312,8 +312,4 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 - **ARTO Ontology**: https://w3id.org/arto
 - **Code Repository**: https://github.com/SocialMachineLab/ARTO-Gen-Dataset
 
-## Contact
 
-Maintained by Social Machine Lab, Australian National University
-
-Email: Can.Yang@anu.edu.au
