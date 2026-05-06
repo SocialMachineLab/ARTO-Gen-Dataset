@@ -1,0 +1,393 @@
+{
+    "artwork_id": "artwork_20260103_213111_295",
+    "generation_timestamp": "2026-01-03T21:31:47.471882",
+    "style": "Chinese Ink Painting",
+    "objects": {
+        "object_ids": [
+            59,
+            3,
+            59,
+            18
+        ],
+        "object_names": [
+            "potted plant",
+            "wagon",
+            "bamboo",
+            "mule"
+        ],
+        "enhanced_objects": [
+            {
+                "object_id": 59,
+                "name": "potted plant",
+                "artistic_description": "Delicate foliage rendered in varying washes of deep emerald and soft gray-green ink, with leaves catching the diffused morning light through clouds. Moisture beads on leaf surfaces create subtle highlights in lighter ink tones. The terracotta pot shows weathered texture with muted rust-brown washes and dry, matte surface absorbing the cool ambient light.",
+                "size": "Medium",
+                "state": "fresh and thriving with dew-kissed leaves",
+                "primary_colors": [
+                    "emerald green",
+                    "rust brown"
+                ],
+                "material": "ceramic and organic foliage"
+            },
+            {
+                "object_id": 3,
+                "name": "wagon",
+                "artistic_description": "Aged wooden structure rendered in warm sepia and charcoal washes, with weathered planks showing grain texture through layered ink strokes. The metal hardware catches cool gray highlights from overcast sky. Dry, matte wood surface absorbs light, while subtle weathering marks create depth through varied ink densities.",
+                "size": "Large",
+                "state": "weathered but sturdy, showing signs of contemporary use",
+                "primary_colors": [
+                    "sepia brown",
+                    "charcoal gray"
+                ],
+                "material": "wood and metal"
+            },
+            {
+                "object_id": 59,
+                "name": "bamboo",
+                "artistic_description": "Tall stalks painted with fluid, confident brushstrokes in deep sage and soft gray-green tones, bending gently in the fresh morning air. Segmented joints emphasized with darker ink accents. Leaves flutter with delicate, wispy strokes in lighter washes, creating movement against the subdued cloudy atmosphere. Moisture-darkened bark shows subtle sheen.",
+                "size": "Dominant",
+                "state": "lush and flexible, swaying in gentle breeze",
+                "primary_colors": [
+                    "sage green",
+                    "silver gray"
+                ],
+                "material": "organic bamboo"
+            },
+            {
+                "object_id": 18,
+                "name": "mule",
+                "artistic_description": "Coarse coat rendered in layered ink washes from deep charcoal to soft gray, capturing the texture of fur through varied brush pressure. The animal's form emerges from the misty atmosphere with moist highlights on muzzle and flank where light catches dampness. Patient, steady posture conveyed through solid ink masses and minimal negative space.",
+                "size": "Large",
+                "state": "calm and patient, adapted to cool morning conditions",
+                "primary_colors": [
+                    "charcoal",
+                    "warm gray"
+                ],
+                "material": "organic animal"
+            }
+        ]
+    },
+    "composition": {
+        "spatial_relations": [
+            [
+                59,
+                "next to",
+                3
+            ],
+            [
+                59,
+                "next to",
+                18
+            ],
+            [
+                3,
+                "next to",
+                59
+            ],
+            [
+                3,
+                "next to",
+                18
+            ],
+            [
+                18,
+                "next to",
+                59
+            ],
+            [
+                18,
+                "next to",
+                3
+            ]
+        ],
+        "semantic_relations": [
+            [
+                18,
+                "beside",
+                3
+            ],
+            [
+                59,
+                "near",
+                18
+            ]
+        ]
+    },
+    "environment": {
+        "environment_details": {
+            "scene_brief": "A Mountain Nursery featuring potted plant, with wagon, bamboo, and mule",
+            "place365_name": "/m/mountain",
+            "place365_id": 232,
+            "time_of_day": "morning",
+            "weather": "cloudy",
+            "period": "Contemporary",
+            "is_indoor": false,
+            "lighting": {
+                "type": "natural",
+                "quality": "soft",
+                "direction": "front-lit",
+                "mood": "cool",
+                "reasoning": "A 'cloudy' morning results in 'natural' lighting that is 'soft' and 'even', eliminating harsh contrasts. This lighting quality is essential for the 'Chinese Ink Painting' style, allowing for smooth gradations of ink wash (sumi-e). A 'cool' mood aligns with the fresh, damp air of a mountain morning and the organic subject matter. 'Front-lit' or 'even' lighting ensures the details of the potted plants and the wagon are visible without losing the atmospheric depth of the mountain background."
+            },
+            "atmosphere": "fresh and energetic and subdued and gentle"
+        },
+        "scene_inference": {
+            "all_candidates": [
+                {
+                    "scene_type": "Traditional Garden Courtyard",
+                    "plausibility": 0.95,
+                    "reasoning": "A classical Chinese garden setting where a potted plant (like a miniature pine or bonsai) sits on a stone pedestal. A small decorative wagon serves as a rustic planter or ornament nearby. Bamboo grows naturally in the background as a classic garden element. A mule rests in the courtyard, perhaps owned by the gardener or used for transporting soil and plants.",
+                    "object_interpretations": {
+                        "potted plant": {
+                            "form": "real plant (bonsai)",
+                            "scale": "normal (1-2 feet)",
+                            "role": "central garden element"
+                        },
+                        "wagon": {
+                            "form": "decorative garden ornament",
+                            "scale": "small (2-3 feet)",
+                            "role": "planter or decorative accent"
+                        },
+                        "bamboo": {
+                            "form": "real bamboo grove",
+                            "scale": "natural height",
+                            "role": "background foliage"
+                        },
+                        "mule": {
+                            "form": "real animal",
+                            "scale": "normal",
+                            "role": "garden helper/pet"
+                        }
+                    }
+                },
+                {
+                    "scene_type": "Mountain Nursery",
+                    "plausibility": 0.9,
+                    "reasoning": "A mountain-side plant nursery where potted plants are arranged for sale. A wagon is used to transport plants between greenhouse and display area. Bamboo grows wild on the mountain slope, providing natural fencing. A mule helps carry heavy potted plants up steep paths where vehicles cannot go.",
+                    "object_interpretations": {
+                        "potted plant": {
+                            "form": "real nursery plant",
+                            "scale": "normal",
+                            "role": "product for sale"
+                        },
+                        "wagon": {
+                            "form": "utility wagon",
+                            "scale": "normal (4-5 feet)",
+                            "role": "transport equipment"
+                        },
+                        "bamboo": {
+                            "form": "wild bamboo",
+                            "scale": "natural",
+                            "role": "mountain vegetation"
+                        },
+                        "mule": {
+                            "form": "working animal",
+                            "scale": "normal",
+                            "role": "transportation assistant"
+                        }
+                    },
+                    "scene_brief": "A Mountain Nursery featuring potted plant, with wagon, bamboo, and mule"
+                },
+                {
+                    "scene_type": "Rural Farmstead",
+                    "plausibility": 0.85,
+                    "reasoning": "A traditional farm setting where a potted plant decorates the porch of a farmhouse. A wagon sits in the yard, used for farm work. Bamboo grows as a windbreak or property boundary. A mule is kept as a farm animal, grazing near the potted plant.",
+                    "object_interpretations": {
+                        "potted plant": {
+                            "form": "decorative potted flower",
+                            "scale": "normal",
+                            "role": "home decoration"
+                        },
+                        "wagon": {
+                            "form": "farm wagon",
+                            "scale": "large",
+                            "role": "agricultural tool"
+                        },
+                        "bamboo": {
+                            "form": "hedge bamboo",
+                            "scale": "natural",
+                            "role": "property boundary"
+                        },
+                        "mule": {
+                            "form": "farm mule",
+                            "scale": "normal",
+                            "role": "livestock"
+                        }
+                    }
+                },
+                {
+                    "scene_type": "Botanical Research Station",
+                    "plausibility": 0.8,
+                    "reasoning": "An outdoor research area where scientists study potted plants. A wagon carries specimens and tools. Bamboo is cultivated for study as a valuable plant species. A mule is used to access remote research plots in mountainous terrain.",
+                    "object_interpretations": {
+                        "potted plant": {
+                            "form": "research specimen",
+                            "scale": "normal",
+                            "role": "scientific subject"
+                        },
+                        "wagon": {
+                            "form": "research wagon",
+                            "scale": "normal",
+                            "role": "equipment transport"
+                        },
+                        "bamboo": {
+                            "form": "cultivated bamboo",
+                            "scale": "experimental",
+                            "role": "research subject"
+                        },
+                        "mule": {
+                            "form": "pack mule",
+                            "scale": "normal",
+                            "role": "research expedition animal"
+                        }
+                    }
+                },
+                {
+                    "scene_type": "Ancient Temple Grounds",
+                    "plausibility": 0.75,
+                    "reasoning": "A temple courtyard where a sacred potted plant is tended by monks. A wagon might be used for ceremonial purposes or maintenance. Bamboo grows as a sacred plant in temple gardens. A mule could be used to bring offerings or supplies to the temple.",
+                    "object_interpretations": {
+                        "potted plant": {
+                            "form": "sacred plant",
+                            "scale": "normal",
+                            "role": "religious offering"
+                        },
+                        "wagon": {
+                            "form": "ceremonial cart",
+                            "scale": "small",
+                            "role": "ritual object"
+                        },
+                        "bamboo": {
+                            "form": "sacred bamboo",
+                            "scale": "natural",
+                            "role": "temple garden element"
+                        },
+                        "mule": {
+                            "form": "temple animal",
+                            "scale": "normal",
+                            "role": "supply carrier"
+                        }
+                    }
+                },
+                {
+                    "scene_type": "Mountain Path",
+                    "plausibility": 0.9,
+                    "reasoning": "A winding mountain path where a traveler with a wagon pauses to rest. A potted plant might be cargo being transported. Bamboo grows along the path as natural scenery. A mule could be either pulling the wagon or accompanying the traveler.",
+                    "object_interpretations": {
+                        "potted plant": {
+                            "form": "transported plant",
+                            "scale": "normal",
+                            "role": "travel cargo"
+                        },
+                        "wagon": {
+                            "form": "travel wagon",
+                            "scale": "normal",
+                            "role": "transport vehicle"
+                        },
+                        "bamboo": {
+                            "form": "wild bamboo",
+                            "scale": "natural",
+                            "role": "landscape element"
+                        },
+                        "mule": {
+                            "form": "pack mule",
+                            "scale": "normal",
+                            "role": "travel companion"
+                        }
+                    }
+                },
+                {
+                    "scene_type": "Village Market",
+                    "plausibility": 0.85,
+                    "reasoning": "A bustling village market where potted plants are sold from a stall. A wagon is used as a mobile display stand. Bamboo is sold as building material or food. A mule is used to bring goods to market or is itself for sale.",
+                    "object_interpretations": {
+                        "potted plant": {
+                            "form": "market goods",
+                            "scale": "normal",
+                            "role": "commodity for sale"
+                        },
+                        "wagon": {
+                            "form": "market stall",
+                            "scale": "normal",
+                            "role": "display platform"
+                        },
+                        "bamboo": {
+                            "form": "bundled bamboo",
+                            "scale": "normal",
+                            "role": "market merchandise"
+                        },
+                        "mule": {
+                            "form": "working animal",
+                            "scale": "normal",
+                            "role": "market transport"
+                        }
+                    }
+                },
+                {
+                    "scene_type": "Scholar's Private Garden",
+                    "plausibility": 0.8,
+                    "reasoning": "A scholar's contemplative garden where a prized potted plant is displayed. A small wagon serves as a decorative element or tool carrier. Bamboo represents scholarly virtues. A mule might be the scholar's mount for nature excursions.",
+                    "object_interpretations": {
+                        "potted plant": {
+                            "form": "cultivated specimen",
+                            "scale": "normal",
+                            "role": "meditation object"
+                        },
+                        "wagon": {
+                            "form": "ornamental wagon",
+                            "scale": "small",
+                            "role": "garden decoration"
+                        },
+                        "bamboo": {
+                            "form": "cultivated bamboo",
+                            "scale": "natural",
+                            "role": "symbolic plant"
+                        },
+                        "mule": {
+                            "form": "companion animal",
+                            "scale": "normal",
+                            "role": "scholar's mount"
+                        }
+                    }
+                }
+            ],
+            "selected_scene": {
+                "scene_type": "Mountain Nursery",
+                "plausibility": 0.9,
+                "reasoning": "A mountain-side plant nursery where potted plants are arranged for sale. A wagon is used to transport plants between greenhouse and display area. Bamboo grows wild on the mountain slope, providing natural fencing. A mule helps carry heavy potted plants up steep paths where vehicles cannot go.",
+                "object_interpretations": {
+                    "potted plant": {
+                        "form": "real nursery plant",
+                        "scale": "normal",
+                        "role": "product for sale"
+                    },
+                    "wagon": {
+                        "form": "utility wagon",
+                        "scale": "normal (4-5 feet)",
+                        "role": "transport equipment"
+                    },
+                    "bamboo": {
+                        "form": "wild bamboo",
+                        "scale": "natural",
+                        "role": "mountain vegetation"
+                    },
+                    "mule": {
+                        "form": "working animal",
+                        "scale": "normal",
+                        "role": "transportation assistant"
+                    }
+                },
+                "scene_brief": "A Mountain Nursery featuring potted plant, with wagon, bamboo, and mule"
+            }
+        }
+    },
+    "final_prompts": {
+        "main_prompt": "A Chinese Ink Painting painting depicting a tranquil morning scene where a large, weathered wagon in sepia brown and charcoal gray stands beside a calm, patient mule in charcoal and warm gray, with a medium-sized potted plant in emerald green and rust brown positioned between them, its dew-kissed leaves fresh and thriving. In the background, dominant bamboo groves in sage green and silver gray rise lush and flexible, creating a natural frame. The spatial arrangement shows the potted plant adjacent to both the wagon and mule, forming a cohesive triangular grouping in the soft morning light. The atmosphere is fresh and energetic yet subdued and gentle, with natural lighting casting delicate shadows and highlighting the organic textures of ceramic, wood, metal, and foliage in harmonious ink wash tones.",
+        "negative_prompt": "photorealistic, 3d render, modern, digital art, photograph, low quality, blurry, distorted, cartoon, anime, western painting, oil painting, watercolor, bright colors, neon, oversaturated, text, signature, frame, border",
+        "prompt_formats": {
+            "simple": "A Chinese ink painting of a wagon, mule, potted plant, and bamboo in a gentle morning setting.",
+            "complex": "A Chinese Ink Painting painting depicting a tranquil morning scene where a large, weathered wagon in sepia brown and charcoal gray stands beside a calm, patient mule in charcoal and warm gray, with a medium-sized potted plant in emerald green and rust brown positioned between them, its dew-kissed leaves fresh and thriving. In the background, dominant bamboo groves in sage green and silver gray rise lush and flexible, creating a natural frame. The spatial arrangement shows the potted plant adjacent to both the wagon and mule, forming a cohesive triangular grouping in the soft morning light. The atmosphere is fresh and energetic yet subdued and gentle, with natural lighting casting delicate shadows and highlighting the organic textures of ceramic, wood, metal, and foliage in harmonious ink wash tones.",
+            "comma_separated": "Chinese Ink Painting, potted plant, wagon, bamboo, mule, morning, soft lighting, fresh atmosphere, emerald green, sepia brown, sage green, charcoal gray, weathered, thriving, calm, lush, spatial arrangement, organic textures, ink wash",
+            "tags": "art, painting, chinese ink painting, ink wash, traditional art, morning scene, wagon, mule, potted plant, bamboo, organic, natural, serene, composition, atmospheric"
+        }
+    }
+}

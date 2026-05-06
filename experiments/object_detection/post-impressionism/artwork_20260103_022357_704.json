@@ -1,0 +1,281 @@
+{
+    "artwork_id": "artwork_20260103_022357_704",
+    "generation_timestamp": "2026-01-03T02:24:32.357944",
+    "style": "Post-Impressionism",
+    "objects": {
+        "object_ids": [
+            46,
+            48,
+            1
+        ],
+        "object_names": [
+            "plate",
+            "plum",
+            "fisherman"
+        ],
+        "enhanced_objects": [
+            {
+                "object_id": 46,
+                "name": "plate",
+                "artistic_description": "A ceramic plate with a vibrant, hand-painted floral border in bold cobalt blue and sunlit ochre, its glossy surface catching and scattering the bright afternoon sunlight into sharp, dancing highlights. The white glaze glows with a warm, sun-kissed tint, and the painted motifs appear slightly thick and textured, as if modeled with a palette knife.",
+                "size": "Medium",
+                "state": "pristine and glossy",
+                "primary_colors": [
+                    "sunlit white",
+                    "cobalt blue"
+                ],
+                "material": "ceramic"
+            },
+            {
+                "object_id": 48,
+                "name": "plum",
+                "artistic_description": "A single plum, its skin a deep, velvety aubergine that absorbs the ambient light while a single, brilliant highlight burns on its rounded cheek. The surface is matte and slightly dusty, with subtle undertones of dusky violet and warm brown where the sunlight grazes its form, rendered with thick, deliberate brushstrokes.",
+                "size": "Small",
+                "state": "fresh and ripe",
+                "primary_colors": [
+                    "deep aubergine",
+                    "dusky violet"
+                ],
+                "material": ""
+            },
+            {
+                "object_id": 1,
+                "name": "fisherman",
+                "artistic_description": "A decorative wooden fisherman figure, its form defined by bold, simplified contours and flattened planes of color. His weathered blue jacket is a saturated cerulean, and his ruddy cheeks are painted with thick strokes of vermilion and orange, capturing the cheerful, sun-drenched atmosphere. The varnished wood catches the light, giving the painted surfaces a slightly luminous, folk-art quality.",
+                "size": "Large",
+                "state": "stylized and decorative",
+                "primary_colors": [
+                    "cerulean blue",
+                    "vermilion"
+                ],
+                "material": "wood"
+            }
+        ]
+    },
+    "composition": {
+        "spatial_relations": [
+            [
+                46,
+                "on",
+                1
+            ],
+            [
+                48,
+                "inside",
+                46
+            ]
+        ],
+        "semantic_relations": []
+    },
+    "environment": {
+        "environment_details": {
+            "scene_brief": "A vintage seaside shop featuring plate, with plum, and decorative fisherman as decoration",
+            "place365_name": "/s/shopfront",
+            "place365_id": 301,
+            "time_of_day": "afternoon",
+            "weather": "sunny",
+            "period": "Modern",
+            "is_indoor": true,
+            "lighting": {
+                "type": "natural",
+                "quality": "harsh",
+                "direction": "side-lit",
+                "mood": "warm",
+                "reasoning": "Given the 'sunny' weather and 'afternoon' time, the lighting is natural and warm. 'Harsh' quality is selected to emphasize the geometric forms and distinct shadows often seen in Post-Impressionism (e.g., Cezanne or Van Gogh). 'Side-lit' suggests light entering from the side of the shopfront, creating depth and texture on the decorative objects."
+            },
+            "atmosphere": "bright and active and cheerful"
+        },
+        "scene_inference": {
+            "all_candidates": [
+                {
+                    "scene_type": "rustic kitchen table",
+                    "plausibility": 0.95,
+                    "reasoning": "A plate is a central dining object. A fisherman could be a person sitting at the table, perhaps having a meal or preparing gear. A plum is a fruit that could be placed on the plate or on the table nearby. The Post-Impressionist style suits the texture of wood and rustic light.",
+                    "object_interpretations": {
+                        "plate": {
+                            "form": "real ceramic plate",
+                            "scale": "normal",
+                            "role": "primary dining object"
+                        },
+                        "plum": {
+                            "form": "real fruit",
+                            "scale": "normal",
+                            "role": "food item on plate"
+                        },
+                        "fisherman": {
+                            "form": "real person",
+                            "scale": "life-size",
+                            "role": "human subject/diner"
+                        }
+                    }
+                },
+                {
+                    "scene_type": "seaside dock",
+                    "plausibility": 0.9,
+                    "reasoning": "The fisherman is in his natural habitat. He might be holding a plate containing a plum as a snack while mending nets or waiting for a catch.",
+                    "object_interpretations": {
+                        "fisherman": {
+                            "form": "real person",
+                            "scale": "life-size",
+                            "role": "primary subject"
+                        },
+                        "plate": {
+                            "form": "real plate",
+                            "scale": "normal",
+                            "role": "utility object (holding food)"
+                        },
+                        "plum": {
+                            "form": "real fruit",
+                            "scale": "normal",
+                            "role": "food item"
+                        }
+                    }
+                },
+                {
+                    "scene_type": "still life painting",
+                    "plausibility": 0.85,
+                    "reasoning": "A classic Post-Impressionist subject. The plate and plum are physical objects arranged on a table. The fisherman could be a painting hanging on the wall behind the table, or a figurine placed on the table.",
+                    "object_interpretations": {
+                        "plate": {
+                            "form": "real plate",
+                            "scale": "normal",
+                            "role": "still life object"
+                        },
+                        "plum": {
+                            "form": "real fruit",
+                            "scale": "normal",
+                            "role": "still life object"
+                        },
+                        "fisherman": {
+                            "form": "painting or ceramic figurine",
+                            "scale": "small/medium",
+                            "role": "background art or decorative object"
+                        }
+                    }
+                },
+                {
+                    "scene_type": "vintage seaside shop",
+                    "plausibility": 0.8,
+                    "reasoning": "A shop selling nautical items. A ceramic plate with a painted fisherman motif is on display. A real plum sits on the counter as a snack for the shopkeeper.",
+                    "object_interpretations": {
+                        "plate": {
+                            "form": "ceramic plate (decorative)",
+                            "scale": "normal",
+                            "role": "merchandise"
+                        },
+                        "fisherman": {
+                            "form": "image on plate",
+                            "scale": "small (image)",
+                            "role": "decorative motif"
+                        },
+                        "plum": {
+                            "form": "real fruit",
+                            "scale": "normal",
+                            "role": "casual snack"
+                        }
+                    },
+                    "scene_brief": "A vintage seaside shop featuring plate, with plum, and decorative fisherman as decoration"
+                },
+                {
+                    "scene_type": "abstract coastal landscape",
+                    "plausibility": 0.7,
+                    "reasoning": "In Post-Impressionism, shapes can be suggestive. The plate represents the moon or a sun. The fisherman is a distinct figure in the landscape. The plum is a bold splash of color (purple) in the foreground.",
+                    "object_interpretations": {
+                        "plate": {
+                            "form": "stylized circle",
+                            "scale": "variable",
+                            "role": "celestial body or abstract shape"
+                        },
+                        "fisherman": {
+                            "form": "stylized human figure",
+                            "scale": "small",
+                            "role": "narrative element"
+                        },
+                        "plum": {
+                            "form": "abstract purple shape",
+                            "scale": "medium",
+                            "role": "color accent"
+                        }
+                    }
+                },
+                {
+                    "scene_type": "fishing boat deck",
+                    "plausibility": 0.85,
+                    "reasoning": "The fisherman is working on a boat. He has a packed lunch on a crate: a plate with a sandwich and a plum for dessert.",
+                    "object_interpretations": {
+                        "fisherman": {
+                            "form": "real person",
+                            "scale": "life-size",
+                            "role": "worker"
+                        },
+                        "plate": {
+                            "form": "metal/wooden plate",
+                            "scale": "normal",
+                            "role": "lunch container"
+                        },
+                        "plum": {
+                            "form": "real fruit",
+                            "scale": "normal",
+                            "role": "dessert"
+                        }
+                    }
+                },
+                {
+                    "scene_type": "kitchen counter with portrait",
+                    "plausibility": 0.9,
+                    "reasoning": "A kitchen setting where a plate of plums is prepared. On the wall hangs a portrait of a fisherman (perhaps the homeowner's relative).",
+                    "object_interpretations": {
+                        "plate": {
+                            "form": "real plate",
+                            "scale": "normal",
+                            "role": "serving dish"
+                        },
+                        "plum": {
+                            "form": "real fruit",
+                            "scale": "normal",
+                            "role": "contents of plate"
+                        },
+                        "fisherman": {
+                            "form": "portrait painting",
+                            "scale": "medium",
+                            "role": "wall decoration"
+                        }
+                    }
+                }
+            ],
+            "selected_scene": {
+                "scene_type": "vintage seaside shop",
+                "plausibility": 0.8,
+                "reasoning": "A shop selling nautical items. A ceramic plate with a painted fisherman motif is on display. A real plum sits on the counter as a snack for the shopkeeper.",
+                "object_interpretations": {
+                    "plate": {
+                        "form": "ceramic plate (decorative)",
+                        "scale": "normal",
+                        "role": "merchandise"
+                    },
+                    "fisherman": {
+                        "form": "image on plate",
+                        "scale": "small (image)",
+                        "role": "decorative motif"
+                    },
+                    "plum": {
+                        "form": "real fruit",
+                        "scale": "normal",
+                        "role": "casual snack"
+                    }
+                },
+                "scene_brief": "A vintage seaside shop featuring plate, with plum, and decorative fisherman as decoration"
+            }
+        }
+    },
+    "final_prompts": {
+        "main_prompt": "A Post-Impressionism painting depicting a cheerful afternoon scene where a large, stylized fisherman in cerulean blue and vermilion clothing sits prominently in the foreground, his decorative form creating a strong visual anchor. Balanced atop his head is a medium-sized, pristine ceramic plate with a glossy finish, its sunlit white surface adorned with cobalt blue patterns that catch the harsh natural light. Inside this plate rests a single small plum of deep aubergine and dusky violet hues, appearing fresh and ripe against the white ceramic. The spatial arrangement creates a playful vertical composition\u2014fisherman supporting plate, plate containing plum\u2014all bathed in the bright, active atmosphere of a cheerful afternoon with bold, expressive brushstrokes and vibrant color fields characteristic of the style.",
+        "negative_prompt": "photorealistic, 3d render, modern, digital art, photograph, low quality, blurry, distorted, ugly, deformed, text, watermark, signature, frame, cartoon, anime, realistic, hyperrealistic, photorealistic",
+        "prompt_formats": {
+            "simple": "A Post-Impressionism painting of a fisherman with a plate on his head containing a plum during a bright afternoon.",
+            "complex": "A Post-Impressionism painting depicting a cheerful afternoon scene where a large, stylized fisherman in cerulean blue and vermilion clothing sits prominently in the foreground, his decorative form creating a strong visual anchor. Balanced atop his head is a medium-sized, pristine ceramic plate with a glossy finish, its sunlit white surface adorned with cobalt blue patterns that catch the harsh natural light. Inside this plate rests a single small plum of deep aubergine and dusky violet hues, appearing fresh and ripe against the white ceramic. The spatial arrangement creates a playful vertical composition\u2014fisherman supporting plate, plate containing plum\u2014all bathed in the bright, active atmosphere of a cheerful afternoon with bold, expressive brushstrokes and vibrant color fields characteristic of the style.",
+            "comma_separated": "Post-Impressionism painting, large stylized fisherman in cerulean blue and vermilion, medium glossy ceramic plate with cobalt blue patterns on his head, small fresh plum in deep aubergine inside plate, bright cheerful afternoon, harsh natural lighting, active atmosphere, bold brushstrokes, vibrant colors, decorative composition",
+            "tags": "art, painting, post-impressionism, fisherman, plate, plum, afternoon, bright, cheerful, stylized, decorative, ceramic, fruit, still life, figure, composition, color field, expressive"
+        }
+    }
+}

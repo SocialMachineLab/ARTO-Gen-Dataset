@@ -1,0 +1,378 @@
+{
+    "artwork_id": "artwork_20260103_041411_217",
+    "generation_timestamp": "2026-01-03T04:14:46.240188",
+    "style": "Post-Impressionism",
+    "objects": {
+        "object_ids": [
+            26,
+            18,
+            60,
+            61
+        ],
+        "object_names": [
+            "canopy",
+            "donkey",
+            "hammock",
+            "billiard table"
+        ],
+        "enhanced_objects": [
+            {
+                "object_id": 26,
+                "name": "canopy",
+                "artistic_description": "Vibrant fabric stretched taut, saturated with warm afternoon sunlight that transforms the material into luminous patches of intense color. The canvas glows with thick, visible brushstrokes of golden-yellow and ochre where light directly strikes, while shadowed areas deepen into rich terracotta and burnt sienna. The texture appears tactile and woven, with light catching the subtle ridges of the fabric weave, creating a mosaic of light and shadow with bold, unblended color transitions.",
+                "size": "Large",
+                "state": "taut and vibrant",
+                "primary_colors": [
+                    "golden-yellow",
+                    "terracotta"
+                ],
+                "material": "canvas"
+            },
+            {
+                "object_id": 18,
+                "name": "donkey",
+                "artistic_description": "Coarse, dusty coat rendered in thick impasto strokes of warm gray and dusty brown, with sunlight creating brilliant highlights along the animal's back and shoulders. The fur appears textured and matte, absorbing and scattering light in a way that emphasizes each hair's roughness. Patches of sunlit skin show warm beige tones, while the eyes catch bright specular highlights, giving life to the creature. The overall appearance is earthy and substantial, with strong contrasts between illuminated and shadowed areas.",
+                "size": "Medium",
+                "state": "alert and standing",
+                "primary_colors": [
+                    "dusty brown",
+                    "warm gray"
+                ],
+                "material": "fur"
+            },
+            {
+                "object_id": 60,
+                "name": "hammock",
+                "artistic_description": "Loosely woven fabric suspended in gentle curves, bathed in dappled sunlight filtering through the canopy above. The material shows warm cream and soft coral tones where light penetrates, with visible weave patterns emphasized by strong directional light. The fabric appears slightly translucent in the brightest areas, revealing subtle color variations. Shadow patterns from overhead create rhythmic stripes across the surface, rendered with bold, confident strokes that capture the interplay of light and the material's relaxed, flowing state.",
+                "size": "Medium",
+                "state": "relaxed and draped",
+                "primary_colors": [
+                    "cream",
+                    "soft coral"
+                ],
+                "material": "woven fabric"
+            },
+            {
+                "object_id": 61,
+                "name": "billiard table",
+                "artistic_description": "Smooth, dark green felt surface that absorbs and diffuses the bright afternoon light into a velvety, luminous expanse. The cloth shows intense emerald and forest green tones with visible nap direction in the brushwork. Polished wooden rails gleam with warm amber and chestnut highlights, reflecting light with sharp, saturated strokes. The surface appears cool and inviting, with strong color contrasts between the deep green playing field and the rich, reflective wood edges, capturing the table's solid, crafted presence.",
+                "size": "Large",
+                "state": "pristine and polished",
+                "primary_colors": [
+                    "emerald green",
+                    "amber"
+                ],
+                "material": "felt and wood"
+            }
+        ]
+    },
+    "composition": {
+        "spatial_relations": [
+            [
+                60,
+                "under",
+                26
+            ],
+            [
+                18,
+                "under",
+                26
+            ],
+            [
+                61,
+                "under",
+                26
+            ],
+            [
+                60,
+                "next to",
+                61
+            ],
+            [
+                18,
+                "next to",
+                60
+            ]
+        ],
+        "semantic_relations": []
+    },
+    "environment": {
+        "environment_details": {
+            "scene_brief": "A Rustic Courtyard Garden centered around canopy, with donkey, hammock, and billiard table",
+            "place365_name": "/c/courtyard",
+            "place365_id": 109,
+            "time_of_day": "afternoon",
+            "weather": "sunny",
+            "period": "Contemporary",
+            "is_indoor": true,
+            "lighting": {
+                "type": "natural",
+                "quality": "harsh",
+                "direction": "side-lit",
+                "direction_reasoning": "Side-lighting (typical of afternoon sun) creates distinct shadows and highlights the three-dimensionality of the billiard table and the donkey, essential for the Post-Impressionist focus on form and structure.",
+                "mood": "warm",
+                "reasoning": "The combination of sunny weather and afternoon time creates a warm, high-contrast lighting environment. This emphasizes the rustic textures and allows for the bold, unmodulated color blocks characteristic of Post-Impressionism."
+            },
+            "atmosphere": "bright and active and cheerful"
+        },
+        "scene_inference": {
+            "all_candidates": [
+                {
+                    "scene_type": "Rustic Courtyard Garden",
+                    "plausibility": 0.9,
+                    "reasoning": "A large canopy provides shade in a courtyard. A donkey can be tethered nearby, a hammock strung between posts, and a billiard table could be a weathered outdoor piece for garden games.",
+                    "object_interpretations": {
+                        "canopy": {
+                            "form": "real structure",
+                            "scale": "large",
+                            "role": "primary shade provider"
+                        },
+                        "donkey": {
+                            "form": "real animal",
+                            "scale": "normal",
+                            "role": "courtyard animal"
+                        },
+                        "hammock": {
+                            "form": "real hammock",
+                            "scale": "normal",
+                            "role": "relaxation spot"
+                        },
+                        "billiard table": {
+                            "form": "weathered outdoor table",
+                            "scale": "large",
+                            "role": "garden furniture"
+                        }
+                    },
+                    "scene_brief": "A Rustic Courtyard Garden centered around canopy, with donkey, hammock, and billiard table"
+                },
+                {
+                    "scene_type": "Summer Fairground",
+                    "plausibility": 0.85,
+                    "reasoning": "Canopies cover stalls. A donkey might be part of a petting zoo or ride. A hammock could be in a relaxation lounge, and a billiard table could be a game booth attraction.",
+                    "object_interpretations": {
+                        "canopy": {
+                            "form": "canvas tent",
+                            "scale": "large",
+                            "role": "stall cover"
+                        },
+                        "donkey": {
+                            "form": "real animal",
+                            "scale": "normal",
+                            "role": "attraction"
+                        },
+                        "hammock": {
+                            "form": "hammock chair",
+                            "scale": "normal",
+                            "role": "rest area seating"
+                        },
+                        "billiard table": {
+                            "form": "miniature table",
+                            "scale": "small",
+                            "role": "game prize"
+                        }
+                    }
+                },
+                {
+                    "scene_type": "Bohemian Artist's Studio",
+                    "plausibility": 0.8,
+                    "reasoning": "A canopy acts as a backdrop for painting. A donkey is a subject/model. A hammock serves as a quirky seating area, and a billiard table is a studio furniture piece for holding supplies.",
+                    "object_interpretations": {
+                        "canopy": {
+                            "form": "fabric drape",
+                            "scale": "large",
+                            "role": "studio backdrop"
+                        },
+                        "donkey": {
+                            "form": "taxidermy or statue",
+                            "scale": "normal",
+                            "role": "artistic subject"
+                        },
+                        "hammock": {
+                            "form": "hammock",
+                            "scale": "normal",
+                            "role": "relaxation furniture"
+                        },
+                        "billiard table": {
+                            "form": "real table",
+                            "scale": "large",
+                            "role": "utility surface"
+                        }
+                    }
+                },
+                {
+                    "scene_type": "Vintage Carnival",
+                    "plausibility": 0.85,
+                    "reasoning": "Canopies are essential for carnival tents. Donkeys are classic carnival animals. A hammock swing ride fits the theme, and a billiard table is a classic carnival game.",
+                    "object_interpretations": {
+                        "canopy": {
+                            "form": "striped tent",
+                            "scale": "huge",
+                            "role": "main tent cover"
+                        },
+                        "donkey": {
+                            "form": "real animal",
+                            "scale": "normal",
+                            "role": "ride animal"
+                        },
+                        "hammock": {
+                            "form": "swing ride",
+                            "scale": "large",
+                            "role": "ride element"
+                        },
+                        "billiard table": {
+                            "form": "game table",
+                            "scale": "normal",
+                            "role": "carnival game"
+                        }
+                    }
+                },
+                {
+                    "scene_type": "Mediterranean Villa Terrace",
+                    "plausibility": 0.9,
+                    "reasoning": "A canopy shades the terrace. A donkey roams the grounds. A hammock is hung between olive trees, and a billiard table sits on the patio for evening games.",
+                    "object_interpretations": {
+                        "canopy": {
+                            "form": "pergola",
+                            "scale": "large",
+                            "role": "terrace shade"
+                        },
+                        "donkey": {
+                            "form": "real animal",
+                            "scale": "normal",
+                            "role": "groundskeeper's pet"
+                        },
+                        "hammock": {
+                            "form": "hammock",
+                            "scale": "normal",
+                            "role": "garden furniture"
+                        },
+                        "billiard table": {
+                            "form": "outdoor table",
+                            "scale": "large",
+                            "role": "patio entertainment"
+                        }
+                    }
+                },
+                {
+                    "scene_type": "Surreal Dreamscape",
+                    "plausibility": 0.75,
+                    "reasoning": "In Post-Impressionism/Surrealism, logic bends. A canopy floats in the sky. A donkey walks on clouds. A hammock hangs from the canopy, and a billiard table floats nearby.",
+                    "object_interpretations": {
+                        "canopy": {
+                            "form": "ethereal fabric",
+                            "scale": "giant",
+                            "role": "sky anchor"
+                        },
+                        "donkey": {
+                            "form": "dream creature",
+                            "scale": "variable",
+                            "role": "wanderer"
+                        },
+                        "hammock": {
+                            "form": "cloud-like bed",
+                            "scale": "large",
+                            "role": "resting cloud"
+                        },
+                        "billiard table": {
+                            "form": "floating table",
+                            "scale": "normal",
+                            "role": "abstract geometry"
+                        }
+                    }
+                },
+                {
+                    "scene_type": "Outdoor Wedding Reception",
+                    "plausibility": 0.8,
+                    "reasoning": "Canopies cover the dining area. A donkey is a decorated pet for photos. A hammock is a guest lounge area, and a billiard table is a lawn game for guests.",
+                    "object_interpretations": {
+                        "canopy": {
+                            "form": "decorative tent",
+                            "scale": "large",
+                            "role": "reception cover"
+                        },
+                        "donkey": {
+                            "form": "real animal",
+                            "scale": "normal",
+                            "role": "photo prop"
+                        },
+                        "hammock": {
+                            "form": "decorated hammock",
+                            "scale": "normal",
+                            "role": "seating"
+                        },
+                        "billiard table": {
+                            "form": "lawn game",
+                            "scale": "normal",
+                            "role": "guest entertainment"
+                        }
+                    }
+                },
+                {
+                    "scene_type": "Farmyard Relaxation Zone",
+                    "plausibility": 0.9,
+                    "reasoning": "A canopy protects the porch. A donkey is in the pen nearby. A hammock is on the porch, and a billiard table is a converted barn table for workers.",
+                    "object_interpretations": {
+                        "canopy": {
+                            "form": "tin roof",
+                            "scale": "large",
+                            "role": "porch cover"
+                        },
+                        "donkey": {
+                            "form": "real animal",
+                            "scale": "normal",
+                            "role": "farm livestock"
+                        },
+                        "hammock": {
+                            "form": "hammock",
+                            "scale": "normal",
+                            "role": "worker's rest"
+                        },
+                        "billiard table": {
+                            "form": "barn table",
+                            "scale": "large",
+                            "role": "utility table"
+                        }
+                    }
+                }
+            ],
+            "selected_scene": {
+                "scene_type": "Rustic Courtyard Garden",
+                "plausibility": 0.9,
+                "reasoning": "A large canopy provides shade in a courtyard. A donkey can be tethered nearby, a hammock strung between posts, and a billiard table could be a weathered outdoor piece for garden games.",
+                "object_interpretations": {
+                    "canopy": {
+                        "form": "real structure",
+                        "scale": "large",
+                        "role": "primary shade provider"
+                    },
+                    "donkey": {
+                        "form": "real animal",
+                        "scale": "normal",
+                        "role": "courtyard animal"
+                    },
+                    "hammock": {
+                        "form": "real hammock",
+                        "scale": "normal",
+                        "role": "relaxation spot"
+                    },
+                    "billiard table": {
+                        "form": "weathered outdoor table",
+                        "scale": "large",
+                        "role": "garden furniture"
+                    }
+                },
+                "scene_brief": "A Rustic Courtyard Garden centered around canopy, with donkey, hammock, and billiard table"
+            }
+        }
+    },
+    "final_prompts": {
+        "main_prompt": "A Post-Impressionism painting depicting a bright and cheerful afternoon scene under a large, taut canopy of vibrant golden-yellow and terracotta stripes. Under this protective shade, a medium-sized dusty brown donkey stands alert beside a relaxed, medium-sized hammock draped in soft cream and coral woven fabric. Next to the hammock sits a large, pristine billiard table with an emerald green felt surface and polished amber wood rails. The spatial arrangement shows all three objects\u2014the alert donkey, the draped hammock, and the polished billiard table\u2014gathered together under the expansive canopy, with the hammock positioned between the donkey and the billiard table. Harsh natural afternoon light creates bold, expressive shadows and illuminates the scene with an active, joyful atmosphere, emphasizing the textured canvas of the canopy, the donkey's warm gray fur, and the contrasting materials of woven fabric and smooth wood.",
+        "negative_prompt": "photorealistic, 3d render, modern, digital art, photograph, low quality, blurry, distorted, ugly, deformed, disfigured, poorly drawn, bad anatomy, extra limbs, cloned face, out of frame, text, signature, watermark, cartoon, anime, sketch, grayscale, monochrome, dark, gloomy, sad, depressing",
+        "prompt_formats": {
+            "simple": "A Post-Impressionism painting of a donkey, hammock, and billiard table under a colorful canopy on a bright, cheerful afternoon.",
+            "complex": "A Post-Impressionism painting depicting a bright and cheerful afternoon scene under a large, taut canopy of vibrant golden-yellow and terracotta stripes. Under this protective shade, a medium-sized dusty brown donkey stands alert beside a relaxed, medium-sized hammock draped in soft cream and coral woven fabric. Next to the hammock sits a large, pristine billiard table with an emerald green felt surface and polished amber wood rails. The spatial arrangement shows all three objects\u2014the alert donkey, the draped hammock, and the polished billiard table\u2014gathered together under the expansive canopy, with the hammock positioned between the donkey and the billiard table. Harsh natural afternoon light creates bold, expressive shadows and illuminates the scene with an active, joyful atmosphere, emphasizing the textured canvas of the canopy, the donkey's warm gray fur, and the contrasting materials of woven fabric and smooth wood.",
+            "comma_separated": "Post-Impressionism painting, large golden-yellow terracotta canopy, medium dusty brown donkey standing alert, medium cream coral hammock draped, large emerald green amber billiard table pristine, all under canopy, hammock next to billiard table, donkey next to hammock, harsh natural afternoon lighting, bright active cheerful atmosphere, textured canvas, fur, woven fabric, felt, wood, expressive brushstrokes, vibrant colors, bold shadows",
+            "tags": "art, painting, post-impressionism, vincent van gogh style, paul gauguin style, expressive brushwork, vibrant palette, outdoor scene, canopy, donkey, hammock, billiard table, afternoon light, cheerful, active, textured materials, composition, still life with animals, whimsical"
+        }
+    }
+}

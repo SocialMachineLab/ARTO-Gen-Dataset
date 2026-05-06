@@ -1,0 +1,303 @@
+{
+    "artwork_id": "artwork_20260104_002325_882",
+    "generation_timestamp": "2026-01-04T00:23:52.956960",
+    "style": "Impressionism",
+    "objects": {
+        "object_ids": [
+            5,
+            75,
+            39
+        ],
+        "object_names": [
+            "plane",
+            "clock",
+            "tennis racket"
+        ],
+        "enhanced_objects": [
+            {
+                "object_id": 5,
+                "name": "plane",
+                "artistic_description": "A vintage aircraft body rendered in soft, dappled sunlight streaming through museum windows, its weathered aluminum fuselage catching warm golden highlights while casting cool blue-gray shadows. The painted surfaces show gentle color transitions where afternoon light bleeds into muted sage greens and faded cream tones, with subtle brushstroke-like variations in the patina suggesting decades of careful preservation. Sunlight creates soft, impressionistic reflections across curved metal surfaces, making the plane appear almost ethereal in the bright, cheerful atmosphere.",
+                "size": "Dominant",
+                "state": "preserved vintage condition with gentle aging",
+                "primary_colors": [
+                    "warm cream",
+                    "muted sage"
+                ],
+                "material": "weathered aluminum and painted metal"
+            },
+            {
+                "object_id": 75,
+                "name": "clock",
+                "artistic_description": "A brass clock face glowing with warm, honeyed light that pools across its polished surface, creating soft impressionistic daubs of amber and gold. The afternoon sun catches the raised numerals and delicate hands, making them shimmer with gentle highlights while the background dial shows subtle color variations in warm ochre and soft tan. The glass cover reflects diffused window light in soft, painterly strokes, and the aged brass shows gentle oxidation that adds depth and character to its luminous surface.",
+                "size": "Medium",
+                "state": "polished vintage piece with gentle patina",
+                "primary_colors": [
+                    "honey amber",
+                    "warm ochre"
+                ],
+                "material": "aged brass and glass"
+            },
+            {
+                "object_id": 39,
+                "name": "tennis racket",
+                "artistic_description": "A wooden racket frame bathed in warm afternoon light that reveals the rich grain patterns in soft, impressionistic strokes of chestnut and caramel. The natural wood shows gentle color variations where sunlight dances across its curved form, creating subtle highlights and soft shadows. The taut strings catch the light in delicate, shimmering lines, while the worn leather grip displays muted tones of sienna and soft brown, its texture softened by the bright, cheerful atmosphere and years of gentle use.",
+                "size": "Small",
+                "state": "well-used vintage condition with warm aging",
+                "primary_colors": [
+                    "rich chestnut",
+                    "warm caramel"
+                ],
+                "material": "aged wood and natural gut strings"
+            }
+        ]
+    },
+    "composition": {
+        "spatial_relations": [
+            [
+                5,
+                "in",
+                75
+            ],
+            [
+                39,
+                "next to",
+                75
+            ]
+        ],
+        "semantic_relations": []
+    },
+    "environment": {
+        "environment_details": {
+            "scene_brief": "A Vintage aviation museum featuring plane, with clock displayed on shelves, and tennis racket",
+            "place365_name": "/m/museum/indoor",
+            "place365_id": 236,
+            "time_of_day": "afternoon",
+            "weather": "sunny",
+            "period": "Modern",
+            "is_indoor": true,
+            "lighting": {
+                "type": "natural",
+                "quality": "soft",
+                "direction": "side-lit",
+                "mood": "warm",
+                "reasoning": "Combining 'afternoon' time and 'sunny' weather results in natural lighting. The sun is lower in the sky, creating side-lighting that casts long, soft shadows across the museum floor and the objects, enhancing depth. The 'warm' mood fits the nostalgic 'Vintage' theme, and the 'soft' quality is ideal for the blending techniques of Impressionism."
+            },
+            "atmosphere": "bright and active and cheerful and gentle"
+        },
+        "scene_inference": {
+            "all_candidates": [
+                {
+                    "scene_type": "Airport terminal lounge",
+                    "plausibility": 0.9,
+                    "reasoning": "A plane is visible through large terminal windows as the primary object. A clock is a standard fixture on the wall for tracking flight times. A tennis racket can be seen as luggage or sports equipment carried by a traveler waiting for a flight.",
+                    "object_interpretations": {
+                        "plane": {
+                            "form": "real airplane",
+                            "scale": "large (viewed from distance through window)",
+                            "role": "primary visual focus"
+                        },
+                        "clock": {
+                            "form": "real wall clock",
+                            "scale": "normal",
+                            "role": "functional terminal fixture"
+                        },
+                        "tennis racket": {
+                            "form": "real sports equipment",
+                            "scale": "normal",
+                            "role": "traveler's luggage"
+                        }
+                    }
+                },
+                {
+                    "scene_type": "Vintage aviation museum",
+                    "plausibility": 0.85,
+                    "reasoning": "A vintage plane is the centerpiece of the museum exhibit. A grandfather clock stands nearby as part of a historical collection. A tennis racket rests against a bench where a visitor has left it while viewing the exhibit.",
+                    "object_interpretations": {
+                        "plane": {
+                            "form": "real vintage aircraft",
+                            "scale": "large",
+                            "role": "museum centerpiece"
+                        },
+                        "clock": {
+                            "form": "antique grandfather clock",
+                            "scale": "large",
+                            "role": "historical display item"
+                        },
+                        "tennis racket": {
+                            "form": "real tennis racket",
+                            "scale": "normal",
+                            "role": "visitor's personal item"
+                        }
+                    },
+                    "scene_brief": "A Vintage aviation museum featuring plane, with clock displayed on shelves, and tennis racket"
+                },
+                {
+                    "scene_type": "Outdoor tennis court with airfield view",
+                    "plausibility": 0.8,
+                    "reasoning": "A tennis racket is the primary action object on the court. A clock on the clubhouse wall tracks match time. A plane flies overhead in the background, visible in the sky above the court.",
+                    "object_interpretations": {
+                        "plane": {
+                            "form": "real airplane",
+                            "scale": "small (distant in sky)",
+                            "role": "background sky element"
+                        },
+                        "clock": {
+                            "form": "outdoor wall clock",
+                            "scale": "normal",
+                            "role": "timekeeper for match"
+                        },
+                        "tennis racket": {
+                            "form": "real tennis racket",
+                            "scale": "normal",
+                            "role": "primary action object"
+                        }
+                    }
+                },
+                {
+                    "scene_type": "Children's bedroom with model collection",
+                    "plausibility": 0.75,
+                    "reasoning": "A model plane hangs from the ceiling as a decoration. A toy clock sits on the nightstand. A miniature tennis racket is part of a toy sports set on the floor.",
+                    "object_interpretations": {
+                        "plane": {
+                            "form": "model airplane",
+                            "scale": "small (1:72)",
+                            "role": "ceiling decoration"
+                        },
+                        "clock": {
+                            "form": "toy alarm clock",
+                            "scale": "miniature",
+                            "role": "bedside decoration"
+                        },
+                        "tennis racket": {
+                            "form": "toy tennis racket",
+                            "scale": "miniature",
+                            "role": "toy sports equipment"
+                        }
+                    }
+                },
+                {
+                    "scene_type": "Abstract dream landscape",
+                    "plausibility": 0.7,
+                    "reasoning": "In an impressionist style, a plane morphs into a bird-like shape in the sky. A clock melts into a cloud formation. A tennis racket becomes a geometric pattern in the foreground, all blending in soft, blurred colors.",
+                    "object_interpretations": {
+                        "plane": {
+                            "form": "abstracted airplane shape",
+                            "scale": "variable (floating)",
+                            "role": "dream element"
+                        },
+                        "clock": {
+                            "form": "abstract clock face",
+                            "scale": "variable",
+                            "role": "time distortion element"
+                        },
+                        "tennis racket": {
+                            "form": "abstract geometric form",
+                            "scale": "variable",
+                            "role": "decorative pattern"
+                        }
+                    }
+                },
+                {
+                    "scene_type": "Sports equipment store with travel theme",
+                    "plausibility": 0.85,
+                    "reasoning": "A tennis racket is displayed on the store wall as merchandise. A clock hangs above for store hours. A poster on the wall shows a plane flying over a tennis court, representing the travel theme.",
+                    "object_interpretations": {
+                        "plane": {
+                            "form": "airplane in poster/art",
+                            "scale": "small (wall art)",
+                            "role": "thematic decoration"
+                        },
+                        "clock": {
+                            "form": "store wall clock",
+                            "scale": "normal",
+                            "role": "functional store fixture"
+                        },
+                        "tennis racket": {
+                            "form": "real tennis racket",
+                            "scale": "normal",
+                            "role": "store merchandise"
+                        }
+                    }
+                },
+                {
+                    "scene_type": "Outdoor picnic near small airstrip",
+                    "plausibility": 0.8,
+                    "reasoning": "A small private plane is parked on a nearby grass airstrip. A picnic blanket has a travel alarm clock for timing. A tennis racket lies on the blanket, ready for a post-picnic game.",
+                    "object_interpretations": {
+                        "plane": {
+                            "form": "real small aircraft",
+                            "scale": "large (but distant)",
+                            "role": "background landscape element"
+                        },
+                        "clock": {
+                            "form": "portable travel clock",
+                            "scale": "small",
+                            "role": "picnic accessory"
+                        },
+                        "tennis racket": {
+                            "form": "real tennis racket",
+                            "scale": "normal",
+                            "role": "picnic activity item"
+                        }
+                    }
+                },
+                {
+                    "scene_type": "Art studio with travel memorabilia",
+                    "plausibility": 0.75,
+                    "reasoning": "An impressionist painter's studio with a model plane on a shelf as inspiration. A clock on the wall for timing painting sessions. A tennis racket leaning in the corner, belonging to the artist who plays between painting sessions.",
+                    "object_interpretations": {
+                        "plane": {
+                            "form": "model airplane",
+                            "scale": "small",
+                            "role": "artist's reference object"
+                        },
+                        "clock": {
+                            "form": "studio wall clock",
+                            "scale": "normal",
+                            "role": "timing tool"
+                        },
+                        "tennis racket": {
+                            "form": "real tennis racket",
+                            "scale": "normal",
+                            "role": "artist's personal item"
+                        }
+                    }
+                }
+            ],
+            "selected_scene": {
+                "scene_type": "Vintage aviation museum",
+                "plausibility": 0.85,
+                "reasoning": "A vintage plane is the centerpiece of the museum exhibit. A grandfather clock stands nearby as part of a historical collection. A tennis racket rests against a bench where a visitor has left it while viewing the exhibit.",
+                "object_interpretations": {
+                    "plane": {
+                        "form": "real vintage aircraft",
+                        "scale": "large",
+                        "role": "museum centerpiece"
+                    },
+                    "clock": {
+                        "form": "antique grandfather clock",
+                        "scale": "large",
+                        "role": "historical display item"
+                    },
+                    "tennis racket": {
+                        "form": "real tennis racket",
+                        "scale": "normal",
+                        "role": "visitor's personal item"
+                    }
+                },
+                "scene_brief": "A Vintage aviation museum featuring plane, with clock displayed on shelves, and tennis racket"
+            }
+        }
+    },
+    "final_prompts": {
+        "main_prompt": "A Impressionism painting depicting a bright and active afternoon scene with a gentle, cheerful atmosphere. In the foreground, a warm cream and muted sage vintage plane, preserved in gentle condition, sits nestled within the polished honey amber and warm ochre face of a medium-sized clock, its aged brass and glass casing catching the soft natural afternoon light. Beside this clock, leaning casually against its side, rests a small, well-used tennis racket in rich chestnut and warm caramel tones, its aged wood frame and natural gut strings showing warm patina. The objects are arranged on a weathered surface of painted metal and aluminum, with dappled sunlight creating lively brushstrokes of color and shadow that blur the boundaries between objects in true Impressionist style, conveying movement and the fleeting quality of the afternoon light.",
+        "negative_prompt": "photorealistic, 3d render, modern, digital art, photograph, low quality, blurry, distorted, surreal, fantasy, cartoon, anime, hyperrealistic, ugly, deformed, text, watermark, signature, frame",
+        "prompt_formats": {
+            "simple": "An Impressionist painting of a vintage plane inside a clock with a tennis racket beside it on a sunny afternoon.",
+            "complex": "A Impressionism painting depicting a bright and active afternoon scene with a gentle, cheerful atmosphere. In the foreground, a warm cream and muted sage vintage plane, preserved in gentle condition, sits nestled within the polished honey amber and warm ochre face of a medium-sized clock, its aged brass and glass casing catching the soft natural afternoon light. Beside this clock, leaning casually against its side, rests a small, well-used tennis racket in rich chestnut and warm caramel tones, its aged wood frame and natural gut strings showing warm patina. The objects are arranged on a weathered surface of painted metal and aluminum, with dappled sunlight creating lively brushstrokes of color and shadow that blur the boundaries between objects in true Impressionist style, conveying movement and the fleeting quality of the afternoon light.",
+            "comma_separated": "Impressionism painting, vintage plane inside clock, tennis racket beside clock, warm cream and muted sage plane, honey amber and warm ochre clock, rich chestnut and warm caramel tennis racket, soft natural afternoon lighting, bright active cheerful gentle atmosphere, dappled sunlight, lively brushstrokes, weathered aluminum and painted metal surface, aged brass and glass, aged wood and gut strings",
+            "tags": "art, painting, impressionism, vintage, still life, afternoon light, soft lighting, brushstroke texture, color harmony, object arrangement, patina, weathered materials"
+        }
+    }
+}

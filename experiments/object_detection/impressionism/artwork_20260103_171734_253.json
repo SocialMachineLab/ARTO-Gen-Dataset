@@ -1,0 +1,304 @@
+{
+    "artwork_id": "artwork_20260103_171734_253",
+    "generation_timestamp": "2026-01-03T17:18:06.308519",
+    "style": "Impressionism",
+    "objects": {
+        "object_ids": [
+            16,
+            28,
+            8
+        ],
+        "object_names": [
+            "bengal tiger",
+            "dress shirt",
+            "cannon"
+        ],
+        "enhanced_objects": [
+            {
+                "object_id": 16,
+                "name": "bengal tiger",
+                "artistic_description": "A majestic tiger rendered in loose, visible brushstrokes that capture the dappled afternoon sunlight filtering through museum windows. Its orange-black stripes shimmer with warm golden highlights where light catches the fur, while deep violet shadows pool beneath. The coat appears velvety and luminous, with individual hairs suggested by quick, textured strokes of amber and burnt sienna. Whiskers are delicate pale lines against the warm fur. Eyes gleam with reflected window light, appearing as luminous amber orbs with dark pupils. The nose shows a moist, cool pinkish-gray tone that catches highlights.",
+                "size": "Large",
+                "state": "Taxidermy specimen in pristine condition, preserved with glossy glass eyes that reflect ambient light",
+                "primary_colors": [
+                    "warm golden-orange",
+                    "deep violet-black"
+                ],
+                "material": "fur, glass, preserved tissue"
+            },
+            {
+                "object_id": 28,
+                "name": "dress shirt",
+                "artistic_description": "Crisp white fabric rendered with quick, luminous strokes that capture the bright afternoon light. The cotton appears almost translucent where sunlight directly strikes it, glowing with pale yellow and cream tones. Soft blue-gray shadows drift across the folded planes, suggesting the gentle creases of display. Collar and cuffs show subtle variations of titanium white mixed with hints of cool sky blue where ambient light reflects from nearby surfaces. The fabric's weave is suggested by broken, textured brushwork that catches light unevenly, creating a lively interplay of highlight and shadow.",
+                "size": "Medium",
+                "state": "Freshly pressed and mounted, immaculate condition with sharp creases",
+                "primary_colors": [
+                    "brilliant white",
+                    "soft blue-gray"
+                ],
+                "material": "cotton fabric"
+            },
+            {
+                "object_id": 8,
+                "name": "cannon",
+                "artistic_description": "Massive bronze barrel rendered in rich, impasto strokes of warm ochre, burnt umber, and deep sienna. The metal surface reflects the bright afternoon light in scattered highlights of pale gold and yellow. Weathered patina appears as patches of cool greenish-gray and muted teal, suggesting age and oxidation. The rough, textured surface is built up with thick paint application, capturing the play of light across the cannon's curves. Dark, cool shadows pool around the base and carriage details, rendered in deep purples and blue-grays. The iron fittings catch light as cooler steel tones with stark white highlights.",
+                "size": "Dominant",
+                "state": "Well-maintained historical artifact with visible patina and polished wear points",
+                "primary_colors": [
+                    "warm bronze ochre",
+                    "greenish-gray patina"
+                ],
+                "material": "bronze, iron"
+            }
+        ]
+    },
+    "composition": {
+        "spatial_relations": [
+            [
+                28,
+                "on",
+                8
+            ],
+            [
+                16,
+                "next to",
+                8
+            ]
+        ],
+        "semantic_relations": []
+    },
+    "environment": {
+        "environment_details": {
+            "scene_brief": "A historical military museum centered around bengal tiger, with dress shirt, and cannon",
+            "place365_name": "/m/museum/indoor",
+            "place365_id": 236,
+            "time_of_day": "afternoon",
+            "weather": "sunny",
+            "period": "Contemporary",
+            "is_indoor": true,
+            "lighting": {
+                "type": "natural",
+                "quality": "soft",
+                "direction": "side-lit",
+                "direction_reasoning": "Assuming large windows typical of modern museums, the afternoon sun would provide strong side-lighting, illuminating the textures of the tiger fur and the metallic cannon.",
+                "mood": "warm",
+                "reasoning": "The combination of afternoon sun (natural) filtering through glass creates a warm, soft quality of light. This is perfect for Impressionism, allowing for the depiction of light refraction and color vibration on the historical objects, bridging the past (military history) with the present (Contemporary museum)."
+            },
+            "atmosphere": "bright and active and cheerful and gentle"
+        },
+        "scene_inference": {
+            "all_candidates": [
+                {
+                    "scene_type": "historical military museum",
+                    "plausibility": 0.85,
+                    "reasoning": "A Bengal tiger can be a taxidermy exhibit in a museum. A dress shirt can be a uniform display. A cannon is a standard museum artifact. The impressionistic style softens the harshness of the scene.",
+                    "object_interpretations": {
+                        "bengal tiger": {
+                            "form": "taxidermy specimen",
+                            "scale": "life-size",
+                            "role": "main exhibit"
+                        },
+                        "dress shirt": {
+                            "form": "uniform display",
+                            "scale": "life-size",
+                            "role": "historical artifact"
+                        },
+                        "cannon": {
+                            "form": "metal cannon",
+                            "scale": "life-size",
+                            "role": "museum piece"
+                        }
+                    },
+                    "scene_brief": "A historical military museum centered around bengal tiger, with dress shirt, and cannon"
+                },
+                {
+                    "scene_type": "theater stage set",
+                    "plausibility": 0.8,
+                    "reasoning": "A live tiger (or actor in costume) performs on stage. A cannon is a prop. A dress shirt is a costume piece. The impressionistic style mimics stage lighting and atmosphere.",
+                    "object_interpretations": {
+                        "bengal tiger": {
+                            "form": "costumed actor or real animal",
+                            "scale": "life-size",
+                            "role": "performer"
+                        },
+                        "dress shirt": {
+                            "form": "costume piece",
+                            "scale": "life-size",
+                            "role": "wardrobe"
+                        },
+                        "cannon": {
+                            "form": "stage prop",
+                            "scale": "life-size",
+                            "role": "set decoration"
+                        }
+                    }
+                },
+                {
+                    "scene_type": "vintage circus tent",
+                    "plausibility": 0.9,
+                    "reasoning": "The tiger is the star attraction. The cannon is used for a cannonball act. The dress shirt belongs to the ringmaster. Impressionism captures the fleeting lights of the circus.",
+                    "object_interpretations": {
+                        "bengal tiger": {
+                            "form": "live animal",
+                            "scale": "life-size",
+                            "role": "circus performer"
+                        },
+                        "dress shirt": {
+                            "form": "ringmaster's attire",
+                            "scale": "life-size",
+                            "role": "costume"
+                        },
+                        "cannon": {
+                            "form": "performance cannon",
+                            "scale": "life-size",
+                            "role": "stunt equipment"
+                        }
+                    }
+                },
+                {
+                    "scene_type": "surreal dreamscape",
+                    "plausibility": 0.75,
+                    "reasoning": "Objects float in a dream logic. The tiger wears the shirt. The cannon shoots flowers. Impressionism is the natural style for dreamlike visuals.",
+                    "object_interpretations": {
+                        "bengal tiger": {
+                            "form": "anthropomorphic",
+                            "scale": "life-size",
+                            "role": "dream character"
+                        },
+                        "dress shirt": {
+                            "form": "clothing",
+                            "scale": "life-size",
+                            "role": "worn accessory"
+                        },
+                        "cannon": {
+                            "form": "surreal object",
+                            "scale": "life-size",
+                            "role": "abstract element"
+                        }
+                    }
+                },
+                {
+                    "scene_type": "colonial jungle outpost",
+                    "plausibility": 0.85,
+                    "reasoning": "A tiger prowls outside a hut. Inside, a cannon defends the post, and a dress shirt hangs on a hook. The style evokes the heat and haze of the jungle.",
+                    "object_interpretations": {
+                        "bengal tiger": {
+                            "form": "wild animal",
+                            "scale": "life-size",
+                            "role": "threat"
+                        },
+                        "dress shirt": {
+                            "form": "worn laundry",
+                            "scale": "life-size",
+                            "role": "human element"
+                        },
+                        "cannon": {
+                            "form": "defensive weapon",
+                            "scale": "life-size",
+                            "role": "protection"
+                        }
+                    }
+                },
+                {
+                    "scene_type": "luxury fashion photoshoot",
+                    "plausibility": 0.8,
+                    "reasoning": "A high-concept shoot where a model in a dress shirt poses with a tiger and a cannon as props. The impressionistic style adds an artistic, high-fashion filter.",
+                    "object_interpretations": {
+                        "bengal tiger": {
+                            "form": "trained animal",
+                            "scale": "life-size",
+                            "role": "prop/model"
+                        },
+                        "dress shirt": {
+                            "form": "fashion item",
+                            "scale": "life-size",
+                            "role": "clothing"
+                        },
+                        "cannon": {
+                            "form": "artistic prop",
+                            "scale": "life-size",
+                            "role": "set design"
+                        }
+                    }
+                },
+                {
+                    "scene_type": "antique curiosity shop",
+                    "plausibility": 0.85,
+                    "reasoning": "A cluttered shop with a stuffed tiger, an old cannon, and a vintage shirt on a mannequin. The style suggests the dust and age of the objects.",
+                    "object_interpretations": {
+                        "bengal tiger": {
+                            "form": "taxidermy",
+                            "scale": "life-size",
+                            "role": "curio"
+                        },
+                        "dress shirt": {
+                            "form": "vintage clothing",
+                            "scale": "life-size",
+                            "role": "merchandise"
+                        },
+                        "cannon": {
+                            "form": "antique",
+                            "scale": "life-size",
+                            "role": "decoration"
+                        }
+                    }
+                },
+                {
+                    "scene_type": "military war painting",
+                    "plausibility": 0.7,
+                    "reasoning": "A painting depicting a battle scene. The tiger is a mascot or hallucination of war. The cannon is firing. A shirt is on a fallen soldier. The style is painterly.",
+                    "object_interpretations": {
+                        "bengal tiger": {
+                            "form": "symbolic/metaphorical",
+                            "scale": "life-size",
+                            "role": "mascot"
+                        },
+                        "dress shirt": {
+                            "form": "clothing",
+                            "scale": "life-size",
+                            "role": "narrative detail"
+                        },
+                        "cannon": {
+                            "form": "weapon",
+                            "scale": "life-size",
+                            "role": "action element"
+                        }
+                    }
+                }
+            ],
+            "selected_scene": {
+                "scene_type": "historical military museum",
+                "plausibility": 0.85,
+                "reasoning": "A Bengal tiger can be a taxidermy exhibit in a museum. A dress shirt can be a uniform display. A cannon is a standard museum artifact. The impressionistic style softens the harshness of the scene.",
+                "object_interpretations": {
+                    "bengal tiger": {
+                        "form": "taxidermy specimen",
+                        "scale": "life-size",
+                        "role": "main exhibit"
+                    },
+                    "dress shirt": {
+                        "form": "uniform display",
+                        "scale": "life-size",
+                        "role": "historical artifact"
+                    },
+                    "cannon": {
+                        "form": "metal cannon",
+                        "scale": "life-size",
+                        "role": "museum piece"
+                    }
+                },
+                "scene_brief": "A historical military museum centered around bengal tiger, with dress shirt, and cannon"
+            }
+        }
+    },
+    "final_prompts": {
+        "main_prompt": "A Impressionism painting depicting a bright and active afternoon scene with a gentle, cheerful atmosphere under natural soft lighting. In the foreground, a large, well-maintained historical cannon in warm bronze ochre with greenish-gray patina dominates the composition. A freshly pressed, medium-sized dress shirt in brilliant white with soft blue-gray accents is draped neatly over the cannon's barrel. Beside the cannon stands a pristine taxidermy specimen of a bengal tiger, its large form rendered in warm golden-orange fur with deep violet-black stripes, positioned as if guarding the arrangement. The scene is unified through loose, visible brushstrokes that capture the interplay of afternoon light on varied materials\u2014bronze and iron of the cannon, cotton fabric of the shirt, and preserved tissue and fur of the tiger\u2014creating a harmonious, lively composition full of texture and color.",
+        "negative_prompt": "photorealistic, 3d render, modern, digital art, photograph, low quality, blurry, distorted, ugly, deformed, disfigured, poorly drawn, bad anatomy, wrong anatomy, extra limb, missing limb, floating limbs, disconnected limbs, mutation, mutated, out of focus, long neck, watermark, signature, text, words, letters, cartoon, anime, manga, comic, sketch, graphite, monochrome, black and white, dark, gloomy, sinister, scary, violent, blood, gore, weapon, modern clothing, contemporary, realistic tiger, live animal",
+        "prompt_formats": {
+            "simple": "An Impressionist painting of a bengal tiger beside a cannon with a dress shirt draped over it, set in a bright, cheerful afternoon.",
+            "complex": "A Impressionism painting depicting a bright and active afternoon scene with a gentle, cheerful atmosphere under natural soft lighting. In the foreground, a large, well-maintained historical cannon in warm bronze ochre with greenish-gray patina dominates the composition. A freshly pressed, medium-sized dress shirt in brilliant white with soft blue-gray accents is draped neatly over the cannon's barrel. Beside the cannon stands a pristine taxidermy specimen of a bengal tiger, its large form rendered in warm golden-orange fur with deep violet-black stripes, positioned as if guarding the arrangement. The scene is unified through loose, visible brushstrokes that capture the interplay of afternoon light on varied materials\u2014bronze and iron of the cannon, cotton fabric of the shirt, and preserved tissue and fur of the tiger\u2014creating a harmonious, lively composition full of texture and color.",
+            "comma_separated": "Impressionism painting, bengal tiger, dress shirt, cannon, large tiger, medium shirt, dominant cannon, warm golden-orange fur, deep violet-black stripes, brilliant white shirt, soft blue-gray accents, warm bronze ochre cannon, greenish-gray patina, taxidermy specimen, freshly pressed shirt, historical artifact, afternoon lighting, natural soft light, bright atmosphere, active scene, cheerful mood, gentle ambiance, visible brushstrokes, textured materials, fur, cotton, bronze, iron, harmonious composition",
+            "tags": "art, painting, impressionism, impressionist, bengal tiger, dress shirt, cannon, taxidermy, historical artifact, afternoon, soft lighting, bright, cheerful, gentle, brushstrokes, texture, color, composition, still life, animal, fabric, metal"
+        }
+    }
+}

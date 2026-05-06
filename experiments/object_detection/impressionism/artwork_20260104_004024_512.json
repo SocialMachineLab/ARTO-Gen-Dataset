@@ -1,0 +1,281 @@
+{
+    "artwork_id": "artwork_20260104_004024_512",
+    "generation_timestamp": "2026-01-04T00:40:54.282940",
+    "style": "Impressionism",
+    "objects": {
+        "object_ids": [
+            78,
+            79,
+            20
+        ],
+        "object_names": [
+            "toy",
+            "comb",
+            "cattle"
+        ],
+        "enhanced_objects": [
+            {
+                "object_id": 78,
+                "name": "toy",
+                "artistic_description": "Soft, muted colors under cloudy afternoon light, with gentle highlights on rounded edges. The surface appears matte with subtle color variations where light diffuses across form, creating soft transitions between light and shadow without harsh contrast.",
+                "size": "Medium",
+                "state": "gently worn with softened edges",
+                "primary_colors": [
+                    "muted red",
+                    "soft cream"
+                ],
+                "material": "plastic"
+            },
+            {
+                "object_id": 79,
+                "name": "comb",
+                "artistic_description": "Cool, silvery reflections catch the overcast daylight with scattered highlights along the teeth. The surface shows subtle gray-blue tones where light absorbs into the material, with delicate sparkle effects on the polished edges.",
+                "size": "Small",
+                "state": "clean and polished",
+                "primary_colors": [
+                    "silver-gray",
+                    "pale blue"
+                ],
+                "material": "metal"
+            },
+            {
+                "object_id": 20,
+                "name": "cattle",
+                "artistic_description": "Warm, earthy tones softened by diffused afternoon light, with gentle shadows pooling in recesses. The matte surface absorbs light evenly, creating velvety textures with subtle brown variations and soft, blended edges.",
+                "size": "Medium",
+                "state": "playfully sculpted with smooth contours",
+                "primary_colors": [
+                    "warm brown",
+                    "ochre"
+                ],
+                "material": "ceramic"
+            }
+        ]
+    },
+    "composition": {
+        "spatial_relations": [
+            [
+                78,
+                "on",
+                79
+            ],
+            [
+                20,
+                "next to",
+                78
+            ]
+        ],
+        "semantic_relations": []
+    },
+    "environment": {
+        "environment_details": {
+            "scene_brief": "A artist's studio featuring toy toy, with comb, and toy cattle placed nearby",
+            "place365_name": "/a/art_studio",
+            "place365_id": 21,
+            "time_of_day": "afternoon",
+            "weather": "cloudy",
+            "period": "Contemporary",
+            "is_indoor": true,
+            "lighting": {
+                "type": "natural",
+                "quality": "soft",
+                "direction": "side-lit",
+                "mood": "warm",
+                "reasoning": "Natural light from a window (side-lit) filtered through clouds creates soft, warm illumination that suits Impressionism's focus on fleeting light effects. This setup highlights the toys and comb with gentle shadows, evoking a cozy, intimate atmosphere in a contemporary studio."
+            },
+            "atmosphere": "bright and active and subdued and gentle"
+        },
+        "scene_inference": {
+            "all_candidates": [
+                {
+                    "scene_type": "Victorian nursery",
+                    "plausibility": 0.85,
+                    "reasoning": "A toy is the primary object in a nursery. A comb is a grooming tool for a child's hair or for dolls. A cattle figure (toy cow) can be part of a farm animal toy set. The Impressionist style would render the scene with soft, dappled light from a window, focusing on the atmosphere of a child's room.",
+                    "object_interpretations": {
+                        "toy": {
+                            "form": "real toy",
+                            "scale": "normal",
+                            "role": "primary object"
+                        },
+                        "comb": {
+                            "form": "real comb",
+                            "scale": "normal",
+                            "role": "grooming tool for dolls or child"
+                        },
+                        "cattle": {
+                            "form": "toy figure",
+                            "scale": "miniature",
+                            "role": "part of a toy farm set"
+                        }
+                    }
+                },
+                {
+                    "scene_type": "country fair",
+                    "plausibility": 0.9,
+                    "reasoning": "A toy is a common prize or purchase at a fair. A comb can be won at a ring toss booth or bought at a novelty stall. A cattle figure represents the livestock present at the fair. The Impressionist style captures the bustling, vibrant atmosphere with quick brushstrokes.",
+                    "object_interpretations": {
+                        "toy": {
+                            "form": "real toy",
+                            "scale": "normal",
+                            "role": "prize or item carried by visitor"
+                        },
+                        "comb": {
+                            "form": "real comb",
+                            "scale": "normal",
+                            "role": "novelty item or prize"
+                        },
+                        "cattle": {
+                            "form": "toy figure",
+                            "scale": "miniature",
+                            "role": "model of livestock at the fair"
+                        }
+                    }
+                },
+                {
+                    "scene_type": "farmhouse kitchen",
+                    "plausibility": 0.8,
+                    "reasoning": "A toy cow (cattle) sits on the shelf as a keepsake. A comb is on the table for personal grooming. A toy is left on the floor by a child. The Impressionist style emphasizes the rustic warmth and light filtering through the window.",
+                    "object_interpretations": {
+                        "toy": {
+                            "form": "real toy",
+                            "scale": "normal",
+                            "role": "child's plaything"
+                        },
+                        "comb": {
+                            "form": "real comb",
+                            "scale": "normal",
+                            "role": "household item on table"
+                        },
+                        "cattle": {
+                            "form": "toy figure",
+                            "scale": "miniature",
+                            "role": "decoration on shelf"
+                        }
+                    }
+                },
+                {
+                    "scene_type": "artist's studio",
+                    "plausibility": 0.75,
+                    "reasoning": "The artist uses a toy and a toy cattle figure as still life models. A comb is included as a textural object. The Impressionist style is applied to the painting of the still life itself.",
+                    "object_interpretations": {
+                        "toy": {
+                            "form": "real toy",
+                            "scale": "normal",
+                            "role": "still life model"
+                        },
+                        "comb": {
+                            "form": "real comb",
+                            "scale": "normal",
+                            "role": "still life object"
+                        },
+                        "cattle": {
+                            "form": "toy figure",
+                            "scale": "miniature",
+                            "role": "still life model"
+                        }
+                    },
+                    "scene_brief": "A artist's studio featuring toy toy, with comb, and toy cattle placed nearby"
+                },
+                {
+                    "scene_type": "vintage curiosity shop",
+                    "plausibility": 0.85,
+                    "reasoning": "A cluttered shop filled with oddities. A toy, an antique comb, and a ceramic cattle figure are displayed for sale. The Impressionist style blurs the background clutter, focusing on the objects.",
+                    "object_interpretations": {
+                        "toy": {
+                            "form": "real toy",
+                            "scale": "normal",
+                            "role": "antique item for sale"
+                        },
+                        "comb": {
+                            "form": "real comb",
+                            "scale": "normal",
+                            "role": "antique item for sale"
+                        },
+                        "cattle": {
+                            "form": "toy figure",
+                            "scale": "miniature",
+                            "role": "decoration or item for sale"
+                        }
+                    }
+                },
+                {
+                    "scene_type": "child's bedroom",
+                    "plausibility": 0.9,
+                    "reasoning": "The primary object is a toy. A comb is on the vanity table. A toy cattle figure is part of a collection on the nightstand. The Impressionist style captures the soft, dreamy quality of a child's room.",
+                    "object_interpretations": {
+                        "toy": {
+                            "form": "real toy",
+                            "scale": "normal",
+                            "role": "primary play object"
+                        },
+                        "comb": {
+                            "form": "real comb",
+                            "scale": "normal",
+                            "role": "grooming accessory"
+                        },
+                        "cattle": {
+                            "form": "toy figure",
+                            "scale": "miniature",
+                            "role": "decorative toy"
+                        }
+                    }
+                },
+                {
+                    "scene_type": "garden picnic",
+                    "plausibility": 0.7,
+                    "reasoning": "A toy is brought outside for play. A comb is in a picnic basket for hair touch-ups. A toy cattle figure sits on the picnic blanket as a companion toy. The Impressionist style renders the dappled sunlight through trees.",
+                    "object_interpretations": {
+                        "toy": {
+                            "form": "real toy",
+                            "scale": "normal",
+                            "role": "outdoor play object"
+                        },
+                        "comb": {
+                            "form": "real comb",
+                            "scale": "normal",
+                            "role": "personal care item"
+                        },
+                        "cattle": {
+                            "form": "toy figure",
+                            "scale": "miniature",
+                            "role": "toy companion"
+                        }
+                    }
+                }
+            ],
+            "selected_scene": {
+                "scene_type": "artist's studio",
+                "plausibility": 0.75,
+                "reasoning": "The artist uses a toy and a toy cattle figure as still life models. A comb is included as a textural object. The Impressionist style is applied to the painting of the still life itself.",
+                "object_interpretations": {
+                    "toy": {
+                        "form": "real toy",
+                        "scale": "normal",
+                        "role": "still life model"
+                    },
+                    "comb": {
+                        "form": "real comb",
+                        "scale": "normal",
+                        "role": "still life object"
+                    },
+                    "cattle": {
+                        "form": "toy figure",
+                        "scale": "miniature",
+                        "role": "still life model"
+                    }
+                },
+                "scene_brief": "A artist's studio featuring toy toy, with comb, and toy cattle placed nearby"
+            }
+        }
+    },
+    "final_prompts": {
+        "main_prompt": "A Impressionism painting depicting a bright and active yet subdued and gentle afternoon scene. In the foreground, a gently worn, muted red and soft cream toy with softened edges rests atop a small, clean and polished silver-gray and pale blue comb. Beside this arrangement stands a medium-sized, playfully sculpted cattle with smooth contours in warm brown and ochre tones. The natural soft afternoon light filters through the scene, casting gentle shadows and highlighting the plastic, metal, and ceramic-like textures of the objects. The overall atmosphere is both lively and tranquil, with loose, visible brushstrokes capturing the interplay of light and color in a harmonious composition that feels both spontaneous and carefully arranged.",
+        "negative_prompt": "photorealistic, 3d render, modern, digital art, photograph, low quality, blurry, distorted, hyperdetailed, surreal, cartoon, anime, text, watermark, signature, frame, border",
+        "prompt_formats": {
+            "simple": "An Impressionist painting of a toy on a comb with a cattle beside them in soft afternoon light.",
+            "complex": "A Impressionism painting depicting a bright and active yet subdued and gentle afternoon scene. In the foreground, a gently worn, muted red and soft cream toy with softened edges rests atop a small, clean and polished silver-gray and pale blue comb. Beside this arrangement stands a medium-sized, playfully sculpted cattle with smooth contours in warm brown and ochre tones. The natural soft afternoon light filters through the scene, casting gentle shadows and highlighting the plastic, metal, and ceramic-like textures of the objects. The overall atmosphere is both lively and tranquil, with loose, visible brushstrokes capturing the interplay of light and color in a harmonious composition that feels both spontaneous and carefully arranged.",
+            "comma_separated": "Impressionism painting, toy on comb, cattle beside toy, muted red soft cream toy, silver-gray pale blue comb, warm brown ochre cattle, soft afternoon lighting, bright active subdued gentle atmosphere, visible brushstrokes, light and color interplay",
+            "tags": "art, painting, impressionism, still life, toy, comb, cattle, afternoon light, soft lighting, brushstroke texture, color harmony"
+        }
+    }
+}

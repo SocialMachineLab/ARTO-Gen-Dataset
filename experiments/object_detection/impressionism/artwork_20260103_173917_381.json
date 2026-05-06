@@ -1,0 +1,323 @@
+{
+    "artwork_id": "artwork_20260103_173917_381",
+    "generation_timestamp": "2026-01-03T17:39:50.018388",
+    "style": "Impressionism",
+    "objects": {
+        "object_ids": [
+            25,
+            57,
+            57,
+            40
+        ],
+        "object_names": [
+            "backpack",
+            "bar stool",
+            "beach chair",
+            "jar"
+        ],
+        "enhanced_objects": [
+            {
+                "object_id": 25,
+                "name": "backpack",
+                "artistic_description": "Rough canvas surface catches the golden sunset light in dappled, broken strokes of amber and warm ochre, with deep shadows pooling in the fabric folds. Weathered nylon straps gleam with subtle highlights where the sun strikes them, while the main body shows scuffs and dust from outdoor use, rendered in soft, visible brushstrokes that blur the edges between light and shadow.",
+                "size": "Large",
+                "state": "weathered and used, slightly dusty from outdoor activity",
+                "primary_colors": [
+                    "warm ochre",
+                    "deep amber"
+                ],
+                "material": "canvas and nylon"
+            },
+            {
+                "object_id": 57,
+                "name": "bar stool",
+                "artistic_description": "Metal frame glows with warm copper tones where the sunset strikes it, while cooler steel-gray shadows define its cylindrical legs. The wooden seat shows a patina of age with visible grain rendered in thick, impasto strokes of burnt sienna and golden brown, its surface matte and dry, absorbing the warm light rather than reflecting it sharply.",
+                "size": "Medium",
+                "state": "slightly weathered with visible wear on the wooden seat",
+                "primary_colors": [
+                    "burnt sienna",
+                    "copper"
+                ],
+                "material": "metal and wood"
+            },
+            {
+                "object_id": 57,
+                "name": "beach chair",
+                "artistic_description": "Striped fabric glows with translucent layers of coral pink and sunset orange where the light passes through the weave, while the shadowed side appears as cool violet-gray. The aluminum frame catches brilliant highlights in pale gold, and the stretched canvas shows subtle buckling that creates rhythmic patterns of light and shade across its surface.",
+                "size": "Medium",
+                "state": "folded and slightly sandy, fabric taut on frame",
+                "primary_colors": [
+                    "coral pink",
+                    "pale gold"
+                ],
+                "material": "canvas and aluminum"
+            },
+            {
+                "object_id": 40,
+                "name": "jar",
+                "artistic_description": "Glass body becomes a luminous vessel of warm amber and honey-gold tones, with the sunset refracting through its curved surface in soft, blooming highlights. The contents appear as a deeper, shadowed mass within, and the rim catches brilliant white-gold light that dissolves into the surrounding atmosphere in impressionistic daubs.",
+                "size": "Small",
+                "state": "clean and transparent, filled with contents",
+                "primary_colors": [
+                    "honey-gold",
+                    "amber"
+                ],
+                "material": "glass"
+            }
+        ]
+    },
+    "composition": {
+        "spatial_relations": [
+            [
+                57,
+                "next to",
+                25
+            ],
+            [
+                40,
+                "next to",
+                25
+            ],
+            [
+                57,
+                "next to",
+                40
+            ],
+            [
+                25,
+                "on",
+                57
+            ],
+            [
+                40,
+                "on",
+                57
+            ]
+        ],
+        "semantic_relations": []
+    },
+    "environment": {
+        "environment_details": {
+            "scene_brief": "A Campsite centered around backpack, with bar stool, beach chair, and jar",
+            "place365_name": "/b/beach",
+            "place365_id": 48,
+            "time_of_day": "sunset",
+            "weather": "sunny",
+            "period": "Contemporary",
+            "is_indoor": false,
+            "lighting": {
+                "type": "natural",
+                "quality": "soft",
+                "direction": "side-lit",
+                "mood": "warm",
+                "reasoning": "Sunset lighting is natural and inherently warm. The low angle of the sun creates soft, side-lit shadows that define the forms of the backpack and chair, perfect for Impressionism's focus on light and form rather than hard outlines. It creates a nostalgic and peaceful mood."
+            },
+            "atmosphere": "warm and peaceful and cheerful and gentle"
+        },
+        "scene_inference": {
+            "all_candidates": [
+                {
+                    "scene_type": "Beach Boardwalk",
+                    "plausibility": 0.95,
+                    "reasoning": "A backpack is essential gear for a beach day. Beach chairs are standard for lounging. A jar could be used for collecting seashells or sand dollars. A bar stool might be found at a nearby boardwalk cafe or a raised wooden walkway viewing platform.",
+                    "object_interpretations": {
+                        "backpack": {
+                            "form": "real object",
+                            "scale": "normal",
+                            "role": "primary personal item containing beach essentials"
+                        },
+                        "beach chair": {
+                            "form": "real object",
+                            "scale": "normal",
+                            "role": "primary relaxation furniture"
+                        },
+                        "jar": {
+                            "form": "real object",
+                            "scale": "normal",
+                            "role": "secondary container for found shells"
+                        },
+                        "bar stool": {
+                            "form": "real object",
+                            "scale": "normal",
+                            "role": "tertiary environmental furniture (part of a nearby cafe)"
+                        }
+                    }
+                },
+                {
+                    "scene_type": "Art Studio",
+                    "plausibility": 0.9,
+                    "reasoning": "An artist's backpack holds supplies. A bar stool serves as a model or seat for the artist. A beach chair could be a prop for a still life composition. A jar holds brushes or water.",
+                    "object_interpretations": {
+                        "backpack": {
+                            "form": "real object",
+                            "scale": "normal",
+                            "role": "primary storage for art supplies"
+                        },
+                        "bar stool": {
+                            "form": "real object",
+                            "scale": "normal",
+                            "role": "secondary seating or model"
+                        },
+                        "beach chair": {
+                            "form": "real object",
+                            "scale": "normal",
+                            "role": "secondary prop for painting"
+                        },
+                        "jar": {
+                            "form": "real object",
+                            "scale": "normal",
+                            "role": "secondary utility container"
+                        }
+                    }
+                },
+                {
+                    "scene_type": "Urban Rooftop Terrace",
+                    "plausibility": 0.85,
+                    "reasoning": "A backpack is common for city commuters. Bar stools and beach chairs are typical outdoor furniture for rooftop lounges. A jar could hold a candle or small plant decoration.",
+                    "object_interpretations": {
+                        "backpack": {
+                            "form": "real object",
+                            "scale": "normal",
+                            "role": "primary personal item"
+                        },
+                        "bar stool": {
+                            "form": "real object",
+                            "scale": "normal",
+                            "role": "secondary seating furniture"
+                        },
+                        "beach chair": {
+                            "form": "real object",
+                            "scale": "normal",
+                            "role": "secondary seating furniture"
+                        },
+                        "jar": {
+                            "form": "real object",
+                            "scale": "normal",
+                            "role": "tertiary decorative object"
+                        }
+                    }
+                },
+                {
+                    "scene_type": "Vintage Shop Interior",
+                    "plausibility": 0.8,
+                    "reasoning": "All items could be displayed for sale. The backpack hangs on a rack, the bar stool and beach chair are furniture items, and the jar is a collectible on a shelf.",
+                    "object_interpretations": {
+                        "backpack": {
+                            "form": "real object",
+                            "scale": "normal",
+                            "role": "secondary merchandise"
+                        },
+                        "bar stool": {
+                            "form": "real object",
+                            "scale": "normal",
+                            "role": "tertiary shop furniture"
+                        },
+                        "beach chair": {
+                            "form": "real object",
+                            "scale": "normal",
+                            "role": "secondary merchandise"
+                        },
+                        "jar": {
+                            "form": "real object",
+                            "scale": "normal",
+                            "role": "tertiary merchandise/decor"
+                        }
+                    }
+                },
+                {
+                    "scene_type": "Campsite",
+                    "plausibility": 0.9,
+                    "reasoning": "Backpacks are the primary gear for hiking. Beach chairs are lightweight camping seats. A jar can be used for camp cooking or storing supplies. A bar stool might be a portable folding stool.",
+                    "object_interpretations": {
+                        "backpack": {
+                            "form": "real object",
+                            "scale": "normal",
+                            "role": "primary survival gear"
+                        },
+                        "beach chair": {
+                            "form": "real object",
+                            "scale": "normal",
+                            "role": "secondary seating"
+                        },
+                        "jar": {
+                            "form": "real object",
+                            "scale": "normal",
+                            "role": "secondary utility item"
+                        },
+                        "bar stool": {
+                            "form": "real object",
+                            "scale": "normal",
+                            "role": "alternative seating (folding stool)"
+                        }
+                    },
+                    "scene_brief": "A Campsite centered around backpack, with bar stool, beach chair, and jar"
+                },
+                {
+                    "scene_type": "Porch or Patio",
+                    "plausibility": 0.85,
+                    "reasoning": "A backpack dropped by the door after arriving home. Patio furniture includes a bar stool and beach chair. A jar acts as a centerpiece on a table.",
+                    "object_interpretations": {
+                        "backpack": {
+                            "form": "real object",
+                            "scale": "normal",
+                            "role": "primary personal item"
+                        },
+                        "bar stool": {
+                            "form": "real object",
+                            "scale": "normal",
+                            "role": "secondary seating"
+                        },
+                        "beach chair": {
+                            "form": "real object",
+                            "scale": "normal",
+                            "role": "secondary seating"
+                        },
+                        "jar": {
+                            "form": "real object",
+                            "scale": "normal",
+                            "role": "tertiary decorative object"
+                        }
+                    }
+                }
+            ],
+            "selected_scene": {
+                "scene_type": "Campsite",
+                "plausibility": 0.9,
+                "reasoning": "Backpacks are the primary gear for hiking. Beach chairs are lightweight camping seats. A jar can be used for camp cooking or storing supplies. A bar stool might be a portable folding stool.",
+                "object_interpretations": {
+                    "backpack": {
+                        "form": "real object",
+                        "scale": "normal",
+                        "role": "primary survival gear"
+                    },
+                    "beach chair": {
+                        "form": "real object",
+                        "scale": "normal",
+                        "role": "secondary seating"
+                    },
+                    "jar": {
+                        "form": "real object",
+                        "scale": "normal",
+                        "role": "secondary utility item"
+                    },
+                    "bar stool": {
+                        "form": "real object",
+                        "scale": "normal",
+                        "role": "alternative seating (folding stool)"
+                    }
+                },
+                "scene_brief": "A Campsite centered around backpack, with bar stool, beach chair, and jar"
+            }
+        }
+    },
+    "final_prompts": {
+        "main_prompt": "A Impressionism painting depicting a warm and peaceful sunset scene with cheerful, gentle atmosphere. In the foreground, a large, weathered backpack in warm ochre and deep amber sits atop a medium-sized bar stool in burnt sienna and copper tones, both showing visible wear. Next to the backpack on the same stool rests a small, clean honey-gold and amber transparent jar. To the side in the midground, a medium-sized beach chair in coral pink and pale gold lies folded and slightly sandy, its canvas and aluminum frame catching the last soft natural light. The entire composition is bathed in the golden-orange glow of sunset, with loose, visible brushstrokes capturing the play of light on the weathered nylon of the backpack, the worn wood and metal of the stool, the sandy canvas of the chair, and the transparent glass of the jar, creating a harmonious scene of quiet repose.",
+        "negative_prompt": "photorealistic, 3d render, modern, digital art, photograph, low quality, blurry, distorted, ugly, deformed, disfigured, extra limbs, bad anatomy, watermark, signature, text, frame, border",
+        "prompt_formats": {
+            "simple": "An Impressionist sunset scene with a backpack on a stool next to a jar, with a folded beach chair nearby.",
+            "complex": "A Impressionism painting depicting a warm and peaceful sunset scene with cheerful, gentle atmosphere. In the foreground, a large, weathered backpack in warm ochre and deep amber sits atop a medium-sized bar stool in burnt sienna and copper tones, both showing visible wear. Next to the backpack on the same stool rests a small, clean honey-gold and amber transparent jar. To the side in the midground, a medium-sized beach chair in coral pink and pale gold lies folded and slightly sandy, its canvas and aluminum frame catching the last soft natural light. The entire composition is bathed in the golden-orange glow of sunset, with loose, visible brushstrokes capturing the play of light on the weathered nylon of the backpack, the worn wood and metal of the stool, the sandy canvas of the chair, and the transparent glass of the jar, creating a harmonious scene of quiet repose.",
+            "comma_separated": "Impressionism painting, sunset, warm peaceful cheerful gentle atmosphere, large weathered backpack warm ochre deep amber, medium bar stool burnt sienna copper slightly weathered, backpack on stool, small jar honey-gold amber transparent clean, jar on stool next to backpack, medium beach chair coral pink pale gold folded sandy, natural soft lighting, loose brushstrokes, golden glow",
+            "tags": "art, painting, impressionism, sunset, still life, backpack, bar stool, jar, beach chair, warm colors, peaceful, gentle, Claude Monet style, Pierre-Auguste Renoir style, loose brushwork, light study"
+        }
+    }
+}

@@ -1,0 +1,303 @@
+{
+    "artwork_id": "artwork_20260103_034906_340",
+    "generation_timestamp": "2026-01-03T03:49:37.816756",
+    "style": "Post-Impressionism",
+    "objects": {
+        "object_ids": [
+            58,
+            10,
+            61
+        ],
+        "object_names": [
+            "blanket",
+            "lamp post",
+            "billiard table"
+        ],
+        "enhanced_objects": [
+            {
+                "object_id": 58,
+                "name": "blanket",
+                "artistic_description": "A heavy wool blanket draped in deep folds, its surface catching the artificial light in patches of muted ochre and dusty rose, while shadowed crevices plunge into velvety indigo. The fabric appears slightly worn with a soft, matte texture that diffuses light gently, creating a subtle halo effect around its edges. Faint scatters of lint and thread catches the light like tiny stars against the deep, contemplative shadows.",
+                "size": "Medium",
+                "state": "slightly worn and softened with age, matte surface",
+                "primary_colors": [
+                    "muted ochre",
+                    "dusty rose"
+                ],
+                "material": "wool"
+            },
+            {
+                "object_id": 10,
+                "name": "lamp post",
+                "artistic_description": "A solitary metal lamp post stands with geometric rigidity, its surface painted in stark, simplified planes of gunmetal gray and bruised purple where light fails to reach. The glass casing glows with an intense, concentrated amber that bleeds outward into the surrounding darkness, creating a dramatic color field effect. The metal shows subtle brushstroke-like textures where paint has weathered, revealing hints of rust that add earthy burnt sienna to the overall composition.",
+                "size": "Large",
+                "state": "industrial finish with weathered patches, glass casing intact",
+                "primary_colors": [
+                    "gunmetal gray",
+                    "bruised purple"
+                ],
+                "material": "metal and glass"
+            },
+            {
+                "object_id": 61,
+                "name": "billiard table",
+                "artistic_description": "A massive billiard table dominates with its felt surface rendered in deep, saturated emerald that absorbs and reflects light in mysterious ways\u2014appearing almost black in deep shadows while glowing with jewel-like intensity where direct light strikes. The wooden rails show simplified, angular forms in burnt umber with visible grain patterns that create rhythmic, decorative lines. The polished edges catch light as sharp, contrasting bands of sienna and gold, while the slate bed beneath hints at cool, mineral grays that anchor the composition.",
+                "size": "Dominant",
+                "state": "well-used but maintained, felt slightly worn in playing areas",
+                "primary_colors": [
+                    "deep emerald",
+                    "burnt umber"
+                ],
+                "material": "felt, wood, slate"
+            }
+        ]
+    },
+    "composition": {
+        "spatial_relations": [
+            [
+                58,
+                "on",
+                61
+            ],
+            [
+                10,
+                "next to",
+                61
+            ]
+        ],
+        "semantic_relations": []
+    },
+    "environment": {
+        "environment_details": {
+            "scene_brief": "A Theater Backstage featuring blanket, with lamp post, and billiard table",
+            "place365_name": "/h/home_theater",
+            "place365_id": 177,
+            "time_of_day": "night",
+            "weather": null,
+            "period": "Contemporary",
+            "is_indoor": true,
+            "lighting": {
+                "type": "artificial",
+                "quality": "dramatic",
+                "direction": "side-lit",
+                "mood": "warm",
+                "reasoning": "A single 'lamp post' (likely a stage lamp or standing lamp) provides artificial lighting. Nighttime backstage lighting is often dramatic with high contrast between light and shadow. A side-lit approach would sculpt the forms of the billiard table and blanket, creating depth and texture essential to Post-Impressionist technique. The lamp likely emits a warm glow."
+            },
+            "atmosphere": "quiet and mysterious and striking"
+        },
+        "scene_inference": {
+            "all_candidates": [
+                {
+                    "scene_type": "Outdoor Garden Picnic",
+                    "plausibility": 0.8,
+                    "reasoning": "A blanket is the primary object, serving as a picnic base on the grass. The lamp post is a real, tall street fixture nearby, providing ambient light. The billiard table is interpreted as a miniature toy or a decorative, small-scale model placed on the blanket as part of the picnic setup, perhaps for a child's play or as a whimsical centerpiece.",
+                    "object_interpretations": {
+                        "blanket": {
+                            "form": "real blanket",
+                            "scale": "normal (e.g., 2x2 meters)",
+                            "role": "primary seating surface"
+                        },
+                        "lamp post": {
+                            "form": "real street lamp",
+                            "scale": "large (3-4 meters tall)",
+                            "role": "environmental lighting fixture"
+                        },
+                        "billiard table": {
+                            "form": "toy model",
+                            "scale": "miniature (e.g., 0.5 meters wide)",
+                            "role": "playful decorative item on blanket"
+                        }
+                    }
+                },
+                {
+                    "scene_type": "Vintage Billiard Hall with Lounge Area",
+                    "plausibility": 0.85,
+                    "reasoning": "The billiard table is the central real object in a dimly lit hall. The blanket is a cozy throw draped over a nearby armchair or sofa, adding a touch of domestic comfort. The lamp post is a stylized, indoor floor lamp designed to mimic an outdoor post, illuminating the pool table area.",
+                    "object_interpretations": {
+                        "blanket": {
+                            "form": "real throw blanket",
+                            "scale": "normal",
+                            "role": "secondary comfort item on furniture"
+                        },
+                        "lamp post": {
+                            "form": "indoor floor lamp (post-style)",
+                            "scale": "normal (2 meters tall)",
+                            "role": "task lighting for billiard table"
+                        },
+                        "billiard table": {
+                            "form": "real billiard table",
+                            "scale": "large (full-size)",
+                            "role": "primary functional object"
+                        }
+                    }
+                },
+                {
+                    "scene_type": "Artistic Bedroom",
+                    "plausibility": 0.75,
+                    "reasoning": "The blanket is the primary object on the bed. The billiard table is a highly stylized, artistic mural or wallpaper pattern on the wall, or a small bedside lamp shaped like a billiard table. The lamp post is a unique bedside lamp with a post-like base and shade, blending indoor and outdoor aesthetics.",
+                    "object_interpretations": {
+                        "blanket": {
+                            "form": "real bedspread",
+                            "scale": "normal",
+                            "role": "primary bedding element"
+                        },
+                        "lamp post": {
+                            "form": "bedside table lamp",
+                            "scale": "normal (0.5 meters tall)",
+                            "role": "bedside lighting"
+                        },
+                        "billiard table": {
+                            "form": "wall art/decor",
+                            "scale": "large (wall-sized) or miniature (lamp)",
+                            "role": "decorative accent"
+                        }
+                    }
+                },
+                {
+                    "scene_type": "Post-Impressionist Street Cafe",
+                    "plausibility": 0.8,
+                    "reasoning": "The lamp post is a real street fixture on the sidewalk. The blanket is draped over the back of an outdoor cafe chair. The billiard table is a small, toy-sized version on a nearby table, or a decorative element on a cafe sign, fitting the stylized art style.",
+                    "object_interpretations": {
+                        "blanket": {
+                            "form": "real shawl/throw",
+                            "scale": "normal",
+                            "role": "personal accessory on chair"
+                        },
+                        "lamp post": {
+                            "form": "real outdoor lamp",
+                            "scale": "large",
+                            "role": "street ambiance"
+                        },
+                        "billiard table": {
+                            "form": "toy or decorative model",
+                            "scale": "miniature",
+                            "role": "tabletop novelty"
+                        }
+                    }
+                },
+                {
+                    "scene_type": "Theater Backstage",
+                    "plausibility": 0.7,
+                    "reasoning": "The blanket is a prop or a cozy item for an actor. The billiard table is a painted flat or a prop table on stage. The lamp post is a stage light mounted on a stand, resembling a street lamp for a set piece.",
+                    "object_interpretations": {
+                        "blanket": {
+                            "form": "prop blanket",
+                            "scale": "normal",
+                            "role": "costume or prop"
+                        },
+                        "lamp post": {
+                            "form": "stage light on stand",
+                            "scale": "large",
+                            "role": "set lighting"
+                        },
+                        "billiard table": {
+                            "form": "painted flat or prop",
+                            "scale": "normal or oversized",
+                            "role": "set decoration"
+                        }
+                    },
+                    "scene_brief": "A Theater Backstage featuring blanket, with lamp post, and billiard table"
+                },
+                {
+                    "scene_type": "Surreal Dreamscape",
+                    "plausibility": 0.6,
+                    "reasoning": "In a Post-Impressionist surreal style, the blanket floats in the sky as a cloud-like object. The lamp post grows from the ground like a tree. The billiard table is a large, floating island with pool balls as boulders.",
+                    "object_interpretations": {
+                        "blanket": {
+                            "form": "abstract shape",
+                            "scale": "giant",
+                            "role": "sky element"
+                        },
+                        "lamp post": {
+                            "form": "organic structure",
+                            "scale": "giant",
+                            "role": "landscape feature"
+                        },
+                        "billiard table": {
+                            "form": "floating island",
+                            "scale": "giant",
+                            "role": "terrain"
+                        }
+                    }
+                },
+                {
+                    "scene_type": "Museum Exhibit",
+                    "plausibility": 0.85,
+                    "reasoning": "The blanket is an antique textile under a glass display case (primary). The lamp post is a historical street fixture exhibit nearby. The billiard table is a full-size vintage table in the same room, part of a 'recreation history' exhibit.",
+                    "object_interpretations": {
+                        "blanket": {
+                            "form": "museum artifact",
+                            "scale": "normal",
+                            "role": "exhibited item"
+                        },
+                        "lamp post": {
+                            "form": "museum artifact",
+                            "scale": "large",
+                            "role": "exhibited item"
+                        },
+                        "billiard table": {
+                            "form": "museum artifact",
+                            "scale": "large",
+                            "role": "exhibited item"
+                        }
+                    }
+                },
+                {
+                    "scene_type": "Outdoor Movie Set",
+                    "plausibility": 0.75,
+                    "reasoning": "The blanket is a prop on the ground for a picnic scene. The lamp post is a set dressing street lamp. The billiard table is a prop brought in for a specific scene, perhaps on a truck or as a small model.",
+                    "object_interpretations": {
+                        "blanket": {
+                            "form": "prop",
+                            "scale": "normal",
+                            "role": "set dressing"
+                        },
+                        "lamp post": {
+                            "form": "set dressing",
+                            "scale": "large",
+                            "role": "lighting/prop"
+                        },
+                        "billiard table": {
+                            "form": "prop",
+                            "scale": "normal or miniature",
+                            "role": "set dressing"
+                        }
+                    }
+                }
+            ],
+            "selected_scene": {
+                "scene_type": "Theater Backstage",
+                "plausibility": 0.7,
+                "reasoning": "The blanket is a prop or a cozy item for an actor. The billiard table is a painted flat or a prop table on stage. The lamp post is a stage light mounted on a stand, resembling a street lamp for a set piece.",
+                "object_interpretations": {
+                    "blanket": {
+                        "form": "prop blanket",
+                        "scale": "normal",
+                        "role": "costume or prop"
+                    },
+                    "lamp post": {
+                        "form": "stage light on stand",
+                        "scale": "large",
+                        "role": "set lighting"
+                    },
+                    "billiard table": {
+                        "form": "painted flat or prop",
+                        "scale": "normal or oversized",
+                        "role": "set decoration"
+                    }
+                },
+                "scene_brief": "A Theater Backstage featuring blanket, with lamp post, and billiard table"
+            }
+        }
+    },
+    "final_prompts": {
+        "main_prompt": "A Post-Impressionism painting depicting a quiet, mysterious, and striking night scene. Dominating the composition is a well-used but maintained billiard table in deep emerald and burnt umber felt, its slate bed and wooden frame visible. Draped directly upon its felt surface is a slightly worn and softened blanket in muted ochre and dusty rose wool. Beside the table, a large lamp post in gunmetal gray and bruised purple stands sentinel, its industrial metal and glass finish showing weathered patches. The entire scene is bathed in dramatic artificial light from the lamp, casting long, expressive shadows and creating a pool of illumination that highlights the textures of wool, metal, and felt against the enveloping darkness of night. The atmosphere is one of hushed stillness and enigmatic narrative, rendered with the characteristic bold brushstrokes, vivid color contrasts, and emotional intensity of the Post-Impressionist style.",
+        "negative_prompt": "photorealistic, 3d render, modern, digital art, photograph, low quality, blurry, distorted, daytime, sunny, bright, cheerful, cartoon, anime, abstract, text, watermark, signature, frame",
+        "prompt_formats": {
+            "simple": "A Post-Impressionist night scene of a blanket-draped billiard table beside a weathered lamp post under dramatic light.",
+            "complex": "A Post-Impressionism painting depicting a quiet, mysterious, and striking night scene. Dominating the composition is a well-used but maintained billiard table in deep emerald and burnt umber felt, its slate bed and wooden frame visible. Draped directly upon its felt surface is a slightly worn and softened blanket in muted ochre and dusty rose wool. Beside the table, a large lamp post in gunmetal gray and bruised purple stands sentinel, its industrial metal and glass finish showing weathered patches. The entire scene is bathed in dramatic artificial light from the lamp, casting long, expressive shadows and creating a pool of illumination that highlights the textures of wool, metal, and felt against the enveloping darkness of night. The atmosphere is one of hushed stillness and enigmatic narrative, rendered with the characteristic bold brushstrokes, vivid color contrasts, and emotional intensity of the Post-Impressionist style.",
+            "comma_separated": "Post-Impressionism painting, night scene, billiard table, deep emerald, burnt umber, well-used, blanket, muted ochre, dusty rose, worn, draped on table, lamp post, gunmetal gray, bruised purple, large, weathered, beside table, dramatic artificial lighting, quiet, mysterious, striking atmosphere, bold brushstrokes, vivid colors, Vincent van Gogh style, Paul C\u00e9zanne style",
+            "tags": "art, painting, post-impressionism, night, interior, still life, billiard table, blanket, lamp post, dramatic lighting, mysterious, van gogh style, c\u00e9zanne style, textured, emotional, oil painting"
+        }
+    }
+}

@@ -1,0 +1,281 @@
+{
+    "artwork_id": "artwork_20260103_143832_748",
+    "generation_timestamp": "2026-01-03T14:38:58.769186",
+    "style": "Baroque",
+    "objects": {
+        "object_ids": [
+            43,
+            17,
+            48
+        ],
+        "object_names": [
+            "fork",
+            "dog",
+            "cherry"
+        ],
+        "enhanced_objects": [
+            {
+                "object_id": 43,
+                "name": "fork",
+                "artistic_description": "A polished silver fork gleams with soft, diffused luminosity under the cloudy afternoon light filtering through a window. The tines catch subtle highlights along their curved edges, while the ornate Baroque handle features intricate scrollwork that creates delicate shadows within its engraved patterns. The metal surface reflects muted gray tones from the overcast sky, with a gentle patina suggesting age and frequent use.",
+                "size": "Medium",
+                "state": "tarnished with gentle wear",
+                "primary_colors": [
+                    "soft silver-gray",
+                    "muted pewter"
+                ],
+                "material": "silver"
+            },
+            {
+                "object_id": 17,
+                "name": "dog",
+                "artistic_description": "A spaniel's coat shimmers with rich, warm tones where the subdued afternoon light catches the silky fur, while deeper shadows reveal the texture of individual curls. The eyes gleam with amber warmth, reflecting the gentle indoor atmosphere. Whiskers and fine facial hair are rendered with Baroque attention to detail, each strand catching the soft natural light. The wet nose glistens with a cool, moist sheen.",
+                "size": "Large",
+                "state": "alert and calm",
+                "primary_colors": [
+                    "warm golden-brown",
+                    "deep chestnut"
+                ],
+                "material": "fur"
+            },
+            {
+                "object_id": 48,
+                "name": "cherry",
+                "artistic_description": "A single cherry glows with deep crimson brilliance, its glossy skin capturing and reflecting the bright, gentle light like polished garnet. The surface shows subtle variations from ruby red to near-black in the shadows, with a delicate stem that curls gracefully in soft greenish-brown tones. A single droplet of moisture clings to the skin, refracting the cloudy daylight into tiny prismatic highlights.",
+                "size": "Small",
+                "state": "fresh and ripe",
+                "primary_colors": [
+                    "deep crimson",
+                    "ruby red"
+                ],
+                "material": "fruit"
+            }
+        ]
+    },
+    "composition": {
+        "spatial_relations": [
+            [
+                43,
+                "next to",
+                48
+            ],
+            [
+                17,
+                "next to",
+                43
+            ]
+        ],
+        "semantic_relations": []
+    },
+    "environment": {
+        "environment_details": {
+            "scene_brief": "A Baroque still life with pet featuring fork, with dog, and cherry",
+            "place365_name": "/p/pub/indoor",
+            "place365_id": 274,
+            "time_of_day": "afternoon",
+            "weather": "cloudy",
+            "period": "Early modern",
+            "is_indoor": true,
+            "lighting": {
+                "type": "natural",
+                "quality": "soft",
+                "direction": "side-lit",
+                "mood": "warm",
+                "reasoning": "Side-lit natural light from a window (implied by cloudy weather) creates gentle highlights on the fork's metallic sheen, the dog's fur, and the cherry's glossy surface, evoking Baroque realism. Soft, warm afternoon light fosters a nostalgic, intimate Early modern atmosphere without harshness."
+            },
+            "atmosphere": "bright and active and subdued and gentle"
+        },
+        "scene_inference": {
+            "all_candidates": [
+                {
+                    "scene_type": "Baroque dining room",
+                    "plausibility": 0.95,
+                    "reasoning": "A lavish Baroque dining hall with a banquet table. The fork is the primary utensil on the table. A small dog sits at the feet of a noble diner, waiting for scraps. Cherries are part of a decadent fruit compote or dessert centerpiece.",
+                    "object_interpretations": {
+                        "fork": {
+                            "form": "real silverware",
+                            "scale": "normal",
+                            "role": "primary dining utensil"
+                        },
+                        "dog": {
+                            "form": "real pet",
+                            "scale": "normal",
+                            "role": "companion at the table"
+                        },
+                        "cherry": {
+                            "form": "real fruit",
+                            "scale": "normal",
+                            "role": "food garnish"
+                        }
+                    }
+                },
+                {
+                    "scene_type": "Baroque still life painting",
+                    "plausibility": 0.9,
+                    "reasoning": "A classic 'Vanitas' painting featuring a banquet table. A fork rests on a plate next to a bowl of cherries. A small dog is painted in the background, symbolizing fidelity, looking towards the food.",
+                    "object_interpretations": {
+                        "fork": {
+                            "form": "painted object",
+                            "scale": "normal (within painting)",
+                            "role": "metallic focal point"
+                        },
+                        "dog": {
+                            "form": "painted animal",
+                            "scale": "normal (within painting)",
+                            "role": "symbolic background element"
+                        },
+                        "cherry": {
+                            "form": "painted fruit",
+                            "scale": "normal (within painting)",
+                            "role": "color accent and food"
+                        }
+                    }
+                },
+                {
+                    "scene_type": "Baroque kitchen",
+                    "plausibility": 0.85,
+                    "reasoning": "A bustling kitchen in a manor house. A fork is being polished by a servant. A kitchen dog (terrier) sleeps near the hearth. A bowl of cherries sits on a prep table, waiting to be pitted.",
+                    "object_interpretations": {
+                        "fork": {
+                            "form": "real utensil",
+                            "scale": "normal",
+                            "role": "object of maintenance"
+                        },
+                        "dog": {
+                            "form": "real animal",
+                            "scale": "normal",
+                            "role": "kitchen mascot"
+                        },
+                        "cherry": {
+                            "form": "real fruit",
+                            "scale": "normal",
+                            "role": "ingredient"
+                        }
+                    }
+                },
+                {
+                    "scene_type": "Baroque garden party",
+                    "plausibility": 0.8,
+                    "reasoning": "An outdoor gathering on a manicured lawn. Guests use forks to eat fruit from a buffet. A lap dog wears a ribbon. A single cherry has fallen onto the grass near the dog.",
+                    "object_interpretations": {
+                        "fork": {
+                            "form": "real utensil",
+                            "scale": "normal",
+                            "role": "eating tool"
+                        },
+                        "dog": {
+                            "form": "real pet",
+                            "scale": "normal",
+                            "role": "fashionable accessory"
+                        },
+                        "cherry": {
+                            "form": "real fruit",
+                            "scale": "normal",
+                            "role": "dropped snack"
+                        }
+                    }
+                },
+                {
+                    "scene_type": "Surreal Baroque tableau",
+                    "plausibility": 0.7,
+                    "reasoning": "A dreamlike scene where a giant fork acts as a garden trellis. A normal-sized dog chases a giant cherry rolling across a checkered floor. The objects are distorted but maintain Baroque opulence.",
+                    "object_interpretations": {
+                        "fork": {
+                            "form": "sculptural object",
+                            "scale": "giant",
+                            "role": "architectural element"
+                        },
+                        "dog": {
+                            "form": "real animal",
+                            "scale": "normal",
+                            "role": "active participant"
+                        },
+                        "cherry": {
+                            "form": "sculptural fruit",
+                            "scale": "giant",
+                            "role": "obstacle/toy"
+                        }
+                    }
+                },
+                {
+                    "scene_type": "Baroque still life with pet",
+                    "plausibility": 0.9,
+                    "reasoning": "A painting of a draped table. A fork is stuck into a split cherry. A dog's head peeks over the table edge, eyeing the fruit.",
+                    "object_interpretations": {
+                        "fork": {
+                            "form": "real utensil",
+                            "scale": "normal",
+                            "role": "impaling object"
+                        },
+                        "dog": {
+                            "form": "real animal",
+                            "scale": "normal",
+                            "role": "intruder/predator"
+                        },
+                        "cherry": {
+                            "form": "real fruit",
+                            "scale": "normal",
+                            "role": "victim"
+                        }
+                    },
+                    "scene_brief": "A Baroque still life with pet featuring fork, with dog, and cherry"
+                },
+                {
+                    "scene_type": "Baroque nursery",
+                    "plausibility": 0.85,
+                    "reasoning": "A child's room with ornate furniture. A toy fork is part of a play set. A toy dog sits on a rug. A wooden cherry is a piece of play food.",
+                    "object_interpretations": {
+                        "fork": {
+                            "form": "toy",
+                            "scale": "miniature",
+                            "role": "play object"
+                        },
+                        "dog": {
+                            "form": "toy",
+                            "scale": "miniature",
+                            "role": "toy"
+                        },
+                        "cherry": {
+                            "form": "toy",
+                            "scale": "miniature",
+                            "role": "play food"
+                        }
+                    }
+                }
+            ],
+            "selected_scene": {
+                "scene_type": "Baroque still life with pet",
+                "plausibility": 0.9,
+                "reasoning": "A painting of a draped table. A fork is stuck into a split cherry. A dog's head peeks over the table edge, eyeing the fruit.",
+                "object_interpretations": {
+                    "fork": {
+                        "form": "real utensil",
+                        "scale": "normal",
+                        "role": "impaling object"
+                    },
+                    "dog": {
+                        "form": "real animal",
+                        "scale": "normal",
+                        "role": "intruder/predator"
+                    },
+                    "cherry": {
+                        "form": "real fruit",
+                        "scale": "normal",
+                        "role": "victim"
+                    }
+                },
+                "scene_brief": "A Baroque still life with pet featuring fork, with dog, and cherry"
+            }
+        }
+    },
+    "final_prompts": {
+        "main_prompt": "A Baroque painting depicting a warm afternoon scene bathed in natural soft light, creating a bright yet gently subdued atmosphere. In the foreground, a large, alert and calm golden-brown dog with deep chestnut fur sits attentively. Resting on the worn wooden floorboards beside the dog is a medium-sized fork, its soft silver-gray, muted pewter surface tarnished with gentle wear. Immediately next to the fork, as if just placed there, lies a small, fresh and ripe cherry of deep crimson, ruby red. The spatial arrangement forms a deliberate still-life triangle: the dog anchors the composition, with the fork positioned between its paws, and the cherry completing the intimate grouping. Rich chiaroscuro modeling defines the textures of fur, tarnished silver, and glossy fruit skin, while the active, dappled afternoon light streams through an unseen window, casting dramatic shadows and illuminating dust motes in the air, blending bright activity with a gentle, contemplative stillness.",
+        "negative_prompt": "photorealistic, 3d render, modern, digital art, photograph, low quality, blurry, distorted, cartoon, anime, surreal, abstract, text, watermark, signature, frame, border, ugly, deformed, bad anatomy, disfigured, poorly drawn face, mutation, mutated, extra limb, missing limb, floating limbs, disconnected limbs, malformed hands, out of focus, long neck",
+        "prompt_formats": {
+            "simple": "A Baroque painting of a dog, a fork, and a cherry arranged together in soft afternoon light.",
+            "complex": "A Baroque painting depicting a warm afternoon scene bathed in natural soft light, creating a bright yet gently subdued atmosphere. In the foreground, a large, alert and calm golden-brown dog with deep chestnut fur sits attentively. Resting on the worn wooden floorboards beside the dog is a medium-sized fork, its soft silver-gray, muted pewter surface tarnished with gentle wear. Immediately next to the fork, as if just placed there, lies a small, fresh and ripe cherry of deep crimson, ruby red. The spatial arrangement forms a deliberate still-life triangle: the dog anchors the composition, with the fork positioned between its paws, and the cherry completing the intimate grouping. Rich chiaroscuro modeling defines the textures of fur, tarnished silver, and glossy fruit skin, while the active, dappled afternoon light streams through an unseen window, casting dramatic shadows and illuminating dust motes in the air, blending bright activity with a gentle, contemplative stillness.",
+            "comma_separated": "Baroque painting, large golden-brown dog, medium tarnished silver fork, small ripe red cherry, dog beside fork, fork next to cherry, soft afternoon lighting, bright active subdued gentle atmosphere, chiaroscuro, dramatic shadows, still life, interior, detailed fur, textured silver, glossy fruit",
+            "tags": "art, painting, Baroque, dog, fork, cherry, still life, chiaroscuro, afternoon light, interior, golden-brown, chestnut, silver-gray, pewter, crimson, ruby, natural lighting, subdued, gentle, active, bright, detailed, textural"
+        }
+    }
+}

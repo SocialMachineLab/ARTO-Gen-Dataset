@@ -1,0 +1,355 @@
+{
+    "artwork_id": "artwork_20260103_181157_439",
+    "generation_timestamp": "2026-01-03T18:12:31.757672",
+    "style": "Neoclassicism",
+    "objects": {
+        "object_ids": [
+            20,
+            76,
+            9,
+            19
+        ],
+        "object_names": [
+            "cow",
+            "glass vase",
+            "boat",
+            "lamb"
+        ],
+        "enhanced_objects": [
+            {
+                "object_id": 20,
+                "name": "cow",
+                "artistic_description": "A miniature ceramic cow rendered in matte white glaze with subtle black spots, its surface catching the bright morning sunlight streaming through the window. The natural light illuminates the toy's smooth, unblemished surface, creating soft highlights on its rounded form while casting delicate shadows that emphasize its sculpted contours. The cheerful atmosphere enhances the pristine whiteness of the ceramic, giving it a fresh, almost luminous quality against the warm indoor environment.",
+                "size": "Medium",
+                "state": "pristine condition, clean and well-maintained",
+                "primary_colors": [
+                    "luminous white",
+                    "deep black"
+                ],
+                "material": "ceramic"
+            },
+            {
+                "object_id": 76,
+                "name": "glass vase",
+                "artistic_description": "A clear glass vase standing with crystalline transparency, its smooth surface refracting and scattering the morning sunlight into prismatic highlights across its facets. The natural light passes through the glass, creating brilliant sparkles and soft rainbow reflections on nearby surfaces, while the vase itself appears to glow with a cool, pure clarity. The glass exhibits pristine transparency with no dust or cloudiness, capturing the fresh energy of the bright indoor space.",
+                "size": "Medium",
+                "state": "flawless, pristine glass with no imperfections",
+                "primary_colors": [
+                    "crystal clear",
+                    "prismatic white"
+                ],
+                "material": "glass"
+            },
+            {
+                "object_id": 9,
+                "name": "boat",
+                "artistic_description": "A small wooden toy boat painted in rich navy blue with crisp white trim, its painted surface absorbing and reflecting the morning light with gentle sheen. The natural illumination reveals the fine brushwork of its miniature details while the warm indoor lighting adds subtle golden undertones to the white accents. The boat's smooth lacquered finish catches bright highlights on its curved hull, displaying the cheerful energy of the scene through its saturated, clean colors.",
+                "size": "Small",
+                "state": "carefully painted and well-preserved",
+                "primary_colors": [
+                    "navy blue",
+                    "bright white"
+                ],
+                "material": "wood"
+            },
+            {
+                "object_id": 19,
+                "name": "lamb",
+                "artistic_description": "A delicate porcelain lamb with soft white fleece texture rendered in fine white glaze, its surface gently diffusing the bright morning light. The natural illumination creates subtle shadows in the sculpted wool folds while highlighting the smooth, matte finish of the porcelain. The toy's pristine surface reflects the fresh, energetic atmosphere with a gentle luminosity, its white material appearing pure and serene in the warm indoor sunlight.",
+                "size": "Small",
+                "state": "immaculate condition, smooth and unchipped",
+                "primary_colors": [
+                    "soft white",
+                    "creamy white"
+                ],
+                "material": "porcelain"
+            }
+        ]
+    },
+    "composition": {
+        "spatial_relations": [
+            [
+                20,
+                "next to",
+                76
+            ],
+            [
+                20,
+                "next to",
+                9
+            ],
+            [
+                20,
+                "next to",
+                19
+            ],
+            [
+                9,
+                "next to",
+                76
+            ],
+            [
+                9,
+                "next to",
+                19
+            ],
+            [
+                76,
+                "next to",
+                19
+            ]
+        ],
+        "semantic_relations": []
+    },
+    "environment": {
+        "environment_details": {
+            "scene_brief": "A farmhouse interior featuring toy cow, with glass vase, toy boat placed nearby, and toy lamb placed nearby",
+            "place365_name": "/l/living_room",
+            "place365_id": 215,
+            "time_of_day": "morning",
+            "weather": "sunny",
+            "period": "Contemporary",
+            "is_indoor": true,
+            "lighting": {
+                "type": "natural",
+                "quality": "soft",
+                "direction": "side-lit",
+                "mood": "warm",
+                "reasoning": "Morning sunlight from windows provides soft, side-lit illumination that gently sculpts the forms of the objects without harsh shadows. This supports the Neoclassical style's focus on balanced lighting and harmonious composition, while the warm mood enhances the domestic, pastoral feel."
+            },
+            "atmosphere": "fresh and energetic and cheerful and gentle"
+        },
+        "scene_inference": {
+            "all_candidates": [
+                {
+                    "scene_type": "pastoral farm landscape",
+                    "plausibility": 0.95,
+                    "reasoning": "A cow is the primary subject in a pastoral setting. A lamb is a typical companion animal on a farm. A boat can be seen on a nearby river or pond, and a glass vase can be a decorative element on a farmhouse porch visible in the scene.",
+                    "object_interpretations": {
+                        "cow": {
+                            "form": "real animal",
+                            "scale": "normal",
+                            "role": "primary subject"
+                        },
+                        "lamb": {
+                            "form": "real animal",
+                            "scale": "normal",
+                            "role": "secondary animal"
+                        },
+                        "boat": {
+                            "form": "real boat",
+                            "scale": "normal",
+                            "role": "background element"
+                        },
+                        "glass vase": {
+                            "form": "real object",
+                            "scale": "normal",
+                            "role": "decorative element"
+                        }
+                    }
+                },
+                {
+                    "scene_type": "neoclassical still life",
+                    "plausibility": 0.9,
+                    "reasoning": "A cow can be depicted as a taxidermy mount or a large sculpture. A lamb can be a smaller sculpture or plush toy. The boat can be a detailed model, and the glass vase is a classic still life object.",
+                    "object_interpretations": {
+                        "cow": {
+                            "form": "sculpture/taxidermy",
+                            "scale": "large",
+                            "role": "central subject"
+                        },
+                        "lamb": {
+                            "form": "sculpture/toy",
+                            "scale": "small",
+                            "role": "secondary subject"
+                        },
+                        "boat": {
+                            "form": "model",
+                            "scale": "miniature",
+                            "role": "decorative prop"
+                        },
+                        "glass vase": {
+                            "form": "real object",
+                            "scale": "normal",
+                            "role": "decorative prop"
+                        }
+                    }
+                },
+                {
+                    "scene_type": "museum interior",
+                    "plausibility": 0.85,
+                    "reasoning": "A cow skeleton or taxidermy exhibit is the main focus. A lamb specimen is nearby. A boat model is part of a maritime exhibit, and a glass vase is an artifact in a display case.",
+                    "object_interpretations": {
+                        "cow": {
+                            "form": "taxidermy/skeleton",
+                            "scale": "normal",
+                            "role": "exhibit"
+                        },
+                        "lamb": {
+                            "form": "taxidermy",
+                            "scale": "normal",
+                            "role": "exhibit"
+                        },
+                        "boat": {
+                            "form": "model",
+                            "scale": "small",
+                            "role": "exhibit"
+                        },
+                        "glass vase": {
+                            "form": "artifact",
+                            "scale": "normal",
+                            "role": "exhibit"
+                        }
+                    }
+                },
+                {
+                    "scene_type": "mythological riverbank",
+                    "plausibility": 0.8,
+                    "reasoning": "In mythology, cows and lambs are sacred animals. A boat can be a ferry on the River Styx. A glass vase can be an offering vessel or a magical artifact.",
+                    "object_interpretations": {
+                        "cow": {
+                            "form": "real animal",
+                            "scale": "normal",
+                            "role": "symbolic animal"
+                        },
+                        "lamb": {
+                            "form": "real animal",
+                            "scale": "normal",
+                            "role": "symbolic animal"
+                        },
+                        "boat": {
+                            "form": "real boat",
+                            "scale": "large",
+                            "role": "transport vessel"
+                        },
+                        "glass vase": {
+                            "form": "magical artifact",
+                            "scale": "normal",
+                            "role": "offering object"
+                        }
+                    }
+                },
+                {
+                    "scene_type": "farmhouse interior",
+                    "plausibility": 0.85,
+                    "reasoning": "A cow can be a large plush toy or a painting on the wall. A lamb can be a toy or a pet. A boat can be a toy on the floor, and a glass vase is a common household item.",
+                    "object_interpretations": {
+                        "cow": {
+                            "form": "toy/painting",
+                            "scale": "normal",
+                            "role": "decoration/toy"
+                        },
+                        "lamb": {
+                            "form": "toy/pet",
+                            "scale": "small",
+                            "role": "pet/toy"
+                        },
+                        "boat": {
+                            "form": "toy",
+                            "scale": "small",
+                            "role": "toy"
+                        },
+                        "glass vase": {
+                            "form": "real object",
+                            "scale": "normal",
+                            "role": "household item"
+                        }
+                    },
+                    "scene_brief": "A farmhouse interior featuring toy cow, with glass vase, toy boat placed nearby, and toy lamb placed nearby"
+                },
+                {
+                    "scene_type": "royal menagerie",
+                    "plausibility": 0.8,
+                    "reasoning": "A cow and lamb can be exotic animals in a royal collection. A boat can be a model in a pond, and a glass vase can be a decorative element in the garden.",
+                    "object_interpretations": {
+                        "cow": {
+                            "form": "real animal",
+                            "scale": "normal",
+                            "role": "exotic animal"
+                        },
+                        "lamb": {
+                            "form": "real animal",
+                            "scale": "normal",
+                            "role": "exotic animal"
+                        },
+                        "boat": {
+                            "form": "model",
+                            "scale": "small",
+                            "role": "garden decoration"
+                        },
+                        "glass vase": {
+                            "form": "real object",
+                            "scale": "large",
+                            "role": "garden decoration"
+                        }
+                    }
+                },
+                {
+                    "scene_type": "art studio",
+                    "plausibility": 0.75,
+                    "reasoning": "A cow and lamb can be reference sculptures or models. A boat can be a small model for a painting, and a glass vase is a standard still life prop.",
+                    "object_interpretations": {
+                        "cow": {
+                            "form": "sculpture/model",
+                            "scale": "small",
+                            "role": "reference model"
+                        },
+                        "lamb": {
+                            "form": "sculpture/model",
+                            "scale": "small",
+                            "role": "reference model"
+                        },
+                        "boat": {
+                            "form": "model",
+                            "scale": "miniature",
+                            "role": "reference model"
+                        },
+                        "glass vase": {
+                            "form": "real object",
+                            "scale": "normal",
+                            "role": "still life prop"
+                        }
+                    }
+                }
+            ],
+            "selected_scene": {
+                "scene_type": "farmhouse interior",
+                "plausibility": 0.85,
+                "reasoning": "A cow can be a large plush toy or a painting on the wall. A lamb can be a toy or a pet. A boat can be a toy on the floor, and a glass vase is a common household item.",
+                "object_interpretations": {
+                    "cow": {
+                        "form": "toy/painting",
+                        "scale": "normal",
+                        "role": "decoration/toy"
+                    },
+                    "lamb": {
+                        "form": "toy/pet",
+                        "scale": "small",
+                        "role": "pet/toy"
+                    },
+                    "boat": {
+                        "form": "toy",
+                        "scale": "small",
+                        "role": "toy"
+                    },
+                    "glass vase": {
+                        "form": "real object",
+                        "scale": "normal",
+                        "role": "household item"
+                    }
+                },
+                "scene_brief": "A farmhouse interior featuring toy cow, with glass vase, toy boat placed nearby, and toy lamb placed nearby"
+            }
+        }
+    },
+    "final_prompts": {
+        "main_prompt": "A Neoclassicism painting depicting a luminous white and deep black cow in pristine condition standing at the center of a pastoral morning scene, positioned directly beside a crystal clear, prismatic white glass vase of flawless medium size, while also adjacent to a small, carefully painted navy blue and bright white boat that rests upon the grass. To complete the harmonious arrangement, a small, soft white and creamy white lamb in immaculate condition stands beside both the cow and the glass vase, with the boat also situated next to the lamb, creating a balanced triangular composition of companionship. The natural soft morning light bathes the scene in a gentle glow, casting subtle shadows and highlighting the pristine surfaces of the ceramic-like glass vase and the carefully painted wooden boat, all set against a classical landscape backdrop that evokes a fresh, energetic, cheerful, and gentle atmosphere of pastoral serenity.",
+        "negative_prompt": "photorealistic, 3d render, modern, digital art, photograph, low quality, blurry, distorted, surreal, abstract, cartoon, anime, fantasy, horror, dark, gloomy, chaotic, cluttered, deformed, ugly, bad anatomy, extra limbs, mutated, text, watermark, signature, frame, border",
+        "prompt_formats": {
+            "simple": "A Neoclassical pastoral scene with a cow, glass vase, boat, and lamb arranged together in soft morning light.",
+            "complex": "A Neoclassicism painting depicting a luminous white and deep black cow in pristine condition standing at the center of a pastoral morning scene, positioned directly beside a crystal clear, prismatic white glass vase of flawless medium size, while also adjacent to a small, carefully painted navy blue and bright white boat that rests upon the grass. To complete the harmonious arrangement, a small, soft white and creamy white lamb in immaculate condition stands beside both the cow and the glass vase, with the boat also situated next to the lamb, creating a balanced triangular composition of companionship. The natural soft morning light bathes the scene in a gentle glow, casting subtle shadows and highlighting the pristine surfaces of the ceramic-like glass vase and the carefully painted wooden boat, all set against a classical landscape backdrop that evokes a fresh, energetic, cheerful, and gentle atmosphere of pastoral serenity.",
+            "comma_separated": "Neoclassicism painting, cow, glass vase, boat, lamb, luminous white cow, deep black cow, crystal clear vase, prismatic white vase, navy blue boat, bright white boat, soft white lamb, creamy white lamb, pastoral scene, morning light, natural soft lighting, fresh atmosphere, energetic, cheerful, gentle, balanced composition, classical landscape, pristine condition, flawless, carefully painted, immaculate",
+            "tags": "art, painting, neoclassicism, pastoral, classical, morning, soft lighting, cow, glass vase, boat, lamb, composition, serene, cheerful, gentle, balanced, detailed, luminous, pristine"
+        }
+    }
+}

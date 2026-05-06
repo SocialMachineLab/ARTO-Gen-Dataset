@@ -1,0 +1,319 @@
+{
+    "artwork_id": "artwork_20260103_170340_851",
+    "generation_timestamp": "2026-01-03T17:04:07.300670",
+    "style": "Impressionism",
+    "objects": {
+        "object_ids": [
+            27,
+            47,
+            72,
+            25
+        ],
+        "object_names": [
+            "shopping bag",
+            "banana",
+            "sink",
+            "backpack"
+        ],
+        "enhanced_objects": [
+            {
+                "object_id": 27,
+                "name": "shopping bag",
+                "artistic_description": "Soft, luminous paper texture catching warm afternoon light through windows, edges blurred with gentle dappled shadows. Crisp white surface infused with subtle golden tones, handles showing delicate creases and wear. The matte surface absorbs light while creating soft highlights along folded edges, with faint color variations suggesting handling and use.",
+                "size": "Medium",
+                "state": "slightly crumpled from use, clean",
+                "primary_colors": [
+                    "warm cream",
+                    "soft gold"
+                ],
+                "material": "paper"
+            },
+            {
+                "object_id": 47,
+                "name": "banana",
+                "artistic_description": "Vibrant yellow skin glowing with warm, saturated color in the bright natural light, showing delicate brown speckles across its curved surface. The peel has a subtle waxy sheen that catches soft highlights, while shadows pool gently in the natural curvature. Stems show dried, fibrous textures with muted olive tones contrasting against the bright fruit.",
+                "size": "Small",
+                "state": "ripe with slight bruising, fresh",
+                "primary_colors": [
+                    "bright yellow",
+                    "warm brown"
+                ],
+                "material": "organic"
+            },
+            {
+                "object_id": 72,
+                "name": "sink",
+                "artistic_description": "Cool white porcelain reflecting scattered light with a soft, matte finish, showing gentle water spots and mineral traces that create subtle pattern variations. The basin catches ambient light with muted highlights along curved edges, while chrome fixtures sparkle with sharp, cool reflections against the diffuse white surface.",
+                "size": "Large",
+                "state": "clean with water spots, contemporary design",
+                "primary_colors": [
+                    "cool white",
+                    "silver"
+                ],
+                "material": "porcelain"
+            },
+            {
+                "object_id": 25,
+                "name": "backpack",
+                "artistic_description": "Textured fabric surface in soft, diffused light showing woven material with gentle color gradations. Zippers and hardware catch bright highlights while fabric absorbs ambient tones, creating a matte appearance with subtle shadows in seams and folds. Weathered corners show softened edges and muted color saturation.",
+                "size": "Medium",
+                "state": "worn with softened edges, contemporary style",
+                "primary_colors": [
+                    "muted navy",
+                    "soft gray"
+                ],
+                "material": "canvas"
+            }
+        ]
+    },
+    "composition": {
+        "spatial_relations": [
+            [
+                27,
+                "on",
+                25
+            ],
+            [
+                47,
+                "inside",
+                27
+            ],
+            [
+                25,
+                "next to",
+                72
+            ]
+        ],
+        "semantic_relations": [
+            [
+                27,
+                "holding",
+                47
+            ]
+        ]
+    },
+    "environment": {
+        "environment_details": {
+            "scene_brief": "A outdoor market featuring shopping bag, with banana, sink, and backpack",
+            "place365_name": "/s/supermarket",
+            "place365_id": 321,
+            "time_of_day": "afternoon",
+            "weather": "sunny",
+            "period": "Contemporary",
+            "is_indoor": true,
+            "lighting": {
+                "type": "natural",
+                "quality": "soft",
+                "direction": "side-lit",
+                "mood": "warm",
+                "reasoning": "Natural sunlight in the afternoon creates a warm mood. 'Soft' quality is chosen because Impressionism relies on the diffusion of light rather than sharp, hard edges. 'Side-lit' is selected to model the forms of the objects (banana, bag) with gentle shadows, enhancing their volume while maintaining the atmospheric unity typical of the style."
+            },
+            "atmosphere": "bright and active and cheerful and gentle"
+        },
+        "scene_inference": {
+            "all_candidates": [
+                {
+                    "scene_type": "kitchen",
+                    "plausibility": 0.95,
+                    "reasoning": "A kitchen is a natural place for a sink and a banana (as food). A shopping bag can be placed on a counter or chair after bringing groceries, and a backpack can be hanging on a hook or placed on the floor.",
+                    "object_interpretations": {
+                        "shopping bag": {
+                            "form": "real bag",
+                            "scale": "normal",
+                            "role": "grocery container"
+                        },
+                        "banana": {
+                            "form": "real fruit",
+                            "scale": "normal",
+                            "role": "food item"
+                        },
+                        "sink": {
+                            "form": "real appliance",
+                            "scale": "normal",
+                            "role": "kitchen fixture"
+                        },
+                        "backpack": {
+                            "form": "real backpack",
+                            "scale": "normal",
+                            "role": "personal item storage"
+                        }
+                    }
+                },
+                {
+                    "scene_type": "dorm room",
+                    "plausibility": 0.9,
+                    "reasoning": "A dorm room often has a small sink area. A student might have a backpack for classes, a shopping bag for laundry or snacks, and a banana as a quick meal.",
+                    "object_interpretations": {
+                        "shopping bag": {
+                            "form": "plastic or paper bag",
+                            "scale": "normal",
+                            "role": "temporary storage"
+                        },
+                        "banana": {
+                            "form": "snack",
+                            "scale": "normal",
+                            "role": "food"
+                        },
+                        "sink": {
+                            "form": "small bathroom sink",
+                            "scale": "normal",
+                            "role": "utility"
+                        },
+                        "backpack": {
+                            "form": "student backpack",
+                            "scale": "normal",
+                            "role": "school supplies carrier"
+                        }
+                    }
+                },
+                {
+                    "scene_type": "grocery store checkout",
+                    "plausibility": 0.85,
+                    "reasoning": "The shopping bag is the primary container for items like the banana. The backpack is worn by the shopper. The sink is less common here but could be a cleaning station or a decorative element in a high-end store.",
+                    "object_interpretations": {
+                        "shopping bag": {
+                            "form": "store bag",
+                            "scale": "normal",
+                            "role": "purchase carrier"
+                        },
+                        "banana": {
+                            "form": "produce",
+                            "scale": "normal",
+                            "role": "purchased item"
+                        },
+                        "sink": {
+                            "form": "decorative fountain or utility sink",
+                            "scale": "normal",
+                            "role": "store fixture"
+                        },
+                        "backpack": {
+                            "form": "worn backpack",
+                            "scale": "normal",
+                            "role": "customer's accessory"
+                        }
+                    }
+                },
+                {
+                    "scene_type": "mudroom",
+                    "plausibility": 0.9,
+                    "reasoning": "A mudroom is an entryway where people drop bags (shopping and backpack). A sink might be present for washing hands or cleaning produce. A banana could be in the shopping bag.",
+                    "object_interpretations": {
+                        "shopping bag": {
+                            "form": "reusable tote",
+                            "scale": "normal",
+                            "role": "storage"
+                        },
+                        "banana": {
+                            "form": "fruit",
+                            "scale": "normal",
+                            "role": "grocery item"
+                        },
+                        "sink": {
+                            "form": "utility sink",
+                            "scale": "normal",
+                            "role": "cleaning station"
+                        },
+                        "backpack": {
+                            "form": "outdoor backpack",
+                            "scale": "normal",
+                            "role": "gear storage"
+                        }
+                    }
+                },
+                {
+                    "scene_type": "art studio",
+                    "plausibility": 0.8,
+                    "reasoning": "In an Impressionist style, the objects are subjects of still life. The sink could be a basin, the banana a prop, and the bags props for a composition.",
+                    "object_interpretations": {
+                        "shopping bag": {
+                            "form": "canvas bag",
+                            "scale": "normal",
+                            "role": "still life subject"
+                        },
+                        "banana": {
+                            "form": "prop fruit",
+                            "scale": "normal",
+                            "role": "color accent"
+                        },
+                        "sink": {
+                            "form": "basin or tub",
+                            "scale": "normal",
+                            "role": "background element"
+                        },
+                        "backpack": {
+                            "form": "worn bag",
+                            "scale": "normal",
+                            "role": "subject"
+                        }
+                    }
+                },
+                {
+                    "scene_type": "outdoor market",
+                    "plausibility": 0.85,
+                    "reasoning": "A shopper carries a backpack and a shopping bag containing a banana. A public water sink might be nearby.",
+                    "object_interpretations": {
+                        "shopping bag": {
+                            "form": "paper bag",
+                            "scale": "normal",
+                            "role": "carrier"
+                        },
+                        "banana": {
+                            "form": "fruit",
+                            "scale": "normal",
+                            "role": "item"
+                        },
+                        "sink": {
+                            "form": "public water fountain/sink",
+                            "scale": "normal",
+                            "role": "utility"
+                        },
+                        "backpack": {
+                            "form": "worn backpack",
+                            "scale": "normal",
+                            "role": "personal item"
+                        }
+                    },
+                    "scene_brief": "A outdoor market featuring shopping bag, with banana, sink, and backpack"
+                }
+            ],
+            "selected_scene": {
+                "scene_type": "outdoor market",
+                "plausibility": 0.85,
+                "reasoning": "A shopper carries a backpack and a shopping bag containing a banana. A public water sink might be nearby.",
+                "object_interpretations": {
+                    "shopping bag": {
+                        "form": "paper bag",
+                        "scale": "normal",
+                        "role": "carrier"
+                    },
+                    "banana": {
+                        "form": "fruit",
+                        "scale": "normal",
+                        "role": "item"
+                    },
+                    "sink": {
+                        "form": "public water fountain/sink",
+                        "scale": "normal",
+                        "role": "utility"
+                    },
+                    "backpack": {
+                        "form": "worn backpack",
+                        "scale": "normal",
+                        "role": "personal item"
+                    }
+                },
+                "scene_brief": "A outdoor market featuring shopping bag, with banana, sink, and backpack"
+            }
+        }
+    },
+    "final_prompts": {
+        "main_prompt": "A Impressionism painting depicting a bright and active afternoon kitchen scene, filled with natural soft light that creates a cheerful and gentle atmosphere. In the foreground, a medium-sized shopping bag in warm cream and soft gold tones sits atop a medium-sized backpack in muted navy and soft gray, the shopping bag slightly crumpled from use while the backpack shows worn softened edges. A small bright yellow banana with warm brown bruising peeks out from inside the shopping bag, its ripe organic form contrasting with the paper texture. Beside this arrangement, a large sink in cool white and silver porcelain stands clean with water spots catching the afternoon light. The spatial composition shows the shopping bag resting on the backpack, with the banana contained within the shopping bag, and the backpack positioned next to the sink, all arranged on what appears to be a wooden countertop. Loose, visible brushstrokes capture the play of light across different materials\u2014paper, organic fruit, porcelain, and canvas fabric\u2014creating a vibrant yet gentle domestic moment.",
+        "negative_prompt": "photorealistic, 3d render, modern, digital art, photograph, low quality, blurry, distorted, ugly, deformed, cartoon, anime, text, watermark, signature, frame, border, dark, gloomy, night, evening, morning, surreal, abstract",
+        "prompt_formats": {
+            "simple": "An Impressionist painting of a shopping bag on a backpack with a banana inside, next to a sink in afternoon light.",
+            "complex": "A Impressionism painting depicting a bright and active afternoon kitchen scene, filled with natural soft light that creates a cheerful and gentle atmosphere. In the foreground, a medium-sized shopping bag in warm cream and soft gold tones sits atop a medium-sized backpack in muted navy and soft gray, the shopping bag slightly crumpled from use while the backpack shows worn softened edges. A small bright yellow banana with warm brown bruising peeks out from inside the shopping bag, its ripe organic form contrasting with the paper texture. Beside this arrangement, a large sink in cool white and silver porcelain stands clean with water spots catching the afternoon light. The spatial composition shows the shopping bag resting on the backpack, with the banana contained within the shopping bag, and the backpack positioned next to the sink, all arranged on what appears to be a wooden countertop. Loose, visible brushstrokes capture the play of light across different materials\u2014paper, organic fruit, porcelain, and canvas fabric\u2014creating a vibrant yet gentle domestic moment.",
+            "comma_separated": "Impressionism painting, shopping bag on backpack, banana inside bag, backpack next to sink, warm cream shopping bag, bright yellow banana, cool white sink, muted navy backpack, afternoon lighting, natural soft light, bright cheerful gentle atmosphere, visible brushstrokes, domestic scene, kitchen counter",
+            "tags": "art, painting, impressionism, still life, domestic scene, kitchen, afternoon light, soft lighting, cheerful, gentle, brushstrokes, texture, composition, objects arrangement"
+        }
+    }
+}

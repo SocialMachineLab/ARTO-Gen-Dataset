@@ -1,0 +1,360 @@
+{
+    "artwork_id": "artwork_20260103_023858_359",
+    "generation_timestamp": "2026-01-03T02:39:34.950835",
+    "style": "Post-Impressionism",
+    "objects": {
+        "object_ids": [
+            40,
+            31,
+            46,
+            40
+        ],
+        "object_names": [
+            "wine bottle",
+            "sleigh",
+            "glass bowl",
+            "bottle"
+        ],
+        "enhanced_objects": [
+            {
+                "object_id": 40,
+                "name": "wine bottle",
+                "artistic_description": "Tall glass bottle catching afternoon natural light with vibrant green-gold luminosity, faceted edges scattering prismatic highlights across dark glass surface, deep forest green glass showing amber translucency where light penetrates, label peeling slightly with warm cream paper showing water stains, wax-sealed cork with rich burgundy patina, condensation droplets creating tiny distorted reflections of window light",
+                "size": "Large",
+                "state": "partially filled, aged with slight wear on label",
+                "primary_colors": [
+                    "forest green",
+                    "amber"
+                ],
+                "material": "glass"
+            },
+            {
+                "object_id": 31,
+                "name": "sleigh",
+                "artistic_description": "Miniature wooden sleigh glowing with warm honey tones under bright natural light, smooth curved runners reflecting sharp white highlights, red painted body showing chipped edges revealing raw wood grain beneath, brass bells catching golden sunbeams with intense specular glints, matte wood texture absorbing soft ambient light, delicate brushstrokes visible in paint application",
+                "size": "Small",
+                "state": "toy condition with weathered paint and slight scuffs",
+                "primary_colors": [
+                    "crimson red",
+                    "honey brown"
+                ],
+                "material": "wood"
+            },
+            {
+                "object_id": 46,
+                "name": "glass bowl",
+                "artistic_description": "Wide shallow bowl radiating crystalline clarity through thick clear glass, refracting afternoon light into rainbow spectrations across surface, rim catching pure white highlights with violet edge fringing, smooth interior showing subtle greenish cast from ambient room light, pristine condition with no scratches, glass thickness creating soft blue-gray shadows within its curve",
+                "size": "Medium",
+                "state": "pristine, clean",
+                "primary_colors": [
+                    "clear",
+                    "cyan"
+                ],
+                "material": "glass"
+            },
+            {
+                "object_id": 40,
+                "name": "bottle",
+                "artistic_description": "Short amber glass bottle standing in warm afternoon glow, translucent glass showing rich honey-orange saturation where backlit, cork stopper with rough natural texture absorbing light, dusty surface creating soft matte diffusion on shoulders, geometric facets casting sharp angular shadows on surface beneath, vintage appearance with subtle imperfections in glass",
+                "size": "Medium",
+                "state": "empty, vintage with dust accumulation",
+                "primary_colors": [
+                    "amber",
+                    "golden brown"
+                ],
+                "material": "glass"
+            }
+        ]
+    },
+    "composition": {
+        "spatial_relations": [
+            [
+                40,
+                "next to",
+                31
+            ],
+            [
+                40,
+                "next to",
+                46
+            ],
+            [
+                31,
+                "next to",
+                40
+            ],
+            [
+                31,
+                "next to",
+                46
+            ],
+            [
+                46,
+                "next to",
+                40
+            ],
+            [
+                46,
+                "next to",
+                31
+            ],
+            [
+                40,
+                "next to",
+                40
+            ]
+        ],
+        "semantic_relations": []
+    },
+    "environment": {
+        "environment_details": {
+            "scene_brief": "A artistic pantry still life featuring wine bottle, with toy sleigh placed nearby, glass bowl, and bottle",
+            "place365_name": "/p/pantry",
+            "place365_id": 253,
+            "time_of_day": "afternoon",
+            "weather": null,
+            "period": "Contemporary",
+            "is_indoor": true,
+            "lighting": {
+                "type": "natural",
+                "quality": "soft",
+                "direction": "side-lit",
+                "mood": "warm",
+                "reasoning": "Side-lighting from a window (implied by natural light) creates strong shadows and highlights, essential for the volumetric forms in Post-Impressionism. The 'soft' quality diffuses the edges slightly, blending colors while maintaining structure, and the 'warm' mood complements the domestic setting."
+            },
+            "atmosphere": "bright and active and gentle"
+        },
+        "scene_inference": {
+            "all_candidates": [
+                {
+                    "scene_type": "rustic country kitchen",
+                    "plausibility": 0.95,
+                    "reasoning": "A wine bottle is a common pantry item. A sleigh can be a miniature decorative model on a shelf. A glass bowl holds fruit or ingredients. The bottle is likely another pantry item. Post-Impressionism highlights the rustic textures and warm light.",
+                    "object_interpretations": {
+                        "wine bottle": {
+                            "form": "real bottle",
+                            "scale": "normal",
+                            "role": "primary pantry item"
+                        },
+                        "sleigh": {
+                            "form": "model/decoration",
+                            "scale": "miniature",
+                            "role": "seasonal decorative object"
+                        },
+                        "glass bowl": {
+                            "form": "real bowl",
+                            "scale": "normal",
+                            "role": "utility container"
+                        },
+                        "bottle": {
+                            "form": "real bottle",
+                            "scale": "normal",
+                            "role": "secondary pantry item"
+                        }
+                    }
+                },
+                {
+                    "scene_type": "vintage wine cellar",
+                    "plausibility": 0.9,
+                    "reasoning": "The wine bottle is the central object. The 'bottle' is a secondary wine bottle. A glass bowl might be used for tasting or holding grapes. A sleigh could be a vintage toy or decoration stored in the cellar.",
+                    "object_interpretations": {
+                        "wine bottle": {
+                            "form": "real bottle",
+                            "scale": "normal",
+                            "role": "primary storage object"
+                        },
+                        "sleigh": {
+                            "form": "toy/vintage item",
+                            "scale": "small",
+                            "role": "stored curiosity"
+                        },
+                        "glass bowl": {
+                            "form": "real bowl",
+                            "scale": "normal",
+                            "role": "serving vessel"
+                        },
+                        "bottle": {
+                            "form": "real bottle",
+                            "scale": "normal",
+                            "role": "secondary storage object"
+                        }
+                    }
+                },
+                {
+                    "scene_type": "holiday dining table",
+                    "plausibility": 0.85,
+                    "reasoning": "Wine bottles and glasses are standard. A glass bowl serves salad or fruit. A sleigh acts as a centerpiece decoration. The 'bottle' is a second wine bottle for the meal.",
+                    "object_interpretations": {
+                        "wine bottle": {
+                            "form": "real bottle",
+                            "scale": "normal",
+                            "role": "beverage container"
+                        },
+                        "sleigh": {
+                            "form": "decoration",
+                            "scale": "small",
+                            "role": "centerpiece"
+                        },
+                        "glass bowl": {
+                            "form": "real bowl",
+                            "scale": "normal",
+                            "role": "serving dish"
+                        },
+                        "bottle": {
+                            "form": "real bottle",
+                            "scale": "normal",
+                            "role": "beverage container"
+                        }
+                    }
+                },
+                {
+                    "scene_type": "artistic pantry still life",
+                    "plausibility": 0.8,
+                    "reasoning": "A classic Post-Impressionist subject. The wine bottle anchors the composition. The glass bowl adds transparency and reflection. The sleigh adds an unexpected geometric shape. The 'bottle' adds volume to the arrangement.",
+                    "object_interpretations": {
+                        "wine bottle": {
+                            "form": "real bottle",
+                            "scale": "normal",
+                            "role": "subject of composition"
+                        },
+                        "sleigh": {
+                            "form": "toy/model",
+                            "scale": "small",
+                            "role": "textural contrast object"
+                        },
+                        "glass bowl": {
+                            "form": "real bowl",
+                            "scale": "normal",
+                            "role": "light refraction object"
+                        },
+                        "bottle": {
+                            "form": "real bottle",
+                            "scale": "normal",
+                            "role": "balancing element"
+                        }
+                    },
+                    "scene_brief": "A artistic pantry still life featuring wine bottle, with toy sleigh placed nearby, glass bowl, and bottle"
+                },
+                {
+                    "scene_type": "gift wrapping station",
+                    "plausibility": 0.75,
+                    "reasoning": "A sleigh is a gift container. Wine bottles are often given as gifts. A glass bowl could be a gift too. The 'bottle' is a second gift.",
+                    "object_interpretations": {
+                        "wine bottle": {
+                            "form": "real bottle",
+                            "scale": "normal",
+                            "role": "gift item"
+                        },
+                        "sleigh": {
+                            "form": "container",
+                            "scale": "medium",
+                            "role": "gift holder"
+                        },
+                        "glass bowl": {
+                            "form": "real bowl",
+                            "scale": "normal",
+                            "role": "gift item"
+                        },
+                        "bottle": {
+                            "form": "real bottle",
+                            "scale": "normal",
+                            "role": "gift item"
+                        }
+                    }
+                },
+                {
+                    "scene_type": "winter picnic setting",
+                    "plausibility": 0.7,
+                    "reasoning": "A picnic with wine (bottle). A glass bowl for snacks. A sleigh (if snow is present) or a toy sleigh as a prop. The 'bottle' is a second drink.",
+                    "object_interpretations": {
+                        "wine bottle": {
+                            "form": "real bottle",
+                            "scale": "normal",
+                            "role": "beverage"
+                        },
+                        "sleigh": {
+                            "form": "real transport or toy",
+                            "scale": "variable",
+                            "role": "transport or decoration"
+                        },
+                        "glass bowl": {
+                            "form": "real bowl",
+                            "scale": "normal",
+                            "role": "food container"
+                        },
+                        "bottle": {
+                            "form": "real bottle",
+                            "scale": "normal",
+                            "role": "beverage"
+                        }
+                    }
+                },
+                {
+                    "scene_type": "antique shop shelf",
+                    "plausibility": 0.85,
+                    "reasoning": "Wine bottles, glass bowls, and old bottles are common antiques. A sleigh could be a vintage toy or decoration. Post-Impressionism suits the cluttered, textured look of an antique shop.",
+                    "object_interpretations": {
+                        "wine bottle": {
+                            "form": "antique bottle",
+                            "scale": "normal",
+                            "role": "collectible"
+                        },
+                        "sleigh": {
+                            "form": "vintage toy",
+                            "scale": "small",
+                            "role": "collectible"
+                        },
+                        "glass bowl": {
+                            "form": "antique bowl",
+                            "scale": "normal",
+                            "role": "collectible"
+                        },
+                        "bottle": {
+                            "form": "antique bottle",
+                            "scale": "normal",
+                            "role": "collectible"
+                        }
+                    }
+                }
+            ],
+            "selected_scene": {
+                "scene_type": "artistic pantry still life",
+                "plausibility": 0.8,
+                "reasoning": "A classic Post-Impressionist subject. The wine bottle anchors the composition. The glass bowl adds transparency and reflection. The sleigh adds an unexpected geometric shape. The 'bottle' adds volume to the arrangement.",
+                "object_interpretations": {
+                    "wine bottle": {
+                        "form": "real bottle",
+                        "scale": "normal",
+                        "role": "subject of composition"
+                    },
+                    "sleigh": {
+                        "form": "toy/model",
+                        "scale": "small",
+                        "role": "textural contrast object"
+                    },
+                    "glass bowl": {
+                        "form": "real bowl",
+                        "scale": "normal",
+                        "role": "light refraction object"
+                    },
+                    "bottle": {
+                        "form": "real bottle",
+                        "scale": "normal",
+                        "role": "balancing element"
+                    }
+                },
+                "scene_brief": "A artistic pantry still life featuring wine bottle, with toy sleigh placed nearby, glass bowl, and bottle"
+            }
+        }
+    },
+    "final_prompts": {
+        "main_prompt": "A Post-Impressionism painting depicting a bright and active yet gentle afternoon scene with natural soft lighting. In the foreground, a large forest green and amber wine bottle, partially filled, sits beside a small crimson red and honey brown toy sleigh with weathered paint. The sleigh rests adjacent to a medium-sized clear and cyan glass bowl in pristine condition. Nestled between them is a medium amber and golden brown empty bottle. The wine bottle stands next to the sleigh, which in turn sits beside the glass bowl, with all objects arranged in a close triangular composition on a wooden surface. The scene is rendered with visible brushstrokes, vibrant color blocks, and expressive forms characteristic of Post-Impressionism, capturing the interplay of light and shadow across the glass and wood materials.",
+        "negative_prompt": "photorealistic, 3d render, modern, digital art, photograph, low quality, blurry, distorted, ugly, deformed, text, watermark, signature, frame, border",
+        "prompt_formats": {
+            "simple": "A Post-Impressionism painting of a wine bottle, sleigh, glass bowl, and bottle arranged together on a surface during a soft afternoon.",
+            "complex": "A Post-Impressionism painting depicting a bright and active yet gentle afternoon scene with natural soft lighting. In the foreground, a large forest green and amber wine bottle, partially filled, sits beside a small crimson red and honey brown toy sleigh with weathered paint. The sleigh rests adjacent to a medium-sized clear and cyan glass bowl in pristine condition. Nestled between them is a medium amber and golden brown empty bottle. The wine bottle stands next to the sleigh, which in turn sits beside the glass bowl, with all objects arranged in a close triangular composition on a wooden surface. The scene is rendered with visible brushstrokes, vibrant color blocks, and expressive forms characteristic of Post-Impressionism, capturing the interplay of light and shadow across the glass and wood materials.",
+            "comma_separated": "Post-Impressionism painting, wine bottle, sleigh, glass bowl, bottle, large forest green amber partially filled, small crimson red honey brown toy sleigh weathered, medium clear cyan pristine glass bowl, medium amber golden brown empty bottle, arranged together, afternoon lighting, natural soft light, bright active gentle atmosphere, wooden surface, visible brushstrokes, vibrant colors",
+            "tags": "art, painting, post-impressionism, still life, wine bottle, sleigh, glass bowl, bottle, afternoon light, soft lighting, vibrant colors, brushstrokes, composition"
+        }
+    }
+}

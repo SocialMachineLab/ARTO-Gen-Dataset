@@ -1,0 +1,340 @@
+{
+    "artwork_id": "artwork_20260103_030003_729",
+    "generation_timestamp": "2026-01-03T03:00:36.619695",
+    "style": "Post-Impressionism",
+    "objects": {
+        "object_ids": [
+            74,
+            3,
+            60,
+            3
+        ],
+        "object_names": [
+            "book",
+            "horse cart",
+            "hammock",
+            "wagon"
+        ],
+        "enhanced_objects": [
+            {
+                "object_id": 74,
+                "name": "book",
+                "artistic_description": "A leather-bound volume with pages glowing in warm afternoon sunlight, dust motes dancing in golden shafts across its cover, the spine showing rich patina from handling, edges softened and frayed with use, paper catching light with a warm cream luminosity",
+                "size": "Small",
+                "state": "well-used, open with pages slightly curled from humidity",
+                "primary_colors": [
+                    "warm amber",
+                    "deep brown"
+                ],
+                "material": "leather and paper"
+            },
+            {
+                "object_id": 3,
+                "name": "horse cart",
+                "artistic_description": "A sturdy wooden cart with wheels catching brilliant highlights in the sunny interior, red paint flaking to reveal weathered gray wood beneath, metal fittings gleaming with sharp specular reflections, straw scattered across the bed casting delicate shadows, bold outlines defining its form against the bright background",
+                "size": "Large",
+                "state": "weathered but functional, paint peeling from sun exposure",
+                "primary_colors": [
+                    "crimson red",
+                    "weathered gray"
+                ],
+                "material": "wood and metal"
+            },
+            {
+                "object_id": 60,
+                "name": "hammock",
+                "artistic_description": "Striped fabric suspended in lazy curves, bright afternoon light filtering through the weave creating dappled patterns on the floor, cotton fibers glowing with saturated blues and whites, shadows pooling in the folds with deep violet tones, tassels catching golden rim light",
+                "size": "Medium",
+                "state": "relaxed and inviting, slightly stretched from use",
+                "primary_colors": [
+                    "vivid blue",
+                    "bright white"
+                ],
+                "material": "cotton fabric"
+            },
+            {
+                "object_id": 3,
+                "name": "wagon",
+                "artistic_description": "A heavy-duty wagon with iron-rimmed wheels casting dramatic circular shadows, weathered planks showing warm ochre and sienna tones in the sunlight, rust spots on metal hardware glowing with orange intensity, straw and hay creating textured golden patches across the bed, strong chiaroscuro effects in the bright interior",
+                "size": "Dominant",
+                "state": "aged and sturdy, showing signs of heavy agricultural use",
+                "primary_colors": [
+                    "golden ochre",
+                    "rust orange"
+                ],
+                "material": "wood and iron"
+            }
+        ]
+    },
+    "composition": {
+        "spatial_relations": [
+            [
+                74,
+                "on",
+                3
+            ],
+            [
+                60,
+                "next to",
+                3
+            ],
+            [
+                3,
+                "next to",
+                3
+            ]
+        ],
+        "semantic_relations": []
+    },
+    "environment": {
+        "environment_details": {
+            "scene_brief": "A artistic stable interior featuring book, with horse cart, hammock, and wagon",
+            "place365_name": "/a/art_studio",
+            "place365_id": 21,
+            "time_of_day": "afternoon",
+            "weather": "sunny",
+            "period": "Contemporary",
+            "is_indoor": true,
+            "lighting": {
+                "type": "natural",
+                "quality": "harsh",
+                "direction": "side-lit",
+                "mood": "warm",
+                "reasoning": "Given the 'sunny' weather and 'afternoon' time, the lighting is natural and likely harsh due to direct sunlight. 'Side-lit' is chosen to create strong shadows and highlights on the wagon, cart, and hammock, emphasizing their forms and textures\u2014a key technique in Post-Impressionism to convey volume and structure. The warm mood complements the golden hour sun."
+            },
+            "atmosphere": "bright and active and cheerful"
+        },
+        "scene_inference": {
+            "all_candidates": [
+                {
+                    "scene_type": "vintage country library",
+                    "plausibility": 0.95,
+                    "reasoning": "A cozy library with rustic charm. The book is the primary reading material. The horse cart can be a detailed miniature model on a bookshelf, and the hammock can be a decorative wall hanging or a small fabric piece in a reading nook. The wagon might be a toy or a small wooden model.",
+                    "object_interpretations": {
+                        "book": {
+                            "form": "real book",
+                            "scale": "normal",
+                            "role": "primary reading object"
+                        },
+                        "horse cart": {
+                            "form": "miniature model",
+                            "scale": "small (1:20)",
+                            "role": "decorative shelf item"
+                        },
+                        "hammock": {
+                            "form": "fabric hanging",
+                            "scale": "small (decorative)",
+                            "role": "reading nook accent"
+                        },
+                        "wagon": {
+                            "form": "wooden toy",
+                            "scale": "miniature",
+                            "role": "decorative element"
+                        }
+                    }
+                },
+                {
+                    "scene_type": "artistic stable interior",
+                    "plausibility": 0.9,
+                    "reasoning": "A rustic stable scene painted in Post-Impressionist style. The horse cart is the main vehicle. The book could be a storybook left on a hay bale. The hammock might be a makeshift rope bed for a worker. The wagon is parked nearby.",
+                    "object_interpretations": {
+                        "book": {
+                            "form": "real book",
+                            "scale": "normal",
+                            "role": "abandoned reading material"
+                        },
+                        "horse cart": {
+                            "form": "real cart",
+                            "scale": "full-size",
+                            "role": "primary transport vehicle"
+                        },
+                        "hammock": {
+                            "form": "rope bed",
+                            "scale": "full-size",
+                            "role": "resting spot"
+                        },
+                        "wagon": {
+                            "form": "real wagon",
+                            "scale": "full-size",
+                            "role": "utility transport"
+                        }
+                    },
+                    "scene_brief": "A artistic stable interior featuring book, with horse cart, hammock, and wagon"
+                },
+                {
+                    "scene_type": "summer riverside picnic",
+                    "plausibility": 0.85,
+                    "reasoning": "A leisurely outdoor scene. The hammock is strung between trees. The book is being read by someone relaxing. The horse cart is in the background, perhaps a tourist attraction. The wagon might be used to carry picnic supplies.",
+                    "object_interpretations": {
+                        "book": {
+                            "form": "real book",
+                            "scale": "normal",
+                            "role": "leisure reading"
+                        },
+                        "horse cart": {
+                            "form": "real cart",
+                            "scale": "full-size",
+                            "role": "background scenery/transport"
+                        },
+                        "hammock": {
+                            "form": "real hammock",
+                            "scale": "full-size",
+                            "role": "relaxation spot"
+                        },
+                        "wagon": {
+                            "form": "real wagon",
+                            "scale": "full-size",
+                            "role": "picnic gear carrier"
+                        }
+                    }
+                },
+                {
+                    "scene_type": "antique shop display",
+                    "plausibility": 0.92,
+                    "reasoning": "An eclectic antique shop. The book is on a counter. The horse cart is a large vintage model. The hammock is a folded textile display. The wagon is a restored piece in the corner.",
+                    "object_interpretations": {
+                        "book": {
+                            "form": "antique book",
+                            "scale": "normal",
+                            "role": "collectible item"
+                        },
+                        "horse cart": {
+                            "form": "vintage model",
+                            "scale": "medium (1:5)",
+                            "role": "display centerpiece"
+                        },
+                        "hammock": {
+                            "form": "folded fabric",
+                            "scale": "normal",
+                            "role": "textile artifact"
+                        },
+                        "wagon": {
+                            "form": "restored wagon",
+                            "scale": "medium",
+                            "role": "decorative furniture"
+                        }
+                    }
+                },
+                {
+                    "scene_type": "children's storybook illustration",
+                    "plausibility": 0.88,
+                    "reasoning": "A whimsical scene from a children's book. The book is open, showing the story. The horse cart, hammock, and wagon are characters or elements within the story illustration.",
+                    "object_interpretations": {
+                        "book": {
+                            "form": "open book",
+                            "scale": "large (frame)",
+                            "role": "story container"
+                        },
+                        "horse cart": {
+                            "form": "illustrated/cartoon",
+                            "scale": "variable",
+                            "role": "story vehicle"
+                        },
+                        "hammock": {
+                            "form": "illustrated/cartoon",
+                            "scale": "variable",
+                            "role": "story element"
+                        },
+                        "wagon": {
+                            "form": "illustrated/cartoon",
+                            "scale": "variable",
+                            "role": "story element"
+                        }
+                    }
+                },
+                {
+                    "scene_type": "farmhouse porch",
+                    "plausibility": 0.9,
+                    "reasoning": "A rustic porch setting. The hammock is on the porch. The book is on a small table. The horse cart and wagon are visible in the yard, parked.",
+                    "object_interpretations": {
+                        "book": {
+                            "form": "real book",
+                            "scale": "normal",
+                            "role": "leisure reading"
+                        },
+                        "horse cart": {
+                            "form": "real cart",
+                            "scale": "full-size",
+                            "role": "farm equipment"
+                        },
+                        "hammock": {
+                            "form": "real hammock",
+                            "scale": "full-size",
+                            "role": "porch furniture"
+                        },
+                        "wagon": {
+                            "form": "real wagon",
+                            "scale": "full-size",
+                            "role": "farm equipment"
+                        }
+                    }
+                },
+                {
+                    "scene_type": "museum exhibit",
+                    "plausibility": 0.85,
+                    "reasoning": "A historical transport exhibit. The horse cart and wagon are the main displays. The book is an informational guide or a historical artifact in a glass case. The hammock is a display of camping gear.",
+                    "object_interpretations": {
+                        "book": {
+                            "form": "museum artifact",
+                            "scale": "normal",
+                            "role": "informational/collectible"
+                        },
+                        "horse cart": {
+                            "form": "museum artifact",
+                            "scale": "full-size",
+                            "role": "main exhibit"
+                        },
+                        "hammock": {
+                            "form": "museum artifact",
+                            "scale": "full-size",
+                            "role": "supporting exhibit"
+                        },
+                        "wagon": {
+                            "form": "museum artifact",
+                            "scale": "full-size",
+                            "role": "main exhibit"
+                        }
+                    }
+                }
+            ],
+            "selected_scene": {
+                "scene_type": "artistic stable interior",
+                "plausibility": 0.9,
+                "reasoning": "A rustic stable scene painted in Post-Impressionist style. The horse cart is the main vehicle. The book could be a storybook left on a hay bale. The hammock might be a makeshift rope bed for a worker. The wagon is parked nearby.",
+                "object_interpretations": {
+                    "book": {
+                        "form": "real book",
+                        "scale": "normal",
+                        "role": "abandoned reading material"
+                    },
+                    "horse cart": {
+                        "form": "real cart",
+                        "scale": "full-size",
+                        "role": "primary transport vehicle"
+                    },
+                    "hammock": {
+                        "form": "rope bed",
+                        "scale": "full-size",
+                        "role": "resting spot"
+                    },
+                    "wagon": {
+                        "form": "real wagon",
+                        "scale": "full-size",
+                        "role": "utility transport"
+                    }
+                },
+                "scene_brief": "A artistic stable interior featuring book, with horse cart, hammock, and wagon"
+            }
+        }
+    },
+    "final_prompts": {
+        "main_prompt": "A Post-Impressionism painting depicting a bright and active afternoon scene. In the foreground, a large, weathered but functional horse cart painted in bold crimson red with weathered gray wood sits prominently. Resting atop its worn wooden planks is a small, well-used book with warm amber and deep brown leather binding. Beside the horse cart, a medium-sized hammock in vivid blue and bright white cotton fabric hangs relaxed and inviting between two trees. In the midground, a dominant, aged and sturdy wagon in golden ochre and rust orange stands with its wood and iron construction visible. The natural harsh afternoon light creates strong shadows and vibrant color contrasts, with visible brushstrokes and textured surfaces characteristic of Post-Impressionism, conveying a cheerful atmosphere of rustic activity.",
+        "negative_prompt": "photorealistic, 3d render, modern, digital art, photograph, low quality, blurry, distorted, surreal, abstract, cartoon, anime, watermark, signature, text, frame, border, ugly, deformed, mutated",
+        "prompt_formats": {
+            "simple": "A Post-Impressionism painting of a horse cart with a book on it, a hammock beside it, and a wagon nearby during a bright afternoon.",
+            "complex": "A Post-Impressionism painting depicting a bright and active afternoon scene. In the foreground, a large, weathered but functional horse cart painted in bold crimson red with weathered gray wood sits prominently. Resting atop its worn wooden planks is a small, well-used book with warm amber and deep brown leather binding. Beside the horse cart, a medium-sized hammock in vivid blue and bright white cotton fabric hangs relaxed and inviting between two trees. In the midground, a dominant, aged and sturdy wagon in golden ochre and rust orange stands with its wood and iron construction visible. The natural harsh afternoon light creates strong shadows and vibrant color contrasts, with visible brushstrokes and textured surfaces characteristic of Post-Impressionism, conveying a cheerful atmosphere of rustic activity.",
+            "comma_separated": "Post-Impressionism painting, horse cart with book on top, hammock beside cart, wagon in background, afternoon lighting, harsh natural light, bright cheerful atmosphere, crimson red cart, weathered gray wood, amber brown book, blue white hammock, golden ochre wagon, rustic scene, textured brushstrokes, vibrant colors",
+            "tags": "art, painting, post-impressionism, rustic scene, afternoon light, horse cart, book, hammock, wagon, vibrant colors, textured brushwork, cheerful atmosphere, Vincent van Gogh style, Paul Gauguin style"
+        }
+    }
+}

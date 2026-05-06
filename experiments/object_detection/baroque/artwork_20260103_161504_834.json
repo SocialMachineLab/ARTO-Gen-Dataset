@@ -1,0 +1,156 @@
+{
+    "artwork_id": "artwork_20260103_161504_834",
+    "generation_timestamp": "2026-01-03T16:15:35.442825",
+    "style": "Baroque",
+    "objects": {
+        "object_ids": [
+            26,
+            15,
+            25
+        ],
+        "object_names": [
+            "sunshade",
+            "vulture",
+            "sack"
+        ],
+        "enhanced_objects": [
+            {
+                "object_id": 26,
+                "name": "sunshade",
+                "artistic_description": "A grand, voluminous sunshade rendered in rich crimson velvet with golden tassels, its fabric catching the bright afternoon light streaming through windows. The material displays deep, saturated folds with highlights of warm orange where sunlight directly strikes, while shadowed areas reveal subtle burgundy undertones. The wooden frame shows polished mahogany with ornate Baroque scrollwork, gleaming with reflected light. The fabric appears dry and matte, with a luxurious texture that absorbs and diffuses the bright indoor illumination.",
+                "size": "Dominant",
+                "state": "pristine and opulent, well-maintained early modern craftsmanship",
+                "primary_colors": [
+                    "crimson",
+                    "gold"
+                ],
+                "material": "velvet and wood"
+            },
+            {
+                "object_id": 15,
+                "name": "vulture",
+                "artistic_description": "A meticulously crafted toy vulture with feathers painted in rich umber and sepia tones, its plumage catching the bright afternoon light with subtle golden highlights along each feather edge. The glossy black beak reflects sharp points of white light, while the eyes gleam with painted highlights that suggest life. The surface shows a delicate varnish that creates a warm, amber glow where sunlight strikes, while recessed areas remain in cool, deep shadows. Fine Baroque detailing in the sculpted feathers shows intricate texture work.",
+                "size": "Medium",
+                "state": "artfully aged with a patina that suggests antiquity, yet preserved",
+                "primary_colors": [
+                    "umber",
+                    "sepia"
+                ],
+                "material": "wood and paint"
+            },
+            {
+                "object_id": 25,
+                "name": "sack",
+                "artistic_description": "A coarse burlap sack rendered in warm ochre and sienna tones, its textured weave creating a rich tapestry of light and shadow under the bright afternoon illumination. The fabric shows visible threads and knots that catch the light, creating a tactile surface with deep crevices in shadow. The material appears dry and slightly dusty, with subtle highlights of pale gold where the sun directly illuminates the coarse fibers. The canvas shows Baroque attention to material truth, with frayed edges and natural wear patterns adding authentic character.",
+                "size": "Small",
+                "state": "weathered but sturdy, showing honest use from the early modern period",
+                "primary_colors": [
+                    "ochre",
+                    "sienna"
+                ],
+                "material": "burlap"
+            }
+        ]
+    },
+    "composition": {
+        "spatial_relations": [
+            [
+                15,
+                "next to",
+                25
+            ],
+            [
+                25,
+                "under",
+                26
+            ],
+            [
+                15,
+                "under",
+                26
+            ]
+        ],
+        "semantic_relations": []
+    },
+    "environment": {
+        "environment_details": {
+            "scene_brief": "A artistic composition featuring sunshade centered around sunshade, with toy vulture, and toy sack",
+            "place365_name": "/a/art_studio",
+            "place365_id": 21,
+            "time_of_day": "afternoon",
+            "weather": "sunny",
+            "period": "Early modern",
+            "is_indoor": true,
+            "lighting": {
+                "type": "natural",
+                "quality": "harsh",
+                "direction": "side-lit",
+                "mood": "warm",
+                "reasoning": "To achieve the high contrast and dramatic shadows characteristic of Baroque art, harsh natural light is required. Side-lighting is ideal for modeling the form of the sunshade and the toy sack, creating volume and depth. The warm mood aligns with the 'sunny' weather."
+            },
+            "atmosphere": "bright and active and cheerful"
+        },
+        "scene_inference": {
+            "all_candidates": [
+                {
+                    "scene_type": "artistic composition featuring sunshade",
+                    "plausibility": 0.7,
+                    "reasoning": "Default scene based on main variety 'sunshade'",
+                    "object_interpretations": {
+                        "sunshade": {
+                            "form": "primary object",
+                            "scale": "normal",
+                            "role": "primary"
+                        },
+                        "vulture": {
+                            "form": "adapted to scene",
+                            "scale": "normal or miniature",
+                            "role": "secondary"
+                        },
+                        "sack": {
+                            "form": "adapted to scene",
+                            "scale": "normal or miniature",
+                            "role": "secondary"
+                        }
+                    },
+                    "fallback": true,
+                    "scene_brief": "A artistic composition featuring sunshade centered around sunshade, with toy vulture, and toy sack"
+                }
+            ],
+            "selected_scene": {
+                "scene_type": "artistic composition featuring sunshade",
+                "plausibility": 0.7,
+                "reasoning": "Default scene based on main variety 'sunshade'",
+                "object_interpretations": {
+                    "sunshade": {
+                        "form": "primary object",
+                        "scale": "normal",
+                        "role": "primary"
+                    },
+                    "vulture": {
+                        "form": "adapted to scene",
+                        "scale": "normal or miniature",
+                        "role": "secondary"
+                    },
+                    "sack": {
+                        "form": "adapted to scene",
+                        "scale": "normal or miniature",
+                        "role": "secondary"
+                    }
+                },
+                "fallback": true,
+                "scene_brief": "A artistic composition featuring sunshade centered around sunshade, with toy vulture, and toy sack"
+            }
+        }
+    },
+    "final_prompts": {
+        "main_prompt": "A Baroque painting depicting a bright and cheerful afternoon scene under harsh natural light. In the foreground, a large, opulent crimson and gold sunshade with velvet textures dominates the composition, casting dramatic shadows. Directly beneath its protective canopy, positioned in the midground, rests a weathered but sturdy ochre and sienna burlap sack. Beside the sack, an artfully aged vulture with umber and sepia feathers, bearing a patina of antiquity, stands under the same sunshade. The spatial arrangement creates a focal triangle: the vulture is next to the sack, and both objects are sheltered under the pristine sunshade. The atmosphere is active and vibrant, with the intense afternoon light highlighting the rich textures of wood, paint, and fabric in a dynamic, theatrical Baroque style full of movement and contrast.",
+        "negative_prompt": "photorealistic, 3d render, modern, digital art, photograph, low quality, blurry, distorted, gloomy, dark, monochrome, sketch, cartoon, anime, surreal, abstract, deformed, ugly, disfigured",
+        "prompt_formats": {
+            "simple": "A Baroque painting of a crimson sunshade sheltering an aged vulture and a burlap sack on a bright, cheerful afternoon.",
+            "complex": "A Baroque painting depicting a bright and cheerful afternoon scene under harsh natural light. In the foreground, a large, opulent crimson and gold sunshade with velvet textures dominates the composition, casting dramatic shadows. Directly beneath its protective canopy, positioned in the midground, rests a weathered but sturdy ochre and sienna burlap sack. Beside the sack, an artfully aged vulture with umber and sepia feathers, bearing a patina of antiquity, stands under the same sunshade. The spatial arrangement creates a focal triangle: the vulture is next to the sack, and both objects are sheltered under the pristine sunshade. The atmosphere is active and vibrant, with the intense afternoon light highlighting the rich textures of wood, paint, and fabric in a dynamic, theatrical Baroque style full of movement and contrast.",
+            "comma_separated": "Baroque painting, large crimson gold sunshade, umber sepia vulture, ochre sienna sack, vulture next to sack, both under sunshade, harsh afternoon light, bright cheerful active atmosphere, dramatic shadows, rich textures, velvet, wood, paint, burlap, theatrical composition",
+            "tags": "art, painting, Baroque, sunshade, vulture, sack, afternoon, dramatic lighting, opulent, aged patina, weathered, cheerful, active, texture, composition, foreground, midground"
+        }
+    }
+}

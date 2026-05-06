@@ -1,0 +1,308 @@
+{
+    "artwork_id": "artwork_20260103_040305_956",
+    "generation_timestamp": "2026-01-03T04:03:34.668863",
+    "style": "Post-Impressionism",
+    "objects": {
+        "object_ids": [
+            18,
+            72,
+            48
+        ],
+        "object_names": [
+            "donkey",
+            "sink",
+            "apple"
+        ],
+        "enhanced_objects": [
+            {
+                "object_id": 18,
+                "name": "donkey",
+                "artistic_description": "A sturdy donkey with a coat that catches the brilliant afternoon sunlight, creating warm highlights of golden-brown and deep shadows of rich umber. The fur appears slightly dusty from the dry countryside, giving it a matte texture with subtle flecks of lighter tones where sun directly strikes the coarse hair. Its large, expressive eyes reflect the bright sky, appearing as dark pools with tiny specks of blue light.",
+                "size": "Large",
+                "state": "alert and standing, coat dry and warm from sun exposure",
+                "primary_colors": [
+                    "warm gray-brown",
+                    "deep umber"
+                ],
+                "material": "fur and hide"
+            },
+            {
+                "object_id": 72,
+                "name": "sink",
+                "artistic_description": "A porcelain sink gleaming under the intense afternoon sun, its white surface transformed into a brilliant, almost blinding canvas of pure white with sharp, angular shadows in cool blue-gray tones. The basin's curved interior catches and concentrates the light, creating a luminous pool of brightness that appears to vibrate with energy. Tiny water droplets from recent use would catch the light like scattered diamonds, though the surface is predominantly dry and matte in the shaded areas.",
+                "size": "Medium",
+                "state": "clean and dry, showing signs of contemporary outdoor use with slight weathering",
+                "primary_colors": [
+                    "brilliant white",
+                    "cool blue-gray"
+                ],
+                "material": "porcelain"
+            },
+            {
+                "object_id": 48,
+                "name": "apple",
+                "artistic_description": "A single apple resting with skin that glows with translucent crimson and ruby tones where the afternoon sun penetrates its waxy surface, while the shaded side deepens to a velvety burgundy. The glossy skin creates sharp specular highlights of pure white and pale yellow, giving the fruit a jewel-like quality against the bright background. A tiny stem with a withered leaf adds a touch of earthy brown, contrasting with the vibrant, saturated red.",
+                "size": "Small",
+                "state": "fresh and ripe, slightly dewy with natural waxy sheen",
+                "primary_colors": [
+                    "crimson",
+                    "deep ruby"
+                ],
+                "material": "fruit skin"
+            }
+        ]
+    },
+    "composition": {
+        "spatial_relations": [
+            [
+                48,
+                "next to",
+                72
+            ],
+            [
+                18,
+                "next to",
+                72
+            ],
+            [
+                18,
+                "next to",
+                48
+            ]
+        ],
+        "semantic_relations": []
+    },
+    "environment": {
+        "environment_details": {
+            "scene_brief": "A countryside picnic featuring donkey, with sink, and apple",
+            "place365_name": "/f/field",
+            "place365_id": 21,
+            "time_of_day": "afternoon",
+            "weather": "sunny",
+            "period": "Contemporary",
+            "is_indoor": false,
+            "lighting": {
+                "type": "natural",
+                "quality": "harsh",
+                "direction": "side-lit",
+                "mood": "warm",
+                "reasoning": "Combining 'sunny' weather and 'afternoon' time results in strong, direct sunlight. 'Harsh' lighting creates defined shadows and high contrast, which Post-Impressionist artists used to define form and structure. 'Side-lit' directionality helps model the figures of the donkey and picnic objects, adding depth to the scene."
+            },
+            "atmosphere": "bright and active and cheerful"
+        },
+        "scene_inference": {
+            "all_candidates": [
+                {
+                    "scene_type": "farmhouse kitchen",
+                    "plausibility": 0.9,
+                    "reasoning": "A donkey could be visible through a window or in an adjacent yard, while the sink and apple are inside the rustic kitchen. The apple is a natural food item, and the sink is a standard fixture. Post-Impressionist style suits the rustic, earthy tones.",
+                    "object_interpretations": {
+                        "donkey": {
+                            "form": "real animal",
+                            "scale": "normal",
+                            "role": "background animal in yard"
+                        },
+                        "sink": {
+                            "form": "real fixture",
+                            "scale": "normal",
+                            "role": "functional kitchen element"
+                        },
+                        "apple": {
+                            "form": "real fruit",
+                            "scale": "normal",
+                            "role": "food item on counter"
+                        }
+                    }
+                },
+                {
+                    "scene_type": "stable interior",
+                    "plausibility": 0.85,
+                    "reasoning": "The donkey is the primary resident. A wash basin (sink) might be present for cleaning, and an apple could be a treat left by a caretaker. The rustic setting fits the earthy palette of Post-Impressionism.",
+                    "object_interpretations": {
+                        "donkey": {
+                            "form": "real animal",
+                            "scale": "normal",
+                            "role": "primary occupant"
+                        },
+                        "sink": {
+                            "form": "rustic basin",
+                            "scale": "normal",
+                            "role": "utility fixture"
+                        },
+                        "apple": {
+                            "form": "real fruit",
+                            "scale": "normal",
+                            "role": "animal treat"
+                        }
+                    }
+                },
+                {
+                    "scene_type": "village market",
+                    "plausibility": 0.8,
+                    "reasoning": "A donkey stands as a beast of burden or for sale. A sink might be part of a public water fountain or a vendor's stall setup. An apple is a common market produce. The bustling atmosphere is captured in vibrant, distinct brushstrokes.",
+                    "object_interpretations": {
+                        "donkey": {
+                            "form": "real animal",
+                            "scale": "normal",
+                            "role": "transport/attraction"
+                        },
+                        "sink": {
+                            "form": "public utility",
+                            "scale": "normal",
+                            "role": "water source"
+                        },
+                        "apple": {
+                            "form": "produce",
+                            "scale": "normal",
+                            "role": "commodity"
+                        }
+                    }
+                },
+                {
+                    "scene_type": "orchard",
+                    "plausibility": 0.85,
+                    "reasoning": "Donkeys are common in orchards for pest control or transport. An apple is naturally present on the trees or ground. A sink could be an outdoor wash station for picking crews, stylized with bold outlines.",
+                    "object_interpretations": {
+                        "donkey": {
+                            "form": "real animal",
+                            "scale": "normal",
+                            "role": "orchard resident"
+                        },
+                        "sink": {
+                            "form": "outdoor wash basin",
+                            "scale": "normal",
+                            "role": "utility"
+                        },
+                        "apple": {
+                            "form": "fruit",
+                            "scale": "normal",
+                            "role": "natural element"
+                        }
+                    }
+                },
+                {
+                    "scene_type": "art studio",
+                    "plausibility": 0.75,
+                    "reasoning": "The donkey is a live model or a reference statue. The sink is for cleaning brushes. An apple serves as a still life subject on a table. The Post-Impressionist style emphasizes the artist's perspective on the objects.",
+                    "object_interpretations": {
+                        "donkey": {
+                            "form": "model/statue",
+                            "scale": "normal/miniature",
+                            "role": "artistic subject"
+                        },
+                        "sink": {
+                            "form": "utility sink",
+                            "scale": "normal",
+                            "role": "studio equipment"
+                        },
+                        "apple": {
+                            "form": "still life object",
+                            "scale": "normal",
+                            "role": "artistic subject"
+                        }
+                    }
+                },
+                {
+                    "scene_type": "countryside picnic",
+                    "plausibility": 0.8,
+                    "reasoning": "A donkey wanders near a picnic spot. A portable wash basin (sink) is set up for hygiene. An apple is part of the picnic food spread. The scene evokes a leisurely rural life.",
+                    "object_interpretations": {
+                        "donkey": {
+                            "form": "real animal",
+                            "scale": "normal",
+                            "role": "curious bystander"
+                        },
+                        "sink": {
+                            "form": "portable basin",
+                            "scale": "normal",
+                            "role": "camp utility"
+                        },
+                        "apple": {
+                            "form": "food",
+                            "scale": "normal",
+                            "role": "snack"
+                        }
+                    },
+                    "scene_brief": "A countryside picnic featuring donkey, with sink, and apple"
+                },
+                {
+                    "scene_type": "museum exhibit",
+                    "plausibility": 0.7,
+                    "reasoning": "A taxidermy donkey or skeleton is the exhibit. A sink is part of the cleaning/maintenance station. An apple could be a forgotten snack or a prop in a display case. The lighting and geometry fit the style.",
+                    "object_interpretations": {
+                        "donkey": {
+                            "form": "taxidermy/artifact",
+                            "scale": "normal",
+                            "role": "exhibit"
+                        },
+                        "sink": {
+                            "form": "janitorial sink",
+                            "scale": "normal",
+                            "role": "facility fixture"
+                        },
+                        "apple": {
+                            "form": "object",
+                            "scale": "normal",
+                            "role": "stray item/prop"
+                        }
+                    }
+                },
+                {
+                    "scene_type": "fantasy woodland",
+                    "plausibility": 0.75,
+                    "reasoning": "In a surreal Post-Impressionist setting, a donkey roams. A sink grows out of a tree like a strange fruit, and apples hang from vines. This allows for the 'Abstract/Surreal' creative license.",
+                    "object_interpretations": {
+                        "donkey": {
+                            "form": "real animal",
+                            "scale": "normal",
+                            "role": "magical creature"
+                        },
+                        "sink": {
+                            "form": "organic structure",
+                            "scale": "normal",
+                            "role": "surreal element"
+                        },
+                        "apple": {
+                            "form": "fruit",
+                            "scale": "normal",
+                            "role": "natural detail"
+                        }
+                    }
+                }
+            ],
+            "selected_scene": {
+                "scene_type": "countryside picnic",
+                "plausibility": 0.8,
+                "reasoning": "A donkey wanders near a picnic spot. A portable wash basin (sink) is set up for hygiene. An apple is part of the picnic food spread. The scene evokes a leisurely rural life.",
+                "object_interpretations": {
+                    "donkey": {
+                        "form": "real animal",
+                        "scale": "normal",
+                        "role": "curious bystander"
+                    },
+                    "sink": {
+                        "form": "portable basin",
+                        "scale": "normal",
+                        "role": "camp utility"
+                    },
+                    "apple": {
+                        "form": "food",
+                        "scale": "normal",
+                        "role": "snack"
+                    }
+                },
+                "scene_brief": "A countryside picnic featuring donkey, with sink, and apple"
+            }
+        }
+    },
+    "final_prompts": {
+        "main_prompt": "A Post-Impressionism painting depicting a bright and cheerful afternoon scene where a large, alert donkey with warm gray-brown and deep umber fur stands attentively beside a medium-sized, brilliant white and cool blue-gray porcelain sink that is clean and dry. Next to the sink, a small, fresh and ripe crimson apple with deep ruby skin rests on a surface, creating a triangular composition where the donkey is positioned beside both the sink and the apple. The natural harsh afternoon light casts bold, expressive shadows and highlights, emphasizing the textured fur and hide of the donkey, the smooth porcelain of the sink, and the glossy skin of the apple. The atmosphere is active and vibrant, with visible brushstrokes and a vivid color palette that captures the cheerful energy of the scene, set against a loosely rendered background suggesting a sunlit courtyard or farm setting.",
+        "negative_prompt": "photorealistic, 3d render, modern, digital art, photograph, low quality, blurry, distorted, surreal, abstract, cartoon, anime, watermark, signature, text, frame, border, ugly, deformed, mutated",
+        "prompt_formats": {
+            "simple": "A Post-Impressionism painting of a donkey, sink, and apple in a bright afternoon setting.",
+            "complex": "A Post-Impressionism painting depicting a bright and cheerful afternoon scene where a large, alert donkey with warm gray-brown and deep umber fur stands attentively beside a medium-sized, brilliant white and cool blue-gray porcelain sink that is clean and dry. Next to the sink, a small, fresh and ripe crimson apple with deep ruby skin rests on a surface, creating a triangular composition where the donkey is positioned beside both the sink and the apple. The natural harsh afternoon light casts bold, expressive shadows and highlights, emphasizing the textured fur and hide of the donkey, the smooth porcelain of the sink, and the glossy skin of the apple. The atmosphere is active and vibrant, with visible brushstrokes and a vivid color palette that captures the cheerful energy of the scene, set against a loosely rendered background suggesting a sunlit courtyard or farm setting.",
+            "comma_separated": "Post-Impressionism painting, donkey, sink, apple, large warm gray-brown donkey, medium brilliant white sink, small crimson apple, afternoon lighting, natural harsh light, bright cheerful atmosphere, active scene, textured fur, porcelain sink, ripe apple, triangular composition, expressive brushstrokes, vibrant colors",
+            "tags": "art, painting, post-impressionism, donkey, sink, apple, still life, animal, afternoon, bright lighting, cheerful, vibrant, textured, brushstrokes, color palette, composition"
+        }
+    }
+}

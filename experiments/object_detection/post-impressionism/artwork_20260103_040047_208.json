@@ -1,0 +1,410 @@
+{
+    "artwork_id": "artwork_20260103_040047_208",
+    "generation_timestamp": "2026-01-03T04:01:19.886655",
+    "style": "Post-Impressionism",
+    "objects": {
+        "object_ids": [
+            9,
+            19,
+            18,
+            22,
+            10
+        ],
+        "object_names": [
+            "sailboat",
+            "sheep",
+            "mule",
+            "bear",
+            "lamp post"
+        ],
+        "enhanced_objects": [
+            {
+                "object_id": 9,
+                "name": "sailboat",
+                "artistic_description": "A solitary vessel with billowing canvas catching the warm, diffused sunset glow, its white sails transformed into luminous amber and peach tones against the cloudy sky. The wooden hull shows weathered grain patterns with subtle purple shadows, while wet deck surfaces create gentle reflections of the golden light. Paint peels in artistic patches, revealing layers of maritime history beneath.",
+                "size": "Large",
+                "state": "weathered and gently drifting",
+                "primary_colors": [
+                    "amber",
+                    "peach"
+                ],
+                "material": "canvas and weathered wood"
+            },
+            {
+                "object_id": 19,
+                "name": "sheep",
+                "artistic_description": "A woolly form rendered in thick, textured strokes of creamy white and warm ivory, with the cloudy sunset casting soft, shadowless light across its rounded body. The fleece appears as a dense tapestry of brushstrokes in muted gold and soft gray, absorbing the subdued atmosphere. Gentle shadows are barely perceptible, lost in the warm, peaceful haze.",
+                "size": "Medium",
+                "state": "peacefully standing",
+                "primary_colors": [
+                    "ivory",
+                    "cream"
+                ],
+                "material": "wool"
+            },
+            {
+                "object_id": 18,
+                "name": "mule",
+                "artistic_description": "A sturdy silhouette with a coat of rich chestnut brown that deepens to mahogany in the warm, fading light. The animal's form is captured in bold, visible brushstrokes that emphasize its patient stance. Subtle highlights of golden-orange dance across its shoulders where the cloudy sky allows brief moments of sunset to penetrate, while its mane appears as dark strokes of deep umber.",
+                "size": "Medium",
+                "state": "patient and still",
+                "primary_colors": [
+                    "chestnut",
+                    "mahogany"
+                ],
+                "material": "horsehair and hide"
+            },
+            {
+                "object_id": 22,
+                "name": "bear",
+                "artistic_description": "A massive, shadowy presence rendered in deep, saturated strokes of chocolate brown and charcoal gray, its fur absorbing the muted light rather than reflecting it. The form emerges from the warm atmosphere with subtle violet undertones in the shadows, while patches of wet-looking fur catch faint amber highlights. The creature's bulk is suggested through layered, impasto textures that convey both weight and softness.",
+                "size": "Large",
+                "state": "watchful and hulking",
+                "primary_colors": [
+                    "chocolate",
+                    "charcoal"
+                ],
+                "material": "fur and hide"
+            },
+            {
+                "object_id": 10,
+                "name": "lamp post",
+                "artistic_description": "An elegant iron structure painted in bold strokes of deep bronze and oxidized green, its metal surface showing the patina of contemporary weathering. The lamp's glass housing catches the last warm rays of sunset, transforming them into concentrated points of golden luminosity. The post stands with geometric precision against the organic landscape, its wet surface creating subtle mirror-like distortions of the cloudy sky.",
+                "size": "Medium",
+                "state": "weathered but functional",
+                "primary_colors": [
+                    "bronze",
+                    "oxidized green"
+                ],
+                "material": "cast iron and glass"
+            }
+        ]
+    },
+    "composition": {
+        "spatial_relations": [
+            [
+                9,
+                "on",
+                22
+            ],
+            [
+                19,
+                "next to",
+                18
+            ],
+            [
+                18,
+                "next to",
+                10
+            ],
+            [
+                10,
+                "next to",
+                22
+            ]
+        ],
+        "semantic_relations": [
+            [
+                19,
+                "watching",
+                9
+            ],
+            [
+                18,
+                "watching",
+                9
+            ]
+        ]
+    },
+    "environment": {
+        "environment_details": {
+            "scene_brief": "A Surreal dream landscape featuring sailboat, with sheep, mule, bear, and lamp post",
+            "place365_name": "/f/field",
+            "place365_id": 21,
+            "time_of_day": "sunset",
+            "weather": "cloudy",
+            "period": "Contemporary",
+            "is_indoor": false,
+            "lighting": {
+                "type": "natural",
+                "quality": "soft",
+                "direction": "side-lit",
+                "mood": "warm",
+                "reasoning": "Natural lighting from the sunset, filtered through clouds, creates soft, warm tones that highlight the surreal composition. Side-lighting emphasizes the forms of the sailboat, animals, and lamp post, adding depth and dimension suitable for Post-Impressionist brushwork and the contemporary dream theme."
+            },
+            "atmosphere": "warm and peaceful and subdued and gentle"
+        },
+        "scene_inference": {
+            "all_candidates": [
+                {
+                    "scene_type": "Post-Impressionist coastal village harbor",
+                    "plausibility": 0.85,
+                    "reasoning": "A sailboat is docked in a rustic harbor. Sheep and a mule wander near the docks as farm animals. A bear is depicted as a carved wooden figure or a distant wild animal on the cliffs. A lamp post stands on the pier.",
+                    "object_interpretations": {
+                        "sailboat": {
+                            "form": "real boat",
+                            "scale": "normal",
+                            "role": "primary object"
+                        },
+                        "sheep": {
+                            "form": "real animal",
+                            "scale": "normal",
+                            "role": "background livestock"
+                        },
+                        "mule": {
+                            "form": "real animal",
+                            "scale": "normal",
+                            "role": "working animal"
+                        },
+                        "bear": {
+                            "form": "carved figure or distant animal",
+                            "scale": "normal",
+                            "role": "decorative or background element"
+                        },
+                        "lamp post": {
+                            "form": "real street fixture",
+                            "scale": "normal",
+                            "role": "environmental detail"
+                        }
+                    }
+                },
+                {
+                    "scene_type": "Artistic zoo by the lake",
+                    "plausibility": 0.8,
+                    "reasoning": "A sailboat sits on a lake inside a zoo. Enclosures for sheep, mule, and bear are nearby. A lamp post illuminates the path.",
+                    "object_interpretations": {
+                        "sailboat": {
+                            "form": "recreational boat",
+                            "scale": "normal",
+                            "role": "lake activity"
+                        },
+                        "sheep": {
+                            "form": "zoo animal",
+                            "scale": "normal",
+                            "role": "exhibit animal"
+                        },
+                        "mule": {
+                            "form": "zoo animal",
+                            "scale": "normal",
+                            "role": "exhibit animal"
+                        },
+                        "bear": {
+                            "form": "zoo animal",
+                            "scale": "normal",
+                            "role": "exhibit animal"
+                        },
+                        "lamp post": {
+                            "form": "street fixture",
+                            "scale": "normal",
+                            "role": "lighting"
+                        }
+                    }
+                },
+                {
+                    "scene_type": "Surreal dream landscape",
+                    "plausibility": 0.75,
+                    "reasoning": "Post-Impressionism allows for non-literal interpretations. A sailboat floats in a field of grass. Sheep, mule, and bear wander freely. A lamp post grows like a tree.",
+                    "object_interpretations": {
+                        "sailboat": {
+                            "form": "boat",
+                            "scale": "normal",
+                            "role": "surreal object"
+                        },
+                        "sheep": {
+                            "form": "animal",
+                            "scale": "normal",
+                            "role": "wanderer"
+                        },
+                        "mule": {
+                            "form": "animal",
+                            "scale": "normal",
+                            "role": "wanderer"
+                        },
+                        "bear": {
+                            "form": "animal",
+                            "scale": "normal",
+                            "role": "wanderer"
+                        },
+                        "lamp post": {
+                            "form": "organic structure",
+                            "scale": "normal",
+                            "role": "surreal lighting"
+                        }
+                    },
+                    "scene_brief": "A Surreal dream landscape featuring sailboat, with sheep, mule, bear, and lamp post"
+                },
+                {
+                    "scene_type": "Rustic farm market near the water",
+                    "plausibility": 0.85,
+                    "reasoning": "A market scene near a river. Sheep and mule are livestock pens. A bear is a taxidermy mount or mascot. A lamp post marks the market entrance. A sailboat is on the water.",
+                    "object_interpretations": {
+                        "sailboat": {
+                            "form": "recreational boat",
+                            "scale": "normal",
+                            "role": "water transport"
+                        },
+                        "sheep": {
+                            "form": "livestock",
+                            "scale": "normal",
+                            "role": "farm animal"
+                        },
+                        "mule": {
+                            "form": "livestock",
+                            "scale": "normal",
+                            "role": "farm animal"
+                        },
+                        "bear": {
+                            "form": "taxidermy/decoration",
+                            "scale": "normal",
+                            "role": "mascot"
+                        },
+                        "lamp post": {
+                            "form": "street fixture",
+                            "scale": "normal",
+                            "role": "signage"
+                        }
+                    }
+                },
+                {
+                    "scene_type": "Post-Impressionist museum diorama",
+                    "plausibility": 0.8,
+                    "reasoning": "A painted backdrop of a landscape featuring a sailboat. Taxidermy sheep, mule, and bear are placed in the foreground. A lamp post is part of the set design.",
+                    "object_interpretations": {
+                        "sailboat": {
+                            "form": "painted image",
+                            "scale": "variable",
+                            "role": "background art"
+                        },
+                        "sheep": {
+                            "form": "taxidermy",
+                            "scale": "normal",
+                            "role": "exhibit piece"
+                        },
+                        "mule": {
+                            "form": "taxidermy",
+                            "scale": "normal",
+                            "role": "exhibit piece"
+                        },
+                        "bear": {
+                            "form": "taxidermy",
+                            "scale": "normal",
+                            "role": "exhibit piece"
+                        },
+                        "lamp post": {
+                            "form": "prop",
+                            "scale": "normal",
+                            "role": "set dressing"
+                        }
+                    }
+                },
+                {
+                    "scene_type": "Coastal carnival",
+                    "plausibility": 0.75,
+                    "reasoning": "A carnival on a pier. A sailboat ride. Sheep and mule are carousel animals. A bear is a costumed character. A lamp post lights the fairway.",
+                    "object_interpretations": {
+                        "sailboat": {
+                            "form": "ride vehicle",
+                            "scale": "normal",
+                            "role": "attraction"
+                        },
+                        "sheep": {
+                            "form": "carousel figure",
+                            "scale": "normal",
+                            "role": "ride animal"
+                        },
+                        "mule": {
+                            "form": "carousel figure",
+                            "scale": "normal",
+                            "role": "ride animal"
+                        },
+                        "bear": {
+                            "form": "costumed character",
+                            "scale": "normal",
+                            "role": "entertainer"
+                        },
+                        "lamp post": {
+                            "form": "street fixture",
+                            "scale": "normal",
+                            "role": "lighting"
+                        }
+                    }
+                },
+                {
+                    "scene_type": "Vintage toy shop window",
+                    "plausibility": 0.9,
+                    "reasoning": "A display window containing a toy sailboat. Miniature toy sheep, mule, and bear are arranged around it. A small electric lamp post provides light.",
+                    "object_interpretations": {
+                        "sailboat": {
+                            "form": "toy model",
+                            "scale": "miniature",
+                            "role": "centerpiece"
+                        },
+                        "sheep": {
+                            "form": "toy figure",
+                            "scale": "miniature",
+                            "role": "toy"
+                        },
+                        "mule": {
+                            "form": "toy figure",
+                            "scale": "miniature",
+                            "role": "toy"
+                        },
+                        "bear": {
+                            "form": "toy figure",
+                            "scale": "miniature",
+                            "role": "toy"
+                        },
+                        "lamp post": {
+                            "form": "toy model",
+                            "scale": "miniature",
+                            "role": "lighting prop"
+                        }
+                    }
+                }
+            ],
+            "selected_scene": {
+                "scene_type": "Surreal dream landscape",
+                "plausibility": 0.75,
+                "reasoning": "Post-Impressionism allows for non-literal interpretations. A sailboat floats in a field of grass. Sheep, mule, and bear wander freely. A lamp post grows like a tree.",
+                "object_interpretations": {
+                    "sailboat": {
+                        "form": "boat",
+                        "scale": "normal",
+                        "role": "surreal object"
+                    },
+                    "sheep": {
+                        "form": "animal",
+                        "scale": "normal",
+                        "role": "wanderer"
+                    },
+                    "mule": {
+                        "form": "animal",
+                        "scale": "normal",
+                        "role": "wanderer"
+                    },
+                    "bear": {
+                        "form": "animal",
+                        "scale": "normal",
+                        "role": "wanderer"
+                    },
+                    "lamp post": {
+                        "form": "organic structure",
+                        "scale": "normal",
+                        "role": "surreal lighting"
+                    }
+                },
+                "scene_brief": "A Surreal dream landscape featuring sailboat, with sheep, mule, bear, and lamp post"
+            }
+        }
+    },
+    "final_prompts": {
+        "main_prompt": "A Post-Impressionism painting depicting a surreal sunset scene where a large, weathered amber and peach sailboat gently drifts atop a hulking chocolate and charcoal bear, which stands watchful in the foreground. Beside the bear, a weathered bronze and oxidized green lamp post casts a soft glow, while in the midground, a medium-sized ivory and cream sheep stands peacefully next to a patient chestnut and mahogany mule. The natural soft lighting of sunset bathes the scene in warm, golden hues, creating a peaceful, subdued, and gentle atmosphere with visible brushstrokes and textured surfaces of canvas, weathered wood, wool, horsehair, hide, fur, and cast iron.",
+        "negative_prompt": "photorealistic, 3d render, modern, digital art, photograph, low quality, blurry, distorted, ugly, deformed, cartoon, anime, text, watermark, signature, frame, border",
+        "prompt_formats": {
+            "simple": "A Post-Impressionism painting of a sailboat on a bear with a sheep, mule, and lamp post at sunset.",
+            "complex": "Same as main_prompt",
+            "comma_separated": "Post-Impressionism, sailboat on bear, sheep next to mule, mule next to lamp post, lamp post next to bear, large sailboat, medium sheep, medium mule, large bear, medium lamp post, amber peach sailboat, ivory cream sheep, chestnut mahogany mule, chocolate charcoal bear, bronze oxidized green lamp post, sunset lighting, warm peaceful subdued gentle atmosphere, textured brushstrokes",
+            "tags": "art, painting, post-impressionism, surreal, sunset, sailboat, bear, sheep, mule, lamp post, textured, brushstrokes, warm lighting, peaceful scene"
+        }
+    }
+}

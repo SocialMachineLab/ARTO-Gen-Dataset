@@ -1,0 +1,324 @@
+{
+    "artwork_id": "artwork_20260103_023332_846",
+    "generation_timestamp": "2026-01-03T02:34:13.254550",
+    "style": "Post-Impressionism",
+    "objects": {
+        "object_ids": [
+            19,
+            16,
+            20,
+            31
+        ],
+        "object_names": [
+            "sheep",
+            "cat",
+            "herd",
+            "sleigh"
+        ],
+        "enhanced_objects": [
+            {
+                "object_id": 19,
+                "name": "sheep",
+                "artistic_description": "Fluffy wool catches the warm sunset glow, appearing as thick strokes of creamy white and golden ochre, with soft violet shadows pooling in the dense fleece. Snowflakes cling to the fibers like tiny pearls, creating a textured, impasto surface that glows with inner warmth against the cool blue shadows of the snow.",
+                "size": "Large",
+                "state": "Placid and still, wool slightly damp from falling snow, creating subtle reflective highlights",
+                "primary_colors": [
+                    "creamy white",
+                    "golden ochre"
+                ],
+                "material": "wool"
+            },
+            {
+                "object_id": 16,
+                "name": "cat",
+                "artistic_description": "Sleek fur rendered in bold patches of burnt sienna and deep amber, catching the last rays of sunset across its arched back. Eyes gleam like molten gold, and whiskers are painted as fine, sharp lines of pale cream against the warm, saturated background. Frost dusts the paws in delicate white dabs.",
+                "size": "Medium",
+                "state": "Alert and poised, fur slightly fluffed against the cold, pristine in the snow",
+                "primary_colors": [
+                    "burnt sienna",
+                    "deep amber"
+                ],
+                "material": "fur"
+            },
+            {
+                "object_id": 20,
+                "name": "herd",
+                "artistic_description": "A decorative cluster of stylized forms painted in rhythmic, repetitive strokes of ivory and pale lavender, their silhouettes softened by atmospheric snow. Each figure is simplified into geometric shapes with bold outlines in deep indigo, creating a tapestry-like pattern that shimmers with frosty highlights.",
+                "size": "Dominant",
+                "state": "Static and ornamental, dusted with fresh snow that settles in crisp white layers",
+                "primary_colors": [
+                    "ivory",
+                    "pale lavender"
+                ],
+                "material": "mixed"
+            },
+            {
+                "object_id": 31,
+                "name": "sleigh",
+                "artistic_description": "Curved wood grain visible through thick, textured paint in rich mahogany and deep crimson, with runners gleaming like polished silver in the sunset. Snow collects along the carved edges in thick, impasto white strokes, and golden trim catches the warm light with bright, saturated dabs of yellow.",
+                "size": "Large",
+                "state": "Well-maintained and festive, wood slightly weathered but gleaming with fresh varnish",
+                "primary_colors": [
+                    "deep crimson",
+                    "mahogany"
+                ],
+                "material": "wood"
+            }
+        ]
+    },
+    "composition": {
+        "spatial_relations": [
+            [
+                19,
+                "next to",
+                16
+            ],
+            [
+                19,
+                "in front of",
+                20
+            ],
+            [
+                16,
+                "next to",
+                31
+            ],
+            [
+                20,
+                "behind",
+                31
+            ]
+        ],
+        "semantic_relations": [
+            [
+                16,
+                "watching",
+                19
+            ]
+        ]
+    },
+    "environment": {
+        "environment_details": {
+            "scene_brief": "A Fantasy holiday landscape featuring sheep, with cat, decorative herd as decoration, and sleigh",
+            "place365_name": "/f/field",
+            "place365_id": 21,
+            "time_of_day": "sunset",
+            "weather": "snowy",
+            "period": "Contemporary",
+            "is_indoor": false,
+            "lighting": {
+                "type": "natural",
+                "quality": "dramatic",
+                "direction": "back-lit",
+                "mood": "warm",
+                "reasoning": "A sunset (selected time) provides natural, warm, and dramatic lighting. Back-lighting from the low sun would silhouette the sheep and the sleigh, creating strong compositional shapes and rim lighting on the snow, which aligns well with the bold visual language of Post-Impressionism."
+            },
+            "atmosphere": "warm and peaceful and serene and striking"
+        },
+        "scene_inference": {
+            "all_candidates": [
+                {
+                    "scene_type": "Winter pasture",
+                    "plausibility": 0.9,
+                    "reasoning": "A sheep stands in a snowy field. A cat sits on the sleigh for warmth. The herd of sheep is nearby. The sleigh is stationary, perhaps waiting.",
+                    "object_interpretations": {
+                        "sheep": {
+                            "form": "real animal",
+                            "scale": "normal",
+                            "role": "primary subject"
+                        },
+                        "cat": {
+                            "form": "real animal",
+                            "scale": "normal",
+                            "role": "companion/secondary subject"
+                        },
+                        "herd": {
+                            "form": "real animals",
+                            "scale": "normal",
+                            "role": "background context"
+                        },
+                        "sleigh": {
+                            "form": "real vehicle",
+                            "scale": "normal",
+                            "role": "functional object"
+                        }
+                    }
+                },
+                {
+                    "scene_type": "Rustic barn interior",
+                    "plausibility": 0.85,
+                    "reasoning": "A sheep is inside the barn. A cat sleeps on a sleigh parked in the corner. The herd is visible through the open barn door.",
+                    "object_interpretations": {
+                        "sheep": {
+                            "form": "real animal",
+                            "scale": "normal",
+                            "role": "primary subject"
+                        },
+                        "cat": {
+                            "form": "real animal",
+                            "scale": "normal",
+                            "role": "sleeping companion"
+                        },
+                        "herd": {
+                            "form": "real animals",
+                            "scale": "normal",
+                            "role": "distant background"
+                        },
+                        "sleigh": {
+                            "form": "real vehicle",
+                            "scale": "normal",
+                            "role": "stored equipment"
+                        }
+                    }
+                },
+                {
+                    "scene_type": "Post-Impressionist painting studio",
+                    "plausibility": 0.8,
+                    "reasoning": "A taxidermy sheep is a model. A cat sits on a miniature sleigh prop. A painting of a herd hangs on the wall.",
+                    "object_interpretations": {
+                        "sheep": {
+                            "form": "taxidermy/statue",
+                            "scale": "normal",
+                            "role": "art model"
+                        },
+                        "cat": {
+                            "form": "real animal",
+                            "scale": "normal",
+                            "role": "studio pet"
+                        },
+                        "herd": {
+                            "form": "painting",
+                            "scale": "normal",
+                            "role": "wall art"
+                        },
+                        "sleigh": {
+                            "form": "model/prop",
+                            "scale": "miniature",
+                            "role": "decorative prop"
+                        }
+                    }
+                },
+                {
+                    "scene_type": "Vintage toy shop",
+                    "plausibility": 0.75,
+                    "reasoning": "A plush sheep sits on a shelf. A real cat sits next to it. A wooden sleigh toy is nearby. A poster of a herd is on the wall.",
+                    "object_interpretations": {
+                        "sheep": {
+                            "form": "toy/plush",
+                            "scale": "small",
+                            "role": "merchandise"
+                        },
+                        "cat": {
+                            "form": "real animal",
+                            "scale": "normal",
+                            "role": "shop mascot"
+                        },
+                        "herd": {
+                            "form": "illustration/poster",
+                            "scale": "normal",
+                            "role": "decoration"
+                        },
+                        "sleigh": {
+                            "form": "toy",
+                            "scale": "small",
+                            "role": "merchandise"
+                        }
+                    }
+                },
+                {
+                    "scene_type": "Fantasy holiday landscape",
+                    "plausibility": 0.7,
+                    "reasoning": "A magical sheep stands near a sleigh. A cat hitches a ride. The 'herd' is a group of sheep-shaped clouds or decorations.",
+                    "object_interpretations": {
+                        "sheep": {
+                            "form": "real animal",
+                            "scale": "normal",
+                            "role": "magical traveler"
+                        },
+                        "cat": {
+                            "form": "real animal",
+                            "scale": "normal",
+                            "role": "passenger"
+                        },
+                        "herd": {
+                            "form": "clouds/decorations",
+                            "scale": "large",
+                            "role": "atmospheric background"
+                        },
+                        "sleigh": {
+                            "form": "real vehicle",
+                            "scale": "normal",
+                            "role": "transportation"
+                        }
+                    },
+                    "scene_brief": "A Fantasy holiday landscape featuring sheep, with cat, decorative herd as decoration, and sleigh"
+                },
+                {
+                    "scene_type": "Farmyard at dusk",
+                    "plausibility": 0.9,
+                    "reasoning": "A sheep grazes. A cat prowls near a parked sleigh. The rest of the herd is settling down for the night.",
+                    "object_interpretations": {
+                        "sheep": {
+                            "form": "real animal",
+                            "scale": "normal",
+                            "role": "foreground subject"
+                        },
+                        "cat": {
+                            "form": "real animal",
+                            "scale": "normal",
+                            "role": "hunter"
+                        },
+                        "herd": {
+                            "form": "real animals",
+                            "scale": "normal",
+                            "role": "background mass"
+                        },
+                        "sleigh": {
+                            "form": "real vehicle",
+                            "scale": "normal",
+                            "role": "idle equipment"
+                        }
+                    }
+                }
+            ],
+            "selected_scene": {
+                "scene_type": "Fantasy holiday landscape",
+                "plausibility": 0.7,
+                "reasoning": "A magical sheep stands near a sleigh. A cat hitches a ride. The 'herd' is a group of sheep-shaped clouds or decorations.",
+                "object_interpretations": {
+                    "sheep": {
+                        "form": "real animal",
+                        "scale": "normal",
+                        "role": "magical traveler"
+                    },
+                    "cat": {
+                        "form": "real animal",
+                        "scale": "normal",
+                        "role": "passenger"
+                    },
+                    "herd": {
+                        "form": "clouds/decorations",
+                        "scale": "large",
+                        "role": "atmospheric background"
+                    },
+                    "sleigh": {
+                        "form": "real vehicle",
+                        "scale": "normal",
+                        "role": "transportation"
+                    }
+                },
+                "scene_brief": "A Fantasy holiday landscape featuring sheep, with cat, decorative herd as decoration, and sleigh"
+            }
+        }
+    },
+    "final_prompts": {
+        "main_prompt": "A Post-Impressionism painting depicting a serene sunset scene where a large, placid sheep with creamy white and golden ochre wool stands next to a medium-sized, alert cat in burnt sienna and deep amber fur. The sheep is positioned in front of a dominant, static herd of ivory and pale lavender sheep, while the cat sits beside a large, well-maintained sleigh in deep crimson and mahogany wood. The herd is arranged behind the sleigh, creating a layered composition. The natural dramatic lighting of sunset casts long, expressive shadows and bathes the entire scene in warm, golden-orange hues, creating a peaceful, serene, and strikingly beautiful atmosphere with visible brushstrokes and vibrant color contrasts.",
+        "negative_prompt": "photorealistic, 3d render, modern, digital art, photograph, low quality, blurry, distorted, ugly, deformed, cartoon, anime, text, watermark, signature, frame, border",
+        "prompt_formats": {
+            "simple": "A Post-Impressionism painting of a sheep, cat, herd, and sleigh at sunset with warm, peaceful lighting.",
+            "complex": "A Post-Impressionism painting depicting a serene sunset scene where a large, placid sheep with creamy white and golden ochre wool stands next to a medium-sized, alert cat in burnt sienna and deep amber fur. The sheep is positioned in front of a dominant, static herd of ivory and pale lavender sheep, while the cat sits beside a large, well-maintained sleigh in deep crimson and mahogany wood. The herd is arranged behind the sleigh, creating a layered composition. The natural dramatic lighting of sunset casts long, expressive shadows and bathes the entire scene in warm, golden-orange hues, creating a peaceful, serene, and strikingly beautiful atmosphere with visible brushstrokes and vibrant color contrasts.",
+            "comma_separated": "Post-Impressionism painting, sheep, cat, herd, sleigh, sunset lighting, warm atmosphere, peaceful, serene, striking, creamy white sheep, burnt sienna cat, ivory herd, crimson sleigh, natural dramatic lighting, visible brushstrokes, vibrant colors",
+            "tags": "art, painting, post-impressionism, sunset, pastoral, animals, sheep, cat, sleigh, herd, warm lighting, serene, peaceful, striking, brushstrokes, color contrast"
+        }
+    }
+}

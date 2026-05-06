@@ -1,0 +1,340 @@
+{
+    "artwork_id": "artwork_20260103_035051_929",
+    "generation_timestamp": "2026-01-03T03:51:29.426874",
+    "style": "Post-Impressionism",
+    "objects": {
+        "object_ids": [
+            19,
+            50,
+            10,
+            17
+        ],
+        "object_names": [
+            "lamb",
+            "lemon",
+            "lamp post",
+            "dog"
+        ],
+        "enhanced_objects": [
+            {
+                "object_id": 19,
+                "name": "lamb",
+                "artistic_description": "Fluffy wool catches the brilliant afternoon sun, creating a luminous halo of warm cream and golden-white tones around its form. The dense fleece appears almost sculptural, with individual curls catching light in a mosaic of warm highlights and soft, cool shadows. Its wool has a matte, natural texture that diffuses the harsh sunlight into a gentle glow, while its dark eyes sparkle like polished obsidian against the bright, sun-illuminated face.",
+                "size": "Medium",
+                "state": "pristine and clean, wool freshly grown and fluffy",
+                "primary_colors": [
+                    "warm cream",
+                    "golden white"
+                ],
+                "material": "wool"
+            },
+            {
+                "object_id": 50,
+                "name": "lemon",
+                "artistic_description": "Vibrant citrus skin glows with intense, saturated yellow that vibrates against the green orchard background. The sun-drenched surface shows a waxy, semi-reflective quality that catches sharp specular highlights, creating brilliant points of white light. The peel texture is visible as a subtle dimpling that catches both light and shadow, while the color shifts from deep amber at the stem to electric chartreuse where the light penetrates the translucent skin.",
+                "size": "Small",
+                "state": "fresh and ripe, dew-kissed from morning moisture",
+                "primary_colors": [
+                    "electric yellow",
+                    "amber"
+                ],
+                "material": "citrus fruit"
+            },
+            {
+                "object_id": 10,
+                "name": "lamp post",
+                "artistic_description": "Weathered metal stands with a patina of oxidized bronze and muted rust tones that warm beautifully in the afternoon light. The cylindrical form creates a gradient of illumination, with the sun-facing side blazing in bright metallic highlights while the shadowed side deepens to cool, blue-gray tones. The glass housing reflects fragmented shards of the surrounding orchard, creating a mosaic of green leaves and blue sky across its surface, while the metal shows subtle texture from years of weather exposure.",
+                "size": "Large",
+                "state": "weathered but functional, showing contemporary urban durability",
+                "primary_colors": [
+                    "oxidized bronze",
+                    "cool gray"
+                ],
+                "material": "metal and glass"
+            },
+            {
+                "object_id": 17,
+                "name": "dog",
+                "artistic_description": "Sleek coat shines with glossy highlights that catch the brilliant sunlight, creating sharp white reflections along the spine and shoulders. The fur appears as a dynamic surface that shifts between deep, cool shadows in the undercoat and warm, brown tones where the sun strikes directly. Muscular form is defined by strong contrasts between illuminated areas and crisp, dark shadows, while the wet nose creates a single, perfect specular highlight that anchors the face with a point of intense brightness.",
+                "size": "Medium",
+                "state": "alert and energetic, coat glossy with health",
+                "primary_colors": [
+                    "rich brown",
+                    "deep black"
+                ],
+                "material": "fur"
+            }
+        ]
+    },
+    "composition": {
+        "spatial_relations": [
+            [
+                19,
+                "under",
+                10
+            ],
+            [
+                17,
+                "next to",
+                19
+            ],
+            [
+                50,
+                "on",
+                19
+            ]
+        ],
+        "semantic_relations": []
+    },
+    "environment": {
+        "environment_details": {
+            "scene_brief": "A orchard interior featuring lamb, with lemon, lamp post, and dog",
+            "place365_name": "/p/park",
+            "place365_id": 254,
+            "time_of_day": "afternoon",
+            "weather": "sunny",
+            "period": "Contemporary",
+            "is_indoor": false,
+            "lighting": {
+                "type": "natural",
+                "quality": "harsh",
+                "direction": "side-lit",
+                "mood": "warm",
+                "reasoning": "In an outdoor orchard during a sunny afternoon, the light is predominantly natural. The sun at this angle creates harsh shadows and strong highlights, emphasizing the geometric shapes and bold outlines typical of Post-Impressionism. The warm color temperature enhances the rustic, pastoral atmosphere."
+            },
+            "atmosphere": "bright and active and cheerful"
+        },
+        "scene_inference": {
+            "all_candidates": [
+                {
+                    "scene_type": "rural farmyard at dusk",
+                    "plausibility": 0.95,
+                    "reasoning": "A lamb is a farm animal, naturally found in a farmyard. A dog is a common farm herding or guarding animal. A lamp post can illuminate a path near the farmhouse. A lemon could be a treat for the farmer or a fallen fruit from a tree, fitting the pastoral setting.",
+                    "object_interpretations": {
+                        "lamb": {
+                            "form": "real animal",
+                            "scale": "normal",
+                            "role": "primary subject"
+                        },
+                        "dog": {
+                            "form": "real animal",
+                            "scale": "normal",
+                            "role": "herding companion"
+                        },
+                        "lamp post": {
+                            "form": "real object",
+                            "scale": "normal",
+                            "role": "environmental lighting"
+                        },
+                        "lemon": {
+                            "form": "real fruit",
+                            "scale": "normal",
+                            "role": "still life detail on a crate"
+                        }
+                    }
+                },
+                {
+                    "scene_type": "village square market",
+                    "plausibility": 0.9,
+                    "reasoning": "A lamb might be present as livestock or a pet. A dog roams the village. A lamp post is standard urban infrastructure. A lemon is a common market produce item.",
+                    "object_interpretations": {
+                        "lamb": {
+                            "form": "real animal",
+                            "scale": "normal",
+                            "role": "subject on a leash"
+                        },
+                        "dog": {
+                            "form": "real animal",
+                            "scale": "normal",
+                            "role": "wandering villager"
+                        },
+                        "lamp post": {
+                            "form": "real object",
+                            "scale": "normal",
+                            "role": "structural element"
+                        },
+                        "lemon": {
+                            "form": "real fruit",
+                            "scale": "normal",
+                            "role": "market produce"
+                        }
+                    }
+                },
+                {
+                    "scene_type": "post-impressionist still life painting",
+                    "plausibility": 0.85,
+                    "reasoning": "In a stylized art composition, objects are arranged for aesthetic harmony. A taxidermied or toy lamb sits on a table. A ceramic lemon adds color. A miniature lamp post serves as a decorative object. A dog is a painting on the wall.",
+                    "object_interpretations": {
+                        "lamb": {
+                            "form": "taxidermy or ceramic figurine",
+                            "scale": "small (tabletop)",
+                            "role": "central subject"
+                        },
+                        "dog": {
+                            "form": "painting on canvas",
+                            "scale": "small",
+                            "role": "wall decoration"
+                        },
+                        "lamp post": {
+                            "form": "miniature model",
+                            "scale": "tiny",
+                            "role": "decorative prop"
+                        },
+                        "lemon": {
+                            "form": "real fruit",
+                            "scale": "normal",
+                            "role": "color accent"
+                        }
+                    }
+                },
+                {
+                    "scene_type": "country garden",
+                    "plausibility": 0.9,
+                    "reasoning": "A lamb might be a pet in a large garden. A dog plays nearby. A lamp post marks a garden gate. A lemon tree grows in a sheltered spot.",
+                    "object_interpretations": {
+                        "lamb": {
+                            "form": "real animal",
+                            "scale": "normal",
+                            "role": "grazing subject"
+                        },
+                        "dog": {
+                            "form": "real animal",
+                            "scale": "normal",
+                            "role": "playful companion"
+                        },
+                        "lamp post": {
+                            "form": "real object",
+                            "scale": "normal",
+                            "role": "garden ornament"
+                        },
+                        "lemon": {
+                            "form": "real fruit",
+                            "scale": "normal",
+                            "role": "part of a tree"
+                        }
+                    }
+                },
+                {
+                    "scene_type": "surreal dream landscape",
+                    "plausibility": 0.8,
+                    "reasoning": "Post-Impressionism often borders on surrealism. A lamb wanders a stylized landscape. A dog is a geometric shape. A lamp post stands in a field. A lemon floats in the sky.",
+                    "object_interpretations": {
+                        "lamb": {
+                            "form": "stylized animal",
+                            "scale": "normal",
+                            "role": "dream figure"
+                        },
+                        "dog": {
+                            "form": "stylized animal",
+                            "scale": "normal",
+                            "role": "secondary figure"
+                        },
+                        "lamp post": {
+                            "form": "real object",
+                            "scale": "distorted",
+                            "role": "surreal element"
+                        },
+                        "lemon": {
+                            "form": "floating fruit",
+                            "scale": "large",
+                            "role": "surreal accent"
+                        }
+                    }
+                },
+                {
+                    "scene_type": "vintage street corner",
+                    "plausibility": 0.9,
+                    "reasoning": "A stray dog and a lost lamb meet under a street lamp. A lemon peel lies on the cobblestones.",
+                    "object_interpretations": {
+                        "lamb": {
+                            "form": "real animal",
+                            "scale": "normal",
+                            "role": "wanderer"
+                        },
+                        "dog": {
+                            "form": "real animal",
+                            "scale": "normal",
+                            "role": "street dweller"
+                        },
+                        "lamp post": {
+                            "form": "real object",
+                            "scale": "normal",
+                            "role": "light source"
+                        },
+                        "lemon": {
+                            "form": "real fruit",
+                            "scale": "normal",
+                            "role": "street debris"
+                        }
+                    }
+                },
+                {
+                    "scene_type": "orchard interior",
+                    "plausibility": 0.9,
+                    "reasoning": "A lamb grazes between trees. A dog herds it. A lamp post stands at the orchard's edge. Lemons grow on the trees.",
+                    "object_interpretations": {
+                        "lamb": {
+                            "form": "real animal",
+                            "scale": "normal",
+                            "role": "grazer"
+                        },
+                        "dog": {
+                            "form": "real animal",
+                            "scale": "normal",
+                            "role": "herder"
+                        },
+                        "lamp post": {
+                            "form": "real object",
+                            "scale": "normal",
+                            "role": "landmark"
+                        },
+                        "lemon": {
+                            "form": "fruit on tree",
+                            "scale": "normal",
+                            "role": "environmental detail"
+                        }
+                    },
+                    "scene_brief": "A orchard interior featuring lamb, with lemon, lamp post, and dog"
+                }
+            ],
+            "selected_scene": {
+                "scene_type": "orchard interior",
+                "plausibility": 0.9,
+                "reasoning": "A lamb grazes between trees. A dog herds it. A lamp post stands at the orchard's edge. Lemons grow on the trees.",
+                "object_interpretations": {
+                    "lamb": {
+                        "form": "real animal",
+                        "scale": "normal",
+                        "role": "grazer"
+                    },
+                    "dog": {
+                        "form": "real animal",
+                        "scale": "normal",
+                        "role": "herder"
+                    },
+                    "lamp post": {
+                        "form": "real object",
+                        "scale": "normal",
+                        "role": "landmark"
+                    },
+                    "lemon": {
+                        "form": "fruit on tree",
+                        "scale": "normal",
+                        "role": "environmental detail"
+                    }
+                },
+                "scene_brief": "A orchard interior featuring lamb, with lemon, lamp post, and dog"
+            }
+        }
+    },
+    "final_prompts": {
+        "main_prompt": "A Post-Impressionism painting depicting a bright and cheerful afternoon scene with harsh natural lighting. In the foreground, a medium-sized lamb with warm cream and golden white wool sits pristine and clean directly under a large, weathered lamp post of oxidized bronze and cool gray metal. Resting atop the lamb's back is a small, fresh lemon of electric yellow and amber. Beside the lamb, a medium-sized dog with rich brown and deep black fur stands alert and energetic. The composition uses bold, visible brushstrokes and vibrant color contrasts to create an active, lively atmosphere where the harsh afternoon light casts dramatic shadows and illuminates the textures of wool, citrus fruit, metal, and fur in a cohesive, narrative scene.",
+        "negative_prompt": "photorealistic, 3d render, modern, digital art, photograph, low quality, blurry, distorted, surreal, abstract, cartoon, anime, watermark, signature, text, frame, border, ugly, deformed, mutated",
+        "prompt_formats": {
+            "simple": "A Post-Impressionism painting of a lamb under a lamp post with a lemon on its back and a dog beside it on a bright afternoon.",
+            "complex": "A Post-Impressionism painting depicting a bright and cheerful afternoon scene with harsh natural lighting. In the foreground, a medium-sized lamb with warm cream and golden white wool sits pristine and clean directly under a large, weathered lamp post of oxidized bronze and cool gray metal. Resting atop the lamb's back is a small, fresh lemon of electric yellow and amber. Beside the lamb, a medium-sized dog with rich brown and deep black fur stands alert and energetic. The composition uses bold, visible brushstrokes and vibrant color contrasts to create an active, lively atmosphere where the harsh afternoon light casts dramatic shadows and illuminates the textures of wool, citrus fruit, metal, and fur in a cohesive, narrative scene.",
+            "comma_separated": "Post-Impressionism painting, lamb under lamp post, lemon on lamb, dog beside lamb, afternoon lighting, harsh natural light, bright cheerful atmosphere, warm cream wool, electric yellow lemon, oxidized bronze lamp post, rich brown dog, visible brushstrokes, vibrant colors, textured wool fur metal",
+            "tags": "art, painting, post-impressionism, animal painting, still life, landscape, Vincent van Gogh style, Paul Gauguin style, bold colors, expressive brushwork, afternoon light, lamb, lemon, lamp post, dog, cheerful scene"
+        }
+    }
+}

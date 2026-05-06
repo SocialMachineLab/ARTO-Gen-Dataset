@@ -1,0 +1,313 @@
+{
+  "artwork_id": "artwork_20260115_045304_250",
+  "generation_timestamp": "2026-01-15T04:53:42.129500",
+  "style": "Neoclassicism",
+  "objects": {
+    "object_ids": [
+      70,
+      75,
+      56,
+      44
+    ],
+    "object_names": [
+      "oven",
+      "clock",
+      "cake",
+      "blade"
+    ],
+    "enhanced_objects": [
+      {
+        "object_id": 70,
+        "name": "oven",
+        "artistic_description": "A grand, white-painted brick oven with classical pilasters and a rounded arch, bathed in bright afternoon sunlight that creates crisp shadows within its recesses. The surface shows a matte finish with subtle variations in the white paint, while the iron door hardware gleams with sharp highlights. Natural light reveals the texture of aged brickwork around the opening, with warm golden tones dancing across the sculpted cornice.",
+        "size": "Large",
+        "state": "well-maintained and actively used, showing signs of recent use with a faint patina of soot around the opening",
+        "primary_colors": [
+          "warm white",
+          "aged cream"
+        ],
+        "material": "brick and painted iron"
+      },
+      {
+        "object_id": 75,
+        "name": "clock",
+        "artistic_description": "An ornate mantel clock in the neoclassical style, crafted from dark mahogany with brass fittings that catch the afternoon sun in brilliant flashes. The white porcelain face is luminous in the bright light, with delicate black Roman numerals and finely wrought brass hands that cast tiny shadows. The polished wood surface reflects the cheerful atmosphere with deep amber tones and rich grain patterns visible in the strong natural light.",
+        "size": "Medium",
+        "state": "pristine condition with polished surfaces, functioning perfectly in the contemporary setting",
+        "primary_colors": [
+          "deep mahogany",
+          "polished brass"
+        ],
+        "material": "mahogany and brass"
+      },
+      {
+        "object_id": 56,
+        "name": "cake",
+        "artistic_description": "A freshly baked sponge cake with pristine white frosting, sitting on a simple ceramic plate where the bright afternoon light makes the surface appear almost translucent. The golden-brown crust peeks through at the edges, glowing with warm honey tones. Delicate sugar decorations catch the light with a subtle sheen, while the soft, matte texture of the frosting absorbs and diffuses the sunlight, creating gentle highlights on its rounded form.",
+        "size": "Medium",
+        "state": "freshly prepared, perfectly risen with smooth frosting, ready to be served",
+        "primary_colors": [
+          "pure white",
+          "golden brown"
+        ],
+        "material": "sponge cake and buttercream frosting"
+      },
+      {
+        "object_id": 44,
+        "name": "blade",
+        "artistic_description": "A polished steel kitchen knife with a narrow, tapering blade that reflects the bright window light in a stark, linear highlight along its edge. The metal surface is mirror-like and cold, creating sharp specular reflections of the cheerful room. The wooden handle shows fine grain details in warm tones, while the steel itself appears cool and silvery in the natural light, with a dangerous gleam that contrasts with the domestic warmth.",
+        "size": "Small",
+        "state": "razor-sharp and immaculately clean, freshly sharpened and ready for use",
+        "primary_colors": [
+          "silver steel",
+          "warm wood"
+        ],
+        "material": "carbon steel and wood"
+      }
+    ]
+  },
+  "composition": {
+    "spatial_relations": [
+      [
+        56,
+        "on",
+        70
+      ],
+      [
+        44,
+        "beside",
+        56
+      ],
+      [
+        75,
+        "on",
+        70
+      ]
+    ],
+    "semantic_relations": []
+  },
+  "environment": {
+    "environment_details": {
+      "scene_brief": "A Historical Hearth featuring oven, with clock, cake, and blade",
+      "place365_name": "/m/museum",
+      "place365_id": 21,
+      "time_of_day": "afternoon",
+      "weather": "sunny",
+      "period": "Contemporary",
+      "is_indoor": true,
+      "lighting": {
+        "type": "natural",
+        "quality": "harsh",
+        "direction": "side-lit",
+        "mood": "warm",
+        "reasoning": "Side-lighting from a sunny exterior will cut across the hearth, emphasizing the geometry of the oven and the clock, and creating a sharp contrast on the blade. The harshness of direct sunlight creates dramatic shadows, while the 'afternoon' time ensures a warm color temperature, blending the historical gravity with the clarity of a contemporary observation."
+      },
+      "atmosphere": "bright and active and cheerful"
+    },
+    "scene_inference": {
+      "all_candidates": [
+        {
+          "scene_type": "Neoclassical Kitchen",
+          "plausibility": 0.95,
+          "reasoning": "The oven is the primary functional object. The cake is a product of the oven. The clock is a necessary tool for timing baking. The blade is a utensil for cutting the finished cake. All objects are standard kitchen items fitting the domestic theme of Neoclassicism.",
+          "object_interpretations": {
+            "oven": {
+              "form": "real appliance",
+              "scale": "normal/full-size",
+              "role": "primary functional object"
+            },
+            "clock": {
+              "form": "real wall clock",
+              "scale": "normal",
+              "role": "functional timekeeper"
+            },
+            "cake": {
+              "form": "real baked good",
+              "scale": "normal",
+              "role": "food product"
+            },
+            "blade": {
+              "form": "kitchen knife",
+              "scale": "normal",
+              "role": "cutting utensil"
+            }
+          }
+        },
+        {
+          "scene_type": "Formal Dining Room",
+          "plausibility": 0.9,
+          "reasoning": "A large oven or stove serves as a hearth centerpiece. A cake sits on the table as dessert. A decorative clock adorns the wall. A ceremonial blade (carving knife) is set for serving.",
+          "object_interpretations": {
+            "oven": {
+              "form": "hearths/antique stove",
+              "scale": "large",
+              "role": "architectural focal point"
+            },
+            "clock": {
+              "form": "grandfather clock",
+              "scale": "large",
+              "role": "furniture/decor"
+            },
+            "cake": {
+              "form": "tiered dessert",
+              "scale": "normal",
+              "role": "table centerpiece"
+            },
+            "blade": {
+              "form": "silver carving knife",
+              "scale": "normal",
+              "role": "serving implement"
+            }
+          }
+        },
+        {
+          "scene_type": "Bakery Shop",
+          "plausibility": 0.95,
+          "reasoning": "The oven is the production equipment. The cake is the merchandise. The clock regulates business hours. The blade is a display tool.",
+          "object_interpretations": {
+            "oven": {
+              "form": "commercial oven",
+              "scale": "large",
+              "role": "production machinery"
+            },
+            "clock": {
+              "form": "shop wall clock",
+              "scale": "normal",
+              "role": "time management"
+            },
+            "cake": {
+              "form": "display cake",
+              "scale": "normal",
+              "role": "product for sale"
+            },
+            "blade": {
+              "form": "chef's knife",
+              "scale": "normal",
+              "role": "tool of trade"
+            }
+          }
+        },
+        {
+          "scene_type": "Artistic Still Life",
+          "plausibility": 0.85,
+          "reasoning": "Arranged on a table for a painting. The oven might be a small model or background element. The cake is the subject. The clock represents time. The blade adds geometric contrast.",
+          "object_interpretations": {
+            "oven": {
+              "form": "miniature/model",
+              "scale": "small",
+              "role": "background prop"
+            },
+            "clock": {
+              "form": "pocket watch",
+              "scale": "small",
+              "role": "symbolic element"
+            },
+            "cake": {
+              "form": "sliced cake",
+              "scale": "normal",
+              "role": "main subject"
+            },
+            "blade": {
+              "form": "decorative dagger",
+              "scale": "small",
+              "role": "artistic accent"
+            }
+          }
+        },
+        {
+          "scene_type": "Historical Hearth",
+          "plausibility": 0.8,
+          "reasoning": "A rustic scene featuring a wood-fired oven. A simple cake bakes. A sundial or hourglass tracks time. A cleaver hangs on the wall.",
+          "object_interpretations": {
+            "oven": {
+              "form": "masonry oven",
+              "scale": "large",
+              "role": "hearth"
+            },
+            "clock": {
+              "form": "hourglass",
+              "scale": "normal",
+              "role": "timer"
+            },
+            "cake": {
+              "form": "dough/raw batter",
+              "scale": "normal",
+              "role": "cooking subject"
+            },
+            "blade": {
+              "form": "cleaver",
+              "scale": "normal",
+              "role": "wall hanging/tool"
+            }
+          },
+          "scene_brief": "A Historical Hearth featuring oven, with clock, cake, and blade"
+        },
+        {
+          "scene_type": "Neoclassical Laboratory",
+          "plausibility": 0.7,
+          "reasoning": "A scientific approach to baking. The oven is a precise instrument. The clock measures reaction time. The cake is the experiment. The blade is for dissection/analysis.",
+          "object_interpretations": {
+            "oven": {
+              "form": "precision oven",
+              "scale": "normal",
+              "role": "scientific instrument"
+            },
+            "clock": {
+              "form": "stopwatch",
+              "scale": "small",
+              "role": "measurement tool"
+            },
+            "cake": {
+              "form": "sample",
+              "scale": "normal",
+              "role": "experiment subject"
+            },
+            "blade": {
+              "form": "scalpel",
+              "scale": "small",
+              "role": "analysis tool"
+            }
+          }
+        }
+      ],
+      "selected_scene": {
+        "scene_type": "Historical Hearth",
+        "plausibility": 0.8,
+        "reasoning": "A rustic scene featuring a wood-fired oven. A simple cake bakes. A sundial or hourglass tracks time. A cleaver hangs on the wall.",
+        "object_interpretations": {
+          "oven": {
+            "form": "masonry oven",
+            "scale": "large",
+            "role": "hearth"
+          },
+          "clock": {
+            "form": "hourglass",
+            "scale": "normal",
+            "role": "timer"
+          },
+          "cake": {
+            "form": "dough/raw batter",
+            "scale": "normal",
+            "role": "cooking subject"
+          },
+          "blade": {
+            "form": "cleaver",
+            "scale": "normal",
+            "role": "wall hanging/tool"
+          }
+        },
+        "scene_brief": "A Historical Hearth featuring oven, with clock, cake, and blade"
+      }
+    }
+  },
+  "final_prompts": {
+    "main_prompt": "A Neoclassicism painting depicting a warm, active kitchen scene in the bright afternoon. In the foreground, a large, warm white aged cream oven, well-maintained and actively used, serves as the central platform. Upon its flat top sits a pristine, deep mahogany clock with polished brass accents, its surfaces gleaming. Beside the clock rests a medium-sized cake, freshly prepared with pure white sponge and golden brown edges. In the immediate vicinity of the cake lies a small, silver steel blade with a warm wood handle, razor-sharp and immaculately clean. The natural harsh afternoon light streams through a nearby window, casting sharp shadows and illuminating the bright, cheerful atmosphere of the room.",
+    "negative_prompt": "photorealistic, 3d render, modern, digital art, photograph, low quality, blurry, distorted",
+    "prompt_formats": {
+      "simple": "A Neoclassicism painting of a bright kitchen with an oven, clock, cake, and blade.",
+      "complex": "A Neoclassicism painting depicting a warm, active kitchen scene in the bright afternoon. In the foreground, a large, warm white aged cream oven, well-maintained and actively used, serves as the central platform. Upon its flat top sits a pristine, deep mahogany clock with polished brass accents, its surfaces gleaming. Beside the clock rests a medium-sized cake, freshly prepared with pure white sponge and golden brown edges. In the immediate vicinity of the cake lies a small, silver steel blade with a warm wood handle, razor-sharp and immaculately clean. The natural harsh afternoon light streams through a nearby window, casting sharp shadows and illuminating the bright, cheerful atmosphere of the room.",
+      "comma_separated": "Neoclassicism, oven, clock, cake, blade, large, medium, small, warm white, deep mahogany, pure white, silver steel, afternoon light, bright, cheerful, active, kitchen",
+      "tags": "art, painting, neoclassicism, oven, clock, cake, blade, kitchen, still life, afternoon, bright"
+    }
+  }
+}

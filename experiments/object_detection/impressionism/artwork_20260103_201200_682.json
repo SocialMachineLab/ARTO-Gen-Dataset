@@ -1,0 +1,303 @@
+{
+    "artwork_id": "artwork_20260103_201200_682",
+    "generation_timestamp": "2026-01-03T20:12:39.546759",
+    "style": "Impressionism",
+    "objects": {
+        "object_ids": [
+            60,
+            50,
+            5
+        ],
+        "object_names": [
+            "hammock",
+            "lemon",
+            "airship"
+        ],
+        "enhanced_objects": [
+            {
+                "object_id": 60,
+                "name": "hammock",
+                "artistic_description": "Loose-woven cotton fibers catch the warm afternoon sun, creating a soft, luminous glow with dappled shadows dancing across the textured surface. The natural fibers appear slightly weathered and sun-bleached, with gentle undulations suggesting recent use. Brushstrokes would be soft and feathery, capturing the way light filters through the open weave, creating a mosaic of warm amber and cream tones where the sun penetrates, while shaded areas hold cooler, gentle taupe shadows.",
+                "size": "Large",
+                "state": "Relaxed and gently used, with natural wear from sun exposure",
+                "primary_colors": [
+                    "warm cream",
+                    "sun-bleached amber"
+                ],
+                "material": "cotton"
+            },
+            {
+                "object_id": 50,
+                "name": "lemon",
+                "artistic_description": "A vibrant sphere of luminous yellow that seems to capture and radiate the bright afternoon light. The waxy skin reflects small, sharp highlights while absorbing the warm solar rays into deep, saturated citrus tones. Visible in loose, impressionistic strokes, the surface shows subtle variations from bright chartreuse at the stem to rich golden yellow, with tiny imperfections and pores catching the light. The fruit appears cool and refreshing, its glossy surface creating small points of brilliant reflection against the matte surroundings.",
+                "size": "Small",
+                "state": "Fresh and perfectly ripe, glistening with natural oils",
+                "primary_colors": [
+                    "vibrant golden yellow",
+                    "chartreuse"
+                ],
+                "material": "fruit skin"
+            },
+            {
+                "object_id": 5,
+                "name": "airship",
+                "artistic_description": "Floating in the bright sky, its envelope shimmers with pearlescent silver and pale blue tones, catching the afternoon sun on its curved metallic surface. The rigid frame creates subtle shadow patterns across the luminous balloon, rendered in quick, broken strokes of cool gray and warm ivory. Sunlight glints off polished aluminum fittings, creating brilliant white highlights against the soft, atmospheric blues of the sky. The overall effect is one of weightless grace, with the bright conditions causing the craft to appear almost translucent against the luminous atmosphere.",
+                "size": "Dominant",
+                "state": "Gracefully airborne, pristine and gleaming",
+                "primary_colors": [
+                    "pearlescent silver",
+                    "sky blue"
+                ],
+                "material": "metal and fabric"
+            }
+        ]
+    },
+    "composition": {
+        "spatial_relations": [
+            [
+                50,
+                "in",
+                60
+            ],
+            [
+                5,
+                "behind",
+                60
+            ]
+        ],
+        "semantic_relations": []
+    },
+    "environment": {
+        "environment_details": {
+            "scene_brief": "A Vintage travel poster featuring hammock, with lemon, and airship",
+            "place365_name": "/f/field/wild",
+            "place365_id": 141,
+            "time_of_day": "afternoon",
+            "weather": "sunny",
+            "period": "Modern",
+            "is_indoor": false,
+            "lighting": {
+                "type": "natural",
+                "quality": "soft",
+                "direction": "side-lit",
+                "mood": "warm",
+                "reasoning": "Natural sunlight from a sunny afternoon creates a warm and soft lighting quality. Side-lighting adds dimension to the objects (hammock, lemon) and the airship, fitting the Impressionist style which focuses on capturing light and atmosphere rather than sharp details."
+            },
+            "atmosphere": "bright and active and cheerful and gentle"
+        },
+        "scene_inference": {
+            "all_candidates": [
+                {
+                    "scene_type": "Victorian rooftop garden",
+                    "plausibility": 0.85,
+                    "reasoning": "A hammock is strung between two chimneys on a rooftop garden. A lemon tree grows in a large pot nearby, with a fresh lemon resting on the railing. In the distance, a small airship drifts lazily in the sky, a common sight in this steampunk-infused era. The Impressionist style blurs the airship into a soft, atmospheric shape.",
+                    "object_interpretations": {
+                        "hammock": {
+                            "form": "real hammock",
+                            "scale": "normal",
+                            "role": "primary relaxation object"
+                        },
+                        "lemon": {
+                            "form": "real fruit",
+                            "scale": "normal",
+                            "role": "natural detail from nearby tree"
+                        },
+                        "airship": {
+                            "form": "real airship",
+                            "scale": "distant/large",
+                            "role": "background atmospheric element"
+                        }
+                    }
+                },
+                {
+                    "scene_type": "Dreamy coastal cliff",
+                    "plausibility": 0.8,
+                    "reasoning": "A hammock is slung between two weathered posts on a cliff overlooking the sea. A glass of lemonade with a lemon slice sits on a small table beside it. A whimsical, miniature airship toy hangs from a string on the hammock's frame, swaying in the breeze. The scene is rendered with soft, light-dappled strokes.",
+                    "object_interpretations": {
+                        "hammock": {
+                            "form": "real hammock",
+                            "scale": "normal",
+                            "role": "primary relaxation object"
+                        },
+                        "lemon": {
+                            "form": "prepared food (slice)",
+                            "scale": "small",
+                            "role": "garnish for a drink"
+                        },
+                        "airship": {
+                            "form": "toy model",
+                            "scale": "miniature",
+                            "role": "decorative charm on the hammock"
+                        }
+                    }
+                },
+                {
+                    "scene_type": "Artistic bohemian loft",
+                    "plausibility": 0.9,
+                    "reasoning": "Inside a sunlit artist's loft, a hammock is hung from the high ceiling for napping. The artist's work-in-progress is an oil painting of a lemon on a table. A small, intricate airship model sits on a bookshelf as a collector's item. The entire scene is captured with the loose, expressive brushwork of Impressionism.",
+                    "object_interpretations": {
+                        "hammock": {
+                            "form": "real hammock",
+                            "scale": "normal",
+                            "role": "functional furniture"
+                        },
+                        "lemon": {
+                            "form": "real fruit",
+                            "scale": "normal",
+                            "role": "subject of a painting"
+                        },
+                        "airship": {
+                            "form": "model",
+                            "scale": "small",
+                            "role": "decorative object/artifact"
+                        }
+                    }
+                },
+                {
+                    "scene_type": "Lush botanical greenhouse",
+                    "plausibility": 0.85,
+                    "reasoning": "A hammock is nestled among large tropical plants inside a glass-paneled greenhouse. A lemon tree is one of the many plants, with fruit visible. A promotional poster for an 'Aether Travel Company' featuring an airship is framed on the wall. The light filtering through the glass creates a soft, hazy effect.",
+                    "object_interpretations": {
+                        "hammock": {
+                            "form": "real hammock",
+                            "scale": "normal",
+                            "role": "resting spot"
+                        },
+                        "lemon": {
+                            "form": "real fruit on tree",
+                            "scale": "normal",
+                            "role": "part of the flora"
+                        },
+                        "airship": {
+                            "form": "image/print",
+                            "scale": "wall-sized",
+                            "role": "wall decor"
+                        }
+                    }
+                },
+                {
+                    "scene_type": "Festival fairground",
+                    "plausibility": 0.75,
+                    "reasoning": "At a bustling fairground, a hammock is set up between two poles for children to play in. A 'Lemon Shake' stand is nearby, with fresh lemons on display. A large, tethered hot air balloon (a type of airship) floats above the crowd, its colors softened by the evening light.",
+                    "object_interpretations": {
+                        "hammock": {
+                            "form": "real hammock",
+                            "scale": "normal",
+                            "role": "play equipment"
+                        },
+                        "lemon": {
+                            "form": "real fruit",
+                            "scale": "normal",
+                            "role": "beverage ingredient"
+                        },
+                        "airship": {
+                            "form": "real hot air balloon",
+                            "scale": "large",
+                            "role": "attraction/centerpiece"
+                        }
+                    }
+                },
+                {
+                    "scene_type": "Floating island fantasy",
+                    "plausibility": 0.7,
+                    "reasoning": "In a surreal, dreamlike landscape, a hammock is slung between two branches on a floating island. A single, oversized lemon rests on the grass, glowing softly. A majestic airship sails through the clouds below the island, its form blending with the sky. The Impressionist style enhances the dreamy quality.",
+                    "object_interpretations": {
+                        "hammock": {
+                            "form": "real hammock",
+                            "scale": "normal",
+                            "role": "primary object in dreamscape"
+                        },
+                        "lemon": {
+                            "form": "stylized fruit",
+                            "scale": "oversized",
+                            "role": "surreal focal point"
+                        },
+                        "airship": {
+                            "form": "real airship",
+                            "scale": "distant",
+                            "role": "element of the fantasy world"
+                        }
+                    }
+                },
+                {
+                    "scene_type": "Vintage travel poster",
+                    "plausibility": 0.8,
+                    "reasoning": "The scene is styled like an old travel advertisement. A hammock is shown on a pristine beach. A glass of lemonade is on a side table. The main attraction is a stylized airship flying overhead, promoting a tropical destination. The art style mimics vintage poster art with soft edges.",
+                    "object_interpretations": {
+                        "hammock": {
+                            "form": "real hammock",
+                            "scale": "normal",
+                            "role": "symbol of leisure"
+                        },
+                        "lemon": {
+                            "form": "prepared food (drink)",
+                            "scale": "normal",
+                            "role": "refreshment"
+                        },
+                        "airship": {
+                            "form": "real airship",
+                            "scale": "prominent",
+                            "role": "advertising icon"
+                        }
+                    },
+                    "scene_brief": "A Vintage travel poster featuring hammock, with lemon, and airship"
+                },
+                {
+                    "scene_type": "Backyard summer evening",
+                    "plausibility": 0.9,
+                    "reasoning": "A hammock is strung between two trees in a backyard during a summer evening. A bowl of fruit, including a lemon, is on a picnic table. A child's remote-controlled airship toy lies on the grass, having been flown earlier. The scene is painted with soft, warm tones.",
+                    "object_interpretations": {
+                        "hammock": {
+                            "form": "real hammock",
+                            "scale": "normal",
+                            "role": "relaxation spot"
+                        },
+                        "lemon": {
+                            "form": "real fruit",
+                            "scale": "normal",
+                            "role": "part of a picnic"
+                        },
+                        "airship": {
+                            "form": "toy",
+                            "scale": "small",
+                            "role": "forgotten plaything"
+                        }
+                    }
+                }
+            ],
+            "selected_scene": {
+                "scene_type": "Vintage travel poster",
+                "plausibility": 0.8,
+                "reasoning": "The scene is styled like an old travel advertisement. A hammock is shown on a pristine beach. A glass of lemonade is on a side table. The main attraction is a stylized airship flying overhead, promoting a tropical destination. The art style mimics vintage poster art with soft edges.",
+                "object_interpretations": {
+                    "hammock": {
+                        "form": "real hammock",
+                        "scale": "normal",
+                        "role": "symbol of leisure"
+                    },
+                    "lemon": {
+                        "form": "prepared food (drink)",
+                        "scale": "normal",
+                        "role": "refreshment"
+                    },
+                    "airship": {
+                        "form": "real airship",
+                        "scale": "prominent",
+                        "role": "advertising icon"
+                    }
+                },
+                "scene_brief": "A Vintage travel poster featuring hammock, with lemon, and airship"
+            }
+        }
+    },
+    "final_prompts": {
+        "main_prompt": "A Impressionism painting depicting a bright and cheerful afternoon scene where a large, sun-bleached amber hammock of warm cream cotton sways gently in the foreground, its relaxed and gently used form cradling a small, perfectly ripe lemon of vibrant golden yellow with chartreuse highlights. Behind the hammock, a dominant pearlescent silver airship with sky blue fabric accents floats gracefully airborne against a soft, active sky. The natural soft afternoon light casts dappled shadows through unseen foliage, creating a gentle atmosphere of leisure and wonder, with brushstrokes capturing the interplay of light on cotton, fruit skin, and metallic surfaces in a cohesive, visually rich composition.",
+        "negative_prompt": "photorealistic, 3d render, modern, digital art, photograph, low quality, blurry, distorted, ugly, deformed, text, watermark, signature, frame, border, cartoon, anime, hyperrealistic, surrealism, abstract",
+        "prompt_formats": {
+            "simple": "An Impressionist painting of a lemon in a hammock with an airship floating behind in a cheerful afternoon setting.",
+            "complex": "A Impressionism painting depicting a bright and cheerful afternoon scene where a large, sun-bleached amber hammock of warm cream cotton sways gently in the foreground, its relaxed and gently used form cradling a small, perfectly ripe lemon of vibrant golden yellow with chartreuse highlights. Behind the hammock, a dominant pearlescent silver airship with sky blue fabric accents floats gracefully airborne against a soft, active sky. The natural soft afternoon light casts dappled shadows through unseen foliage, creating a gentle atmosphere of leisure and wonder, with brushstrokes capturing the interplay of light on cotton, fruit skin, and metallic surfaces in a cohesive, visually rich composition.",
+            "comma_separated": "Impressionism painting, large hammock, small lemon, dominant airship, warm cream and amber colors, vibrant golden yellow lemon, pearlescent silver and sky blue airship, afternoon lighting, natural soft light, bright cheerful gentle atmosphere, cotton fabric, fruit skin, metal and fabric textures, foreground midground background composition",
+            "tags": "art, painting, impressionism, Claude Monet style, Pierre-Auguste Renoir style, outdoor scene, leisure, hammock, lemon, airship, afternoon, soft lighting, cheerful atmosphere, brushstroke texture, color harmony"
+        }
+    }
+}

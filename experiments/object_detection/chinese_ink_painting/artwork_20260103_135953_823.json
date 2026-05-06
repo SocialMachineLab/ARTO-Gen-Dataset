@@ -1,0 +1,511 @@
+{
+    "artwork_id": "artwork_20260103_135953_823",
+    "generation_timestamp": "2026-01-03T14:00:33.809490",
+    "style": "Chinese Ink Painting",
+    "objects": {
+        "object_ids": [
+            17,
+            19,
+            9,
+            74,
+            76,
+            61
+        ],
+        "object_names": [
+            "dog",
+            "sheep",
+            "canoe",
+            "paper",
+            "vase",
+            "dining table"
+        ],
+        "enhanced_objects": [
+            {
+                "object_id": 17,
+                "name": "dog",
+                "artistic_description": "Rendered in expressive black ink washes with subtle dry-brush texture, the dog's fur appears as layered gray tones from soft charcoal to deep midnight strokes. Morning's cool, diffused light through clouds creates gentle gradations across its form, with minimal shadows suggesting the subdued atmosphere. Whiskers and fine facial details are captured with precise, delicate lines that embody the fresh yet restrained energy of the workshop.",
+                "size": "Medium",
+                "state": "alert and calm, sitting attentively with natural posture",
+                "primary_colors": [
+                    "charcoal black",
+                    "warm gray"
+                ],
+                "material": "fur"
+            },
+            {
+                "object_id": 19,
+                "name": "sheep",
+                "artistic_description": "Depicted through volumetric ink pooling and controlled bleeding, the sheep's woolly form emerges as soft, cloud-like masses of diluted gray and sepia tones. The cloudy morning light creates a gentle, ethereal quality with subtle wet-on-wet blending that suggests fluffiness. Minimal contour lines define the shape against the paper's natural tone, embodying the subdued yet energetic atmosphere.",
+                "size": "Large",
+                "state": "standing peacefully with relaxed stance",
+                "primary_colors": [
+                    "soft gray",
+                    "natural paper tone"
+                ],
+                "material": "wool"
+            },
+            {
+                "object_id": 9,
+                "name": "canoe",
+                "artistic_description": "A miniature canoe rendered with precise, angular brushstrokes in deep indigo-black ink, its curved hull showing subtle gradations from dry-brush texture to smooth washes. Cool morning light emphasizes the sleek lines and polished wood grain suggested through strategic white space. The model's small scale is accentuated by crisp, confident strokes that capture contemporary craftsmanship.",
+                "size": "Small",
+                "state": "pristine model, freshly crafted with smooth finish",
+                "primary_colors": [
+                    "deep indigo",
+                    "charcoal"
+                ],
+                "material": "wood"
+            },
+            {
+                "object_id": 74,
+                "name": "paper",
+                "artistic_description": "Sheets of xuan paper showing the natural ivory and cream tones of untreated fibers, their surface catching the cool, diffused morning light with a soft matte quality. Subtle variations in the paper's texture are visible through delicate ink spatters and the gentle absorption of surrounding moisture, creating organic, feathery edges. The paper embodies the fresh, clean energy of the workshop.",
+                "size": "Medium",
+                "state": "fresh and crisp, ready for calligraphy",
+                "primary_colors": [
+                    "ivory",
+                    "cream"
+                ],
+                "material": "paper"
+            },
+            {
+                "object_id": 76,
+                "name": "vase",
+                "artistic_description": "A ceramic vase captured through bold, sweeping strokes of concentrated ink creating dramatic negative space, its form defined by minimal but expressive lines. Cool morning light reflects subtly off the glazed surface, suggested through small areas of reserved white paper. The contemporary design shows smooth, flowing curves rendered with confident brushwork that emphasizes the vessel's elegant simplicity.",
+                "size": "Small",
+                "state": "smooth and unblemished with high-gloss finish",
+                "primary_colors": [
+                    "deep black",
+                    "pure white"
+                ],
+                "material": "ceramic"
+            },
+            {
+                "object_id": 61,
+                "name": "dining table",
+                "artistic_description": "A substantial wooden table rendered through strong, horizontal brushstrokes and rich ink washes that suggest deep grain and polished surface. Cool, diffused morning light creates subtle reflections suggested by lighter ink tones along the edges, while the broad, stable forms convey solidity. Dry-brush techniques along the legs reveal wood texture, embodying the workshop's grounded, energetic atmosphere.",
+                "size": "Dominant",
+                "state": "well-maintained with smooth, polished surface",
+                "primary_colors": [
+                    "dark walnut",
+                    "medium brown"
+                ],
+                "material": "wood"
+            }
+        ]
+    },
+    "composition": {
+        "spatial_relations": [
+            [
+                17,
+                "on",
+                61
+            ],
+            [
+                19,
+                "next to",
+                17
+            ],
+            [
+                9,
+                "on",
+                61
+            ],
+            [
+                74,
+                "on",
+                61
+            ],
+            [
+                76,
+                "on",
+                61
+            ],
+            [
+                76,
+                "next to",
+                74
+            ],
+            [
+                9,
+                "next to",
+                74
+            ]
+        ],
+        "semantic_relations": [
+            [
+                17,
+                "watching",
+                9
+            ]
+        ]
+    },
+    "environment": {
+        "environment_details": {
+            "scene_brief": "A Calligraphy Workshop featuring dog, with sheep, canoe model, paper, vase, and dining table",
+            "place365_name": "/f/florist_shop/indoor",
+            "place365_id": 147,
+            "time_of_day": "morning",
+            "weather": "cloudy",
+            "period": "Contemporary",
+            "is_indoor": true,
+            "lighting": {
+                "type": "natural",
+                "quality": "soft",
+                "direction": "side-lit",
+                "mood": "cool",
+                "reasoning": "Natural lighting from a window (side-lit) is the most realistic source for an indoor workshop. The 'cloudy' weather ensures the light is soft and diffused, preventing glare on the paper and allowing for the subtle tonal variations essential to Chinese Ink Painting. A cool mood aligns with the morning time and the contemplative nature of the scene."
+            },
+            "atmosphere": "fresh and energetic and subdued and gentle"
+        },
+        "scene_inference": {
+            "all_candidates": [
+                {
+                    "scene_type": "Rural Farmyard",
+                    "plausibility": 0.9,
+                    "reasoning": "A pastoral scene where the dog acts as a herding animal for the sheep. The canoe is stored nearby on the grass, the vase sits on the dining table which is set up for a simple outdoor meal, and paper is present as calligraphy scrolls or a dropped note.",
+                    "object_interpretations": {
+                        "dog": {
+                            "form": "real dog",
+                            "scale": "normal",
+                            "role": "herding animal"
+                        },
+                        "sheep": {
+                            "form": "real sheep",
+                            "scale": "normal",
+                            "role": "herded animal"
+                        },
+                        "canoe": {
+                            "form": "real canoe",
+                            "scale": "large",
+                            "role": "stored equipment"
+                        },
+                        "paper": {
+                            "form": "calligraphy scroll",
+                            "scale": "small",
+                            "role": "decorative/functional"
+                        },
+                        "vase": {
+                            "form": "ceramic vase",
+                            "scale": "medium",
+                            "role": "table decoration"
+                        },
+                        "dining table": {
+                            "form": "wooden table",
+                            "scale": "normal",
+                            "role": "furniture"
+                        }
+                    }
+                },
+                {
+                    "scene_type": "Mountain Lake House",
+                    "plausibility": 0.85,
+                    "reasoning": "A scenic view of a lakeside dwelling. The dog guards the porch where a vase sits on a dining table. A sheep wanders the yard, and a canoe is docked at the shore. Paper represents a map or painting hung on the wall.",
+                    "object_interpretations": {
+                        "dog": {
+                            "form": "real dog",
+                            "scale": "normal",
+                            "role": "guardian"
+                        },
+                        "sheep": {
+                            "form": "real sheep",
+                            "scale": "normal",
+                            "role": "grazing animal"
+                        },
+                        "canoe": {
+                            "form": "real canoe",
+                            "scale": "large",
+                            "role": "transportation"
+                        },
+                        "paper": {
+                            "form": "wall scroll",
+                            "scale": "medium",
+                            "role": "artwork"
+                        },
+                        "vase": {
+                            "form": "porcelain vase",
+                            "scale": "medium",
+                            "role": "centerpiece"
+                        },
+                        "dining table": {
+                            "form": "outdoor table",
+                            "scale": "normal",
+                            "role": "furniture"
+                        }
+                    }
+                },
+                {
+                    "scene_type": "Art Studio",
+                    "plausibility": 0.8,
+                    "reasoning": "An artist's studio filled with still life objects. The dog and sheep are live models posing together. The canoe is a miniature model on the table, alongside a vase. Paper is the canvas or sketch paper being used.",
+                    "object_interpretations": {
+                        "dog": {
+                            "form": "real dog",
+                            "scale": "normal",
+                            "role": "artist's model"
+                        },
+                        "sheep": {
+                            "form": "real sheep",
+                            "scale": "normal",
+                            "role": "artist's model"
+                        },
+                        "canoe": {
+                            "form": "miniature model",
+                            "scale": "small",
+                            "role": "still life prop"
+                        },
+                        "paper": {
+                            "form": "canvas/sketch paper",
+                            "scale": "large",
+                            "role": "medium"
+                        },
+                        "vase": {
+                            "form": "ceramic vase",
+                            "scale": "medium",
+                            "role": "still life prop"
+                        },
+                        "dining table": {
+                            "form": "work table",
+                            "scale": "normal",
+                            "role": "furniture"
+                        }
+                    }
+                },
+                {
+                    "scene_type": "Traditional Banquet",
+                    "plausibility": 0.75,
+                    "reasoning": "A formal dining setting. The dog is a pet resting under the table. The sheep is a taxidermy mount or a statue in the corner. The canoe is a decorative element on a tapestry or wallpaper. Paper is a menu or invitation, and the vase is a floral centerpiece.",
+                    "object_interpretations": {
+                        "dog": {
+                            "form": "real dog",
+                            "scale": "normal",
+                            "role": "pet"
+                        },
+                        "sheep": {
+                            "form": "taxidermy/statue",
+                            "scale": "normal",
+                            "role": "decoration"
+                        },
+                        "canoe": {
+                            "form": "artistic depiction",
+                            "scale": "variable",
+                            "role": "background pattern"
+                        },
+                        "paper": {
+                            "form": "printed paper",
+                            "scale": "small",
+                            "role": "functional item"
+                        },
+                        "vase": {
+                            "form": "ornate vase",
+                            "scale": "medium",
+                            "role": "centerpiece"
+                        },
+                        "dining table": {
+                            "form": "feast table",
+                            "scale": "large",
+                            "role": "main furniture"
+                        }
+                    }
+                },
+                {
+                    "scene_type": "Riverbank Gathering",
+                    "plausibility": 0.9,
+                    "reasoning": "A group of animals and objects near a river. The dog herds the sheep away from the water where a canoe is beached. A picnic is set up on the grass with a dining table, holding a vase and paper weights.",
+                    "object_interpretations": {
+                        "dog": {
+                            "form": "real dog",
+                            "scale": "normal",
+                            "role": "herder"
+                        },
+                        "sheep": {
+                            "form": "real sheep",
+                            "scale": "normal",
+                            "role": "companion"
+                        },
+                        "canoe": {
+                            "form": "real canoe",
+                            "scale": "large",
+                            "role": "parked vehicle"
+                        },
+                        "paper": {
+                            "form": "loose sheets",
+                            "scale": "small",
+                            "role": "windblown debris/picnic items"
+                        },
+                        "vase": {
+                            "form": "simple vase",
+                            "scale": "medium",
+                            "role": "picnic decoration"
+                        },
+                        "dining table": {
+                            "form": "picnic table",
+                            "scale": "normal",
+                            "role": "furniture"
+                        }
+                    }
+                },
+                {
+                    "scene_type": "Dreamscape",
+                    "plausibility": 0.7,
+                    "reasoning": "A surreal interpretation allowed by the ink style. The dog and sheep float peacefully. The canoe is inverted and used as a flower planter (holding the vase). The dining table is a floating platform, and paper is the sky/clouds.",
+                    "object_interpretations": {
+                        "dog": {
+                            "form": "ethereal dog",
+                            "scale": "variable",
+                            "role": "dream figure"
+                        },
+                        "sheep": {
+                            "form": "ethereal sheep",
+                            "scale": "variable",
+                            "role": "dream figure"
+                        },
+                        "canoe": {
+                            "form": "inverted canoe",
+                            "scale": "large",
+                            "role": "planter"
+                        },
+                        "paper": {
+                            "form": "clouds/sky",
+                            "scale": "massive",
+                            "role": "environment"
+                        },
+                        "vase": {
+                            "form": "floating vase",
+                            "scale": "medium",
+                            "role": "contained in canoe"
+                        },
+                        "dining table": {
+                            "form": "floating platform",
+                            "scale": "large",
+                            "role": "stage"
+                        }
+                    }
+                },
+                {
+                    "scene_type": "Garden Pavilion",
+                    "plausibility": 0.85,
+                    "reasoning": "A pavilion structure in a garden. The dog and sheep are pets roaming the garden. The canoe is a decorative water feature or planter. The dining table is inside the pavilion with a vase and paper lanterns.",
+                    "object_interpretations": {
+                        "dog": {
+                            "form": "real dog",
+                            "scale": "normal",
+                            "role": "garden pet"
+                        },
+                        "sheep": {
+                            "form": "real sheep",
+                            "scale": "normal",
+                            "role": "garden pet"
+                        },
+                        "canoe": {
+                            "form": "garden planter",
+                            "scale": "large",
+                            "role": "decoration"
+                        },
+                        "paper": {
+                            "form": "lanterns",
+                            "scale": "small",
+                            "role": "lighting"
+                        },
+                        "vase": {
+                            "form": "vase",
+                            "scale": "medium",
+                            "role": "table item"
+                        },
+                        "dining table": {
+                            "form": "table",
+                            "scale": "normal",
+                            "role": "furniture"
+                        }
+                    }
+                },
+                {
+                    "scene_type": "Calligraphy Workshop",
+                    "plausibility": 0.75,
+                    "reasoning": "A cluttered workshop. The dog and sheep are statues used as paperweights. The canoe is a small model on a shelf. The dining table is the workbench covered in paper scrolls and brushes. The vase holds water for brushes.",
+                    "object_interpretations": {
+                        "dog": {
+                            "form": "statue",
+                            "scale": "small",
+                            "role": "paperweight"
+                        },
+                        "sheep": {
+                            "form": "statue",
+                            "scale": "small",
+                            "role": "paperweight"
+                        },
+                        "canoe": {
+                            "form": "model",
+                            "scale": "small",
+                            "role": "decoration"
+                        },
+                        "paper": {
+                            "form": "scrolls",
+                            "scale": "variable",
+                            "role": "primary material"
+                        },
+                        "vase": {
+                            "form": "water vase",
+                            "scale": "medium",
+                            "role": "tool"
+                        },
+                        "dining table": {
+                            "form": "workbench",
+                            "scale": "large",
+                            "role": "furniture"
+                        }
+                    },
+                    "scene_brief": "A Calligraphy Workshop featuring dog, with sheep, canoe model, paper, vase, and dining table"
+                }
+            ],
+            "selected_scene": {
+                "scene_type": "Calligraphy Workshop",
+                "plausibility": 0.75,
+                "reasoning": "A cluttered workshop. The dog and sheep are statues used as paperweights. The canoe is a small model on a shelf. The dining table is the workbench covered in paper scrolls and brushes. The vase holds water for brushes.",
+                "object_interpretations": {
+                    "dog": {
+                        "form": "statue",
+                        "scale": "small",
+                        "role": "paperweight"
+                    },
+                    "sheep": {
+                        "form": "statue",
+                        "scale": "small",
+                        "role": "paperweight"
+                    },
+                    "canoe": {
+                        "form": "model",
+                        "scale": "small",
+                        "role": "decoration"
+                    },
+                    "paper": {
+                        "form": "scrolls",
+                        "scale": "variable",
+                        "role": "primary material"
+                    },
+                    "vase": {
+                        "form": "water vase",
+                        "scale": "medium",
+                        "role": "tool"
+                    },
+                    "dining table": {
+                        "form": "workbench",
+                        "scale": "large",
+                        "role": "furniture"
+                    }
+                },
+                "scene_brief": "A Calligraphy Workshop featuring dog, with sheep, canoe model, paper, vase, and dining table"
+            }
+        }
+    },
+    "final_prompts": {
+        "main_prompt": "A Chinese Ink Painting painting depicting a morning scene on a dark walnut dining table, where a charcoal black dog sits alertly beside a soft gray sheep standing peacefully. On the smooth table surface, a small deep indigo canoe rests next to a crisp ivory paper, which is adjacent to a small glossy black and white vase. The natural soft morning light creates a fresh, energetic yet subdued and gentle atmosphere, with the dominant dining table anchoring the composition while ink washes suggest the quiet interior space.",
+        "negative_prompt": "photorealistic, 3d render, modern, digital art, photograph, low quality, blurry, distorted, cartoon, anime, western painting, oil painting, watercolor, bright colors, saturated colors, detailed background, cluttered, noisy, text, signature, frame",
+        "prompt_formats": {
+            "simple": "A Chinese ink painting of a dog and sheep on a dining table with a canoe, paper, and vase in soft morning light.",
+            "complex": "A Chinese Ink Painting painting depicting a morning scene on a dark walnut dining table, where a charcoal black dog sits alertly beside a soft gray sheep standing peacefully. On the smooth table surface, a small deep indigo canoe rests next to a crisp ivory paper, which is adjacent to a small glossy black and white vase. The natural soft morning light creates a fresh, energetic yet subdued and gentle atmosphere, with the dominant dining table anchoring the composition while ink washes suggest the quiet interior space.",
+            "comma_separated": "Chinese Ink Painting, dining table, dog, sheep, canoe, paper, vase, morning light, soft lighting, fresh atmosphere, energetic, subdued, gentle, ink wash, xuan paper texture, traditional composition",
+            "tags": "art, painting, chinese ink painting, ink wash, sumi-e, traditional art, still life, animals, morning scene, natural lighting, minimalist composition, xuan paper"
+        }
+    }
+}

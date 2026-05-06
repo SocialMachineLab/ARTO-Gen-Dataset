@@ -1,0 +1,313 @@
+{
+    "artwork_id": "artwork_20260103_175841_875",
+    "generation_timestamp": "2026-01-03T17:59:07.517255",
+    "style": "Neoclassicism",
+    "objects": {
+        "object_ids": [
+            56,
+            61,
+            10,
+            78
+        ],
+        "object_names": [
+            "cake",
+            "picnic table",
+            "lamp post",
+            "doll"
+        ],
+        "enhanced_objects": [
+            {
+                "object_id": 56,
+                "name": "cake",
+                "artistic_description": "A pristine white fondant cake with delicate, sculpted cream rosettes that catch the warm sunset glow, creating soft golden highlights on the smooth, matte surface. The frosting appears creamy and velvety, with subtle shadows playing across its gentle curves, while the warm light enhances the purity of its ivory tones.",
+                "size": "Medium",
+                "state": "Fresh and perfectly preserved, with smooth, unblemished surfaces",
+                "primary_colors": [
+                    "ivory",
+                    "cream"
+                ],
+                "material": "fondant and cream"
+            },
+            {
+                "object_id": 61,
+                "name": "picnic table",
+                "artistic_description": "A sturdy wooden table with a polished, honey-toned surface that reflects the warm sunset in soft, luminous glows. The wood grain appears rich and refined, with gentle highlights dancing across its smooth plane, while the warm light deepens the amber tones and creates elegant, classical shadows.",
+                "size": "Large",
+                "state": "Well-maintained with a dignified patina, showing careful craftsmanship",
+                "primary_colors": [
+                    "honey brown",
+                    "amber"
+                ],
+                "material": "wood"
+            },
+            {
+                "object_id": 10,
+                "name": "lamp post",
+                "artistic_description": "A tall, slender lamp post with a burnished bronze finish that catches the fading sunlight in muted golden reflections. The metal surface shows a dignified, aged luster, with warm highlights tracing its classical proportions, while the approaching evening creates soft, contemplative shadows along its elegant form.",
+                "size": "Dominant",
+                "state": "Gracefully aged with a noble, weathered character",
+                "primary_colors": [
+                    "bronze",
+                    "warm gray"
+                ],
+                "material": "metal"
+            },
+            {
+                "object_id": 78,
+                "name": "doll",
+                "artistic_description": "A delicate porcelain doll with a luminous, glazed surface that softly reflects the warm sunset in gentle, rosy highlights. The painted features appear refined and classical, with the warm light enhancing the subtle blush of the cheeks and the creamy white of the porcelain, while fine details catch the fading light with quiet elegance.",
+                "size": "Small",
+                "state": "Immaculately preserved with pristine, glossy surfaces",
+                "primary_colors": [
+                    "porcelain white",
+                    "soft pink"
+                ],
+                "material": "porcelain"
+            }
+        ]
+    },
+    "composition": {
+        "spatial_relations": [
+            [
+                56,
+                "on",
+                61
+            ],
+            [
+                78,
+                "on",
+                61
+            ],
+            [
+                10,
+                "behind",
+                61
+            ]
+        ],
+        "semantic_relations": []
+    },
+    "environment": {
+        "environment_details": {
+            "scene_brief": "A Formal Outdoor Banquet featuring cake, with picnic table, lamp post, and doll",
+            "place365_name": "/g/garden",
+            "place365_id": 21,
+            "time_of_day": "sunset",
+            "weather": null,
+            "period": "Contemporary",
+            "is_indoor": false,
+            "lighting": {
+                "type": "mixed",
+                "quality": "soft",
+                "direction": "side-lit",
+                "mood": "warm",
+                "reasoning": "At sunset, the primary light is natural (sun) and warm, casting a soft glow. As the scene includes a lamp post, artificial light will likely be present or implied, creating a 'mixed' lighting scenario. A side-lit approach emphasizes the three-dimensionality of the objects (cake, doll) and the architectural elements (lamp post), creating a balanced and painterly composition typical of Neoclassicism."
+            },
+            "atmosphere": "warm and peaceful and gentle"
+        },
+        "scene_inference": {
+            "all_candidates": [
+                {
+                    "scene_type": "Neoclassical Garden Party",
+                    "plausibility": 0.95,
+                    "reasoning": "A formal outdoor gathering. The cake is the centerpiece on the picnic table. The lamp post illuminates the evening event. The doll sits on a chair as a guest or decoration.",
+                    "object_interpretations": {
+                        "cake": {
+                            "form": "real cake",
+                            "scale": "normal",
+                            "role": "primary food object"
+                        },
+                        "picnic table": {
+                            "form": "real table",
+                            "scale": "normal",
+                            "role": "furniture/support"
+                        },
+                        "lamp post": {
+                            "form": "real lamp post",
+                            "scale": "normal",
+                            "role": "lighting/ambiance"
+                        },
+                        "doll": {
+                            "form": "toy doll",
+                            "scale": "normal doll size",
+                            "role": "decorative figure/guest"
+                        }
+                    }
+                },
+                {
+                    "scene_type": "Classical Still Life Painting",
+                    "plausibility": 0.9,
+                    "reasoning": "A studio composition. The cake is on the table. The lamp post is a miniature model used for lighting reference. The doll is a porcelain figurine included for aesthetic balance.",
+                    "object_interpretations": {
+                        "cake": {
+                            "form": "real cake",
+                            "scale": "normal",
+                            "role": "subject of painting"
+                        },
+                        "picnic table": {
+                            "form": "real table",
+                            "scale": "normal",
+                            "role": "surface/support"
+                        },
+                        "lamp post": {
+                            "form": "miniature model",
+                            "scale": "small",
+                            "role": "studio prop/light source"
+                        },
+                        "doll": {
+                            "form": "porcelain figurine",
+                            "scale": "small",
+                            "role": "decorative accent"
+                        }
+                    }
+                },
+                {
+                    "scene_type": "Neoclassical Museum Exhibit",
+                    "plausibility": 0.85,
+                    "reasoning": "An art installation. The cake is a preserved replica. The picnic table is the display pedestal. The lamp post is a structural element. The doll is a historical artifact displayed nearby.",
+                    "object_interpretations": {
+                        "cake": {
+                            "form": "replica/art object",
+                            "scale": "normal",
+                            "role": "exhibit centerpiece"
+                        },
+                        "picnic table": {
+                            "form": "pedestal/table",
+                            "scale": "normal",
+                            "role": "display surface"
+                        },
+                        "lamp post": {
+                            "form": "architectural element",
+                            "scale": "normal",
+                            "role": "sculptural support"
+                        },
+                        "doll": {
+                            "form": "antique doll",
+                            "scale": "normal",
+                            "role": "historical artifact"
+                        }
+                    }
+                },
+                {
+                    "scene_type": "Formal Outdoor Banquet",
+                    "plausibility": 0.9,
+                    "reasoning": "A grand event. The cake is on the table. The lamp post lights the area. The doll is a life-sized mannequin or mascot dressed in period costume.",
+                    "object_interpretations": {
+                        "cake": {
+                            "form": "wedding cake",
+                            "scale": "large",
+                            "role": "dessert centerpiece"
+                        },
+                        "picnic table": {
+                            "form": "banquet table",
+                            "scale": "large",
+                            "role": "serving surface"
+                        },
+                        "lamp post": {
+                            "form": "street lamp",
+                            "scale": "normal",
+                            "role": "lighting fixture"
+                        },
+                        "doll": {
+                            "form": "mannequin",
+                            "scale": "life-size",
+                            "role": "costumed figure/decoration"
+                        }
+                    },
+                    "scene_brief": "A Formal Outdoor Banquet featuring cake, with picnic table, lamp post, and doll"
+                },
+                {
+                    "scene_type": "Neoclassical Dollhouse Interior",
+                    "plausibility": 0.8,
+                    "reasoning": "A miniature scene. The cake is a tiny model. The picnic table is furniture. The lamp post is a decorative accessory. The doll is the inhabitant.",
+                    "object_interpretations": {
+                        "cake": {
+                            "form": "model cake",
+                            "scale": "miniature",
+                            "role": "decorative food model"
+                        },
+                        "picnic table": {
+                            "form": "miniature table",
+                            "scale": "miniature",
+                            "role": "furniture"
+                        },
+                        "lamp post": {
+                            "form": "miniature lamp",
+                            "scale": "miniature",
+                            "role": "accessory"
+                        },
+                        "doll": {
+                            "form": "doll",
+                            "scale": "miniature",
+                            "role": "inhabitant"
+                        }
+                    }
+                },
+                {
+                    "scene_type": "Mythological Feast",
+                    "plausibility": 0.75,
+                    "reasoning": "A stylized scene. The cake is ambrosia. The picnic table is a stone altar. The lamp post is a classical torch holder. The doll is a statue come to life.",
+                    "object_interpretations": {
+                        "cake": {
+                            "form": "ambrosia cake",
+                            "scale": "normal",
+                            "role": "divine food"
+                        },
+                        "picnic table": {
+                            "form": "stone altar",
+                            "scale": "large",
+                            "role": "sacrificial surface"
+                        },
+                        "lamp post": {
+                            "form": "torch sconce",
+                            "scale": "large",
+                            "role": "eternal flame"
+                        },
+                        "doll": {
+                            "form": "living statue",
+                            "scale": "normal",
+                            "role": "mythological figure"
+                        }
+                    }
+                }
+            ],
+            "selected_scene": {
+                "scene_type": "Formal Outdoor Banquet",
+                "plausibility": 0.9,
+                "reasoning": "A grand event. The cake is on the table. The lamp post lights the area. The doll is a life-sized mannequin or mascot dressed in period costume.",
+                "object_interpretations": {
+                    "cake": {
+                        "form": "wedding cake",
+                        "scale": "large",
+                        "role": "dessert centerpiece"
+                    },
+                    "picnic table": {
+                        "form": "banquet table",
+                        "scale": "large",
+                        "role": "serving surface"
+                    },
+                    "lamp post": {
+                        "form": "street lamp",
+                        "scale": "normal",
+                        "role": "lighting fixture"
+                    },
+                    "doll": {
+                        "form": "mannequin",
+                        "scale": "life-size",
+                        "role": "costumed figure/decoration"
+                    }
+                },
+                "scene_brief": "A Formal Outdoor Banquet featuring cake, with picnic table, lamp post, and doll"
+            }
+        }
+    },
+    "final_prompts": {
+        "main_prompt": "A Neoclassicism painting depicting a serene sunset scene where a large, honey-brown picnic table with a dignified patina stands in the midground. Centered atop the table sits a medium-sized ivory and cream cake, its fondant and cream layers appearing fresh and perfectly preserved, while beside it rests a small porcelain doll with soft pink accents, immaculately preserved with pristine details. Dominating the background, a gracefully aged bronze lamp post rises nobly behind the table, casting a warm gray silhouette against the twilight sky. The mixed soft lighting of sunset bathes the composition in golden hues, creating a warm, peaceful, and gentle atmosphere that evokes classical harmony and quiet dignity.",
+        "negative_prompt": "photorealistic, 3d render, modern, digital art, photograph, low quality, blurry, distorted, surreal, abstract, cartoon, anime, pop art, graffiti, ugly, deformed, noisy, watermark, signature, text, frame, border",
+        "prompt_formats": {
+            "simple": "A Neoclassical sunset scene with a cake and doll on a picnic table, backed by a bronze lamp post in warm, gentle lighting.",
+            "complex": "A Neoclassicism painting depicting a serene sunset scene where a large, honey-brown picnic table with a dignified patina stands in the midground. Centered atop the table sits a medium-sized ivory and cream cake, its fondant and cream layers appearing fresh and perfectly preserved, while beside it rests a small porcelain doll with soft pink accents, immaculately preserved with pristine details. Dominating the background, a gracefully aged bronze lamp post rises nobly behind the table, casting a warm gray silhouette against the twilight sky. The mixed soft lighting of sunset bathes the composition in golden hues, creating a warm, peaceful, and gentle atmosphere that evokes classical harmony and quiet dignity.",
+            "comma_separated": "Neoclassicism painting, picnic table, cake, doll, lamp post, sunset lighting, warm atmosphere, peaceful scene, honey brown wood, ivory cream cake, porcelain doll, bronze lamp post, classical composition, gentle twilight, soft shadows, dignified patina, pristine details, harmonious arrangement",
+            "tags": "art, painting, neoclassicism, still life, picnic table, cake, doll, lamp post, sunset, golden hour, classical art, serene, warm lighting, porcelain, bronze, wood texture, fondant, cream, patina, twilight, harmonious composition"
+        }
+    }
+}

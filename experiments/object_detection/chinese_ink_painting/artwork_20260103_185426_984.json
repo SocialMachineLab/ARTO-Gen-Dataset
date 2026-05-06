@@ -1,0 +1,421 @@
+{
+    "artwork_id": "artwork_20260103_185426_984",
+    "generation_timestamp": "2026-01-03T18:54:59.854426",
+    "style": "Chinese Ink Painting",
+    "objects": {
+        "object_ids": [
+            57,
+            17,
+            75,
+            26
+        ],
+        "object_names": [
+            "chair",
+            "dog",
+            "calendar",
+            "umbrella"
+        ],
+        "enhanced_objects": [
+            {
+                "object_id": 57,
+                "name": "chair",
+                "artistic_description": "Weathered wooden chair rendered in soft gray ink washes with subtle dry-brush texture, its bamboo frame showing delicate ink lines that capture the grain and age, surfaces slightly matte from ambient moisture, edges softened by gentle afternoon light filtering through clouds",
+                "size": "Medium",
+                "state": "well-used but sturdy, showing natural patina from contemporary outdoor exposure",
+                "primary_colors": [
+                    "soft gray",
+                    "warm brown"
+                ],
+                "material": "wood"
+            },
+            {
+                "object_id": 17,
+                "name": "dog",
+                "artistic_description": "Small companion rendered in expressive ink washes, fur suggested through varied brush pressure creating textured gray tones, eyes rendered as dark pools with subtle highlights, body language captured in fluid calligraphic strokes suggesting alert gentleness, soft silhouette against cloudy sky",
+                "size": "Small",
+                "state": "alert and calm, resting naturally",
+                "primary_colors": [
+                    "charcoal gray",
+                    "deep black"
+                ],
+                "material": ""
+            },
+            {
+                "object_id": 75,
+                "name": "calendar",
+                "artistic_description": "Wall calendar with pages softened by humidity, ink characters rendered in traditional calligraphic style with varying tonal values, paper showing subtle foxing and gentle yellowing, edges slightly curled from moisture, numbers and dates suggested through precise brushwork in dark ink",
+                "size": "Small",
+                "state": "current contemporary calendar showing signs of weather exposure",
+                "primary_colors": [
+                    "aged cream",
+                    "dark ink black"
+                ],
+                "material": "paper"
+            },
+            {
+                "object_id": 26,
+                "name": "umbrella",
+                "artistic_description": "Closed umbrella with fabric rendered in layered gray washes suggesting oil-treated canvas, handle shown in darker ink strokes indicating polished wood or bamboo, subtle sheen on material surface captured through controlled ink dilution, tassel suggested with fine dry-brush technique",
+                "size": "Medium",
+                "state": "ready for use, slightly weathered from recent or impending rain",
+                "primary_colors": [
+                    "medium gray",
+                    "dark charcoal"
+                ],
+                "material": "fabric"
+            }
+        ]
+    },
+    "composition": {
+        "spatial_relations": [
+            [
+                57,
+                "next to",
+                26
+            ],
+            [
+                17,
+                "on",
+                57
+            ],
+            [
+                75,
+                "on",
+                26
+            ]
+        ],
+        "semantic_relations": []
+    },
+    "environment": {
+        "environment_details": {
+            "scene_brief": "A Mountain Tea House featuring chair, with dog, calendar, and umbrella",
+            "place365_name": "/m/mountain",
+            "place365_id": 232,
+            "time_of_day": "afternoon",
+            "weather": "cloudy",
+            "period": "Contemporary",
+            "is_indoor": false,
+            "lighting": {
+                "type": "natural",
+                "quality": "soft",
+                "direction": "side-lit",
+                "mood": "cool",
+                "reasoning": "Soft, side-lit natural lighting from cloudy afternoon conditions creates gentle, even tones perfect for ink painting. The cool mood complements the contemplative nature of a tea house scene and the mountain setting. Side lighting provides subtle dimensionality to the tea house, chair, and dog while maintaining the flat, atmospheric quality essential to Chinese ink painting style."
+            },
+            "atmosphere": "bright and active and subdued and gentle"
+        },
+        "scene_inference": {
+            "all_candidates": [
+                {
+                    "scene_type": "Traditional Courtyard",
+                    "plausibility": 0.95,
+                    "reasoning": "A wooden chair sits in a shaded courtyard. A dog rests nearby. A calendar hangs on the wall, and an umbrella leans against the chair, ready for sun or rain.",
+                    "object_interpretations": {
+                        "chair": {
+                            "form": "real wooden chair",
+                            "scale": "normal",
+                            "role": "primary seating"
+                        },
+                        "dog": {
+                            "form": "real dog",
+                            "scale": "normal",
+                            "role": "companion"
+                        },
+                        "calendar": {
+                            "form": "hanging paper calendar",
+                            "scale": "normal",
+                            "role": "timekeeping decoration"
+                        },
+                        "umbrella": {
+                            "form": "real bamboo umbrella",
+                            "scale": "normal",
+                            "role": "weather protection"
+                        }
+                    }
+                },
+                {
+                    "scene_type": "Mountain Tea House",
+                    "plausibility": 0.9,
+                    "reasoning": "A simple wooden chair on a veranda overlooking misty mountains. A small dog sleeps under the chair. A calendar marks the date, and an umbrella stands ready for mountain showers.",
+                    "object_interpretations": {
+                        "chair": {
+                            "form": "rustic wooden chair",
+                            "scale": "normal",
+                            "role": "resting spot"
+                        },
+                        "dog": {
+                            "form": "sleeping dog",
+                            "scale": "small/normal",
+                            "role": "guardian"
+                        },
+                        "calendar": {
+                            "form": "wall calendar",
+                            "scale": "normal",
+                            "role": "date reminder"
+                        },
+                        "umbrella": {
+                            "form": "oil-paper umbrella",
+                            "scale": "normal",
+                            "role": "mountain weather gear"
+                        }
+                    },
+                    "scene_brief": "A Mountain Tea House featuring chair, with dog, calendar, and umbrella"
+                },
+                {
+                    "scene_type": "Garden Pavilion",
+                    "plausibility": 0.85,
+                    "reasoning": "A chair placed in a garden pavilion surrounded by bamboo. A dog lies on the floor. A calendar hangs on the wooden pillar, and an umbrella rests against the railing.",
+                    "object_interpretations": {
+                        "chair": {
+                            "form": "garden chair",
+                            "scale": "normal",
+                            "role": "garden seating"
+                        },
+                        "dog": {
+                            "form": "resting dog",
+                            "scale": "normal",
+                            "role": "outdoor companion"
+                        },
+                        "calendar": {
+                            "form": "paper calendar",
+                            "scale": "normal",
+                            "role": "garden schedule"
+                        },
+                        "umbrella": {
+                            "form": "folded umbrella",
+                            "scale": "normal",
+                            "role": "decorative accessory"
+                        }
+                    }
+                },
+                {
+                    "scene_type": "Study Room",
+                    "plausibility": 0.8,
+                    "reasoning": "A chair at a writing desk. A small dog sits on a mat. A calendar on the wall tracks study dates, and an umbrella leans by the door.",
+                    "object_interpretations": {
+                        "chair": {
+                            "form": "writing chair",
+                            "scale": "normal",
+                            "role": "study furniture"
+                        },
+                        "dog": {
+                            "form": "sitting dog",
+                            "scale": "small",
+                            "role": "quiet companion"
+                        },
+                        "calendar": {
+                            "form": "wall calendar",
+                            "scale": "normal",
+                            "role": "study planner"
+                        },
+                        "umbrella": {
+                            "form": "compact umbrella",
+                            "scale": "normal",
+                            "role": "commute accessory"
+                        }
+                    }
+                },
+                {
+                    "scene_type": "Rural Porch",
+                    "plausibility": 0.9,
+                    "reasoning": "A wooden chair on a rustic porch. A dog rests on the steps. A calendar hangs by the door, and an umbrella stands in the corner.",
+                    "object_interpretations": {
+                        "chair": {
+                            "form": "worn wooden chair",
+                            "scale": "normal",
+                            "role": "porch seating"
+                        },
+                        "dog": {
+                            "form": "relaxed dog",
+                            "scale": "normal",
+                            "role": "house pet"
+                        },
+                        "calendar": {
+                            "form": "torn calendar",
+                            "scale": "normal",
+                            "role": "household item"
+                        },
+                        "umbrella": {
+                            "form": "old umbrella",
+                            "scale": "normal",
+                            "role": "utility item"
+                        }
+                    }
+                },
+                {
+                    "scene_type": "Ink Wash Landscape",
+                    "plausibility": 0.75,
+                    "reasoning": "A chair sits by a riverbank. A dog stands nearby. A calendar floats as a conceptual element, and an umbrella is held by a figure (implied).",
+                    "object_interpretations": {
+                        "chair": {
+                            "form": "stylized chair",
+                            "scale": "normal",
+                            "role": "focal point"
+                        },
+                        "dog": {
+                            "form": "ink blot dog",
+                            "scale": "variable",
+                            "role": "wildlife element"
+                        },
+                        "calendar": {
+                            "form": "floating paper",
+                            "scale": "small",
+                            "role": "abstract time symbol"
+                        },
+                        "umbrella": {
+                            "form": "stylized umbrella",
+                            "scale": "normal",
+                            "role": "weather symbol"
+                        }
+                    }
+                },
+                {
+                    "scene_type": "Monastery Courtyard",
+                    "plausibility": 0.85,
+                    "reasoning": "A simple chair in a stone courtyard. A temple dog rests. A calendar marks the lunar cycle, and an umbrella stands against a wall.",
+                    "object_interpretations": {
+                        "chair": {
+                            "form": "monk's chair",
+                            "scale": "normal",
+                            "role": "meditation seat"
+                        },
+                        "dog": {
+                            "form": "temple dog",
+                            "scale": "normal",
+                            "role": "guardian"
+                        },
+                        "calendar": {
+                            "form": "lunar calendar",
+                            "scale": "normal",
+                            "role": "religious timing"
+                        },
+                        "umbrella": {
+                            "form": "ceremonial umbrella",
+                            "scale": "normal",
+                            "role": "ritual object"
+                        }
+                    }
+                },
+                {
+                    "scene_type": "Rainy Alleyway",
+                    "plausibility": 0.8,
+                    "reasoning": "A chair under an awning in a narrow alley. A dog shakes off rain. A calendar is posted on a wall, and an umbrella is open.",
+                    "object_interpretations": {
+                        "chair": {
+                            "form": "stool",
+                            "scale": "normal",
+                            "role": "resting place"
+                        },
+                        "dog": {
+                            "form": "wet dog",
+                            "scale": "normal",
+                            "role": "street animal"
+                        },
+                        "calendar": {
+                            "form": "wall poster",
+                            "scale": "normal",
+                            "role": "urban decoration"
+                        },
+                        "umbrella": {
+                            "form": "open umbrella",
+                            "scale": "normal",
+                            "role": "rain shield"
+                        }
+                    }
+                },
+                {
+                    "scene_type": "Spring Garden",
+                    "plausibility": 0.9,
+                    "reasoning": "A chair placed among blooming flowers. A dog plays in the grass. A calendar shows the month of March, and an umbrella is used for shade.",
+                    "object_interpretations": {
+                        "chair": {
+                            "form": "garden chair",
+                            "scale": "normal",
+                            "role": "viewing spot"
+                        },
+                        "dog": {
+                            "form": "playful dog",
+                            "scale": "normal",
+                            "role": "garden companion"
+                        },
+                        "calendar": {
+                            "form": "garden calendar",
+                            "scale": "normal",
+                            "role": "seasonal marker"
+                        },
+                        "umbrella": {
+                            "form": "parasol",
+                            "scale": "normal",
+                            "role": "sun protection"
+                        }
+                    }
+                },
+                {
+                    "scene_type": "Winter Interior",
+                    "plausibility": 0.85,
+                    "reasoning": "A chair near a window with frost. A dog lies on a rug. A calendar on the wall shows December, and an umbrella stands by the door.",
+                    "object_interpretations": {
+                        "chair": {
+                            "form": "armchair",
+                            "scale": "normal",
+                            "role": "warm seating"
+                        },
+                        "dog": {
+                            "form": "sleeping dog",
+                            "scale": "normal",
+                            "role": "house pet"
+                        },
+                        "calendar": {
+                            "form": "desk calendar",
+                            "scale": "normal",
+                            "role": "winter month tracker"
+                        },
+                        "umbrella": {
+                            "form": "folded umbrella",
+                            "scale": "normal",
+                            "role": "stored item"
+                        }
+                    }
+                }
+            ],
+            "selected_scene": {
+                "scene_type": "Mountain Tea House",
+                "plausibility": 0.9,
+                "reasoning": "A simple wooden chair on a veranda overlooking misty mountains. A small dog sleeps under the chair. A calendar marks the date, and an umbrella stands ready for mountain showers.",
+                "object_interpretations": {
+                    "chair": {
+                        "form": "rustic wooden chair",
+                        "scale": "normal",
+                        "role": "resting spot"
+                    },
+                    "dog": {
+                        "form": "sleeping dog",
+                        "scale": "small/normal",
+                        "role": "guardian"
+                    },
+                    "calendar": {
+                        "form": "wall calendar",
+                        "scale": "normal",
+                        "role": "date reminder"
+                    },
+                    "umbrella": {
+                        "form": "oil-paper umbrella",
+                        "scale": "normal",
+                        "role": "mountain weather gear"
+                    }
+                },
+                "scene_brief": "A Mountain Tea House featuring chair, with dog, calendar, and umbrella"
+            }
+        }
+    },
+    "final_prompts": {
+        "main_prompt": "A Chinese Ink Painting painting depicting a quiet afternoon scene where a small charcoal gray and deep black dog sits calmly atop a well-used but sturdy soft gray and warm brown wooden chair. The chair stands beside a medium-sized medium gray and dark charcoal umbrella, its fabric ready for use. Balanced carefully on the umbrella's curved handle rests a small aged cream calendar with dark ink black numerals showing the current date. Natural soft afternoon light filters through the scene, creating a bright yet subdued atmosphere where active brushstrokes capture gentle movement in the air. The composition flows with traditional ink wash techniques, showing subtle gradations of gray and black ink on textured paper, with empty space used thoughtfully to emphasize the relationship between the objects. Wood grain on the chair, fabric folds on the umbrella, and paper texture on the calendar are suggested through masterful ink strokes that convey both detail and artistic spontaneity.",
+        "negative_prompt": "photorealistic, 3d render, modern, digital art, photograph, low quality, blurry, distorted, vibrant colors, saturated, cartoon, anime, western painting style, oil painting, watercolor, acrylic, photobashing, text, signature, frame, border",
+        "prompt_formats": {
+            "simple": "A Chinese ink painting of a dog on a chair beside an umbrella holding a calendar on a soft afternoon.",
+            "complex": "A Chinese Ink Painting painting depicting a quiet afternoon scene where a small charcoal gray and deep black dog sits calmly atop a well-used but sturdy soft gray and warm brown wooden chair. The chair stands beside a medium-sized medium gray and dark charcoal umbrella, its fabric ready for use. Balanced carefully on the umbrella's curved handle rests a small aged cream calendar with dark ink black numerals showing the current date. Natural soft afternoon light filters through the scene, creating a bright yet subdued atmosphere where active brushstrokes capture gentle movement in the air. The composition flows with traditional ink wash techniques, showing subtle gradations of gray and black ink on textured paper, with empty space used thoughtfully to emphasize the relationship between the objects. Wood grain on the chair, fabric folds on the umbrella, and paper texture on the calendar are suggested through masterful ink strokes that convey both detail and artistic spontaneity.",
+            "comma_separated": "Chinese Ink Painting, dog on chair, chair beside umbrella, calendar on umbrella, charcoal gray dog, soft gray chair, medium gray umbrella, aged cream calendar, afternoon lighting, natural soft light, bright active subdued gentle atmosphere, ink wash, brushstrokes, traditional composition",
+            "tags": "art, painting, chinese ink painting, ink wash, sumi-e, traditional art, dog, chair, umbrella, calendar, afternoon, soft lighting, monochrome, brushwork, composition"
+        }
+    }
+}

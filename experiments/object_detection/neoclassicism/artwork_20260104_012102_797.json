@@ -1,0 +1,344 @@
+{
+    "artwork_id": "artwork_20260104_012102_797",
+    "generation_timestamp": "2026-01-04T01:21:48.697066",
+    "style": "Neoclassicism",
+    "objects": {
+        "object_ids": [
+            29,
+            70,
+            77,
+            44
+        ],
+        "object_names": [
+            "luggage",
+            "oven",
+            "scissors",
+            "dagger"
+        ],
+        "enhanced_objects": [
+            {
+                "object_id": 29,
+                "name": "luggage",
+                "artistic_description": "A vintage leather suitcase with rich patina, its surface catching warm afternoon sunlight filtering through museum windows, creating amber highlights on worn corners and brass fittings. The leather shows deep brown tones with subtle golden reflections, while the aged texture appears matte yet lustrous, with visible grain patterns emphasized by the bright, cheerful lighting. Scuffs and weathering add character, with shadows falling softly into crevices, creating depth and historical authenticity.",
+                "size": "Large",
+                "state": "well-preserved vintage condition with natural aging",
+                "primary_colors": [
+                    "warm brown",
+                    "golden amber"
+                ],
+                "material": "leather with brass hardware"
+            },
+            {
+                "object_id": 70,
+                "name": "oven",
+                "artistic_description": "A cast iron range with imposing neoclassical proportions, its blackened surface absorbing and reflecting the mixed lighting with dramatic contrast. The matte finish creates deep, velvety shadows while polished edges and handles catch bright highlights from the sunny interior, revealing subtle blue-gray undertones in the metal. The surface shows decades of use with a dignified patina, the atmospheric brightness emphasizing the sculptural quality of its form.",
+                "size": "Large",
+                "state": "venerable antique condition with dignified wear",
+                "primary_colors": [
+                    "charcoal black",
+                    "steel gray"
+                ],
+                "material": "cast iron"
+            },
+            {
+                "object_id": 77,
+                "name": "scissors",
+                "artistic_description": "Forged steel blades gleam with cold, sharp brilliance under the bright museum lighting, catching precise highlights along their honed edges. The polished metal surfaces reflect the warm afternoon light with cool silver tones, while the riveted joint creates a focal point of shadow and mechanical precision. The bright, active atmosphere makes the instrument appear almost luminous, its metallic sheen contrasting against the display.",
+                "size": "Medium",
+                "state": "pristine, functional condition",
+                "primary_colors": [
+                    "silver",
+                    "cool gray"
+                ],
+                "material": "forged steel"
+            },
+            {
+                "object_id": 44,
+                "name": "dagger",
+                "artistic_description": "A ceremonial blade with ornate neoclassical detailing, its polished steel surface capturing the striking afternoon light with brilliant, icy reflections along the tapering edge. The bright, cheerful atmosphere illuminates intricate engravings on the guard and pommel, creating micro-shadows that reveal the craftsmanship. The blade's surface appears almost liquid with its mirror-like finish, while the handle materials show rich, warm tones that complement the overall luminosity.",
+                "size": "Small",
+                "state": "ceremonial perfection, immaculate preservation",
+                "primary_colors": [
+                    "brilliant silver",
+                    "icy white"
+                ],
+                "material": "polished steel with ornate fittings"
+            }
+        ]
+    },
+    "composition": {
+        "spatial_relations": [
+            [
+                29,
+                "next to",
+                70
+            ],
+            [
+                77,
+                "on",
+                29
+            ],
+            [
+                44,
+                "on",
+                29
+            ],
+            [
+                77,
+                "next to",
+                44
+            ]
+        ],
+        "semantic_relations": []
+    },
+    "environment": {
+        "environment_details": {
+            "scene_brief": "A Museum display hall featuring luggage, with oven, scissors, and dagger",
+            "place365_name": "/m/museum/indoor",
+            "place365_id": 236,
+            "time_of_day": "afternoon",
+            "weather": "sunny",
+            "period": "Contemporary",
+            "is_indoor": true,
+            "lighting": {
+                "type": "mixed",
+                "quality": "dramatic",
+                "direction": "side-lit",
+                "reasoning": "The lighting is 'mixed' because it combines the natural sunlight entering from windows (likely side-lit given the architectural layout of halls) with focused artificial spotlights typical of museum displays. The 'dramatic' quality arises from the contrast between the sunlit areas and the shadows, highlighting the specific objects (oven, scissors, dagger) against the luggage. This setup emphasizes the objects' textures and metallic sheen, fitting the Neoclassical style's focus on clarity and structure."
+            },
+            "atmosphere": "bright and active and cheerful and striking"
+        },
+        "scene_inference": {
+            "all_candidates": [
+                {
+                    "scene_type": "Victorian gentleman's study",
+                    "plausibility": 0.85,
+                    "reasoning": "The luggage is packed for a long journey. The oven is a small, ornate warming oven built into the study's fireplace for heating food or drinks. The scissors are for cutting travel documents or string. The dagger is a decorative, antique weapon mounted on the wall or resting on a desk as a letter opener.",
+                    "object_interpretations": {
+                        "luggage": {
+                            "form": "real trunk",
+                            "scale": "normal",
+                            "role": "primary object, packed for travel"
+                        },
+                        "oven": {
+                            "form": "warming oven",
+                            "scale": "small (built-in)",
+                            "role": "functional heating element"
+                        },
+                        "scissors": {
+                            "form": "real scissors",
+                            "scale": "normal",
+                            "role": "utility tool for documents"
+                        },
+                        "dagger": {
+                            "form": "antique dagger",
+                            "scale": "normal",
+                            "role": "decorative weapon / letter opener"
+                        }
+                    }
+                },
+                {
+                    "scene_type": "Neoclassical kitchen",
+                    "plausibility": 0.9,
+                    "reasoning": "A large luggage trunk sits in the corner, perhaps ready to be packed with preserved goods. The oven is the central cooking appliance. The scissors are a common kitchen tool for herbs and packaging. The dagger is a kitchen knife (cleaver or carving knife) used for preparing meats.",
+                    "object_interpretations": {
+                        "luggage": {
+                            "form": "real trunk",
+                            "scale": "large",
+                            "role": "storage for packed goods"
+                        },
+                        "oven": {
+                            "form": "cooking oven",
+                            "scale": "normal",
+                            "role": "primary cooking appliance"
+                        },
+                        "scissors": {
+                            "form": "kitchen shears",
+                            "scale": "normal",
+                            "role": "culinary tool"
+                        },
+                        "dagger": {
+                            "form": "carving knife",
+                            "scale": "normal",
+                            "role": "kitchen utensil"
+                        }
+                    }
+                },
+                {
+                    "scene_type": "Archaeological dig site tent",
+                    "plausibility": 0.8,
+                    "reasoning": "The luggage belongs to the lead archaeologist. A small portable stove (interpreted as an oven) is used for heating rations. Scissors are for cutting bandages or samples. The dagger is a recovered artifact, carefully wrapped or displayed on a work table.",
+                    "object_interpretations": {
+                        "luggage": {
+                            "form": "real suitcase",
+                            "scale": "normal",
+                            "role": "personal belongings"
+                        },
+                        "oven": {
+                            "form": "portable heating stove",
+                            "scale": "small",
+                            "role": "cooking and warmth"
+                        },
+                        "scissors": {
+                            "form": "real scissors",
+                            "scale": "normal",
+                            "role": "field utility tool"
+                        },
+                        "dagger": {
+                            "form": "ancient artifact",
+                            "scale": "normal",
+                            "role": "excavation find"
+                        }
+                    }
+                },
+                {
+                    "scene_type": "Theater prop room",
+                    "plausibility": 0.95,
+                    "reasoning": "All objects are stage props. The luggage is for a travel scene. The oven is a prop for a kitchen scene. The scissors are for costume changes. The dagger is a prop weapon for a drama.",
+                    "object_interpretations": {
+                        "luggage": {
+                            "form": "prop trunk",
+                            "scale": "normal",
+                            "role": "set dressing"
+                        },
+                        "oven": {
+                            "form": "fake oven facade",
+                            "scale": "variable",
+                            "role": "set dressing"
+                        },
+                        "scissors": {
+                            "form": "prop scissors",
+                            "scale": "normal",
+                            "role": "costume tool"
+                        },
+                        "dagger": {
+                            "form": "stage prop weapon",
+                            "scale": "normal",
+                            "role": "prop"
+                        }
+                    }
+                },
+                {
+                    "scene_type": "Artisan's workshop",
+                    "plausibility": 0.85,
+                    "reasoning": "The luggage is a piece being restored or crafted. The oven is a small kiln for drying materials or heating glue. The scissors are for cutting leather or cloth. The dagger is a piece being forged or decorated.",
+                    "object_interpretations": {
+                        "luggage": {
+                            "form": "unfinished trunk",
+                            "scale": "normal",
+                            "role": "work in progress"
+                        },
+                        "oven": {
+                            "form": "kiln / forge",
+                            "scale": "small",
+                            "role": "industrial tool"
+                        },
+                        "scissors": {
+                            "form": "heavy shears",
+                            "scale": "normal",
+                            "role": "crafting tool"
+                        },
+                        "dagger": {
+                            "form": "blade blank",
+                            "scale": "normal",
+                            "role": "item being crafted"
+                        }
+                    }
+                },
+                {
+                    "scene_type": "Formal dining room",
+                    "plausibility": 0.8,
+                    "reasoning": "The luggage is a centerpiece or part of a 'travel' theme decor. The oven is a warming drawer or side oven for keeping food hot. The scissors are for opening wine bottles (vintage style) or cutting twine on hams. The dagger is an ornate steak knife or carving knife set.",
+                    "object_interpretations": {
+                        "luggage": {
+                            "form": "decorative trunk",
+                            "scale": "normal",
+                            "role": "table centerpiece / decor"
+                        },
+                        "oven": {
+                            "form": "warming drawer",
+                            "scale": "small",
+                            "role": "food service"
+                        },
+                        "scissors": {
+                            "form": "wine shears",
+                            "scale": "normal",
+                            "role": "dining utility"
+                        },
+                        "dagger": {
+                            "form": "steak knife",
+                            "scale": "normal",
+                            "role": "cutlery"
+                        }
+                    }
+                },
+                {
+                    "scene_type": "Museum display hall",
+                    "plausibility": 0.9,
+                    "reasoning": "The luggage is a historical artifact (e.g., a traveler's trunk). The oven is a museum display of a historical cooking appliance. The scissors are a historical tool exhibit. The dagger is a displayed weapon from a historical collection.",
+                    "object_interpretations": {
+                        "luggage": {
+                            "form": "museum artifact",
+                            "scale": "normal",
+                            "role": "exhibit"
+                        },
+                        "oven": {
+                            "form": "museum replica",
+                            "scale": "normal",
+                            "role": "exhibit"
+                        },
+                        "scissors": {
+                            "form": "museum artifact",
+                            "scale": "normal",
+                            "role": "exhibit"
+                        },
+                        "dagger": {
+                            "form": "museum artifact",
+                            "scale": "normal",
+                            "role": "exhibit"
+                        }
+                    },
+                    "scene_brief": "A Museum display hall featuring luggage, with oven, scissors, and dagger"
+                }
+            ],
+            "selected_scene": {
+                "scene_type": "Museum display hall",
+                "plausibility": 0.9,
+                "reasoning": "The luggage is a historical artifact (e.g., a traveler's trunk). The oven is a museum display of a historical cooking appliance. The scissors are a historical tool exhibit. The dagger is a displayed weapon from a historical collection.",
+                "object_interpretations": {
+                    "luggage": {
+                        "form": "museum artifact",
+                        "scale": "normal",
+                        "role": "exhibit"
+                    },
+                    "oven": {
+                        "form": "museum replica",
+                        "scale": "normal",
+                        "role": "exhibit"
+                    },
+                    "scissors": {
+                        "form": "museum artifact",
+                        "scale": "normal",
+                        "role": "exhibit"
+                    },
+                    "dagger": {
+                        "form": "museum artifact",
+                        "scale": "normal",
+                        "role": "exhibit"
+                    }
+                },
+                "scene_brief": "A Museum display hall featuring luggage, with oven, scissors, and dagger"
+            }
+        }
+    },
+    "final_prompts": {
+        "main_prompt": "A Neoclassicism painting depicting a bright and active afternoon scene with striking dramatic lighting. In the foreground, a large, well-preserved vintage luggage in warm brown and golden amber leather with brass hardware sits beside a large, venerable antique oven in charcoal black and steel gray cast iron. Resting atop the luggage's surface, a medium-sized pair of pristine scissors in silver and cool gray lies next to a small dagger of ceremonial perfection in brilliant silver and icy white, its polished steel blade featuring ornate fittings. The cheerful atmosphere is enhanced by the crisp afternoon light casting sharp, classical shadows, creating a harmonious composition of textures from leather, iron, and forged steel.",
+        "negative_prompt": "photorealistic, 3d render, modern, digital art, photograph, low quality, blurry, distorted, surreal, abstract, cartoon, anime, deformed, ugly, disfigured",
+        "prompt_formats": {
+            "simple": "A Neoclassical painting of luggage, an oven, scissors, and a dagger arranged in an afternoon scene with dramatic lighting.",
+            "complex": "A Neoclassicism painting depicting a bright and active afternoon scene with striking dramatic lighting. In the foreground, a large, well-preserved vintage luggage in warm brown and golden amber leather with brass hardware sits beside a large, venerable antique oven in charcoal black and steel gray cast iron. Resting atop the luggage's surface, a medium-sized pair of pristine scissors in silver and cool gray lies next to a small dagger of ceremonial perfection in brilliant silver and icy white, its polished steel blade featuring ornate fittings. The cheerful atmosphere is enhanced by the crisp afternoon light casting sharp, classical shadows, creating a harmonious composition of textures from leather, iron, and forged steel.",
+            "comma_separated": "Neoclassicism painting, large vintage luggage, large antique oven, medium scissors, small ceremonial dagger, warm brown leather, charcoal black cast iron, silver steel, afternoon lighting, dramatic shadows, bright cheerful atmosphere, classical composition, still life",
+            "tags": "art, painting, neoclassicism, still life, luggage, oven, scissors, dagger, vintage, antique, ceremonial, afternoon light, dramatic lighting, classical art, historical painting"
+        }
+    }
+}

@@ -1,0 +1,314 @@
+{
+    "artwork_id": "artwork_20260103_205813_704",
+    "generation_timestamp": "2026-01-03T20:58:51.077488",
+    "style": "Neoclassicism",
+    "objects": {
+        "object_ids": [
+            21,
+            35,
+            49
+        ],
+        "object_names": [
+            "elephant",
+            "stick",
+            "bread"
+        ],
+        "enhanced_objects": [
+            {
+                "object_id": 21,
+                "name": "elephant",
+                "artistic_description": "A majestic elephant with weathered, gray skin that catches the morning sun, creating subtle highlights of warm ivory and cool slate tones across its textured surface. The skin appears dry and matte, showing fine wrinkles and creases that speak of ancient wisdom, with soft golden light illuminating the gentle curves of its massive form. The morning atmosphere lends a crisp clarity to its silhouette, while the warm sunlight creates gentle shadows that emphasize the noble, classical proportions of its body.",
+                "size": "Dominant",
+                "state": "serene and dignified, standing with quiet strength",
+                "primary_colors": [
+                    "warm gray",
+                    "ivory"
+                ],
+                "material": "living flesh"
+            },
+            {
+                "object_id": 35,
+                "name": "stick",
+                "artistic_description": "A weathered wooden stick with a rich, warm brown hue that glows softly in the morning sunlight, its surface dry and matte with visible grain patterns and natural imperfections. The bright morning light reveals subtle variations in tone, from deep amber shadows to golden highlights along its textured surface, while the sunny conditions create crisp, well-defined edges. Small flecks of moss and dried lichen add touches of muted green, suggesting its forest origins.",
+                "size": "Small",
+                "state": "dry and aged, showing natural weathering",
+                "primary_colors": [
+                    "warm amber brown",
+                    "golden brown"
+                ],
+                "material": "wood"
+            },
+            {
+                "object_id": 49,
+                "name": "bread",
+                "artistic_description": "A rustic loaf of bread with a golden-brown crust that gleams warmly in the morning sun, its surface marked by a delicate pattern of scoring and flour dusting. The bright, cheerful lighting creates a luminous quality, with the crust appearing crisp and slightly reflective, while the interior promises soft, creamy tones. Fresh steam rises gently in the cool morning air, creating a soft halo effect around the warm, inviting loaf.",
+                "size": "Marginal",
+                "state": "freshly baked, still warm",
+                "primary_colors": [
+                    "golden brown",
+                    "warm cream"
+                ],
+                "material": "baked dough"
+            }
+        ]
+    },
+    "composition": {
+        "spatial_relations": [
+            [
+                35,
+                "next to",
+                49
+            ],
+            [
+                21,
+                "in front of",
+                35
+            ],
+            [
+                21,
+                "in front of",
+                49
+            ]
+        ],
+        "semantic_relations": [
+            [
+                21,
+                "holding",
+                35
+            ]
+        ]
+    },
+    "environment": {
+        "environment_details": {
+            "scene_brief": "A Mythological Forest featuring elephant, with stick, and bread",
+            "place365_name": "/f/forest/broadleaf",
+            "place365_id": 150,
+            "time_of_day": "morning",
+            "weather": "sunny",
+            "period": "Contemporary",
+            "is_indoor": false,
+            "lighting": {
+                "type": "natural",
+                "quality": "soft",
+                "direction": "side-lit",
+                "mood": "warm",
+                "reasoning": "Soft, side-lit natural light from the morning sun creates gentle shadows that define the elephant's form and the stick's texture without harsh contrast. This warm, sculptural lighting is quintessential to Neoclassical aesthetics, emphasizing volume and harmony."
+            },
+            "atmosphere": "fresh and energetic and cheerful and gentle"
+        },
+        "scene_inference": {
+            "all_candidates": [
+                {
+                    "scene_type": "Royal Menagerie",
+                    "plausibility": 0.95,
+                    "reasoning": "In a royal menagerie, the elephant serves as the exotic centerpiece. A keeper might use a stick to guide or interact with the elephant during feeding. Bread could be a treat offered to the elephant or part of a keeper's simple meal, fitting the Neoclassical theme of order and human-animal relationships.",
+                    "object_interpretations": {
+                        "elephant": {
+                            "form": "real elephant",
+                            "scale": "normal/large",
+                            "role": "primary exotic animal"
+                        },
+                        "stick": {
+                            "form": "real wooden stick",
+                            "scale": "normal",
+                            "role": "tool for keeper interaction"
+                        },
+                        "bread": {
+                            "form": "real loaf of bread",
+                            "scale": "normal",
+                            "role": "food for elephant or keeper"
+                        }
+                    }
+                },
+                {
+                    "scene_type": "Classical Farmstead",
+                    "plausibility": 0.9,
+                    "reasoning": "A pastoral scene where the elephant is a cherished farm animal. The stick could be a branch from a tree, and bread is a staple food for the farmer, perhaps shared with the elephant, evoking a rustic, idealized Neoclassical rural life.",
+                    "object_interpretations": {
+                        "elephant": {
+                            "form": "real elephant",
+                            "scale": "normal/large",
+                            "role": "primary farm animal"
+                        },
+                        "stick": {
+                            "form": "fallen branch",
+                            "scale": "normal",
+                            "role": "natural element on the ground"
+                        },
+                        "bread": {
+                            "form": "freshly baked bread",
+                            "scale": "normal",
+                            "role": "food for sustenance"
+                        }
+                    }
+                },
+                {
+                    "scene_type": "Ancient Battlefield",
+                    "plausibility": 0.85,
+                    "reasoning": "In a Neoclassical depiction of war, elephants were used as war animals. The stick could be a broken spear or staff, and bread might be a ration left by soldiers, adding a human element to the grand scale of battle.",
+                    "object_interpretations": {
+                        "elephant": {
+                            "form": "real war elephant",
+                            "scale": "large",
+                            "role": "primary war animal"
+                        },
+                        "stick": {
+                            "form": "broken spear shaft",
+                            "scale": "normal",
+                            "role": "symbol of conflict"
+                        },
+                        "bread": {
+                            "form": "hardtack or ration bread",
+                            "scale": "normal",
+                            "role": "soldier's food"
+                        }
+                    }
+                },
+                {
+                    "scene_type": "Mythological Forest",
+                    "plausibility": 0.8,
+                    "reasoning": "Neoclassicism often draws from mythology. The elephant could be a sacred animal or companion to a deity. The stick might be a magical wand or staff, and bread an offering on an altar, blending reality with fantasy.",
+                    "object_interpretations": {
+                        "elephant": {
+                            "form": "real elephant",
+                            "scale": "normal/large",
+                            "role": "mythical guardian animal"
+                        },
+                        "stick": {
+                            "form": "ornate wooden staff",
+                            "scale": "normal",
+                            "role": "magical artifact"
+                        },
+                        "bread": {
+                            "form": "ritual bread loaf",
+                            "scale": "normal",
+                            "role": "offering to gods"
+                        }
+                    },
+                    "scene_brief": "A Mythological Forest featuring elephant, with stick, and bread"
+                },
+                {
+                    "scene_type": "Art Studio",
+                    "plausibility": 0.75,
+                    "reasoning": "A Neoclassical artist's studio where the elephant is a live model or reference. The stick could be a painter's brush handle, and bread a still-life subject, creating a meta-scene of artistic creation.",
+                    "object_interpretations": {
+                        "elephant": {
+                            "form": "real elephant (model)",
+                            "scale": "normal/large",
+                            "role": "primary subject/model"
+                        },
+                        "stick": {
+                            "form": "paintbrush handle",
+                            "scale": "normal",
+                            "role": "artist's tool"
+                        },
+                        "bread": {
+                            "form": "still-life bread",
+                            "scale": "normal",
+                            "role": "artistic subject"
+                        }
+                    }
+                },
+                {
+                    "scene_type": "Vintage Circus",
+                    "plausibility": 0.85,
+                    "reasoning": "A Neoclassical-style circus with trained animals. The elephant performs tricks, the stick is a prop for the trainer, and bread is a reward treat, all under a grand tent.",
+                    "object_interpretations": {
+                        "elephant": {
+                            "form": "real circus elephant",
+                            "scale": "normal/large",
+                            "role": "performer"
+                        },
+                        "stick": {
+                            "form": "trainer's prop stick",
+                            "scale": "normal",
+                            "role": "performance tool"
+                        },
+                        "bread": {
+                            "form": "treat bread",
+                            "scale": "normal",
+                            "role": "reward for performance"
+                        }
+                    }
+                },
+                {
+                    "scene_type": "Historical Zoo",
+                    "plausibility": 0.9,
+                    "reasoning": "A 19th-century zoo enclosure where the elephant is the main attraction. A keeper uses a stick for maintenance, and bread is part of the elephant's diet or keeper's lunch, capturing a moment of care and observation.",
+                    "object_interpretations": {
+                        "elephant": {
+                            "form": "real elephant",
+                            "scale": "normal/large",
+                            "role": "primary zoo animal"
+                        },
+                        "stick": {
+                            "form": "maintenance tool",
+                            "scale": "normal",
+                            "role": "keeper's utility item"
+                        },
+                        "bread": {
+                            "form": "zoo diet bread",
+                            "scale": "normal",
+                            "role": "food source"
+                        }
+                    }
+                },
+                {
+                    "scene_type": "Grand Banquet Hall",
+                    "plausibility": 0.7,
+                    "reasoning": "In a fantastical Neoclassical banquet, the elephant could be a decorative statue or live centerpiece. The stick might be a carved ornament, and bread a lavish food item, blending opulence with whimsy.",
+                    "object_interpretations": {
+                        "elephant": {
+                            "form": "real elephant or statue",
+                            "scale": "normal/large",
+                            "role": "centerpiece/decor"
+                        },
+                        "stick": {
+                            "form": "ornate decorative stick",
+                            "scale": "normal",
+                            "role": "table ornament"
+                        },
+                        "bread": {
+                            "form": "artisanal bread",
+                            "scale": "normal",
+                            "role": "banquet food"
+                        }
+                    }
+                }
+            ],
+            "selected_scene": {
+                "scene_type": "Mythological Forest",
+                "plausibility": 0.8,
+                "reasoning": "Neoclassicism often draws from mythology. The elephant could be a sacred animal or companion to a deity. The stick might be a magical wand or staff, and bread an offering on an altar, blending reality with fantasy.",
+                "object_interpretations": {
+                    "elephant": {
+                        "form": "real elephant",
+                        "scale": "normal/large",
+                        "role": "mythical guardian animal"
+                    },
+                    "stick": {
+                        "form": "ornate wooden staff",
+                        "scale": "normal",
+                        "role": "magical artifact"
+                    },
+                    "bread": {
+                        "form": "ritual bread loaf",
+                        "scale": "normal",
+                        "role": "offering to gods"
+                    }
+                },
+                "scene_brief": "A Mythological Forest featuring elephant, with stick, and bread"
+            }
+        }
+    },
+    "final_prompts": {
+        "main_prompt": "A Neoclassicism painting depicting a serene morning scene where a dignified elephant in warm gray and ivory tones stands majestically in the foreground, its massive form positioned directly in front of both a small, aged stick of warm amber brown and a freshly baked loaf of bread. The stick lies beside the bread in the midground, both objects rendered with precise Neoclassical attention to materiality\u2014the stick appearing dry and wooden, the bread golden brown with warm cream tones suggesting its freshly baked state. Natural soft morning light bathes the composition, creating a fresh, energetic, and cheerful atmosphere with gentle shadows that enhance the classical balance and harmony. The overall mood is gentle yet vibrant, capturing the dignified presence of the elephant against the humble earthly objects with the clarity and idealized forms characteristic of Neoclassical art.",
+        "negative_prompt": "photorealistic, 3d render, modern, digital art, photograph, low quality, blurry, distorted, surreal, abstract, cartoon, anime, pop art, impressionism, expressionism, baroque, rococo, ugly, deformed, mutated, text, watermark, signature, frame, border",
+        "prompt_formats": {
+            "simple": "A Neoclassical painting of a dignified elephant standing before a stick and freshly baked bread in soft morning light.",
+            "complex": "A Neoclassicism painting depicting a serene morning scene where a dignified elephant in warm gray and ivory tones stands majestically in the foreground, its massive form positioned directly in front of both a small, aged stick of warm amber brown and a freshly baked loaf of bread. The stick lies beside the bread in the midground, both objects rendered with precise Neoclassical attention to materiality\u2014the stick appearing dry and wooden, the bread golden brown with warm cream tones suggesting its freshly baked state. Natural soft morning light bathes the composition, creating a fresh, energetic, and cheerful atmosphere with gentle shadows that enhance the classical balance and harmony. The overall mood is gentle yet vibrant, capturing the dignified presence of the elephant against the humble earthly objects with the clarity and idealized forms characteristic of Neoclassical art.",
+            "comma_separated": "Neoclassicism painting, elephant, stick, bread, dignified elephant in warm gray and ivory, aged stick in amber brown, freshly baked bread in golden brown, elephant in front of stick and bread, stick beside bread, soft morning light, fresh energetic cheerful gentle atmosphere, classical composition, balanced harmony, natural lighting",
+            "tags": "art, painting, neoclassicism, elephant, still life, morning light, classical art, animal painting, serene, dignified, bread, stick, natural lighting, harmonious composition"
+        }
+    }
+}

@@ -1,0 +1,162 @@
+{
+    "artwork_id": "artwork_20260103_162914_438",
+    "generation_timestamp": "2026-01-03T16:29:37.623128",
+    "style": "Baroque",
+    "objects": {
+        "object_ids": [
+            74
+        ],
+        "object_names": [
+            "atlas"
+        ],
+        "enhanced_objects": [
+            {
+                "object_id": 74,
+                "name": "atlas",
+                "artistic_description": "A monumental leather-bound atlas lies open, its vellum pages glowing with a soft, diffused luminosity under the cloudy afternoon sky. The natural light filters through tall windows, casting a cool, silvery sheen across the aged parchment, while the deep indigo and gold-leafed cartographic details shimmer with subdued brilliance. The leather covers, rich with age, absorb the ambient light, revealing a deep, warm brown with subtle verdigris on the brass clasps. The edges of the pages are slightly frayed, bearing the marks of frequent consultation, and the inked lines of continents and seas appear crisp yet softened by the gentle, atmospheric light.",
+                "size": "Large",
+                "state": "well-preserved but showing signs of age and use",
+                "primary_colors": [
+                    "deep indigo",
+                    "aged parchment"
+                ],
+                "material": "leather, vellum, gold leaf, brass"
+            }
+        ]
+    },
+    "composition": {
+        "spatial_relations": [],
+        "semantic_relations": []
+    },
+    "environment": {
+        "environment_details": {
+            "scene_brief": "A Royal cartography chamber featuring atlas",
+            "place365_name": "/l/library",
+            "place365_id": 21,
+            "time_of_day": "afternoon",
+            "weather": "cloudy",
+            "period": "Early modern",
+            "is_indoor": true,
+            "lighting": {
+                "type": "natural",
+                "quality": "dramatic",
+                "direction": "side-lit",
+                "mood": "cool",
+                "reasoning": "The combination of an afternoon with cloudy weather creates a cool, diffused natural light. In a library setting, this light likely enters from side windows, illuminating the atlas while leaving the surrounding room in shadow. This side-lighting enhances the three-dimensionality of the objects and creates the dramatic, high-contrast look typical of Baroque painting."
+            },
+            "atmosphere": "bright and active and subdued and striking"
+        },
+        "scene_inference": {
+            "all_candidates": [
+                {
+                    "scene_type": "Baroque study/library",
+                    "plausibility": 0.95,
+                    "reasoning": "A grand, private study in a wealthy estate. The atlas is the central object on a large oak table, open to a map of the New World. The room features dark wood, leather-bound books, and dim, dramatic lighting typical of Baroque interiors.",
+                    "object_interpretations": {
+                        "atlas": {
+                            "form": "real antique book",
+                            "scale": "large folio",
+                            "role": "primary functional and decorative object"
+                        }
+                    }
+                },
+                {
+                    "scene_type": "Royal cartography chamber",
+                    "plausibility": 0.9,
+                    "reasoning": "A formal room within a palace dedicated to mapmaking and exploration. The atlas rests on a velvet-draped lectern, surrounded by globes, compasses, and scrolls. The atmosphere is opulent and scholarly.",
+                    "object_interpretations": {
+                        "atlas": {
+                            "form": "official royal atlas",
+                            "scale": "large",
+                            "role": "symbol of power and knowledge"
+                        }
+                    },
+                    "scene_brief": "A Royal cartography chamber featuring atlas"
+                },
+                {
+                    "scene_type": "Baroque art gallery",
+                    "plausibility": 0.85,
+                    "reasoning": "A gallery displaying rare and valuable artifacts. The atlas is encased in glass or displayed on a pedestal as a piece of art itself, valued for its intricate engravings and historical significance.",
+                    "object_interpretations": {
+                        "atlas": {
+                            "form": "museum artifact",
+                            "scale": "normal",
+                            "role": "exhibited artwork"
+                        }
+                    }
+                },
+                {
+                    "scene_type": "Captain's quarters on a galleon",
+                    "plausibility": 0.8,
+                    "reasoning": "The private cabin of a ship's captain during the Age of Discovery. The atlas is secured to a chart table, essential for navigation. The room is richly appointed with brass fittings and dark wood, reflecting the captain's status.",
+                    "object_interpretations": {
+                        "atlas": {
+                            "form": "navigational tool",
+                            "scale": "normal",
+                            "role": "primary functional object"
+                        }
+                    }
+                },
+                {
+                    "scene_type": "Apothecary's workshop",
+                    "plausibility": 0.75,
+                    "reasoning": "A cluttered, mysterious workshop of a 17th-century apothecary or alchemist. The atlas is open, showing routes for exotic trade goods like spices and medicinal herbs, which are stored in jars around the room.",
+                    "object_interpretations": {
+                        "atlas": {
+                            "form": "reference book",
+                            "scale": "normal",
+                            "role": "guide to exotic ingredients"
+                        }
+                    }
+                },
+                {
+                    "scene_type": "Grand ballroom (decorative)",
+                    "plausibility": 0.7,
+                    "reasoning": "A lavish ballroom during a themed event. The atlas is part of the decor, perhaps displayed on a large easel or as an intricate pattern on a tapestry, symbolizing the host's worldly connections.",
+                    "object_interpretations": {
+                        "atlas": {
+                            "form": "decorative element",
+                            "scale": "large",
+                            "role": "symbolic decoration"
+                        }
+                    }
+                },
+                {
+                    "scene_type": "Monastery scriptorium",
+                    "plausibility": 0.65,
+                    "reasoning": "A quiet, candlelit room where monks copy manuscripts. The atlas is a rare, treasured volume being carefully studied or copied. The style is less opulent but still formal and reverent.",
+                    "object_interpretations": {
+                        "atlas": {
+                            "form": "illuminated manuscript",
+                            "scale": "normal",
+                            "role": "sacred text of geography"
+                        }
+                    }
+                }
+            ],
+            "selected_scene": {
+                "scene_type": "Royal cartography chamber",
+                "plausibility": 0.9,
+                "reasoning": "A formal room within a palace dedicated to mapmaking and exploration. The atlas rests on a velvet-draped lectern, surrounded by globes, compasses, and scrolls. The atmosphere is opulent and scholarly.",
+                "object_interpretations": {
+                    "atlas": {
+                        "form": "official royal atlas",
+                        "scale": "large",
+                        "role": "symbol of power and knowledge"
+                    }
+                },
+                "scene_brief": "A Royal cartography chamber featuring atlas"
+            }
+        }
+    },
+    "final_prompts": {
+        "main_prompt": "A Baroque painting depicting a large, deep indigo atlas with aged parchment pages, well-preserved yet showing subtle signs of age, dominating the foreground as it rests open upon a heavy wooden table draped in rich velvet. The afternoon light streams dramatically through a tall, arched window to the left, casting long, theatrical shadows across the scene and illuminating the atlas's intricate details\u2014the gilded edges of its pages catching the light like gold leaf, and the deep indigo of its leather cover appearing both subdued and strikingly vivid. The atmosphere is bright and active with the play of light and shadow, yet simultaneously subdued in its classical stillness, creating a striking contrast between the vibrant, natural illumination and the quiet, scholarly presence of the ancient volume. In the midground, a brass celestial globe sits beside the atlas, and in the background, the soft glow of the afternoon sun filters through a dusty, grand library interior, with shelves of leather-bound books receding into shadow.",
+        "negative_prompt": "photorealistic, 3d render, modern, digital art, photograph, low quality, blurry, distorted, cartoon, anime, abstract, surreal, futuristic, sci-fi, ugly, deformed, bad anatomy, text, watermark, signature",
+        "prompt_formats": {
+            "simple": "A Baroque-style painting of an open, deep indigo atlas on a table in dramatic afternoon light within a grand library.",
+            "complex": "A Baroque painting depicting a large, deep indigo atlas with aged parchment pages, well-preserved yet showing subtle signs of age, dominating the foreground as it rests open upon a heavy wooden table draped in rich velvet. The afternoon light streams dramatically through a tall, arched window to the left, casting long, theatrical shadows across the scene and illuminating the atlas's intricate details\u2014the gilded edges of its pages catching the light like gold leaf, and the deep indigo of its leather cover appearing both subdued and strikingly vivid. The atmosphere is bright and active with the play of light and shadow, yet simultaneously subdued in its classical stillness, creating a striking contrast between the vibrant, natural illumination and the quiet, scholarly presence of the ancient volume. In the midground, a brass celestial globe sits beside the atlas, and in the background, the soft glow of the afternoon sun filters through a dusty, grand library interior, with shelves of leather-bound books receding into shadow.",
+            "comma_separated": "Baroque painting, large deep indigo atlas, aged parchment pages, well-preserved, signs of age, open on wooden table, velvet drape, dramatic afternoon lighting, natural light through window, theatrical shadows, gilded page edges, gold leaf, leather cover, bright and active atmosphere, subdued stillness, striking contrast, brass celestial globe, grand library background, shelves of books, dusty sunlight, classical interior",
+            "tags": "art, painting, Baroque, atlas, library, still life, dramatic lighting, chiaroscuro, afternoon light, leather, vellum, gold leaf, brass, classical, scholarly, antique, historical"
+        }
+    }
+}

@@ -1,0 +1,421 @@
+{
+    "artwork_id": "artwork_20260103_173856_461",
+    "generation_timestamp": "2026-01-03T17:39:29.165807",
+    "style": "Impressionism",
+    "objects": {
+        "object_ids": [
+            21,
+            79,
+            47,
+            27
+        ],
+        "object_names": [
+            "elephant",
+            "comb",
+            "banana",
+            "picnic basket"
+        ],
+        "enhanced_objects": [
+            {
+                "object_id": 21,
+                "name": "elephant",
+                "artistic_description": "Massive form rendered in dappled afternoon sunlight filtering through foliage, skin appears as a tapestry of warm gray tones with subtle violet and blue shadows dancing across the wrinkled texture. Sunlight catches the dusty surface creating soft highlights, while the deep crevices hold cool, shadowed blues. The trunk catches golden rim light, appearing almost luminous against the darker body.",
+                "size": "Dominant",
+                "state": "standing calmly, skin textured with age and dust, dry surface",
+                "primary_colors": [
+                    "warm gray",
+                    "dusty taupe"
+                ],
+                "material": "skin"
+            },
+            {
+                "object_id": 79,
+                "name": "comb",
+                "artistic_description": "Small plastic object catching brilliant afternoon sun, teeth gleaming with sharp white highlights. The translucent pink plastic glows with warm internal light where sunlight passes through, casting delicate striped shadows. Surface appears smooth and slightly reflective, with scattered flecks of ambient blue sky reflected in its curve.",
+                "size": "Small",
+                "state": "clean and new, resting on dry ground",
+                "primary_colors": [
+                    "translucent pink",
+                    "bright white"
+                ],
+                "material": "plastic"
+            },
+            {
+                "object_id": 47,
+                "name": "banana",
+                "artistic_description": "Curved yellow form saturated with warm afternoon gold, the peel showing soft green undertones where unripe and brown speckles where ripened. Sunlight creates a luminous quality on the peel's matte surface, absorbing and reflecting warmth. A soft shadow beneath anchors it with cool violet tones. The stem appears as a darker brown accent.",
+                "size": "Medium",
+                "state": "fresh but ripening, dry peel",
+                "primary_colors": [
+                    "golden yellow",
+                    "soft green"
+                ],
+                "material": "fruit peel"
+            },
+            {
+                "object_id": 27,
+                "name": "picnic basket",
+                "artistic_description": "Woven wicker basket glowing with warm honey and amber tones in the direct sunlight, each strand creating a complex pattern of light and shadow. The natural fibers appear dry and matte, absorbing the golden light while casting intricate latticed shadows on the ground. Leather handles show rich brown tones with subtle highlights, appearing supple and worn.",
+                "size": "Medium",
+                "state": "well-used, dry wicker, leather slightly weathered",
+                "primary_colors": [
+                    "honey brown",
+                    "golden amber"
+                ],
+                "material": "woven wicker with leather handles"
+            }
+        ]
+    },
+    "composition": {
+        "spatial_relations": [
+            [
+                79,
+                "on",
+                27
+            ],
+            [
+                47,
+                "on",
+                27
+            ],
+            [
+                27,
+                "in front of",
+                21
+            ]
+        ],
+        "semantic_relations": []
+    },
+    "environment": {
+        "environment_details": {
+            "scene_brief": "A Zoo enclosure centered around elephant, with comb, banana, and picnic basket",
+            "place365_name": "/p/park",
+            "place365_id": 254,
+            "time_of_day": "afternoon",
+            "weather": "sunny",
+            "period": "Contemporary",
+            "is_indoor": false,
+            "lighting": {
+                "type": "natural",
+                "quality": "soft",
+                "direction": "side-lit",
+                "mood": "warm",
+                "reasoning": "In the afternoon, the sun acts as a side-light, modeling the form of the elephant with soft, warm light. This direction creates depth and highlights textures (skin, foliage) without the harshness of midday sun, perfectly suiting the Impressionist goal of capturing visual sensation rather than rigid detail."
+            },
+            "atmosphere": "bright and active and cheerful and gentle"
+        },
+        "scene_inference": {
+            "all_candidates": [
+                {
+                    "scene_type": "African savanna watering hole",
+                    "plausibility": 0.95,
+                    "reasoning": "The elephant is in its natural habitat. The banana could be a piece of fruit dropped by a human visitor or a natural food source. The picnic basket is a man-made object, suggesting a nearby human campsite or a dropped item from tourists. The comb could be a small item that fell out of the picnic basket or a natural object like a large seed pod or piece of bark that resembles a comb.",
+                    "object_interpretations": {
+                        "elephant": {
+                            "form": "real elephant",
+                            "scale": "normal/large",
+                            "role": "primary subject"
+                        },
+                        "banana": {
+                            "form": "real fruit",
+                            "scale": "normal",
+                            "role": "food source or discarded item"
+                        },
+                        "picnic basket": {
+                            "form": "real object",
+                            "scale": "normal",
+                            "role": "man-made artifact, evidence of human presence"
+                        },
+                        "comb": {
+                            "form": "real comb or natural object",
+                            "scale": "normal",
+                            "role": "dropped item or natural object resembling a comb"
+                        }
+                    }
+                },
+                {
+                    "scene_type": "Zoo enclosure",
+                    "plausibility": 0.9,
+                    "reasoning": "The elephant is in a controlled zoo environment. The banana is a common treat for elephants in zoos. The picnic basket and comb could belong to a visitor who dropped them near the enclosure fence.",
+                    "object_interpretations": {
+                        "elephant": {
+                            "form": "real elephant",
+                            "scale": "normal/large",
+                            "role": "primary subject"
+                        },
+                        "banana": {
+                            "form": "real fruit",
+                            "scale": "normal",
+                            "role": "food/treat for the elephant"
+                        },
+                        "picnic basket": {
+                            "form": "real object",
+                            "scale": "normal",
+                            "role": "visitor's dropped property"
+                        },
+                        "comb": {
+                            "form": "real object",
+                            "scale": "normal",
+                            "role": "visitor's dropped property"
+                        }
+                    },
+                    "scene_brief": "A Zoo enclosure centered around elephant, with comb, banana, and picnic basket"
+                },
+                {
+                    "scene_type": "Circus backstage",
+                    "plausibility": 0.85,
+                    "reasoning": "The elephant is a circus performer. The banana is part of its diet or reward. The picnic basket could be a prop used in a performance or belong to a circus worker. The comb could be a grooming tool for the elephant or a worker's personal item.",
+                    "object_interpretations": {
+                        "elephant": {
+                            "form": "real elephant",
+                            "scale": "normal/large",
+                            "role": "performer/animal"
+                        },
+                        "banana": {
+                            "form": "real fruit",
+                            "scale": "normal",
+                            "role": "food/reward"
+                        },
+                        "picnic basket": {
+                            "form": "real object",
+                            "scale": "normal",
+                            "role": "prop or worker's item"
+                        },
+                        "comb": {
+                            "form": "real object",
+                            "scale": "normal",
+                            "role": "grooming tool or personal item"
+                        }
+                    }
+                },
+                {
+                    "scene_type": "Child's bedroom",
+                    "plausibility": 0.8,
+                    "reasoning": "The elephant is a large stuffed animal or toy. The banana could be a toy fruit or a real fruit on a nightstand. The picnic basket is a toy or a container for toys. The comb is a child's hairbrush or toy comb.",
+                    "object_interpretations": {
+                        "elephant": {
+                            "form": "toy/stuffed animal",
+                            "scale": "large (toy)",
+                            "role": "toy/bedroom decor"
+                        },
+                        "banana": {
+                            "form": "toy fruit or real fruit",
+                            "scale": "normal",
+                            "role": "toy or snack"
+                        },
+                        "picnic basket": {
+                            "form": "toy",
+                            "scale": "normal",
+                            "role": "toy container"
+                        },
+                        "comb": {
+                            "form": "real comb",
+                            "scale": "normal",
+                            "role": "personal care item"
+                        }
+                    }
+                },
+                {
+                    "scene_type": "Art studio",
+                    "plausibility": 0.75,
+                    "reasoning": "The elephant is the subject of a painting or a large model. The banana is a still life object or a real fruit for the model. The picnic basket is a prop for the composition. The comb is a detail in the still life or a tool for texturing paint.",
+                    "object_interpretations": {
+                        "elephant": {
+                            "form": "painting subject or model",
+                            "scale": "variable (painting) or large (model)",
+                            "role": "artistic subject"
+                        },
+                        "banana": {
+                            "form": "still life object or real fruit",
+                            "scale": "normal",
+                            "role": "artistic prop"
+                        },
+                        "picnic basket": {
+                            "form": "prop",
+                            "scale": "normal",
+                            "role": "artistic prop"
+                        },
+                        "comb": {
+                            "form": "prop or tool",
+                            "scale": "normal",
+                            "role": "artistic detail or tool"
+                        }
+                    }
+                },
+                {
+                    "scene_type": "Vintage photograph",
+                    "plausibility": 0.7,
+                    "reasoning": "The elephant is in a historical photo, perhaps from a safari or a circus. The banana, picnic basket, and comb are items that would be present in such a setting, either as part of a camp setup or a performer's belongings.",
+                    "object_interpretations": {
+                        "elephant": {
+                            "form": "real elephant (photographed)",
+                            "scale": "normal/large",
+                            "role": "subject of the photo"
+                        },
+                        "banana": {
+                            "form": "real fruit (photographed)",
+                            "scale": "normal",
+                            "role": "part of the scene"
+                        },
+                        "picnic basket": {
+                            "form": "real object (photographed)",
+                            "scale": "normal",
+                            "role": "part of the scene"
+                        },
+                        "comb": {
+                            "form": "real object (photographed)",
+                            "scale": "normal",
+                            "role": "part of the scene"
+                        }
+                    }
+                },
+                {
+                    "scene_type": "Surreal dream landscape",
+                    "plausibility": 0.6,
+                    "reasoning": "In a surreal or dreamlike setting, the elephant could be flying or walking on clouds. The banana could be a giant fruit tree. The picnic basket could be floating. The comb could be a large object used to comb clouds. This fits the Impressionism style which can be dreamy.",
+                    "object_interpretations": {
+                        "elephant": {
+                            "form": "real elephant",
+                            "scale": "variable",
+                            "role": "dream subject"
+                        },
+                        "banana": {
+                            "form": "giant fruit or tree",
+                            "scale": "large",
+                            "role": "surreal element"
+                        },
+                        "picnic basket": {
+                            "form": "real object",
+                            "scale": "normal",
+                            "role": "floating prop"
+                        },
+                        "comb": {
+                            "form": "real object",
+                            "scale": "large",
+                            "role": "surreal tool"
+                        }
+                    }
+                },
+                {
+                    "scene_type": "Jungle clearing",
+                    "plausibility": 0.9,
+                    "reasoning": "The elephant is in a jungle environment. The banana is a natural food source growing on a tree. The picnic basket could be a dropped item from a jungle expedition. The comb could be a tool dropped by the expedition or a natural object.",
+                    "object_interpretations": {
+                        "elephant": {
+                            "form": "real elephant",
+                            "scale": "normal/large",
+                            "role": "primary subject"
+                        },
+                        "banana": {
+                            "form": "real fruit",
+                            "scale": "normal",
+                            "role": "natural food source"
+                        },
+                        "picnic basket": {
+                            "form": "real object",
+                            "scale": "normal",
+                            "role": "dropped expedition item"
+                        },
+                        "comb": {
+                            "form": "real object",
+                            "scale": "normal",
+                            "role": "dropped item or natural object"
+                        }
+                    }
+                },
+                {
+                    "scene_type": "Elephant sanctuary",
+                    "plausibility": 0.9,
+                    "reasoning": "The elephant is in a protected sanctuary. The banana is a healthy treat provided by caretakers. The picnic basket could belong to a visitor or be part of a fundraising event. The comb could be a grooming tool used by caretakers.",
+                    "object_interpretations": {
+                        "elephant": {
+                            "form": "real elephant",
+                            "scale": "normal/large",
+                            "role": "resident animal"
+                        },
+                        "banana": {
+                            "form": "real fruit",
+                            "scale": "normal",
+                            "role": "treat/food"
+                        },
+                        "picnic basket": {
+                            "form": "real object",
+                            "scale": "normal",
+                            "role": "visitor's item or event prop"
+                        },
+                        "comb": {
+                            "form": "real object",
+                            "scale": "normal",
+                            "role": "caretaker's tool"
+                        }
+                    }
+                },
+                {
+                    "scene_type": "Outdoor cafe",
+                    "plausibility": 0.6,
+                    "reasoning": "A highly creative scene where a pet elephant is at an outdoor cafe. The banana is part of a fruit salad on a table. The picnic basket is a customer's bag. The comb is a customer's item. This is less realistic but possible in a creative interpretation.",
+                    "object_interpretations": {
+                        "elephant": {
+                            "form": "real elephant",
+                            "scale": "normal/large",
+                            "role": "pet or unusual guest"
+                        },
+                        "banana": {
+                            "form": "real fruit",
+                            "scale": "normal",
+                            "role": "food item"
+                        },
+                        "picnic basket": {
+                            "form": "real object",
+                            "scale": "normal",
+                            "role": "customer's property"
+                        },
+                        "comb": {
+                            "form": "real object",
+                            "scale": "normal",
+                            "role": "customer's property"
+                        }
+                    }
+                }
+            ],
+            "selected_scene": {
+                "scene_type": "Zoo enclosure",
+                "plausibility": 0.9,
+                "reasoning": "The elephant is in a controlled zoo environment. The banana is a common treat for elephants in zoos. The picnic basket and comb could belong to a visitor who dropped them near the enclosure fence.",
+                "object_interpretations": {
+                    "elephant": {
+                        "form": "real elephant",
+                        "scale": "normal/large",
+                        "role": "primary subject"
+                    },
+                    "banana": {
+                        "form": "real fruit",
+                        "scale": "normal",
+                        "role": "food/treat for the elephant"
+                    },
+                    "picnic basket": {
+                        "form": "real object",
+                        "scale": "normal",
+                        "role": "visitor's dropped property"
+                    },
+                    "comb": {
+                        "form": "real object",
+                        "scale": "normal",
+                        "role": "visitor's dropped property"
+                    }
+                },
+                "scene_brief": "A Zoo enclosure centered around elephant, with comb, banana, and picnic basket"
+            }
+        }
+    },
+    "final_prompts": {
+        "main_prompt": "A Impressionism painting depicting a warm gray, dusty taupe elephant standing calmly in the gentle afternoon light, with a honey brown, golden amber picnic basket positioned directly in front of its massive feet. Resting atop the well-used woven wicker basket with leather handles, a small translucent pink and bright white plastic comb lies clean and new beside a medium-sized golden yellow and soft green banana, its fruit peel showing it is fresh but ripening. The scene unfolds in a bright, active, and cheerful meadow under natural soft lighting, with dappled sunlight filtering through foliage to create vibrant patches of color and movement across the elephant's textured skin, the woven basket, and the surrounding grass, capturing a moment of gentle tranquility with visible brushstrokes and a lively, atmospheric quality.",
+        "negative_prompt": "photorealistic, 3d render, modern, digital art, photograph, low quality, blurry, distorted, surreal, cartoon, anime, hyperrealistic, ugly, deformed, text, watermark, signature, frame, border",
+        "prompt_formats": {
+            "simple": "An Impressionist painting of a calm elephant with a picnic basket in front of it, featuring a comb and banana on the basket in a cheerful afternoon meadow.",
+            "complex": "A Impressionism painting depicting a warm gray, dusty taupe elephant standing calmly in the gentle afternoon light, with a honey brown, golden amber picnic basket positioned directly in front of its massive feet. Resting atop the well-used woven wicker basket with leather handles, a small translucent pink and bright white plastic comb lies clean and new beside a medium-sized golden yellow and soft green banana, its fruit peel showing it is fresh but ripening. The scene unfolds in a bright, active, and cheerful meadow under natural soft lighting, with dappled sunlight filtering through foliage to create vibrant patches of color and movement across the elephant's textured skin, the woven basket, and the surrounding grass, capturing a moment of gentle tranquility with visible brushstrokes and a lively, atmospheric quality.",
+            "comma_separated": "Impressionism painting, elephant standing calmly, picnic basket in front, comb and banana on basket, warm gray elephant, honey brown basket, translucent pink comb, golden yellow banana, afternoon lighting, soft natural light, bright cheerful atmosphere, active meadow scene, gentle tranquility, visible brushstrokes, vibrant colors, dappled sunlight",
+            "tags": "art, painting, impressionism, elephant, picnic basket, comb, banana, afternoon, meadow, soft lighting, cheerful, gentle, brushstrokes, atmospheric, wildlife, still life, nature"
+        }
+    }
+}

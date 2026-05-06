@@ -1,0 +1,421 @@
+{
+    "artwork_id": "artwork_20260104_030218_757",
+    "generation_timestamp": "2026-01-04T03:03:05.515484",
+    "style": "Chinese Ink Painting",
+    "objects": {
+        "object_ids": [
+            3,
+            58,
+            57,
+            15
+        ],
+        "object_names": [
+            "wagon",
+            "blanket",
+            "chair",
+            "parrot"
+        ],
+        "enhanced_objects": [
+            {
+                "object_id": 3,
+                "name": "wagon",
+                "artistic_description": "A miniature wagon rendered in traditional Chinese ink painting style with varying washes of diluted black ink creating soft, ethereal edges that dissolve into the morning fog. The wooden structure appears weathered and dry, with fine brushstroke details suggesting grain and age. Subtle gray tones indicate diffused morning light filtering through mist, while dry brush techniques create texture on the wheels and frame. The object maintains crisp calligraphic lines for structural definition despite the atmospheric haze.",
+                "size": "Medium",
+                "state": "weathered and dry, covered in a fine layer of morning dew",
+                "primary_colors": [
+                    "charcoal gray",
+                    "soft black"
+                ],
+                "material": "wood"
+            },
+            {
+                "object_id": 58,
+                "name": "blanket",
+                "artistic_description": "A folded blanket depicted with gentle ink washes in varying concentrations, creating a soft, contemplative presence. The fabric appears slightly damp from morning moisture, causing subtle variations in ink absorption that create organic, flowing edges. Delicate brushwork suggests woven texture while maintaining the essential simplicity of ink painting. The surface shows subtle gradations from dark to light gray, capturing the diffused morning light through fog.",
+                "size": "Medium",
+                "state": "softly folded with gentle creases, slightly damp from morning mist",
+                "primary_colors": [
+                    "warm gray",
+                    "pale charcoal"
+                ],
+                "material": "fabric"
+            },
+            {
+                "object_id": 57,
+                "name": "chair",
+                "artistic_description": "A simple chair rendered with confident calligraphic strokes, its form defined by bold black lines that vary in thickness to suggest weight and structure. The wooden surface appears matte and dry, with subtle ink washes creating shadows and depth. Morning fog softens the edges slightly, while the seat shows delicate dry-brush texture suggesting woven material. The overall treatment balances solid form with atmospheric transparency.",
+                "size": "Medium",
+                "state": "sturdy and dry, showing subtle wear from use",
+                "primary_colors": [
+                    "deep black",
+                    "warm brown-gray"
+                ],
+                "material": "wood"
+            },
+            {
+                "object_id": 15,
+                "name": "parrot",
+                "artistic_description": "A parrot captured with dynamic, expressive brushstrokes that suggest movement and vitality. The feathers are rendered through layered ink washes, with wet-on-wet techniques creating soft transitions between dark and light areas. Subtle hints of green-gray emerge from the black ink, suggesting iridescence in the diffused morning light. The bird's form is partially softened by atmospheric fog, creating an ethereal quality while maintaining sharp, energetic strokes for key features like the beak and eye.",
+                "size": "Small",
+                "state": "alert and vibrant, with feathers slightly fluffed against the cool morning air",
+                "primary_colors": [
+                    "emerald gray",
+                    "deep black"
+                ],
+                "material": "feathers"
+            }
+        ]
+    },
+    "composition": {
+        "spatial_relations": [
+            [
+                58,
+                "on",
+                57
+            ],
+            [
+                3,
+                "next to",
+                57
+            ],
+            [
+                15,
+                "on",
+                3
+            ]
+        ],
+        "semantic_relations": []
+    },
+    "environment": {
+        "environment_details": {
+            "scene_brief": "A Scholar's Garden featuring wagon model, with blanket, chair, and parrot",
+            "place365_name": "/z/zen_garden",
+            "place365_id": 364,
+            "time_of_day": "morning",
+            "weather": "foggy",
+            "period": "Contemporary",
+            "is_indoor": false,
+            "lighting": {
+                "type": "natural",
+                "quality": "soft",
+                "direction": "side-lit",
+                "mood": "cool",
+                "reasoning": "Soft, cool side-lighting mimics the diffuse morning light filtering through fog. It gently illuminates the textures of the blanket, chair, and wagon model without harsh contrast, preserving the delicate ink aesthetic."
+            },
+            "atmosphere": "fresh and energetic and mysterious and gentle"
+        },
+        "scene_inference": {
+            "all_candidates": [
+                {
+                    "scene_type": "Traditional Chinese Courtyard",
+                    "plausibility": 0.95,
+                    "reasoning": "A classic domestic scene. The wagon is a functional wooden cart used for chores. A blanket is draped over it to dry in the sun. A wooden chair sits nearby for an elder to rest. The parrot is a prized pet, kept in a cage or on a perch, adding a touch of luxury and nature.",
+                    "object_interpretations": {
+                        "wagon": {
+                            "form": "real wooden cart",
+                            "scale": "normal",
+                            "role": "primary functional object for transport"
+                        },
+                        "blanket": {
+                            "form": "real textile",
+                            "scale": "normal",
+                            "role": "secondary object for drying or covering"
+                        },
+                        "chair": {
+                            "form": "real wooden furniture",
+                            "scale": "normal",
+                            "role": "secondary object for seating"
+                        },
+                        "parrot": {
+                            "form": "real bird",
+                            "scale": "normal",
+                            "role": "decorative/ambient element"
+                        }
+                    }
+                },
+                {
+                    "scene_type": "Mountainous Village Path",
+                    "plausibility": 0.9,
+                    "reasoning": "A rugged outdoor scene. The wagon is used to transport goods along a winding path. A blanket is bundled inside for warmth or to wrap fragile items. A simple stool (chair) is placed by the wayside for a rest. A parrot is a traveler's companion, either perched on the wagon or on the traveler's shoulder.",
+                    "object_interpretations": {
+                        "wagon": {
+                            "form": "real wooden cart",
+                            "scale": "normal",
+                            "role": "primary mode of transport"
+                        },
+                        "blanket": {
+                            "form": "real thick wool blanket",
+                            "scale": "normal",
+                            "role": "secondary object for comfort/protection"
+                        },
+                        "chair": {
+                            "form": "simple wooden stool",
+                            "scale": "normal",
+                            "role": "portable seating"
+                        },
+                        "parrot": {
+                            "form": "real bird",
+                            "scale": "normal",
+                            "role": "traveling companion"
+                        }
+                    }
+                },
+                {
+                    "scene_type": "Scholar's Garden",
+                    "plausibility": 0.85,
+                    "reasoning": "A contemplative, artistic setting. The wagon is a miniature model or a decorative garden cart, perhaps holding bonsai or rocks. A blanket is a small, decorative cloth on the ground for a tea ceremony. A chair is an elegant, low stool. The parrot is a vibrant splash of color in an otherwise monochrome landscape, symbolizing good fortune.",
+                    "object_interpretations": {
+                        "wagon": {
+                            "form": "miniature decorative model",
+                            "scale": "small (1:5)",
+                            "role": "decorative garden element"
+                        },
+                        "blanket": {
+                            "form": "decorative cloth",
+                            "scale": "small",
+                            "role": "ground covering for ceremony"
+                        },
+                        "chair": {
+                            "form": "elegant wooden stool",
+                            "scale": "normal",
+                            "role": "seating for contemplation"
+                        },
+                        "parrot": {
+                            "form": "real bird",
+                            "scale": "normal",
+                            "role": "symbolic vibrant accent"
+                        }
+                    },
+                    "scene_brief": "A Scholar's Garden featuring wagon model, with blanket, chair, and parrot"
+                },
+                {
+                    "scene_type": "Marketplace Stall",
+                    "plausibility": 0.9,
+                    "reasoning": "A bustling commercial scene. The wagon is the merchant's stall itself, displaying goods. A blanket is laid out on the wagon bed as a base for the wares. A chair is where the merchant sits behind the stall. A parrot could be a caged pet the merchant keeps for entertainment or as a good luck charm.",
+                    "object_interpretations": {
+                        "wagon": {
+                            "form": "real merchant cart",
+                            "scale": "normal",
+                            "role": "primary commercial structure"
+                        },
+                        "blanket": {
+                            "form": "patterned textile",
+                            "scale": "normal",
+                            "role": "display surface for goods"
+                        },
+                        "chair": {
+                            "form": "simple wooden chair",
+                            "scale": "normal",
+                            "role": "merchant's seat"
+                        },
+                        "parrot": {
+                            "form": "caged bird",
+                            "scale": "normal",
+                            "role": "shop mascot/companion"
+                        }
+                    }
+                },
+                {
+                    "scene_type": "Festive Celebration",
+                    "plausibility": 0.85,
+                    "reasoning": "A lively event scene. The wagon is decorated and used to carry festival offerings or children. A blanket is spread on the ground for a picnic or seating area. A chair is part of the seating arrangement for elders. The parrot is a performer's trained bird, part of the entertainment.",
+                    "object_interpretations": {
+                        "wagon": {
+                            "form": "decorated cart",
+                            "scale": "normal",
+                            "role": "centerpiece for festival transport"
+                        },
+                        "blanket": {
+                            "form": "festive patterned blanket",
+                            "scale": "normal",
+                            "role": "picnic/seating area"
+                        },
+                        "chair": {
+                            "form": "ornate wooden chair",
+                            "scale": "normal",
+                            "role": "seating for honored guests"
+                        },
+                        "parrot": {
+                            "form": "trained bird",
+                            "scale": "normal",
+                            "role": "performer/entertainer"
+                        }
+                    }
+                },
+                {
+                    "scene_type": "Artisan's Workshop",
+                    "plausibility": 0.8,
+                    "reasoning": "A cluttered, creative space. The wagon is a work-in-progress, a piece of furniture being built or repaired. A blanket is used to protect the floor from paint or dust. A chair is where the artisan sits to work on smaller details. A parrot is a pet that mimics the sounds of the workshop.",
+                    "object_interpretations": {
+                        "wagon": {
+                            "form": "unfinished wooden cart",
+                            "scale": "normal",
+                            "role": "primary project object"
+                        },
+                        "blanket": {
+                            "form": "old protective cloth",
+                            "scale": "normal",
+                            "role": "utility/drop cloth"
+                        },
+                        "chair": {
+                            "form": "worn wooden chair",
+                            "scale": "normal",
+                            "role": "workshop seating"
+                        },
+                        "parrot": {
+                            "form": "real bird",
+                            "scale": "normal",
+                            "role": "ambient workshop pet"
+                        }
+                    }
+                },
+                {
+                    "scene_type": "Rural Farmyard",
+                    "plausibility": 0.95,
+                    "reasoning": "A simple, pastoral setting. The wagon is a farm cart for harvesting crops. A blanket is used to carry hay or to sit on during a break. A chair is a rustic piece of furniture on the porch. A parrot is a wild bird that has become accustomed to the farm's activity.",
+                    "object_interpretations": {
+                        "wagon": {
+                            "form": "rustic farm cart",
+                            "scale": "normal",
+                            "role": "agricultural tool"
+                        },
+                        "blanket": {
+                            "form": "rough wool blanket",
+                            "scale": "normal",
+                            "role": "utility for crops or seating"
+                        },
+                        "chair": {
+                            "form": "simple porch chair",
+                            "scale": "normal",
+                            "role": "resting spot"
+                        },
+                        "parrot": {
+                            "form": "wild bird",
+                            "scale": "normal",
+                            "role": "natural element"
+                        }
+                    }
+                },
+                {
+                    "scene_type": "Storybook Illustration",
+                    "plausibility": 0.8,
+                    "reasoning": "A scene from a fable. The wagon is a magical cart that can fly or is made of gingerbread. A blanket is a magic carpet or a cloak of invisibility. A chair is a throne or a talking chair. The parrot is a wise character who speaks in riddles.",
+                    "object_interpretations": {
+                        "wagon": {
+                            "form": "fantastical cart",
+                            "scale": "normal",
+                            "role": "magical vehicle"
+                        },
+                        "blanket": {
+                            "form": "magical textile",
+                            "scale": "normal",
+                            "role": "enchanted object"
+                        },
+                        "chair": {
+                            "form": "talking throne",
+                            "scale": "normal",
+                            "role": "sentient character"
+                        },
+                        "parrot": {
+                            "form": "wise talking bird",
+                            "scale": "normal",
+                            "role": "guide/companion character"
+                        }
+                    }
+                },
+                {
+                    "scene_type": "Imperial Palace Grounds",
+                    "plausibility": 0.75,
+                    "reasoning": "A scene of opulence. The wagon is a ceremonial or decorative palanquin, not for heavy labor. A blanket is a luxurious silk rug. A chair is an ornate throne. The parrot is an exotic bird from a distant land, kept in a golden cage.",
+                    "object_interpretations": {
+                        "wagon": {
+                            "form": "decorative palanquin",
+                            "scale": "normal",
+                            "role": "ceremonial object"
+                        },
+                        "blanket": {
+                            "form": "luxurious silk rug",
+                            "scale": "normal",
+                            "role": "decorative floor covering"
+                        },
+                        "chair": {
+                            "form": "ornate throne",
+                            "scale": "normal",
+                            "role": "seating for royalty"
+                        },
+                        "parrot": {
+                            "form": "exotic caged bird",
+                            "scale": "normal",
+                            "role": "symbol of wealth"
+                        }
+                    }
+                },
+                {
+                    "scene_type": "Antique Shop Interior",
+                    "plausibility": 0.9,
+                    "reasoning": "A cluttered, nostalgic space. The wagon is an antique piece for sale. A blanket is a vintage textile also for sale, draped over the wagon. A chair is an old chair waiting for a buyer. A parrot is the shop owner's pet, sitting amidst the treasures.",
+                    "object_interpretations": {
+                        "wagon": {
+                            "form": "antique cart",
+                            "scale": "normal",
+                            "role": "primary item for sale"
+                        },
+                        "blanket": {
+                            "form": "vintage textile",
+                            "scale": "normal",
+                            "role": "decorative item for sale"
+                        },
+                        "chair": {
+                            "form": "old wooden chair",
+                            "scale": "normal",
+                            "role": "item for sale"
+                        },
+                        "parrot": {
+                            "form": "real bird",
+                            "scale": "normal",
+                            "role": "shop mascot"
+                        }
+                    }
+                }
+            ],
+            "selected_scene": {
+                "scene_type": "Scholar's Garden",
+                "plausibility": 0.85,
+                "reasoning": "A contemplative, artistic setting. The wagon is a miniature model or a decorative garden cart, perhaps holding bonsai or rocks. A blanket is a small, decorative cloth on the ground for a tea ceremony. A chair is an elegant, low stool. The parrot is a vibrant splash of color in an otherwise monochrome landscape, symbolizing good fortune.",
+                "object_interpretations": {
+                    "wagon": {
+                        "form": "miniature decorative model",
+                        "scale": "small (1:5)",
+                        "role": "decorative garden element"
+                    },
+                    "blanket": {
+                        "form": "decorative cloth",
+                        "scale": "small",
+                        "role": "ground covering for ceremony"
+                    },
+                    "chair": {
+                        "form": "elegant wooden stool",
+                        "scale": "normal",
+                        "role": "seating for contemplation"
+                    },
+                    "parrot": {
+                        "form": "real bird",
+                        "scale": "normal",
+                        "role": "symbolic vibrant accent"
+                    }
+                },
+                "scene_brief": "A Scholar's Garden featuring wagon model, with blanket, chair, and parrot"
+            }
+        }
+    },
+    "final_prompts": {
+        "main_prompt": "A Chinese Ink Painting painting depicting a quiet morning scene where a weathered charcoal-gray wagon with dry, textured wood stands beside a sturdy deep-black chair. On the chair rests a softly folded blanket in warm gray tones, its gentle creases suggesting recent use. Perched alertly on the wagon is a small, vibrant parrot with emerald-gray and deep-black feathers, its head tilted curiously. The composition flows from the foreground chair and wagon to the midground parrot, with misty mountains hinted in the background. Natural soft morning light filters through, creating a fresh and energetic yet mysterious and gentle atmosphere, with ink washes capturing the interplay of wood, fabric, and feather textures in harmonious grayscale variations.",
+        "negative_prompt": "photorealistic, 3d render, modern, digital art, photograph, low quality, blurry, distorted, vibrant colors, saturated, cartoon, anime, western painting style, oil painting, watercolor, acrylic, surreal, fantasy, people, faces, text, signature, frame, border",
+        "prompt_formats": {
+            "simple": "A Chinese ink painting of a wagon, chair with blanket, and parrot in soft morning light.",
+            "complex": "A Chinese Ink Painting painting depicting a quiet morning scene where a weathered charcoal-gray wagon with dry, textured wood stands beside a sturdy deep-black chair. On the chair rests a softly folded blanket in warm gray tones, its gentle creases suggesting recent use. Perched alertly on the wagon is a small, vibrant parrot with emerald-gray and deep-black feathers, its head tilted curiously. The composition flows from the foreground chair and wagon to the midground parrot, with misty mountains hinted in the background. Natural soft morning light filters through, creating a fresh and energetic yet mysterious and gentle atmosphere, with ink washes capturing the interplay of wood, fabric, and feather textures in harmonious grayscale variations.",
+            "comma_separated": "Chinese Ink Painting, wagon, blanket, chair, parrot, weathered charcoal-gray, warm gray folded blanket, sturdy black chair, emerald-gray parrot, morning light, soft natural lighting, fresh energetic mysterious gentle atmosphere, ink wash, grayscale, wood texture, fabric folds, feather details, misty background",
+            "tags": "art, painting, chinese ink painting, ink wash, shan shui, traditional art, monochrome, grayscale, morning scene, still life, wagon, blanket, chair, parrot, wood texture, fabric, feathers, atmospheric, serene, mysterious"
+        }
+    }
+}

@@ -1,0 +1,264 @@
+{
+    "artwork_id": "artwork_20260104_012800_343",
+    "generation_timestamp": "2026-01-04T01:28:59.088687",
+    "style": "Neoclassicism",
+    "objects": {
+        "object_ids": [
+            16,
+            75,
+            52
+        ],
+        "object_names": [
+            "tiger",
+            "sundial",
+            "pumpkin"
+        ],
+        "enhanced_objects": [
+            {
+                "object_id": 16,
+                "name": "tiger",
+                "artistic_description": "A sculpted tiger model rendered in polished white marble with classical precision, its muscular form catching bright natural light from large studio windows. The stone surface gleams with a soft luminosity, the warm afternoon sun casting delicate shadows that accentuate the sinewy contours and noble bearing. Striations in the marble subtly suggest the tiger's striped patterning, rendered with neoclassical restraint and idealized anatomy.",
+                "size": "Large",
+                "state": "pristine sculptural model",
+                "primary_colors": [
+                    "luminous white",
+                    "warm cream"
+                ],
+                "material": "marble"
+            },
+            {
+                "object_id": 75,
+                "name": "sundial",
+                "artistic_description": "A bronze sundial pedestal with refined classical ornamentation, its metal surface warmed to a rich golden-brown by the afternoon light. The gnomon casts a crisp, precise shadow across the engraved Roman numerals, while the polished bronze face reflects ambient light with a gentle glow. Patina accents the recessed details, creating subtle contrast against the sunlit highlights.",
+                "size": "Medium",
+                "state": "functional timepiece with dignified aging",
+                "primary_colors": [
+                    "warm bronze",
+                    "golden brown"
+                ],
+                "material": "bronze"
+            },
+            {
+                "object_id": 52,
+                "name": "pumpkin",
+                "artistic_description": "A plump pumpkin rendered with neoclassical idealization, its organic form transformed into a study of perfect curves and planes. The bright natural light illuminates its smooth, matte surface, revealing subtle variations in its warm orange hue\u2014from deep amber in the shadows to luminous apricot where the sun strikes directly. The stem presents as a sculptural capstone, adding a touch of rustic naturalism to the otherwise refined composition.",
+                "size": "Small",
+                "state": "fresh autumn harvest",
+                "primary_colors": [
+                    "warm orange",
+                    "golden amber"
+                ],
+                "material": "organic"
+            }
+        ]
+    },
+    "composition": {
+        "spatial_relations": [
+            [
+                16,
+                "next to",
+                75
+            ],
+            [
+                52,
+                "behind",
+                16
+            ],
+            [
+                75,
+                "on",
+                52
+            ]
+        ],
+        "semantic_relations": []
+    },
+    "environment": {
+        "environment_details": {
+            "scene_brief": "A Allegorical Art Studio featuring tiger model, with sundial, and pumpkin",
+            "place365_name": "/a/art_studio",
+            "place365_id": 21,
+            "time_of_day": "afternoon",
+            "weather": "sunny",
+            "period": "Contemporary",
+            "is_indoor": true,
+            "lighting": {
+                "type": "natural",
+                "quality": "soft",
+                "direction": "side-lit",
+                "mood": "warm",
+                "reasoning": "Combining 'afternoon' time and 'sunny' weather results in natural lighting. The light entering a studio is typically softened by diffusion through windows, creating a 'soft' quality. A 'side-lit' direction is most effective for modeling the three-dimensional form of the tiger sculpture and the pumpkin, creating volume and depth essential for a Neoclassical composition. The 'warm' mood aligns with the golden hour of the afternoon."
+            },
+            "atmosphere": "bright and active and cheerful and gentle"
+        },
+        "scene_inference": {
+            "all_candidates": [
+                {
+                    "scene_type": "Royal Menagerie Garden",
+                    "plausibility": 0.85,
+                    "reasoning": "In a formal, neoclassical garden of a royal menagerie, a tiger could be observed in an enclosure or as a subject of art. A sundial is a classical garden ornament, and a pumpkin could be a decorative gourd or a rare botanical specimen cultivated for its form.",
+                    "object_interpretations": {
+                        "tiger": {
+                            "form": "real animal",
+                            "scale": "natural",
+                            "role": "centerpiece of the menagerie"
+                        },
+                        "sundial": {
+                            "form": "stone sculpture",
+                            "scale": "monumental",
+                            "role": "garden ornament"
+                        },
+                        "pumpkin": {
+                            "form": "botanical specimen",
+                            "scale": "natural",
+                            "role": "decorative flora"
+                        }
+                    }
+                },
+                {
+                    "scene_type": "Neoclassical Still Life Painting",
+                    "plausibility": 0.9,
+                    "reasoning": "A still life composition in the style of a classical master. The tiger is not alive but represented as a luxurious tiger skin rug draped over a pedestal. The sundial is a bronze artifact, and the pumpkin is a bountiful fruit, symbolizing the harvest.",
+                    "object_interpretations": {
+                        "tiger": {
+                            "form": "taxidermy / rug",
+                            "scale": "life-size",
+                            "role": "symbol of power and luxury"
+                        },
+                        "sundial": {
+                            "form": "bronze artifact",
+                            "scale": "small / tabletop",
+                            "role": "memento mori / classical reference"
+                        },
+                        "pumpkin": {
+                            "form": "fruit",
+                            "scale": "natural",
+                            "role": "symbol of abundance"
+                        }
+                    }
+                },
+                {
+                    "scene_type": "Classical Mythological Landscape",
+                    "plausibility": 0.8,
+                    "reasoning": "A landscape depicting a scene from mythology or pastoral poetry. A tiger roams the wild, ancient ruins of a sundial stand amidst overgrown vegetation, and a pumpkin patch grows near a rustic cottage.",
+                    "object_interpretations": {
+                        "tiger": {
+                            "form": "real animal",
+                            "scale": "natural",
+                            "role": "wild nature / guardian of the ruins"
+                        },
+                        "sundial": {
+                            "form": "weathered stone",
+                            "scale": "monumental",
+                            "role": "ruin of ancient civilization"
+                        },
+                        "pumpkin": {
+                            "form": "vine fruit",
+                            "scale": "natural",
+                            "role": "pastoral element"
+                        }
+                    }
+                },
+                {
+                    "scene_type": "Museum of Natural History",
+                    "plausibility": 0.85,
+                    "reasoning": "A curated exhibition hall. A taxidermied tiger is the main exhibit. Beside it, a collection of historical scientific instruments includes a sundial. A preserved pumpkin might be part of a display on agriculture or botany.",
+                    "object_interpretations": {
+                        "tiger": {
+                            "form": "taxidermy",
+                            "scale": "life-size",
+                            "role": "museum exhibit"
+                        },
+                        "sundial": {
+                            "form": "antique instrument",
+                            "scale": "tabletop",
+                            "role": "historical artifact"
+                        },
+                        "pumpkin": {
+                            "form": "dried specimen",
+                            "scale": "natural",
+                            "role": "botanical sample"
+                        }
+                    }
+                },
+                {
+                    "scene_type": "Allegorical Art Studio",
+                    "plausibility": 0.75,
+                    "reasoning": "An artist's studio preparing an allegorical painting. The tiger represents 'Ferocity' or 'Asia', the sundial represents 'Time', and the pumpkin represents 'Autumn' or 'Prosperity'. All are arranged as models for the composition.",
+                    "object_interpretations": {
+                        "tiger": {
+                            "form": "study sketch / model",
+                            "scale": "variable",
+                            "role": "allegorical symbol"
+                        },
+                        "sundial": {
+                            "form": "studio prop",
+                            "scale": "small",
+                            "role": "allegorical symbol"
+                        },
+                        "pumpkin": {
+                            "form": "studio prop",
+                            "scale": "natural",
+                            "role": "allegorical symbol"
+                        }
+                    },
+                    "scene_brief": "A Allegorical Art Studio featuring tiger model, with sundial, and pumpkin"
+                },
+                {
+                    "scene_type": "Formal Vegetable Garden",
+                    "plausibility": 0.7,
+                    "reasoning": "A highly structured garden layout typical of neoclassical design. Rows of pumpkins are grown for their aesthetic shape. A sundial marks the center of the garden. A tiger statue (perhaps bronze or marble) serves as a fountain or guardian statue.",
+                    "object_interpretations": {
+                        "tiger": {
+                            "form": "statue",
+                            "scale": "monumental",
+                            "role": "garden sculpture"
+                        },
+                        "sundial": {
+                            "form": "stone monument",
+                            "scale": "monumental",
+                            "role": "functional ornament"
+                        },
+                        "pumpkin": {
+                            "form": "garden crop",
+                            "scale": "natural",
+                            "role": "crop / decoration"
+                        }
+                    }
+                }
+            ],
+            "selected_scene": {
+                "scene_type": "Allegorical Art Studio",
+                "plausibility": 0.75,
+                "reasoning": "An artist's studio preparing an allegorical painting. The tiger represents 'Ferocity' or 'Asia', the sundial represents 'Time', and the pumpkin represents 'Autumn' or 'Prosperity'. All are arranged as models for the composition.",
+                "object_interpretations": {
+                    "tiger": {
+                        "form": "study sketch / model",
+                        "scale": "variable",
+                        "role": "allegorical symbol"
+                    },
+                    "sundial": {
+                        "form": "studio prop",
+                        "scale": "small",
+                        "role": "allegorical symbol"
+                    },
+                    "pumpkin": {
+                        "form": "studio prop",
+                        "scale": "natural",
+                        "role": "allegorical symbol"
+                    }
+                },
+                "scene_brief": "A Allegorical Art Studio featuring tiger model, with sundial, and pumpkin"
+            }
+        }
+    },
+    "final_prompts": {
+        "main_prompt": "A Neoclassicism painting depicting a luminous white, warm cream tiger of large, pristine sculptural form standing majestically beside a medium-sized sundial of warm bronze and golden brown with dignified aging, the functional timepiece resting atop a small, fresh autumn harvest pumpkin of warm orange and golden amber hues. The tiger's powerful form occupies the foreground, its sculptural presence commanding attention, while the sundial and pumpkin create a harmonious midground composition. The scene unfolds in a gentle afternoon light with natural soft illumination that casts warm shadows across the classical setting, creating a bright, active, cheerful, and gentle atmosphere reminiscent of an idealized pastoral scene. The materials interplay beautifully\u2014the tiger's marble-like surface, the sundial's aged bronze, and the pumpkin's organic texture\u2014all rendered with Neoclassical precision, balanced composition, and harmonious color palette that evokes timeless elegance and serene beauty.",
+        "negative_prompt": "photorealistic, 3d render, modern, digital art, photograph, low quality, blurry, distorted, surreal, abstract, cartoon, anime, fantasy, dark, gloomy, horror, violent, blood, gore, text, watermark, signature, frame, border, oversaturated, noisy, grainy, pixelated, deformed, mutated, ugly, disfigured",
+        "prompt_formats": {
+            "simple": "A Neoclassical painting of a white tiger beside a bronze sundial on an orange pumpkin in soft afternoon light.",
+            "complex": "A Neoclassicism painting depicting a luminous white, warm cream tiger of large, pristine sculptural form standing majestically beside a medium-sized sundial of warm bronze and golden brown with dignified aging, the functional timepiece resting atop a small, fresh autumn harvest pumpkin of warm orange and golden amber hues. The tiger's powerful form occupies the foreground, its sculptural presence commanding attention, while the sundial and pumpkin create a harmonious midground composition. The scene unfolds in a gentle afternoon light with natural soft illumination that casts warm shadows across the classical setting, creating a bright, active, cheerful, and gentle atmosphere reminiscent of an idealized pastoral scene. The materials interplay beautifully\u2014the tiger's marble-like surface, the sundial's aged bronze, and the pumpkin's organic texture\u2014all rendered with Neoclassical precision, balanced composition, and harmonious color palette that evokes timeless elegance and serene beauty.",
+            "comma_separated": "Neoclassicism painting, large luminous white tiger, pristine sculptural model, medium warm bronze sundial, functional timepiece, small warm orange pumpkin, fresh autumn harvest, tiger beside sundial, sundial on pumpkin, pumpkin behind tiger, afternoon lighting, natural soft light, bright active cheerful gentle atmosphere, marble bronze organic materials, balanced composition, classical setting, pastoral scene, harmonious colors, timeless elegance",
+            "tags": "art, painting, neoclassicism, neoclassical, tiger, sundial, pumpkin, sculpture, marble, bronze, autumn, harvest, afternoon, lighting, classical, composition, pastoral, elegant, serene, harmonious"
+        }
+    }
+}

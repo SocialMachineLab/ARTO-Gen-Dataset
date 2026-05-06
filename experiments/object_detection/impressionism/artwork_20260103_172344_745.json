@@ -1,0 +1,281 @@
+{
+    "artwork_id": "artwork_20260103_172344_745",
+    "generation_timestamp": "2026-01-03T17:24:13.475074",
+    "style": "Impressionism",
+    "objects": {
+        "object_ids": [
+            76,
+            28,
+            3
+        ],
+        "object_names": [
+            "vase",
+            "dress shirt",
+            "horse cart"
+        ],
+        "enhanced_objects": [
+            {
+                "object_id": 76,
+                "name": "vase",
+                "artistic_description": "A ceramic vase bathed in warm afternoon sunlight streaming through studio windows, its glossy surface catching bright highlights and casting soft, diffused shadows. The natural light reveals subtle brushstrokes of creamy white and pale yellow, with gentle color variations suggesting hand-painted imperfections. Light dances across its curved form, creating a luminous, almost vibrating quality with soft edges and broken color typical of impressionist technique.",
+                "size": "Medium",
+                "state": "pristine and glossy, freshly cleaned",
+                "primary_colors": [
+                    "warm cream",
+                    "pale yellow"
+                ],
+                "material": "ceramic"
+            },
+            {
+                "object_id": 28,
+                "name": "dress shirt",
+                "artistic_description": "A crisp white dress shirt draped over a studio easel, its fabric absorbing and reflecting the bright natural light with soft, luminous quality. The cotton material shows subtle variations in tone - pure white in direct sunlight, gentle cream in the shadows, with delicate texture visible through loose, feathery brushstrokes. Sunlight creates a soft glow around its edges, with minimal shadows and a fresh, airy appearance.",
+                "size": "Medium",
+                "state": "freshly pressed and clean",
+                "primary_colors": [
+                    "bright white",
+                    "soft cream"
+                ],
+                "material": "cotton"
+            },
+            {
+                "object_id": 3,
+                "name": "horse cart",
+                "artistic_description": "A weathered horse cart visible through the studio window, its wooden structure warmed by golden afternoon light. The natural sunlight creates strong contrasts between illuminated surfaces and deep, cool shadows. Weathered wood shows rich patina with broken colors of brown, amber, and gray. The metal hardware glints with bright specular highlights, while the overall form appears softened by atmospheric perspective and dappled light effects.",
+                "size": "Large",
+                "state": "weathered and aged with visible patina",
+                "primary_colors": [
+                    "warm amber",
+                    "weathered brown"
+                ],
+                "material": "wood and metal"
+            }
+        ]
+    },
+    "composition": {
+        "spatial_relations": [
+            [
+                76,
+                "on",
+                28
+            ],
+            [
+                3,
+                "behind",
+                76
+            ]
+        ],
+        "semantic_relations": []
+    },
+    "environment": {
+        "environment_details": {
+            "scene_brief": "A Art Studio centered around vase, with dress shirt, and horse cart",
+            "place365_name": "/a/art_studio",
+            "place365_id": 21,
+            "time_of_day": "afternoon",
+            "weather": "sunny",
+            "period": "Contemporary",
+            "is_indoor": true,
+            "lighting": {
+                "type": "natural",
+                "quality": "soft",
+                "direction": "side-lit",
+                "mood": "warm",
+                "reasoning": "In an afternoon studio setting, natural light entering from a side window would be the primary source. This creates soft, warm shadows and highlights the textures of the vase and fabric, perfectly suiting the Impressionist goal of capturing light and atmosphere."
+            },
+            "atmosphere": "bright and active and cheerful and gentle"
+        },
+        "scene_inference": {
+            "all_candidates": [
+                {
+                    "scene_type": "Art Studio",
+                    "plausibility": 0.95,
+                    "reasoning": "An artist's studio is a natural habitat for a vase serving as a still life subject. A dress shirt can be draped over a chair or worn by the artist. A horse cart can be viewed through a window or painted on a canvas in the studio.",
+                    "object_interpretations": {
+                        "vase": {
+                            "form": "real ceramic vase",
+                            "scale": "normal",
+                            "role": "primary subject of a still life painting"
+                        },
+                        "dress shirt": {
+                            "form": "real clothing",
+                            "scale": "normal",
+                            "role": "worn by the artist or draped on furniture"
+                        },
+                        "horse cart": {
+                            "form": "painting on canvas",
+                            "scale": "normal (2D representation)",
+                            "role": "artwork in progress or decoration"
+                        }
+                    },
+                    "scene_brief": "A Art Studio centered around vase, with dress shirt, and horse cart"
+                },
+                {
+                    "scene_type": "Vintage Curio Shop",
+                    "plausibility": 0.9,
+                    "reasoning": "A cluttered antique shop can house a decorative vase, vintage clothing like a dress shirt, and historical artifacts like a model horse cart.",
+                    "object_interpretations": {
+                        "vase": {
+                            "form": "antique ceramic vase",
+                            "scale": "normal",
+                            "role": "display item on a shelf"
+                        },
+                        "dress shirt": {
+                            "form": "vintage clothing",
+                            "scale": "normal",
+                            "role": "merchandise on a rack or mannequin"
+                        },
+                        "horse cart": {
+                            "form": "detailed miniature model",
+                            "scale": "small (1:12)",
+                            "role": "collectible item in a display case"
+                        }
+                    }
+                },
+                {
+                    "scene_type": "Country Garden Porch",
+                    "plausibility": 0.85,
+                    "reasoning": "A vase with flowers fits a garden setting. A dress shirt suggests a casual country outfit. A horse cart could be a functional vehicle parked nearby or a toy left by a child.",
+                    "object_interpretations": {
+                        "vase": {
+                            "form": "earthenware vase",
+                            "scale": "normal",
+                            "role": "decorative planter on a railing"
+                        },
+                        "dress shirt": {
+                            "form": "casual plaid shirt",
+                            "scale": "normal",
+                            "role": "clothing worn by a person sitting on the porch"
+                        },
+                        "horse cart": {
+                            "form": "functional horse cart",
+                            "scale": "large (full-size)",
+                            "role": "transportation parked in the driveway"
+                        }
+                    }
+                },
+                {
+                    "scene_type": "Impressionist Painting (Abstract/Surreal Interpretation)",
+                    "plausibility": 0.8,
+                    "reasoning": "In the Impressionism style, the objects can exist purely as visual elements within a painted scene. The vase, shirt, and cart can be loosely defined by light and color rather than strict realism.",
+                    "object_interpretations": {
+                        "vase": {
+                            "form": "painted shape",
+                            "scale": "variable",
+                            "role": "color block representing a vase"
+                        },
+                        "dress shirt": {
+                            "form": "painted shape",
+                            "scale": "variable",
+                            "role": "drape of fabric and light"
+                        },
+                        "horse cart": {
+                            "form": "painted shape",
+                            "scale": "variable",
+                            "role": "background movement and structure"
+                        }
+                    }
+                },
+                {
+                    "scene_type": "Theater Backstage",
+                    "plausibility": 0.75,
+                    "reasoning": "A prop vase is on a table. A dress shirt is part of a costume. A horse cart is a large prop or set piece being moved or stored.",
+                    "object_interpretations": {
+                        "vase": {
+                            "form": "prop vase (plastic/wood)",
+                            "scale": "normal",
+                            "role": "stage prop for a scene"
+                        },
+                        "dress shirt": {
+                            "form": "costume piece",
+                            "scale": "normal",
+                            "role": "clothing on a costume rack"
+                        },
+                        "horse cart": {
+                            "form": "large wooden prop",
+                            "scale": "large",
+                            "role": "set piece in storage"
+                        }
+                    }
+                },
+                {
+                    "scene_type": "Children's Playroom",
+                    "plausibility": 0.7,
+                    "reasoning": "A plastic vase is a toy. A dress shirt is a dress-up item. A horse cart is a ride-on toy.",
+                    "object_interpretations": {
+                        "vase": {
+                            "form": "plastic toy vase",
+                            "scale": "small",
+                            "role": "play object"
+                        },
+                        "dress shirt": {
+                            "form": "oversized dress-up shirt",
+                            "scale": "normal",
+                            "role": "costume item"
+                        },
+                        "horse cart": {
+                            "form": "ride-on toy",
+                            "scale": "small",
+                            "role": "play vehicle"
+                        }
+                    }
+                },
+                {
+                    "scene_type": "Victorian Parlor",
+                    "plausibility": 0.8,
+                    "reasoning": "A formal room with a decorative vase on a mantelpiece. A dress shirt is part of formal attire. A horse cart is visible through the window as the mode of arrival.",
+                    "object_interpretations": {
+                        "vase": {
+                            "form": "porcelain vase",
+                            "scale": "normal",
+                            "role": "mantelpiece decoration"
+                        },
+                        "dress shirt": {
+                            "form": "stiff formal shirt",
+                            "scale": "normal",
+                            "role": "worn by a gentleman in the room"
+                        },
+                        "horse cart": {
+                            "form": "real horse cart",
+                            "scale": "large (distant)",
+                            "role": "transport outside the window"
+                        }
+                    }
+                }
+            ],
+            "selected_scene": {
+                "scene_type": "Art Studio",
+                "plausibility": 0.95,
+                "reasoning": "An artist's studio is a natural habitat for a vase serving as a still life subject. A dress shirt can be draped over a chair or worn by the artist. A horse cart can be viewed through a window or painted on a canvas in the studio.",
+                "object_interpretations": {
+                    "vase": {
+                        "form": "real ceramic vase",
+                        "scale": "normal",
+                        "role": "primary subject of a still life painting"
+                    },
+                    "dress shirt": {
+                        "form": "real clothing",
+                        "scale": "normal",
+                        "role": "worn by the artist or draped on furniture"
+                    },
+                    "horse cart": {
+                        "form": "painting on canvas",
+                        "scale": "normal (2D representation)",
+                        "role": "artwork in progress or decoration"
+                    }
+                },
+                "scene_brief": "A Art Studio centered around vase, with dress shirt, and horse cart"
+            }
+        }
+    },
+    "final_prompts": {
+        "main_prompt": "A Impressionism painting depicting a bright and active afternoon scene with a gentle, cheerful atmosphere. In the foreground, a pristine and glossy ceramic vase in warm cream and pale yellow sits atop a freshly pressed, clean dress shirt in bright white and soft cream. The vase is positioned centrally on the shirt, which is laid out flat on the grass. Behind this arrangement, in the midground, stands a large, weathered horse cart in warm amber and weathered brown tones, its wood and metal construction showing visible patina and age. The cart is positioned at a slight angle, creating depth. The entire scene is bathed in natural soft afternoon light that filters through the trees, casting dappled shadows and creating vibrant, broken brushstrokes of color across the meadow setting. The impressionistic style captures the fleeting quality of light and movement, with loose, visible brushwork emphasizing the textures of ceramic, cotton, and aged wood.",
+        "negative_prompt": "photorealistic, 3d render, modern, digital art, photograph, low quality, blurry, distorted, ugly, deformed, cartoon, anime, text, watermark, signature, frame, border, oversaturated, dark, gloomy, night, indoor",
+        "prompt_formats": {
+            "simple": "An Impressionist painting of a vase on a dress shirt with a horse cart behind them in a soft afternoon meadow.",
+            "complex": "A Impressionism painting depicting a bright and active afternoon scene with a gentle, cheerful atmosphere. In the foreground, a pristine and glossy ceramic vase in warm cream and pale yellow sits atop a freshly pressed, clean dress shirt in bright white and soft cream. The vase is positioned centrally on the shirt, which is laid out flat on the grass. Behind this arrangement, in the midground, stands a large, weathered horse cart in warm amber and weathered brown tones, its wood and metal construction showing visible patina and age. The cart is positioned at a slight angle, creating depth. The entire scene is bathed in natural soft afternoon light that filters through the trees, casting dappled shadows and creating vibrant, broken brushstrokes of color across the meadow setting. The impressionistic style captures the fleeting quality of light and movement, with loose, visible brushwork emphasizing the textures of ceramic, cotton, and aged wood.",
+            "comma_separated": "Impressionism painting, vase on dress shirt, horse cart behind, afternoon lighting, soft natural light, bright cheerful atmosphere, warm cream vase, pale yellow, pristine glossy ceramic, bright white dress shirt, soft cream, freshly pressed cotton, large horse cart, warm amber, weathered brown, visible patina, wood and metal, meadow setting, dappled sunlight, loose brushstrokes, vibrant colors, textured",
+            "tags": "art, painting, impressionism, landscape, still life, vase, dress shirt, horse cart, afternoon, meadow, soft light, cheerful, brushstrokes, texture, ceramic, cotton, wood, metal"
+        }
+    }
+}

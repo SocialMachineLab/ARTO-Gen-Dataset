@@ -1,0 +1,347 @@
+{
+    "artwork_id": "artwork_20260103_204755_553",
+    "generation_timestamp": "2026-01-03T20:48:27.961117",
+    "style": "Neoclassicism",
+    "objects": {
+        "object_ids": [
+            9,
+            1,
+            57
+        ],
+        "object_names": [
+            "schooner",
+            "fisherman",
+            "wheelchair"
+        ],
+        "enhanced_objects": [
+            {
+                "object_id": 9,
+                "name": "schooner",
+                "artistic_description": "A miniature wooden schooner rendered in neoclassical precision, its hull painted in deep navy with crisp white trim that catches the mixed gallery lighting. The afternoon's cloudy illumination softens the glossy varnish, creating subtle highlights along the curved stern and bow. Delicate rigging threads are taut and perfectly aligned, while miniature brass fittings gleam with restrained metallic warmth against the cool ambient light. The painted details of windows and deck planking remain sharp and deliberate, embodying classical restraint.",
+                "size": "Medium",
+                "state": "pristine, museum-quality preservation with polished finish",
+                "primary_colors": [
+                    "navy blue",
+                    "white"
+                ],
+                "material": "wood, brass, paint, varnish"
+            },
+            {
+                "object_id": 1,
+                "name": "fisherman",
+                "artistic_description": "A sculpted fisherman figure cast in polished resin with neoclassical idealization, his form embodying dignified labor. The cloudy daylight filtering through the gallery renders his weathered complexion in muted olive tones with soft gray shadows in the folds of his sculpted clothing. His woolen sweater appears as carved texture with matte cream surfaces that absorb rather than reflect light, while his face shows the neoclassical emphasis on calm, noble expression. The subdued lighting reveals subtle variations in the material's finish, creating a gentle interplay of light and shadow.",
+                "size": "Small",
+                "state": "smooth, contemporary casting with refined surface treatment",
+                "primary_colors": [
+                    "cream",
+                    "olive"
+                ],
+                "material": "resin, paint"
+            },
+            {
+                "object_id": 57,
+                "name": "wheelchair",
+                "artistic_description": "A contemporary wheelchair rendered with neoclassical attention to geometric form and material honesty. The aluminum frame reflects the mixed gallery lighting with cool, silvery highlights that shift across its tubular structure. The canvas seat and backrest show matte fabric textures in subdued gray, absorbing ambient light rather than reflecting it. The rubber wheels present as dark, matte circles with subtle tread patterns visible in the bright, active atmosphere. The clinical precision of the design harmonizes with the gallery's gentle, subdued mood.",
+                "size": "Large",
+                "state": "contemporary condition with clean, functional surfaces",
+                "primary_colors": [
+                    "silver",
+                    "gray"
+                ],
+                "material": "aluminum, canvas, rubber, steel"
+            }
+        ]
+    },
+    "composition": {
+        "spatial_relations": [
+            [
+                9,
+                "on",
+                1
+            ],
+            [
+                57,
+                "next to",
+                1
+            ]
+        ],
+        "semantic_relations": []
+    },
+    "environment": {
+        "environment_details": {
+            "scene_brief": "A Maritime Museum Gallery featuring toy schooner, with fisherman displayed on shelves, and wheelchair",
+            "place365_name": "/m/museum/indoor",
+            "place365_id": 236,
+            "time_of_day": "afternoon",
+            "weather": "cloudy",
+            "period": "Contemporary",
+            "is_indoor": true,
+            "lighting": {
+                "type": "mixed",
+                "quality": "soft",
+                "direction": "front-lit",
+                "mood": "neutral",
+                "reasoning": "Mixed lighting combines soft natural light from windows (cloudy afternoon) with artificial gallery lighting. This creates even, soft illumination that eliminates harsh shadows while maintaining the classical Neoclassical aesthetic. Front-lit and side-lit arrangement ensures all displayed objects - toy schooner, fisherman figures, and wheelchair - are clearly visible with appropriate emphasis."
+            },
+            "atmosphere": "bright and active and subdued and gentle"
+        },
+        "scene_inference": {
+            "all_candidates": [
+                {
+                    "scene_type": "Historic Maritime Dock",
+                    "plausibility": 0.9,
+                    "reasoning": "A grand Neoclassical schooner is docked at a stone pier. The fisherman is actively working on the dock, perhaps mending nets or preparing to unload a catch. The wheelchair user is a visitor or dignitary observing the maritime activity, positioned on the smooth, accessible pier.",
+                    "object_interpretations": {
+                        "schooner": {
+                            "form": "real vessel",
+                            "scale": "large/full-size",
+                            "role": "primary subject/anchor"
+                        },
+                        "fisherman": {
+                            "form": "real person",
+                            "scale": "human",
+                            "role": "active worker"
+                        },
+                        "wheelchair": {
+                            "form": "real mobility device",
+                            "scale": "human-scale",
+                            "role": "mobility aid for observer"
+                        }
+                    }
+                },
+                {
+                    "scene_type": "Maritime Museum Gallery",
+                    "plausibility": 0.95,
+                    "reasoning": "A detailed, large-scale model of a schooner is the centerpiece of a grand museum hall with Neoclassical architecture. A fisherman is depicted in a historical diorama or statue nearby. A wheelchair user is viewing the exhibit, rolling along the polished gallery floor.",
+                    "object_interpretations": {
+                        "schooner": {
+                            "form": "museum model",
+                            "scale": "miniature (1:50)",
+                            "role": "exhibit centerpiece"
+                        },
+                        "fisherman": {
+                            "form": "mannequin/statue",
+                            "scale": "human",
+                            "role": "part of historical display"
+                        },
+                        "wheelchair": {
+                            "form": "modern wheelchair",
+                            "scale": "human-scale",
+                            "role": "mobility aid for museum patron"
+                        }
+                    },
+                    "scene_brief": "A Maritime Museum Gallery featuring toy schooner, with fisherman displayed on shelves, and wheelchair"
+                },
+                {
+                    "scene_type": "Neoclassical Harbor Painting",
+                    "plausibility": 0.9,
+                    "reasoning": "A painting in the Neoclassical style depicts a harbor scene. The schooner is the main subject on the water. The fisherman is a figure in a small rowboat near the schooner. The wheelchair is present as part of a scene on the dock, perhaps a figure seated in a wheelchair observing the harbor.",
+                    "object_interpretations": {
+                        "schooner": {
+                            "form": "painted subject",
+                            "scale": "artistic representation",
+                            "role": "main subject of artwork"
+                        },
+                        "fisherman": {
+                            "form": "painted figure",
+                            "scale": "artistic representation",
+                            "role": "supporting narrative element"
+                        },
+                        "wheelchair": {
+                            "form": "painted object",
+                            "scale": "artistic representation",
+                            "role": "detail adding social context"
+                        }
+                    }
+                },
+                {
+                    "scene_type": "Artisan Workshop",
+                    "plausibility": 0.85,
+                    "reasoning": "A craftsman (fisherman by trade, perhaps retired) is building a detailed model schooner in his workshop. He uses a wheelchair for mobility within the space. The workshop has a Neoclassical aesthetic with tall windows and classical molding.",
+                    "object_interpretations": {
+                        "schooner": {
+                            "form": "model in construction",
+                            "scale": "miniature",
+                            "role": "project/craft"
+                        },
+                        "fisherman": {
+                            "form": "real person",
+                            "scale": "human",
+                            "role": "artisan/craftsman"
+                        },
+                        "wheelchair": {
+                            "form": "real mobility device",
+                            "scale": "human-scale",
+                            "role": "mobility aid for craftsman"
+                        }
+                    }
+                },
+                {
+                    "scene_type": "Coastal Promenade",
+                    "plausibility": 0.8,
+                    "reasoning": "A scenic seaside walkway with Neoclassical balustrades. A schooner is visible in the bay. A fisherman is selling his catch from a stall. A wheelchair user enjoys the view, rolling along the promenade.",
+                    "object_interpretations": {
+                        "schooner": {
+                            "form": "real vessel",
+                            "scale": "distant/large",
+                            "role": "background scenery"
+                        },
+                        "fisherman": {
+                            "form": "real person",
+                            "scale": "human",
+                            "role": "vendor"
+                        },
+                        "wheelchair": {
+                            "form": "real mobility device",
+                            "scale": "human-scale",
+                            "role": "mobility aid for pedestrian"
+                        }
+                    }
+                },
+                {
+                    "scene_type": "Nautical Themed Restaurant",
+                    "plausibility": 0.85,
+                    "reasoning": "An upscale restaurant with Neoclassical interior design. A large, elegant schooner model hangs as a decorative piece. A fisherman-themed statue or artwork is on display. A wheelchair user is dining at a table, enjoying the ambiance.",
+                    "object_interpretations": {
+                        "schooner": {
+                            "form": "decorative model",
+                            "scale": "medium (hanging)",
+                            "role": "decorative element"
+                        },
+                        "fisherman": {
+                            "form": "statue/artwork",
+                            "scale": "human",
+                            "role": "thematic decor"
+                        },
+                        "wheelchair": {
+                            "form": "real mobility device",
+                            "scale": "human-scale",
+                            "role": "mobility aid for patron"
+                        }
+                    }
+                },
+                {
+                    "scene_type": "Historic Naval Academy",
+                    "plausibility": 0.9,
+                    "reasoning": "A training ground for sailors. A schooner is docked at the academy's pier. A fisherman instructor teaches students about knots. A wheelchair-using cadet or officer observes the lesson from the pier.",
+                    "object_interpretations": {
+                        "schooner": {
+                            "form": "real training vessel",
+                            "scale": "large/full-size",
+                            "role": "training asset"
+                        },
+                        "fisherman": {
+                            "form": "real person",
+                            "scale": "human",
+                            "role": "instructor"
+                        },
+                        "wheelchair": {
+                            "form": "real mobility device",
+                            "scale": "human-scale",
+                            "role": "mobility aid for cadet"
+                        }
+                    }
+                },
+                {
+                    "scene_type": "Maritime Library",
+                    "plausibility": 0.8,
+                    "reasoning": "A grand library with classical columns. A large schooner model sits on a central table. A fisherman is reading a book about fishing techniques. A wheelchair user is accessing the archives.",
+                    "object_interpretations": {
+                        "schooner": {
+                            "form": "museum-quality model",
+                            "scale": "medium",
+                            "role": "library artifact"
+                        },
+                        "fisherman": {
+                            "form": "real person",
+                            "scale": "human",
+                            "role": "researcher/reader"
+                        },
+                        "wheelchair": {
+                            "form": "real mobility device",
+                            "scale": "human-scale",
+                            "role": "mobility aid for researcher"
+                        }
+                    }
+                },
+                {
+                    "scene_type": "Riverfront Festival",
+                    "plausibility": 0.75,
+                    "reasoning": "A cultural festival on a riverbank with temporary Neoclassical stage decorations. A schooner is moored as a display. A fisherman demonstrates traditional techniques. A wheelchair user navigates the festival grounds.",
+                    "object_interpretations": {
+                        "schooner": {
+                            "form": "real vessel",
+                            "scale": "large",
+                            "role": "festival attraction"
+                        },
+                        "fisherman": {
+                            "form": "real person",
+                            "scale": "human",
+                            "role": "performer/demonstrator"
+                        },
+                        "wheelchair": {
+                            "form": "real mobility device",
+                            "scale": "human-scale",
+                            "role": "mobility aid for attendee"
+                        }
+                    }
+                },
+                {
+                    "scene_type": "Private Estate Grounds",
+                    "plausibility": 0.8,
+                    "reasoning": "A wealthy estate with a private dock and Neoclassical landscaping. A schooner is moored at the dock. The estate's fisherman caretaker maintains the boats. The owner or guest uses a wheelchair to tour the grounds.",
+                    "object_interpretations": {
+                        "schooner": {
+                            "form": "real pleasure vessel",
+                            "scale": "large",
+                            "role": "status symbol/transport"
+                        },
+                        "fisherman": {
+                            "form": "real person",
+                            "scale": "human",
+                            "role": "caretaker/staff"
+                        },
+                        "wheelchair": {
+                            "form": "real mobility device",
+                            "scale": "human-scale",
+                            "role": "mobility aid for resident/guest"
+                        }
+                    }
+                }
+            ],
+            "selected_scene": {
+                "scene_type": "Maritime Museum Gallery",
+                "plausibility": 0.95,
+                "reasoning": "A detailed, large-scale model of a schooner is the centerpiece of a grand museum hall with Neoclassical architecture. A fisherman is depicted in a historical diorama or statue nearby. A wheelchair user is viewing the exhibit, rolling along the polished gallery floor.",
+                "object_interpretations": {
+                    "schooner": {
+                        "form": "museum model",
+                        "scale": "miniature (1:50)",
+                        "role": "exhibit centerpiece"
+                    },
+                    "fisherman": {
+                        "form": "mannequin/statue",
+                        "scale": "human",
+                        "role": "part of historical display"
+                    },
+                    "wheelchair": {
+                        "form": "modern wheelchair",
+                        "scale": "human-scale",
+                        "role": "mobility aid for museum patron"
+                    }
+                },
+                "scene_brief": "A Maritime Museum Gallery featuring toy schooner, with fisherman displayed on shelves, and wheelchair"
+            }
+        }
+    },
+    "final_prompts": {
+        "main_prompt": "A Neoclassicism painting depicting a serene afternoon scene where a pristine navy blue and white schooner rests atop a small, smooth fisherman dressed in cream and olive tones, with a large contemporary silver and gray wheelchair positioned beside him. The fisherman sits calmly on a wooden dock, the schooner balanced delicately on his shoulder as if part of a maritime tribute, while the wheelchair's clean aluminum and steel frame reflects the soft, mixed lighting. In the background, classical architectural elements frame a bustling harbor with gentle waves and distant sailing vessels, all bathed in the bright yet subdued glow of late afternoon sunlight that creates an active yet gentle atmosphere. The composition emphasizes balanced forms and dignified poses characteristic of Neoclassical art, with careful attention to the textures of painted wood, varnished brass fittings on the schooner, and the rubber wheels of the wheelchair against weathered canvas sails.",
+        "negative_prompt": "photorealistic, 3d render, modern, digital art, photograph, low quality, blurry, distorted, surreal, abstract, cartoon, anime, fantasy, horror, deformed, ugly, disfigured, poorly drawn, bad anatomy, extra limbs, cloned face, mutilated, oversaturated, watermark, signature, text, frame",
+        "prompt_formats": {
+            "simple": "A Neoclassical painting showing a fisherman with a schooner on his shoulder and a wheelchair beside him on a dock during a gentle afternoon.",
+            "complex": "A Neoclassicism painting depicting a serene afternoon scene where a pristine navy blue and white schooner rests atop a small, smooth fisherman dressed in cream and olive tones, with a large contemporary silver and gray wheelchair positioned beside him. The fisherman sits calmly on a wooden dock, the schooner balanced delicately on his shoulder as if part of a maritime tribute, while the wheelchair's clean aluminum and steel frame reflects the soft, mixed lighting. In the background, classical architectural elements frame a bustling harbor with gentle waves and distant sailing vessels, all bathed in the bright yet subdued glow of late afternoon sunlight that creates an active yet gentle atmosphere. The composition emphasizes balanced forms and dignified poses characteristic of Neoclassical art, with careful attention to the textures of painted wood, varnished brass fittings on the schooner, and the rubber wheels of the wheelchair against weathered canvas sails.",
+            "comma_separated": "Neoclassicism painting, schooner on fisherman's shoulder, wheelchair beside fisherman, navy blue and white schooner, cream and olive fisherman, silver and gray wheelchair, wooden dock, classical architecture, harbor background, afternoon lighting, mixed soft light, bright active subdued gentle atmosphere, balanced composition, dignified poses, maritime theme",
+            "tags": "art, painting, neoclassicism, maritime, fisherman, schooner, wheelchair, dock scene, afternoon light, classical art, balanced composition, harbor, sailing vessels"
+        }
+    }
+}

@@ -1,0 +1,393 @@
+{
+    "artwork_id": "artwork_20260104_001709_844",
+    "generation_timestamp": "2026-01-04T00:17:40.918303",
+    "style": "Impressionism",
+    "objects": {
+        "object_ids": [
+            49,
+            16,
+            18,
+            26
+        ],
+        "object_names": [
+            "bread",
+            "lion",
+            "horse",
+            "umbrella"
+        ],
+        "enhanced_objects": [
+            {
+                "object_id": 49,
+                "name": "bread",
+                "artistic_description": "A rustic loaf with a golden-brown crust that catches the warm sunset glow, its surface rendered in soft, broken brushstrokes of amber, ochre, and muted yellow. The crumb appears soft and porous, with subtle highlights where the cloudy sky's diffused light touches its edges. A delicate, matte crust shows fine cracks and flour dusting that blends into the warm atmosphere.",
+                "size": "Medium",
+                "state": "Freshly baked, slightly cooling",
+                "primary_colors": [
+                    "warm golden-brown",
+                    "soft amber"
+                ],
+                "material": "bread"
+            },
+            {
+                "object_id": 16,
+                "name": "lion",
+                "artistic_description": "A majestic mane rendered in loose, flowing strokes of burnished gold, copper, and deep bronze that shimmer in the subdued sunset light. The fur appears soft and luminous, with warm highlights dancing across individual strands. The face shows gentle, diffused contours with eyes that catch the ambient warmth, while the body dissolves into atmospheric strokes of tawny ochre and shadowy umber.",
+                "size": "Large",
+                "state": "Serene and peaceful",
+                "primary_colors": [
+                    "burnished gold",
+                    "copper bronze"
+                ],
+                "material": "fur"
+            },
+            {
+                "object_id": 18,
+                "name": "horse",
+                "artistic_description": "A graceful form painted in soft, impressionistic strokes of warm chestnut and muted sienna, its coat catching the gentle sunset glow with subtle highlights of peach and rose. The mane flows in loose, feathery brushwork of silvery-gray and pale gold, blending into the cloudy atmosphere. The body shows soft edges and gentle color transitions that evoke a dreamlike quality.",
+                "size": "Large",
+                "state": "Calm and contemplative",
+                "primary_colors": [
+                    "warm chestnut",
+                    "muted sienna"
+                ],
+                "material": "horsehair"
+            },
+            {
+                "object_id": 26,
+                "name": "umbrella",
+                "artistic_description": "A translucent canopy rendered in soft, broken strokes of lavender-gray and pale blue, catching the warm sunset light with subtle pink and peach undertones. The fabric shows gentle transparency where the cloudy sky's diffused illumination passes through, creating soft, atmospheric effects. The surface appears matte and dry, with delicate highlights in muted cream and soft violet.",
+                "size": "Medium",
+                "state": "Open and protective",
+                "primary_colors": [
+                    "lavender-gray",
+                    "pale blue"
+                ],
+                "material": "fabric"
+            }
+        ]
+    },
+    "composition": {
+        "spatial_relations": [
+            [
+                49,
+                "next to",
+                16
+            ],
+            [
+                49,
+                "next to",
+                18
+            ],
+            [
+                16,
+                "next to",
+                18
+            ],
+            [
+                26,
+                "behind",
+                16
+            ],
+            [
+                26,
+                "behind",
+                18
+            ],
+            [
+                26,
+                "behind",
+                49
+            ]
+        ],
+        "semantic_relations": [
+            [
+                16,
+                "watching",
+                49
+            ],
+            [
+                18,
+                "watching",
+                49
+            ]
+        ]
+    },
+    "environment": {
+        "environment_details": {
+            "scene_brief": "A Surreal Dreamscape featuring bread, with lion, horse, and umbrella",
+            "place365_name": "/f/field/wild",
+            "place365_id": 141,
+            "time_of_day": "sunset",
+            "weather": "cloudy",
+            "period": "Contemporary",
+            "is_indoor": false,
+            "lighting": {
+                "type": "natural",
+                "quality": "soft",
+                "direction": "side-lit",
+                "mood": "warm",
+                "reasoning": "Natural lighting from the sunset, filtered by clouds, provides soft, warm tones. Side-lighting creates depth and highlights the surreal objects (bread, animals, umbrella) while maintaining the loose, brushstroke style of Impressionism."
+            },
+            "atmosphere": "warm and peaceful and subdued and gentle"
+        },
+        "scene_inference": {
+            "all_candidates": [
+                {
+                    "scene_type": "Impressionist Market Square",
+                    "plausibility": 0.85,
+                    "reasoning": "A bustling outdoor market scene. The bread is a fresh loaf on a vendor's table. A lion is a small bronze statue on the table as a shop mascot. A horse is part of a carriage in the blurred background. An umbrella is open on a nearby stall for shade.",
+                    "object_interpretations": {
+                        "bread": {
+                            "form": "real food",
+                            "scale": "normal",
+                            "role": "primary commercial object"
+                        },
+                        "lion": {
+                            "form": "sculpture",
+                            "scale": "small",
+                            "role": "decorative mascot"
+                        },
+                        "horse": {
+                            "form": "real animal",
+                            "scale": "normal",
+                            "role": "background element (pulling carriage)"
+                        },
+                        "umbrella": {
+                            "form": "real object",
+                            "scale": "normal",
+                            "role": "environmental prop (shade)"
+                        }
+                    }
+                },
+                {
+                    "scene_type": "Country Picnic",
+                    "plausibility": 0.9,
+                    "reasoning": "A family picnic in a grassy field. The bread is in a basket. A lion is a child's plush toy sitting on the blanket. A horse grazes in the distance. An umbrella provides shade over the picnic blanket.",
+                    "object_interpretations": {
+                        "bread": {
+                            "form": "real food",
+                            "scale": "normal",
+                            "role": "primary food item"
+                        },
+                        "lion": {
+                            "form": "toy",
+                            "scale": "small",
+                            "role": "child's toy"
+                        },
+                        "horse": {
+                            "form": "real animal",
+                            "scale": "large (distant)",
+                            "role": "background scenery"
+                        },
+                        "umbrella": {
+                            "form": "real object",
+                            "scale": "normal",
+                            "role": "functional prop (shade)"
+                        }
+                    }
+                },
+                {
+                    "scene_type": "Art Studio",
+                    "plausibility": 0.8,
+                    "reasoning": "An artist's studio with a still life setup. The bread is the main subject on a table. A lion is a small statue or figurine used as a paperweight. A horse is a small model or toy on a shelf. An umbrella is leaning in a corner, perhaps used for lighting setup.",
+                    "object_interpretations": {
+                        "bread": {
+                            "form": "real food",
+                            "scale": "normal",
+                            "role": "still life subject"
+                        },
+                        "lion": {
+                            "form": "sculpture/figurine",
+                            "scale": "small",
+                            "role": "studio prop/decor"
+                        },
+                        "horse": {
+                            "form": "model/toy",
+                            "scale": "small",
+                            "role": "studio clutter"
+                        },
+                        "umbrella": {
+                            "form": "real object",
+                            "scale": "normal",
+                            "role": "studio equipment"
+                        }
+                    }
+                },
+                {
+                    "scene_type": "Surreal Dreamscape",
+                    "plausibility": 0.75,
+                    "reasoning": "A dreamlike, impressionist landscape. The bread is a giant loaf floating in the sky like a cloud. A lion walks through tall grass. A horse gallops through a stream. An umbrella is stuck in the ground, blooming like a strange flower.",
+                    "object_interpretations": {
+                        "bread": {
+                            "form": "surreal object",
+                            "scale": "giant",
+                            "role": "celestial/atmospheric element"
+                        },
+                        "lion": {
+                            "form": "real animal",
+                            "scale": "normal",
+                            "role": "wildlife subject"
+                        },
+                        "horse": {
+                            "form": "real animal",
+                            "scale": "normal",
+                            "role": "wildlife subject"
+                        },
+                        "umbrella": {
+                            "form": "surreal object",
+                            "scale": "normal",
+                            "role": "surreal flora"
+                        }
+                    },
+                    "scene_brief": "A Surreal Dreamscape featuring bread, with lion, horse, and umbrella"
+                },
+                {
+                    "scene_type": "Vintage Bakery Interior",
+                    "plausibility": 0.85,
+                    "reasoning": "Inside an old-fashioned bakery. The bread is on display. A lion is a weathered statue or sign outside the window. A horse is pulling a delivery cart visible through the window. An umbrella is hanging on a hook near the door.",
+                    "object_interpretations": {
+                        "bread": {
+                            "form": "real food",
+                            "scale": "normal",
+                            "role": "primary product"
+                        },
+                        "lion": {
+                            "form": "statue/sign",
+                            "scale": "normal",
+                            "role": "exterior decoration"
+                        },
+                        "horse": {
+                            "form": "real animal",
+                            "scale": "normal",
+                            "role": "exterior activity"
+                        },
+                        "umbrella": {
+                            "form": "real object",
+                            "scale": "normal",
+                            "role": "interior prop"
+                        }
+                    }
+                },
+                {
+                    "scene_type": "Fairytale Forest",
+                    "plausibility": 0.7,
+                    "reasoning": "A magical forest clearing. The bread is a loaf left by a traveler on a mossy log. A lion is a guardian of the forest. A horse is a unicorn-like creature. An umbrella is a giant mushroom or a magical shield.",
+                    "object_interpretations": {
+                        "bread": {
+                            "form": "real food",
+                            "scale": "normal",
+                            "role": "narrative prop"
+                        },
+                        "lion": {
+                            "form": "real animal",
+                            "scale": "normal",
+                            "role": "magical creature"
+                        },
+                        "horse": {
+                            "form": "fantasy creature",
+                            "scale": "normal",
+                            "role": "magical creature"
+                        },
+                        "umbrella": {
+                            "form": "fantasy object",
+                            "scale": "large",
+                            "role": "environmental feature"
+                        }
+                    }
+                },
+                {
+                    "scene_type": "Rainy City Street",
+                    "plausibility": 0.8,
+                    "reasoning": "A wet city street scene. The bread is in a paper bag on a cafe table. A lion is a logo on a shop sign. A horse is a carriage horse in the background. An umbrella is held by a passerby or open on a table.",
+                    "object_interpretations": {
+                        "bread": {
+                            "form": "real food",
+                            "scale": "normal",
+                            "role": "casual meal"
+                        },
+                        "lion": {
+                            "form": "graphic/logo",
+                            "scale": "normal",
+                            "role": "branding"
+                        },
+                        "horse": {
+                            "form": "real animal",
+                            "scale": "normal",
+                            "role": "transportation"
+                        },
+                        "umbrella": {
+                            "form": "real object",
+                            "scale": "normal",
+                            "role": "weather protection"
+                        }
+                    }
+                },
+                {
+                    "scene_type": "Farmyard",
+                    "plausibility": 0.9,
+                    "reasoning": "A rustic farm scene. The bread is on a table for lunch. A lion is a small toy or figurine belonging to a farm child. A horse is in the stable or pasture. An umbrella is used to protect seedlings or as a garden decoration.",
+                    "object_interpretations": {
+                        "bread": {
+                            "form": "real food",
+                            "scale": "normal",
+                            "role": "meal"
+                        },
+                        "lion": {
+                            "form": "toy",
+                            "scale": "small",
+                            "role": "child's possession"
+                        },
+                        "horse": {
+                            "form": "real animal",
+                            "scale": "normal",
+                            "role": "farm animal"
+                        },
+                        "umbrella": {
+                            "form": "real object",
+                            "scale": "normal",
+                            "role": "garden tool/decor"
+                        }
+                    }
+                }
+            ],
+            "selected_scene": {
+                "scene_type": "Surreal Dreamscape",
+                "plausibility": 0.75,
+                "reasoning": "A dreamlike, impressionist landscape. The bread is a giant loaf floating in the sky like a cloud. A lion walks through tall grass. A horse gallops through a stream. An umbrella is stuck in the ground, blooming like a strange flower.",
+                "object_interpretations": {
+                    "bread": {
+                        "form": "surreal object",
+                        "scale": "giant",
+                        "role": "celestial/atmospheric element"
+                    },
+                    "lion": {
+                        "form": "real animal",
+                        "scale": "normal",
+                        "role": "wildlife subject"
+                    },
+                    "horse": {
+                        "form": "real animal",
+                        "scale": "normal",
+                        "role": "wildlife subject"
+                    },
+                    "umbrella": {
+                        "form": "surreal object",
+                        "scale": "normal",
+                        "role": "surreal flora"
+                    }
+                },
+                "scene_brief": "A Surreal Dreamscape featuring bread, with lion, horse, and umbrella"
+            }
+        }
+    },
+    "final_prompts": {
+        "main_prompt": "A Impressionism painting depicting a warm and peaceful sunset scene with natural soft lighting. In the foreground, a large serene lion with burnished gold and copper bronze fur sits calmly beside a large contemplative horse in warm chestnut and muted sienna tones. Between them rests a medium-sized loaf of freshly baked bread with a warm golden-brown, soft amber crust. Behind this tranquil group, positioned to shelter all three, stands a medium-sized open umbrella in lavender-gray and pale blue fabric, casting a gentle protective shadow. The spatial arrangement shows the bread nestled between the lion and horse, with the umbrella creating a cohesive backdrop behind all three subjects. The atmosphere is subdued and gentle, with the sunset casting long, soft shadows and bathing the entire scene in a warm, peaceful glow that unifies the colors of fur, horsehair, bread crust, and fabric into a harmonious composition.",
+        "negative_prompt": "photorealistic, 3d render, modern, digital art, photograph, low quality, blurry, distorted, cartoon, anime, surreal, fantasy, violent, aggressive, sharp focus, hyperdetailed, text, watermark, signature, frame",
+        "prompt_formats": {
+            "simple": "An Impressionist sunset scene with a lion, horse, bread, and umbrella in a peaceful arrangement.",
+            "complex": "A Impressionism painting depicting a warm and peaceful sunset scene with natural soft lighting. In the foreground, a large serene lion with burnished gold and copper bronze fur sits calmly beside a large contemplative horse in warm chestnut and muted sienna tones. Between them rests a medium-sized loaf of freshly baked bread with a warm golden-brown, soft amber crust. Behind this tranquil group, positioned to shelter all three, stands a medium-sized open umbrella in lavender-gray and pale blue fabric, casting a gentle protective shadow. The spatial arrangement shows the bread nestled between the lion and horse, with the umbrella creating a cohesive backdrop behind all three subjects. The atmosphere is subdued and gentle, with the sunset casting long, soft shadows and bathing the entire scene in a warm, peaceful glow that unifies the colors of fur, horsehair, bread crust, and fabric into a harmonious composition.",
+            "comma_separated": "Impressionism painting, sunset, warm peaceful atmosphere, natural soft lighting, large serene lion, burnished gold copper bronze fur, large calm horse, warm chestnut muted sienna, medium freshly baked bread, warm golden-brown soft amber crust, medium open umbrella, lavender-gray pale blue fabric, bread between lion and horse, umbrella behind all three, subdued gentle atmosphere, soft shadows, harmonious composition",
+            "tags": "art, painting, impressionism, sunset, lion, horse, bread, umbrella, peaceful, serene, warm lighting, animal painting, still life, outdoor scene, Claude Monet style, Pierre-Auguste Renoir style, soft brushstrokes, color harmony"
+        }
+    }
+}

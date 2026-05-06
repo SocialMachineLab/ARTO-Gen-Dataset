@@ -1,0 +1,347 @@
+{
+    "artwork_id": "artwork_20260103_214432_748",
+    "generation_timestamp": "2026-01-03T21:45:06.020455",
+    "style": "Chinese Ink Painting",
+    "objects": {
+        "object_ids": [
+            74,
+            76,
+            50
+        ],
+        "object_names": [
+            "book",
+            "vase",
+            "orange"
+        ],
+        "enhanced_objects": [
+            {
+                "object_id": 74,
+                "name": "book",
+                "artistic_description": "A weathered tome with softened leather binding, its spine showing delicate brushstroke-like cracks from age. The pages glow with a warm amber hue from afternoon sunlight filtering through dust motes, creating subtle gradations of sepia and cream. Inked characters appear as faint, ghostly impressions where light has faded the original black pigment into warm brown tones. The cover bears the patina of handling, with edges worn to pale gold, catching light like dry brush highlights.",
+                "size": "Medium",
+                "state": "aged and sun-bleached from years of display",
+                "primary_colors": [
+                    "warm sepia",
+                    "faded amber"
+                ],
+                "material": "leather and paper"
+            },
+            {
+                "object_id": 76,
+                "name": "vase",
+                "artistic_description": "A celadon-glazed ceramic vessel whose surface captures the bright afternoon light with a soft, luminous quality. The glaze shows subtle crackling like fine ink washes, with shadows pooling in the crevices as deep forest green. Where light strikes the curve, it blooms into pale jade and silver-gray, while the shaded side deepens to mossy shadows. The surface reflects the gentle atmosphere with a matte yet slightly luminous finish, absorbing and scattering light like rice paper.",
+                "size": "Medium",
+                "state": "glazed ceramic with fine age lines in the surface",
+                "primary_colors": [
+                    "pale jade",
+                    "mossy shadow"
+                ],
+                "material": "ceramic"
+            },
+            {
+                "object_id": 50,
+                "name": "orange",
+                "artistic_description": "A single citrus fruit whose peel glows with saturated warmth against the neutral backdrop, its skin textured with tiny dimples that catch light like stippled brushwork. The color radiates from deep burnt orange at the stem to vibrant tangerine where afternoon sun kisses its surface, creating a halo of golden light. Its form appears almost translucent where the skin is thin, with a matte finish that diffuses the bright illumination into a soft, glowing sphere.",
+                "size": "Small",
+                "state": "fresh and vibrant, slightly dried from indoor air",
+                "primary_colors": [
+                    "burnt orange",
+                    "tangerine"
+                ],
+                "material": "fruit peel"
+            }
+        ]
+    },
+    "composition": {
+        "spatial_relations": [
+            [
+                74,
+                "on",
+                76
+            ],
+            [
+                50,
+                "next to",
+                74
+            ]
+        ],
+        "semantic_relations": []
+    },
+    "environment": {
+        "environment_details": {
+            "scene_brief": "A Antique Shop Shelf featuring book, with vase, and decorative orange as decoration",
+            "place365_name": "/b/bookstore",
+            "place365_id": 60,
+            "time_of_day": "afternoon",
+            "weather": null,
+            "period": "Early Modern",
+            "is_indoor": true,
+            "lighting": {
+                "type": "natural",
+                "quality": "soft",
+                "direction": "side-lit",
+                "mood": "warm",
+                "reasoning": "Soft, side-lit natural light (typical of an afternoon sun through a window) creates gentle shadows that define the form of the vase and the texture of the books. This lighting style complements the tonal range of Chinese Ink Painting, allowing for rich blacks and subtle grays without harsh contrast."
+            },
+            "atmosphere": "bright and active and gentle"
+        },
+        "scene_inference": {
+            "all_candidates": [
+                {
+                    "scene_type": "Scholar's Study",
+                    "plausibility": 0.95,
+                    "reasoning": "A traditional Chinese scholar's desk setting. The book is the primary object of study. The vase holds a single plum blossom branch, a classic motif. The orange is a simple offering or a piece of still life fruit, representing the scholar's simple sustenance.",
+                    "object_interpretations": {
+                        "book": {
+                            "form": "real book",
+                            "scale": "normal",
+                            "role": "primary object of study"
+                        },
+                        "vase": {
+                            "form": "ceramic vase",
+                            "scale": "normal",
+                            "role": "decorative element holding a branch"
+                        },
+                        "orange": {
+                            "form": "real fruit",
+                            "scale": "normal",
+                            "role": "still life element / offering"
+                        }
+                    }
+                },
+                {
+                    "scene_type": "Teahouse Window Sill",
+                    "plausibility": 0.9,
+                    "reasoning": "A quiet moment in a teahouse. A book is left open on the wooden sill. A simple ceramic vase sits nearby, perhaps empty or with a dried flower. An orange is placed as a refreshment, its round shape contrasting with the rectangular book.",
+                    "object_interpretations": {
+                        "book": {
+                            "form": "real book",
+                            "scale": "normal",
+                            "role": "primary object of leisure"
+                        },
+                        "vase": {
+                            "form": "simple ceramic vase",
+                            "scale": "normal",
+                            "role": "decorative element"
+                        },
+                        "orange": {
+                            "form": "real fruit",
+                            "scale": "normal",
+                            "role": "refreshment"
+                        }
+                    }
+                },
+                {
+                    "scene_type": "Art Studio Still Life",
+                    "plausibility": 0.85,
+                    "reasoning": "A composition arranged for an ink painting. The book, vase, and orange are the subjects. The book is open, showing text. The vase is stylized. The orange provides a focal point of organic roundness. The scene is the arrangement itself.",
+                    "object_interpretations": {
+                        "book": {
+                            "form": "real book",
+                            "scale": "normal",
+                            "role": "primary subject of the composition"
+                        },
+                        "vase": {
+                            "form": "ceramic vase",
+                            "scale": "normal",
+                            "role": "secondary subject"
+                        },
+                        "orange": {
+                            "form": "real fruit",
+                            "scale": "normal",
+                            "role": "tertiary subject / compositional balance"
+                        }
+                    }
+                },
+                {
+                    "scene_type": "Courtyard Garden",
+                    "plausibility": 0.8,
+                    "reasoning": "An outdoor scene on a stone table. A scholar has left their book open. A vase with a flowering plant sits on the table. An orange has been placed there, perhaps picked from a nearby tree.",
+                    "object_interpretations": {
+                        "book": {
+                            "form": "real book",
+                            "scale": "normal",
+                            "role": "primary object of study"
+                        },
+                        "vase": {
+                            "form": "ornate vase",
+                            "scale": "normal",
+                            "role": "decorative element with plant"
+                        },
+                        "orange": {
+                            "form": "real fruit",
+                            "scale": "normal",
+                            "role": "natural element"
+                        }
+                    }
+                },
+                {
+                    "scene_type": "Library Reading Nook",
+                    "plausibility": 0.9,
+                    "reasoning": "A cozy corner of a library. A book is on a small table. A vase with a single flower adds elegance. An orange is an unusual but welcome snack for a reader.",
+                    "object_interpretations": {
+                        "book": {
+                            "form": "real book",
+                            "scale": "normal",
+                            "role": "primary object of reading"
+                        },
+                        "vase": {
+                            "form": "delicate vase",
+                            "scale": "normal",
+                            "role": "decorative element"
+                        },
+                        "orange": {
+                            "form": "real fruit",
+                            "scale": "normal",
+                            "role": "snack"
+                        }
+                    }
+                },
+                {
+                    "scene_type": "Ink Painting Workshop",
+                    "plausibility": 0.85,
+                    "reasoning": "The workshop of a painter. A book of poetry is open for inspiration. A vase is being used as a model for a painting. An orange is part of a separate still life arrangement.",
+                    "object_interpretations": {
+                        "book": {
+                            "form": "real book",
+                            "scale": "normal",
+                            "role": "inspiration / reference"
+                        },
+                        "vase": {
+                            "form": "ceramic vase",
+                            "scale": "normal",
+                            "role": "artist's model"
+                        },
+                        "orange": {
+                            "form": "real fruit",
+                            "scale": "normal",
+                            "role": "still life subject"
+                        }
+                    }
+                },
+                {
+                    "scene_type": "Antique Shop Shelf",
+                    "plausibility": 0.75,
+                    "reasoning": "A shelf in an antique shop. An old book is for sale. A vintage vase is displayed next to it. A ceramic orange is a decorative object, part of a collection.",
+                    "object_interpretations": {
+                        "book": {
+                            "form": "antique book",
+                            "scale": "normal",
+                            "role": "item for sale"
+                        },
+                        "vase": {
+                            "form": "vintage vase",
+                            "scale": "normal",
+                            "role": "item for sale"
+                        },
+                        "orange": {
+                            "form": "ceramic decorative object",
+                            "scale": "normal",
+                            "role": "decorative item"
+                        }
+                    },
+                    "scene_brief": "A Antique Shop Shelf featuring book, with vase, and decorative orange as decoration"
+                },
+                {
+                    "scene_type": "Guest Room Table",
+                    "plausibility": 0.8,
+                    "reasoning": "A simple guest room. A book is provided for the guest. A vase with a welcome flower. An orange is a welcoming gift from the host.",
+                    "object_interpretations": {
+                        "book": {
+                            "form": "real book",
+                            "scale": "normal",
+                            "role": "guest amenity"
+                        },
+                        "vase": {
+                            "form": "simple vase",
+                            "scale": "normal",
+                            "role": "welcome decoration"
+                        },
+                        "orange": {
+                            "form": "real fruit",
+                            "scale": "normal",
+                            "role": "welcome gift"
+                        }
+                    }
+                },
+                {
+                    "scene_type": "Poet's Desk",
+                    "plausibility": 0.9,
+                    "reasoning": "A poet's writing desk. A book of classic poems is open. A vase with a single branch inspires. An orange is a simple, contemplative object.",
+                    "object_interpretations": {
+                        "book": {
+                            "form": "real book",
+                            "scale": "normal",
+                            "role": "inspiration"
+                        },
+                        "vase": {
+                            "form": "minimalist vase",
+                            "scale": "normal",
+                            "role": "inspiration"
+                        },
+                        "orange": {
+                            "form": "real fruit",
+                            "scale": "normal",
+                            "role": "contemplative object"
+                        }
+                    }
+                },
+                {
+                    "scene_type": "Traditional Restaurant Table",
+                    "plausibility": 0.7,
+                    "reasoning": "A table setting in a traditional restaurant. A menu (book) is present. A decorative vase is on the table. An orange is part of a dessert or a palate cleanser.",
+                    "object_interpretations": {
+                        "book": {
+                            "form": "menu book",
+                            "scale": "normal",
+                            "role": "information"
+                        },
+                        "vase": {
+                            "form": "decorative vase",
+                            "scale": "normal",
+                            "role": "decoration"
+                        },
+                        "orange": {
+                            "form": "real fruit",
+                            "scale": "normal",
+                            "role": "food item"
+                        }
+                    }
+                }
+            ],
+            "selected_scene": {
+                "scene_type": "Antique Shop Shelf",
+                "plausibility": 0.75,
+                "reasoning": "A shelf in an antique shop. An old book is for sale. A vintage vase is displayed next to it. A ceramic orange is a decorative object, part of a collection.",
+                "object_interpretations": {
+                    "book": {
+                        "form": "antique book",
+                        "scale": "normal",
+                        "role": "item for sale"
+                    },
+                    "vase": {
+                        "form": "vintage vase",
+                        "scale": "normal",
+                        "role": "item for sale"
+                    },
+                    "orange": {
+                        "form": "ceramic decorative object",
+                        "scale": "normal",
+                        "role": "decorative item"
+                    }
+                },
+                "scene_brief": "A Antique Shop Shelf featuring book, with vase, and decorative orange as decoration"
+            }
+        }
+    },
+    "final_prompts": {
+        "main_prompt": "A Chinese Ink Painting painting depicting a quiet scholar's afternoon study. In the foreground, a medium-sized pale jade ceramic vase with fine age lines and mossy shadows stands prominently. Resting atop this glazed vase is a medium-sized, aged book with warm sepia and faded amber tones, its leather cover and paper pages sun-bleached from years of gentle use. Beside the book, a small, vibrant orange with burnt orange and tangerine hues sits on the same surface, its fresh peel contrasting with the aged objects. The composition is arranged on a simple wooden table, with soft, natural afternoon light streaming through a nearby window, creating a bright, active yet gentle atmosphere where light and shadow play across the textured materials of leather, ceramic, and fruit.",
+        "negative_prompt": "photorealistic, 3d render, modern, digital art, photograph, low quality, blurry, distorted, cartoon, anime, western painting, oil painting, watercolor, surreal, abstract, deformed, ugly, bad anatomy",
+        "prompt_formats": {
+            "simple": "A Chinese ink painting of a book resting on a vase with an orange beside it in soft afternoon light.",
+            "complex": "A Chinese Ink Painting painting depicting a quiet scholar's afternoon study. In the foreground, a medium-sized pale jade ceramic vase with fine age lines and mossy shadows stands prominently. Resting atop this glazed vase is a medium-sized, aged book with warm sepia and faded amber tones, its leather cover and paper pages sun-bleached from years of gentle use. Beside the book, a small, vibrant orange with burnt orange and tangerine hues sits on the same surface, its fresh peel contrasting with the aged objects. The composition is arranged on a simple wooden table, with soft, natural afternoon light streaming through a nearby window, creating a bright, active yet gentle atmosphere where light and shadow play across the textured materials of leather, ceramic, and fruit.",
+            "comma_separated": "Chinese Ink Painting, book on vase, orange beside book, medium pale jade vase, medium warm sepia book, small burnt orange fruit, afternoon lighting, natural soft light, bright active gentle atmosphere, aged materials, scholar's study",
+            "tags": "art, painting, chinese ink painting, ink wash, literati painting, still life, book, vase, orange, scholar, study, afternoon, natural light, traditional art"
+        }
+    }
+}

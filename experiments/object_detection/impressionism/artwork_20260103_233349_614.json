@@ -1,0 +1,259 @@
+{
+    "artwork_id": "artwork_20260103_233349_614",
+    "generation_timestamp": "2026-01-03T23:34:22.158361",
+    "style": "Impressionism",
+    "objects": {
+        "object_ids": [
+            8,
+            42,
+            50
+        ],
+        "object_names": [
+            "cannon",
+            "coffee cup",
+            "lemon"
+        ],
+        "enhanced_objects": [
+            {
+                "object_id": 8,
+                "name": "cannon",
+                "artistic_description": "A miniature cannon rendered in soft, diffused afternoon light filtering through cloudy skies. The metallic surface catches muted silvery highlights with subtle blue-gray reflections from the overcast atmosphere. Weathered bronze patina shows through in patches, creating a tapestry of warm browns and cool grays. The impressionistic treatment emphasizes the play of subdued light across its curved form, with edges softly blurred and texture suggested through broken brushstrokes of tarnished metal tones.",
+                "size": "Medium",
+                "state": "antique model with gentle tarnish and preserved patina",
+                "primary_colors": [
+                    "tarnished bronze",
+                    "cool gray"
+                ],
+                "material": "bronze"
+            },
+            {
+                "object_id": 42,
+                "name": "coffee cup",
+                "artistic_description": "Delicate porcelain cup bathed in soft, cool natural light that reveals subtle variations in its creamy white surface. The cloudy atmosphere creates a gentle, even illumination without harsh shadows, allowing faint hints of warm ivory to emerge where the glaze pools. Steam rises in wispy, broken strokes of pale gray, dissolving into the bright, subdued air. The impressionistic style captures the luminous quality of fine china with soft edges and atmospheric blending.",
+                "size": "Small",
+                "state": "freshly poured, warm beverage with delicate steam",
+                "primary_colors": [
+                    "creamy white",
+                    "warm ivory"
+                ],
+                "material": "porcelain"
+            },
+            {
+                "object_id": 50,
+                "name": "lemon",
+                "artistic_description": "Vibrant lemon glowing with saturated yellow against the muted, cloudy light of the parlor. The fruit's surface shows a complex interplay of cool highlights from the overcast sky and warm undertones from its natural color. Soft, matte texture absorbs and diffuses the gentle light, creating a velvety appearance. Impressionistic dabs of pale green and golden ochre suggest the fruit's organic texture and the way natural light reveals its form in the subdued atmosphere.",
+                "size": "Small",
+                "state": "fresh, ripe fruit with matte skin",
+                "primary_colors": [
+                    "saturated yellow",
+                    "pale green"
+                ],
+                "material": "fruit skin"
+            }
+        ]
+    },
+    "composition": {
+        "spatial_relations": [
+            [
+                8,
+                "on",
+                42
+            ],
+            [
+                50,
+                "next to",
+                42
+            ]
+        ],
+        "semantic_relations": []
+    },
+    "environment": {
+        "environment_details": {
+            "scene_brief": "A Victorian Parlor featuring cannon model, with coffee cup, and lemon",
+            "place365_name": "/l/living_room",
+            "place365_id": 215,
+            "time_of_day": "afternoon",
+            "weather": "cloudy",
+            "period": "Contemporary",
+            "is_indoor": true,
+            "lighting": {
+                "type": "natural",
+                "quality": "soft",
+                "direction": "side-lit",
+                "mood": "warm",
+                "reasoning": "Combining an afternoon time with cloudy weather results in soft, diffused natural light. A side-lit direction (typical of a window in a parlor) would beautifully illuminate the distinct textures of the objects (the smooth ceramic, the intricate metal model, and the organic skin of the lemon), allowing the Impressionist brushwork to capture subtle variations in color and light."
+            },
+            "atmosphere": "bright and active and subdued and gentle"
+        },
+        "scene_inference": {
+            "all_candidates": [
+                {
+                    "scene_type": "Historical Reenactment Camp",
+                    "plausibility": 0.95,
+                    "reasoning": "A historical reenactment camp features a cannon as the main attraction. The lemon could be a prop for a sailor's ration or a still-life subject for a painter, and the coffee cup belongs to a reenactor taking a break. The Impressionist style would capture the dappled light and fleeting moments of the scene.",
+                    "object_interpretations": {
+                        "cannon": {
+                            "form": "real cannon",
+                            "scale": "normal",
+                            "role": "primary historical artifact"
+                        },
+                        "coffee cup": {
+                            "form": "ceramic cup",
+                            "scale": "normal",
+                            "role": "personal belonging of a reenactor"
+                        },
+                        "lemon": {
+                            "form": "real fruit",
+                            "scale": "normal",
+                            "role": "prop or decorative element"
+                        }
+                    }
+                },
+                {
+                    "scene_type": "Art Studio",
+                    "plausibility": 0.9,
+                    "reasoning": "In an artist's studio, a small cannon model serves as a still-life object. A lemon is a classic still-life item, and a coffee cup is the artist's drink. The Impressionist style is the artist's chosen medium, focusing on light and color over sharp detail.",
+                    "object_interpretations": {
+                        "cannon": {
+                            "form": "model cannon",
+                            "scale": "miniature",
+                            "role": "still-life subject"
+                        },
+                        "coffee cup": {
+                            "form": "ceramic cup",
+                            "scale": "normal",
+                            "role": "artist's personal item"
+                        },
+                        "lemon": {
+                            "form": "real fruit",
+                            "scale": "normal",
+                            "role": "still-life subject"
+                        }
+                    }
+                },
+                {
+                    "scene_type": "Museum Gift Shop",
+                    "plausibility": 0.85,
+                    "reasoning": "A gift shop in a military or maritime museum. A large cannon is visible through the window or in the courtyard. Inside, shelves hold miniature cannon replicas (as souvenirs), coffee mugs with cannon logos, and lemon-shaped soaps or candies.",
+                    "object_interpretations": {
+                        "cannon": {
+                            "form": "real cannon",
+                            "scale": "large",
+                            "role": "viewable artifact outside"
+                        },
+                        "coffee cup": {
+                            "form": "mug",
+                            "scale": "normal",
+                            "role": "souvenir for sale"
+                        },
+                        "lemon": {
+                            "form": "candy/soap",
+                            "scale": "normal",
+                            "role": "souvenir for sale"
+                        }
+                    }
+                },
+                {
+                    "scene_type": "Victorian Parlor",
+                    "plausibility": 0.8,
+                    "reasoning": "A wealthy Victorian home where a small, decorative cannon model sits on a mantelpiece as a trophy or curiosity. A fine china coffee cup is on a nearby table, and a lemon may be part of a decorative bowl of fruit or used for making punch.",
+                    "object_interpretations": {
+                        "cannon": {
+                            "form": "decorative model",
+                            "scale": "small",
+                            "role": "curiosity/trophy"
+                        },
+                        "coffee cup": {
+                            "form": "fine china",
+                            "scale": "normal",
+                            "role": "tableware"
+                        },
+                        "lemon": {
+                            "form": "real fruit",
+                            "scale": "normal",
+                            "role": "food/decor"
+                        }
+                    },
+                    "scene_brief": "A Victorian Parlor featuring cannon model, with coffee cup, and lemon"
+                },
+                {
+                    "scene_type": "Coastal Fortification",
+                    "plausibility": 0.9,
+                    "reasoning": "A seaside fort with a cannon aimed at the ocean. A soldier's coffee cup sits on the cannon's carriage, and a lemon is part of his packed lunch, used to ward off scurvy. The Impressionist style blurs the line between sea, sky, and land.",
+                    "object_interpretations": {
+                        "cannon": {
+                            "form": "real cannon",
+                            "scale": "normal",
+                            "role": "defensive weapon"
+                        },
+                        "coffee cup": {
+                            "form": "metal mug",
+                            "scale": "normal",
+                            "role": "soldier's drinkware"
+                        },
+                        "lemon": {
+                            "form": "real fruit",
+                            "scale": "normal",
+                            "role": "soldier's ration"
+                        }
+                    }
+                },
+                {
+                    "scene_type": "Surreal Dreamscape",
+                    "plausibility": 0.7,
+                    "reasoning": "In a dreamlike, Impressionist landscape, a cannon might be floating in the sky or sitting in a field of oversized flowers. A coffee cup could be a cloud, and a lemon could be a bright yellow sun or moon. The objects are symbolic and abstracted.",
+                    "object_interpretations": {
+                        "cannon": {
+                            "form": "surreal object",
+                            "scale": "variable",
+                            "role": "dream symbol"
+                        },
+                        "coffee cup": {
+                            "form": "cloud/vapor",
+                            "scale": "large",
+                            "role": "atmospheric element"
+                        },
+                        "lemon": {
+                            "form": "celestial body",
+                            "scale": "massive",
+                            "role": "light source"
+                        }
+                    }
+                }
+            ],
+            "selected_scene": {
+                "scene_type": "Victorian Parlor",
+                "plausibility": 0.8,
+                "reasoning": "A wealthy Victorian home where a small, decorative cannon model sits on a mantelpiece as a trophy or curiosity. A fine china coffee cup is on a nearby table, and a lemon may be part of a decorative bowl of fruit or used for making punch.",
+                "object_interpretations": {
+                    "cannon": {
+                        "form": "decorative model",
+                        "scale": "small",
+                        "role": "curiosity/trophy"
+                    },
+                    "coffee cup": {
+                        "form": "fine china",
+                        "scale": "normal",
+                        "role": "tableware"
+                    },
+                    "lemon": {
+                        "form": "real fruit",
+                        "scale": "normal",
+                        "role": "food/decor"
+                    }
+                },
+                "scene_brief": "A Victorian Parlor featuring cannon model, with coffee cup, and lemon"
+            }
+        }
+    },
+    "final_prompts": {
+        "main_prompt": "A Impressionism painting depicting a quiet afternoon scene where a medium-sized, tarnished bronze cannon with cool gray patina rests gently atop a small, creamy white coffee cup that appears freshly poured with warm ivory steam rising. Beside this arrangement, a small, fresh lemon with saturated yellow skin and pale green accents sits on the same surface, catching the soft natural light. The composition places the cannon and cup in the foreground as focal points, with the lemon slightly to the side in the midground, all arranged on a rustic wooden table. The atmosphere is bright and active yet subdued and gentle, with dappled afternoon sunlight filtering through nearby foliage, creating lively brushstrokes of light and shadow that blur the boundaries between objects and their surroundings in true Impressionist style.",
+        "negative_prompt": "photorealistic, 3d render, modern, digital art, photograph, low quality, blurry, distorted, surreal, cartoon, anime, hyperrealistic, sharp focus, high contrast, oversaturated",
+        "prompt_formats": {
+            "simple": "An Impressionist painting of a bronze cannon on a coffee cup with a lemon beside it in soft afternoon light.",
+            "complex": "A Impressionism painting depicting a quiet afternoon scene where a medium-sized, tarnished bronze cannon with cool gray patina rests gently atop a small, creamy white coffee cup that appears freshly poured with warm ivory steam rising. Beside this arrangement, a small, fresh lemon with saturated yellow skin and pale green accents sits on the same surface, catching the soft natural light. The composition places the cannon and cup in the foreground as focal points, with the lemon slightly to the side in the midground, all arranged on a rustic wooden table. The atmosphere is bright and active yet subdued and gentle, with dappled afternoon sunlight filtering through nearby foliage, creating lively brushstrokes of light and shadow that blur the boundaries between objects and their surroundings in true Impressionist style.",
+            "comma_separated": "Impressionism painting, tarnished bronze cannon on creamy white coffee cup, fresh lemon beside cup, medium cannon, small cup, small lemon, cool gray patina, warm ivory porcelain, saturated yellow fruit, soft afternoon lighting, dappled sunlight, bright active subdued gentle atmosphere, rustic wooden table, loose brushstrokes, light and shadow play",
+            "tags": "art, painting, impressionism, still life, bronze cannon, coffee cup, lemon, afternoon light, soft lighting, tarnished metal, porcelain, fruit, composition, brushstrokes, atmospheric"
+        }
+    }
+}

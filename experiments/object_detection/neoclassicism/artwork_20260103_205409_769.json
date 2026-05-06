@@ -1,0 +1,303 @@
+{
+    "artwork_id": "artwork_20260103_205409_769",
+    "generation_timestamp": "2026-01-03T20:54:42.560752",
+    "style": "Neoclassicism",
+    "objects": {
+        "object_ids": [
+            18,
+            79,
+            19
+        ],
+        "object_names": [
+            "mule",
+            "comb",
+            "goat"
+        ],
+        "enhanced_objects": [
+            {
+                "object_id": 18,
+                "name": "mule",
+                "artistic_description": "A sturdy mule with a coat that glows with warm amber tones under the bright afternoon sun, its hide showing subtle variations of ochre and sienna where light catches the short, sleek hair. The animal's muscular form is rendered with classical precision, its dark mane and tail contrasting sharply against the sunlit body, while a gentle sheen of perspiration creates delicate highlights along the shoulders and flanks, reflecting the golden light with a soft, satin-like quality.",
+                "size": "Large",
+                "state": "alert and attentive, standing in the bright sunlight with muscles subtly defined by strong directional lighting",
+                "primary_colors": [
+                    "warm amber",
+                    "deep sienna"
+                ],
+                "material": "living hide and hair"
+            },
+            {
+                "object_id": 79,
+                "name": "comb",
+                "artistic_description": "A wooden comb with teeth worn smooth by use, its surface catching the afternoon light with a soft, honeyed glow. The natural grain of the wood creates subtle striations in warm brown tones, while the edges show a gentle patina from handling. Sunlight glints off the polished wooden surface, creating small highlights that emphasize the classical craftsmanship and the organic texture of the material.",
+                "size": "Small",
+                "state": "well-used and polished, resting on a dry surface where it casts a crisp, dark shadow",
+                "primary_colors": [
+                    "honey brown",
+                    "golden amber"
+                ],
+                "material": "wood"
+            },
+            {
+                "object_id": 19,
+                "name": "goat",
+                "artistic_description": "A shaggy goat whose coat absorbs and reflects the bright sunlight in complex ways, the coarse hair creating a textured surface of cream and warm buff tones. The afternoon light defines the animal's angular features with sharp clarity, casting strong shadows that emphasize the ridges of its horns and the rough texture of its coat. A subtle golden halo appears where the sun backlights the wiry hair, while the dark eyes gleam with reflected light.",
+                "size": "Medium",
+                "state": "active and alert, with strong highlights and deep shadows creating dramatic chiaroscuro on its textured form",
+                "primary_colors": [
+                    "cream",
+                    "warm buff"
+                ],
+                "material": "living hide, hair, and horn"
+            }
+        ]
+    },
+    "composition": {
+        "spatial_relations": [
+            [
+                18,
+                "next to",
+                19
+            ],
+            [
+                79,
+                "on",
+                18
+            ]
+        ],
+        "semantic_relations": []
+    },
+    "environment": {
+        "environment_details": {
+            "scene_brief": "A classical pastoral landscape featuring mule, with comb, and goat",
+            "place365_name": "/f/field",
+            "place365_id": 21,
+            "time_of_day": "afternoon",
+            "weather": "sunny",
+            "period": "Classical",
+            "is_indoor": false,
+            "lighting": {
+                "type": "natural",
+                "quality": "harsh",
+                "direction": "side-lit",
+                "mood": "warm",
+                "reasoning": "Direct afternoon sun creates strong, harsh shadows and highlights. Side-lighting is ideal for revealing the three-dimensional volume of the animals and the contours of the terrain. The warm tone of the afternoon sun adds a nostalgic, golden quality to the idealized pastoral scene."
+            },
+            "atmosphere": "bright and active and cheerful"
+        },
+        "scene_inference": {
+            "all_candidates": [
+                {
+                    "scene_type": "rural farm stable",
+                    "plausibility": 0.95,
+                    "reasoning": "The mule is a primary farm animal, the goat is another common barnyard animal, and the comb can be a grooming tool used by a farmer in the stable.",
+                    "object_interpretations": {
+                        "mule": {
+                            "form": "real animal",
+                            "scale": "normal",
+                            "role": "primary working animal"
+                        },
+                        "goat": {
+                            "form": "real animal",
+                            "scale": "normal",
+                            "role": "companion barnyard animal"
+                        },
+                        "comb": {
+                            "form": "real tool",
+                            "scale": "handheld",
+                            "role": "grooming implement"
+                        }
+                    }
+                },
+                {
+                    "scene_type": "classical pastoral landscape",
+                    "plausibility": 0.9,
+                    "reasoning": "A Neoclassical landscape often features idealized rural life. A mule and goat can graze together in a field, while a comb might be a prop for a shepherdess figure or a dropped item.",
+                    "object_interpretations": {
+                        "mule": {
+                            "form": "real animal",
+                            "scale": "normal",
+                            "role": "grazing livestock"
+                        },
+                        "goat": {
+                            "form": "real animal",
+                            "scale": "normal",
+                            "role": "grazing livestock"
+                        },
+                        "comb": {
+                            "form": "decorative prop",
+                            "scale": "normal",
+                            "role": "symbol of pastoral grooming or vanity"
+                        }
+                    },
+                    "scene_brief": "A classical pastoral landscape featuring mule, with comb, and goat"
+                },
+                {
+                    "scene_type": "veterinary examination room",
+                    "plausibility": 0.85,
+                    "reasoning": "A mule and goat might both be patients in a rural veterinary clinic. The comb is a tool for examining fur or treating skin conditions.",
+                    "object_interpretations": {
+                        "mule": {
+                            "form": "real animal",
+                            "scale": "normal",
+                            "role": "patient"
+                        },
+                        "goat": {
+                            "form": "real animal",
+                            "scale": "normal",
+                            "role": "patient"
+                        },
+                        "comb": {
+                            "form": "real tool",
+                            "scale": "handheld",
+                            "role": "medical instrument"
+                        }
+                    }
+                },
+                {
+                    "scene_type": "museum taxidermy exhibit",
+                    "plausibility": 0.8,
+                    "reasoning": "A natural history museum might display a mule and a goat in a diorama of a farm. A large antique comb could be part of the display text or a related artifact.",
+                    "object_interpretations": {
+                        "mule": {
+                            "form": "taxidermy",
+                            "scale": "normal",
+                            "role": "exhibit specimen"
+                        },
+                        "goat": {
+                            "form": "taxidermy",
+                            "scale": "normal",
+                            "role": "exhibit specimen"
+                        },
+                        "comb": {
+                            "form": "artifact",
+                            "scale": "normal",
+                            "role": "exhibit prop"
+                        }
+                    }
+                },
+                {
+                    "scene_type": "children's storybook illustration",
+                    "plausibility": 0.85,
+                    "reasoning": "In a Neoclassical style illustration, a mule and goat can be characters. The comb could be a magical item or a tool used to groom the animals.",
+                    "object_interpretations": {
+                        "mule": {
+                            "form": "anthropomorphic character",
+                            "scale": "normal",
+                            "role": "story protagonist"
+                        },
+                        "goat": {
+                            "form": "anthropomorphic character",
+                            "scale": "normal",
+                            "role": "story companion"
+                        },
+                        "comb": {
+                            "form": "magical object",
+                            "scale": "handheld",
+                            "role": "plot device"
+                        }
+                    }
+                },
+                {
+                    "scene_type": "theatrical stage set",
+                    "plausibility": 0.75,
+                    "reasoning": "A stage production about rural life might feature a mule and goat as live animals or actors in costume. A large prop comb could be part of the set design.",
+                    "object_interpretations": {
+                        "mule": {
+                            "form": "real animal or actor",
+                            "scale": "normal",
+                            "role": "performer"
+                        },
+                        "goat": {
+                            "form": "real animal or actor",
+                            "scale": "normal",
+                            "role": "performer"
+                        },
+                        "comb": {
+                            "form": "prop",
+                            "scale": "oversized",
+                            "role": "set decoration"
+                        }
+                    }
+                },
+                {
+                    "scene_type": "agricultural fair competition",
+                    "plausibility": 0.9,
+                    "reasoning": "A mule and goat might be entered in different categories at a county fair. A comb is essential for grooming them for presentation.",
+                    "object_interpretations": {
+                        "mule": {
+                            "form": "real animal",
+                            "scale": "normal",
+                            "role": "competition entrant"
+                        },
+                        "goat": {
+                            "form": "real animal",
+                            "scale": "normal",
+                            "role": "competition entrant"
+                        },
+                        "comb": {
+                            "form": "grooming tool",
+                            "scale": "handheld",
+                            "role": "preparation tool"
+                        }
+                    }
+                },
+                {
+                    "scene_type": "historical agricultural painting",
+                    "plausibility": 0.95,
+                    "reasoning": "Neoclassical paintings often depict rural labor. A mule and goat are common farm animals, and a comb could be a detail in a scene of a farmer grooming his livestock.",
+                    "object_interpretations": {
+                        "mule": {
+                            "form": "real animal",
+                            "scale": "normal",
+                            "role": "subject of labor"
+                        },
+                        "goat": {
+                            "form": "real animal",
+                            "scale": "normal",
+                            "role": "subject of labor"
+                        },
+                        "comb": {
+                            "form": "real tool",
+                            "scale": "handheld",
+                            "role": "tool of trade"
+                        }
+                    }
+                }
+            ],
+            "selected_scene": {
+                "scene_type": "classical pastoral landscape",
+                "plausibility": 0.9,
+                "reasoning": "A Neoclassical landscape often features idealized rural life. A mule and goat can graze together in a field, while a comb might be a prop for a shepherdess figure or a dropped item.",
+                "object_interpretations": {
+                    "mule": {
+                        "form": "real animal",
+                        "scale": "normal",
+                        "role": "grazing livestock"
+                    },
+                    "goat": {
+                        "form": "real animal",
+                        "scale": "normal",
+                        "role": "grazing livestock"
+                    },
+                    "comb": {
+                        "form": "decorative prop",
+                        "scale": "normal",
+                        "role": "symbol of pastoral grooming or vanity"
+                    }
+                },
+                "scene_brief": "A classical pastoral landscape featuring mule, with comb, and goat"
+            }
+        }
+    },
+    "final_prompts": {
+        "main_prompt": "A Neoclassicism painting depicting a bright and cheerful afternoon scene in a pastoral setting. In the foreground, a large, alert mule with a warm amber and deep sienna coat stands attentively, its powerful form rendered with classical precision. Resting upon the mule's back is a small, well-used comb of honey brown and golden amber wood, polished smooth from use. Beside the mule, a medium-sized goat in cream and warm buff colors moves with active, alert energy, its curved horns catching the harsh natural afternoon light. The spatial arrangement shows the mule positioned next to the goat, with the comb clearly placed on the mule's back, creating a triangular composition of living hide, hair, and horn. The atmosphere is active and cheerful, with sharp shadows and brilliant highlights characteristic of harsh afternoon illumination, all rendered in the clean lines, balanced composition, and idealized forms of Neoclassical art.",
+        "negative_prompt": "photorealistic, 3d render, modern, digital art, photograph, low quality, blurry, distorted, surreal, abstract, impressionistic, baroque, romanticism, dark, gloomy, night, rainy, foggy, cartoon, anime, watercolor, sketch, grainy, oversaturated, underexposed, text, signature, frame, border",
+        "prompt_formats": {
+            "simple": "A Neoclassical painting of an alert amber mule with a comb on its back beside an active cream goat in a bright afternoon pastoral scene.",
+            "complex": "A Neoclassicism painting depicting a bright and cheerful afternoon scene in a pastoral setting. In the foreground, a large, alert mule with a warm amber and deep sienna coat stands attentively, its powerful form rendered with classical precision. Resting upon the mule's back is a small, well-used comb of honey brown and golden amber wood, polished smooth from use. Beside the mule, a medium-sized goat in cream and warm buff colors moves with active, alert energy, its curved horns catching the harsh natural afternoon light. The spatial arrangement shows the mule positioned next to the goat, with the comb clearly placed on the mule's back, creating a triangular composition of living hide, hair, and horn. The atmosphere is active and cheerful, with sharp shadows and brilliant highlights characteristic of harsh afternoon illumination, all rendered in the clean lines, balanced composition, and idealized forms of Neoclassical art.",
+            "comma_separated": "Neoclassicism painting, large alert mule, warm amber deep sienna coat, small honey brown comb on mule's back, medium active goat, cream warm buff colors, mule next to goat, harsh natural afternoon lighting, bright cheerful active atmosphere, pastoral setting, classical composition, idealized forms, sharp shadows",
+            "tags": "art, painting, neoclassicism, pastoral, animal painting, mule, goat, comb, afternoon light, classical art, 18th century style, Jacques-Louis David style, idealized forms, harsh lighting, cheerful scene"
+        }
+    }
+}

@@ -1,0 +1,367 @@
+{
+    "artwork_id": "artwork_20260103_211743_100",
+    "generation_timestamp": "2026-01-03T21:18:29.710812",
+    "style": "Chinese Ink Painting",
+    "objects": {
+        "object_ids": [
+            74,
+            46,
+            61,
+            57
+        ],
+        "object_names": [
+            "book",
+            "paper plate",
+            "table",
+            "rocking chair"
+        ],
+        "enhanced_objects": [
+            {
+                "object_id": 74,
+                "name": "book",
+                "artistic_description": "A leather-bound volume with softened corners and a spine worn to pale tan from handling, its cover showing subtle brush-textured grain. The paper edges are gently foxed with amber spots, while the natural afternoon light washes across the surface in soft gradients, revealing the delicate tooth of aged parchment. Inked characters appear as deep, velvety blacks that absorb the ambient brightness, creating a quiet contrast against the warm, honey-toned pages.",
+                "size": "Small",
+                "state": "gently aged and handled",
+                "primary_colors": [
+                    "warm amber",
+                    "deep black"
+                ],
+                "material": "leather and paper"
+            },
+            {
+                "object_id": 46,
+                "name": "paper plate",
+                "artistic_description": "A simple ceramic plate rendered in soft, diffused tones where the afternoon light catches the subtle rim, creating a luminous crescent. The surface shows faint brushstroke-like texture in the glaze, with warm ivory highlights where light reflects gently, and cool gray shadows pooling in the center. Tiny wear marks appear as delicate speckles, adding character to the smooth, matte finish.",
+                "size": "Small",
+                "state": "slightly worn with use",
+                "primary_colors": [
+                    "ivory white",
+                    "soft gray"
+                ],
+                "material": "ceramic"
+            },
+            {
+                "object_id": 61,
+                "name": "table",
+                "artistic_description": "A dark oak table with a rich, grainy texture that drinks in the natural light, creating deep shadows in the wood's natural valleys. The surface shows a patina of age with warm chestnut tones where the sun touches it, while cooler brown-gray shadows define the edges. Fine scratches and wear patterns appear as subtle white lines, like delicate ink washes, across the weathered finish.",
+                "size": "Large",
+                "state": "well-worn with visible patina",
+                "primary_colors": [
+                    "chestnut brown",
+                    "charcoal gray"
+                ],
+                "material": "oak wood"
+            },
+            {
+                "object_id": 57,
+                "name": "rocking chair",
+                "artistic_description": "A wooden rocking chair with curved runners worn smooth to a pale honey color, contrasting with the darker, grain-rich uprights. The afternoon light streams through, casting elongated, soft-edged shadows that dance across the seat. The woven seat shows a delicate crosshatch pattern in warm tan, with frayed edges catching the light as fine, luminous threads. The overall form is rendered in gentle ink washes of brown and gray, capturing the furniture's quiet dignity.",
+                "size": "Large",
+                "state": "well-used with smooth wear",
+                "primary_colors": [
+                    "honey brown",
+                    "warm tan"
+                ],
+                "material": "wood and woven fiber"
+            }
+        ]
+    },
+    "composition": {
+        "spatial_relations": [
+            [
+                46,
+                "on",
+                61
+            ],
+            [
+                74,
+                "on",
+                61
+            ],
+            [
+                57,
+                "next to",
+                61
+            ]
+        ],
+        "semantic_relations": []
+    },
+    "environment": {
+        "environment_details": {
+            "scene_brief": "A Antique Shop Interior featuring book, with paper plate, table displayed on shelves, and rocking chair",
+            "place365_name": "/b/bookstore",
+            "place365_id": 60,
+            "time_of_day": "afternoon",
+            "weather": null,
+            "period": "Early Modern",
+            "is_indoor": true,
+            "lighting": {
+                "type": "natural",
+                "quality": "soft",
+                "direction": "side-lit",
+                "mood": "warm",
+                "reasoning": "For a Chinese Ink Painting style, soft, diffused lighting is essential to capture subtle tonal variations in ink washes. An afternoon sun coming through a side window (side-lit) would create gentle shadows on the shelves and the rocking chair, highlighting the texture of the paper and wood. This natural lighting fits the 'antique' setting better than artificial light."
+            },
+            "atmosphere": "bright and active and gentle"
+        },
+        "scene_inference": {
+            "all_candidates": [
+                {
+                    "scene_type": "Scholar's Study",
+                    "plausibility": 0.95,
+                    "reasoning": "A traditional scholar's study is a natural habitat for a book. A table is essential for reading/writing. A rocking chair provides a comfortable reading spot. A paper plate can be a simple vessel for tea or a snack during study.",
+                    "object_interpretations": {
+                        "book": {
+                            "form": "real book",
+                            "scale": "normal",
+                            "role": "primary object of study"
+                        },
+                        "table": {
+                            "form": "real furniture",
+                            "scale": "normal",
+                            "role": "surface for book and items"
+                        },
+                        "rocking chair": {
+                            "form": "real furniture",
+                            "scale": "normal",
+                            "role": "seating for reading"
+                        },
+                        "paper plate": {
+                            "form": "simple ceramic plate",
+                            "scale": "normal",
+                            "role": "holding tea cakes or tea bowl"
+                        }
+                    }
+                },
+                {
+                    "scene_type": "Quiet Reading Nook",
+                    "plausibility": 0.9,
+                    "reasoning": "A cozy corner dedicated to reading. The rocking chair is the centerpiece for comfort. A small table holds the book and a drink. The paper plate serves as a coaster or snack holder.",
+                    "object_interpretations": {
+                        "book": {
+                            "form": "open book",
+                            "scale": "normal",
+                            "role": "focus of attention"
+                        },
+                        "table": {
+                            "form": "small side table",
+                            "scale": "normal",
+                            "role": "supporting object"
+                        },
+                        "rocking chair": {
+                            "form": "worn wooden rocking chair",
+                            "scale": "normal",
+                            "role": "primary seating"
+                        },
+                        "paper plate": {
+                            "form": "paper plate",
+                            "scale": "normal",
+                            "role": "decorative element or snack holder"
+                        }
+                    }
+                },
+                {
+                    "scene_type": "Antique Shop Interior",
+                    "plausibility": 0.85,
+                    "reasoning": "An antique shop often contains old books, vintage furniture like a rocking chair, and tables for display. A paper plate could be a rare antique piece or part of a collection.",
+                    "object_interpretations": {
+                        "book": {
+                            "form": "antique book",
+                            "scale": "normal",
+                            "role": "merchandise on display"
+                        },
+                        "table": {
+                            "form": "vintage wooden table",
+                            "scale": "normal",
+                            "role": "display surface"
+                        },
+                        "rocking chair": {
+                            "form": "antique rocking chair",
+                            "scale": "normal",
+                            "role": "part of the shop's decor/furniture"
+                        },
+                        "paper plate": {
+                            "form": "patterned paper plate",
+                            "scale": "normal",
+                            "role": "collectible item in a stack"
+                        }
+                    },
+                    "scene_brief": "A Antique Shop Interior featuring book, with paper plate, table displayed on shelves, and rocking chair"
+                },
+                {
+                    "scene_type": "Art Studio",
+                    "plausibility": 0.8,
+                    "reasoning": "An artist's studio often has a table for work, a chair for breaks, and books for reference. A paper plate can be used for mixing paints or as a palette.",
+                    "object_interpretations": {
+                        "book": {
+                            "form": "reference book",
+                            "scale": "normal",
+                            "role": "source of inspiration"
+                        },
+                        "table": {
+                            "form": "work table",
+                            "scale": "normal",
+                            "role": "workspace"
+                        },
+                        "rocking chair": {
+                            "form": "rocking chair",
+                            "scale": "normal",
+                            "role": "resting spot"
+                        },
+                        "paper plate": {
+                            "form": "paint palette",
+                            "scale": "normal",
+                            "role": "art supply"
+                        }
+                    }
+                },
+                {
+                    "scene_type": "Minimalist Living Room",
+                    "plausibility": 0.85,
+                    "reasoning": "A modern minimalist space can feature a single statement rocking chair, a sleek table, and a book as a simple decorative or functional item. A paper plate might be a temporary or stylistic choice.",
+                    "object_interpretations": {
+                        "book": {
+                            "form": "hardcover book",
+                            "scale": "normal",
+                            "role": "decorative object on table"
+                        },
+                        "table": {
+                            "form": "modern side table",
+                            "scale": "normal",
+                            "role": "surface"
+                        },
+                        "rocking chair": {
+                            "form": "modern rocking chair",
+                            "scale": "normal",
+                            "role": "focal seating piece"
+                        },
+                        "paper plate": {
+                            "form": "plain white paper plate",
+                            "scale": "normal",
+                            "role": "minimalist decor or temporary use"
+                        }
+                    }
+                },
+                {
+                    "scene_type": "Traditional Tea House",
+                    "plausibility": 0.9,
+                    "reasoning": "A tea house setting includes tables and chairs. A book can be read while waiting. A paper plate (or ceramic plate resembling paper) can hold sweets accompanying the tea.",
+                    "object_interpretations": {
+                        "book": {
+                            "form": "book",
+                            "scale": "normal",
+                            "role": "leisure reading"
+                        },
+                        "table": {
+                            "form": "low wooden table",
+                            "scale": "normal",
+                            "role": "tea service surface"
+                        },
+                        "rocking chair": {
+                            "form": "bamboo rocking chair",
+                            "scale": "normal",
+                            "role": "relaxing seating"
+                        },
+                        "paper plate": {
+                            "form": "ceramic plate",
+                            "scale": "normal",
+                            "role": "serving sweets"
+                        }
+                    }
+                },
+                {
+                    "scene_type": "Child's Playroom",
+                    "plausibility": 0.75,
+                    "reasoning": "A playroom can have a small table and chair set. A book is a common toy/learning tool. A paper plate is a common craft material or snack plate.",
+                    "object_interpretations": {
+                        "book": {
+                            "form": "picture book",
+                            "scale": "normal",
+                            "role": "toy/educational item"
+                        },
+                        "table": {
+                            "form": "child-sized table",
+                            "scale": "normal",
+                            "role": "play surface"
+                        },
+                        "rocking chair": {
+                            "form": "toy rocking horse/chair",
+                            "scale": "miniature",
+                            "role": "play equipment"
+                        },
+                        "paper plate": {
+                            "form": "paper plate",
+                            "scale": "normal",
+                            "role": "craft material or snack plate"
+                        }
+                    }
+                },
+                {
+                    "scene_type": "Outdoor Garden Pavilion",
+                    "plausibility": 0.8,
+                    "reasoning": "A pavilion in a garden provides shelter. Furniture includes tables and chairs. A book is a perfect companion for a quiet afternoon outdoors. A paper plate could be from a light outdoor meal.",
+                    "object_interpretations": {
+                        "book": {
+                            "form": "book",
+                            "scale": "normal",
+                            "role": "leisure object"
+                        },
+                        "table": {
+                            "form": "garden table",
+                            "scale": "normal",
+                            "role": "surface"
+                        },
+                        "rocking chair": {
+                            "form": "wicker rocking chair",
+                            "scale": "normal",
+                            "role": "outdoor seating"
+                        },
+                        "paper plate": {
+                            "form": "paper plate",
+                            "scale": "normal",
+                            "role": "picnic item"
+                        }
+                    }
+                }
+            ],
+            "selected_scene": {
+                "scene_type": "Antique Shop Interior",
+                "plausibility": 0.85,
+                "reasoning": "An antique shop often contains old books, vintage furniture like a rocking chair, and tables for display. A paper plate could be a rare antique piece or part of a collection.",
+                "object_interpretations": {
+                    "book": {
+                        "form": "antique book",
+                        "scale": "normal",
+                        "role": "merchandise on display"
+                    },
+                    "table": {
+                        "form": "vintage wooden table",
+                        "scale": "normal",
+                        "role": "display surface"
+                    },
+                    "rocking chair": {
+                        "form": "antique rocking chair",
+                        "scale": "normal",
+                        "role": "part of the shop's decor/furniture"
+                    },
+                    "paper plate": {
+                        "form": "patterned paper plate",
+                        "scale": "normal",
+                        "role": "collectible item in a stack"
+                    }
+                },
+                "scene_brief": "A Antique Shop Interior featuring book, with paper plate, table displayed on shelves, and rocking chair"
+            }
+        }
+    },
+    "final_prompts": {
+        "main_prompt": "A Chinese Ink Painting painting depicting a quiet afternoon scene where a large, well-worn table with chestnut brown and charcoal gray patina dominates the foreground. Upon its surface rests a small, gently aged book in warm amber and deep black tones, and beside it, a small ivory white and soft gray paper plate showing slight wear from use. To the right of the table, a large honey brown and warm tan rocking chair with smooth wear marks sits beside it, its curved runners suggesting recent gentle motion. The composition is bathed in natural soft afternoon light that filters through an unseen window, creating a bright and active yet gentle atmosphere where ink washes blend seamlessly to capture the textures of leather-bound paper, ceramic-like plate, and the rich oak wood and woven fiber materials. The spatial arrangement creates a harmonious balance between the stationary table objects and the implied movement of the rocking chair, all rendered with the expressive brushstrokes and tonal gradations characteristic of traditional ink painting.",
+        "negative_prompt": "photorealistic, 3d render, modern, digital art, photograph, low quality, blurry, distorted, cartoon, anime, western painting, oil painting, watercolor, bright colors, vibrant colors, saturated colors, detailed background, crowded scene, people, figures",
+        "prompt_formats": {
+            "simple": "A Chinese ink painting of a table with a book and paper plate, with a rocking chair beside it in soft afternoon light.",
+            "complex": "A Chinese Ink Painting painting depicting a quiet afternoon scene where a large, well-worn table with chestnut brown and charcoal gray patina dominates the foreground. Upon its surface rests a small, gently aged book in warm amber and deep black tones, and beside it, a small ivory white and soft gray paper plate showing slight wear from use. To the right of the table, a large honey brown and warm tan rocking chair with smooth wear marks sits beside it, its curved runners suggesting recent gentle motion. The composition is bathed in natural soft afternoon light that filters through an unseen window, creating a bright and active yet gentle atmosphere where ink washes blend seamlessly to capture the textures of leather-bound paper, ceramic-like plate, and the rich oak wood and woven fiber materials. The spatial arrangement creates a harmonious balance between the stationary table objects and the implied movement of the rocking chair, all rendered with the expressive brushstrokes and tonal gradations characteristic of traditional ink painting.",
+            "comma_separated": "Chinese Ink Painting, table, book, paper plate, rocking chair, large table, small book, small plate, chestnut brown, charcoal gray, warm amber, deep black, ivory white, soft gray, honey brown, warm tan, afternoon lighting, natural soft light, bright atmosphere, active gentle mood, ink washes, brushstrokes, traditional style",
+            "tags": "art, painting, chinese ink painting, ink wash, sumi-e, traditional art, still life, interior, table, book, paper plate, rocking chair, afternoon light, natural lighting, gentle atmosphere, ink art, brushwork, monochrome, composition"
+        }
+    }
+}

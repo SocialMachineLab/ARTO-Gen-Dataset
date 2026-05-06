@@ -1,0 +1,313 @@
+{
+    "artwork_id": "artwork_20260103_143318_640",
+    "generation_timestamp": "2026-01-03T14:34:01.936046",
+    "style": "Baroque",
+    "objects": {
+        "object_ids": [
+            78,
+            58,
+            10,
+            75
+        ],
+        "object_names": [
+            "doll",
+            "couch",
+            "lamp post",
+            "clock"
+        ],
+        "enhanced_objects": [
+            {
+                "object_id": 78,
+                "name": "doll",
+                "artistic_description": "A porcelain doll with a luminous, creamy complexion that glows softly under the warm artificial light, her painted cheeks flushed with a delicate rose hue. Her glass eyes catch the light with a subtle, reflective sparkle, while her elaborate Baroque gown of faded silk brocade shimmers in rich gold and deep crimson, the fabric's delicate sheen enhanced by the intimate, amber-toned illumination. Fine cracks in the glaze create a web of shadows across her face, adding a touch of antique character.",
+                "size": "Medium",
+                "state": "pristine yet aged, with gentle wear on the fabric and subtle crazing on the porcelain",
+                "primary_colors": [
+                    "creamy ivory",
+                    "warm gold"
+                ],
+                "material": "porcelain, silk, glass"
+            },
+            {
+                "object_id": 58,
+                "name": "couch",
+                "artistic_description": "A sumptuous couch upholstered in deep crimson velvet that absorbs the warm artificial light, creating rich, velvety shadows in the folds while the raised patterns catch a subtle, golden sheen. Gilded wooden frame gleams with a soft, burnished luster, the ornate carvings casting intricate, dancing shadows across the fabric. The plush surface appears invitingly soft, with a gentle patina from age that diffuses the light across its curves.",
+                "size": "Large",
+                "state": "well-preserved with gentle wear on the arms, maintaining its regal presence",
+                "primary_colors": [
+                    "deep crimson",
+                    "burnished gold"
+                ],
+                "material": "velvet, gilded wood"
+            },
+            {
+                "object_id": 10,
+                "name": "lamp post",
+                "artistic_description": "An ornate Baroque lamp post with a brass base that reflects the warm artificial light in soft, golden glimmers, its polished surface creating gentle highlights against the darker, aged patina in the crevices. The glass lampshade glows with a warm, amber radiance, casting a diffused, honey-colored light that softens the surrounding atmosphere. Delicate scrollwork and decorative elements are rendered in shadow and light, creating a dramatic interplay of brilliance and depth.",
+                "size": "Medium",
+                "state": "elegant and functional, with a dignified patina that speaks of careful maintenance",
+                "primary_colors": [
+                    "warm amber",
+                    "golden brass"
+                ],
+                "material": "brass, glass, metal"
+            },
+            {
+                "object_id": 75,
+                "name": "clock",
+                "artistic_description": "A Baroque mantel clock crafted from dark, polished wood that absorbs the warm artificial light, its surface appearing almost black with rich undertones of deep mahogany. The clock face is a creamy ivory disc with delicate, gilded Roman numerals that catch the light with subtle flashes of gold. Ornate bronze pendulum and decorative elements are rendered in shadowy relief, their metallic surfaces creating small points of warm reflection against the dark body.",
+                "size": "Small",
+                "state": "meticulously maintained, with polished surfaces and pristine clock face",
+                "primary_colors": [
+                    "deep mahogany",
+                    "creamy ivory"
+                ],
+                "material": "wood, bronze, glass"
+            }
+        ]
+    },
+    "composition": {
+        "spatial_relations": [
+            [
+                78,
+                "on",
+                58
+            ],
+            [
+                10,
+                "next to",
+                58
+            ],
+            [
+                75,
+                "on",
+                58
+            ]
+        ],
+        "semantic_relations": []
+    },
+    "environment": {
+        "environment_details": {
+            "scene_brief": "A Baroque boudoir featuring decorative doll, with couch, lamp post, and clock",
+            "place365_name": "/p/pub/indoor",
+            "place365_id": 274,
+            "time_of_day": "evening",
+            "weather": null,
+            "period": "Early modern",
+            "is_indoor": true,
+            "lighting": {
+                "type": "artificial",
+                "quality": "dramatic",
+                "direction": "side-lit",
+                "mood": "warm",
+                "reasoning": "The presence of a 'lamp post' indicates artificial lighting. In the evening, this creates a warm mood. Baroque style relies on dramatic lighting (chiaroscuro). A side-lit setup from the lamp would cast deep shadows and highlight textures, creating the necessary drama for the scene."
+            },
+            "atmosphere": "calm and relaxed and striking"
+        },
+        "scene_inference": {
+            "all_candidates": [
+                {
+                    "scene_type": "Baroque boudoir",
+                    "plausibility": 0.95,
+                    "reasoning": "A doll can be a collector's item or child's toy in a luxurious bedroom. A couch provides seating. A lamp post can be an ornate floor lamp (torch\u00e8re). A clock is a common timepiece. The Baroque style unifies the opulent decor.",
+                    "object_interpretations": {
+                        "doll": {
+                            "form": "porcelain doll",
+                            "scale": "normal (1:1)",
+                            "role": "decorative object or toy"
+                        },
+                        "couch": {
+                            "form": "upholstered settee",
+                            "scale": "normal",
+                            "role": "seating furniture"
+                        },
+                        "lamp post": {
+                            "form": "tall floor lamp",
+                            "scale": "normal",
+                            "role": "lighting fixture"
+                        },
+                        "clock": {
+                            "form": "mantel clock",
+                            "scale": "normal",
+                            "role": "timepiece"
+                        }
+                    },
+                    "scene_brief": "A Baroque boudoir featuring decorative doll, with couch, lamp post, and clock"
+                },
+                {
+                    "scene_type": "Baroque theater stage",
+                    "plausibility": 0.9,
+                    "reasoning": "A doll can be a puppet or prop. A couch is set dressing. A lamp post can be a stage light or prop lamp. A clock can be a prop or part of the backdrop.",
+                    "object_interpretations": {
+                        "doll": {
+                            "form": "marionette",
+                            "scale": "normal",
+                            "role": "actor/prop"
+                        },
+                        "couch": {
+                            "form": "stage prop couch",
+                            "scale": "normal",
+                            "role": "set piece"
+                        },
+                        "lamp post": {
+                            "form": "gaslight prop",
+                            "scale": "normal",
+                            "role": "lighting/prop"
+                        },
+                        "clock": {
+                            "form": "wall clock prop",
+                            "scale": "normal",
+                            "role": "set detail"
+                        }
+                    }
+                },
+                {
+                    "scene_type": "Baroque museum exhibit",
+                    "plausibility": 0.85,
+                    "reasoning": "A doll can be a historical artifact displayed in a museum. A couch can be a period piece for viewing. A lamp post can be a restored antique lamp. A clock can be an exhibit.",
+                    "object_interpretations": {
+                        "doll": {
+                            "form": "antique doll",
+                            "scale": "normal",
+                            "role": "museum artifact"
+                        },
+                        "couch": {
+                            "form": "restoration couch",
+                            "scale": "normal",
+                            "role": "display furniture"
+                        },
+                        "lamp post": {
+                            "form": "restored street lamp",
+                            "scale": "normal",
+                            "role": "exhibit item"
+                        },
+                        "clock": {
+                            "form": "grandfather clock",
+                            "scale": "normal",
+                            "role": "exhibit item"
+                        }
+                    }
+                },
+                {
+                    "scene_type": "Baroque dollhouse",
+                    "plausibility": 0.8,
+                    "reasoning": "A doll is the inhabitant of a miniature room box. A couch, lamp post, and clock are all furniture/accessories scaled down for the doll.",
+                    "object_interpretations": {
+                        "doll": {
+                            "form": "doll",
+                            "scale": "normal (inhabitant)",
+                            "role": "inhabitant"
+                        },
+                        "couch": {
+                            "form": "miniature couch",
+                            "scale": "1:12",
+                            "role": "furniture"
+                        },
+                        "lamp post": {
+                            "form": "miniature lamp",
+                            "scale": "1:12",
+                            "role": "decoration"
+                        },
+                        "clock": {
+                            "form": "miniature clock",
+                            "scale": "1:12",
+                            "role": "accessory"
+                        }
+                    }
+                },
+                {
+                    "scene_type": "Baroque fantasy garden",
+                    "plausibility": 0.75,
+                    "reasoning": "A doll could be a statue or figurine. A couch can be a garden bench. A lamp post is standard outdoor lighting. A clock can be a sundial or decorative clock.",
+                    "object_interpretations": {
+                        "doll": {
+                            "form": "stone statue",
+                            "scale": "normal",
+                            "role": "garden ornament"
+                        },
+                        "couch": {
+                            "form": "garden bench",
+                            "scale": "normal",
+                            "role": "seating"
+                        },
+                        "lamp post": {
+                            "form": "ornate street lamp",
+                            "scale": "normal",
+                            "role": "lighting"
+                        },
+                        "clock": {
+                            "form": "stone sundial",
+                            "scale": "normal",
+                            "role": "decoration"
+                        }
+                    }
+                },
+                {
+                    "scene_type": "Baroque art studio",
+                    "plausibility": 0.7,
+                    "reasoning": "A doll can be a model for a painting. A couch is for the artist to rest. A lamp post can be a studio light stand. A clock measures time for the session.",
+                    "object_interpretations": {
+                        "doll": {
+                            "form": "model doll",
+                            "scale": "normal",
+                            "role": "subject/model"
+                        },
+                        "couch": {
+                            "form": "studio couch",
+                            "scale": "normal",
+                            "role": "furniture"
+                        },
+                        "lamp post": {
+                            "form": "studio light",
+                            "scale": "normal",
+                            "role": "lighting equipment"
+                        },
+                        "clock": {
+                            "form": "wall clock",
+                            "scale": "normal",
+                            "role": "utility"
+                        }
+                    }
+                }
+            ],
+            "selected_scene": {
+                "scene_type": "Baroque boudoir",
+                "plausibility": 0.95,
+                "reasoning": "A doll can be a collector's item or child's toy in a luxurious bedroom. A couch provides seating. A lamp post can be an ornate floor lamp (torch\u00e8re). A clock is a common timepiece. The Baroque style unifies the opulent decor.",
+                "object_interpretations": {
+                    "doll": {
+                        "form": "porcelain doll",
+                        "scale": "normal (1:1)",
+                        "role": "decorative object or toy"
+                    },
+                    "couch": {
+                        "form": "upholstered settee",
+                        "scale": "normal",
+                        "role": "seating furniture"
+                    },
+                    "lamp post": {
+                        "form": "tall floor lamp",
+                        "scale": "normal",
+                        "role": "lighting fixture"
+                    },
+                    "clock": {
+                        "form": "mantel clock",
+                        "scale": "normal",
+                        "role": "timepiece"
+                    }
+                },
+                "scene_brief": "A Baroque boudoir featuring decorative doll, with couch, lamp post, and clock"
+            }
+        }
+    },
+    "final_prompts": {
+        "main_prompt": "A Baroque painting depicting an evening interior scene where a large, well-preserved couch in deep crimson velvet with burnished gold trim and gentle wear on its arms dominates the foreground. Upon this couch sits a medium-sized doll of creamy ivory porcelain with warm gold accents, appearing pristine yet aged, and beside it rests a small, meticulously maintained clock in deep mahogany with creamy ivory face. To the right of the couch stands a medium-sized lamp post of elegant golden brass, its warm amber glass globe casting dramatic artificial light that creates striking chiaroscuro effects across the scene. The overall atmosphere is calm and relaxed yet visually striking, with the dramatic lighting highlighting the rich textures of porcelain, silk, velvet, gilded wood, and brass while casting deep shadows that enhance the Baroque theatricality of the composition.",
+        "negative_prompt": "photorealistic, 3d render, modern, digital art, photograph, low quality, blurry, distorted, cartoon, anime, abstract, surreal, futuristic, minimalist, sketch, watermark, signature, text, frame",
+        "prompt_formats": {
+            "simple": "A Baroque painting of a doll and clock on a crimson couch with a brass lamp post casting dramatic evening light in a calm, striking interior.",
+            "complex": "A Baroque painting depicting an evening interior scene where a large, well-preserved couch in deep crimson velvet with burnished gold trim and gentle wear on its arms dominates the foreground. Upon this couch sits a medium-sized doll of creamy ivory porcelain with warm gold accents, appearing pristine yet aged, and beside it rests a small, meticulously maintained clock in deep mahogany with creamy ivory face. To the right of the couch stands a medium-sized lamp post of elegant golden brass, its warm amber glass globe casting dramatic artificial light that creates striking chiaroscuro effects across the scene. The overall atmosphere is calm and relaxed yet visually striking, with the dramatic lighting highlighting the rich textures of porcelain, silk, velvet, gilded wood, and brass while casting deep shadows that enhance the Baroque theatricality of the composition.",
+            "comma_separated": "Baroque painting, doll on couch, clock on couch, lamp post next to couch, evening lighting, dramatic artificial light, calm relaxed striking atmosphere, deep crimson velvet couch, creamy ivory porcelain doll, golden brass lamp post, mahogany clock, chiaroscuro, theatrical composition, interior scene",
+            "tags": "art, painting, Baroque, chiaroscuro, dramatic lighting, interior, still life, doll, couch, lamp post, clock, evening, velvet, porcelain, brass, mahogany, theatrical, calm atmosphere"
+        }
+    }
+}

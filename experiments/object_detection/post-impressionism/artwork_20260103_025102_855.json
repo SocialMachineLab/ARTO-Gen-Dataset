@@ -1,0 +1,303 @@
+{
+    "artwork_id": "artwork_20260103_025102_855",
+    "generation_timestamp": "2026-01-03T02:51:38.972285",
+    "style": "Post-Impressionism",
+    "objects": {
+        "object_ids": [
+            15,
+            31,
+            35
+        ],
+        "object_names": [
+            "parrot",
+            "sleigh",
+            "bat"
+        ],
+        "enhanced_objects": [
+            {
+                "object_id": 15,
+                "name": "parrot",
+                "artistic_description": "Vibrant plumage rendered with thick, visible brushstrokes in emerald and sapphire tones, the feathers catching the warm sunset glow with golden highlights along the edges. The tropical bird appears as a jewel-like focal point, its curved beak gleaming with amber reflections from the indoor market's mixed lighting. Soft downy texture suggested through delicate impasto, with subtle cool shadows from the snowy atmosphere tempering the tropical vibrancy.",
+                "size": "Medium",
+                "state": "Alert and poised, feathers slightly fluffed against the gentle chill, yet maintaining tropical splendor in the festive setting",
+                "primary_colors": [
+                    "emerald green",
+                    "golden amber"
+                ],
+                "material": "organic feathers"
+            },
+            {
+                "object_id": 31,
+                "name": "sleigh",
+                "artistic_description": "Weathered wooden runners and curved body painted in rich crimson with visible brushwork that captures the texture of aged wood. The sleigh's surface shows warm patina where sunset light dances across polished curves, while deeper shadows in the carved details reveal cool blue-gray tones from the snowy environment. Brass fittings catch the mixed indoor lighting with bright highlights, creating a nostalgic glow against the weathered red paint.",
+                "size": "Large",
+                "state": "Vintage charm with gentle wear, well-maintained but showing loving use through softened edges and subtle scuffs",
+                "primary_colors": [
+                    "crimson red",
+                    "weathered brown"
+                ],
+                "material": "wood and brass"
+            },
+            {
+                "object_id": 35,
+                "name": "bat",
+                "artistic_description": "Delicate toy form rendered in matte black with subtle purple undertones that emerge in the warm indoor light. The carved wooden bat has smooth, rounded wings that absorb rather than reflect light, creating a soft silhouette against the festive backdrop. Fine grain texture visible through the dark finish, with gentle highlights along the curved edges where the sunset's golden rays graze the surface.",
+                "size": "Small",
+                "state": "Gentle and whimsical, a charming toy with smooth, well-worn surfaces from careful handling",
+                "primary_colors": [
+                    "deep black",
+                    "soft purple"
+                ],
+                "material": "wood"
+            }
+        ]
+    },
+    "composition": {
+        "spatial_relations": [
+            [
+                31,
+                "on",
+                15
+            ],
+            [
+                35,
+                "next to",
+                31
+            ]
+        ],
+        "semantic_relations": []
+    },
+    "environment": {
+        "environment_details": {
+            "scene_brief": "A Vintage Christmas market featuring parrot, with sleigh, and toy bat placed nearby",
+            "place365_name": "/m/market",
+            "place365_id": 21,
+            "time_of_day": "sunset",
+            "weather": "snowy",
+            "period": "Modern",
+            "is_indoor": true,
+            "lighting": {
+                "type": "mixed",
+                "quality": "soft",
+                "direction": "side-lit",
+                "mood": "warm",
+                "reasoning": "At sunset, the primary natural light is soft and warm. As the sun dips, artificial lights from market stalls and decorations (likely warm tungsten or LED) will turn on, creating a 'mixed' lighting scenario. 'Soft' quality arises from the atmospheric diffusion of snow and the low angle of the sun. 'Side-lit' is chosen to emphasize the textures of the vintage architecture and the snow, while 'Warm' mood aligns with the nostalgic and festive nature of the scene."
+            },
+            "atmosphere": "warm and peaceful and serene and gentle"
+        },
+        "scene_inference": {
+            "all_candidates": [
+                {
+                    "scene_type": "Victorian winter garden",
+                    "plausibility": 0.85,
+                    "reasoning": "A parrot can be a pet in a conservatory. A sleigh can be a decorative winter display piece. A bat can be a taxidermy specimen or a decorative motif on a toy.",
+                    "object_interpretations": {
+                        "parrot": {
+                            "form": "real parrot",
+                            "scale": "normal",
+                            "role": "pet in a cage or on a perch"
+                        },
+                        "sleigh": {
+                            "form": "model sleigh",
+                            "scale": "miniature",
+                            "role": "decoration on a shelf"
+                        },
+                        "bat": {
+                            "form": "wooden toy bat",
+                            "scale": "small",
+                            "role": "part of a child's toy set near the sleigh"
+                        }
+                    }
+                },
+                {
+                    "scene_type": "Tropical beach at dusk",
+                    "plausibility": 0.8,
+                    "reasoning": "Parrots are native to tropical climates. A sleigh could be a prop for a photoshoot or a bizarre piece of drift art. A bat (animal) is active at dusk.",
+                    "object_interpretations": {
+                        "parrot": {
+                            "form": "real parrot",
+                            "scale": "normal",
+                            "role": "wildlife in a palm tree"
+                        },
+                        "sleigh": {
+                            "form": "rustic wooden sleigh",
+                            "scale": "normal",
+                            "role": "abandoned beach artifact or art installation"
+                        },
+                        "bat": {
+                            "form": "real bat",
+                            "scale": "small",
+                            "role": "flying mammal in the twilight sky"
+                        }
+                    }
+                },
+                {
+                    "scene_type": "Theatrical costume workshop",
+                    "plausibility": 0.9,
+                    "reasoning": "A parrot can be a costume mascot. A sleigh is a stage prop. A bat is a prop for a play (e.g., Dracula or a baseball scene).",
+                    "object_interpretations": {
+                        "parrot": {
+                            "form": "costume wearer",
+                            "scale": "human-sized",
+                            "role": "actor in a parrot suit"
+                        },
+                        "sleigh": {
+                            "form": "stage prop",
+                            "scale": "normal",
+                            "role": "set piece for a winter scene"
+                        },
+                        "bat": {
+                            "form": "baseball bat or prop",
+                            "scale": "normal",
+                            "role": "equipment on a workbench"
+                        }
+                    }
+                },
+                {
+                    "scene_type": "Circus backstage",
+                    "plausibility": 0.85,
+                    "reasoning": "Parrots are common circus performers. A sleigh could be a prop for a winter act. A bat could be a baseball bat used by a juggler or a prop.",
+                    "object_interpretations": {
+                        "parrot": {
+                            "form": "performing parrot",
+                            "scale": "normal",
+                            "role": "trained animal"
+                        },
+                        "sleigh": {
+                            "form": "decorated sleigh",
+                            "scale": "normal",
+                            "role": "transport prop for a Santa act"
+                        },
+                        "bat": {
+                            "form": "baseball bat",
+                            "scale": "normal",
+                            "role": "prop for a clown act"
+                        }
+                    }
+                },
+                {
+                    "scene_type": "Art studio (Post-Impressionist style)",
+                    "plausibility": 0.95,
+                    "reasoning": "The art style is the anchor. The studio contains a live model (parrot), a still life prop (sleigh), and a study object (bat).",
+                    "object_interpretations": {
+                        "parrot": {
+                            "form": "live bird",
+                            "scale": "normal",
+                            "role": "subject of the painting"
+                        },
+                        "sleigh": {
+                            "form": "toy model",
+                            "scale": "small",
+                            "role": "still life object on a table"
+                        },
+                        "bat": {
+                            "form": "stuffed animal or toy",
+                            "scale": "small",
+                            "role": "decorative element in the composition"
+                        }
+                    }
+                },
+                {
+                    "scene_type": "Vintage Christmas market",
+                    "plausibility": 0.8,
+                    "reasoning": "Sleighs are central to the scene. Parrots can be exotic pets brought to the market. Bats can be decorations or toys (e.g., Batman merchandise).",
+                    "object_interpretations": {
+                        "parrot": {
+                            "form": "pet bird",
+                            "scale": "normal",
+                            "role": "companion to a shopper"
+                        },
+                        "sleigh": {
+                            "form": "horse-drawn sleigh",
+                            "scale": "large",
+                            "role": "transportation for visitors"
+                        },
+                        "bat": {
+                            "form": "plush toy",
+                            "scale": "small",
+                            "role": "item for sale at a stall"
+                        }
+                    },
+                    "scene_brief": "A Vintage Christmas market featuring parrot, with sleigh, and toy bat placed nearby"
+                },
+                {
+                    "scene_type": "Fantasy forest clearing",
+                    "plausibility": 0.75,
+                    "reasoning": "In a surreal or fantasy context, a parrot might be magical. A sleigh could be enchanted. A bat could be a mythical creature.",
+                    "object_interpretations": {
+                        "parrot": {
+                            "form": "mythical bird",
+                            "scale": "large",
+                            "role": "guardian of the forest"
+                        },
+                        "sleigh": {
+                            "form": "flying sleigh",
+                            "scale": "normal",
+                            "role": "magical vehicle"
+                        },
+                        "bat": {
+                            "form": "vampire bat",
+                            "scale": "large",
+                            "role": "forest creature"
+                        }
+                    }
+                },
+                {
+                    "scene_type": "Toy store window display",
+                    "plausibility": 0.9,
+                    "reasoning": "All items can be represented as toys or figurines arranged in a display.",
+                    "object_interpretations": {
+                        "parrot": {
+                            "form": "stuffed toy",
+                            "scale": "small",
+                            "role": "merchandise"
+                        },
+                        "sleigh": {
+                            "form": "plastic model",
+                            "scale": "miniature",
+                            "role": "display prop"
+                        },
+                        "bat": {
+                            "form": "action figure accessory",
+                            "scale": "miniature",
+                            "role": "part of the display"
+                        }
+                    }
+                }
+            ],
+            "selected_scene": {
+                "scene_type": "Vintage Christmas market",
+                "plausibility": 0.8,
+                "reasoning": "Sleighs are central to the scene. Parrots can be exotic pets brought to the market. Bats can be decorations or toys (e.g., Batman merchandise).",
+                "object_interpretations": {
+                    "parrot": {
+                        "form": "pet bird",
+                        "scale": "normal",
+                        "role": "companion to a shopper"
+                    },
+                    "sleigh": {
+                        "form": "horse-drawn sleigh",
+                        "scale": "large",
+                        "role": "transportation for visitors"
+                    },
+                    "bat": {
+                        "form": "plush toy",
+                        "scale": "small",
+                        "role": "item for sale at a stall"
+                    }
+                },
+                "scene_brief": "A Vintage Christmas market featuring parrot, with sleigh, and toy bat placed nearby"
+            }
+        }
+    },
+    "final_prompts": {
+        "main_prompt": "A Post-Impressionism painting depicting a serene sunset scene where a large, vintage crimson red sleigh with weathered brown wood and brass details rests gently atop the back of a medium-sized, emerald green and golden amber parrot, which stands alert and poised. Beside the sleigh, a small, whimsical bat with deep black wings and soft purple accents hovers peacefully. The composition places the parrot and sleigh in the foreground, with the bat in the midground, against a warm, gentle sunset sky. The lighting is mixed soft, casting long, expressive shadows and bathing the scene in golden-orange hues, creating a warm, peaceful, serene, and gentle atmosphere with visible brushstrokes and vibrant, harmonious colors.",
+        "negative_prompt": "photorealistic, 3d render, modern, digital art, photograph, low quality, blurry, distorted, ugly, deformed, noisy, oversaturated, text, watermark, signature, frame, cartoon, anime, hyperrealistic, surrealism, abstract",
+        "prompt_formats": {
+            "simple": "A Post-Impressionism painting of a parrot with a sleigh on its back and a bat beside it at sunset.",
+            "complex": "A Post-Impressionism painting depicting a serene sunset scene where a large, vintage crimson red sleigh with weathered brown wood and brass details rests gently atop the back of a medium-sized, emerald green and golden amber parrot, which stands alert and poised. Beside the sleigh, a small, whimsical bat with deep black wings and soft purple accents hovers peacefully. The composition places the parrot and sleigh in the foreground, with the bat in the midground, against a warm, gentle sunset sky. The lighting is mixed soft, casting long, expressive shadows and bathing the scene in golden-orange hues, creating a warm, peaceful, serene, and gentle atmosphere with visible brushstrokes and vibrant, harmonious colors.",
+            "comma_separated": "Post-Impressionism painting, emerald green and golden amber parrot, crimson red sleigh, weathered brown wood, deep black bat with soft purple, sleigh on parrot, bat next to sleigh, sunset lighting, warm and peaceful serene gentle atmosphere, organic feathers, wood and brass materials, vibrant colors, expressive brushstrokes",
+            "tags": "art, painting, post-impressionism, sunset, parrot, sleigh, bat, vintage, whimsical, serene, warm lighting, expressive brushwork, harmonious colors, peaceful scene"
+        }
+    }
+}

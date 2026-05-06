@@ -1,0 +1,318 @@
+{
+    "artwork_id": "artwork_20260103_183255_401",
+    "generation_timestamp": "2026-01-03T18:33:29.100200",
+    "style": "Chinese Ink Painting",
+    "objects": {
+        "object_ids": [
+            19,
+            26,
+            58,
+            61
+        ],
+        "object_names": [
+            "sheep",
+            "umbrella",
+            "blanket",
+            "table"
+        ],
+        "enhanced_objects": [
+            {
+                "object_id": 19,
+                "name": "sheep",
+                "artistic_description": "Fluffy wool rendered in soft, dry brushstrokes of pale gray and warm ivory, with delicate ink washes suggesting texture. Sunlight creates subtle highlights on the fleece, while gentle shadows pool beneath. The wool appears dry and matte, absorbing the afternoon light with a soft, natural glow. Fine stippled details suggest individual fibers catching the bright, cheerful atmosphere.",
+                "size": "Large",
+                "state": "grazing peacefully, wool dry and clean",
+                "primary_colors": [
+                    "ivory",
+                    "pale gray"
+                ],
+                "material": "wool"
+            },
+            {
+                "object_id": 26,
+                "name": "umbrella",
+                "artistic_description": "Circular canopy rendered in bold, sweeping strokes of deep indigo with crisp white highlights along the curved edges. The fabric shows subtle variations in ink density, suggesting the play of bright afternoon sun across its surface. A glossy sheen appears where light catches the taut material, contrasting with matte shadowed areas. The handle displays fine, controlled lines in dark sepia.",
+                "size": "Medium",
+                "state": "open and taut, providing shade",
+                "primary_colors": [
+                    "indigo",
+                    "white"
+                ],
+                "material": "fabric"
+            },
+            {
+                "object_id": 58,
+                "name": "blanket",
+                "artistic_description": "Soft rectangular form rendered in layered ink washes of warm ochre and muted sage, with gentle gradations suggesting folds and texture. The fabric appears dry and slightly rumpled, with light catching the raised threads in delicate white highlights. Edges soften with atmospheric perspective, while the surface shows subtle variations in ink saturation from bright to shadowed areas.",
+                "size": "Medium",
+                "state": "spread out, slightly rumpled from use",
+                "primary_colors": [
+                    "ochre",
+                    "sage"
+                ],
+                "material": "fabric"
+            },
+            {
+                "object_id": 61,
+                "name": "table",
+                "artistic_description": "Sturdy wooden surface rendered in rich, warm browns with strong horizontal brushstrokes suggesting grain. Sunlight creates sharp highlights along the edges and a warm glow across the top, while deep shadows anchor its form. The wood shows subtle variations in tone, from golden highlights where light strikes directly to deep umber in recessed areas. Fine cross-hatching suggests aged texture.",
+                "size": "Medium",
+                "state": "stable and solid, showing natural wood grain",
+                "primary_colors": [
+                    "golden brown",
+                    "umber"
+                ],
+                "material": "wood"
+            }
+        ]
+    },
+    "composition": {
+        "spatial_relations": [
+            [
+                58,
+                "on",
+                61
+            ],
+            [
+                19,
+                "on",
+                58
+            ],
+            [
+                26,
+                "behind",
+                61
+            ],
+            [
+                61,
+                "next to",
+                19
+            ]
+        ],
+        "semantic_relations": []
+    },
+    "environment": {
+        "environment_details": {
+            "scene_brief": "A Vintage Picnic Setting featuring sheep, with umbrella, blanket, and table",
+            "place365_name": "/f/field/wild",
+            "place365_id": 141,
+            "time_of_day": "afternoon",
+            "weather": "sunny",
+            "period": "Modern",
+            "is_indoor": false,
+            "lighting": {
+                "type": "natural",
+                "quality": "soft",
+                "direction": "side-lit",
+                "mood": "warm",
+                "reasoning": "Afternoon sun creates soft, warm lighting. Side-lighting is excellent for defining the forms of the sheep and the folds of the blanket/umbrella, adding depth without harsh contrast, which suits the ink painting style's focus on form and atmosphere."
+            },
+            "atmosphere": "bright and active and cheerful and gentle"
+        },
+        "scene_inference": {
+            "all_candidates": [
+                {
+                    "scene_type": "Rustic Farmhouse Interior",
+                    "plausibility": 0.95,
+                    "reasoning": "A sheep is brought indoors for shelter or care. The table is a piece of furniture. The blanket is used for warmth on the table or floor. The umbrella is a tool used for rain protection, perhaps brought in from outside.",
+                    "object_interpretations": {
+                        "sheep": {
+                            "form": "real sheep",
+                            "scale": "normal",
+                            "role": "primary living subject"
+                        },
+                        "umbrella": {
+                            "form": "real umbrella",
+                            "scale": "normal",
+                            "role": "functional object (rain protection)"
+                        },
+                        "blanket": {
+                            "form": "real blanket",
+                            "scale": "normal",
+                            "role": "functional object (warmth/comfort)"
+                        },
+                        "table": {
+                            "form": "real wooden table",
+                            "scale": "normal",
+                            "role": "structural furniture"
+                        }
+                    }
+                },
+                {
+                    "scene_type": "Traditional Chinese Garden Pavilion",
+                    "plausibility": 0.9,
+                    "reasoning": "A decorative sheep statue sits on a table inside a pavilion. A folded umbrella leans against the table, and a blanket is draped over a railing or chair nearby, suggesting a restful scene.",
+                    "object_interpretations": {
+                        "sheep": {
+                            "form": "stone or ceramic statue",
+                            "scale": "small (statuette)",
+                            "role": "decorative art object"
+                        },
+                        "umbrella": {
+                            "form": "closed paper umbrella",
+                            "scale": "normal",
+                            "role": "decorative prop"
+                        },
+                        "blanket": {
+                            "form": "woven fabric",
+                            "scale": "normal",
+                            "role": "decorative textile"
+                        },
+                        "table": {
+                            "form": "low wooden table",
+                            "scale": "normal",
+                            "role": "furniture surface"
+                        }
+                    }
+                },
+                {
+                    "scene_type": "Shepherd's Rest Stop",
+                    "plausibility": 0.92,
+                    "reasoning": "A shepherd rests under a tree with his sheep. He uses a table for eating, a blanket to sit on, and an umbrella for shade from the sun.",
+                    "object_interpretations": {
+                        "sheep": {
+                            "form": "real sheep",
+                            "scale": "normal",
+                            "role": "primary livestock subject"
+                        },
+                        "umbrella": {
+                            "form": "large parasol",
+                            "scale": "large",
+                            "role": "sun protection"
+                        },
+                        "blanket": {
+                            "form": "woven wool blanket",
+                            "scale": "normal",
+                            "role": "seating comfort"
+                        },
+                        "table": {
+                            "form": "small folding table",
+                            "scale": "small",
+                            "role": "surface for supplies"
+                        }
+                    }
+                },
+                {
+                    "scene_type": "Art Studio / Workshop",
+                    "plausibility": 0.85,
+                    "reasoning": "An artist's studio with a sheep as a live model. The table holds art supplies. A blanket is draped over the sheep for composition, and an umbrella is used to diffuse lighting.",
+                    "object_interpretations": {
+                        "sheep": {
+                            "form": "real sheep",
+                            "scale": "normal",
+                            "role": "artist's model"
+                        },
+                        "umbrella": {
+                            "form": "photography umbrella",
+                            "scale": "large",
+                            "role": "lighting modifier"
+                        },
+                        "blanket": {
+                            "form": "fabric drape",
+                            "scale": "normal",
+                            "role": "compositional element"
+                        },
+                        "table": {
+                            "form": "work table",
+                            "scale": "normal",
+                            "role": "utility surface"
+                        }
+                    }
+                },
+                {
+                    "scene_type": "Mythical Cloud Landscape",
+                    "plausibility": 0.8,
+                    "reasoning": "In a surreal Chinese ink style, a celestial sheep stands on a cloud-table. A magical umbrella floats nearby, and a blanket of mist wraps around the scene.",
+                    "object_interpretations": {
+                        "sheep": {
+                            "form": "celestial beast",
+                            "scale": "large",
+                            "role": "mythical guardian"
+                        },
+                        "umbrella": {
+                            "form": "floating canopy",
+                            "scale": "large",
+                            "role": "magical shield"
+                        },
+                        "blanket": {
+                            "form": "mist/cloud layer",
+                            "scale": "ambient",
+                            "role": "atmospheric effect"
+                        },
+                        "table": {
+                            "form": "floating rock/cloud",
+                            "scale": "large",
+                            "role": "platform"
+                        }
+                    }
+                },
+                {
+                    "scene_type": "Vintage Picnic Setting",
+                    "plausibility": 0.93,
+                    "reasoning": "A picnic scene in a field. The table is a picnic table. The blanket is spread on the grass. The sheep wanders nearby. The umbrella provides shade.",
+                    "object_interpretations": {
+                        "sheep": {
+                            "form": "real sheep",
+                            "scale": "normal",
+                            "role": "wildlife observer"
+                        },
+                        "umbrella": {
+                            "form": "beach umbrella",
+                            "scale": "large",
+                            "role": "shade provider"
+                        },
+                        "blanket": {
+                            "form": "checkered picnic blanket",
+                            "scale": "normal",
+                            "role": "seating area"
+                        },
+                        "table": {
+                            "form": "picnic table",
+                            "scale": "normal",
+                            "role": "dining furniture"
+                        }
+                    },
+                    "scene_brief": "A Vintage Picnic Setting featuring sheep, with umbrella, blanket, and table"
+                }
+            ],
+            "selected_scene": {
+                "scene_type": "Vintage Picnic Setting",
+                "plausibility": 0.93,
+                "reasoning": "A picnic scene in a field. The table is a picnic table. The blanket is spread on the grass. The sheep wanders nearby. The umbrella provides shade.",
+                "object_interpretations": {
+                    "sheep": {
+                        "form": "real sheep",
+                        "scale": "normal",
+                        "role": "wildlife observer"
+                    },
+                    "umbrella": {
+                        "form": "beach umbrella",
+                        "scale": "large",
+                        "role": "shade provider"
+                    },
+                    "blanket": {
+                        "form": "checkered picnic blanket",
+                        "scale": "normal",
+                        "role": "seating area"
+                    },
+                    "table": {
+                        "form": "picnic table",
+                        "scale": "normal",
+                        "role": "dining furniture"
+                    }
+                },
+                "scene_brief": "A Vintage Picnic Setting featuring sheep, with umbrella, blanket, and table"
+            }
+        }
+    },
+    "final_prompts": {
+        "main_prompt": "A Chinese Ink Painting painting depicting a bright and active afternoon scene with a gentle, cheerful atmosphere. In the foreground, a large ivory and pale gray sheep grazes peacefully atop a medium-sized ochre and sage blanket, which is spread out across the surface of a stable, solid medium table in golden brown and umber tones. Directly behind the table stands a medium indigo and white umbrella, open and taut, casting a soft shadow. The natural soft afternoon light filters through, creating a luminous quality that highlights the textures of wool, fabric, and wood. The composition flows with the expressive brushstrokes and subtle ink washes characteristic of the style, capturing a moment of serene activity in a harmonious arrangement.",
+        "negative_prompt": "photorealistic, 3d render, modern, digital art, photograph, low quality, blurry, distorted, cartoon, anime, western painting, oil painting, watercolor, surreal, abstract, text, signature, frame, border, oversaturated, high contrast, dark, gloomy, night scene",
+        "prompt_formats": {
+            "simple": "A Chinese ink painting of a sheep grazing on a blanket-covered table with an umbrella behind, set in a soft afternoon light.",
+            "complex": "A Chinese Ink Painting painting depicting a bright and active afternoon scene with a gentle, cheerful atmosphere. In the foreground, a large ivory and pale gray sheep grazes peacefully atop a medium-sized ochre and sage blanket, which is spread out across the surface of a stable, solid medium table in golden brown and umber tones. Directly behind the table stands a medium indigo and white umbrella, open and taut, casting a soft shadow. The natural soft afternoon light filters through, creating a luminous quality that highlights the textures of wool, fabric, and wood. The composition flows with the expressive brushstrokes and subtle ink washes characteristic of the style, capturing a moment of serene activity in a harmonious arrangement.",
+            "comma_separated": "Chinese Ink Painting, sheep grazing peacefully, blanket on table, umbrella behind table, afternoon lighting, soft natural light, bright cheerful atmosphere, ivory pale gray sheep, ochre sage blanket, golden brown umber table, indigo white umbrella, wool fabric wood textures, expressive brushstrokes, ink wash",
+            "tags": "art, painting, chinese ink painting, ink wash, sumi-e, sheep, umbrella, blanket, table, afternoon, grazing, peaceful, cheerful, gentle, natural light, traditional art, composition, foreground midground"
+        }
+    }
+}

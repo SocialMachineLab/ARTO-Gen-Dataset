@@ -1,0 +1,281 @@
+{
+    "artwork_id": "artwork_20260103_144445_446",
+    "generation_timestamp": "2026-01-03T14:45:20.576367",
+    "style": "Baroque",
+    "objects": {
+        "object_ids": [
+            44,
+            70,
+            72
+        ],
+        "object_names": [
+            "sword",
+            "oven",
+            "faucet"
+        ],
+        "enhanced_objects": [
+            {
+                "object_id": 44,
+                "name": "sword",
+                "artistic_description": "A magnificent Baroque rapier gleaming under warm candlelight, its polished steel blade catching golden highlights that dance along its fuller. The ornate cup hilt glows with rich amber tones, its gilded bronze filigree work creating intricate shadow patterns across the guard. The blade itself shows a subtle patina of age, with faint wavy patterns visible in the warm artificial glow, suggesting both battle history and refined craftsmanship. The wire-wrapped grip appears dark and velvety, absorbing the light while its texture creates delicate highlights.",
+                "size": "Medium",
+                "state": "well-maintained with noble patina",
+                "primary_colors": [
+                    "warm steel gray",
+                    "golden bronze"
+                ],
+                "material": "steel, bronze, gold"
+            },
+            {
+                "object_id": 70,
+                "name": "oven",
+                "artistic_description": "A grand Baroque oven constructed of dark, aged brickwork that absorbs the warm artificial light, creating deep shadows in its recesses. The arched opening glows with a faint ruddy warmth from within, its interior tiles catching amber reflections. Ornate iron fittings and hinges appear as black silhouettes against the brick, while a subtle sheen of moisture from the bath atmosphere creates occasional glints on the smooth surfaces. The stone surround shows rich ochre and umber tones, its texture matte and venerable.",
+                "size": "Large",
+                "state": "aged but functional, weathered by steam and time",
+                "primary_colors": [
+                    "deep brick red",
+                    "dark umber"
+                ],
+                "material": "brick, iron, stone"
+            },
+            {
+                "object_id": 72,
+                "name": "faucet",
+                "artistic_description": "An ornate brass faucet gleaming brilliantly in the artificial light, its polished surface creating sharp highlights and deep reflections. The Baroque scrollwork and handles catch the warm illumination, showing rich golden tones with subtle verdigris accents in the crevices. Water droplets cling to its surface, each catching the light like tiny jewels. The metal appears lustrous and highly reflective, with the candlelight creating dancing highlights across its sculptural forms. A slight patina of age adds depth to its golden luster.",
+                "size": "Small",
+                "state": "polished and gleaming with condensation",
+                "primary_colors": [
+                    "warm gold",
+                    "rich amber"
+                ],
+                "material": "brass"
+            }
+        ]
+    },
+    "composition": {
+        "spatial_relations": [
+            [
+                44,
+                "on",
+                70
+            ],
+            [
+                72,
+                "next to",
+                70
+            ]
+        ],
+        "semantic_relations": []
+    },
+    "environment": {
+        "environment_details": {
+            "scene_brief": "A Baroque armory with bath featuring sword, with oven, and faucet",
+            "place365_name": "/p/pub/indoor",
+            "place365_id": 274,
+            "time_of_day": "evening",
+            "weather": null,
+            "period": "Early modern",
+            "is_indoor": true,
+            "lighting": {
+                "type": "artificial",
+                "quality": "dramatic",
+                "direction": "side-lit",
+                "mood": "warm",
+                "reasoning": "To match the Baroque style and evening time, the lighting should be artificial and dramatic. The 'oven' in the description provides a logical source of warm, flickering light. Side-lighting from a fireplace or oven would best sculpt the metallic surfaces of the sword and armor, creating the high-contrast, theatrical atmosphere characteristic of the period."
+            },
+            "atmosphere": "calm and relaxed and striking"
+        },
+        "scene_inference": {
+            "all_candidates": [
+                {
+                    "scene_type": "Baroque alchemist's forge",
+                    "plausibility": 0.85,
+                    "reasoning": "A mystical workshop where a master smith forges a legendary blade. The sword is the central artifact being crafted. The oven is a magical furnace for heating the metal to supernatural temperatures. The faucet is a mystical spigot on an ornate basin, providing enchanted water for quenching the hot steel, creating steam and hissing sounds.",
+                    "object_interpretations": {
+                        "sword": {
+                            "form": "real weapon",
+                            "scale": "normal",
+                            "role": "primary object, masterpiece in progress"
+                        },
+                        "oven": {
+                            "form": "real furnace",
+                            "scale": "large",
+                            "role": "functional forge element"
+                        },
+                        "faucet": {
+                            "form": "ornate spigot",
+                            "scale": "normal",
+                            "role": "functional quenching station"
+                        }
+                    }
+                },
+                {
+                    "scene_type": "Baroque noble's kitchen",
+                    "plausibility": 0.8,
+                    "reasoning": "A grand, opulent kitchen in a castle. The sword is a ceremonial weapon hanging on the wall as part of a decorative armor display. The oven is a massive, ornate cooking hearth. The faucet is an elaborate, gilded water fixture above a stone basin.",
+                    "object_interpretations": {
+                        "sword": {
+                            "form": "real weapon",
+                            "scale": "normal",
+                            "role": "decorative wall art"
+                        },
+                        "oven": {
+                            "form": "real cooking hearth",
+                            "scale": "large",
+                            "role": "primary cooking appliance"
+                        },
+                        "faucet": {
+                            "form": "ornate fixture",
+                            "scale": "normal",
+                            "role": "functional sink tap"
+                        }
+                    }
+                },
+                {
+                    "scene_type": "Baroque theatrical stage set",
+                    "plausibility": 0.75,
+                    "reasoning": "A dramatic stage set for an opera or play. The sword is a prop for a duel scene. The oven is a painted backdrop or a prop representing a blacksmith's forge. The faucet is part of a set piece representing a castle well or kitchen.",
+                    "object_interpretations": {
+                        "sword": {
+                            "form": "stage prop",
+                            "scale": "normal",
+                            "role": "dramatic prop"
+                        },
+                        "oven": {
+                            "form": "set piece/backdrop",
+                            "scale": "variable",
+                            "role": "scenic element"
+                        },
+                        "faucet": {
+                            "form": "set prop",
+                            "scale": "normal",
+                            "role": "scenic detail"
+                        }
+                    }
+                },
+                {
+                    "scene_type": "Baroque museum of antiquities",
+                    "plausibility": 0.9,
+                    "reasoning": "A curated museum display showcasing historical artifacts. The sword is the centerpiece of an exhibit. The oven is a restored ancient or medieval oven displayed nearby. The faucet is an ornate historical plumbing fixture in a separate display case.",
+                    "object_interpretations": {
+                        "sword": {
+                            "form": "artifact",
+                            "scale": "normal",
+                            "role": "primary exhibit piece"
+                        },
+                        "oven": {
+                            "form": "artifact",
+                            "scale": "normal",
+                            "role": "secondary exhibit piece"
+                        },
+                        "faucet": {
+                            "form": "artifact",
+                            "scale": "normal",
+                            "role": "tertiary exhibit piece"
+                        }
+                    }
+                },
+                {
+                    "scene_type": "Baroque surrealist painting",
+                    "plausibility": 0.7,
+                    "reasoning": "A dreamlike, symbolic composition. The sword is a floating, glowing blade representing justice or war. The oven is a melting, distorted furnace with impossible geometry. The faucet is a waterfall flowing upwards or pouring gold, defying physics.",
+                    "object_interpretations": {
+                        "sword": {
+                            "form": "symbolic object",
+                            "scale": "variable",
+                            "role": "central symbol"
+                        },
+                        "oven": {
+                            "form": "distorted object",
+                            "scale": "variable",
+                            "role": "surreal element"
+                        },
+                        "faucet": {
+                            "form": "impossible object",
+                            "scale": "variable",
+                            "role": "surreal element"
+                        }
+                    }
+                },
+                {
+                    "scene_type": "Baroque armory with bath",
+                    "plausibility": 0.8,
+                    "reasoning": "A luxurious armory adjacent to a royal bath chamber. The sword is displayed on a rack. The oven is a heating stove for warming towels. The faucet is part of an ornate bathing fountain.",
+                    "object_interpretations": {
+                        "sword": {
+                            "form": "real weapon",
+                            "scale": "normal",
+                            "role": "displayed armament"
+                        },
+                        "oven": {
+                            "form": "heating stove",
+                            "scale": "medium",
+                            "role": "utility appliance"
+                        },
+                        "faucet": {
+                            "form": "fountain spout",
+                            "scale": "normal",
+                            "role": "bath fixture"
+                        }
+                    },
+                    "scene_brief": "A Baroque armory with bath featuring sword, with oven, and faucet"
+                },
+                {
+                    "scene_type": "Baroque still life",
+                    "plausibility": 0.85,
+                    "reasoning": "A richly detailed still life painting with symbolic objects. The sword is a ceremonial blade on a table. The oven is a small, decorative brazier or incense burner. The faucet is an ornate ewer or pitcher with a spigot.",
+                    "object_interpretations": {
+                        "sword": {
+                            "form": "decorative object",
+                            "scale": "normal",
+                            "role": "symbolic centerpiece"
+                        },
+                        "oven": {
+                            "form": "small brazier",
+                            "scale": "small",
+                            "role": "decorative element"
+                        },
+                        "faucet": {
+                            "form": "ornate pitcher",
+                            "scale": "small",
+                            "role": "decorative element"
+                        }
+                    }
+                }
+            ],
+            "selected_scene": {
+                "scene_type": "Baroque armory with bath",
+                "plausibility": 0.8,
+                "reasoning": "A luxurious armory adjacent to a royal bath chamber. The sword is displayed on a rack. The oven is a heating stove for warming towels. The faucet is part of an ornate bathing fountain.",
+                "object_interpretations": {
+                    "sword": {
+                        "form": "real weapon",
+                        "scale": "normal",
+                        "role": "displayed armament"
+                    },
+                    "oven": {
+                        "form": "heating stove",
+                        "scale": "medium",
+                        "role": "utility appliance"
+                    },
+                    "faucet": {
+                        "form": "fountain spout",
+                        "scale": "normal",
+                        "role": "bath fixture"
+                    }
+                },
+                "scene_brief": "A Baroque armory with bath featuring sword, with oven, and faucet"
+            }
+        }
+    },
+    "final_prompts": {
+        "main_prompt": "A Baroque painting depicting a calm yet striking domestic scene in the evening. In the foreground, a large, aged but functional oven in deep brick red and dark umber dominates the composition. Resting atop its worn surface is a medium-sized sword of warm steel gray and golden bronze, its blade well-maintained with a noble patina. Beside the oven, a small, polished faucet gleams in warm gold and rich amber hues, with delicate beads of condensation catching the artificial, dramatic light. The scene is bathed in the warm glow of evening, with chiaroscuro lighting creating deep shadows and brilliant highlights that enhance the textures of steel, bronze, gold, and brick. The atmosphere is both relaxed and visually arresting, capturing a moment of serene stillness where ordinary objects are transformed into subjects of quiet grandeur.",
+        "negative_prompt": "photorealistic, 3d render, modern, digital art, photograph, low quality, blurry, distorted, ugly, deformed, cartoon, anime, text, watermark, signature, frame, border, people, humans, animals, plants, outdoor, daytime, bright sunlight, flat lighting, cluttered, messy, abstract, surreal, fantasy, sci-fi",
+        "prompt_formats": {
+            "simple": "A Baroque painting of a sword on an oven with a faucet beside it in a calm, dramatic evening interior.",
+            "complex": "A Baroque painting depicting a calm yet striking domestic scene in the evening. In the foreground, a large, aged but functional oven in deep brick red and dark umber dominates the composition. Resting atop its worn surface is a medium-sized sword of warm steel gray and golden bronze, its blade well-maintained with a noble patina. Beside the oven, a small, polished faucet gleams in warm gold and rich amber hues, with delicate beads of condensation catching the artificial, dramatic light. The scene is bathed in the warm glow of evening, with chiaroscuro lighting creating deep shadows and brilliant highlights that enhance the textures of steel, bronze, gold, and brick. The atmosphere is both relaxed and visually arresting, capturing a moment of serene stillness where ordinary objects are transformed into subjects of quiet grandeur.",
+            "comma_separated": "Baroque painting, sword on oven, faucet next to oven, evening interior, artificial dramatic lighting, calm and relaxed and striking atmosphere, warm steel gray sword, golden bronze patina, deep brick red oven, dark umber, warm gold faucet, rich amber, polished gleaming, condensation, chiaroscuro, textures of steel bronze gold brick, serene stillness, domestic grandeur",
+            "tags": "art, painting, Baroque, still life, interior, sword, oven, faucet, evening, chiaroscuro, dramatic lighting, calm atmosphere, steel, bronze, gold, brick, patina, condensation, textures, domestic scene"
+        }
+    }
+}

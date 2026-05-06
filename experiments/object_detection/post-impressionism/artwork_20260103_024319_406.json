@@ -1,0 +1,238 @@
+{
+    "artwork_id": "artwork_20260103_024319_406",
+    "generation_timestamp": "2026-01-03T02:43:53.421387",
+    "style": "Post-Impressionism",
+    "objects": {
+        "object_ids": [
+            22,
+            26
+        ],
+        "object_names": [
+            "bear",
+            "canopy"
+        ],
+        "enhanced_objects": [
+            {
+                "object_id": 22,
+                "name": "bear",
+                "artistic_description": "A massive silhouette of fur rendered in thick, visible brushstrokes, where the coarse coat absorbs the tent's warm amber glow while catching cooler violet shadows in the deep texture. The muzzle and chest shimmer with reflected light from the canvas ceiling, creating patches of luminous gold against umber and burnt sienna tones. The eyes hold a glassy, contemplative sheen, reflecting the tent's ambient light with a subtle, melancholic depth.",
+                "size": "Large",
+                "state": "Calmly resting, fur slightly matted with arena dust",
+                "primary_colors": [
+                    "Burnt umber",
+                    "Reflected amber"
+                ],
+                "material": "fur"
+            },
+            {
+                "object_id": 26,
+                "name": "canopy",
+                "artistic_description": "A sweeping curve of canvas transformed by Post-Impressionist light, where the fabric glows with translucent warmth where spotlights pierce through, creating luminous patches of cadmium yellow and peach. The material shows visible weave texture in thick impasto strokes, transitioning to deep, cool indigo and Prussian blue in the unlit folds. The surface carries a subtle, dusty patina that diffuses the light, making the edges of the canopy appear to breathe with atmospheric haze.",
+                "size": "Dominant",
+                "state": "Taut and weathered from repeated use, showing faint scuffs and wear",
+                "primary_colors": [
+                    "Warm cream",
+                    "Deep indigo"
+                ],
+                "material": "canvas"
+            }
+        ]
+    },
+    "composition": {
+        "spatial_relations": [
+            [
+                22,
+                "inside",
+                26
+            ]
+        ],
+        "semantic_relations": []
+    },
+    "environment": {
+        "environment_details": {
+            "scene_brief": "A circus tent interior featuring bear, with canopy",
+            "place365_name": "/r/room",
+            "place365_id": 21,
+            "time_of_day": "evening",
+            "weather": null,
+            "period": "Contemporary",
+            "is_indoor": true,
+            "lighting": {
+                "type": "mixed",
+                "quality": "dramatic",
+                "direction": "side-lit",
+                "reasoning": "The lighting should be 'mixed' (ambient tent lighting combined with specific spotlights on the bear) to create depth. 'Dramatic' quality suits the theatrical nature of a circus and the bold colors of Post-Impressionism. 'Side-lit' creates strong shadows and volume on the bear, emphasizing its form against the tent backdrop."
+            },
+            "atmosphere": "calm and relaxed and striking"
+        },
+        "scene_inference": {
+            "all_candidates": [
+                {
+                    "scene_type": "forest clearing",
+                    "plausibility": 0.95,
+                    "reasoning": "A bear in its natural habitat. The canopy is the natural tree canopy overhead, filtering light in a Post-Impressionist style.",
+                    "object_interpretations": {
+                        "bear": {
+                            "form": "real animal",
+                            "scale": "normal",
+                            "role": "primary subject"
+                        },
+                        "canopy": {
+                            "form": "natural foliage",
+                            "scale": "large",
+                            "role": "environmental cover"
+                        }
+                    }
+                },
+                {
+                    "scene_type": "circus tent interior",
+                    "plausibility": 0.85,
+                    "reasoning": "A performing bear inside a circus tent. The canopy refers to the tent roof structure above.",
+                    "object_interpretations": {
+                        "bear": {
+                            "form": "trained animal",
+                            "scale": "normal",
+                            "role": "performer"
+                        },
+                        "canopy": {
+                            "form": "fabric tent roof",
+                            "scale": "large",
+                            "role": "structural covering"
+                        }
+                    },
+                    "scene_brief": "A circus tent interior featuring bear, with canopy"
+                },
+                {
+                    "scene_type": "royal throne room",
+                    "plausibility": 0.8,
+                    "reasoning": "A ceremonial bear (perhaps a taxidermy mount or costumed figure) under a decorative canopy above a throne.",
+                    "object_interpretations": {
+                        "bear": {
+                            "form": "taxidermy or heraldic symbol",
+                            "scale": "normal",
+                            "role": "decorative/symbolic"
+                        },
+                        "canopy": {
+                            "form": "fabric drapery",
+                            "scale": "large",
+                            "role": "royal decoration"
+                        }
+                    }
+                },
+                {
+                    "scene_type": "summer picnic meadow",
+                    "plausibility": 0.75,
+                    "reasoning": "A bear near a picnic area. The canopy is a portable sunshade or parasol protecting the picnic setup.",
+                    "object_interpretations": {
+                        "bear": {
+                            "form": "wild animal",
+                            "scale": "normal",
+                            "role": "background observer"
+                        },
+                        "canopy": {
+                            "form": "portable shade structure",
+                            "scale": "medium",
+                            "role": "human shelter"
+                        }
+                    }
+                },
+                {
+                    "scene_type": "taxidermy museum exhibit",
+                    "plausibility": 0.85,
+                    "reasoning": "A mounted bear display in a natural history museum. The canopy is a protective glass or acrylic cover over the exhibit.",
+                    "object_interpretations": {
+                        "bear": {
+                            "form": "taxidermy mount",
+                            "scale": "normal",
+                            "role": "exhibit centerpiece"
+                        },
+                        "canopy": {
+                            "form": "protective display case",
+                            "scale": "large",
+                            "role": "preservation barrier"
+                        }
+                    }
+                },
+                {
+                    "scene_type": "cave entrance",
+                    "plausibility": 0.9,
+                    "reasoning": "A bear emerging from a cave. The canopy is the overhanging rock formation or vegetation at the cave mouth.",
+                    "object_interpretations": {
+                        "bear": {
+                            "form": "real animal",
+                            "scale": "normal",
+                            "role": "primary subject"
+                        },
+                        "canopy": {
+                            "form": "rock overhang/vines",
+                            "scale": "large",
+                            "role": "natural shelter"
+                        }
+                    }
+                },
+                {
+                    "scene_type": "garden party",
+                    "plausibility": 0.7,
+                    "reasoning": "A decorative bear statue in a formal garden. The canopy is a pergola or arbor structure overhead.",
+                    "object_interpretations": {
+                        "bear": {
+                            "form": "stone statue",
+                            "scale": "normal",
+                            "role": "garden ornament"
+                        },
+                        "canopy": {
+                            "form": "pergola structure",
+                            "scale": "large",
+                            "role": "architectural feature"
+                        }
+                    }
+                },
+                {
+                    "scene_type": "hunting lodge",
+                    "plausibility": 0.8,
+                    "reasoning": "A bear rug or trophy on the floor. The canopy is a canopy bed or draped ceiling beams in the room.",
+                    "object_interpretations": {
+                        "bear": {
+                            "form": "fur rug/trophy",
+                            "scale": "flat/extended",
+                            "role": "floor decoration"
+                        },
+                        "canopy": {
+                            "form": "fabric drapery",
+                            "scale": "large",
+                            "role": "room decoration"
+                        }
+                    }
+                }
+            ],
+            "selected_scene": {
+                "scene_type": "circus tent interior",
+                "plausibility": 0.85,
+                "reasoning": "A performing bear inside a circus tent. The canopy refers to the tent roof structure above.",
+                "object_interpretations": {
+                    "bear": {
+                        "form": "trained animal",
+                        "scale": "normal",
+                        "role": "performer"
+                    },
+                    "canopy": {
+                        "form": "fabric tent roof",
+                        "scale": "large",
+                        "role": "structural covering"
+                    }
+                },
+                "scene_brief": "A circus tent interior featuring bear, with canopy"
+            }
+        }
+    },
+    "final_prompts": {
+        "main_prompt": "A Post-Impressionism painting depicting a calm evening scene where a large bear, rendered in burnt umber with amber reflections, rests calmly inside a dominant canopy. The canopy, taut and weathered from repeated use, fills the foreground with its warm cream and deep indigo canvas, enveloping the bear in its protective space. The spatial relationship is intimate and enclosed, with the bear positioned centrally within the canopy's shelter, creating a striking focal point. The evening light filters through the canvas in mixed dramatic tones, casting warm glows and deep shadows that enhance the textured fur of the bear and the weathered fabric of the canopy. The atmosphere is calm, relaxed, and visually striking, with bold, expressive brushstrokes capturing the serene interaction between the resting animal and its shelter under the twilight sky.",
+        "negative_prompt": "photorealistic, 3d render, modern, digital art, photograph, low quality, blurry, distorted, cartoon, anime, surreal, abstract, text, watermark, signature, frame, border",
+        "prompt_formats": {
+            "simple": "A Post-Impressionism painting of a large bear resting calmly inside a weathered canopy during a serene evening.",
+            "complex": "A Post-Impressionism painting depicting a calm evening scene where a large bear, rendered in burnt umber with amber reflections, rests calmly inside a dominant canopy. The canopy, taut and weathered from repeated use, fills the foreground with its warm cream and deep indigo canvas, enveloping the bear in its protective space. The spatial relationship is intimate and enclosed, with the bear positioned centrally within the canopy's shelter, creating a striking focal point. The evening light filters through the canvas in mixed dramatic tones, casting warm glows and deep shadows that enhance the textured fur of the bear and the weathered fabric of the canopy. The atmosphere is calm, relaxed, and visually striking, with bold, expressive brushstrokes capturing the serene interaction between the resting animal and its shelter under the twilight sky.",
+            "comma_separated": "Post-Impressionism painting, large bear, burnt umber and amber colors, calmly resting, dominant canopy, warm cream and deep indigo, taut and weathered, bear inside canopy, evening lighting, mixed dramatic light, calm and relaxed atmosphere, striking composition, textured fur, canvas material, serene scene",
+            "tags": "art, painting, post-impressionism, bear, canopy, evening, calm, relaxed, striking, Vincent van Gogh style, Paul Gauguin style, expressive brushwork, color theory, animal art, shelter, twilight"
+        }
+    }
+}

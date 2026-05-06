@@ -1,0 +1,222 @@
+{
+    "artwork_id": "artwork_20260103_142451_480",
+    "generation_timestamp": "2026-01-03T14:25:19.670198",
+    "style": "Baroque",
+    "objects": {
+        "object_ids": [
+            10,
+            56
+        ],
+        "object_names": [
+            "lamp post",
+            "apple pie"
+        ],
+        "enhanced_objects": [
+            {
+                "object_id": 10,
+                "name": "lamp post",
+                "artistic_description": "A towering wrought iron lamp post rises with ornate Baroque scrollwork and volutes, its dark metal surface catching the warm artificial glow from within. The flickering candlelight within the glass enclosure casts dancing golden highlights across the intricate metalwork, creating deep shadows in the recessed curlicues. A gentle patina of age darkens the iron, while the glass panels shimmer with a soft amber luminance, their surfaces polished smooth by time and careful maintenance.",
+                "size": "Large",
+                "state": "aged but well-maintained, bearing the dignified wear of early modern craftsmanship",
+                "primary_colors": [
+                    "warm amber",
+                    "deep iron black"
+                ],
+                "material": "wrought iron and glass"
+            },
+            {
+                "object_id": 56,
+                "name": "apple pie",
+                "artistic_description": "A golden-brown lattice crust crowns the rustic apple pie, its buttery pastry glistening with a delicate sheen under the warm artificial light. The caramelized surface of the filling peeks through the woven crust, glowing with rich amber and honey tones. Steam rises in gentle wisps, catching the light and creating a soft halo effect around the dessert. The edges of the crust are crisped to a deep mahogany brown, while the visible apple slices within show translucent, jewel-like qualities.",
+                "size": "Medium",
+                "state": "freshly baked, still warm with aromatic steam, resting in a ceramic dish",
+                "primary_colors": [
+                    "golden amber",
+                    "rich caramel brown"
+                ],
+                "material": "baked pastry and fruit"
+            }
+        ]
+    },
+    "composition": {
+        "spatial_relations": [
+            [
+                56,
+                "under",
+                10
+            ]
+        ],
+        "semantic_relations": []
+    },
+    "environment": {
+        "environment_details": {
+            "scene_brief": "A Baroque banquet hall centered around lamp post, with apple pie",
+            "place365_name": "/p/pub/indoor",
+            "place365_id": 274,
+            "time_of_day": "evening",
+            "weather": null,
+            "period": "Early modern",
+            "is_indoor": true,
+            "lighting": {
+                "type": "artificial",
+                "quality": "dramatic",
+                "direction": "side-lit",
+                "mood": "warm",
+                "reasoning": "To achieve the classic Baroque look, the lighting must be 'dramatic' with high contrast between light and shadow. 'Artificial' light from candles or a lamp post fits the 'evening' time. 'Side-lit' lighting creates volume and depth on the subjects, enhancing the three-dimensional effect prized in Baroque painting. A 'warm' mood complements the banquet setting."
+            },
+            "atmosphere": "calm and relaxed and striking"
+        },
+        "scene_inference": {
+            "all_candidates": [
+                {
+                    "scene_type": "Baroque banquet hall",
+                    "plausibility": 0.85,
+                    "reasoning": "A grand, opulent hall for a feast. The lamp post is a tall, ornate candelabra or gas lamp, providing dramatic lighting. The apple pie is a lavish dessert on a long banquet table laden with food.",
+                    "object_interpretations": {
+                        "lamp post": {
+                            "form": "ornate candelabra",
+                            "scale": "large (human-height)",
+                            "role": "primary lighting fixture"
+                        },
+                        "apple pie": {
+                            "form": "real baked dessert",
+                            "scale": "normal (serving size)",
+                            "role": "food on banquet table"
+                        }
+                    },
+                    "scene_brief": "A Baroque banquet hall centered around lamp post, with apple pie"
+                },
+                {
+                    "scene_type": "Baroque garden",
+                    "plausibility": 0.9,
+                    "reasoning": "A formal, geometrically arranged garden at dusk. The lamp post is an elegant stone and iron street lamp illuminating a path. The apple pie sits on a small wrought-iron table as part of an al fresco dessert service.",
+                    "object_interpretations": {
+                        "lamp post": {
+                            "form": "street lamp",
+                            "scale": "normal (10-12 ft)",
+                            "role": "path lighting"
+                        },
+                        "apple pie": {
+                            "form": "real baked dessert",
+                            "scale": "normal",
+                            "role": "dessert on patio table"
+                        }
+                    }
+                },
+                {
+                    "scene_type": "Baroque still life painting",
+                    "plausibility": 0.8,
+                    "reasoning": "A studio painting composition. The lamp post is a miniature model or a detailed drawing in the background, establishing a setting. The apple pie is the central, photorealistic subject of the still life.",
+                    "object_interpretations": {
+                        "lamp post": {
+                            "form": "model or painting",
+                            "scale": "miniature or 2D",
+                            "role": "background element"
+                        },
+                        "apple pie": {
+                            "form": "real baked dessert",
+                            "scale": "normal",
+                            "role": "foreground subject"
+                        }
+                    }
+                },
+                {
+                    "scene_type": "Baroque street market",
+                    "plausibility": 0.85,
+                    "reasoning": "A bustling historical market square. The lamp post is an iron gas lamp marking a vendor stall. The apple pie is a fresh-baked good displayed for sale on the stall's counter.",
+                    "object_interpretations": {
+                        "lamp post": {
+                            "form": "gas street lamp",
+                            "scale": "normal",
+                            "role": "landmark/lighting for stall"
+                        },
+                        "apple pie": {
+                            "form": "baked good",
+                            "scale": "normal",
+                            "role": "product for sale"
+                        }
+                    }
+                },
+                {
+                    "scene_type": "Baroque theater stage",
+                    "plausibility": 0.75,
+                    "reasoning": "A theatrical set design for a play. The lamp post is a prop on stage, perhaps part of a street scene. The apple pie is a prop used in a scene, such as a character eating dessert.",
+                    "object_interpretations": {
+                        "lamp post": {
+                            "form": "stage prop",
+                            "scale": "normal",
+                            "role": "set dressing"
+                        },
+                        "apple pie": {
+                            "form": "prop (real or fake)",
+                            "scale": "normal",
+                            "role": "action prop"
+                        }
+                    }
+                },
+                {
+                    "scene_type": "Baroque interior with fireplace",
+                    "plausibility": 0.8,
+                    "reasoning": "A richly decorated living room. The lamp post is a tall, gilded floor lamp (torchere) in the corner. The apple pie is cooling on a side table near the warmth of the fireplace.",
+                    "object_interpretations": {
+                        "lamp post": {
+                            "form": "gilded floor lamp",
+                            "scale": "large",
+                            "role": "ambient lighting"
+                        },
+                        "apple pie": {
+                            "form": "real baked dessert",
+                            "scale": "normal",
+                            "role": "food on side table"
+                        }
+                    }
+                },
+                {
+                    "scene_type": "Baroque bakery shop",
+                    "plausibility": 0.9,
+                    "reasoning": "A historic bakery interior with decorative elements. The lamp post is a hanging chandelier or ornate wall sconce providing warm light. The apple pie is the main product displayed in the window or on the counter.",
+                    "object_interpretations": {
+                        "lamp post": {
+                            "form": "chandelier or wall sconce",
+                            "scale": "normal",
+                            "role": "shop lighting"
+                        },
+                        "apple pie": {
+                            "form": "baked good",
+                            "scale": "normal",
+                            "role": "product for sale"
+                        }
+                    }
+                }
+            ],
+            "selected_scene": {
+                "scene_type": "Baroque banquet hall",
+                "plausibility": 0.85,
+                "reasoning": "A grand, opulent hall for a feast. The lamp post is a tall, ornate candelabra or gas lamp, providing dramatic lighting. The apple pie is a lavish dessert on a long banquet table laden with food.",
+                "object_interpretations": {
+                    "lamp post": {
+                        "form": "ornate candelabra",
+                        "scale": "large (human-height)",
+                        "role": "primary lighting fixture"
+                    },
+                    "apple pie": {
+                        "form": "real baked dessert",
+                        "scale": "normal (serving size)",
+                        "role": "food on banquet table"
+                    }
+                },
+                "scene_brief": "A Baroque banquet hall centered around lamp post, with apple pie"
+            }
+        }
+    },
+    "final_prompts": {
+        "main_prompt": "A Baroque painting depicting a calm and relaxed yet strikingly dramatic evening scene. In the foreground, a large, aged but well-maintained lamp post of deep iron black stands prominently, its warm amber artificial light casting dramatic chiaroscuro shadows across the cobblestones. Directly under the lamp post, positioned on the ground as if carefully placed, rests a medium-sized, freshly baked apple pie. The pie's crust glows with a golden amber hue, its lattice revealing rich caramel-brown filling that appears almost luminous under the artificial glow. The lamp post's wrought iron and glass construction contrasts with the baked pastry and fruit of the pie, creating a compelling still-life composition. The entire scene is bathed in the theatrical, directional lighting characteristic of Baroque art, with deep shadows and highlighted details emphasizing texture and materiality, all contributing to an atmosphere that is simultaneously calm, relaxed, and visually striking.",
+        "negative_prompt": "photorealistic, 3d render, modern, digital art, photograph, low quality, blurry, distorted, cartoon, anime, abstract, surreal, futuristic, sci-fi, people, animals, text, watermark, signature, frame, border",
+        "prompt_formats": {
+            "simple": "A Baroque painting of a lamp post illuminating a freshly baked apple pie on the ground during a dramatic evening.",
+            "complex": "A Baroque painting depicting a calm and relaxed yet strikingly dramatic evening scene. In the foreground, a large, aged but well-maintained lamp post of deep iron black stands prominently, its warm amber artificial light casting dramatic chiaroscuro shadows across the cobblestones. Directly under the lamp post, positioned on the ground as if carefully placed, rests a medium-sized, freshly baked apple pie. The pie's crust glows with a golden amber hue, its lattice revealing rich caramel-brown filling that appears almost luminous under the artificial glow. The lamp post's wrought iron and glass construction contrasts with the baked pastry and fruit of the pie, creating a compelling still-life composition. The entire scene is bathed in the theatrical, directional lighting characteristic of Baroque art, with deep shadows and highlighted details emphasizing texture and materiality, all contributing to an atmosphere that is simultaneously calm, relaxed, and visually striking.",
+            "comma_separated": "Baroque painting, lamp post, apple pie, large aged iron black lamp post, medium freshly baked golden amber pie, pie under lamp post, dramatic evening lighting, artificial warm amber glow, calm relaxed striking atmosphere, chiaroscuro, still life, cobblestone ground, wrought iron, glass, baked pastry, fruit filling",
+            "tags": "art, painting, Baroque, still life, chiaroscuro, dramatic lighting, evening, lamp post, apple pie, calm atmosphere, striking composition, texture detail, oil painting, classical art"
+        }
+    }
+}

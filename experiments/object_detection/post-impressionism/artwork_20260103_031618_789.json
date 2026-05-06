@@ -1,0 +1,324 @@
+{
+    "artwork_id": "artwork_20260103_031618_789",
+    "generation_timestamp": "2026-01-03T03:17:05.081738",
+    "style": "Post-Impressionism",
+    "objects": {
+        "object_ids": [
+            57,
+            75,
+            15
+        ],
+        "object_names": [
+            "chair",
+            "clock",
+            "hen"
+        ],
+        "enhanced_objects": [
+            {
+                "object_id": 57,
+                "name": "chair",
+                "artistic_description": "A simple wooden school chair rendered in bold, visible brushstrokes. The cloudy daylight creates soft, diffused shadows and muted tones across its surface. The wood grain appears as rhythmic, parallel marks in ochre and burnt sienna, while the worn edges catch subtle highlights in pale cream. The paint is chipped and scuffed, revealing darker wood beneath, creating a textured, tactile quality that speaks of years of use.",
+                "size": "Medium",
+                "state": "well-worn and weathered from extensive use",
+                "primary_colors": [
+                    "muted ochre",
+                    "burnt sienna"
+                ],
+                "material": "wood"
+            },
+            {
+                "object_id": 75,
+                "name": "clock",
+                "artistic_description": "A round wall clock with a white enamel face that glows softly in the subdued afternoon light. The numerals are rendered in thick, dark strokes of deep indigo that bleed slightly into the creamy background. The clock hands are painted in bold, flat strokes of black and gray, creating a stark, graphic quality. The brass rim tarnishes with subtle greenish-blue patina, catching faint reflections from the bright windows.",
+                "size": "Small",
+                "state": "functioning but showing age and tarnish",
+                "primary_colors": [
+                    "creamy white",
+                    "deep indigo"
+                ],
+                "material": "enamel and brass"
+            },
+            {
+                "object_id": 15,
+                "name": "hen",
+                "artistic_description": "A domestic hen with plumage rendered in expressive, textured dabs of warm earth tones. The feathers are a mosaic of rich browns, burnt umbers, and deep rusts, with the cloudy daylight softening the contrasts and creating a gentle, matte appearance. The comb is a vivid stroke of crimson red, standing out against the muted palette. The eye is a small, intense dot of black and white, giving the bird a watchful presence.",
+                "size": "Medium",
+                "state": "alert and still, with feathers appearing soft and dry",
+                "primary_colors": [
+                    "burnt umber",
+                    "rust brown"
+                ],
+                "material": "feathers and flesh"
+            }
+        ]
+    },
+    "composition": {
+        "spatial_relations": [
+            [
+                57,
+                "on",
+                15
+            ],
+            [
+                75,
+                "behind",
+                57
+            ]
+        ],
+        "semantic_relations": []
+    },
+    "environment": {
+        "environment_details": {
+            "scene_brief": "A schoolhouse classroom featuring chair, with clock, and hen",
+            "place365_name": "/c/classroom",
+            "place365_id": 92,
+            "time_of_day": "afternoon",
+            "weather": "cloudy",
+            "period": "Contemporary",
+            "is_indoor": true,
+            "lighting": {
+                "type": "natural",
+                "quality": "soft",
+                "direction": "side-lit",
+                "reasoning": "Natural light from windows (implied by the classroom setting) filtered through clouds creates soft, side-lit illumination. This lighting style is excellent for rendering the textures of the classroom and the surreal elements (hen, clock) with the nuanced color application typical of Post-Impressionism."
+            },
+            "atmosphere": "bright and active and subdued and gentle"
+        },
+        "scene_inference": {
+            "all_candidates": [
+                {
+                    "scene_type": "rustic farmhouse kitchen",
+                    "plausibility": 0.95,
+                    "reasoning": "A wooden chair sits at a farmhouse table, a clock hangs on the wall for tracking chores, and a hen might be seen through a window or as a decorative motif on an apron.",
+                    "object_interpretations": {
+                        "chair": {
+                            "form": "real wooden chair",
+                            "scale": "normal",
+                            "role": "primary seating"
+                        },
+                        "clock": {
+                            "form": "real wall clock",
+                            "scale": "normal",
+                            "role": "functional timekeeper"
+                        },
+                        "hen": {
+                            "form": "live bird",
+                            "scale": "normal",
+                            "role": "background element (seen through window)"
+                        }
+                    }
+                },
+                {
+                    "scene_type": "country garden patio",
+                    "plausibility": 0.9,
+                    "reasoning": "A chair is placed on a patio for relaxation, a decorative clock sits on a table, and a hen wanders the garden nearby.",
+                    "object_interpretations": {
+                        "chair": {
+                            "form": "real patio chair",
+                            "scale": "normal",
+                            "role": "primary seating"
+                        },
+                        "clock": {
+                            "form": "garden clock",
+                            "scale": "normal",
+                            "role": "decorative element"
+                        },
+                        "hen": {
+                            "form": "live bird",
+                            "scale": "normal",
+                            "role": "ambient wildlife"
+                        }
+                    }
+                },
+                {
+                    "scene_type": "vintage living room",
+                    "plausibility": 0.85,
+                    "reasoning": "An armchair sits by a fireplace, a mantel clock ticks on the mantle, and a hen is depicted in a Post-Impressionist painting hanging on the wall.",
+                    "object_interpretations": {
+                        "chair": {
+                            "form": "real armchair",
+                            "scale": "normal",
+                            "role": "primary seating"
+                        },
+                        "clock": {
+                            "form": "mantel clock",
+                            "scale": "normal",
+                            "role": "decorative timepiece"
+                        },
+                        "hen": {
+                            "form": "artwork (painting)",
+                            "scale": "normal",
+                            "role": "wall decoration"
+                        }
+                    }
+                },
+                {
+                    "scene_type": "artist's studio",
+                    "plausibility": 0.8,
+                    "reasoning": "A stool is used by the artist, a clock tracks time on the wall, and a hen serves as a live model or reference for a sketch.",
+                    "object_interpretations": {
+                        "chair": {
+                            "form": "stool",
+                            "scale": "normal",
+                            "role": "artist's seat"
+                        },
+                        "clock": {
+                            "form": "wall clock",
+                            "scale": "normal",
+                            "role": "time tracker"
+                        },
+                        "hen": {
+                            "form": "live model",
+                            "scale": "normal",
+                            "role": "subject of art"
+                        }
+                    }
+                },
+                {
+                    "scene_type": "barn interior",
+                    "plausibility": 0.9,
+                    "reasoning": "A simple chair sits in a corner of the barn, a weathered clock hangs on a post, and a hen is nesting in the straw.",
+                    "object_interpretations": {
+                        "chair": {
+                            "form": "rustic chair",
+                            "scale": "normal",
+                            "role": "functional seating"
+                        },
+                        "clock": {
+                            "form": "industrial clock",
+                            "scale": "normal",
+                            "role": "utility timekeeper"
+                        },
+                        "hen": {
+                            "form": "live bird",
+                            "scale": "normal",
+                            "role": "barn animal"
+                        }
+                    }
+                },
+                {
+                    "scene_type": "antique shop",
+                    "plausibility": 0.85,
+                    "reasoning": "A chair is for sale among clutter, a clock sits on a shelf, and a hen is a ceramic figurine or toy.",
+                    "object_interpretations": {
+                        "chair": {
+                            "form": "vintage furniture",
+                            "scale": "normal",
+                            "role": "merchandise"
+                        },
+                        "clock": {
+                            "form": "antique clock",
+                            "scale": "normal",
+                            "role": "merchandise"
+                        },
+                        "hen": {
+                            "form": "figurine",
+                            "scale": "small",
+                            "role": "decorative knick-knack"
+                        }
+                    }
+                },
+                {
+                    "scene_type": "schoolhouse classroom",
+                    "plausibility": 0.75,
+                    "reasoning": "A chair is a student's desk seat, a clock is on the wall, and a hen is a drawing on the chalkboard or a pet in a classroom cage.",
+                    "object_interpretations": {
+                        "chair": {
+                            "form": "school chair",
+                            "scale": "normal",
+                            "role": "seating"
+                        },
+                        "clock": {
+                            "form": "classroom clock",
+                            "scale": "normal",
+                            "role": "timekeeper"
+                        },
+                        "hen": {
+                            "form": "chalk drawing",
+                            "scale": "large",
+                            "role": "educational illustration"
+                        }
+                    },
+                    "scene_brief": "A schoolhouse classroom featuring chair, with clock, and hen"
+                },
+                {
+                    "scene_type": "outdoor cafe",
+                    "plausibility": 0.8,
+                    "reasoning": "A chair is at a table, a clock hangs on the cafe facade, and a hen is a motif on a napkin or placemat.",
+                    "object_interpretations": {
+                        "chair": {
+                            "form": "cafe chair",
+                            "scale": "normal",
+                            "role": "seating"
+                        },
+                        "clock": {
+                            "form": "exterior clock",
+                            "scale": "normal",
+                            "role": "signage"
+                        },
+                        "hen": {
+                            "form": "printed pattern",
+                            "scale": "small",
+                            "role": "tableware design"
+                        }
+                    }
+                },
+                {
+                    "scene_type": "nursery",
+                    "plausibility": 0.7,
+                    "reasoning": "A rocking chair is for the parent, a clock is on the wall, and a hen is a plush toy or part of a mural.",
+                    "object_interpretations": {
+                        "chair": {
+                            "form": "rocking chair",
+                            "scale": "normal",
+                            "role": "parental seating"
+                        },
+                        "clock": {
+                            "form": "wall clock",
+                            "scale": "normal",
+                            "role": "timekeeper"
+                        },
+                        "hen": {
+                            "form": "plush toy",
+                            "scale": "small",
+                            "role": "child's toy"
+                        }
+                    }
+                }
+            ],
+            "selected_scene": {
+                "scene_type": "schoolhouse classroom",
+                "plausibility": 0.75,
+                "reasoning": "A chair is a student's desk seat, a clock is on the wall, and a hen is a drawing on the chalkboard or a pet in a classroom cage.",
+                "object_interpretations": {
+                    "chair": {
+                        "form": "school chair",
+                        "scale": "normal",
+                        "role": "seating"
+                    },
+                    "clock": {
+                        "form": "classroom clock",
+                        "scale": "normal",
+                        "role": "timekeeper"
+                    },
+                    "hen": {
+                        "form": "chalk drawing",
+                        "scale": "large",
+                        "role": "educational illustration"
+                    }
+                },
+                "scene_brief": "A schoolhouse classroom featuring chair, with clock, and hen"
+            }
+        }
+    },
+    "final_prompts": {
+        "main_prompt": "A Post-Impressionism painting depicting a bright and active yet subdued and gentle afternoon scene. In the foreground, a medium-sized, well-worn and weathered wooden chair in muted ochre and burnt sienna sits directly atop a medium-sized hen in burnt umber and rust brown, the bird alert and still with its feathers and flesh rendered in expressive brushstrokes. Behind the chair, a small clock in creamy white and deep indigo shows its age and tarnish, its enamel and brass elements catching the natural soft afternoon light. The spatial arrangement creates a dynamic composition where the chair dominates the foreground, the hen provides the foundational support, and the clock anchors the midground, all bathed in the gentle, diffused illumination of late afternoon with visible brushwork and vibrant color harmonies characteristic of the style.",
+        "negative_prompt": "photorealistic, 3d render, modern, digital art, photograph, low quality, blurry, distorted, surreal, cartoon, anime, hyperrealistic, symmetrical, perfect proportions, clean, glossy, plastic, futuristic",
+        "prompt_formats": {
+            "simple": "A Post-Impressionism painting of a chair on a hen with a clock behind them in a soft afternoon light.",
+            "complex": "A Post-Impressionism painting depicting a bright and active yet subdued and gentle afternoon scene. In the foreground, a medium-sized, well-worn and weathered wooden chair in muted ochre and burnt sienna sits directly atop a medium-sized hen in burnt umber and rust brown, the bird alert and still with its feathers and flesh rendered in expressive brushstrokes. Behind the chair, a small clock in creamy white and deep indigo shows its age and tarnish, its enamel and brass elements catching the natural soft afternoon light. The spatial arrangement creates a dynamic composition where the chair dominates the foreground, the hen provides the foundational support, and the clock anchors the midground, all bathed in the gentle, diffused illumination of late afternoon with visible brushwork and vibrant color harmonies characteristic of the style.",
+            "comma_separated": "Post-Impressionism painting, chair on hen, clock behind chair, medium chair worn ochre sienna, medium hen alert umber brown, small clock aged white indigo, afternoon lighting, natural soft light, bright active subdued gentle atmosphere, visible brushstrokes, vibrant colors, wood enamel brass feathers",
+            "tags": "art, painting, post-impressionism, still life, chair, clock, hen, afternoon light, expressive brushwork, color harmony, vintage, weathered, textured"
+        }
+    }
+}

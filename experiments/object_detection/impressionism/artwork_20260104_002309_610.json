@@ -1,0 +1,373 @@
+{
+    "artwork_id": "artwork_20260104_002309_610",
+    "generation_timestamp": "2026-01-04T00:23:45.850589",
+    "style": "Impressionism",
+    "objects": {
+        "object_ids": [
+            47,
+            1,
+            26,
+            28
+        ],
+        "object_names": [
+            "banana",
+            "man",
+            "canopy",
+            "dress shirt"
+        ],
+        "enhanced_objects": [
+            {
+                "object_id": 47,
+                "name": "banana",
+                "artistic_description": "A curved form of warm yellow with subtle green undertones at the stem, its matte peel catching dappled sunlight through the canopy above. Soft brushstrokes suggest the gentle curvature and slight bruising on its surface, with highlights of pale cream where light directly strikes the curve. The skin appears slightly dusty, absorbing rather than reflecting the bright afternoon light.",
+                "size": "Small",
+                "state": "Fresh, slightly weathered from outdoor exposure",
+                "primary_colors": [
+                    "warm yellow",
+                    "pale cream"
+                ],
+                "material": "organic"
+            },
+            {
+                "object_id": 1,
+                "name": "man",
+                "artistic_description": "A figure rendered in loose, visible brushstrokes of warm flesh tones and cool shadows. Sunlight creates strong highlights on forehead and nose, while the underside of chin and neck recede into soft blue-gray shadows. His clothing shows crisp white and muted blue strokes, with subtle golden reflections from the afternoon sun. Sweat beads create tiny points of light across the face, captured with brief, bright dabs of paint.",
+                "size": "Large",
+                "state": "Active, engaged in social gathering",
+                "primary_colors": [
+                    "warm flesh tone",
+                    "cool blue-gray"
+                ],
+                "material": "skin and fabric"
+            },
+            {
+                "object_id": 26,
+                "name": "canopy",
+                "artistic_description": "A broad expanse of fabric showing as patches of brilliant white where sunlight directly strikes, transitioning to soft lavender and pale blue in the shaded areas. The taut surface shows subtle undulations through variations in light and shadow, with visible weave texture suggested by broken, horizontal brushstrokes. Edges glow with warm golden light filtering through.",
+                "size": "Dominant",
+                "state": "Taut, clean, providing shelter",
+                "primary_colors": [
+                    "brilliant white",
+                    "soft lavender"
+                ],
+                "material": "canvas"
+            },
+            {
+                "object_id": 28,
+                "name": "dress shirt",
+                "artistic_description": "A crisp white surface transformed by brilliant highlights of pale yellow and orange where sunlight strikes directly, while folds and shadows become cool blues and soft grays. The fabric shows subtle texture through varied brushwork, with tiny points of light on buttons and collar starch. The white appears luminous against the darker background, almost glowing with reflected ambient warmth.",
+                "size": "Medium",
+                "state": "Freshly pressed, slightly rumpled from activity",
+                "primary_colors": [
+                    "luminous white",
+                    "cool gray"
+                ],
+                "material": "cotton fabric"
+            }
+        ]
+    },
+    "composition": {
+        "spatial_relations": [
+            [
+                1,
+                "under",
+                26
+            ],
+            [
+                28,
+                "on",
+                1
+            ],
+            [
+                47,
+                "on",
+                1
+            ]
+        ],
+        "semantic_relations": [
+            [
+                1,
+                "holding",
+                47
+            ]
+        ]
+    },
+    "environment": {
+        "environment_details": {
+            "scene_brief": "A Backyard BBQ featuring banana, with man, canopy, and dress shirt",
+            "place365_name": "/p/park",
+            "place365_id": 254,
+            "time_of_day": "afternoon",
+            "weather": "sunny",
+            "period": "Contemporary",
+            "is_indoor": false,
+            "lighting": {
+                "type": "natural",
+                "quality": "soft",
+                "direction": "side-lit",
+                "mood": "warm",
+                "reasoning": "In the afternoon, the sun is lower in the sky, creating a warm, golden light. The presence of a 'canopy' diffuses direct sunlight, resulting in soft, dappled lighting. Side-lighting is likely as the sun moves across the sky, highlighting the textures of the dress shirt and the banana, fitting the Impressionist focus on the fleeting effects of light."
+            },
+            "atmosphere": "bright and active and cheerful and gentle"
+        },
+        "scene_inference": {
+            "all_candidates": [
+                {
+                    "scene_type": "Tropical Beach Resort",
+                    "plausibility": 0.95,
+                    "reasoning": "A man in a dress shirt (perhaps as casual resort wear) stands under a beach canopy, holding or near a banana. The Impressionist style captures the dappled light filtering through the canopy and the shimmering heat.",
+                    "object_interpretations": {
+                        "banana": {
+                            "form": "real fruit",
+                            "scale": "normal",
+                            "role": "snack or prop"
+                        },
+                        "man": {
+                            "form": "real person",
+                            "scale": "normal",
+                            "role": "primary subject"
+                        },
+                        "canopy": {
+                            "form": "beach umbrella or tent",
+                            "scale": "large",
+                            "role": "shelter"
+                        },
+                        "dress shirt": {
+                            "form": "clothing",
+                            "scale": "normal",
+                            "role": "attire"
+                        }
+                    }
+                },
+                {
+                    "scene_type": "Art Studio",
+                    "plausibility": 0.9,
+                    "reasoning": "An artist (man) in a dress shirt stands before an easel. On the table is a banana serving as a still life model. A canopy (perhaps a fabric drape or photography canopy) hangs above to control light.",
+                    "object_interpretations": {
+                        "banana": {
+                            "form": "still life object",
+                            "scale": "normal",
+                            "role": "artistic subject"
+                        },
+                        "man": {
+                            "form": "artist",
+                            "scale": "normal",
+                            "role": "creator"
+                        },
+                        "canopy": {
+                            "form": "light diffuser or backdrop",
+                            "scale": "large",
+                            "role": "studio equipment"
+                        },
+                        "dress shirt": {
+                            "form": "clothing",
+                            "scale": "normal",
+                            "role": "attire"
+                        }
+                    }
+                },
+                {
+                    "scene_type": "Garden Picnic",
+                    "plausibility": 0.9,
+                    "reasoning": "A man in a dress shirt relaxes at a picnic under a portable canopy. A picnic basket contains a banana. The Impressionist style highlights the natural light and outdoor colors.",
+                    "object_interpretations": {
+                        "banana": {
+                            "form": "real fruit",
+                            "scale": "normal",
+                            "role": "food"
+                        },
+                        "man": {
+                            "form": "picnicker",
+                            "scale": "normal",
+                            "role": "subject"
+                        },
+                        "canopy": {
+                            "form": "picnic tent",
+                            "scale": "large",
+                            "role": "shade"
+                        },
+                        "dress shirt": {
+                            "form": "clothing",
+                            "scale": "normal",
+                            "role": "casual wear"
+                        }
+                    }
+                },
+                {
+                    "scene_type": "Farmers Market",
+                    "plausibility": 0.85,
+                    "reasoning": "A man in a dress shirt shops at a produce stall. A canopy covers the stall. Bananas are displayed for sale.",
+                    "object_interpretations": {
+                        "banana": {
+                            "form": "produce",
+                            "scale": "normal",
+                            "role": "commodity"
+                        },
+                        "man": {
+                            "form": "shopper",
+                            "scale": "normal",
+                            "role": "customer"
+                        },
+                        "canopy": {
+                            "form": "market stall roof",
+                            "scale": "large",
+                            "role": "protection"
+                        },
+                        "dress shirt": {
+                            "form": "clothing",
+                            "scale": "normal",
+                            "role": "attire"
+                        }
+                    }
+                },
+                {
+                    "scene_type": "Porch/Veranda",
+                    "plausibility": 0.9,
+                    "reasoning": "A man sits on a porch swing wearing a dress shirt, peeling a banana. The porch has a canopy roof. The soft focus of Impressionism blurs the background greenery.",
+                    "object_interpretations": {
+                        "banana": {
+                            "form": "real fruit",
+                            "scale": "normal",
+                            "role": "snack"
+                        },
+                        "man": {
+                            "form": "relaxing person",
+                            "scale": "normal",
+                            "role": "subject"
+                        },
+                        "canopy": {
+                            "form": "porch roof",
+                            "scale": "large",
+                            "role": "architecture"
+                        },
+                        "dress shirt": {
+                            "form": "clothing",
+                            "scale": "normal",
+                            "role": "attire"
+                        }
+                    }
+                },
+                {
+                    "scene_type": "Botanical Garden",
+                    "plausibility": 0.85,
+                    "reasoning": "A man in a dress shirt tours a greenhouse or garden area with a canopy structure. A banana (perhaps a bunch) is visible as part of the tropical collection.",
+                    "object_interpretations": {
+                        "banana": {
+                            "form": "plant/fruit",
+                            "scale": "normal",
+                            "role": "botanical specimen"
+                        },
+                        "man": {
+                            "form": "visitor",
+                            "scale": "normal",
+                            "role": "observer"
+                        },
+                        "canopy": {
+                            "form": "glass roof or structure",
+                            "scale": "large",
+                            "role": "enclosure"
+                        },
+                        "dress shirt": {
+                            "form": "clothing",
+                            "scale": "normal",
+                            "role": "attire"
+                        }
+                    }
+                },
+                {
+                    "scene_type": "Yacht Deck",
+                    "plausibility": 0.8,
+                    "reasoning": "A man in a dress shirt stands on the deck of a boat. A canopy provides shade. He holds a banana while enjoying the sea air.",
+                    "object_interpretations": {
+                        "banana": {
+                            "form": "real fruit",
+                            "scale": "normal",
+                            "role": "refreshment"
+                        },
+                        "man": {
+                            "form": "boater",
+                            "scale": "normal",
+                            "role": "passenger"
+                        },
+                        "canopy": {
+                            "form": "boat awning",
+                            "scale": "large",
+                            "role": "sun protection"
+                        },
+                        "dress shirt": {
+                            "form": "clothing",
+                            "scale": "normal",
+                            "role": "nautical attire"
+                        }
+                    }
+                },
+                {
+                    "scene_type": "Backyard BBQ",
+                    "plausibility": 0.85,
+                    "reasoning": "A man in a dress shirt (host) stands near a grill under a canopy. A fruit bowl with a banana sits on a table.",
+                    "object_interpretations": {
+                        "banana": {
+                            "form": "real fruit",
+                            "scale": "normal",
+                            "role": "food item"
+                        },
+                        "man": {
+                            "form": "host",
+                            "scale": "normal",
+                            "role": "host"
+                        },
+                        "canopy": {
+                            "form": "party tent",
+                            "scale": "large",
+                            "role": "shade"
+                        },
+                        "dress shirt": {
+                            "form": "clothing",
+                            "scale": "normal",
+                            "role": "party attire"
+                        }
+                    },
+                    "scene_brief": "A Backyard BBQ featuring banana, with man, canopy, and dress shirt"
+                }
+            ],
+            "selected_scene": {
+                "scene_type": "Backyard BBQ",
+                "plausibility": 0.85,
+                "reasoning": "A man in a dress shirt (host) stands near a grill under a canopy. A fruit bowl with a banana sits on a table.",
+                "object_interpretations": {
+                    "banana": {
+                        "form": "real fruit",
+                        "scale": "normal",
+                        "role": "food item"
+                    },
+                    "man": {
+                        "form": "host",
+                        "scale": "normal",
+                        "role": "host"
+                    },
+                    "canopy": {
+                        "form": "party tent",
+                        "scale": "large",
+                        "role": "shade"
+                    },
+                    "dress shirt": {
+                        "form": "clothing",
+                        "scale": "normal",
+                        "role": "party attire"
+                    }
+                },
+                "scene_brief": "A Backyard BBQ featuring banana, with man, canopy, and dress shirt"
+            }
+        }
+    },
+    "final_prompts": {
+        "main_prompt": "A Impressionism painting depicting a bright and active afternoon scene under a brilliant white and soft lavender canopy that dominates the composition with its taut, billowing form. Underneath this dominant canopy stands a large, active man with warm flesh tones and cool blue-gray shadows, wearing a freshly pressed dress shirt of luminous white and cool gray that catches the gentle afternoon light. Resting upon the man's shoulder is a small, fresh banana in warm yellow and pale cream tones, creating a playful focal point. The spatial arrangement clearly shows the man positioned directly beneath the expansive canopy, with his dress shirt naturally covering his torso, and the banana perched casually on his shoulder. The natural soft lighting of late afternoon filters through the canopy fabric, casting dappled shadows and creating a cheerful, gentle atmosphere where organic materials\u2014skin, cotton fabric, and fruit\u2014interact with the luminous environment. Brushstrokes capture the movement of the breeze in the canopy and the man's active posture, with colors blending optically to convey the bright, active mood.",
+        "negative_prompt": "photorealistic, 3d render, modern, digital art, photograph, low quality, blurry, distorted, surreal, cartoon, anime, hyperrealistic, ugly, deformed, text, watermark, signature, frame, border",
+        "prompt_formats": {
+            "simple": "An Impressionist painting of a man under a canopy wearing a dress shirt with a banana on his shoulder during a bright afternoon.",
+            "complex": "A Impressionism painting depicting a bright and active afternoon scene under a brilliant white and soft lavender canopy that dominates the composition with its taut, billowing form. Underneath this dominant canopy stands a large, active man with warm flesh tones and cool blue-gray shadows, wearing a freshly pressed dress shirt of luminous white and cool gray that catches the gentle afternoon light. Resting upon the man's shoulder is a small, fresh banana in warm yellow and pale cream tones, creating a playful focal point. The spatial arrangement clearly shows the man positioned directly beneath the expansive canopy, with his dress shirt naturally covering his torso, and the banana perched casually on his shoulder. The natural soft lighting of late afternoon filters through the canopy fabric, casting dappled shadows and creating a cheerful, gentle atmosphere where organic materials\u2014skin, cotton fabric, and fruit\u2014interact with the luminous environment. Brushstrokes capture the movement of the breeze in the canopy and the man's active posture, with colors blending optically to convey the bright, active mood.",
+            "comma_separated": "Impressionism painting, canopy, man, dress shirt, banana, afternoon lighting, soft natural light, bright cheerful atmosphere, organic materials, warm yellow banana, white lavender canopy, luminous white shirt, active composition, spatial relationships",
+            "tags": "art, painting, impressionism, outdoor scene, canopy, portrait, still life element, afternoon light, cheerful mood, organic textures, Claude Monet style, Pierre-Auguste Renoir influence, loose brushwork, color harmony"
+        }
+    }
+}

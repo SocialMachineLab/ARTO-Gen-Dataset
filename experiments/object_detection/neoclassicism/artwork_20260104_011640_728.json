@@ -1,0 +1,303 @@
+{
+    "artwork_id": "artwork_20260104_011640_728",
+    "generation_timestamp": "2026-01-04T01:17:08.767157",
+    "style": "Neoclassicism",
+    "objects": {
+        "object_ids": [
+            79,
+            56,
+            57
+        ],
+        "object_names": [
+            "comb",
+            "waffle",
+            "armchair"
+        ],
+        "enhanced_objects": [
+            {
+                "object_id": 79,
+                "name": "comb",
+                "artistic_description": "A delicate Neoclassical comb with fine teeth and classical Greek key pattern in relief, rendered in soft cool tones from the cloudy afternoon light filtering through tall windows. The polished ivory surface catches subtle highlights with a gentle pearlescent sheen, while the recessed patterns hold deeper shadows. The material appears matte yet refined, with a patina suggesting careful use in an elegant household.",
+                "size": "Small",
+                "state": "polished and well-maintained with gentle wear",
+                "primary_colors": [
+                    "ivory",
+                    "warm cream"
+                ],
+                "material": "ivory"
+            },
+            {
+                "object_id": 56,
+                "name": "waffle",
+                "artistic_description": "A freshly prepared waffle with deep geometric grid pattern, its golden-brown surface glowing warmly against the cool gray atmosphere of the cloudy afternoon. The crisp edges catch soft directional light, creating subtle highlights on raised ridges while the indentations hold gentle shadows. Steam rises in delicate wisps, momentarily catching the muted daylight and adding a ephemeral quality to the composition.",
+                "size": "Medium",
+                "state": "freshly cooked and steaming",
+                "primary_colors": [
+                    "golden brown",
+                    "amber"
+                ],
+                "material": ""
+            },
+            {
+                "object_id": 57,
+                "name": "armchair",
+                "artistic_description": "A stately Neoclassical armchair with carved mahogany frame and classical fluted legs, its deep blue upholstery absorbing the subdued afternoon light with quiet dignity. The dark wood grain shows rich variation where light grazes the turned details and saber legs, while the fabric presents a matte, velvety texture that softens rather than reflects the ambient brightness. Gentle wear on the arms reveals the underlying wood with a soft patina appropriate to the Classical period.",
+                "size": "Large",
+                "state": "elegantly aged with dignified wear",
+                "primary_colors": [
+                    "deep navy",
+                    "mahogany brown"
+                ],
+                "material": "mahogany and velvet"
+            }
+        ]
+    },
+    "composition": {
+        "spatial_relations": [
+            [
+                56,
+                "on",
+                57
+            ],
+            [
+                79,
+                "next to",
+                56
+            ]
+        ],
+        "semantic_relations": []
+    },
+    "environment": {
+        "environment_details": {
+            "scene_brief": "A Neoclassical dining room featuring decorative comb, with waffle, and armchair",
+            "place365_name": "/d/dining_room",
+            "place365_id": 121,
+            "time_of_day": "afternoon",
+            "weather": "cloudy",
+            "period": "Classical",
+            "is_indoor": true,
+            "lighting": {
+                "type": "natural",
+                "quality": "soft",
+                "direction": "side-lit",
+                "mood": "neutral",
+                "reasoning": "Combining the 'afternoon' time and 'cloudy' weather results in soft, natural lighting. In a dining room, light typically enters from side windows. This 'side-lit' setup creates gentle modeling of the room's geometry and objects (armchair, decorative items), fitting the Neoclassical preference for clarity and form over dramatic chiaroscuro."
+            },
+            "atmosphere": "bright and active and subdued and gentle"
+        },
+        "scene_inference": {
+            "all_candidates": [
+                {
+                    "scene_type": "Neoclassical boudoir",
+                    "plausibility": 0.95,
+                    "reasoning": "In a private, elegant dressing room, a lady prepares for the day. The comb is a primary grooming tool, the armchair is for resting or dressing, and the waffle is a breakfast treat brought on a tray.",
+                    "object_interpretations": {
+                        "comb": {
+                            "form": "real ornate comb",
+                            "scale": "handheld",
+                            "role": "primary grooming object"
+                        },
+                        "waffle": {
+                            "form": "real food",
+                            "scale": "normal",
+                            "role": "breakfast item on a tray"
+                        },
+                        "armchair": {
+                            "form": "real furniture",
+                            "scale": "full-size",
+                            "role": "seating for dressing/relaxing"
+                        }
+                    }
+                },
+                {
+                    "scene_type": "Neoclassical dining room",
+                    "plausibility": 0.9,
+                    "reasoning": "A formal dining setting. The armchair is at the head of the table. The waffle is part of a meal. The comb is an antique decorative object displayed on the sideboard or as part of a centerpiece.",
+                    "object_interpretations": {
+                        "comb": {
+                            "form": "antique decorative object",
+                            "scale": "normal",
+                            "role": "decorative element on sideboard"
+                        },
+                        "waffle": {
+                            "form": "real food",
+                            "scale": "normal",
+                            "role": "part of a meal"
+                        },
+                        "armchair": {
+                            "form": "real furniture",
+                            "scale": "full-size",
+                            "role": "dining chair"
+                        }
+                    },
+                    "scene_brief": "A Neoclassical dining room featuring decorative comb, with waffle, and armchair"
+                },
+                {
+                    "scene_type": "Neoclassical art studio",
+                    "plausibility": 0.85,
+                    "reasoning": "A painter's studio with a still life setup. The armchair is for the model or artist. The comb and waffle are arranged together on a table as subjects for a painting.",
+                    "object_interpretations": {
+                        "comb": {
+                            "form": "real comb",
+                            "scale": "normal",
+                            "role": "still life subject"
+                        },
+                        "waffle": {
+                            "form": "real food",
+                            "scale": "normal",
+                            "role": "still life subject"
+                        },
+                        "armchair": {
+                            "form": "real furniture",
+                            "scale": "full-size",
+                            "role": "artist's seating or prop"
+                        }
+                    }
+                },
+                {
+                    "scene_type": "Neoclassical museum exhibit",
+                    "plausibility": 0.8,
+                    "reasoning": "A curated display of domestic artifacts. The comb and waffle (perhaps a replica or historical recipe) are under glass. The armchair is a period piece displayed nearby for context.",
+                    "object_interpretations": {
+                        "comb": {
+                            "form": "museum artifact",
+                            "scale": "normal",
+                            "role": "exhibited object"
+                        },
+                        "waffle": {
+                            "form": "replica or recipe card",
+                            "scale": "normal",
+                            "role": "exhibited object"
+                        },
+                        "armchair": {
+                            "form": "museum furniture",
+                            "scale": "full-size",
+                            "role": "contextual display"
+                        }
+                    }
+                },
+                {
+                    "scene_type": "Neoclassical parlor",
+                    "plausibility": 0.9,
+                    "reasoning": "A formal reception room. Guests sit in the armchair. The comb is on a vanity table in the corner. The waffle is on a serving platter on a tea table.",
+                    "object_interpretations": {
+                        "comb": {
+                            "form": "real comb",
+                            "scale": "normal",
+                            "role": "personal accessory on vanity"
+                        },
+                        "waffle": {
+                            "form": "real food",
+                            "scale": "normal",
+                            "role": "refreshment"
+                        },
+                        "armchair": {
+                            "form": "real furniture",
+                            "scale": "full-size",
+                            "role": "guest seating"
+                        }
+                    }
+                },
+                {
+                    "scene_type": "Neoclassical bedroom",
+                    "plausibility": 0.92,
+                    "reasoning": "A bedroom setting. The armchair is in the corner for reading. The comb is on the dresser. The waffle is a breakfast in bed item on a tray.",
+                    "object_interpretations": {
+                        "comb": {
+                            "form": "real comb",
+                            "scale": "normal",
+                            "role": "grooming tool"
+                        },
+                        "waffle": {
+                            "form": "real food",
+                            "scale": "normal",
+                            "role": "breakfast item"
+                        },
+                        "armchair": {
+                            "form": "real furniture",
+                            "scale": "full-size",
+                            "role": "reading chair"
+                        }
+                    }
+                },
+                {
+                    "scene_type": "Neoclassical library",
+                    "plausibility": 0.75,
+                    "reasoning": "A study with books. The armchair is for reading. The comb is a historical artifact on a desk. The waffle is a snack left on a side table.",
+                    "object_interpretations": {
+                        "comb": {
+                            "form": "antique artifact",
+                            "scale": "normal",
+                            "role": "desk ornament"
+                        },
+                        "waffle": {
+                            "form": "real food",
+                            "scale": "normal",
+                            "role": "snack"
+                        },
+                        "armchair": {
+                            "form": "real furniture",
+                            "scale": "full-size",
+                            "role": "seating"
+                        }
+                    }
+                },
+                {
+                    "scene_type": "Neoclassical garden",
+                    "plausibility": 0.7,
+                    "reasoning": "An outdoor tea party. The armchair is a garden chair. The waffle is on a tea service. The comb is a hairpiece accessory for a guest.",
+                    "object_interpretations": {
+                        "comb": {
+                            "form": "hair accessory",
+                            "scale": "handheld",
+                            "role": "fashion item"
+                        },
+                        "waffle": {
+                            "form": "real food",
+                            "scale": "normal",
+                            "role": "tea time treat"
+                        },
+                        "armchair": {
+                            "form": "garden furniture",
+                            "scale": "full-size",
+                            "role": "outdoor seating"
+                        }
+                    }
+                }
+            ],
+            "selected_scene": {
+                "scene_type": "Neoclassical dining room",
+                "plausibility": 0.9,
+                "reasoning": "A formal dining setting. The armchair is at the head of the table. The waffle is part of a meal. The comb is an antique decorative object displayed on the sideboard or as part of a centerpiece.",
+                "object_interpretations": {
+                    "comb": {
+                        "form": "antique decorative object",
+                        "scale": "normal",
+                        "role": "decorative element on sideboard"
+                    },
+                    "waffle": {
+                        "form": "real food",
+                        "scale": "normal",
+                        "role": "part of a meal"
+                    },
+                    "armchair": {
+                        "form": "real furniture",
+                        "scale": "full-size",
+                        "role": "dining chair"
+                    }
+                },
+                "scene_brief": "A Neoclassical dining room featuring decorative comb, with waffle, and armchair"
+            }
+        }
+    },
+    "final_prompts": {
+        "main_prompt": "A Neoclassicism painting depicting a quiet domestic interior in the soft afternoon light, where a large, elegantly aged armchair in deep navy velvet with mahogany brown wooden accents dominates the foreground. Resting upon its plush seat is a medium-sized, freshly cooked waffle, its surface a perfect golden brown with amber highlights, still steaming gently. Beside the waffle, placed carefully on the velvet upholstery, is a small, polished ivory comb in a warm cream hue, its well-maintained teeth catching the natural light. The spatial arrangement creates a still life of unexpected objects, with the waffle centered on the armchair and the comb positioned closely next to it. The atmosphere is both bright and active with the quality of afternoon sun streaming through a nearby window, yet simultaneously subdued and gentle, casting soft shadows and highlighting the dignified wear of the mahogany and the rich textures of velvet and ivory. The composition balances classical restraint with a narrative curiosity, inviting contemplation of the serene, momentarily paused scene.",
+        "negative_prompt": "photorealistic, 3d render, modern, digital art, photograph, low quality, blurry, distorted, surreal, cartoon, anime, abstract, deformed, ugly, bad anatomy, extra limbs, poorly drawn hands, text, watermark, signature",
+        "prompt_formats": {
+            "simple": "A Neoclassical painting of a waffle on an armchair with a comb beside it in soft afternoon light.",
+            "complex": "A Neoclassicism painting depicting a quiet domestic interior in the soft afternoon light, where a large, elegantly aged armchair in deep navy velvet with mahogany brown wooden accents dominates the foreground. Resting upon its plush seat is a medium-sized, freshly cooked waffle, its surface a perfect golden brown with amber highlights, still steaming gently. Beside the waffle, placed carefully on the velvet upholstery, is a small, polished ivory comb in a warm cream hue, its well-maintained teeth catching the natural light. The spatial arrangement creates a still life of unexpected objects, with the waffle centered on the armchair and the comb positioned closely next to it. The atmosphere is both bright and active with the quality of afternoon sun streaming through a nearby window, yet simultaneously subdued and gentle, casting soft shadows and highlighting the dignified wear of the mahogany and the rich textures of velvet and ivory. The composition balances classical restraint with a narrative curiosity, inviting contemplation of the serene, momentarily paused scene.",
+            "comma_separated": "Neoclassicism painting, interior scene, large armchair, deep navy velvet, mahogany brown wood, medium waffle, golden brown, steaming, small ivory comb, warm cream, polished, waffle on armchair, comb next to waffle, soft afternoon lighting, natural light, bright, active, subdued, gentle atmosphere, still life, classical composition, textured fabrics, domestic tranquility",
+            "tags": "art, painting, neoclassicism, still life, interior, armchair, waffle, comb, afternoon light, classical art, velvet, mahogany, ivory, domestic scene, serene"
+        }
+    }
+}

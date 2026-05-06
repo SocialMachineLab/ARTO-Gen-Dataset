@@ -1,0 +1,287 @@
+{
+    "artwork_id": "artwork_20260103_024411_155",
+    "generation_timestamp": "2026-01-03T02:44:41.881405",
+    "style": "Post-Impressionism",
+    "objects": {
+        "object_ids": [
+            9,
+            16,
+            48
+        ],
+        "object_names": [
+            "boat",
+            "cat",
+            "plum"
+        ],
+        "enhanced_objects": [
+            {
+                "object_id": 9,
+                "name": "boat",
+                "artistic_description": "Weathered wooden hull coated in peeling paint of faded crimson and ochre, glowing with warm sunset tones that saturate the worn surfaces. Wet planks from recent rain catch amber light in diagonal streaks, while shadowed areas show deep violet-gray tones. The bow curves upward with rough texture visible in the diminishing light, metal fittings tarnished to a dull bronze that reflects the cloudy sky's muted gold.",
+                "size": "Dominant",
+                "state": "weathered and resting on wet timbers, showing age through paint chips and waterline stains",
+                "primary_colors": [
+                    "crimson-tinged ochre",
+                    "deep violet-gray"
+                ],
+                "material": "weathered wood with bronze fittings"
+            },
+            {
+                "object_id": 16,
+                "name": "cat",
+                "artistic_description": "Sleek feline form rendered in rich, shadowy blues and indigos that merge with the twilight atmosphere. Fur appears as textured strokes of midnight blue and deep slate, with a single stripe of warm amber light catching the spine where sunset penetrates the clouds. Eyes glow with a subtle phosphorescent green, while whiskers are suggested by fine, pale highlights against the darkening environment.",
+                "size": "Medium",
+                "state": "alert and crouched, fur slightly ruffled by damp maritime air",
+                "primary_colors": [
+                    "midnight blue",
+                    "deep slate"
+                ],
+                "material": "fur"
+            },
+            {
+                "object_id": 48,
+                "name": "plum",
+                "artistic_description": "Small fruit with intensely saturated skin that absorbs the warm light, appearing as a jewel-like concentration of deep burgundy and royal purple. Surface shows a subtle waxy sheen with moisture droplets that catch the sunset as pinpoint highlights of pure orange. The form is compact and smooth, its color deepening to near-black in shadow while maintaining a luminous quality in the fading light.",
+                "size": "Small",
+                "state": "fresh and moist, beaded with condensation from the humid dock air",
+                "primary_colors": [
+                    "deep burgundy",
+                    "royal purple"
+                ],
+                "material": "smooth fruit skin"
+            }
+        ]
+    },
+    "composition": {
+        "spatial_relations": [
+            [
+                48,
+                "on",
+                9
+            ],
+            [
+                16,
+                "next to",
+                9
+            ]
+        ],
+        "semantic_relations": [
+            [
+                16,
+                "watching",
+                9
+            ]
+        ]
+    },
+    "environment": {
+        "environment_details": {
+            "scene_brief": "A Fishing Dock centered around boat, with cat, and plum",
+            "place365_name": "/s/street",
+            "place365_id": 319,
+            "time_of_day": "sunset",
+            "weather": "cloudy",
+            "period": "Contemporary",
+            "is_indoor": false,
+            "lighting": {
+                "type": "natural",
+                "quality": "dramatic",
+                "direction": "side-lit",
+                "mood": "warm",
+                "reasoning": "Sunset light is inherently natural and dramatic. Side-lighting will cast long shadows across the dock and boat, emphasizing texture and form, which suits the Post-Impressionist focus on structural solidity and surface quality."
+            },
+            "atmosphere": "warm and peaceful and subdued and striking"
+        },
+        "scene_inference": {
+            "all_candidates": [
+                {
+                    "scene_type": "Fishing Dock",
+                    "plausibility": 0.95,
+                    "reasoning": "A boat is docked at a pier. A fisherman's cat sits on the deck waiting for scraps. A plum is left on a crate as a snack.",
+                    "object_interpretations": {
+                        "boat": {
+                            "form": "real vessel",
+                            "scale": "normal",
+                            "role": "primary object"
+                        },
+                        "cat": {
+                            "form": "real animal",
+                            "scale": "normal",
+                            "role": "companion"
+                        },
+                        "plum": {
+                            "form": "real fruit",
+                            "scale": "normal",
+                            "role": "food item"
+                        }
+                    },
+                    "scene_brief": "A Fishing Dock centered around boat, with cat, and plum"
+                },
+                {
+                    "scene_type": "Riverbank Picnic",
+                    "plausibility": 0.9,
+                    "reasoning": "A boat is tied to a willow tree on the riverbank. A family cat explores the grass nearby. A picnic basket has spilled fruit, including a plum.",
+                    "object_interpretations": {
+                        "boat": {
+                            "form": "real vessel",
+                            "scale": "normal",
+                            "role": "transportation"
+                        },
+                        "cat": {
+                            "form": "real animal",
+                            "scale": "normal",
+                            "role": "explorer"
+                        },
+                        "plum": {
+                            "form": "real fruit",
+                            "scale": "normal",
+                            "role": "picnic snack"
+                        }
+                    }
+                },
+                {
+                    "scene_type": "Post-Impressionist Studio",
+                    "plausibility": 0.85,
+                    "reasoning": "A small model boat sits on an easel as a subject. A studio cat naps on a stool. A plum rests on a palette for color reference.",
+                    "object_interpretations": {
+                        "boat": {
+                            "form": "model",
+                            "scale": "miniature",
+                            "role": "art subject"
+                        },
+                        "cat": {
+                            "form": "real animal",
+                            "scale": "normal",
+                            "role": "studio pet"
+                        },
+                        "plum": {
+                            "form": "real fruit",
+                            "scale": "normal",
+                            "role": "still life prop"
+                        }
+                    }
+                },
+                {
+                    "scene_type": "Tropical Beach",
+                    "plausibility": 0.8,
+                    "reasoning": "A beached rowboat sits on the sand. A stray cat suns itself on the gunwale. A plum has washed up or been left near the boat.",
+                    "object_interpretations": {
+                        "boat": {
+                            "form": "real vessel",
+                            "scale": "normal",
+                            "role": "beached object"
+                        },
+                        "cat": {
+                            "form": "real animal",
+                            "scale": "normal",
+                            "role": "sunbather"
+                        },
+                        "plum": {
+                            "form": "real fruit",
+                            "scale": "normal",
+                            "role": "found object"
+                        }
+                    }
+                },
+                {
+                    "scene_type": "Vintage Shop Interior",
+                    "plausibility": 0.75,
+                    "reasoning": "A decorative boat sits on a high shelf. A shop cat perches below it. A bowl of dried fruit, including a plum, sits on the counter.",
+                    "object_interpretations": {
+                        "boat": {
+                            "form": "decoration",
+                            "scale": "small",
+                            "role": "ornament"
+                        },
+                        "cat": {
+                            "form": "real animal",
+                            "scale": "normal",
+                            "role": "shop mascot"
+                        },
+                        "plum": {
+                            "form": "real fruit",
+                            "scale": "normal",
+                            "role": "merchandise"
+                        }
+                    }
+                },
+                {
+                    "scene_type": "Houseboat Deck",
+                    "plausibility": 0.9,
+                    "reasoning": "A houseboat serves as a home. The family cat lounges on the deck railing. A bowl of fruit sits on a table, featuring a ripe plum.",
+                    "object_interpretations": {
+                        "boat": {
+                            "form": "real vessel",
+                            "scale": "normal",
+                            "role": "dwelling"
+                        },
+                        "cat": {
+                            "form": "real animal",
+                            "scale": "normal",
+                            "role": "resident"
+                        },
+                        "plum": {
+                            "form": "real fruit",
+                            "scale": "normal",
+                            "role": "household food"
+                        }
+                    }
+                },
+                {
+                    "scene_type": "Surreal Dreamscape",
+                    "plausibility": 0.7,
+                    "reasoning": "A boat floats through the sky. A giant cat sits in the boat holding a plum like a planet. The style allows for impossible scales and whimsical connections.",
+                    "object_interpretations": {
+                        "boat": {
+                            "form": "real vessel",
+                            "scale": "normal",
+                            "role": "flying transport"
+                        },
+                        "cat": {
+                            "form": "real animal",
+                            "scale": "giant",
+                            "role": "passenger"
+                        },
+                        "plum": {
+                            "form": "real fruit",
+                            "scale": "large",
+                            "role": "surreal prop"
+                        }
+                    }
+                }
+            ],
+            "selected_scene": {
+                "scene_type": "Fishing Dock",
+                "plausibility": 0.95,
+                "reasoning": "A boat is docked at a pier. A fisherman's cat sits on the deck waiting for scraps. A plum is left on a crate as a snack.",
+                "object_interpretations": {
+                    "boat": {
+                        "form": "real vessel",
+                        "scale": "normal",
+                        "role": "primary object"
+                    },
+                    "cat": {
+                        "form": "real animal",
+                        "scale": "normal",
+                        "role": "companion"
+                    },
+                    "plum": {
+                        "form": "real fruit",
+                        "scale": "normal",
+                        "role": "food item"
+                    }
+                },
+                "scene_brief": "A Fishing Dock centered around boat, with cat, and plum"
+            }
+        }
+    },
+    "final_prompts": {
+        "main_prompt": "A Post-Impressionism painting depicting a sunset scene where a dominant crimson-tinged ochre and deep violet-gray weathered boat rests on wet timbers in the foreground, with a single fresh, moist plum of deep burgundy and royal purple resting upon its worn wooden surface. In the midground, a medium-sized midnight blue and deep slate cat is alert and crouched beside the boat, its gaze fixed on the fruit. The natural dramatic lighting of sunset casts long, expressive shadows and bathes the entire composition in a warm, golden glow, creating a peaceful yet striking atmosphere where subdued earth tones contrast with vibrant color accents. The environment feels both tranquil and emotionally resonant, with visible brushstrokes capturing the texture of weathered wood with bronze fittings, the cat's fur, and the plum's smooth skin in the fading light.",
+        "negative_prompt": "photorealistic, 3d render, modern, digital art, photograph, low quality, blurry, distorted, cartoon, anime, surreal, abstract, text, watermark, signature, frame, border, ugly, deformed, mutated",
+        "prompt_formats": {
+            "simple": "A Post-Impressionism sunset scene with a weathered boat holding a plum and a crouching cat beside it.",
+            "complex": "A Post-Impressionism painting depicting a sunset scene where a dominant crimson-tinged ochre and deep violet-gray weathered boat rests on wet timbers in the foreground, with a single fresh, moist plum of deep burgundy and royal purple resting upon its worn wooden surface. In the midground, a medium-sized midnight blue and deep slate cat is alert and crouched beside the boat, its gaze fixed on the fruit. The natural dramatic lighting of sunset casts long, expressive shadows and bathes the entire composition in a warm, golden glow, creating a peaceful yet striking atmosphere where subdued earth tones contrast with vibrant color accents. The environment feels both tranquil and emotionally resonant, with visible brushstrokes capturing the texture of weathered wood with bronze fittings, the cat's fur, and the plum's smooth skin in the fading light.",
+            "comma_separated": "Post-Impressionism, painting, sunset, boat, cat, plum, crimson-tinged ochre, deep violet-gray, weathered, midnight blue, deep slate, alert, crouched, deep burgundy, royal purple, fresh, moist, natural dramatic lighting, warm, peaceful, subdued, striking, foreground, midground, expressive brushstrokes",
+            "tags": "art, painting, post-impressionism, sunset, boat, cat, plum, still life, animal, nature, warm lighting, peaceful atmosphere, expressive brushwork, color contrast"
+        }
+    }
+}

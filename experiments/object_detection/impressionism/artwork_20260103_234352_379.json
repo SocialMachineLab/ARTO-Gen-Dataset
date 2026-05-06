@@ -1,0 +1,377 @@
+{
+    "artwork_id": "artwork_20260103_234352_379",
+    "generation_timestamp": "2026-01-03T23:44:49.554520",
+    "style": "Impressionism",
+    "objects": {
+        "object_ids": [
+            1,
+            27,
+            26,
+            2
+        ],
+        "object_names": [
+            "bride",
+            "bag",
+            "umbrella",
+            "wheel"
+        ],
+        "enhanced_objects": [
+            {
+                "object_id": 1,
+                "name": "bride",
+                "artistic_description": "A luminous figure in flowing white silk, the fabric catching diffused afternoon light through rain-heavy clouds. Moisture darkens the hem and sleeves to soft gray, while the veil becomes translucent, blurring facial features into gentle brushstrokes of peach and rose. Pearls and crystals scatter cool highlights like raindrops caught in lace.",
+                "size": "Dominant",
+                "state": "damp and radiant",
+                "primary_colors": [
+                    "luminous white",
+                    "soft gray"
+                ],
+                "material": "silk, lace, pearls"
+            },
+            {
+                "object_id": 27,
+                "name": "bag",
+                "artistic_description": "A structured leather handbag with a high-gloss finish that mirrors the gray sky and wet pavement in distorted patches. Raindrops bead on the surface, creating scattered points of reflected light. The color shifts between deep charcoal and warm chestnut where water has beaded, with brass hardware catching muted golden tones.",
+                "size": "Small",
+                "state": "wet and reflective",
+                "primary_colors": [
+                    "charcoal",
+                    "chestnut"
+                ],
+                "material": "leather, brass"
+            },
+            {
+                "object_id": 26,
+                "name": "umbrella",
+                "artistic_description": "A taut dome of deep navy fabric, its surface darkened to near-black by rain saturation. Water collects in the valleys between ribs, creating rhythmic crescents of lighter blue where light penetrates the stretched material. The underside glows with a cool, diffused lavender-gray luminescence from the overcast sky.",
+                "size": "Medium",
+                "state": "rain-slicked and taut",
+                "primary_colors": [
+                    "navy",
+                    "lavender-gray"
+                ],
+                "material": "nylon, metal"
+            },
+            {
+                "object_id": 2,
+                "name": "wheel",
+                "artistic_description": "A chrome hubcap and spokes transformed into a fractured mirror of the street scene. Rain streaks across the polished surface, creating elongated distortions of gray sky and distant neon. The rubber tire appears as a soft charcoal halo, its tread pattern collecting water that catches brief flashes of diffused light.",
+                "size": "Marginal",
+                "state": "wet and gleaming",
+                "primary_colors": [
+                    "silver",
+                    "charcoal"
+                ],
+                "material": "chrome, rubber"
+            }
+        ]
+    },
+    "composition": {
+        "spatial_relations": [
+            [
+                1,
+                "under",
+                26
+            ],
+            [
+                27,
+                "in",
+                1
+            ],
+            [
+                2,
+                "under",
+                1
+            ]
+        ],
+        "semantic_relations": [
+            [
+                1,
+                "holding",
+                26
+            ],
+            [
+                1,
+                "holding",
+                27
+            ]
+        ]
+    },
+    "environment": {
+        "environment_details": {
+            "scene_brief": "A rainy city street centered around bride, with bag, umbrella, and wheel",
+            "place365_name": "/s/street",
+            "place365_id": 319,
+            "time_of_day": "afternoon",
+            "weather": "rainy",
+            "period": "Contemporary",
+            "is_indoor": false,
+            "lighting": {
+                "type": "natural",
+                "quality": "soft",
+                "direction": "side-lit",
+                "reasoning": "Overcast rainy conditions (afternoon) create soft, diffused natural light. This is perfect for Impressionism, which relies on subtle shifts in color and light rather than sharp lines. Side-lighting would effectively illuminate the bride and the wet street textures, enhancing the painterly aesthetic."
+            },
+            "atmosphere": "bright and active and moody and gentle"
+        },
+        "scene_inference": {
+            "all_candidates": [
+                {
+                    "scene_type": "wedding day departure",
+                    "plausibility": 0.95,
+                    "reasoning": "A bride is the central figure. She carries a bag (honeymoon essentials or clutch). An umbrella is used for rain or sun protection. A wheel is visible from the getaway car or a vintage carriage.",
+                    "object_interpretations": {
+                        "bride": {
+                            "form": "real person",
+                            "scale": "normal",
+                            "role": "primary subject"
+                        },
+                        "bag": {
+                            "form": "luggage/handbag",
+                            "scale": "normal",
+                            "role": "personal accessory"
+                        },
+                        "umbrella": {
+                            "form": "functional accessory",
+                            "scale": "normal",
+                            "role": "weather protection"
+                        },
+                        "wheel": {
+                            "form": "carriage or car wheel",
+                            "scale": "large",
+                            "role": "transportation element"
+                        }
+                    }
+                },
+                {
+                    "scene_type": "garden ceremony",
+                    "plausibility": 0.9,
+                    "reasoning": "The bride stands on a lawn. A bag sits on a nearby chair. An umbrella provides shade. A wheel is part of a decorative vintage bicycle or flower cart in the background.",
+                    "object_interpretations": {
+                        "bride": {
+                            "form": "real person",
+                            "scale": "normal",
+                            "role": "primary subject"
+                        },
+                        "bag": {
+                            "form": "purse or tote",
+                            "scale": "normal",
+                            "role": "decorative prop"
+                        },
+                        "umbrella": {
+                            "form": "parasol",
+                            "scale": "normal",
+                            "role": "sun protection/decoration"
+                        },
+                        "wheel": {
+                            "form": "bicycle wheel",
+                            "scale": "normal",
+                            "role": "background prop"
+                        }
+                    }
+                },
+                {
+                    "scene_type": "impromptu shelter",
+                    "plausibility": 0.85,
+                    "reasoning": "Caught in the rain, the bride holds an umbrella. She waits near a carriage (wheel visible) or taxi, holding her bag tightly.",
+                    "object_interpretations": {
+                        "bride": {
+                            "form": "real person",
+                            "scale": "normal",
+                            "role": "primary subject"
+                        },
+                        "bag": {
+                            "form": "handbag",
+                            "scale": "normal",
+                            "role": "held accessory"
+                        },
+                        "umbrella": {
+                            "form": "rain umbrella",
+                            "scale": "normal",
+                            "role": "shield"
+                        },
+                        "wheel": {
+                            "form": "taxi wheel",
+                            "scale": "large",
+                            "role": "waiting vehicle"
+                        }
+                    }
+                },
+                {
+                    "scene_type": "vintage travel",
+                    "plausibility": 0.8,
+                    "reasoning": "A bride sits in a rickshaw or carriage (wheels) holding a bag, with an umbrella open overhead.",
+                    "object_interpretations": {
+                        "bride": {
+                            "form": "real person",
+                            "scale": "normal",
+                            "role": "passenger"
+                        },
+                        "bag": {
+                            "form": "suitcase",
+                            "scale": "normal",
+                            "role": "luggage"
+                        },
+                        "umbrella": {
+                            "form": "canopy",
+                            "scale": "large",
+                            "role": "shade"
+                        },
+                        "wheel": {
+                            "form": "rickshaw wheel",
+                            "scale": "large",
+                            "role": "transport mechanism"
+                        }
+                    }
+                },
+                {
+                    "scene_type": "reception prep",
+                    "plausibility": 0.9,
+                    "reasoning": "Inside a venue, the bride adjusts her look. A bag is on a table. An umbrella leans against a wall (left by a guest). A wheel is visible through the window on a delivery cart.",
+                    "object_interpretations": {
+                        "bride": {
+                            "form": "real person",
+                            "scale": "normal",
+                            "role": "primary subject"
+                        },
+                        "bag": {
+                            "form": "clutch",
+                            "scale": "small",
+                            "role": "accessory"
+                        },
+                        "umbrella": {
+                            "form": "folded umbrella",
+                            "scale": "normal",
+                            "role": "forgotten item"
+                        },
+                        "wheel": {
+                            "form": "cart wheel",
+                            "scale": "normal",
+                            "role": "background detail"
+                        }
+                    }
+                },
+                {
+                    "scene_type": "artistic studio",
+                    "plausibility": 0.75,
+                    "reasoning": "A bride posing for an Impressionist painting. Props include a bag, an umbrella for lighting, and a wheel as a compositional element.",
+                    "object_interpretations": {
+                        "bride": {
+                            "form": "model",
+                            "scale": "normal",
+                            "role": "subject"
+                        },
+                        "bag": {
+                            "form": "prop bag",
+                            "scale": "normal",
+                            "role": "set dressing"
+                        },
+                        "umbrella": {
+                            "form": "studio umbrella",
+                            "scale": "normal",
+                            "role": "light modifier"
+                        },
+                        "wheel": {
+                            "form": "wooden wheel",
+                            "scale": "normal",
+                            "role": "artistic prop"
+                        }
+                    }
+                },
+                {
+                    "scene_type": "rainy city street",
+                    "plausibility": 0.85,
+                    "reasoning": "A bride walking on a wet street, holding a bag and umbrella. A taxi waits nearby (wheel visible).",
+                    "object_interpretations": {
+                        "bride": {
+                            "form": "real person",
+                            "scale": "normal",
+                            "role": "primary subject"
+                        },
+                        "bag": {
+                            "form": "luxury bag",
+                            "scale": "normal",
+                            "role": "status symbol"
+                        },
+                        "umbrella": {
+                            "form": "black umbrella",
+                            "scale": "normal",
+                            "role": "shield"
+                        },
+                        "wheel": {
+                            "form": "car wheel",
+                            "scale": "normal",
+                            "role": "transport"
+                        }
+                    },
+                    "scene_brief": "A rainy city street centered around bride, with bag, umbrella, and wheel"
+                },
+                {
+                    "scene_type": "countryside walk",
+                    "plausibility": 0.8,
+                    "reasoning": "A bride walking down a country lane. She carries a small bag. A parasol protects her from sun. A horse-drawn cart (wheels) passes by.",
+                    "object_interpretations": {
+                        "bride": {
+                            "form": "real person",
+                            "scale": "normal",
+                            "role": "primary subject"
+                        },
+                        "bag": {
+                            "form": "basket",
+                            "scale": "normal",
+                            "role": "carrier"
+                        },
+                        "umbrella": {
+                            "form": "parasol",
+                            "scale": "normal",
+                            "role": "sun protection"
+                        },
+                        "wheel": {
+                            "form": "cart wheel",
+                            "scale": "large",
+                            "role": "passing traffic"
+                        }
+                    }
+                }
+            ],
+            "selected_scene": {
+                "scene_type": "rainy city street",
+                "plausibility": 0.85,
+                "reasoning": "A bride walking on a wet street, holding a bag and umbrella. A taxi waits nearby (wheel visible).",
+                "object_interpretations": {
+                    "bride": {
+                        "form": "real person",
+                        "scale": "normal",
+                        "role": "primary subject"
+                    },
+                    "bag": {
+                        "form": "luxury bag",
+                        "scale": "normal",
+                        "role": "status symbol"
+                    },
+                    "umbrella": {
+                        "form": "black umbrella",
+                        "scale": "normal",
+                        "role": "shield"
+                    },
+                    "wheel": {
+                        "form": "car wheel",
+                        "scale": "normal",
+                        "role": "transport"
+                    }
+                },
+                "scene_brief": "A rainy city street centered around bride, with bag, umbrella, and wheel"
+            }
+        }
+    },
+    "final_prompts": {
+        "main_prompt": "A Impressionism painting depicting a luminous white and soft gray bride, damp and radiant in her silk and lace gown adorned with pearls, standing under a rain-slicked taut umbrella in navy and lavender-gray. In her hands, she holds a small charcoal and chestton bag, wet and reflective with leather accents. Beneath her feet rests a marginal silver and charcoal wheel, wet and gleaming with chrome and rubber details. The scene unfolds on a gentle afternoon with natural soft lighting filtering through the atmosphere, creating a bright and active yet moody and gentle ambiance where brushstrokes capture the interplay of light on damp surfaces and the delicate textures of fabric against industrial elements.",
+        "negative_prompt": "photorealistic, 3d render, modern, digital art, photograph, low quality, blurry, distorted, cartoon, anime, surreal, abstract, text, watermark, signature, frame, border",
+        "prompt_formats": {
+            "simple": "An Impressionist painting of a bride under an umbrella holding a bag with a wheel at her feet on a soft afternoon.",
+            "complex": "A Impressionism painting depicting a luminous white and soft gray bride, damp and radiant in her silk and lace gown adorned with pearls, standing under a rain-slicked taut umbrella in navy and lavender-gray. In her hands, she holds a small charcoal and chestton bag, wet and reflective with leather accents. Beneath her feet rests a marginal silver and charcoal wheel, wet and gleaming with chrome and rubber details. The scene unfolds on a gentle afternoon with natural soft lighting filtering through the atmosphere, creating a bright and active yet moody and gentle ambiance where brushstrokes capture the interplay of light on damp surfaces and the delicate textures of fabric against industrial elements.",
+            "comma_separated": "Impressionism, bride under umbrella, holding bag, wheel at feet, luminous white, soft gray, navy, lavender-gray, charcoal, chestnut, silver, afternoon lighting, soft natural light, bright active moody gentle atmosphere, damp radiant, wet reflective, rain-slicked taut, wet gleaming, silk lace pearls leather chrome rubber",
+            "tags": "art, painting, impressionism, bride, umbrella, bag, wheel, afternoon, soft lighting, damp, wet, reflective, luminous, moody, gentle, brushstrokes, texture, light play"
+        }
+    }
+}

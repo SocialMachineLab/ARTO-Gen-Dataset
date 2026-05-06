@@ -1,0 +1,281 @@
+{
+    "artwork_id": "artwork_20260103_172324_733",
+    "generation_timestamp": "2026-01-03T17:23:56.929531",
+    "style": "Impressionism",
+    "objects": {
+        "object_ids": [
+            10,
+            74,
+            59
+        ],
+        "object_names": [
+            "lamp post",
+            "magazine",
+            "iris"
+        ],
+        "enhanced_objects": [
+            {
+                "object_id": 10,
+                "name": "lamp post",
+                "artistic_description": "Tall metal structure rendered in soft, diffused strokes of muted bronze and warm amber, its surface catching the cloudy sunset's gentle glow. The paint shows subtle weathering with patches of oxidized metal peeking through, while the glass housing glows with a hazy, dreamy luminescence that dissolves into the atmospheric haze. Brushstrokes are loose and expressive, capturing the ethereal quality of fading light.",
+                "size": "Large",
+                "state": "weathered but functional, showing contemporary urban wear with gentle rust spots",
+                "primary_colors": [
+                    "warm bronze",
+                    "muted amber"
+                ],
+                "material": "metal and glass"
+            },
+            {
+                "object_id": 74,
+                "name": "magazine",
+                "artistic_description": "Small rectangular form with softened edges, its glossy cover reflecting the subdued sunset tones in muted patches of coral and gold. The printed colors appear slightly faded and blended, as if the humid air has softened the ink's intensity. The plastic wrapper catches scattered light with gentle highlights, rendered in quick, impressionistic dabs that suggest rather than define the content.",
+                "size": "Small",
+                "state": "slightly damp from atmospheric moisture, edges softened",
+                "primary_colors": [
+                    "coral pink",
+                    "soft gold"
+                ],
+                "material": "paper and plastic"
+            },
+            {
+                "object_id": 59,
+                "name": "iris",
+                "artistic_description": "Delicate purple blooms rendered with loose, flowing brushstrokes that capture the flower's ethereal beauty in the warm, subdued light. The petals show subtle variations of violet, lavender, and dusky rose, their velvety texture suggested through layered, translucent strokes. A gentle dew-like moisture makes the blossoms appear luminous against the muted background, their colors saturated yet soft in the cloudy atmosphere.",
+                "size": "Marginal",
+                "state": "fresh and vibrant, slightly dewy from the humid air",
+                "primary_colors": [
+                    "deep violet",
+                    "soft lavender"
+                ],
+                "material": "living petals"
+            }
+        ]
+    },
+    "composition": {
+        "spatial_relations": [
+            [
+                74,
+                "on",
+                10
+            ],
+            [
+                59,
+                "next to",
+                10
+            ]
+        ],
+        "semantic_relations": []
+    },
+    "environment": {
+        "environment_details": {
+            "scene_brief": "A Artistic Street Corner featuring lamp post, with magazine, and iris",
+            "place365_name": "/s/street",
+            "place365_id": 319,
+            "time_of_day": "sunset",
+            "weather": "cloudy",
+            "period": "Contemporary",
+            "is_indoor": false,
+            "lighting": {
+                "type": "mixed",
+                "quality": "soft",
+                "direction": "side-lit",
+                "mood": "warm",
+                "reasoning": "At sunset, the primary light is natural (sunlight), but the presence of a 'lamp post' implies the potential for artificial light. 'Mixed' lighting captures this interplay. The 'cloudy' weather ensures the light is 'soft' rather than harsh. 'Side-lit' is typical for a corner setting where the sun hits one side of the structure, creating depth. The 'warm' mood is derived from the golden hour."
+            },
+            "atmosphere": "warm and peaceful and subdued and gentle"
+        },
+        "scene_inference": {
+            "all_candidates": [
+                {
+                    "scene_type": "City Park at Dusk",
+                    "plausibility": 0.95,
+                    "reasoning": "A classic urban park scene. The lamp post stands on a pathway, casting a warm glow. A discarded magazine lies on a bench nearby, and a single iris flower grows in the garden bed beside the path, illuminated by the light.",
+                    "object_interpretations": {
+                        "lamp post": {
+                            "form": "real lamp post",
+                            "scale": "normal",
+                            "role": "primary light source"
+                        },
+                        "magazine": {
+                            "form": "real magazine",
+                            "scale": "normal",
+                            "role": "litter/decorative element on bench"
+                        },
+                        "iris": {
+                            "form": "real flower",
+                            "scale": "normal",
+                            "role": "natural decoration in garden bed"
+                        }
+                    }
+                },
+                {
+                    "scene_type": "Artistic Street Corner",
+                    "plausibility": 0.9,
+                    "reasoning": "An impressionist painting of a street corner. The lamp post is a blur of light and shadow. A magazine is a splash of color on the sidewalk, perhaps dropped by a passerby. An iris is a vibrant accent in a small window box above.",
+                    "object_interpretations": {
+                        "lamp post": {
+                            "form": "real lamp post",
+                            "scale": "normal",
+                            "role": "focal point of light"
+                        },
+                        "magazine": {
+                            "form": "real magazine",
+                            "scale": "normal",
+                            "role": "street detail/color accent"
+                        },
+                        "iris": {
+                            "form": "real flower",
+                            "scale": "normal",
+                            "role": "architectural floral detail"
+                        }
+                    },
+                    "scene_brief": "A Artistic Street Corner featuring lamp post, with magazine, and iris"
+                },
+                {
+                    "scene_type": "Vintage Newsstand",
+                    "plausibility": 0.85,
+                    "reasoning": "A small outdoor newsstand at twilight. The lamp post illuminates the stand. The magazine is one of many for sale. A potted iris sits on the counter as a decorative touch.",
+                    "object_interpretations": {
+                        "lamp post": {
+                            "form": "real lamp post",
+                            "scale": "normal",
+                            "role": "ambient lighting"
+                        },
+                        "magazine": {
+                            "form": "real magazine",
+                            "scale": "normal",
+                            "role": "product for sale"
+                        },
+                        "iris": {
+                            "form": "potted plant",
+                            "scale": "normal",
+                            "role": "shop decoration"
+                        }
+                    }
+                },
+                {
+                    "scene_type": "Rainy Alleyway",
+                    "plausibility": 0.8,
+                    "reasoning": "A moody, atmospheric alleyway. The lamp post casts a reflection on wet pavement. A wet magazine is stuck to the ground. An iris grows defiantly from a crack in the wall.",
+                    "object_interpretations": {
+                        "lamp post": {
+                            "form": "real lamp post",
+                            "scale": "normal",
+                            "role": "mood lighting"
+                        },
+                        "magazine": {
+                            "form": "real magazine",
+                            "scale": "normal",
+                            "role": "urban debris"
+                        },
+                        "iris": {
+                            "form": "real flower",
+                            "scale": "normal",
+                            "role": "wild urban flora"
+                        }
+                    }
+                },
+                {
+                    "scene_type": "Botanical Garden Entrance",
+                    "plausibility": 0.9,
+                    "reasoning": "The entrance to a botanical garden at night. A lamp post lights the gate. A visitor has left a magazine on a stone wall. A beautiful iris from the garden is visible just beyond the fence.",
+                    "object_interpretations": {
+                        "lamp post": {
+                            "form": "real lamp post",
+                            "scale": "normal",
+                            "role": "gate lighting"
+                        },
+                        "magazine": {
+                            "form": "real magazine",
+                            "scale": "normal",
+                            "role": "forgotten personal item"
+                        },
+                        "iris": {
+                            "form": "real flower",
+                            "scale": "normal",
+                            "role": "garden specimen"
+                        }
+                    }
+                },
+                {
+                    "scene_type": "Suburban Sidewalk",
+                    "plausibility": 0.85,
+                    "reasoning": "A quiet residential sidewalk at sunset. The lamp post is just turning on. A magazine is in a recycling bin next to the curb. An iris is part of the landscaping in the front yard.",
+                    "object_interpretations": {
+                        "lamp post": {
+                            "form": "real lamp post",
+                            "scale": "normal",
+                            "role": "street utility"
+                        },
+                        "magazine": {
+                            "form": "real magazine",
+                            "scale": "normal",
+                            "role": "recyclable item"
+                        },
+                        "iris": {
+                            "form": "real flower",
+                            "scale": "normal",
+                            "role": "landscaping element"
+                        }
+                    }
+                },
+                {
+                    "scene_type": "Abstract Urban Dream",
+                    "plausibility": 0.7,
+                    "reasoning": "An impressionist dream of a city. The lamp post is a tall, vertical stroke of yellow. The magazine is a rectangular patch of blue and red. The iris is a purple swirl at the base of the lamp post.",
+                    "object_interpretations": {
+                        "lamp post": {
+                            "form": "stylized shape",
+                            "scale": "abstract",
+                            "role": "abstract form"
+                        },
+                        "magazine": {
+                            "form": "stylized shape",
+                            "scale": "abstract",
+                            "role": "color block"
+                        },
+                        "iris": {
+                            "form": "stylized shape",
+                            "scale": "abstract",
+                            "role": "organic accent"
+                        }
+                    }
+                }
+            ],
+            "selected_scene": {
+                "scene_type": "Artistic Street Corner",
+                "plausibility": 0.9,
+                "reasoning": "An impressionist painting of a street corner. The lamp post is a blur of light and shadow. A magazine is a splash of color on the sidewalk, perhaps dropped by a passerby. An iris is a vibrant accent in a small window box above.",
+                "object_interpretations": {
+                    "lamp post": {
+                        "form": "real lamp post",
+                        "scale": "normal",
+                        "role": "focal point of light"
+                    },
+                    "magazine": {
+                        "form": "real magazine",
+                        "scale": "normal",
+                        "role": "street detail/color accent"
+                    },
+                    "iris": {
+                        "form": "real flower",
+                        "scale": "normal",
+                        "role": "architectural floral detail"
+                    }
+                },
+                "scene_brief": "A Artistic Street Corner featuring lamp post, with magazine, and iris"
+            }
+        }
+    },
+    "final_prompts": {
+        "main_prompt": "A Impressionism painting depicting a warm sunset scene with a large, weathered but functional lamp post of warm bronze and muted amber standing prominently in the midground. Resting atop the lamp post's horizontal arm is a small magazine in coral pink and soft gold, its pages slightly damp from atmospheric moisture. Beside the lamp post's base grows a marginal iris with deep violet and soft lavender petals, appearing fresh and vibrant against the subdued environment. The composition uses loose, visible brushstrokes to capture the mixed soft lighting of sunset, where long shadows blend with golden hour glow, creating a warm and peaceful atmosphere that feels both gentle and subdued. The foreground shows textured cobblestones catching the last light, while the background dissolves into hazy silhouettes of distant buildings and trees, all rendered with the characteristic Impressionist attention to light's transient effects on metal and glass surfaces, paper texture, and living petals.",
+        "negative_prompt": "photorealistic, 3d render, modern, digital art, photograph, low quality, blurry, distorted, hyperdetailed, sharp focus, anime, cartoon, surreal, abstract, text, watermark, signature, frame, border",
+        "prompt_formats": {
+            "simple": "An Impressionist sunset scene with a lamp post, a magazine resting on it, and an iris growing beside it.",
+            "complex": "A Impressionism painting depicting a warm sunset scene with a large, weathered but functional lamp post of warm bronze and muted amber standing prominently in the midground. Resting atop the lamp post's horizontal arm is a small magazine in coral pink and soft gold, its pages slightly damp from atmospheric moisture. Beside the lamp post's base grows a marginal iris with deep violet and soft lavender petals, appearing fresh and vibrant against the subdued environment. The composition uses loose, visible brushstrokes to capture the mixed soft lighting of sunset, where long shadows blend with golden hour glow, creating a warm and peaceful atmosphere that feels both gentle and subdued. The foreground shows textured cobblestones catching the last light, while the background dissolves into hazy silhouettes of distant buildings and trees, all rendered with the characteristic Impressionist attention to light's transient effects on metal and glass surfaces, paper texture, and living petals.",
+            "comma_separated": "Impressionism painting, lamp post, magazine, iris, sunset lighting, warm and peaceful atmosphere, large weathered bronze lamp post, small coral pink magazine, marginal deep violet iris, magazine on lamp post, iris next to lamp post, soft gentle subdued mood, loose brushstrokes, golden hour, cobblestone foreground, hazy background",
+            "tags": "art, painting, impressionism, sunset, lamppost, magazine, iris, still life, urban nature, golden hour, peaceful, warm lighting, Claude Monet style, Pierre-Auguste Renoir style, loose brushwork, light study"
+        }
+    }
+}

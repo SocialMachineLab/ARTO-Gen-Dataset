@@ -1,0 +1,303 @@
+{
+    "artwork_id": "artwork_20260103_195757_131",
+    "generation_timestamp": "2026-01-03T19:58:29.108328",
+    "style": "Baroque",
+    "objects": {
+        "object_ids": [
+            40,
+            48,
+            70
+        ],
+        "object_names": [
+            "jam",
+            "cherry",
+            "oven"
+        ],
+        "enhanced_objects": [
+            {
+                "object_id": 40,
+                "name": "jam",
+                "artistic_description": "Lustrous crimson jam glistens in the warm afternoon sunlight streaming through the pantry windows, its glossy surface catching brilliant highlights that dance across the glass jar. The rich, jewel-toned preserve glows with deep ruby and garnet hues, its translucent depths revealing suspended fruit particles that catch the light like tiny amber jewels. The surface exhibits a smooth, viscous sheen that reflects the bright interior with baroque luminosity, creating a sumptuous, velvety appearance that speaks of royal abundance.",
+                "size": "Medium",
+                "state": "freshly preserved and gleaming",
+                "primary_colors": [
+                    "deep ruby crimson",
+                    "warm amber"
+                ],
+                "material": "glass and preserved fruit"
+            },
+            {
+                "object_id": 48,
+                "name": "cherry",
+                "artistic_description": "Plump cherries rest with baroque opulence, their glossy skins saturated with intense vermillion and carmine tones that intensify in the golden afternoon light. Each fruit displays a high polish that catches specular highlights, creating dramatic contrasts between the deep crimson shadows and brilliant scarlet reflections. The surface exhibits a natural waxy sheen that becomes luminous under direct sunlight, while the stems show delicate emerald undertones that complement the rich fruit colors.",
+                "size": "Small",
+                "state": "fresh and perfectly ripe",
+                "primary_colors": [
+                    "brilliant scarlet",
+                    "deep carmine"
+                ],
+                "material": "fresh fruit"
+            },
+            {
+                "object_id": 70,
+                "name": "oven",
+                "artistic_description": "A magnificent decorative oven dominates with baroque grandeur, its ornate ironwork and brass fittings gleaming with polished golden highlights in the bright natural light. The weathered copper surfaces display a rich patina of warm umber and burnt sienna tones that glow warmly in the afternoon sun, while decorative scrollwork catches brilliant reflections that emphasize the intricate craftsmanship. The matte stone exterior absorbs light with dignified gravity, creating deep shadows that accentuate the sculptural relief work, while the polished metal elements sparkle with aristocratic splendor.",
+                "size": "Large",
+                "state": "ornamentally maintained with noble patina",
+                "primary_colors": [
+                    "warm burnished copper",
+                    "deep umber"
+                ],
+                "material": "copper, iron, and stone"
+            }
+        ]
+    },
+    "composition": {
+        "spatial_relations": [
+            [
+                40,
+                "on",
+                70
+            ],
+            [
+                48,
+                "on",
+                70
+            ]
+        ],
+        "semantic_relations": []
+    },
+    "environment": {
+        "environment_details": {
+            "scene_brief": "A Royal pantry featuring jam, with cherry displayed on shelves, and decorative oven as decoration",
+            "place365_name": "/p/pantry",
+            "place365_id": 253,
+            "time_of_day": "afternoon",
+            "weather": "sunny",
+            "period": "Early modern",
+            "is_indoor": true,
+            "lighting": {
+                "type": "natural",
+                "quality": "dramatic",
+                "direction": "side-lit",
+                "mood": "warm",
+                "reasoning": "Baroque style relies on high contrast (chiaroscuro) to create volume and drama. 'Side-lit' natural light from a window would sculpt the forms of the jam jars and the decorative oven, creating a 'warm' mood typical of rich interiors. The 'dramatic' quality emphasizes the royal luxury of the scene."
+            },
+            "atmosphere": "bright and active and cheerful and striking"
+        },
+        "scene_inference": {
+            "all_candidates": [
+                {
+                    "scene_type": "Baroque kitchen",
+                    "plausibility": 0.95,
+                    "reasoning": "A rustic, grand Baroque kitchen where jam is being prepared. The jam is the primary product in a pot, fresh cherries are the ingredient on a wooden table, and a large stone oven is the heat source in the background.",
+                    "object_interpretations": {
+                        "jam": {
+                            "form": "real food",
+                            "scale": "normal",
+                            "role": "primary subject/product"
+                        },
+                        "cherry": {
+                            "form": "real fruit",
+                            "scale": "normal",
+                            "role": "ingredient"
+                        },
+                        "oven": {
+                            "form": "real appliance",
+                            "scale": "large",
+                            "role": "functional background object"
+                        }
+                    }
+                },
+                {
+                    "scene_type": "Baroque still life painting",
+                    "plausibility": 0.9,
+                    "reasoning": "A classic Dutch Baroque still life composition. A jar of jam is the central item, a bowl of cherries adds color and texture, and a rustic oven in the background provides context of preparation.",
+                    "object_interpretations": {
+                        "jam": {
+                            "form": "real food",
+                            "scale": "normal",
+                            "role": "primary subject"
+                        },
+                        "cherry": {
+                            "form": "real fruit",
+                            "scale": "normal",
+                            "role": "secondary subject/decorative"
+                        },
+                        "oven": {
+                            "form": "real appliance",
+                            "scale": "normal",
+                            "role": "background context"
+                        }
+                    }
+                },
+                {
+                    "scene_type": "Royal pantry",
+                    "plausibility": 0.85,
+                    "reasoning": "A lavish pantry in a Baroque palace. Jams are stored in ornate jars, cherries are displayed in silver bowls, and a decorative oven is used for warming or storage.",
+                    "object_interpretations": {
+                        "jam": {
+                            "form": "real food",
+                            "scale": "normal",
+                            "role": "stored good"
+                        },
+                        "cherry": {
+                            "form": "real fruit",
+                            "scale": "normal",
+                            "role": "luxury display item"
+                        },
+                        "oven": {
+                            "form": "ornamental appliance",
+                            "scale": "normal",
+                            "role": "decorative architectural feature"
+                        }
+                    },
+                    "scene_brief": "A Royal pantry featuring jam, with cherry displayed on shelves, and decorative oven as decoration"
+                },
+                {
+                    "scene_type": "Baroque bakery",
+                    "plausibility": 0.8,
+                    "reasoning": "A bustling historical bakery. Jam is the filling for pastries, cherries are the topping, and a large brick oven is the central workspace.",
+                    "object_interpretations": {
+                        "jam": {
+                            "form": "real food",
+                            "scale": "normal",
+                            "role": "ingredient/topping"
+                        },
+                        "cherry": {
+                            "form": "real fruit",
+                            "scale": "normal",
+                            "role": "garnish"
+                        },
+                        "oven": {
+                            "form": "real appliance",
+                            "scale": "large",
+                            "role": "primary workstation"
+                        }
+                    }
+                },
+                {
+                    "scene_type": "Baroque feast table",
+                    "plausibility": 0.85,
+                    "reasoning": "A lavish banquet setting. Jam is served in a silver dish, cherries are part of a fruit arrangement, and a small decorative oven sits on the table for keeping food warm.",
+                    "object_interpretations": {
+                        "jam": {
+                            "form": "real food",
+                            "scale": "normal",
+                            "role": "condiment"
+                        },
+                        "cherry": {
+                            "form": "real fruit",
+                            "scale": "normal",
+                            "role": "part of centerpiece"
+                        },
+                        "oven": {
+                            "form": "warming oven",
+                            "scale": "small/tabletop",
+                            "role": "tableware utility"
+                        }
+                    }
+                },
+                {
+                    "scene_type": "Surreal Baroque landscape",
+                    "plausibility": 0.7,
+                    "reasoning": "A dreamlike Baroque landscape where a river of jam flows past banks of cherry trees, and a massive stone oven serves as a ruin or temple in the distance.",
+                    "object_interpretations": {
+                        "jam": {
+                            "form": "surreal liquid",
+                            "scale": "massive",
+                            "role": "landscape feature"
+                        },
+                        "cherry": {
+                            "form": "surreal flora",
+                            "scale": "large",
+                            "role": "vegetation"
+                        },
+                        "oven": {
+                            "form": "architectural ruin",
+                            "scale": "massive",
+                            "role": "landmark"
+                        }
+                    }
+                },
+                {
+                    "scene_type": "Baroque laboratory",
+                    "plausibility": 0.65,
+                    "reasoning": "An alchemist's workshop in Baroque style. Jam is a mysterious potion in a flask, cherries are rare ingredients in a mortar, and an oven is the heating apparatus for experiments.",
+                    "object_interpretations": {
+                        "jam": {
+                            "form": "potion/liquid",
+                            "scale": "normal",
+                            "role": "alchemical product"
+                        },
+                        "cherry": {
+                            "form": "dried ingredients",
+                            "scale": "normal",
+                            "role": "component"
+                        },
+                        "oven": {
+                            "form": "crucible furnace",
+                            "scale": "normal",
+                            "role": "experimental equipment"
+                        }
+                    }
+                },
+                {
+                    "scene_type": "Baroque confectionery shop",
+                    "plausibility": 0.8,
+                    "reasoning": "A historical sweet shop. Jams are sold in jars, cherries are used to decorate cakes, and a small oven is used for baking sweets.",
+                    "object_interpretations": {
+                        "jam": {
+                            "form": "real food",
+                            "scale": "normal",
+                            "role": "product for sale"
+                        },
+                        "cherry": {
+                            "form": "real fruit",
+                            "scale": "normal",
+                            "role": "decoration"
+                        },
+                        "oven": {
+                            "form": "real appliance",
+                            "scale": "normal",
+                            "role": "shop equipment"
+                        }
+                    }
+                }
+            ],
+            "selected_scene": {
+                "scene_type": "Royal pantry",
+                "plausibility": 0.85,
+                "reasoning": "A lavish pantry in a Baroque palace. Jams are stored in ornate jars, cherries are displayed in silver bowls, and a decorative oven is used for warming or storage.",
+                "object_interpretations": {
+                    "jam": {
+                        "form": "real food",
+                        "scale": "normal",
+                        "role": "stored good"
+                    },
+                    "cherry": {
+                        "form": "real fruit",
+                        "scale": "normal",
+                        "role": "luxury display item"
+                    },
+                    "oven": {
+                        "form": "ornamental appliance",
+                        "scale": "normal",
+                        "role": "decorative architectural feature"
+                    }
+                },
+                "scene_brief": "A Royal pantry featuring jam, with cherry displayed on shelves, and decorative oven as decoration"
+            }
+        }
+    },
+    "final_prompts": {
+        "main_prompt": "A Baroque painting depicting a bright and active afternoon kitchen scene, where a large, ornamentally maintained oven with a warm burnished copper and deep umber patina dominates the midground. On its broad, flat top surface, two objects are carefully arranged: to the left, a medium-sized jar of freshly preserved jam gleams with deep ruby crimson and warm amber hues, its glass surface catching the dramatic natural afternoon light; to the right, a small, perfectly ripe cherry rests, its brilliant scarlet and deep carmine skin vibrant against the copper surface. The composition is striking and cheerful, with strong chiaroscuro highlighting the textures of glass, preserved fruit, fresh fruit, and aged metal, creating a dynamic interplay of light and shadow that emphasizes the spatial relationship of objects placed upon the noble oven.",
+        "negative_prompt": "photorealistic, 3d render, modern, digital art, photograph, low quality, blurry, distorted, ugly, deformed, watermark, signature, text, frame, cartoon, anime, sketch, abstract, minimalist, dull, dark, gloomy",
+        "prompt_formats": {
+            "simple": "A Baroque painting of jam and a cherry placed on a copper oven in dramatic afternoon light.",
+            "complex": "A Baroque painting depicting a bright and active afternoon kitchen scene, where a large, ornamentally maintained oven with a warm burnished copper and deep umber patina dominates the midground. On its broad, flat top surface, two objects are carefully arranged: to the left, a medium-sized jar of freshly preserved jam gleams with deep ruby crimson and warm amber hues, its glass surface catching the dramatic natural afternoon light; to the right, a small, perfectly ripe cherry rests, its brilliant scarlet and deep carmine skin vibrant against the copper surface. The composition is striking and cheerful, with strong chiaroscuro highlighting the textures of glass, preserved fruit, fresh fruit, and aged metal, creating a dynamic interplay of light and shadow that emphasizes the spatial relationship of objects placed upon the noble oven.",
+            "comma_separated": "Baroque painting, jam jar on oven, cherry on oven, large copper oven, deep ruby crimson jam, brilliant scarlet cherry, warm burnished copper, dramatic natural afternoon lighting, bright active cheerful striking atmosphere, chiaroscuro, still life, kitchen scene, ornate details, glass jar, preserved fruit, fresh fruit",
+            "tags": "art, painting, Baroque, still life, kitchen, oven, jam, cherry, copper, chiaroscuro, dramatic lighting, afternoon, vibrant colors, ornate, detailed, textural"
+        }
+    }
+}

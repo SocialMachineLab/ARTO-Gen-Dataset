@@ -1,0 +1,259 @@
+{
+    "artwork_id": "artwork_20260103_020534_343",
+    "generation_timestamp": "2026-01-03T02:06:03.248862",
+    "style": "Post-Impressionism",
+    "objects": {
+        "object_ids": [
+            3,
+            10,
+            35
+        ],
+        "object_names": [
+            "cart",
+            "lamp post",
+            "stick"
+        ],
+        "enhanced_objects": [
+            {
+                "object_id": 3,
+                "name": "cart",
+                "artistic_description": "A sturdy wooden cart rendered in bold, flattened planes of color with visible brushstrokes. The afternoon light streams through nearby windows, casting warm amber highlights across its weathered surface while creating deep violet shadows in the crevices. The wood grain is suggested through rhythmic, parallel strokes of burnt sienna and ochre, with patches of peeling varnish catching the light with subtle glints. The metal hardware gleams with sharp dabs of titanium white and cool gray against the warm wood tones.",
+                "size": "Large",
+                "state": "well-used but maintained contemporary piece with natural wear patterns",
+                "primary_colors": [
+                    "warm ochre",
+                    "deep violet"
+                ],
+                "material": "wood with metal hardware"
+            },
+            {
+                "object_id": 10,
+                "name": "lamp post",
+                "artistic_description": "A slender metal lamp post standing in a pool of golden afternoon light that filters through the indoor space. The shaft is painted in smooth, vertical strokes of muted sage green and olive, with the mixed lighting creating subtle shifts between warm and cool tones along its length. The lamp housing at the top catches the brightest light with thick impasto strokes of pale yellow and cream, while the base dissolves into softer, shadowed blues and grays. The surface appears matte and slightly weathered, absorbing rather than reflecting the ambient light.",
+                "size": "Medium",
+                "state": "functional contemporary fixture with a gentle patina of age",
+                "primary_colors": [
+                    "sage green",
+                    "pale yellow"
+                ],
+                "material": "painted metal"
+            },
+            {
+                "object_id": 35,
+                "name": "stick",
+                "artistic_description": "A simple wooden stick lying on its side, its form captured through quick, energetic brushstrokes that emphasize its essential character. The afternoon light catches along one edge with a bright ribbon of golden brown, while the opposite side falls into warm shadow with touches of deep umber and crimson. The surface texture is suggested through short, directional strokes of raw sienna and burnt umber, with occasional flecks of lighter tone suggesting bark or natural imperfections. The stick appears dry and matte, absorbing the cheerful light without reflection.",
+                "size": "Small",
+                "state": "natural weathered wood, dry and slightly rough",
+                "primary_colors": [
+                    "burnt umber",
+                    "golden brown"
+                ],
+                "material": "wood"
+            }
+        ]
+    },
+    "composition": {
+        "spatial_relations": [
+            [
+                3,
+                "next to",
+                10
+            ],
+            [
+                35,
+                "on",
+                3
+            ]
+        ],
+        "semantic_relations": []
+    },
+    "environment": {
+        "environment_details": {
+            "scene_brief": "A post-impressionist landscape featuring cart, with lamp post, and stick",
+            "place365_name": "/a/art_gallery",
+            "place365_id": 19,
+            "time_of_day": "afternoon",
+            "weather": "sunny",
+            "period": "Contemporary",
+            "is_indoor": true,
+            "lighting": {
+                "type": "mixed",
+                "quality": "soft",
+                "direction": "front-lit",
+                "mood": "warm",
+                "reasoning": "In a gallery, the artwork is primarily lit by artificial track lighting (front-lit to minimize glare on the canvas) to ensure visibility. However, 'mixed' accounts for potential natural light from windows. 'Soft' quality prevents harsh shadows on the painting surface, and 'warm' mood aligns with the afternoon time selection and the rich colors of Post-Impressionism."
+            },
+            "atmosphere": "bright and active and cheerful and gentle"
+        },
+        "scene_inference": {
+            "all_candidates": [
+                {
+                    "scene_type": "village market square",
+                    "plausibility": 0.95,
+                    "reasoning": "A cart serves as a merchant's stall in a village square. A lamp post illuminates the area, and a stick is a common tool for market vendors, perhaps used to measure fabric or prop up a stall canvas.",
+                    "object_interpretations": {
+                        "cart": {
+                            "form": "real wooden cart",
+                            "scale": "normal",
+                            "role": "primary merchant stall"
+                        },
+                        "lamp post": {
+                            "form": "real cast iron lamp post",
+                            "scale": "normal",
+                            "role": "architectural lighting fixture"
+                        },
+                        "stick": {
+                            "form": "real wooden stick",
+                            "scale": "normal",
+                            "role": "vendor's tool"
+                        }
+                    }
+                },
+                {
+                    "scene_type": "rural roadside",
+                    "plausibility": 0.9,
+                    "reasoning": "A cart is parked on a rural roadside, perhaps waiting for repairs. A lamp post stands as a lone marker of civilization, and a stick lies on the ground nearby, possibly dropped by a passerby.",
+                    "object_interpretations": {
+                        "cart": {
+                            "form": "real weathered cart",
+                            "scale": "normal",
+                            "role": "parked vehicle"
+                        },
+                        "lamp post": {
+                            "form": "real functional lamp post",
+                            "scale": "normal",
+                            "role": "roadside landmark"
+                        },
+                        "stick": {
+                            "form": "fallen branch",
+                            "scale": "normal",
+                            "role": "natural debris"
+                        }
+                    }
+                },
+                {
+                    "scene_type": "artistic alleyway",
+                    "plausibility": 0.85,
+                    "reasoning": "In a narrow alley, an abandoned cart sits. A lamp post casts dramatic shadows (fitting Post-Impressionism). A stick could be part of a makeshift shelter or graffiti tool.",
+                    "object_interpretations": {
+                        "cart": {
+                            "form": "real abandoned cart",
+                            "scale": "normal",
+                            "role": "urban furniture"
+                        },
+                        "lamp post": {
+                            "form": "real street lamp",
+                            "scale": "normal",
+                            "role": "light source"
+                        },
+                        "stick": {
+                            "form": "real wooden stick",
+                            "scale": "normal",
+                            "role": "structural support or debris"
+                        }
+                    }
+                },
+                {
+                    "scene_type": "children's playground",
+                    "plausibility": 0.8,
+                    "reasoning": "A cart is a play structure. A lamp post lights the area. A stick is a toy (e.g., a wand or sword) left on the ground.",
+                    "object_interpretations": {
+                        "cart": {
+                            "form": "playground cart structure",
+                            "scale": "normal",
+                            "role": "play equipment"
+                        },
+                        "lamp post": {
+                            "form": "real lamp post",
+                            "scale": "normal",
+                            "role": "playground lighting"
+                        },
+                        "stick": {
+                            "form": "toy stick",
+                            "scale": "normal",
+                            "role": "child's toy"
+                        }
+                    }
+                },
+                {
+                    "scene_type": "farmyard",
+                    "plausibility": 0.9,
+                    "reasoning": "A cart is essential farm equipment. A lamp post might illuminate a driveway. A stick is a simple tool used for farming or herding animals.",
+                    "object_interpretations": {
+                        "cart": {
+                            "form": "real farm cart",
+                            "scale": "normal",
+                            "role": "agricultural vehicle"
+                        },
+                        "lamp post": {
+                            "form": "real outdoor lamp",
+                            "scale": "normal",
+                            "role": "yard lighting"
+                        },
+                        "stick": {
+                            "form": "herding stick",
+                            "scale": "normal",
+                            "role": "farm tool"
+                        }
+                    }
+                },
+                {
+                    "scene_type": "post-impressionist landscape",
+                    "plausibility": 0.7,
+                    "reasoning": "A stylized landscape featuring a cart as the focal point. A lamp post stands in the distance, and a stick lies in the foreground, rendered with bold colors and visible brushstrokes typical of the style.",
+                    "object_interpretations": {
+                        "cart": {
+                            "form": "stylized cart",
+                            "scale": "normal",
+                            "role": "subject of the painting"
+                        },
+                        "lamp post": {
+                            "form": "stylized lamp post",
+                            "scale": "normal",
+                            "role": "compositional element"
+                        },
+                        "stick": {
+                            "form": "stylized stick",
+                            "scale": "normal",
+                            "role": "foreground detail"
+                        }
+                    },
+                    "scene_brief": "A post-impressionist landscape featuring cart, with lamp post, and stick"
+                }
+            ],
+            "selected_scene": {
+                "scene_type": "post-impressionist landscape",
+                "plausibility": 0.7,
+                "reasoning": "A stylized landscape featuring a cart as the focal point. A lamp post stands in the distance, and a stick lies in the foreground, rendered with bold colors and visible brushstrokes typical of the style.",
+                "object_interpretations": {
+                    "cart": {
+                        "form": "stylized cart",
+                        "scale": "normal",
+                        "role": "subject of the painting"
+                    },
+                    "lamp post": {
+                        "form": "stylized lamp post",
+                        "scale": "normal",
+                        "role": "compositional element"
+                    },
+                    "stick": {
+                        "form": "stylized stick",
+                        "scale": "normal",
+                        "role": "foreground detail"
+                    }
+                },
+                "scene_brief": "A post-impressionist landscape featuring cart, with lamp post, and stick"
+            }
+        }
+    },
+    "final_prompts": {
+        "main_prompt": "A Post-Impressionism painting depicting a bright and active afternoon scene with a gentle, cheerful atmosphere. In the foreground, a large, well-used but maintained contemporary cart painted in warm ochre with deep violet accents sits beside a medium-sized, functional contemporary lamp post in sage green with pale yellow details. Resting atop the cart's wooden surface is a small, natural weathered stick in burnt umber and golden brown tones. The mixed soft afternoon lighting casts dynamic, expressive shadows and highlights, with visible brushstrokes and vibrant color contrasts characteristic of Post-Impressionist style, creating a lively yet gentle urban vignette.",
+        "negative_prompt": "photorealistic, 3d render, modern, digital art, photograph, low quality, blurry, distorted, surreal, abstract, cartoon, anime, sketch, watermark, signature, text, frame, border, monochrome, grayscale, dark, gloomy, night, rainy, foggy, hyperrealistic, symmetrical, perfect",
+        "prompt_formats": {
+            "simple": "A Post-Impressionist painting of a cart beside a lamp post with a stick on it during a cheerful afternoon.",
+            "complex": "A Post-Impressionism painting depicting a bright and active afternoon scene with a gentle, cheerful atmosphere. In the foreground, a large, well-used but maintained contemporary cart painted in warm ochre with deep violet accents sits beside a medium-sized, functional contemporary lamp post in sage green with pale yellow details. Resting atop the cart's wooden surface is a small, natural weathered stick in burnt umber and golden brown tones. The mixed soft afternoon lighting casts dynamic, expressive shadows and highlights, with visible brushstrokes and vibrant color contrasts characteristic of Post-Impressionist style, creating a lively yet gentle urban vignette.",
+            "comma_separated": "Post-Impressionism painting, large warm ochre and deep violet cart, medium sage green and pale yellow lamp post, small burnt umber and golden brown stick, cart beside lamp post, stick on cart, afternoon lighting, mixed soft light, bright active cheerful gentle atmosphere, vibrant colors, expressive brushstrokes, urban scene",
+            "tags": "art, painting, post-impressionism, Vincent van Gogh style, Paul C\u00e9zanne influence, vibrant colors, expressive brushwork, afternoon light, urban scene, cart, lamp post, stick, cheerful atmosphere"
+        }
+    }
+}

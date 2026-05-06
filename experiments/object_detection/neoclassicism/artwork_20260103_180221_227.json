@@ -1,0 +1,308 @@
+{
+    "artwork_id": "artwork_20260103_180221_227",
+    "generation_timestamp": "2026-01-03T18:02:50.841189",
+    "style": "Neoclassicism",
+    "objects": {
+        "object_ids": [
+            10,
+            17,
+            46
+        ],
+        "object_names": [
+            "lamp post",
+            "dog",
+            "pottery"
+        ],
+        "enhanced_objects": [
+            {
+                "object_id": 10,
+                "name": "lamp post",
+                "artistic_description": "Tall bronze lamp post with a fluted classical column shaft, bathed in the warm golden glow of sunset that catches the metal's aged patina. The light source within creates a soft amber radiance that illuminates the ornate Corinthian capital details and decorative bronze fittings. The surface shows subtle verdigris accents that catch the warm light with a gentle greenish sheen. The metal reflects the sunset's apricot and rose tones, creating a luminous, reverent atmosphere.",
+                "size": "Large",
+                "state": "aged and dignified with gentle weathering appropriate to classical antiquity",
+                "primary_colors": [
+                    "warm bronze",
+                    "golden amber"
+                ],
+                "material": "bronze"
+            },
+            {
+                "object_id": 17,
+                "name": "dog",
+                "artistic_description": "Graceful hound with a short, sleek coat that catches the warm sunset light, creating subtle highlights along its muscular form. The fur appears in rich tones of burnished sienna and deep umber, with the low-angle light casting soft, elongated shadows that emphasize the classical proportions of its form. The eyes reflect the warm light with a gentle amber glow. The coat has a natural matte finish that absorbs and diffuses the golden light, giving the animal a sculptural, timeless quality.",
+                "size": "Medium",
+                "state": "alert yet peaceful, resting in a classical pose with noble bearing",
+                "primary_colors": [
+                    "burnished sienna",
+                    "deep umber"
+                ],
+                "material": "fur"
+            },
+            {
+                "object_id": 46,
+                "name": "pottery",
+                "artistic_description": "Terra cotta amphora with a graceful classical silhouette, its matte surface absorbing the warm sunset light while the raised decorative motifs catch gentle highlights. The clay body shows variations from soft peach to deeper terracotta tones, with the unglazed surface creating a subtle, earthy texture. The rim and handles receive the most direct light, glowing with a warm apricot radiance. Fine craquelure in the glaze creates delicate shadow lines that add depth and historical authenticity.",
+                "size": "Small",
+                "state": "antique and reverently aged with subtle surface wear from time",
+                "primary_colors": [
+                    "terracotta",
+                    "peach"
+                ],
+                "material": "ceramic"
+            }
+        ]
+    },
+    "composition": {
+        "spatial_relations": [
+            [
+                17,
+                "next to",
+                10
+            ],
+            [
+                46,
+                "next to",
+                10
+            ],
+            [
+                17,
+                "next to",
+                46
+            ]
+        ],
+        "semantic_relations": []
+    },
+    "environment": {
+        "environment_details": {
+            "scene_brief": "A Neoclassical domestic courtyard featuring lamp post, with dog, and pottery",
+            "place365_name": "/c/courtyard",
+            "place365_id": 109,
+            "time_of_day": "sunset",
+            "weather": null,
+            "period": "Classical",
+            "is_indoor": true,
+            "lighting": {
+                "type": "natural",
+                "quality": "soft",
+                "direction": "front-lit",
+                "mood": "warm",
+                "reasoning": "Sunset provides natural, warm, and soft lighting that casts long, gentle shadows, highlighting the textures of the pottery and the architectural lines of the courtyard. A side-lit or front-lit approach ensures the details of the lamp post and dog are clearly visible while maintaining a romantic, atmospheric mood."
+            },
+            "atmosphere": "warm and peaceful and gentle"
+        },
+        "scene_inference": {
+            "all_candidates": [
+                {
+                    "scene_type": "Neoclassical city square at dusk",
+                    "plausibility": 0.95,
+                    "reasoning": "A lamp post illuminates a formal plaza. A dog is being walked by an unseen owner, and a pottery vendor's stall is set up nearby, with clay vessels catching the warm light.",
+                    "object_interpretations": {
+                        "lamp post": {
+                            "form": "real lamp post",
+                            "scale": "normal",
+                            "role": "primary light source"
+                        },
+                        "dog": {
+                            "form": "real dog",
+                            "scale": "normal",
+                            "role": "living subject"
+                        },
+                        "pottery": {
+                            "form": "real pottery",
+                            "scale": "normal",
+                            "role": "goods for sale"
+                        }
+                    }
+                },
+                {
+                    "scene_type": "Neoclassical garden path",
+                    "plausibility": 0.9,
+                    "reasoning": "A stone path winds through manicured hedges. A lamp post stands sentinel. A dog rests near a decorative urn (pottery), and the scene evokes a formal estate.",
+                    "object_interpretations": {
+                        "lamp post": {
+                            "form": "real lamp post",
+                            "scale": "normal",
+                            "role": "path lighting"
+                        },
+                        "dog": {
+                            "form": "real dog",
+                            "scale": "normal",
+                            "role": "companion animal"
+                        },
+                        "pottery": {
+                            "form": "decorative urn",
+                            "scale": "large",
+                            "role": "garden ornament"
+                        }
+                    }
+                },
+                {
+                    "scene_type": "Neoclassical museum interior",
+                    "plausibility": 0.85,
+                    "reasoning": "A grand hallway with columns. A lamp post is repurposed as an indoor architectural light fixture. A guide dog stands beside a visitor, and a display case features ancient pottery.",
+                    "object_interpretations": {
+                        "lamp post": {
+                            "form": "architectural fixture",
+                            "scale": "normal",
+                            "role": "ambient lighting"
+                        },
+                        "dog": {
+                            "form": "service dog",
+                            "scale": "normal",
+                            "role": "companion"
+                        },
+                        "pottery": {
+                            "form": "antique artifact",
+                            "scale": "small",
+                            "role": "museum exhibit"
+                        }
+                    }
+                },
+                {
+                    "scene_type": "Neoclassical artist's studio",
+                    "plausibility": 0.8,
+                    "reasoning": "A high-ceilinged studio. A lamp post stands in the corner for dramatic lighting. A dog sleeps on a rug, and a potter's wheel sits center stage with a vase in progress.",
+                    "object_interpretations": {
+                        "lamp post": {
+                            "form": "studio prop",
+                            "scale": "normal",
+                            "role": "lighting element"
+                        },
+                        "dog": {
+                            "form": "pet dog",
+                            "scale": "normal",
+                            "role": "studio mascot"
+                        },
+                        "pottery": {
+                            "form": "wet clay on wheel",
+                            "scale": "normal",
+                            "role": "artwork in progress"
+                        }
+                    }
+                },
+                {
+                    "scene_type": "Neoclassical street market",
+                    "plausibility": 0.9,
+                    "reasoning": "A bustling street scene. A lamp post overlooks the stalls. A stray dog wanders past a merchant selling pottery, capturing a slice of life.",
+                    "object_interpretations": {
+                        "lamp post": {
+                            "form": "real lamp post",
+                            "scale": "normal",
+                            "role": "street fixture"
+                        },
+                        "dog": {
+                            "form": "stray dog",
+                            "scale": "normal",
+                            "role": "background character"
+                        },
+                        "pottery": {
+                            "form": "clay pots",
+                            "scale": "varied",
+                            "role": "market merchandise"
+                        }
+                    }
+                },
+                {
+                    "scene_type": "Neoclassical domestic courtyard",
+                    "plausibility": 0.85,
+                    "reasoning": "A private, walled courtyard. A lamp post provides evening light. A family dog guards a collection of potted plants in terracotta pottery.",
+                    "object_interpretations": {
+                        "lamp post": {
+                            "form": "real lamp post",
+                            "scale": "normal",
+                            "role": "courtyard lighting"
+                        },
+                        "dog": {
+                            "form": "watchdog",
+                            "scale": "normal",
+                            "role": "guardian"
+                        },
+                        "pottery": {
+                            "form": "terracotta planters",
+                            "scale": "medium",
+                            "role": "functional decoration"
+                        }
+                    },
+                    "scene_brief": "A Neoclassical domestic courtyard featuring lamp post, with dog, and pottery"
+                },
+                {
+                    "scene_type": "Neoclassical park at twilight",
+                    "plausibility": 0.9,
+                    "reasoning": "A formal park with statues. A lamp post illuminates a bench. A dog chases a ball near a large decorative vase (pottery) on a pedestal.",
+                    "object_interpretations": {
+                        "lamp post": {
+                            "form": "gas-style lamp",
+                            "scale": "normal",
+                            "role": "atmospheric light"
+                        },
+                        "dog": {
+                            "form": "playful dog",
+                            "scale": "normal",
+                            "role": "action subject"
+                        },
+                        "pottery": {
+                            "form": "large decorative vase",
+                            "scale": "large",
+                            "role": "statuary element"
+                        }
+                    }
+                },
+                {
+                    "scene_type": "Neoclassical architectural facade",
+                    "plausibility": 0.8,
+                    "reasoning": "A view of a grand building. A lamp post is mounted on the wall. A dog stands on the steps, and a broken pottery shard lies on the ground, suggesting a narrative.",
+                    "object_interpretations": {
+                        "lamp post": {
+                            "form": "wall sconce",
+                            "scale": "medium",
+                            "role": "architectural detail"
+                        },
+                        "dog": {
+                            "form": "real dog",
+                            "scale": "normal",
+                            "role": "narrative element"
+                        },
+                        "pottery": {
+                            "form": "broken shard",
+                            "scale": "small",
+                            "role": "storytelling detail"
+                        }
+                    }
+                }
+            ],
+            "selected_scene": {
+                "scene_type": "Neoclassical domestic courtyard",
+                "plausibility": 0.85,
+                "reasoning": "A private, walled courtyard. A lamp post provides evening light. A family dog guards a collection of potted plants in terracotta pottery.",
+                "object_interpretations": {
+                    "lamp post": {
+                        "form": "real lamp post",
+                        "scale": "normal",
+                        "role": "courtyard lighting"
+                    },
+                    "dog": {
+                        "form": "watchdog",
+                        "scale": "normal",
+                        "role": "guardian"
+                    },
+                    "pottery": {
+                        "form": "terracotta planters",
+                        "scale": "medium",
+                        "role": "functional decoration"
+                    }
+                },
+                "scene_brief": "A Neoclassical domestic courtyard featuring lamp post, with dog, and pottery"
+            }
+        }
+    },
+    "final_prompts": {
+        "main_prompt": "A Neoclassicism painting depicting a warm sunset scene where a large, dignified lamp post of warm bronze with golden amber accents stands prominently in the midground, its aged and gently weathered surface catching the soft natural light. Next to the lamp post's base rests a medium-sized dog with a burnished sienna and deep umber coat, alert yet peaceful as it sits attentively. Beside both the lamp post and the dog, in the foreground, sits a small piece of antique pottery in terracotta and peach hues, reverently aged with subtle cracks and patina. The spatial arrangement shows the dog positioned between the lamp post and pottery, creating a triangular composition of companionship and quiet dignity. The entire scene is bathed in the gentle, warm glow of sunset, with soft shadows stretching across the ground, creating a peaceful and gentle atmosphere of classical serenity and timeless beauty.",
+        "negative_prompt": "photorealistic, 3d render, modern, digital art, photograph, low quality, blurry, distorted, cartoon, anime, surreal, abstract, ugly, deformed, noisy, watermark, signature, text, frame, border",
+        "prompt_formats": {
+            "simple": "A Neoclassical sunset scene with a bronze lamp post, a sienna-colored dog, and antique terracotta pottery arranged peacefully together.",
+            "complex": "A Neoclassicism painting depicting a warm sunset scene where a large, dignified lamp post of warm bronze with golden amber accents stands prominently in the midground, its aged and gently weathered surface catching the soft natural light. Next to the lamp post's base rests a medium-sized dog with a burnished sienna and deep umber coat, alert yet peaceful as it sits attentively. Beside both the lamp post and the dog, in the foreground, sits a small piece of antique pottery in terracotta and peach hues, reverently aged with subtle cracks and patina. The spatial arrangement shows the dog positioned between the lamp post and pottery, creating a triangular composition of companionship and quiet dignity. The entire scene is bathed in the gentle, warm glow of sunset, with soft shadows stretching across the ground, creating a peaceful and gentle atmosphere of classical serenity and timeless beauty.",
+            "comma_separated": "Neoclassicism painting, large warm bronze lamp post, medium burnished sienna dog, small terracotta pottery, dog next to lamp post, pottery next to lamp post, dog next to pottery, sunset lighting, natural soft light, warm peaceful gentle atmosphere, aged dignified objects, classical composition, serene scene",
+            "tags": "art, painting, neoclassicism, classical art, sunset, lamp post, dog, pottery, bronze, terracotta, warm lighting, peaceful scene, composition, traditional art"
+        }
+    }
+}

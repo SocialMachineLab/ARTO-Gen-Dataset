@@ -1,0 +1,286 @@
+{
+    "artwork_id": "artwork_20260103_234336_635",
+    "generation_timestamp": "2026-01-03T23:44:18.215614",
+    "style": "Impressionism",
+    "objects": {
+        "object_ids": [
+            33,
+            40,
+            61
+        ],
+        "object_names": [
+            "ball",
+            "glass jar",
+            "billiard table"
+        ],
+        "enhanced_objects": [
+            {
+                "object_id": 33,
+                "name": "ball",
+                "artistic_description": "A sphere rendered in soft, broken strokes of muted crimson and dusty rose, its surface catching scattered highlights from the cloudy afternoon light filtering through the museum's windows. The form dissolves at its edges into gentle blues and warm grays, creating a luminous, atmospheric quality. Subtle variations in color suggest a slightly worn leather surface, with the impression of light rather than precise detail.",
+                "size": "Small",
+                "state": "polished and well-preserved, with gentle wear suggesting careful handling",
+                "primary_colors": [
+                    "muted crimson",
+                    "dusty rose"
+                ],
+                "material": "leather"
+            },
+            {
+                "object_id": 40,
+                "name": "glass jar",
+                "artistic_description": "A translucent vessel captured in quick, shimmering strokes of cool silvery-blue and pale aqua, its form barely contained by loose, gestural outlines. The cloudy daylight passes through it, creating soft internal glows and scattered highlights that suggest rather than define its curved surface. Flecks of warm amber light dance across its rim, while the body dissolves into the surrounding atmosphere with delicate, broken color.",
+                "size": "Medium",
+                "state": "pristine glass with subtle reflections and internal light play",
+                "primary_colors": [
+                    "silvery-blue",
+                    "pale aqua"
+                ],
+                "material": "glass"
+            },
+            {
+                "object_id": 61,
+                "name": "billiard table",
+                "artistic_description": "A broad expanse of deep emerald and forest green, rendered in thick, textured strokes that capture the dense felt surface. The cloudy afternoon light falls evenly across its top, creating subtle variations of cool sage and shadowed teal where the fabric absorbs and reflects light. The wooden rails appear as warm bands of sienna and burnt umber, their edges softened by the gentle, diffused illumination. The overall impression is one of rich, velvety texture and quiet dignity.",
+                "size": "Large",
+                "state": "excellent condition with rich, unfaded felt and polished wood",
+                "primary_colors": [
+                    "deep emerald",
+                    "forest green"
+                ],
+                "material": "felt and wood"
+            }
+        ]
+    },
+    "composition": {
+        "spatial_relations": [
+            [
+                33,
+                "on",
+                61
+            ],
+            [
+                40,
+                "next to",
+                33
+            ],
+            [
+                61,
+                "on",
+                40
+            ]
+        ],
+        "semantic_relations": []
+    },
+    "environment": {
+        "environment_details": {
+            "scene_brief": "A museum exhibit featuring ball, with glass jar, and billiard table displayed on shelves",
+            "place365_name": "/m/museum/indoor",
+            "place365_id": 236,
+            "time_of_day": "afternoon",
+            "weather": "cloudy",
+            "period": "Contemporary",
+            "is_indoor": true,
+            "lighting": {
+                "type": "mixed",
+                "quality": "soft",
+                "direction": "side-lit",
+                "mood": "warm",
+                "reasoning": "Mixed lighting combines soft cloudy daylight from windows (side-lit direction creating gentle modeling on objects) with warm artificial gallery lighting to illuminate the exhibits. This combination provides the soft, nuanced lighting essential for impressionism while ensuring the displayed objects are properly visible and create a warm, inviting atmosphere for contemplation."
+            },
+            "atmosphere": "bright and active and subdued and gentle"
+        },
+        "scene_inference": {
+            "all_candidates": [
+                {
+                    "scene_type": "classic billiard hall",
+                    "plausibility": 0.95,
+                    "reasoning": "The billiard table is the central functional object. The ball is a primary component of the game. A glass jar can serve as a practical container for chalk, or as a decorative element holding coins or matches on the rail.",
+                    "object_interpretations": {
+                        "billiard table": {
+                            "form": "real billiard table",
+                            "scale": "full-size",
+                            "role": "primary functional object"
+                        },
+                        "ball": {
+                            "form": "real billiard ball",
+                            "scale": "standard size (2.25 inches)",
+                            "role": "active game piece"
+                        },
+                        "glass jar": {
+                            "form": "real glass jar",
+                            "scale": "small/medium",
+                            "role": "utility container or decoration"
+                        }
+                    }
+                },
+                {
+                    "scene_type": "vintage game room",
+                    "plausibility": 0.9,
+                    "reasoning": "A cozy room featuring a billiard table. The ball might be a vintage collectible sitting on a shelf next to a glass jar containing old marbles or other trinkets.",
+                    "object_interpretations": {
+                        "billiard table": {
+                            "form": "vintage billiard table",
+                            "scale": "full-size",
+                            "role": "centerpiece of the room"
+                        },
+                        "ball": {
+                            "form": "antique billiard ball",
+                            "scale": "standard size",
+                            "role": "display object"
+                        },
+                        "glass jar": {
+                            "form": "apothecary glass jar",
+                            "scale": "small",
+                            "role": "decorative storage"
+                        }
+                    }
+                },
+                {
+                    "scene_type": "sports bar lounge",
+                    "plausibility": 0.85,
+                    "reasoning": "A social setting with a billiard table in use. A glass jar holds condiments or straws on a nearby table, and a ball is mid-game on the table.",
+                    "object_interpretations": {
+                        "billiard table": {
+                            "form": "modern billiard table",
+                            "scale": "full-size",
+                            "role": "recreational fixture"
+                        },
+                        "ball": {
+                            "form": "standard pool ball",
+                            "scale": "standard size",
+                            "role": "active element"
+                        },
+                        "glass jar": {
+                            "form": "drinking glass jar",
+                            "scale": "small",
+                            "role": "serving container"
+                        }
+                    }
+                },
+                {
+                    "scene_type": "art studio",
+                    "plausibility": 0.8,
+                    "reasoning": "A still life composition. The billiard table is partially visible or used as a textured backdrop. A glass jar holds brushes, and a ball is the focal point of the painting.",
+                    "object_interpretations": {
+                        "billiard table": {
+                            "form": "billiard table surface",
+                            "scale": "partial/full",
+                            "role": "background texture"
+                        },
+                        "ball": {
+                            "form": "painted or real ball",
+                            "scale": "normal",
+                            "role": "subject of study"
+                        },
+                        "glass jar": {
+                            "form": "glass jar with brushes",
+                            "scale": "normal",
+                            "role": "studio utility"
+                        }
+                    }
+                },
+                {
+                    "scene_type": "children's playroom",
+                    "plausibility": 0.75,
+                    "reasoning": "A miniature billiard table set up for kids. The ball is a toy, and the glass jar is a plastic replica used for storing small toy pieces.",
+                    "object_interpretations": {
+                        "billiard table": {
+                            "form": "toy billiard table",
+                            "scale": "miniature",
+                            "role": "toy"
+                        },
+                        "ball": {
+                            "form": "plastic toy ball",
+                            "scale": "small",
+                            "role": "toy accessory"
+                        },
+                        "glass jar": {
+                            "form": "plastic container",
+                            "scale": "small",
+                            "role": "storage for other toys"
+                        }
+                    }
+                },
+                {
+                    "scene_type": "museum exhibit",
+                    "plausibility": 0.85,
+                    "reasoning": "A display case showing the history of billiards. An antique ball and a glass jar (perhaps containing historical chalk or accessories) are arranged on the table surface.",
+                    "object_interpretations": {
+                        "billiard table": {
+                            "form": "historic billiard table",
+                            "scale": "full-size",
+                            "role": "exhibit display"
+                        },
+                        "ball": {
+                            "form": "antique ivory ball",
+                            "scale": "standard size",
+                            "role": "artifact"
+                        },
+                        "glass jar": {
+                            "form": "museum display jar",
+                            "scale": "small",
+                            "role": "artifact container"
+                        }
+                    },
+                    "scene_brief": "A museum exhibit featuring ball, with glass jar, and billiard table displayed on shelves"
+                },
+                {
+                    "scene_type": "abstract composition",
+                    "plausibility": 0.7,
+                    "reasoning": "In the Impressionist style, shapes and light are prioritized. The billiard table is suggested by green geometric shapes and light. The ball is a bright sphere of color, and the jar is a transparent vessel capturing light reflections.",
+                    "object_interpretations": {
+                        "billiard table": {
+                            "form": "abstract geometric form",
+                            "scale": "variable",
+                            "role": "color field/shape"
+                        },
+                        "ball": {
+                            "form": "spherical color blob",
+                            "scale": "variable",
+                            "role": "focal point"
+                        },
+                        "glass jar": {
+                            "form": "translucent prism",
+                            "scale": "variable",
+                            "role": "light refraction element"
+                        }
+                    }
+                }
+            ],
+            "selected_scene": {
+                "scene_type": "museum exhibit",
+                "plausibility": 0.85,
+                "reasoning": "A display case showing the history of billiards. An antique ball and a glass jar (perhaps containing historical chalk or accessories) are arranged on the table surface.",
+                "object_interpretations": {
+                    "billiard table": {
+                        "form": "historic billiard table",
+                        "scale": "full-size",
+                        "role": "exhibit display"
+                    },
+                    "ball": {
+                        "form": "antique ivory ball",
+                        "scale": "standard size",
+                        "role": "artifact"
+                    },
+                    "glass jar": {
+                        "form": "museum display jar",
+                        "scale": "small",
+                        "role": "artifact container"
+                    }
+                },
+                "scene_brief": "A museum exhibit featuring ball, with glass jar, and billiard table displayed on shelves"
+            }
+        }
+    },
+    "final_prompts": {
+        "main_prompt": "A Impressionism painting depicting a late afternoon scene in a sun-dappled game room, where a large billiard table in excellent condition, covered in rich deep emerald and forest green felt, dominates the foreground. Resting upon its smooth wooden rails and leather-bound edges is a small, polished ball in muted crimson and dusty rose tones, appearing well-preserved and catching the soft light. Beside this ball sits a medium-sized glass jar of pristine clarity, its silvery-blue and pale aqua surfaces reflecting the gentle afternoon glow with subtle, shimmering highlights. The mixed soft lighting\u2014part direct sunlight through unseen windows, part diffused ambient glow\u2014creates a bright yet subdued atmosphere that feels both active in its play of light and gentle in its overall mood, with brushstrokes suggesting movement in the air and warmth in the wooden floorboards and walls.",
+        "negative_prompt": "photorealistic, 3d render, modern, digital art, photograph, low quality, blurry, distorted, surreal, abstract, cartoon, anime, hyperrealistic, oversaturated, ugly, deformed, text, watermark, signature, frame, border",
+        "prompt_formats": {
+            "simple": "An Impressionist painting of a billiard table with a crimson ball and a glass jar beside it in soft afternoon light.",
+            "complex": "A Impressionism painting depicting a late afternoon scene in a sun-dappled game room, where a large billiard table in excellent condition, covered in rich deep emerald and forest green felt, dominates the foreground. Resting upon its smooth wooden rails and leather-bound edges is a small, polished ball in muted crimson and dusty rose tones, appearing well-preserved and catching the soft light. Beside this ball sits a medium-sized glass jar of pristine clarity, its silvery-blue and pale aqua surfaces reflecting the gentle afternoon glow with subtle, shimmering highlights. The mixed soft lighting\u2014part direct sunlight through unseen windows, part diffused ambient glow\u2014creates a bright yet subdued atmosphere that feels both active in its play of light and gentle in its overall mood, with brushstrokes suggesting movement in the air and warmth in the wooden floorboards and walls.",
+            "comma_separated": "Impressionism painting, billiard table, ball, glass jar, large deep emerald green felt, small muted crimson dusty rose polished, medium silvery-blue pale aqua pristine glass, afternoon lighting, mixed soft light, bright active subdued gentle atmosphere, game room interior, wooden floor, leather details, reflective surfaces, dappled sunlight, rich colors, loose brushstrokes",
+            "tags": "art, painting, impressionism, still life, interior, billiard table, glass jar, ball, afternoon light, soft lighting, reflective, game room, Claude Monet style, Pierre-Auguste Renoir influence, color study, light and shadow"
+        }
+    }
+}

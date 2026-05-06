@@ -1,0 +1,259 @@
+{
+    "artwork_id": "artwork_20260103_235717_918",
+    "generation_timestamp": "2026-01-03T23:57:45.301581",
+    "style": "Impressionism",
+    "objects": {
+        "object_ids": [
+            60,
+            16,
+            20
+        ],
+        "object_names": [
+            "bed",
+            "cat",
+            "herd"
+        ],
+        "enhanced_objects": [
+            {
+                "object_id": 60,
+                "name": "bed",
+                "artistic_description": "Soft, diffused afternoon sunlight streams through the window, casting a warm golden glow across the rumpled cotton sheets. The white fabric appears luminous with subtle variations of cream and pale yellow where light directly hits, while shadows in the folds show delicate lavender and cool blue tones. The wooden headboard glows with a honeyed amber hue, its aged varnish catching light with gentle highlights. Brushstrokes are loose and visible, capturing the fleeting play of light and shadow on textured fabric.",
+                "size": "Large",
+                "state": "gently used, invitingly rumpled with soft wrinkles",
+                "primary_colors": [
+                    "warm cream",
+                    "golden amber"
+                ],
+                "material": "cotton fabric and aged wood"
+            },
+            {
+                "object_id": 16,
+                "name": "cat",
+                "artistic_description": "A mottled tabby cat rests in a patch of brilliant afternoon sunlight, its fur rendered in quick, dappled strokes of warm gold, burnt sienna, and soft amber. The bright light creates a luminous halo effect around its silhouette, with individual whiskers catching the light as delicate white lines. Shadows beneath its form show deep violet and cool gray tones. The eyes gleam with reflected window light, appearing as brilliant emerald jewels against the warm fur.",
+                "size": "Medium",
+                "state": "alert yet relaxed, basking in sunlight",
+                "primary_colors": [
+                    "golden amber",
+                    "burnt sienna"
+                ],
+                "material": "fur"
+            },
+            {
+                "object_id": 20,
+                "name": "herd",
+                "artistic_description": "Through the window, a distant herd appears as a vibrant impression of movement and light. The figures are rendered in loose, energetic strokes of warm ochre, soft green, and earthy brown, barely defined against the sunlit landscape. The intense afternoon light washes over them, creating shimmering effects where light catches on their forms, while atmospheric perspective softens them into hazy silhouettes of muted blues and purples. The overall effect captures the fleeting moment of life in bright, cheerful light.",
+                "size": "Marginal",
+                "state": "distant and impressionistic, suggested rather than detailed",
+                "primary_colors": [
+                    "warm ochre",
+                    "soft green"
+                ],
+                "material": ""
+            }
+        ]
+    },
+    "composition": {
+        "spatial_relations": [
+            [
+                16,
+                "on",
+                60
+            ],
+            [
+                20,
+                "behind",
+                60
+            ]
+        ],
+        "semantic_relations": []
+    },
+    "environment": {
+        "environment_details": {
+            "scene_brief": "A Vintage Guest Room featuring bed, with cat, and herd",
+            "place365_name": "/d/dorm_room",
+            "place365_id": 124,
+            "time_of_day": "afternoon",
+            "weather": "sunny",
+            "period": "Modern",
+            "is_indoor": true,
+            "lighting": {
+                "type": "natural",
+                "quality": "soft",
+                "direction": "side-lit",
+                "mood": "warm",
+                "reasoning": "Combining 'afternoon' time and 'sunny' weather results in natural, warm lighting. In an interior scene, this light enters through windows, creating side-lighting that casts gentle shadows and highlights textures (bedding, fur). 'Soft' quality fits the Impressionist style, avoiding harsh lines."
+            },
+            "atmosphere": "bright and active and cheerful and gentle"
+        },
+        "scene_inference": {
+            "all_candidates": [
+                {
+                    "scene_type": "Master Bedroom",
+                    "plausibility": 0.95,
+                    "reasoning": "A master bedroom is the most natural habitat for a bed. A cat can easily be sleeping on the bed. The 'herd' is interpreted as a herd of sheep depicted in a painting hanging on the bedroom wall, which fits the Impressionist style.",
+                    "object_interpretations": {
+                        "bed": {
+                            "form": "real bed",
+                            "scale": "normal",
+                            "role": "primary functional object"
+                        },
+                        "cat": {
+                            "form": "real cat",
+                            "scale": "normal",
+                            "role": "companion sleeping on bed"
+                        },
+                        "herd": {
+                            "form": "painting of sheep",
+                            "scale": "medium (wall art)",
+                            "role": "decorative element"
+                        }
+                    }
+                },
+                {
+                    "scene_type": "Child's Playroom",
+                    "plausibility": 0.9,
+                    "reasoning": "A child's bed is present. The cat is a real pet in the room. The 'herd' is a collection of toy farm animals (sheep/cows) scattered on the floor or in a toy bin.",
+                    "object_interpretations": {
+                        "bed": {
+                            "form": "child's bed",
+                            "scale": "small",
+                            "role": "primary furniture"
+                        },
+                        "cat": {
+                            "form": "real cat",
+                            "scale": "normal",
+                            "role": "playmate"
+                        },
+                        "herd": {
+                            "form": "toy animals",
+                            "scale": "miniature",
+                            "role": "play objects"
+                        }
+                    }
+                },
+                {
+                    "scene_type": "Art Studio",
+                    "plausibility": 0.85,
+                    "reasoning": "The artist uses a bed as a prop or subject for a painting. A real cat wanders the studio. The 'herd' is the subject of the painting being created on an easel.",
+                    "object_interpretations": {
+                        "bed": {
+                            "form": "studio prop bed",
+                            "scale": "normal",
+                            "role": "subject/model"
+                        },
+                        "cat": {
+                            "form": "real cat",
+                            "scale": "normal",
+                            "role": "studio pet"
+                        },
+                        "herd": {
+                            "form": "subject of painting",
+                            "scale": "2D (canvas)",
+                            "role": "artistic subject"
+                        }
+                    }
+                },
+                {
+                    "scene_type": "Rural Farmhouse",
+                    "plausibility": 0.8,
+                    "reasoning": "A rustic bed in a farmhouse. A cat keeps mice away. Outside the window, a real herd of livestock is visible, rendered in soft Impressionist light.",
+                    "object_interpretations": {
+                        "bed": {
+                            "form": "rustic bed",
+                            "scale": "normal",
+                            "role": "furniture"
+                        },
+                        "cat": {
+                            "form": "real cat",
+                            "scale": "normal",
+                            "role": "house pet"
+                        },
+                        "herd": {
+                            "form": "real animals",
+                            "scale": "large (distant)",
+                            "role": "landscape element"
+                        }
+                    }
+                },
+                {
+                    "scene_type": "Vintage Guest Room",
+                    "plausibility": 0.85,
+                    "reasoning": "A guest room with a bed. A cat sleeps on the rug. A tapestry depicting a pastoral herd scene hangs on the wall.",
+                    "object_interpretations": {
+                        "bed": {
+                            "form": "antique bed",
+                            "scale": "normal",
+                            "role": "furniture"
+                        },
+                        "cat": {
+                            "form": "real cat",
+                            "scale": "normal",
+                            "role": "floor decoration"
+                        },
+                        "herd": {
+                            "form": "tapestry",
+                            "scale": "large (wall hanging)",
+                            "role": "textile art"
+                        }
+                    },
+                    "scene_brief": "A Vintage Guest Room featuring bed, with cat, and herd"
+                },
+                {
+                    "scene_type": "Abstract Dreamscape",
+                    "plausibility": 0.7,
+                    "reasoning": "Surreal interpretation. The bed floats in a dreamy sky. The cat sits on the pillow. The 'herd' consists of sheep-shaped clouds floating above.",
+                    "object_interpretations": {
+                        "bed": {
+                            "form": "floating bed",
+                            "scale": "normal",
+                            "role": "dream vessel"
+                        },
+                        "cat": {
+                            "form": "dream cat",
+                            "scale": "normal",
+                            "role": "dreamer"
+                        },
+                        "herd": {
+                            "form": "clouds",
+                            "scale": "massive",
+                            "role": "atmospheric formation"
+                        }
+                    }
+                }
+            ],
+            "selected_scene": {
+                "scene_type": "Vintage Guest Room",
+                "plausibility": 0.85,
+                "reasoning": "A guest room with a bed. A cat sleeps on the rug. A tapestry depicting a pastoral herd scene hangs on the wall.",
+                "object_interpretations": {
+                    "bed": {
+                        "form": "antique bed",
+                        "scale": "normal",
+                        "role": "furniture"
+                    },
+                    "cat": {
+                        "form": "real cat",
+                        "scale": "normal",
+                        "role": "floor decoration"
+                    },
+                    "herd": {
+                        "form": "tapestry",
+                        "scale": "large (wall hanging)",
+                        "role": "textile art"
+                    }
+                },
+                "scene_brief": "A Vintage Guest Room featuring bed, with cat, and herd"
+            }
+        }
+    },
+    "final_prompts": {
+        "main_prompt": "A Impressionism painting depicting a bright and active afternoon scene with a gentle, cheerful atmosphere. In the foreground, a large, gently used bed with warm cream and golden amber cotton fabric sits prominently, its aged wooden frame visible. On top of this bed rests a medium-sized cat in golden amber and burnt sienna fur, appearing alert yet relaxed as it lounges. Behind the bed, in the midground, a marginal herd in warm ochre and soft green tones moves distantly, rendered in loose, impressionistic brushstrokes that suggest gentle motion. Natural soft afternoon light filters through the scene, casting dappled shadows and creating a luminous, vibrant environment where colors blend and textures of fur, fabric, and landscape merge harmoniously.",
+        "negative_prompt": "photorealistic, 3d render, modern, digital art, photograph, low quality, blurry, distorted, surreal, abstract, cartoon, anime, text, watermark, signature, frame, border, ugly, deformed, noisy",
+        "prompt_formats": {
+            "simple": "An Impressionist painting of a cat on a bed with a herd behind it in a soft afternoon light.",
+            "complex": "A Impressionism painting depicting a bright and active afternoon scene with a gentle, cheerful atmosphere. In the foreground, a large, gently used bed with warm cream and golden amber cotton fabric sits prominently, its aged wooden frame visible. On top of this bed rests a medium-sized cat in golden amber and burnt sienna fur, appearing alert yet relaxed as it lounges. Behind the bed, in the midground, a marginal herd in warm ochre and soft green tones moves distantly, rendered in loose, impressionistic brushstrokes that suggest gentle motion. Natural soft afternoon light filters through the scene, casting dappled shadows and creating a luminous, vibrant environment where colors blend and textures of fur, fabric, and landscape merge harmoniously.",
+            "comma_separated": "Impressionism painting, large bed, warm cream and golden amber, gently used, medium cat, golden amber and burnt sienna, alert yet relaxed, marginal herd, warm ochre and soft green, distant, cat on bed, herd behind bed, afternoon, natural soft lighting, bright, active, cheerful, gentle atmosphere, cotton fabric, aged wood, fur, dappled light, vibrant colors",
+            "tags": "art, painting, impressionism, Claude Monet style, Pierre-Auguste Renoir style, bed, cat, herd, afternoon light, domestic scene, pastoral, animal painting, interior with view, soft focus, brushstroke texture, color harmony, 19th century art"
+        }
+    }
+}

@@ -1,0 +1,350 @@
+{
+    "artwork_id": "artwork_20260103_213729_396",
+    "generation_timestamp": "2026-01-03T21:37:57.781941",
+    "style": "Chinese Ink Painting",
+    "objects": {
+        "object_ids": [
+            57,
+            76,
+            59,
+            15
+        ],
+        "object_names": [
+            "stool",
+            "vase",
+            "rose",
+            "eagle"
+        ],
+        "enhanced_objects": [
+            {
+                "object_id": 57,
+                "name": "stool",
+                "artistic_description": "A simple wooden stool rendered in soft gray washes with subtle ink pooling at the joints. The morning fog diffuses the natural light, creating a gentle matte finish on the aged wood. Delicate brushstrokes suggest wood grain, while the damp air deepens the darker tones in the crevices.",
+                "size": "Medium",
+                "state": "well-worn but sturdy, showing signs of gentle use",
+                "primary_colors": [
+                    "soft gray",
+                    "charcoal"
+                ],
+                "material": "wood"
+            },
+            {
+                "object_id": 76,
+                "name": "vase",
+                "artistic_description": "A ceramic vase captured with elegant, flowing ink lines that vary in thickness. The foggy morning light creates subtle variations in the glaze, with soft highlights where light catches the curved surface. Moisture in the air gives the surface a delicate sheen, and the ink washes fade gently into the background.",
+                "size": "Medium",
+                "state": "smooth and intact with a refined patina",
+                "primary_colors": [
+                    "pale celadon",
+                    "misty white"
+                ],
+                "material": "ceramic"
+            },
+            {
+                "object_id": 59,
+                "name": "rose",
+                "artistic_description": "A single rose rendered with delicate, layered brushstrokes that suggest soft petals. The natural morning light filtering through fog creates a gentle luminosity, with subtle gradations from deeper ink tones at the center to lighter washes at the edges. Dew-kissed petals appear slightly translucent.",
+                "size": "Small",
+                "state": "freshly bloomed with morning dew",
+                "primary_colors": [
+                    "soft crimson",
+                    "pale pink"
+                ],
+                "material": ""
+            },
+            {
+                "object_id": 15,
+                "name": "eagle",
+                "artistic_description": "An eagle depicted with bold, expressive ink strokes that capture its powerful form. The foggy atmosphere softens the edges of its wings, creating a mystical appearance. Strong contrast between the dark, saturated feathers and the misty background, with sharp, focused eyes that pierce through the haze.",
+                "size": "Large",
+                "state": "alert and majestic, poised with quiet intensity",
+                "primary_colors": [
+                    "deep black",
+                    "rich brown"
+                ],
+                "material": ""
+            }
+        ]
+    },
+    "composition": {
+        "spatial_relations": [
+            [
+                59,
+                "on",
+                57
+            ],
+            [
+                76,
+                "next to",
+                57
+            ],
+            [
+                15,
+                "behind",
+                57
+            ],
+            [
+                15,
+                "behind",
+                76
+            ],
+            [
+                15,
+                "behind",
+                59
+            ]
+        ],
+        "semantic_relations": []
+    },
+    "environment": {
+        "environment_details": {
+            "scene_brief": "A Temple Courtyard featuring stool, with vase, rose, and eagle",
+            "place365_name": "/c/courtyard",
+            "place365_id": 109,
+            "time_of_day": "morning",
+            "weather": "foggy",
+            "period": "Contemporary",
+            "is_indoor": true,
+            "lighting": {
+                "type": "natural",
+                "quality": "soft",
+                "direction": "side-lit",
+                "mood": "cool",
+                "reasoning": "Soft, cool, natural light from a morning sun filtered through fog creates a gentle, diffused illumination. Side-lighting would subtly define the forms of the stool, vase, and rose, while the eagle could be silhouetted or caught in a shaft of light, enhancing the composition's depth and texture in an ink wash style."
+            },
+            "atmosphere": "fresh and energetic and mysterious and gentle"
+        },
+        "scene_inference": {
+            "all_candidates": [
+                {
+                    "scene_type": "Scholar's Studio",
+                    "plausibility": 0.95,
+                    "reasoning": "In a traditional Chinese scholar's studio, a wooden stool provides seating. A vase on a nearby table holds a single rose, symbolizing refinement. An eagle, depicted in ink painting style, might be a motif on a hanging scroll or screen, representing noble aspirations.",
+                    "object_interpretations": {
+                        "stool": {
+                            "form": "real wooden stool",
+                            "scale": "normal",
+                            "role": "functional seating"
+                        },
+                        "vase": {
+                            "form": "real ceramic vase",
+                            "scale": "normal",
+                            "role": "decorative container"
+                        },
+                        "rose": {
+                            "form": "real flower",
+                            "scale": "normal",
+                            "role": "floral arrangement"
+                        },
+                        "eagle": {
+                            "form": "painted image on scroll",
+                            "scale": "variable (artistic)",
+                            "role": "symbolic artwork"
+                        }
+                    }
+                },
+                {
+                    "scene_type": "Mountain Landscape",
+                    "plausibility": 0.9,
+                    "reasoning": "A vast ink wash landscape featuring a jagged mountain peak (stylized as a stool shape). A tiny figure holds a vase with a rose. An eagle soars high in the sky, a common subject in Chinese landscape painting.",
+                    "object_interpretations": {
+                        "stool": {
+                            "form": "stylized rock formation",
+                            "scale": "large (geological)",
+                            "role": "landscape feature"
+                        },
+                        "vase": {
+                            "form": "small portable vase",
+                            "scale": "small",
+                            "role": "travel accessory"
+                        },
+                        "rose": {
+                            "form": "wild flower",
+                            "scale": "small",
+                            "role": "natural element"
+                        },
+                        "eagle": {
+                            "form": "real bird",
+                            "scale": "large (in distance)",
+                            "role": "wildlife subject"
+                        }
+                    }
+                },
+                {
+                    "scene_type": "Garden Pavilion",
+                    "plausibility": 0.92,
+                    "reasoning": "An open-air pavilion in a garden. A stone stool sits on the veranda. A vase on the railing holds a blooming rose. An eagle is carved into the wooden beam of the pavilion as a decorative guardian.",
+                    "object_interpretations": {
+                        "stool": {
+                            "form": "stone bench/stool",
+                            "scale": "normal",
+                            "role": "garden furniture"
+                        },
+                        "vase": {
+                            "form": "porcelain vase",
+                            "scale": "normal",
+                            "role": "garden ornament"
+                        },
+                        "rose": {
+                            "form": "fresh cut flower",
+                            "scale": "normal",
+                            "role": "decoration"
+                        },
+                        "eagle": {
+                            "form": "wood carving",
+                            "scale": "small to medium",
+                            "role": "architectural detail"
+                        }
+                    }
+                },
+                {
+                    "scene_type": "Temple Courtyard",
+                    "plausibility": 0.88,
+                    "reasoning": "A serene temple courtyard. A simple wooden stool awaits a visitor. An altar vase holds a rose as an offering. An eagle statue watches over the courtyard, symbolizing protection.",
+                    "object_interpretations": {
+                        "stool": {
+                            "form": "simple wooden stool",
+                            "scale": "normal",
+                            "role": "seating for meditation"
+                        },
+                        "vase": {
+                            "form": "bronze ritual vase",
+                            "scale": "normal",
+                            "role": "offering vessel"
+                        },
+                        "rose": {
+                            "form": "offering flower",
+                            "scale": "normal",
+                            "role": "religious offering"
+                        },
+                        "eagle": {
+                            "form": "stone statue",
+                            "scale": "normal",
+                            "role": "guardian figure"
+                        }
+                    },
+                    "scene_brief": "A Temple Courtyard featuring stool, with vase, rose, and eagle"
+                },
+                {
+                    "scene_type": "Bird and Flower Painting",
+                    "plausibility": 0.95,
+                    "reasoning": "A classic 'Bird and Flower' composition. A rose bush grows near a low stool. An eagle perches on a branch above, contrasting with the delicate rose.",
+                    "object_interpretations": {
+                        "stool": {
+                            "form": "rustic stool",
+                            "scale": "normal",
+                            "role": "compositional anchor"
+                        },
+                        "vase": {
+                            "form": "vase (optional or integrated)",
+                            "scale": "variable",
+                            "role": "contextual element"
+                        },
+                        "rose": {
+                            "form": "blooming rose bush",
+                            "scale": "normal",
+                            "role": "primary floral subject"
+                        },
+                        "eagle": {
+                            "form": "perched bird",
+                            "scale": "normal",
+                            "role": "primary animal subject"
+                        }
+                    }
+                },
+                {
+                    "scene_type": "Imperial Palace Interior",
+                    "plausibility": 0.85,
+                    "reasoning": "An opulent room with red lacquered furniture. A stool sits beside a table. A fine vase displays a perfect rose. An eagle is embroidered on a silk screen behind them.",
+                    "object_interpretations": {
+                        "stool": {
+                            "form": "lacquered stool",
+                            "scale": "normal",
+                            "role": "royal furniture"
+                        },
+                        "vase": {
+                            "form": "imperial porcelain",
+                            "scale": "normal",
+                            "role": "luxury item"
+                        },
+                        "rose": {
+                            "form": "perfect garden rose",
+                            "scale": "normal",
+                            "role": "beauty object"
+                        },
+                        "eagle": {
+                            "form": "embroidered pattern",
+                            "scale": "large",
+                            "role": "textile art"
+                        }
+                    }
+                },
+                {
+                    "scene_type": "Calligraphy Study",
+                    "plausibility": 0.9,
+                    "reasoning": "A quiet study room. A stool is pushed back from the desk. A vase holds a rose to inspire the poet. An eagle is the subject of a hanging scroll, representing the power of the written word.",
+                    "object_interpretations": {
+                        "stool": {
+                            "form": "wooden stool",
+                            "scale": "normal",
+                            "role": "study furniture"
+                        },
+                        "vase": {
+                            "form": "inkstone/vase hybrid",
+                            "scale": "normal",
+                            "role": "desk ornament"
+                        },
+                        "rose": {
+                            "form": "fresh flower",
+                            "scale": "normal",
+                            "role": "muse object"
+                        },
+                        "eagle": {
+                            "form": "ink wash painting",
+                            "scale": "medium",
+                            "role": "inspirational art"
+                        }
+                    }
+                }
+            ],
+            "selected_scene": {
+                "scene_type": "Temple Courtyard",
+                "plausibility": 0.88,
+                "reasoning": "A serene temple courtyard. A simple wooden stool awaits a visitor. An altar vase holds a rose as an offering. An eagle statue watches over the courtyard, symbolizing protection.",
+                "object_interpretations": {
+                    "stool": {
+                        "form": "simple wooden stool",
+                        "scale": "normal",
+                        "role": "seating for meditation"
+                    },
+                    "vase": {
+                        "form": "bronze ritual vase",
+                        "scale": "normal",
+                        "role": "offering vessel"
+                    },
+                    "rose": {
+                        "form": "offering flower",
+                        "scale": "normal",
+                        "role": "religious offering"
+                    },
+                    "eagle": {
+                        "form": "stone statue",
+                        "scale": "normal",
+                        "role": "guardian figure"
+                    }
+                },
+                "scene_brief": "A Temple Courtyard featuring stool, with vase, rose, and eagle"
+            }
+        }
+    },
+    "final_prompts": {
+        "main_prompt": "A Chinese Ink Painting painting depicting a serene morning scene where a freshly bloomed rose in soft crimson and pale pink rests upon a well-worn but sturdy stool of soft gray and charcoal. Beside the stool stands a medium-sized vase in pale celadon and misty white, its smooth ceramic surface showing a refined patina. Behind this arrangement, a large and majestic eagle in deep black and rich brown perches alertly, its form partially obscured by the misty atmosphere as it watches over the scene from behind both the stool and vase. The composition flows from foreground to background with natural soft morning light filtering through, creating a fresh and energetic yet mysterious and gentle atmosphere where ink washes blend seamlessly, capturing the delicate dew on the rose petals and the textured wood of the stool against the ethereal backdrop.",
+        "negative_prompt": "photorealistic, 3d render, modern, digital art, photograph, low quality, blurry, distorted, cartoon, anime, western painting, oil painting, watercolor, bright colors, saturated colors, detailed background, intricate details, text, signature, frame, border",
+        "prompt_formats": {
+            "simple": "A Chinese ink painting of a rose on a stool with a vase beside it and an eagle behind them in a soft morning light.",
+            "complex": "A Chinese Ink Painting painting depicting a serene morning scene where a freshly bloomed rose in soft crimson and pale pink rests upon a well-worn but sturdy stool of soft gray and charcoal. Beside the stool stands a medium-sized vase in pale celadon and misty white, its smooth ceramic surface showing a refined patina. Behind this arrangement, a large and majestic eagle in deep black and rich brown perches alertly, its form partially obscured by the misty atmosphere as it watches over the scene from behind both the stool and vase. The composition flows from foreground to background with natural soft morning light filtering through, creating a fresh and energetic yet mysterious and gentle atmosphere where ink washes blend seamlessly, capturing the delicate dew on the rose petals and the textured wood of the stool against the ethereal backdrop.",
+            "comma_separated": "Chinese Ink Painting, stool, vase, rose, eagle, morning light, soft atmosphere, fresh, energetic, mysterious, gentle, ink wash, traditional art, monochrome with subtle color accents",
+            "tags": "art, painting, chinese ink painting, traditional chinese art, ink wash, sumi-e, stool, vase, rose, eagle, morning scene, soft lighting, atmospheric, serene composition, natural elements"
+        }
+    }
+}

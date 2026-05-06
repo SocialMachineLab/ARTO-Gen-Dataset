@@ -1,0 +1,286 @@
+{
+    "artwork_id": "artwork_20260103_181444_483",
+    "generation_timestamp": "2026-01-03T18:15:12.976090",
+    "style": "Neoclassicism",
+    "objects": {
+        "object_ids": [
+            77,
+            9,
+            49
+        ],
+        "object_names": [
+            "scissors",
+            "schooner",
+            "bread"
+        ],
+        "enhanced_objects": [
+            {
+                "object_id": 77,
+                "name": "scissors",
+                "artistic_description": "Polished steel blades catch the cool, diffused afternoon light with subtle highlights along their curved edges, while the wooden handles display a warm, muted amber tone with visible grain texture. The metal shows slight wear marks at the pivot point, and the entire piece rests with a dignified weightiness that speaks to classical craftsmanship.",
+                "size": "Medium",
+                "state": "well-preserved with gentle patina and slight wear at functional points",
+                "primary_colors": [
+                    "cool steel gray",
+                    "warm amber brown"
+                ],
+                "material": "steel and wood"
+            },
+            {
+                "object_id": 9,
+                "name": "schooner",
+                "artistic_description": "Delicate miniature vessel rendered in carved wood with fine rigging details that soften in the cloudy light. The hull's dark varnish absorbs the ambient brightness while maintaining deep mahogany tones, and the miniature sails appear as crisp white planes against the subdued atmosphere, their edges catching gentle highlights from the diffused natural light.",
+                "size": "Small",
+                "state": "meticulously crafted with precise details, showing the refined artistry of classical model-making",
+                "primary_colors": [
+                    "deep mahogany",
+                    "soft ivory"
+                ],
+                "material": "wood and natural fiber"
+            },
+            {
+                "object_id": 49,
+                "name": "bread",
+                "artistic_description": "Golden-brown crust with a matte, flour-dusted surface that diffuses the cloudy daylight into a soft, velvety texture. The loaf's interior crumb shows warm, creamy tones where exposed, while the scored top creates gentle shadows that emphasize the rustic form. The surface appears dry and porous, absorbing rather than reflecting the ambient light.",
+                "size": "Medium",
+                "state": "freshly baked with a firm crust and soft interior, typical of classical household preparation",
+                "primary_colors": [
+                    "warm golden brown",
+                    "creamy off-white"
+                ],
+                "material": "bread"
+            }
+        ]
+    },
+    "composition": {
+        "spatial_relations": [
+            [
+                77,
+                "next to",
+                9
+            ],
+            [
+                49,
+                "next to",
+                77
+            ],
+            [
+                9,
+                "on",
+                49
+            ]
+        ],
+        "semantic_relations": []
+    },
+    "environment": {
+        "environment_details": {
+            "scene_brief": "A Classical Still Life Arrangement featuring scissors, with schooner model, and bread",
+            "place365_name": "/a/art_studio",
+            "place365_id": 21,
+            "time_of_day": "afternoon",
+            "weather": "cloudy",
+            "period": "Classical",
+            "is_indoor": true,
+            "lighting": {
+                "type": "natural",
+                "quality": "soft",
+                "direction": "side-lit",
+                "mood": "neutral",
+                "reasoning": "Soft, side-lit natural light from cloudy afternoon conditions provides gentle, even illumination that reveals subtle textures and forms without harsh shadows. This lighting approach supports Neoclassical ideals of clarity, precision, and balanced composition while highlighting the material qualities of each object in the arrangement."
+            },
+            "atmosphere": "bright and active and subdued and gentle"
+        },
+        "scene_inference": {
+            "all_candidates": [
+                {
+                    "scene_type": "Neoclassical Artist's Studio",
+                    "plausibility": 0.95,
+                    "reasoning": "The studio is the natural habitat for artistic tools. Scissors are used for cutting paper or canvas. The schooner appears as a detailed clay or plaster model on the workbench, serving as a subject for a maritime painting. The bread is a still life prop, placed nearby for a study of textures or as a simple meal for the artist.",
+                    "object_interpretations": {
+                        "scissors": {
+                            "form": "real tool",
+                            "scale": "normal",
+                            "role": "primary functional object"
+                        },
+                        "schooner": {
+                            "form": "model",
+                            "scale": "miniature",
+                            "role": "artistic subject"
+                        },
+                        "bread": {
+                            "form": "real food",
+                            "scale": "normal",
+                            "role": "still life prop"
+                        }
+                    }
+                },
+                {
+                    "scene_type": "Neoclassical Dining Room",
+                    "plausibility": 0.9,
+                    "reasoning": "Bread is a staple on the dining table. Scissors, in a Neoclassical setting, could be ornate and used for opening letters or cutting twine on a parcel. The schooner could be a decorative centerpiece or a detailed model displayed in a glass case within the room, reflecting the owner's interest in naval history.",
+                    "object_interpretations": {
+                        "scissors": {
+                            "form": "real tool",
+                            "scale": "normal",
+                            "role": "decorative/functional table item"
+                        },
+                        "schooner": {
+                            "form": "model",
+                            "scale": "small",
+                            "role": "decorative centerpiece"
+                        },
+                        "bread": {
+                            "form": "real food",
+                            "scale": "normal",
+                            "role": "food on table"
+                        }
+                    }
+                },
+                {
+                    "scene_type": "Historical Map Room",
+                    "plausibility": 0.85,
+                    "reasoning": "A room dedicated to exploration and cartography. The schooner is the primary subject of a large, framed naval chart or painting. Scissors are used for trimming paper or cutting ribbons on official documents. A loaf of bread sits on a side table, representing the sustenance of the cartographer or explorer.",
+                    "object_interpretations": {
+                        "scissors": {
+                            "form": "real tool",
+                            "scale": "normal",
+                            "role": "instrument of precision"
+                        },
+                        "schooner": {
+                            "form": "image/model",
+                            "scale": "large (in painting) or small (on table)",
+                            "role": "subject of study"
+                        },
+                        "bread": {
+                            "form": "real food",
+                            "scale": "normal",
+                            "role": "still life element"
+                        }
+                    }
+                },
+                {
+                    "scene_type": "Classical Still Life Arrangement",
+                    "plausibility": 0.9,
+                    "reasoning": "A direct interpretation of the objects as subjects of art. The composition is arranged on a stone plinth. The bread provides organic texture, the schooner (as a model or detailed drawing) provides a geometric and thematic element, and the scissors add a metallic, sharp contrast, perhaps resting on a folded map.",
+                    "object_interpretations": {
+                        "scissors": {
+                            "form": "real tool",
+                            "scale": "normal",
+                            "role": "compositional element"
+                        },
+                        "schooner": {
+                            "form": "model",
+                            "scale": "small",
+                            "role": "compositional element"
+                        },
+                        "bread": {
+                            "form": "real food",
+                            "scale": "normal",
+                            "role": "compositional element"
+                        }
+                    },
+                    "scene_brief": "A Classical Still Life Arrangement featuring scissors, with schooner model, and bread"
+                },
+                {
+                    "scene_type": "Sculptor's Workshop",
+                    "plausibility": 0.8,
+                    "reasoning": "Scissors are used for cutting string, wire, or preparatory materials. The schooner is the masterwork sculpture being carved from marble or modeled in clay. The bread is a simple meal left for the sculptor, perhaps placed on a crate to be consumed during a break.",
+                    "object_interpretations": {
+                        "scissors": {
+                            "form": "real tool",
+                            "scale": "normal",
+                            "role": "utility tool"
+                        },
+                        "schooner": {
+                            "form": "sculpture",
+                            "scale": "medium",
+                            "role": "artistic creation"
+                        },
+                        "bread": {
+                            "form": "real food",
+                            "scale": "normal",
+                            "role": "personal item"
+                        }
+                    }
+                },
+                {
+                    "scene_type": "Neoclassical Library",
+                    "plausibility": 0.75,
+                    "reasoning": "A quiet, studious environment. Scissors are used for archival purposes or cutting articles. The schooner is a subject in a book about naval history, open on a lectern. The bread is a simple snack accompanying the scholar, perhaps on a small plate.",
+                    "object_interpretations": {
+                        "scissors": {
+                            "form": "real tool",
+                            "scale": "normal",
+                            "role": "archival tool"
+                        },
+                        "schooner": {
+                            "form": "illustration",
+                            "scale": "small",
+                            "role": "informational subject"
+                        },
+                        "bread": {
+                            "form": "real food",
+                            "scale": "normal",
+                            "role": "refreshment"
+                        }
+                    }
+                },
+                {
+                    "scene_type": "Formal Garden",
+                    "plausibility": 0.7,
+                    "reasoning": "A scene of order and nature. Scissors are pruning shears, used for topiary. The schooner is a fountain sculpture in the center of a reflecting pool. The bread is crumbs on a stone bench, left by a visitor or for birds.",
+                    "object_interpretations": {
+                        "scissors": {
+                            "form": "real tool",
+                            "scale": "normal",
+                            "role": "gardening instrument"
+                        },
+                        "schooner": {
+                            "form": "sculpture",
+                            "scale": "medium",
+                            "role": "garden ornament"
+                        },
+                        "bread": {
+                            "form": "real food",
+                            "scale": "normal",
+                            "role": "natural element"
+                        }
+                    }
+                }
+            ],
+            "selected_scene": {
+                "scene_type": "Classical Still Life Arrangement",
+                "plausibility": 0.9,
+                "reasoning": "A direct interpretation of the objects as subjects of art. The composition is arranged on a stone plinth. The bread provides organic texture, the schooner (as a model or detailed drawing) provides a geometric and thematic element, and the scissors add a metallic, sharp contrast, perhaps resting on a folded map.",
+                "object_interpretations": {
+                    "scissors": {
+                        "form": "real tool",
+                        "scale": "normal",
+                        "role": "compositional element"
+                    },
+                    "schooner": {
+                        "form": "model",
+                        "scale": "small",
+                        "role": "compositional element"
+                    },
+                    "bread": {
+                        "form": "real food",
+                        "scale": "normal",
+                        "role": "compositional element"
+                    }
+                },
+                "scene_brief": "A Classical Still Life Arrangement featuring scissors, with schooner model, and bread"
+            }
+        }
+    },
+    "final_prompts": {
+        "main_prompt": "A Neoclassicism painting depicting a carefully arranged still life composition in the soft afternoon light. In the foreground, a meticulously crafted small schooner of deep mahogany with soft ivory sails rests upon a medium-sized loaf of warm golden brown bread with a creamy off-white interior, its firm crust supporting the vessel. Beside this arrangement, a pair of medium-sized scissors in cool steel gray with warm amber brown handles lies with a gentle patina, positioned next to the schooner. The natural soft lighting creates a bright yet subdued atmosphere, casting gentle shadows that highlight the precise details of the wooden schooner, the textured surface of the freshly baked bread, and the well-preserved steel of the scissors. The overall scene feels both active in its careful arrangement and gentle in its quiet, classical dignity, with materials of steel, wood, and bread harmonizing under the afternoon glow.",
+        "negative_prompt": "photorealistic, 3d render, modern, digital art, photograph, low quality, blurry, distorted, surreal, abstract, cartoon, anime, watermark, signature, text, frame, border, ugly, deformed, mutated",
+        "prompt_formats": {
+            "simple": "A Neoclassical still life with scissors beside a schooner resting on bread in soft afternoon light.",
+            "complex": "A Neoclassicism painting depicting a carefully arranged still life composition in the soft afternoon light. In the foreground, a meticulously crafted small schooner of deep mahogany with soft ivory sails rests upon a medium-sized loaf of warm golden brown bread with a creamy off-white interior, its firm crust supporting the vessel. Beside this arrangement, a pair of medium-sized scissors in cool steel gray with warm amber brown handles lies with a gentle patina, positioned next to the schooner. The natural soft lighting creates a bright yet subdued atmosphere, casting gentle shadows that highlight the precise details of the wooden schooner, the textured surface of the freshly baked bread, and the well-preserved steel of the scissors. The overall scene feels both active in its careful arrangement and gentle in its quiet, classical dignity, with materials of steel, wood, and bread harmonizing under the afternoon glow.",
+            "comma_separated": "Neoclassicism painting, still life composition, scissors next to schooner, schooner on bread, cool steel gray scissors with amber brown handles, small mahogany schooner with ivory sails, warm golden brown bread with firm crust, soft afternoon lighting, bright active subdued gentle atmosphere, classical arrangement, natural shadows, detailed craftsmanship",
+            "tags": "art, painting, neoclassicism, still life, scissors, schooner, bread, afternoon light, classical composition, detailed, serene, arranged objects, steel and wood, natural materials"
+        }
+    }
+}

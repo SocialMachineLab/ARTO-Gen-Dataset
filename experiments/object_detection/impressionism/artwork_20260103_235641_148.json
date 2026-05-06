@@ -1,0 +1,281 @@
+{
+    "artwork_id": "artwork_20260103_235641_148",
+    "generation_timestamp": "2026-01-03T23:57:13.522276",
+    "style": "Impressionism",
+    "objects": {
+        "object_ids": [
+            18,
+            79,
+            70
+        ],
+        "object_names": [
+            "mule",
+            "comb",
+            "cooker"
+        ],
+        "enhanced_objects": [
+            {
+                "object_id": 18,
+                "name": "mule",
+                "artistic_description": "A sturdy mule stands with sun-dappled coat, morning light creating soft golden highlights on its brown hide while casting gentle shadows beneath its form. The short summer coat appears warm and luminous, with subtle variations of ochre and amber where sunlight catches the hair. Its dark eyes reflect the bright sky with a spark of ambient blue, and a faint dusting of garden soil clings to its legs, matte and dry in the warm air.",
+                "size": "Large",
+                "state": "alert and calm, standing patiently in morning sun",
+                "primary_colors": [
+                    "warm brown",
+                    "golden ochre"
+                ],
+                "material": "living animal - hide and hair"
+            },
+            {
+                "object_id": 79,
+                "name": "comb",
+                "artistic_description": "A wooden comb rests on a weathered surface, its teeth catching sharp morning light that creates small, bright highlights along the edges. The natural wood grain appears in warm honey tones with subtle amber undertones from the direct sunlight. A gentle patina of age shows in the smoother, slightly darker areas where hands have held it, while the toothed edge casts delicate parallel shadows on the surface below.",
+                "size": "Small",
+                "state": "well-used, smooth from handling",
+                "primary_colors": [
+                    "honey brown",
+                    "warm amber"
+                ],
+                "material": "wood"
+            },
+            {
+                "object_id": 70,
+                "name": "cooker",
+                "artistic_description": "A modern cooker gleams under bright morning sun, its stainless steel surface reflecting the garden with scattered, impressionistic points of light. The metal shows cool blue-gray tones in shadowed areas while sunlit patches flare with brilliant white-gold intensity. A few water spots from recent cleaning create subtle, softer reflections, and the chrome edges catch and scatter light with sharp, dancing highlights.",
+                "size": "Medium",
+                "state": "clean and functional, showing contemporary design",
+                "primary_colors": [
+                    "cool silver",
+                    "bright white"
+                ],
+                "material": "stainless steel and chrome"
+            }
+        ]
+    },
+    "composition": {
+        "spatial_relations": [
+            [
+                79,
+                "on",
+                70
+            ],
+            [
+                18,
+                "next to",
+                70
+            ]
+        ],
+        "semantic_relations": []
+    },
+    "environment": {
+        "environment_details": {
+            "scene_brief": "A kitchen garden featuring mule, with comb, and cooker",
+            "place365_name": "/v/vegetable_garden",
+            "place365_id": 345,
+            "time_of_day": "morning",
+            "weather": "sunny",
+            "period": "Contemporary",
+            "is_indoor": false,
+            "lighting": {
+                "type": "natural",
+                "quality": "soft",
+                "direction": "side-lit",
+                "mood": "warm",
+                "reasoning": "Morning sun typically provides soft, directional side-lighting that creates gentle shadows and highlights texture, perfect for Impressionist brushwork. The 'warm' mood captures the golden hour feel, while 'soft' quality avoids harsh contrasts, allowing colors to blend optically."
+            },
+            "atmosphere": "fresh and energetic and cheerful and gentle"
+        },
+        "scene_inference": {
+            "all_candidates": [
+                {
+                    "scene_type": "rural stable",
+                    "plausibility": 0.95,
+                    "reasoning": "The mule is the primary object in a stable setting. A comb is a standard grooming tool for livestock. A cooker could be a small camping stove or oil burner used by a stable hand for warmth or cooking, fitting the rustic, functional atmosphere of Impressionist rural scenes.",
+                    "object_interpretations": {
+                        "mule": {
+                            "form": "real animal",
+                            "scale": "normal",
+                            "role": "primary subject"
+                        },
+                        "comb": {
+                            "form": "real tool",
+                            "scale": "normal",
+                            "role": "grooming implement"
+                        },
+                        "cooker": {
+                            "form": "real appliance",
+                            "scale": "small/portable",
+                            "role": "functional background object"
+                        }
+                    }
+                },
+                {
+                    "scene_type": "kitchen garden",
+                    "plausibility": 0.9,
+                    "reasoning": "A mule might be used for farm labor or grazing near a farmhouse. A cooker represents the kitchen nearby. A comb could be a personal item dropped by a worker or used to groom the mule, blending domestic and agricultural life.",
+                    "object_interpretations": {
+                        "mule": {
+                            "form": "real animal",
+                            "scale": "normal",
+                            "role": "working animal"
+                        },
+                        "comb": {
+                            "form": "real object",
+                            "scale": "normal",
+                            "role": "personal accessory/tool"
+                        },
+                        "cooker": {
+                            "form": "real appliance",
+                            "scale": "normal",
+                            "role": "domestic utility"
+                        }
+                    },
+                    "scene_brief": "A kitchen garden featuring mule, with comb, and cooker"
+                },
+                {
+                    "scene_type": "vintage farmhouse interior",
+                    "plausibility": 0.85,
+                    "reasoning": "In a rustic interior, a mule might be visible through a window or represented as a taxidermy mount or painting (common in country decor). A cooker is the hearth. A comb sits on a vanity table.",
+                    "object_interpretations": {
+                        "mule": {
+                            "form": "artwork/taxidermy",
+                            "scale": "normal/miniature",
+                            "role": "decorative element"
+                        },
+                        "comb": {
+                            "form": "real object",
+                            "scale": "normal",
+                            "role": "personal grooming item"
+                        },
+                        "cooker": {
+                            "form": "real appliance",
+                            "scale": "normal",
+                            "role": "central heating/cooking source"
+                        }
+                    }
+                },
+                {
+                    "scene_type": "circus backstage",
+                    "plausibility": 0.8,
+                    "reasoning": "A mule could be a circus performer. A comb is used for grooming the animal's coat. A cooker might be a portable stove used by the crew or performers for meals.",
+                    "object_interpretations": {
+                        "mule": {
+                            "form": "real animal",
+                            "scale": "normal",
+                            "role": "performer"
+                        },
+                        "comb": {
+                            "form": "real tool",
+                            "scale": "normal",
+                            "role": "grooming accessory"
+                        },
+                        "cooker": {
+                            "form": "real appliance",
+                            "scale": "portable",
+                            "role": "crew utility"
+                        }
+                    }
+                },
+                {
+                    "scene_type": "art studio",
+                    "plausibility": 0.75,
+                    "reasoning": "The mule could be a live model standing in a studio or a reference statue. The cooker could be a pot for melting wax or paints. The comb could be a textural tool for creating Impressionist strokes or a prop.",
+                    "object_interpretations": {
+                        "mule": {
+                            "form": "model/statue",
+                            "scale": "normal",
+                            "role": "artistic subject"
+                        },
+                        "comb": {
+                            "form": "tool/prop",
+                            "scale": "normal",
+                            "role": "artistic instrument"
+                        },
+                        "cooker": {
+                            "form": "studio equipment",
+                            "scale": "small",
+                            "role": "material preparation"
+                        }
+                    }
+                },
+                {
+                    "scene_type": "country market",
+                    "plausibility": 0.85,
+                    "reasoning": "A mule is a beast of burden at a market. A comb is a commodity for sale (for hair or livestock). A cooker is a food stall vendor's appliance.",
+                    "object_interpretations": {
+                        "mule": {
+                            "form": "real animal",
+                            "scale": "normal",
+                            "role": "transport/attraction"
+                        },
+                        "comb": {
+                            "form": "merchandise",
+                            "scale": "normal",
+                            "role": "consumer good"
+                        },
+                        "cooker": {
+                            "form": "stall appliance",
+                            "scale": "normal",
+                            "role": "cooking vendor equipment"
+                        }
+                    }
+                },
+                {
+                    "scene_type": "pastoral landscape",
+                    "plausibility": 0.9,
+                    "reasoning": "A classic Impressionist setting. The mule grazes. A comb might be left on a fence post by a grooming farmer. A cooker could be a distant farmhouse chimney or a portable stove on a picnic blanket.",
+                    "object_interpretations": {
+                        "mule": {
+                            "form": "real animal",
+                            "scale": "normal",
+                            "role": "landscape feature"
+                        },
+                        "comb": {
+                            "form": "lost object",
+                            "scale": "normal",
+                            "role": "foreground detail"
+                        },
+                        "cooker": {
+                            "form": "distant object/prop",
+                            "scale": "varies",
+                            "role": "contextual element"
+                        }
+                    }
+                }
+            ],
+            "selected_scene": {
+                "scene_type": "kitchen garden",
+                "plausibility": 0.9,
+                "reasoning": "A mule might be used for farm labor or grazing near a farmhouse. A cooker represents the kitchen nearby. A comb could be a personal item dropped by a worker or used to groom the mule, blending domestic and agricultural life.",
+                "object_interpretations": {
+                    "mule": {
+                        "form": "real animal",
+                        "scale": "normal",
+                        "role": "working animal"
+                    },
+                    "comb": {
+                        "form": "real object",
+                        "scale": "normal",
+                        "role": "personal accessory/tool"
+                    },
+                    "cooker": {
+                        "form": "real appliance",
+                        "scale": "normal",
+                        "role": "domestic utility"
+                    }
+                },
+                "scene_brief": "A kitchen garden featuring mule, with comb, and cooker"
+            }
+        }
+    },
+    "final_prompts": {
+        "main_prompt": "A Impressionism painting depicting a fresh and energetic morning scene with gentle, soft natural lighting. In the foreground, a large, warm brown and golden ochre mule stands alert and calm beside a medium-sized cooker. The cooker, rendered in cool silver and bright white tones, appears clean and functional. Resting atop the cooker's surface is a small, well-used comb in honey brown and warm amber hues. The composition captures the cheerful atmosphere through loose, visible brushstrokes that suggest the textures of the mule's hide and hair, the wooden comb, and the stainless steel and chrome of the cooker, all bathed in the soft morning light that creates dappled shadows and vibrant color interactions.",
+        "negative_prompt": "photorealistic, 3d render, modern, digital art, photograph, low quality, blurry, distorted, surreal, cartoon, anime, hyperrealistic, ugly, deformed, noisy",
+        "prompt_formats": {
+            "simple": "An Impressionist painting of a mule standing beside a cooker with a comb on top, set in a soft morning light.",
+            "complex": "A Impressionism painting depicting a fresh and energetic morning scene with gentle, soft natural lighting. In the foreground, a large, warm brown and golden ochre mule stands alert and calm beside a medium-sized cooker. The cooker, rendered in cool silver and bright white tones, appears clean and functional. Resting atop the cooker's surface is a small, well-used comb in honey brown and warm amber hues. The composition captures the cheerful atmosphere through loose, visible brushstrokes that suggest the textures of the mule's hide and hair, the wooden comb, and the stainless steel and chrome of the cooker, all bathed in the soft morning light that creates dappled shadows and vibrant color interactions.",
+            "comma_separated": "Impressionism painting, large warm brown mule, medium silver cooker, small honey brown comb, comb on cooker, mule beside cooker, morning light, soft natural lighting, fresh energetic cheerful gentle atmosphere, loose brushstrokes, vibrant colors, dappled shadows",
+            "tags": "art, painting, impressionism, animal, mule, comb, cooker, morning, soft lighting, cheerful, energetic, brushstrokes, texture, color harmony"
+        }
+    }
+}

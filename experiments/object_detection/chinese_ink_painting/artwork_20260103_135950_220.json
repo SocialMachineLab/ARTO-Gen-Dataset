@@ -1,0 +1,350 @@
+{
+    "artwork_id": "artwork_20260103_135950_220",
+    "generation_timestamp": "2026-01-03T14:00:29.140441",
+    "style": "Chinese Ink Painting",
+    "objects": {
+        "object_ids": [
+            78,
+            58,
+            46,
+            16
+        ],
+        "object_names": [
+            "toy",
+            "blanket",
+            "plate",
+            "cat"
+        ],
+        "enhanced_objects": [
+            {
+                "object_id": 78,
+                "name": "toy",
+                "artistic_description": "A small wooden toy horse rendered in soft charcoal strokes with gentle gray washes, its painted red accents muted to dusty rose under the cloudy afternoon light, showing subtle wear on edges where wood grain peeks through, matte surface absorbing the soft natural illumination",
+                "size": "Small",
+                "state": "gently worn from play, contemporary craftsmanship",
+                "primary_colors": [
+                    "soft gray",
+                    "dusty rose"
+                ],
+                "material": "wood"
+            },
+            {
+                "object_id": 58,
+                "name": "blanket",
+                "artistic_description": "A plush wool blanket depicted with layered ink washes in warm cream and muted beige tones, its textured surface catching the subdued afternoon light with subtle variations in tone, edges softened by gentle shadows, folds rendered with delicate gradations of gray suggesting soft drape",
+                "size": "Large",
+                "state": "softly rumpled, well-loved contemporary textile",
+                "primary_colors": [
+                    "warm cream",
+                    "muted beige"
+                ],
+                "material": "wool"
+            },
+            {
+                "object_id": 46,
+                "name": "plate",
+                "artistic_description": "A ceramic plate rendered with precise ink outlines and subtle gray washes, its glossy surface reflecting the cloudy sky with cool blue-gray highlights, rim catching soft light with delicate white accents, center showing gentle shadow that emphasizes its shallow curve",
+                "size": "Medium",
+                "state": "clean and pristine, modern glazed ceramic",
+                "primary_colors": [
+                    "cool white",
+                    "soft gray"
+                ],
+                "material": "ceramic"
+            },
+            {
+                "object_id": 16,
+                "name": "cat",
+                "artistic_description": "A sleeping cat depicted with rich, varied ink strokes\u2014dense black fur along the spine softening to charcoal gray on the belly, whiskers rendered as fine white lines against the muted tones, ears tipped with subtle pink washes visible only in the soft natural light, body curled with fluid brushwork suggesting gentle breathing",
+                "size": "Medium",
+                "state": "resting peacefully, contemporary domestic cat",
+                "primary_colors": [
+                    "charcoal",
+                    "soft gray"
+                ],
+                "material": ""
+            }
+        ]
+    },
+    "composition": {
+        "spatial_relations": [
+            [
+                78,
+                "on",
+                58
+            ],
+            [
+                46,
+                "on",
+                58
+            ],
+            [
+                16,
+                "on",
+                58
+            ],
+            [
+                78,
+                "next to",
+                46
+            ],
+            [
+                46,
+                "next to",
+                16
+            ]
+        ],
+        "semantic_relations": []
+    },
+    "environment": {
+        "environment_details": {
+            "scene_brief": "A Cozy Living Room featuring toy toy, with blanket, plate, and cat",
+            "place365_name": "/l/living_room",
+            "place365_id": 215,
+            "time_of_day": "afternoon",
+            "weather": "cloudy",
+            "period": "Contemporary",
+            "is_indoor": true,
+            "lighting": {
+                "type": "natural",
+                "quality": "soft",
+                "direction": "side-lit",
+                "mood": "warm",
+                "reasoning": "Soft natural side-lighting from cloudy afternoon creates gentle gradients and subtle shadows perfect for ink painting's tonal range. This lighting would softly illuminate the toy, blanket, plate, and cat, creating a warm, contemplative atmosphere that emphasizes texture and form without harsh contrasts, aligning perfectly with the meditative quality of Chinese ink art."
+            },
+            "atmosphere": "bright and active and subdued and gentle"
+        },
+        "scene_inference": {
+            "all_candidates": [
+                {
+                    "scene_type": "Child's Bedroom",
+                    "plausibility": 0.95,
+                    "reasoning": "A child's bedroom is a natural habitat for a toy. A blanket is used for sleeping, a plate might hold a snack, and a cat often seeks warmth on a bed.",
+                    "object_interpretations": {
+                        "toy": {
+                            "form": "real toy",
+                            "scale": "normal",
+                            "role": "primary object of play"
+                        },
+                        "blanket": {
+                            "form": "real blanket",
+                            "scale": "normal",
+                            "role": "bedding"
+                        },
+                        "plate": {
+                            "form": "real plate",
+                            "scale": "normal",
+                            "role": "holding food/snacks"
+                        },
+                        "cat": {
+                            "form": "real cat",
+                            "scale": "normal",
+                            "role": "companion/bed occupant"
+                        }
+                    }
+                },
+                {
+                    "scene_type": "Cozy Living Room",
+                    "plausibility": 0.9,
+                    "reasoning": "A living room is a shared space. A toy is left on the floor, a blanket on the sofa, a plate on a coffee table, and a cat lounging nearby.",
+                    "object_interpretations": {
+                        "toy": {
+                            "form": "real toy",
+                            "scale": "normal",
+                            "role": "abandoned plaything"
+                        },
+                        "blanket": {
+                            "form": "real blanket",
+                            "scale": "normal",
+                            "role": "comfort item on furniture"
+                        },
+                        "plate": {
+                            "form": "real plate",
+                            "scale": "normal",
+                            "role": "tableware"
+                        },
+                        "cat": {
+                            "form": "real cat",
+                            "scale": "normal",
+                            "role": "house pet"
+                        }
+                    },
+                    "scene_brief": "A Cozy Living Room featuring toy toy, with blanket, plate, and cat"
+                },
+                {
+                    "scene_type": "Artistic Still Life",
+                    "plausibility": 0.85,
+                    "reasoning": "In Chinese Ink Painting, objects are arranged for aesthetic harmony. A toy, blanket, plate, and cat can be composed together as a study of domestic textures.",
+                    "object_interpretations": {
+                        "toy": {
+                            "form": "real toy",
+                            "scale": "normal",
+                            "role": "subject of composition"
+                        },
+                        "blanket": {
+                            "form": "real blanket",
+                            "scale": "normal",
+                            "role": "textural element"
+                        },
+                        "plate": {
+                            "form": "real plate",
+                            "scale": "normal",
+                            "role": "geometric shape"
+                        },
+                        "cat": {
+                            "form": "real cat",
+                            "scale": "normal",
+                            "role": "living subject"
+                        }
+                    }
+                },
+                {
+                    "scene_type": "Sunlit Window Sill",
+                    "plausibility": 0.8,
+                    "reasoning": "Cats love sunbeams. A toy might be placed on the sill, a blanket for the cat to lie on, and a plate left from a meal.",
+                    "object_interpretations": {
+                        "toy": {
+                            "form": "real toy",
+                            "scale": "normal",
+                            "role": "decoration"
+                        },
+                        "blanket": {
+                            "form": "real blanket",
+                            "scale": "normal",
+                            "role": "pet bed"
+                        },
+                        "plate": {
+                            "form": "real plate",
+                            "scale": "normal",
+                            "role": "forgotten item"
+                        },
+                        "cat": {
+                            "form": "real cat",
+                            "scale": "normal",
+                            "role": "sunbather"
+                        }
+                    }
+                },
+                {
+                    "scene_type": "Vintage Shop Interior",
+                    "plausibility": 0.75,
+                    "reasoning": "A shop selling second-hand goods. A toy, blanket, and plate are merchandise. A shop cat wanders among the items.",
+                    "object_interpretations": {
+                        "toy": {
+                            "form": "real toy",
+                            "scale": "normal",
+                            "role": "merchandise"
+                        },
+                        "blanket": {
+                            "form": "real blanket",
+                            "scale": "normal",
+                            "role": "merchandise"
+                        },
+                        "plate": {
+                            "form": "real plate",
+                            "scale": "normal",
+                            "role": "merchandise"
+                        },
+                        "cat": {
+                            "form": "real cat",
+                            "scale": "normal",
+                            "role": "shop mascot"
+                        }
+                    }
+                },
+                {
+                    "scene_type": "Picnic Setting",
+                    "plausibility": 0.85,
+                    "reasoning": "A picnic involves a blanket (ground cover), plate (food), and toy (play). A stray cat might approach for food.",
+                    "object_interpretations": {
+                        "toy": {
+                            "form": "real toy",
+                            "scale": "normal",
+                            "role": "outdoor play"
+                        },
+                        "blanket": {
+                            "form": "real blanket",
+                            "scale": "normal",
+                            "role": "picnic mat"
+                        },
+                        "plate": {
+                            "form": "real plate",
+                            "scale": "normal",
+                            "role": "serving dish"
+                        },
+                        "cat": {
+                            "form": "real cat",
+                            "scale": "normal",
+                            "role": "curious visitor"
+                        }
+                    }
+                },
+                {
+                    "scene_type": "Surreal Dreamscape",
+                    "plausibility": 0.7,
+                    "reasoning": "Abstract/Surreal style allows for floating objects. A toy floats in the air, a blanket wraps around a cloud, a plate serves as a moon, and a cat is a shadow.",
+                    "object_interpretations": {
+                        "toy": {
+                            "form": "real toy",
+                            "scale": "variable",
+                            "role": "dream anchor"
+                        },
+                        "blanket": {
+                            "form": "real blanket",
+                            "scale": "large",
+                            "role": "sky covering"
+                        },
+                        "plate": {
+                            "form": "real plate",
+                            "scale": "large",
+                            "role": "celestial body"
+                        },
+                        "cat": {
+                            "form": "real cat",
+                            "scale": "normal",
+                            "role": "spirit guide"
+                        }
+                    }
+                }
+            ],
+            "selected_scene": {
+                "scene_type": "Cozy Living Room",
+                "plausibility": 0.9,
+                "reasoning": "A living room is a shared space. A toy is left on the floor, a blanket on the sofa, a plate on a coffee table, and a cat lounging nearby.",
+                "object_interpretations": {
+                    "toy": {
+                        "form": "real toy",
+                        "scale": "normal",
+                        "role": "abandoned plaything"
+                    },
+                    "blanket": {
+                        "form": "real blanket",
+                        "scale": "normal",
+                        "role": "comfort item on furniture"
+                    },
+                    "plate": {
+                        "form": "real plate",
+                        "scale": "normal",
+                        "role": "tableware"
+                    },
+                    "cat": {
+                        "form": "real cat",
+                        "scale": "normal",
+                        "role": "house pet"
+                    }
+                },
+                "scene_brief": "A Cozy Living Room featuring toy toy, with blanket, plate, and cat"
+            }
+        }
+    },
+    "final_prompts": {
+        "main_prompt": "A Chinese Ink Painting painting depicting a quiet afternoon scene where a softly rumpled large blanket in warm cream and muted beige tones occupies the foreground. Resting peacefully upon this blanket is a medium-sized charcoal and soft gray cat, its form relaxed. Beside the cat sits a medium-sized plate in cool white and soft gray, clean and pristine in appearance. Next to this plate lies a small toy in soft gray and dusty rose hues, gently worn from play. The spatial arrangement shows the toy positioned beside the plate, which in turn sits beside the cat, with all three objects resting atop the blanket's textured surface. Natural soft afternoon light filters into the space, creating a bright and active yet simultaneously subdued and gentle atmosphere, with subtle ink washes capturing the interplay of light and shadow on wool and ceramic surfaces.",
+        "negative_prompt": "photorealistic, 3d render, modern, digital art, photograph, low quality, blurry, distorted, cartoon, anime, western painting style, oil painting, watercolor, vibrant colors, saturated colors, detailed background, busy composition",
+        "prompt_formats": {
+            "simple": "A Chinese ink painting of a cat, toy, and plate resting on a blanket in soft afternoon light.",
+            "complex": "A Chinese Ink Painting painting depicting a quiet afternoon scene where a softly rumpled large blanket in warm cream and muted beige tones occupies the foreground. Resting peacefully upon this blanket is a medium-sized charcoal and soft gray cat, its form relaxed. Beside the cat sits a medium-sized plate in cool white and soft gray, clean and pristine in appearance. Next to this plate lies a small toy in soft gray and dusty rose hues, gently worn from play. The spatial arrangement shows the toy positioned beside the plate, which in turn sits beside the cat, with all three objects resting atop the blanket's textured surface. Natural soft afternoon light filters into the space, creating a bright and active yet simultaneously subdued and gentle atmosphere, with subtle ink washes capturing the interplay of light and shadow on wool and ceramic surfaces.",
+            "comma_separated": "Chinese Ink Painting, afternoon scene, blanket, cat, plate, toy, soft lighting, gentle atmosphere, ink wash technique, spatial arrangement, wool texture, ceramic surface, natural light",
+            "tags": "art, painting, chinese ink painting, ink wash, sumi-e, traditional art, cat, still life, domestic scene, afternoon light, gentle atmosphere, minimalist composition"
+        }
+    }
+}

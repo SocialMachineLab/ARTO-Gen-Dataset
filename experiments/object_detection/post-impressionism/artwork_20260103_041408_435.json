@@ -1,0 +1,377 @@
+{
+    "artwork_id": "artwork_20260103_041408_435",
+    "generation_timestamp": "2026-01-03T04:14:39.818867",
+    "style": "Post-Impressionism",
+    "objects": {
+        "object_ids": [
+            18,
+            48,
+            40,
+            74
+        ],
+        "object_names": [
+            "donkey",
+            "apple",
+            "bottle",
+            "book"
+        ],
+        "enhanced_objects": [
+            {
+                "object_id": 18,
+                "name": "donkey",
+                "artistic_description": "Rounded, volumetric form rendered with thick, visible brushstrokes in warm earth tones. Sunlight creates strong highlights on the muzzle and shoulders, casting deep, cool shadows beneath the body. The coat appears dry and dusty, with flecks of golden straw catching the afternoon light. Eyes shine with reflected sky, giving a lively, alert expression.",
+                "size": "Large",
+                "state": "alert and standing",
+                "primary_colors": [
+                    "ochre",
+                    "sienna"
+                ],
+                "material": "fur"
+            },
+            {
+                "object_id": 48,
+                "name": "apple",
+                "artistic_description": "A small, perfectly spherical object glowing with internal luminosity. The waxy skin reflects concentrated points of brilliant white sunlight, surrounded by areas of deep crimson and violet shadow. The stem is a dark, jagged stroke of umber. The color saturation is intense, appearing almost artificial against the rustic background.",
+                "size": "Small",
+                "state": "fresh and ripe",
+                "primary_colors": [
+                    "crimson",
+                    "white"
+                ],
+                "material": "waxy fruit skin"
+            },
+            {
+                "object_id": 40,
+                "name": "bottle",
+                "artistic_description": "Translucent green glass that acts as a prism, refracting sunlight into sharp, jewel-like shards of lime and emerald. The surface is highly reflective, capturing distorted fragments of the surrounding stable and sky. A thick, dark outline defines its cylindrical form, while the glass itself appears cool and liquid against the warm environment.",
+                "size": "Medium",
+                "state": "empty and clear",
+                "primary_colors": [
+                    "emerald",
+                    "lime"
+                ],
+                "material": "glass"
+            },
+            {
+                "object_id": 74,
+                "name": "book",
+                "artistic_description": "A rectangular block of texture with a faded, cloth-bound cover that absorbs rather than reflects the harsh sunlight. The title is rendered as illegible, thick impasto strokes of black and navy. The paper edges are slightly curled and yellowed, with soft, diffused shadows suggesting the dry, matte quality of aged paper and fabric.",
+                "size": "Medium",
+                "state": "used and weathered",
+                "primary_colors": [
+                    "navy",
+                    "cream"
+                ],
+                "material": "paper and cloth"
+            }
+        ]
+    },
+    "composition": {
+        "spatial_relations": [
+            [
+                48,
+                "on",
+                74
+            ],
+            [
+                40,
+                "next to",
+                48
+            ],
+            [
+                74,
+                "next to",
+                18
+            ],
+            [
+                18,
+                "behind",
+                74
+            ]
+        ],
+        "semantic_relations": [
+            [
+                18,
+                "holding",
+                48
+            ]
+        ]
+    },
+    "environment": {
+        "environment_details": {
+            "scene_brief": "A farm stable centered around donkey, with apple, bottle, and book",
+            "place365_name": "/f/field/wild",
+            "place365_id": 141,
+            "time_of_day": "afternoon",
+            "weather": "sunny",
+            "period": "Contemporary",
+            "is_indoor": false,
+            "lighting": {
+                "type": "natural",
+                "quality": "harsh",
+                "direction": "side-lit",
+                "reasoning": "In Post-Impressionism, strong, direct sunlight is often used to cast defined shadows and emphasize form. Side-lighting from the afternoon sun would sculpt the donkey's shape and make the objects (apple, bottle, book) pop with distinct highlights and shadows, enhancing the 'decorative' and structural intent of the style."
+            },
+            "atmosphere": "bright and active and cheerful"
+        },
+        "scene_inference": {
+            "all_candidates": [
+                {
+                    "scene_type": "farm stable",
+                    "plausibility": 0.95,
+                    "reasoning": "A donkey rests in a rustic barn. An apple is a common treat for livestock, a bottle could be old medicine or water, and a book might belong to the farmer left on a hay bale.",
+                    "object_interpretations": {
+                        "donkey": {
+                            "form": "real animal",
+                            "scale": "normal",
+                            "role": "primary subject"
+                        },
+                        "apple": {
+                            "form": "real fruit",
+                            "scale": "normal",
+                            "role": "treat/food"
+                        },
+                        "bottle": {
+                            "form": "glass bottle",
+                            "scale": "normal",
+                            "role": "utility object"
+                        },
+                        "book": {
+                            "form": "paperback book",
+                            "scale": "normal",
+                            "role": "human artifact"
+                        }
+                    },
+                    "scene_brief": "A farm stable centered around donkey, with apple, bottle, and book"
+                },
+                {
+                    "scene_type": "village market",
+                    "plausibility": 0.9,
+                    "reasoning": "A donkey stands near a market stall. Apples are for sale, a bottle contains cider or oil, and a book is on display or being read by a vendor.",
+                    "object_interpretations": {
+                        "donkey": {
+                            "form": "real animal",
+                            "scale": "normal",
+                            "role": "pack animal/attraction"
+                        },
+                        "apple": {
+                            "form": "basket of fruit",
+                            "scale": "normal",
+                            "role": "commodity"
+                        },
+                        "bottle": {
+                            "form": "merchant's bottle",
+                            "scale": "normal",
+                            "role": "goods"
+                        },
+                        "book": {
+                            "form": "ledger/book",
+                            "scale": "normal",
+                            "role": "business tool"
+                        }
+                    }
+                },
+                {
+                    "scene_type": "countryside picnic",
+                    "plausibility": 0.85,
+                    "reasoning": "A donkey wanders near a picnic blanket. The humans have brought apples to eat, a bottle of wine or water, and a book to read.",
+                    "object_interpretations": {
+                        "donkey": {
+                            "form": "curious animal",
+                            "scale": "normal",
+                            "role": "onlooker"
+                        },
+                        "apple": {
+                            "form": "whole fruit",
+                            "scale": "normal",
+                            "role": "food"
+                        },
+                        "bottle": {
+                            "form": "wine bottle",
+                            "scale": "normal",
+                            "role": "beverage"
+                        },
+                        "book": {
+                            "form": "novel",
+                            "scale": "normal",
+                            "role": "leisure item"
+                        }
+                    }
+                },
+                {
+                    "scene_type": "rural study",
+                    "plausibility": 0.8,
+                    "reasoning": "A donkey looks through an open window into a study. Inside, there is a book on the desk, a bottle of ink, and a painting of an apple on the wall.",
+                    "object_interpretations": {
+                        "donkey": {
+                            "form": "animal outside",
+                            "scale": "normal",
+                            "role": "observer"
+                        },
+                        "apple": {
+                            "form": "artwork",
+                            "scale": "normal",
+                            "role": "decoration"
+                        },
+                        "bottle": {
+                            "form": "inkwell",
+                            "scale": "small",
+                            "role": "writing tool"
+                        },
+                        "book": {
+                            "form": "open book",
+                            "scale": "normal",
+                            "role": "intellectual object"
+                        }
+                    }
+                },
+                {
+                    "scene_type": "donkey cart journey",
+                    "plausibility": 0.9,
+                    "reasoning": "A donkey pulls a cart loaded with goods. The cargo includes a crate of apples, a crate of bottles, and a book for the driver.",
+                    "object_interpretations": {
+                        "donkey": {
+                            "form": "working animal",
+                            "scale": "normal",
+                            "role": "transporter"
+                        },
+                        "apple": {
+                            "form": "harvested produce",
+                            "scale": "normal",
+                            "role": "cargo"
+                        },
+                        "bottle": {
+                            "form": "glassware",
+                            "scale": "normal",
+                            "role": "cargo"
+                        },
+                        "book": {
+                            "form": "small book",
+                            "scale": "small",
+                            "role": "personal item"
+                        }
+                    }
+                },
+                {
+                    "scene_type": "schoolyard playground",
+                    "plausibility": 0.75,
+                    "reasoning": "A donkey is a pet at a school. Children have left a toy apple, a bottle of water, and a schoolbook on the ground.",
+                    "object_interpretations": {
+                        "donkey": {
+                            "form": "pet",
+                            "scale": "normal",
+                            "role": "school mascot"
+                        },
+                        "apple": {
+                            "form": "toy/plastic apple",
+                            "scale": "small",
+                            "role": "playground item"
+                        },
+                        "bottle": {
+                            "form": "water bottle",
+                            "scale": "small",
+                            "role": "school supply"
+                        },
+                        "book": {
+                            "form": "textbook",
+                            "scale": "normal",
+                            "role": "school material"
+                        }
+                    }
+                },
+                {
+                    "scene_type": "surreal dream landscape",
+                    "plausibility": 0.7,
+                    "reasoning": "In a Post-Impressionist dream, a donkey stands in a field of floating objects. Giant apples drift by, a bottle serves as a tree trunk, and a book opens as a door.",
+                    "object_interpretations": {
+                        "donkey": {
+                            "form": "stylized animal",
+                            "scale": "variable",
+                            "role": "dreamer"
+                        },
+                        "apple": {
+                            "form": "surreal fruit",
+                            "scale": "large",
+                            "role": "atmospheric element"
+                        },
+                        "bottle": {
+                            "form": "architectural form",
+                            "scale": "huge",
+                            "role": "structure"
+                        },
+                        "book": {
+                            "form": "portal",
+                            "scale": "large",
+                            "role": "narrative device"
+                        }
+                    }
+                },
+                {
+                    "scene_type": "orchard",
+                    "plausibility": 0.95,
+                    "reasoning": "A donkey roams an apple orchard. Apples are on the trees and ground. A bottle might be a discarded cider container, and a book could be a guide left by a picker.",
+                    "object_interpretations": {
+                        "donkey": {
+                            "form": "grazing animal",
+                            "scale": "normal",
+                            "role": "inhabitant"
+                        },
+                        "apple": {
+                            "form": "orchard fruit",
+                            "scale": "normal",
+                            "role": "natural element"
+                        },
+                        "bottle": {
+                            "form": "empty bottle",
+                            "scale": "normal",
+                            "role": "litter/trace of humans"
+                        },
+                        "book": {
+                            "form": "field guide",
+                            "scale": "normal",
+                            "role": "forgotten tool"
+                        }
+                    }
+                }
+            ],
+            "selected_scene": {
+                "scene_type": "farm stable",
+                "plausibility": 0.95,
+                "reasoning": "A donkey rests in a rustic barn. An apple is a common treat for livestock, a bottle could be old medicine or water, and a book might belong to the farmer left on a hay bale.",
+                "object_interpretations": {
+                    "donkey": {
+                        "form": "real animal",
+                        "scale": "normal",
+                        "role": "primary subject"
+                    },
+                    "apple": {
+                        "form": "real fruit",
+                        "scale": "normal",
+                        "role": "treat/food"
+                    },
+                    "bottle": {
+                        "form": "glass bottle",
+                        "scale": "normal",
+                        "role": "utility object"
+                    },
+                    "book": {
+                        "form": "paperback book",
+                        "scale": "normal",
+                        "role": "human artifact"
+                    }
+                },
+                "scene_brief": "A farm stable centered around donkey, with apple, bottle, and book"
+            }
+        }
+    },
+    "final_prompts": {
+        "main_prompt": "A Post-Impressionism painting depicting a bright and cheerful afternoon scene with harsh natural sunlight casting bold shadows. In the foreground, a large ochre and sienna donkey stands alert behind a medium-sized navy and cream weathered book. Resting atop the book's worn cloth cover is a small crimson and white apple, fresh and ripe with waxy skin, while beside it sits a medium emerald and lime bottle, empty and clear with glass catching the light. The composition uses thick, visible brushstrokes and vibrant, non-naturalistic colors to create an active, lively atmosphere where objects seem to vibrate with energy against a sun-drenched background.",
+        "negative_prompt": "photorealistic, 3d render, modern, digital art, photograph, low quality, blurry, distorted, dark, gloomy, monochrome, sketch, anime, cartoon, surrealism, abstract",
+        "prompt_formats": {
+            "simple": "A Post-Impressionism painting of a donkey, book, apple, and bottle in a bright afternoon setting.",
+            "complex": "A Post-Impressionism painting depicting a bright and cheerful afternoon scene with harsh natural sunlight casting bold shadows. In the foreground, a large ochre and sienna donkey stands alert behind a medium-sized navy and cream weathered book. Resting atop the book's worn cloth cover is a small crimson and white apple, fresh and ripe with waxy skin, while beside it sits a medium emerald and lime bottle, empty and clear with glass catching the light. The composition uses thick, visible brushstrokes and vibrant, non-naturalistic colors to create an active, lively atmosphere where objects seem to vibrate with energy against a sun-drenched background.",
+            "comma_separated": "Post-Impressionism painting, donkey, apple, bottle, book, large ochre sienna donkey, small crimson white apple, medium emerald lime bottle, medium navy cream book, apple on book, bottle next to apple, book next to donkey, donkey behind book, afternoon lighting, harsh natural light, bright active cheerful atmosphere, thick brushstrokes, vibrant colors",
+            "tags": "art, painting, post-impressionism, still life, animal, donkey, fruit, apple, bottle, book, afternoon, sunlight, cheerful, vibrant, brushstrokes, composition"
+        }
+    }
+}

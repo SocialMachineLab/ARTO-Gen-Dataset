@@ -1,0 +1,122 @@
+{
+  "artwork_id": "artwork_20260115_060644_598",
+  "generation_timestamp": "2026-01-15T06:07:21.949668",
+  "style": "Chinese Ink Painting",
+  "objects": {
+    "object_ids": [
+      17,
+      14
+    ],
+    "object_names": [
+      "dog",
+      "bench"
+    ],
+    "enhanced_objects": [
+      {
+        "object_id": 17,
+        "name": "dog",
+        "artistic_description": "A loyal companion with warm, intelligent eyes, interpreted in Chinese Ink Painting style",
+        "size": "Medium",
+        "state": "well-maintained",
+        "primary_colors": [
+          "fur color",
+          "eye color"
+        ],
+        "material": ""
+      },
+      {
+        "object_id": 14,
+        "name": "bench",
+        "artistic_description": "A beautifully rendered bench, interpreted in Chinese Ink Painting style",
+        "size": "Medium",
+        "state": "well-maintained",
+        "primary_colors": [
+          "natural tone",
+          "shadow color"
+        ],
+        "material": ""
+      }
+    ]
+  },
+  "composition": {
+    "spatial_relations": [
+      [
+        17,
+        "beside",
+        14
+      ]
+    ],
+    "semantic_relations": []
+  },
+  "environment": {
+    "environment_details": {
+      "scene_brief": "A artistic composition featuring dog centered around dog, with toy bench",
+      "place365_name": "/a/art_studio",
+      "place365_id": 21,
+      "time_of_day": "afternoon",
+      "weather": null,
+      "period": "Contemporary",
+      "is_indoor": true,
+      "lighting": {
+        "type": "natural",
+        "quality": "soft",
+        "direction": "side-lit",
+        "mood": "warm",
+        "reasoning": "Natural light from a window (side-lit) provides soft, directional illumination that highlights the texture of the dog's fur and the form of the toy bench without harsh shadows. This gentle lighting enhances the warm, intimate atmosphere of the studio and suits the delicate nature of ink painting aesthetics."
+      },
+      "atmosphere": "bright and active and gentle"
+    },
+    "scene_inference": {
+      "all_candidates": [
+        {
+          "scene_type": "artistic composition featuring dog",
+          "plausibility": 0.7,
+          "reasoning": "Default scene based on main variety 'dog'",
+          "object_interpretations": {
+            "dog": {
+              "form": "primary object",
+              "scale": "normal",
+              "role": "primary"
+            },
+            "bench": {
+              "form": "adapted to scene",
+              "scale": "normal or miniature",
+              "role": "secondary"
+            }
+          },
+          "fallback": true,
+          "scene_brief": "A artistic composition featuring dog centered around dog, with toy bench"
+        }
+      ],
+      "selected_scene": {
+        "scene_type": "artistic composition featuring dog",
+        "plausibility": 0.7,
+        "reasoning": "Default scene based on main variety 'dog'",
+        "object_interpretations": {
+          "dog": {
+            "form": "primary object",
+            "scale": "normal",
+            "role": "primary"
+          },
+          "bench": {
+            "form": "adapted to scene",
+            "scale": "normal or miniature",
+            "role": "secondary"
+          }
+        },
+        "fallback": true,
+        "scene_brief": "A artistic composition featuring dog centered around dog, with toy bench"
+      }
+    }
+  },
+  "final_prompts": {
+    "main_prompt": "A Chinese Ink Painting painting depicting a well-maintained medium-sized dog with soft brown fur and dark, gentle eyes sitting peacefully next to a well-maintained medium-sized bench made of natural dark wood, casting a subtle gray shadow on the ground. The bench is positioned in the foreground, while the dog rests beside it in the midground, creating a harmonious composition. The scene is set in a serene garden during the afternoon, bathed in natural soft lighting that creates a bright and active yet gentle atmosphere. Delicate ink washes capture the texture of the dog's fur and the wooden grain of the bench, with expressive brushstrokes suggesting the peaceful energy of the afternoon.",
+    "negative_prompt": "photorealistic, 3d render, modern, digital art, photograph, low quality, blurry, distorted, colorful, vibrant colors, western style",
+    "prompt_formats": {
+      "simple": "A Chinese ink painting of a brown dog sitting next to a wooden bench in a garden during afternoon.",
+      "complex": "A Chinese Ink Painting painting depicting a well-maintained medium-sized dog with soft brown fur and dark, gentle eyes sitting peacefully next to a well-maintained medium-sized bench made of natural dark wood, casting a subtle gray shadow on the ground. The bench is positioned in the foreground, while the dog rests beside it in the midground, creating a harmonious composition. The scene is set in a serene garden during the afternoon, bathed in natural soft lighting that creates a bright and active yet gentle atmosphere. Delicate ink washes capture the texture of the dog's fur and the wooden grain of the bench, with expressive brushstrokes suggesting the peaceful energy of the afternoon.",
+      "comma_separated": "Chinese Ink Painting, dog, bench, medium-sized, brown fur, dark wood, natural soft lighting, afternoon, bright, active, gentle, garden, well-maintained, ink wash, brushstrokes",
+      "tags": "art, painting, chinese ink painting, dog, bench, garden, afternoon, ink wash, traditional art, serene"
+    }
+  }
+}

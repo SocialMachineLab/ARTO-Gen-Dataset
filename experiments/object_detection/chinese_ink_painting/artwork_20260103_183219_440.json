@@ -1,0 +1,319 @@
+{
+    "artwork_id": "artwork_20260103_183219_440",
+    "generation_timestamp": "2026-01-03T18:32:48.805910",
+    "style": "Chinese Ink Painting",
+    "objects": {
+        "object_ids": [
+            17,
+            9,
+            14
+        ],
+        "object_names": [
+            "dog",
+            "boat",
+            "swing"
+        ],
+        "enhanced_objects": [
+            {
+                "object_id": 17,
+                "name": "dog",
+                "artistic_description": "A fluid silhouette rendered in diluted sepia ink washes, its fur suggested by soft, graded brushstrokes that fade into the warm atmospheric haze. The setting sun casts a gentle amber glow across its form, creating subtle variations in tone where the ink pools and spreads. Moisture in the air gives its coat a soft, diffused appearance with gentle highlights where the light catches individual strands.",
+                "size": "Medium",
+                "state": "alert yet calm, standing with quiet dignity",
+                "primary_colors": [
+                    "warm sepia",
+                    "soft amber"
+                ],
+                "material": "fur"
+            },
+            {
+                "object_id": 9,
+                "name": "boat",
+                "artistic_description": "A weathered wooden vessel depicted with expressive dry-brush strokes and bold ink outlines that suggest age and character. The sunset's warm light reflects off damp surfaces, creating subtle sheens on the hull where the ink has been left intentionally lighter. Cloud-filtered light softens the overall contrast, giving the boat a dreamlike quality as if emerging from the mist.",
+                "size": "Large",
+                "state": "gently resting on calm water, showing signs of gentle use",
+                "primary_colors": [
+                    "weathered brown",
+                    "muted ochre"
+                ],
+                "material": "wood"
+            },
+            {
+                "object_id": 14,
+                "name": "swing",
+                "artistic_description": "Delicate calligraphic lines capture the swing's simple form, with thin ink washes suggesting its rope suspension. The warm sunset light catches the seat's surface, creating a soft glow against the cooler shadows beneath. Gentle atmospheric perspective softens the distant details, while the chains or ropes are rendered with fine, confident strokes that show subtle variations in tone from the ambient light.",
+                "size": "Medium",
+                "state": "still and peaceful, hanging in quiet repose",
+                "primary_colors": [
+                    "pale gold",
+                    "soft gray"
+                ],
+                "material": "wood and rope"
+            }
+        ]
+    },
+    "composition": {
+        "spatial_relations": [
+            [
+                17,
+                "next to",
+                9
+            ],
+            [
+                17,
+                "near",
+                14
+            ],
+            [
+                14,
+                "near",
+                9
+            ]
+        ],
+        "semantic_relations": [
+            [
+                17,
+                "looking at",
+                9
+            ],
+            [
+                17,
+                "looking at",
+                14
+            ]
+        ]
+    },
+    "environment": {
+        "environment_details": {
+            "scene_brief": "A Waterfront Park centered around dog, with boat, and swing",
+            "place365_name": "/p/park",
+            "place365_id": 254,
+            "time_of_day": "sunset",
+            "weather": "cloudy",
+            "period": "Contemporary",
+            "is_indoor": false,
+            "lighting": {
+                "type": "natural",
+                "quality": "soft",
+                "direction": "side-lit",
+                "mood": "warm",
+                "reasoning": "The 'sunset' time and 'cloudy' weather create soft, diffused natural light. A side-lit direction helps define the forms of the dog and the swing without creating harsh outlines, blending the subjects into the environment in a painterly manner. The warm mood complements the sunset."
+            },
+            "atmosphere": "warm and peaceful and subdued and gentle"
+        },
+        "scene_inference": {
+            "all_candidates": [
+                {
+                    "scene_type": "Riverside Village",
+                    "plausibility": 0.95,
+                    "reasoning": "A dog stands on a riverbank, observing a small fishing boat drifting nearby. A simple wooden swing hangs from an old willow tree by the water's edge, completing the tranquil rural scene.",
+                    "object_interpretations": {
+                        "dog": {
+                            "form": "real dog",
+                            "scale": "normal",
+                            "role": "primary observer"
+                        },
+                        "boat": {
+                            "form": "real boat",
+                            "scale": "normal",
+                            "role": "secondary object on water"
+                        },
+                        "swing": {
+                            "form": "real swing",
+                            "scale": "normal",
+                            "role": "decorative element in background"
+                        }
+                    }
+                },
+                {
+                    "scene_type": "Mountain Lake",
+                    "plausibility": 0.92,
+                    "reasoning": "A dog sits on a wooden dock, watching a boat tied nearby. A swing hangs from a sturdy pine tree branch overhanging the lake, creating a peaceful wilderness atmosphere.",
+                    "object_interpretations": {
+                        "dog": {
+                            "form": "real dog",
+                            "scale": "normal",
+                            "role": "primary subject"
+                        },
+                        "boat": {
+                            "form": "real boat",
+                            "scale": "normal",
+                            "role": "secondary object"
+                        },
+                        "swing": {
+                            "form": "real swing",
+                            "scale": "normal",
+                            "role": "background element"
+                        }
+                    }
+                },
+                {
+                    "scene_type": "Courtyard Garden",
+                    "plausibility": 0.88,
+                    "reasoning": "A dog plays in a traditional courtyard where a small decorative boat sits as an ornament. A swing hangs from a persimmon tree, blending domestic life with nature.",
+                    "object_interpretations": {
+                        "dog": {
+                            "form": "real dog",
+                            "scale": "normal",
+                            "role": "primary subject"
+                        },
+                        "boat": {
+                            "form": "ornamental boat",
+                            "scale": "small",
+                            "role": "garden decoration"
+                        },
+                        "swing": {
+                            "form": "real swing",
+                            "scale": "normal",
+                            "role": "recreational object"
+                        }
+                    }
+                },
+                {
+                    "scene_type": "Seaside Harbor",
+                    "plausibility": 0.9,
+                    "reasoning": "A dog runs along a pier, passing by moored boats. A swing hangs from a sturdy post on the dock, creating a whimsical seaside playground.",
+                    "object_interpretations": {
+                        "dog": {
+                            "form": "real dog",
+                            "scale": "normal",
+                            "role": "primary subject"
+                        },
+                        "boat": {
+                            "form": "real boat",
+                            "scale": "normal",
+                            "role": "secondary object"
+                        },
+                        "swing": {
+                            "form": "real swing",
+                            "scale": "normal",
+                            "role": "playful accent"
+                        }
+                    }
+                },
+                {
+                    "scene_type": "Fishing Village",
+                    "plausibility": 0.93,
+                    "reasoning": "A dog rests near fishing nets, with a traditional fishing boat pulled ashore. A swing hangs from a weathered beam in the village square, capturing daily life.",
+                    "object_interpretations": {
+                        "dog": {
+                            "form": "real dog",
+                            "scale": "normal",
+                            "role": "primary subject"
+                        },
+                        "boat": {
+                            "form": "real boat",
+                            "scale": "normal",
+                            "role": "working object"
+                        },
+                        "swing": {
+                            "form": "real swing",
+                            "scale": "normal",
+                            "role": "community element"
+                        }
+                    }
+                },
+                {
+                    "scene_type": "Waterfront Park",
+                    "plausibility": 0.85,
+                    "reasoning": "A dog walks through a park where a decorative boat sits as a display piece. A swing set stands nearby, creating a recreational space by the water.",
+                    "object_interpretations": {
+                        "dog": {
+                            "form": "real dog",
+                            "scale": "normal",
+                            "role": "primary subject"
+                        },
+                        "boat": {
+                            "form": "display boat",
+                            "scale": "normal",
+                            "role": "park decoration"
+                        },
+                        "swing": {
+                            "form": "real swing",
+                            "scale": "normal",
+                            "role": "playground equipment"
+                        }
+                    },
+                    "scene_brief": "A Waterfront Park centered around dog, with boat, and swing"
+                },
+                {
+                    "scene_type": "Lakeside Retreat",
+                    "plausibility": 0.91,
+                    "reasoning": "A dog sits on a grassy slope overlooking a lake, where a boat is anchored. A swing hangs from a sturdy oak tree, offering a peaceful retreat setting.",
+                    "object_interpretations": {
+                        "dog": {
+                            "form": "real dog",
+                            "scale": "normal",
+                            "role": "primary subject"
+                        },
+                        "boat": {
+                            "form": "real boat",
+                            "scale": "normal",
+                            "role": "secondary object"
+                        },
+                        "swing": {
+                            "form": "real swing",
+                            "scale": "normal",
+                            "role": "background element"
+                        }
+                    }
+                },
+                {
+                    "scene_type": "Traditional Courtyard",
+                    "plausibility": 0.82,
+                    "reasoning": "A dog rests in a traditional Chinese courtyard where a small boat-shaped planter sits as decoration. A swing hangs from a tree, blending classical architecture with playful elements.",
+                    "object_interpretations": {
+                        "dog": {
+                            "form": "real dog",
+                            "scale": "normal",
+                            "role": "primary subject"
+                        },
+                        "boat": {
+                            "form": "boat planter",
+                            "scale": "small",
+                            "role": "garden decoration"
+                        },
+                        "swing": {
+                            "form": "real swing",
+                            "scale": "normal",
+                            "role": "recreational element"
+                        }
+                    }
+                }
+            ],
+            "selected_scene": {
+                "scene_type": "Waterfront Park",
+                "plausibility": 0.85,
+                "reasoning": "A dog walks through a park where a decorative boat sits as a display piece. A swing set stands nearby, creating a recreational space by the water.",
+                "object_interpretations": {
+                    "dog": {
+                        "form": "real dog",
+                        "scale": "normal",
+                        "role": "primary subject"
+                    },
+                    "boat": {
+                        "form": "display boat",
+                        "scale": "normal",
+                        "role": "park decoration"
+                    },
+                    "swing": {
+                        "form": "real swing",
+                        "scale": "normal",
+                        "role": "playground equipment"
+                    }
+                },
+                "scene_brief": "A Waterfront Park centered around dog, with boat, and swing"
+            }
+        }
+    },
+    "final_prompts": {
+        "main_prompt": "A Chinese Ink Painting painting depicting a warm and peaceful sunset scene with subdued, gentle atmosphere. In the foreground, a medium-sized dog with warm sepia and soft amber fur stands alert yet calm, positioned directly next to a large weathered brown and muted ochre boat that rests gently on calm water. Nearby, a medium-sized swing of pale gold and soft gray wood and rope hangs still and peaceful, creating a triangular composition where the dog is near both the swing and the boat, and the swing is similarly near the boat. The entire scene is bathed in natural soft sunset lighting that casts long, delicate shadows and creates a warm, tranquil mood. The brushwork captures the textures of fur, weathered wood, and rope with expressive ink washes and subtle gradations of tone, evoking a timeless, meditative moment by the water's edge.",
+        "negative_prompt": "photorealistic, 3d render, modern, digital art, photograph, low quality, blurry, distorted, cartoon, anime, western painting, oil painting, watercolor, bright colors, vibrant, saturated, high contrast, sharp details, photorealistic textures, people, buildings, urban, machinery, text, signature, frame",
+        "prompt_formats": {
+            "simple": "A Chinese ink painting of a dog next to a boat near a swing at sunset.",
+            "complex": "A Chinese Ink Painting painting depicting a warm and peaceful sunset scene with subdued, gentle atmosphere. In the foreground, a medium-sized dog with warm sepia and soft amber fur stands alert yet calm, positioned directly next to a large weathered brown and muted ochre boat that rests gently on calm water. Nearby, a medium-sized swing of pale gold and soft gray wood and rope hangs still and peaceful, creating a triangular composition where the dog is near both the swing and the boat, and the swing is similarly near the boat. The entire scene is bathed in natural soft sunset lighting that casts long, delicate shadows and creates a warm, tranquil mood. The brushwork captures the textures of fur, weathered wood, and rope with expressive ink washes and subtle gradations of tone, evoking a timeless, meditative moment by the water's edge.",
+            "comma_separated": "Chinese Ink Painting, dog, boat, swing, medium dog, large boat, medium swing, warm sepia amber fur, weathered brown ochre boat, pale gold gray swing, next to, near, sunset, natural soft lighting, warm peaceful subdued gentle atmosphere, calm water, ink wash, expressive brushwork, traditional art",
+            "tags": "art, painting, chinese ink painting, ink wash, sumi-e, traditional art, dog, boat, swing, sunset, peaceful, tranquil, nature, water, composition, brushwork, atmospheric"
+        }
+    }
+}

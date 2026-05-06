@@ -1,0 +1,286 @@
+{
+    "artwork_id": "artwork_20260104_001046_525",
+    "generation_timestamp": "2026-01-04T00:11:30.721286",
+    "style": "Impressionism",
+    "objects": {
+        "object_ids": [
+            59,
+            19,
+            76
+        ],
+        "object_names": [
+            "rose",
+            "sheep",
+            "urn"
+        ],
+        "enhanced_objects": [
+            {
+                "object_id": 59,
+                "name": "rose",
+                "artistic_description": "Velvety petals catch the bright afternoon sunlight, their edges softened by gentle atmospheric haze. The natural indoor lighting reveals subtle gradations from deep crimson at the core to warm coral tones where light penetrates the translucent petals. Moisture from the humid terrace air creates a delicate dewy sheen, making the surface appear luminous and alive. Impressionistic brushwork would capture the fleeting dance of light across the flower's form, with loose, visible strokes suggesting rather than defining each petal's edge.",
+                "size": "Medium",
+                "state": "fresh and vibrant",
+                "primary_colors": [
+                    "warm coral-red",
+                    "crimson"
+                ],
+                "material": "organic floral tissue"
+            },
+            {
+                "object_id": 19,
+                "name": "sheep",
+                "artistic_description": "Matte ceramic surface diffuses the bright afternoon light into soft, luminous patches across its rounded form. The decorative sheep appears bathed in golden warmth from the sunlit terrace, with gentle shadows pooling in its sculpted curves. The white glaze takes on creamy, buttery tones where light strikes directly, while shaded areas reveal cooler pearl-gray undertones. The smooth material creates subtle specular highlights that catch the eye, suggesting the cheerful brightness of the active terrace atmosphere.",
+                "size": "Small",
+                "state": "pristine decorative condition",
+                "primary_colors": [
+                    "creamy white",
+                    "warm pearl"
+                ],
+                "material": "glazed ceramic"
+            },
+            {
+                "object_id": 76,
+                "name": "urn",
+                "artistic_description": "The decorative urn stands as a luminous focal point, its ceramic body absorbing and reflecting the abundant natural light with gentle radiance. Sunlight traces along its curved silhouette, creating soft highlights that dance across the glazed surface in loose, impressionistic patches. The bright indoor lighting reveals subtle variations in the glaze - areas where light penetrates deeper show warm amber tones, while direct reflections appear as brilliant white flashes. The cheerful atmosphere is captured in the urn's lustrous, almost liquid appearance, as if the afternoon brightness itself has been captured in its polished form.",
+                "size": "Large",
+                "state": "smooth and lustrous",
+                "primary_colors": [
+                    "luminous white",
+                    "warm amber"
+                ],
+                "material": "glazed ceramic"
+            }
+        ]
+    },
+    "composition": {
+        "spatial_relations": [
+            [
+                59,
+                "next to",
+                19
+            ],
+            [
+                59,
+                "next to",
+                76
+            ],
+            [
+                19,
+                "next to",
+                76
+            ]
+        ],
+        "semantic_relations": []
+    },
+    "environment": {
+        "environment_details": {
+            "scene_brief": "A still life on a terrace featuring rose, with decorative sheep as decoration, and decorative urn as decoration",
+            "place365_name": "/l/living_room",
+            "place365_id": 215,
+            "time_of_day": "afternoon",
+            "weather": "sunny",
+            "period": "Contemporary",
+            "is_indoor": true,
+            "lighting": {
+                "type": "natural",
+                "quality": "soft",
+                "direction": "side-lit",
+                "mood": "warm",
+                "reasoning": "Combining 'afternoon' and 'sunny' weather suggests strong natural light. To fit the 'soft' quality of Impressionism, the light should be diffused or coming from the side (side-lit) rather than directly head-on or creating harsh shadows. This lighting setup highlights the textures of the rose petals and the decorative urn while maintaining a warm, inviting atmosphere."
+            },
+            "atmosphere": "bright and active and cheerful and gentle"
+        },
+        "scene_inference": {
+            "all_candidates": [
+                {
+                    "scene_type": "Impressionist garden",
+                    "plausibility": 0.95,
+                    "reasoning": "A classic Impressionist subject: a rose bush in full bloom. The sheep is a grazing animal that could be in an adjacent meadow or field, visible in the background. The urn is a garden ornament, perhaps a classical terracotta pot for another plant or a decorative statue, fitting perfectly in a cultivated garden setting.",
+                    "object_interpretations": {
+                        "rose": {
+                            "form": "real flower",
+                            "scale": "normal",
+                            "role": "primary subject of the garden scene"
+                        },
+                        "sheep": {
+                            "form": "real animal",
+                            "scale": "normal",
+                            "role": "background element in a meadow"
+                        },
+                        "urn": {
+                            "form": "garden ornament",
+                            "scale": "large decorative",
+                            "role": "terracotta pot or statue in the garden"
+                        }
+                    }
+                },
+                {
+                    "scene_type": "pastoral landscape",
+                    "plausibility": 0.9,
+                    "reasoning": "A wide landscape with rolling hills and grazing sheep. A single rose bush grows near an old stone wall. An ancient stone urn sits by the wall, perhaps as a water trough or a weathered decorative piece, adding a touch of human history to the wild scene.",
+                    "object_interpretations": {
+                        "rose": {
+                            "form": "wild rose bush",
+                            "scale": "normal",
+                            "role": "natural flora element"
+                        },
+                        "sheep": {
+                            "form": "real flock",
+                            "scale": "normal",
+                            "role": "main subject of the pastoral scene"
+                        },
+                        "urn": {
+                            "form": "weathered stone vessel",
+                            "scale": "large",
+                            "role": "antique garden feature"
+                        }
+                    }
+                },
+                {
+                    "scene_type": "still life on a terrace",
+                    "plausibility": 0.85,
+                    "reasoning": "An outdoor still life composition on a patio table. A vase with a single rose is the centerpiece. A small ceramic sheep figurine acts as a decorative object next to the vase. An urn-shaped ashtray or a small decorative urn completes the arrangement.",
+                    "object_interpretations": {
+                        "rose": {
+                            "form": "cut flower in a vase",
+                            "scale": "normal",
+                            "role": "centerpiece of the still life"
+                        },
+                        "sheep": {
+                            "form": "ceramic figurine",
+                            "scale": "small (toy/decorative)",
+                            "role": "decorative accent on the table"
+                        },
+                        "urn": {
+                            "form": "small decorative urn",
+                            "scale": "small",
+                            "role": "functional or decorative object on the table"
+                        }
+                    },
+                    "scene_brief": "A still life on a terrace featuring rose, with decorative sheep as decoration, and decorative urn as decoration"
+                },
+                {
+                    "scene_type": "country cottage interior",
+                    "plausibility": 0.8,
+                    "reasoning": "A cozy room with a window overlooking a sheep pasture. On the windowsill, a pot of roses sits next to a small decorative urn. A toy sheep sits on a nearby shelf or rug, tying the interior to the pastoral exterior.",
+                    "object_interpretations": {
+                        "rose": {
+                            "form": "potted plant",
+                            "scale": "normal",
+                            "role": "houseplant on the windowsill"
+                        },
+                        "sheep": {
+                            "form": "toy figurine",
+                            "scale": "small",
+                            "role": "child's toy or decorative object"
+                        },
+                        "urn": {
+                            "form": "small pottery urn",
+                            "scale": "small",
+                            "role": "decorative item on the windowsill"
+                        }
+                    }
+                },
+                {
+                    "scene_type": "art studio",
+                    "plausibility": 0.75,
+                    "reasoning": "An artist's studio with various objects arranged for a painting. A rose in a vase is the main subject. A small sheep statue is used as a model for scale or composition. An urn is another object in the studio, perhaps used as a prop or for holding brushes.",
+                    "object_interpretations": {
+                        "rose": {
+                            "form": "fresh flower",
+                            "scale": "normal",
+                            "role": "subject of the still life painting"
+                        },
+                        "sheep": {
+                            "form": "statuette",
+                            "scale": "small",
+                            "role": "studio prop/model"
+                        },
+                        "urn": {
+                            "form": "pottery vessel",
+                            "scale": "medium",
+                            "role": "studio prop (brush holder or decorative)"
+                        }
+                    }
+                },
+                {
+                    "scene_type": "cemetery or memorial garden",
+                    "plausibility": 0.7,
+                    "reasoning": "A somber but beautiful scene. An urn is a key feature, either as a funerary urn or a large decorative vase on a monument. A single rose might be placed at the site or growing wild nearby. A lone sheep could be seen in the distance, symbolizing innocence or peace.",
+                    "object_interpretations": {
+                        "rose": {
+                            "form": "single flower",
+                            "scale": "normal",
+                            "role": "symbolic offering or wild growth"
+                        },
+                        "sheep": {
+                            "form": "real animal",
+                            "scale": "normal",
+                            "role": "distant pastoral element"
+                        },
+                        "urn": {
+                            "form": "funerary urn or large vase",
+                            "scale": "large",
+                            "role": "central memorial object"
+                        }
+                    }
+                },
+                {
+                    "scene_type": "mythological or allegorical scene",
+                    "plausibility": 0.65,
+                    "reasoning": "A dreamlike, symbolic landscape. A rose represents love or beauty. A sheep represents gentleness. An urn could represent memory or mortality. In an Impressionist style, these elements can be arranged in a non-literal but visually harmonious way, like a scene from a fable.",
+                    "object_interpretations": {
+                        "rose": {
+                            "form": "stylized/luminous flower",
+                            "scale": "variable",
+                            "role": "symbolic element"
+                        },
+                        "sheep": {
+                            "form": "ethereal animal",
+                            "scale": "normal",
+                            "role": "symbolic element"
+                        },
+                        "urn": {
+                            "form": "ancient, glowing vessel",
+                            "scale": "large",
+                            "role": "symbolic element"
+                        }
+                    }
+                }
+            ],
+            "selected_scene": {
+                "scene_type": "still life on a terrace",
+                "plausibility": 0.85,
+                "reasoning": "An outdoor still life composition on a patio table. A vase with a single rose is the centerpiece. A small ceramic sheep figurine acts as a decorative object next to the vase. An urn-shaped ashtray or a small decorative urn completes the arrangement.",
+                "object_interpretations": {
+                    "rose": {
+                        "form": "cut flower in a vase",
+                        "scale": "normal",
+                        "role": "centerpiece of the still life"
+                    },
+                    "sheep": {
+                        "form": "ceramic figurine",
+                        "scale": "small (toy/decorative)",
+                        "role": "decorative accent on the table"
+                    },
+                    "urn": {
+                        "form": "small decorative urn",
+                        "scale": "small",
+                        "role": "functional or decorative object on the table"
+                    }
+                },
+                "scene_brief": "A still life on a terrace featuring rose, with decorative sheep as decoration, and decorative urn as decoration"
+            }
+        }
+    },
+    "final_prompts": {
+        "main_prompt": "A Impressionism painting depicting a bright and cheerful afternoon scene with natural soft lighting. In the foreground, a large luminous white urn with warm amber undertones stands smooth and lustrous, its glazed ceramic surface catching the gentle light. Beside the urn to the left, a small creamy white sheep in pristine decorative condition rests peacefully, its warm pearl fleece glowing softly. Nestled between them, a medium-sized rose in warm coral-red and crimson hues appears fresh and vibrant, its organic floral tissue detailed with loose, expressive brushstrokes. The three objects form a triangular composition in the foreground\u2014the rose sits between the sheep and urn, with all elements closely adjacent in a harmonious arrangement. The midground features a sun-drenched meadow with dappled light filtering through distant trees, while the background shows a hazy sky in soft blues and golds. The overall atmosphere is active yet gentle, with visible brushwork capturing the play of light and shadow across the scene, creating a sense of joyful movement and warmth characteristic of Impressionist technique.",
+        "negative_prompt": "photorealistic, 3d render, modern, digital art, photograph, low quality, blurry, distorted, surreal, abstract, dark, gloomy, night scene, monochrome, hyperdetailed, sharp focus, ugliness, deformed, bad anatomy, cartoon, anime, text, watermark, signature",
+        "prompt_formats": {
+            "simple": "An Impressionist painting of a rose between a sheep and an urn in a bright afternoon meadow.",
+            "complex": "A Impressionism painting depicting a bright and cheerful afternoon scene with natural soft lighting. In the foreground, a large luminous white urn with warm amber undertones stands smooth and lustrous, its glazed ceramic surface catching the gentle light. Beside the urn to the left, a small creamy white sheep in pristine decorative condition rests peacefully, its warm pearl fleece glowing softly. Nestled between them, a medium-sized rose in warm coral-red and crimson hues appears fresh and vibrant, its organic floral tissue detailed with loose, expressive brushstrokes. The three objects form a triangular composition in the foreground\u2014the rose sits between the sheep and urn, with all elements closely adjacent in a harmonious arrangement. The midground features a sun-drenched meadow with dappled light filtering through distant trees, while the background shows a hazy sky in soft blues and golds. The overall atmosphere is active yet gentle, with visible brushwork capturing the play of light and shadow across the scene, creating a sense of joyful movement and warmth characteristic of Impressionist technique.",
+            "comma_separated": "Impressionism painting, afternoon lighting, natural soft light, bright cheerful gentle atmosphere, large luminous white urn with warm amber tones, small creamy white sheep with warm pearl fleece, medium warm coral-red crimson rose, rose between sheep and urn, triangular composition, glazed ceramic, organic floral tissue, sun-drenched meadow, hazy sky, visible brushstrokes, dappled light, Claude Monet style, Pierre-Auguste Renoir influence",
+            "tags": "art, painting, impressionism, still life, landscape, afternoon, soft lighting, urn, sheep, rose, meadow, ceramic, floral, pastoral, cheerful, gentle, brushstrokes, light study, Claude Monet, Pierre-Auguste Renoir"
+        }
+    }
+}

@@ -1,0 +1,350 @@
+{
+    "artwork_id": "artwork_20260103_030444_173",
+    "generation_timestamp": "2026-01-03T03:05:19.070592",
+    "style": "Post-Impressionism",
+    "objects": {
+        "object_ids": [
+            31,
+            60,
+            1,
+            10
+        ],
+        "object_names": [
+            "sleigh",
+            "canopy bed",
+            "woman",
+            "lamp post"
+        ],
+        "enhanced_objects": [
+            {
+                "object_id": 31,
+                "name": "sleigh",
+                "artistic_description": "A wooden sleigh painted in deep crimson with weathered gold trim that catches the stage lights with a muted glow. The metal runners gleam with a cool, metallic sheen, contrasting against the warm wood tones. Dust motes dance in the spotlight beam, creating a dreamy, atmospheric quality. The paint shows subtle cracking and patina, suggesting age and use, while the wood grain appears rich and textured under the mixed lighting.",
+                "size": "Large",
+                "state": "weathered and theatrical",
+                "primary_colors": [
+                    "crimson",
+                    "gold"
+                ],
+                "material": "wood and metal"
+            },
+            {
+                "object_id": 60,
+                "name": "canopy bed",
+                "artistic_description": "An ornate four-poster bed draped in flowing ivory curtains that catch the warm stage lights, creating soft, luminous highlights. The fabric appears almost translucent where light penetrates, glowing with golden undertones. The dark mahogany frame absorbs light, creating deep shadows that emphasize its carved details. The canopy fabric ripples gently, casting moving shadows that add to the serene, dreamlike atmosphere.",
+                "size": "Large",
+                "state": "elegant and pristine",
+                "primary_colors": [
+                    "ivory",
+                    "mahogany"
+                ],
+                "material": "fabric and wood"
+            },
+            {
+                "object_id": 1,
+                "name": "woman",
+                "artistic_description": "A figure bathed in the warm glow of stage lights, her skin rendered in soft peach and golden tones that harmonize with the theatrical atmosphere. Her clothing appears in rich jewel tones - deep sapphire and emerald - that saturate beautifully under the mixed lighting. The light catches highlights in her hair, creating a halo effect, while shadows fall in gentle, painterly strokes across her form. Her features have a serene, contemplative quality with eyes that seem to reflect the ambient light.",
+                "size": "Medium",
+                "state": "serene and contemplative",
+                "primary_colors": [
+                    "peach",
+                    "sapphire"
+                ],
+                "material": "flesh and fabric"
+            },
+            {
+                "object_id": 10,
+                "name": "lamp post",
+                "artistic_description": "A wrought iron lamp post with a glass lantern that emits a warm, amber glow, cutting through the cool shadows of the stage. The metal appears dark and ornate, with intricate scrollwork that creates complex patterns of light and shadow. The glass lens refracts the light, creating a soft halo and subtle rainbow edges. The lamp's illumination casts a pool of golden light on the stage floor, creating a striking contrast with the surrounding cooler tones.",
+                "size": "Medium",
+                "state": "functional and atmospheric",
+                "primary_colors": [
+                    "amber",
+                    "black"
+                ],
+                "material": "iron and glass"
+            }
+        ]
+    },
+    "composition": {
+        "spatial_relations": [
+            [
+                31,
+                "next to",
+                60
+            ],
+            [
+                1,
+                "next to",
+                31
+            ],
+            [
+                10,
+                "behind",
+                1
+            ],
+            [
+                10,
+                "behind",
+                31
+            ],
+            [
+                10,
+                "behind",
+                60
+            ]
+        ],
+        "semantic_relations": []
+    },
+    "environment": {
+        "environment_details": {
+            "scene_brief": "A Theater stage featuring sleigh, with canopy bed, woman, and lamp post",
+            "place365_name": "/h/home_theater",
+            "place365_id": 177,
+            "time_of_day": "evening",
+            "weather": "snowy",
+            "period": "Contemporary",
+            "is_indoor": true,
+            "lighting": {
+                "type": "mixed",
+                "quality": "dramatic",
+                "direction": "side-lit",
+                "mood": "warm",
+                "reasoning": "Post-Impressionism often uses color and light for emotional impact. A mix of natural (moonlight/snow reflection) and artificial (lamp post/stage lights) creates dramatic shadows and highlights. Side-lighting emphasizes the forms of the sleigh and bed, while a warm mood evokes the cozy, nostalgic feeling of the scene."
+            },
+            "atmosphere": "calm and relaxed and serene and striking"
+        },
+        "scene_inference": {
+            "all_candidates": [
+                {
+                    "scene_type": "Victorian winter bedroom",
+                    "plausibility": 0.85,
+                    "reasoning": "A sleigh bed is the primary object, which is a type of bed. A canopy bed can be a variation or a decorative addition. A woman is a natural occupant of a bedroom. A lamp post could be seen through a frosty window, or the bed frame could be designed with posts resembling a lamp post.",
+                    "object_interpretations": {
+                        "sleigh": {
+                            "form": "sleigh bed",
+                            "scale": "normal",
+                            "role": "primary furniture"
+                        },
+                        "canopy bed": {
+                            "form": "canopy structure",
+                            "scale": "normal",
+                            "role": "decorative addition to the sleigh bed"
+                        },
+                        "woman": {
+                            "form": "person",
+                            "scale": "normal",
+                            "role": "occupant"
+                        },
+                        "lamp post": {
+                            "form": "view through window",
+                            "scale": "distant/small",
+                            "role": "atmospheric element"
+                        }
+                    }
+                },
+                {
+                    "scene_type": "Outdoor winter scene",
+                    "plausibility": 0.9,
+                    "reasoning": "A sleigh is a vehicle used in snow. A lamp post is common on snowy streets. A woman can be a passenger or pedestrian. A canopy bed seems out of place, but could be a surreal element (a bed in the snow) or a prop for a photoshoot.",
+                    "object_interpretations": {
+                        "sleigh": {
+                            "form": "wooden sled",
+                            "scale": "normal",
+                            "role": "transportation"
+                        },
+                        "canopy bed": {
+                            "form": "bed frame",
+                            "scale": "normal",
+                            "role": "surreal prop or set piece"
+                        },
+                        "woman": {
+                            "form": "person",
+                            "scale": "normal",
+                            "role": "traveler or model"
+                        },
+                        "lamp post": {
+                            "form": "street lamp",
+                            "scale": "normal",
+                            "role": "lighting fixture"
+                        }
+                    }
+                },
+                {
+                    "scene_type": "Art studio",
+                    "plausibility": 0.8,
+                    "reasoning": "An artist's studio contains various props. A sleigh could be a prop. A woman is the artist or model. A lamp post could be a miniature model or a reference photo. A canopy bed could be a set piece for a still life.",
+                    "object_interpretations": {
+                        "sleigh": {
+                            "form": "model or prop",
+                            "scale": "miniature or normal",
+                            "role": "artistic subject"
+                        },
+                        "canopy bed": {
+                            "form": "furniture prop",
+                            "scale": "normal",
+                            "role": "set piece"
+                        },
+                        "woman": {
+                            "form": "artist or model",
+                            "scale": "normal",
+                            "role": "human subject"
+                        },
+                        "lamp post": {
+                            "form": "miniature model",
+                            "scale": "small",
+                            "role": "prop"
+                        }
+                    }
+                },
+                {
+                    "scene_type": "Theater stage",
+                    "plausibility": 0.85,
+                    "reasoning": "A stage set can combine disparate elements for a play. A sleigh is a common prop for winter plays. A woman is an actress. A canopy bed could be a set piece for a bedroom scene. A lamp post is a standard street set prop.",
+                    "object_interpretations": {
+                        "sleigh": {
+                            "form": "stage prop",
+                            "scale": "normal",
+                            "role": "prop"
+                        },
+                        "canopy bed": {
+                            "form": "stage furniture",
+                            "scale": "normal",
+                            "role": "set piece"
+                        },
+                        "woman": {
+                            "form": "actress",
+                            "scale": "normal",
+                            "role": "performer"
+                        },
+                        "lamp post": {
+                            "form": "stage prop",
+                            "scale": "normal",
+                            "role": "set lighting/decoration"
+                        }
+                    },
+                    "scene_brief": "A Theater stage featuring sleigh, with canopy bed, woman, and lamp post"
+                },
+                {
+                    "scene_type": "Surreal dreamscape",
+                    "plausibility": 0.95,
+                    "reasoning": "Post-Impressionism often leans towards the symbolic or surreal. A sleigh flying through the air, a bed floating in the clouds, a woman as a dreamer, and a lamp post lighting up the sky are all plausible in a dream logic context.",
+                    "object_interpretations": {
+                        "sleigh": {
+                            "form": "flying sleigh",
+                            "scale": "large",
+                            "role": "dream vehicle"
+                        },
+                        "canopy bed": {
+                            "form": "floating bed",
+                            "scale": "normal",
+                            "role": "dream sanctuary"
+                        },
+                        "woman": {
+                            "form": "sleeping figure",
+                            "scale": "normal",
+                            "role": "dreamer"
+                        },
+                        "lamp post": {
+                            "form": "celestial object",
+                            "scale": "giant",
+                            "role": "light source"
+                        }
+                    }
+                },
+                {
+                    "scene_type": "Vintage toy shop",
+                    "plausibility": 0.8,
+                    "reasoning": "A shop filled with vintage items. A sleigh could be a toy or a miniature model. A woman is the shopkeeper. A canopy bed could be a dollhouse item. A lamp post could be a decorative figurine.",
+                    "object_interpretations": {
+                        "sleigh": {
+                            "form": "toy model",
+                            "scale": "miniature",
+                            "role": "toy for sale"
+                        },
+                        "canopy bed": {
+                            "form": "dollhouse furniture",
+                            "scale": "miniature",
+                            "role": "toy for sale"
+                        },
+                        "woman": {
+                            "form": "shopkeeper",
+                            "scale": "normal",
+                            "role": "owner"
+                        },
+                        "lamp post": {
+                            "form": "figurine",
+                            "scale": "small",
+                            "role": "decoration"
+                        }
+                    }
+                },
+                {
+                    "scene_type": "Historical reenactment",
+                    "plausibility": 0.85,
+                    "reasoning": "A historical setting like a winter market. A sleigh is the vehicle. A woman is a participant. A lamp post is street furniture. A canopy bed might be inside a nearby tent or inn.",
+                    "object_interpretations": {
+                        "sleigh": {
+                            "form": "real vehicle",
+                            "scale": "normal",
+                            "role": "transport"
+                        },
+                        "canopy bed": {
+                            "form": "furniture",
+                            "scale": "normal",
+                            "role": "interior decor"
+                        },
+                        "woman": {
+                            "form": "person in period dress",
+                            "scale": "normal",
+                            "role": "participant"
+                        },
+                        "lamp post": {
+                            "form": "gas lamp",
+                            "scale": "normal",
+                            "role": "street lighting"
+                        }
+                    }
+                }
+            ],
+            "selected_scene": {
+                "scene_type": "Theater stage",
+                "plausibility": 0.85,
+                "reasoning": "A stage set can combine disparate elements for a play. A sleigh is a common prop for winter plays. A woman is an actress. A canopy bed could be a set piece for a bedroom scene. A lamp post is a standard street set prop.",
+                "object_interpretations": {
+                    "sleigh": {
+                        "form": "stage prop",
+                        "scale": "normal",
+                        "role": "prop"
+                    },
+                    "canopy bed": {
+                        "form": "stage furniture",
+                        "scale": "normal",
+                        "role": "set piece"
+                    },
+                    "woman": {
+                        "form": "actress",
+                        "scale": "normal",
+                        "role": "performer"
+                    },
+                    "lamp post": {
+                        "form": "stage prop",
+                        "scale": "normal",
+                        "role": "set lighting/decoration"
+                    }
+                },
+                "scene_brief": "A Theater stage featuring sleigh, with canopy bed, woman, and lamp post"
+            }
+        }
+    },
+    "final_prompts": {
+        "main_prompt": "A Post-Impressionism painting depicting a serene evening scene where a large, weathered crimson and gold sleigh sits beside an elegant, pristine ivory and mahogany canopy bed. A woman of medium stature, dressed in peach and sapphire tones with a contemplative expression, stands next to the sleigh. Behind her, the sleigh, and the canopy bed stands a medium-sized amber and black lamp post, its functional iron and glass structure casting atmospheric light. The composition places the sleigh and canopy bed in the foreground as the largest elements, with the woman in the midground, and the lamp post anchoring the background. The mixed dramatic lighting of evening creates striking contrasts between the warm lamp glow and deepening shadows, while the overall atmosphere remains calm, relaxed, and serene, with visible brushstrokes emphasizing texture in the wood and metal of the sleigh, the fabric and wood of the bed, and the flesh and fabric of the woman's form.",
+        "negative_prompt": "photorealistic, 3d render, modern, digital art, photograph, low quality, blurry, distorted, cartoon, anime, surrealism, abstract, watermark, signature, text, frame, border, ugly, deformed, bad anatomy, disfigured, poorly drawn face, mutation, mutated, extra limb, missing limb, floating limbs, disconnected limbs, malformed hands, out of focus, long neck",
+        "prompt_formats": {
+            "simple": "A Post-Impressionism painting of a woman beside a crimson sleigh and ivory canopy bed under an evening lamp post, evoking a serene and striking calm.",
+            "complex": "A Post-Impressionism painting depicting a serene evening scene where a large, weathered crimson and gold sleigh sits beside an elegant, pristine ivory and mahogany canopy bed. A woman of medium stature, dressed in peach and sapphire tones with a contemplative expression, stands next to the sleigh. Behind her, the sleigh, and the canopy bed stands a medium-sized amber and black lamp post, its functional iron and glass structure casting atmospheric light. The composition places the sleigh and canopy bed in the foreground as the largest elements, with the woman in the midground, and the lamp post anchoring the background. The mixed dramatic lighting of evening creates striking contrasts between the warm lamp glow and deepening shadows, while the overall atmosphere remains calm, relaxed, and serene, with visible brushstrokes emphasizing texture in the wood and metal of the sleigh, the fabric and wood of the bed, and the flesh and fabric of the woman's form.",
+            "comma_separated": "Post-Impressionism, large crimson gold sleigh, large ivory mahogany canopy bed, medium peach sapphire woman, medium amber black lamp post, sleigh next to bed, woman next to sleigh, lamp post behind, evening, mixed dramatic lighting, calm relaxed serene striking atmosphere, textured brushstrokes, wood metal fabric",
+            "tags": "art, painting, post-impressionism, evening scene, sleigh, canopy bed, woman, lamp post, serene, dramatic lighting, textured, brushstrokes, Vincent van Gogh style, Paul Gauguin style"
+        }
+    }
+}

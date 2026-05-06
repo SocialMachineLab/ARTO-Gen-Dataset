@@ -1,0 +1,308 @@
+{
+    "artwork_id": "artwork_20260103_170930_391",
+    "generation_timestamp": "2026-01-03T17:10:23.985428",
+    "style": "Impressionism",
+    "objects": {
+        "object_ids": [
+            19,
+            27,
+            60
+        ],
+        "object_names": [
+            "sheep",
+            "picnic basket",
+            "bunk bed"
+        ],
+        "enhanced_objects": [
+            {
+                "object_id": 19,
+                "name": "sheep",
+                "artistic_description": "Fluffy wool catches the warm afternoon sunlight in soft dappled patches, creating a luminous effect where the white fleece glows with golden highlights and subtle cream tones. The wool appears slightly dusty from the dry meadow, with delicate shadows dancing across the rounded forms as gentle breezes ripple through the grass. Sunlight creates a halo effect around the animals, with warm amber and soft rose tones reflecting from the sunlit grass beneath.",
+                "size": "Large",
+                "state": "grazing peacefully, wool slightly dusty from dry conditions",
+                "primary_colors": [
+                    "warm cream",
+                    "golden white"
+                ],
+                "material": "wool"
+            },
+            {
+                "object_id": 27,
+                "name": "picnic basket",
+                "artistic_description": "Woven wicker glows with rich honey-gold tones under the bright afternoon sun, each strand casting delicate linear shadows that create a textured lattice effect. The natural fibers absorb and reflect light in varying degrees, with some areas gleaming brightly while others remain in soft shadow. A slight patina of age shows in the weathered reeds, with subtle variations of amber, sienna, and warm brown creating a painterly surface that shimmers in the heat.",
+                "size": "Medium",
+                "state": "weathered from outdoor use, natural aging",
+                "primary_colors": [
+                    "honey-gold",
+                    "warm sienna"
+                ],
+                "material": "wicker"
+            },
+            {
+                "object_id": 60,
+                "name": "bunk bed",
+                "artistic_description": "Painted wood surfaces catch the brilliant sunlight with a soft matte glow, the white paint showing subtle variations of warm ivory and pale yellow where direct light hits. Weathered edges reveal hints of the wood grain beneath, creating delicate texture. The structure casts crisp, cool shadows on the grass beneath, while the horizontal surfaces reflect the bright sky, adding touches of pale blue to the overall warm palette. The paint shows gentle signs of outdoor aging with a chalky, sun-bleached appearance.",
+                "size": "Large",
+                "state": "weathered outdoor furniture, sun-bleached paint",
+                "primary_colors": [
+                    "sun-bleached white",
+                    "pale ivory"
+                ],
+                "material": "painted wood"
+            }
+        ]
+    },
+    "composition": {
+        "spatial_relations": [
+            [
+                27,
+                "next to",
+                60
+            ],
+            [
+                19,
+                "next to",
+                27
+            ],
+            [
+                19,
+                "next to",
+                60
+            ]
+        ],
+        "semantic_relations": []
+    },
+    "environment": {
+        "environment_details": {
+            "scene_brief": "A countryside meadow centered around sheep, with picnic basket, and bunk bed",
+            "place365_name": "/f/field",
+            "place365_id": 21,
+            "time_of_day": "afternoon",
+            "weather": "sunny",
+            "period": "Contemporary",
+            "is_indoor": false,
+            "lighting": {
+                "type": "natural",
+                "quality": "soft",
+                "direction": "side-lit",
+                "mood": "warm",
+                "reasoning": "In the afternoon, the sun is lower in the sky, creating a warm, soft light that is less harsh than noon. Side-lighting is excellent for revealing the form and texture of the sheep and the picnic basket, creating depth and volume, which suits the Impressionist focus on visual perception."
+            },
+            "atmosphere": "bright and active and cheerful and gentle"
+        },
+        "scene_inference": {
+            "all_candidates": [
+                {
+                    "scene_type": "countryside meadow",
+                    "plausibility": 0.95,
+                    "reasoning": "A sheep is in its natural habitat in a meadow. A picnic basket is brought by humans for a meal outdoors. A bunk bed could be part of a nearby rustic cabin or even a whimsical piece of furniture placed directly in the field for a surreal touch, fitting the Impressionist style's focus on light and atmosphere over strict realism.",
+                    "object_interpretations": {
+                        "sheep": {
+                            "form": "real animal",
+                            "scale": "normal",
+                            "role": "primary subject"
+                        },
+                        "picnic basket": {
+                            "form": "real object",
+                            "scale": "normal",
+                            "role": "human artifact"
+                        },
+                        "bunk bed": {
+                            "form": "real furniture",
+                            "scale": "normal",
+                            "role": "scenic element or whimsical decoration"
+                        }
+                    },
+                    "scene_brief": "A countryside meadow centered around sheep, with picnic basket, and bunk bed"
+                },
+                {
+                    "scene_type": "farmhouse nursery",
+                    "plausibility": 0.9,
+                    "reasoning": "A pet sheep might be allowed inside a farmhouse. The bunk bed suggests a child's room. The picnic basket could be packed for a trip or sitting ready for an outing, creating a cozy domestic scene.",
+                    "object_interpretations": {
+                        "sheep": {
+                            "form": "real animal",
+                            "scale": "normal",
+                            "role": "pet"
+                        },
+                        "picnic basket": {
+                            "form": "real object",
+                            "scale": "normal",
+                            "role": "prop for outing"
+                        },
+                        "bunk bed": {
+                            "form": "real furniture",
+                            "scale": "normal",
+                            "role": "bedding"
+                        }
+                    }
+                },
+                {
+                    "scene_type": "artistic studio",
+                    "plausibility": 0.85,
+                    "reasoning": "The scene depicts an artist's studio where the objects are subjects for a painting. The sheep is a live model, the bunk bed is a set piece, and the picnic basket is a still-life prop. The Impressionist style emphasizes the play of light on these varied textures.",
+                    "object_interpretations": {
+                        "sheep": {
+                            "form": "real animal",
+                            "scale": "normal",
+                            "role": "model"
+                        },
+                        "picnic basket": {
+                            "form": "real object",
+                            "scale": "normal",
+                            "role": "still life subject"
+                        },
+                        "bunk bed": {
+                            "form": "real furniture",
+                            "scale": "normal",
+                            "role": "set piece"
+                        }
+                    }
+                },
+                {
+                    "scene_type": "vintage playground",
+                    "plausibility": 0.8,
+                    "reasoning": "The playground features a climbing structure shaped like a bunk bed. A pet sheep accompanies children. A picnic basket sits on the grass nearby. The Impressionist style blurs the edges of the children and the running sheep.",
+                    "object_interpretations": {
+                        "sheep": {
+                            "form": "real animal",
+                            "scale": "normal",
+                            "role": "companion"
+                        },
+                        "picnic basket": {
+                            "form": "real object",
+                            "scale": "normal",
+                            "role": "lunch container"
+                        },
+                        "bunk bed": {
+                            "form": "playground equipment",
+                            "scale": "large",
+                            "role": "climbing structure"
+                        }
+                    }
+                },
+                {
+                    "scene_type": "surreal dreamscape",
+                    "plausibility": 0.75,
+                    "reasoning": "A dreamlike landscape where a sheep floats on a cloud, a picnic basket hangs from a tree branch, and a bunk bed stands upright in a field of flowers. The Impressionist style enhances the ethereal and fleeting nature of the dream.",
+                    "object_interpretations": {
+                        "sheep": {
+                            "form": "real animal",
+                            "scale": "normal",
+                            "role": "dream figure"
+                        },
+                        "picnic basket": {
+                            "form": "real object",
+                            "scale": "normal",
+                            "role": "surreal decoration"
+                        },
+                        "bunk bed": {
+                            "form": "real furniture",
+                            "scale": "normal",
+                            "role": "surreal placement"
+                        }
+                    }
+                },
+                {
+                    "scene_type": "summer camp cabin",
+                    "plausibility": 0.9,
+                    "reasoning": "A bunk bed is standard in a summer camp cabin. A sheep might be a mascot or a pet kept nearby. A picnic basket is essential gear for campers heading out for the day.",
+                    "object_interpretations": {
+                        "sheep": {
+                            "form": "real animal",
+                            "scale": "normal",
+                            "role": "mascot"
+                        },
+                        "picnic basket": {
+                            "form": "real object",
+                            "scale": "normal",
+                            "role": "camp gear"
+                        },
+                        "bunk bed": {
+                            "form": "real furniture",
+                            "scale": "normal",
+                            "role": "sleeping quarters"
+                        }
+                    }
+                },
+                {
+                    "scene_type": "pastoral picnic",
+                    "plausibility": 0.95,
+                    "reasoning": "A family picnic in a pasture. The bunk bed might be a fold-out camping bed brought along, or a permanent fixture in a nearby shepherd's hut. The sheep grazes nearby.",
+                    "object_interpretations": {
+                        "sheep": {
+                            "form": "real animal",
+                            "scale": "normal",
+                            "role": "background wildlife"
+                        },
+                        "picnic basket": {
+                            "form": "real object",
+                            "scale": "normal",
+                            "role": "centerpiece"
+                        },
+                        "bunk bed": {
+                            "form": "camping furniture",
+                            "scale": "normal",
+                            "role": "seating/sleeping"
+                        }
+                    }
+                },
+                {
+                    "scene_type": "theater stage",
+                    "plausibility": 0.8,
+                    "reasoning": "A stage set for a play. The sheep is a costume character or a real animal actor. The bunk bed and picnic basket are props. The Impressionist style suggests the lighting and atmosphere of the theater.",
+                    "object_interpretations": {
+                        "sheep": {
+                            "form": "costume or real",
+                            "scale": "normal",
+                            "role": "actor"
+                        },
+                        "picnic basket": {
+                            "form": "prop",
+                            "scale": "normal",
+                            "role": "prop"
+                        },
+                        "bunk bed": {
+                            "form": "prop",
+                            "scale": "normal",
+                            "role": "prop"
+                        }
+                    }
+                }
+            ],
+            "selected_scene": {
+                "scene_type": "countryside meadow",
+                "plausibility": 0.95,
+                "reasoning": "A sheep is in its natural habitat in a meadow. A picnic basket is brought by humans for a meal outdoors. A bunk bed could be part of a nearby rustic cabin or even a whimsical piece of furniture placed directly in the field for a surreal touch, fitting the Impressionist style's focus on light and atmosphere over strict realism.",
+                "object_interpretations": {
+                    "sheep": {
+                        "form": "real animal",
+                        "scale": "normal",
+                        "role": "primary subject"
+                    },
+                    "picnic basket": {
+                        "form": "real object",
+                        "scale": "normal",
+                        "role": "human artifact"
+                    },
+                    "bunk bed": {
+                        "form": "real furniture",
+                        "scale": "normal",
+                        "role": "scenic element or whimsical decoration"
+                    }
+                },
+                "scene_brief": "A countryside meadow centered around sheep, with picnic basket, and bunk bed"
+            }
+        }
+    },
+    "final_prompts": {
+        "main_prompt": "A Impressionism painting depicting a bright and active afternoon scene with a gentle, cheerful atmosphere. In the foreground, a large sheep with warm cream and golden white wool grazes peacefully beside a weathered picnic basket in honey-gold and warm sienna wicker. The picnic basket sits next to a large, sun-bleached white and pale ivory bunk bed of painted wood, weathered from outdoor use. The sheep is positioned between the picnic basket and bunk bed, creating a triangular composition. Natural soft afternoon light filters through the scene, casting dappled shadows and highlighting the textured materials\u2014wool, wicker, and wood\u2014with visible brushstrokes that capture the lively, fleeting quality of the moment.",
+        "negative_prompt": "photorealistic, 3d render, modern, digital art, photograph, low quality, blurry, distorted, surreal, abstract, dark, gloomy, night, indoor, crowded, cluttered, text, watermark, signature, frame, border",
+        "prompt_formats": {
+            "simple": "An Impressionist painting of a sheep grazing beside a picnic basket and bunk bed on a cheerful afternoon.",
+            "complex": "A Impressionism painting depicting a bright and active afternoon scene with a gentle, cheerful atmosphere. In the foreground, a large sheep with warm cream and golden white wool grazes peacefully beside a weathered picnic basket in honey-gold and warm sienna wicker. The picnic basket sits next to a large, sun-bleached white and pale ivory bunk bed of painted wood, weathered from outdoor use. The sheep is positioned between the picnic basket and bunk bed, creating a triangular composition. Natural soft afternoon light filters through the scene, casting dappled shadows and highlighting the textured materials\u2014wool, wicker, and wood\u2014with visible brushstrokes that capture the lively, fleeting quality of the moment.",
+            "comma_separated": "Impressionism painting, sheep grazing, picnic basket, bunk bed, afternoon lighting, soft natural light, bright cheerful atmosphere, warm cream wool, honey-gold wicker, sun-bleached wood, outdoor scene, textured materials, visible brushstrokes, dappled shadows",
+            "tags": "art, painting, impressionism, outdoor, pastoral, animal, furniture, picnic, afternoon, light, texture, brushwork, cheerful, gentle"
+        }
+    }
+}

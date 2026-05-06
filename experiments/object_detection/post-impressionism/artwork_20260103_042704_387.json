@@ -1,0 +1,352 @@
+{
+    "artwork_id": "artwork_20260103_042704_387",
+    "generation_timestamp": "2026-01-03T04:27:36.456302",
+    "style": "Post-Impressionism",
+    "objects": {
+        "object_ids": [
+            20,
+            19,
+            59
+        ],
+        "object_names": [
+            "cow",
+            "lamb",
+            "potted plant"
+        ],
+        "enhanced_objects": [
+            {
+                "object_id": 20,
+                "name": "cow",
+                "artistic_description": "A monumental form rendered in bold, simplified shapes with thick, expressive brushstrokes. The hide shimmers with warm amber and burnt sienna tones, absorbing the sunset's glow while deep violet shadows pool beneath the belly and legs. The surface appears matte yet luminous, with visible texture from layered impasto technique. Whiskers of pale gold catch the fading light, while the eye reflects a tiny, intense point of orange sky.",
+                "size": "Large",
+                "state": "Serene and still, with a slightly ethereal quality as if momentarily suspended in the dreamlike atmosphere",
+                "primary_colors": [
+                    "burnt sienna",
+                    "deep violet"
+                ],
+                "material": "living hide and hair"
+            },
+            {
+                "object_id": 19,
+                "name": "lamb",
+                "artistic_description": "A compact, softly luminous shape covered in dense, woolly texture suggested by short, curving strokes of cream and pale honey. The fleece absorbs the warm light, creating a gentle, glowing halo effect around the form. Muted rose and soft amber tones wash across its surface, while the atmosphere subdues the edges into a dreamy, slightly blurred silhouette. The nose appears as a small, damp patch of cool mauve, catching subtle highlights.",
+                "size": "Medium",
+                "state": "Placid and contemplative, with a tender, vulnerable quality enhanced by the subdued light",
+                "primary_colors": [
+                    "cream",
+                    "pale honey"
+                ],
+                "material": "dense wool fleece"
+            },
+            {
+                "object_id": 59,
+                "name": "potted plant",
+                "artistic_description": "A cluster of stylized foliage rendered with deliberate, rhythmic strokes of deep emerald and olive, edged with golden highlights where the fading light filters through. The terracotta pot glows with warm, earthy orange, its rough texture visible in thick daubs of paint that catch the last rays. Leaves appear slightly dusty from the dry air, creating a matte finish that diffuses the light softly. Shadows are rich and velvety, with hints of deep blue and plum.",
+                "size": "Small",
+                "state": "Quietly thriving, with leaves that seem to hold the day's warmth in their surfaces",
+                "primary_colors": [
+                    "deep emerald",
+                    "warm orange"
+                ],
+                "material": "terracotta ceramic and living foliage"
+            }
+        ]
+    },
+    "composition": {
+        "spatial_relations": [
+            [
+                20,
+                "next to",
+                19
+            ],
+            [
+                59,
+                "next to",
+                19
+            ],
+            [
+                19,
+                "on",
+                59
+            ]
+        ],
+        "semantic_relations": []
+    },
+    "environment": {
+        "environment_details": {
+            "scene_brief": "A surreal dream landscape featuring cow, with lamb, and potted plant",
+            "place365_name": "/f/field",
+            "place365_id": 21,
+            "time_of_day": "sunset",
+            "weather": "cloudy",
+            "period": "Contemporary",
+            "is_indoor": false,
+            "lighting": {
+                "type": "natural",
+                "quality": "dramatic",
+                "direction": "side-lit",
+                "mood": "warm",
+                "reasoning": "Natural lighting from the sunset, filtered through clouds, creates a side-lit effect that highlights textures on the animals and plant, casting elongated shadows for depth. This dramatic yet warm quality suits Post-Impressionism's focus on expressive light and color, enhancing the surreal, dreamy atmosphere without overwhelming the scene."
+            },
+            "atmosphere": "warm and peaceful and subdued and striking"
+        },
+        "scene_inference": {
+            "all_candidates": [
+                {
+                    "scene_type": "rural farm pasture",
+                    "plausibility": 0.95,
+                    "reasoning": "A classic pastoral scene where a cow and lamb graze together in a field. The potted plant could be a decorative element on a nearby fence post or a newly planted sapling in the pasture.",
+                    "object_interpretations": {
+                        "cow": {
+                            "form": "real animal",
+                            "scale": "normal",
+                            "role": "primary subject"
+                        },
+                        "lamb": {
+                            "form": "real animal",
+                            "scale": "normal",
+                            "role": "secondary companion animal"
+                        },
+                        "potted plant": {
+                            "form": "real plant in pot",
+                            "scale": "normal",
+                            "role": "decorative element / garden feature"
+                        }
+                    }
+                },
+                {
+                    "scene_type": "farmhouse garden",
+                    "plausibility": 0.9,
+                    "reasoning": "A cow and lamb could be in a fenced garden area. The potted plant is naturally at home here, perhaps on a windowsill or patio.",
+                    "object_interpretations": {
+                        "cow": {
+                            "form": "real animal",
+                            "scale": "normal",
+                            "role": "garden visitor"
+                        },
+                        "lamb": {
+                            "form": "real animal",
+                            "scale": "normal",
+                            "role": "companion animal"
+                        },
+                        "potted plant": {
+                            "form": "real plant in decorative pot",
+                            "scale": "normal",
+                            "role": "garden decoration"
+                        }
+                    }
+                },
+                {
+                    "scene_type": "stable interior",
+                    "plausibility": 0.85,
+                    "reasoning": "A cow and lamb could share a stable or barn. The potted plant could be on a wooden beam or windowsill, adding a touch of green to the rustic interior.",
+                    "object_interpretations": {
+                        "cow": {
+                            "form": "real animal",
+                            "scale": "normal",
+                            "role": "stable occupant"
+                        },
+                        "lamb": {
+                            "form": "real animal",
+                            "scale": "normal",
+                            "role": "stable companion"
+                        },
+                        "potted plant": {
+                            "form": "real plant",
+                            "scale": "normal",
+                            "role": "interior decoration"
+                        }
+                    }
+                },
+                {
+                    "scene_type": "artistic studio",
+                    "plausibility": 0.8,
+                    "reasoning": "In a Post-Impressionist art studio, the animals could be models (stuffed or sculptures) for a still life painting. The potted plant is a common studio prop.",
+                    "object_interpretations": {
+                        "cow": {
+                            "form": "sculpture or taxidermy",
+                            "scale": "normal or slightly smaller",
+                            "role": "art model"
+                        },
+                        "lamb": {
+                            "form": "sculpture or taxidermy",
+                            "scale": "normal or slightly smaller",
+                            "role": "art model"
+                        },
+                        "potted plant": {
+                            "form": "real plant",
+                            "scale": "normal",
+                            "role": "studio prop"
+                        }
+                    }
+                },
+                {
+                    "scene_type": "village market square",
+                    "plausibility": 0.75,
+                    "reasoning": "A cow and lamb could be tethered at a rural market. A potted plant could be on a vendor's table nearby selling gardening supplies.",
+                    "object_interpretations": {
+                        "cow": {
+                            "form": "real animal",
+                            "scale": "normal",
+                            "role": "market animal"
+                        },
+                        "lamb": {
+                            "form": "real animal",
+                            "scale": "normal",
+                            "role": "market animal"
+                        },
+                        "potted plant": {
+                            "form": "real plant in pot",
+                            "scale": "normal",
+                            "role": "market merchandise"
+                        }
+                    }
+                },
+                {
+                    "scene_type": "children's storybook illustration",
+                    "plausibility": 0.9,
+                    "reasoning": "In a stylized storybook world, a cow and lamb could be friends. The potted plant could be anthropomorphized or part of a magical garden.",
+                    "object_interpretations": {
+                        "cow": {
+                            "form": "cartoon/illustrated animal",
+                            "scale": "normal",
+                            "role": "story character"
+                        },
+                        "lamb": {
+                            "form": "cartoon/illustrated animal",
+                            "scale": "normal",
+                            "role": "story character"
+                        },
+                        "potted plant": {
+                            "form": "illustrated plant",
+                            "scale": "normal",
+                            "role": "scene decoration"
+                        }
+                    }
+                },
+                {
+                    "scene_type": "pastoral landscape painting",
+                    "plausibility": 0.95,
+                    "reasoning": "A traditional landscape painting featuring a cow and lamb in a field. The potted plant could be a small detail like a flower pot on a distant farmhouse porch.",
+                    "object_interpretations": {
+                        "cow": {
+                            "form": "real animal (in painting)",
+                            "scale": "normal",
+                            "role": "landscape element"
+                        },
+                        "lamb": {
+                            "form": "real animal (in painting)",
+                            "scale": "normal",
+                            "role": "landscape element"
+                        },
+                        "potted plant": {
+                            "form": "real plant (in painting)",
+                            "scale": "normal",
+                            "role": "background detail"
+                        }
+                    }
+                },
+                {
+                    "scene_type": "petting zoo",
+                    "plausibility": 0.9,
+                    "reasoning": "A cow and lamb are common petting zoo animals. The potted plant could be in a protected area or on a bench.",
+                    "object_interpretations": {
+                        "cow": {
+                            "form": "real animal",
+                            "scale": "normal",
+                            "role": "attraction animal"
+                        },
+                        "lamb": {
+                            "form": "real animal",
+                            "scale": "normal",
+                            "role": "attraction animal"
+                        },
+                        "potted plant": {
+                            "form": "real plant",
+                            "scale": "normal",
+                            "role": "enclosure decoration"
+                        }
+                    }
+                },
+                {
+                    "scene_type": "surreal dream landscape",
+                    "plausibility": 0.7,
+                    "reasoning": "A Post-Impressionist/Surreal scene where a cow and lamb float in a dreamlike landscape. The potted plant could be growing from a cloud or floating island.",
+                    "object_interpretations": {
+                        "cow": {
+                            "form": "real animal (surreal context)",
+                            "scale": "normal",
+                            "role": "dream figure"
+                        },
+                        "lamb": {
+                            "form": "real animal (surreal context)",
+                            "scale": "normal",
+                            "role": "dream figure"
+                        },
+                        "potted plant": {
+                            "form": "real plant",
+                            "scale": "normal",
+                            "role": "surreal element"
+                        }
+                    },
+                    "scene_brief": "A surreal dream landscape featuring cow, with lamb, and potted plant"
+                },
+                {
+                    "scene_type": "botanical garden",
+                    "plausibility": 0.8,
+                    "reasoning": "A botanical garden with a pastoral section. The cow and lamb could be in a designated farm animal area, while the potted plant is part of the main collection.",
+                    "object_interpretations": {
+                        "cow": {
+                            "form": "real animal",
+                            "scale": "normal",
+                            "role": "exhibit animal"
+                        },
+                        "lamb": {
+                            "form": "real animal",
+                            "scale": "normal",
+                            "role": "exhibit animal"
+                        },
+                        "potted plant": {
+                            "form": "real plant",
+                            "scale": "normal",
+                            "role": "botanical specimen"
+                        }
+                    }
+                }
+            ],
+            "selected_scene": {
+                "scene_type": "surreal dream landscape",
+                "plausibility": 0.7,
+                "reasoning": "A Post-Impressionist/Surreal scene where a cow and lamb float in a dreamlike landscape. The potted plant could be growing from a cloud or floating island.",
+                "object_interpretations": {
+                    "cow": {
+                        "form": "real animal (surreal context)",
+                        "scale": "normal",
+                        "role": "dream figure"
+                    },
+                    "lamb": {
+                        "form": "real animal (surreal context)",
+                        "scale": "normal",
+                        "role": "dream figure"
+                    },
+                    "potted plant": {
+                        "form": "real plant",
+                        "scale": "normal",
+                        "role": "surreal element"
+                    }
+                },
+                "scene_brief": "A surreal dream landscape featuring cow, with lamb, and potted plant"
+            }
+        }
+    },
+    "final_prompts": {
+        "main_prompt": "A Post-Impressionism painting depicting a serene sunset scene where a large cow in burnt sienna and deep violet stands serenely next to a medium-sized lamb in cream and pale honey, which sits placidly and contemplatively atop a small potted plant with deep emerald leaves and warm orange accents, quietly thriving in its terracotta pot. The spatial arrangement creates a triangular composition in the foreground, with the cow's living hide and the lamb's dense wool fleece contrasting against the plant's living foliage. Natural dramatic sunset lighting bathes the scene in warm golden hues, casting elongated shadows and creating a peaceful, subdued yet striking atmosphere where the warm colors of the animals harmonize with the plant's vibrant tones against the fading twilight sky.",
+        "negative_prompt": "photorealistic, 3d render, modern, digital art, photograph, low quality, blurry, distorted, cartoon, anime, surreal, abstract, text, watermark, signature, frame, border",
+        "prompt_formats": {
+            "simple": "A Post-Impressionism painting of a cow next to a lamb sitting on a potted plant at sunset.",
+            "complex": "A Post-Impressionism painting depicting a serene sunset scene where a large cow in burnt sienna and deep violet stands serenely next to a medium-sized lamb in cream and pale honey, which sits placidly and contemplatively atop a small potted plant with deep emerald leaves and warm orange accents, quietly thriving in its terracotta pot. The spatial arrangement creates a triangular composition in the foreground, with the cow's living hide and the lamb's dense wool fleece contrasting against the plant's living foliage. Natural dramatic sunset lighting bathes the scene in warm golden hues, casting elongated shadows and creating a peaceful, subdued yet striking atmosphere where the warm colors of the animals harmonize with the plant's vibrant tones against the fading twilight sky.",
+            "comma_separated": "Post-Impressionism painting, cow next to lamb, lamb on potted plant, large burnt sienna cow, medium cream lamb, small emerald potted plant, sunset lighting, warm peaceful atmosphere, dramatic natural light, serene composition, living hide, wool fleece, terracotta pot, foliage, subdued striking colors",
+            "tags": "art, painting, post-impressionism, animal art, sunset scene, cow, lamb, potted plant, still life, warm colors, peaceful atmosphere, natural lighting, composition, foreground focus"
+        }
+    }
+}

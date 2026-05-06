@@ -1,0 +1,347 @@
+{
+    "artwork_id": "artwork_20260103_213416_838",
+    "generation_timestamp": "2026-01-03T21:34:57.777686",
+    "style": "Chinese Ink Painting",
+    "objects": {
+        "object_ids": [
+            57,
+            40,
+            15
+        ],
+        "object_names": [
+            "stand",
+            "bottle",
+            "eagle"
+        ],
+        "enhanced_objects": [
+            {
+                "object_id": 57,
+                "name": "stand",
+                "artistic_description": "A weathered wooden stand rendered in deep sepia tones with subtle gradations of ink wash. The surface shows the characteristic grain of aged wood, captured with dry brush strokes that suggest texture. Soft, warm ambient light from the cellar creates gentle highlights on the rounded edges while shadows pool in the crevices. The wood appears dry and matte, absorbing light rather than reflecting it, with subtle variations in tone suggesting years of quiet service.",
+                "size": "Medium",
+                "state": "aged and well-worn",
+                "primary_colors": [
+                    "deep sepia brown",
+                    "charcoal gray"
+                ],
+                "material": "wood"
+            },
+            {
+                "object_id": 40,
+                "name": "bottle",
+                "artistic_description": "A glass wine bottle depicted with delicate ink washes and precise line work. The curved form is outlined with fine, confident strokes, while the glass surface is suggested through subtle gradations from deep indigo to pale gray, indicating transparency and depth. Mixed cellar lighting catches the rounded shoulder with a soft highlight, creating a gentle luminosity. The bottle appears cool to the touch, with condensation hinted at through tiny, scattered dots of lighter ink.",
+                "size": "Small",
+                "state": "full and pristine",
+                "primary_colors": [
+                    "deep indigo",
+                    "translucent gray"
+                ],
+                "material": "glass"
+            },
+            {
+                "object_id": 15,
+                "name": "eagle",
+                "artistic_description": "A majestic eagle rendered in bold, expressive strokes of varying ink density. The feathers are suggested through layered washes of deep black and charcoal, with dry brush techniques creating texture and depth. The form emerges from the shadows with powerful presence, eyes rendered as sharp, focused dots that capture the dim light. Wings are partially unfurled with dynamic, sweeping strokes that convey both stillness and potential energy. The bird appears as a silhouette against the muted atmosphere, its dark plumage absorbing the soft cellar light.",
+                "size": "Large",
+                "state": "alert and poised",
+                "primary_colors": [
+                    "deep black",
+                    "charcoal"
+                ],
+                "material": ""
+            }
+        ]
+    },
+    "composition": {
+        "spatial_relations": [
+            [
+                40,
+                "on",
+                57
+            ],
+            [
+                15,
+                "next to",
+                57
+            ]
+        ],
+        "semantic_relations": []
+    },
+    "environment": {
+        "environment_details": {
+            "scene_brief": "A Wine Cellar featuring stand, with bottle, and eagle",
+            "place365_name": "/l/living_room",
+            "place365_id": 215,
+            "time_of_day": "evening",
+            "weather": null,
+            "period": "Contemporary",
+            "is_indoor": true,
+            "lighting": {
+                "type": "mixed",
+                "quality": "soft",
+                "direction": "side-lit",
+                "mood": "warm",
+                "reasoning": "A mix of fading natural light (sunset/sunrise) and warm artificial light (candle or lamp) fits the 'evening' time. Soft, side-lit lighting creates gentle shadows on the bottle and eagle, enhancing the textural details suitable for ink wash techniques while maintaining a warm, intimate mood."
+            },
+            "atmosphere": "calm and relaxed and gentle"
+        },
+        "scene_inference": {
+            "all_candidates": [
+                {
+                    "scene_type": "Scholar's Studio",
+                    "plausibility": 0.95,
+                    "reasoning": "In a traditional Chinese scholar's studio, a brush stand (pen holder) is the primary object. An eagle-feather quill or a depiction of an eagle can be present. A bottle of ink or wine fits perfectly. The ink painting style is native to this setting.",
+                    "object_interpretations": {
+                        "stand": {
+                            "form": "brush holder",
+                            "scale": "normal",
+                            "role": "primary functional object"
+                        },
+                        "bottle": {
+                            "form": "ink bottle",
+                            "scale": "normal",
+                            "role": "stationery supply"
+                        },
+                        "eagle": {
+                            "form": "painting on scroll",
+                            "scale": "small",
+                            "role": "wall art/decoration"
+                        }
+                    }
+                },
+                {
+                    "scene_type": "Mountain Peak",
+                    "plausibility": 0.9,
+                    "reasoning": "A jagged rock formation (stand) dominates the landscape. An eagle perches atop it. A small bottle gourd hangs from a branch on the rock, perhaps containing elixir or wine.",
+                    "object_interpretations": {
+                        "stand": {
+                            "form": "rock formation",
+                            "scale": "large",
+                            "role": "landscape feature"
+                        },
+                        "bottle": {
+                            "form": "gourd flask",
+                            "scale": "small",
+                            "role": "prop/texture element"
+                        },
+                        "eagle": {
+                            "form": "real bird",
+                            "scale": "normal",
+                            "role": "primary subject"
+                        }
+                    }
+                },
+                {
+                    "scene_type": "Ancient Temple Altar",
+                    "plausibility": 0.85,
+                    "reasoning": "A ceremonial stand holds offerings. A bottle of wine or oil is offered. An eagle statue or painting watches over the altar as a guardian spirit.",
+                    "object_interpretations": {
+                        "stand": {
+                            "form": "wooden altar table",
+                            "scale": "normal",
+                            "role": "support structure"
+                        },
+                        "bottle": {
+                            "form": "ceramic wine vessel",
+                            "scale": "normal",
+                            "role": "offering"
+                        },
+                        "eagle": {
+                            "form": "stone carving",
+                            "scale": "small",
+                            "role": "guardian figure"
+                        }
+                    }
+                },
+                {
+                    "scene_type": "Wine Cellar",
+                    "plausibility": 0.8,
+                    "reasoning": "A wine rack (stand) holds bottles. A vintage bottle is the focus. An eagle might be depicted on the label of the bottle or as a coat of arms on the wall.",
+                    "object_interpretations": {
+                        "stand": {
+                            "form": "wine rack",
+                            "scale": "normal",
+                            "role": "storage"
+                        },
+                        "bottle": {
+                            "form": "wine bottle",
+                            "scale": "normal",
+                            "role": "primary object"
+                        },
+                        "eagle": {
+                            "form": "label graphic",
+                            "scale": "tiny",
+                            "role": "branding detail"
+                        }
+                    },
+                    "scene_brief": "A Wine Cellar featuring stand, with bottle, and eagle"
+                },
+                {
+                    "scene_type": "Forest Canopy",
+                    "plausibility": 0.85,
+                    "reasoning": "A large tree stump (stand) rises from the forest floor. An eagle sits on a high branch. A bottle is half-buried in the moss at the base of the stump.",
+                    "object_interpretations": {
+                        "stand": {
+                            "form": "tree stump",
+                            "scale": "large",
+                            "role": "natural perch"
+                        },
+                        "bottle": {
+                            "form": "broken glass bottle",
+                            "scale": "normal",
+                            "role": "found object/trash"
+                        },
+                        "eagle": {
+                            "form": "real bird",
+                            "scale": "normal",
+                            "role": "inhabitant"
+                        }
+                    }
+                },
+                {
+                    "scene_type": "Calligraphy Market",
+                    "plausibility": 0.9,
+                    "reasoning": "A merchant's stall displays scrolls on a stand. A bottle of ink is for sale. A small eagle statue is a curio on the counter.",
+                    "object_interpretations": {
+                        "stand": {
+                            "form": "display easel",
+                            "scale": "normal",
+                            "role": "merchant equipment"
+                        },
+                        "bottle": {
+                            "form": "ink bottle",
+                            "scale": "normal",
+                            "role": "merchandise"
+                        },
+                        "eagle": {
+                            "form": "jade figurine",
+                            "scale": "small",
+                            "role": "curio"
+                        }
+                    }
+                },
+                {
+                    "scene_type": "Cliffside Pavilion",
+                    "plausibility": 0.85,
+                    "reasoning": "A wooden stand supports a telescope or spyglass. An eagle flies in the distance. A bottle of water sits on the railing.",
+                    "object_interpretations": {
+                        "stand": {
+                            "form": "tripod stand",
+                            "scale": "normal",
+                            "role": "support for instrument"
+                        },
+                        "bottle": {
+                            "form": "canteen",
+                            "scale": "normal",
+                            "role": "traveler's gear"
+                        },
+                        "eagle": {
+                            "form": "real bird",
+                            "scale": "distant",
+                            "role": "background element"
+                        }
+                    }
+                },
+                {
+                    "scene_type": "Imperial Palace Garden",
+                    "plausibility": 0.8,
+                    "reasoning": "A decorative pedestal (stand) holds a vase. A bottle-shaped vase is present. An eagle is the subject of a painted motif on the vase.",
+                    "object_interpretations": {
+                        "stand": {
+                            "form": "marble pedestal",
+                            "scale": "normal",
+                            "role": "display base"
+                        },
+                        "bottle": {
+                            "form": "porcelain vase",
+                            "scale": "normal",
+                            "role": "decorative vessel"
+                        },
+                        "eagle": {
+                            "form": "painted motif",
+                            "scale": "small",
+                            "role": "artistic detail"
+                        }
+                    }
+                },
+                {
+                    "scene_type": "Dining Table",
+                    "plausibility": 0.75,
+                    "reasoning": "A napkin ring (stand) holds a napkin. A bottle of wine sits nearby. An eagle feather is used as a decorative quill or centerpiece.",
+                    "object_interpretations": {
+                        "stand": {
+                            "form": "napkin ring",
+                            "scale": "tiny",
+                            "role": "table accessory"
+                        },
+                        "bottle": {
+                            "form": "wine bottle",
+                            "scale": "normal",
+                            "role": "beverage"
+                        },
+                        "eagle": {
+                            "form": "feather",
+                            "scale": "small",
+                            "role": "centerpiece"
+                        }
+                    }
+                },
+                {
+                    "scene_type": "Museum Display",
+                    "plausibility": 0.9,
+                    "reasoning": "A museum stand holds a glass case. Inside the case is a historic bottle. A painting of an eagle hangs on the wall behind it.",
+                    "object_interpretations": {
+                        "stand": {
+                            "form": "pedestal display",
+                            "scale": "normal",
+                            "role": "museum fixture"
+                        },
+                        "bottle": {
+                            "form": "artifact",
+                            "scale": "normal",
+                            "role": "exhibit"
+                        },
+                        "eagle": {
+                            "form": "painting",
+                            "scale": "large",
+                            "role": "wall art"
+                        }
+                    }
+                }
+            ],
+            "selected_scene": {
+                "scene_type": "Wine Cellar",
+                "plausibility": 0.8,
+                "reasoning": "A wine rack (stand) holds bottles. A vintage bottle is the focus. An eagle might be depicted on the label of the bottle or as a coat of arms on the wall.",
+                "object_interpretations": {
+                    "stand": {
+                        "form": "wine rack",
+                        "scale": "normal",
+                        "role": "storage"
+                    },
+                    "bottle": {
+                        "form": "wine bottle",
+                        "scale": "normal",
+                        "role": "primary object"
+                    },
+                    "eagle": {
+                        "form": "label graphic",
+                        "scale": "tiny",
+                        "role": "branding detail"
+                    }
+                },
+                "scene_brief": "A Wine Cellar featuring stand, with bottle, and eagle"
+            }
+        }
+    },
+    "final_prompts": {
+        "main_prompt": "A Chinese Ink Painting painting depicting a calm and relaxed evening scene with gentle, mixed soft lighting. In the foreground, a large eagle with deep black and charcoal plumage stands alert and poised beside an aged, well-worn stand of deep sepia brown and charcoal gray wood. Upon this stand sits a small, pristine bottle of deep indigo and translucent gray glass, appearing full and carefully placed. The composition flows from these detailed foreground elements into a serene midground of misty mountains and a background of fading distant peaks, all rendered in the expressive brushstrokes and subtle ink washes characteristic of classical Chinese landscape painting. The atmosphere is tranquil and contemplative, with the soft evening light casting gentle shadows and creating a harmonious balance between the poised eagle, the enduring stand, and the delicate bottle.",
+        "negative_prompt": "photorealistic, 3d render, modern, digital art, photograph, low quality, blurry, distorted, cartoon, anime, western style, vibrant colors, saturated, sharp details, photobashing, text, signature, watermark, frame, border",
+        "prompt_formats": {
+            "simple": "A Chinese ink painting of an eagle standing beside a wooden stand holding an indigo bottle during a calm evening.",
+            "complex": "A Chinese Ink Painting painting depicting a calm and relaxed evening scene with gentle, mixed soft lighting. In the foreground, a large eagle with deep black and charcoal plumage stands alert and poised beside an aged, well-worn stand of deep sepia brown and charcoal gray wood. Upon this stand sits a small, pristine bottle of deep indigo and translucent gray glass, appearing full and carefully placed. The composition flows from these detailed foreground elements into a serene midground of misty mountains and a background of fading distant peaks, all rendered in the expressive brushstrokes and subtle ink washes characteristic of classical Chinese landscape painting. The atmosphere is tranquil and contemplative, with the soft evening light casting gentle shadows and creating a harmonious balance between the poised eagle, the enduring stand, and the delicate bottle.",
+            "comma_separated": "Chinese Ink Painting, eagle standing next to wooden stand, bottle on stand, large black eagle, aged sepia brown stand, small indigo glass bottle, calm evening atmosphere, soft lighting, misty mountains, serene landscape, ink wash, brushstrokes, tranquil, gentle",
+            "tags": "art, painting, chinese ink painting, shan shui, eagle, bird of prey, stand, bottle, still life, evening, calm, serene, ink wash, brushwork, landscape, traditional art"
+        }
+    }
+}

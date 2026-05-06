@@ -1,0 +1,281 @@
+{
+    "artwork_id": "artwork_20260103_211545_301",
+    "generation_timestamp": "2026-01-03T21:16:14.377498",
+    "style": "Chinese Ink Painting",
+    "objects": {
+        "object_ids": [
+            50,
+            9,
+            76
+        ],
+        "object_names": [
+            "orange",
+            "canoe",
+            "vase"
+        ],
+        "enhanced_objects": [
+            {
+                "object_id": 50,
+                "name": "orange",
+                "artistic_description": "A single orange rendered with soft ink washes, its surface glowing with warm amber tones from afternoon sunlight filtering through gallery windows. The peel shows subtle texture through delicate brushstrokes, with a matte finish that absorbs rather than reflects the bright natural light. Gentle shadows create depth along its natural curves, while the vibrant citrus color maintains its cheerful saturation against the neutral gallery walls.",
+                "size": "Small",
+                "state": "fresh and whole, perfectly preserved contemporary specimen",
+                "primary_colors": [
+                    "warm amber",
+                    "soft orange"
+                ],
+                "material": "organic fruit"
+            },
+            {
+                "object_id": 9,
+                "name": "canoe",
+                "artistic_description": "A miniature canoe model rendered in traditional ink techniques, its wooden surfaces showing rich grain patterns through layered gray and brown washes. Sunlight from above creates subtle highlights along the curved hull, emphasizing the smooth, polished finish. The natural wood tones are warmed by afternoon light, while delicate ink lines capture the refined craftsmanship of this contemporary display piece.",
+                "size": "Medium",
+                "state": "pristine model, polished and carefully maintained",
+                "primary_colors": [
+                    "warm brown",
+                    "charcoal gray"
+                ],
+                "material": "wood"
+            },
+            {
+                "object_id": 76,
+                "name": "vase",
+                "artistic_description": "An elegant ceramic vase painted with flowing ink motifs, its glossy surface catching and reflecting the bright gallery light in soft, diffused highlights. The afternoon sun reveals subtle variations in the glaze, from deep midnight tones to lighter celadon washes. Delicate brushwork depicting traditional patterns appears both sharp and ethereal, while the smooth ceramic body maintains a cool, serene presence in the cheerful atmosphere.",
+                "size": "Medium",
+                "state": "flawless contemporary ceramic, high-gloss glaze intact",
+                "primary_colors": [
+                    "deep midnight blue",
+                    "soft celadon"
+                ],
+                "material": "ceramic"
+            }
+        ]
+    },
+    "composition": {
+        "spatial_relations": [
+            [
+                50,
+                "on",
+                9
+            ],
+            [
+                76,
+                "next to",
+                9
+            ]
+        ],
+        "semantic_relations": []
+    },
+    "environment": {
+        "environment_details": {
+            "scene_brief": "A Art Gallery Exhibition featuring orange, with canoe model, and vase",
+            "place365_name": "/a/art_gallery",
+            "place365_id": 19,
+            "time_of_day": "afternoon",
+            "weather": "sunny",
+            "period": "Contemporary",
+            "is_indoor": true,
+            "lighting": {
+                "type": "natural",
+                "quality": "soft",
+                "direction": "side-lit",
+                "mood": "warm",
+                "reasoning": "Chinese Ink Painting relies on subtle gradations and atmosphere. Soft, side-lit natural light (from windows) creates gentle shadows and highlights the textures of the objects without harsh contrast. The 'warm' mood aligns with the 'orange' color and the 'afternoon' time."
+            },
+            "atmosphere": "bright and active and cheerful and gentle"
+        },
+        "scene_inference": {
+            "all_candidates": [
+                {
+                    "scene_type": "Traditional Scholar's Studio",
+                    "plausibility": 0.95,
+                    "reasoning": "In a scholar's studio, an orange can be a fresh fruit on a desk, a vase can hold flowers, and a canoe can be a small decorative model or a painting on the wall, fitting the contemplative and artistic theme.",
+                    "object_interpretations": {
+                        "orange": {
+                            "form": "real fruit",
+                            "scale": "normal",
+                            "role": "fresh offering or snack"
+                        },
+                        "canoe": {
+                            "form": "miniature model",
+                            "scale": "small (1:20)",
+                            "role": "decorative object on shelf"
+                        },
+                        "vase": {
+                            "form": "ceramic vessel",
+                            "scale": "normal",
+                            "role": "container for plum blossoms"
+                        }
+                    }
+                },
+                {
+                    "scene_type": "Mountain River Landscape",
+                    "plausibility": 0.9,
+                    "reasoning": "A canoe floats on a misty river, an orange tree grows on the riverbank, and a vase might be an ancient artifact half-buried in the mud or a decorative pot near a hut.",
+                    "object_interpretations": {
+                        "orange": {
+                            "form": "fruit on tree",
+                            "scale": "normal",
+                            "role": "natural element of the landscape"
+                        },
+                        "canoe": {
+                            "form": "real boat",
+                            "scale": "full-size",
+                            "role": "primary mode of transport"
+                        },
+                        "vase": {
+                            "form": "ancient pottery",
+                            "scale": "large",
+                            "role": "archaeological find or garden planter"
+                        }
+                    }
+                },
+                {
+                    "scene_type": "Rustic Kitchen Interior",
+                    "plausibility": 0.85,
+                    "reasoning": "An orange sits in a fruit bowl, a vase holds wildflowers on the table, and a toy canoe sits on a high shelf as a child's plaything or family heirloom.",
+                    "object_interpretations": {
+                        "orange": {
+                            "form": "real fruit",
+                            "scale": "normal",
+                            "role": "food item"
+                        },
+                        "canoe": {
+                            "form": "toy model",
+                            "scale": "miniature",
+                            "role": "nostalgic decoration"
+                        },
+                        "vase": {
+                            "form": "earthenware jar",
+                            "scale": "medium",
+                            "role": "kitchen utility item"
+                        }
+                    }
+                },
+                {
+                    "scene_type": "Art Gallery Exhibition",
+                    "plausibility": 0.8,
+                    "reasoning": "The scene is a gallery displaying Chinese Ink Paintings. The 'orange' is a hyper-realistic sculpture, the 'canoe' is a skeletal wireframe model, and the 'vase' is a shattered ceramic piece preserved in a display case.",
+                    "object_interpretations": {
+                        "orange": {
+                            "form": "sculpture",
+                            "scale": "enlarged",
+                            "role": "art installation"
+                        },
+                        "canoe": {
+                            "form": "wireframe model",
+                            "scale": "medium",
+                            "role": "abstract art piece"
+                        },
+                        "vase": {
+                            "form": "fragmented artifact",
+                            "scale": "normal",
+                            "role": "museum exhibit"
+                        }
+                    },
+                    "scene_brief": "A Art Gallery Exhibition featuring orange, with canoe model, and vase"
+                },
+                {
+                    "scene_type": "Foggy Harbor at Dawn",
+                    "plausibility": 0.9,
+                    "reasoning": "A canoe is tied to a pier, a crate of oranges sits waiting for shipment, and a decorative vase sits on a railing overlooking the water.",
+                    "object_interpretations": {
+                        "orange": {
+                            "form": "cargo",
+                            "scale": "basket of fruit",
+                            "role": "trade good"
+                        },
+                        "canoe": {
+                            "form": "fishing boat",
+                            "scale": "full-size",
+                            "role": "work vessel"
+                        },
+                        "vase": {
+                            "form": "ornamental pot",
+                            "scale": "medium",
+                            "role": "pier decoration"
+                        }
+                    }
+                },
+                {
+                    "scene_type": "Botanical Greenhouse",
+                    "plausibility": 0.85,
+                    "reasoning": "An orange tree bears fruit, a vase is used as a planter for a fern, and a canoe is repurposed as a unique raised garden bed.",
+                    "object_interpretations": {
+                        "orange": {
+                            "form": "growing fruit",
+                            "scale": "normal",
+                            "role": "botanical specimen"
+                        },
+                        "canoe": {
+                            "form": "hollowed boat",
+                            "scale": "large",
+                            "role": "garden planter"
+                        },
+                        "vase": {
+                            "form": "clay pot",
+                            "scale": "medium",
+                            "role": "plant container"
+                        }
+                    }
+                },
+                {
+                    "scene_type": "Dream/Surreal Space",
+                    "plausibility": 0.7,
+                    "reasoning": "In a surrealist interpretation, an orange floats in the sky like a sun, a canoe sails through the clouds, and a vase acts as a portal or doorway.",
+                    "object_interpretations": {
+                        "orange": {
+                            "form": "celestial body",
+                            "scale": "massive",
+                            "role": "light source"
+                        },
+                        "canoe": {
+                            "form": "ethereal boat",
+                            "scale": "variable",
+                            "role": "traveler's vessel"
+                        },
+                        "vase": {
+                            "form": "magical container",
+                            "scale": "large",
+                            "role": "gateway"
+                        }
+                    }
+                }
+            ],
+            "selected_scene": {
+                "scene_type": "Art Gallery Exhibition",
+                "plausibility": 0.8,
+                "reasoning": "The scene is a gallery displaying Chinese Ink Paintings. The 'orange' is a hyper-realistic sculpture, the 'canoe' is a skeletal wireframe model, and the 'vase' is a shattered ceramic piece preserved in a display case.",
+                "object_interpretations": {
+                    "orange": {
+                        "form": "sculpture",
+                        "scale": "enlarged",
+                        "role": "art installation"
+                    },
+                    "canoe": {
+                        "form": "wireframe model",
+                        "scale": "medium",
+                        "role": "abstract art piece"
+                    },
+                    "vase": {
+                        "form": "fragmented artifact",
+                        "scale": "normal",
+                        "role": "museum exhibit"
+                    }
+                },
+                "scene_brief": "A Art Gallery Exhibition featuring orange, with canoe model, and vase"
+            }
+        }
+    },
+    "final_prompts": {
+        "main_prompt": "A Chinese Ink Painting painting depicting a bright and active afternoon scene with a gentle, cheerful atmosphere. In the foreground, a medium-sized, pristine model canoe in warm brown and charcoal gray ink strokes rests upon calm water. Sitting atop the canoe's curved wooden surface is a small, fresh and whole orange rendered in soft orange and warm amber tones. Beside the canoe, positioned on the riverbank, stands a medium-sized, flawless contemporary ceramic vase, its form elegantly captured in deep midnight blue and soft celadon washes. The natural, soft afternoon light filters through the scene, creating a luminous quality that highlights the organic textures of the fruit, wood, and ceramic. The composition flows with the characteristic spontaneity and expressive brushwork of ink painting, where the spatial relationships\u2014the orange on the canoe, the vase beside it\u2014anchor the serene yet lively riverside environment.",
+        "negative_prompt": "photorealistic, 3d render, modern, digital art, photograph, low quality, blurry, distorted, western style, oil painting, watercolor, cartoon, anime, text, signature, frame, border, ugly, deformed, noisy",
+        "prompt_formats": {
+            "simple": "A Chinese ink painting of an orange on a canoe with a vase beside it on a bright, cheerful afternoon.",
+            "complex": "A Chinese Ink Painting painting depicting a bright and active afternoon scene with a gentle, cheerful atmosphere. In the foreground, a medium-sized, pristine model canoe in warm brown and charcoal gray ink strokes rests upon calm water. Sitting atop the canoe's curved wooden surface is a small, fresh and whole orange rendered in soft orange and warm amber tones. Beside the canoe, positioned on the riverbank, stands a medium-sized, flawless contemporary ceramic vase, its form elegantly captured in deep midnight blue and soft celadon washes. The natural, soft afternoon light filters through the scene, creating a luminous quality that highlights the organic textures of the fruit, wood, and ceramic. The composition flows with the characteristic spontaneity and expressive brushwork of ink painting, where the spatial relationships\u2014the orange on the canoe, the vase beside it\u2014anchor the serene yet lively riverside environment.",
+            "comma_separated": "Chinese Ink Painting, orange on canoe, vase beside canoe, afternoon, natural soft lighting, bright active cheerful gentle atmosphere, small fresh orange, medium pristine canoe, medium flawless ceramic vase, warm amber, soft orange, warm brown, charcoal gray, deep midnight blue, soft celadon, organic textures, riverside scene, expressive brushwork",
+            "tags": "art, painting, chinese ink painting, shuimo, ink wash, orange, canoe, vase, still life, riverscape, afternoon light, cheerful, gentle, organic materials, traditional art"
+        }
+    }
+}

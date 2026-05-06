@@ -1,0 +1,313 @@
+{
+    "artwork_id": "artwork_20260103_142920_359",
+    "generation_timestamp": "2026-01-03T14:30:01.180060",
+    "style": "Baroque",
+    "objects": {
+        "object_ids": [
+            70,
+            51,
+            59,
+            20
+        ],
+        "object_names": [
+            "oven",
+            "asparagus",
+            "iris",
+            "cow"
+        ],
+        "enhanced_objects": [
+            {
+                "object_id": 70,
+                "name": "oven",
+                "artistic_description": "A massive, weathered brick oven dominates the space with rich, warm tones glowing under the afternoon sun streaming through windows. The rough-hewn bricks display deep ochre and burnt sienna hues, their textured surfaces catching golden light that emphasizes every crevice and mortar line. A patina of soot and age darkens the corners, while the interior cavity yawns with a shadowy, charcoal-black maw that hints at recent use. The iron door, slightly ajar, gleams with a dull, burnished luster, reflecting warm highlights that dance across its surface.",
+                "size": "Dominant",
+                "state": "well-used and seasoned, bearing the marks of daily labor and time",
+                "primary_colors": [
+                    "warm ochre",
+                    "deep burnt sienna"
+                ],
+                "material": "brick and iron"
+            },
+            {
+                "object_id": 51,
+                "name": "asparagus",
+                "artistic_description": "A bundle of fresh asparagus spears lies on a wooden surface, their vibrant green stalks rendered in luminous emerald tones under the bright, direct afternoon light. The tender tips catch the sun with a delicate, almost translucent quality, while the ridged stalks display subtle variations of jade and chartreuse. Tiny droplets of moisture cling to the spears, creating pinpricks of brilliant highlights that sparkle like jewels. The fibrous texture of the stalks is visible in the harsh, clear light, giving them a tactile, organic presence.",
+                "size": "Medium",
+                "state": "freshly harvested, crisp and vibrant",
+                "primary_colors": [
+                    "luminous emerald",
+                    "fresh jade"
+                ],
+                "material": "vegetable"
+            },
+            {
+                "object_id": 59,
+                "name": "iris",
+                "artistic_description": "A single iris bloom stands in a simple vessel, its velvety petals saturated with deep, royal purple that appears almost black in the shadows and brilliant violet where the afternoon sun strikes directly. The delicate, ruffled edges of the petals catch the light with a silvery sheen, while the yellow markings at the center glow with a warm, golden luminosity against the cool purple. The sword-like leaves display muted sage tones with fine, parallel veins that become visible in the bright, natural illumination. The flower's regal form is rendered with Baroque dramatic flair, its colors intensified by the cheerful, active atmosphere.",
+                "size": "Small",
+                "state": "freshly opened, at peak bloom",
+                "primary_colors": [
+                    "royal purple",
+                    "golden yellow"
+                ],
+                "material": "flower"
+            },
+            {
+                "object_id": 20,
+                "name": "cow",
+                "artistic_description": "Visible in the background through an opening, the cow's hide appears as a tapestry of warm, earthy tones\u2014creamy whites warmed to buttery yellow, and deep browns that glow with reddish undertones in the afternoon light. Sunlight streaming from the side creates strong, dramatic shadows across its flanks, emphasizing the muscular form and the rough, matte texture of its coat. The animal's dark eyes catch bright highlights, giving it a lively presence. The overall effect is one of pastoral solidity, with the bright, cheerful atmosphere lending the creature a peaceful, almost saintly aura.",
+                "size": "Large",
+                "state": "healthy and robust, with a natural, ungroomed appearance",
+                "primary_colors": [
+                    "creamy butter",
+                    "warm chocolate brown"
+                ],
+                "material": "living creature"
+            }
+        ]
+    },
+    "composition": {
+        "spatial_relations": [
+            [
+                51,
+                "on",
+                70
+            ],
+            [
+                59,
+                "on",
+                70
+            ],
+            [
+                20,
+                "behind",
+                70
+            ]
+        ],
+        "semantic_relations": []
+    },
+    "environment": {
+        "environment_details": {
+            "scene_brief": "A Baroque Farmhouse Interior centered around oven, with asparagus, iris, and cow in the background",
+            "place365_name": "/b/beer_hall",
+            "place365_id": 54,
+            "time_of_day": "afternoon",
+            "weather": "sunny",
+            "period": "Early modern",
+            "is_indoor": true,
+            "lighting": {
+                "type": "natural",
+                "quality": "dramatic",
+                "direction": "side-lit",
+                "mood": "warm",
+                "reasoning": "The combination of 'afternoon' time and 'sunny' weather dictates natural lighting. The Baroque style demands dramatic quality. A side-lit direction (assuming a window to the side of the oven) is ideal for sculpting the volume of the central oven and the cow in the background with light and shadow. A warm mood fits the domestic, rustic setting of a farmhouse interior."
+            },
+            "atmosphere": "bright and active and cheerful and striking"
+        },
+        "scene_inference": {
+            "all_candidates": [
+                {
+                    "scene_type": "Baroque Kitchen Still Life",
+                    "plausibility": 0.95,
+                    "reasoning": "A classic Baroque still life composition. The oven is the central functional object. Asparagus is a food item ready for preparation. A potted iris serves as a decorative element on a nearby shelf or windowsill. A cow is depicted in a small painting hanging on the kitchen wall, representing pastoral life.",
+                    "object_interpretations": {
+                        "oven": {
+                            "form": "real appliance",
+                            "scale": "normal",
+                            "role": "primary functional object"
+                        },
+                        "asparagus": {
+                            "form": "real vegetable",
+                            "scale": "normal",
+                            "role": "food ingredient"
+                        },
+                        "iris": {
+                            "form": "real flower in pot",
+                            "scale": "normal",
+                            "role": "decorative element"
+                        },
+                        "cow": {
+                            "form": "painting",
+                            "scale": "small (wall art)",
+                            "role": "decorative element"
+                        }
+                    }
+                },
+                {
+                    "scene_type": "Baroque Farmhouse Interior",
+                    "plausibility": 0.9,
+                    "reasoning": "A rustic but opulent farmhouse kitchen. The oven is a large, traditional hearth. Freshly harvested asparagus sits in a basket. An iris grows in a clay pot by the window. A cow is visible through the window in the field, connecting the interior to the pastoral source of food.",
+                    "object_interpretations": {
+                        "oven": {
+                            "form": "real hearth oven",
+                            "scale": "large",
+                            "role": "primary heating source"
+                        },
+                        "asparagus": {
+                            "form": "real vegetable",
+                            "scale": "normal",
+                            "role": "harvested produce"
+                        },
+                        "iris": {
+                            "form": "real flower",
+                            "scale": "normal",
+                            "role": "natural decoration"
+                        },
+                        "cow": {
+                            "form": "real animal",
+                            "scale": "distant/large",
+                            "role": "background pastoral element"
+                        }
+                    },
+                    "scene_brief": "A Baroque Farmhouse Interior centered around oven, with asparagus, iris, and cow in the background"
+                },
+                {
+                    "scene_type": "Baroque Dining Room",
+                    "plausibility": 0.85,
+                    "reasoning": "A lavish dining setting. The oven is present as a serving warmer or a visible kitchen pass-through. Asparagus is plated as part of an elaborate meal. An iris is arranged in a floral centerpiece. A cow is represented in a large, ornate oil painting on the wall, symbolizing the source of the feast.",
+                    "object_interpretations": {
+                        "oven": {
+                            "form": "serving warmer",
+                            "scale": "normal",
+                            "role": "serving apparatus"
+                        },
+                        "asparagus": {
+                            "form": "cooked dish",
+                            "scale": "normal",
+                            "role": "food"
+                        },
+                        "iris": {
+                            "form": "cut flowers",
+                            "scale": "normal",
+                            "role": "centerpiece decoration"
+                        },
+                        "cow": {
+                            "form": "oil painting",
+                            "scale": "large",
+                            "role": "status symbol art"
+                        }
+                    }
+                },
+                {
+                    "scene_type": "Baroque Conservatory",
+                    "plausibility": 0.8,
+                    "reasoning": "A glass-enclosed winter garden with a cooking area. The oven is a small, elegant stove for preparing tea or light meals. Asparagus is growing in a raised garden bed inside. Irises are in full bloom in decorative planters. A cow is a sculptural topiary in the garden outside visible through the glass.",
+                    "object_interpretations": {
+                        "oven": {
+                            "form": "small stove",
+                            "scale": "small",
+                            "role": "utility appliance"
+                        },
+                        "asparagus": {
+                            "form": "growing plant",
+                            "scale": "normal",
+                            "role": "cultivated crop"
+                        },
+                        "iris": {
+                            "form": "potted flowering plant",
+                            "scale": "normal",
+                            "role": "botanical decoration"
+                        },
+                        "cow": {
+                            "form": "topiary sculpture",
+                            "scale": "large",
+                            "role": "garden ornament"
+                        }
+                    }
+                },
+                {
+                    "scene_type": "Baroque Still Life with Vanitas",
+                    "plausibility": 0.9,
+                    "reasoning": "A symbolic still life painting. The oven is a cooling baking sheet. Asparagus represents the fleeting nature of life. Irises are wilting in a vase. A cow skull (referencing the cow) sits on the counter as a memento mori.",
+                    "object_interpretations": {
+                        "oven": {
+                            "form": "oven tray",
+                            "scale": "normal",
+                            "role": "kitchen utensil"
+                        },
+                        "asparagus": {
+                            "form": "fresh vegetable",
+                            "scale": "normal",
+                            "role": "symbol of nature"
+                        },
+                        "iris": {
+                            "form": "wilting flowers",
+                            "scale": "normal",
+                            "role": "symbol of decay"
+                        },
+                        "cow": {
+                            "form": "skull",
+                            "scale": "normal",
+                            "role": "memento mori"
+                        }
+                    }
+                },
+                {
+                    "scene_type": "Baroque Royal Kitchen",
+                    "plausibility": 0.85,
+                    "reasoning": "A grand, palace-sized kitchen. The oven is a massive, ornate cooking range. Asparagus is being prepared by chefs for a royal banquet. Irises are part of elaborate floral arrangements for the dining hall. A cow is a heraldic symbol on the oven's front panel or on tapestries.",
+                    "object_interpretations": {
+                        "oven": {
+                            "form": "ornate range",
+                            "scale": "large",
+                            "role": "centerpiece appliance"
+                        },
+                        "asparagus": {
+                            "form": "prepared ingredient",
+                            "scale": "normal",
+                            "role": "luxury food"
+                        },
+                        "iris": {
+                            "form": "bouquet",
+                            "scale": "large",
+                            "role": "royal decoration"
+                        },
+                        "cow": {
+                            "form": "heraldic engraving",
+                            "scale": "small",
+                            "role": "symbolic motif"
+                        }
+                    }
+                }
+            ],
+            "selected_scene": {
+                "scene_type": "Baroque Farmhouse Interior",
+                "plausibility": 0.9,
+                "reasoning": "A rustic but opulent farmhouse kitchen. The oven is a large, traditional hearth. Freshly harvested asparagus sits in a basket. An iris grows in a clay pot by the window. A cow is visible through the window in the field, connecting the interior to the pastoral source of food.",
+                "object_interpretations": {
+                    "oven": {
+                        "form": "real hearth oven",
+                        "scale": "large",
+                        "role": "primary heating source"
+                    },
+                    "asparagus": {
+                        "form": "real vegetable",
+                        "scale": "normal",
+                        "role": "harvested produce"
+                    },
+                    "iris": {
+                        "form": "real flower",
+                        "scale": "normal",
+                        "role": "natural decoration"
+                    },
+                    "cow": {
+                        "form": "real animal",
+                        "scale": "distant/large",
+                        "role": "background pastoral element"
+                    }
+                },
+                "scene_brief": "A Baroque Farmhouse Interior centered around oven, with asparagus, iris, and cow in the background"
+            }
+        }
+    },
+    "final_prompts": {
+        "main_prompt": "A Baroque painting depicting a bright and active afternoon scene in a rustic kitchen courtyard, where a large, well-used oven in warm ochre and deep burnt sienna dominates the foreground. Freshly harvested asparagus in luminous emerald and jade rests atop the oven's warm surface, while a freshly opened iris in royal purple with golden yellow accents sits beside it. Behind the oven, a healthy and robust cow in creamy butter and warm chocolate brown stands contentedly, its large form partially visible. Dramatic natural afternoon light streams through an unseen window, casting deep shadows and brilliant highlights that create a striking, cheerful atmosphere full of movement and vitality, with rich textures of brick, iron, and living elements interacting in dynamic Baroque composition.",
+        "negative_prompt": "photorealistic, 3d render, modern, digital art, photograph, low quality, blurry, distorted, surreal, abstract, cartoon, anime, watercolor, sketch, minimalist, flat lighting, dull colors, grainy, oversaturated, deformed, ugly, disfigured",
+        "prompt_formats": {
+            "simple": "A Baroque painting of an oven with asparagus and iris on top, a cow behind, in dramatic afternoon light.",
+            "complex": "A Baroque painting depicting a bright and active afternoon scene in a rustic kitchen courtyard, where a large, well-used oven in warm ochre and deep burnt sienna dominates the foreground. Freshly harvested asparagus in luminous emerald and jade rests atop the oven's warm surface, while a freshly opened iris in royal purple with golden yellow accents sits beside it. Behind the oven, a healthy and robust cow in creamy butter and warm chocolate brown stands contentedly, its large form partially visible. Dramatic natural afternoon light streams through an unseen window, casting deep shadows and brilliant highlights that create a striking, cheerful atmosphere full of movement and vitality, with rich textures of brick, iron, and living elements interacting in dynamic Baroque composition.",
+            "comma_separated": "Baroque painting, oven, asparagus, iris, cow, large oven, fresh asparagus, opened iris, robust cow, warm ochre, emerald green, royal purple, creamy butter, dramatic afternoon lighting, bright cheerful atmosphere, striking composition, rustic kitchen courtyard, natural light, shadows and highlights, dynamic movement",
+            "tags": "art, painting, Baroque, still life, animal, kitchen scene, rustic, dramatic lighting, afternoon, cheerful, vibrant, textured, detailed, classical art, 17th century style, chiaroscuro"
+        }
+    }
+}

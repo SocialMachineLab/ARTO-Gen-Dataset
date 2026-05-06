@@ -1,0 +1,426 @@
+{
+    "artwork_id": "artwork_20260103_233937_983",
+    "generation_timestamp": "2026-01-03T23:40:19.687097",
+    "style": "Impressionism",
+    "objects": {
+        "object_ids": [
+            52,
+            59,
+            75,
+            16
+        ],
+        "object_names": [
+            "pumpkin",
+            "rose",
+            "clock",
+            "cat"
+        ],
+        "enhanced_objects": [
+            {
+                "object_id": 52,
+                "name": "pumpkin",
+                "artistic_description": "A plump pumpkin rendered in warm, buttery yellows and deep burnt orange, its surface catching the afternoon sunlight with soft, diffused highlights. The matte rind shows subtle variations of ochre and amber, with gentle shadows pooling in the natural ridges. A few dew-kissed spots glisten faintly, reflecting the bright indoor atmosphere.",
+                "size": "Large",
+                "state": "fresh and ripe",
+                "primary_colors": [
+                    "warm orange",
+                    "golden yellow"
+                ],
+                "material": "vegetable rind"
+            },
+            {
+                "object_id": 59,
+                "name": "rose",
+                "artistic_description": "Velvety crimson petals unfurl in the natural light, their edges softened by a luminous pink glow where sunlight filters through. Deep magenta shadows nestle in the folds, while the outer petals catch bright highlights that appear almost white. A gentle green stem peeks through, rendered in soft sage tones.",
+                "size": "Small",
+                "state": "freshly bloomed",
+                "primary_colors": [
+                    "crimson",
+                    "soft pink"
+                ],
+                "material": "flower petals"
+            },
+            {
+                "object_id": 75,
+                "name": "clock",
+                "artistic_description": "A brass clock face glows with warm honey-gold tones under the afternoon sun, its polished surface creating soft, scattered reflections. The numbers appear in rich brown against a cream background, with gentle patina spots showing muted olive tones. Glass cover catches the light with a subtle, silvery sheen.",
+                "size": "Medium",
+                "state": "antique with gentle wear",
+                "primary_colors": [
+                    "warm brass",
+                    "cream"
+                ],
+                "material": "brass and glass"
+            },
+            {
+                "object_id": 16,
+                "name": "cat",
+                "artistic_description": "A ginger cat lounges in a pool of warm sunlight, its fur rendered in strokes of bright apricot and soft peach. Light catches the whiskers in delicate white highlights, while amber eyes glow with inner warmth. Shadows in the fur appear as gentle strokes of muted brown and soft taupe.",
+                "size": "Medium",
+                "state": "relaxed and alert",
+                "primary_colors": [
+                    "apricot",
+                    "peach"
+                ],
+                "material": "fur"
+            }
+        ]
+    },
+    "composition": {
+        "spatial_relations": [
+            [
+                52,
+                "on",
+                75
+            ],
+            [
+                59,
+                "on",
+                75
+            ],
+            [
+                75,
+                "next to",
+                16
+            ],
+            [
+                16,
+                "on",
+                75
+            ]
+        ],
+        "semantic_relations": []
+    },
+    "environment": {
+        "environment_details": {
+            "scene_brief": "A Vintage Market Stall featuring pumpkin, with rose, clock displayed on shelves, and cat",
+            "place365_name": "/m/market",
+            "place365_id": 21,
+            "time_of_day": "afternoon",
+            "weather": "sunny",
+            "period": "Modern",
+            "is_indoor": true,
+            "lighting": {
+                "type": "natural",
+                "quality": "soft",
+                "direction": "side-lit",
+                "mood": "warm",
+                "reasoning": "Late afternoon sun (natural) provides a warm mood. In Impressionism, direct sunlight is often diffused into soft light to capture fleeting moments. Side-lighting is ideal for revealing the three-dimensional form of the pumpkins and the texture of the clock, creating a classic composition."
+            },
+            "atmosphere": "bright and active and cheerful and gentle"
+        },
+        "scene_inference": {
+            "all_candidates": [
+                {
+                    "scene_type": "Autumn Garden",
+                    "plausibility": 0.95,
+                    "reasoning": "A pumpkin rests on the ground in a garden during autumn. A rose bush still has a late-season bloom. A clock is part of a garden sundial. A cat wanders through the garden.",
+                    "object_interpretations": {
+                        "pumpkin": {
+                            "form": "real pumpkin",
+                            "scale": "normal",
+                            "role": "primary seasonal object"
+                        },
+                        "rose": {
+                            "form": "real flower",
+                            "scale": "normal",
+                            "role": "floral accent"
+                        },
+                        "clock": {
+                            "form": "sundial",
+                            "scale": "normal",
+                            "role": "garden fixture"
+                        },
+                        "cat": {
+                            "form": "real cat",
+                            "scale": "normal",
+                            "role": "living creature"
+                        }
+                    }
+                },
+                {
+                    "scene_type": "Cozy Cottage Interior",
+                    "plausibility": 0.9,
+                    "reasoning": "A pumpkin sits on a wooden table as decoration. A vase holds a fresh rose. A mantel clock ticks on the shelf. A cat sleeps in a chair.",
+                    "object_interpretations": {
+                        "pumpkin": {
+                            "form": "decorative pumpkin",
+                            "scale": "normal",
+                            "role": "table centerpiece"
+                        },
+                        "rose": {
+                            "form": "cut flower",
+                            "scale": "normal",
+                            "role": "vase decoration"
+                        },
+                        "clock": {
+                            "form": "mantel clock",
+                            "scale": "normal",
+                            "role": "wall/furniture fixture"
+                        },
+                        "cat": {
+                            "form": "real cat",
+                            "scale": "normal",
+                            "role": "pet"
+                        }
+                    }
+                },
+                {
+                    "scene_type": "Art Studio",
+                    "plausibility": 0.85,
+                    "reasoning": "An artist paints a pumpkin still life. A single rose is in a jar for reference. A clock times the painting session. A cat sits on the artist's stool.",
+                    "object_interpretations": {
+                        "pumpkin": {
+                            "form": "real pumpkin",
+                            "scale": "normal",
+                            "role": "subject of art"
+                        },
+                        "rose": {
+                            "form": "real flower",
+                            "scale": "normal",
+                            "role": "still life element"
+                        },
+                        "clock": {
+                            "form": "wall clock",
+                            "scale": "normal",
+                            "role": "timekeeper"
+                        },
+                        "cat": {
+                            "form": "real cat",
+                            "scale": "normal",
+                            "role": "studio companion"
+                        }
+                    }
+                },
+                {
+                    "scene_type": "Halloween Party",
+                    "plausibility": 0.9,
+                    "reasoning": "Jack-o'-lanterns decorate the room. A rose is a boutonniere on a guest. A clock counts down to midnight. A cat in a costume roams.",
+                    "object_interpretations": {
+                        "pumpkin": {
+                            "form": "jack-o'-lantern",
+                            "scale": "normal",
+                            "role": "party decoration"
+                        },
+                        "rose": {
+                            "form": "worn flower",
+                            "scale": "normal",
+                            "role": "fashion accessory"
+                        },
+                        "clock": {
+                            "form": "digital timer",
+                            "scale": "normal",
+                            "role": "event countdown"
+                        },
+                        "cat": {
+                            "form": "costumed cat",
+                            "scale": "normal",
+                            "role": "party attendee"
+                        }
+                    }
+                },
+                {
+                    "scene_type": "Vintage Market Stall",
+                    "plausibility": 0.8,
+                    "reasoning": "Pumpkins are for sale on crates. A vendor sells roses from a bucket. An antique clock is displayed. A stray cat sleeps under the stall.",
+                    "object_interpretations": {
+                        "pumpkin": {
+                            "form": "produce",
+                            "scale": "normal",
+                            "role": "merchandise"
+                        },
+                        "rose": {
+                            "form": "fresh flowers",
+                            "scale": "normal",
+                            "role": "merchandise"
+                        },
+                        "clock": {
+                            "form": "antique clock",
+                            "scale": "normal",
+                            "role": "display item"
+                        },
+                        "cat": {
+                            "form": "real cat",
+                            "scale": "normal",
+                            "role": "stray animal"
+                        }
+                    },
+                    "scene_brief": "A Vintage Market Stall featuring pumpkin, with rose, clock displayed on shelves, and cat"
+                },
+                {
+                    "scene_type": "Botanical Greenhouse",
+                    "plausibility": 0.85,
+                    "reasoning": "A pumpkin vine grows in the greenhouse. A rose bush is nearby. A decorative clock hangs on the wall. A cat prowls between the plants.",
+                    "object_interpretations": {
+                        "pumpkin": {
+                            "form": "growing pumpkin",
+                            "scale": "normal",
+                            "role": "plant specimen"
+                        },
+                        "rose": {
+                            "form": "growing rose",
+                            "scale": "normal",
+                            "role": "plant specimen"
+                        },
+                        "clock": {
+                            "form": "ornamental clock",
+                            "scale": "normal",
+                            "role": "decoration"
+                        },
+                        "cat": {
+                            "form": "real cat",
+                            "scale": "normal",
+                            "role": "mouser/visitor"
+                        }
+                    }
+                },
+                {
+                    "scene_type": "Fantasy Forest",
+                    "plausibility": 0.75,
+                    "reasoning": "A magical giant pumpkin grows in a clearing. A glowing rose blooms. A clock is carved into a tree. A black cat crosses the path.",
+                    "object_interpretations": {
+                        "pumpkin": {
+                            "form": "giant pumpkin",
+                            "scale": "large",
+                            "role": "magical landmark"
+                        },
+                        "rose": {
+                            "form": "glowing flower",
+                            "scale": "normal",
+                            "role": "magical flora"
+                        },
+                        "clock": {
+                            "form": "tree carving",
+                            "scale": "large",
+                            "role": "mystical marking"
+                        },
+                        "cat": {
+                            "form": "real cat",
+                            "scale": "normal",
+                            "role": "forest creature"
+                        }
+                    }
+                },
+                {
+                    "scene_type": "Kitchen Counter",
+                    "plausibility": 0.9,
+                    "reasoning": "A pumpkin is ready for baking. A rose is in a small vase. A kitchen clock ticks. A cat watches from the counter.",
+                    "object_interpretations": {
+                        "pumpkin": {
+                            "form": "carved pumpkin",
+                            "scale": "normal",
+                            "role": "cooking ingredient"
+                        },
+                        "rose": {
+                            "form": "fresh flower",
+                            "scale": "small",
+                            "role": "kitchen decoration"
+                        },
+                        "clock": {
+                            "form": "kitchen clock",
+                            "scale": "normal",
+                            "role": "utility"
+                        },
+                        "cat": {
+                            "form": "real cat",
+                            "scale": "normal",
+                            "role": "curious pet"
+                        }
+                    }
+                },
+                {
+                    "scene_type": "Witch's Cottage",
+                    "plausibility": 0.85,
+                    "reasoning": "A pumpkin is a potion ingredient. A rose is a magical component. A clock has strange hands. A black cat is a familiar.",
+                    "object_interpretations": {
+                        "pumpkin": {
+                            "form": "cauldron pumpkin",
+                            "scale": "normal",
+                            "role": "potion base"
+                        },
+                        "rose": {
+                            "form": "enchanted rose",
+                            "scale": "normal",
+                            "role": "spell ingredient"
+                        },
+                        "clock": {
+                            "form": "curious clock",
+                            "scale": "normal",
+                            "role": "mystical timer"
+                        },
+                        "cat": {
+                            "form": "familiar",
+                            "scale": "normal",
+                            "role": "witch's companion"
+                        }
+                    }
+                },
+                {
+                    "scene_type": "Fall Picnic",
+                    "plausibility": 0.85,
+                    "reasoning": "A pumpkin is part of the picnic display. A rose is in a centerpiece. A pocket watch checks the time. A cat joins the picnic.",
+                    "object_interpretations": {
+                        "pumpkin": {
+                            "form": "decorative pumpkin",
+                            "scale": "normal",
+                            "role": "picnic decoration"
+                        },
+                        "rose": {
+                            "form": "fresh flower",
+                            "scale": "normal",
+                            "role": "table centerpiece"
+                        },
+                        "clock": {
+                            "form": "pocket watch",
+                            "scale": "small",
+                            "role": "timepiece"
+                        },
+                        "cat": {
+                            "form": "real cat",
+                            "scale": "normal",
+                            "role": "picnic guest"
+                        }
+                    }
+                }
+            ],
+            "selected_scene": {
+                "scene_type": "Vintage Market Stall",
+                "plausibility": 0.8,
+                "reasoning": "Pumpkins are for sale on crates. A vendor sells roses from a bucket. An antique clock is displayed. A stray cat sleeps under the stall.",
+                "object_interpretations": {
+                    "pumpkin": {
+                        "form": "produce",
+                        "scale": "normal",
+                        "role": "merchandise"
+                    },
+                    "rose": {
+                        "form": "fresh flowers",
+                        "scale": "normal",
+                        "role": "merchandise"
+                    },
+                    "clock": {
+                        "form": "antique clock",
+                        "scale": "normal",
+                        "role": "display item"
+                    },
+                    "cat": {
+                        "form": "real cat",
+                        "scale": "normal",
+                        "role": "stray animal"
+                    }
+                },
+                "scene_brief": "A Vintage Market Stall featuring pumpkin, with rose, clock displayed on shelves, and cat"
+            }
+        }
+    },
+    "final_prompts": {
+        "main_prompt": "A Impressionism painting depicting a bright and cheerful afternoon scene with natural soft lighting. In the foreground, a large, warm orange and golden yellow pumpkin sits atop a medium-sized antique clock with warm brass and cream tones, showing gentle wear. Beside the pumpkin, a small crimson and soft pink rose, freshly bloomed, also rests on the clock's surface. The clock itself is positioned next to a medium-sized cat with apricot and peach fur, who is both relaxed and alert, perched partially on the clock's edge. The gentle, active atmosphere is enhanced by dappled afternoon light filtering through, casting soft shadows and highlighting the textures of vegetable rind, delicate flower petals, polished brass, and soft fur in a cohesive, lively composition.",
+        "negative_prompt": "photorealistic, 3d render, modern, digital art, photograph, low quality, blurry, distorted, surreal, abstract, dark, gloomy, oversaturated, sharp lines, detailed faces, text, watermark, signature, frame, border",
+        "prompt_formats": {
+            "simple": "An Impressionist painting of a pumpkin and rose on a clock next to a cat in a soft afternoon light.",
+            "complex": "A Impressionism painting depicting a bright and cheerful afternoon scene with natural soft lighting. In the foreground, a large, warm orange and golden yellow pumpkin sits atop a medium-sized antique clock with warm brass and cream tones, showing gentle wear. Beside the pumpkin, a small crimson and soft pink rose, freshly bloomed, also rests on the clock's surface. The clock itself is positioned next to a medium-sized cat with apricot and peach fur, who is both relaxed and alert, perched partially on the clock's edge. The gentle, active atmosphere is enhanced by dappled afternoon light filtering through, casting soft shadows and highlighting the textures of vegetable rind, delicate flower petals, polished brass, and soft fur in a cohesive, lively composition.",
+            "comma_separated": "Impressionism, painting, large pumpkin, warm orange, golden yellow, ripe, small rose, crimson, soft pink, freshly bloomed, medium clock, antique, warm brass, cream, gentle wear, medium cat, apricot, peach, relaxed, alert, pumpkin on clock, rose on clock, clock next to cat, cat on clock, afternoon, natural soft lighting, bright, active, cheerful, gentle atmosphere, dappled light, textures, vegetable rind, flower petals, brass, fur, cohesive composition",
+            "tags": "art, painting, impressionism, still life, pumpkin, rose, clock, cat, afternoon light, soft lighting, cheerful, antique, textures, Claude Monet style, Pierre-Auguste Renoir style, loose brushstrokes, light effects"
+        }
+    }
+}

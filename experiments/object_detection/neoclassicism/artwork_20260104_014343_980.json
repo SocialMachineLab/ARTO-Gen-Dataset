@@ -1,0 +1,303 @@
+{
+    "artwork_id": "artwork_20260104_014343_980",
+    "generation_timestamp": "2026-01-04T01:44:22.401327",
+    "style": "Neoclassicism",
+    "objects": {
+        "object_ids": [
+            21,
+            56,
+            16
+        ],
+        "object_names": [
+            "elephant",
+            "pastry",
+            "cat"
+        ],
+        "enhanced_objects": [
+            {
+                "object_id": 21,
+                "name": "elephant",
+                "artistic_description": "A majestic sculptural form rendered in luminous white marble, its massive curves catching the warm afternoon sunlight streaming through high windows. The stone surface glows with a creamy, golden patina where light directly strikes, while shadowed areas reveal subtle gray undertones. Fine veining in the marble suggests age and authenticity, with a gentle polish that diffuses rather than reflects the bright interior light. The trunk's graceful curve holds delicate shadows that emphasize the classical proportions.",
+                "size": "Dominant",
+                "state": "weathered but dignified, bearing the soft marks of antiquity with gentle wear along the edges",
+                "primary_colors": [
+                    "luminous cream-white",
+                    "warm gray"
+                ],
+                "material": "marble"
+            },
+            {
+                "object_id": 56,
+                "name": "pastry",
+                "artistic_description": "A delicate confection resting on a ceramic plate, its golden-brown crust catching the bright natural light with a warm, buttery glow. Flaky layers create subtle shadows that reveal the texture, while a light dusting of sugar sparkles like tiny crystals in the sunbeams. The surface shows a gentle sheen where light reflects off buttery surfaces, with rich amber tones deepening in the crevices. The pastry appears fresh and inviting, with crisp edges that catch the light sharply.",
+                "size": "Small",
+                "state": "fresh and perfectly formed, with crisp layers and delicate structure",
+                "primary_colors": [
+                    "golden amber",
+                    "warm cream"
+                ],
+                "material": "pastry"
+            },
+            {
+                "object_id": 16,
+                "name": "cat",
+                "artistic_description": "A sleek feline form with fur that shimmers in the bright afternoon light, appearing as soft velvet with highlights of warm honey-gold where sunlight directly strikes the coat. The fur shows subtle variations of amber and chestnut tones, with a gentle matte texture that absorbs rather than reflects the bright interior light. Whiskers catch the light as fine silver threads, while the eyes gleam with a warm, amber luminosity. The tail's graceful curve holds soft shadows that blend seamlessly into the body.",
+                "size": "Medium",
+                "state": "alert and graceful, with fur slightly fluffed by the cheerful atmosphere",
+                "primary_colors": [
+                    "warm amber",
+                    "honey-gold"
+                ],
+                "material": "fur"
+            }
+        ]
+    },
+    "composition": {
+        "spatial_relations": [
+            [
+                21,
+                "on",
+                56
+            ],
+            [
+                16,
+                "next to",
+                21
+            ]
+        ],
+        "semantic_relations": []
+    },
+    "environment": {
+        "environment_details": {
+            "scene_brief": "A Neoclassical Museum Interior featuring elephant, with pastry, and cat",
+            "place365_name": "/m/museum/indoor",
+            "place365_id": 236,
+            "time_of_day": "afternoon",
+            "weather": "sunny",
+            "period": "Classical",
+            "is_indoor": true,
+            "lighting": {
+                "type": "natural",
+                "quality": "soft",
+                "direction": "side-lit",
+                "mood": "warm",
+                "reasoning": "Natural light from sunny weather creates a warm mood. In a museum setting, large windows often provide side-lighting, which sculpts the forms of the architecture and objects. Soft light avoids harsh shadows, fitting the balanced and idealized forms of Neoclassicism."
+            },
+            "atmosphere": "bright and active and cheerful and gentle"
+        },
+        "scene_inference": {
+            "all_candidates": [
+                {
+                    "scene_type": "Neoclassical Royal Menagerie",
+                    "plausibility": 0.95,
+                    "reasoning": "In a formal royal menagerie, the elephant serves as the exotic centerpiece. The cat is a domestic companion of the aristocracy, and the pastry is a refreshment for the keeper or a treat for the animals.",
+                    "object_interpretations": {
+                        "elephant": {
+                            "form": "real elephant",
+                            "scale": "large",
+                            "role": "primary exotic animal"
+                        },
+                        "cat": {
+                            "form": "real cat",
+                            "scale": "normal",
+                            "role": "domestic companion animal"
+                        },
+                        "pastry": {
+                            "form": "real pastry",
+                            "scale": "normal",
+                            "role": "food/refreshment"
+                        }
+                    }
+                },
+                {
+                    "scene_type": "Neoclassical Still Life Painting",
+                    "plausibility": 0.9,
+                    "reasoning": "A still life composition featuring a small carved wooden elephant statue alongside a lavish pastry and a sleeping cat, arranged on a marble table with classical drapery.",
+                    "object_interpretations": {
+                        "elephant": {
+                            "form": "carved statue",
+                            "scale": "small",
+                            "role": "decorative object"
+                        },
+                        "cat": {
+                            "form": "real sleeping cat",
+                            "scale": "normal",
+                            "role": "decorative element"
+                        },
+                        "pastry": {
+                            "form": "real pastry",
+                            "scale": "normal",
+                            "role": "food subject"
+                        }
+                    }
+                },
+                {
+                    "scene_type": "Neoclassical Garden",
+                    "plausibility": 0.85,
+                    "reasoning": "A formal garden with a stone elephant fountain. A house cat wanders the grounds, and a pastry sits on a garden bench where a visitor left it.",
+                    "object_interpretations": {
+                        "elephant": {
+                            "form": "stone fountain",
+                            "scale": "large",
+                            "role": "garden sculpture"
+                        },
+                        "cat": {
+                            "form": "real cat",
+                            "scale": "normal",
+                            "role": "garden visitor"
+                        },
+                        "pastry": {
+                            "form": "real pastry",
+                            "scale": "normal",
+                            "role": "abandoned food"
+                        }
+                    }
+                },
+                {
+                    "scene_type": "Neoclassical Dining Hall",
+                    "plausibility": 0.8,
+                    "reasoning": "A grand dining hall with an elephant-shaped centerpiece (sculpture). A cat lurks under the table, and pastries are arranged on the banquet table.",
+                    "object_interpretations": {
+                        "elephant": {
+                            "form": "silver centerpiece",
+                            "scale": "small",
+                            "role": "table decoration"
+                        },
+                        "cat": {
+                            "form": "real cat",
+                            "scale": "normal",
+                            "role": "house pet hiding"
+                        },
+                        "pastry": {
+                            "form": "assorted pastries",
+                            "scale": "normal",
+                            "role": "banquet food"
+                        }
+                    }
+                },
+                {
+                    "scene_type": "Neoclassical Artist's Studio",
+                    "plausibility": 0.85,
+                    "reasoning": "An artist's studio where a plaster model of an elephant is used for reference. A pet cat sleeps on a stool, and the artist's snack (a pastry) sits on a palette.",
+                    "object_interpretations": {
+                        "elephant": {
+                            "form": "plaster model",
+                            "scale": "medium",
+                            "role": "art reference"
+                        },
+                        "cat": {
+                            "form": "real cat",
+                            "scale": "normal",
+                            "role": "studio pet"
+                        },
+                        "pastry": {
+                            "form": "pastry",
+                            "scale": "normal",
+                            "role": "artist's snack"
+                        }
+                    }
+                },
+                {
+                    "scene_type": "Neoclassical Nursery",
+                    "plausibility": 0.75,
+                    "reasoning": "A nursery with a Neoclassical aesthetic. A toy elephant sits on a shelf, a real cat sleeps on a rug, and a child's half-eaten pastry is on a small table.",
+                    "object_interpretations": {
+                        "elephant": {
+                            "form": "toy",
+                            "scale": "small",
+                            "role": "child's toy"
+                        },
+                        "cat": {
+                            "form": "real cat",
+                            "scale": "normal",
+                            "role": "nursery pet"
+                        },
+                        "pastry": {
+                            "form": "half-eaten pastry",
+                            "scale": "small",
+                            "role": "child's snack"
+                        }
+                    }
+                },
+                {
+                    "scene_type": "Neoclassical Museum Interior",
+                    "plausibility": 0.9,
+                    "reasoning": "A museum gallery displaying a taxidermy elephant and a classical painting of a cat. A pastry is visible on a visitor's plate in the background.",
+                    "object_interpretations": {
+                        "elephant": {
+                            "form": "taxidermy",
+                            "scale": "large",
+                            "role": "museum exhibit"
+                        },
+                        "cat": {
+                            "form": "painted in artwork",
+                            "scale": "variable",
+                            "role": "art subject"
+                        },
+                        "pastry": {
+                            "form": "real pastry",
+                            "scale": "normal",
+                            "role": "visitor's refreshment"
+                        }
+                    },
+                    "scene_brief": "A Neoclassical Museum Interior featuring elephant, with pastry, and cat"
+                },
+                {
+                    "scene_type": "Neoclassical Temple Ruins",
+                    "plausibility": 0.8,
+                    "reasoning": "Ruins of a temple with an elephant statue. A stray cat inhabits the ruins, and a pastry has been left as an offering on a pedestal.",
+                    "object_interpretations": {
+                        "elephant": {
+                            "form": "stone statue",
+                            "scale": "large",
+                            "role": "temple idol"
+                        },
+                        "cat": {
+                            "form": "real cat",
+                            "scale": "normal",
+                            "role": "ruin dweller"
+                        },
+                        "pastry": {
+                            "form": "offering pastry",
+                            "scale": "normal",
+                            "role": "ritual offering"
+                        }
+                    }
+                }
+            ],
+            "selected_scene": {
+                "scene_type": "Neoclassical Museum Interior",
+                "plausibility": 0.9,
+                "reasoning": "A museum gallery displaying a taxidermy elephant and a classical painting of a cat. A pastry is visible on a visitor's plate in the background.",
+                "object_interpretations": {
+                    "elephant": {
+                        "form": "taxidermy",
+                        "scale": "large",
+                        "role": "museum exhibit"
+                    },
+                    "cat": {
+                        "form": "painted in artwork",
+                        "scale": "variable",
+                        "role": "art subject"
+                    },
+                    "pastry": {
+                        "form": "real pastry",
+                        "scale": "normal",
+                        "role": "visitor's refreshment"
+                    }
+                },
+                "scene_brief": "A Neoclassical Museum Interior featuring elephant, with pastry, and cat"
+            }
+        }
+    },
+    "final_prompts": {
+        "main_prompt": "A Neoclassicism painting depicting a luminous cream-white elephant with warm gray undertones, weathered yet dignified in expression, standing majestically atop a small, perfectly formed pastry of golden amber and warm cream hues. Beside the elephant, a medium-sized cat with warm amber and honey-gold fur sits alert and graceful, observing the scene with poised elegance. The composition is arranged with the elephant and pastry dominating the foreground, the cat positioned slightly to the side in the midground, and a classical architectural backdrop with marble columns and soft drapery in the background. The afternoon light casts natural, soft illumination across the scene, creating a bright, active, and cheerful atmosphere with gentle shadows that enhance the sculptural quality of the forms. The overall mood is one of harmonious whimsy, blending classical dignity with playful charm.",
+        "negative_prompt": "photorealistic, 3d render, modern, digital art, photograph, low quality, blurry, distorted, surrealism, abstract, cartoon, anime, fantasy, dark, gloomy, chaotic, oversaturated, text, watermark, signature, frame, border",
+        "prompt_formats": {
+            "simple": "A Neoclassical painting of an elephant standing on a pastry with a cat beside it in a bright afternoon setting.",
+            "complex": "A Neoclassicism painting depicting a luminous cream-white elephant with warm gray undertones, weathered yet dignified in expression, standing majestically atop a small, perfectly formed pastry of golden amber and warm cream hues. Beside the elephant, a medium-sized cat with warm amber and honey-gold fur sits alert and graceful, observing the scene with poised elegance. The composition is arranged with the elephant and pastry dominating the foreground, the cat positioned slightly to the side in the midground, and a classical architectural backdrop with marble columns and soft drapery in the background. The afternoon light casts natural, soft illumination across the scene, creating a bright, active, and cheerful atmosphere with gentle shadows that enhance the sculptural quality of the forms. The overall mood is one of harmonious whimsy, blending classical dignity with playful charm.",
+            "comma_separated": "Neoclassicism painting, elephant on pastry, cat beside elephant, luminous cream-white elephant, warm gray undertones, weathered dignified, small golden amber pastry, warm cream hues, medium warm amber cat, honey-gold fur, alert graceful, classical architecture, marble columns, soft drapery, afternoon lighting, natural soft illumination, bright active cheerful gentle atmosphere, harmonious whimsy, sculptural forms, balanced composition",
+            "tags": "art, painting, neoclassicism, elephant, pastry, cat, classical architecture, marble, afternoon light, cheerful atmosphere, animal painting, whimsical art, balanced composition, sculptural forms"
+        }
+    }
+}

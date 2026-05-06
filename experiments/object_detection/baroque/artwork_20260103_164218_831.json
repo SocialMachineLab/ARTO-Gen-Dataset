@@ -1,0 +1,328 @@
+{
+    "artwork_id": "artwork_20260103_164218_831",
+    "generation_timestamp": "2026-01-03T16:42:48.129715",
+    "style": "Baroque",
+    "objects": {
+        "object_ids": [
+            16,
+            26,
+            19,
+            28
+        ],
+        "object_names": [
+            "lion",
+            "canopy",
+            "lamb",
+            "tie"
+        ],
+        "enhanced_objects": [
+            {
+                "object_id": 16,
+                "name": "lion",
+                "artistic_description": "A majestic lion sculpture rendered in dark bronze with rich patina, its muscular form catching warm amber highlights from flickering candlelight. The surface displays deep shadows in crevices while polished high points gleam with golden warmth. Whiskers and mane details are finely chased, creating intricate patterns of light and shadow that dance across the textured surface.",
+                "size": "Large",
+                "state": "Antique patina with gentle wear on raised surfaces, well-preserved",
+                "primary_colors": [
+                    "warm bronze",
+                    "deep brown-black"
+                ],
+                "material": "bronze"
+            },
+            {
+                "object_id": 26,
+                "name": "canopy",
+                "artistic_description": "An ornate velvet canopy with deep crimson fabric that appears almost black in shadowed areas, while raised embroidery catches warm candlelight with threads of gold and silver. The heavy drape shows subtle sheen where light grazes the surface, and dust motes drift through the shafts of artificial light that illuminate its rich texture.",
+                "size": "Medium",
+                "state": "Richly aged fabric with slight fading, maintaining noble appearance",
+                "primary_colors": [
+                    "crimson",
+                    "deep burgundy"
+                ],
+                "material": "velvet"
+            },
+            {
+                "object_id": 19,
+                "name": "lamb",
+                "artistic_description": "A delicate waxen lamb figure with soft white fleece rendered in creamy tones, its surface absorbing gentle ambient light rather than reflecting it strongly. The matte texture of the wool appears velvety and diffuse, with subtle warm highlights on curved surfaces where candlelight caresses the form. Gentle shadows nestle in the folds of its fleece.",
+                "size": "Small",
+                "state": "Carefully preserved wax figure with minimal yellowing",
+                "primary_colors": [
+                    "creamy white",
+                    "soft ivory"
+                ],
+                "material": "wax"
+            },
+            {
+                "object_id": 28,
+                "name": "tie",
+                "artistic_description": "A fine silk tie with intricate brocade pattern that shimmers subtly under artificial light, its surface showing liquid-like highlights where the fabric catches the warm glow. The silk's natural luster creates soft reflections, and the deep color appears saturated and velvety in the dim, intimate lighting of the cabinet.",
+                "size": "Marginal",
+                "state": "Pristine condition, fabric maintains crisp structure",
+                "primary_colors": [
+                    "rich silk tone",
+                    "metallic thread highlights"
+                ],
+                "material": "silk"
+            }
+        ]
+    },
+    "composition": {
+        "spatial_relations": [
+            [
+                16,
+                "on",
+                26
+            ],
+            [
+                19,
+                "on",
+                26
+            ],
+            [
+                28,
+                "on",
+                26
+            ],
+            [
+                26,
+                "on",
+                16
+            ],
+            [
+                26,
+                "on",
+                19
+            ],
+            [
+                26,
+                "on",
+                28
+            ]
+        ],
+        "semantic_relations": []
+    },
+    "environment": {
+        "environment_details": {
+            "scene_brief": "A Baroque Cabinet of Curiosities featuring lion, with canopy displayed on shelves, lamb, and tie",
+            "place365_name": "/p/pub/indoor",
+            "place365_id": 274,
+            "time_of_day": "evening",
+            "weather": null,
+            "period": "Early modern",
+            "is_indoor": true,
+            "lighting": {
+                "type": "artificial",
+                "quality": "dramatic",
+                "direction": "front-lit",
+                "mood": "warm",
+                "reasoning": "To match the Baroque style and 'evening' time, artificial lighting (candlelight) is essential. This creates a 'dramatic' quality with high contrast between light and shadow. A 'side-lit' or slightly 'front-lit' setup would illuminate the specific objects (lion, lamb, tie) on the shelves while leaving the background in relative darkness, creating a sense of depth and focus."
+            },
+            "atmosphere": "calm and relaxed and striking"
+        },
+        "scene_inference": {
+            "all_candidates": [
+                {
+                    "scene_type": "Baroque Royal Menagerie",
+                    "plausibility": 0.95,
+                    "reasoning": "A royal menagerie was a collection of exotic animals kept for display. The lion is the primary attraction. The lamb is a food source or a contrasting symbol of innocence. The canopy provides shade or decoration for the viewing area. The tie is a discarded item from a nobleman.",
+                    "object_interpretations": {
+                        "lion": {
+                            "form": "real animal",
+                            "scale": "full-size",
+                            "role": "caged exotic attraction"
+                        },
+                        "lamb": {
+                            "form": "real animal",
+                            "scale": "normal",
+                            "role": "companion or food source"
+                        },
+                        "canopy": {
+                            "form": "fabric structure",
+                            "scale": "large",
+                            "role": "shade for spectators"
+                        },
+                        "tie": {
+                            "form": "clothing accessory",
+                            "scale": "normal",
+                            "role": "discarded item on ground"
+                        }
+                    }
+                },
+                {
+                    "scene_type": "Baroque Allegorical Painting",
+                    "plausibility": 0.9,
+                    "reasoning": "Baroque art often used complex symbolism. The lion represents strength or courage. The lamb represents innocence or sacrifice. The canopy represents a throne or divine covering. The tie is a modern element reinterpreted as a sash or ribbon.",
+                    "object_interpretations": {
+                        "lion": {
+                            "form": "painted representation",
+                            "scale": "artistic/proportional",
+                            "role": "symbol of power"
+                        },
+                        "lamb": {
+                            "form": "painted representation",
+                            "scale": "artistic/proportional",
+                            "role": "symbol of innocence"
+                        },
+                        "canopy": {
+                            "form": "drapery",
+                            "scale": "large",
+                            "role": "background framing"
+                        },
+                        "tie": {
+                            "form": "decorative sash",
+                            "scale": "artistic",
+                            "role": "accent element"
+                        }
+                    }
+                },
+                {
+                    "scene_type": "Baroque Church Interior",
+                    "plausibility": 0.85,
+                    "reasoning": "Baroque churches feature elaborate decorations. The lion and lamb are common religious symbols (Judah and Jesus). The canopy is a baldachin over an altar. The tie is a priest's vestment item.",
+                    "object_interpretations": {
+                        "lion": {
+                            "form": "stone statue",
+                            "scale": "life-size",
+                            "role": "architectural guardian"
+                        },
+                        "lamb": {
+                            "form": "stone statue",
+                            "scale": "life-size",
+                            "role": "religious symbol"
+                        },
+                        "canopy": {
+                            "form": "marble and bronze structure",
+                            "scale": "massive",
+                            "role": "altar covering (baldachin)"
+                        },
+                        "tie": {
+                            "form": "vestment",
+                            "scale": "normal",
+                            "role": "part of clerical attire"
+                        }
+                    }
+                },
+                {
+                    "scene_type": "Baroque Hunting Lodge",
+                    "plausibility": 0.8,
+                    "reasoning": "A wealthy estate with a trophy room. The lion is a taxidermy trophy. The lamb is a pet or livestock in the courtyard. The canopy is a bed canopy. The tie is part of the hunter's outfit.",
+                    "object_interpretations": {
+                        "lion": {
+                            "form": "taxidermy mount",
+                            "scale": "life-size",
+                            "role": "hunting trophy"
+                        },
+                        "lamb": {
+                            "form": "pet animal",
+                            "scale": "normal",
+                            "role": "domestic companion"
+                        },
+                        "canopy": {
+                            "form": "fabric and wood",
+                            "scale": "large",
+                            "role": "bed decoration"
+                        },
+                        "tie": {
+                            "form": "clothing",
+                            "scale": "normal",
+                            "role": "fashion accessory"
+                        }
+                    }
+                },
+                {
+                    "scene_type": "Baroque Opera Stage",
+                    "plausibility": 0.85,
+                    "reasoning": "Theatrical productions with elaborate sets. The lion is a costumed actor or prop. The lamb is a prop. The canopy is a stage set piece. The tie is part of a costume.",
+                    "object_interpretations": {
+                        "lion": {
+                            "form": "costume/actor",
+                            "scale": "human/proportional",
+                            "role": "performer"
+                        },
+                        "lamb": {
+                            "form": "prop",
+                            "scale": "normal",
+                            "role": "scene element"
+                        },
+                        "canopy": {
+                            "form": "stage set",
+                            "scale": "large",
+                            "role": "scenic backdrop"
+                        },
+                        "tie": {
+                            "form": "costume accessory",
+                            "scale": "normal",
+                            "role": "character detail"
+                        }
+                    }
+                },
+                {
+                    "scene_type": "Baroque Cabinet of Curiosities",
+                    "plausibility": 0.9,
+                    "reasoning": "A room for collecting rare items. The lion is a preserved specimen or drawing. The lamb is a specimen. The canopy is a glass cover. The tie is a collector's item.",
+                    "object_interpretations": {
+                        "lion": {
+                            "form": "drawing/etching",
+                            "scale": "small",
+                            "role": "scientific illustration"
+                        },
+                        "lamb": {
+                            "form": "stuffed specimen",
+                            "scale": "small",
+                            "role": "collected curiosity"
+                        },
+                        "canopy": {
+                            "form": "glass dome",
+                            "scale": "medium",
+                            "role": "display cover"
+                        },
+                        "tie": {
+                            "form": "antique accessory",
+                            "scale": "normal",
+                            "role": "curiosity item"
+                        }
+                    },
+                    "scene_brief": "A Baroque Cabinet of Curiosities featuring lion, with canopy displayed on shelves, lamb, and tie"
+                }
+            ],
+            "selected_scene": {
+                "scene_type": "Baroque Cabinet of Curiosities",
+                "plausibility": 0.9,
+                "reasoning": "A room for collecting rare items. The lion is a preserved specimen or drawing. The lamb is a specimen. The canopy is a glass cover. The tie is a collector's item.",
+                "object_interpretations": {
+                    "lion": {
+                        "form": "drawing/etching",
+                        "scale": "small",
+                        "role": "scientific illustration"
+                    },
+                    "lamb": {
+                        "form": "stuffed specimen",
+                        "scale": "small",
+                        "role": "collected curiosity"
+                    },
+                    "canopy": {
+                        "form": "glass dome",
+                        "scale": "medium",
+                        "role": "display cover"
+                    },
+                    "tie": {
+                        "form": "antique accessory",
+                        "scale": "normal",
+                        "role": "curiosity item"
+                    }
+                },
+                "scene_brief": "A Baroque Cabinet of Curiosities featuring lion, with canopy displayed on shelves, lamb, and tie"
+            }
+        }
+    },
+    "final_prompts": {
+        "main_prompt": "A Baroque painting depicting a serene yet striking evening tableau where a large, warm bronze lion with antique patina and a small, creamy white wax lamb rest peacefully atop a medium-sized crimson canopy of richly aged velvet fabric. A marginal, pristine silk tie with metallic thread highlights lies gracefully draped across the same canopy surface. The canopy itself appears to gently envelop and support all three objects\u2014the lion, lamb, and tie\u2014creating a layered, almost ceremonial arrangement. Artificial dramatic lighting casts deep shadows and highlights the textures of bronze, velvet, wax, and silk, evoking a calm, relaxed, and visually arresting atmosphere in the intimate evening scene.",
+        "negative_prompt": "photorealistic, 3d render, modern, digital art, photograph, low quality, blurry, distorted, cartoon, anime, surreal, abstract, watermark, signature, text, frame, border, ugly, deformed, noisy",
+        "prompt_formats": {
+            "simple": "A Baroque evening scene with a bronze lion, a wax lamb, and a silk tie arranged on a crimson velvet canopy under dramatic artificial light.",
+            "complex": "A Baroque painting depicting a serene yet striking evening tableau where a large, warm bronze lion with antique patina and a small, creamy white wax lamb rest peacefully atop a medium-sized crimson canopy of richly aged velvet fabric. A marginal, pristine silk tie with metallic thread highlights lies gracefully draped across the same canopy surface. The canopy itself appears to gently envelop and support all three objects\u2014the lion, lamb, and tie\u2014creating a layered, almost ceremonial arrangement. Artificial dramatic lighting casts deep shadows and highlights the textures of bronze, velvet, wax, and silk, evoking a calm, relaxed, and visually arresting atmosphere in the intimate evening scene.",
+            "comma_separated": "Baroque painting, lion on canopy, lamb on canopy, tie on canopy, warm bronze lion, antique patina, creamy white wax lamb, crimson velvet canopy, silk tie, metallic thread, evening, artificial dramatic lighting, calm, relaxed, striking atmosphere, rich textures, chiaroscuro",
+            "tags": "art, painting, Baroque, still life, lion, lamb, tie, canopy, velvet, bronze, wax, silk, evening, dramatic lighting, chiaroscuro, calm, serene, textured, antique, ceremonial"
+        }
+    }
+}

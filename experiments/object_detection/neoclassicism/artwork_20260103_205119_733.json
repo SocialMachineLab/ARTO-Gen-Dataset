@@ -1,0 +1,303 @@
+{
+    "artwork_id": "artwork_20260103_205119_733",
+    "generation_timestamp": "2026-01-03T20:52:09.841645",
+    "style": "Neoclassicism",
+    "objects": {
+        "object_ids": [
+            25,
+            2,
+            19
+        ],
+        "object_names": [
+            "backpack",
+            "wheel",
+            "sheep"
+        ],
+        "enhanced_objects": [
+            {
+                "object_id": 25,
+                "name": "backpack",
+                "artistic_description": "A weathered leather satchel with softened edges and subtle creases from use, bathed in cool morning light that reveals the rich patina of aged hide. The natural illumination highlights the subtle grain and worn texture, creating gentle highlights along the embossed details and brass hardware. The leather shows a matte finish with occasional soft reflections on smooth surfaces, embodying the dignified craftsmanship of classical times.",
+                "size": "Medium",
+                "state": "gently worn with softened leather and aged patina",
+                "primary_colors": [
+                    "warm brown",
+                    "deep amber"
+                ],
+                "material": "leather"
+            },
+            {
+                "object_id": 2,
+                "name": "wheel",
+                "artistic_description": "A solid wooden wheel with iron rim, cast in crisp morning light that creates strong contrasts between the dark metal and lighter wood grain. The natural illumination reveals the precise joinery and weathered texture of the wood, while the iron rim catches cool highlights along its polished edges. The surface shows a subtle sheen on the metal and a dry, matte finish on the wood, rendered with classical attention to geometric form and material honesty.",
+                "size": "Medium",
+                "state": "sturdy and functional with weathered wood and tarnished metal",
+                "primary_colors": [
+                    "weathered oak",
+                    "charcoal iron"
+                ],
+                "material": "wood and iron"
+            },
+            {
+                "object_id": 19,
+                "name": "sheep",
+                "artistic_description": "A woolly sheep with fleece that catches the cool morning light in soft, luminous tufts, creating a gentle halo effect around its form. The natural illumination reveals the creamy white wool with subtle gray undertones, while the fleece texture absorbs and diffuses light, giving it a matte, cloud-like appearance. The animal's dark eyes and hooves provide striking contrast, rendered with classical sculptural dignity and naturalistic detail.",
+                "size": "Large",
+                "state": "calm and still with clean, full fleece",
+                "primary_colors": [
+                    "creamy white",
+                    "soft gray"
+                ],
+                "material": "wool"
+            }
+        ]
+    },
+    "composition": {
+        "spatial_relations": [
+            [
+                25,
+                "on",
+                2
+            ],
+            [
+                19,
+                "next to",
+                2
+            ]
+        ],
+        "semantic_relations": []
+    },
+    "environment": {
+        "environment_details": {
+            "scene_brief": "A neoclassical library featuring backpack, with wheel, and sheep",
+            "place365_name": "/l/library/indoor",
+            "place365_id": 212,
+            "time_of_day": "morning",
+            "weather": null,
+            "period": "Classical",
+            "is_indoor": true,
+            "lighting": {
+                "type": "natural",
+                "quality": "soft",
+                "direction": "side-lit",
+                "mood": "warm",
+                "reasoning": "Morning light entering through high windows (side-lit) would create soft, warm shadows and highlight the textures of the library (stone/wood) and the objects (fabric/wool). This lighting style mimics the rational, balanced illumination found in Neoclassical paintings, emphasizing form without harsh contrast."
+            },
+            "atmosphere": "fresh and energetic and gentle"
+        },
+        "scene_inference": {
+            "all_candidates": [
+                {
+                    "scene_type": "neoclassical artist's studio",
+                    "plausibility": 0.95,
+                    "reasoning": "A backpack can be a student's bag for art supplies. A wheel can be a wooden palette wheel or a small model of a chariot wheel for study. A sheep can be a taxidermy model or a small sculpture used as a reference for pastoral scenes.",
+                    "object_interpretations": {
+                        "backpack": {
+                            "form": "real leather backpack",
+                            "scale": "normal",
+                            "role": "student's supply carrier"
+                        },
+                        "wheel": {
+                            "form": "wooden palette wheel or model",
+                            "scale": "small",
+                            "role": "artistic reference or prop"
+                        },
+                        "sheep": {
+                            "form": "taxidermy or plaster model",
+                            "scale": "small",
+                            "role": "artistic reference model"
+                        }
+                    }
+                },
+                {
+                    "scene_type": "neoclassical museum interior",
+                    "plausibility": 0.9,
+                    "reasoning": "A backpack belongs to a visitor. The wheel and sheep are artifacts displayed in glass cases\u2014perhaps a Roman chariot wheel and a bronze sheep statue.",
+                    "object_interpretations": {
+                        "backpack": {
+                            "form": "modern canvas backpack",
+                            "scale": "normal",
+                            "role": "visitor's luggage"
+                        },
+                        "wheel": {
+                            "form": "ancient artifact",
+                            "scale": "normal",
+                            "role": "museum exhibit"
+                        },
+                        "sheep": {
+                            "form": "bronze sculpture",
+                            "scale": "normal",
+                            "role": "museum exhibit"
+                        }
+                    }
+                },
+                {
+                    "scene_type": "classical pastoral landscape",
+                    "plausibility": 0.85,
+                    "reasoning": "A backpack rests on the grass where a shepherd has left it. A wheel could be from a nearby broken cart. The sheep is a live animal grazing in the field.",
+                    "object_interpretations": {
+                        "backpack": {
+                            "form": "worn leather satchel",
+                            "scale": "normal",
+                            "role": "shepherd's personal item"
+                        },
+                        "wheel": {
+                            "form": "broken cart wheel",
+                            "scale": "large",
+                            "role": "abandoned farm equipment"
+                        },
+                        "sheep": {
+                            "form": "live animal",
+                            "scale": "normal",
+                            "role": "grazing livestock"
+                        }
+                    }
+                },
+                {
+                    "scene_type": "neoclassical dining room",
+                    "plausibility": 0.8,
+                    "reasoning": "A backpack is hung on a chair. A wheel is a decorative centerpiece or a toy. A sheep is a small salt cellar or porcelain figurine on the table.",
+                    "object_interpretations": {
+                        "backpack": {
+                            "form": "leather bag",
+                            "scale": "normal",
+                            "role": "personal item on chair"
+                        },
+                        "wheel": {
+                            "form": "ornamental centerpiece",
+                            "scale": "small",
+                            "role": "table decoration"
+                        },
+                        "sheep": {
+                            "form": "porcelain figurine",
+                            "scale": "small",
+                            "role": "table ornament"
+                        }
+                    }
+                },
+                {
+                    "scene_type": "neoclassical library",
+                    "plausibility": 0.85,
+                    "reasoning": "A backpack is on the floor by a reading desk. A wheel is a decorative bookend shaped like a wheel. A sheep is a small bronze paperweight on the desk.",
+                    "object_interpretations": {
+                        "backpack": {
+                            "form": "canvas backpack",
+                            "scale": "normal",
+                            "role": "student's bag"
+                        },
+                        "wheel": {
+                            "form": "bookend",
+                            "scale": "small",
+                            "role": "functional decoration"
+                        },
+                        "sheep": {
+                            "form": "bronze paperweight",
+                            "scale": "small",
+                            "role": "desk accessory"
+                        }
+                    },
+                    "scene_brief": "A neoclassical library featuring backpack, with wheel, and sheep"
+                },
+                {
+                    "scene_type": "neoclassical garden",
+                    "plausibility": 0.9,
+                    "reasoning": "A backpack is on a stone bench. A wheel is part of a decorative garden urn or a stone fountain. A sheep is a topiary sculpture or a marble statue.",
+                    "object_interpretations": {
+                        "backpack": {
+                            "form": "leather backpack",
+                            "scale": "normal",
+                            "role": "visitor's item"
+                        },
+                        "wheel": {
+                            "form": "stone fountain detail",
+                            "scale": "large",
+                            "role": "architectural element"
+                        },
+                        "sheep": {
+                            "form": "marble statue",
+                            "scale": "normal",
+                            "role": "garden ornament"
+                        }
+                    }
+                },
+                {
+                    "scene_type": "neoclassical workshop",
+                    "plausibility": 0.8,
+                    "reasoning": "A backpack is on a workbench. A wheel is a wooden spool for rope or a cart wheel model. A sheep is a small carving in progress or a reference model.",
+                    "object_interpretations": {
+                        "backpack": {
+                            "form": "worn leather bag",
+                            "scale": "normal",
+                            "role": "craftsman's bag"
+                        },
+                        "wheel": {
+                            "form": "wooden spool or model",
+                            "scale": "small",
+                            "role": "tool or prop"
+                        },
+                        "sheep": {
+                            "form": "wooden carving",
+                            "scale": "small",
+                            "role": "craft project"
+                        }
+                    }
+                },
+                {
+                    "scene_type": "neoclassical classroom",
+                    "plausibility": 0.85,
+                    "reasoning": "A backpack is under a student's desk. A wheel is a teaching model of a Roman chariot wheel. A sheep is a taxidermy specimen for a natural history lesson.",
+                    "object_interpretations": {
+                        "backpack": {
+                            "form": "student backpack",
+                            "scale": "normal",
+                            "role": "school supply bag"
+                        },
+                        "wheel": {
+                            "form": "teaching model",
+                            "scale": "small",
+                            "role": "educational prop"
+                        },
+                        "sheep": {
+                            "form": "taxidermy",
+                            "scale": "small",
+                            "role": "teaching specimen"
+                        }
+                    }
+                }
+            ],
+            "selected_scene": {
+                "scene_type": "neoclassical library",
+                "plausibility": 0.85,
+                "reasoning": "A backpack is on the floor by a reading desk. A wheel is a decorative bookend shaped like a wheel. A sheep is a small bronze paperweight on the desk.",
+                "object_interpretations": {
+                    "backpack": {
+                        "form": "canvas backpack",
+                        "scale": "normal",
+                        "role": "student's bag"
+                    },
+                    "wheel": {
+                        "form": "bookend",
+                        "scale": "small",
+                        "role": "functional decoration"
+                    },
+                    "sheep": {
+                        "form": "bronze paperweight",
+                        "scale": "small",
+                        "role": "desk accessory"
+                    }
+                },
+                "scene_brief": "A neoclassical library featuring backpack, with wheel, and sheep"
+            }
+        }
+    },
+    "final_prompts": {
+        "main_prompt": "A Neoclassicism painting depicting a fresh and energetic morning scene with gentle natural lighting. In the foreground, a medium-sized backpack in warm brown and deep amber leather sits atop a medium-sized wheel made of weathered oak with charcoal iron fittings, the backpack's softened leather showing gentle wear. Beside this arrangement stands a large, calm sheep with creamy white and soft gray wool, its clean fleece catching the morning light. The spatial composition clearly shows the backpack resting on the sturdy, functional wheel while the serene sheep stands adjacent to this central grouping. The overall atmosphere combines the freshness of morning with energetic yet gentle natural illumination, rendered in the balanced composition, classical forms, and restrained color palette characteristic of Neoclassical art.",
+        "negative_prompt": "photorealistic, 3d render, modern, digital art, photograph, low quality, blurry, distorted, surreal, abstract, cartoon, anime, fantasy, sci-fi, horror, ugly, deformed, mutated, text, watermark, signature, frame, border",
+        "prompt_formats": {
+            "simple": "A Neoclassical morning scene with a backpack on a wheel beside a calm sheep.",
+            "complex": "A Neoclassicism painting depicting a fresh and energetic morning scene with gentle natural lighting. In the foreground, a medium-sized backpack in warm brown and deep amber leather sits atop a medium-sized wheel made of weathered oak with charcoal iron fittings, the backpack's softened leather showing gentle wear. Beside this arrangement stands a large, calm sheep with creamy white and soft gray wool, its clean fleece catching the morning light. The spatial composition clearly shows the backpack resting on the sturdy, functional wheel while the serene sheep stands adjacent to this central grouping. The overall atmosphere combines the freshness of morning with energetic yet gentle natural illumination, rendered in the balanced composition, classical forms, and restrained color palette characteristic of Neoclassical art.",
+            "comma_separated": "Neoclassicism painting, morning scene, natural soft lighting, fresh energetic gentle atmosphere, backpack on wheel, sheep beside wheel, warm brown deep amber backpack, weathered oak charcoal iron wheel, creamy white soft gray sheep, classical composition, balanced forms, restrained colors",
+            "tags": "art, painting, neoclassicism, classical art, morning light, backpack, wheel, sheep, leather, wood, iron, wool, still life, pastoral, composition, natural lighting"
+        }
+    }
+}

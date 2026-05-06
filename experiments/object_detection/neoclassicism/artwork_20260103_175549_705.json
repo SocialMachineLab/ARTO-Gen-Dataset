@@ -1,0 +1,264 @@
+{
+    "artwork_id": "artwork_20260103_175549_705",
+    "generation_timestamp": "2026-01-03T17:56:16.381104",
+    "style": "Neoclassicism",
+    "objects": {
+        "object_ids": [
+            33,
+            31,
+            52
+        ],
+        "object_names": [
+            "ball",
+            "sleigh",
+            "pumpkin"
+        ],
+        "enhanced_objects": [
+            {
+                "object_id": 33,
+                "name": "ball",
+                "artistic_description": "A polished sphere catching the museum's mixed lighting with subtle highlights, its surface displaying a soft gradient between warm artificial tones and cool ambient daylight filtering through the space, rendered with classical precision and gentle shadow play",
+                "size": "Small",
+                "state": "pristine and reflective",
+                "primary_colors": [
+                    "polished crimson",
+                    "deep burgundy"
+                ],
+                "material": "lacquered wood"
+            },
+            {
+                "object_id": 31,
+                "name": "sleigh",
+                "artistic_description": "An elegant wooden vehicle with gracefully curved runners that gleam softly under the display lights, its aged patina showing warm amber undertones where light pools and cooler gray shadows in recessed areas, carved with refined neoclassical ornamentation",
+                "size": "Large",
+                "state": "carefully preserved with gentle weathering",
+                "primary_colors": [
+                    "weathered mahogany",
+                    "antique gold"
+                ],
+                "material": "aged hardwood and wrought iron"
+            },
+            {
+                "object_id": 52,
+                "name": "pumpkin",
+                "artistic_description": "A plump gourd with a matte, textured skin that diffuses the gallery lighting into a soft, earthy glow, its natural orange tones muted to a sophisticated burnt sienna under the subdued atmosphere, showing subtle variations from creamy highlights to deep amber shadows",
+                "size": "Medium",
+                "state": "freshly harvested and well-preserved",
+                "primary_colors": [
+                    "burnt sienna",
+                    "ochre"
+                ],
+                "material": "organic vegetable matter"
+            }
+        ]
+    },
+    "composition": {
+        "spatial_relations": [
+            [
+                33,
+                "next to",
+                31
+            ],
+            [
+                33,
+                "next to",
+                52
+            ],
+            [
+                31,
+                "next to",
+                52
+            ]
+        ],
+        "semantic_relations": []
+    },
+    "environment": {
+        "environment_details": {
+            "scene_brief": "A museum display featuring ball, with sleigh, and pumpkin",
+            "place365_name": "/m/museum/indoor",
+            "place365_id": 236,
+            "time_of_day": "afternoon",
+            "weather": "cloudy",
+            "period": "Contemporary",
+            "is_indoor": true,
+            "lighting": {
+                "type": "mixed",
+                "quality": "soft",
+                "direction": "front-lit",
+                "mood": "neutral",
+                "reasoning": "Mixed lighting combines soft natural light from windows (cloudy afternoon) with focused artificial gallery lighting on the display. Side-lit and front-lit arrangement highlights the three-dimensional form of the objects while maintaining the balanced, clear illumination characteristic of Neoclassical presentation. Neutral mood supports the formal, contemplative nature of the style."
+            },
+            "atmosphere": "bright and active and subdued and gentle"
+        },
+        "scene_inference": {
+            "all_candidates": [
+                {
+                    "scene_type": "neoclassical harvest festival",
+                    "plausibility": 0.95,
+                    "reasoning": "A formal outdoor celebration in a classical setting. The ball is a child's toy being played with near a decorative pumpkin display. A miniature ceremonial sleigh (perhaps carrying a small pumpkin) is present as part of the festivities.",
+                    "object_interpretations": {
+                        "ball": {
+                            "form": "real object",
+                            "scale": "standard play ball size",
+                            "role": "primary toy for recreation"
+                        },
+                        "sleigh": {
+                            "form": "miniature decorative vehicle",
+                            "scale": "small (approx. 2 feet long)",
+                            "role": "festive decoration or toy"
+                        },
+                        "pumpkin": {
+                            "form": "real vegetable",
+                            "scale": "normal harvest size",
+                            "role": "seasonal decoration"
+                        }
+                    }
+                },
+                {
+                    "scene_type": "neoclassical nursery",
+                    "plausibility": 0.9,
+                    "reasoning": "A child's room decorated in a refined neoclassical style. The ball is a child's toy. The sleigh is a small wooden toy, and the pumpkin is a decorative gourd or small sculpture on a shelf.",
+                    "object_interpretations": {
+                        "ball": {
+                            "form": "toy",
+                            "scale": "standard play ball size",
+                            "role": "child's toy"
+                        },
+                        "sleigh": {
+                            "form": "toy model",
+                            "scale": "miniature",
+                            "role": "toy or decorative object"
+                        },
+                        "pumpkin": {
+                            "form": "decorative object",
+                            "scale": "small",
+                            "role": "decoration"
+                        }
+                    }
+                },
+                {
+                    "scene_type": "classical still life painting",
+                    "plausibility": 0.85,
+                    "reasoning": "A formal still life composition in the neoclassical style, featuring a marble bust, a decorative ball, a small silver sleigh ornament, and a pumpkin as a symbol of autumn.",
+                    "object_interpretations": {
+                        "ball": {
+                            "form": "ornamental sphere",
+                            "scale": "medium",
+                            "role": "decorative element in composition"
+                        },
+                        "sleigh": {
+                            "form": "ornament",
+                            "scale": "small",
+                            "role": "decorative element"
+                        },
+                        "pumpkin": {
+                            "form": "natural object",
+                            "scale": "medium",
+                            "role": "symbolic element (harvest)"
+                        }
+                    }
+                },
+                {
+                    "scene_type": "neoclassical garden",
+                    "plausibility": 0.8,
+                    "reasoning": "A formal garden with geometric hedges and statues. A child plays with a ball on the gravel path. Nearby, a small decorative sleigh is part of a garden ornament display, and pumpkins are arranged as seasonal border decorations.",
+                    "object_interpretations": {
+                        "ball": {
+                            "form": "real object",
+                            "scale": "standard",
+                            "role": "toy"
+                        },
+                        "sleigh": {
+                            "form": "garden ornament",
+                            "scale": "small",
+                            "role": "decoration"
+                        },
+                        "pumpkin": {
+                            "form": "natural object",
+                            "scale": "normal",
+                            "role": "garden decoration"
+                        }
+                    }
+                },
+                {
+                    "scene_type": "winter holiday tableau",
+                    "plausibility": 0.75,
+                    "reasoning": "A neoclassical interior or exterior decorated for winter holidays. A ball is a gift or toy. A sleigh is a large decorative prop. A pumpkin might seem out of place, but could be a leftover autumn decoration or a painted prop.",
+                    "object_interpretations": {
+                        "ball": {
+                            "form": "toy",
+                            "scale": "standard",
+                            "role": "toy"
+                        },
+                        "sleigh": {
+                            "form": "decorative prop",
+                            "scale": "large",
+                            "role": "centerpiece decoration"
+                        },
+                        "pumpkin": {
+                            "form": "decorative object",
+                            "scale": "medium",
+                            "role": "seasonal transition decoration"
+                        }
+                    }
+                },
+                {
+                    "scene_type": "museum display",
+                    "plausibility": 0.7,
+                    "reasoning": "A museum exhibit of historical toys and artifacts. The ball, sleigh, and pumpkin are all displayed as separate historical objects under glass cases.",
+                    "object_interpretations": {
+                        "ball": {
+                            "form": "artifact",
+                            "scale": "standard",
+                            "role": "exhibit item"
+                        },
+                        "sleigh": {
+                            "form": "artifact",
+                            "scale": "standard",
+                            "role": "exhibit item"
+                        },
+                        "pumpkin": {
+                            "form": "artifact",
+                            "scale": "standard",
+                            "role": "exhibit item"
+                        }
+                    },
+                    "scene_brief": "A museum display featuring ball, with sleigh, and pumpkin"
+                }
+            ],
+            "selected_scene": {
+                "scene_type": "museum display",
+                "plausibility": 0.7,
+                "reasoning": "A museum exhibit of historical toys and artifacts. The ball, sleigh, and pumpkin are all displayed as separate historical objects under glass cases.",
+                "object_interpretations": {
+                    "ball": {
+                        "form": "artifact",
+                        "scale": "standard",
+                        "role": "exhibit item"
+                    },
+                    "sleigh": {
+                        "form": "artifact",
+                        "scale": "standard",
+                        "role": "exhibit item"
+                    },
+                    "pumpkin": {
+                        "form": "artifact",
+                        "scale": "standard",
+                        "role": "exhibit item"
+                    }
+                },
+                "scene_brief": "A museum display featuring ball, with sleigh, and pumpkin"
+            }
+        }
+    },
+    "final_prompts": {
+        "main_prompt": "A Neoclassicism painting depicting a carefully preserved, large sleigh of weathered mahogany with antique gold accents resting on a stone terrace, positioned beside a medium-sized pumpkin in burnt sienna and ochre hues that appears freshly harvested and well-preserved. Nestled between them is a small, polished crimson ball with deep burgundy tones, pristine and reflective, creating a triangular composition where each object touches its neighbors. The scene unfolds in the soft afternoon light of a classical garden, with mixed illumination casting gentle shadows across the lacquered wood of the sleigh, the aged hardwood and wrought iron details, and the organic vegetable matter of the pumpkin. The atmosphere is bright and active yet simultaneously subdued and gentle, evoking a sense of quiet contemplation amidst classical architecture and sculpted greenery, with the warm afternoon sun highlighting the textures of each carefully arranged object.",
+        "negative_prompt": "photorealistic, 3d render, modern, digital art, photograph, low quality, blurry, distorted, surreal, abstract, cartoon, anime, fantasy, sci-fi, horror, ugly, deformed, mutated, text, watermark, signature, frame, border",
+        "prompt_formats": {
+            "simple": "A Neoclassical painting of a sleigh, pumpkin, and crimson ball arranged together in a classical garden during a gentle afternoon.",
+            "complex": "A Neoclassicism painting depicting a carefully preserved, large sleigh of weathered mahogany with antique gold accents resting on a stone terrace, positioned beside a medium-sized pumpkin in burnt sienna and ochre hues that appears freshly harvested and well-preserved. Nestled between them is a small, polished crimson ball with deep burgundy tones, pristine and reflective, creating a triangular composition where each object touches its neighbors. The scene unfolds in the soft afternoon light of a classical garden, with mixed illumination casting gentle shadows across the lacquered wood of the sleigh, the aged hardwood and wrought iron details, and the organic vegetable matter of the pumpkin. The atmosphere is bright and active yet simultaneously subdued and gentle, evoking a sense of quiet contemplation amidst classical architecture and sculpted greenery, with the warm afternoon sun highlighting the textures of each carefully arranged object.",
+            "comma_separated": "Neoclassicism painting, large weathered mahogany sleigh with antique gold, medium burnt sienna pumpkin, small polished crimson ball, ball next to sleigh and pumpkin, sleigh next to pumpkin, classical garden setting, afternoon lighting, mixed soft illumination, bright active subdued gentle atmosphere, lacquered wood, aged hardwood, wrought iron, organic vegetable matter, pristine reflective surface, carefully preserved, freshly harvested, stone terrace, sculpted greenery, classical architecture",
+            "tags": "art, painting, neoclassicism, still life, classical, garden, afternoon, sleigh, pumpkin, ball, mahogany, crimson, sienna, antique, preserved, harvested, reflective, composition, lighting, atmosphere, texture, detail"
+        }
+    }
+}

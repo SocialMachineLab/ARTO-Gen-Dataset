@@ -1,0 +1,358 @@
+{
+    "artwork_id": "artwork_20260103_174330_699",
+    "generation_timestamp": "2026-01-03T17:44:04.486852",
+    "style": "Neoclassicism",
+    "objects": {
+        "object_ids": [
+            17,
+            49,
+            56
+        ],
+        "object_names": [
+            "fox",
+            "bread",
+            "pastry"
+        ],
+        "enhanced_objects": [
+            {
+                "object_id": 17,
+                "name": "fox",
+                "artistic_description": "A sleek vulpine figure rendered with classical precision, its russet fur catching the warm afternoon sun in luminous copper and amber tones. The fur appears dry and velvety, with individual hairs creating delicate highlights where sunlight strikes the shoulders and back. Subtle shadows fall across its form with the soft gradation characteristic of neoclassical modeling, while the eyes gleam with intelligent amber depths. The muzzle shows delicate cream-colored fur, warmed to pale gold by the ambient light.",
+                "size": "Medium",
+                "state": "Alert and poised, with naturalistic detail reflecting contemporary wildlife standards",
+                "primary_colors": [
+                    "russet amber",
+                    "copper"
+                ],
+                "material": "fur"
+            },
+            {
+                "object_id": 49,
+                "name": "bread",
+                "artistic_description": "A rustic loaf with a golden-brown crust that glows warmly under the afternoon sun, its surface marked by the elegant scoring patterns of artisanal baking. The crust displays a rich spectrum from deep amber to pale honey tones, with a matte, slightly textured surface that absorbs and reflects light with subtle variation. The interior crumb, visible at the edges, appears creamy and soft, with delicate air pockets rendered in the neoclassical tradition of idealized natural forms.",
+                "size": "Medium",
+                "state": "Freshly baked, crusty exterior with soft interior, contemporary artisanal quality",
+                "primary_colors": [
+                    "golden brown",
+                    "warm amber"
+                ],
+                "material": "bread"
+            },
+            {
+                "object_id": 56,
+                "name": "pastry",
+                "artistic_description": "An exquisite laminated pastry with delicate, flaky layers that catch the sunlight like sculpted marble, each ridge and fold creating precise shadows. The surface glistens with a subtle buttery sheen, showing warm highlights in pale gold and deeper tones of caramel where the layers are most compressed. A light dusting of sugar crystals sparkles like fine granules, catching and refracting the bright afternoon light with crystalline precision.",
+                "size": "Small",
+                "state": "Delicate and pristine, with crisp, flaky structure",
+                "primary_colors": [
+                    "pale gold",
+                    "buttery cream"
+                ],
+                "material": "pastry"
+            }
+        ]
+    },
+    "composition": {
+        "spatial_relations": [
+            [
+                49,
+                "on",
+                56
+            ],
+            [
+                17,
+                "next to",
+                56
+            ]
+        ],
+        "semantic_relations": [
+            [
+                17,
+                "watching",
+                49
+            ],
+            [
+                17,
+                "watching",
+                56
+            ]
+        ]
+    },
+    "environment": {
+        "environment_details": {
+            "scene_brief": "A forest picnic featuring fox, with bread, and pastry",
+            "place365_name": "/f/forest/broadleaf",
+            "place365_id": 150,
+            "time_of_day": "afternoon",
+            "weather": "sunny",
+            "period": "Contemporary",
+            "is_indoor": false,
+            "lighting": {
+                "type": "natural",
+                "quality": "soft",
+                "direction": "side-lit",
+                "mood": "warm",
+                "reasoning": "Side-lighting from the afternoon sun creates volume and form on the objects (bread, pastry) and the fox, essential for Neoclassical realism. The soft quality (filtered through leaves) prevents harsh contrasts, maintaining a harmonious and idealized atmosphere."
+            },
+            "atmosphere": "bright and active and cheerful and gentle"
+        },
+        "scene_inference": {
+            "all_candidates": [
+                {
+                    "scene_type": "rustic farmhouse kitchen",
+                    "plausibility": 0.95,
+                    "reasoning": "A fox could be a domesticated or wild visitor in a rustic farmhouse setting. Bread and pastry are staple foods prepared in such kitchens. The Neoclassical style lends a dignified, timeless quality to the scene.",
+                    "object_interpretations": {
+                        "fox": {
+                            "form": "real fox",
+                            "scale": "normal",
+                            "role": "wild/domesticated animal companion"
+                        },
+                        "bread": {
+                            "form": "real loaf",
+                            "scale": "normal",
+                            "role": "food staple on table"
+                        },
+                        "pastry": {
+                            "form": "real pastry",
+                            "scale": "normal",
+                            "role": "prepared food item"
+                        }
+                    }
+                },
+                {
+                    "scene_type": "classical still life painting",
+                    "plausibility": 0.98,
+                    "reasoning": "In Neoclassical art, still life compositions are common. A fox could be depicted as a taxidermy mount or a sleeping animal amidst a banquet spread, creating a formal, composed arrangement.",
+                    "object_interpretations": {
+                        "fox": {
+                            "form": "taxidermy or sleeping fox",
+                            "scale": "normal",
+                            "role": "central subject or decorative element"
+                        },
+                        "bread": {
+                            "form": "still life object",
+                            "scale": "normal",
+                            "role": "compositional element"
+                        },
+                        "pastry": {
+                            "form": "still life object",
+                            "scale": "normal",
+                            "role": "compositional element"
+                        }
+                    }
+                },
+                {
+                    "scene_type": "forest picnic",
+                    "plausibility": 0.9,
+                    "reasoning": "A fox could approach a forest clearing where a picnic basket with bread and pastry has been left. The Neoclassical style would formalize this natural encounter into a dignified tableau.",
+                    "object_interpretations": {
+                        "fox": {
+                            "form": "real fox",
+                            "scale": "normal",
+                            "role": "wild animal investigating food"
+                        },
+                        "bread": {
+                            "form": "real loaf",
+                            "scale": "normal",
+                            "role": "picnic food"
+                        },
+                        "pastry": {
+                            "form": "real pastry",
+                            "scale": "normal",
+                            "role": "picnic food"
+                        }
+                    },
+                    "scene_brief": "A forest picnic featuring fox, with bread, and pastry"
+                },
+                {
+                    "scene_type": "nobleman's study",
+                    "plausibility": 0.85,
+                    "reasoning": "A domesticated fox could be a pet in a nobleman's study. Bread and pastry could be on a side table as refreshments. The Neoclassical style emphasizes order and dignity.",
+                    "object_interpretations": {
+                        "fox": {
+                            "form": "domesticated fox",
+                            "scale": "normal",
+                            "role": "companion animal"
+                        },
+                        "bread": {
+                            "form": "fresh loaf",
+                            "scale": "normal",
+                            "role": "refreshment"
+                        },
+                        "pastry": {
+                            "form": "delicate pastry",
+                            "scale": "normal",
+                            "role": "refreshment"
+                        }
+                    }
+                },
+                {
+                    "scene_type": "market stall",
+                    "plausibility": 0.92,
+                    "reasoning": "A fox could be a clever thief at a classical market stall. Bread and pastry are goods for sale. The Neoclassical style would depict the scene with formal composition and dignified characters.",
+                    "object_interpretations": {
+                        "fox": {
+                            "form": "real fox",
+                            "scale": "normal",
+                            "role": "mischief-maker/thief"
+                        },
+                        "bread": {
+                            "form": "market goods",
+                            "scale": "normal",
+                            "role": "commodity for sale"
+                        },
+                        "pastry": {
+                            "form": "market goods",
+                            "scale": "normal",
+                            "role": "commodity for sale"
+                        }
+                    }
+                },
+                {
+                    "scene_type": "temple ruins",
+                    "plausibility": 0.88,
+                    "reasoning": "A fox could inhabit classical temple ruins. Bread and pastry could be offerings left by visitors. The Neoclassical style emphasizes the grandeur of the ruins and the wildness of nature.",
+                    "object_interpretations": {
+                        "fox": {
+                            "form": "real fox",
+                            "scale": "normal",
+                            "role": "wild inhabitant"
+                        },
+                        "bread": {
+                            "form": "offering bread",
+                            "scale": "normal",
+                            "role": "ritual offering"
+                        },
+                        "pastry": {
+                            "form": "offering pastry",
+                            "scale": "normal",
+                            "role": "ritual offering"
+                        }
+                    }
+                },
+                {
+                    "scene_type": "formal garden",
+                    "plausibility": 0.9,
+                    "reasoning": "A fox could be a visitor to a formal Neoclassical garden. Bread crumbs could be scattered on a path, and pastry could be on a garden table. The scene balances nature and order.",
+                    "object_interpretations": {
+                        "fox": {
+                            "form": "real fox",
+                            "scale": "normal",
+                            "role": "garden visitor"
+                        },
+                        "bread": {
+                            "form": "crumbs or loaf",
+                            "scale": "normal",
+                            "role": "food source"
+                        },
+                        "pastry": {
+                            "form": "pastry on table",
+                            "scale": "normal",
+                            "role": "garden refreshment"
+                        }
+                    }
+                },
+                {
+                    "scene_type": "dining hall",
+                    "plausibility": 0.85,
+                    "reasoning": "A fox could be a taxidermy or living pet in a grand dining hall. Bread and pastry are part of a formal meal setting. The Neoclassical style emphasizes symmetry and grandeur.",
+                    "object_interpretations": {
+                        "fox": {
+                            "form": "taxidermy or pet",
+                            "scale": "normal",
+                            "role": "decorative element"
+                        },
+                        "bread": {
+                            "form": "dinner bread",
+                            "scale": "normal",
+                            "role": "meal component"
+                        },
+                        "pastry": {
+                            "form": "dessert pastry",
+                            "scale": "normal",
+                            "role": "meal component"
+                        }
+                    }
+                },
+                {
+                    "scene_type": "artist's studio",
+                    "plausibility": 0.82,
+                    "reasoning": "A fox could be a model for a painting in an artist's studio. Bread and pastry could be props or the artist's snack. The Neoclassical style would be reflected in the studio's decor.",
+                    "object_interpretations": {
+                        "fox": {
+                            "form": "real fox",
+                            "scale": "normal",
+                            "role": "artist's model"
+                        },
+                        "bread": {
+                            "form": "still life prop",
+                            "scale": "normal",
+                            "role": "painting element"
+                        },
+                        "pastry": {
+                            "form": "still life prop",
+                            "scale": "normal",
+                            "role": "painting element"
+                        }
+                    }
+                },
+                {
+                    "scene_type": "winter village",
+                    "plausibility": 0.88,
+                    "reasoning": "A fox could scavenge near a winter village bakery. Bread and pastry are fresh from the oven. The Neoclassical style would depict the scene with formal architecture and dignified villagers.",
+                    "object_interpretations": {
+                        "fox": {
+                            "form": "real fox",
+                            "scale": "normal",
+                            "role": "scavenger"
+                        },
+                        "bread": {
+                            "form": "fresh bread",
+                            "scale": "normal",
+                            "role": "bakery goods"
+                        },
+                        "pastry": {
+                            "form": "fresh pastry",
+                            "scale": "normal",
+                            "role": "bakery goods"
+                        }
+                    }
+                }
+            ],
+            "selected_scene": {
+                "scene_type": "forest picnic",
+                "plausibility": 0.9,
+                "reasoning": "A fox could approach a forest clearing where a picnic basket with bread and pastry has been left. The Neoclassical style would formalize this natural encounter into a dignified tableau.",
+                "object_interpretations": {
+                    "fox": {
+                        "form": "real fox",
+                        "scale": "normal",
+                        "role": "wild animal investigating food"
+                    },
+                    "bread": {
+                        "form": "real loaf",
+                        "scale": "normal",
+                        "role": "picnic food"
+                    },
+                    "pastry": {
+                        "form": "real pastry",
+                        "scale": "normal",
+                        "role": "picnic food"
+                    }
+                },
+                "scene_brief": "A forest picnic featuring fox, with bread, and pastry"
+            }
+        }
+    },
+    "final_prompts": {
+        "main_prompt": "A Neoclassicism painting depicting a russet amber and copper fox of medium size, alert and poised, standing beside a small, delicate pastry in pale gold and buttery cream tones. Upon this pristine pastry rests a medium-sized loaf of bread, its crust glowing in warm amber and golden brown hues, freshly baked and radiating warmth. The composition places the fox and pastry arrangement in the foreground, with the afternoon's natural soft light casting gentle shadows across the scene. The overall atmosphere is bright, active, cheerful, and gentle, evoking a sense of classical harmony and balanced beauty, with careful attention to the textures of fur, bread crust, and flaky pastry.",
+        "negative_prompt": "photorealistic, 3d render, modern, digital art, photograph, low quality, blurry, distorted, surreal, abstract, cartoon, anime, watermark, signature, text, frame, border, ugly, deformed, mutated",
+        "prompt_formats": {
+            "simple": "A Neoclassical painting of an alert fox beside a pastry with bread on top in soft afternoon light.",
+            "complex": "A Neoclassicism painting depicting a russet amber and copper fox of medium size, alert and poised, standing beside a small, delicate pastry in pale gold and buttery cream tones. Upon this pristine pastry rests a medium-sized loaf of bread, its crust glowing in warm amber and golden brown hues, freshly baked and radiating warmth. The composition places the fox and pastry arrangement in the foreground, with the afternoon's natural soft light casting gentle shadows across the scene. The overall atmosphere is bright, active, cheerful, and gentle, evoking a sense of classical harmony and balanced beauty, with careful attention to the textures of fur, bread crust, and flaky pastry.",
+            "comma_separated": "Neoclassicism painting, fox, bread, pastry, medium size fox, small pastry, golden brown bread, russet amber fox, pale gold pastry, afternoon lighting, natural soft light, bright cheerful gentle atmosphere, classical composition, balanced, textured fur, bread crust, flaky pastry",
+            "tags": "art, painting, neoclassicism, classical art, fox, bread, pastry, still life, animal, afternoon light, cheerful, gentle, balanced composition, texture detail"
+        }
+    }
+}

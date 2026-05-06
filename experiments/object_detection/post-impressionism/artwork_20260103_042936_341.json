@@ -1,0 +1,421 @@
+{
+    "artwork_id": "artwork_20260103_042936_341",
+    "generation_timestamp": "2026-01-03T04:30:17.842749",
+    "style": "Post-Impressionism",
+    "objects": {
+        "object_ids": [
+            3,
+            59,
+            9,
+            26
+        ],
+        "object_names": [
+            "wagon",
+            "lavender",
+            "boat",
+            "sunshade"
+        ],
+        "enhanced_objects": [
+            {
+                "object_id": 3,
+                "name": "wagon",
+                "artistic_description": "A weathered wooden wagon bathed in brilliant afternoon sunlight, its red paint faded to warm terracotta and coral tones, with strong violet-blue shadows cast beneath its structure. The wood grain shows through peeling paint in rich umbers and siennas, while metal hardware catches the light with sharp, bright highlights. Dust motes dance in the shafts of golden light, and the wheels cast deep, angular shadows on the sun-baked earth.",
+                "size": "Large",
+                "state": "weathered but sturdy, showing signs of recent use",
+                "primary_colors": [
+                    "terracotta",
+                    "sienna"
+                ],
+                "material": "wood and metal"
+            },
+            {
+                "object_id": 59,
+                "name": "lavender",
+                "artistic_description": "A vibrant cluster of lavender stalks glowing with intense purple-violet hues under the harsh midday sun, their silver-green foliage shimmering with a dusty bloom. The flowers appear almost luminous against the deep green stems, with tiny highlights of pure white where sunlight strikes the petals directly. The entire plant seems to vibrate with color, its edges softened by heat haze.",
+                "size": "Medium",
+                "state": "fully bloomed, slightly wilted from heat",
+                "primary_colors": [
+                    "violet-purple",
+                    "silver-green"
+                ],
+                "material": "plant"
+            },
+            {
+                "object_id": 9,
+                "name": "boat",
+                "artistic_description": "A small wooden boat with hull painted in weathered teal and cerulean blue, its surface dried and matte from summer heat. The white gelcoat shows through in patches, creating a dappled effect of bright white and pale blue against the deeper tones. Strong directional light creates sharp geometric shadows inside the boat, while the bow catches brilliant highlights that appear almost pure yellow.",
+                "size": "Large",
+                "state": "dry and sun-bleached, well-maintained",
+                "primary_colors": [
+                    "cerulean blue",
+                    "weathered teal"
+                ],
+                "material": "fiberglass and wood"
+            },
+            {
+                "object_id": 26,
+                "name": "sunshade",
+                "artistic_description": "A bright striped sunshade fabric stretched taut, its red and white stripes appearing intensely saturated in the brilliant sunlight. The fabric glows with a translucent quality where light penetrates, creating areas of pure scarlet and coral. The underside shows cooler, pinker tones in shadow, while the white stripes dazzle with near-blinding brightness. The fabric shows subtle textural variations from the weave.",
+                "size": "Dominant",
+                "state": "taut and clean, fully extended",
+                "primary_colors": [
+                    "scarlet",
+                    "brilliant white"
+                ],
+                "material": "canvas fabric"
+            }
+        ]
+    },
+    "composition": {
+        "spatial_relations": [
+            [
+                3,
+                "next to",
+                9
+            ],
+            [
+                59,
+                "near",
+                3
+            ],
+            [
+                26,
+                "above",
+                3
+            ]
+        ],
+        "semantic_relations": []
+    },
+    "environment": {
+        "environment_details": {
+            "scene_brief": "A Summer Festival Grounds featuring wagon, with lavender, boat, and sunshade",
+            "place365_name": "/p/park",
+            "place365_id": 254,
+            "time_of_day": "afternoon",
+            "weather": "sunny",
+            "period": "Contemporary",
+            "is_indoor": false,
+            "lighting": {
+                "type": "natural",
+                "quality": "harsh",
+                "direction": "front-lit",
+                "mood": "warm",
+                "reasoning": "In the 'afternoon' with 'sunny' weather, the lighting is naturally harsh and direct. Post-Impressionism often utilizes bold, unmodulated color and distinct shadows to define form. A warm, front-lit setup highlights the objects (wagon, boat, lavender) clearly, emphasizing the visual impact over atmospheric subtlety."
+            },
+            "atmosphere": "bright and active and cheerful"
+        },
+        "scene_inference": {
+            "all_candidates": [
+                {
+                    "scene_type": "Seaside Resort Garden",
+                    "plausibility": 0.95,
+                    "reasoning": "A wagon serves as a practical transport tool on garden paths near the coast. Lavender grows in garden beds, and a boat is visible on the water. A sunshade provides protection from the sun on the beach or terrace.",
+                    "object_interpretations": {
+                        "wagon": {
+                            "form": "real utility wagon",
+                            "scale": "normal",
+                            "role": "transport for garden supplies"
+                        },
+                        "lavender": {
+                            "form": "real flowering plants",
+                            "scale": "normal",
+                            "role": "garden flora"
+                        },
+                        "boat": {
+                            "form": "real boat",
+                            "scale": "distant/large",
+                            "role": "background scenery on water"
+                        },
+                        "sunshade": {
+                            "form": "large beach umbrella",
+                            "scale": "normal",
+                            "role": "shade provider for seating area"
+                        }
+                    }
+                },
+                {
+                    "scene_type": "Rural Farmyard",
+                    "plausibility": 0.9,
+                    "reasoning": "The wagon is a classic farm tool for hauling hay or crops. Lavender can be a cash crop or decorative plant in a farm garden. A boat might be stored nearby for fishing, and a sunshade could cover a work area or picnic table.",
+                    "object_interpretations": {
+                        "wagon": {
+                            "form": "rustic wooden wagon",
+                            "scale": "normal",
+                            "role": "farm equipment"
+                        },
+                        "lavender": {
+                            "form": "dried bundles or potted plants",
+                            "scale": "normal",
+                            "role": "harvested crop or decoration"
+                        },
+                        "boat": {
+                            "form": "rowboat",
+                            "scale": "normal",
+                            "role": "stored utility vehicle"
+                        },
+                        "sunshade": {
+                            "form": "canvas awning",
+                            "scale": "normal",
+                            "role": "shade for porch or work area"
+                        }
+                    }
+                },
+                {
+                    "scene_type": "Lakeside Picnic",
+                    "plausibility": 0.92,
+                    "reasoning": "A wagon is ideal for carrying picnic gear to the lakeshore. Lavender can be in a vase on the picnic table or growing wild nearby. The boat is on the water, and the sunshade protects the picnic spot.",
+                    "object_interpretations": {
+                        "wagon": {
+                            "form": "collapsible utility wagon",
+                            "scale": "normal",
+                            "role": "gear transporter"
+                        },
+                        "lavender": {
+                            "form": "fresh cut flowers in jar",
+                            "scale": "small",
+                            "role": "table centerpiece"
+                        },
+                        "boat": {
+                            "form": "sailboat",
+                            "scale": "medium/distant",
+                            "role": "recreational activity"
+                        },
+                        "sunshade": {
+                            "form": "portable beach umbrella",
+                            "scale": "normal",
+                            "role": "sun protection"
+                        }
+                    }
+                },
+                {
+                    "scene_type": "Botanical Garden",
+                    "plausibility": 0.88,
+                    "reasoning": "A wagon might be used by gardeners or as a decorative element. Lavender is a featured plant in herb gardens. A boat could be a decorative water feature or pond boat. Sunshades protect visitors or delicate plants.",
+                    "object_interpretations": {
+                        "wagon": {
+                            "form": "ornamental garden cart",
+                            "scale": "normal",
+                            "role": "decorative or utility cart"
+                        },
+                        "lavender": {
+                            "form": "lavender hedge/bed",
+                            "scale": "large area",
+                            "role": "featured botanical specimen"
+                        },
+                        "boat": {
+                            "form": "ornamental rowboat planter",
+                            "scale": "normal",
+                            "role": "garden decoration"
+                        },
+                        "sunshade": {
+                            "form": "garden pavilion",
+                            "scale": "large",
+                            "role": "shelter structure"
+                        }
+                    }
+                },
+                {
+                    "scene_type": "Summer Art Fair",
+                    "plausibility": 0.85,
+                    "reasoning": "A wagon transports art supplies or goods. Lavender is sold as bouquets or potted plants. A boat might be a painted canvas or model display. Sunshades cover vendor booths.",
+                    "object_interpretations": {
+                        "wagon": {
+                            "form": "decorated vendor wagon",
+                            "scale": "normal",
+                            "role": "mobile sales booth"
+                        },
+                        "lavender": {
+                            "form": "bouquets for sale",
+                            "scale": "small",
+                            "role": "merchandise"
+                        },
+                        "boat": {
+                            "form": "boat painting on easel",
+                            "scale": "medium",
+                            "role": "artwork for sale"
+                        },
+                        "sunshade": {
+                            "form": "vendor tent canopy",
+                            "scale": "large",
+                            "role": "shade for booth"
+                        }
+                    }
+                },
+                {
+                    "scene_type": "Coastal Cottage Yard",
+                    "plausibility": 0.9,
+                    "reasoning": "A wagon sits in the yard for gardening chores. Lavender grows along the walkway. A boat is docked nearby or on a trailer. A sunshade covers a patio seating area.",
+                    "object_interpretations": {
+                        "wagon": {
+                            "form": "weathered garden wagon",
+                            "scale": "normal",
+                            "role": "yard tool"
+                        },
+                        "lavender": {
+                            "form": "lavender bushes",
+                            "scale": "normal",
+                            "role": "landscaping"
+                        },
+                        "boat": {
+                            "form": "small fishing boat",
+                            "scale": "normal",
+                            "role": "recreational equipment"
+                        },
+                        "sunshade": {
+                            "form": "patio umbrella",
+                            "scale": "normal",
+                            "role": "outdoor furniture"
+                        }
+                    }
+                },
+                {
+                    "scene_type": "Riverbank Market",
+                    "plausibility": 0.82,
+                    "reasoning": "A wagon transports goods between stalls. Lavender is sold by vendors. Boats are moored at the dock for transport or fishing. Sunshades cover market stalls.",
+                    "object_interpretations": {
+                        "wagon": {
+                            "form": "merchant's cart",
+                            "scale": "normal",
+                            "role": "goods transport"
+                        },
+                        "lavender": {
+                            "form": "bundles in crates",
+                            "scale": "small",
+                            "role": "market produce"
+                        },
+                        "boat": {
+                            "form": "moored riverboats",
+                            "scale": "normal",
+                            "role": "transport vessels"
+                        },
+                        "sunshade": {
+                            "form": "market stall awning",
+                            "scale": "large",
+                            "role": "weather protection"
+                        }
+                    }
+                },
+                {
+                    "scene_type": "Mediterranean Vineyard",
+                    "plausibility": 0.85,
+                    "reasoning": "A wagon is used for grape harvest (or lavender harvest). Lavender grows between rows. A boat might be a decorative element in a pond or distant sea view. Sunshades cover tasting areas.",
+                    "object_interpretations": {
+                        "wagon": {
+                            "form": "harvest cart",
+                            "scale": "normal",
+                            "role": "agricultural tool"
+                        },
+                        "lavender": {
+                            "form": "lavender field rows",
+                            "scale": "large",
+                            "role": "cash crop"
+                        },
+                        "boat": {
+                            "form": "ornamental fountain boat",
+                            "scale": "medium",
+                            "role": "garden feature"
+                        },
+                        "sunshade": {
+                            "form": "vineyard terrace umbrella",
+                            "scale": "normal",
+                            "role": "patio shade"
+                        }
+                    }
+                },
+                {
+                    "scene_type": "Summer Festival Grounds",
+                    "plausibility": 0.8,
+                    "reasoning": "A wagon is used for rides or transport. Lavender is sold or used in decorations. A boat might be a game booth or display. Sunshades cover food stalls and seating.",
+                    "object_interpretations": {
+                        "wagon": {
+                            "form": "decorative hayride wagon",
+                            "scale": "large",
+                            "role": "attraction"
+                        },
+                        "lavender": {
+                            "form": "potted plants for sale",
+                            "scale": "small",
+                            "role": "souvenir"
+                        },
+                        "boat": {
+                            "form": "carnival game booth",
+                            "scale": "normal",
+                            "role": "entertainment"
+                        },
+                        "sunshade": {
+                            "form": "festival tent",
+                            "scale": "large",
+                            "role": "shade structure"
+                        }
+                    },
+                    "scene_brief": "A Summer Festival Grounds featuring wagon, with lavender, boat, and sunshade"
+                },
+                {
+                    "scene_type": "Backyard Pottery Studio",
+                    "plausibility": 0.78,
+                    "reasoning": "A wagon holds clay or finished pieces. Lavender is in a vase on a work table. A boat is a subject of a sculpture or painting. Sunshades cover the outdoor workspace.",
+                    "object_interpretations": {
+                        "wagon": {
+                            "form": "studio utility cart",
+                            "scale": "normal",
+                            "role": "material storage"
+                        },
+                        "lavender": {
+                            "form": "fresh bouquet",
+                            "scale": "small",
+                            "role": "still life subject/decoration"
+                        },
+                        "boat": {
+                            "form": "clay boat sculpture",
+                            "scale": "medium",
+                            "role": "artwork"
+                        },
+                        "sunshade": {
+                            "form": "studio canopy",
+                            "scale": "normal",
+                            "role": "light control"
+                        }
+                    }
+                }
+            ],
+            "selected_scene": {
+                "scene_type": "Summer Festival Grounds",
+                "plausibility": 0.8,
+                "reasoning": "A wagon is used for rides or transport. Lavender is sold or used in decorations. A boat might be a game booth or display. Sunshades cover food stalls and seating.",
+                "object_interpretations": {
+                    "wagon": {
+                        "form": "decorative hayride wagon",
+                        "scale": "large",
+                        "role": "attraction"
+                    },
+                    "lavender": {
+                        "form": "potted plants for sale",
+                        "scale": "small",
+                        "role": "souvenir"
+                    },
+                    "boat": {
+                        "form": "carnival game booth",
+                        "scale": "normal",
+                        "role": "entertainment"
+                    },
+                    "sunshade": {
+                        "form": "festival tent",
+                        "scale": "large",
+                        "role": "shade structure"
+                    }
+                },
+                "scene_brief": "A Summer Festival Grounds featuring wagon, with lavender, boat, and sunshade"
+            }
+        }
+    },
+    "final_prompts": {
+        "main_prompt": "A Post-Impressionism painting depicting a bright and cheerful afternoon scene with harsh natural lighting. In the foreground, a large, weathered but sturdy terracotta and sienna wagon sits beside a large, dry and sun-bleached cerulean blue and weathered teal boat. Near the wagon, medium-sized fully bloomed lavender plants display vibrant violet-purple flowers with silver-green foliage. Dominating the composition, a brilliant scarlet and white sunshade stands taut and clean above the wagon, casting a sharp shadow. The atmosphere is active and cheerful, with bold, visible brushstrokes and heightened colors characteristic of Post-Impressionism, capturing the lively energy of the afternoon.",
+        "negative_prompt": "photorealistic, 3d render, modern, digital art, photograph, low quality, blurry, distorted, surreal, abstract, cartoon, anime, watermark, signature, text, frame, border, ugly, deformed, bad anatomy, disfigured, poorly drawn face, mutation, mutated, extra limb, missing limb, floating limbs, disconnected limbs, malformed hands, out of focus, long neck",
+        "prompt_formats": {
+            "simple": "A Post-Impressionism painting of a wagon next to a boat with lavender nearby and a sunshade above, set in a bright, cheerful afternoon.",
+            "complex": "A Post-Impressionism painting depicting a bright and cheerful afternoon scene with harsh natural lighting. In the foreground, a large, weathered but sturdy terracotta and sienna wagon sits beside a large, dry and sun-bleached cerulean blue and weathered teal boat. Near the wagon, medium-sized fully bloomed lavender plants display vibrant violet-purple flowers with silver-green foliage. Dominating the composition, a brilliant scarlet and white sunshade stands taut and clean above the wagon, casting a sharp shadow. The atmosphere is active and cheerful, with bold, visible brushstrokes and heightened colors characteristic of Post-Impressionism, capturing the lively energy of the afternoon.",
+            "comma_separated": "Post-Impressionism painting, large terracotta sienna wagon, large cerulean blue weathered teal boat, medium violet-purple silver-green lavender, dominant scarlet white sunshade, wagon next to boat, lavender near wagon, sunshade above wagon, afternoon lighting, harsh natural light, bright active cheerful atmosphere, visible brushstrokes, vibrant colors",
+            "tags": "art, painting, post-impressionism, landscape, still life, wagon, boat, lavender, sunshade, afternoon, bright, cheerful, vibrant colors, visible brushstrokes, Vincent van Gogh style, Paul C\u00e9zanne style"
+        }
+    }
+}

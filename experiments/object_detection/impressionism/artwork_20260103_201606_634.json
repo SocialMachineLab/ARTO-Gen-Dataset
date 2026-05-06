@@ -1,0 +1,138 @@
+{
+    "artwork_id": "artwork_20260103_201606_634",
+    "generation_timestamp": "2026-01-03T20:16:31.744383",
+    "style": "Impressionism",
+    "objects": {
+        "object_ids": [
+            61
+        ],
+        "object_names": [
+            "side table"
+        ],
+        "enhanced_objects": [
+            {
+                "object_id": 61,
+                "name": "side table",
+                "artistic_description": "Soft-edged wooden table rendered in loose, visible brushstrokes that dissolve the hard lines into atmospheric haze. The cloudy morning light filters through the window, bathing the surface in cool, diffused silver-gray tones with subtle hints of lavender and pale blue. The wood grain appears as rhythmic, broken dabs of warm ochre and sienna that peek through the cooler overtones, creating a vibrating color harmony. The matte finish absorbs rather than reflects light, giving the surface a velvety, chalky quality. Edges blur slightly into the surrounding air, as if the form is breathing with the gentle morning atmosphere. The contemporary design shows clean lines softened by the impressionistic treatment, with visible texture suggesting a well-used but cared-for piece.",
+                "size": "Medium",
+                "state": "gently worn contemporary piece with soft patina",
+                "primary_colors": [
+                    "silver-gray",
+                    "cool lavender"
+                ],
+                "material": "wood"
+            }
+        ]
+    },
+    "composition": {
+        "spatial_relations": [],
+        "semantic_relations": []
+    },
+    "environment": {
+        "environment_details": {
+            "scene_brief": "A Impressionist bedroom featuring side table",
+            "place365_name": "/b/bedroom",
+            "place365_id": 52,
+            "time_of_day": "morning",
+            "weather": "cloudy",
+            "period": "Contemporary",
+            "is_indoor": true,
+            "lighting": {
+                "type": "natural",
+                "quality": "soft",
+                "direction": "side-lit",
+                "mood": "cool",
+                "reasoning": "Combining 'morning' time and 'cloudy' weather results in soft, cool, natural lighting. Assuming a standard window placement, this would likely be side-lit, illuminating the side table and bedroom interior gently, characteristic of Impressionist interiors."
+            },
+            "atmosphere": "fresh and energetic and subdued and gentle"
+        },
+        "scene_inference": {
+            "all_candidates": [
+                {
+                    "scene_type": "Impressionist living room",
+                    "plausibility": 0.95,
+                    "reasoning": "A side table is a common living room furnishing. In an Impressionist setting, the scene would be captured with soft, dappled light, perhaps from a window, creating a gentle atmosphere. The side table could hold a vase or book, rendered with loose brushstrokes.",
+                    "object_interpretations": {
+                        "side table": {
+                            "form": "real furniture",
+                            "scale": "normal",
+                            "role": "functional surface"
+                        }
+                    }
+                },
+                {
+                    "scene_type": "Impressionist bedroom",
+                    "plausibility": 0.9,
+                    "reasoning": "A side table typically sits beside a bed. The Impressionist style would emphasize the play of morning or evening light filtering through curtains, with the side table as a solid anchor in the composition.",
+                    "object_interpretations": {
+                        "side table": {
+                            "form": "real furniture",
+                            "scale": "normal",
+                            "role": "bedside furniture"
+                        }
+                    },
+                    "scene_brief": "A Impressionist bedroom featuring side table"
+                },
+                {
+                    "scene_type": "Impressionist garden terrace",
+                    "plausibility": 0.85,
+                    "reasoning": "Outdoor furniture often includes side tables for holding drinks or books. The Impressionist style is famous for outdoor scenes, capturing the effects of sunlight on surfaces.",
+                    "object_interpretations": {
+                        "side table": {
+                            "form": "weather-resistant furniture",
+                            "scale": "normal",
+                            "role": "outdoor surface"
+                        }
+                    }
+                },
+                {
+                    "scene_type": "Impressionist cafe interior",
+                    "plausibility": 0.8,
+                    "reasoning": "Cafe scenes were a staple of Impressionism. Small side tables are essential for patrons. The scene would be bustling, with the table serving as a personal space for a coffee cup.",
+                    "object_interpretations": {
+                        "side table": {
+                            "form": "wooden bistro table",
+                            "scale": "normal",
+                            "role": "dining surface"
+                        }
+                    }
+                },
+                {
+                    "scene_type": "Impressionist art studio",
+                    "plausibility": 0.75,
+                    "reasoning": "An artist's studio often has small tables for holding paints, brushes, or reference objects. The side table would be a practical element amidst the creative chaos.",
+                    "object_interpretations": {
+                        "side table": {
+                            "form": "functional work table",
+                            "scale": "normal",
+                            "role": "utility surface"
+                        }
+                    }
+                }
+            ],
+            "selected_scene": {
+                "scene_type": "Impressionist bedroom",
+                "plausibility": 0.9,
+                "reasoning": "A side table typically sits beside a bed. The Impressionist style would emphasize the play of morning or evening light filtering through curtains, with the side table as a solid anchor in the composition.",
+                "object_interpretations": {
+                    "side table": {
+                        "form": "real furniture",
+                        "scale": "normal",
+                        "role": "bedside furniture"
+                    }
+                },
+                "scene_brief": "A Impressionist bedroom featuring side table"
+            }
+        }
+    },
+    "final_prompts": {
+        "main_prompt": "A Impressionism painting depicting a gently worn contemporary side table in the foreground, its silver-gray wood grain subtly infused with cool lavender undertones, standing alone in a morning-lit room. The medium-sized table occupies the center of the composition, its soft, worn surfaces catching the natural soft morning light that streams through an unseen window, casting gentle, energetic shadows that dance across its form. The fresh and energetic yet subdued and gentle atmosphere is conveyed through loose, visible brushstrokes that capture the interplay of light and color, with the table's reflective surfaces creating a focal point of quiet contemplation amidst the hazy, ambient glow of the room.",
+        "negative_prompt": "photorealistic, 3d render, modern, digital art, photograph, low quality, blurry, distorted, hyperdetailed, oversaturated, cartoon, anime, text, watermark, signature, frame, border, ugly, deformed, noisy",
+        "prompt_formats": {
+            "simple": "An Impressionist painting of a silver-gray side table with lavender undertones in soft morning light.",
+            "complex": "A Impressionism painting depicting a gently worn contemporary side table in the foreground, its silver-gray wood grain subtly infused with cool lavender undertones, standing alone in a morning-lit room. The medium-sized table occupies the center of the composition, its soft, worn surfaces catching the natural soft morning light that streams through an unseen window, casting gentle, energetic shadows that dance across its form. The fresh and energetic yet subdued and gentle atmosphere is conveyed through loose, visible brushstrokes that capture the interplay of light and color, with the table's reflective surfaces creating a focal point of quiet contemplation amidst the hazy, ambient glow of the room.",
+            "comma_separated": "Impressionism painting, side table, medium size, silver-gray wood, cool lavender undertones, gently worn contemporary piece, soft surfaces, morning lighting, natural soft light, fresh energetic atmosphere, subdued gentle mood, loose brushstrokes, light and shadow play, ambient room glow",
+            "tags": "art, painting, impressionism, still life, interior, side table, morning light, soft lighting, silver-gray, lavender, wood grain, contemporary, worn texture, brushstroke style, atmospheric, tranquil"
+        }
+    }
+}

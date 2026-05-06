@@ -1,0 +1,308 @@
+{
+    "artwork_id": "artwork_20260104_032139_959",
+    "generation_timestamp": "2026-01-04T03:22:18.353285",
+    "style": "Chinese Ink Painting",
+    "objects": {
+        "object_ids": [
+            60,
+            14,
+            61
+        ],
+        "object_names": [
+            "bed",
+            "swing",
+            "dining table"
+        ],
+        "enhanced_objects": [
+            {
+                "object_id": 60,
+                "name": "bed",
+                "artistic_description": "A low wooden bed frame rendered in soft charcoal washes, its surface showing subtle grain textures through diluted ink. The cloudy morning light creates gentle, diffused shadows beneath the frame. Light cotton bedding appears as pale gray tones with delicate brushstrokes suggesting folds, while the wooden structure shows weathered patina with muted brown and silver tones. The surface has a matte finish, absorbing the soft natural light without glare.",
+                "size": "Large",
+                "state": "weathered but well-maintained contemporary piece",
+                "primary_colors": [
+                    "soft charcoal gray",
+                    "muted brown"
+                ],
+                "material": "wood and cotton fabric"
+            },
+            {
+                "object_id": 14,
+                "name": "swing",
+                "artistic_description": "A simple wooden swing suspended by thick ropes, depicted with expressive ink lines that vary in thickness. The wooden seat shows subtle variations in tone from cool gray to warm brown, reflecting the overcast sky's diffused light. The ropes appear as textured dark strokes with occasional dry-brush highlights suggesting fiber texture. A slight patina on the metal hardware catches faint light as muted silver accents. The entire form conveys stillness with minimal shading.",
+                "size": "Medium",
+                "state": "stationary with weathered wood showing age",
+                "primary_colors": [
+                    "weathered gray-brown",
+                    "dark charcoal"
+                ],
+                "material": "wood and rope"
+            },
+            {
+                "object_id": 61,
+                "name": "dining table",
+                "artistic_description": "A round wooden table surface rendered with careful attention to wood grain, shown as delicate parallel lines and subtle ink washes. The cloudy light creates soft, even illumination across the top, revealing natural imperfections and wear patterns as variations in tone. The table edges show slightly darker values where shadow naturally falls. The surface appears dry and matte, with no reflective qualities, absorbing the gentle morning light completely.",
+                "size": "Medium",
+                "state": "contemporary piece with natural aging",
+                "primary_colors": [
+                    "warm gray",
+                    "soft brown"
+                ],
+                "material": "wood"
+            }
+        ]
+    },
+    "composition": {
+        "spatial_relations": [
+            [
+                60,
+                "next to",
+                61
+            ],
+            [
+                14,
+                "behind",
+                61
+            ],
+            [
+                60,
+                "next to",
+                14
+            ]
+        ],
+        "semantic_relations": []
+    },
+    "environment": {
+        "environment_details": {
+            "scene_brief": "A Garden Pavilion featuring bed, with swing, and dining table",
+            "place365_name": "/j/japanese_garden",
+            "place365_id": 197,
+            "time_of_day": "morning",
+            "weather": "cloudy",
+            "period": "Contemporary",
+            "is_indoor": false,
+            "lighting": {
+                "type": "natural",
+                "quality": "soft",
+                "direction": "side-lit",
+                "mood": "cool",
+                "reasoning": "Natural lighting from a cloudy morning creates soft, diffused illumination, avoiding strong contrasts to suit ink painting's emphasis on brushwork and negative space. Side-lit direction subtly highlights the pavilion and objects like the swing, while a cool mood enhances the tranquil, introspective feel of the contemporary garden setting."
+            },
+            "atmosphere": "fresh and energetic and subdued and gentle"
+        },
+        "scene_inference": {
+            "all_candidates": [
+                {
+                    "scene_type": "Traditional Chinese Courtyard",
+                    "plausibility": 0.95,
+                    "reasoning": "In a traditional Chinese courtyard (siheyuan), a bed can be a daybed or opium bed in the main hall, a swing can be hung from a tree in the garden, and a dining table can be in the central courtyard for meals. The ink painting style captures the serene, classical atmosphere.",
+                    "object_interpretations": {
+                        "bed": {
+                            "form": "real wooden bed",
+                            "scale": "normal",
+                            "role": "primary furniture for rest"
+                        },
+                        "swing": {
+                            "form": "real swing",
+                            "scale": "normal",
+                            "role": "recreational object in garden"
+                        },
+                        "dining table": {
+                            "form": "real wooden table",
+                            "scale": "normal",
+                            "role": "functional dining surface"
+                        }
+                    }
+                },
+                {
+                    "scene_type": "Scholar's Studio",
+                    "plausibility": 0.9,
+                    "reasoning": "A scholar's studio often contains a daybed (bed) for rest between studies, a miniature swing as a decorative toy on a shelf, and a low dining table for tea ceremonies. The ink style emphasizes the intellectual and minimalist aesthetic.",
+                    "object_interpretations": {
+                        "bed": {
+                            "form": "daybed",
+                            "scale": "normal",
+                            "role": "resting place"
+                        },
+                        "swing": {
+                            "form": "miniature toy swing",
+                            "scale": "small (1:20)",
+                            "role": "decorative object"
+                        },
+                        "dining table": {
+                            "form": "low tea table",
+                            "scale": "normal",
+                            "role": "surface for tea/food"
+                        }
+                    }
+                },
+                {
+                    "scene_type": "Mountain Pavilion",
+                    "plausibility": 0.85,
+                    "reasoning": "A pavilion in the mountains can have a bed for travelers, a swing hanging from the pavilion's beam for enjoying views, and a dining table for meals. The ink style captures the misty, natural setting.",
+                    "object_interpretations": {
+                        "bed": {
+                            "form": "simple cot",
+                            "scale": "normal",
+                            "role": "sleeping area"
+                        },
+                        "swing": {
+                            "form": "rope swing",
+                            "scale": "normal",
+                            "role": "scenic element"
+                        },
+                        "dining table": {
+                            "form": "round table",
+                            "scale": "normal",
+                            "role": "dining surface"
+                        }
+                    }
+                },
+                {
+                    "scene_type": "Garden Pavilion",
+                    "plausibility": 0.9,
+                    "reasoning": "A garden pavilion can feature a daybed for afternoon naps, a swing for leisure, and a dining table for garden parties. The ink painting style highlights the natural and architectural harmony.",
+                    "object_interpretations": {
+                        "bed": {
+                            "form": "daybed",
+                            "scale": "normal",
+                            "role": "resting furniture"
+                        },
+                        "swing": {
+                            "form": "wooden swing",
+                            "scale": "normal",
+                            "role": "recreational feature"
+                        },
+                        "dining table": {
+                            "form": "garden table",
+                            "scale": "normal",
+                            "role": "dining surface"
+                        }
+                    },
+                    "scene_brief": "A Garden Pavilion featuring bed, with swing, and dining table"
+                },
+                {
+                    "scene_type": "Vintage Bedroom",
+                    "plausibility": 0.8,
+                    "reasoning": "A vintage bedroom can have a bed as the main piece, a swing as a hanging chair in the corner, and a dining table as a vanity or small table. The ink style gives a nostalgic, soft feel.",
+                    "object_interpretations": {
+                        "bed": {
+                            "form": "ornate bed",
+                            "scale": "normal",
+                            "role": "primary furniture"
+                        },
+                        "swing": {
+                            "form": "hanging chair swing",
+                            "scale": "normal",
+                            "role": "seating/decor"
+                        },
+                        "dining table": {
+                            "form": "small table",
+                            "scale": "normal",
+                            "role": "vanity or side table"
+                        }
+                    }
+                },
+                {
+                    "scene_type": "Artistic Installation",
+                    "plausibility": 0.7,
+                    "reasoning": "In an art gallery, a bed could be a sculpture, a swing an interactive piece, and a dining table a conceptual work. The ink style abstracts them into artistic forms.",
+                    "object_interpretations": {
+                        "bed": {
+                            "form": "sculptural bed",
+                            "scale": "normal",
+                            "role": "art piece"
+                        },
+                        "swing": {
+                            "form": "artistic swing",
+                            "scale": "normal",
+                            "role": "interactive art"
+                        },
+                        "dining table": {
+                            "form": "conceptual table",
+                            "scale": "normal",
+                            "role": "art object"
+                        }
+                    }
+                },
+                {
+                    "scene_type": "Dreamlike Interior",
+                    "plausibility": 0.75,
+                    "reasoning": "A surreal interior where objects float or merge; bed as central element, swing as ethereal, dining table as distorted. Ink style enhances dreaminess.",
+                    "object_interpretations": {
+                        "bed": {
+                            "form": "dream bed",
+                            "scale": "normal",
+                            "role": "dream anchor"
+                        },
+                        "swing": {
+                            "form": "ethereal swing",
+                            "scale": "normal",
+                            "role": "floating element"
+                        },
+                        "dining table": {
+                            "form": "distorted table",
+                            "scale": "normal",
+                            "role": "surreal object"
+                        }
+                    }
+                },
+                {
+                    "scene_type": "Outdoor Picnic",
+                    "plausibility": 0.85,
+                    "reasoning": "A picnic scene with a bed as a lounging area, a swing on a tree, and a dining table as picnic table. Ink style captures the outdoor serenity.",
+                    "object_interpretations": {
+                        "bed": {
+                            "form": "lounging bed",
+                            "scale": "normal",
+                            "role": "relaxation spot"
+                        },
+                        "swing": {
+                            "form": "tree swing",
+                            "scale": "normal",
+                            "role": "playful element"
+                        },
+                        "dining table": {
+                            "form": "picnic table",
+                            "scale": "normal",
+                            "role": "eating surface"
+                        }
+                    }
+                }
+            ],
+            "selected_scene": {
+                "scene_type": "Garden Pavilion",
+                "plausibility": 0.9,
+                "reasoning": "A garden pavilion can feature a daybed for afternoon naps, a swing for leisure, and a dining table for garden parties. The ink painting style highlights the natural and architectural harmony.",
+                "object_interpretations": {
+                    "bed": {
+                        "form": "daybed",
+                        "scale": "normal",
+                        "role": "resting furniture"
+                    },
+                    "swing": {
+                        "form": "wooden swing",
+                        "scale": "normal",
+                        "role": "recreational feature"
+                    },
+                    "dining table": {
+                        "form": "garden table",
+                        "scale": "normal",
+                        "role": "dining surface"
+                    }
+                },
+                "scene_brief": "A Garden Pavilion featuring bed, with swing, and dining table"
+            }
+        }
+    },
+    "final_prompts": {
+        "main_prompt": "A Chinese Ink Painting painting depicting a serene morning interior where a large, weathered but well-maintained contemporary bed in soft charcoal gray and muted brown sits adjacent to a medium-sized dining table in warm gray and soft brown with natural aging. Directly behind the dining table, positioned in the midground, is a medium-sized stationary swing in weathered gray-brown and dark charcoal, its wood showing age and texture, creating a triangular spatial relationship where the bed is also next to the swing. The scene is bathed in natural soft morning light filtering through unseen windows, casting gentle shadows and illuminating the wood and cotton fabric textures. The atmosphere is fresh and energetic yet simultaneously subdued and gentle, captured through the expressive brushstrokes and tonal gradations of ink wash technique, with empty space used compositionally to emphasize the harmonious arrangement of domestic objects in quiet contemplation.",
+        "negative_prompt": "photorealistic, 3d render, modern, digital art, photograph, low quality, blurry, distorted, vibrant colors, photorealistic, hyperdetailed, anime, cartoon, western painting style, oil painting, acrylic, watercolor, surreal, fantasy, people, figures, animals, text, signature, frame, border",
+        "prompt_formats": {
+            "simple": "A Chinese ink painting of a bed, dining table, and swing arranged in a morning interior with soft light and a gentle atmosphere.",
+            "complex": "A Chinese Ink Painting painting depicting a serene morning interior where a large, weathered but well-maintained contemporary bed in soft charcoal gray and muted brown sits adjacent to a medium-sized dining table in warm gray and soft brown with natural aging. Directly behind the dining table, positioned in the midground, is a medium-sized stationary swing in weathered gray-brown and dark charcoal, its wood showing age and texture, creating a triangular spatial relationship where the bed is also next to the swing. The scene is bathed in natural soft morning light filtering through unseen windows, casting gentle shadows and illuminating the wood and cotton fabric textures. The atmosphere is fresh and energetic yet simultaneously subdued and gentle, captured through the expressive brushstrokes and tonal gradations of ink wash technique, with empty space used compositionally to emphasize the harmonious arrangement of domestic objects in quiet contemplation.",
+            "comma_separated": "Chinese Ink Painting, interior scene, large bed soft charcoal gray muted brown, medium dining table warm gray soft brown, medium swing weathered gray-brown dark charcoal, bed next to dining table, swing behind dining table, bed next to swing, morning light, natural soft lighting, fresh energetic subdued gentle atmosphere, ink wash, tonal gradation, expressive brushstrokes, wood texture, cotton fabric, empty space, harmonious composition",
+            "tags": "art, painting, chinese ink painting, ink wash, sumi-e, interior, still life, bed, dining table, swing, morning, soft light, subdued, gentle, fresh, energetic, wood texture, fabric, composition, traditional art"
+        }
+    }
+}

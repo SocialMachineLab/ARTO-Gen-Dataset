@@ -1,0 +1,356 @@
+{
+    "artwork_id": "artwork_20260103_171919_134",
+    "generation_timestamp": "2026-01-03T17:20:03.615608",
+    "style": "Impressionism",
+    "objects": {
+        "object_ids": [
+            17,
+            27,
+            8,
+            1
+        ],
+        "object_names": [
+            "dog",
+            "handbag",
+            "cannon",
+            "baby"
+        ],
+        "enhanced_objects": [
+            {
+                "object_id": 17,
+                "name": "dog",
+                "artistic_description": "A blur of warm golden-brown fur catching the afternoon sun, with dappled light creating soft patches of amber and burnt sienna. The coat appears slightly dusty from play, with highlights of pale yellow where sunlight directly strikes. Eyes glint with reflected sky-blue, while the wet nose creates a small dark mirror of the bright surroundings. Brushstrokes suggest movement through the vibrant green grass.",
+                "size": "Medium",
+                "state": "playful and alert, slightly dusty from outdoor activity",
+                "primary_colors": [
+                    "golden-brown",
+                    "amber"
+                ],
+                "material": "fur"
+            },
+            {
+                "object_id": 27,
+                "name": "handbag",
+                "artistic_description": "Soft leather surface glowing with warm highlights where the strong afternoon light catches its curves. The material shows subtle variations of caramel and chestnut, with a gentle sheen that diffuses the bright sunlight into soft reflections. Edges appear slightly weathered, catching light differently than the main body, creating a gentle contrast between matte and polished surfaces.",
+                "size": "Small",
+                "state": "well-used contemporary accessory, resting on warm ground",
+                "primary_colors": [
+                    "caramel",
+                    "chestnut"
+                ],
+                "material": "leather"
+            },
+            {
+                "object_id": 8,
+                "name": "cannon",
+                "artistic_description": "A toy cannon rendered in bright, cheerful red that vibrates against the green foliage. The glossy paint creates sharp specular highlights where the intense sunlight strikes, while the barrel appears as a dark circular shadow. Small metallic details catch the light as brilliant white points, creating a playful contrast with the matte red body. The plastic material absorbs and reflects light in bold, flat planes.",
+                "size": "Small",
+                "state": "bright and pristine contemporary toy",
+                "primary_colors": [
+                    "bright red",
+                    "silver"
+                ],
+                "material": "plastic"
+            },
+            {
+                "object_id": 1,
+                "name": "baby",
+                "artistic_description": "Soft, luminous skin tones glowing with warm peach and cream hues under the golden afternoon light. Delicate features are rendered in gentle, blended strokes, with rosy cheeks catching the sun as warm pink highlights. Fine wisps of hair create a halo effect with bright golden edges. The overall appearance is soft and ethereal, with the bright atmosphere creating a gentle radiance around the form.",
+                "size": "Medium",
+                "state": "content and peaceful, bathed in warm sunlight",
+                "primary_colors": [
+                    "peach",
+                    "cream"
+                ],
+                "material": "skin"
+            }
+        ]
+    },
+    "composition": {
+        "spatial_relations": [
+            [
+                8,
+                "next to",
+                27
+            ],
+            [
+                17,
+                "next to",
+                1
+            ],
+            [
+                1,
+                "next to",
+                27
+            ],
+            [
+                17,
+                "on",
+                1
+            ],
+            [
+                8,
+                "on",
+                27
+            ]
+        ],
+        "semantic_relations": [
+            [
+                17,
+                "watching",
+                1
+            ]
+        ]
+    },
+    "environment": {
+        "environment_details": {
+            "scene_brief": "A Backyard garden featuring dog, with handbag, toy cannon placed nearby, and baby",
+            "place365_name": "/r/roof_garden",
+            "place365_id": 290,
+            "time_of_day": "afternoon",
+            "weather": "sunny",
+            "period": "Contemporary",
+            "is_indoor": false,
+            "lighting": {
+                "type": "natural",
+                "quality": "soft",
+                "direction": "side-lit",
+                "mood": "warm",
+                "reasoning": "Natural afternoon sunlight filtered through garden foliage creates soft, warm, dappled lighting. Side-lighting from the sun's angle produces gentle shadows and highlights that define forms through color and contrast rather than hard lines\u2014perfect for Impressionist brushwork and the intimate domestic scene."
+            },
+            "atmosphere": "bright and active and cheerful and gentle"
+        },
+        "scene_inference": {
+            "all_candidates": [
+                {
+                    "scene_type": "Victorian family portrait",
+                    "plausibility": 0.85,
+                    "reasoning": "A formal family setting where the baby is held by a parent, the family dog sits attentively, and a handbag rests on a chair. A cannon could be a prop representing a military ancestor or a toy cannon for the child.",
+                    "object_interpretations": {
+                        "dog": {
+                            "form": "real dog",
+                            "scale": "normal",
+                            "role": "family pet"
+                        },
+                        "handbag": {
+                            "form": "real handbag",
+                            "scale": "normal",
+                            "role": "personal accessory"
+                        },
+                        "cannon": {
+                            "form": "model/toy cannon",
+                            "scale": "small",
+                            "role": "decorative prop"
+                        },
+                        "baby": {
+                            "form": "real baby",
+                            "scale": "normal",
+                            "role": "central subject"
+                        }
+                    }
+                },
+                {
+                    "scene_type": "Military museum visit",
+                    "plausibility": 0.8,
+                    "reasoning": "A family outing to a museum. The baby is in a stroller, the dog is on a leash, the handbag is on the parent's shoulder, and they stand before a large cannon exhibit.",
+                    "object_interpretations": {
+                        "dog": {
+                            "form": "real dog",
+                            "scale": "normal",
+                            "role": "pet on leash"
+                        },
+                        "handbag": {
+                            "form": "real handbag",
+                            "scale": "normal",
+                            "role": "owner's accessory"
+                        },
+                        "cannon": {
+                            "form": "historical artifact",
+                            "scale": "large",
+                            "role": "exhibit backdrop"
+                        },
+                        "baby": {
+                            "form": "real baby",
+                            "scale": "normal",
+                            "role": "child in stroller"
+                        }
+                    }
+                },
+                {
+                    "scene_type": "Artistic studio chaos",
+                    "plausibility": 0.75,
+                    "reasoning": "An artist's studio filled with props. A dog wanders among scattered items including a handbag and a toy cannon. A baby plays safely on a rug in the corner.",
+                    "object_interpretations": {
+                        "dog": {
+                            "form": "real dog",
+                            "scale": "normal",
+                            "role": "studio mascot"
+                        },
+                        "handbag": {
+                            "form": "vintage prop",
+                            "scale": "normal",
+                            "role": "still life object"
+                        },
+                        "cannon": {
+                            "form": "toy cannon",
+                            "scale": "small",
+                            "role": "playful prop"
+                        },
+                        "baby": {
+                            "form": "real baby",
+                            "scale": "normal",
+                            "role": "artist's child"
+                        }
+                    }
+                },
+                {
+                    "scene_type": "Beach picnic",
+                    "plausibility": 0.8,
+                    "reasoning": "A family day at the beach. The dog plays in the sand, the baby sits in a playpen, the handbag is on the blanket, and a toy cannon is part of the child's sand toys.",
+                    "object_interpretations": {
+                        "dog": {
+                            "form": "real dog",
+                            "scale": "normal",
+                            "role": "playful pet"
+                        },
+                        "handbag": {
+                            "form": "beach tote",
+                            "scale": "normal",
+                            "role": "storage for belongings"
+                        },
+                        "cannon": {
+                            "form": "plastic toy",
+                            "scale": "small",
+                            "role": "sand toy"
+                        },
+                        "baby": {
+                            "form": "real baby",
+                            "scale": "normal",
+                            "role": "infant playing"
+                        }
+                    }
+                },
+                {
+                    "scene_type": "Vintage toy shop",
+                    "plausibility": 0.7,
+                    "reasoning": "A cluttered antique shop. A dog accompanies the owner. A baby is in a carrier. A handbag sits on the counter. A toy cannon is displayed on a shelf.",
+                    "object_interpretations": {
+                        "dog": {
+                            "form": "real dog",
+                            "scale": "normal",
+                            "role": "shop dog"
+                        },
+                        "handbag": {
+                            "form": "vintage purse",
+                            "scale": "normal",
+                            "role": "shop inventory"
+                        },
+                        "cannon": {
+                            "form": "antique toy",
+                            "scale": "small",
+                            "role": "collectible item"
+                        },
+                        "baby": {
+                            "form": "real baby",
+                            "scale": "normal",
+                            "role": "shopkeeper's child"
+                        }
+                    }
+                },
+                {
+                    "scene_type": "Backyard garden",
+                    "plausibility": 0.85,
+                    "reasoning": "Relaxing afternoon in the garden. The dog naps, the baby crawls on the grass, the handbag is on a patio chair, and a small toy cannon sits among the child's outdoor toys.",
+                    "object_interpretations": {
+                        "dog": {
+                            "form": "real dog",
+                            "scale": "normal",
+                            "role": "relaxing pet"
+                        },
+                        "handbag": {
+                            "form": "leather bag",
+                            "scale": "normal",
+                            "role": "discarded accessory"
+                        },
+                        "cannon": {
+                            "form": "toy cannon",
+                            "scale": "small",
+                            "role": "plaything"
+                        },
+                        "baby": {
+                            "form": "real baby",
+                            "scale": "normal",
+                            "role": "crawling infant"
+                        }
+                    },
+                    "scene_brief": "A Backyard garden featuring dog, with handbag, toy cannon placed nearby, and baby"
+                },
+                {
+                    "scene_type": "Historical reenactment event",
+                    "plausibility": 0.75,
+                    "reasoning": "A public historical event. A family watches a demonstration. The dog is leashed, the baby is held, the handbag is worn cross-body, and a cannon is fired in the background.",
+                    "object_interpretations": {
+                        "dog": {
+                            "form": "real dog",
+                            "scale": "normal",
+                            "role": "spectator pet"
+                        },
+                        "handbag": {
+                            "form": "modern bag",
+                            "scale": "normal",
+                            "role": "modern contrast"
+                        },
+                        "cannon": {
+                            "form": "replica cannon",
+                            "scale": "large",
+                            "role": "action element"
+                        },
+                        "baby": {
+                            "form": "real baby",
+                            "scale": "normal",
+                            "role": "young spectator"
+                        }
+                    }
+                }
+            ],
+            "selected_scene": {
+                "scene_type": "Backyard garden",
+                "plausibility": 0.85,
+                "reasoning": "Relaxing afternoon in the garden. The dog naps, the baby crawls on the grass, the handbag is on a patio chair, and a small toy cannon sits among the child's outdoor toys.",
+                "object_interpretations": {
+                    "dog": {
+                        "form": "real dog",
+                        "scale": "normal",
+                        "role": "relaxing pet"
+                    },
+                    "handbag": {
+                        "form": "leather bag",
+                        "scale": "normal",
+                        "role": "discarded accessory"
+                    },
+                    "cannon": {
+                        "form": "toy cannon",
+                        "scale": "small",
+                        "role": "plaything"
+                    },
+                    "baby": {
+                        "form": "real baby",
+                        "scale": "normal",
+                        "role": "crawling infant"
+                    }
+                },
+                "scene_brief": "A Backyard garden featuring dog, with handbag, toy cannon placed nearby, and baby"
+            }
+        }
+    },
+    "final_prompts": {
+        "main_prompt": "A Impressionism painting depicting a bright and active afternoon scene in a sun-dappled park. In the foreground, a medium-sized, golden-brown dog with playful amber eyes sits gently atop a content, peaceful baby dressed in peach and cream tones. The baby rests beside a small, well-used caramel and chestnut leather handbag, which sits on the grassy ground. A small, bright red and silver toy cannon, pristine and contemporary, rests directly on top of the handbag, positioned next to it. The natural, soft afternoon light filters through the trees, casting gentle, broken brushstrokes of light and shadow across the cheerful scene, with the textures of soft fur, smooth skin, polished plastic, and worn leather rendered in the loose, vibrant style of Impressionism.",
+        "negative_prompt": "photorealistic, 3d render, modern, digital art, photograph, low quality, blurry, distorted, ugly, deformed, text, watermark, signature, frame, border, cartoon, anime, hyperrealistic, surrealism, dark, gloomy, violent, scary",
+        "prompt_formats": {
+            "simple": "An Impressionist painting of a dog on a baby, with a toy cannon on a handbag beside them, in a soft, cheerful afternoon park.",
+            "complex": "A Impressionism painting depicting a bright and active afternoon scene in a sun-dappled park. In the foreground, a medium-sized, golden-brown dog with playful amber eyes sits gently atop a content, peaceful baby dressed in peach and cream tones. The baby rests beside a small, well-used caramel and chestnut leather handbag, which sits on the grassy ground. A small, bright red and silver toy cannon, pristine and contemporary, rests directly on top of the handbag, positioned next to it. The natural, soft afternoon light filters through the trees, casting gentle, broken brushstrokes of light and shadow across the cheerful scene, with the textures of soft fur, smooth skin, polished plastic, and worn leather rendered in the loose, vibrant style of Impressionism.",
+            "comma_separated": "Impressionism painting, golden-brown dog on peach-toned baby, bright red toy cannon on caramel leather handbag, baby beside handbag, soft afternoon light in park, dappled sunlight, cheerful and gentle atmosphere, loose brushstrokes, vibrant colors",
+            "tags": "art, painting, impressionism, dog, baby, handbag, toy cannon, park, afternoon, sunlight, cheerful, gentle, Claude Monet style, Pierre-Auguste Renoir style"
+        }
+    }
+}

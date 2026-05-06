@@ -1,0 +1,431 @@
+{
+    "artwork_id": "artwork_20260104_000438_951",
+    "generation_timestamp": "2026-01-04T00:05:13.131920",
+    "style": "Impressionism",
+    "objects": {
+        "object_ids": [
+            59,
+            75,
+            61,
+            61,
+            28
+        ],
+        "object_names": [
+            "lily",
+            "clock",
+            "picnic table",
+            "dinning table",
+            "dress shirt"
+        ],
+        "enhanced_objects": [
+            {
+                "object_id": 59,
+                "name": "lily",
+                "artistic_description": "Delicate petals rendered in soft, luminous whites and gentle pinks, with warm afternoon sunlight creating subtle golden highlights along the edges and cool shadows within the cup. The waxy surface catches the light with a gentle sheen, while the broad green leaves show dappled variations of emerald and chartreuse where sunlight filters through. Brushstrokes are loose and fluid, capturing the flower's ephemeral quality with visible flecks of pure color suggesting pollen and dew.",
+                "size": "Medium",
+                "state": "Freshly bloomed, vibrant and perky in the warm afternoon",
+                "primary_colors": [
+                    "luminous white",
+                    "soft pink"
+                ],
+                "material": "organic floral"
+            },
+            {
+                "object_id": 75,
+                "name": "clock",
+                "artistic_description": "The clock face glows with warm, honey-toned light reflected from the afternoon sun, its golden numerals appearing to shimmer against the cream background. The brass casing shows scattered highlights of bright amber and deep burnt sienna where light strikes directly, while the glass face creates subtle reflections of the surrounding garden. Visible brushwork suggests the passage of time through soft, blended edges that slightly blur the precise details.",
+                "size": "Small",
+                "state": "Polished contemporary timepiece, clearly readable",
+                "primary_colors": [
+                    "warm gold",
+                    "cream"
+                ],
+                "material": "brass and glass"
+            },
+            {
+                "object_id": 61,
+                "name": "picnic table",
+                "artistic_description": "Weathered wooden planks display a rich tapestry of warm browns and ochres, with the afternoon sun casting strong, angular shadows between the boards. The surface shows a matte finish with scattered flecks of pure white and yellow suggesting reflected sunlight, while the edges glow with golden highlights. Loose, textured brushstrokes capture the wood grain and the gentle weathering of contemporary outdoor furniture exposed to the elements.",
+                "size": "Large",
+                "state": "Weathered but sturdy, dry surface in the sunny conditions",
+                "primary_colors": [
+                    "warm brown",
+                    "golden ochre"
+                ],
+                "material": "weathered wood"
+            },
+            {
+                "object_id": 61,
+                "name": "dinning table",
+                "artistic_description": "Smooth tabletop surfaces catch the bright afternoon light with crisp, cool white reflections, contrasting against the warm natural tones of the table's structure. The clean contemporary lines are softened by visible brushwork that blends edges into the surrounding atmosphere. Subtle variations of pale cream and soft gray suggest the table's material absorbs and diffuses the strong natural light, creating a gentle, luminous presence.",
+                "size": "Large",
+                "state": "Clean and well-maintained contemporary piece",
+                "primary_colors": [
+                    "cream",
+                    "soft gray"
+                ],
+                "material": "smooth wood or laminate"
+            },
+            {
+                "object_id": 28,
+                "name": "dress shirt",
+                "artistic_description": "Crisp white fabric appears almost luminous under the direct afternoon sun, with scattered highlights of pure white and pale yellow where light strikes the folds. The material shows subtle textural variations through visible brushstrokes, with soft shadows in the creases rendered in cool grays and pale blues. The collar and cuffs catch the light sharply, creating bright accents against the softer overall tone of the garment.",
+                "size": "Medium",
+                "state": "Freshly pressed, crisp and bright",
+                "primary_colors": [
+                    "luminous white",
+                    "pale gray"
+                ],
+                "material": "cotton fabric"
+            }
+        ]
+    },
+    "composition": {
+        "spatial_relations": [
+            [
+                61,
+                "on",
+                61
+            ],
+            [
+                59,
+                "on",
+                61
+            ],
+            [
+                75,
+                "on",
+                61
+            ],
+            [
+                28,
+                "on",
+                61
+            ]
+        ],
+        "semantic_relations": []
+    },
+    "environment": {
+        "environment_details": {
+            "scene_brief": "A Garden Picnic featuring lily, with clock, picnic table, dinning table, and dress shirt",
+            "place365_name": "/f/formal_garden",
+            "place365_id": 153,
+            "time_of_day": "afternoon",
+            "weather": "sunny",
+            "period": "Contemporary",
+            "is_indoor": false,
+            "lighting": {
+                "type": "natural",
+                "quality": "soft",
+                "direction": "side-lit",
+                "mood": "warm",
+                "reasoning": "Combining 'afternoon' time and 'sunny' weather results in natural lighting. The sun is high but not directly overhead, creating soft, warm light that highlights the textures of the dress shirt and garden foliage, fitting the Impressionist aesthetic of capturing fleeting moments of light."
+            },
+            "atmosphere": "bright and active and cheerful and gentle"
+        },
+        "scene_inference": {
+            "all_candidates": [
+                {
+                    "scene_type": "Garden Picnic",
+                    "plausibility": 0.85,
+                    "reasoning": "A lily is a garden flower, a picnic table is outdoors, a dining table could be a nearby patio table, a dress shirt is worn by a person at the picnic, and a clock could be on a wrist or a nearby gazebo.",
+                    "object_interpretations": {
+                        "lily": {
+                            "form": "real flower",
+                            "scale": "normal",
+                            "role": "natural garden element"
+                        },
+                        "picnic table": {
+                            "form": "real furniture",
+                            "scale": "full-size",
+                            "role": "primary outdoor seating"
+                        },
+                        "dinning table": {
+                            "form": "patio table",
+                            "scale": "full-size",
+                            "role": "secondary outdoor surface"
+                        },
+                        "dress shirt": {
+                            "form": "clothing",
+                            "scale": "normal",
+                            "role": "worn by a person"
+                        },
+                        "clock": {
+                            "form": "wristwatch",
+                            "scale": "small",
+                            "role": "accessory"
+                        }
+                    },
+                    "scene_brief": "A Garden Picnic featuring lily, with clock, picnic table, dinning table, and dress shirt"
+                },
+                {
+                    "scene_type": "Botanical Greenhouse",
+                    "plausibility": 0.9,
+                    "reasoning": "Lilies are grown in greenhouses. A dining table serves as a display surface for potted lilies. A picnic table sits in the visitor area. A visitor wears a dress shirt. A clock hangs on the wall.",
+                    "object_interpretations": {
+                        "lily": {
+                            "form": "potted plant",
+                            "scale": "normal",
+                            "role": "exhibit specimen"
+                        },
+                        "dinning table": {
+                            "form": "display table",
+                            "scale": "full-size",
+                            "role": "holding potted plants"
+                        },
+                        "picnic table": {
+                            "form": "bench",
+                            "scale": "full-size",
+                            "role": "visitor seating"
+                        },
+                        "dress shirt": {
+                            "form": "clothing",
+                            "scale": "normal",
+                            "role": "worn by a visitor"
+                        },
+                        "clock": {
+                            "form": "wall clock",
+                            "scale": "medium",
+                            "role": "timekeeper"
+                        }
+                    }
+                },
+                {
+                    "scene_type": "Art Studio",
+                    "plausibility": 0.8,
+                    "reasoning": "An artist paints a lily. The painting sits on a dining table. A picnic table is used for mixing paints. The artist wears a dress shirt. A clock is on the wall.",
+                    "object_interpretations": {
+                        "lily": {
+                            "form": "subject of painting",
+                            "scale": "variable",
+                            "role": "artistic subject"
+                        },
+                        "dinning table": {
+                            "form": "work table",
+                            "scale": "full-size",
+                            "role": "holding canvas"
+                        },
+                        "picnic table": {
+                            "form": "utility table",
+                            "scale": "full-size",
+                            "role": "supply storage"
+                        },
+                        "dress shirt": {
+                            "form": "clothing",
+                            "scale": "normal",
+                            "role": "worn by artist"
+                        },
+                        "clock": {
+                            "form": "wall clock",
+                            "scale": "medium",
+                            "role": "time tracking"
+                        }
+                    }
+                },
+                {
+                    "scene_type": "Vintage Kitchen",
+                    "plausibility": 0.75,
+                    "reasoning": "A vase of lilies sits on a dining table. A picnic table is folded in the corner or seen through the window. A dress shirt hangs on a chair. A clock is on the wall.",
+                    "object_interpretations": {
+                        "lily": {
+                            "form": "cut flowers",
+                            "scale": "normal",
+                            "role": "table decoration"
+                        },
+                        "dinning table": {
+                            "form": "kitchen table",
+                            "scale": "full-size",
+                            "role": "eating surface"
+                        },
+                        "picnic table": {
+                            "form": "folded furniture",
+                            "scale": "small",
+                            "role": "storage item"
+                        },
+                        "dress shirt": {
+                            "form": "clothing",
+                            "scale": "normal",
+                            "role": "laundry item"
+                        },
+                        "clock": {
+                            "form": "wall clock",
+                            "scale": "medium",
+                            "role": "kitchen utility"
+                        }
+                    }
+                },
+                {
+                    "scene_type": "Formal Dining Room",
+                    "plausibility": 0.7,
+                    "reasoning": "A centerpiece lily on a dining table. A picnic table is outside the window. A dress shirt is worn by a diner. A clock is on the mantle.",
+                    "object_interpretations": {
+                        "lily": {
+                            "form": "fresh flower",
+                            "scale": "normal",
+                            "role": "centerpiece"
+                        },
+                        "dinning table": {
+                            "form": "formal table",
+                            "scale": "full-size",
+                            "role": "main furniture"
+                        },
+                        "picnic table": {
+                            "form": "outdoor furniture",
+                            "scale": "full-size",
+                            "role": "visible through window"
+                        },
+                        "dress shirt": {
+                            "form": "clothing",
+                            "scale": "normal",
+                            "role": "worn by guest"
+                        },
+                        "clock": {
+                            "form": "grandfather clock",
+                            "scale": "large",
+                            "role": "room accent"
+                        }
+                    }
+                },
+                {
+                    "scene_type": "Spring Wedding Reception",
+                    "plausibility": 0.85,
+                    "reasoning": "Lilies are the floral theme. Dining tables are set for guests. Picnic tables are in the garden area. Guests wear dress shirts. A clock is on the venue wall.",
+                    "object_interpretations": {
+                        "lily": {
+                            "form": "bouquet/arrangement",
+                            "scale": "variable",
+                            "role": "decoration"
+                        },
+                        "dinning table": {
+                            "form": "banquet table",
+                            "scale": "full-size",
+                            "role": "guest seating"
+                        },
+                        "picnic table": {
+                            "form": "garden table",
+                            "scale": "full-size",
+                            "role": "casual seating"
+                        },
+                        "dress shirt": {
+                            "form": "formal wear",
+                            "scale": "normal",
+                            "role": "worn by attendees"
+                        },
+                        "clock": {
+                            "form": "wall clock",
+                            "scale": "medium",
+                            "role": "timekeeper"
+                        }
+                    }
+                },
+                {
+                    "scene_type": "Conservatory",
+                    "plausibility": 0.8,
+                    "reasoning": "Lilies in planters. A dining table serves as a potting bench. A picnic table is in the courtyard. A botanist in a dress shirt works there. A clock ticks on the wall.",
+                    "object_interpretations": {
+                        "lily": {
+                            "form": "living plant",
+                            "scale": "normal",
+                            "role": "specimen"
+                        },
+                        "dinning table": {
+                            "form": "workbench",
+                            "scale": "full-size",
+                            "role": "utility surface"
+                        },
+                        "picnic table": {
+                            "form": "outdoor seating",
+                            "scale": "full-size",
+                            "role": "rest area"
+                        },
+                        "dress shirt": {
+                            "form": "clothing",
+                            "scale": "normal",
+                            "role": "worn by staff"
+                        },
+                        "clock": {
+                            "form": "industrial clock",
+                            "scale": "medium",
+                            "role": "utility"
+                        }
+                    }
+                },
+                {
+                    "scene_type": "Country Cottage",
+                    "plausibility": 0.8,
+                    "reasoning": "Wild lilies grow in the yard. A rustic dining table is inside. A picnic table is on the lawn. A resident wears a dress shirt. A clock is on the mantel.",
+                    "object_interpretations": {
+                        "lily": {
+                            "form": "wildflower",
+                            "scale": "normal",
+                            "role": "landscaping"
+                        },
+                        "dinning table": {
+                            "form": "wooden table",
+                            "scale": "full-size",
+                            "role": "furniture"
+                        },
+                        "picnic table": {
+                            "form": "outdoor table",
+                            "scale": "full-size",
+                            "role": "yard furniture"
+                        },
+                        "dress shirt": {
+                            "form": "clothing",
+                            "scale": "normal",
+                            "role": "casual wear"
+                        },
+                        "clock": {
+                            "form": "mantel clock",
+                            "scale": "medium",
+                            "role": "decoration"
+                        }
+                    }
+                }
+            ],
+            "selected_scene": {
+                "scene_type": "Garden Picnic",
+                "plausibility": 0.85,
+                "reasoning": "A lily is a garden flower, a picnic table is outdoors, a dining table could be a nearby patio table, a dress shirt is worn by a person at the picnic, and a clock could be on a wrist or a nearby gazebo.",
+                "object_interpretations": {
+                    "lily": {
+                        "form": "real flower",
+                        "scale": "normal",
+                        "role": "natural garden element"
+                    },
+                    "picnic table": {
+                        "form": "real furniture",
+                        "scale": "full-size",
+                        "role": "primary outdoor seating"
+                    },
+                    "dinning table": {
+                        "form": "patio table",
+                        "scale": "full-size",
+                        "role": "secondary outdoor surface"
+                    },
+                    "dress shirt": {
+                        "form": "clothing",
+                        "scale": "normal",
+                        "role": "worn by a person"
+                    },
+                    "clock": {
+                        "form": "wristwatch",
+                        "scale": "small",
+                        "role": "accessory"
+                    }
+                },
+                "scene_brief": "A Garden Picnic featuring lily, with clock, picnic table, dinning table, and dress shirt"
+            }
+        }
+    },
+    "final_prompts": {
+        "main_prompt": "A Impressionism painting depicting a bright and cheerful afternoon scene in a sun-dappled garden, where a large, weathered picnic table in warm brown and golden ochre sits atop a clean, contemporary dining table in cream and soft gray. Arranged on the picnic table's surface are a luminous white and soft pink lily, freshly bloomed; a small, polished contemporary clock in warm gold and cream; and a medium-sized, freshly pressed dress shirt in luminous white and pale gray. The natural, soft afternoon light filters through surrounding foliage, casting gentle, active shadows and creating a luminous, gentle atmosphere where brushstrokes capture the play of light on organic floral textures, weathered wood, brass, glass, and crisp cotton fabric.",
+        "negative_prompt": "photorealistic, 3d render, modern, digital art, photograph, low quality, blurry, distorted, surreal, dark, gloomy, monochrome, text, watermark, signature, frame, ugly, deformed",
+        "prompt_formats": {
+            "simple": "An Impressionist garden scene with a picnic table on a dining table, featuring a lily, clock, and dress shirt arranged in soft afternoon light.",
+            "complex": "A Impressionism painting depicting a bright and cheerful afternoon scene in a sun-dappled garden, where a large, weathered picnic table in warm brown and golden ochre sits atop a clean, contemporary dining table in cream and soft gray. Arranged on the picnic table's surface are a luminous white and soft pink lily, freshly bloomed; a small, polished contemporary clock in warm gold and cream; and a medium-sized, freshly pressed dress shirt in luminous white and pale gray. The natural, soft afternoon light filters through surrounding foliage, casting gentle, active shadows and creating a luminous, gentle atmosphere where brushstrokes capture the play of light on organic floral textures, weathered wood, brass, glass, and crisp cotton fabric.",
+            "comma_separated": "Impressionism painting, garden afternoon, picnic table on dining table, lily, clock, dress shirt, weathered wood, contemporary furniture, soft natural lighting, bright cheerful atmosphere, luminous colors, visible brushstrokes, dappled sunlight",
+            "tags": "art, painting, impressionism, still life, garden scene, afternoon light, picnic table, dining table, lily, clock, dress shirt, Claude Monet style, Pierre-Auguste Renoir, light and shadow, cheerful atmosphere"
+        }
+    }
+}

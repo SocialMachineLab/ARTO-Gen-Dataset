@@ -1,0 +1,345 @@
+{
+    "artwork_id": "artwork_20260103_022231_885",
+    "generation_timestamp": "2026-01-03T02:23:03.265443",
+    "style": "Post-Impressionism",
+    "objects": {
+        "object_ids": [
+            20,
+            75,
+            35,
+            20
+        ],
+        "object_names": [
+            "calf",
+            "clock",
+            "stick",
+            "cattle"
+        ],
+        "enhanced_objects": [
+            {
+                "object_id": 20,
+                "name": "calf",
+                "artistic_description": "Soft plush toy rendered in warm afternoon sunlight with gentle golden highlights on its synthetic fur, matte white and brown patches showing subtle color temperature shifts where shadows fall, edges softly defined with gentle brushstroke-like texture, cheerful appearance with slightly worn fabric showing gentle pilling",
+                "size": "Medium",
+                "state": "well-loved toy with gentle wear, clean and intact",
+                "primary_colors": [
+                    "warm cream",
+                    "soft brown"
+                ],
+                "material": "synthetic plush fabric"
+            },
+            {
+                "object_id": 75,
+                "name": "clock",
+                "artistic_description": "Circular form catching bright natural light on its glass face, creating soft reflections of the sunny room, bold flat colors in Post-Impressionist style with saturated yellows and deep blues, clean white background with crisp black numerals, metallic hands gleaming with warm highlights",
+                "size": "Medium",
+                "state": "pristine contemporary timepiece, fully functional",
+                "primary_colors": [
+                    "bright white",
+                    "golden yellow"
+                ],
+                "material": "plastic and glass"
+            },
+            {
+                "object_id": 35,
+                "name": "stick",
+                "artistic_description": "Simple wooden toy stick bathed in directional sunlight creating strong warm highlights along its length, natural wood grain visible with rich amber tones, matte surface absorbing light with gentle shadows, smooth texture with subtle imperfections showing through the bright illumination",
+                "size": "Small",
+                "state": "simple wooden toy, slightly weathered from play",
+                "primary_colors": [
+                    "warm amber",
+                    "natural wood brown"
+                ],
+                "material": "wood"
+            },
+            {
+                "object_id": 20,
+                "name": "cattle",
+                "artistic_description": "Decorative ceramic figure with bold, saturated colors typical of Post-Impressionism, glossy glaze reflecting bright window light creating sharp highlights, crisp white base with deep black accents and vibrant red details, smooth surface showing subtle color variations from the warm afternoon illumination",
+                "size": "Small",
+                "state": "decorative piece in excellent condition, glossy finish",
+                "primary_colors": [
+                    "pure white",
+                    "deep black"
+                ],
+                "material": "ceramic"
+            }
+        ]
+    },
+    "composition": {
+        "spatial_relations": [
+            [
+                20,
+                "on",
+                75
+            ],
+            [
+                35,
+                "next to",
+                20
+            ],
+            [
+                20,
+                "next to",
+                20
+            ],
+            [
+                75,
+                "next to",
+                20
+            ]
+        ],
+        "semantic_relations": []
+    },
+    "environment": {
+        "environment_details": {
+            "scene_brief": "A children's playroom featuring toy calf, with clock, toy stick placed nearby, and decorative cattle as decoration",
+            "place365_name": "/r/recreation_room",
+            "place365_id": 281,
+            "time_of_day": "afternoon",
+            "weather": "sunny",
+            "period": "Contemporary",
+            "is_indoor": true,
+            "lighting": {
+                "type": "natural",
+                "quality": "soft",
+                "direction": "side-lit",
+                "mood": "warm",
+                "reasoning": "Natural afternoon sunlight filtering through windows provides soft, warm illumination that highlights the textures of toys and decorations. Side-lighting creates gentle shadows and depth, ideal for Post-Impressionist emphasis on color and form without harsh contrasts."
+            },
+            "atmosphere": "bright and active and cheerful and gentle"
+        },
+        "scene_inference": {
+            "all_candidates": [
+                {
+                    "scene_type": "rural barn interior",
+                    "plausibility": 0.95,
+                    "reasoning": "A calf is a young bovine, naturally found in a barn. Cattle are the adult herd, also present. A stick can be a piece of firewood or a tool. A clock can be a wall clock for farm scheduling. Post-Impressionism highlights the rustic textures and warm light.",
+                    "object_interpretations": {
+                        "calf": {
+                            "form": "real animal",
+                            "scale": "normal",
+                            "role": "primary subject"
+                        },
+                        "cattle": {
+                            "form": "real animals",
+                            "scale": "normal",
+                            "role": "background herd"
+                        },
+                        "stick": {
+                            "form": "firewood",
+                            "scale": "normal",
+                            "role": "barn clutter"
+                        },
+                        "clock": {
+                            "form": "wall clock",
+                            "scale": "normal",
+                            "role": "functional decor"
+                        }
+                    }
+                },
+                {
+                    "scene_type": "pastoral meadow",
+                    "plausibility": 0.9,
+                    "reasoning": "The calf and cattle graze together in a field. A stick might be a fallen branch. A clock could be a pocket watch left by a resting farmer. The style emphasizes the vibrant colors of nature.",
+                    "object_interpretations": {
+                        "calf": {
+                            "form": "real animal",
+                            "scale": "normal",
+                            "role": "primary subject"
+                        },
+                        "cattle": {
+                            "form": "real animals",
+                            "scale": "normal",
+                            "role": "herd context"
+                        },
+                        "stick": {
+                            "form": "fallen branch",
+                            "scale": "normal",
+                            "role": "natural debris"
+                        },
+                        "clock": {
+                            "form": "pocket watch",
+                            "scale": "small",
+                            "role": "human artifact"
+                        }
+                    }
+                },
+                {
+                    "scene_type": "vintage farm kitchen",
+                    "plausibility": 0.8,
+                    "reasoning": "A calf is represented as a ceramic figurine on the table. Cattle are depicted in a painting on the wall. A stick is a wooden spoon. A clock is a standard kitchen appliance. The style renders domestic objects with bold outlines.",
+                    "object_interpretations": {
+                        "calf": {
+                            "form": "ceramic figurine",
+                            "scale": "small",
+                            "role": "table decoration"
+                        },
+                        "cattle": {
+                            "form": "painting",
+                            "scale": "2D representation",
+                            "role": "wall art"
+                        },
+                        "stick": {
+                            "form": "wooden spoon",
+                            "scale": "normal",
+                            "role": "kitchen utensil"
+                        },
+                        "clock": {
+                            "form": "wall clock",
+                            "scale": "normal",
+                            "role": "timekeeper"
+                        }
+                    }
+                },
+                {
+                    "scene_type": "children's playroom",
+                    "plausibility": 0.75,
+                    "reasoning": "The calf is a plush toy. Cattle are part of a pattern on a rug or wallpaper. A stick is a toy building block. A clock is a colorful educational clock. The style applies distinct brushstrokes to soft textures.",
+                    "object_interpretations": {
+                        "calf": {
+                            "form": "plush toy",
+                            "scale": "small",
+                            "role": "toy"
+                        },
+                        "cattle": {
+                            "form": "pattern",
+                            "scale": "2D representation",
+                            "role": "decorative"
+                        },
+                        "stick": {
+                            "form": "toy block",
+                            "scale": "small",
+                            "role": "play object"
+                        },
+                        "clock": {
+                            "form": "educational clock",
+                            "scale": "normal",
+                            "role": "learning tool"
+                        }
+                    },
+                    "scene_brief": "A children's playroom featuring toy calf, with clock, toy stick placed nearby, and decorative cattle as decoration"
+                },
+                {
+                    "scene_type": "surreal dream landscape",
+                    "plausibility": 0.7,
+                    "reasoning": "Post-Impressionism allows for creative freedom. The calf and cattle wander a floating island. A giant stick bridges a gap. A clock melts into the grass. The scene is unified by color harmony rather than strict logic.",
+                    "object_interpretations": {
+                        "calf": {
+                            "form": "real animal",
+                            "scale": "normal",
+                            "role": "wanderer"
+                        },
+                        "cattle": {
+                            "form": "real animals",
+                            "scale": "normal",
+                            "role": "wanderers"
+                        },
+                        "stick": {
+                            "form": "giant branch",
+                            "scale": "large",
+                            "role": "structural bridge"
+                        },
+                        "clock": {
+                            "form": "melting clock",
+                            "scale": "large",
+                            "role": "surreal element"
+                        }
+                    }
+                },
+                {
+                    "scene_type": "farm supply store",
+                    "plausibility": 0.85,
+                    "reasoning": "A calf is a young animal for sale. Cattle are in pens. A stick is a riding crop or fencing material. A clock is on the shop wall. The style emphasizes the clutter and commerce of the store.",
+                    "object_interpretations": {
+                        "calf": {
+                            "form": "real animal",
+                            "scale": "normal",
+                            "role": "product"
+                        },
+                        "cattle": {
+                            "form": "real animals",
+                            "scale": "normal",
+                            "role": "inventory"
+                        },
+                        "stick": {
+                            "form": "tool",
+                            "scale": "normal",
+                            "role": "equipment"
+                        },
+                        "clock": {
+                            "form": "wall clock",
+                            "scale": "normal",
+                            "role": "store fixture"
+                        }
+                    }
+                },
+                {
+                    "scene_type": "abstract still life",
+                    "plausibility": 0.65,
+                    "reasoning": "Objects are arranged on a table. The calf is a taxidermy mount. Cattle are a bronze statue. A stick is a prop. A clock is an antique. The style focuses on the geometric shapes and distinct colors of the objects.",
+                    "object_interpretations": {
+                        "calf": {
+                            "form": "taxidermy",
+                            "scale": "small",
+                            "role": "centerpiece"
+                        },
+                        "cattle": {
+                            "form": "statuette",
+                            "scale": "small",
+                            "role": "decorative"
+                        },
+                        "stick": {
+                            "form": "prop",
+                            "scale": "small",
+                            "role": "filler"
+                        },
+                        "clock": {
+                            "form": "antique clock",
+                            "scale": "small",
+                            "role": "accent"
+                        }
+                    }
+                }
+            ],
+            "selected_scene": {
+                "scene_type": "children's playroom",
+                "plausibility": 0.75,
+                "reasoning": "The calf is a plush toy. Cattle are part of a pattern on a rug or wallpaper. A stick is a toy building block. A clock is a colorful educational clock. The style applies distinct brushstrokes to soft textures.",
+                "object_interpretations": {
+                    "calf": {
+                        "form": "plush toy",
+                        "scale": "small",
+                        "role": "toy"
+                    },
+                    "cattle": {
+                        "form": "pattern",
+                        "scale": "2D representation",
+                        "role": "decorative"
+                    },
+                    "stick": {
+                        "form": "toy block",
+                        "scale": "small",
+                        "role": "play object"
+                    },
+                    "clock": {
+                        "form": "educational clock",
+                        "scale": "normal",
+                        "role": "learning tool"
+                    }
+                },
+                "scene_brief": "A children's playroom featuring toy calf, with clock, toy stick placed nearby, and decorative cattle as decoration"
+            }
+        }
+    },
+    "final_prompts": {
+        "main_prompt": "A Post-Impressionism painting depicting a bright and cheerful afternoon scene with natural soft lighting. In the foreground, a medium-sized calf, a well-loved toy with gentle wear in warm cream and soft brown synthetic plush fabric, sits atop a medium-sized clock, a pristine contemporary timepiece in bright white and golden yellow plastic and glass. Beside the calf rests a small stick, a simple wooden toy in warm amber and natural wood brown. Nearby, a small cattle decorative piece in excellent condition, crafted from pure white and deep black ceramic, stands next to the calf. The composition is active yet gentle, with bold brushstrokes and vibrant colors capturing the playful arrangement of objects in a sunlit space.",
+        "negative_prompt": "photorealistic, 3d render, modern, digital art, photograph, low quality, blurry, distorted, surreal, abstract, dark, gloomy, monochrome, text, watermark, signature, frame, border",
+        "prompt_formats": {
+            "simple": "A Post-Impressionism painting of a calf on a clock with a stick and cattle nearby in a bright afternoon setting.",
+            "complex": "A Post-Impressionism painting depicting a bright and cheerful afternoon scene with natural soft lighting. In the foreground, a medium-sized calf, a well-loved toy with gentle wear in warm cream and soft brown synthetic plush fabric, sits atop a medium-sized clock, a pristine contemporary timepiece in bright white and golden yellow plastic and glass. Beside the calf rests a small stick, a simple wooden toy in warm amber and natural wood brown. Nearby, a small cattle decorative piece in excellent condition, crafted from pure white and deep black ceramic, stands next to the calf. The composition is active yet gentle, with bold brushstrokes and vibrant colors capturing the playful arrangement of objects in a sunlit space.",
+            "comma_separated": "Post-Impressionism, calf on clock, stick beside calf, cattle next to calf, afternoon lighting, bright cheerful gentle atmosphere, warm cream soft brown toy, bright white golden yellow clock, warm amber wood brown stick, pure white deep black ceramic cattle, synthetic plush, plastic glass, wood, ceramic, vibrant colors, bold brushstrokes",
+            "tags": "art, painting, post-impressionism, still life, toys, decorative objects, afternoon light, cheerful, gentle, vibrant, textured brushwork"
+        }
+    }
+}

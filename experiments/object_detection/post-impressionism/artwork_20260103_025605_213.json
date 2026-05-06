@@ -1,0 +1,340 @@
+{
+    "artwork_id": "artwork_20260103_025605_213",
+    "generation_timestamp": "2026-01-03T02:56:40.318670",
+    "style": "Post-Impressionism",
+    "objects": {
+        "object_ids": [
+            72,
+            15,
+            9,
+            74
+        ],
+        "object_names": [
+            "sink",
+            "bird",
+            "boat",
+            "book"
+        ],
+        "enhanced_objects": [
+            {
+                "object_id": 72,
+                "name": "sink",
+                "artistic_description": "A gleaming porcelain sink with bold, visible brushstrokes of white and cool blue-gray highlights catching the mixed light from fluorescent tubes and window glare. The surface shows thick, impasto application of titanium white with subtle lavender shadows pooling in the basin, creating a wet, reflective quality that captures fragmented color notes from the surrounding merchandise.",
+                "size": "Large",
+                "state": "pristine and highly reflective, beaded with condensation",
+                "primary_colors": [
+                    "brilliant white",
+                    "cool blue-gray"
+                ],
+                "material": "porcelain"
+            },
+            {
+                "object_id": 15,
+                "name": "bird",
+                "artistic_description": "A small sparrow rendered with quick, energetic dabs of burnt umber and ochre, its feathers catching warm afternoon light filtering through the storefront window. The bird's form is suggested through visible, directional strokes of sienna and charcoal, with a bright highlight of cadmium yellow on its breast where sunlight strikes directly, creating a vibrant, living warmth against the cool indoor shadows.",
+                "size": "Small",
+                "state": "alert and vibrant, feathers slightly ruffled",
+                "primary_colors": [
+                    "warm ochre",
+                    "deep burnt umber"
+                ],
+                "material": "feathers"
+            },
+            {
+                "object_id": 9,
+                "name": "boat",
+                "artistic_description": "A miniature boat model painted with thick, textured strokes of cerulean blue and pure white, capturing the bright, cheerful atmosphere of the sunny afternoon. The hull shows visible impasto of ultramarine with sharp, contrasting strokes of titanium white along the edges where light reflects intensely. The sail is a brilliant, almost flat white with subtle yellow ochre undertones, suggesting the warmth of the sun while maintaining the cool marine palette.",
+                "size": "Medium",
+                "state": "freshly painted, crisp and pristine",
+                "primary_colors": [
+                    "cerulean blue",
+                    "pure white"
+                ],
+                "material": "wood and canvas"
+            },
+            {
+                "object_id": 74,
+                "name": "book",
+                "artistic_description": "A book with a cover of deep crimson red, rendered with bold, visible strokes that shift to bright vermilion where the mixed lighting hits directly. The spine shows thick application of burnt sienna and mahogany tones, with the title suggested through quick, dark strokes of near-black. The pages are a warm cream with visible yellow ochre highlights, catching both the cool fluorescent light and warm window glare in fragmented color patches.",
+                "size": "Marginal",
+                "state": "well-used with softened corners, pages slightly yellowed",
+                "primary_colors": [
+                    "crimson red",
+                    "warm cream"
+                ],
+                "material": "paper and cloth-bound cover"
+            }
+        ]
+    },
+    "composition": {
+        "spatial_relations": [
+            [
+                72,
+                "next to",
+                9
+            ],
+            [
+                74,
+                "on",
+                72
+            ],
+            [
+                15,
+                "on",
+                72
+            ]
+        ],
+        "semantic_relations": []
+    },
+    "environment": {
+        "environment_details": {
+            "scene_brief": "A Marine Supply Store featuring sink, with bird, boat model, and book",
+            "place365_name": "/s/shop",
+            "place365_id": 21,
+            "time_of_day": "afternoon",
+            "weather": "sunny",
+            "period": "Contemporary",
+            "is_indoor": true,
+            "lighting": {
+                "type": "mixed",
+                "quality": "harsh",
+                "direction": "side-lit",
+                "mood": "warm",
+                "reasoning": "Mixed lighting combines the strong natural sunlight streaming through windows (harsh, warm, side-lit) with potential artificial store lighting. The harsh side-lit quality creates bold shadows and bright highlights essential to Post-Impressionism's emotional expression. This dramatic lighting would make the metallic sink, wooden boat model, and the bird's feathers pop with saturated colors against darker backgrounds."
+            },
+            "atmosphere": "bright and active and cheerful"
+        },
+        "scene_inference": {
+            "all_candidates": [
+                {
+                    "scene_type": "Art Studio",
+                    "plausibility": 0.95,
+                    "reasoning": "A Post-Impressionist artist's studio. The sink is a functional utility sink for cleaning brushes. The bird is a taxidermy model or a live pet perched nearby, serving as a subject. The boat is a small wooden model on a workbench, and the book is an art reference manual open on a table.",
+                    "object_interpretations": {
+                        "sink": {
+                            "form": "real utility sink",
+                            "scale": "normal",
+                            "role": "functional utility"
+                        },
+                        "bird": {
+                            "form": "taxidermy model",
+                            "scale": "normal",
+                            "role": "artistic subject"
+                        },
+                        "boat": {
+                            "form": "wooden model",
+                            "scale": "miniature",
+                            "role": "artistic subject"
+                        },
+                        "book": {
+                            "form": "real book",
+                            "scale": "normal",
+                            "role": "reference material"
+                        }
+                    }
+                },
+                {
+                    "scene_type": "Vintage Kitchen",
+                    "plausibility": 0.9,
+                    "reasoning": "A rustic, cluttered kitchen with Post-Impressionist lighting. The sink is the central washing basin. A bird is in a cage hanging near the window. A toy boat sits on the windowsill as a decoration, and a cookbook rests on the counter near the sink.",
+                    "object_interpretations": {
+                        "sink": {
+                            "form": "real porcelain sink",
+                            "scale": "normal",
+                            "role": "primary functional object"
+                        },
+                        "bird": {
+                            "form": "live bird in cage",
+                            "scale": "normal",
+                            "role": "pet/decoration"
+                        },
+                        "boat": {
+                            "form": "toy boat",
+                            "scale": "miniature",
+                            "role": "decoration"
+                        },
+                        "book": {
+                            "form": "real cookbook",
+                            "scale": "normal",
+                            "role": "utility item"
+                        }
+                    }
+                },
+                {
+                    "scene_type": "Children's Playroom",
+                    "plausibility": 0.85,
+                    "reasoning": "A playful scene where the sink is part of a toy kitchen set. The bird is a plush toy or a rubber bath toy. The boat is a plastic toy for the bathtub, and the book is a picture book left on the floor.",
+                    "object_interpretations": {
+                        "sink": {
+                            "form": "toy sink",
+                            "scale": "miniature",
+                            "role": "play equipment"
+                        },
+                        "bird": {
+                            "form": "plush toy",
+                            "scale": "small",
+                            "role": "toy"
+                        },
+                        "boat": {
+                            "form": "plastic toy",
+                            "scale": "small",
+                            "role": "toy"
+                        },
+                        "book": {
+                            "form": "picture book",
+                            "scale": "normal",
+                            "role": "toy/educational"
+                        }
+                    }
+                },
+                {
+                    "scene_type": "Bathroom",
+                    "plausibility": 0.8,
+                    "reasoning": "A standard bathroom setting. The sink is the vanity. The bird is a decorative motif on the wallpaper or a porcelain figurine on the shelf. The boat is a model ship displayed on a cabinet, and the book is reading material left on the closed lid.",
+                    "object_interpretations": {
+                        "sink": {
+                            "form": "real bathroom sink",
+                            "scale": "normal",
+                            "role": "primary functional object"
+                        },
+                        "bird": {
+                            "form": "figurine",
+                            "scale": "small",
+                            "role": "decoration"
+                        },
+                        "boat": {
+                            "form": "model ship",
+                            "scale": "small",
+                            "role": "decoration"
+                        },
+                        "book": {
+                            "form": "real book",
+                            "scale": "normal",
+                            "role": "reading material"
+                        }
+                    }
+                },
+                {
+                    "scene_type": "Marine Supply Store",
+                    "plausibility": 0.75,
+                    "reasoning": "A cluttered shop selling nautical supplies. The sink is a utility sink in the back room. The bird is a taxidermy seagull mounted on the wall. The boat is a large model for sale, and the book is a logbook or catalog on a desk.",
+                    "object_interpretations": {
+                        "sink": {
+                            "form": "real metal sink",
+                            "scale": "normal",
+                            "role": "utility"
+                        },
+                        "bird": {
+                            "form": "taxidermy",
+                            "scale": "normal",
+                            "role": "decoration"
+                        },
+                        "boat": {
+                            "form": "display model",
+                            "scale": "medium",
+                            "role": "merchandise"
+                        },
+                        "book": {
+                            "form": "logbook",
+                            "scale": "normal",
+                            "role": "utility"
+                        }
+                    },
+                    "scene_brief": "A Marine Supply Store featuring sink, with bird, boat model, and book"
+                },
+                {
+                    "scene_type": "Surreal Dreamscape",
+                    "plausibility": 0.7,
+                    "reasoning": "A Post-Impressionist/Surrealist interpretation. The sink floats in the air, pouring water into a floating boat. A giant bird holds a book in its beak. The scene defies gravity but maintains visual logic.",
+                    "object_interpretations": {
+                        "sink": {
+                            "form": "surreal appliance",
+                            "scale": "variable",
+                            "role": "central surreal element"
+                        },
+                        "bird": {
+                            "form": "giant bird",
+                            "scale": "large",
+                            "role": "carrier"
+                        },
+                        "boat": {
+                            "form": "flying boat",
+                            "scale": "medium",
+                            "role": "recipient"
+                        },
+                        "book": {
+                            "form": "floating book",
+                            "scale": "normal",
+                            "role": "mystery object"
+                        }
+                    }
+                },
+                {
+                    "scene_type": "Museum Curio Room",
+                    "plausibility": 0.85,
+                    "reasoning": "A room displaying oddities. The sink is an antique basin on a pedestal. The bird is a preserved specimen under a glass dome. The boat is a ship-in-a-bottle, and the book is a rare manuscript under glass.",
+                    "object_interpretations": {
+                        "sink": {
+                            "form": "antique artifact",
+                            "scale": "normal",
+                            "role": "display piece"
+                        },
+                        "bird": {
+                            "form": "preserved specimen",
+                            "scale": "normal",
+                            "role": "display piece"
+                        },
+                        "boat": {
+                            "form": "ship-in-bottle",
+                            "scale": "small",
+                            "role": "display piece"
+                        },
+                        "book": {
+                            "form": "manuscript",
+                            "scale": "normal",
+                            "role": "display piece"
+                        }
+                    }
+                }
+            ],
+            "selected_scene": {
+                "scene_type": "Marine Supply Store",
+                "plausibility": 0.75,
+                "reasoning": "A cluttered shop selling nautical supplies. The sink is a utility sink in the back room. The bird is a taxidermy seagull mounted on the wall. The boat is a large model for sale, and the book is a logbook or catalog on a desk.",
+                "object_interpretations": {
+                    "sink": {
+                        "form": "real metal sink",
+                        "scale": "normal",
+                        "role": "utility"
+                    },
+                    "bird": {
+                        "form": "taxidermy",
+                        "scale": "normal",
+                        "role": "decoration"
+                    },
+                    "boat": {
+                        "form": "display model",
+                        "scale": "medium",
+                        "role": "merchandise"
+                    },
+                    "book": {
+                        "form": "logbook",
+                        "scale": "normal",
+                        "role": "utility"
+                    }
+                },
+                "scene_brief": "A Marine Supply Store featuring sink, with bird, boat model, and book"
+            }
+        }
+    },
+    "final_prompts": {
+        "main_prompt": "A Post-Impressionism painting depicting a bright and cheerful afternoon scene in a sun-drenched studio or workshop. In the foreground, a large, brilliant white porcelain sink with cool blue-gray undertones sits pristine and highly reflective, its surface catching the mixed harsh afternoon light. Perched alertly on the rim of the sink is a small, vibrant bird rendered in warm ochre and deep burnt umber feathers. Beside the sink, a medium-sized, freshly painted boat in cerulean blue and pure white rests, its wood and canvas hull contrasting with the porcelain. Resting on the flat basin of the sink is a marginal, well-used book with a crimson red and warm cream cloth-bound cover, its softened corners suggesting frequent use. The spatial arrangement creates a dynamic still life: the bird and book share the sink's reflective surface, while the boat anchors the composition beside it. The overall atmosphere is active and cheerful, with bold, visible brushstrokes, heightened color, and dramatic light and shadow defining the forms in a vibrant Post-Impressionist style.",
+        "negative_prompt": "photorealistic, 3d render, modern, digital art, photograph, low quality, blurry, distorted, ugly, deformed, disfigured, poorly drawn, bad anatomy, watermark, signature, text, frame",
+        "prompt_formats": {
+            "simple": "A Post-Impressionist painting of a bird and a book on a white sink, with a blue boat beside it, in a bright, cheerful afternoon light.",
+            "complex": "A Post-Impressionism painting depicting a bright and cheerful afternoon scene in a sun-drenched studio or workshop. In the foreground, a large, brilliant white porcelain sink with cool blue-gray undertones sits pristine and highly reflective, its surface catching the mixed harsh afternoon light. Perched alertly on the rim of the sink is a small, vibrant bird rendered in warm ochre and deep burnt umber feathers. Beside the sink, a medium-sized, freshly painted boat in cerulean blue and pure white rests, its wood and canvas hull contrasting with the porcelain. Resting on the flat basin of the sink is a marginal, well-used book with a crimson red and warm cream cloth-bound cover, its softened corners suggesting frequent use. The spatial arrangement creates a dynamic still life: the bird and book share the sink's reflective surface, while the boat anchors the composition beside it. The overall atmosphere is active and cheerful, with bold, visible brushstrokes, heightened color, and dramatic light and shadow defining the forms in a vibrant Post-Impressionist style.",
+            "comma_separated": "Post-Impressionism painting, large brilliant white sink, small ochre bird, medium cerulean blue boat, marginal crimson red book, bird on sink, book on sink, boat next to sink, afternoon lighting, harsh light, bright cheerful active atmosphere, vibrant colors, visible brushstrokes, studio interior",
+            "tags": "art, painting, post-impressionism, still life, interior, sink, bird, boat, book, afternoon light, vibrant colors, cheerful, van gogh style, paul c\u00e9zanne style"
+        }
+    }
+}

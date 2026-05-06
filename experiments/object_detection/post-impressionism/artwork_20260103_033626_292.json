@@ -1,0 +1,421 @@
+{
+    "artwork_id": "artwork_20260103_033626_292",
+    "generation_timestamp": "2026-01-03T03:37:01.619664",
+    "style": "Post-Impressionism",
+    "objects": {
+        "object_ids": [
+            22,
+            31,
+            48,
+            78
+        ],
+        "object_names": [
+            "bear",
+            "sleigh",
+            "apple",
+            "doll"
+        ],
+        "enhanced_objects": [
+            {
+                "object_id": 22,
+                "name": "bear",
+                "artistic_description": "A taxidermy bear rendered in thick, visible brushstrokes of deep umber and chocolate brown, its fur catching the cloudy daylight with subtle highlights of cool gray-blue. The glass eyes reflect the muted ambient light as dark, glossy voids. The snout and claws show dry, matte texture with weathered edges from age, while the overall form is sculpted with Post-Impressionist emphasis on geometric planes and shadowed contours.",
+                "size": "Large",
+                "state": "preserved taxidermy, slightly weathered from display",
+                "primary_colors": [
+                    "deep umber",
+                    "cool gray-blue"
+                ],
+                "material": "fur, glass, taxidermy"
+            },
+            {
+                "object_id": 31,
+                "name": "sleigh",
+                "artistic_description": "A wooden sleigh painted in bold strokes of crimson red and ochre, its surface showing the dry, matte texture of aged varnish that has yellowed slightly. The metal runners catch the cloudy daylight with sharp, silvery highlights that contrast against the deep shadows of the curved wood. Cracks in the paint reveal subtle underlayers, creating a rich patina that speaks to contemporary preservation.",
+                "size": "Large",
+                "state": "aged but well-maintained, dry wood with original paint",
+                "primary_colors": [
+                    "crimson red",
+                    "ochre"
+                ],
+                "material": "wood, metal"
+            },
+            {
+                "object_id": 48,
+                "name": "apple",
+                "artistic_description": "A single apple rendered in thick impasto strokes of warm coral red with deliberate dabs of sage green near the stem. The cloudy daylight creates a soft, diffused glow across its waxy surface, producing gentle highlights rather than harsh reflections. The skin appears smooth and dry, with visible brushwork suggesting the fruit's natural texture and subtle bruising from handling.",
+                "size": "Medium",
+                "state": "fresh, slightly weathered from handling",
+                "primary_colors": [
+                    "coral red",
+                    "sage green"
+                ],
+                "material": "fruit"
+            },
+            {
+                "object_id": 78,
+                "name": "doll",
+                "artistic_description": "A porcelain doll with a face painted in Post-Impressionist style using visible strokes of pale peach and dusty rose, its glazed surface catching the muted daylight with a soft, chalky sheen. The fabric clothing shows faded blues and creams, the textile worn and matte from decades of display. Glass eyes reflect the cloudy sky as small, bright points of cool light, while the overall form has a delicate, slightly yellowed patina of contemporary age.",
+                "size": "Small",
+                "state": "vintage, well-preserved with gentle wear",
+                "primary_colors": [
+                    "pale peach",
+                    "faded blue"
+                ],
+                "material": "porcelain, fabric, glass"
+            }
+        ]
+    },
+    "composition": {
+        "spatial_relations": [
+            [
+                48,
+                "next to",
+                78
+            ],
+            [
+                31,
+                "next to",
+                48
+            ],
+            [
+                22,
+                "next to",
+                31
+            ]
+        ],
+        "semantic_relations": []
+    },
+    "environment": {
+        "environment_details": {
+            "scene_brief": "A Museum Exhibit featuring bear, with sleigh, apple, and toy doll placed nearby",
+            "place365_name": "/m/museum/indoor",
+            "place365_id": 236,
+            "time_of_day": "afternoon",
+            "weather": "cloudy",
+            "period": "Contemporary",
+            "is_indoor": true,
+            "lighting": {
+                "type": "natural",
+                "quality": "soft",
+                "direction": "side-lit",
+                "mood": "warm",
+                "reasoning": "Side-lit natural light from museum windows or skylights would create gentle shadows and warm highlights on the three-dimensional objects. The soft quality from cloudy weather prevents harsh edges while maintaining color saturation, essential for Post-Impressionist style. This lighting emphasizes texture and form of the bear sculpture, sleigh, apple, and toy doll without overwhelming the composition."
+            },
+            "atmosphere": "bright and active and subdued and gentle"
+        },
+        "scene_inference": {
+            "all_candidates": [
+                {
+                    "scene_type": "Nordic Winter Forest",
+                    "plausibility": 0.95,
+                    "reasoning": "A bear wanders near a snowy clearing where a sleigh is parked. An apple sits on the sleigh's seat, and a doll is tucked inside as if a child just left it.",
+                    "object_interpretations": {
+                        "bear": {
+                            "form": "real animal",
+                            "scale": "normal",
+                            "role": "primary subject"
+                        },
+                        "sleigh": {
+                            "form": "real vehicle",
+                            "scale": "normal",
+                            "role": "transport object"
+                        },
+                        "apple": {
+                            "form": "real fruit",
+                            "scale": "normal",
+                            "role": "food item"
+                        },
+                        "doll": {
+                            "form": "toy",
+                            "scale": "normal",
+                            "role": "abandoned object"
+                        }
+                    }
+                },
+                {
+                    "scene_type": "Children's Playroom",
+                    "plausibility": 0.9,
+                    "reasoning": "A teddy bear sits on a rug next to a toy sleigh. A wooden apple is part of a play set, and a doll is propped up nearby.",
+                    "object_interpretations": {
+                        "bear": {
+                            "form": "stuffed toy",
+                            "scale": "normal",
+                            "role": "primary toy"
+                        },
+                        "sleigh": {
+                            "form": "toy model",
+                            "scale": "miniature",
+                            "role": "play object"
+                        },
+                        "apple": {
+                            "form": "wooden toy",
+                            "scale": "small",
+                            "role": "play accessory"
+                        },
+                        "doll": {
+                            "form": "toy",
+                            "scale": "normal",
+                            "role": "companion toy"
+                        }
+                    }
+                },
+                {
+                    "scene_type": "Vintage Christmas Market",
+                    "plausibility": 0.85,
+                    "reasoning": "A bear mascot stands near a vendor's sleigh filled with goods. Apples are displayed for sale, and a doll is offered as a toy.",
+                    "object_interpretations": {
+                        "bear": {
+                            "form": "costume/character",
+                            "scale": "large",
+                            "role": "mascot"
+                        },
+                        "sleigh": {
+                            "form": "real vehicle",
+                            "scale": "normal",
+                            "role": "vendor stall"
+                        },
+                        "apple": {
+                            "form": "real fruit",
+                            "scale": "normal",
+                            "role": "merchandise"
+                        },
+                        "doll": {
+                            "form": "toy",
+                            "scale": "normal",
+                            "role": "merchandise"
+                        }
+                    }
+                },
+                {
+                    "scene_type": "Art Studio",
+                    "plausibility": 0.8,
+                    "reasoning": "A painter's still life setup features a bear statue, a miniature sleigh model, a real apple, and a porcelain doll.",
+                    "object_interpretations": {
+                        "bear": {
+                            "form": "statue/sculpture",
+                            "scale": "medium",
+                            "role": "art subject"
+                        },
+                        "sleigh": {
+                            "form": "model",
+                            "scale": "small",
+                            "role": "prop"
+                        },
+                        "apple": {
+                            "form": "real fruit",
+                            "scale": "normal",
+                            "role": "prop"
+                        },
+                        "doll": {
+                            "form": "porcelain doll",
+                            "scale": "normal",
+                            "role": "prop"
+                        }
+                    }
+                },
+                {
+                    "scene_type": "Countryside Farm",
+                    "plausibility": 0.75,
+                    "reasoning": "A bear (perhaps a pet or farm animal) stands in a barn. A sleigh is stored in the corner, apples are in a crate, and a doll is left on a hay bale.",
+                    "object_interpretations": {
+                        "bear": {
+                            "form": "real animal",
+                            "scale": "normal",
+                            "role": "farm animal"
+                        },
+                        "sleigh": {
+                            "form": "real vehicle",
+                            "scale": "normal",
+                            "role": "storage item"
+                        },
+                        "apple": {
+                            "form": "real fruit",
+                            "scale": "normal",
+                            "role": "produce"
+                        },
+                        "doll": {
+                            "form": "toy",
+                            "scale": "normal",
+                            "role": "forgotten item"
+                        }
+                    }
+                },
+                {
+                    "scene_type": "Surreal Dreamscape",
+                    "plausibility": 0.7,
+                    "reasoning": "A giant bear floats in a sky filled with flying sleighs. Apples rain down like hail, and a doll sits on a cloud.",
+                    "object_interpretations": {
+                        "bear": {
+                            "form": "real animal",
+                            "scale": "giant",
+                            "role": "dream figure"
+                        },
+                        "sleigh": {
+                            "form": "flying vehicle",
+                            "scale": "normal",
+                            "role": "transport"
+                        },
+                        "apple": {
+                            "form": "real fruit",
+                            "scale": "normal",
+                            "role": "weather phenomenon"
+                        },
+                        "doll": {
+                            "form": "toy",
+                            "scale": "normal",
+                            "role": "dream character"
+                        }
+                    }
+                },
+                {
+                    "scene_type": "Museum Exhibit",
+                    "plausibility": 0.85,
+                    "reasoning": "A taxidermy bear stands in a diorama of a winter scene. A historic sleigh is displayed, with a preserved apple and a vintage doll in the background.",
+                    "object_interpretations": {
+                        "bear": {
+                            "form": "taxidermy",
+                            "scale": "normal",
+                            "role": "exhibit"
+                        },
+                        "sleigh": {
+                            "form": "real vehicle",
+                            "scale": "normal",
+                            "role": "exhibit"
+                        },
+                        "apple": {
+                            "form": "preserved artifact",
+                            "scale": "normal",
+                            "role": "exhibit item"
+                        },
+                        "doll": {
+                            "form": "antique toy",
+                            "scale": "normal",
+                            "role": "exhibit item"
+                        }
+                    },
+                    "scene_brief": "A Museum Exhibit featuring bear, with sleigh, apple, and toy doll placed nearby"
+                },
+                {
+                    "scene_type": "Storybook Illustration",
+                    "plausibility": 0.9,
+                    "reasoning": "A friendly bear character pulls a sleigh carrying a doll and an apple, traveling through a stylized forest.",
+                    "object_interpretations": {
+                        "bear": {
+                            "form": "cartoon character",
+                            "scale": "normal",
+                            "role": "protagonist"
+                        },
+                        "sleigh": {
+                            "form": "cartoon vehicle",
+                            "scale": "normal",
+                            "role": "transport"
+                        },
+                        "apple": {
+                            "form": "cartoon fruit",
+                            "scale": "normal",
+                            "role": "provisions"
+                        },
+                        "doll": {
+                            "form": "cartoon toy",
+                            "scale": "normal",
+                            "role": "passenger"
+                        }
+                    }
+                },
+                {
+                    "scene_type": "Gift Shop",
+                    "plausibility": 0.85,
+                    "reasoning": "Shelves are stocked with bear plushies, miniature sleigh ornaments, apple-scented candles, and dolls.",
+                    "object_interpretations": {
+                        "bear": {
+                            "form": "plush toy",
+                            "scale": "normal",
+                            "role": "product"
+                        },
+                        "sleigh": {
+                            "form": "ornament",
+                            "scale": "small",
+                            "role": "product"
+                        },
+                        "apple": {
+                            "form": "candle/soap",
+                            "scale": "small",
+                            "role": "product"
+                        },
+                        "doll": {
+                            "form": "toy",
+                            "scale": "normal",
+                            "role": "product"
+                        }
+                    }
+                },
+                {
+                    "scene_type": "Winter Picnic",
+                    "plausibility": 0.8,
+                    "reasoning": "A bear sits near a picnic blanket where a sleigh is used as a table. An apple and a doll are placed on the sleigh.",
+                    "object_interpretations": {
+                        "bear": {
+                            "form": "real animal",
+                            "scale": "normal",
+                            "role": "observer"
+                        },
+                        "sleigh": {
+                            "form": "real vehicle",
+                            "scale": "normal",
+                            "role": "furniture"
+                        },
+                        "apple": {
+                            "form": "real fruit",
+                            "scale": "normal",
+                            "role": "food"
+                        },
+                        "doll": {
+                            "form": "toy",
+                            "scale": "normal",
+                            "role": "companion"
+                        }
+                    }
+                }
+            ],
+            "selected_scene": {
+                "scene_type": "Museum Exhibit",
+                "plausibility": 0.85,
+                "reasoning": "A taxidermy bear stands in a diorama of a winter scene. A historic sleigh is displayed, with a preserved apple and a vintage doll in the background.",
+                "object_interpretations": {
+                    "bear": {
+                        "form": "taxidermy",
+                        "scale": "normal",
+                        "role": "exhibit"
+                    },
+                    "sleigh": {
+                        "form": "real vehicle",
+                        "scale": "normal",
+                        "role": "exhibit"
+                    },
+                    "apple": {
+                        "form": "preserved artifact",
+                        "scale": "normal",
+                        "role": "exhibit item"
+                    },
+                    "doll": {
+                        "form": "antique toy",
+                        "scale": "normal",
+                        "role": "exhibit item"
+                    }
+                },
+                "scene_brief": "A Museum Exhibit featuring bear, with sleigh, apple, and toy doll placed nearby"
+            }
+        }
+    },
+    "final_prompts": {
+        "main_prompt": "A Post-Impressionism painting depicting a bright and active yet subdued and gentle afternoon scene. In the foreground, a large preserved taxidermy bear in deep umber and cool gray-blue fur stands beside a large aged but well-maintained sleigh painted in crimson red and ochre. Next to the sleigh, a medium-sized fresh apple in coral red with sage green leaves rests beside a small vintage doll with pale peach porcelain and faded blue fabric. The natural soft afternoon light filters through the scene, creating a warm, gentle atmosphere with visible brushstrokes and vibrant, expressive color fields that capture the quiet activity of the arrangement.",
+        "negative_prompt": "photorealistic, 3d render, modern, digital art, photograph, low quality, blurry, distorted, oversaturated, cartoon, anime, surreal, abstract, text, watermark, signature, frame",
+        "prompt_formats": {
+            "simple": "A Post-Impressionism painting of a bear, sleigh, apple, and doll arranged together on a gentle afternoon.",
+            "complex": "A Post-Impressionism painting depicting a bright and active yet subdued and gentle afternoon scene. In the foreground, a large preserved taxidermy bear in deep umber and cool gray-blue fur stands beside a large aged but well-maintained sleigh painted in crimson red and ochre. Next to the sleigh, a medium-sized fresh apple in coral red with sage green leaves rests beside a small vintage doll with pale peach porcelain and faded blue fabric. The natural soft afternoon light filters through the scene, creating a warm, gentle atmosphere with visible brushstrokes and vibrant, expressive color fields that capture the quiet activity of the arrangement.",
+            "comma_separated": "Post-Impressionism painting, large taxidermy bear in deep umber and gray-blue, large crimson red and ochre sleigh, medium coral red apple with sage green leaves, small vintage doll in pale peach and faded blue, arranged sequentially, natural soft afternoon lighting, bright active subdued gentle atmosphere, expressive brushstrokes, vibrant color fields",
+            "tags": "art, painting, post-impressionism, still life, taxidermy, vintage, afternoon light, expressive brushwork, color field, composition, bear, sleigh, apple, doll, traditional art"
+        }
+    }
+}

@@ -1,0 +1,323 @@
+{
+    "artwork_id": "artwork_20260103_040601_112",
+    "generation_timestamp": "2026-01-03T04:06:41.276338",
+    "style": "Post-Impressionism",
+    "objects": {
+        "object_ids": [
+            31,
+            48,
+            22,
+            35
+        ],
+        "object_names": [
+            "sleigh",
+            "apple",
+            "bear",
+            "stick"
+        ],
+        "enhanced_objects": [
+            {
+                "object_id": 31,
+                "name": "sleigh",
+                "artistic_description": "A vintage wooden sleigh glows with warm amber tones under the mixed indoor lighting, its curved runners polished to a soft sheen that catches golden highlights from nearby market lanterns. The weathered red paint shows through patches of worn varnish, creating rich burgundy shadows in the dim evening light. Snowflakes have settled delicately along the curved edges, melting slightly to create subtle reflective patches that mirror the warm indoor glow.",
+                "size": "Large",
+                "state": "weathered vintage condition with traces of snow accumulation",
+                "primary_colors": [
+                    "warm amber",
+                    "burgundy"
+                ],
+                "material": "wood"
+            },
+            {
+                "object_id": 48,
+                "name": "apple",
+                "artistic_description": "A single apple rests with luminous presence, its skin absorbing the cool blue-gray tones from the snowy evening visible through windows while reflecting warm golden highlights from indoor lighting. The surface shows a delicate waxy sheen with tiny condensation droplets that catch light like miniature prisms. Deep crimson skin shows subtle violet undertones in the shadowed areas, while the stem remains a muted brown against the vibrant fruit.",
+                "size": "Small",
+                "state": "fresh and dewy with atmospheric moisture",
+                "primary_colors": [
+                    "crimson",
+                    "violet"
+                ],
+                "material": ""
+            },
+            {
+                "object_id": 22,
+                "name": "bear",
+                "artistic_description": "A plush toy bear appears softly illuminated, its brown fur absorbing the warm indoor light while showing cool gray-blue shadows from the evening atmosphere filtering through nearby windows. The fabric has a gentle matte texture that diffuses light evenly, creating velvety shadows in the folds. Small patches of fur catch golden highlights where the mixed lighting strikes most directly, while the overall form maintains a cozy, muted warmth against the serene backdrop.",
+                "size": "Medium",
+                "state": "soft and gently worn from loving use",
+                "primary_colors": [
+                    "warm brown",
+                    "cool gray"
+                ],
+                "material": "fabric"
+            },
+            {
+                "object_id": 35,
+                "name": "stick",
+                "artistic_description": "A decorative stick displays natural wood grain rendered in Post-Impressionist brushstrokes, alternating between warm ochre and cool sienna tones as it catches both the golden indoor lamplight and the blue-tinged evening glow. The surface shows a matte finish with subtle textural variations where the wood grain creates rhythmic patterns of light and shadow. Small flecks of metallic paint applied as decoration sparkle faintly, adding points of bright contrast against the organic earth tones.",
+                "size": "Marginal",
+                "state": "dry and smooth with decorative metallic accents",
+                "primary_colors": [
+                    "ochre",
+                    "sienna"
+                ],
+                "material": "wood"
+            }
+        ]
+    },
+    "composition": {
+        "spatial_relations": [
+            [
+                48,
+                "next to",
+                22
+            ],
+            [
+                22,
+                "next to",
+                48
+            ],
+            [
+                48,
+                "inside",
+                31
+            ],
+            [
+                22,
+                "inside",
+                31
+            ],
+            [
+                35,
+                "inside",
+                31
+            ]
+        ],
+        "semantic_relations": []
+    },
+    "environment": {
+        "environment_details": {
+            "scene_brief": "A Vintage Christmas Market featuring sleigh, with apple, toy bear placed nearby, and decorative stick as decoration",
+            "place365_name": "/m/market",
+            "place365_id": 21,
+            "time_of_day": "evening",
+            "weather": "snowy",
+            "period": "Modern",
+            "is_indoor": true,
+            "lighting": {
+                "type": "mixed",
+                "quality": "soft",
+                "direction": "front-lit",
+                "mood": "warm",
+                "reasoning": "In an evening market, the lighting is naturally 'mixed' (ambient twilight and artificial lights from stalls). The quality is 'soft' due to snow diffusing light and the glow of lamps. A 'front-lit' or 'side-lit' approach highlights the objects (sleigh, bear) and the falling snow, while a 'warm' mood evokes the cozy, festive feeling of the holiday."
+            },
+            "atmosphere": "calm and relaxed and serene and gentle"
+        },
+        "scene_inference": {
+            "all_candidates": [
+                {
+                    "scene_type": "Winter Forest Clearing",
+                    "plausibility": 0.95,
+                    "reasoning": "A sleigh is a winter vehicle, naturally placed in a snowy forest. The bear can be a wild animal nearby, the stick is a fallen branch on the ground, and the apple could be a forgotten fruit from autumn or a treat left for wildlife.",
+                    "object_interpretations": {
+                        "sleigh": {
+                            "form": "real wooden sleigh",
+                            "scale": "normal",
+                            "role": "primary winter transport"
+                        },
+                        "bear": {
+                            "form": "real wild animal",
+                            "scale": "normal",
+                            "role": "forest inhabitant"
+                        },
+                        "stick": {
+                            "form": "fallen branch",
+                            "scale": "normal",
+                            "role": "natural debris"
+                        },
+                        "apple": {
+                            "form": "real fruit",
+                            "scale": "normal",
+                            "role": "wildlife food source"
+                        }
+                    }
+                },
+                {
+                    "scene_type": "Children's Playroom",
+                    "plausibility": 0.9,
+                    "reasoning": "The sleigh can be a toy or model, central to imaginative play. The bear is a stuffed animal, the stick is a toy building block or wand, and the apple is a toy fruit or part of a play kitchen set.",
+                    "object_interpretations": {
+                        "sleigh": {
+                            "form": "toy model",
+                            "scale": "miniature",
+                            "role": "play vehicle"
+                        },
+                        "bear": {
+                            "form": "stuffed toy",
+                            "scale": "miniature",
+                            "role": "play companion"
+                        },
+                        "stick": {
+                            "form": "toy block",
+                            "scale": "miniature",
+                            "role": "building element"
+                        },
+                        "apple": {
+                            "form": "toy fruit",
+                            "scale": "miniature",
+                            "role": "play food"
+                        }
+                    }
+                },
+                {
+                    "scene_type": "Art Studio",
+                    "plausibility": 0.85,
+                    "reasoning": "The sleigh could be a small model or a subject of a painting. The bear is a taxidermy piece or figurine, the stick is a paintbrush handle or charcoal stick, and the apple is a still-life subject.",
+                    "object_interpretations": {
+                        "sleigh": {
+                            "form": "model or painting subject",
+                            "scale": "variable",
+                            "role": "artistic subject"
+                        },
+                        "bear": {
+                            "form": "taxidermy or figurine",
+                            "scale": "small",
+                            "role": "studio prop"
+                        },
+                        "stick": {
+                            "form": "paintbrush or charcoal",
+                            "scale": "small",
+                            "role": "art tool"
+                        },
+                        "apple": {
+                            "form": "still-life fruit",
+                            "scale": "normal",
+                            "role": "artistic subject"
+                        }
+                    }
+                },
+                {
+                    "scene_type": "Vintage Christmas Market",
+                    "plausibility": 0.9,
+                    "reasoning": "A sleigh is a festive attraction. The bear can be a costumed mascot or a plush toy for sale, the stick is part of a stall decoration or a cinnamon stick, and the apple is a candied treat or decoration.",
+                    "object_interpretations": {
+                        "sleigh": {
+                            "form": "decorative vehicle",
+                            "scale": "normal",
+                            "role": "festive attraction"
+                        },
+                        "bear": {
+                            "form": "costume or plush toy",
+                            "scale": "normal",
+                            "role": "mascot or merchandise"
+                        },
+                        "stick": {
+                            "form": "decoration or cinnamon stick",
+                            "scale": "normal",
+                            "role": "stall element"
+                        },
+                        "apple": {
+                            "form": "candied treat",
+                            "scale": "normal",
+                            "role": "festive food"
+                        }
+                    },
+                    "scene_brief": "A Vintage Christmas Market featuring sleigh, with apple, toy bear placed nearby, and decorative stick as decoration"
+                },
+                {
+                    "scene_type": "Countryside Farmyard",
+                    "plausibility": 0.8,
+                    "reasoning": "The sleigh is stored in a barn or used for winter chores. The bear could be a taxidermy trophy or a scarecrow element, the stick is firewood or a fence post, and the apple is fallen fruit from an orchard.",
+                    "object_interpretations": {
+                        "sleigh": {
+                            "form": "weathered vehicle",
+                            "scale": "normal",
+                            "role": "farm equipment"
+                        },
+                        "bear": {
+                            "form": "taxidermy or figurine",
+                            "scale": "normal",
+                            "role": "decoration or prop"
+                        },
+                        "stick": {
+                            "form": "firewood",
+                            "scale": "normal",
+                            "role": "fuel source"
+                        },
+                        "apple": {
+                            "form": "fallen fruit",
+                            "scale": "normal",
+                            "role": "orchard produce"
+                        }
+                    }
+                },
+                {
+                    "scene_type": "Surreal Dreamscape",
+                    "plausibility": 0.7,
+                    "reasoning": "In a Post-Impressionist style, reality is distorted. The sleigh floats in a snowy sky, the bear is a shadowy figure, the stick is a geometric line, and the apple is a vibrant color blob.",
+                    "object_interpretations": {
+                        "sleigh": {
+                            "form": "abstract shape",
+                            "scale": "variable",
+                            "role": "dream vehicle"
+                        },
+                        "bear": {
+                            "form": "silhouette",
+                            "scale": "variable",
+                            "role": "mysterious presence"
+                        },
+                        "stick": {
+                            "form": "linear element",
+                            "scale": "variable",
+                            "role": "structural line"
+                        },
+                        "apple": {
+                            "form": "color accent",
+                            "scale": "variable",
+                            "role": "visual focal point"
+                        }
+                    }
+                }
+            ],
+            "selected_scene": {
+                "scene_type": "Vintage Christmas Market",
+                "plausibility": 0.9,
+                "reasoning": "A sleigh is a festive attraction. The bear can be a costumed mascot or a plush toy for sale, the stick is part of a stall decoration or a cinnamon stick, and the apple is a candied treat or decoration.",
+                "object_interpretations": {
+                    "sleigh": {
+                        "form": "decorative vehicle",
+                        "scale": "normal",
+                        "role": "festive attraction"
+                    },
+                    "bear": {
+                        "form": "costume or plush toy",
+                        "scale": "normal",
+                        "role": "mascot or merchandise"
+                    },
+                    "stick": {
+                        "form": "decoration or cinnamon stick",
+                        "scale": "normal",
+                        "role": "stall element"
+                    },
+                    "apple": {
+                        "form": "candied treat",
+                        "scale": "normal",
+                        "role": "festive food"
+                    }
+                },
+                "scene_brief": "A Vintage Christmas Market featuring sleigh, with apple, toy bear placed nearby, and decorative stick as decoration"
+            }
+        }
+    },
+    "final_prompts": {
+        "main_prompt": "A Post-Impressionism painting depicting a serene evening scene where a large, weathered vintage sleigh in warm amber and burgundy hues rests in the foreground, its worn wooden surface catching the soft mixed lighting. Inside the sleigh's fabric-lined interior, a medium-sized bear with soft, gently worn fur in warm brown and cool gray tones sits peacefully beside a small, fresh dewy apple in crimson and violet shades, both objects nestled together within the sleigh. A marginal dry ochre and sienna stick with decorative metallic accents lies beside them inside the sleigh, completing the intimate grouping. The overall composition uses bold, expressive brushstrokes and vibrant color contrasts characteristic of Post-Impressionism, with the calm, relaxed atmosphere enhanced by gentle evening light filtering through a tranquil background of abstracted trees and soft shadows, creating a serene and gentle mood.",
+        "negative_prompt": "photorealistic, 3d render, modern, digital art, photograph, low quality, blurry, distorted, cartoon, anime, surreal, abstract, text, watermark, signature, frame, border, ugly, deformed, noisy",
+        "prompt_formats": {
+            "simple": "A Post-Impressionism painting of a sleigh containing a bear, apple, and stick in a calm evening setting.",
+            "complex": "A Post-Impressionism painting depicting a serene evening scene where a large, weathered vintage sleigh in warm amber and burgundy hues rests in the foreground, its worn wooden surface catching the soft mixed lighting. Inside the sleigh's fabric-lined interior, a medium-sized bear with soft, gently worn fur in warm brown and cool gray tones sits peacefully beside a small, fresh dewy apple in crimson and violet shades, both objects nestled together within the sleigh. A marginal dry ochre and sienna stick with decorative metallic accents lies beside them inside the sleigh, completing the intimate grouping. The overall composition uses bold, expressive brushstrokes and vibrant color contrasts characteristic of Post-Impressionism, with the calm, relaxed atmosphere enhanced by gentle evening light filtering through a tranquil background of abstracted trees and soft shadows, creating a serene and gentle mood.",
+            "comma_separated": "Post-Impressionism painting, large weathered sleigh amber burgundy, medium bear brown gray, small apple crimson violet, marginal stick ochre sienna, inside sleigh, beside each other, evening lighting, soft mixed light, calm serene gentle atmosphere, expressive brushstrokes, vibrant colors, tranquil background",
+            "tags": "art, painting, post-impressionism, Vincent van Gogh style, Paul Gauguin style, expressive brushwork, color theory, still life, interior scene, evening, calm atmosphere, vintage sleigh, teddy bear, apple, stick, wooden texture, fabric texture"
+        }
+    }
+}

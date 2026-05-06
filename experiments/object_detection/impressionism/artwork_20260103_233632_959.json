@@ -1,0 +1,382 @@
+{
+    "artwork_id": "artwork_20260103_233632_959",
+    "generation_timestamp": "2026-01-03T23:37:01.902892",
+    "style": "Impressionism",
+    "objects": {
+        "object_ids": [
+            27,
+            59,
+            49,
+            25
+        ],
+        "object_names": [
+            "handbag",
+            "ivy",
+            "bread",
+            "sack"
+        ],
+        "enhanced_objects": [
+            {
+                "object_id": 27,
+                "name": "handbag",
+                "artistic_description": "Soft leather surface catches dappled afternoon sunlight, creating gentle highlights of warm amber and honey tones across its textured grain. The material shows subtle variations of cream and pale gold where light directly strikes, while shadowed areas reveal cooler undertones of soft taupe. Delicate brushstroke-like creases form natural patterns, suggesting gentle use. Metal hardware glints with bright, warm reflections, appearing as quick dabs of pale yellow-white against the supple, matte leather surface.",
+                "size": "Medium",
+                "state": "well-used contemporary accessory with softened edges and natural patina",
+                "primary_colors": [
+                    "warm amber",
+                    "cream"
+                ],
+                "material": "leather"
+            },
+            {
+                "object_id": 59,
+                "name": "ivy",
+                "artistic_description": "Vibrant foliage rendered in quick, lively strokes of emerald and lime green where sunlight filters through the leaves. The upper surfaces shimmer with bright, warm highlights of yellow-green, while the undersides show cooler, deeper shades of forest and sage. Individual leaves catch the light as small dabs of luminous color, creating a sense of movement and airiness. Delicate tendrils appear as soft, broken lines of dark green against the bright foliage, with occasional touches of pale shadow where leaves overlap.",
+                "size": "Large",
+                "state": "lush, healthy growth with dew-kissed leaves sparkling in the bright sunshine",
+                "primary_colors": [
+                    "emerald green",
+                    "lime green"
+                ],
+                "material": ""
+            },
+            {
+                "object_id": 49,
+                "name": "bread",
+                "artistic_description": "Golden-brown crust glows with warm, buttery tones where afternoon sun directly illuminates the loaf, appearing as thick, textured strokes of ochre and burnt sienna. The crumbly interior shows softer shades of pale wheat and cream in the cut edges, with delicate shadows creating depth. Small, irregular highlights dot the crust as quick touches of bright gold. The surface appears dry and matte, absorbing and reflecting light in a gentle, natural way that emphasizes its rustic, homemade quality.",
+                "size": "Medium",
+                "state": "freshly baked with a crisp, golden crust and soft interior",
+                "primary_colors": [
+                    "golden brown",
+                    "wheat"
+                ],
+                "material": ""
+            },
+            {
+                "object_id": 25,
+                "name": "sack",
+                "artistic_description": "Rough burlap texture creates a soft, matte surface that diffuses the bright afternoon light into gentle, muted tones of natural tan and pale beige. The coarse weave appears as broken, irregular strokes of warm brown and soft gray, with subtle shadows falling into the deep texture. Edges show slightly darker, cooler tones where the fabric folds. The material absorbs rather than reflects light, creating a humble, earthy appearance with occasional bright highlights where the coarse fibers catch direct sunlight.",
+                "size": "Large",
+                "state": "empty and loosely draped, showing natural wrinkles and folds",
+                "primary_colors": [
+                    "natural tan",
+                    "beige"
+                ],
+                "material": "burlap"
+            }
+        ]
+    },
+    "composition": {
+        "spatial_relations": [
+            [
+                27,
+                "next to",
+                49
+            ],
+            [
+                27,
+                "next to",
+                25
+            ],
+            [
+                49,
+                "next to",
+                25
+            ],
+            [
+                59,
+                "behind",
+                27
+            ],
+            [
+                59,
+                "behind",
+                49
+            ],
+            [
+                59,
+                "behind",
+                25
+            ]
+        ],
+        "semantic_relations": []
+    },
+    "environment": {
+        "environment_details": {
+            "scene_brief": "A Country Garden Picnic featuring handbag, with ivy, bread, and sack",
+            "place365_name": "/v/vegetable_garden",
+            "place365_id": 345,
+            "time_of_day": "afternoon",
+            "weather": "sunny",
+            "period": "Contemporary",
+            "is_indoor": false,
+            "lighting": {
+                "type": "natural",
+                "quality": "soft",
+                "direction": "side-lit",
+                "mood": "warm",
+                "reasoning": "In the afternoon, sunlight is rarely harsh directly overhead; it becomes softer and warmer. Side-lighting is excellent for revealing the textures of the bread, the roughness of the sack, and the leaves of the ivy, creating the visual interest central to Impressionism."
+            },
+            "atmosphere": "bright and active and cheerful and gentle"
+        },
+        "scene_inference": {
+            "all_candidates": [
+                {
+                    "scene_type": "Outdoor Market Stall",
+                    "plausibility": 0.95,
+                    "reasoning": "A bustling market scene fits the handbag as a shopping item, bread as a product for sale, sack as storage for goods, and ivy as part of the market's rustic, natural decor on a trellis or wall.",
+                    "object_interpretations": {
+                        "handbag": {
+                            "form": "real handbag",
+                            "scale": "normal",
+                            "role": "personal accessory being carried or set down"
+                        },
+                        "ivy": {
+                            "form": "real plant",
+                            "scale": "normal",
+                            "role": "natural decoration on market stall structure"
+                        },
+                        "bread": {
+                            "form": "real bread",
+                            "scale": "normal",
+                            "role": "product for sale on display"
+                        },
+                        "sack": {
+                            "form": "real sack",
+                            "scale": "normal",
+                            "role": "storage container for goods"
+                        }
+                    }
+                },
+                {
+                    "scene_type": "Country Garden Picnic",
+                    "plausibility": 0.9,
+                    "reasoning": "A relaxed outdoor setting where the handbag rests on a blanket, bread is part of the meal, a sack could hold picnic supplies or produce, and ivy grows wild in the background.",
+                    "object_interpretations": {
+                        "handbag": {
+                            "form": "real handbag",
+                            "scale": "normal",
+                            "role": "personal item on picnic blanket"
+                        },
+                        "ivy": {
+                            "form": "real plant",
+                            "scale": "normal",
+                            "role": "wild growing vine in garden"
+                        },
+                        "bread": {
+                            "form": "real bread",
+                            "scale": "normal",
+                            "role": "picnic food"
+                        },
+                        "sack": {
+                            "form": "real sack",
+                            "scale": "normal",
+                            "role": "container for picnic supplies or foraged items"
+                        }
+                    },
+                    "scene_brief": "A Country Garden Picnic featuring handbag, with ivy, bread, and sack"
+                },
+                {
+                    "scene_type": "Artisan Bakery Interior",
+                    "plausibility": 0.85,
+                    "reasoning": "The handbag belongs to a customer or baker, bread is the main product, a sack could be decorative storage for flour, and ivy could be a potted plant or printed pattern on packaging.",
+                    "object_interpretations": {
+                        "handbag": {
+                            "form": "real handbag",
+                            "scale": "normal",
+                            "role": "customer's accessory"
+                        },
+                        "ivy": {
+                            "form": "potted plant or pattern",
+                            "scale": "normal",
+                            "role": "decorative element"
+                        },
+                        "bread": {
+                            "form": "real bread",
+                            "scale": "normal",
+                            "role": "bakery product"
+                        },
+                        "sack": {
+                            "form": "real sack",
+                            "scale": "normal",
+                            "role": "decorative flour sack or storage"
+                        }
+                    }
+                },
+                {
+                    "scene_type": "Vintage Boutique",
+                    "plausibility": 0.8,
+                    "reasoning": "A shop setting where the handbag is for sale, bread could be a prop or real snack, a sack could be a decorative item, and ivy could be part of the shop's bohemian decor.",
+                    "object_interpretations": {
+                        "handbag": {
+                            "form": "real handbag",
+                            "scale": "normal",
+                            "role": "product for sale"
+                        },
+                        "ivy": {
+                            "form": "real plant",
+                            "scale": "normal",
+                            "role": "shop decor"
+                        },
+                        "bread": {
+                            "form": "real bread or prop",
+                            "scale": "normal",
+                            "role": "decorative prop or snack"
+                        },
+                        "sack": {
+                            "form": "real sack",
+                            "scale": "normal",
+                            "role": "decorative item or storage"
+                        }
+                    }
+                },
+                {
+                    "scene_type": "Rustic Farmhouse Kitchen",
+                    "plausibility": 0.85,
+                    "reasoning": "A cozy kitchen where a handbag hangs on a hook, bread sits on the counter, a sack holds potatoes or onions, and ivy grows outside the window.",
+                    "object_interpretations": {
+                        "handbag": {
+                            "form": "real handbag",
+                            "scale": "normal",
+                            "role": "hanging storage for keys/wallet"
+                        },
+                        "ivy": {
+                            "form": "real plant",
+                            "scale": "normal",
+                            "role": "view through window or potted plant"
+                        },
+                        "bread": {
+                            "form": "real bread",
+                            "scale": "normal",
+                            "role": "food on counter"
+                        },
+                        "sack": {
+                            "form": "real sack",
+                            "scale": "normal",
+                            "role": "storage for produce"
+                        }
+                    }
+                },
+                {
+                    "scene_type": "Botanical Garden Cafe",
+                    "plausibility": 0.8,
+                    "reasoning": "A cafe setting with lush greenery where the handbag is on a chair, bread is a menu item, a sack could be decorative, and ivy is abundant in the garden setting.",
+                    "object_interpretations": {
+                        "handbag": {
+                            "form": "real handbag",
+                            "scale": "normal",
+                            "role": "customer's belongings"
+                        },
+                        "ivy": {
+                            "form": "real plant",
+                            "scale": "normal",
+                            "role": "garden vegetation"
+                        },
+                        "bread": {
+                            "form": "real bread",
+                            "scale": "normal",
+                            "role": "cafe food"
+                        },
+                        "sack": {
+                            "form": "real sack",
+                            "scale": "normal",
+                            "role": "decorative element"
+                        }
+                    }
+                },
+                {
+                    "scene_type": "Harvest Festival",
+                    "plausibility": 0.9,
+                    "reasoning": "A festival scene where the handbag is carried by an attendee, bread is a festival food, a sack holds harvested goods, and ivy is part of the decorations.",
+                    "object_interpretations": {
+                        "handbag": {
+                            "form": "real handbag",
+                            "scale": "normal",
+                            "role": "personal accessory"
+                        },
+                        "ivy": {
+                            "form": "real plant",
+                            "scale": "normal",
+                            "role": "festival decoration"
+                        },
+                        "bread": {
+                            "form": "real bread",
+                            "scale": "normal",
+                            "role": "festival food"
+                        },
+                        "sack": {
+                            "form": "real sack",
+                            "scale": "normal",
+                            "role": "harvest container"
+                        }
+                    }
+                },
+                {
+                    "scene_type": "Art Studio Still Life",
+                    "plausibility": 0.75,
+                    "reasoning": "An impressionist painting setup where the handbag, bread, sack, and ivy are arranged as a still life composition on a table.",
+                    "object_interpretations": {
+                        "handbag": {
+                            "form": "real handbag",
+                            "scale": "normal",
+                            "role": "still life subject"
+                        },
+                        "ivy": {
+                            "form": "real plant",
+                            "scale": "normal",
+                            "role": "decorative element in composition"
+                        },
+                        "bread": {
+                            "form": "real bread",
+                            "scale": "normal",
+                            "role": "still life subject"
+                        },
+                        "sack": {
+                            "form": "real sack",
+                            "scale": "normal",
+                            "role": "textural element in composition"
+                        }
+                    }
+                }
+            ],
+            "selected_scene": {
+                "scene_type": "Country Garden Picnic",
+                "plausibility": 0.9,
+                "reasoning": "A relaxed outdoor setting where the handbag rests on a blanket, bread is part of the meal, a sack could hold picnic supplies or produce, and ivy grows wild in the background.",
+                "object_interpretations": {
+                    "handbag": {
+                        "form": "real handbag",
+                        "scale": "normal",
+                        "role": "personal item on picnic blanket"
+                    },
+                    "ivy": {
+                        "form": "real plant",
+                        "scale": "normal",
+                        "role": "wild growing vine in garden"
+                    },
+                    "bread": {
+                        "form": "real bread",
+                        "scale": "normal",
+                        "role": "picnic food"
+                    },
+                    "sack": {
+                        "form": "real sack",
+                        "scale": "normal",
+                        "role": "container for picnic supplies or foraged items"
+                    }
+                },
+                "scene_brief": "A Country Garden Picnic featuring handbag, with ivy, bread, and sack"
+            }
+        }
+    },
+    "final_prompts": {
+        "main_prompt": "A Impressionism painting depicting a bright and active afternoon scene with a cheerful, gentle atmosphere. In the foreground, a medium-sized, well-used contemporary handbag in warm amber and cream leather sits beside a medium-sized loaf of freshly baked bread with a crisp, golden-brown crust, and next to a large, empty sack in natural tan and beige burlap, loosely draped. Directly behind this grouping, lush, large ivy in vibrant emerald and lime green cascades over a stone wall, framing the arrangement. Soft, natural afternoon light filters through the foliage, casting dappled shadows and creating a lively interplay of color and texture, with visible brushstrokes capturing the movement of light and the tactile qualities of leather, bread crust, burlap, and glossy ivy leaves in a harmonious, joyful composition.",
+        "negative_prompt": "photorealistic, 3d render, modern, digital art, photograph, low quality, blurry, distorted, ugly, deformed, cartoon, anime, text, watermark, signature, frame, border, dark, gloomy, surreal, abstract",
+        "prompt_formats": {
+            "simple": "An Impressionist painting of a handbag, bread, and sack arranged together in front of lush ivy on a bright, cheerful afternoon.",
+            "complex": "A Impressionism painting depicting a bright and active afternoon scene with a cheerful, gentle atmosphere. In the foreground, a medium-sized, well-used contemporary handbag in warm amber and cream leather sits beside a medium-sized loaf of freshly baked bread with a crisp, golden-brown crust, and next to a large, empty sack in natural tan and beige burlap, loosely draped. Directly behind this grouping, lush, large ivy in vibrant emerald and lime green cascades over a stone wall, framing the arrangement. Soft, natural afternoon light filters through the foliage, casting dappled shadows and creating a lively interplay of color and texture, with visible brushstrokes capturing the movement of light and the tactile qualities of leather, bread crust, burlap, and glossy ivy leaves in a harmonious, joyful composition.",
+            "comma_separated": "Impressionism painting, handbag, bread, sack, ivy, foreground arrangement, handbag next to bread and sack, ivy behind, soft natural afternoon lighting, bright cheerful gentle atmosphere, warm amber cream leather, golden brown wheat bread, natural tan beige burlap sack, emerald green lime green ivy, dappled light, visible brushstrokes, textured, vibrant, lively",
+            "tags": "art, painting, impressionism, still life, outdoor, afternoon, natural light, cheerful, handbag, bread, sack, ivy, leather, burlap, foliage, Claude Monet style, Pierre-Auguste Renoir style, light and color"
+        }
+    }
+}

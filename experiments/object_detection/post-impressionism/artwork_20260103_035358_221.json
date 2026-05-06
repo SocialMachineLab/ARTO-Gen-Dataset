@@ -1,0 +1,303 @@
+{
+    "artwork_id": "artwork_20260103_035358_221",
+    "generation_timestamp": "2026-01-03T03:54:29.197677",
+    "style": "Post-Impressionism",
+    "objects": {
+        "object_ids": [
+            20,
+            58,
+            50
+        ],
+        "object_names": [
+            "cow",
+            "blanket",
+            "lemon"
+        ],
+        "enhanced_objects": [
+            {
+                "object_id": 20,
+                "name": "cow",
+                "artistic_description": "A robust dairy cow with a coat of warm cream and brown patches that glow with golden afternoon light streaming through barn windows. Sunlight catches the fine hairs on her hide, creating a soft halo effect around her form. Her dark eyes reflect specks of amber light, and her muzzle shows subtle pinkish tones warmed by the interior glow. The natural light emphasizes the gentle curve of her flank with strong, painterly shadows.",
+                "size": "Large",
+                "state": "alert and calm, standing in bright natural light",
+                "primary_colors": [
+                    "warm cream",
+                    "golden brown"
+                ],
+                "material": "living hide and hair"
+            },
+            {
+                "object_id": 58,
+                "name": "blanket",
+                "artistic_description": "A thick woolen blanket draped with vibrant red and ochre stripes that intensify in the afternoon sun. The fabric shows a matte, slightly napped texture where light catches the raised fibers, creating small highlights. Deep folds cast rich violet shadows, while the saturated colors appear almost jewel-like against the barn's weathered wood. The wool absorbs and diffuses the bright light, giving it a soft, warm glow.",
+                "size": "Medium",
+                "state": "freshly laid, dry and clean",
+                "primary_colors": [
+                    "deep crimson",
+                    "warm ochre"
+                ],
+                "material": "wool"
+            },
+            {
+                "object_id": 50,
+                "name": "lemon",
+                "artistic_description": "A single lemon resting with intensely saturated yellow skin that radiates like captured sunlight. The surface shows a subtle waxy sheen with tiny reflective points where direct sun hits the curved peel. Small greenish undertones appear near the stem, while the opposite side deepens to a warm amber where shadows fall. The fruit's texture appears smooth and slightly dimpled, with the bright light making it appear almost luminous against darker surfaces.",
+                "size": "Small",
+                "state": "fresh and firm, recently picked",
+                "primary_colors": [
+                    "vibrant yellow",
+                    "pale green"
+                ],
+                "material": "citrus fruit"
+            }
+        ]
+    },
+    "composition": {
+        "spatial_relations": [
+            [
+                58,
+                "on",
+                20
+            ],
+            [
+                50,
+                "next to",
+                20
+            ]
+        ],
+        "semantic_relations": []
+    },
+    "environment": {
+        "environment_details": {
+            "scene_brief": "A rural barn interior centered around cow, with blanket, and lemon",
+            "place365_name": "/p/pub/indoor",
+            "place365_id": 274,
+            "time_of_day": "afternoon",
+            "weather": "sunny",
+            "period": "Contemporary",
+            "is_indoor": true,
+            "lighting": {
+                "type": "natural",
+                "quality": "harsh",
+                "direction": "side-lit",
+                "mood": "warm",
+                "reasoning": "Combining the 'afternoon' time and 'sunny' weather results in strong, natural light. A 'side-lit' direction (from open doors/windows) creates dramatic shadows and depth, fitting the 'harsh' quality needed to define the geometric shapes often seen in Post-Impressionism. The 'warm' mood aligns with the rustic setting and the time of day."
+            },
+            "atmosphere": "bright and active and cheerful"
+        },
+        "scene_inference": {
+            "all_candidates": [
+                {
+                    "scene_type": "rural barn interior",
+                    "plausibility": 0.95,
+                    "reasoning": "A cow is in its natural barn habitat. A blanket could be a horse blanket on the cow's back for warmth, or a worker's blanket in the hay. A lemon could be on a nearby crate or windowsill as a farmer's snack or cleaning supply, adding a bright color accent typical of Post-Impressionism.",
+                    "object_interpretations": {
+                        "cow": {
+                            "form": "real animal",
+                            "scale": "normal",
+                            "role": "primary subject"
+                        },
+                        "blanket": {
+                            "form": "real textile",
+                            "scale": "normal",
+                            "role": "functional covering or decor"
+                        },
+                        "lemon": {
+                            "form": "real fruit",
+                            "scale": "normal",
+                            "role": "colorful accent object"
+                        }
+                    },
+                    "scene_brief": "A rural barn interior centered around cow, with blanket, and lemon"
+                },
+                {
+                    "scene_type": "farmhouse kitchen",
+                    "plausibility": 0.9,
+                    "reasoning": "The cow could be visible through the window in the pasture. A blanket might be draped over a chair. A lemon sits in a fruit bowl on the table, creating a domestic scene with the cow as an external element, framed by the window.",
+                    "object_interpretations": {
+                        "cow": {
+                            "form": "real animal",
+                            "scale": "normal",
+                            "role": "external landscape element"
+                        },
+                        "blanket": {
+                            "form": "real textile",
+                            "scale": "normal",
+                            "role": "domestic decor"
+                        },
+                        "lemon": {
+                            "form": "real fruit",
+                            "scale": "normal",
+                            "role": "kitchen still life object"
+                        }
+                    }
+                },
+                {
+                    "scene_type": "pastoral meadow",
+                    "plausibility": 0.85,
+                    "reasoning": "The cow grazes in a field. A blanket is spread on the grass for a picnic, with a lemon placed on it as part of a simple meal. This fits the Post-Impressionist love for rural, light-filled outdoor scenes.",
+                    "object_interpretations": {
+                        "cow": {
+                            "form": "real animal",
+                            "scale": "normal",
+                            "role": "primary subject in landscape"
+                        },
+                        "blanket": {
+                            "form": "real textile",
+                            "scale": "normal",
+                            "role": "picnic accessory"
+                        },
+                        "lemon": {
+                            "form": "real fruit",
+                            "scale": "normal",
+                            "role": "food item"
+                        }
+                    }
+                },
+                {
+                    "scene_type": "vintage country shop",
+                    "plausibility": 0.8,
+                    "reasoning": "A ceramic or plush cow figurine sits on a counter. A folded blanket is on a shelf as merchandise. A real lemon is in a basket with other produce, creating a quaint shop interior.",
+                    "object_interpretations": {
+                        "cow": {
+                            "form": "figurine/toy",
+                            "scale": "small",
+                            "role": "decorative item"
+                        },
+                        "blanket": {
+                            "form": "real textile",
+                            "scale": "normal",
+                            "role": "product for sale"
+                        },
+                        "lemon": {
+                            "form": "real fruit",
+                            "scale": "normal",
+                            "role": "merchandise"
+                        }
+                    }
+                },
+                {
+                    "scene_type": "art studio",
+                    "plausibility": 0.75,
+                    "reasoning": "A cow is the subject of a painting on an easel. A blanket is draped over a stool for texture. A lemon is part of a still life arrangement on a table, blending the real and the artistic.",
+                    "object_interpretations": {
+                        "cow": {
+                            "form": "image in painting",
+                            "scale": "variable",
+                            "role": "artistic subject"
+                        },
+                        "blanket": {
+                            "form": "real textile",
+                            "scale": "normal",
+                            "role": "studio prop"
+                        },
+                        "lemon": {
+                            "form": "real fruit",
+                            "scale": "normal",
+                            "role": "still life object"
+                        }
+                    }
+                },
+                {
+                    "scene_type": "dairy processing room",
+                    "plausibility": 0.85,
+                    "reasoning": "A cow is present (perhaps a dairy cow). A blanket might be for insulation on equipment or a worker's coat. Lemons could be used for cleaning surfaces or as a garnish for cheese platters, appearing on a table.",
+                    "object_interpretations": {
+                        "cow": {
+                            "form": "real animal",
+                            "scale": "normal",
+                            "role": "production source"
+                        },
+                        "blanket": {
+                            "form": "real textile",
+                            "scale": "normal",
+                            "role": "utility item"
+                        },
+                        "lemon": {
+                            "form": "real fruit",
+                            "scale": "normal",
+                            "role": "utility/cleaning item"
+                        }
+                    }
+                },
+                {
+                    "scene_type": "surreal dream landscape",
+                    "plausibility": 0.7,
+                    "reasoning": "In a Post-Impressionist/Surreal twist, a cow floats in a sky with clouds. A giant blanket serves as a cloud or ground. A lemon is the sun or moon in the sky. This uses the art style to justify impossible physics.",
+                    "object_interpretations": {
+                        "cow": {
+                            "form": "real animal",
+                            "scale": "giant",
+                            "role": "dream subject"
+                        },
+                        "blanket": {
+                            "form": "textile/cloud",
+                            "scale": "giant",
+                            "role": "landscape element"
+                        },
+                        "lemon": {
+                            "form": "fruit/cosmic body",
+                            "scale": "giant",
+                            "role": "light source"
+                        }
+                    }
+                },
+                {
+                    "scene_type": "winter stable",
+                    "plausibility": 0.9,
+                    "reasoning": "A cow stands in a stable. A thick blanket is wrapped around it for warmth. A lemon sits on a wooden beam, perhaps brought in by a worker, providing a stark yellow contrast to the winter scene.",
+                    "object_interpretations": {
+                        "cow": {
+                            "form": "real animal",
+                            "scale": "normal",
+                            "role": "primary subject"
+                        },
+                        "blanket": {
+                            "form": "real textile",
+                            "scale": "normal",
+                            "role": "protective gear"
+                        },
+                        "lemon": {
+                            "form": "real fruit",
+                            "scale": "normal",
+                            "role": "color accent"
+                        }
+                    }
+                }
+            ],
+            "selected_scene": {
+                "scene_type": "rural barn interior",
+                "plausibility": 0.95,
+                "reasoning": "A cow is in its natural barn habitat. A blanket could be a horse blanket on the cow's back for warmth, or a worker's blanket in the hay. A lemon could be on a nearby crate or windowsill as a farmer's snack or cleaning supply, adding a bright color accent typical of Post-Impressionism.",
+                "object_interpretations": {
+                    "cow": {
+                        "form": "real animal",
+                        "scale": "normal",
+                        "role": "primary subject"
+                    },
+                    "blanket": {
+                        "form": "real textile",
+                        "scale": "normal",
+                        "role": "functional covering or decor"
+                    },
+                    "lemon": {
+                        "form": "real fruit",
+                        "scale": "normal",
+                        "role": "colorful accent object"
+                    }
+                },
+                "scene_brief": "A rural barn interior centered around cow, with blanket, and lemon"
+            }
+        }
+    },
+    "final_prompts": {
+        "main_prompt": "A Post-Impressionism painting depicting a bright and cheerful afternoon scene in a sun-drenched pasture. In the foreground, a large, warm cream and golden brown cow stands alert yet calm, its living hide and hair rendered with thick, expressive brushstrokes. A medium-sized blanket in deep crimson and warm ochre is freshly laid across the cow's broad back, its woolen texture suggested by visible, tactile paint. Beside the cow, in the midground, a small, vibrant yellow and pale green lemon rests on the grass, its firm, fresh citrus form providing a sharp, complementary color accent. The natural, harsh afternoon light creates strong contrasts and long, dancing shadows, casting the entire scene in a bright, active, and cheerful atmosphere, with the spatial relationships clearly showing the blanket on the cow and the lemon positioned next to it.",
+        "negative_prompt": "photorealistic, 3d render, modern, digital art, photograph, low quality, blurry, distorted, ugly, deformed, cartoon, anime, text, watermark, signature, frame, border, grayscale, monochrome, dark, gloomy, sad, night",
+        "prompt_formats": {
+            "simple": "A Post-Impressionism painting of a cow with a crimson blanket on its back and a lemon beside it in a bright, cheerful afternoon pasture.",
+            "complex": "A Post-Impressionism painting depicting a bright and cheerful afternoon scene in a sun-drenched pasture. In the foreground, a large, warm cream and golden brown cow stands alert yet calm, its living hide and hair rendered with thick, expressive brushstrokes. A medium-sized blanket in deep crimson and warm ochre is freshly laid across the cow's broad back, its woolen texture suggested by visible, tactile paint. Beside the cow, in the midground, a small, vibrant yellow and pale green lemon rests on the grass, its firm, fresh citrus form providing a sharp, complementary color accent. The natural, harsh afternoon light creates strong contrasts and long, dancing shadows, casting the entire scene in a bright, active, and cheerful atmosphere, with the spatial relationships clearly showing the blanket on the cow and the lemon positioned next to it.",
+            "comma_separated": "Post-Impressionism painting, large warm cream golden brown cow, alert and calm, medium deep crimson warm ochre blanket on cow, freshly laid wool, small vibrant yellow pale green lemon next to cow, fresh firm citrus fruit, bright cheerful active atmosphere, harsh natural afternoon lighting, sun-drenched pasture, thick expressive brushstrokes, strong color contrasts, Vincent van Gogh style, Paul Gauguin style",
+            "tags": "art, painting, post-impressionism, cow, blanket, lemon, pasture, afternoon, sunlight, cheerful, vibrant colors, thick brushstrokes, expressive, van gogh, gauguin, animal art, still life elements"
+        }
+    }
+}

@@ -1,0 +1,313 @@
+{
+    "artwork_id": "artwork_20260104_004834_753",
+    "generation_timestamp": "2026-01-04T00:49:10.985931",
+    "style": "Neoclassicism",
+    "objects": {
+        "object_ids": [
+            29,
+            75,
+            78,
+            21
+        ],
+        "object_names": [
+            "luggage",
+            "sundial",
+            "doll",
+            "elephant"
+        ],
+        "enhanced_objects": [
+            {
+                "object_id": 29,
+                "name": "luggage",
+                "artistic_description": "A leather trunk with brass fittings gleaming under the bright afternoon sun, its surface showing warm amber tones where light catches the polished hide and cool gray shadows in the crevices. The leather is dry and slightly weathered from travel, with subtle scuffs that catch the light, while the metal corners reflect sharp highlights against the matte patina of aged brass.",
+                "size": "Large",
+                "state": "weathered from travel, dry",
+                "primary_colors": [
+                    "warm amber brown",
+                    "golden brass"
+                ],
+                "material": "leather and brass"
+            },
+            {
+                "object_id": 75,
+                "name": "sundial",
+                "artistic_description": "A marble sundial pedestal radiates brilliant white under the intense afternoon light, its polished surface creating sharp specular reflections. The bronze gnomon casts a crisp, dark shadow across the carved stone face, while the warm sunlight intensifies the subtle veining in the marble, revealing hints of cream and pale gold against the pure white.",
+                "size": "Medium",
+                "state": "pristine, weathered stone",
+                "primary_colors": [
+                    "brilliant white",
+                    "deep bronze"
+                ],
+                "material": "marble and bronze"
+            },
+            {
+                "object_id": 78,
+                "name": "doll",
+                "artistic_description": "A porcelain doll with a glazed surface that catches the bright sunlight in soft, milky highlights. The painted features appear slightly washed out in the intense light, while the fabric clothing shows saturated colors in direct sun but reveals subtle texture in the shadows. The glossy ceramic surface creates delicate reflections of the surrounding brightness.",
+                "size": "Small",
+                "state": "pristine, delicate",
+                "primary_colors": [
+                    "milky white",
+                    "soft pastel"
+                ],
+                "material": "porcelain and fabric"
+            },
+            {
+                "object_id": 21,
+                "name": "elephant",
+                "artistic_description": "A stone elephant sculpture with a matte surface that absorbs the bright sunlight, creating deep, cool shadows in its carved folds and crevices. The weathered gray stone shows subtle variations from light gray to charcoal where the afternoon light defines its form, while the dry surface lacks any reflective sheen, emphasizing the solid, monumental quality of the classical carving.",
+                "size": "Dominant",
+                "state": "weathered, ancient",
+                "primary_colors": [
+                    "weathered gray",
+                    "charcoal"
+                ],
+                "material": "stone"
+            }
+        ]
+    },
+    "composition": {
+        "spatial_relations": [
+            [
+                29,
+                "next to",
+                75
+            ],
+            [
+                78,
+                "on",
+                29
+            ],
+            [
+                21,
+                "next to",
+                75
+            ]
+        ],
+        "semantic_relations": []
+    },
+    "environment": {
+        "environment_details": {
+            "scene_brief": "A Classical Garden Estate featuring luggage, with sundial, doll, and elephant",
+            "place365_name": "/f/formal_garden",
+            "place365_id": 153,
+            "time_of_day": "afternoon",
+            "weather": "sunny",
+            "period": "Classical",
+            "is_indoor": false,
+            "lighting": {
+                "type": "natural",
+                "quality": "harsh",
+                "direction": "side-lit",
+                "mood": "warm",
+                "reasoning": "Strong afternoon sun creates harsh, well-defined shadows. Side-lighting is ideal for revealing texture and form, giving volume to the objects and architectural elements. This sculptural lighting suits the Neoclassical style's roots in sculpture and idealized anatomy, while the warm color temperature of the afternoon sun adds a touch of atmospheric beauty to the scene."
+            },
+            "atmosphere": "bright and active and cheerful"
+        },
+        "scene_inference": {
+            "all_candidates": [
+                {
+                    "scene_type": "Grand Tour Curio Cabinet",
+                    "plausibility": 0.95,
+                    "reasoning": "A luggage case, open or closed, represents travel across continents. The sundial is a classic antiquarian artifact collected during such tours. A doll can be a child's toy packed for the journey or a keepsake. The elephant, likely a small bronze or porcelain statuette, is a typical souvenir from exotic lands, all arranged in a Neoclassical interior.",
+                    "object_interpretations": {
+                        "luggage": {
+                            "form": "real leather trunk",
+                            "scale": "normal",
+                            "role": "primary object, travel artifact"
+                        },
+                        "sundial": {
+                            "form": "real antique bronze sundial",
+                            "scale": "small (handheld)",
+                            "role": "collected artifact"
+                        },
+                        "doll": {
+                            "form": "porcelain doll",
+                            "scale": "miniature",
+                            "role": "child's toy or keepsake"
+                        },
+                        "elephant": {
+                            "form": "bronze statuette",
+                            "scale": "small",
+                            "role": "decorative souvenir"
+                        }
+                    }
+                },
+                {
+                    "scene_type": "Neoclassical Museum Gallery",
+                    "plausibility": 0.9,
+                    "reasoning": "The luggage is displayed as a historical artifact of 18th-century travel. The sundial is a scientific instrument in a display case. The doll is a historical toy in a separate exhibit. The elephant is a bust or sculpture representing exoticism in classical art. All are formal museum pieces.",
+                    "object_interpretations": {
+                        "luggage": {
+                            "form": "antique travel trunk",
+                            "scale": "normal",
+                            "role": "museum exhibit"
+                        },
+                        "sundial": {
+                            "form": "bronze instrument",
+                            "scale": "small",
+                            "role": "scientific artifact"
+                        },
+                        "doll": {
+                            "form": "vintage doll",
+                            "scale": "normal",
+                            "role": "historical toy"
+                        },
+                        "elephant": {
+                            "form": "marble bust",
+                            "scale": "medium",
+                            "role": "classical sculpture"
+                        }
+                    }
+                },
+                {
+                    "scene_type": "Classical Garden Estate",
+                    "plausibility": 0.85,
+                    "reasoning": "A luggage case sits on a stone path, perhaps ready for departure. A sundial is a central feature of the formal garden. A doll might be a statue of a child (putto) or a toy left on a bench. An elephant statue serves as an exotic ornament in the landscape design.",
+                    "object_interpretations": {
+                        "luggage": {
+                            "form": "wooden travel chest",
+                            "scale": "normal",
+                            "role": "travel prop"
+                        },
+                        "sundial": {
+                            "form": "stone garden sundial",
+                            "scale": "large",
+                            "role": "garden feature"
+                        },
+                        "doll": {
+                            "form": "stone statue of a child",
+                            "scale": "normal",
+                            "role": "garden ornament"
+                        },
+                        "elephant": {
+                            "form": "stone elephant statue",
+                            "scale": "medium",
+                            "role": "exotic ornament"
+                        }
+                    },
+                    "scene_brief": "A Classical Garden Estate featuring luggage, with sundial, doll, and elephant"
+                },
+                {
+                    "scene_type": "Academic Study / Library",
+                    "plausibility": 0.8,
+                    "reasoning": "The luggage is packed for a scholarly expedition. The sundial is a prop for a still-life painting or a scientific tool on the desk. The doll is a collector's item or a reference for a portrait. The elephant is a bookend or a small sculpture representing the study of natural history.",
+                    "object_interpretations": {
+                        "luggage": {
+                            "form": "leather satchel",
+                            "scale": "normal",
+                            "role": "travel gear"
+                        },
+                        "sundial": {
+                            "form": "brass desk sundial",
+                            "scale": "small",
+                            "role": "academic prop"
+                        },
+                        "doll": {
+                            "form": "fashion doll",
+                            "scale": "small",
+                            "role": "collector's item"
+                        },
+                        "elephant": {
+                            "form": "ivory carving",
+                            "scale": "small",
+                            "role": "curio / bookend"
+                        }
+                    }
+                },
+                {
+                    "scene_type": "Royal Court / Palace Antechamber",
+                    "plausibility": 0.75,
+                    "reasoning": "The luggage is for a royal journey. The sundial is a gilded luxury item on a table. The doll is a royal toy or a court dwarf figurine. The elephant is a jewel-encrusted statuette or a symbol of royal power.",
+                    "object_interpretations": {
+                        "luggage": {
+                            "form": "gilded royal trunk",
+                            "scale": "large",
+                            "role": "royal transport"
+                        },
+                        "sundial": {
+                            "form": "gold and enamel sundial",
+                            "scale": "small",
+                            "role": "luxury accessory"
+                        },
+                        "doll": {
+                            "form": "royal porcelain doll",
+                            "scale": "small",
+                            "role": "noble toy"
+                        },
+                        "elephant": {
+                            "form": "jeweled statuette",
+                            "scale": "small",
+                            "role": "symbol of wealth"
+                        }
+                    }
+                },
+                {
+                    "scene_type": "Neoclassical Still Life Painting",
+                    "plausibility": 0.9,
+                    "reasoning": "A composition of objects symbolizing 'The Grand Tour'. The luggage represents the journey, the sundial represents time and antiquity, the doll represents innocence or domesticity, and the elephant represents the exotic East. All are arranged on a draped table.",
+                    "object_interpretations": {
+                        "luggage": {
+                            "form": "painting of a trunk",
+                            "scale": "medium",
+                            "role": "symbol of travel"
+                        },
+                        "sundial": {
+                            "form": "painting of a bronze object",
+                            "scale": "small",
+                            "role": "symbol of time"
+                        },
+                        "doll": {
+                            "form": "painting of a doll",
+                            "scale": "small",
+                            "role": "symbol of youth"
+                        },
+                        "elephant": {
+                            "form": "painting of a statue",
+                            "scale": "small",
+                            "role": "symbol of the exotic"
+                        }
+                    }
+                }
+            ],
+            "selected_scene": {
+                "scene_type": "Classical Garden Estate",
+                "plausibility": 0.85,
+                "reasoning": "A luggage case sits on a stone path, perhaps ready for departure. A sundial is a central feature of the formal garden. A doll might be a statue of a child (putto) or a toy left on a bench. An elephant statue serves as an exotic ornament in the landscape design.",
+                "object_interpretations": {
+                    "luggage": {
+                        "form": "wooden travel chest",
+                        "scale": "normal",
+                        "role": "travel prop"
+                    },
+                    "sundial": {
+                        "form": "stone garden sundial",
+                        "scale": "large",
+                        "role": "garden feature"
+                    },
+                    "doll": {
+                        "form": "stone statue of a child",
+                        "scale": "normal",
+                        "role": "garden ornament"
+                    },
+                    "elephant": {
+                        "form": "stone elephant statue",
+                        "scale": "medium",
+                        "role": "exotic ornament"
+                    }
+                },
+                "scene_brief": "A Classical Garden Estate featuring luggage, with sundial, doll, and elephant"
+            }
+        }
+    },
+    "final_prompts": {
+        "main_prompt": "A Neoclassicism painting depicting a bright and cheerful afternoon scene in a classical garden. In the foreground, a large, weathered luggage of warm amber brown with golden brass fittings sits beside a medium-sized, pristine sundial of brilliant white marble with deep bronze accents. Perched atop the luggage is a small, pristine doll with a milky white porcelain face and soft pastel fabric dress. Dominating the midground is a weathered gray elephant with charcoal details, standing majestically next to the sundial. The harsh natural afternoon sunlight creates strong contrasts and crisp shadows, highlighting the textures of leather and brass on the luggage, the polished marble and bronze of the sundial, the delicate porcelain of the doll, and the rough stone-like skin of the elephant. The atmosphere is active and cheerful, with the composition arranged in a balanced, harmonious manner typical of Neoclassical art, evoking a sense of timeless elegance and narrative clarity.",
+        "negative_prompt": "photorealistic, 3d render, modern, digital art, photograph, low quality, blurry, distorted, surreal, abstract, impressionism, expressionism, cubism, anime, cartoon, fantasy, sci-fi, horror, dark, gloomy, night, indoor, crowded, cluttered, text, watermark, signature, frame, border",
+        "prompt_formats": {
+            "simple": "A Neoclassical painting of luggage, a sundial, a doll, and an elephant arranged in a bright afternoon garden.",
+            "complex": "A Neoclassicism painting depicting a bright and cheerful afternoon scene in a classical garden. In the foreground, a large, weathered luggage of warm amber brown with golden brass fittings sits beside a medium-sized, pristine sundial of brilliant white marble with deep bronze accents. Perched atop the luggage is a small, pristine doll with a milky white porcelain face and soft pastel fabric dress. Dominating the midground is a weathered gray elephant with charcoal details, standing majestically next to the sundial. The harsh natural afternoon sunlight creates strong contrasts and crisp shadows, highlighting the textures of leather and brass on the luggage, the polished marble and bronze of the sundial, the delicate porcelain of the doll, and the rough stone-like skin of the elephant. The atmosphere is active and cheerful, with the composition arranged in a balanced, harmonious manner typical of Neoclassical art, evoking a sense of timeless elegance and narrative clarity.",
+            "comma_separated": "Neoclassicism painting, luggage, sundial, doll, elephant, large amber brown luggage, medium white marble sundial, small porcelain doll, dominant gray elephant, luggage next to sundial, doll on luggage, elephant next to sundial, afternoon, harsh natural lighting, bright cheerful atmosphere, classical garden, balanced composition, detailed textures, leather, brass, marble, bronze, porcelain, fabric, stone",
+            "tags": "art, painting, neoclassicism, classical, garden, luggage, sundial, doll, elephant, afternoon, sunlight, cheerful, balanced, detailed, textures, leather, brass, marble, bronze, porcelain, stone"
+        }
+    }
+}

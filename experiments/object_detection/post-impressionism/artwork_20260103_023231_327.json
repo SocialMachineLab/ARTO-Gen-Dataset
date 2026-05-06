@@ -1,0 +1,388 @@
+{
+    "artwork_id": "artwork_20260103_023231_327",
+    "generation_timestamp": "2026-01-03T02:33:06.582022",
+    "style": "Post-Impressionism",
+    "objects": {
+        "object_ids": [
+            58,
+            22,
+            60,
+            59
+        ],
+        "object_names": [
+            "blanket",
+            "bear",
+            "hammock",
+            "rose"
+        ],
+        "enhanced_objects": [
+            {
+                "object_id": 58,
+                "name": "blanket",
+                "artistic_description": "A thick woolen blanket draped in loose folds, its surface catching the bright afternoon sunlight in bold patches of warm ochre and deep terracotta, while shadowed areas shift to cool violet-gray. The woven texture creates a tactile pattern of light and dark, with individual threads shimmering subtly where the sun strikes directly. The fabric appears slightly worn from use, giving it a soft, lived-in quality that absorbs and diffuses the natural light.",
+                "size": "Large",
+                "state": "softly rumpled with gentle wear",
+                "primary_colors": [
+                    "ochre",
+                    "terracotta"
+                ],
+                "material": "wool"
+            },
+            {
+                "object_id": 22,
+                "name": "bear",
+                "artistic_description": "A plush toy bear rendered in rich, saturated browns that deepen to near-black in the strongest highlights, its synthetic fur catching individual shafts of sunlight that create a sparkling, almost pointillist effect. The bright studio lighting reveals subtle variations in the plush texture, with warm amber tones glowing where the light penetrates the fur, while the plastic eyes reflect sharp white highlights. The toy shows gentle compression and slight matting in the fur from handling.",
+                "size": "Medium",
+                "state": "well-loved with softened edges",
+                "primary_colors": [
+                    "chocolate brown",
+                    "amber"
+                ],
+                "material": "synthetic plush"
+            },
+            {
+                "object_id": 60,
+                "name": "hammock",
+                "artistic_description": "Suspended in the bright background, the hammock's canvas fabric glows with intense white-gold where sunlight passes through its weave, creating a luminous, almost translucent quality. The material shows strong contrast between brilliant highlights where the sun strikes directly and deep blue-gray shadows in the recessed folds. The thick cotton fibers appear slightly frayed at the edges, with the natural fabric showing a matte finish that diffuses the harsh afternoon light.",
+                "size": "Large",
+                "state": "tautly suspended with gentle sag",
+                "primary_colors": [
+                    "cream",
+                    "blue-gray"
+                ],
+                "material": "canvas"
+            },
+            {
+                "object_id": 59,
+                "name": "rose",
+                "artistic_description": "A single rose whose petals capture the intense afternoon light with luminous, almost electric vibrancy, the crimson petals appearing to glow from within where the sun penetrates their translucent edges. The waxy surface creates sharp specular highlights that flash with pure white, while the deep shadows between petals reveal rich burgundy and purple tones. Fresh dew-like moisture on the petals catches the light as tiny prisms, and the stem shows vibrant emerald green with matte absorption in the shaded areas.",
+                "size": "Small",
+                "state": "freshly bloomed with dewy moisture",
+                "primary_colors": [
+                    "crimson",
+                    "emerald"
+                ],
+                "material": "organic petals and stem"
+            }
+        ]
+    },
+    "composition": {
+        "spatial_relations": [
+            [
+                58,
+                "on",
+                22
+            ],
+            [
+                22,
+                "next to",
+                58
+            ],
+            [
+                59,
+                "near",
+                22
+            ],
+            [
+                60,
+                "behind",
+                22
+            ],
+            [
+                60,
+                "behind",
+                58
+            ],
+            [
+                60,
+                "behind",
+                59
+            ]
+        ],
+        "semantic_relations": [
+            [
+                22,
+                "near",
+                59
+            ]
+        ]
+    },
+    "environment": {
+        "environment_details": {
+            "scene_brief": "A art studio featuring blanket, with toy bear placed nearby, hammock in the background, and rose",
+            "place365_name": "/a/art_studio",
+            "place365_id": 21,
+            "time_of_day": "afternoon",
+            "weather": "sunny",
+            "period": "Contemporary",
+            "is_indoor": true,
+            "lighting": {
+                "type": "natural",
+                "quality": "harsh",
+                "direction": "side-lit",
+                "mood": "warm",
+                "reasoning": "Side-lit natural light from sunny weather creates strong chiaroscuro effects that Post-Impressionists used to emphasize form and emotional content. The harsh quality would cast defined shadows from objects like the toy bear and rose, while the warm afternoon sun enhances the intimate, contemplative atmosphere of the personal studio space."
+            },
+            "atmosphere": "bright and active and cheerful"
+        },
+        "scene_inference": {
+            "all_candidates": [
+                {
+                    "scene_type": "bedroom",
+                    "plausibility": 0.9,
+                    "reasoning": "A bedroom is a natural habitat for a blanket. A bear can be a stuffed toy on the bed. A hammock could be a wall decoration or a miniature model. A rose could be in a vase on a nightstand.",
+                    "object_interpretations": {
+                        "blanket": {
+                            "form": "real blanket",
+                            "scale": "normal",
+                            "role": "primary object on bed"
+                        },
+                        "bear": {
+                            "form": "stuffed toy",
+                            "scale": "miniature",
+                            "role": "decorative toy on bed"
+                        },
+                        "hammock": {
+                            "form": "wall tapestry or miniature model",
+                            "scale": "small",
+                            "role": "decorative element"
+                        },
+                        "rose": {
+                            "form": "real flower",
+                            "scale": "normal",
+                            "role": "decorative accent"
+                        }
+                    }
+                },
+                {
+                    "scene_type": "child's playroom",
+                    "plausibility": 0.85,
+                    "reasoning": "A blanket is often used for forts or play. A bear is a common toy. A hammock could hold stuffed animals. A rose could be a plastic flower in a toy vase.",
+                    "object_interpretations": {
+                        "blanket": {
+                            "form": "play blanket",
+                            "scale": "normal",
+                            "role": "play object/fort"
+                        },
+                        "bear": {
+                            "form": "stuffed toy",
+                            "scale": "normal",
+                            "role": "toy"
+                        },
+                        "hammock": {
+                            "form": "toy hammock",
+                            "scale": "small",
+                            "role": "storage for toys"
+                        },
+                        "rose": {
+                            "form": "plastic flower",
+                            "scale": "small",
+                            "role": "toy accessory"
+                        }
+                    }
+                },
+                {
+                    "scene_type": "garden patio",
+                    "plausibility": 0.8,
+                    "reasoning": "A hammock is the primary object here, but a blanket is often taken outside. A bear could be a garden statue. A rose is a natural garden element.",
+                    "object_interpretations": {
+                        "blanket": {
+                            "form": "picnic blanket",
+                            "scale": "normal",
+                            "role": "outdoor accessory"
+                        },
+                        "bear": {
+                            "form": "garden statue",
+                            "scale": "normal",
+                            "role": "decorative sculpture"
+                        },
+                        "hammock": {
+                            "form": "real hammock",
+                            "scale": "large",
+                            "role": "primary furniture"
+                        },
+                        "rose": {
+                            "form": "real flower",
+                            "scale": "normal",
+                            "role": "natural element"
+                        }
+                    }
+                },
+                {
+                    "scene_type": "vintage cottage interior",
+                    "plausibility": 0.85,
+                    "reasoning": "A cozy cottage fits a blanket and a bear. A hammock could be a hanging chair or decorative element. A rose fits the vintage floral aesthetic.",
+                    "object_interpretations": {
+                        "blanket": {
+                            "form": "knitted blanket",
+                            "scale": "normal",
+                            "role": "cozy furnishing"
+                        },
+                        "bear": {
+                            "form": "vintage teddy bear",
+                            "scale": "small",
+                            "role": "nostalgic toy"
+                        },
+                        "hammock": {
+                            "form": "hanging chair",
+                            "scale": "large",
+                            "role": "seating"
+                        },
+                        "rose": {
+                            "form": "dried rose",
+                            "scale": "small",
+                            "role": "decorative keepsake"
+                        }
+                    }
+                },
+                {
+                    "scene_type": "art studio",
+                    "plausibility": 0.75,
+                    "reasoning": "An artist's studio can contain any object as a subject of study. The blanket is draped over a chair, the bear is a model, the hammock is a prop, and the rose is in a vase.",
+                    "object_interpretations": {
+                        "blanket": {
+                            "form": "draped fabric",
+                            "scale": "normal",
+                            "role": "artistic subject/fabric study"
+                        },
+                        "bear": {
+                            "form": "toy/model",
+                            "scale": "normal",
+                            "role": "still life subject"
+                        },
+                        "hammock": {
+                            "form": "folded prop",
+                            "scale": "large",
+                            "role": "background element"
+                        },
+                        "rose": {
+                            "form": "fresh flower",
+                            "scale": "normal",
+                            "role": "still life detail"
+                        }
+                    },
+                    "scene_brief": "A art studio featuring blanket, with toy bear placed nearby, hammock in the background, and rose"
+                },
+                {
+                    "scene_type": "summer camp cabin",
+                    "plausibility": 0.85,
+                    "reasoning": "A cabin setting naturally includes blankets for sleeping and hammocks for relaxing. A bear could be a mascot or toy. A rose could be wildflowers picked by a camper.",
+                    "object_interpretations": {
+                        "blanket": {
+                            "form": "camp blanket",
+                            "scale": "normal",
+                            "role": "bedding"
+                        },
+                        "bear": {
+                            "form": "plush toy",
+                            "scale": "normal",
+                            "role": "companion"
+                        },
+                        "hammock": {
+                            "form": "camping hammock",
+                            "scale": "large",
+                            "role": "relaxation gear"
+                        },
+                        "rose": {
+                            "form": "wildflower",
+                            "scale": "small",
+                            "role": "nature souvenir"
+                        }
+                    }
+                },
+                {
+                    "scene_type": "bohemian bedroom",
+                    "plausibility": 0.8,
+                    "reasoning": "Bohemian style uses layered textiles (blankets), eclectic decor (bear), hanging elements (hammock as swing), and floral motifs (rose).",
+                    "object_interpretations": {
+                        "blanket": {
+                            "form": "patterned throw",
+                            "scale": "normal",
+                            "role": "layered textile"
+                        },
+                        "bear": {
+                            "form": "ornamental figurine",
+                            "scale": "small",
+                            "role": "eclectic decor"
+                        },
+                        "hammock": {
+                            "form": "decorative swing",
+                            "scale": "large",
+                            "role": "hanging seat"
+                        },
+                        "rose": {
+                            "form": "tattoo or print",
+                            "scale": "small",
+                            "role": "motif"
+                        }
+                    }
+                },
+                {
+                    "scene_type": "nursery",
+                    "plausibility": 0.9,
+                    "reasoning": "A nursery has a crib with a blanket, a stuffed bear toy, a hammock for toys, and a rose pattern on wallpaper.",
+                    "object_interpretations": {
+                        "blanket": {
+                            "form": "baby blanket",
+                            "scale": "small",
+                            "role": "bedding"
+                        },
+                        "bear": {
+                            "form": "stuffed animal",
+                            "scale": "small",
+                            "role": "toy"
+                        },
+                        "hammock": {
+                            "form": "toy hammock",
+                            "scale": "small",
+                            "role": "toy storage"
+                        },
+                        "rose": {
+                            "form": "wallpaper pattern",
+                            "scale": "large",
+                            "role": "decoration"
+                        }
+                    }
+                }
+            ],
+            "selected_scene": {
+                "scene_type": "art studio",
+                "plausibility": 0.75,
+                "reasoning": "An artist's studio can contain any object as a subject of study. The blanket is draped over a chair, the bear is a model, the hammock is a prop, and the rose is in a vase.",
+                "object_interpretations": {
+                    "blanket": {
+                        "form": "draped fabric",
+                        "scale": "normal",
+                        "role": "artistic subject/fabric study"
+                    },
+                    "bear": {
+                        "form": "toy/model",
+                        "scale": "normal",
+                        "role": "still life subject"
+                    },
+                    "hammock": {
+                        "form": "folded prop",
+                        "scale": "large",
+                        "role": "background element"
+                    },
+                    "rose": {
+                        "form": "fresh flower",
+                        "scale": "normal",
+                        "role": "still life detail"
+                    }
+                },
+                "scene_brief": "A art studio featuring blanket, with toy bear placed nearby, hammock in the background, and rose"
+            }
+        }
+    },
+    "final_prompts": {
+        "main_prompt": "A Post-Impressionism painting depicting a bright and cheerful afternoon scene with harsh natural lighting. In the foreground, a medium-sized chocolate brown and amber teddy bear with softened edges sits atop a large ochre and terracotta blanket, which is softly rumpled with gentle wear. Beside the bear, a small crimson rose with emerald leaves rests freshly bloomed with dewy moisture. Behind these objects, a large cream and blue-gray hammock is tautly suspended with a gentle sag, creating a layered composition. The spatial arrangement shows the blanket on the bear, the rose near the bear, and the hammock positioned behind the bear, blanket, and rose, establishing clear depth. The atmosphere is active and cheerful, with vibrant, expressive brushstrokes capturing the interplay of light and shadow in this lively outdoor setting.",
+        "negative_prompt": "photorealistic, 3d render, modern, digital art, photograph, low quality, blurry, distorted, oversaturated, cartoon, anime, text, watermark, signature, frame, border, ugly, deformed, mutated",
+        "prompt_formats": {
+            "simple": "A Post-Impressionism painting of a bear on a blanket with a rose nearby and a hammock behind, set in a bright afternoon.",
+            "complex": "A Post-Impressionism painting depicting a bright and cheerful afternoon scene with harsh natural lighting. In the foreground, a medium-sized chocolate brown and amber teddy bear with softened edges sits atop a large ochre and terracotta blanket, which is softly rumpled with gentle wear. Beside the bear, a small crimson rose with emerald leaves rests freshly bloomed with dewy moisture. Behind these objects, a large cream and blue-gray hammock is tautly suspended with a gentle sag, creating a layered composition. The spatial arrangement shows the blanket on the bear, the rose near the bear, and the hammock positioned behind the bear, blanket, and rose, establishing clear depth. The atmosphere is active and cheerful, with vibrant, expressive brushstrokes capturing the interplay of light and shadow in this lively outdoor setting.",
+            "comma_separated": "Post-Impressionism painting, blanket on bear, rose near bear, hammock behind, afternoon lighting, bright cheerful atmosphere, ochre terracotta blanket, chocolate brown bear, crimson rose, cream hammock, natural harsh light, vibrant brushstrokes, outdoor scene",
+            "tags": "art, painting, post-impressionism, still life, outdoor, afternoon, cheerful, blanket, teddy bear, rose, hammock, expressive brushwork, vibrant colors"
+        }
+    }
+}
