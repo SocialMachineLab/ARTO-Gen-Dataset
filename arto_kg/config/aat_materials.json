@@ -1,0 +1,496 @@
+{
+  "source": "Getty AAT Materials Facet, filtered for the ARTO-Gen STYLE_COCO_VARIETY object vocabulary",
+  "source_table": "Getty AAT Materials facet (4922 concepts)",
+  "count": 67,
+  "offered_count": 61,
+  "lookup_note": "Entries marked lookup_only are modern materials (plastic, aluminum, nylon, vinyl, fiberglass, chromium) that none of the five historical styles uses. They resolve to their AAT concept, so these values in the data are linked and searchable, but they are never offered to the model or accepted from it.",
+  "semantic_rule": "Assign a material only to manufactured objects. A living being, a real animal, a growing plant or food has no material: return an empty list rather than forcing a biological substance such as fur, flesh or hide. Judge what the artwork depicts, not what the object name usually means - a toy cow, a marble statue of a cupid and a stuffed bird are all made objects.",
+  "composite_rule": "An object made of several materials lists each one separately - [\"wood\", \"canvas\"], never \"wood and canvas\".",
+  "empty_note": "An empty material list is a valid answer and never an error. With is_made_object false it means the object has no material; with is_made_object true it means nothing the model named could be resolved here.",
+  "groups": [
+    "wood/plant",
+    "metal",
+    "glass/ceramic/stone",
+    "paper/leather",
+    "textile",
+    "animal/decorative",
+    "special"
+  ],
+  "materials": [
+    {
+      "aat_id": "300011914",
+      "label": "wood",
+      "aat_label": "wood (plant material)",
+      "group": "wood/plant",
+      "aliases": ["hardwood", "softwood", "timber", "oak", "pine", "walnut", "mahogany", "teak", "ebony", "driftwood", "painted wood", "weathered wood", "aged wood", "polished wood", "carved wood", "solid wood"]
+    },
+    {
+      "aat_id": "300011873",
+      "label": "bamboo",
+      "aat_label": "bamboo (material)",
+      "group": "wood/plant",
+      "aliases": []
+    },
+    {
+      "aat_id": "300011878",
+      "label": "reed",
+      "aat_label": "reed (grass, material)",
+      "group": "wood/plant",
+      "aliases": ["rattan", "cane"]
+    },
+    {
+      "aat_id": "300011908",
+      "label": "straw",
+      "aat_label": "straw (plant material)",
+      "group": "wood/plant",
+      "aliases": ["thatch"]
+    },
+    {
+      "aat_id": "300012498",
+      "label": "willow",
+      "aat_label": "willow (wood)",
+      "group": "wood/plant",
+      "aliases": ["wicker"]
+    },
+    {
+      "aat_id": "300010900",
+      "label": "metal",
+      "aat_label": "metal",
+      "group": "metal",
+      "aliases": ["metalwork", "polished metal", "painted metal"]
+    },
+    {
+      "aat_id": "300011002",
+      "label": "iron",
+      "aat_label": "iron (metal)",
+      "group": "metal",
+      "aliases": ["wrought iron", "cast iron"]
+    },
+    {
+      "aat_id": "300133751",
+      "label": "steel",
+      "aat_label": "steel (alloy)",
+      "group": "metal",
+      "aliases": ["stainless steel"]
+    },
+    {
+      "aat_id": "300011020",
+      "label": "copper",
+      "aat_label": "copper (metal)",
+      "group": "metal",
+      "aliases": []
+    },
+    {
+      "aat_id": "300010957",
+      "label": "bronze",
+      "aat_label": "bronze (metal)",
+      "group": "metal",
+      "aliases": []
+    },
+    {
+      "aat_id": "300010946",
+      "label": "brass",
+      "aat_label": "brass (alloy)",
+      "group": "metal",
+      "aliases": []
+    },
+    {
+      "aat_id": "300011029",
+      "label": "silver",
+      "aat_label": "silver (metal)",
+      "group": "metal",
+      "aliases": ["sterling silver"]
+    },
+    {
+      "aat_id": "300011021",
+      "label": "gold",
+      "aat_label": "gold (metal)",
+      "group": "metal",
+      "aliases": ["gilt", "gilding", "gold leaf"]
+    },
+    {
+      "aat_id": "300133748",
+      "label": "tin",
+      "aat_label": "tin (metal)",
+      "group": "metal",
+      "aliases": []
+    },
+    {
+      "aat_id": "300010979",
+      "label": "pewter",
+      "aat_label": "pewter (tin alloy)",
+      "group": "metal",
+      "aliases": []
+    },
+    {
+      "aat_id": "300010797",
+      "label": "glass",
+      "aat_label": "glass (material)",
+      "group": "glass/ceramic/stone",
+      "aliases": ["crystal", "stained glass", "blown glass"]
+    },
+    {
+      "aat_id": "300235507",
+      "label": "ceramic",
+      "aat_label": "ceramic (material)",
+      "group": "glass/ceramic/stone",
+      "aliases": ["earthenware", "stoneware", "pottery", "glazed ceramic", "majolica", "faience"]
+    },
+    {
+      "aat_id": "300010662",
+      "label": "porcelain",
+      "aat_label": "porcelain (material)",
+      "group": "glass/ceramic/stone",
+      "aliases": ["china", "bone china"]
+    },
+    {
+      "aat_id": "300010669",
+      "label": "terracotta",
+      "aat_label": "terracotta (clay material)",
+      "group": "glass/ceramic/stone",
+      "aliases": []
+    },
+    {
+      "aat_id": "300010439",
+      "label": "clay",
+      "aat_label": "clay",
+      "group": "glass/ceramic/stone",
+      "aliases": ["modeling clay"]
+    },
+    {
+      "aat_id": "300011176",
+      "label": "stone",
+      "aat_label": "stone (worked rock)",
+      "group": "glass/ceramic/stone",
+      "aliases": ["rock", "limestone", "sandstone", "granite", "slate"]
+    },
+    {
+      "aat_id": "300011443",
+      "label": "marble",
+      "aat_label": "marble (rock)",
+      "group": "glass/ceramic/stone",
+      "aliases": []
+    },
+    {
+      "aat_id": "300014922",
+      "label": "plaster",
+      "aat_label": "plaster (composite coating)",
+      "group": "glass/ceramic/stone",
+      "aliases": ["stucco", "gypsum", "painted plaster"]
+    },
+    {
+      "aat_id": "300011101",
+      "label": "alabaster",
+      "aat_label": "alabaster (mineral)",
+      "group": "glass/ceramic/stone",
+      "aliases": []
+    },
+    {
+      "aat_id": "300011119",
+      "label": "jade",
+      "aat_label": "jade (rock)",
+      "group": "glass/ceramic/stone",
+      "aliases": ["jadeite", "nephrite"]
+    },
+    {
+      "aat_id": "300014109",
+      "label": "paper",
+      "aat_label": "paper (fiber product)",
+      "group": "paper/leather",
+      "aliases": ["cardstock", "newsprint", "rice paper", "xuan paper"]
+    },
+    {
+      "aat_id": "300011851",
+      "label": "parchment",
+      "aat_label": "parchment (animal material)",
+      "group": "paper/leather",
+      "aliases": []
+    },
+    {
+      "aat_id": "300011852",
+      "label": "vellum",
+      "aat_label": "vellum (parchment)",
+      "group": "paper/leather",
+      "aliases": []
+    },
+    {
+      "aat_id": "300411320",
+      "label": "paperboard",
+      "aat_label": "paperboard",
+      "group": "paper/leather",
+      "aliases": ["cardboard", "pasteboard", "card"]
+    },
+    {
+      "aat_id": "300011845",
+      "label": "leather",
+      "aat_label": "leather",
+      "group": "paper/leather",
+      "aliases": ["suede", "tanned leather"]
+    },
+    {
+      "aat_id": "300231565",
+      "label": "textile",
+      "aat_label": "textile materials",
+      "group": "textile",
+      "aliases": ["fabric", "cloth", "woven fabric", "plush fabric", "plush", "upholstered fabric", "sheer fabric", "woven fiber", "natural fiber", "horsehair", "fleece"]
+    },
+    {
+      "aat_id": "300014067",
+      "label": "cotton",
+      "aat_label": "cotton (textile)",
+      "group": "textile",
+      "aliases": ["muslin", "calico", "cotton fabric", "woven cotton"]
+    },
+    {
+      "aat_id": "300014069",
+      "label": "linen",
+      "aat_label": "linen (material)",
+      "group": "textile",
+      "aliases": ["flax"]
+    },
+    {
+      "aat_id": "300243430",
+      "label": "wool",
+      "aat_label": "wool (textile)",
+      "group": "textile",
+      "aliases": ["worsted", "tweed"]
+    },
+    {
+      "aat_id": "300243428",
+      "label": "silk",
+      "aat_label": "silk (textile)",
+      "group": "textile",
+      "aliases": ["satin", "brocade"]
+    },
+    {
+      "aat_id": "300133711",
+      "label": "velvet",
+      "aat_label": "velvet (fabric weave)",
+      "group": "textile",
+      "aliases": []
+    },
+    {
+      "aat_id": "300014078",
+      "label": "canvas",
+      "aat_label": "canvas (textile material)",
+      "group": "textile",
+      "aliases": ["sailcloth"]
+    },
+    {
+      "aat_id": "300014107",
+      "label": "felt",
+      "aat_label": "felt (textile)",
+      "group": "textile",
+      "aliases": []
+    },
+    {
+      "aat_id": "300132861",
+      "label": "lace",
+      "aat_label": "lace (needlework)",
+      "group": "textile",
+      "aliases": []
+    },
+    {
+      "aat_id": "300014045",
+      "label": "jute",
+      "aat_label": "jute (fiber)",
+      "group": "textile",
+      "aliases": ["burlap", "hessian", "sacking", "hemp"]
+    },
+    {
+      "aat_id": "300011857",
+      "label": "ivory",
+      "aat_label": "ivory (material)",
+      "group": "animal/decorative",
+      "aliases": []
+    },
+    {
+      "aat_id": "300011798",
+      "label": "bone",
+      "aat_label": "bone (material)",
+      "group": "animal/decorative",
+      "aliases": []
+    },
+    {
+      "aat_id": "300011826",
+      "label": "horn",
+      "aat_label": "horn (animal material)",
+      "group": "animal/decorative",
+      "aliases": ["antler"]
+    },
+    {
+      "aat_id": "300011829",
+      "label": "shell",
+      "aat_label": "shell (animal material)",
+      "group": "animal/decorative",
+      "aliases": ["seashell", "tortoiseshell"]
+    },
+    {
+      "aat_id": "300011835",
+      "label": "mother of pearl",
+      "aat_label": "mother of pearl",
+      "group": "animal/decorative",
+      "aliases": ["mother-of-pearl", "nacre"]
+    },
+    {
+      "aat_id": "300012941",
+      "label": "rubber",
+      "aat_label": "rubber (material)",
+      "group": "special",
+      "aliases": ["latex", "gum rubber"]
+    },
+    {
+      "aat_id": "300014447",
+      "label": "celluloid",
+      "aat_label": "celluloid (cellulosic)",
+      "group": "special",
+      "aliases": []
+    },
+    {
+      "aat_id": "300014916",
+      "label": "lacquer",
+      "aat_label": "lacquer (material)",
+      "group": "special",
+      "aliases": ["japanning", "urushi"]
+    },
+    {
+      "aat_id": "300014910",
+      "label": "enamel",
+      "aat_label": "enamel (fused coating)",
+      "group": "special",
+      "aliases": ["vitreous enamel", "cloisonne"]
+    },
+    {
+      "aat_id": "300015029",
+      "label": "paint",
+      "aat_label": "paint (coating)",
+      "group": "special",
+      "aliases": ["paints", "oil paint", "tempera paint"]
+    },
+    {
+      "aat_id": "300015012",
+      "label": "ink",
+      "aat_label": "ink",
+      "group": "special",
+      "aliases": ["india ink", "indian ink", "sumi ink", "ink wash"]
+    },
+    {
+      "aat_id": "300010463",
+      "label": "brick",
+      "aat_label": "brick (clay material)",
+      "group": "glass/ceramic/stone",
+      "aliases": ["bricks", "red brick", "brickwork"]
+    },
+    {
+      "aat_id": "300011862",
+      "label": "cork",
+      "aat_label": "cork (bark)",
+      "group": "wood/plant",
+      "aliases": []
+    },
+    {
+      "aat_id": "300011098",
+      "label": "graphite",
+      "aat_label": "graphite (mineral)",
+      "group": "glass/ceramic/stone",
+      "aliases": []
+    },
+    {
+      "aat_id": "300133732",
+      "label": "precious stone",
+      "aat_label": "precious stone (material)",
+      "group": "glass/ceramic/stone",
+      "aliases": ["precious stones", "gemstone", "gemstones", "gem", "gems", "jewels"]
+    },
+    {
+      "aat_id": "300012934",
+      "label": "amber",
+      "aat_label": "amber (fossil resin)",
+      "group": "animal/decorative",
+      "aliases": []
+    },
+    {
+      "aat_id": "300011827",
+      "label": "pearl",
+      "aat_label": "pearl (animal material)",
+      "group": "animal/decorative",
+      "aliases": ["pearls"]
+    },
+    {
+      "aat_id": "300193289",
+      "label": "gut",
+      "aat_label": "gut (animal material)",
+      "group": "animal/decorative",
+      "aliases": ["catgut", "gut strings"]
+    },
+    {
+      "aat_id": "300011822",
+      "label": "bristle",
+      "aat_label": "bristle (hair material)",
+      "group": "animal/decorative",
+      "aliases": ["bristles", "natural bristles", "boar bristles", "hog bristle"]
+    },
+    {
+      "aat_id": "300014251",
+      "label": "twine",
+      "aat_label": "twine",
+      "group": "textile",
+      "aliases": ["rope", "string", "cord", "cordage", "hemp rope"]
+    },
+    {
+      "aat_id": "300014585",
+      "label": "wax",
+      "aat_label": "wax",
+      "group": "special",
+      "aliases": ["beeswax", "candle wax", "sealing wax"]
+    },
+    {
+      "aat_id": "300014570",
+      "label": "plastic",
+      "aat_label": "plastic (material)",
+      "group": "modern",
+      "lookup_only": true,
+      "aliases": ["plastics", "hard plastic", "molded plastic", "moulded plastic"]
+    },
+    {
+      "aat_id": "300011015",
+      "label": "aluminum",
+      "aat_label": "aluminum (metal)",
+      "group": "modern",
+      "lookup_only": true,
+      "aliases": ["aluminium"]
+    },
+    {
+      "aat_id": "300014462",
+      "label": "nylon",
+      "aat_label": "nylon",
+      "group": "modern",
+      "lookup_only": true,
+      "aliases": []
+    },
+    {
+      "aat_id": "300014502",
+      "label": "vinyl",
+      "aat_label": "vinyl",
+      "group": "modern",
+      "lookup_only": true,
+      "aliases": []
+    },
+    {
+      "aat_id": "300183781",
+      "label": "fiberglass",
+      "aat_label": "fiberglass (composite material)",
+      "group": "modern",
+      "lookup_only": true,
+      "aliases": ["fibreglass"]
+    },
+    {
+      "aat_id": "300011019",
+      "label": "chromium",
+      "aat_label": "chromium",
+      "group": "modern",
+      "lookup_only": true,
+      "aliases": ["chrome", "chrome metal", "chrome plating", "chrome-plated", "chromed"]
+    }
+  ]
+}

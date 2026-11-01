@@ -1,0 +1,383 @@
+{
+  "artwork_id": "artwork_20260103_022805_692",
+  "generation_timestamp": "2026-01-03T02:28:48.112961",
+  "style": "Post-Impressionism",
+  "objects": {
+    "object_ids": [
+      18,
+      22,
+      15,
+      61
+    ],
+    "object_names": [
+      "horse",
+      "bear",
+      "eagle",
+      "dining table"
+    ],
+    "enhanced_objects": [
+      {
+        "object_id": 18,
+        "name": "horse",
+        "artistic_description": "A majestic equine figure rendered in thick, expressive brushstrokes, its coat glistening with rain-slicked moisture from the damp atmosphere. The evening's mixed lighting casts warm amber highlights across its muscular shoulders while cool indigo shadows pool beneath its jaw. Its mane appears as dark ribbons of deep violet and charcoal, catching subtle candlelight reflections. The animal's eyes hold a liquid, contemplative quality, reflecting the moody banquet hall's ambient glow.",
+        "size": "Large",
+        "state": "calm and alert, coat damp from weather",
+        "primary_colors": [
+          "warm chestnut brown",
+          "deep indigo shadow"
+        ],
+        "material": "living creature - hair, skin"
+      },
+      {
+        "object_id": 22,
+        "name": "bear",
+        "artistic_description": "A massive ursine form rendered in thick, impasto strokes of rich umber and sienna, its fur appearing as a textured tapestry of dark chocolate and shadowy violet tones. The damp air has given its coat a subtle sheen, with individual hairs catching the warm candlelight in scattered golden highlights. Its muzzle displays creamy beige tones that glow softly in the mixed lighting, while deep shadows beneath its brow create a contemplative, gentle expression.",
+        "size": "Dominant",
+        "state": "peaceful and still, fur slightly damp",
+        "primary_colors": [
+          "rich umber brown",
+          "violet-black shadow"
+        ],
+        "material": "living creature - fur, hide"
+      },
+      {
+        "object_id": 15,
+        "name": "eagle",
+        "artistic_description": "A regal raptor captured in bold, angular strokes of burnished bronze and deep slate. Its feathers appear as overlapping layers of metallic gold-brown and charcoal, each barb catching the evening's warm light along their edges. The wet atmosphere has given its plumage a subtle lacquered appearance, with cool blue-gray tones diffusing through the darker feathers. Its hooked beak gleams with amber highlights, while its talons show as creamy ivory against the muted background.",
+        "size": "Medium",
+        "state": "composed and watchful, feathers slightly damp",
+        "primary_colors": [
+          "burnished bronze",
+          "deep slate gray"
+        ],
+        "material": "living creature - feathers, keratin"
+      },
+      {
+        "object_id": 61,
+        "name": "dining table",
+        "artistic_description": "A grand wooden surface rendered in thick, horizontal strokes of warm honey-gold and deep mahogany. The polished wood reflects the banquet hall's mixed lighting in soft, impressionistic daubs of amber and cream, with cool gray highlights from the rainy evening visible through the windows. Its edges show subtle wear in muted taupe tones, while the center displays a gentle patina of scattered reflections. The damp air has given the surface a gentle, satin-like luminosity.",
+        "size": "Large",
+        "state": "well-used but elegant, surface slightly humid",
+        "primary_colors": [
+          "honey-gold",
+          "mahogany brown"
+        ],
+        "material": "polished hardwood"
+      }
+    ]
+  },
+  "composition": {
+    "spatial_relations": [
+      [
+        18,
+        "beside",
+        22
+      ],
+      [
+        22,
+        "behind",
+        61
+      ],
+      [
+        15,
+        "on",
+        61
+      ],
+      [
+        18,
+        "behind",
+        61
+      ]
+    ],
+    "semantic_relations": [
+      [
+        18,
+        "watching",
+        15
+      ],
+      [
+        22,
+        "watching",
+        15
+      ]
+    ]
+  },
+  "environment": {
+    "environment_details": {
+      "scene_brief": "A Fantasy banquet hall featuring horse, with bear, eagle, and dining table",
+      "place365_name": "/d/dining_room",
+      "place365_id": 121,
+      "time_of_day": "evening",
+      "weather": "rainy",
+      "period": "Contemporary",
+      "is_indoor": true,
+      "lighting": {
+        "type": "mixed",
+        "quality": "soft",
+        "direction": "side-lit",
+        "mood": "warm",
+        "reasoning": "Mixed lighting (candlelight/fireplace + twilight) suits the evening banquet. Soft, warm, side-lit lighting highlights textures and creates depth, essential for the Post-Impressionist style which emphasizes color and form over strict realism."
+      },
+      "atmosphere": "calm and relaxed and moody and gentle"
+    },
+    "scene_inference": {
+      "all_candidates": [
+        {
+          "scene_type": "Post-Impressionist country fair",
+          "plausibility": 0.85,
+          "reasoning": "A bustling fairground where a horse is a central attraction. The bear could be a performing animal or a costumed mascot, the eagle could be part of a falconry display or taxidermy exhibit, and the dining table could be a vendor's stall or a picnic table for visitors.",
+          "object_interpretations": {
+            "horse": {
+              "form": "real horse",
+              "scale": "normal",
+              "role": "primary attraction"
+            },
+            "bear": {
+              "form": "costumed performer or trained bear",
+              "scale": "normal",
+              "role": "secondary performer"
+            },
+            "eagle": {
+              "form": "live bird of prey",
+              "scale": "normal",
+              "role": "falconry display"
+            },
+            "dining table": {
+              "form": "wooden picnic table",
+              "scale": "normal",
+              "role": "visitor seating"
+            }
+          }
+        },
+        {
+          "scene_type": "Symbolic forest clearing",
+          "plausibility": 0.9,
+          "reasoning": "A stylized forest scene where animals gather around a rustic table. The horse stands as a noble figure, the bear is a wild but peaceful presence, the eagle perches above, and the dining table is an abandoned or ceremonial piece of furniture in nature.",
+          "object_interpretations": {
+            "horse": {
+              "form": "real horse",
+              "scale": "normal",
+              "role": "noble guardian"
+            },
+            "bear": {
+              "form": "real bear",
+              "scale": "normal",
+              "role": "wild observer"
+            },
+            "eagle": {
+              "form": "real eagle",
+              "scale": "normal",
+              "role": "watchful sentinel"
+            },
+            "dining table": {
+              "form": "weathered wooden table",
+              "scale": "normal",
+              "role": "mysterious object in nature"
+            }
+          }
+        },
+        {
+          "scene_type": "Post-Impressionist stable interior",
+          "plausibility": 0.8,
+          "reasoning": "A cozy stable scene with a horse in its stall. The bear could be a large stuffed toy or rug, the eagle could be a taxidermy mount on the wall, and the dining table could be repurposed as a workbench or feeding station.",
+          "object_interpretations": {
+            "horse": {
+              "form": "real horse",
+              "scale": "normal",
+              "role": "stable occupant"
+            },
+            "bear": {
+              "form": "taxidermy or large plush toy",
+              "scale": "normal",
+              "role": "decorative element"
+            },
+            "eagle": {
+              "form": "taxidermy mount",
+              "scale": "normal",
+              "role": "wall decoration"
+            },
+            "dining table": {
+              "form": "repurposed wooden table",
+              "scale": "normal",
+              "role": "utility surface"
+            }
+          }
+        },
+        {
+          "scene_type": "Artistic menagerie",
+          "plausibility": 0.85,
+          "reasoning": "A private collection or zoo where exotic animals are displayed. The horse is in a paddock, the bear in an enclosure, the eagle in an aviary, and the dining table is part of a viewing area for the owner.",
+          "object_interpretations": {
+            "horse": {
+              "form": "real horse",
+              "scale": "normal",
+              "role": "exhibited animal"
+            },
+            "bear": {
+              "form": "real bear",
+              "scale": "normal",
+              "role": "exhibited animal"
+            },
+            "eagle": {
+              "form": "real eagle",
+              "scale": "normal",
+              "role": "exhibited animal"
+            },
+            "dining table": {
+              "form": "elegant dining table",
+              "scale": "normal",
+              "role": "owner's viewing station"
+            }
+          }
+        },
+        {
+          "scene_type": "Fantasy banquet hall",
+          "plausibility": 0.75,
+          "reasoning": "A grand hall where animals are anthropomorphic guests. The horse stands tall like a noble guest, the bear sits at the table, the eagle perches on a chair, and the dining table is the centerpiece of a magical feast.",
+          "object_interpretations": {
+            "horse": {
+              "form": "anthropomorphic horse",
+              "scale": "normal",
+              "role": "noble guest"
+            },
+            "bear": {
+              "form": "anthropomorphic bear",
+              "scale": "normal",
+              "role": "seated guest"
+            },
+            "eagle": {
+              "form": "anthropomorphic eagle",
+              "scale": "normal",
+              "role": "perched guest"
+            },
+            "dining table": {
+              "form": "grand banquet table",
+              "scale": "normal",
+              "role": "centerpiece"
+            }
+          },
+          "scene_brief": "A Fantasy banquet hall featuring horse, with bear, eagle, and dining table"
+        },
+        {
+          "scene_type": "Post-Impressionist museum diorama",
+          "plausibility": 0.8,
+          "reasoning": "A natural history museum display featuring taxidermy animals. The horse, bear, and eagle are all preserved specimens arranged in a habitat, with the dining table as part of the exhibit labeling or visitor area.",
+          "object_interpretations": {
+            "horse": {
+              "form": "taxidermy horse",
+              "scale": "normal",
+              "role": "museum specimen"
+            },
+            "bear": {
+              "form": "taxidermy bear",
+              "scale": "normal",
+              "role": "museum specimen"
+            },
+            "eagle": {
+              "form": "taxidermy eagle",
+              "scale": "normal",
+              "role": "museum specimen"
+            },
+            "dining table": {
+              "form": "display table",
+              "scale": "normal",
+              "role": "exhibit furniture"
+            }
+          }
+        },
+        {
+          "scene_type": "Rural farmyard",
+          "plausibility": 0.9,
+          "reasoning": "A working farm where the horse is a labor animal. The bear could be a rare visitor or a farm mascot, the eagle could be a wild bird overhead, and the dining table could be an outdoor table for farm workers.",
+          "object_interpretations": {
+            "horse": {
+              "form": "real workhorse",
+              "scale": "normal",
+              "role": "farm laborer"
+            },
+            "bear": {
+              "form": "wild bear or mascot",
+              "scale": "normal",
+              "role": "visitor/mascot"
+            },
+            "eagle": {
+              "form": "wild eagle",
+              "scale": "normal",
+              "role": "overhead predator"
+            },
+            "dining table": {
+              "form": "outdoor wooden table",
+              "scale": "normal",
+              "role": "worker seating"
+            }
+          }
+        },
+        {
+          "scene_type": "Surreal dreamscape",
+          "plausibility": 0.7,
+          "reasoning": "A dreamlike landscape where scale and reality are fluid. The horse is a giant figure, the bear is a small companion, the eagle flies through floating furniture, and the dining table is suspended in air.",
+          "object_interpretations": {
+            "horse": {
+              "form": "real horse",
+              "scale": "giant",
+              "role": "dream figure"
+            },
+            "bear": {
+              "form": "real bear",
+              "scale": "small",
+              "role": "companion"
+            },
+            "eagle": {
+              "form": "real eagle",
+              "scale": "normal",
+              "role": "flying element"
+            },
+            "dining table": {
+              "form": "floating table",
+              "scale": "normal",
+              "role": "surreal element"
+            }
+          }
+        }
+      ],
+      "selected_scene": {
+        "scene_type": "Fantasy banquet hall",
+        "plausibility": 0.75,
+        "reasoning": "A grand hall where animals are anthropomorphic guests. The horse stands tall like a noble guest, the bear sits at the table, the eagle perches on a chair, and the dining table is the centerpiece of a magical feast.",
+        "object_interpretations": {
+          "horse": {
+            "form": "anthropomorphic horse",
+            "scale": "normal",
+            "role": "noble guest"
+          },
+          "bear": {
+            "form": "anthropomorphic bear",
+            "scale": "normal",
+            "role": "seated guest"
+          },
+          "eagle": {
+            "form": "anthropomorphic eagle",
+            "scale": "normal",
+            "role": "perched guest"
+          },
+          "dining table": {
+            "form": "grand banquet table",
+            "scale": "normal",
+            "role": "centerpiece"
+          }
+        },
+        "scene_brief": "A Fantasy banquet hall featuring horse, with bear, eagle, and dining table"
+      }
+    }
+  },
+  "final_prompts": {
+    "main_prompt": "A Post-Impressionism painting depicting a calm evening scene in a gentle, moody atmosphere with mixed soft lighting. In the foreground, a large, calm and alert horse with a warm chestnut brown coat and deep indigo shadows stands next to a dominant, peaceful and still bear in rich umber brown with violet-black shadows. Behind them, a large, well-used but elegant dining table in honey-gold and mahogany brown occupies the midground, with the bear positioned behind it and the horse also standing behind the table's edge. On the table's surface, a medium-sized, composed and watchful eagle with burnished bronze feathers and deep slate gray accents perches gracefully. The scene is rendered with visible brushstrokes and expressive color harmonies, capturing the relaxed, calm mood of the twilight hour through textured surfaces of fur, hide, feathers, and polished hardwood.",
+    "negative_prompt": "photorealistic, 3d render, modern, digital art, photograph, low quality, blurry, distorted, cartoon, anime, surreal, abstract, deformed, ugly, bad anatomy, extra limbs, disfigured, watermark, signature, text, frame",
+    "prompt_formats": {
+      "simple": "A Post-Impressionism painting of a horse, bear, eagle, and dining table arranged in a calm evening scene with soft lighting.",
+      "complex": "A Post-Impressionism painting depicting a calm evening scene in a gentle, moody atmosphere with mixed soft lighting. In the foreground, a large, calm and alert horse with a warm chestnut brown coat and deep indigo shadows stands next to a dominant, peaceful and still bear in rich umber brown with violet-black shadows. Behind them, a large, well-used but elegant dining table in honey-gold and mahogany brown occupies the midground, with the bear positioned behind it and the horse also standing behind the table's edge. On the table's surface, a medium-sized, composed and watchful eagle with burnished bronze feathers and deep slate gray accents perches gracefully. The scene is rendered with visible brushstrokes and expressive color harmonies, capturing the relaxed, calm mood of the twilight hour through textured surfaces of fur, hide, feathers, and polished hardwood.",
+      "comma_separated": "Post-Impressionism painting, horse, bear, eagle, dining table, large horse, dominant bear, medium eagle, large table, warm chestnut brown, rich umber brown, burnished bronze, honey-gold mahogany, evening, mixed soft lighting, calm, relaxed, moody, gentle atmosphere, foreground, midground, spatial arrangement, textured fur, hide, feathers, polished hardwood, expressive brushstrokes, color harmony",
+      "tags": "art, painting, post-impressionism, animal painting, still life, evening scene, calm atmosphere, textured details, expressive colors, Vincent van Gogh style, Paul C\u00e9zanne influence, natural lighting, composition, foreground midground"
+    }
+  }
+}

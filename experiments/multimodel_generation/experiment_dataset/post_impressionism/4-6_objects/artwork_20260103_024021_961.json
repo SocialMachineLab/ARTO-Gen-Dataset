@@ -1,0 +1,377 @@
+{
+  "artwork_id": "artwork_20260103_024021_961",
+  "generation_timestamp": "2026-01-03T02:41:05.504593",
+  "style": "Post-Impressionism",
+  "objects": {
+    "object_ids": [
+      16,
+      46,
+      61,
+      22,
+      72
+    ],
+    "object_names": [
+      "cat",
+      "bowl",
+      "round table",
+      "bear",
+      "sink"
+    ],
+    "enhanced_objects": [
+      {
+        "object_id": 16,
+        "name": "cat",
+        "artistic_description": "A sleek feline form rendered in dappled sunlight, with fur catching warm golden highlights and cool violet shadows. The coat shows rich tonal variations from cream to deep amber where sun penetrates the patio foliage, creating a mosaic of light and shadow that animates the living form.",
+        "size": "Medium",
+        "state": "alert and relaxed, basking in warm afternoon light",
+        "primary_colors": [
+          "golden cream",
+          "warm amber"
+        ],
+        "material": "fur"
+      },
+      {
+        "object_id": 46,
+        "name": "bowl",
+        "artistic_description": "A ceramic vessel glowing with translucent warmth where sunlight passes through its thin rim, casting a soft amber radiance against the table surface. The glaze reflects scattered highlights of pure white sunburst, while the interior holds deep, cool shadows in muted violet and blue.",
+        "size": "Small",
+        "state": "empty and clean, catching brilliant specular highlights",
+        "primary_colors": [
+          "translucent amber",
+          "cool violet"
+        ],
+        "material": "ceramic"
+      },
+      {
+        "object_id": 61,
+        "name": "round table",
+        "artistic_description": "A weathered wooden surface alive with Post-Impressionist texture, showing thick impasto strokes of warm sienna and burnt umber where sunlight strikes directly. The tabletop becomes a canvas of saturated color\u2014rich ochres bleeding into deep cobalt shadows, with visible wood grain rendered as rhythmic dark lines against the luminous surface.",
+        "size": "Large",
+        "state": "sun-warmed and slightly weathered from outdoor exposure",
+        "primary_colors": [
+          "burnt sienna",
+          "deep ochre"
+        ],
+        "material": "wood"
+      },
+      {
+        "object_id": 22,
+        "name": "bear",
+        "artistic_description": "A sculptural bear form rendered with bold, expressive strokes in rich chocolate browns and deep umbers. Sunlight ignites the textured surface with fiery copper highlights, while the shaded areas plunge into mysterious indigo depths. The form appears both solid and painterly, with visible brushwork suggesting fur texture through rhythmic dark accents.",
+        "size": "Large",
+        "state": "static and decorative, casting a crisp shadow",
+        "primary_colors": [
+          "rich chocolate",
+          "warm copper"
+        ],
+        "material": "stone or resin"
+      },
+      {
+        "object_id": 72,
+        "name": "sink",
+        "artistic_description": "A porcelain basin exploding with light, its white surface transformed into a symphony of blues\u2014cerulean, cobalt, and periwinkle where the sky reflects. The sunlit rim blazes with pure titanium white and pale lemon, while the basin's interior holds deep, contemplative shadows in ultramarine and violet, creating dramatic contrast against the brilliant exterior.",
+        "size": "Medium",
+        "state": "gleaming and wet, with water spots catching prismatic light",
+        "primary_colors": [
+          "pure white",
+          "cerulean blue"
+        ],
+        "material": "porcelain"
+      }
+    ]
+  },
+  "composition": {
+    "spatial_relations": [
+      [
+        16,
+        "beside",
+        46
+      ],
+      [
+        46,
+        "on",
+        61
+      ],
+      [
+        61,
+        "beside",
+        22
+      ],
+      [
+        22,
+        "beside",
+        72
+      ],
+      [
+        16,
+        "near",
+        46
+      ],
+      [
+        22,
+        "near",
+        72
+      ]
+    ],
+    "semantic_relations": []
+  },
+  "environment": {
+    "environment_details": {
+      "scene_brief": "A Garden Patio featuring cat, with bowl, round table, bear, and sink",
+      "place365_name": "/r/roof_garden",
+      "place365_id": 290,
+      "time_of_day": "afternoon",
+      "weather": "sunny",
+      "period": "Contemporary",
+      "is_indoor": false,
+      "lighting": {
+        "type": "natural",
+        "quality": "harsh",
+        "direction": "side-lit",
+        "mood": "warm",
+        "reasoning": "Harsh, direct sunlight in the afternoon creates strong shadows and highlights, perfect for the Post-Impressionist technique of using bold, flat shapes and contrasting colors to define form. Side-lighting from the sun would sculpt the objects (cat, bowl, bear) and the architecture of the patio, creating a dynamic composition."
+      },
+      "atmosphere": "bright and active and cheerful"
+    },
+    "scene_inference": {
+      "all_candidates": [
+        {
+          "scene_type": "Cozy Kitchen",
+          "plausibility": 0.95,
+          "reasoning": "A domestic kitchen scene. The cat is the primary object, likely eating from its bowl. The round table is a kitchen table. The bear could be a plush toy on a chair. The sink is a standard kitchen fixture.",
+          "object_interpretations": {
+            "cat": {
+              "form": "real animal",
+              "scale": "normal",
+              "role": "primary subject"
+            },
+            "bowl": {
+              "form": "real object",
+              "scale": "normal",
+              "role": "functional item for cat"
+            },
+            "round table": {
+              "form": "real furniture",
+              "scale": "normal",
+              "role": "setting element"
+            },
+            "bear": {
+              "form": "plush toy",
+              "scale": "small",
+              "role": "decorative/child's toy"
+            },
+            "sink": {
+              "form": "real appliance",
+              "scale": "normal",
+              "role": "background fixture"
+            }
+          }
+        },
+        {
+          "scene_type": "Art Studio",
+          "plausibility": 0.9,
+          "reasoning": "A Post-Impressionist artist's studio. The cat is a sleeping model on the round table. The bowl contains paint water (replacing the sink function). The bear is a small figurine or toy. The sink is present in the corner of the studio.",
+          "object_interpretations": {
+            "cat": {
+              "form": "real animal",
+              "scale": "normal",
+              "role": "artist's model"
+            },
+            "bowl": {
+              "form": "art supply",
+              "scale": "normal",
+              "role": "paint water container"
+            },
+            "round table": {
+              "form": "real furniture",
+              "scale": "normal",
+              "role": "work surface/model perch"
+            },
+            "bear": {
+              "form": "figurine",
+              "scale": "small",
+              "role": "studio prop"
+            },
+            "sink": {
+              "form": "real fixture",
+              "scale": "normal",
+              "role": "utility in studio"
+            }
+          }
+        },
+        {
+          "scene_type": "Vintage Diner",
+          "plausibility": 0.85,
+          "reasoning": "A retro diner setting. The cat is a stray or pet wandering the floor. The round table is a booth table. The bowl is a water bowl left out. The bear is a vintage arcade prize. The sink is behind the counter.",
+          "object_interpretations": {
+            "cat": {
+              "form": "real animal",
+              "scale": "normal",
+              "role": "wandering patron"
+            },
+            "bowl": {
+              "form": "real object",
+              "scale": "normal",
+              "role": "water dish"
+            },
+            "round table": {
+              "form": "real furniture",
+              "scale": "normal",
+              "role": "dining table"
+            },
+            "bear": {
+              "form": "stuffed toy",
+              "scale": "small",
+              "role": "prize/decoration"
+            },
+            "sink": {
+              "form": "real appliance",
+              "scale": "normal",
+              "role": "background element"
+            }
+          }
+        },
+        {
+          "scene_type": "Bathroom",
+          "plausibility": 0.8,
+          "reasoning": "A domestic bathroom. The cat is sitting on the round table (stool). The bowl is a wash basin. The bear is a bath toy. The sink is the main vanity.",
+          "object_interpretations": {
+            "cat": {
+              "form": "real animal",
+              "scale": "normal",
+              "role": "primary subject"
+            },
+            "bowl": {
+              "form": "real object",
+              "scale": "normal",
+              "role": "wash basin"
+            },
+            "round table": {
+              "form": "stool/ottoman",
+              "scale": "normal",
+              "role": "seating"
+            },
+            "bear": {
+              "form": "rubber toy",
+              "scale": "small",
+              "role": "bath accessory"
+            },
+            "sink": {
+              "form": "real fixture",
+              "scale": "normal",
+              "role": "main fixture"
+            }
+          }
+        },
+        {
+          "scene_type": "Surreal Dreamscape",
+          "plausibility": 0.7,
+          "reasoning": "A Post-Impressionist/Surreal interpretation. The cat is oversized or stylized. The bowl floats in air. The round table is tilted. The bear is a giant shadow. The sink flows with stars.",
+          "object_interpretations": {
+            "cat": {
+              "form": "stylized animal",
+              "scale": "variable",
+              "role": "dream figure"
+            },
+            "bowl": {
+              "form": "abstract object",
+              "scale": "variable",
+              "role": "floating element"
+            },
+            "round table": {
+              "form": "geometric shape",
+              "scale": "normal",
+              "role": "platform"
+            },
+            "bear": {
+              "form": "shadow/ghost",
+              "scale": "large",
+              "role": "surreal presence"
+            },
+            "sink": {
+              "form": "abstract fixture",
+              "scale": "normal",
+              "role": "flowing element"
+            }
+          }
+        },
+        {
+          "scene_type": "Garden Patio",
+          "plausibility": 0.85,
+          "reasoning": "An outdoor garden setting. The cat lounges on the round table. The bowl is a water dish on the ground. The bear is a topiary sculpture. The sink is an outdoor utility sink.",
+          "object_interpretations": {
+            "cat": {
+              "form": "real animal",
+              "scale": "normal",
+              "role": "lounger"
+            },
+            "bowl": {
+              "form": "real object",
+              "scale": "normal",
+              "role": "pet water dish"
+            },
+            "round table": {
+              "form": "garden furniture",
+              "scale": "normal",
+              "role": "seating surface"
+            },
+            "bear": {
+              "form": "topiary/plant",
+              "scale": "normal",
+              "role": "garden decoration"
+            },
+            "sink": {
+              "form": "utility fixture",
+              "scale": "normal",
+              "role": "garden utility"
+            }
+          },
+          "scene_brief": "A Garden Patio featuring cat, with bowl, round table, bear, and sink"
+        }
+      ],
+      "selected_scene": {
+        "scene_type": "Garden Patio",
+        "plausibility": 0.85,
+        "reasoning": "An outdoor garden setting. The cat lounges on the round table. The bowl is a water dish on the ground. The bear is a topiary sculpture. The sink is an outdoor utility sink.",
+        "object_interpretations": {
+          "cat": {
+            "form": "real animal",
+            "scale": "normal",
+            "role": "lounger"
+          },
+          "bowl": {
+            "form": "real object",
+            "scale": "normal",
+            "role": "pet water dish"
+          },
+          "round table": {
+            "form": "garden furniture",
+            "scale": "normal",
+            "role": "seating surface"
+          },
+          "bear": {
+            "form": "topiary/plant",
+            "scale": "normal",
+            "role": "garden decoration"
+          },
+          "sink": {
+            "form": "utility fixture",
+            "scale": "normal",
+            "role": "garden utility"
+          }
+        },
+        "scene_brief": "A Garden Patio featuring cat, with bowl, round table, bear, and sink"
+      }
+    }
+  },
+  "final_prompts": {
+    "main_prompt": "A Post-Impressionism painting depicting a bright and active afternoon scene in a cheerful domestic interior. In the foreground, a large round table of burnt sienna and deep ochre wood sits sun-warmed and slightly weathered, its surface holding a small translucent amber bowl with cool violet highlights that sits empty and clean. Beside the table, a medium golden cream cat with warm amber fur rests alert yet relaxed on the floor. Next to the cat, a large decorative bear statue in rich chocolate and warm copper tones stands static and watchful. Adjacent to the bear, a medium-sized sink of pure white porcelain gleams with wet cerulean blue accents, catching the harsh natural afternoon light that streams through a window. The spatial arrangement shows the cat positioned next to the bowl, the bowl resting upon the round table, the table placed beside the bear, and the bear standing next to the sink, all connected in a cohesive composition. The atmosphere is bright and cheerful with active brushstrokes capturing the interplay of light on varied materials\u2014fur, ceramic, wood, resin, and porcelain\u2014in the distinctive Post-Impressionist style with vibrant color contrasts and expressive forms.",
+    "negative_prompt": "photorealistic, 3d render, modern, digital art, photograph, low quality, blurry, distorted, ugly, deformed, text, watermark, signature, frame, border, cartoon, anime, sketch, grayscale, monochrome, dark, gloomy, sad, depressing",
+    "prompt_formats": {
+      "simple": "A Post-Impressionist painting of a cheerful afternoon interior with a cat, bowl on a round table, bear statue, and sink in vibrant colors.",
+      "complex": "A Post-Impressionism painting depicting a bright and active afternoon scene in a cheerful domestic interior. In the foreground, a large round table of burnt sienna and deep ochre wood sits sun-warmed and slightly weathered, its surface holding a small translucent amber bowl with cool violet highlights that sits empty and clean. Beside the table, a medium golden cream cat with warm amber fur rests alert yet relaxed on the floor. Next to the cat, a large decorative bear statue in rich chocolate and warm copper tones stands static and watchful. Adjacent to the bear, a medium-sized sink of pure white porcelain gleams with wet cerulean blue accents, catching the harsh natural afternoon light that streams through a window. The spatial arrangement shows the cat positioned next to the bowl, the bowl resting upon the round table, the table placed beside the bear, and the bear standing next to the sink, all connected in a cohesive composition. The atmosphere is bright and cheerful with active brushstrokes capturing the interplay of light on varied materials\u2014fur, ceramic, wood, resin, and porcelain\u2014in the distinctive Post-Impressionist style with vibrant color contrasts and expressive forms.",
+      "comma_separated": "Post-Impressionism painting, afternoon interior, bright cheerful atmosphere, harsh natural lighting, golden cream cat alert relaxed, translucent amber bowl empty clean on table, large burnt sienna round table sun-warmed weathered, chocolate brown bear statue decorative static, white porcelain sink gleaming wet cerulean blue, spatial relationships: cat next to bowl, bowl on table, table next to bear, bear next to sink, vibrant colors, expressive brushstrokes, domestic scene",
+      "tags": "art, painting, post-impressionism, vincent van gogh style, paul c\u00e9zanne style, expressive brushwork, color theory, domestic interior, still life with animals, afternoon light, cheerful atmosphere, vibrant palette, textured surface, composition, foreground midground background"
+    }
+  }
+}

@@ -1,0 +1,55 @@
+{
+    "qwen": {
+        "model_id": "Qwen/Qwen-Image",
+        "model_type": "qwen",
+        "display_name": "Qwen-Image",
+        "default_params": {
+            "num_inference_steps": 80,
+            "true_cfg_scale": 3.5,
+            "width": 1024,
+            "height": 1024
+        },
+        "adaptive_cfg": {
+            "enabled": true,
+            "obj_count_thresholds": {
+                "1-4": 3.5,
+                "5-8": 4.0,
+                "9+": 4.5
+            }
+        }
+    },
+    "flux": {
+        "model_id": "black-forest-labs/FLUX.1-dev",
+        "model_type": "flux",
+        "display_name": "FLUX.1-Dev",
+        "default_params": {
+            "num_inference_steps": 50,
+            "guidance_scale": 3.5,
+            "max_sequence_length": 512,
+            "width": 1024,
+            "height": 1024
+        }
+    },
+    "sd35": {
+        "model_id": "stabilityai/stable-diffusion-3.5-large",
+        "model_type": "sd3",
+        "display_name": "SD 3.5 Large",
+        "default_params": {
+            "num_inference_steps": 50,
+            "guidance_scale": 4.5,
+            "width": 1024,
+            "height": 1024
+        }
+    },
+    "sdxl": {
+        "model_id": "stabilityai/stable-diffusion-xl-base-1.0",
+        "model_type": "sdxl",
+        "display_name": "SDXL Base 1.0",
+        "default_params": {
+            "num_inference_steps": 50,
+            "guidance_scale": 7.5,
+            "width": 1024,
+            "height": 1024
+        }
+    }
+}

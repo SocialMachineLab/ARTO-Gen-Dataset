@@ -1,0 +1,431 @@
+{
+  "artwork_id": "artwork_20260115_020954_877",
+  "generation_timestamp": "2026-01-15T02:10:53.055804",
+  "style": "Post-Impressionism",
+  "objects": {
+    "object_ids": [
+      10,
+      16,
+      40,
+      75,
+      74
+    ],
+    "object_names": [
+      "lamp post",
+      "cat",
+      "canteen",
+      "clock",
+      "book"
+    ],
+    "enhanced_objects": [
+      {
+        "object_id": 10,
+        "name": "lamp post",
+        "artistic_description": "Tall iron structure glowing with warm amber light that cuts through the gray dusk, casting long violet shadows on damp pavement. The painted metal shows chipped edges where rust blooms in ochre and umber tones, while the glass lamp housing catches the cool blue-gray of the cloudy sky in its upper facets",
+        "size": "Large",
+        "state": "weathered with chipped paint and rust spots, functional",
+        "primary_colors": [
+          "warm amber",
+          "cool violet"
+        ],
+        "material": "iron and glass"
+      },
+      {
+        "object_id": 16,
+        "name": "cat",
+        "artistic_description": "Sleek feline form rendered in deep indigo and charcoal shadows, with a single patch of fur catching the lamp's warm glow in muted gold and burnt sienna. Whiskers and edges of the ears are defined by sharp, dark lines against the subdued background, eyes reflecting twin points of amber light",
+        "size": "Medium",
+        "state": "alert and crouched, fur slightly ruffled by damp air",
+        "primary_colors": [
+          "indigo",
+          "burnt sienna"
+        ],
+        "material": "fur"
+      },
+      {
+        "object_id": 40,
+        "name": "canteen",
+        "artistic_description": "Aluminum vessel with a dulled, matte silver surface that diffuses the mixed light into soft gray highlights and cool blue shadows. The metal shows subtle dents and scratches that catch light differently, creating a mosaic of tonal variations across its curved form, with condensation beads appearing as tiny dark dots",
+        "size": "Medium",
+        "state": "slightly dented and worn from use, cool to touch",
+        "primary_colors": [
+          "muted silver",
+          "cool blue-gray"
+        ],
+        "material": "aluminum"
+      },
+      {
+        "object_id": 75,
+        "name": "clock",
+        "artistic_description": "Circular face glowing with creamy off-white luminescence against the deepening twilight, its Roman numerals rendered in bold strokes of Payne's gray. The brass hands catch the lamp's warmth in muted gold tones, while the weathered wooden frame shows deep cracks filled with shadow",
+        "size": "Medium",
+        "state": "patinated with age, still functional",
+        "primary_colors": [
+          "creamy white",
+          "Payne's gray"
+        ],
+        "material": "wood and brass"
+      },
+      {
+        "object_id": 74,
+        "name": "book",
+        "artistic_description": "Lying open with pages that appear as a soft rectangle of warm ivory against the dark ground, the text rendered in loose, expressive strokes of sepia and deep brown. The cover shows faded cloth binding in desaturated forest green, edges softened and curled from moisture, with subtle texture visible in the paper grain",
+        "size": "Small",
+        "state": "weathered with softened, curled pages from damp air",
+        "primary_colors": [
+          "warm ivory",
+          "sepia"
+        ],
+        "material": "paper and cloth"
+      }
+    ]
+  },
+  "composition": {
+    "spatial_relations": [
+      [
+        10,
+        "beside",
+        75
+      ],
+      [
+        16,
+        "under",
+        10
+      ],
+      [
+        16,
+        "beside",
+        40
+      ],
+      [
+        40,
+        "on",
+        74
+      ]
+    ],
+    "semantic_relations": []
+  },
+  "environment": {
+    "environment_details": {
+      "scene_brief": "A Park at Dusk featuring lamp post, with cat, canteen, clock, and book",
+      "place365_name": "/p/park",
+      "place365_id": 254,
+      "time_of_day": "evening",
+      "weather": "cloudy",
+      "period": "Contemporary",
+      "is_indoor": false,
+      "lighting": {
+        "type": "mixed",
+        "quality": "dramatic",
+        "direction": "side-lit",
+        "mood": "cool",
+        "reasoning": "The lighting is 'mixed' (natural twilight and artificial lamp). The 'dramatic' quality arises from the contrast between the dim, cool ambient twilight and the warm, focused glow of the lamp post. This high-contrast lighting is ideal for Post-Impressionist techniques like Pointillism, where color relationships create form and light."
+      },
+      "atmosphere": "calm and relaxed and subdued and striking"
+    },
+    "scene_inference": {
+      "all_candidates": [
+        {
+          "scene_type": "City Street Corner",
+          "plausibility": 0.95,
+          "reasoning": "A lamp post stands on a city street. A stray cat sits near its base. A clock is visible on a nearby building. A person with a canteen and book sits on a bench under the lamplight.",
+          "object_interpretations": {
+            "lamp post": {
+              "form": "real street lamp",
+              "scale": "normal",
+              "role": "primary light source"
+            },
+            "cat": {
+              "form": "real animal",
+              "scale": "normal",
+              "role": "street inhabitant"
+            },
+            "canteen": {
+              "form": "real metal flask",
+              "scale": "normal",
+              "role": "personal belonging"
+            },
+            "clock": {
+              "form": "real clock face",
+              "scale": "normal",
+              "role": "urban fixture"
+            },
+            "book": {
+              "form": "real paperback",
+              "scale": "normal",
+              "role": "reading material"
+            }
+          }
+        },
+        {
+          "scene_type": "Vintage Library Reading Nook",
+          "plausibility": 0.9,
+          "reasoning": "An antique desk lamp (lamp post style) illuminates a reading nook. A cat sleeps on a stack of books. A travel canteen sits next to an open book. A grandfather clock is visible in the background.",
+          "object_interpretations": {
+            "lamp post": {
+              "form": "desk lamp (post style)",
+              "scale": "normal",
+              "role": "task lighting"
+            },
+            "cat": {
+              "form": "real domestic cat",
+              "scale": "normal",
+              "role": "companion"
+            },
+            "canteen": {
+              "form": "vintage metal flask",
+              "scale": "normal",
+              "role": "decorative accessory"
+            },
+            "clock": {
+              "form": "grandfather clock",
+              "scale": "large",
+              "role": "background element"
+            },
+            "book": {
+              "form": "hardcover book",
+              "scale": "normal",
+              "role": "primary object"
+            }
+          }
+        },
+        {
+          "scene_type": "Art Studio",
+          "plausibility": 0.85,
+          "reasoning": "A studio lamp post illuminates a painting setup. A cat watches from a stool. A canteen and book are on a work table. A wall clock marks time.",
+          "object_interpretations": {
+            "lamp post": {
+              "form": "studio lighting stand",
+              "scale": "normal",
+              "role": "artist's lighting"
+            },
+            "cat": {
+              "form": "real cat",
+              "scale": "normal",
+              "role": "studio mascot"
+            },
+            "canteen": {
+              "form": "artist's water canteen",
+              "scale": "normal",
+              "role": "studio supply"
+            },
+            "clock": {
+              "form": "wall clock",
+              "scale": "normal",
+              "role": "timekeeper"
+            },
+            "book": {
+              "form": "art reference book",
+              "scale": "normal",
+              "role": "creative resource"
+            }
+          }
+        },
+        {
+          "scene_type": "Park at Dusk",
+          "plausibility": 0.9,
+          "reasoning": "A park lamp post lights a pathway. A cat prowls in the grass. A hiker's canteen and field guide book are on a nearby bench.",
+          "object_interpretations": {
+            "lamp post": {
+              "form": "park street lamp",
+              "scale": "normal",
+              "role": "path lighting"
+            },
+            "cat": {
+              "form": "wild/stray cat",
+              "scale": "normal",
+              "role": "wildlife"
+            },
+            "canteen": {
+              "form": "hiking canteen",
+              "scale": "normal",
+              "role": "outdoor gear"
+            },
+            "clock": {
+              "form": "pocket watch",
+              "scale": "small",
+              "role": "personal item"
+            },
+            "book": {
+              "form": "field guide",
+              "scale": "normal",
+              "role": "reference material"
+            }
+          },
+          "scene_brief": "A Park at Dusk featuring lamp post, with cat, canteen, clock, and book"
+        },
+        {
+          "scene_type": "Train Station Platform",
+          "plausibility": 0.85,
+          "reasoning": "A platform lamp post stands near tracks. A station cat wanders. A traveler holds a canteen and reads a book. A station clock shows the time.",
+          "object_interpretations": {
+            "lamp post": {
+              "form": "platform lamp",
+              "scale": "normal",
+              "role": "station lighting"
+            },
+            "cat": {
+              "form": "station cat",
+              "scale": "normal",
+              "role": "mascot"
+            },
+            "canteen": {
+              "form": "traveler's flask",
+              "scale": "normal",
+              "role": "travel accessory"
+            },
+            "clock": {
+              "form": "station clock",
+              "scale": "large",
+              "role": "departure time"
+            },
+            "book": {
+              "form": "paperback novel",
+              "scale": "normal",
+              "role": "waiting activity"
+            }
+          }
+        },
+        {
+          "scene_type": "Post-Impressionist Street Scene",
+          "plausibility": 0.8,
+          "reasoning": "A stylized lamp post dominates a cobblestone street. A cat is rendered in geometric forms. A canteen and book sit on a wrought iron table. A clock tower is visible.",
+          "object_interpretations": {
+            "lamp post": {
+              "form": "stylized street lamp",
+              "scale": "normal",
+              "role": "compositional anchor"
+            },
+            "cat": {
+              "form": "stylized animal",
+              "scale": "normal",
+              "role": "decorative motif"
+            },
+            "canteen": {
+              "form": "decorative flask",
+              "scale": "normal",
+              "role": "table object"
+            },
+            "clock": {
+              "form": "stylized clock tower",
+              "scale": "distant",
+              "role": "background element"
+            },
+            "book": {
+              "form": "open book",
+              "scale": "normal",
+              "role": "still life element"
+            }
+          }
+        },
+        {
+          "scene_type": "Military Barracks Courtyard",
+          "plausibility": 0.85,
+          "reasoning": "A lamp post illuminates a courtyard. A barracks cat is present. A soldier's canteen and reading book are on a bench. A duty clock is on the wall.",
+          "object_interpretations": {
+            "lamp post": {
+              "form": "military style lamp",
+              "scale": "normal",
+              "role": "security lighting"
+            },
+            "cat": {
+              "form": "barracks cat",
+              "scale": "normal",
+              "role": "unit pet"
+            },
+            "canteen": {
+              "form": "military issue canteen",
+              "scale": "normal",
+              "role": "equipment"
+            },
+            "clock": {
+              "form": "wall clock",
+              "scale": "normal",
+              "role": "duty schedule"
+            },
+            "book": {
+              "form": "manual/book",
+              "scale": "normal",
+              "role": "study material"
+            }
+          }
+        },
+        {
+          "scene_type": "University Campus Quad",
+          "plausibility": 0.9,
+          "reasoning": "A campus lamp post lights a quad. A campus cat lounges. A student's canteen and textbook are on the grass.",
+          "object_interpretations": {
+            "lamp post": {
+              "form": "campus lamp",
+              "scale": "normal",
+              "role": "campus lighting"
+            },
+            "cat": {
+              "form": "campus cat",
+              "scale": "normal",
+              "role": "school mascot"
+            },
+            "canteen": {
+              "form": "water bottle",
+              "scale": "normal",
+              "role": "student accessory"
+            },
+            "clock": {
+              "form": "pocket watch",
+              "scale": "small",
+              "role": "timepiece"
+            },
+            "book": {
+              "form": "textbook",
+              "scale": "normal",
+              "role": "study material"
+            }
+          }
+        }
+      ],
+      "selected_scene": {
+        "scene_type": "Park at Dusk",
+        "plausibility": 0.9,
+        "reasoning": "A park lamp post lights a pathway. A cat prowls in the grass. A hiker's canteen and field guide book are on a nearby bench.",
+        "object_interpretations": {
+          "lamp post": {
+            "form": "park street lamp",
+            "scale": "normal",
+            "role": "path lighting"
+          },
+          "cat": {
+            "form": "wild/stray cat",
+            "scale": "normal",
+            "role": "wildlife"
+          },
+          "canteen": {
+            "form": "hiking canteen",
+            "scale": "normal",
+            "role": "outdoor gear"
+          },
+          "clock": {
+            "form": "pocket watch",
+            "scale": "small",
+            "role": "personal item"
+          },
+          "book": {
+            "form": "field guide",
+            "scale": "normal",
+            "role": "reference material"
+          }
+        },
+        "scene_brief": "A Park at Dusk featuring lamp post, with cat, canteen, clock, and book"
+      }
+    }
+  },
+  "final_prompts": {
+    "main_prompt": "A Post-Impressionism painting depicting a large, weathered lamp post with chipped paint and rust spots in warm amber and cool violet tones, standing next to a medium-sized clock patinated with age in creamy white and Payne's gray. Under the lamp post, a medium-sized alert and crouched cat in indigo and burnt sienna sits next to a medium, slightly dented canteen of muted silver and cool blue-gray, which rests atop a small, weathered book with softened edges in warm ivory and sepia. The scene is set in the evening with mixed dramatic lighting, casting long shadows and creating a calm, relaxed, subdued, yet striking atmosphere.",
+    "negative_prompt": "photorealistic, 3d render, modern, digital art, photograph, low quality, blurry, distorted",
+    "prompt_formats": {
+      "simple": "A Post-Impressionism evening scene with a lamp post, clock, cat, canteen, and book arranged in a calm, dramatic composition.",
+      "complex": "A Post-Impressionism painting depicting a large, weathered lamp post with chipped paint and rust spots in warm amber and cool violet tones, standing next to a medium-sized clock patinated with age in creamy white and Payne's gray. Under the lamp post, a medium-sized alert and crouched cat in indigo and burnt sienna sits next to a medium, slightly dented canteen of muted silver and cool blue-gray, which rests atop a small, weathered book with softened edges in warm ivory and sepia. The scene is set in the evening with mixed dramatic lighting, casting long shadows and creating a calm, relaxed, subdued, yet striking atmosphere.",
+      "comma_separated": "Post-Impressionism, lamp post, cat, canteen, clock, book, large, medium, small, weathered, alert, crouched, dented, patinated, warm amber, cool violet, indigo, burnt sienna, muted silver, cool blue-gray, creamy white, Payne's gray, warm ivory, sepia, evening, dramatic lighting, calm, relaxed, subdued, striking",
+      "tags": "art, painting, post-impressionism, lamp post, cat, canteen, clock, book, evening, dramatic lighting, calm atmosphere"
+    }
+  }
+}
