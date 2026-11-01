@@ -1,0 +1,413 @@
+{
+  "artwork_id": "artwork_20260103_170038_396",
+  "generation_timestamp": "2026-01-03T17:01:16.387424",
+  "style": "Impressionism",
+  "objects": {
+    "object_ids": [
+      26,
+      20,
+      46,
+      8,
+      45
+    ],
+    "object_names": [
+      "canopy",
+      "cow",
+      "pottery",
+      "cannon",
+      "spoon"
+    ],
+    "enhanced_objects": [
+      {
+        "object_id": 26,
+        "name": "canopy",
+        "artistic_description": "A delicate fabric canopy suspended in soft, diffused afternoon light filtering through museum windows, its translucent material catching gentle highlights in pale cream while shadows pool in muted sage green folds. The fabric appears to dissolve at the edges into atmospheric brushstrokes of warm gray and cool blue, creating a dreamy, ethereal quality where light and shadow blend seamlessly.",
+        "size": "Large",
+        "state": "gently aged but well-preserved, hanging with soft natural drape",
+        "primary_colors": [
+          "muted sage green",
+          "warm cream"
+        ],
+        "material": "silk"
+      },
+      {
+        "object_id": 20,
+        "name": "cow",
+        "artistic_description": "A museum model cow rendered in soft, cloudy light that flattens three-dimensional form into patches of warm ochre and cool gray-white. The painted surface absorbs and diffuses the mixed lighting, creating gentle transitions between light and shadow without harsh edges. Spots appear as soft dabs of ivory and pale taupe, blending into the overall form like a watercolor study.",
+        "size": "Medium",
+        "state": "taxidermy or sculpted model, museum-quality preservation with matte finish",
+        "primary_colors": [
+          "warm ochre",
+          "cool gray-white"
+        ],
+        "material": "papier-m\u00e2ch\u00e9 and paint"
+      },
+      {
+        "object_id": 46,
+        "name": "pottery",
+        "artistic_description": "A ceramic vessel catching scattered afternoon light on its curved surface, creating soft highlights in warm terracotta that fade into deep burnt sienna shadows. The glaze shows subtle variations where light pools in gentle ripples, with cool blue-gray reflections from the surrounding atmosphere. The surface appears slightly matte with occasional glints of soft amber where the glaze is most vitrified.",
+        "size": "Medium",
+        "state": "antique pottery with fine crazing and gentle wear on raised surfaces",
+        "primary_colors": [
+          "burnt sienna",
+          "warm terracotta"
+        ],
+        "material": "ceramic"
+      },
+      {
+        "object_id": 8,
+        "name": "cannon",
+        "artistic_description": "A bronze cannon barrel rendered in cool, cloudy light that mutes its metallic sheen to soft pewter and weathered olive tones. The diffuse lighting creates gentle gradations across the curved barrel without sharp reflections, while the aged patina shows subtle hints of verdigris in the recessed areas. The massive form appears to soften at the edges, blending into the surrounding atmosphere with impressionistic ambiguity.",
+        "size": "Large",
+        "state": "museum piece with aged patina, historical artifact in excellent condition",
+        "primary_colors": [
+          "weathered olive",
+          "soft pewter"
+        ],
+        "material": "bronze"
+      },
+      {
+        "object_id": 45,
+        "name": "spoon",
+        "artistic_description": "A small silver spoon lying on a surface, catching a single point of cool afternoon light that creates a sharp but brief highlight against the otherwise subdued metallic surface. The surrounding areas show muted gray tones with subtle hints of warm reflection from ambient light. The concave bowl gathers shadow in its depths, appearing as a soft dab of deep charcoal against the brighter surface.",
+        "size": "Small",
+        "state": "tarnished silver with gentle wear, museum display piece",
+        "primary_colors": [
+          "soft pewter",
+          "cool gray"
+        ],
+        "material": "silver"
+      }
+    ]
+  },
+  "composition": {
+    "spatial_relations": [
+      [
+        26,
+        "above",
+        20
+      ],
+      [
+        26,
+        "above",
+        46
+      ],
+      [
+        26,
+        "above",
+        8
+      ],
+      [
+        26,
+        "above",
+        45
+      ],
+      [
+        45,
+        "on",
+        46
+      ],
+      [
+        20,
+        "beside",
+        8
+      ],
+      [
+        8,
+        "beside",
+        46
+      ]
+    ],
+    "semantic_relations": []
+  },
+  "environment": {
+    "environment_details": {
+      "scene_brief": "A Victorian Museum Interior featuring canopy, with cow model, pottery, cannon, and spoon",
+      "place365_name": "/m/museum/indoor",
+      "place365_id": 236,
+      "time_of_day": "afternoon",
+      "weather": "cloudy",
+      "period": "Contemporary",
+      "is_indoor": true,
+      "lighting": {
+        "type": "mixed",
+        "quality": "soft",
+        "direction": "side-lit",
+        "reasoning": "A Victorian museum typically has large windows (side-lighting) supplemented by artificial lights. Combined with cloudy weather, this creates a soft, diffused lighting quality. This setup is perfect for Impressionism, allowing the artist to capture the play of light on the canopy, the texture of the pottery, and the metallic sheen of the cannon and spoon with vibrant, blended brushstrokes."
+      },
+      "atmosphere": "bright and active and subdued and gentle"
+    },
+    "scene_inference": {
+      "all_candidates": [
+        {
+          "scene_type": "Rural Farmyard",
+          "plausibility": 0.85,
+          "reasoning": "A canopy provides shade in a farmyard. A cow is a typical farm animal. Pottery could be earthenware vessels for milk or water. A cannon might be a historical relic or decoration. A spoon could be for feeding or milking.",
+          "object_interpretations": {
+            "canopy": {
+              "form": "fabric shelter",
+              "scale": "large",
+              "role": "shade provider"
+            },
+            "cow": {
+              "form": "live animal",
+              "scale": "normal",
+              "role": "livestock"
+            },
+            "pottery": {
+              "form": "clay vessels",
+              "scale": "medium",
+              "role": "storage"
+            },
+            "cannon": {
+              "form": "metal cannon",
+              "scale": "large",
+              "role": "historical artifact"
+            },
+            "spoon": {
+              "form": "wooden spoon",
+              "scale": "small",
+              "role": "utensil"
+            }
+          }
+        },
+        {
+          "scene_type": "Victorian Museum Interior",
+          "plausibility": 0.8,
+          "reasoning": "A canopy could be over a display case. A cow might be a taxidermy exhibit or a model. Pottery and a cannon are typical museum artifacts. A spoon could be part of a silverware collection.",
+          "object_interpretations": {
+            "canopy": {
+              "form": "velvet canopy",
+              "scale": "large",
+              "role": "display cover"
+            },
+            "cow": {
+              "form": "taxidermy/model",
+              "scale": "normal",
+              "role": "exhibit"
+            },
+            "pottery": {
+              "form": "antique ceramics",
+              "scale": "medium",
+              "role": "artifact"
+            },
+            "cannon": {
+              "form": "polished cannon",
+              "scale": "large",
+              "role": "military exhibit"
+            },
+            "spoon": {
+              "form": "silver spoon",
+              "scale": "small",
+              "role": "collection item"
+            }
+          },
+          "scene_brief": "A Victorian Museum Interior featuring canopy, with cow model, pottery, cannon, and spoon"
+        },
+        {
+          "scene_type": "Circus Tent",
+          "plausibility": 0.75,
+          "reasoning": "The main tent is a giant canopy. A cow could be a performing animal. Pottery might be props for a juggler. A cannon could be for a cannonball act. A spoon could be a prop for a clown.",
+          "object_interpretations": {
+            "canopy": {
+              "form": "canvas tent",
+              "scale": "huge",
+              "role": "main structure"
+            },
+            "cow": {
+              "form": "costumed performer",
+              "scale": "normal",
+              "role": "entertainer"
+            },
+            "pottery": {
+              "form": "juggling pots",
+              "scale": "medium",
+              "role": "prop"
+            },
+            "cannon": {
+              "form": "stage cannon",
+              "scale": "large",
+              "role": "stunt device"
+            },
+            "spoon": {
+              "form": "comical oversized spoon",
+              "scale": "large",
+              "role": "prop"
+            }
+          }
+        },
+        {
+          "scene_type": "Artistic Still Life",
+          "plausibility": 0.9,
+          "reasoning": "A canopy (awning) covers a market stall. A cow is represented by a statue or painting. Pottery sits on the table. A cannon is a miniature model. A spoon is a utensil on the table.",
+          "object_interpretations": {
+            "canopy": {
+              "form": "market awning",
+              "scale": "large",
+              "role": "background"
+            },
+            "cow": {
+              "form": "figurine",
+              "scale": "small",
+              "role": "decoration"
+            },
+            "pottery": {
+              "form": "vase",
+              "scale": "medium",
+              "role": "centerpiece"
+            },
+            "cannon": {
+              "form": "toy cannon",
+              "scale": "miniature",
+              "role": "decoration"
+            },
+            "spoon": {
+              "form": "silver spoon",
+              "scale": "small",
+              "role": "tableware"
+            }
+          }
+        },
+        {
+          "scene_type": "Outdoor Picnic",
+          "plausibility": 0.8,
+          "reasoning": "A canopy provides shade for the picnic. A cow is grazing in the distance. Pottery is the picnicware (plates/bowls). A cannon is a historical monument in the park. A spoon is for eating.",
+          "object_interpretations": {
+            "canopy": {
+              "form": "pop-up tent",
+              "scale": "large",
+              "role": "shelter"
+            },
+            "cow": {
+              "form": "grazing livestock",
+              "scale": "distant/normal",
+              "role": "background element"
+            },
+            "pottery": {
+              "form": "stoneware plates",
+              "scale": "medium",
+              "role": "dining ware"
+            },
+            "cannon": {
+              "form": "stone monument",
+              "scale": "large",
+              "role": "landmark"
+            },
+            "spoon": {
+              "form": "plastic spoon",
+              "scale": "small",
+              "role": "utensil"
+            }
+          }
+        },
+        {
+          "scene_type": "Fantasy Dragon's Lair",
+          "plausibility": 0.7,
+          "reasoning": "A canopy of vines covers the lair. A cow is a pet or food source for the dragon. Pottery is treasure. A cannon is a broken siege weapon. A spoon is a giant utensil for the dragon.",
+          "object_interpretations": {
+            "canopy": {
+              "form": "vine curtain",
+              "scale": "huge",
+              "role": "ceiling"
+            },
+            "cow": {
+              "form": "enchanted cow",
+              "scale": "normal",
+              "role": "pet"
+            },
+            "pottery": {
+              "form": "magic jars",
+              "scale": "medium",
+              "role": "treasure"
+            },
+            "cannon": {
+              "form": "rusted cannon",
+              "scale": "large",
+              "role": "obstacle"
+            },
+            "spoon": {
+              "form": "giant spoon",
+              "scale": "huge",
+              "role": "dragon's utensil"
+            }
+          }
+        },
+        {
+          "scene_type": "Beach Resort",
+          "plausibility": 0.75,
+          "reasoning": "Beach umbrellas act as canopies. A cow is a beach inflatable toy. Pottery is a decorative vase in the room. A cannon is a fortification on the beach. A spoon is for cocktails.",
+          "object_interpretations": {
+            "canopy": {
+              "form": "beach umbrella",
+              "scale": "medium",
+              "role": "sun shade"
+            },
+            "cow": {
+              "form": "inflatable toy",
+              "scale": "medium",
+              "role": "toy"
+            },
+            "pottery": {
+              "form": "clay pot",
+              "scale": "medium",
+              "role": "decoration"
+            },
+            "cannon": {
+              "form": "cannon replica",
+              "scale": "large",
+              "role": "scenic prop"
+            },
+            "spoon": {
+              "form": "cocktail spoon",
+              "scale": "small",
+              "role": "bar tool"
+            }
+          }
+        }
+      ],
+      "selected_scene": {
+        "scene_type": "Victorian Museum Interior",
+        "plausibility": 0.8,
+        "reasoning": "A canopy could be over a display case. A cow might be a taxidermy exhibit or a model. Pottery and a cannon are typical museum artifacts. A spoon could be part of a silverware collection.",
+        "object_interpretations": {
+          "canopy": {
+            "form": "velvet canopy",
+            "scale": "large",
+            "role": "display cover"
+          },
+          "cow": {
+            "form": "taxidermy/model",
+            "scale": "normal",
+            "role": "exhibit"
+          },
+          "pottery": {
+            "form": "antique ceramics",
+            "scale": "medium",
+            "role": "artifact"
+          },
+          "cannon": {
+            "form": "polished cannon",
+            "scale": "large",
+            "role": "military exhibit"
+          },
+          "spoon": {
+            "form": "silver spoon",
+            "scale": "small",
+            "role": "collection item"
+          }
+        },
+        "scene_brief": "A Victorian Museum Interior featuring canopy, with cow model, pottery, cannon, and spoon"
+      }
+    }
+  },
+  "final_prompts": {
+    "main_prompt": "A Impressionism painting depicting a bright and active yet subdued and gentle afternoon scene under a large, gently aged canopy in muted sage green and warm cream that shelters the entire composition. In the foreground, a medium-sized taxidermy cow in warm ochre and cool gray-white stands beside a large weathered cannon in olive and soft pewter, both museum pieces with aged patina. Next to the cannon sits medium-sized antique pottery in burnt sienna and warm terracotta with fine crazing, upon which rests a small tarnished silver spoon in soft pewter with gentle wear. The spatial arrangement shows the canopy positioned above all objects\u2014the cow, pottery, cannon, and spoon\u2014while the cow stands adjacent to the cannon, which in turn sits beside the pottery with the spoon resting atop it. Mixed soft afternoon light filters through the canopy, creating dappled patterns that highlight the textures of silk-like fabric, ceramic, bronze, and silver materials, with the overall atmosphere feeling both vibrant and peacefully gentle.",
+    "negative_prompt": "photorealistic, 3d render, modern, digital art, photograph, low quality, blurry, distorted, surreal, abstract, cartoon, anime, hyperrealistic, oversaturated, ugly, deformed, bad anatomy, text, watermark, signature",
+    "prompt_formats": {
+      "simple": "An Impressionist painting of a canopy sheltering a cow, cannon, pottery with a spoon, in soft afternoon light.",
+      "complex": "A Impressionism painting depicting a bright and active yet subdued and gentle afternoon scene under a large, gently aged canopy in muted sage green and warm cream that shelters the entire composition. In the foreground, a medium-sized taxidermy cow in warm ochre and cool gray-white stands beside a large weathered cannon in olive and soft pewter, both museum pieces with aged patina. Next to the cannon sits medium-sized antique pottery in burnt sienna and warm terracotta with fine crazing, upon which rests a small tarnished silver spoon in soft pewter with gentle wear. The spatial arrangement shows the canopy positioned above all objects\u2014the cow, pottery, cannon, and spoon\u2014while the cow stands adjacent to the cannon, which in turn sits beside the pottery with the spoon resting atop it. Mixed soft afternoon light filters through the canopy, creating dappled patterns that highlight the textures of silk-like fabric, ceramic, bronze, and silver materials, with the overall atmosphere feeling both vibrant and peacefully gentle.",
+      "comma_separated": "Impressionism painting, large canopy in sage green and cream, taxidermy cow in ochre and gray-white, antique pottery in burnt sienna and terracotta, weathered cannon in olive and pewter, tarnished silver spoon, canopy above all objects, cow next to cannon, cannon next to pottery, spoon on pottery, soft afternoon lighting, bright active subdued gentle atmosphere, dappled light, textured materials",
+      "tags": "art, painting, impressionism, impressionist art, Claude Monet style, Pierre-Auguste Renoir style, outdoor scene, still life with objects, canopy, cow, cannon, pottery, spoon, afternoon light, soft lighting, textured materials, museum pieces, antique objects, spatial composition"
+    }
+  }
+}

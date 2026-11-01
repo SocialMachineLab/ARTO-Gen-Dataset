@@ -1,0 +1,281 @@
+{
+  "artwork_id": "artwork_20260103_151402_227",
+  "generation_timestamp": "2026-01-03T15:14:36.863180",
+  "style": "Baroque",
+  "objects": {
+    "object_ids": [
+      59,
+      2,
+      3
+    ],
+    "object_names": [
+      "rose",
+      "wheel",
+      "horse cart"
+    ],
+    "enhanced_objects": [
+      {
+        "object_id": 59,
+        "name": "rose",
+        "artistic_description": "A lush, velvety rose in full bloom, its deep crimson petals catching the warm afternoon sunlight streaming through the window, creating luminous highlights and rich, saturated shadows within its folds. The petals appear slightly dewy, with tiny droplets refracting light like miniature jewels, while the edges show subtle hints of magenta where the light penetrates the translucent tissue. The central stamen glows with golden-yellow warmth against the velvety darkness of the interior.",
+        "size": "Medium",
+        "state": "freshly bloomed, slightly dewy from morning moisture still lingering",
+        "primary_colors": [
+          "crimson",
+          "magenta"
+        ],
+        "material": "organic floral tissue"
+      },
+      {
+        "object_id": 2,
+        "name": "wheel",
+        "artistic_description": "A miniature wooden wheel with iron rim gleaming brilliantly under the direct afternoon sun, casting a sharp, dark shadow on the surface below. The wood shows rich amber and chestnut tones where the light strikes the polished grain, while the metal rim creates dazzling specular highlights that almost overwhelm the eye. The spokes display a warm, honeyed glow with subtle varnish reflections, and dust motes dance in the shafts of light crossing its surface.",
+        "size": "Small",
+        "state": "well-worn toy with polished surfaces showing gentle aging",
+        "primary_colors": [
+          "amber",
+          "iron gray"
+        ],
+        "material": "wood and iron"
+      },
+      {
+        "object_id": 3,
+        "name": "horse cart",
+        "artistic_description": "A diminutive wooden horse cart painted in cheerful red lacquer that glows with intense warmth under the bright afternoon illumination, its surface reflecting the golden light with a glassy sheen. The miniature wheels cast intricate shadows that emphasize the Baroque love of chiaroscuro, while gilded accents on the harness details sparkle with pinpoint highlights. The carved wooden form shows rich, deep shadows in its crevices contrasting with brilliant illuminated planes, creating a dramatic interplay of light and dark that makes the toy appear both whimsical and monumental in the brilliant indoor light.",
+        "size": "Small",
+        "state": "decorative toy with vibrant paint showing gentle wear from handling",
+        "primary_colors": [
+          "vermillion",
+          "gold"
+        ],
+        "material": "painted wood with gilded details"
+      }
+    ]
+  },
+  "composition": {
+    "spatial_relations": [
+      [
+        59,
+        "on",
+        3
+      ],
+      [
+        2,
+        "beside",
+        3
+      ]
+    ],
+    "semantic_relations": []
+  },
+  "environment": {
+    "environment_details": {
+      "scene_brief": "A Baroque still life painting centered around rose, with toy wheel placed nearby, and toy horse cart as decoration",
+      "place365_name": "/p/pub/indoor",
+      "place365_id": 274,
+      "time_of_day": "afternoon",
+      "weather": "sunny",
+      "period": "Early modern",
+      "is_indoor": true,
+      "lighting": {
+        "type": "natural",
+        "quality": "dramatic",
+        "direction": "side-lit",
+        "mood": "warm",
+        "reasoning": "Side-lighting is the most effective direction to model the three-dimensional forms of the rose, toy wheel, and cart, creating deep shadows and highlighting textures. This lighting setup, combined with the 'afternoon' time and 'sunny' weather, produces the 'dramatic' quality and 'warm' mood essential to the Baroque aesthetic."
+      },
+      "atmosphere": "bright and active and cheerful and striking"
+    },
+    "scene_inference": {
+      "all_candidates": [
+        {
+          "scene_type": "Baroque still life painting",
+          "plausibility": 0.95,
+          "reasoning": "A classic Baroque still life composition. The rose is a central floral element, while the wheel and horse cart appear as miniature toy models or symbolic objects arranged on a table, creating a vanitas or allegorical theme.",
+          "object_interpretations": {
+            "rose": {
+              "form": "real flower",
+              "scale": "normal",
+              "role": "primary focal point"
+            },
+            "wheel": {
+              "form": "toy model",
+              "scale": "miniature",
+              "role": "symbolic object representing time or labor"
+            },
+            "horse cart": {
+              "form": "toy model",
+              "scale": "miniature",
+              "role": "decorative element representing travel or trade"
+            }
+          },
+          "scene_brief": "A Baroque still life painting centered around rose, with toy wheel placed nearby, and toy horse cart as decoration"
+        },
+        {
+          "scene_type": "Baroque garden",
+          "plausibility": 0.9,
+          "reasoning": "An ornate Baroque formal garden. A rose bush blooms in the foreground. In the background, a horse cart with wooden wheels travels along a gravel path, fitting the historical setting.",
+          "object_interpretations": {
+            "rose": {
+              "form": "real flower",
+              "scale": "normal",
+              "role": "natural garden element"
+            },
+            "wheel": {
+              "form": "real cart wheel",
+              "scale": "large",
+              "role": "functional part of the cart"
+            },
+            "horse cart": {
+              "form": "real vehicle",
+              "scale": "full-size",
+              "role": "transportation in the scene"
+            }
+          }
+        },
+        {
+          "scene_type": "Baroque country estate interior",
+          "plausibility": 0.85,
+          "reasoning": "A wealthy estate interior with rich fabrics and dark wood. A rose is in a decorative vase on a table. A detailed model of a horse cart with a wheel sits on a shelf as a collector's item.",
+          "object_interpretations": {
+            "rose": {
+              "form": "real flower",
+              "scale": "normal",
+              "role": "decorative centerpiece"
+            },
+            "wheel": {
+              "form": "model part",
+              "scale": "miniature",
+              "role": "part of the cart model"
+            },
+            "horse cart": {
+              "form": "detailed model",
+              "scale": "small",
+              "role": "collector's display object"
+            }
+          }
+        },
+        {
+          "scene_type": "Baroque market square",
+          "plausibility": 0.8,
+          "reasoning": "A bustling historical market scene. A flower merchant sells roses. Nearby, a horse cart is parked, its wheel visible as the merchant arranges goods.",
+          "object_interpretations": {
+            "rose": {
+              "form": "real flower",
+              "scale": "normal",
+              "role": "market commodity"
+            },
+            "wheel": {
+              "form": "real cart wheel",
+              "scale": "large",
+              "role": "functional component"
+            },
+            "horse cart": {
+              "form": "real vehicle",
+              "scale": "full-size",
+              "role": "transport and display for goods"
+            }
+          }
+        },
+        {
+          "scene_type": "Baroque allegorical painting",
+          "plausibility": 0.75,
+          "reasoning": "A symbolic painting representing 'Love and Labor'. The rose symbolizes love/beauty, while the horse cart and wheel represent work and the journey of life. Objects are arranged in a dreamlike composition.",
+          "object_interpretations": {
+            "rose": {
+              "form": "idealized flower",
+              "scale": "normal",
+              "role": "symbol of beauty/love"
+            },
+            "wheel": {
+              "form": "surreal object",
+              "scale": "variable",
+              "role": "symbol of time/fate"
+            },
+            "horse cart": {
+              "form": "stylized model",
+              "scale": "miniature",
+              "role": "symbol of life's journey"
+            }
+          }
+        },
+        {
+          "scene_type": "Baroque stable interior",
+          "plausibility": 0.7,
+          "reasoning": "A rustic yet ornate stable. A horse cart is parked against the wall. A single rose has been placed in a small vase near the stall, perhaps a gift from a lover to the stable master.",
+          "object_interpretations": {
+            "rose": {
+              "form": "real flower",
+              "scale": "normal",
+              "role": "humanizing decorative touch"
+            },
+            "wheel": {
+              "form": "real cart wheel",
+              "scale": "large",
+              "role": "functional part of cart"
+            },
+            "horse cart": {
+              "form": "real vehicle",
+              "scale": "full-size",
+              "role": "primary equipment"
+            }
+          }
+        },
+        {
+          "scene_type": "Baroque museum display",
+          "plausibility": 0.85,
+          "reasoning": "A museum exhibit on Baroque history. A large horse cart is displayed. On a nearby pedestal, under glass, is a preserved rose and a replica wheel used in cart construction.",
+          "object_interpretations": {
+            "rose": {
+              "form": "preserved flower",
+              "scale": "normal",
+              "role": "historical artifact"
+            },
+            "wheel": {
+              "form": "replica artifact",
+              "scale": "normal",
+              "role": "educational display"
+            },
+            "horse cart": {
+              "form": "restored vehicle",
+              "scale": "full-size",
+              "role": "main exhibit"
+            }
+          }
+        }
+      ],
+      "selected_scene": {
+        "scene_type": "Baroque still life painting",
+        "plausibility": 0.95,
+        "reasoning": "A classic Baroque still life composition. The rose is a central floral element, while the wheel and horse cart appear as miniature toy models or symbolic objects arranged on a table, creating a vanitas or allegorical theme.",
+        "object_interpretations": {
+          "rose": {
+            "form": "real flower",
+            "scale": "normal",
+            "role": "primary focal point"
+          },
+          "wheel": {
+            "form": "toy model",
+            "scale": "miniature",
+            "role": "symbolic object representing time or labor"
+          },
+          "horse cart": {
+            "form": "toy model",
+            "scale": "miniature",
+            "role": "decorative element representing travel or trade"
+          }
+        },
+        "scene_brief": "A Baroque still life painting centered around rose, with toy wheel placed nearby, and toy horse cart as decoration"
+      }
+    }
+  },
+  "final_prompts": {
+    "main_prompt": "A Baroque painting depicting a bright and active afternoon scene with striking natural dramatic lighting. In the foreground, a small decorative toy horse cart painted in vibrant vermillion with gilded gold details stands prominently. Resting atop the horse cart's wooden surface is a medium-sized, freshly bloomed crimson and magenta rose with delicate organic floral tissue. Beside the horse cart, a small well-worn toy wheel with amber and iron gray polished surfaces leans against it. The cheerful atmosphere is enhanced by the theatrical afternoon light casting deep shadows and brilliant highlights across the polished wood, painted surfaces, and metallic elements, creating a dynamic composition full of movement and contrast.",
+    "negative_prompt": "photorealistic, 3d render, modern, digital art, photograph, low quality, blurry, distorted, anime, cartoon, sketch, watermark, signature, text, ugly, deformed, oversaturated, dull, flat lighting",
+    "prompt_formats": {
+      "simple": "A Baroque painting of a rose on a toy horse cart with a wheel beside it in dramatic afternoon light.",
+      "complex": "A Baroque painting depicting a bright and active afternoon scene with striking natural dramatic lighting. In the foreground, a small decorative toy horse cart painted in vibrant vermillion with gilded gold details stands prominently. Resting atop the horse cart's wooden surface is a medium-sized, freshly bloomed crimson and magenta rose with delicate organic floral tissue. Beside the horse cart, a small well-worn toy wheel with amber and iron gray polished surfaces leans against it. The cheerful atmosphere is enhanced by the theatrical afternoon light casting deep shadows and brilliant highlights across the polished wood, painted surfaces, and metallic elements, creating a dynamic composition full of movement and contrast.",
+      "comma_separated": "Baroque painting, toy horse cart, rose on cart, wheel beside cart, vermillion and gold cart, crimson and magenta rose, amber and iron gray wheel, dramatic afternoon lighting, bright cheerful atmosphere, striking contrast, natural light, polished surfaces, gilded details, floral tissue, vibrant colors, dynamic composition",
+      "tags": "art, painting, Baroque, still life, toy cart, rose, wheel, dramatic lighting, afternoon light, cheerful, vibrant, polished, gilded, floral, decorative, contrast, shadows, highlights"
+    }
+  }
+}

@@ -1,0 +1,97 @@
+{
+  "artwork_id": "artwork_20260115_065318_792",
+  "generation_timestamp": "2026-01-15T06:53:52.978074",
+  "style": "Chinese Ink Painting",
+  "objects": {
+    "object_ids": [
+      78
+    ],
+    "object_names": [
+      "toy"
+    ],
+    "enhanced_objects": [
+      {
+        "object_id": 78,
+        "name": "toy",
+        "artistic_description": "A soft plush teddy bear rendered in traditional Chinese ink painting style, its brown fur appearing as layered washes of sepia and warm sienna tones under the mixed afternoon light filtering through the window. The plush texture is captured through delicate stippling and varied ink density, with subtle highlights on the curved surfaces where warm window light catches the fabric. Its black button eyes gleam with a small dot of white reflection, while the muzzle shows gentle gradations from light tan to deeper umber shadows. The toy shows slight wear on its seams with frayed threads rendered in fine, wispy brushstrokes, suggesting years of affectionate handling. A soft matte finish dominates the fabric surface, absorbing light rather than reflecting it, creating a gentle, contemplative presence. The overall effect balances the warm indoor ambient light with cooler shadows, embodying the harmonious atmosphere through careful ink gradation and empty space integration.",
+        "size": "Medium",
+        "state": "gently worn but well-maintained, showing signs of loving use appropriate to contemporary childhood",
+        "primary_colors": [
+          "warm sepia brown",
+          "soft sienna"
+        ],
+        "material": "plush fabric"
+      }
+    ]
+  },
+  "composition": {
+    "spatial_relations": [
+      [
+        78,
+        "on",
+        78
+      ]
+    ],
+    "semantic_relations": []
+  },
+  "environment": {
+    "environment_details": {
+      "scene_brief": "A artistic composition featuring toy centered around toy",
+      "place365_name": "/a/art_studio",
+      "place365_id": 21,
+      "time_of_day": "afternoon",
+      "weather": null,
+      "period": "Contemporary",
+      "is_indoor": true,
+      "lighting": {
+        "type": "mixed",
+        "quality": "soft",
+        "direction": "front-lit",
+        "mood": "neutral"
+      },
+      "atmosphere": "balanced and harmonious"
+    },
+    "scene_inference": {
+      "all_candidates": [
+        {
+          "scene_type": "artistic composition featuring toy",
+          "plausibility": 0.7,
+          "reasoning": "Default scene based on main variety 'toy'",
+          "object_interpretations": {
+            "toy": {
+              "form": "primary object",
+              "scale": "normal",
+              "role": "primary"
+            }
+          },
+          "fallback": true,
+          "scene_brief": "A artistic composition featuring toy centered around toy"
+        }
+      ],
+      "selected_scene": {
+        "scene_type": "artistic composition featuring toy",
+        "plausibility": 0.7,
+        "reasoning": "Default scene based on main variety 'toy'",
+        "object_interpretations": {
+          "toy": {
+            "form": "primary object",
+            "scale": "normal",
+            "role": "primary"
+          }
+        },
+        "fallback": true,
+        "scene_brief": "A artistic composition featuring toy centered around toy"
+      }
+    }
+  },
+  "final_prompts": {
+    "main_prompt": "A Chinese Ink Painting painting depicting a medium-sized toy in warm sepia brown and soft sienna tones, its plush fabric gently worn but well-maintained, resting atop another toy of similar form in the foreground. The composition is balanced and harmonious, with the upper toy slightly off-center, creating a gentle vertical axis. Soft, mixed afternoon light filters through a subtle haze, casting delicate shadows and highlighting the textures of the fabric. The background is minimal, perhaps a hint of a wooden surface or empty space, allowing the focus to remain on the quiet interaction between the two objects. The overall atmosphere is serene and contemplative, embodying the essence of traditional ink wash aesthetics with its nuanced gradations of brown and beige, evoking a sense of nostalgic calm.",
+    "negative_prompt": "photorealistic, 3d render, modern, digital art, photograph, low quality, blurry, distorted, vibrant colors, neon, complex background, text, watermark",
+    "prompt_formats": {
+      "simple": "A medium warm sepia toy atop another in soft afternoon light, rendered in Chinese ink style.",
+      "complex": "A Chinese Ink Painting painting depicting a medium-sized toy in warm sepia brown and soft sienna tones, its plush fabric gently worn but well-maintained, resting atop another toy of similar form in the foreground. The composition is balanced and harmonious, with the upper toy slightly off-center, creating a gentle vertical axis. Soft, mixed afternoon light filters through a subtle haze, casting delicate shadows and highlighting the textures of the fabric. The background is minimal, perhaps a hint of a wooden surface or empty space, allowing the focus to remain on the quiet interaction between the two objects. The overall atmosphere is serene and contemplative, embodying the essence of traditional ink wash aesthetics with its nuanced gradations of brown and beige, evoking a sense of nostalgic calm.",
+      "comma_separated": "Chinese Ink Painting, toy, medium size, warm sepia brown, soft sienna, plush fabric, gently worn, well-maintained, atop, afternoon light, mixed soft lighting, balanced, harmonious, serene, contemplative, minimal background",
+      "tags": "art, painting, chinese ink painting, toy, sepia, afternoon, harmonious, serene, ink wash, traditional, plush"
+    }
+  }
+}

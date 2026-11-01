@@ -1,0 +1,329 @@
+{
+  "artwork_id": "artwork_20260103_185405_296",
+  "generation_timestamp": "2026-01-03T18:54:33.490132",
+  "style": "Chinese Ink Painting",
+  "objects": {
+    "object_ids": [
+      16,
+      1,
+      26,
+      60
+    ],
+    "object_names": [
+      "cat",
+      "boy",
+      "canopy",
+      "hammock"
+    ],
+    "enhanced_objects": [
+      {
+        "object_id": 16,
+        "name": "cat",
+        "artistic_description": "A sleek feline rendered in fluid ink washes, its fur appearing as soft gradations of wet-on-wet brushwork with subtle highlights where afternoon sun catches the whiskers. The coat shows warm amber tones bleeding into dry brush strokes along the spine, with eyes rendered as two concentrated dots of intense black ink that capture the bright light.",
+        "size": "Medium",
+        "state": "alert and relaxed, basking in warm sunlight",
+        "primary_colors": [
+          "warm amber",
+          "charcoal black"
+        ],
+        "material": "fur"
+      },
+      {
+        "object_id": 1,
+        "name": "boy",
+        "artistic_description": "A youthful figure captured with expressive line work, skin tones rendered as light washes of warm peach ink that suggest sun-kissed complexion. Clothing shows crisp, dry brush strokes in varying ink densities, with highlights where fabric catches the bright afternoon light, and hair suggested through layered wet ink strokes with sharp, decisive lines.",
+        "size": "Large",
+        "state": "active and cheerful, bathed in bright natural light",
+        "primary_colors": [
+          "warm peach",
+          "deep indigo"
+        ],
+        "material": "cotton fabric"
+      },
+      {
+        "object_id": 26,
+        "name": "canopy",
+        "artistic_description": "A fabric shelter rendered with broad, sweeping brush strokes that show the tautness of sun-drenched canvas. The material displays warm cream tones where light hits directly, transitioning to cooler shadows in layered gray washes. Edges are defined by confident ink lines that suggest the crispness of dry, weathered fabric under bright conditions.",
+        "size": "Dominant",
+        "state": "taut and weathered, providing dappled shade",
+        "primary_colors": [
+          "warm cream",
+          "weathered gray"
+        ],
+        "material": "canvas"
+      },
+      {
+        "object_id": 60,
+        "name": "hammock",
+        "artistic_description": "A suspended bed of woven fabric shown through delicate cross-hatching and soft ink washes that suggest gentle give and tension. The material catches warm afternoon light along its curves, creating subtle highlights in lighter ink tones, while the weave pattern is suggested through precise, overlapping strokes that show the dry texture of outdoor fabric.",
+        "size": "Medium",
+        "state": "gently suspended and inviting, showing signs of outdoor use",
+        "primary_colors": [
+          "natural beige",
+          "soft brown"
+        ],
+        "material": "woven cotton"
+      }
+    ]
+  },
+  "composition": {
+    "spatial_relations": [
+      [
+        1,
+        "under",
+        26
+      ],
+      [
+        60,
+        "under",
+        26
+      ],
+      [
+        1,
+        "on",
+        60
+      ],
+      [
+        16,
+        "beside",
+        1
+      ]
+    ],
+    "semantic_relations": [
+      [
+        1,
+        "using",
+        60
+      ],
+      [
+        26,
+        "protecting",
+        1
+      ]
+    ]
+  },
+  "environment": {
+    "environment_details": {
+      "scene_brief": "A Rustic Farmyard featuring cat, with boy, canopy, and hammock",
+      "place365_name": "/f/field/wild",
+      "place365_id": 141,
+      "time_of_day": "afternoon",
+      "weather": "sunny",
+      "period": "Contemporary",
+      "is_indoor": false,
+      "lighting": {
+        "type": "natural",
+        "quality": "soft",
+        "direction": "side-lit",
+        "mood": "warm",
+        "reasoning": "Natural lighting is required for an outdoor farmyard. 'Afternoon' sun creates a warm mood. 'Side-lit' lighting is chosen because it creates distinct shadows and highlights, which is crucial for defining the forms of the boy, cat, and the textures of the rustic elements in an ink painting style, avoiding the flatness of front lighting."
+      },
+      "atmosphere": "bright and active and cheerful and gentle"
+    },
+    "scene_inference": {
+      "all_candidates": [
+        {
+          "scene_type": "Garden Courtyard",
+          "plausibility": 0.95,
+          "reasoning": "A traditional Chinese garden with bamboo and stone elements. The boy sits or lies in the hammock, which is strung between two trees. The cat is perched on the boy's lap or on the edge of the hammock, observing the surroundings. The canopy provides shade overhead.",
+          "object_interpretations": {
+            "cat": {
+              "form": "real cat",
+              "scale": "normal",
+              "role": "companion/observer"
+            },
+            "boy": {
+              "form": "real boy",
+              "scale": "normal",
+              "role": "primary subject/resting figure"
+            },
+            "canopy": {
+              "form": "fabric canopy",
+              "scale": "large",
+              "role": "shade provider/decorative element"
+            },
+            "hammock": {
+              "form": "woven hammock",
+              "scale": "normal",
+              "role": "furniture for relaxation"
+            }
+          }
+        },
+        {
+          "scene_type": "Scholar's Study",
+          "plausibility": 0.85,
+          "reasoning": "An interior scene where the boy is reading at a desk. The hammock is a miniature decorative element or a toy version hanging from a shelf. The cat sleeps on the hammock. The canopy is a decorative canopy over the bed or a miniature canopy decoration on the desk.",
+          "object_interpretations": {
+            "cat": {
+              "form": "real cat",
+              "scale": "normal",
+              "role": "sleeping occupant of hammock"
+            },
+            "boy": {
+              "form": "real boy",
+              "scale": "normal",
+              "role": "scholar/student"
+            },
+            "canopy": {
+              "form": "miniature canopy",
+              "scale": "small",
+              "role": "desk decoration"
+            },
+            "hammock": {
+              "form": "toy hammock",
+              "scale": "miniature",
+              "role": "cat bed"
+            }
+          }
+        },
+        {
+          "scene_type": "Mountain Pavilion",
+          "plausibility": 0.9,
+          "reasoning": "A scenic overlook in the mountains. The boy stands on the pavilion balcony. A hammock is strung between the pavilion pillars. The cat lounges in the hammock. The canopy is part of the pavilion roof structure.",
+          "object_interpretations": {
+            "cat": {
+              "form": "real cat",
+              "scale": "normal",
+              "role": "relaxing animal"
+            },
+            "boy": {
+              "form": "real boy",
+              "scale": "normal",
+              "role": "viewer of landscape"
+            },
+            "canopy": {
+              "form": "pavilion roof",
+              "scale": "large",
+              "role": "architectural shelter"
+            },
+            "hammock": {
+              "form": "hammock",
+              "scale": "normal",
+              "role": "furniture"
+            }
+          }
+        },
+        {
+          "scene_type": "Rustic Farmyard",
+          "plausibility": 0.8,
+          "reasoning": "A rural setting with a barn. The boy is resting in a hammock tied to posts. The cat is hunting or playing nearby. The canopy is a tarp or cloth attached to the barn for shade.",
+          "object_interpretations": {
+            "cat": {
+              "form": "real cat",
+              "scale": "normal",
+              "role": "hunter/pet"
+            },
+            "boy": {
+              "form": "real boy",
+              "scale": "normal",
+              "role": "resting worker"
+            },
+            "canopy": {
+              "form": "tarp canopy",
+              "scale": "large",
+              "role": "sun protection"
+            },
+            "hammock": {
+              "form": "hammock",
+              "scale": "normal",
+              "role": "resting spot"
+            }
+          },
+          "scene_brief": "A Rustic Farmyard featuring cat, with boy, canopy, and hammock"
+        },
+        {
+          "scene_type": "Artistic Studio",
+          "plausibility": 0.75,
+          "reasoning": "The boy is an artist painting a scene. On the canvas, there is a cat, a hammock, and a canopy. Alternatively, the objects are props arranged in the studio for the painting.",
+          "object_interpretations": {
+            "cat": {
+              "form": "real cat",
+              "scale": "normal",
+              "role": "artist's model"
+            },
+            "boy": {
+              "form": "real boy",
+              "scale": "normal",
+              "role": "artist"
+            },
+            "canopy": {
+              "form": "fabric prop",
+              "scale": "normal",
+              "role": "studio prop"
+            },
+            "hammock": {
+              "form": "hammock prop",
+              "scale": "normal",
+              "role": "studio prop"
+            }
+          }
+        },
+        {
+          "scene_type": "Dreamscape",
+          "plausibility": 0.7,
+          "reasoning": "A surreal interpretation allowed by the art style. The boy floats in a hammock among clouds. The cat floats beside him. The canopy is a cloud shaped like a canopy.",
+          "object_interpretations": {
+            "cat": {
+              "form": "spirit cat",
+              "scale": "variable",
+              "role": "dream guide"
+            },
+            "boy": {
+              "form": "dreaming boy",
+              "scale": "normal",
+              "role": "dreamer"
+            },
+            "canopy": {
+              "form": "cloud canopy",
+              "scale": "large",
+              "role": "sky element"
+            },
+            "hammock": {
+              "form": "hammock",
+              "scale": "normal",
+              "role": "floating vessel"
+            }
+          }
+        }
+      ],
+      "selected_scene": {
+        "scene_type": "Rustic Farmyard",
+        "plausibility": 0.8,
+        "reasoning": "A rural setting with a barn. The boy is resting in a hammock tied to posts. The cat is hunting or playing nearby. The canopy is a tarp or cloth attached to the barn for shade.",
+        "object_interpretations": {
+          "cat": {
+            "form": "real cat",
+            "scale": "normal",
+            "role": "hunter/pet"
+          },
+          "boy": {
+            "form": "real boy",
+            "scale": "normal",
+            "role": "resting worker"
+          },
+          "canopy": {
+            "form": "tarp canopy",
+            "scale": "large",
+            "role": "sun protection"
+          },
+          "hammock": {
+            "form": "hammock",
+            "scale": "normal",
+            "role": "resting spot"
+          }
+        },
+        "scene_brief": "A Rustic Farmyard featuring cat, with boy, canopy, and hammock"
+      }
+    }
+  },
+  "final_prompts": {
+    "main_prompt": "A Chinese Ink Painting painting depicting a bright and active afternoon scene with a gentle, cheerful atmosphere. Under a large, dominant canopy of warm cream and weathered gray canvas, taut and weathered from use, a medium-sized hammock of natural beige and soft brown woven cotton is gently suspended. On this inviting hammock rests a large, cheerful boy in deep indigo clothing with warm peach skin, his posture active and relaxed. Beside the boy, a medium-sized cat with warm amber and charcoal black fur sits alert yet relaxed on the hammock's fabric. The spatial arrangement shows the boy lying on the hammock with the cat nestled next to him, both sheltered beneath the expansive canopy. Soft, natural afternoon light filters through, creating a scene of peaceful leisure where ink washes suggest the textures of fur, cotton, and weathered canvas in harmonious balance.",
+    "negative_prompt": "photorealistic, 3d render, modern, digital art, photograph, low quality, blurry, distorted, oversaturated, cartoon, anime, western painting style, oil painting, watercolor, acrylic, surreal, abstract, text, signature, frame, border",
+    "prompt_formats": {
+      "simple": "A Chinese ink painting of a boy and cat resting together on a hammock under a canopy on a cheerful afternoon.",
+      "complex": "A Chinese Ink Painting painting depicting a bright and active afternoon scene with a gentle, cheerful atmosphere. Under a large, dominant canopy of warm cream and weathered gray canvas, taut and weathered from use, a medium-sized hammock of natural beige and soft brown woven cotton is gently suspended. On this inviting hammock rests a large, cheerful boy in deep indigo clothing with warm peach skin, his posture active and relaxed. Beside the boy, a medium-sized cat with warm amber and charcoal black fur sits alert yet relaxed on the hammock's fabric. The spatial arrangement shows the boy lying on the hammock with the cat nestled next to him, both sheltered beneath the expansive canopy. Soft, natural afternoon light filters through, creating a scene of peaceful leisure where ink washes suggest the textures of fur, cotton, and weathered canvas in harmonious balance.",
+      "comma_separated": "Chinese Ink Painting, boy on hammock, cat next to boy, canopy above, afternoon lighting, soft natural light, bright cheerful atmosphere, warm amber cat, charcoal black cat, warm peach boy, deep indigo clothing, warm cream canopy, weathered gray canvas, natural beige hammock, soft brown fabric, ink wash textures, traditional composition",
+      "tags": "art, painting, chinese ink painting, ink wash, shuimo, traditional art, boy, cat, hammock, canopy, afternoon, leisure, gentle, cheerful, atmospheric, composition, texture, fur, fabric, canvas"
+    }
+  }
+}

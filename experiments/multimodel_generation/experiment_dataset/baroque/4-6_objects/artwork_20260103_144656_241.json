@@ -1,0 +1,399 @@
+{
+  "artwork_id": "artwork_20260103_144656_241",
+  "generation_timestamp": "2026-01-03T14:47:41.255484",
+  "style": "Baroque",
+  "objects": {
+    "object_ids": [
+      9,
+      2,
+      45,
+      18,
+      33
+    ],
+    "object_names": [
+      "canoe",
+      "wheel",
+      "ladle",
+      "mare",
+      "ball"
+    ],
+    "enhanced_objects": [
+      {
+        "object_id": 9,
+        "name": "canoe",
+        "artistic_description": "Weathered wooden vessel with sun-bleached planks showing warm amber tones under the bright afternoon light, surfaces dry and matte with subtle grain patterns catching the golden illumination, edges softened by age and use",
+        "size": "Large",
+        "state": "weathered and dry",
+        "primary_colors": [
+          "warm amber",
+          "pale honey"
+        ],
+        "material": "wood"
+      },
+      {
+        "object_id": 2,
+        "name": "wheel",
+        "artistic_description": "Rustic wooden wheel with iron rim gleaming in the strong sunlight, weathered spokes casting dramatic shadows across the dusty ground, warm brown wood tones intensified by the afternoon light, metal accents reflecting bright highlights",
+        "size": "Medium",
+        "state": "aged and functional",
+        "primary_colors": [
+          "rustic brown",
+          "metallic silver"
+        ],
+        "material": "wood and iron"
+      },
+      {
+        "object_id": 45,
+        "name": "ladle",
+        "artistic_description": "Polished copper vessel catching brilliant highlights from the sun, warm metallic surface glowing with rich orange-gold tones, smooth curved form reflecting the bright sky, slight patina adding depth to its lustrous appearance",
+        "size": "Small",
+        "state": "well-used but polished",
+        "primary_colors": [
+          "warm copper",
+          "golden orange"
+        ],
+        "material": "copper"
+      },
+      {
+        "object_id": 18,
+        "name": "mare",
+        "artistic_description": "Chestnut coat shimmering with warm highlights under the bright sun, sleek muscles defined by strong light and shadow, flowing mane catching golden tones, dark eyes reflecting the cheerful atmosphere, coat appearing lustrous and healthy",
+        "size": "Large",
+        "state": "alert and healthy",
+        "primary_colors": [
+          "rich chestnut",
+          "deep mahogany"
+        ],
+        "material": ""
+      },
+      {
+        "object_id": 33,
+        "name": "ball",
+        "artistic_description": "Small wooden sphere painted in vivid red, its glossy surface creating bright specular highlights in the intense sunlight, rich crimson tones saturated and vibrant against the rustic backdrop, smooth form casting a crisp shadow",
+        "size": "Small",
+        "state": "bright and new",
+        "primary_colors": [
+          "vivid crimson",
+          "bright scarlet"
+        ],
+        "material": "wood"
+      }
+    ]
+  },
+  "composition": {
+    "spatial_relations": [
+      [
+        9,
+        "beside",
+        2
+      ],
+      [
+        45,
+        "on",
+        9
+      ],
+      [
+        33,
+        "beside",
+        2
+      ],
+      [
+        18,
+        "beside",
+        9
+      ]
+    ],
+    "semantic_relations": []
+  },
+  "environment": {
+    "environment_details": {
+      "scene_brief": "A Rustic village well featuring canoe, with wheel, ladle, mare, and toy ball placed nearby",
+      "place365_name": "/f/field/wild",
+      "place365_id": 141,
+      "time_of_day": "afternoon",
+      "weather": "sunny",
+      "period": "Early modern",
+      "is_indoor": false,
+      "lighting": {
+        "type": "natural",
+        "quality": "dramatic",
+        "direction": "side-lit",
+        "mood": "warm",
+        "reasoning": "Natural afternoon sun from the side creates the quintessential Baroque lighting - dramatic chiaroscuro with warm tones. Side lighting sculpts the three-dimensional forms of the well, canoe, and mare while casting long, dramatic shadows across the rustic scene. The warm afternoon sun enhances the pastoral mood and highlights textures of wood, stone, and straw."
+      },
+      "atmosphere": "bright and active and cheerful and striking"
+    },
+    "scene_inference": {
+      "all_candidates": [
+        {
+          "scene_type": "Baroque riverbank festival",
+          "plausibility": 0.85,
+          "reasoning": "A canoe is the primary vessel on the water's edge. A mare can be a pack animal on the shore, a wheel could be from a festival cart, a ladle for serving food, and a ball for games.",
+          "object_interpretations": {
+            "canoe": {
+              "form": "real canoe",
+              "scale": "normal",
+              "role": "primary watercraft"
+            },
+            "mare": {
+              "form": "real horse",
+              "scale": "normal",
+              "role": "shoreline companion/transport"
+            },
+            "wheel": {
+              "form": "wooden cart wheel",
+              "scale": "normal",
+              "role": "part of a nearby festival cart"
+            },
+            "ladle": {
+              "form": "large wooden serving ladle",
+              "scale": "normal",
+              "role": "serving utensil for food"
+            },
+            "ball": {
+              "form": "festive decorated ball",
+              "scale": "normal",
+              "role": "game object for recreation"
+            }
+          }
+        },
+        {
+          "scene_type": "Grand still life painting",
+          "plausibility": 0.9,
+          "reasoning": "A Baroque still life can arrange disparate objects symbolically. The canoe could be a miniature model, the mare a porcelain figurine, alongside a wheel, ladle, and ball as artistic props.",
+          "object_interpretations": {
+            "canoe": {
+              "form": "model canoe",
+              "scale": "miniature",
+              "role": "decorative centerpiece"
+            },
+            "mare": {
+              "form": "porcelain figurine",
+              "scale": "miniature",
+              "role": "decorative element"
+            },
+            "wheel": {
+              "form": "broken wooden wheel fragment",
+              "scale": "small",
+              "role": "texture contrast"
+            },
+            "ladle": {
+              "form": "silver ladle",
+              "scale": "small",
+              "role": "reflective surface"
+            },
+            "ball": {
+              "form": "glass ornament",
+              "scale": "small",
+              "role": "light refraction object"
+            }
+          }
+        },
+        {
+          "scene_type": "Mythological river crossing",
+          "plausibility": 0.8,
+          "reasoning": "A canoe on a mythic river. The mare could be a mythical steed, the wheel a chariot remnant, the ladle a magical vessel, and the ball a celestial object.",
+          "object_interpretations": {
+            "canoe": {
+              "form": "ancient wooden canoe",
+              "scale": "normal",
+              "role": "ferry for souls"
+            },
+            "mare": {
+              "form": "winged horse (Pegasus)",
+              "scale": "large",
+              "role": "mythical guardian"
+            },
+            "wheel": {
+              "form": "broken chariot wheel",
+              "scale": "large",
+              "role": "ruins of a past event"
+            },
+            "ladle": {
+              "form": "giant ceremonial ladle",
+              "scale": "large",
+              "role": "magical tool"
+            },
+            "ball": {
+              "form": "glowing orb",
+              "scale": "normal",
+              "role": "source of light/magic"
+            }
+          }
+        },
+        {
+          "scene_type": "Royal hunting lodge interior",
+          "plausibility": 0.75,
+          "reasoning": "A taxidermy canoe display hangs on the wall. A mare is a hunting horse in the stable visible through a window. A wheel is a decorative clock face, a ladle is silverware, and a ball is a toy.",
+          "object_interpretations": {
+            "canoe": {
+              "form": "hanging display canoe",
+              "scale": "normal",
+              "role": "trophy/decoration"
+            },
+            "mare": {
+              "form": "real horse",
+              "scale": "normal",
+              "role": "hunting companion"
+            },
+            "wheel": {
+              "form": "ornate clock face",
+              "scale": "normal",
+              "role": "timepiece"
+            },
+            "ladle": {
+              "form": "serving ladle",
+              "scale": "normal",
+              "role": "dining utensil"
+            },
+            "ball": {
+              "form": "leather ball",
+              "scale": "normal",
+              "role": "child's toy"
+            }
+          }
+        },
+        {
+          "scene_type": "Surreal dreamscape",
+          "plausibility": 0.7,
+          "reasoning": "Baroque surrealism allows floating objects. A canoe floats in the sky, a mare gallops on clouds, a wheel spins as a planet, a ladle pours stars, and a ball is a moon.",
+          "object_interpretations": {
+            "canoe": {
+              "form": "cloud canoe",
+              "scale": "large",
+              "role": "sky vessel"
+            },
+            "mare": {
+              "form": "spirit horse",
+              "scale": "large",
+              "role": "ethereal guide"
+            },
+            "wheel": {
+              "form": "cosmic wheel",
+              "scale": "massive",
+              "role": "celestial body"
+            },
+            "ladle": {
+              "form": "nebula ladle",
+              "scale": "large",
+              "role": "cosmic pourer"
+            },
+            "ball": {
+              "form": "glowing sphere",
+              "scale": "normal",
+              "role": "dream object"
+            }
+          }
+        },
+        {
+          "scene_type": "Baroque theater stage",
+          "plausibility": 0.85,
+          "reasoning": "A stage set for a play. The canoe is a prop, the mare is a costumed actor, the wheel is a set piece, the ladle is a prop, and the ball is a juggling prop.",
+          "object_interpretations": {
+            "canoe": {
+              "form": "cardboard prop canoe",
+              "scale": "normal",
+              "role": "stage prop"
+            },
+            "mare": {
+              "form": "actor in horse costume",
+              "scale": "normal",
+              "role": "performer"
+            },
+            "wheel": {
+              "form": "painted wooden wheel",
+              "scale": "normal",
+              "role": "set decoration"
+            },
+            "ladle": {
+              "form": "prop ladle",
+              "scale": "normal",
+              "role": "actor's accessory"
+            },
+            "ball": {
+              "form": "juggling ball",
+              "scale": "small",
+              "role": "performance prop"
+            }
+          }
+        },
+        {
+          "scene_type": "Rustic village well",
+          "plausibility": 0.8,
+          "reasoning": "A canoe sits near a well. A mare drinks from a trough. The well has a wheel mechanism. A ladle is for water, and a ball is left by children.",
+          "object_interpretations": {
+            "canoe": {
+              "form": "fishing canoe",
+              "scale": "normal",
+              "role": "transport"
+            },
+            "mare": {
+              "form": "farm horse",
+              "scale": "normal",
+              "role": "livestock"
+            },
+            "wheel": {
+              "form": "well bucket wheel",
+              "scale": "normal",
+              "role": "utility mechanism"
+            },
+            "ladle": {
+              "form": "water ladle",
+              "scale": "normal",
+              "role": "utility tool"
+            },
+            "ball": {
+              "form": "wooden toy ball",
+              "scale": "small",
+              "role": "village life detail"
+            }
+          },
+          "scene_brief": "A Rustic village well featuring canoe, with wheel, ladle, mare, and toy ball placed nearby"
+        }
+      ],
+      "selected_scene": {
+        "scene_type": "Rustic village well",
+        "plausibility": 0.8,
+        "reasoning": "A canoe sits near a well. A mare drinks from a trough. The well has a wheel mechanism. A ladle is for water, and a ball is left by children.",
+        "object_interpretations": {
+          "canoe": {
+            "form": "fishing canoe",
+            "scale": "normal",
+            "role": "transport"
+          },
+          "mare": {
+            "form": "farm horse",
+            "scale": "normal",
+            "role": "livestock"
+          },
+          "wheel": {
+            "form": "well bucket wheel",
+            "scale": "normal",
+            "role": "utility mechanism"
+          },
+          "ladle": {
+            "form": "water ladle",
+            "scale": "normal",
+            "role": "utility tool"
+          },
+          "ball": {
+            "form": "wooden toy ball",
+            "scale": "small",
+            "role": "village life detail"
+          }
+        },
+        "scene_brief": "A Rustic village well featuring canoe, with wheel, ladle, mare, and toy ball placed nearby"
+      }
+    }
+  },
+  "final_prompts": {
+    "main_prompt": "A Baroque painting depicting a bright and active afternoon scene with striking natural dramatic lighting. In the foreground, a large weathered and dry canoe in warm amber and pale honey tones rests on the grass, with a medium-sized aged and functional wheel in rustic brown and metallic silver leaning against its side. A small well-used but polished ladle in warm copper and golden orange sits atop the canoe's edge. Beside the canoe stands a large alert and healthy mare in rich chestnut and deep mahogany, its head turned attentively toward the activity. A small bright and new ball in vivid crimson and bright scarlet rests on the ground next to the wheel. The composition is arranged with the canoe and mare as focal points in the foreground, the wheel and ball in the midground, and a lush pastoral landscape with dappled afternoon light filtering through trees in the background. The atmosphere is cheerful and vibrant, with dramatic chiaroscuro highlighting the textures of wood, iron, and copper materials, creating a dynamic and lively Baroque tableau.",
+    "negative_prompt": "photorealistic, 3d render, modern, digital art, photograph, low quality, blurry, distorted, ugly, deformed, cartoon, anime, abstract, minimalist, surreal, futuristic, sci-fi, watermark, signature, text, frame",
+    "prompt_formats": {
+      "simple": "A Baroque painting of a canoe, wheel, ladle, mare, and ball arranged in a cheerful afternoon scene with dramatic lighting.",
+      "complex": "A Baroque painting depicting a bright and active afternoon scene with striking natural dramatic lighting. In the foreground, a large weathered and dry canoe in warm amber and pale honey tones rests on the grass, with a medium-sized aged and functional wheel in rustic brown and metallic silver leaning against its side. A small well-used but polished ladle in warm copper and golden orange sits atop the canoe's edge. Beside the canoe stands a large alert and healthy mare in rich chestnut and deep mahogany, its head turned attentively toward the activity. A small bright and new ball in vivid crimson and bright scarlet rests on the ground next to the wheel. The composition is arranged with the canoe and mare as focal points in the foreground, the wheel and ball in the midground, and a lush pastoral landscape with dappled afternoon light filtering through trees in the background. The atmosphere is cheerful and vibrant, with dramatic chiaroscuro highlighting the textures of wood, iron, and copper materials, creating a dynamic and lively Baroque tableau.",
+      "comma_separated": "Baroque painting, canoe, wheel, ladle, mare, ball, large canoe warm amber pale honey weathered dry, medium wheel rustic brown metallic silver aged functional, small ladle warm copper golden orange well-used polished, large mare rich chestnut deep mahogany alert healthy, small ball vivid crimson bright scarlet bright new, canoe next to wheel, ladle on canoe, ball next to wheel, mare next to canoe, afternoon lighting, natural dramatic light, bright active cheerful striking atmosphere, pastoral landscape, chiaroscuro, wood iron copper materials",
+      "tags": "art, painting, Baroque, still life with animals, pastoral scene, dramatic lighting, chiaroscuro, afternoon light, canoe, wheel, ladle, mare, ball, wood texture, copper, iron, vibrant colors, cheerful atmosphere, dynamic composition"
+    }
+  }
+}

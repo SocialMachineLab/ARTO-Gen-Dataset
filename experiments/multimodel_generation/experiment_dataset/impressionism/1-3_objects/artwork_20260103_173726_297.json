@@ -1,0 +1,281 @@
+{
+  "artwork_id": "artwork_20260103_173726_297",
+  "generation_timestamp": "2026-01-03T17:37:52.656998",
+  "style": "Impressionism",
+  "objects": {
+    "object_ids": [
+      74,
+      72,
+      46
+    ],
+    "object_names": [
+      "manuscript",
+      "bathroom sink",
+      "plate"
+    ],
+    "enhanced_objects": [
+      {
+        "object_id": 74,
+        "name": "manuscript",
+        "artistic_description": "Loose pages scattered with creamy paper catching the soft, diffused afternoon light through cloud cover. Ink appears as varied washes of sepia and deep charcoal, with some letters bleeding slightly into the fibers. Edges are softly curled from handling, with subtle shadows creating gentle depth. The paper surface shows delicate texture, absorbing light rather than reflecting it, creating a matte, intimate appearance.",
+        "size": "Medium",
+        "state": "Partially organized, showing signs of creative use with softened edges",
+        "primary_colors": [
+          "warm cream",
+          "sepia brown"
+        ],
+        "material": "paper"
+      },
+      {
+        "object_id": 72,
+        "name": "bathroom sink",
+        "artistic_description": "White porcelain basin with soft, cool highlights from the cloudy daylight filtering through a window. The surface shows subtle variations in tone, from pale gray shadows in the basin to luminous white at the rim. A few water droplets cling to the sides, catching light as tiny silver points. The chrome faucet appears as muted silver with gentle reflections of the surrounding atmosphere, its edges softened by ambient light.",
+        "size": "Medium",
+        "state": "Clean but with subtle water marks showing recent use",
+        "primary_colors": [
+          "cool white",
+          "soft gray"
+        ],
+        "material": "porcelain"
+      },
+      {
+        "object_id": 46,
+        "name": "plate",
+        "artistic_description": "Simple ceramic plate resting on a surface, its rim catching the muted afternoon light with gentle, diffused highlights. The glaze shows subtle variations in tone, from pale cream where light directly touches to soft shadows creating depth in the center. A faint, almost imperceptible ring near the edge suggests previous use, visible only as a slight variation in the glaze's sheen. The surface reflects light softly rather than mirror-like, creating a warm, domestic glow.",
+        "size": "Small",
+        "state": "Clean with subtle signs of gentle use",
+        "primary_colors": [
+          "warm cream",
+          "soft ivory"
+        ],
+        "material": "ceramic"
+      }
+    ]
+  },
+  "composition": {
+    "spatial_relations": [
+      [
+        74,
+        "on",
+        72
+      ],
+      [
+        46,
+        "beside",
+        72
+      ]
+    ],
+    "semantic_relations": []
+  },
+  "environment": {
+    "environment_details": {
+      "scene_brief": "A artist's bohemian loft featuring manuscript, with bathroom sink, and plate",
+      "place365_name": "/b/bathroom",
+      "place365_id": 45,
+      "time_of_day": "afternoon",
+      "weather": "cloudy",
+      "period": "Contemporary",
+      "is_indoor": true,
+      "lighting": {
+        "type": "natural",
+        "quality": "soft",
+        "direction": "side-lit",
+        "mood": "cool",
+        "reasoning": "Combining 'afternoon' time and 'cloudy' weather results in soft, diffused natural light. In a loft setting with large windows, this light would likely enter from the side, illuminating the scene's depth. The cool quality of cloudy light contrasts with the warm bohemian textures, creating a balanced, atmospheric mood suitable for the introspective nature of the scene (manuscript, solitary objects)."
+      },
+      "atmosphere": "bright and active and subdued and gentle"
+    },
+    "scene_inference": {
+      "all_candidates": [
+        {
+          "scene_type": "Victorian study",
+          "plausibility": 0.85,
+          "reasoning": "A scholar's private study where the manuscript is the primary focus. The bathroom sink is reinterpreted as a porcelain washbasin on a stand, common in pre-modern studies for washing hands. The plate holds dried ink wafers or biscuits for the writer.",
+          "object_interpretations": {
+            "manuscript": {
+              "form": "original handwritten document",
+              "scale": "normal",
+              "role": "primary object of study"
+            },
+            "bathroom sink": {
+              "form": "porcelain washbasin",
+              "scale": "normal",
+              "role": "utility furniture for hygiene"
+            },
+            "plate": {
+              "form": "china plate",
+              "scale": "normal",
+              "role": "holding writing supplies/snacks"
+            }
+          }
+        },
+        {
+          "scene_type": "artist's bohemian loft",
+          "plausibility": 0.9,
+          "reasoning": "A cluttered, creative living space where the artist writes. The manuscript is on a desk. The sink is in the open-plan kitchen area. The plate is part of the messy still life, perhaps with paint smudges.",
+          "object_interpretations": {
+            "manuscript": {
+              "form": "loose pages",
+              "scale": "normal",
+              "role": "creative work in progress"
+            },
+            "bathroom sink": {
+              "form": "industrial style sink",
+              "scale": "normal",
+              "role": "kitchen fixture"
+            },
+            "plate": {
+              "form": "ceramic plate",
+              "scale": "normal",
+              "role": "clutter on the sink counter"
+            }
+          },
+          "scene_brief": "A artist's bohemian loft featuring manuscript, with bathroom sink, and plate"
+        },
+        {
+          "scene_type": "impasto library",
+          "plausibility": 0.8,
+          "reasoning": "A library scene rendered in heavy Impressionist strokes. The manuscript is on a reading table. The sink is a decorative water basin for dipping quills. The plate is a heavy stone slab used as a paperweight.",
+          "object_interpretations": {
+            "manuscript": {
+              "form": "bound book",
+              "scale": "normal",
+              "role": "literary subject"
+            },
+            "bathroom sink": {
+              "form": "stone basin",
+              "scale": "normal",
+              "role": "decorative utility"
+            },
+            "plate": {
+              "form": "flat stone disc",
+              "scale": "large",
+              "role": "paperweight"
+            }
+          }
+        },
+        {
+          "scene_type": "morning breakfast nook",
+          "plausibility": 0.95,
+          "reasoning": "A domestic scene where someone reads the morning paper (manuscript) while eating. The sink is the kitchen sink nearby. The plate is the breakfast plate with crumbs.",
+          "object_interpretations": {
+            "manuscript": {
+              "form": "newspaper/letter",
+              "scale": "normal",
+              "role": "reading material"
+            },
+            "bathroom sink": {
+              "form": "kitchen sink",
+              "scale": "normal",
+              "role": "background fixture"
+            },
+            "plate": {
+              "form": "dinner plate",
+              "scale": "normal",
+              "role": "breakfast dish"
+            }
+          }
+        },
+        {
+          "scene_type": "antique shop interior",
+          "plausibility": 0.85,
+          "reasoning": "A dusty shop filled with curiosities. The manuscript is an artifact for sale. The sink is a vintage clawfoot tub or sink repurposed as a display case. The plate is vintage china on a shelf.",
+          "object_interpretations": {
+            "manuscript": {
+              "form": "ancient scroll",
+              "scale": "normal",
+              "role": "valuable antique"
+            },
+            "bathroom sink": {
+              "form": "vintage pedestal sink",
+              "scale": "normal",
+              "role": "display furniture"
+            },
+            "plate": {
+              "form": "antique porcelain",
+              "scale": "normal",
+              "role": "collectible item"
+            }
+          }
+        },
+        {
+          "scene_type": "garden conservatory",
+          "plausibility": 0.75,
+          "reasoning": "A glass-enclosed garden room. The manuscript is a botanical journal. The sink is a potting basin. The plate is a saucer for plant watering or holding seeds.",
+          "object_interpretations": {
+            "manuscript": {
+              "form": "field journal",
+              "scale": "normal",
+              "role": "botanical record"
+            },
+            "bathroom sink": {
+              "form": "utility sink",
+              "scale": "normal",
+              "role": "gardening tool"
+            },
+            "plate": {
+              "form": "clay saucer",
+              "scale": "normal",
+              "role": "plant accessory"
+            }
+          }
+        },
+        {
+          "scene_type": "impasto attic",
+          "plausibility": 0.8,
+          "reasoning": "A cluttered attic space with personal belongings. The manuscript is a diary found in a trunk. The sink is a slop sink for cleaning brushes. The plate is a leftover dish from a meal eaten in hiding.",
+          "object_interpretations": {
+            "manuscript": {
+              "form": "leather-bound diary",
+              "scale": "normal",
+              "role": "personal narrative"
+            },
+            "bathroom sink": {
+              "form": "deep slop sink",
+              "scale": "normal",
+              "role": "artist's utility"
+            },
+            "plate": {
+              "form": "messy plate",
+              "scale": "normal",
+              "role": "still life debris"
+            }
+          }
+        }
+      ],
+      "selected_scene": {
+        "scene_type": "artist's bohemian loft",
+        "plausibility": 0.9,
+        "reasoning": "A cluttered, creative living space where the artist writes. The manuscript is on a desk. The sink is in the open-plan kitchen area. The plate is part of the messy still life, perhaps with paint smudges.",
+        "object_interpretations": {
+          "manuscript": {
+            "form": "loose pages",
+            "scale": "normal",
+            "role": "creative work in progress"
+          },
+          "bathroom sink": {
+            "form": "industrial style sink",
+            "scale": "normal",
+            "role": "kitchen fixture"
+          },
+          "plate": {
+            "form": "ceramic plate",
+            "scale": "normal",
+            "role": "clutter on the sink counter"
+          }
+        },
+        "scene_brief": "A artist's bohemian loft featuring manuscript, with bathroom sink, and plate"
+      }
+    }
+  },
+  "final_prompts": {
+    "main_prompt": "A Impressionism painting depicting a bright and active yet subdued and gentle afternoon scene in a bathroom. In the foreground, a medium-sized bathroom sink in cool white and soft gray porcelain sits clean but with subtle water marks showing. Resting atop the sink is a medium-sized manuscript with warm cream and sepia brown paper, partially organized with visible pages. Beside the sink, a small plate in warm cream and soft ivory ceramic shows clean surfaces with subtle signs of gentle use. Natural soft afternoon light streams through a window, casting gentle shadows and creating a luminous atmosphere where colors blend softly. The overall composition captures the quiet activity of the space with visible brushstrokes and light effects characteristic of Impressionism.",
+    "negative_prompt": "photorealistic, 3d render, modern, digital art, photograph, low quality, blurry, distorted, hyperdetailed, oversaturated, dark, gloomy, surreal, abstract",
+    "prompt_formats": {
+      "simple": "An Impressionist painting of a manuscript on a bathroom sink with a plate beside it in soft afternoon light.",
+      "complex": "A Impressionism painting depicting a bright and active yet subdued and gentle afternoon scene in a bathroom. In the foreground, a medium-sized bathroom sink in cool white and soft gray porcelain sits clean but with subtle water marks showing. Resting atop the sink is a medium-sized manuscript with warm cream and sepia brown paper, partially organized with visible pages. Beside the sink, a small plate in warm cream and soft ivory ceramic shows clean surfaces with subtle signs of gentle use. Natural soft afternoon light streams through a window, casting gentle shadows and creating a luminous atmosphere where colors blend softly. The overall composition captures the quiet activity of the space with visible brushstrokes and light effects characteristic of Impressionism.",
+      "comma_separated": "Impressionism painting, manuscript on bathroom sink, plate beside sink, warm cream sepia brown manuscript, cool white soft gray sink, warm cream soft ivory plate, natural soft afternoon lighting, bright active subdued gentle atmosphere, visible brushstrokes, light effects, porcelain, ceramic, paper",
+      "tags": "art, painting, impressionism, still life, interior, bathroom, manuscript, sink, plate, afternoon light, soft lighting, porcelain, ceramic, paper, brushstrokes"
+    }
+  }
+}

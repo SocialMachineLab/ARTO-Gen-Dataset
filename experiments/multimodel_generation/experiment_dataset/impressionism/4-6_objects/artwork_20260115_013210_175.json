@@ -1,0 +1,340 @@
+{
+  "artwork_id": "artwork_20260115_013210_175",
+  "generation_timestamp": "2026-01-15T01:32:57.612180",
+  "style": "Impressionism",
+  "objects": {
+    "object_ids": [
+      46,
+      78,
+      46,
+      18
+    ],
+    "object_names": [
+      "glass bowl",
+      "toy",
+      "tray",
+      "mare"
+    ],
+    "enhanced_objects": [
+      {
+        "object_id": 46,
+        "name": "glass bowl",
+        "artistic_description": "Translucent vessel catching morning sunlight, fractured into prismatic shards of pale gold and cool azure where light passes through the curved surface. Soft impressionistic highlights dance across the rim with broken reflections of surrounding colors, edges slightly blurred by the bright natural illumination. The glass appears almost liquid, with gentle refractions creating dreamy, overlapping color fields.",
+        "size": "Medium",
+        "state": "pristine and clean, sparkling with fresh morning clarity",
+        "primary_colors": [
+          "pale gold",
+          "cool azure"
+        ],
+        "material": "glass"
+      },
+      {
+        "object_id": 78,
+        "name": "toy",
+        "artistic_description": "Small plaything rendered in soft, dappled morning light that creates gentle patches of warm color across its surface. Matte finish absorbs rather than reflects the bright sunlight, resulting in muted, cheerful tones with subtle variations. Edges appear softened by the ambient atmospheric light, with impressionistic touches of pure color suggesting form rather than defining it precisely.",
+        "size": "Small",
+        "state": "well-loved but cared for, showing gentle wear appropriate to contemporary childhood",
+        "primary_colors": [
+          "warm red",
+          "soft yellow"
+        ],
+        "material": "plastic"
+      },
+      {
+        "object_id": 46,
+        "name": "tray",
+        "artistic_description": "Flat surface catching direct morning rays, creating bold strokes of bright white light that contrast with deep, cool shadows in recessed areas. The metallic finish reflects the sunny atmosphere with sharp, impressionistic bursts of pure color, while matte sections show subtle tonal variations. Light scatters across the plane in broken, energetic strokes suggesting movement and freshness.",
+        "size": "Medium",
+        "state": "clean and polished, showing contemporary manufacturing with smooth finish",
+        "primary_colors": [
+          "bright silver",
+          "cool gray"
+        ],
+        "material": "metal"
+      },
+      {
+        "object_id": 18,
+        "name": "mare",
+        "artistic_description": "Toy figure bathed in cheerful morning light that softens its contours into gentle silhouettes. The surface shows impressionistic daubs of warm color where sunlight strikes, while shaded areas fall into cool, muted tones. Form is suggested through loose, visible brushwork of light and shadow rather than sharp detail, capturing the energetic yet gentle atmosphere of the sunlit kitchen.",
+        "size": "Small",
+        "state": "playful and intact, with smooth contemporary plastic surfaces",
+        "primary_colors": [
+          "soft brown",
+          "warm cream"
+        ],
+        "material": "plastic"
+      }
+    ]
+  },
+  "composition": {
+    "spatial_relations": [
+      [
+        46,
+        "on",
+        46
+      ],
+      [
+        78,
+        "beside",
+        46
+      ],
+      [
+        18,
+        "beside",
+        78
+      ]
+    ],
+    "semantic_relations": []
+  },
+  "environment": {
+    "environment_details": {
+      "scene_brief": "A Kitchen Counter featuring glass bowl, with toy toy placed nearby, tray, and toy mare placed nearby",
+      "place365_name": "/k/kitchen",
+      "place365_id": 203,
+      "time_of_day": "morning",
+      "weather": "sunny",
+      "period": "Contemporary",
+      "is_indoor": true,
+      "lighting": {
+        "type": "natural",
+        "quality": "soft",
+        "direction": "side-lit",
+        "mood": "warm",
+        "reasoning": "Impressionism relies on natural light to capture fleeting moments. A 'morning' time with 'sunny' weather suggests strong natural light. 'Side-lit' lighting is chosen to create depth and shadows on the counter objects (bowl, tray, toys), highlighting their forms. 'Soft' quality refers to the diffused nature of light inside a room, avoiding harsh shadows, which allows for the blending of colors typical of the style. 'Warm' mood is selected to evoke a cozy, domestic atmosphere."
+      },
+      "atmosphere": "fresh and energetic and cheerful and gentle"
+    },
+    "scene_inference": {
+      "all_candidates": [
+        {
+          "scene_type": "Art Studio",
+          "plausibility": 0.95,
+          "reasoning": "An artist's studio is a natural habitat for creative arrangements. The glass bowl serves as a still life subject, filled with water to refract light in an Impressionist style. A toy horse sits on a nearby table as a reference model or a child's belonging brought into the workspace. The tray acts as a painter's palette or a surface to hold brushes and supplies.",
+          "object_interpretations": {
+            "glass bowl": {
+              "form": "real glass bowl",
+              "scale": "normal",
+              "role": "primary still life subject"
+            },
+            "toy": {
+              "form": "toy horse",
+              "scale": "miniature",
+              "role": "decorative element or reference model"
+            },
+            "tray": {
+              "form": "wooden tray",
+              "scale": "normal",
+              "role": "utility item (palette or brush holder)"
+            },
+            "mare": {
+              "form": "toy horse",
+              "scale": "miniature",
+              "role": "decorative element"
+            }
+          }
+        },
+        {
+          "scene_type": "Victorian Parlor",
+          "plausibility": 0.9,
+          "reasoning": "A formal sitting room with ornate furniture. The glass bowl is a centerpiece on a coffee table, holding potpourri. A toy horse (mare) sits on the mantelpiece as a child's treasured possession or a decorative figurine. The tray is a silver serving platter used to hold the bowl or other refreshments.",
+          "object_interpretations": {
+            "glass bowl": {
+              "form": "cut glass bowl",
+              "scale": "normal",
+              "role": "decorative centerpiece"
+            },
+            "toy": {
+              "form": "toy horse",
+              "scale": "miniature",
+              "role": "mantelpiece decoration"
+            },
+            "tray": {
+              "form": "silver serving tray",
+              "scale": "normal",
+              "role": "utility item holding the bowl"
+            },
+            "mare": {
+              "form": "toy horse",
+              "scale": "miniature",
+              "role": "mantelpiece decoration"
+            }
+          }
+        },
+        {
+          "scene_type": "Spring Garden Picnic",
+          "plausibility": 0.85,
+          "reasoning": "An outdoor setting with soft, dappled light. The glass bowl is filled with fresh berries or flowers on a checkered blanket. The tray is a wicker platter holding picnic snacks. The toy horse (mare) is a plaything belonging to a child running in the grass nearby, momentarily left on the blanket.",
+          "object_interpretations": {
+            "glass bowl": {
+              "form": "glass salad bowl",
+              "scale": "normal",
+              "role": "food container"
+            },
+            "toy": {
+              "form": "toy horse",
+              "scale": "miniature",
+              "role": "child's toy"
+            },
+            "tray": {
+              "form": "wicker tray",
+              "scale": "normal",
+              "role": "serving platter"
+            },
+            "mare": {
+              "form": "toy horse",
+              "scale": "miniature",
+              "role": "child's toy"
+            }
+          }
+        },
+        {
+          "scene_type": "Kitchen Counter",
+          "plausibility": 0.8,
+          "reasoning": "A domestic scene with morning light. The glass bowl is being used to mix batter or hold fruit. The tray is a baking sheet or serving tray sitting on the counter. The toy horse (mare) is a salt and pepper shaker set or a small kitchen novelty item kept near the stove.",
+          "object_interpretations": {
+            "glass bowl": {
+              "form": "glass mixing bowl",
+              "scale": "normal",
+              "role": "kitchen utensil"
+            },
+            "toy": {
+              "form": "toy horse",
+              "scale": "miniature",
+              "role": "kitchen novelty/decoration"
+            },
+            "tray": {
+              "form": "baking tray",
+              "scale": "normal",
+              "role": "utility item"
+            },
+            "mare": {
+              "form": "toy horse",
+              "scale": "miniature",
+              "role": "kitchen novelty/decoration"
+            }
+          },
+          "scene_brief": "A Kitchen Counter featuring glass bowl, with toy toy placed nearby, tray, and toy mare placed nearby"
+        },
+        {
+          "scene_type": "Nursery",
+          "plausibility": 0.9,
+          "reasoning": "A child's room filled with toys and decor. The glass bowl is a decorative item on a dresser, perhaps holding marbles or small trinkets. The toy horse (mare) is a primary plaything. The tray is a plastic organizer used to sort small toys or as a base for a tea party set.",
+          "object_interpretations": {
+            "glass bowl": {
+              "form": "colored glass bowl",
+              "scale": "normal",
+              "role": "decorative storage"
+            },
+            "toy": {
+              "form": "toy horse",
+              "scale": "miniature",
+              "role": "primary play object"
+            },
+            "tray": {
+              "form": "plastic tray",
+              "scale": "normal",
+              "role": "toy organizer"
+            },
+            "mare": {
+              "form": "toy horse",
+              "scale": "miniature",
+              "role": "primary play object"
+            }
+          }
+        },
+        {
+          "scene_type": "Dining Table Setting",
+          "plausibility": 0.85,
+          "reasoning": "A formal dining scene before a meal. The glass bowl is a centerpiece filled with water and floating candles or flowers. The tray is a charger plate or a serving platter at each setting. The toy horse (mare) is a whimsical place card holder or a small party favor.",
+          "object_interpretations": {
+            "glass bowl": {
+              "form": "crystal bowl",
+              "scale": "normal",
+              "role": "centerpiece"
+            },
+            "toy": {
+              "form": "toy horse",
+              "scale": "miniature",
+              "role": "table decoration/place card holder"
+            },
+            "tray": {
+              "form": "charger plate",
+              "scale": "normal",
+              "role": "table setting element"
+            },
+            "mare": {
+              "form": "toy horse",
+              "scale": "miniature",
+              "role": "table decoration/place card holder"
+            }
+          }
+        },
+        {
+          "scene_type": "Farmhouse Porch",
+          "plausibility": 0.75,
+          "reasoning": "A rustic outdoor setting. The glass bowl is a simple vessel for lemonade or iced tea. The tray is a wooden serving board. The toy horse (mare) is a child's toy left on the porch railing, overlooking a real pasture where live horses (mares) might be visible in the distance.",
+          "object_interpretations": {
+            "glass bowl": {
+              "form": "glass tumbler/jar",
+              "scale": "normal",
+              "role": "drinking vessel"
+            },
+            "toy": {
+              "form": "toy horse",
+              "scale": "miniature",
+              "role": "child's toy"
+            },
+            "tray": {
+              "form": "wooden board",
+              "scale": "normal",
+              "role": "serving item"
+            },
+            "mare": {
+              "form": "toy horse",
+              "scale": "miniature",
+              "role": "child's toy"
+            }
+          }
+        }
+      ],
+      "selected_scene": {
+        "scene_type": "Kitchen Counter",
+        "plausibility": 0.8,
+        "reasoning": "A domestic scene with morning light. The glass bowl is being used to mix batter or hold fruit. The tray is a baking sheet or serving tray sitting on the counter. The toy horse (mare) is a salt and pepper shaker set or a small kitchen novelty item kept near the stove.",
+        "object_interpretations": {
+          "glass bowl": {
+            "form": "glass mixing bowl",
+            "scale": "normal",
+            "role": "kitchen utensil"
+          },
+          "toy": {
+            "form": "toy horse",
+            "scale": "miniature",
+            "role": "kitchen novelty/decoration"
+          },
+          "tray": {
+            "form": "baking tray",
+            "scale": "normal",
+            "role": "utility item"
+          },
+          "mare": {
+            "form": "toy horse",
+            "scale": "miniature",
+            "role": "kitchen novelty/decoration"
+          }
+        },
+        "scene_brief": "A Kitchen Counter featuring glass bowl, with toy toy placed nearby, tray, and toy mare placed nearby"
+      }
+    }
+  },
+  "final_prompts": {
+    "main_prompt": "A Impressionism painting depicting a medium pristine glass bowl with pale gold and cool azure tones sitting atop a medium bright silver and cool gray tray, which is clean and polished. Beside the glass bowl rests a small toy, well-loved but cared for, in warm red and soft yellow. Next to the toy stands a small playful mare in soft brown and warm cream. The scene is bathed in the natural soft light of morning, creating a fresh, energetic, cheerful, and gentle atmosphere. The composition flows from the foreground tray and bowl, through the midground toy and mare, to a soft, dappled background.",
+    "negative_prompt": "photorealistic, 3d render, modern, digital art, photograph, low quality, blurry, distorted",
+    "prompt_formats": {
+      "simple": "An Impressionist morning scene with a glass bowl on a tray, a toy, and a small mare, rendered in soft, cheerful light.",
+      "complex": "A Impressionism painting depicting a medium pristine glass bowl with pale gold and cool azure tones sitting atop a medium bright silver and cool gray tray, which is clean and polished. Beside the glass bowl rests a small toy, well-loved but cared for, in warm red and soft yellow. Next to the toy stands a small playful mare in soft brown and warm cream. The scene is bathed in the natural soft light of morning, creating a fresh, energetic, cheerful, and gentle atmosphere.",
+      "comma_separated": "Impressionism, glass bowl, toy, tray, mare, morning, soft light, fresh, cheerful, pale gold, azure, red, yellow, silver, gray, brown, cream",
+      "tags": "art, painting, impressionism, still life, animal, morning, soft light, cheerful, fresh"
+    }
+  }
+}

@@ -1,0 +1,560 @@
+{
+  "artwork_id": "artwork_20260103_183220_520",
+  "generation_timestamp": "2026-01-03T18:33:08.227142",
+  "style": "Chinese Ink Painting",
+  "objects": {
+    "object_ids": [
+      50,
+      40,
+      14,
+      19,
+      35,
+      65,
+      3
+    ],
+    "object_names": [
+      "orange",
+      "bottle",
+      "bench",
+      "sheep",
+      "spear",
+      "mouse",
+      "wagon"
+    ],
+    "enhanced_objects": [
+      {
+        "object_id": 50,
+        "name": "orange",
+        "artistic_description": "A plump citrus fruit rendered in warm, muted ochre and soft amber washes, its dimpled skin catching the diffused afternoon light with subtle variations in tone. The surface appears matte yet slightly textured, with gentle gradations suggesting its weight and freshness under the cloudy sky.",
+        "size": "Medium",
+        "state": "Fresh and ripe",
+        "primary_colors": [
+          "warm ochre",
+          "soft amber"
+        ],
+        "material": "fruit peel"
+      },
+      {
+        "object_id": 40,
+        "name": "bottle",
+        "artistic_description": "A translucent glass vessel rendered in pale gray washes with subtle hints of cool blue where light passes through. The surface shows faint reflections of the overcast sky, with delicate ink strokes suggesting its smooth, reflective quality and the way it captures ambient light.",
+        "size": "Small",
+        "state": "Clean and empty",
+        "primary_colors": [
+          "pale gray",
+          "cool blue"
+        ],
+        "material": "glass"
+      },
+      {
+        "object_id": 14,
+        "name": "bench",
+        "artistic_description": "A weathered wooden bench depicted in warm sepia tones with darker grain lines suggesting aged timber. The surface shows subtle variations from years of use, with soft shadows pooling beneath its slats and a gentle patina that speaks of exposure to sun and rain.",
+        "size": "Medium",
+        "state": "Well-worn and sturdy",
+        "primary_colors": [
+          "warm sepia",
+          "dark brown"
+        ],
+        "material": "wood"
+      },
+      {
+        "object_id": 19,
+        "name": "sheep",
+        "artistic_description": "A woolly creature rendered in soft, layered gray washes that suggest its fluffy texture. The cloudy light creates gentle tonal variations across its form, with subtle hints of warmer tones where the wool catches ambient light, appearing soft and matte.",
+        "size": "Large",
+        "state": "Grazing calmly",
+        "primary_colors": [
+          "soft gray",
+          "warm cream"
+        ],
+        "material": "wool"
+      },
+      {
+        "object_id": 35,
+        "name": "spear",
+        "artistic_description": "A long shaft depicted in cool metallic grays with a sharp, dark point. The shaft shows subtle linear strokes suggesting wood grain, while the metal tip catches the diffused light with faint highlights, appearing sleek and purposeful.",
+        "size": "Medium",
+        "state": "Polished and ready",
+        "primary_colors": [
+          "cool gray",
+          "dark iron"
+        ],
+        "material": "metal and wood"
+      },
+      {
+        "object_id": 65,
+        "name": "mouse",
+        "artistic_description": "A small creature rendered in delicate sepia and soft brown washes, its fur suggested by fine stippled strokes. The dim light of the background creates subtle shadows around its form, with a matte appearance that blends into the earthy tones of the farmyard.",
+        "size": "Marginal",
+        "state": "Alert and quick",
+        "primary_colors": [
+          "sepia",
+          "soft brown"
+        ],
+        "material": "fur"
+      },
+      {
+        "object_id": 3,
+        "name": "wagon",
+        "artistic_description": "A rustic cart depicted in rich, earthy browns with darker accents on the wheels and frame. The wooden planks show subtle variations in tone, with gentle shadows beneath the structure suggesting its weight and solidity. Faint hints of weathering appear in the ink work, showing its practical, workmanlike character.",
+        "size": "Dominant",
+        "state": "Sturdy and functional",
+        "primary_colors": [
+          "earthy brown",
+          "dark umber"
+        ],
+        "material": "wood and metal"
+      }
+    ]
+  },
+  "composition": {
+    "spatial_relations": [
+      [
+        50,
+        "on",
+        14
+      ],
+      [
+        40,
+        "beside",
+        50
+      ],
+      [
+        19,
+        "behind",
+        14
+      ],
+      [
+        65,
+        "under",
+        14
+      ],
+      [
+        3,
+        "behind",
+        19
+      ]
+    ],
+    "semantic_relations": [
+      [
+        35,
+        "leaning against",
+        14
+      ]
+    ]
+  },
+  "environment": {
+    "environment_details": {
+      "scene_brief": "A Rural Farmyard centered around orange, with bottle, bench, sheep, spear, mouse in the background, and wagon",
+      "place365_name": "/f/field/wild",
+      "place365_id": 141,
+      "time_of_day": "afternoon",
+      "weather": "cloudy",
+      "period": "Contemporary",
+      "is_indoor": false,
+      "lighting": {
+        "type": "natural",
+        "quality": "soft",
+        "direction": "side-lit",
+        "mood": "neutral",
+        "reasoning": "Natural lighting from a cloudy afternoon creates soft, diffused light. Side-lighting is chosen to gently model the forms of the wagon, sheep, and bench, giving them volume without harsh edges, which aligns perfectly with the brushwork of Chinese Ink Painting."
+      },
+      "atmosphere": "bright and active and subdued and gentle"
+    },
+    "scene_inference": {
+      "all_candidates": [
+        {
+          "scene_type": "Rural Farmyard",
+          "plausibility": 0.9,
+          "reasoning": "A pastoral scene common in ink painting. The orange tree is the primary focus. The sheep grazes nearby. A wooden bench sits under the tree. A simple wooden wagon is parked to the side. A mouse scurries near the ground. A farmer's spear leans against the wagon. A ceramic bottle rests on the bench.",
+          "object_interpretations": {
+            "orange": {
+              "form": "fruit on tree",
+              "scale": "normal",
+              "role": "primary subject"
+            },
+            "sheep": {
+              "form": "real animal",
+              "scale": "normal",
+              "role": "secondary subject"
+            },
+            "bench": {
+              "form": "wooden furniture",
+              "scale": "normal",
+              "role": "functional object"
+            },
+            "wagon": {
+              "form": "wooden cart",
+              "scale": "normal",
+              "role": "transport object"
+            },
+            "mouse": {
+              "form": "real animal",
+              "scale": "small",
+              "role": "background detail"
+            },
+            "spear": {
+              "form": "weapon",
+              "scale": "normal",
+              "role": "guardian object"
+            },
+            "bottle": {
+              "form": "ceramic vessel",
+              "scale": "normal",
+              "role": "container"
+            }
+          },
+          "scene_brief": "A Rural Farmyard centered around orange, with bottle, bench, sheep, spear, mouse in the background, and wagon"
+        },
+        {
+          "scene_type": "Scholar's Garden",
+          "plausibility": 0.85,
+          "reasoning": "A traditional Chinese garden setting. An orange cat (interpreting sheep as a cat-like companion) sits on a stone bench. A miniature wagon serves as a decorative pot. A mouse is a common garden pest. A spear is a calligraphy brush holder. A bottle is an inkwell. The orange is a fruit on a table.",
+          "object_interpretations": {
+            "orange": {
+              "form": "fruit",
+              "scale": "normal",
+              "role": "still life subject"
+            },
+            "sheep": {
+              "form": "cat (companion)",
+              "scale": "small",
+              "role": "companion"
+            },
+            "bench": {
+              "form": "stone bench",
+              "scale": "normal",
+              "role": "seating"
+            },
+            "wagon": {
+              "form": "miniature cart (pot)",
+              "scale": "small",
+              "role": "decoration"
+            },
+            "mouse": {
+              "form": "real animal",
+              "scale": "tiny",
+              "role": "background detail"
+            },
+            "spear": {
+              "form": "brush holder",
+              "scale": "normal",
+              "role": "stationery"
+            },
+            "bottle": {
+              "form": "ink bottle",
+              "scale": "small",
+              "role": "writing material"
+            }
+          }
+        },
+        {
+          "scene_type": "Festival Market",
+          "plausibility": 0.8,
+          "reasoning": "A bustling market scene. A stall displays oranges. A sheep is a livestock animal in a pen. A bench is for customers. A wagon transports goods. A mouse seeks crumbs. A spear is a vendor's tool/stick. A bottle contains wine.",
+          "object_interpretations": {
+            "orange": {
+              "form": "fruit",
+              "scale": "normal",
+              "role": "commodity"
+            },
+            "sheep": {
+              "form": "livestock",
+              "scale": "normal",
+              "role": "goods"
+            },
+            "bench": {
+              "form": "wooden bench",
+              "scale": "normal",
+              "role": "furniture"
+            },
+            "wagon": {
+              "form": "cart",
+              "scale": "normal",
+              "role": "transport"
+            },
+            "mouse": {
+              "form": "pest",
+              "scale": "small",
+              "role": "background"
+            },
+            "spear": {
+              "form": "vendor's staff",
+              "scale": "normal",
+              "role": "tool"
+            },
+            "bottle": {
+              "form": "wine bottle",
+              "scale": "normal",
+              "role": "liquid container"
+            }
+          }
+        },
+        {
+          "scene_type": "Mythological Landscape",
+          "plausibility": 0.75,
+          "reasoning": "A surreal ink wash landscape. The orange is the sun or a magical fruit. The sheep is a mythical beast. The bench is a rock formation. The wagon is a celestial chariot. The mouse is a spirit. The spear is a divine weapon. The bottle is a potion.",
+          "object_interpretations": {
+            "orange": {
+              "form": "celestial body/fruit",
+              "scale": "large",
+              "role": "light source"
+            },
+            "sheep": {
+              "form": "mythical beast",
+              "scale": "large",
+              "role": "guardian"
+            },
+            "bench": {
+              "form": "stone outcrop",
+              "scale": "large",
+              "role": "landscape feature"
+            },
+            "wagon": {
+              "form": "chariot",
+              "scale": "large",
+              "role": "transport"
+            },
+            "mouse": {
+              "form": "spirit",
+              "scale": "small",
+              "role": "mystical creature"
+            },
+            "spear": {
+              "form": "artifact",
+              "scale": "large",
+              "role": "weapon"
+            },
+            "bottle": {
+              "form": "flask",
+              "scale": "normal",
+              "role": "magic item"
+            }
+          }
+        },
+        {
+          "scene_type": "Kitchen Still Life",
+          "plausibility": 0.9,
+          "reasoning": "A domestic interior. The orange is on a table. The bottle is a wine decanter. The bench is a stool. The sheep is a wool blanket. The spear is a kitchen knife. The mouse is a pest. The wagon is a serving tray.",
+          "object_interpretations": {
+            "orange": {
+              "form": "fruit",
+              "scale": "normal",
+              "role": "food"
+            },
+            "bottle": {
+              "form": "decanter",
+              "scale": "normal",
+              "role": "drink"
+            },
+            "bench": {
+              "form": "stool",
+              "scale": "normal",
+              "role": "seating"
+            },
+            "sheep": {
+              "form": "wool item",
+              "scale": "normal",
+              "role": "texture/comfort"
+            },
+            "spear": {
+              "form": "knife",
+              "scale": "small",
+              "role": "tool"
+            },
+            "mouse": {
+              "form": "rodent",
+              "scale": "small",
+              "role": "intruder"
+            },
+            "wagon": {
+              "form": "tray",
+              "scale": "small",
+              "role": "utility"
+            }
+          }
+        },
+        {
+          "scene_type": "River Crossing",
+          "plausibility": 0.8,
+          "reasoning": "A landscape with a river. The orange is a fruit in a boat. The bench is a log. The sheep needs to cross. The wagon is on the bank. The mouse is on the bank. The spear is a pole. The bottle is a water flask.",
+          "object_interpretations": {
+            "orange": {
+              "form": "fruit",
+              "scale": "normal",
+              "role": "cargo"
+            },
+            "bench": {
+              "form": "log",
+              "scale": "normal",
+              "role": "obstacle"
+            },
+            "sheep": {
+              "form": "animal",
+              "scale": "normal",
+              "role": "traveler"
+            },
+            "wagon": {
+              "form": "cart",
+              "scale": "normal",
+              "role": "abandoned transport"
+            },
+            "mouse": {
+              "form": "animal",
+              "scale": "small",
+              "role": "onlooker"
+            },
+            "spear": {
+              "form": "paddle/pole",
+              "scale": "normal",
+              "role": "tool"
+            },
+            "bottle": {
+              "form": "flask",
+              "scale": "normal",
+              "role": "water source"
+            }
+          }
+        },
+        {
+          "scene_type": "Ancient Temple Grounds",
+          "plausibility": 0.7,
+          "reasoning": "A spiritual place. The orange is an offering. The sheep is a sacrificial animal. The bench is a prayer mat. The wagon is a transport for offerings. The mouse is a temple dweller. The spear is a ceremonial guard. The bottle is incense oil.",
+          "object_interpretations": {
+            "orange": {
+              "form": "offering",
+              "scale": "normal",
+              "role": "ritual object"
+            },
+            "sheep": {
+              "form": "sacrificial animal",
+              "scale": "normal",
+              "role": "ritual subject"
+            },
+            "bench": {
+              "form": "mat",
+              "scale": "normal",
+              "role": "seating"
+            },
+            "wagon": {
+              "form": "cart",
+              "scale": "normal",
+              "role": "transport"
+            },
+            "mouse": {
+              "form": "creature",
+              "scale": "small",
+              "role": "background"
+            },
+            "spear": {
+              "form": "ceremonial weapon",
+              "scale": "normal",
+              "role": "guard"
+            },
+            "bottle": {
+              "form": "oil lamp",
+              "scale": "small",
+              "role": "light"
+            }
+          }
+        },
+        {
+          "scene_type": "Storybook Illustration",
+          "plausibility": 0.85,
+          "reasoning": "A whimsical scene. The orange is a character. The sheep is a friend. The bench is a resting spot. The wagon is a toy. The mouse is a tiny friend. The spear is a twig. The bottle is a potion.",
+          "object_interpretations": {
+            "orange": {
+              "form": "character",
+              "scale": "normal",
+              "role": "protagonist"
+            },
+            "sheep": {
+              "form": "character",
+              "scale": "normal",
+              "role": "companion"
+            },
+            "bench": {
+              "form": "furniture",
+              "scale": "normal",
+              "role": "setting"
+            },
+            "wagon": {
+              "form": "toy",
+              "scale": "small",
+              "role": "prop"
+            },
+            "mouse": {
+              "form": "character",
+              "scale": "small",
+              "role": "sidekick"
+            },
+            "spear": {
+              "form": "stick",
+              "scale": "small",
+              "role": "prop"
+            },
+            "bottle": {
+              "form": "potion",
+              "scale": "small",
+              "role": "magic item"
+            }
+          }
+        }
+      ],
+      "selected_scene": {
+        "scene_type": "Rural Farmyard",
+        "plausibility": 0.9,
+        "reasoning": "A pastoral scene common in ink painting. The orange tree is the primary focus. The sheep grazes nearby. A wooden bench sits under the tree. A simple wooden wagon is parked to the side. A mouse scurries near the ground. A farmer's spear leans against the wagon. A ceramic bottle rests on the bench.",
+        "object_interpretations": {
+          "orange": {
+            "form": "fruit on tree",
+            "scale": "normal",
+            "role": "primary subject"
+          },
+          "sheep": {
+            "form": "real animal",
+            "scale": "normal",
+            "role": "secondary subject"
+          },
+          "bench": {
+            "form": "wooden furniture",
+            "scale": "normal",
+            "role": "functional object"
+          },
+          "wagon": {
+            "form": "wooden cart",
+            "scale": "normal",
+            "role": "transport object"
+          },
+          "mouse": {
+            "form": "real animal",
+            "scale": "small",
+            "role": "background detail"
+          },
+          "spear": {
+            "form": "weapon",
+            "scale": "normal",
+            "role": "guardian object"
+          },
+          "bottle": {
+            "form": "ceramic vessel",
+            "scale": "normal",
+            "role": "container"
+          }
+        },
+        "scene_brief": "A Rural Farmyard centered around orange, with bottle, bench, sheep, spear, mouse in the background, and wagon"
+      }
+    }
+  },
+  "final_prompts": {
+    "main_prompt": "A Chinese Ink Painting painting depicting a tranquil afternoon scene with natural soft lighting, where a bright and active yet subdued and gentle atmosphere permeates the composition. In the foreground, a well-worn and sturdy medium-sized bench in warm sepia and dark brown tones anchors the scene. Upon its wooden surface rests a medium-sized orange, its warm ochre and soft amber hues suggesting fresh ripeness, while a small clean and empty bottle in pale gray and cool blue sits beside it. Leaning against the side of the bench is a medium-sized spear, polished and ready, rendered in cool gray and dark iron. Underneath the bench, a marginal sepia and soft brown mouse appears alert and quick. In the midground, behind the bench, a large sheep in soft gray and warm cream wool is grazing calmly. Further back in the background, a dominant and functional wagon in earthy brown and dark umber stands sturdy, completing the spatial arrangement with clear relationships between all elements.",
+    "negative_prompt": "photorealistic, 3d render, modern, digital art, photograph, low quality, blurry, distorted, cartoon, anime, western painting, oil painting, watercolor, surreal, abstract",
+    "prompt_formats": {
+      "simple": "A Chinese ink painting of an afternoon scene with an orange on a bench, a bottle beside it, a spear leaning against it, a mouse underneath, a sheep grazing behind, and a wagon in the background.",
+      "complex": "A Chinese Ink Painting painting depicting a tranquil afternoon scene with natural soft lighting, where a bright and active yet subdued and gentle atmosphere permeates the composition. In the foreground, a well-worn and sturdy medium-sized bench in warm sepia and dark brown tones anchors the scene. Upon its wooden surface rests a medium-sized orange, its warm ochre and soft amber hues suggesting fresh ripeness, while a small clean and empty bottle in pale gray and cool blue sits beside it. Leaning against the side of the bench is a medium-sized spear, polished and ready, rendered in cool gray and dark iron. Underneath the bench, a marginal sepia and soft brown mouse appears alert and quick. In the midground, behind the bench, a large sheep in soft gray and warm cream wool is grazing calmly. Further back in the background, a dominant and functional wagon in earthy brown and dark umber stands sturdy, completing the spatial arrangement with clear relationships between all elements.",
+      "comma_separated": "Chinese Ink Painting, afternoon, natural soft lighting, bright active subdued gentle atmosphere, bench, orange on bench, bottle next to orange, spear leaning against bench, mouse under bench, sheep behind bench, wagon behind sheep, warm sepia, dark brown, warm ochre, soft amber, pale gray, cool blue, cool gray, dark iron, sepia, soft brown, soft gray, warm cream, earthy brown, dark umber, traditional composition, ink wash, brush strokes",
+      "tags": "art, painting, chinese ink painting, traditional art, ink wash, brush painting, afternoon scene, still life with animals, bench, orange, bottle, spear, mouse, sheep, wagon, spatial composition, serene atmosphere"
+    }
+  }
+}
