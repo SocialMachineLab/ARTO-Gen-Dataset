@@ -1,0 +1,213 @@
+# ARTO TTL - Generated from AI Artwork JSON
+# Artwork ID: artwork_20260103_182856_835
+
+@prefix arto: <http://w3id.org/arto#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix sdo: <https://schema.org/> .
+@prefix edm: <http://www.europeana.eu/schemas/edm/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix qudt: <http://qudt.org/schema/qudt/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix aat: <http://vocab.getty.edu/aat/> .
+@prefix : <http://w3id.org/arto/resource/> .
+
+arto:hasSize rdf:type owl:ObjectProperty ; rdfs:range skos:Concept .
+
+:artwork_20260103_182856_835 rdf:type arto:Artwork ;
+    dcterms:title "Artwork 20260103 182856 835"@en ;
+    dcterms:description """A Chinese Ink Painting painting depicting a charcoal black and misty gray swallow in active flight, its medium-sized form captured mid-motion with wings gracefully extended. The swallow dominates the composition, positioned centrally in the midground as it soars through the gentle morning air. Its feathers are rendered with expressive ink washes that suggest both delicate texture and dynamic movement, creating a living form full of energy. The background features subtle, distant landscape elements—faint mountain silhouettes and wispy clouds—that recede into atmospheric perspective. The natural soft lighting of morning bathes the scene in a fresh, energetic yet subdued and gentle atmosphere, with ink gradations creating a sense of depth and tranquility. The spatial arrangement emphasizes the swallow's freedom of movement against the serene, expansive environment."""@en ;
+    arto:style aat:300033936 ;
+    dcterms:created "2026-01-03T18:29:20.315040"^^xsd:dateTime ;
+    dcterms:creator "AI Artwork Generation System" ;
+    arto:medium arto:DigitalMedium .
+
+:artwork_20260103_182856_835_scene rdf:type arto:Scene ;
+    rdfs:label "Main Scene"@en ;
+    dcterms:description "set during morning"@en ;
+    arto:hasLighting "soft natural"@en ;
+    arto:hasTimeOfDay :Morning ;
+    arto:hasWeather :CloudyWeather ;
+    arto:hasPlace :Valley ;
+    arto:hasPeriod :ContemporaryPeriod ;
+    arto:hasColourScheme :artwork_20260103_182856_835_scene_colourscheme .
+
+:artwork_20260103_182856_835 arto:containsScene :artwork_20260103_182856_835_scene .
+
+:artwork_20260103_182856_835_scene_colourscheme rdf:type arto:ColourScheme ;
+    rdfs:label "Colour Scheme"@en ;
+    arto:hasColourHarmony "monochromatic"@en ;
+    arto:hasContrastLevel "high"@en ;
+    arto:hasColourTemperature "cool"@en .
+
+:artwork_20260103_182856_835_scene_obj_0 rdf:type arto:Object , owl:NamedIndividual , :Bird ;
+    rdfs:label "Swallow"@en ;
+    arto:cocoCategory "bird" ;
+    arto:hasSize :MediumSize ;
+    dcterms:description "Graceful bird rendered in fluid black ink strokes, its form captured in mid-flight with elegant sweeping lines that suggest motion. The cloudy morning light softens the plumage, creating subtle gradations from deep charcoal to soft gray washes. Its forked tail trails like brush calligraphy, while the white underbelly appears as delicate negative space against the misty atmosphere. The feathers are suggested through minimal, confident strokes that capture the bird's energetic yet gentle presence in the cool, subdued light."@en ;
+    arto:state [ a skos:Concept ; rdfs:label "In active flight, wings spread in dynamic arc, pristine and vital"@en ] ;
+    arto:hasCoordinates [
+        a qudt:Vector ;
+        qudt:vector (80.80657958984375 237.94482421875 605.5230712890625 667.4056396484375)
+    ] .
+
+:artwork_20260103_182856_835_scene arto:containsObject :artwork_20260103_182856_835_scene_obj_0 .
+
+:artwork_20260103_182856_835_scene_obj_0_colour_alabaster_0 rdf:type arto:Colour ;
+    rdfs:label "Alabaster"@en ;
+    arto:hasColourValue [
+        a arto:ColourValue ;
+        arto:colourSystem "RGB" ;
+        qudt:vector (239 235 225)
+    ] ;
+    arto:hasMetric [ a arto:Metric ; qudt:numericValue "0.6880"^^xsd:decimal ] .
+
+:artwork_20260103_182856_835_scene_obj_0 arto:containsElement :artwork_20260103_182856_835_scene_obj_0_colour_alabaster_0 .
+
+:artwork_20260103_182856_835_scene_obj_0_colour_jet_1 rdf:type arto:Colour ;
+    rdfs:label "Jet"@en ;
+    arto:hasColourValue [
+        a arto:ColourValue ;
+        arto:colourSystem "RGB" ;
+        qudt:vector (58 58 57)
+    ] ;
+    arto:hasMetric [ a arto:Metric ; qudt:numericValue "0.1870"^^xsd:decimal ] .
+
+:artwork_20260103_182856_835_scene_obj_0 arto:containsElement :artwork_20260103_182856_835_scene_obj_0_colour_jet_1 .
+
+:artwork_20260103_182856_835_scene_obj_0_colour_dark_greenish_gray_2 rdf:type arto:Colour ;
+    rdfs:label "Dark Greenish Gray"@en ;
+    arto:hasColourValue [
+        a arto:ColourValue ;
+        arto:colourSystem "RGB" ;
+        qudt:vector (98 97 93)
+    ] ;
+    arto:hasMetric [ a arto:Metric ; qudt:numericValue "0.0940"^^xsd:decimal ] .
+
+:artwork_20260103_182856_835_scene_obj_0 arto:containsElement :artwork_20260103_182856_835_scene_obj_0_colour_dark_greenish_gray_2 .
+
+:artwork_20260103_182856_835_scene_obj_0_colour_gun_metal_3 rdf:type arto:Colour ;
+    rdfs:label "Gun Metal"@en ;
+    arto:hasColourValue [
+        a arto:ColourValue ;
+        arto:colourSystem "RGB" ;
+        qudt:vector (160 158 152)
+    ] ;
+    arto:hasMetric [ a arto:Metric ; qudt:numericValue "0.0310"^^xsd:decimal ] .
+
+:artwork_20260103_182856_835_scene_obj_0 arto:containsElement :artwork_20260103_182856_835_scene_obj_0_colour_gun_metal_3 .
+
+:artwork_20260103_182856_835_scene_envcolor_0_Alabaster rdf:type arto:Colour ;
+    rdfs:label "Alabaster"@en ;
+    arto:hasColourTerm "Alabaster"@en ;
+    arto:hasColourValue [
+        a arto:ColourValue ;
+        arto:colourSystem "RGB" ;
+        qudt:vector (243 240 233)
+    ] .
+
+:artwork_20260103_182856_835_scene arto:containsElement :artwork_20260103_182856_835_scene_envcolor_0_Alabaster .
+
+:artwork_20260103_182856_835_scene_envcolor_1_Chalk_White rdf:type arto:Colour ;
+    rdfs:label "Chalk White"@en ;
+    arto:hasColourTerm "Chalk White"@en ;
+    arto:hasColourValue [
+        a arto:ColourValue ;
+        arto:colourSystem "RGB" ;
+        qudt:vector (224 219 209)
+    ] .
+
+:artwork_20260103_182856_835_scene arto:containsElement :artwork_20260103_182856_835_scene_envcolor_1_Chalk_White .
+
+:artwork_20260103_182856_835_scene_envcolor_2_Timberwolf rdf:type arto:Colour ;
+    rdfs:label "Timberwolf"@en ;
+    arto:hasColourTerm "Timberwolf"@en ;
+    arto:hasColourValue [
+        a arto:ColourValue ;
+        arto:colourSystem "RGB" ;
+        qudt:vector (219 215 210)
+    ] .
+
+:artwork_20260103_182856_835_scene arto:containsElement :artwork_20260103_182856_835_scene_envcolor_2_Timberwolf .
+
+:artwork_20260103_182856_835_scene_envcolor_3_Grey_Stone rdf:type arto:Colour ;
+    rdfs:label "Grey Stone"@en ;
+    arto:hasColourTerm "Grey Stone"@en ;
+    arto:hasColourValue [
+        a arto:ColourValue ;
+        arto:colourSystem "RGB" ;
+        qudt:vector (136 140 141)
+    ] .
+
+:artwork_20260103_182856_835_scene arto:containsElement :artwork_20260103_182856_835_scene_envcolor_3_Grey_Stone .
+
+:artwork_20260103_182856_835_scene_envcolor_4_Jet rdf:type arto:Colour ;
+    rdfs:label "Jet"@en ;
+    arto:hasColourTerm "Jet"@en ;
+    arto:hasColourValue [
+        a arto:ColourValue ;
+        arto:colourSystem "RGB" ;
+        qudt:vector (52 52 52)
+    ] .
+
+:artwork_20260103_182856_835_scene arto:containsElement :artwork_20260103_182856_835_scene_envcolor_4_Jet .
+
+:artwork_20260103_182856_835_scene_envcolor_5_Alabaster rdf:type arto:Colour ;
+    rdfs:label "Alabaster"@en ;
+    arto:hasColourTerm "Alabaster"@en ;
+    arto:hasColourValue [
+        a arto:ColourValue ;
+        arto:colourSystem "RGB" ;
+        qudt:vector (243 240 233)
+    ] .
+
+:artwork_20260103_182856_835_scene arto:containsElement :artwork_20260103_182856_835_scene_envcolor_5_Alabaster .
+
+:artwork_20260103_182856_835_scene_envcolor_6_Alabaster rdf:type arto:Colour ;
+    rdfs:label "Alabaster"@en ;
+    arto:hasColourTerm "Alabaster"@en ;
+    arto:hasColourValue [
+        a arto:ColourValue ;
+        arto:colourSystem "RGB" ;
+        qudt:vector (243 240 233)
+    ] .
+
+:artwork_20260103_182856_835_scene arto:containsElement :artwork_20260103_182856_835_scene_envcolor_6_Alabaster .
+
+:artwork_20260103_182856_835_scene_envcolor_7_Jet rdf:type arto:Colour ;
+    rdfs:label "Jet"@en ;
+    arto:hasColourTerm "Jet"@en ;
+    arto:hasColourValue [
+        a arto:ColourValue ;
+        arto:colourSystem "RGB" ;
+        qudt:vector (52 52 52)
+    ] .
+
+:artwork_20260103_182856_835_scene arto:containsElement :artwork_20260103_182856_835_scene_envcolor_7_Jet .
+
+:Bird rdf:type skos:Concept ;
+    rdfs:label "Bird"@en ;
+    skos:closeMatch <http://www.wikidata.org/entity/Q5113> .
+
+:CloudyWeather rdf:type skos:Concept ;
+    rdfs:label "Cloudy"@en ;
+    skos:relatedMatch <http://www.wikidata.org/entity/Q1055865> .
+
+:ContemporaryPeriod rdf:type skos:Concept ;
+    rdfs:label "Contemporary"@en ;
+    skos:closeMatch <http://www.wikidata.org/entity/Q186075> .
+
+:MediumSize rdf:type skos:Concept ;
+    rdfs:label "Medium"@en ;
+    skos:notation "3" .
+
+:Morning rdf:type skos:Concept ;
+    rdfs:label "Morning"@en ;
+    skos:closeMatch <http://www.wikidata.org/entity/Q7722> .
+
+:Valley rdf:type skos:Concept ;
+    rdfs:label "Valley"@en ;
+    skos:closeMatch <http://www.wikidata.org/entity/Q39816> .

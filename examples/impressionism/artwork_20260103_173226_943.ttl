@@ -1,0 +1,496 @@
+# ARTO TTL - Generated from AI Artwork JSON
+# Artwork ID: artwork_20260103_173226_943
+
+@prefix arto: <http://w3id.org/arto#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix sdo: <https://schema.org/> .
+@prefix edm: <http://www.europeana.eu/schemas/edm/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix qudt: <http://qudt.org/schema/qudt/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix aat: <http://vocab.getty.edu/aat/> .
+@prefix : <http://w3id.org/arto/resource/> .
+
+arto:beside rdfs:subPropertyOf arto:relatedTo .
+arto:on rdfs:subPropertyOf arto:relatedTo .
+arto:under rdfs:subPropertyOf arto:relatedTo .
+arto:hasSize rdf:type owl:ObjectProperty ; rdfs:range skos:Concept .
+
+:artwork_20260103_173226_943 rdf:type arto:Artwork ;
+    dcterms:title "Artwork 20260103 173226 943"@en ;
+    dcterms:description """A Impressionism painting depicting a bright and cheerful afternoon scene in a gentle, active atmosphere. In the foreground, a large, weathered bronze lamp post with deep umber tones stands solidly next to a medium-sized table of golden ochre and honey-colored wood with a dry, matte finish. Under a large, warm cream and pale yellow sunshade that appears partially translucent from the soft natural afternoon light, the table supports a medium cobalt blue and pure white vase with a glossy, reflective surface. Beside the table, a large charcoal gray and deep slate stove made of cool-toned metal reflects the intense afternoon light with sharp highlights. The spatial arrangement shows the table positioned directly under the sunshade's protective canopy, with the vase centered on the table's surface, the lamp post standing firmly beside the table's left side, and the stove placed adjacent to the table's right side, all bathed in the warm, diffused glow of the late day."""@en ;
+    arto:style aat:300021503 ;
+    dcterms:created "2026-01-03T17:33:04.891156"^^xsd:dateTime ;
+    dcterms:creator "AI Artwork Generation System" ;
+    arto:medium arto:DigitalMedium .
+
+:artwork_20260103_173226_943_scene rdf:type arto:Scene ;
+    rdfs:label "Main Scene"@en ;
+    dcterms:description "set during afternoon"@en ;
+    arto:hasLighting "soft natural"@en ;
+    arto:hasTimeOfDay :Afternoon ;
+    arto:hasWeather :SunnyWeather ;
+    arto:hasPlace :Courtyard ;
+    arto:hasPeriod :ModernPeriod ;
+    arto:hasColourScheme :artwork_20260103_173226_943_scene_colourscheme .
+
+:artwork_20260103_173226_943 arto:containsScene :artwork_20260103_173226_943_scene .
+
+:artwork_20260103_173226_943_scene_colourscheme rdf:type arto:ColourScheme ;
+    rdfs:label "Colour Scheme"@en ;
+    arto:hasColourHarmony "complementary"@en ;
+    arto:hasContrastLevel "medium"@en ;
+    arto:hasColourTemperature "mixed"@en .
+
+:artwork_20260103_173226_943_scene_obj_0 rdf:type arto:Object , owl:NamedIndividual , :Umbrella ;
+    rdfs:label "Sunshade"@en ;
+    arto:cocoCategory "umbrella" ;
+    arto:hasSize :LargeSize ;
+    dcterms:description "A large canvas canopy rendered in loose, visible brushstrokes of warm cream and pale yellow, catching the brilliant afternoon sunlight that filters through its fabric. The material appears slightly translucent, with dappled light creating soft patches of golden warmth where the sun penetrates. The fabric shows subtle variations in opacity, with thicker paint application suggesting the textured weave. Gentle shadows dance across its surface in muted lavender and soft gray, creating a lively interplay of light and color characteristic of Impressionist technique."@en ;
+    arto:material [ a arto:MaterialType ; rdfs:label "canvas"@en ; skos:exactMatch aat:300014078 ] ;
+    arto:state [ a skos:Concept ; rdfs:label "partially translucent from bright light exposure"@en ] ;
+    arto:hasCoordinates [
+        a qudt:Vector ;
+        qudt:vector (64.53689575195312 -2.087310791015625 1024.71337890625 340.23052978515625)
+    ] .
+
+:artwork_20260103_173226_943_scene arto:containsObject :artwork_20260103_173226_943_scene_obj_0 .
+
+:artwork_20260103_173226_943_scene_obj_1 rdf:type arto:Object , owl:NamedIndividual , :Vase ;
+    rdfs:label "Vase"@en ;
+    arto:cocoCategory "vase" ;
+    arto:hasSize :MediumSize ;
+    dcterms:description "A ceramic vessel decorated with bold, gestural strokes of cobalt blue and white, its glossy surface fractured into brilliant highlights where direct sunlight strikes. The glaze reflects the courtyard's brightness with scattered flecks of pure white and pale orange, suggesting the warm ambient light. Quick, confident brushwork captures the vase's curved form, with visible dabs of deeper blue in shadowed areas and soft edges that dissolve into the surrounding atmosphere. The decorative patterns are suggested through loose, impressionistic marks rather than precise detail."@en ;
+    arto:material [ a arto:MaterialType ; rdfs:label "ceramic"@en ; skos:exactMatch aat:300235507 ] ;
+    arto:state [ a skos:Concept ; rdfs:label "glossy and reflective in bright conditions"@en ] ;
+    arto:hasCoordinates [
+        a qudt:Vector ;
+        qudt:vector (386.223876953125 512.61767578125 496.44073486328125 678.6903076171875)
+    ] .
+
+:artwork_20260103_173226_943_scene arto:containsObject :artwork_20260103_173226_943_scene_obj_1 .
+
+:artwork_20260103_173226_943_scene_obj_2 rdf:type arto:Object , owl:NamedIndividual , :LampPost ;
+    rdfs:label "Lamp Post"@en ;
+    arto:cocoCategory "traffic light" ;
+    arto:hasSize :LargeSize ;
+    dcterms:description "A metal structure rendered in vertical strokes of weathered bronze and deep umber, its surface warmed by the afternoon sun into subtle copper tones. The metallic finish shows scattered highlights of bright gold where light catches the edges, while shadowed portions fade into cool gray-blue tones. The paint application is varied—thicker on the illuminated surfaces, thinner and more transparent in recessed areas. Though unlit, the fixture retains a suggestion of its industrial character through visible, confident brushwork that captures both its solidity and the way light plays across its cylindrical form."@en ;
+    arto:material [ a arto:MaterialType ; rdfs:label "metal"@en ; skos:exactMatch aat:300010900 ] ;
+    arto:state [ a skos:Concept ; rdfs:label "weathered but solid, warm-toned in sunlight"@en ] ;
+    arto:hasCoordinates [
+        a qudt:Vector ;
+        qudt:vector (73.71107482910156 18.03021240234375 247.5575408935547 1017.6702270507812)
+    ] .
+
+:artwork_20260103_173226_943_scene arto:containsObject :artwork_20260103_173226_943_scene_obj_2 .
+
+:artwork_20260103_173226_943_scene_obj_3 rdf:type arto:Object , owl:NamedIndividual , :DiningTable ;
+    rdfs:label "Table"@en ;
+    arto:cocoCategory "dining table" ;
+    arto:hasSize :MediumSize ;
+    dcterms:description "A wooden tabletop bathed in brilliant afternoon light, its surface alive with rapid, visible brushstrokes of warm honey, golden ochre, and pale tan. The bright sunlight creates strong, warm reflections that appear almost white in the most illuminated patches. The Impressionist treatment shows the wood grain through loose, directional strokes rather than detailed rendering. Edges soften into the surrounding brightness, and subtle shadows in muted purple and cool gray suggest the table's form. The surface appears dry and matte, absorbing and reflecting light in a way that creates a rich tapestry of warm tones."@en ;
+    arto:material [ a arto:MaterialType ; rdfs:label "wood"@en ; skos:exactMatch aat:300011914 ] ;
+    arto:state [ a skos:Concept ; rdfs:label "dry and matte, warmly illuminated"@en ] ;
+    arto:hasCoordinates [
+        a qudt:Vector ;
+        qudt:vector (178.615478515625 619.1055908203125 785.2933959960938 1018.4251708984375)
+    ] .
+
+:artwork_20260103_173226_943_scene arto:containsObject :artwork_20260103_173226_943_scene_obj_3 .
+
+:artwork_20260103_173226_943_scene_obj_4 rdf:type arto:Object , owl:NamedIndividual , :Oven ;
+    rdfs:label "Stove"@en ;
+    arto:cocoCategory "oven" ;
+    arto:hasSize :LargeSize ;
+    dcterms:description "A cast iron stove depicted with thick, impasto strokes of charcoal gray and deep slate, its dark surface punctuated by brilliant highlights of pale blue and white where the intense afternoon light strikes its metallic edges. The cool ambient light of the courtyard creates subtle violet and lavender tones within the shadows, contrasting with the warm overall atmosphere. The heavy, textured paint application suggests the stove's substantial weight and industrial character. Visible brushwork captures the interplay between the dark, light-absorbing metal and the scattered, intense reflections that break across its angular surfaces."@en ;
+    arto:material [ a arto:MaterialType ; rdfs:label "iron"@en ; skos:exactMatch aat:300011002 ] ;
+    arto:state [ a skos:Concept ; rdfs:label "cool-toned metal with intense light reflections"@en ] ;
+    arto:hasCoordinates [
+        a qudt:Vector ;
+        qudt:vector (732.353271484375 516.2666015625 993.8458251953125 900.8028564453125)
+    ] .
+
+:artwork_20260103_173226_943_scene arto:containsObject :artwork_20260103_173226_943_scene_obj_4 .
+
+:artwork_20260103_173226_943_scene_obj_0_colour_blond_0 rdf:type arto:Colour ;
+    rdfs:label "Blond"@en ;
+    arto:hasColourValue [
+        a arto:ColourValue ;
+        arto:colourSystem "RGB" ;
+        qudt:vector (232 214 167)
+    ] ;
+    arto:hasMetric [ a arto:Metric ; qudt:numericValue "0.5650"^^xsd:decimal ] .
+
+:artwork_20260103_173226_943_scene_obj_0 arto:containsElement :artwork_20260103_173226_943_scene_obj_0_colour_blond_0 .
+
+:artwork_20260103_173226_943_scene_obj_0_colour_moderate_yellow_1 rdf:type arto:Colour ;
+    rdfs:label "Moderate Yellow"@en ;
+    arto:hasColourValue [
+        a arto:ColourValue ;
+        arto:colourSystem "RGB" ;
+        qudt:vector (214 185 124)
+    ] ;
+    arto:hasMetric [ a arto:Metric ; qudt:numericValue "0.1760"^^xsd:decimal ] .
+
+:artwork_20260103_173226_943_scene_obj_0 arto:containsElement :artwork_20260103_173226_943_scene_obj_0_colour_moderate_yellow_1 .
+
+:artwork_20260103_173226_943_scene_obj_0_colour_cappuccino_2 rdf:type arto:Colour ;
+    rdfs:label "Cappuccino"@en ;
+    arto:hasColourValue [
+        a arto:ColourValue ;
+        arto:colourSystem "RGB" ;
+        qudt:vector (168 160 130)
+    ] ;
+    arto:hasMetric [ a arto:Metric ; qudt:numericValue "0.1270"^^xsd:decimal ] .
+
+:artwork_20260103_173226_943_scene_obj_0 arto:containsElement :artwork_20260103_173226_943_scene_obj_0_colour_cappuccino_2 .
+
+:artwork_20260103_173226_943_scene_obj_0_colour_pastel_blue_3 rdf:type arto:Colour ;
+    rdfs:label "Pastel Blue"@en ;
+    arto:hasColourValue [
+        a arto:ColourValue ;
+        arto:colourSystem "RGB" ;
+        qudt:vector (172 192 206)
+    ] ;
+    arto:hasMetric [ a arto:Metric ; qudt:numericValue "0.0990"^^xsd:decimal ] .
+
+:artwork_20260103_173226_943_scene_obj_0 arto:containsElement :artwork_20260103_173226_943_scene_obj_0_colour_pastel_blue_3 .
+
+:artwork_20260103_173226_943_scene_obj_0_colour_moderate_yellowish_brown_4 rdf:type arto:Colour ;
+    rdfs:label "Moderate Yellowish Brown"@en ;
+    arto:hasColourValue [
+        a arto:ColourValue ;
+        arto:colourSystem "RGB" ;
+        qudt:vector (123 100 76)
+    ] ;
+    arto:hasMetric [ a arto:Metric ; qudt:numericValue "0.0330"^^xsd:decimal ] .
+
+:artwork_20260103_173226_943_scene_obj_0 arto:containsElement :artwork_20260103_173226_943_scene_obj_0_colour_moderate_yellowish_brown_4 .
+
+:artwork_20260103_173226_943_scene_obj_1_colour_grayish_blue_0 rdf:type arto:Colour ;
+    rdfs:label "Grayish Blue"@en ;
+    arto:hasColourValue [
+        a arto:ColourValue ;
+        arto:colourSystem "RGB" ;
+        qudt:vector (86 106 124)
+    ] ;
+    arto:hasMetric [ a arto:Metric ; qudt:numericValue "0.3520"^^xsd:decimal ] .
+
+:artwork_20260103_173226_943_scene_obj_1 arto:containsElement :artwork_20260103_173226_943_scene_obj_1_colour_grayish_blue_0 .
+
+:artwork_20260103_173226_943_scene_obj_1_colour_blue_heather_1 rdf:type arto:Colour ;
+    rdfs:label "Blue Heather"@en ;
+    arto:hasColourValue [
+        a arto:ColourValue ;
+        arto:colourSystem "RGB" ;
+        qudt:vector (54 70 114)
+    ] ;
+    arto:hasMetric [ a arto:Metric ; qudt:numericValue "0.2440"^^xsd:decimal ] .
+
+:artwork_20260103_173226_943_scene_obj_1 arto:containsElement :artwork_20260103_173226_943_scene_obj_1_colour_blue_heather_1 .
+
+:artwork_20260103_173226_943_scene_obj_1_colour_grayish_yellow_green_2 rdf:type arto:Colour ;
+    rdfs:label "Grayish Yellow Green"@en ;
+    arto:hasColourValue [
+        a arto:ColourValue ;
+        arto:colourSystem "RGB" ;
+        qudt:vector (131 144 131)
+    ] ;
+    arto:hasMetric [ a arto:Metric ; qudt:numericValue "0.1880"^^xsd:decimal ] .
+
+:artwork_20260103_173226_943_scene_obj_1 arto:containsElement :artwork_20260103_173226_943_scene_obj_1_colour_grayish_yellow_green_2 .
+
+:artwork_20260103_173226_943_scene_obj_1_colour_moderate_greenish_yellow_3 rdf:type arto:Colour ;
+    rdfs:label "Moderate Greenish Yellow"@en ;
+    arto:hasColourValue [
+        a arto:ColourValue ;
+        arto:colourSystem "RGB" ;
+        qudt:vector (197 190 102)
+    ] ;
+    arto:hasMetric [ a arto:Metric ; qudt:numericValue "0.1260"^^xsd:decimal ] .
+
+:artwork_20260103_173226_943_scene_obj_1 arto:containsElement :artwork_20260103_173226_943_scene_obj_1_colour_moderate_greenish_yellow_3 .
+
+:artwork_20260103_173226_943_scene_obj_1_colour_parchment_4 rdf:type arto:Colour ;
+    rdfs:label "Parchment"@en ;
+    arto:hasColourValue [
+        a arto:ColourValue ;
+        arto:colourSystem "RGB" ;
+        qudt:vector (204 200 176)
+    ] ;
+    arto:hasMetric [ a arto:Metric ; qudt:numericValue "0.0900"^^xsd:decimal ] .
+
+:artwork_20260103_173226_943_scene_obj_1 arto:containsElement :artwork_20260103_173226_943_scene_obj_1_colour_parchment_4 .
+
+:artwork_20260103_173226_943_scene_obj_2_colour_parchment_0 rdf:type arto:Colour ;
+    rdfs:label "Parchment"@en ;
+    arto:hasColourValue [
+        a arto:ColourValue ;
+        arto:colourSystem "RGB" ;
+        qudt:vector (208 197 165)
+    ] ;
+    arto:hasMetric [ a arto:Metric ; qudt:numericValue "0.2880"^^xsd:decimal ] .
+
+:artwork_20260103_173226_943_scene_obj_2 arto:containsElement :artwork_20260103_173226_943_scene_obj_2_colour_parchment_0 .
+
+:artwork_20260103_173226_943_scene_obj_2_colour_grayish_olive_1 rdf:type arto:Colour ;
+    rdfs:label "Grayish Olive"@en ;
+    arto:hasColourValue [
+        a arto:ColourValue ;
+        arto:colourSystem "RGB" ;
+        qudt:vector (105 97 78)
+    ] ;
+    arto:hasMetric [ a arto:Metric ; qudt:numericValue "0.2680"^^xsd:decimal ] .
+
+:artwork_20260103_173226_943_scene_obj_2 arto:containsElement :artwork_20260103_173226_943_scene_obj_2_colour_grayish_olive_1 .
+
+:artwork_20260103_173226_943_scene_obj_2_colour_old_gold_2 rdf:type arto:Colour ;
+    rdfs:label "Old Gold"@en ;
+    arto:hasColourValue [
+        a arto:ColourValue ;
+        arto:colourSystem "RGB" ;
+        qudt:vector (200 174 76)
+    ] ;
+    arto:hasMetric [ a arto:Metric ; qudt:numericValue "0.2560"^^xsd:decimal ] .
+
+:artwork_20260103_173226_943_scene_obj_2 arto:containsElement :artwork_20260103_173226_943_scene_obj_2_colour_old_gold_2 .
+
+:artwork_20260103_173226_943_scene_obj_2_colour_heather_3 rdf:type arto:Colour ;
+    rdfs:label "Heather"@en ;
+    arto:hasColourValue [
+        a arto:ColourValue ;
+        arto:colourSystem "RGB" ;
+        qudt:vector (136 145 109)
+    ] ;
+    arto:hasMetric [ a arto:Metric ; qudt:numericValue "0.1880"^^xsd:decimal ] .
+
+:artwork_20260103_173226_943_scene_obj_2 arto:containsElement :artwork_20260103_173226_943_scene_obj_2_colour_heather_3 .
+
+:artwork_20260103_173226_943_scene_obj_3_colour_beige_0 rdf:type arto:Colour ;
+    rdfs:label "Beige"@en ;
+    arto:hasColourValue [
+        a arto:ColourValue ;
+        arto:colourSystem "RGB" ;
+        qudt:vector (220 202 165)
+    ] ;
+    arto:hasMetric [ a arto:Metric ; qudt:numericValue "0.3990"^^xsd:decimal ] .
+
+:artwork_20260103_173226_943_scene_obj_3 arto:containsElement :artwork_20260103_173226_943_scene_obj_3_colour_beige_0 .
+
+:artwork_20260103_173226_943_scene_obj_3_colour_goldenrod_1 rdf:type arto:Colour ;
+    rdfs:label "Goldenrod"@en ;
+    arto:hasColourValue [
+        a arto:ColourValue ;
+        arto:colourSystem "RGB" ;
+        qudt:vector (201 155 46)
+    ] ;
+    arto:hasMetric [ a arto:Metric ; qudt:numericValue "0.2870"^^xsd:decimal ] .
+
+:artwork_20260103_173226_943_scene_obj_3 arto:containsElement :artwork_20260103_173226_943_scene_obj_3_colour_goldenrod_1 .
+
+:artwork_20260103_173226_943_scene_obj_3_colour_ecru_2 rdf:type arto:Colour ;
+    rdfs:label "Ecru"@en ;
+    arto:hasColourValue [
+        a arto:ColourValue ;
+        arto:colourSystem "RGB" ;
+        qudt:vector (192 175 133)
+    ] ;
+    arto:hasMetric [ a arto:Metric ; qudt:numericValue "0.2080"^^xsd:decimal ] .
+
+:artwork_20260103_173226_943_scene_obj_3 arto:containsElement :artwork_20260103_173226_943_scene_obj_3_colour_ecru_2 .
+
+:artwork_20260103_173226_943_scene_obj_3_colour_chimney_sweep_3 rdf:type arto:Colour ;
+    rdfs:label "Chimney Sweep"@en ;
+    arto:hasColourValue [
+        a arto:ColourValue ;
+        arto:colourSystem "RGB" ;
+        qudt:vector (117 117 115)
+    ] ;
+    arto:hasMetric [ a arto:Metric ; qudt:numericValue "0.1060"^^xsd:decimal ] .
+
+:artwork_20260103_173226_943_scene_obj_3 arto:containsElement :artwork_20260103_173226_943_scene_obj_3_colour_chimney_sweep_3 .
+
+:artwork_20260103_173226_943_scene_obj_4_colour_dark_greenish_gray_0 rdf:type arto:Colour ;
+    rdfs:label "Dark Greenish Gray"@en ;
+    arto:hasColourValue [
+        a arto:ColourValue ;
+        arto:colourSystem "RGB" ;
+        qudt:vector (86 89 87)
+    ] ;
+    arto:hasMetric [ a arto:Metric ; qudt:numericValue "0.4760"^^xsd:decimal ] .
+
+:artwork_20260103_173226_943_scene_obj_4 arto:containsElement :artwork_20260103_173226_943_scene_obj_4_colour_dark_greenish_gray_0 .
+
+:artwork_20260103_173226_943_scene_obj_4_colour_light_grayish_olive_1 rdf:type arto:Colour ;
+    rdfs:label "Light Grayish Olive"@en ;
+    arto:hasColourValue [
+        a arto:ColourValue ;
+        arto:colourSystem "RGB" ;
+        qudt:vector (126 119 97)
+    ] ;
+    arto:hasMetric [ a arto:Metric ; qudt:numericValue "0.2980"^^xsd:decimal ] .
+
+:artwork_20260103_173226_943_scene_obj_4 arto:containsElement :artwork_20260103_173226_943_scene_obj_4_colour_light_grayish_olive_1 .
+
+:artwork_20260103_173226_943_scene_obj_4_colour_cappuccino_2 rdf:type arto:Colour ;
+    rdfs:label "Cappuccino"@en ;
+    arto:hasColourValue [
+        a arto:ColourValue ;
+        arto:colourSystem "RGB" ;
+        qudt:vector (183 163 122)
+    ] ;
+    arto:hasMetric [ a arto:Metric ; qudt:numericValue "0.1290"^^xsd:decimal ] .
+
+:artwork_20260103_173226_943_scene_obj_4 arto:containsElement :artwork_20260103_173226_943_scene_obj_4_colour_cappuccino_2 .
+
+:artwork_20260103_173226_943_scene_obj_4_colour_deep_yellow_3 rdf:type arto:Colour ;
+    rdfs:label "Deep Yellow"@en ;
+    arto:hasColourValue [
+        a arto:ColourValue ;
+        arto:colourSystem "RGB" ;
+        qudt:vector (195 145 37)
+    ] ;
+    arto:hasMetric [ a arto:Metric ; qudt:numericValue "0.0970"^^xsd:decimal ] .
+
+:artwork_20260103_173226_943_scene_obj_4 arto:containsElement :artwork_20260103_173226_943_scene_obj_4_colour_deep_yellow_3 .
+
+:artwork_20260103_173226_943_scene_envcolor_0_Blond rdf:type arto:Colour ;
+    rdfs:label "Blond"@en ;
+    arto:hasColourTerm "Blond"@en ;
+    arto:hasColourValue [
+        a arto:ColourValue ;
+        arto:colourSystem "RGB" ;
+        qudt:vector (236 213 167)
+    ] .
+
+:artwork_20260103_173226_943_scene arto:containsElement :artwork_20260103_173226_943_scene_envcolor_0_Blond .
+
+:artwork_20260103_173226_943_scene_envcolor_1_Chamoise rdf:type arto:Colour ;
+    rdfs:label "Chamoise"@en ;
+    arto:hasColourTerm "Chamoise"@en ;
+    arto:hasColourValue [
+        a arto:ColourValue ;
+        arto:colourSystem "RGB" ;
+        qudt:vector (232 205 154)
+    ] .
+
+:artwork_20260103_173226_943_scene arto:containsElement :artwork_20260103_173226_943_scene_envcolor_1_Chamoise .
+
+:artwork_20260103_173226_943_scene_envcolor_2_Yellow_Gray rdf:type arto:Colour ;
+    rdfs:label "Yellow Gray"@en ;
+    arto:hasColourTerm "Yellow Gray"@en ;
+    arto:hasColourValue [
+        a arto:ColourValue ;
+        arto:colourSystem "RGB" ;
+        qudt:vector (143 139 102)
+    ] .
+
+:artwork_20260103_173226_943_scene arto:containsElement :artwork_20260103_173226_943_scene_envcolor_2_Yellow_Gray .
+
+:artwork_20260103_173226_943_scene_envcolor_3_Mulberry rdf:type arto:Colour ;
+    rdfs:label "Mulberry"@en ;
+    arto:hasColourTerm "Mulberry"@en ;
+    arto:hasColourValue [
+        a arto:ColourValue ;
+        arto:colourSystem "RGB" ;
+        qudt:vector (100 107 99)
+    ] .
+
+:artwork_20260103_173226_943_scene arto:containsElement :artwork_20260103_173226_943_scene_envcolor_3_Mulberry .
+
+:artwork_20260103_173226_943_scene_envcolor_4_Quaker_Grey rdf:type arto:Colour ;
+    rdfs:label "Quaker Grey"@en ;
+    arto:hasColourTerm "Quaker Grey"@en ;
+    arto:hasColourValue [
+        a arto:ColourValue ;
+        arto:colourSystem "RGB" ;
+        qudt:vector (165 178 182)
+    ] .
+
+:artwork_20260103_173226_943_scene arto:containsElement :artwork_20260103_173226_943_scene_envcolor_4_Quaker_Grey .
+
+:artwork_20260103_173226_943_scene_envcolor_5_Blond rdf:type arto:Colour ;
+    rdfs:label "Blond"@en ;
+    arto:hasColourTerm "Blond"@en ;
+    arto:hasColourValue [
+        a arto:ColourValue ;
+        arto:colourSystem "RGB" ;
+        qudt:vector (236 213 167)
+    ] .
+
+:artwork_20260103_173226_943_scene arto:containsElement :artwork_20260103_173226_943_scene_envcolor_5_Blond .
+
+:artwork_20260103_173226_943_scene_envcolor_6_Blond rdf:type arto:Colour ;
+    rdfs:label "Blond"@en ;
+    arto:hasColourTerm "Blond"@en ;
+    arto:hasColourValue [
+        a arto:ColourValue ;
+        arto:colourSystem "RGB" ;
+        qudt:vector (236 213 167)
+    ] .
+
+:artwork_20260103_173226_943_scene arto:containsElement :artwork_20260103_173226_943_scene_envcolor_6_Blond .
+
+:artwork_20260103_173226_943_scene_envcolor_7_Dark_Gray rdf:type arto:Colour ;
+    rdfs:label "Dark Gray"@en ;
+    arto:hasColourTerm "Dark Gray"@en ;
+    arto:hasColourValue [
+        a arto:ColourValue ;
+        arto:colourSystem "RGB" ;
+        qudt:vector (88 84 88)
+    ] .
+
+:artwork_20260103_173226_943_scene arto:containsElement :artwork_20260103_173226_943_scene_envcolor_7_Dark_Gray .
+
+:artwork_20260103_173226_943_scene_obj_3 arto:under :artwork_20260103_173226_943_scene_obj_0 .
+:artwork_20260103_173226_943_scene_obj_1 arto:on :artwork_20260103_173226_943_scene_obj_3 .
+:artwork_20260103_173226_943_scene_obj_2 arto:beside :artwork_20260103_173226_943_scene_obj_3 .
+:artwork_20260103_173226_943_scene_obj_4 arto:beside :artwork_20260103_173226_943_scene_obj_3 .
+
+:Afternoon rdf:type skos:Concept ;
+    rdfs:label "Afternoon"@en ;
+    skos:closeMatch <http://www.wikidata.org/entity/Q283102> .
+
+:Courtyard rdf:type skos:Concept ;
+    rdfs:label "Courtyard"@en ;
+    skos:closeMatch <http://www.wikidata.org/entity/Q309250> .
+
+:DiningTable rdf:type skos:Concept ;
+    rdfs:label "Dining Table"@en ;
+    skos:closeMatch <http://www.wikidata.org/entity/Q4396855> .
+
+:LampPost rdf:type skos:Concept ;
+    rdfs:label "Lamp Post"@en ;
+    skos:closeMatch <http://www.wikidata.org/entity/Q26442383> .
+
+:LargeSize rdf:type skos:Concept ;
+    rdfs:label "Large"@en ;
+    skos:notation "4" .
+
+:MediumSize rdf:type skos:Concept ;
+    rdfs:label "Medium"@en ;
+    skos:notation "3" .
+
+:ModernPeriod rdf:type skos:Concept ;
+    rdfs:label "Modern"@en ;
+    skos:closeMatch <http://www.wikidata.org/entity/Q3281534> .
+
+:Oven rdf:type skos:Concept ;
+    rdfs:label "Oven"@en ;
+    skos:closeMatch <http://www.wikidata.org/entity/Q36539> .
+
+:SunnyWeather rdf:type skos:Concept ;
+    rdfs:label "Sunny"@en ;
+    skos:relatedMatch <http://www.wikidata.org/entity/Q11514702> .
+
+:Umbrella rdf:type skos:Concept ;
+    rdfs:label "Umbrella"@en ;
+    skos:closeMatch <http://www.wikidata.org/entity/Q41607> .
+
+:Vase rdf:type skos:Concept ;
+    rdfs:label "Vase"@en ;
+    skos:closeMatch <http://www.wikidata.org/entity/Q191851> .

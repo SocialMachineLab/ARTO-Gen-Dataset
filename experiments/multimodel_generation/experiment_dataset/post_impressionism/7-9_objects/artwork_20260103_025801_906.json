@@ -1,0 +1,563 @@
+{
+  "artwork_id": "artwork_20260103_025801_906",
+  "generation_timestamp": "2026-01-03T02:58:43.276735",
+  "style": "Post-Impressionism",
+  "objects": {
+    "object_ids": [
+      60,
+      57,
+      18,
+      40,
+      46,
+      20,
+      46
+    ],
+    "object_names": [
+      "bed",
+      "stage",
+      "donkey",
+      "canteen",
+      "tray",
+      "cattle",
+      "soup bowl"
+    ],
+    "enhanced_objects": [
+      {
+        "object_id": 60,
+        "name": "bed",
+        "artistic_description": "A rumpled bed with sheets catching the artificial light in sharp, angular folds, creating stark contrasts between deep indigo shadows and warm amber highlights where fabric crests. The headboard shows a matte wooden surface with subtle grain patterns emphasized by the directional lighting, while the pillows appear as soft, luminous mounds against the darker surroundings.",
+        "size": "Large",
+        "state": "disheveled, recently used",
+        "primary_colors": [
+          "deep indigo",
+          "warm amber"
+        ],
+        "material": "wood and fabric"
+      },
+      {
+        "object_id": 57,
+        "name": "stage",
+        "artistic_description": "A wooden stage platform with planks showing visible grain and wear, illuminated by harsh artificial light that creates dramatic geometric shadows between each board. The painted edge of the stage catches a cool, electric blue glow, while the main surface reflects a muted, dusty brown with scuffed marks visible in the stark lighting.",
+        "size": "Dominant",
+        "state": "worn, theatrical",
+        "primary_colors": [
+          "dusty brown",
+          "electric blue"
+        ],
+        "material": "wood"
+      },
+      {
+        "object_id": 18,
+        "name": "donkey",
+        "artistic_description": "A donkey standing with fur that appears as textured patches of charcoal and slate under the artificial illumination, the coarse hair catching small highlights along the spine and shoulders. Its long ears are silhouetted against the light, creating a dark, angular shape, while the eyes reflect a glassy, mysterious sheen.",
+        "size": "Medium",
+        "state": "patient, still",
+        "primary_colors": [
+          "charcoal",
+          "slate"
+        ],
+        "material": "fur"
+      },
+      {
+        "object_id": 40,
+        "name": "canteen",
+        "artistic_description": "A metal canteen with a curved, reflective surface that captures distorted streaks of the artificial light source, creating bright silver highlights against dark, oxidized areas. The metal shows a cool, metallic sheen with subtle greenish patina in the shadowed recesses, while the cap appears as a small, sharp point of reflected brightness.",
+        "size": "Small",
+        "state": "dented, aged",
+        "primary_colors": [
+          "silver",
+          "oxidized green"
+        ],
+        "material": "metal"
+      },
+      {
+        "object_id": 46,
+        "name": "tray",
+        "artistic_description": "A rectangular tray with a rim that catches a sharp line of warm light, while the interior surface remains in deep shadow with only faint reflections of ambient color. The metal surface shows subtle scratches and wear patterns visible as darker lines against the slightly reflective, muted bronze tone.",
+        "size": "Small",
+        "state": "scratched, functional",
+        "primary_colors": [
+          "muted bronze",
+          "deep shadow"
+        ],
+        "material": "metal"
+      },
+      {
+        "object_id": 20,
+        "name": "cattle",
+        "artistic_description": "Cattle forms in the background rendered as dark, massive silhouettes with only the edges of their bodies catching faint artificial light, creating a thin, warm outline. Their hides appear as deep, matte black shapes with minimal detail, suggesting bulk and presence through shadow rather than visible texture.",
+        "size": "Large",
+        "state": "grazing, distant",
+        "primary_colors": [
+          "deep black",
+          "warm outline"
+        ],
+        "material": "hide"
+      },
+      {
+        "object_id": 46,
+        "name": "soup bowl",
+        "artistic_description": "A ceramic bowl with a glossy interior surface that holds a pool of liquid reflecting the artificial light as a bright, concentrated point, surrounded by a dark rim. The exterior shows a matte, creamy glaze with subtle crazing patterns visible in the directional light, while the lip of the bowl catches a thin, sharp highlight.",
+        "size": "Small",
+        "state": "empty or nearly empty",
+        "primary_colors": [
+          "creamy white",
+          "dark reflection"
+        ],
+        "material": "ceramic"
+      }
+    ]
+  },
+  "composition": {
+    "spatial_relations": [
+      [
+        57,
+        "beside",
+        60
+      ],
+      [
+        18,
+        "on",
+        57
+      ],
+      [
+        46,
+        "on",
+        57
+      ],
+      [
+        40,
+        "on",
+        46
+      ],
+      [
+        46,
+        "on",
+        57
+      ],
+      [
+        20,
+        "behind",
+        57
+      ],
+      [
+        20,
+        "behind",
+        60
+      ]
+    ],
+    "semantic_relations": []
+  },
+  "environment": {
+    "environment_details": {
+      "scene_brief": "A Surreal Dreamscape featuring bed, with stage, donkey, canteen, tray, cattle in the background, and soup bowl",
+      "place365_name": "/t/theater",
+      "place365_id": 21,
+      "time_of_day": "night",
+      "weather": null,
+      "period": "Contemporary",
+      "is_indoor": true,
+      "lighting": {
+        "type": "artificial",
+        "quality": "dramatic",
+        "direction": "side-lit",
+        "reasoning": "A stage setting necessitates artificial lighting to highlight the actors/objects and create mood. 'Dramatic' lighting suits the surreal and theatrical nature. 'Side-lit' creates strong shadows and depth, essential for the Post-Impressionist focus on form and emotional intensity over realistic representation."
+      },
+      "atmosphere": "quiet and mysterious and striking"
+    },
+    "scene_inference": {
+      "all_candidates": [
+        {
+          "scene_type": "Theatrical Backstage",
+          "plausibility": 0.85,
+          "reasoning": "A bed is placed in a backstage area for resting between performances. The stage is the main feature. A donkey could be a prop or a costumed actor. Canteen and tray are for crew meals. Cattle might be large props or part of a farm-themed play. Soup bowl is on the tray.",
+          "object_interpretations": {
+            "bed": {
+              "form": "real bed",
+              "scale": "normal",
+              "role": "resting place"
+            },
+            "stage": {
+              "form": "real stage",
+              "scale": "large",
+              "role": "performance area"
+            },
+            "donkey": {
+              "form": "costumed human or prop",
+              "scale": "normal",
+              "role": "actor/prop"
+            },
+            "canteen": {
+              "form": "real canteen",
+              "scale": "normal",
+              "role": "food container"
+            },
+            "tray": {
+              "form": "real tray",
+              "scale": "normal",
+              "role": "carrier"
+            },
+            "cattle": {
+              "form": "cardboard cutouts or props",
+              "scale": "large",
+              "role": "scenic backdrop"
+            },
+            "soup bowl": {
+              "form": "real bowl",
+              "scale": "small",
+              "role": "food vessel"
+            }
+          }
+        },
+        {
+          "scene_type": "Farmhouse Interior",
+          "plausibility": 0.9,
+          "reasoning": "A rustic farmhouse where the bed is the main furniture. Donkey and cattle are farm animals visible through a window or in an adjacent barn. Canteen is a worker's flask. Tray holds a soup bowl for a meal.",
+          "object_interpretations": {
+            "bed": {
+              "form": "real bed",
+              "scale": "normal",
+              "role": "sleeping area"
+            },
+            "stage": {
+              "form": "raised platform or dais",
+              "scale": "small",
+              "role": "storage or display"
+            },
+            "donkey": {
+              "form": "real animal",
+              "scale": "normal",
+              "role": "farm animal"
+            },
+            "canteen": {
+              "form": "metal flask",
+              "scale": "small",
+              "role": "water container"
+            },
+            "tray": {
+              "form": "wooden tray",
+              "scale": "normal",
+              "role": "meal carrier"
+            },
+            "cattle": {
+              "form": "real animals",
+              "scale": "large",
+              "role": "livestock"
+            },
+            "soup bowl": {
+              "form": "ceramic bowl",
+              "scale": "small",
+              "role": "food vessel"
+            }
+          }
+        },
+        {
+          "scene_type": "Circus Tent Living Quarters",
+          "plausibility": 0.8,
+          "reasoning": "A performer's sleeping area inside a circus tent. The bed is here. The stage is the circus ring. Donkey is a circus animal. Canteen and tray are for food service. Cattle might be part of a rodeo act. Soup bowl is on the tray.",
+          "object_interpretations": {
+            "bed": {
+              "form": "cot",
+              "scale": "normal",
+              "role": "sleeping"
+            },
+            "stage": {
+              "form": "circus ring",
+              "scale": "large",
+              "role": "performance"
+            },
+            "donkey": {
+              "form": "trained animal",
+              "scale": "normal",
+              "role": "performer"
+            },
+            "canteen": {
+              "form": "water bottle",
+              "scale": "small",
+              "role": "hydration"
+            },
+            "tray": {
+              "form": "serving tray",
+              "scale": "normal",
+              "role": "food service"
+            },
+            "cattle": {
+              "form": "trained cattle",
+              "scale": "large",
+              "role": "performers"
+            },
+            "soup bowl": {
+              "form": "bowl",
+              "scale": "small",
+              "role": "meal"
+            }
+          }
+        },
+        {
+          "scene_type": "Surreal Dreamscape",
+          "plausibility": 0.75,
+          "reasoning": "A dream logic scene where objects float and merge. The bed floats above a stage. A donkey wears a canteen. Cattle graze on the stage. A tray holds a soup bowl in mid-air. Post-Impressionist colors enhance the dream state.",
+          "object_interpretations": {
+            "bed": {
+              "form": "floating bed",
+              "scale": "normal",
+              "role": "dream anchor"
+            },
+            "stage": {
+              "form": "floating platform",
+              "scale": "large",
+              "role": "dream stage"
+            },
+            "donkey": {
+              "form": "surreal creature",
+              "scale": "variable",
+              "role": "dream figure"
+            },
+            "canteen": {
+              "form": "attached to donkey",
+              "scale": "small",
+              "role": "part of creature"
+            },
+            "tray": {
+              "form": "floating tray",
+              "scale": "normal",
+              "role": "levitating object"
+            },
+            "cattle": {
+              "form": "silhouettes",
+              "scale": "large",
+              "role": "background shapes"
+            },
+            "soup bowl": {
+              "form": "glowing bowl",
+              "scale": "small",
+              "role": "light source"
+            }
+          },
+          "scene_brief": "A Surreal Dreamscape featuring bed, with stage, donkey, canteen, tray, cattle in the background, and soup bowl"
+        },
+        {
+          "scene_type": "Vintage Movie Set",
+          "plausibility": 0.85,
+          "reasoning": "A film set for a period piece. The bed is a prop. The stage is the filming area. Donkey is an animal actor. Canteen and tray are props for a soldier character. Cattle are background props for a farm scene. Soup bowl is a prop.",
+          "object_interpretations": {
+            "bed": {
+              "form": "prop bed",
+              "scale": "normal",
+              "role": "set dressing"
+            },
+            "stage": {
+              "form": "filming stage",
+              "scale": "large",
+              "role": "action area"
+            },
+            "donkey": {
+              "form": "animal actor",
+              "scale": "normal",
+              "role": "cast member"
+            },
+            "canteen": {
+              "form": "prop",
+              "scale": "small",
+              "role": "character accessory"
+            },
+            "tray": {
+              "form": "prop",
+              "scale": "normal",
+              "role": "set dressing"
+            },
+            "cattle": {
+              "form": "props",
+              "scale": "large",
+              "role": "background"
+            },
+            "soup bowl": {
+              "form": "prop",
+              "scale": "small",
+              "role": "set dressing"
+            }
+          }
+        },
+        {
+          "scene_type": "Art Studio",
+          "plausibility": 0.8,
+          "reasoning": "An artist's studio with a bed for resting. A stage is built for drawing models. A donkey is a live model or reference. Canteen and tray are the artist's supplies. Cattle are reference photos or sculptures. Soup bowl is the artist's lunch.",
+          "object_interpretations": {
+            "bed": {
+              "form": "real bed",
+              "scale": "normal",
+              "role": "rest area"
+            },
+            "stage": {
+              "form": "model podium",
+              "scale": "small",
+              "role": "drawing focus"
+            },
+            "donkey": {
+              "form": "live model",
+              "scale": "normal",
+              "role": "subject"
+            },
+            "canteen": {
+              "form": "paint water container",
+              "scale": "small",
+              "role": "tool"
+            },
+            "tray": {
+              "form": "palette tray",
+              "scale": "normal",
+              "role": "tool holder"
+            },
+            "cattle": {
+              "form": "sketches",
+              "scale": "variable",
+              "role": "reference"
+            },
+            "soup bowl": {
+              "form": "lunch bowl",
+              "scale": "small",
+              "role": "food"
+            }
+          }
+        },
+        {
+          "scene_type": "Military Barracks",
+          "plausibility": 0.75,
+          "reasoning": "A barracks room with beds. A stage for entertainment. A donkey might be a mascot or transport. Canteen is standard issue. Tray holds food. Cattle might be for food supply or mascot. Soup bowl is for eating.",
+          "object_interpretations": {
+            "bed": {
+              "form": "bunk bed",
+              "scale": "normal",
+              "role": "sleeping"
+            },
+            "stage": {
+              "form": "rec room stage",
+              "scale": "medium",
+              "role": "entertainment"
+            },
+            "donkey": {
+              "form": "mascot",
+              "scale": "normal",
+              "role": "unit pet"
+            },
+            "canteen": {
+              "form": "army canteen",
+              "scale": "small",
+              "role": "hydration"
+            },
+            "tray": {
+              "form": "mess tray",
+              "scale": "normal",
+              "role": "food carrier"
+            },
+            "cattle": {
+              "form": "butchered meat",
+              "scale": "large",
+              "role": "food supply"
+            },
+            "soup bowl": {
+              "form": "mess bowl",
+              "scale": "small",
+              "role": "food vessel"
+            }
+          }
+        },
+        {
+          "scene_type": "Renaissance Fair",
+          "plausibility": 0.85,
+          "reasoning": "A medieval fair setting. A bed in a merchant tent. A stage for jesters. Donkey as transport. Canteen for water. Tray for serving. Cattle as livestock display. Soup bowl for food.",
+          "object_interpretations": {
+            "bed": {
+              "form": "cot",
+              "scale": "normal",
+              "role": "rest"
+            },
+            "stage": {
+              "form": "wooden platform",
+              "scale": "medium",
+              "role": "performance"
+            },
+            "donkey": {
+              "form": "pack animal",
+              "scale": "normal",
+              "role": "transport"
+            },
+            "canteen": {
+              "form": "leather flask",
+              "scale": "small",
+              "role": "water"
+            },
+            "tray": {
+              "form": "wooden platter",
+              "scale": "normal",
+              "role": "serving"
+            },
+            "cattle": {
+              "form": "livestock",
+              "scale": "large",
+              "role": "display"
+            },
+            "soup bowl": {
+              "form": "wooden bowl",
+              "scale": "small",
+              "role": "food"
+            }
+          }
+        }
+      ],
+      "selected_scene": {
+        "scene_type": "Surreal Dreamscape",
+        "plausibility": 0.75,
+        "reasoning": "A dream logic scene where objects float and merge. The bed floats above a stage. A donkey wears a canteen. Cattle graze on the stage. A tray holds a soup bowl in mid-air. Post-Impressionist colors enhance the dream state.",
+        "object_interpretations": {
+          "bed": {
+            "form": "floating bed",
+            "scale": "normal",
+            "role": "dream anchor"
+          },
+          "stage": {
+            "form": "floating platform",
+            "scale": "large",
+            "role": "dream stage"
+          },
+          "donkey": {
+            "form": "surreal creature",
+            "scale": "variable",
+            "role": "dream figure"
+          },
+          "canteen": {
+            "form": "attached to donkey",
+            "scale": "small",
+            "role": "part of creature"
+          },
+          "tray": {
+            "form": "floating tray",
+            "scale": "normal",
+            "role": "levitating object"
+          },
+          "cattle": {
+            "form": "silhouettes",
+            "scale": "large",
+            "role": "background shapes"
+          },
+          "soup bowl": {
+            "form": "glowing bowl",
+            "scale": "small",
+            "role": "light source"
+          }
+        },
+        "scene_brief": "A Surreal Dreamscape featuring bed, with stage, donkey, canteen, tray, cattle in the background, and soup bowl"
+      }
+    }
+  },
+  "final_prompts": {
+    "main_prompt": "A Post-Impressionism painting depicting a quiet and mysterious nighttime scene illuminated by dramatic artificial light. In the foreground, a large, disheveled bed with deep indigo and warm amber fabrics sits beside a dominant, worn stage of dusty brown wood with electric blue accents. On the stage, a medium-sized donkey in charcoal and slate fur stands patiently beside a small, scratched tray of muted bronze and deep shadow, upon which rests a small, dented canteen of silver and oxidized green metal. A small, creamy white soup bowl with dark reflections sits empty on the tray. In the background, a large cattle with deep black hide and warm outlines grazes peacefully behind both the stage and the bed. The composition uses bold, visible brushstrokes and expressive color to create a striking, atmospheric scene of wood, fabric, fur, and metal under the quiet night.",
+    "negative_prompt": "photorealistic, 3d render, modern, digital art, photograph, low quality, blurry, distorted, cartoon, anime, watermark, signature, text, frame, border, ugly, deformed, bad anatomy, extra limbs, disfigured, mutated",
+    "prompt_formats": {
+      "simple": "A Post-Impressionist night scene with a bed, stage, donkey, canteen, tray, cattle, and soup bowl arranged in a quiet, dramatic composition.",
+      "complex": "A Post-Impressionism painting depicting a quiet and mysterious nighttime scene illuminated by dramatic artificial light. In the foreground, a large, disheveled bed with deep indigo and warm amber fabrics sits beside a dominant, worn stage of dusty brown wood with electric blue accents. On the stage, a medium-sized donkey in charcoal and slate fur stands patiently beside a small, scratched tray of muted bronze and deep shadow, upon which rests a small, dented canteen of silver and oxidized green metal. A small, creamy white soup bowl with dark reflections sits empty on the tray. In the background, a large cattle with deep black hide and warm outlines grazes peacefully behind both the stage and the bed. The composition uses bold, visible brushstrokes and expressive color to create a striking, atmospheric scene of wood, fabric, fur, and metal under the quiet night.",
+      "comma_separated": "Post-Impressionism painting, night scene, dramatic artificial lighting, quiet mysterious striking atmosphere, large disheveled bed deep indigo warm amber, dominant worn stage dusty brown electric blue, medium donkey charcoal slate patient, small dented canteen silver oxidized green, small scratched tray muted bronze deep shadow, large cattle deep black warm outline grazing, small soup bowl creamy white dark reflection empty, spatial composition, visible brushstrokes, expressive color",
+      "tags": "art, painting, post-impressionism, vincent van gogh style, paul gauguin style, night scene, dramatic lighting, still life, animal, interior, exterior, textured, brushstrokes, atmospheric, mysterious, quiet, striking"
+    }
+  }
+}

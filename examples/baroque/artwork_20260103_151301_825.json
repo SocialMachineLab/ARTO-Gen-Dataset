@@ -1,0 +1,315 @@
+{
+  "artwork_id": "artwork_20260103_151301_825",
+  "generation_timestamp": "2026-01-03T15:13:28.963923",
+  "style": "Baroque",
+  "objects": {
+    "object_ids": [
+      43,
+      40,
+      27
+    ],
+    "object_names": [
+      "fork",
+      "glass jar",
+      "handbag"
+    ],
+    "enhanced_objects": [
+      {
+        "object_id": 43,
+        "name": "fork",
+        "artistic_description": "A lustrous silver fork with ornate Baroque scrollwork on the handle, catching brilliant afternoon sunlight streaming through a window. The polished tines gleam with sharp highlights and cast delicate shadows, while the warm natural light brings out subtle engravings with deep contrast. The metal surface reflects golden ambient light from the surrounding space, creating a jewel-like sparkle against the dark pantry background.",
+        "size": "Small",
+        "state": "polished and well-maintained, showing signs of careful use appropriate to early modern household",
+        "primary_colors": [
+          "warm silver",
+          "golden highlights"
+        ],
+        "instance_id": "obj_0",
+        "coco_category": "fork",
+        "role": "primary",
+        "materials": [
+          "silver"
+        ]
+      },
+      {
+        "object_id": 40,
+        "name": "glass jar",
+        "artistic_description": "A thick-walled glass jar filled with preserves, standing in a pool of brilliant afternoon sunlight. The clear glass refracts the bright natural light into prismatic rainbow edges, while the contents glow with deep amber and honey tones. Condensation beads on the cool surface catch the light like scattered diamonds, and the curved glass creates soft, distorted reflections of the bright pantry interior. The cork stopper appears dark and matte against the luminous jar.",
+        "size": "Medium",
+        "state": "clean and sealed, with moisture droplets from cool contents reacting to warm air",
+        "primary_colors": [
+          "clear amber",
+          "prismatic highlights"
+        ],
+        "instance_id": "obj_1",
+        "coco_category": "bottle",
+        "role": "secondary",
+        "materials": [
+          "glass"
+        ]
+      },
+      {
+        "object_id": 27,
+        "name": "handbag",
+        "artistic_description": "A rich leather handbag with embossed Baroque patterns, resting in the bright, cheerful atmosphere. The afternoon sun illuminates the worn leather texture, revealing warm brown tones with golden highlights on raised surfaces. The brass hardware and clasps gleam with polished warmth, while the soft leather absorbs and diffuses the bright light, creating subtle shadows in the tooling. The fabric lining peeks through with faded richness, showing the patina of age and use.",
+        "size": "Medium",
+        "state": "well-used but cared for, showing elegant wear patterns and rich patina appropriate to early modern craftsmanship",
+        "primary_colors": [
+          "warm brown",
+          "golden brass"
+        ],
+        "instance_id": "obj_2",
+        "coco_category": "handbag",
+        "role": "secondary",
+        "materials": [
+          "leather"
+        ]
+      }
+    ],
+    "instances": [
+      {
+        "instance_id": "obj_0",
+        "coco_id": 43,
+        "coco_category": "fork",
+        "name": "fork"
+      },
+      {
+        "instance_id": "obj_1",
+        "coco_id": 40,
+        "coco_category": "bottle",
+        "name": "glass jar"
+      },
+      {
+        "instance_id": "obj_2",
+        "coco_id": 27,
+        "coco_category": "handbag",
+        "name": "handbag"
+      }
+    ]
+  },
+  "composition": {
+    "spatial_relations": [
+      {
+        "subject": "obj_0",
+        "relation": "on",
+        "object": "obj_1"
+      },
+      {
+        "subject": "obj_2",
+        "relation": "beside",
+        "object": "obj_1"
+      }
+    ],
+    "semantic_relations": []
+  },
+  "environment": {
+    "environment_details": {
+      "scene_brief": "A Baroque kitchen pantry featuring fork, with glass jar, and handbag",
+      "place365_name": "/k/kitchen",
+      "place365_id": 203,
+      "time_of_day": "afternoon",
+      "weather": "sunny",
+      "period": "Early modern",
+      "is_indoor": true,
+      "lighting": {
+        "type": "natural",
+        "quality": "harsh",
+        "direction": "side-lit",
+        "mood": "warm",
+        "reasoning": "Combining 'afternoon' time and 'sunny' weather results in strong natural light. 'Side-lit' is chosen to maximize the three-dimensionality of the objects and the texture of the pantry walls, a hallmark of Baroque composition. 'Harsh' light creates the sharp contrast between light and shadow (tenebrism)."
+      },
+      "atmosphere": "bright and active and cheerful",
+      "colour_scheme": {
+        "main_colours": [
+          "Dark Yellowish Brown",
+          "Tobacco",
+          "Strong Brown",
+          "Dark Grayish Yellow",
+          "Ecru"
+        ],
+        "harmony_type": "monochromatic",
+        "contrast_level": "high",
+        "colour_temperature": "warm",
+        "background_colour": "Dark Yellowish Brown",
+        "lighting_shift": {
+          "light": "Almond",
+          "shadow": "Licorice"
+        },
+        "colour_families": [
+          "Red",
+          "Orange"
+        ]
+      }
+    },
+    "scene_inference": {
+      "all_candidates": [
+        {
+          "scene_type": "Baroque dining room",
+          "plausibility": 0.95,
+          "reasoning": "A formal dining setting is the natural habitat for a fork. The handbag rests on a chair, and a glass jar serves as a centerpiece.",
+          "object_interpretations": {
+            "fork": {
+              "form": "real silverware",
+              "scale": "normal",
+              "role": "primary dining utensil"
+            },
+            "glass jar": {
+              "form": "real decorative jar",
+              "scale": "normal",
+              "role": "centerpiece holding flowers or sweets"
+            },
+            "handbag": {
+              "form": "real leather bag",
+              "scale": "normal",
+              "role": "personal accessory resting on a chair"
+            }
+          }
+        },
+        {
+          "scene_type": "Baroque vanity table",
+          "plausibility": 0.9,
+          "reasoning": "A vanity table holds personal items. The handbag sits nearby, a glass jar holds jewelry, and a fork is used to arrange hair or is a decorative hairpiece.",
+          "object_interpretations": {
+            "fork": {
+              "form": "ornate decorative fork",
+              "scale": "miniature",
+              "role": "hair accessory or decorative trinket"
+            },
+            "glass jar": {
+              "form": "cut glass container",
+              "scale": "small",
+              "role": "jewelry holder"
+            },
+            "handbag": {
+              "form": "embellished clutch",
+              "scale": "small",
+              "role": "fashion accessory on the table"
+            }
+          }
+        },
+        {
+          "scene_type": "Baroque still life painting",
+          "plausibility": 0.85,
+          "reasoning": "Still life paintings often feature table settings and personal effects. The fork lies on a tablecloth, the jar holds preserves, and the handbag implies a visiting guest.",
+          "object_interpretations": {
+            "fork": {
+              "form": "painted object",
+              "scale": "normal (within composition)",
+              "role": "metallic accent in composition"
+            },
+            "glass jar": {
+              "form": "painted object",
+              "scale": "normal",
+              "role": "transparent vessel with contents"
+            },
+            "handbag": {
+              "form": "painted object",
+              "scale": "normal",
+              "role": "textural contrast element"
+            }
+          }
+        },
+        {
+          "scene_type": "Baroque boudoir",
+          "plausibility": 0.8,
+          "reasoning": "A private bedroom setting. The handbag is on a vanity, the glass jar is a perfume decanter, and a silver fork is used for a fruit bowl or as a prop.",
+          "object_interpretations": {
+            "fork": {
+              "form": "silver serving fork",
+              "scale": "normal",
+              "role": "serving utensil for fruit"
+            },
+            "glass jar": {
+              "form": "perfume bottle",
+              "scale": "small",
+              "role": "luxury cosmetic container"
+            },
+            "handbag": {
+              "form": "lady's reticule",
+              "scale": "small",
+              "role": "personal item on dressing table"
+            }
+          }
+        },
+        {
+          "scene_type": "Baroque kitchen pantry",
+          "plausibility": 0.75,
+          "reasoning": "A rustic but ornate pantry. The fork is on a drying rack, the glass jar holds dry goods, and a handbag hangs on a hook (perhaps belonging to a cook).",
+          "object_interpretations": {
+            "fork": {
+              "form": "kitchen utensil",
+              "scale": "normal",
+              "role": "eating tool"
+            },
+            "glass jar": {
+              "form": "storage jar",
+              "scale": "large",
+              "role": "food storage"
+            },
+            "handbag": {
+              "form": "worn leather bag",
+              "scale": "normal",
+              "role": "storage for personal items"
+            }
+          },
+          "scene_brief": "A Baroque kitchen pantry featuring fork, with glass jar, and handbag"
+        },
+        {
+          "scene_type": "Baroque treasure room",
+          "plausibility": 0.7,
+          "reasoning": "A room filled with riches. The fork is a golden artifact, the jar is a crystal reliquary, and the handbag is an expensive fashion statement.",
+          "object_interpretations": {
+            "fork": {
+              "form": "gold artifact",
+              "scale": "normal",
+              "role": "luxury dining ware"
+            },
+            "glass jar": {
+              "form": "crystal reliquary",
+              "scale": "normal",
+              "role": "display case for valuables"
+            },
+            "handbag": {
+              "form": "designer handbag",
+              "scale": "normal",
+              "role": "luxury item"
+            }
+          }
+        }
+      ],
+      "selected_scene": {
+        "scene_type": "Baroque kitchen pantry",
+        "plausibility": 0.75,
+        "reasoning": "A rustic but ornate pantry. The fork is on a drying rack, the glass jar holds dry goods, and a handbag hangs on a hook (perhaps belonging to a cook).",
+        "object_interpretations": {
+          "fork": {
+            "form": "kitchen utensil",
+            "scale": "normal",
+            "role": "eating tool"
+          },
+          "glass jar": {
+            "form": "storage jar",
+            "scale": "large",
+            "role": "food storage"
+          },
+          "handbag": {
+            "form": "worn leather bag",
+            "scale": "normal",
+            "role": "storage for personal items"
+          }
+        },
+        "scene_brief": "A Baroque kitchen pantry featuring fork, with glass jar, and handbag"
+      }
+    }
+  },
+  "final_prompts": {
+    "main_prompt": "A Baroque painting depicting a bright and cheerful afternoon scene with harsh natural sunlight streaming through a window. In the foreground, a small, polished fork with warm silver tones and golden highlights rests atop a medium-sized glass jar. The jar is made of clear amber glass that catches prismatic highlights, appearing clean and sealed. Beside the jar sits a medium-sized handbag in warm brown leather with golden brass hardware, showing signs of being well-used but carefully maintained. The objects are arranged on a wooden surface, with dramatic Baroque lighting creating strong contrasts between illuminated areas and deep shadows, capturing the active, cheerful atmosphere of the afternoon.",
+    "negative_prompt": "photorealistic, 3d render, modern, digital art, photograph, low quality, blurry, distorted, ugly, deformed, cartoon, anime, abstract, minimalist, surreal, dark, gloomy, night, evening, morning, soft lighting, diffuse lighting, flat lighting, monochrome, black and white, text, watermark, signature, frame, border",
+    "prompt_formats": {
+      "simple": "A Baroque painting of a fork on a glass jar with a handbag beside it in bright afternoon light.",
+      "complex": "A Baroque painting depicting a bright and cheerful afternoon scene with harsh natural sunlight streaming through a window. In the foreground, a small, polished fork with warm silver tones and golden highlights rests atop a medium-sized glass jar. The jar is made of clear amber glass that catches prismatic highlights, appearing clean and sealed. Beside the jar sits a medium-sized handbag in warm brown leather with golden brass hardware, showing signs of being well-used but carefully maintained. The objects are arranged on a wooden surface, with dramatic Baroque lighting creating strong contrasts between illuminated areas and deep shadows, capturing the active, cheerful atmosphere of the afternoon.",
+      "comma_separated": "Baroque painting, fork on glass jar, handbag beside jar, small polished fork, warm silver with golden highlights, medium clear amber glass jar, prismatic highlights, medium warm brown leather handbag, golden brass hardware, harsh natural afternoon lighting, bright cheerful atmosphere, dramatic shadows, wooden surface, still life",
+      "tags": "art, painting, Baroque, still life, fork, glass jar, handbag, afternoon lighting, dramatic lighting, cheerful atmosphere, silver, glass, leather, polished, clean, well-used, warm colors, golden highlights, prismatic highlights, brass hardware"
+    }
+  }
+}

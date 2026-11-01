@@ -1,0 +1,447 @@
+# ARTO TTL - Generated from AI Artwork JSON
+# Artwork ID: artwork_20260103_022659_722
+
+@prefix arto: <http://w3id.org/arto#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix sdo: <https://schema.org/> .
+@prefix edm: <http://www.europeana.eu/schemas/edm/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix qudt: <http://qudt.org/schema/qudt/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix aat: <http://vocab.getty.edu/aat/> .
+@prefix : <http://w3id.org/arto/resource/> .
+
+arto:behind rdfs:subPropertyOf arto:relatedTo .
+arto:beside rdfs:subPropertyOf arto:relatedTo .
+arto:on rdfs:subPropertyOf arto:relatedTo .
+arto:hasSize rdf:type owl:ObjectProperty ; rdfs:range skos:Concept .
+
+:artwork_20260103_022659_722 rdf:type arto:Artwork ;
+    dcterms:title "Artwork 20260103 022659 722"@en ;
+    dcterms:description """A Post-Impressionism painting depicting a vibrant morning market scene. In the foreground, a medium-sized hen with warm ochre and russet brown feathers stands alert and active next to a medium-sized weathered stand painted in faded blue with honey wood accents. A single crimson rose with an emerald green stem rests fresh and vibrant on the stand's surface. Behind the stand, a large horse cart in burnt sienna and weathered gray wood and iron appears well-used but sturdy. The composition uses natural harsh morning light that creates strong shadows and highlights, with visible brushstrokes and bold color blocks characteristic of Post-Impressionism. The atmosphere feels fresh, energetic, and cheerful, with the lighting emphasizing the textures of feathers, weathered wood, iron, and delicate flower petals."""@en ;
+    arto:style aat:300021502 ;
+    dcterms:created "2026-01-03T02:27:35.287300"^^xsd:dateTime ;
+    dcterms:creator "AI Artwork Generation System" ;
+    arto:medium arto:DigitalMedium .
+
+:artwork_20260103_022659_722_scene rdf:type arto:Scene ;
+    rdfs:label "Main Scene"@en ;
+    dcterms:description "set during morning"@en ;
+    arto:hasLighting "harsh natural"@en ;
+    arto:hasTimeOfDay :Morning ;
+    arto:hasWeather :SunnyWeather ;
+    arto:hasPlace :OutdoorMarket ;
+    arto:hasPeriod :ContemporaryPeriod ;
+    arto:hasColourScheme :artwork_20260103_022659_722_scene_colourscheme .
+
+:artwork_20260103_022659_722 arto:containsScene :artwork_20260103_022659_722_scene .
+
+:artwork_20260103_022659_722_scene_colourscheme rdf:type arto:ColourScheme ;
+    rdfs:label "Colour Scheme"@en ;
+    arto:hasColourHarmony "complementary"@en ;
+    arto:hasContrastLevel "medium"@en ;
+    arto:hasColourTemperature "mixed"@en .
+
+:artwork_20260103_022659_722_scene_obj_0 rdf:type arto:Object , owl:NamedIndividual , :Bird ;
+    rdfs:label "Hen"@en ;
+    arto:cocoCategory "bird" ;
+    arto:hasSize :MediumSize ;
+    dcterms:description "A plump hen with feathers rendered in bold, textured strokes of warm ochre and russet brown, catching the morning light streaming through the market's open windows. Her plumage shows subtle iridescent highlights where sunlight strikes, with deep shadows in cobalt-tinged blues beneath her wings. The beak gleams with a sharp yellow-orange accent, while her eye is a dark, intense bead of obsidian. The overall effect is one of vibrant, energetic presence with visible brushwork suggesting movement and life."@en ;
+    arto:state [ a skos:Concept ; rdfs:label "Alert and active, feathers fluffed with morning vitality"@en ] ;
+    arto:hasCoordinates [
+        a qudt:Vector ;
+        qudt:vector (111.31584167480469 500.28387451171875 456.36248779296875 986.9457397460938)
+    ] .
+
+:artwork_20260103_022659_722_scene arto:containsObject :artwork_20260103_022659_722_scene_obj_0 .
+
+:artwork_20260103_022659_722_scene_obj_1 rdf:type arto:Object , owl:NamedIndividual , :HorseCart ;
+    rdfs:label "Horse Cart"@en ;
+    arto:cocoCategory "car" ;
+    arto:hasSize :LargeSize ;
+    dcterms:description "A sturdy wooden cart with weathered planks painted in Post-Impressionist blocks of sienna and burnt umber, their grain visible through thick, directional brushstrokes. The wooden frame shows a patina of age with silvery-gray weathering where the morning sun creates sharp, angular shadows. Metal hardware and iron rims on the wheels catch the light with bold, unmodulated strokes of metallic gray and white, creating stark contrasts against the darker wood. The overall appearance is robust and functional, with visible texture and material character."@en ;
+    arto:material [ a arto:MaterialType ; rdfs:label "wood"@en ; skos:exactMatch aat:300011914 ] ;
+    arto:material [ a arto:MaterialType ; rdfs:label "iron"@en ; skos:exactMatch aat:300011002 ] ;
+    arto:state [ a skos:Concept ; rdfs:label "Well-used but sturdy, showing practical wear from contemporary rural use"@en ] ;
+    arto:hasCoordinates [
+        a qudt:Vector ;
+        qudt:vector (389.8337707519531 73.1251220703125 1009.3663330078125 579.2325439453125)
+    ] .
+
+:artwork_20260103_022659_722_scene arto:containsObject :artwork_20260103_022659_722_scene_obj_1 .
+
+:artwork_20260103_022659_722_scene_obj_2 rdf:type arto:Object , owl:NamedIndividual , :Chair ;
+    rdfs:label "Stand"@en ;
+    arto:cocoCategory "chair" ;
+    arto:hasSize :MediumSize ;
+    dcterms:description "A simple wooden display stand with shelves showing the natural grain through patches of faded blue paint, applied with confident, visible strokes. The morning light creates strong geometric shadows across its surfaces, highlighting the angular construction. The wood shows warm honey tones where sunlight directly strikes, while recessed areas take on cooler violet-gray shadows. The shelves display subtle dust motes dancing in the sunbeams, captured as flecks of pure white and yellow in the paint application."@en ;
+    arto:material [ a arto:MaterialType ; rdfs:label "wood"@en ; skos:exactMatch aat:300011914 ] ;
+    arto:state [ a skos:Concept ; rdfs:label "Functional and weathered, with chipped paint revealing the natural wood beneath"@en ] ;
+    arto:hasCoordinates [
+        a qudt:Vector ;
+        qudt:vector (473.9615478515625 553.8565673828125 1023.6468505859375 1022.638671875)
+    ] .
+
+:artwork_20260103_022659_722_scene arto:containsObject :artwork_20260103_022659_722_scene_obj_2 .
+
+:artwork_20260103_022659_722_scene_obj_3 rdf:type arto:Object , owl:NamedIndividual , :PottedPlant ;
+    rdfs:label "Rose"@en ;
+    arto:cocoCategory "potted plant" ;
+    arto:hasSize :SmallSize ;
+    dcterms:description "A single crimson rose rendered with passionate, thick impasto strokes of deep scarlet and magenta, its petals catching the morning light with brilliant highlights of pure vermilion and orange. The petals appear velvety and lush, with visible texture from the sculptural paint application. Small thorns are suggested by sharp dabs of olive green and brown. The stem shows as vibrant emerald green with strokes of lime for the fresh morning vitality. The flower glows with an inner luminosity against the indoor shadows, a jewel-like focal point of saturated color."@en ;
+    arto:state [ a skos:Concept ; rdfs:label "Fresh and vibrant, just opened in the morning light"@en ] ;
+    arto:hasCoordinates [
+        a qudt:Vector ;
+        qudt:vector (630.0305786132812 543.5037841796875 745.5908813476562 661.0035400390625)
+    ] .
+
+:artwork_20260103_022659_722_scene arto:containsObject :artwork_20260103_022659_722_scene_obj_3 .
+
+:artwork_20260103_022659_722_scene_obj_0_colour_beige_0 rdf:type arto:Colour ;
+    rdfs:label "Beige"@en ;
+    arto:hasColourValue [
+        a arto:ColourValue ;
+        arto:colourSystem "RGB" ;
+        qudt:vector (224 203 167)
+    ] ;
+    arto:hasMetric [ a arto:Metric ; qudt:numericValue "0.3360"^^xsd:decimal ] .
+
+:artwork_20260103_022659_722_scene_obj_0 arto:containsElement :artwork_20260103_022659_722_scene_obj_0_colour_beige_0 .
+
+:artwork_20260103_022659_722_scene_obj_0_colour_deep_orange_1 rdf:type arto:Colour ;
+    rdfs:label "Deep Orange"@en ;
+    arto:hasColourValue [
+        a arto:ColourValue ;
+        arto:colourSystem "RGB" ;
+        qudt:vector (189 99 40)
+    ] ;
+    arto:hasMetric [ a arto:Metric ; qudt:numericValue "0.2120"^^xsd:decimal ] .
+
+:artwork_20260103_022659_722_scene_obj_0 arto:containsElement :artwork_20260103_022659_722_scene_obj_0_colour_deep_orange_1 .
+
+:artwork_20260103_022659_722_scene_obj_0_colour_camel_2 rdf:type arto:Colour ;
+    rdfs:label "Camel"@en ;
+    arto:hasColourValue [
+        a arto:ColourValue ;
+        arto:colourSystem "RGB" ;
+        qudt:vector (203 149 91)
+    ] ;
+    arto:hasMetric [ a arto:Metric ; qudt:numericValue "0.1780"^^xsd:decimal ] .
+
+:artwork_20260103_022659_722_scene_obj_0 arto:containsElement :artwork_20260103_022659_722_scene_obj_0_colour_camel_2 .
+
+:artwork_20260103_022659_722_scene_obj_0_colour_cadet_grey_3 rdf:type arto:Colour ;
+    rdfs:label "Cadet Grey"@en ;
+    arto:hasColourValue [
+        a arto:ColourValue ;
+        arto:colourSystem "RGB" ;
+        qudt:vector (148 154 161)
+    ] ;
+    arto:hasMetric [ a arto:Metric ; qudt:numericValue "0.1710"^^xsd:decimal ] .
+
+:artwork_20260103_022659_722_scene_obj_0 arto:containsElement :artwork_20260103_022659_722_scene_obj_0_colour_cadet_grey_3 .
+
+:artwork_20260103_022659_722_scene_obj_0_colour_moderate_brown_4 rdf:type arto:Colour ;
+    rdfs:label "Moderate Brown"@en ;
+    arto:hasColourValue [
+        a arto:ColourValue ;
+        arto:colourSystem "RGB" ;
+        qudt:vector (106 69 57)
+    ] ;
+    arto:hasMetric [ a arto:Metric ; qudt:numericValue "0.1030"^^xsd:decimal ] .
+
+:artwork_20260103_022659_722_scene_obj_0 arto:containsElement :artwork_20260103_022659_722_scene_obj_0_colour_moderate_brown_4 .
+
+:artwork_20260103_022659_722_scene_obj_1_colour_light_grayish_yellowish_brown_0 rdf:type arto:Colour ;
+    rdfs:label "Light Grayish Yellowish Brown"@en ;
+    arto:hasColourValue [
+        a arto:ColourValue ;
+        arto:colourSystem "RGB" ;
+        qudt:vector (165 156 143)
+    ] ;
+    arto:hasMetric [ a arto:Metric ; qudt:numericValue "0.3550"^^xsd:decimal ] .
+
+:artwork_20260103_022659_722_scene_obj_1 arto:containsElement :artwork_20260103_022659_722_scene_obj_1_colour_light_grayish_yellowish_brown_0 .
+
+:artwork_20260103_022659_722_scene_obj_1_colour_light_grayish_brown_1 rdf:type arto:Colour ;
+    rdfs:label "Light Grayish Brown"@en ;
+    arto:hasColourValue [
+        a arto:ColourValue ;
+        arto:colourSystem "RGB" ;
+        qudt:vector (138 118 107)
+    ] ;
+    arto:hasMetric [ a arto:Metric ; qudt:numericValue "0.2780"^^xsd:decimal ] .
+
+:artwork_20260103_022659_722_scene_obj_1 arto:containsElement :artwork_20260103_022659_722_scene_obj_1_colour_light_grayish_brown_1 .
+
+:artwork_20260103_022659_722_scene_obj_1_colour_parchment_2 rdf:type arto:Colour ;
+    rdfs:label "Parchment"@en ;
+    arto:hasColourValue [
+        a arto:ColourValue ;
+        arto:colourSystem "RGB" ;
+        qudt:vector (203 193 168)
+    ] ;
+    arto:hasMetric [ a arto:Metric ; qudt:numericValue "0.1420"^^xsd:decimal ] .
+
+:artwork_20260103_022659_722_scene_obj_1 arto:containsElement :artwork_20260103_022659_722_scene_obj_1_colour_parchment_2 .
+
+:artwork_20260103_022659_722_scene_obj_1_colour_brownish_gray_3 rdf:type arto:Colour ;
+    rdfs:label "Brownish Gray"@en ;
+    arto:hasColourValue [
+        a arto:ColourValue ;
+        arto:colourSystem "RGB" ;
+        qudt:vector (93 81 76)
+    ] ;
+    arto:hasMetric [ a arto:Metric ; qudt:numericValue "0.1190"^^xsd:decimal ] .
+
+:artwork_20260103_022659_722_scene_obj_1 arto:containsElement :artwork_20260103_022659_722_scene_obj_1_colour_brownish_gray_3 .
+
+:artwork_20260103_022659_722_scene_obj_1_colour_brown_bread_4 rdf:type arto:Colour ;
+    rdfs:label "Brown Bread"@en ;
+    arto:hasColourValue [
+        a arto:ColourValue ;
+        arto:colourSystem "RGB" ;
+        qudt:vector (187 123 78)
+    ] ;
+    arto:hasMetric [ a arto:Metric ; qudt:numericValue "0.1060"^^xsd:decimal ] .
+
+:artwork_20260103_022659_722_scene_obj_1 arto:containsElement :artwork_20260103_022659_722_scene_obj_1_colour_brown_bread_4 .
+
+:artwork_20260103_022659_722_scene_obj_2_colour_cadet_blue_0 rdf:type arto:Colour ;
+    rdfs:label "Cadet Blue"@en ;
+    arto:hasColourValue [
+        a arto:ColourValue ;
+        arto:colourSystem "RGB" ;
+        qudt:vector (101 154 167)
+    ] ;
+    arto:hasMetric [ a arto:Metric ; qudt:numericValue "0.2980"^^xsd:decimal ] .
+
+:artwork_20260103_022659_722_scene_obj_2 arto:containsElement :artwork_20260103_022659_722_scene_obj_2_colour_cadet_blue_0 .
+
+:artwork_20260103_022659_722_scene_obj_2_colour_light_grayish_olive_1 rdf:type arto:Colour ;
+    rdfs:label "Light Grayish Olive"@en ;
+    arto:hasColourValue [
+        a arto:ColourValue ;
+        arto:colourSystem "RGB" ;
+        qudt:vector (147 141 122)
+    ] ;
+    arto:hasMetric [ a arto:Metric ; qudt:numericValue "0.2710"^^xsd:decimal ] .
+
+:artwork_20260103_022659_722_scene_obj_2 arto:containsElement :artwork_20260103_022659_722_scene_obj_2_colour_light_grayish_olive_1 .
+
+:artwork_20260103_022659_722_scene_obj_2_colour_chamoise_2 rdf:type arto:Colour ;
+    rdfs:label "Chamoise"@en ;
+    arto:hasColourValue [
+        a arto:ColourValue ;
+        arto:colourSystem "RGB" ;
+        qudt:vector (226 199 145)
+    ] ;
+    arto:hasMetric [ a arto:Metric ; qudt:numericValue "0.2260"^^xsd:decimal ] .
+
+:artwork_20260103_022659_722_scene_obj_2 arto:containsElement :artwork_20260103_022659_722_scene_obj_2_colour_chamoise_2 .
+
+:artwork_20260103_022659_722_scene_obj_2_colour_leaf_brown_3 rdf:type arto:Colour ;
+    rdfs:label "Leaf Brown"@en ;
+    arto:hasColourValue [
+        a arto:ColourValue ;
+        arto:colourSystem "RGB" ;
+        qudt:vector (164 102 63)
+    ] ;
+    arto:hasMetric [ a arto:Metric ; qudt:numericValue "0.2050"^^xsd:decimal ] .
+
+:artwork_20260103_022659_722_scene_obj_2 arto:containsElement :artwork_20260103_022659_722_scene_obj_2_colour_leaf_brown_3 .
+
+:artwork_20260103_022659_722_scene_obj_3_colour_strawberry_red_0 rdf:type arto:Colour ;
+    rdfs:label "Strawberry Red"@en ;
+    arto:hasColourValue [
+        a arto:ColourValue ;
+        arto:colourSystem "RGB" ;
+        qudt:vector (218 62 51)
+    ] ;
+    arto:hasMetric [ a arto:Metric ; qudt:numericValue "0.3730"^^xsd:decimal ] .
+
+:artwork_20260103_022659_722_scene_obj_3 arto:containsElement :artwork_20260103_022659_722_scene_obj_3_colour_strawberry_red_0 .
+
+:artwork_20260103_022659_722_scene_obj_3_colour_light_olive_gray_1 rdf:type arto:Colour ;
+    rdfs:label "Light Olive Gray"@en ;
+    arto:hasColourValue [
+        a arto:ColourValue ;
+        arto:colourSystem "RGB" ;
+        qudt:vector (154 144 131)
+    ] ;
+    arto:hasMetric [ a arto:Metric ; qudt:numericValue "0.2280"^^xsd:decimal ] .
+
+:artwork_20260103_022659_722_scene_obj_3 arto:containsElement :artwork_20260103_022659_722_scene_obj_3_colour_light_olive_gray_1 .
+
+:artwork_20260103_022659_722_scene_obj_3_colour_japanese_red_2 rdf:type arto:Colour ;
+    rdfs:label "Japanese Red"@en ;
+    arto:hasColourValue [
+        a arto:ColourValue ;
+        arto:colourSystem "RGB" ;
+        qudt:vector (163 50 51)
+    ] ;
+    arto:hasMetric [ a arto:Metric ; qudt:numericValue "0.2160"^^xsd:decimal ] .
+
+:artwork_20260103_022659_722_scene_obj_3 arto:containsElement :artwork_20260103_022659_722_scene_obj_3_colour_japanese_red_2 .
+
+:artwork_20260103_022659_722_scene_obj_3_colour_strong_orange_3 rdf:type arto:Colour ;
+    rdfs:label "Strong Orange"@en ;
+    arto:hasColourValue [
+        a arto:ColourValue ;
+        arto:colourSystem "RGB" ;
+        qudt:vector (235 130 65)
+    ] ;
+    arto:hasMetric [ a arto:Metric ; qudt:numericValue "0.1310"^^xsd:decimal ] .
+
+:artwork_20260103_022659_722_scene_obj_3 arto:containsElement :artwork_20260103_022659_722_scene_obj_3_colour_strong_orange_3 .
+
+:artwork_20260103_022659_722_scene_obj_3_colour_tan_4 rdf:type arto:Colour ;
+    rdfs:label "Tan"@en ;
+    arto:hasColourValue [
+        a arto:ColourValue ;
+        arto:colourSystem "RGB" ;
+        qudt:vector (211 182 130)
+    ] ;
+    arto:hasMetric [ a arto:Metric ; qudt:numericValue "0.0520"^^xsd:decimal ] .
+
+:artwork_20260103_022659_722_scene_obj_3 arto:containsElement :artwork_20260103_022659_722_scene_obj_3_colour_tan_4 .
+
+:artwork_20260103_022659_722_scene_envcolor_0_Parchment rdf:type arto:Colour ;
+    rdfs:label "Parchment"@en ;
+    arto:hasColourTerm "Parchment"@en ;
+    arto:hasColourValue [
+        a arto:ColourValue ;
+        arto:colourSystem "RGB" ;
+        qudt:vector (208 200 176)
+    ] .
+
+:artwork_20260103_022659_722_scene arto:containsElement :artwork_20260103_022659_722_scene_envcolor_0_Parchment .
+
+:artwork_20260103_022659_722_scene_envcolor_1_Delphi_Blue rdf:type arto:Colour ;
+    rdfs:label "Delphi Blue"@en ;
+    arto:hasColourTerm "Delphi Blue"@en ;
+    arto:hasColourValue [
+        a arto:ColourValue ;
+        arto:colourSystem "RGB" ;
+        qudt:vector (96 140 168)
+    ] .
+
+:artwork_20260103_022659_722_scene arto:containsElement :artwork_20260103_022659_722_scene_envcolor_1_Delphi_Blue .
+
+:artwork_20260103_022659_722_scene_envcolor_2_Cafe_Au_Lait rdf:type arto:Colour ;
+    rdfs:label "Cafe Au Lait"@en ;
+    arto:hasColourTerm "Cafe Au Lait"@en ;
+    arto:hasColourValue [
+        a arto:ColourValue ;
+        arto:colourSystem "RGB" ;
+        qudt:vector (166 123 91)
+    ] .
+
+:artwork_20260103_022659_722_scene arto:containsElement :artwork_20260103_022659_722_scene_envcolor_2_Cafe_Au_Lait .
+
+:artwork_20260103_022659_722_scene_envcolor_3_Brownish_Gray rdf:type arto:Colour ;
+    rdfs:label "Brownish Gray"@en ;
+    arto:hasColourTerm "Brownish Gray"@en ;
+    arto:hasColourValue [
+        a arto:ColourValue ;
+        arto:colourSystem "RGB" ;
+        qudt:vector (96 82 81)
+    ] .
+
+:artwork_20260103_022659_722_scene arto:containsElement :artwork_20260103_022659_722_scene_envcolor_3_Brownish_Gray .
+
+:artwork_20260103_022659_722_scene_envcolor_4_Bronze rdf:type arto:Colour ;
+    rdfs:label "Bronze"@en ;
+    arto:hasColourTerm "Bronze"@en ;
+    arto:hasColourValue [
+        a arto:ColourValue ;
+        arto:colourSystem "RGB" ;
+        qudt:vector (205 127 50)
+    ] .
+
+:artwork_20260103_022659_722_scene arto:containsElement :artwork_20260103_022659_722_scene_envcolor_4_Bronze .
+
+:artwork_20260103_022659_722_scene_envcolor_5_Parchment rdf:type arto:Colour ;
+    rdfs:label "Parchment"@en ;
+    arto:hasColourTerm "Parchment"@en ;
+    arto:hasColourValue [
+        a arto:ColourValue ;
+        arto:colourSystem "RGB" ;
+        qudt:vector (208 200 176)
+    ] .
+
+:artwork_20260103_022659_722_scene arto:containsElement :artwork_20260103_022659_722_scene_envcolor_5_Parchment .
+
+:artwork_20260103_022659_722_scene_envcolor_6_Oyster_White rdf:type arto:Colour ;
+    rdfs:label "Oyster White"@en ;
+    arto:hasColourTerm "Oyster White"@en ;
+    arto:hasColourValue [
+        a arto:ColourValue ;
+        arto:colourSystem "RGB" ;
+        qudt:vector (234 230 202)
+    ] .
+
+:artwork_20260103_022659_722_scene arto:containsElement :artwork_20260103_022659_722_scene_envcolor_6_Oyster_White .
+
+:artwork_20260103_022659_722_scene_envcolor_7_Grayish_Brown rdf:type arto:Colour ;
+    rdfs:label "Grayish Brown"@en ;
+    arto:hasColourTerm "Grayish Brown"@en ;
+    arto:hasColourValue [
+        a arto:ColourValue ;
+        arto:colourSystem "RGB" ;
+        qudt:vector (103 79 72)
+    ] .
+
+:artwork_20260103_022659_722_scene arto:containsElement :artwork_20260103_022659_722_scene_envcolor_7_Grayish_Brown .
+
+:artwork_20260103_022659_722_scene_obj_0 arto:beside :artwork_20260103_022659_722_scene_obj_2 .
+:artwork_20260103_022659_722_scene_obj_1 arto:behind :artwork_20260103_022659_722_scene_obj_2 .
+:artwork_20260103_022659_722_scene_obj_3 arto:on :artwork_20260103_022659_722_scene_obj_2 .
+
+:Bird rdf:type skos:Concept ;
+    rdfs:label "Bird"@en ;
+    skos:closeMatch <http://www.wikidata.org/entity/Q5113> .
+
+:Chair rdf:type skos:Concept ;
+    rdfs:label "Chair"@en ;
+    skos:closeMatch <http://www.wikidata.org/entity/Q15026> .
+
+:ContemporaryPeriod rdf:type skos:Concept ;
+    rdfs:label "Contemporary"@en ;
+    skos:closeMatch <http://www.wikidata.org/entity/Q186075> .
+
+:HorseCart rdf:type skos:Concept ;
+    rdfs:label "Horse Cart"@en ;
+    skos:closeMatch <http://www.wikidata.org/entity/Q234668> .
+
+:LargeSize rdf:type skos:Concept ;
+    rdfs:label "Large"@en ;
+    skos:notation "4" .
+
+:MediumSize rdf:type skos:Concept ;
+    rdfs:label "Medium"@en ;
+    skos:notation "3" .
+
+:Morning rdf:type skos:Concept ;
+    rdfs:label "Morning"@en ;
+    skos:closeMatch <http://www.wikidata.org/entity/Q7722> .
+
+:OutdoorMarket rdf:type skos:Concept ;
+    rdfs:label "Outdoor Market"@en ;
+    skos:relatedMatch <http://www.wikidata.org/entity/Q330284> .
+
+:PottedPlant rdf:type skos:Concept ;
+    rdfs:label "Potted Plant"@en ;
+    skos:closeMatch <http://www.wikidata.org/entity/Q27993793> .
+
+:SmallSize rdf:type skos:Concept ;
+    rdfs:label "Small"@en ;
+    skos:notation "2" .
+
+:SunnyWeather rdf:type skos:Concept ;
+    rdfs:label "Sunny"@en ;
+    skos:relatedMatch <http://www.wikidata.org/entity/Q11514702> .

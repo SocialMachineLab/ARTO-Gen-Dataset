@@ -1,0 +1,488 @@
+# ARTO TTL - Generated from AI Artwork JSON
+# Artwork ID: artwork_20260104_013158_608
+
+@prefix arto: <http://w3id.org/arto#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix sdo: <https://schema.org/> .
+@prefix edm: <http://www.europeana.eu/schemas/edm/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix qudt: <http://qudt.org/schema/qudt/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix aat: <http://vocab.getty.edu/aat/> .
+@prefix : <http://w3id.org/arto/resource/> .
+
+arto:on rdfs:subPropertyOf arto:relatedTo .
+arto:hasSize rdf:type owl:ObjectProperty ; rdfs:range skos:Concept .
+
+:artwork_20260104_013158_608 rdf:type arto:Artwork ;
+    dcterms:title "Artwork 20260104 013158 608"@en ;
+    dcterms:description """A Neoclassicism painting depicting a grand afternoon scene in a classical interior with natural soft light filtering through tall windows, creating a bright yet subdued atmosphere that feels both active and gentle. Dominating the foreground is a deep burgundy bed with dark mahogany frame, its pristine velvet upholstery appearing well-maintained. Arranged carefully upon the bed's surface are four objects in deliberate composition: a medium-sized trophy cup of cool silver with soft gray antique tarnish in its recesses sits centrally; beside it rests a small pear of muted chartreuse and olive green tones, treated as an artistic object; nearby lies a small dagger with cool steel gray blade and warm bronze patina decorative hilt; and completing the arrangement is a medium-sized wheel model meticulously crafted from dark umber and warm walnut wood. The spatial relationships show all objects resting directly on the bed's surface in a balanced Neoclassical arrangement, with the trophy cup as focal point flanked by the pear and dagger, while the wheel occupies its own space nearby. The overall environment conveys classical harmony through precise lighting that highlights textures of mahogany wood, silver metal, glazed ceramic-like fruit, steel and bronze weaponry, and wooden craftsmanship."""@en ;
+    arto:style aat:300056093 ;
+    dcterms:created "2026-01-04T01:32:47.582335"^^xsd:dateTime ;
+    dcterms:creator "AI Artwork Generation System" ;
+    arto:medium arto:DigitalMedium .
+
+:artwork_20260104_013158_608_scene rdf:type arto:Scene ;
+    rdfs:label "Main Scene"@en ;
+    dcterms:description "set during afternoon"@en ;
+    arto:hasLighting "soft natural"@en ;
+    arto:hasTimeOfDay :Afternoon ;
+    arto:hasWeather :CloudyWeather ;
+    arto:hasPlace :Bedroom ;
+    arto:hasPeriod :ContemporaryPeriod ;
+    arto:hasColourScheme :artwork_20260104_013158_608_scene_colourscheme .
+
+:artwork_20260104_013158_608 arto:containsScene :artwork_20260104_013158_608_scene .
+
+:artwork_20260104_013158_608_scene_colourscheme rdf:type arto:ColourScheme ;
+    rdfs:label "Colour Scheme"@en ;
+    arto:hasColourHarmony "analogous"@en ;
+    arto:hasContrastLevel "high"@en ;
+    arto:hasColourTemperature "warm"@en .
+
+:artwork_20260104_013158_608_scene_obj_0 rdf:type arto:Object , owl:NamedIndividual , :Bed ;
+    rdfs:label "Bed"@en ;
+    arto:cocoCategory "bed" ;
+    arto:hasSize :DominantSize ;
+    dcterms:description "A grand four-poster bed with carved mahogany posts and a richly upholstered headboard in deep burgundy velvet. The afternoon's diffused, cool light from the cloudy sky softly illuminates the carved details, casting gentle shadows that reveal the wood's ornate acanthus leaf motifs. The fabric appears plush and matte, absorbing light rather than reflecting it, with subtle variations in the pile creating a sense of depth and quiet luxury."@en ;
+    arto:material [ a arto:MaterialType ; rdfs:label "wood"@en ; skos:exactMatch aat:300011914 ] ;
+    arto:material [ a arto:MaterialType ; rdfs:label "velvet"@en ; skos:exactMatch aat:300133711 ] ;
+    arto:state [ a skos:Concept ; rdfs:label "pristine and well-maintained, reflecting contemporary care of antique styles"@en ] ;
+    arto:hasCoordinates [
+        a qudt:Vector ;
+        qudt:vector (1.070526123046875 248.4910888671875 1022.6551513671875 1022.2880859375)
+    ] .
+
+:artwork_20260104_013158_608_scene arto:containsObject :artwork_20260104_013158_608_scene_obj_0 .
+
+:artwork_20260104_013158_608_scene_obj_1 rdf:type arto:Object , owl:NamedIndividual , :Cup ;
+    rdfs:label "Trophy Cup"@en ;
+    arto:cocoCategory "cup" ;
+    arto:hasSize :MediumSize ;
+    dcterms:description "A polished silver trophy cup that gleams with a soft, cool luminance under the overcast light. Its surface acts as a subtle mirror, capturing the muted tones of the surrounding atmosphere rather than bright highlights. The metal shows a slight patina in the crevices of its neoclassical relief work, where shadows pool gently. The cool daylight enhances its metallic sheen, giving it a dignified, almost ethereal glow."@en ;
+    arto:material [ a arto:MaterialType ; rdfs:label "silver"@en ; skos:exactMatch aat:300011029 ] ;
+    arto:state [ a skos:Concept ; rdfs:label "antique quality with gentle tarnish in recesses, highly polished on prominent surfaces"@en ] ;
+    arto:hasCoordinates [
+        a qudt:Vector ;
+        qudt:vector (354.68487548828125 418.064453125 598.227294921875 761.6746826171875)
+    ] .
+
+:artwork_20260104_013158_608_scene arto:containsObject :artwork_20260104_013158_608_scene_obj_1 .
+
+:artwork_20260104_013158_608_scene_obj_2 rdf:type arto:Object , owl:NamedIndividual , :Apple ;
+    rdfs:label "Pear"@en ;
+    arto:cocoCategory "apple" ;
+    arto:hasSize :SmallSize ;
+    dcterms:description "A decorative pear sculpture rendered in glazed ceramic. Its surface is smooth and vitreous, catching the flat, diffused light with a gentle, even sheen. The cool tones of the cloudy afternoon are reflected in the glaze, giving the yellow-green surface a muted, sophisticated appearance. The color transitions subtly from a pale chartreuse at the stem to a deeper olive at the base, with the matte finish softening any harsh contrasts."@en ;
+    arto:state [ a skos:Concept ; rdfs:label "artistic object, perfectly formed and unblemished"@en ] ;
+    arto:hasCoordinates [
+        a qudt:Vector ;
+        qudt:vector (198.8252410888672 626.07177734375 309.88909912109375 790.523193359375)
+    ] .
+
+:artwork_20260104_013158_608_scene arto:containsObject :artwork_20260104_013158_608_scene_obj_2 .
+
+:artwork_20260104_013158_608_scene_obj_3 rdf:type arto:Object , owl:NamedIndividual , :Knife ;
+    rdfs:label "Dagger"@en ;
+    arto:cocoCategory "knife" ;
+    arto:hasSize :SmallSize ;
+    dcterms:description "A decorative dagger with a polished steel blade and an ornate bronze handle. The blade reflects the gray light from the window in a long, cool, diffuse highlight, its surface too finely etched to be a perfect mirror. The bronze handle has a warm, dark patina that absorbs light, creating a rich contrast against the cool steel. The intricate neoclassical engravings on the hilt are emphasized by the soft shadows cast by the ambient light."@en ;
+    arto:material [ a arto:MaterialType ; rdfs:label "steel"@en ; skos:exactMatch aat:300133751 ] ;
+    arto:material [ a arto:MaterialType ; rdfs:label "bronze"@en ; skos:exactMatch aat:300010957 ] ;
+    arto:state [ a skos:Concept ; rdfs:label "decorative, showing a fine layer of patina on the bronze and a clean, unblemished blade"@en ] ;
+    arto:hasCoordinates [
+        a qudt:Vector ;
+        qudt:vector (232.07449340820312 690.8045654296875 780.7205810546875 915.056640625)
+    ] .
+
+:artwork_20260104_013158_608_scene arto:containsObject :artwork_20260104_013158_608_scene_obj_3 .
+
+:artwork_20260104_013158_608_scene_obj_4 rdf:type arto:Object , owl:NamedIndividual , :Bicycle ;
+    rdfs:label "Wheel"@en ;
+    arto:cocoCategory "bicycle" ;
+    arto:hasSize :MediumSize ;
+    dcterms:description "A miniature model of a spoked wheel, crafted from dark, finely-grained wood. The diffused afternoon light catches the rounded edges of the spokes, creating soft, linear highlights that trace the wheel's form. The dark wood appears almost black in its recesses, while the polished surfaces show a deep, warm brown tone, a subtle reminder of the wood's natural color beneath the cool atmospheric light."@en ;
+    arto:material [ a arto:MaterialType ; rdfs:label "wood"@en ; skos:exactMatch aat:300011914 ] ;
+    arto:state [ a skos:Concept ; rdfs:label "meticulously crafted model, showing precise joinery and a smooth finish"@en ] ;
+    arto:hasCoordinates [
+        a qudt:Vector ;
+        qudt:vector (733.6591186523438 556.2471923828125 906.9241333007812 779.3211669921875)
+    ] .
+
+:artwork_20260104_013158_608_scene arto:containsObject :artwork_20260104_013158_608_scene_obj_4 .
+
+:artwork_20260104_013158_608_scene_obj_0_colour_brownish_black_0 rdf:type arto:Colour ;
+    rdfs:label "Brownish Black"@en ;
+    arto:hasColourValue [
+        a arto:ColourValue ;
+        arto:colourSystem "RGB" ;
+        qudt:vector (44 26 21)
+    ] ;
+    arto:hasMetric [ a arto:Metric ; qudt:numericValue "0.4340"^^xsd:decimal ] .
+
+:artwork_20260104_013158_608_scene_obj_0 arto:containsElement :artwork_20260104_013158_608_scene_obj_0_colour_brownish_black_0 .
+
+:artwork_20260104_013158_608_scene_obj_0_colour_carob_1 rdf:type arto:Colour ;
+    rdfs:label "Carob"@en ;
+    arto:hasColourValue [
+        a arto:ColourValue ;
+        arto:colourSystem "RGB" ;
+        qudt:vector (138 103 83)
+    ] ;
+    arto:hasMetric [ a arto:Metric ; qudt:numericValue "0.2390"^^xsd:decimal ] .
+
+:artwork_20260104_013158_608_scene_obj_0 arto:containsElement :artwork_20260104_013158_608_scene_obj_0_colour_carob_1 .
+
+:artwork_20260104_013158_608_scene_obj_0_colour_nut_brown_2 rdf:type arto:Colour ;
+    rdfs:label "Nut Brown"@en ;
+    arto:hasColourValue [
+        a arto:ColourValue ;
+        arto:colourSystem "RGB" ;
+        qudt:vector (97 67 52)
+    ] ;
+    arto:hasMetric [ a arto:Metric ; qudt:numericValue "0.2310"^^xsd:decimal ] .
+
+:artwork_20260104_013158_608_scene_obj_0 arto:containsElement :artwork_20260104_013158_608_scene_obj_0_colour_nut_brown_2 .
+
+:artwork_20260104_013158_608_scene_obj_0_colour_cappuccino_3 rdf:type arto:Colour ;
+    rdfs:label "Cappuccino"@en ;
+    arto:hasColourValue [
+        a arto:ColourValue ;
+        arto:colourSystem "RGB" ;
+        qudt:vector (175 163 136)
+    ] ;
+    arto:hasMetric [ a arto:Metric ; qudt:numericValue "0.0960"^^xsd:decimal ] .
+
+:artwork_20260104_013158_608_scene_obj_0 arto:containsElement :artwork_20260104_013158_608_scene_obj_0_colour_cappuccino_3 .
+
+:artwork_20260104_013158_608_scene_obj_1_colour_grayish_brown_0 rdf:type arto:Colour ;
+    rdfs:label "Grayish Brown"@en ;
+    arto:hasColourValue [
+        a arto:ColourValue ;
+        arto:colourSystem "RGB" ;
+        qudt:vector (100 72 59)
+    ] ;
+    arto:hasMetric [ a arto:Metric ; qudt:numericValue "0.3850"^^xsd:decimal ] .
+
+:artwork_20260104_013158_608_scene_obj_1 arto:containsElement :artwork_20260104_013158_608_scene_obj_1_colour_grayish_brown_0 .
+
+:artwork_20260104_013158_608_scene_obj_1_colour_grayish_yellowish_brown_1 rdf:type arto:Colour ;
+    rdfs:label "Grayish Yellowish Brown"@en ;
+    arto:hasColourValue [
+        a arto:ColourValue ;
+        arto:colourSystem "RGB" ;
+        qudt:vector (129 103 89)
+    ] ;
+    arto:hasMetric [ a arto:Metric ; qudt:numericValue "0.3090"^^xsd:decimal ] .
+
+:artwork_20260104_013158_608_scene_obj_1 arto:containsElement :artwork_20260104_013158_608_scene_obj_1_colour_grayish_yellowish_brown_1 .
+
+:artwork_20260104_013158_608_scene_obj_1_colour_khakhi_2 rdf:type arto:Colour ;
+    rdfs:label "Khakhi"@en ;
+    arto:hasColourValue [
+        a arto:ColourValue ;
+        arto:colourSystem "RGB" ;
+        qudt:vector (178 167 145)
+    ] ;
+    arto:hasMetric [ a arto:Metric ; qudt:numericValue "0.1820"^^xsd:decimal ] .
+
+:artwork_20260104_013158_608_scene_obj_1 arto:containsElement :artwork_20260104_013158_608_scene_obj_1_colour_khakhi_2 .
+
+:artwork_20260104_013158_608_scene_obj_1_colour_cocoa_3 rdf:type arto:Colour ;
+    rdfs:label "Cocoa"@en ;
+    arto:hasColourValue [
+        a arto:ColourValue ;
+        arto:colourSystem "RGB" ;
+        qudt:vector (57 42 32)
+    ] ;
+    arto:hasMetric [ a arto:Metric ; qudt:numericValue "0.1240"^^xsd:decimal ] .
+
+:artwork_20260104_013158_608_scene_obj_1 arto:containsElement :artwork_20260104_013158_608_scene_obj_1_colour_cocoa_3 .
+
+:artwork_20260104_013158_608_scene_obj_2_colour_dark_olive_brown_0 rdf:type arto:Colour ;
+    rdfs:label "Dark Olive Brown"@en ;
+    arto:hasColourValue [
+        a arto:ColourValue ;
+        arto:colourSystem "RGB" ;
+        qudt:vector (78 61 24)
+    ] ;
+    arto:hasMetric [ a arto:Metric ; qudt:numericValue "0.2730"^^xsd:decimal ] .
+
+:artwork_20260104_013158_608_scene_obj_2 arto:containsElement :artwork_20260104_013158_608_scene_obj_2_colour_dark_olive_brown_0 .
+
+:artwork_20260104_013158_608_scene_obj_2_colour_dark_greenish_yellow_1 rdf:type arto:Colour ;
+    rdfs:label "Dark Greenish Yellow"@en ;
+    arto:hasColourValue [
+        a arto:ColourValue ;
+        arto:colourSystem "RGB" ;
+        qudt:vector (158 146 75)
+    ] ;
+    arto:hasMetric [ a arto:Metric ; qudt:numericValue "0.2190"^^xsd:decimal ] .
+
+:artwork_20260104_013158_608_scene_obj_2 arto:containsElement :artwork_20260104_013158_608_scene_obj_2_colour_dark_greenish_yellow_1 .
+
+:artwork_20260104_013158_608_scene_obj_2_colour_coconut_2 rdf:type arto:Colour ;
+    rdfs:label "Coconut"@en ;
+    arto:hasColourValue [
+        a arto:ColourValue ;
+        arto:colourSystem "RGB" ;
+        qudt:vector (141 91 73)
+    ] ;
+    arto:hasMetric [ a arto:Metric ; qudt:numericValue "0.1950"^^xsd:decimal ] .
+
+:artwork_20260104_013158_608_scene_obj_2 arto:containsElement :artwork_20260104_013158_608_scene_obj_2_colour_coconut_2 .
+
+:artwork_20260104_013158_608_scene_obj_2_colour_light_olive_3 rdf:type arto:Colour ;
+    rdfs:label "Light Olive"@en ;
+    arto:hasColourValue [
+        a arto:ColourValue ;
+        arto:colourSystem "RGB" ;
+        qudt:vector (118 112 43)
+    ] ;
+    arto:hasMetric [ a arto:Metric ; qudt:numericValue "0.1600"^^xsd:decimal ] .
+
+:artwork_20260104_013158_608_scene_obj_2 arto:containsElement :artwork_20260104_013158_608_scene_obj_2_colour_light_olive_3 .
+
+:artwork_20260104_013158_608_scene_obj_2_colour_moderate_reddish_brown_4 rdf:type arto:Colour ;
+    rdfs:label "Moderate Reddish Brown"@en ;
+    arto:hasColourValue [
+        a arto:ColourValue ;
+        arto:colourSystem "RGB" ;
+        qudt:vector (107 61 50)
+    ] ;
+    arto:hasMetric [ a arto:Metric ; qudt:numericValue "0.1530"^^xsd:decimal ] .
+
+:artwork_20260104_013158_608_scene_obj_2 arto:containsElement :artwork_20260104_013158_608_scene_obj_2_colour_moderate_reddish_brown_4 .
+
+:artwork_20260104_013158_608_scene_obj_3_colour_coconut_0 rdf:type arto:Colour ;
+    rdfs:label "Coconut"@en ;
+    arto:hasColourValue [
+        a arto:ColourValue ;
+        arto:colourSystem "RGB" ;
+        qudt:vector (146 95 81)
+    ] ;
+    arto:hasMetric [ a arto:Metric ; qudt:numericValue "0.3240"^^xsd:decimal ] .
+
+:artwork_20260104_013158_608_scene_obj_3 arto:containsElement :artwork_20260104_013158_608_scene_obj_3_colour_coconut_0 .
+
+:artwork_20260104_013158_608_scene_obj_3_colour_moderate_brown_1 rdf:type arto:Colour ;
+    rdfs:label "Moderate Brown"@en ;
+    arto:hasColourValue [
+        a arto:ColourValue ;
+        arto:colourSystem "RGB" ;
+        qudt:vector (112 77 62)
+    ] ;
+    arto:hasMetric [ a arto:Metric ; qudt:numericValue "0.2600"^^xsd:decimal ] .
+
+:artwork_20260104_013158_608_scene_obj_3 arto:containsElement :artwork_20260104_013158_608_scene_obj_3_colour_moderate_brown_1 .
+
+:artwork_20260104_013158_608_scene_obj_3_colour_seal_brown_2 rdf:type arto:Colour ;
+    rdfs:label "Seal Brown"@en ;
+    arto:hasColourValue [
+        a arto:ColourValue ;
+        arto:colourSystem "RGB" ;
+        qudt:vector (47 23 18)
+    ] ;
+    arto:hasMetric [ a arto:Metric ; qudt:numericValue "0.2230"^^xsd:decimal ] .
+
+:artwork_20260104_013158_608_scene_obj_3 arto:containsElement :artwork_20260104_013158_608_scene_obj_3_colour_seal_brown_2 .
+
+:artwork_20260104_013158_608_scene_obj_3_colour_nut_brown_3 rdf:type arto:Colour ;
+    rdfs:label "Nut Brown"@en ;
+    arto:hasColourValue [
+        a arto:ColourValue ;
+        arto:colourSystem "RGB" ;
+        qudt:vector (83 55 37)
+    ] ;
+    arto:hasMetric [ a arto:Metric ; qudt:numericValue "0.1930"^^xsd:decimal ] .
+
+:artwork_20260104_013158_608_scene_obj_3 arto:containsElement :artwork_20260104_013158_608_scene_obj_3_colour_nut_brown_3 .
+
+:artwork_20260104_013158_608_scene_obj_4_colour_nut_brown_0 rdf:type arto:Colour ;
+    rdfs:label "Nut Brown"@en ;
+    arto:hasColourValue [
+        a arto:ColourValue ;
+        arto:colourSystem "RGB" ;
+        qudt:vector (88 56 34)
+    ] ;
+    arto:hasMetric [ a arto:Metric ; qudt:numericValue "0.3450"^^xsd:decimal ] .
+
+:artwork_20260104_013158_608_scene_obj_4 arto:containsElement :artwork_20260104_013158_608_scene_obj_4_colour_nut_brown_0 .
+
+:artwork_20260104_013158_608_scene_obj_4_colour_bistre_1 rdf:type arto:Colour ;
+    rdfs:label "Bistre"@en ;
+    arto:hasColourValue [
+        a arto:ColourValue ;
+        arto:colourSystem "RGB" ;
+        qudt:vector (54 35 23)
+    ] ;
+    arto:hasMetric [ a arto:Metric ; qudt:numericValue "0.3240"^^xsd:decimal ] .
+
+:artwork_20260104_013158_608_scene_obj_4 arto:containsElement :artwork_20260104_013158_608_scene_obj_4_colour_bistre_1 .
+
+:artwork_20260104_013158_608_scene_obj_4_colour_moderate_brown_2 rdf:type arto:Colour ;
+    rdfs:label "Moderate Brown"@en ;
+    arto:hasColourValue [
+        a arto:ColourValue ;
+        arto:colourSystem "RGB" ;
+        qudt:vector (119 81 65)
+    ] ;
+    arto:hasMetric [ a arto:Metric ; qudt:numericValue "0.2520"^^xsd:decimal ] .
+
+:artwork_20260104_013158_608_scene_obj_4 arto:containsElement :artwork_20260104_013158_608_scene_obj_4_colour_moderate_brown_2 .
+
+:artwork_20260104_013158_608_scene_obj_4_colour_cappuccino_3 rdf:type arto:Colour ;
+    rdfs:label "Cappuccino"@en ;
+    arto:hasColourValue [
+        a arto:ColourValue ;
+        arto:colourSystem "RGB" ;
+        qudt:vector (171 157 131)
+    ] ;
+    arto:hasMetric [ a arto:Metric ; qudt:numericValue "0.0790"^^xsd:decimal ] .
+
+:artwork_20260104_013158_608_scene_obj_4 arto:containsElement :artwork_20260104_013158_608_scene_obj_4_colour_cappuccino_3 .
+
+:artwork_20260104_013158_608_scene_envcolor_0_Brownish_Black rdf:type arto:Colour ;
+    rdfs:label "Brownish Black"@en ;
+    arto:hasColourTerm "Brownish Black"@en ;
+    arto:hasColourValue [
+        a arto:ColourValue ;
+        arto:colourSystem "RGB" ;
+        qudt:vector (43 33 30)
+    ] .
+
+:artwork_20260104_013158_608_scene arto:containsElement :artwork_20260104_013158_608_scene_envcolor_0_Brownish_Black .
+
+:artwork_20260104_013158_608_scene_envcolor_1_Light_Grayish_Olive rdf:type arto:Colour ;
+    rdfs:label "Light Grayish Olive"@en ;
+    arto:hasColourTerm "Light Grayish Olive"@en ;
+    arto:hasColourValue [
+        a arto:ColourValue ;
+        arto:colourSystem "RGB" ;
+        qudt:vector (142 133 111)
+    ] .
+
+:artwork_20260104_013158_608_scene arto:containsElement :artwork_20260104_013158_608_scene_envcolor_1_Light_Grayish_Olive .
+
+:artwork_20260104_013158_608_scene_envcolor_2_Coconut rdf:type arto:Colour ;
+    rdfs:label "Coconut"@en ;
+    arto:hasColourTerm "Coconut"@en ;
+    arto:hasColourValue [
+        a arto:ColourValue ;
+        arto:colourSystem "RGB" ;
+        qudt:vector (150 81 62)
+    ] .
+
+:artwork_20260104_013158_608_scene arto:containsElement :artwork_20260104_013158_608_scene_envcolor_2_Coconut .
+
+:artwork_20260104_013158_608_scene_envcolor_3_Grayish_Olive rdf:type arto:Colour ;
+    rdfs:label "Grayish Olive"@en ;
+    arto:hasColourTerm "Grayish Olive"@en ;
+    arto:hasColourValue [
+        a arto:ColourValue ;
+        arto:colourSystem "RGB" ;
+        qudt:vector (93 85 63)
+    ] .
+
+:artwork_20260104_013158_608_scene arto:containsElement :artwork_20260104_013158_608_scene_envcolor_3_Grayish_Olive .
+
+:artwork_20260104_013158_608_scene_envcolor_4_Cappuccino rdf:type arto:Colour ;
+    rdfs:label "Cappuccino"@en ;
+    arto:hasColourTerm "Cappuccino"@en ;
+    arto:hasColourValue [
+        a arto:ColourValue ;
+        arto:colourSystem "RGB" ;
+        qudt:vector (179 159 122)
+    ] .
+
+:artwork_20260104_013158_608_scene arto:containsElement :artwork_20260104_013158_608_scene_envcolor_4_Cappuccino .
+
+:artwork_20260104_013158_608_scene_envcolor_5_Light_Grayish_Olive rdf:type arto:Colour ;
+    rdfs:label "Light Grayish Olive"@en ;
+    arto:hasColourTerm "Light Grayish Olive"@en ;
+    arto:hasColourValue [
+        a arto:ColourValue ;
+        arto:colourSystem "RGB" ;
+        qudt:vector (142 133 111)
+    ] .
+
+:artwork_20260104_013158_608_scene arto:containsElement :artwork_20260104_013158_608_scene_envcolor_5_Light_Grayish_Olive .
+
+:artwork_20260104_013158_608_scene_envcolor_6_Parchment rdf:type arto:Colour ;
+    rdfs:label "Parchment"@en ;
+    arto:hasColourTerm "Parchment"@en ;
+    arto:hasColourValue [
+        a arto:ColourValue ;
+        arto:colourSystem "RGB" ;
+        qudt:vector (208 200 176)
+    ] .
+
+:artwork_20260104_013158_608_scene arto:containsElement :artwork_20260104_013158_608_scene_envcolor_6_Parchment .
+
+:artwork_20260104_013158_608_scene_envcolor_7_Licorice rdf:type arto:Colour ;
+    rdfs:label "Licorice"@en ;
+    arto:hasColourTerm "Licorice"@en ;
+    arto:hasColourValue [
+        a arto:ColourValue ;
+        arto:colourSystem "RGB" ;
+        qudt:vector (26 17 16)
+    ] .
+
+:artwork_20260104_013158_608_scene arto:containsElement :artwork_20260104_013158_608_scene_envcolor_7_Licorice .
+
+:artwork_20260104_013158_608_scene_obj_1 arto:on :artwork_20260104_013158_608_scene_obj_0 .
+:artwork_20260104_013158_608_scene_obj_2 arto:on :artwork_20260104_013158_608_scene_obj_0 .
+:artwork_20260104_013158_608_scene_obj_3 arto:on :artwork_20260104_013158_608_scene_obj_0 .
+:artwork_20260104_013158_608_scene_obj_4 arto:on :artwork_20260104_013158_608_scene_obj_0 .
+
+:Afternoon rdf:type skos:Concept ;
+    rdfs:label "Afternoon"@en ;
+    skos:closeMatch <http://www.wikidata.org/entity/Q283102> .
+
+:Apple rdf:type skos:Concept ;
+    rdfs:label "Apple"@en ;
+    skos:closeMatch <http://www.wikidata.org/entity/Q89> .
+
+:Bed rdf:type skos:Concept ;
+    rdfs:label "Bed"@en ;
+    skos:closeMatch <http://www.wikidata.org/entity/Q42177> .
+
+:Bedroom rdf:type skos:Concept ;
+    rdfs:label "Bedroom"@en ;
+    skos:closeMatch <http://www.wikidata.org/entity/Q193837> .
+
+:Bicycle rdf:type skos:Concept ;
+    rdfs:label "Bicycle"@en ;
+    skos:closeMatch <http://www.wikidata.org/entity/Q11442> .
+
+:CloudyWeather rdf:type skos:Concept ;
+    rdfs:label "Cloudy"@en ;
+    skos:relatedMatch <http://www.wikidata.org/entity/Q1055865> .
+
+:ContemporaryPeriod rdf:type skos:Concept ;
+    rdfs:label "Contemporary"@en ;
+    skos:closeMatch <http://www.wikidata.org/entity/Q186075> .
+
+:Cup rdf:type skos:Concept ;
+    rdfs:label "Cup"@en ;
+    skos:closeMatch <http://www.wikidata.org/entity/Q81727> .
+
+:DominantSize rdf:type skos:Concept ;
+    rdfs:label "Dominant"@en ;
+    skos:notation "5" .
+
+:Knife rdf:type skos:Concept ;
+    rdfs:label "Knife"@en ;
+    skos:closeMatch <http://www.wikidata.org/entity/Q32489> .
+
+:MediumSize rdf:type skos:Concept ;
+    rdfs:label "Medium"@en ;
+    skos:notation "3" .
+
+:SmallSize rdf:type skos:Concept ;
+    rdfs:label "Small"@en ;
+    skos:notation "2" .
